@@ -1,0 +1,49 @@
+# Landet die nächtlichen Forschungs-Branches (claude/*) automatisch auf main —
+# damit niemand manuell mergen muss. Läuft per Push auf einen claude/*-Branch UND
+# zur Sicherheit zeitversetzt nach dem Nightly (Backup, falls der Push-Trigger ausfällt).
+name: Auto-land research
+
+on:
+  push:
+    branches: ['claude/**']
+  schedule:
+    - cron: '0 2 * * *'   # 02:00 UTC = 04:00 Berlin, ~1h nach der Forschungs-Routine
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-land
+  cancel-in-progress: false
+
+jobs:
+  land:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Merge claude/* branches into main
+        run: |
+          git config user.name "Atelier"
+          git config user.email "atelier@users.noreply.github.com"
+          git fetch origin '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
+          landed=0
+          for b in $(git branch -r | sed 's/^[* ] *//' | grep '^origin/claude/'); do
+            name="${b#origin/}"
+            echo "::group::landing $name"
+            if git merge --no-edit "$b"; then
+              if git push origin main && git push origin --delete "$name"; then
+                landed=$((landed+1))
+              else
+                echo "push failed for $name"
+              fi
+            else
+              echo "merge conflict on $name — skipping"
+              git merge --abort || true
+            fi
+            echo "::endgroup::"
+          done
+          echo "landed $landed branch(es)"
