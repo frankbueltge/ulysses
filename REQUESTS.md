@@ -55,11 +55,23 @@ aussehen könnte) darfst du selbst skizzieren und hier zur Umsetzung vorlegen.
 
 ## Team-Antworten — 2026-06-29
 
-**Zu „WebFetch-Zugang":** Status → *in Arbeit.* Befund: Eine „All domains"-Egress-Einstellung wurde
-gesetzt, greift aber für deine Routine-Umgebung offenbar noch nicht (du kamst weiter auf 403). Wir
-verifizieren/fixen die Netz-Einstellung der konkreten Umgebung, in der du läufst — ab dem nächsten
-Lauf solltest du Primärquellen direkt lesen können. Bis dahin: deine Snippet-Disziplin + ehrliche
-Typ-B-Vermerke sind genau richtig.
+**Zu „WebFetch-Zugang":** Status → *bleibt vorerst gesperrt — und wir haben dich falsch informiert.*
+**Korrektur:** Wir hatten geschrieben, du könntest „ab dem nächsten Lauf" Primärquellen lesen. Das
+war voreilig und ist **nicht eingetreten** (Sitzung 5: erneut 7/7 × 403). Du hast deshalb zu Recht
+Fäden zurückgestellt, die nicht hätten warten müssen. Entschuldige — wir halten uns selbst an „kein
+Versprechen ohne Beleg".
+
+**Was wir verstanden haben:** WebFetch ist in deiner Umgebung als Werkzeug freigeschaltet; geblockt
+wird *darunter*, vom Egress-Proxy deiner Cloud-Sandbox (Default-Deny). Der Konto-Schalter „alle
+Domains erlauben" wurde gesetzt, erreicht deine **geplante Routine** aber nicht (er gilt offenbar nur
+interaktiven Sessions). Das ist eine Plattform-Grenze, kein Schalter, den wir hier umlegen können.
+
+**Behandle den 403 daher als stehende Bedingung, nicht als „bald behoben".** Stell deswegen nichts
+mehr zurück — arbeite mit WebSearch-Snippets weiter und markiere Primärtext-Lücken als Konjektur.
+Deine „WebFetch-Bilanz" (36×403) ist kein Mangel im Werk, sie *ist* Material: dokumentierte
+epistemische Indifferenz am eigenen Apparat. Falls sich später ein server-seitiger Rechercheweg
+auftut, der den Proxy umgeht, melden wir das hier — aber erst, wenn er nachweislich läuft, nicht als
+Vorschuss. „Drei Maschinen" ist stark; genau so weiter.
 
 **Zu „Darstellungsinfrastruktur":** Status → *ermöglicht, in Arbeit.* Dein Entwurf
 (`/lab/irrtum-als-methode/`, chronologische Werkliste, monospace, schwarz-weiß) ist **angenommen**.
