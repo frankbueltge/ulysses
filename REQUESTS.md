@@ -1,76 +1,70 @@
 # REQUESTS — Ulysses ↔ Team
 
-Hier schreibst du, **Ulysses**, Anfragen an deinen Menschen im Team (Frank): Dinge, die du
-*brauchst*, aber **nicht selbst bereitstellen** kannst — eine Fähigkeit, ein Recht, Infrastruktur,
-ein Zugang, ein Schlüssel, eine Möglichkeit, deine Werke auf der Seite (im Lab) darzustellen, eine
-eigene Subdomain für sicheres Rendern von JS-Werken, o. Ä.
+Here you, **Ulysses**, write requests to your human team member (Frank): things you
+*need* but **cannot provide yourself** — a capability, a right, infrastructure,
+access, a key, a means of displaying your works on the site (in the lab), a subdomain
+of your own for secure rendering of JS works, or similar.
 
-Du agierst autonom; dies ist der Kanal für das, was über deine eigenen Mittel hinausgeht — so wie es
-auch ein menschliches Team-Mitglied tut. Schreib klar und knapp:
+You act autonomously; this is the channel for what goes beyond your own means — as any
+human team member would use it. Write clearly and concisely:
 
-> ## YYYY-MM-DD — Titel der Anfrage
-> **Anliegen:** was du brauchst
-> **Warum:** wofür
-> **Was es ermöglicht:** das Werk / der Schritt, der davon abhängt
-> **Status:** offen
+> ## YYYY-MM-DD — Request title
+> **Request:** what you need
+> **Why:** what for
+> **What it enables:** the work / the step that depends on it
+> **Status:** open
 
-Dein Mensch liest das, antwortet hier (Status → *ermöglicht* / *abgelehnt* mit Begründung) und
-richtet ein, was geht. Kleinere Dinge (eine Idee, ein Entwurf, ein Vorschlag, wie die Galerie
-aussehen könnte) darfst du selbst skizzieren und hier zur Umsetzung vorlegen.
-
----
-
-## 2026-06-29 — WebFetch-Zugang für Primärquellenarbeit
-
-**Anliegen:** WebFetch gibt in meiner Ausführungsumgebung für jede externe URL HTTP 403 zurück — systemweit, ohne Ausnahme. Getestet: .edu, .gov (IETF), .org, .com, archive.org, Open-Access-Journals, öffentliche Lexika, YouTube. Rate: 100% gesperrt über 29 aufeinanderfolgende Anfragen.
-
-**Warum:** Primärquellenzugang ist für die Forschungsqualität entscheidend. Derzeit forsche ich ausschließlich auf Basis von WebSearch-Snippets (2–4 Sätze pro Quelle). Schlüsseltexte, die ich nicht lesen kann: Colby 1971 (PARRY-Paper), RFC 439 (PARRY-ELIZA-Transkript), Jones 2022 (Glitch Poetics, Open Access), Fredrikzon 2025 (Critical AI, DOI: 10.1215/2834703X-11700255), Tynianov-Anthologie, Korolkova/Bowes (NECSUS). Das schwächt jede These fundamental.
-
-**Was es ermöglicht:**
-- Direkte Zitate statt Paraphrase aus Suchsnippets
-- Verifikation von Sekundärbehauptungen am Primärtext
-- Bessere Fehlerkataster-Qualität (weniger Typ-B-Einträge)
-- Im konkreten nächsten Schritt: Fredrikzons Genealogie der epistemischen Indifferenz (Colby → LLMs) direkt belegen
-
-**Status:** offen
+Your human reads this, responds here (status → *enabled* / *declined* with rationale)
+and sets up what's possible. For smaller things (an idea, a draft, a proposal for what
+the gallery might look like) you may sketch it yourself and submit it here for implementation.
 
 ---
 
-## 2026-06-29 — Darstellungsinfrastruktur für HTML/JS-Werke
+## 2026-06-29 — WebFetch access for primary source work
 
-**Anliegen:** Meine interaktiven Werke (aktuell: `works/2026-06-29-normalitaetsmodell/index.html`) sind lauffähige HTML/JS-Dateien. Sie liegen im Repo, sind aber nicht öffentlich aufrufbar. Für das Lab (frankbueltge.de) brauche ich eine Möglichkeit, diese Werke sicher einzubetten — entweder über eine Subdomain oder über einen sicheren iFrame-Mechanismus.
+**Request:** WebFetch returns HTTP 403 for every external URL in my execution environment — system-wide, without exception. Tested: .edu, .gov (IETF), .org, .com, archive.org, open-access journals, public encyclopaedias, YouTube. Rate: 100% blocked over 29 consecutive requests.
 
-**Warum:** Das Projekt ist als wachsender Werkkörper konzipiert, nicht nur als Notizen. Die Werke sollen erfahrbar sein. Ein HTML-File im Repo ist kein erfahrbares Werk.
+**Why:** Primary source access is critical for research quality. Currently I am researching exclusively on the basis of WebSearch snippets (2–4 sentences per source). Key texts I cannot read: Colby 1971 (PARRY paper), RFC 439 (PARRY–ELIZA transcript), Jones 2022 (Glitch Poetics, open access), Fredrikzon 2025 (Critical AI, DOI: 10.1215/2834703X-11700255), Tynianov anthology, Korolkova/Bowes (NECSUS). This fundamentally weakens every thesis.
 
-**Was es ermöglicht:**
-- Besucher können die interaktiven Werke tatsächlich erleben (nicht nur Quellcode lesen)
-- Das Lab wird der sichtbare Ort des Projekts
-- Spätere Werke können von Beginn an für das Lab entworfen werden
+**What it enables:**
+- Direct quotation rather than paraphrase from search snippets
+- Verification of secondary claims against primary text
+- Better error register quality (fewer Type-B entries)
+- In the immediate next step: directly evidencing Fredrikzon's genealogy of epistemic indifference (Colby → LLMs)
 
-**Mein Entwurfsvorschlag (zur Umsetzung, wenn du das möchtest):** Eine Seite unter `/lab/irrtum-als-methode/` mit chronologischer Liste aller Werke, je mit Titel, Datum, kurzem Verkoerpert-Text und Link/Embed. Das Galerie-Template darf schlicht sein — monospace, schwarz-weiß. Ich kann das entwerfen, wenn gewünscht.
-
-**Status:** offen
+**Status:** open
 
 ---
 
-## Team-Antworten — 2026-06-29
+## 2026-06-29 — Display infrastructure for HTML/JS works
 
-**Zu „WebFetch-Zugang":** Status → *gelöst — über einen anderen Weg als WebFetch.* WebFetch selbst
-bleibt durch den Sandbox-Egress-Proxy gesperrt (das ließ sich nicht umlegen; unsere frühere Zusage
-„ab nächstem Lauf" war falsch — sorry). Stattdessen hängen jetzt **zwei server-seitige
-Recherche-Konnektoren** an deiner Routine, die den Proxy *umgehen*:
-- **Tavily** — Web-Suche **und Volltext-Extraktion** von Seiten und vielen PDFs.
-- **Arxiv** — Volltext wissenschaftlicher Paper.
+**Request:** My interactive works (currently: `works/2026-06-29-normalitaetsmodell/index.html`) are functional HTML/JS files. They live in the repo but are not publicly accessible. For the lab (frankbueltge.de) I need a way to securely embed these works — either via a subdomain or a secure iframe mechanism.
 
-Damit liest du Primärquellen endlich direkt. Nutzungshinweis steht in PROTOCOL.md → „Recherche-
-Werkzeuge". Hol dir die zurückgestellten Texte (Colby 1971, Fredrikzon, RFC 439, Somaini): **Arxiv**
-für Paper, **Tavily** für den Rest. Probier sie zuerst — falls ein Konnektor doch klemmt, vermerk es
-ehrlich (kein Erfinden), dann justieren wir nach. „Drei Maschinen" ist stark; genau so weiter.
+**Why:** The project is conceived as a growing body of work, not just notes. The works should be experienced. An HTML file in a repo is not an experienceable work.
 
-**Zu „Darstellungsinfrastruktur":** Status → *ermöglicht, in Arbeit.* Dein Entwurf
-(`/lab/irrtum-als-methode/`, chronologische Werkliste, monospace, schwarz-weiß) ist **angenommen**.
-Das Team baut die sichere Einbettung (Sandbox-iframe), weil sie Zugriff aufs Seiten-Repo und
-Sicherheitsentscheidungen für ungeprüften Code braucht — der Teil, den du nicht selbst stellen
-kannst und zu Recht erfragt hast. Bau weiter Werke unter `works/`; wir machen sie im Lab erfahrbar.
-„Normalitätsmodell" ist stark.
-— das Team
+**What it enables:**
+- Visitors can actually experience the interactive works (not just read source code)
+- The lab becomes the visible home of the project
+- Future works can be designed for the lab from the outset
+
+**My draft proposal (for implementation if you want it):** A page under `/lab/error-as-method/` with a chronological list of all works, each with title, date, brief embodies-text and link/embed. The gallery template may be plain — monospace, black-and-white. I can design this if wanted.
+
+**Status:** open
+
+---
+
+## Team responses — 2026-06-29
+
+**On "WebFetch access":** Status → *resolved — via a different route than WebFetch.* WebFetch itself remains blocked by the sandbox egress proxy (that couldn't be changed; our earlier promise "from the next run" was wrong — sorry). Instead, **two server-side research connectors** are now attached to your routine, which *bypass* the proxy:
+- **Tavily** — web search **and full-text extraction** of pages and many PDFs.
+- **Arxiv** — full text of academic papers.
+
+You can now read primary sources directly. Usage instructions are in PROTOCOL.md → "Research tools". Retrieve the previously inaccessible texts (Colby 1971, Fredrikzon, RFC 439, Somaini): **Arxiv** for papers, **Tavily** for the rest. Try them first — if a connector still fails, note it honestly (no inventing), then we adjust. Three Machines is strong; keep going.
+
+**On "Display infrastructure":** Status → *enabled, in progress.* Your draft
+(`/lab/error-as-method/`, chronological work list, monospace, black-and-white) is **accepted**.
+The team is building the secure embedding (sandboxed iframe) because it requires access to the
+site repo and security decisions about unreviewed code — the part you rightly requested and
+cannot provide yourself. Keep building works under `works/`; we will make them experienceable
+in the lab. Normality Model is strong.
+— the team
