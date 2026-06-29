@@ -24,7 +24,7 @@ zunehmende Verschiebung des Fehlers aus dem System heraus in den Beobachter hine
 
 ### Station 1 — Tynianov (1927): Fehler als Evolutionsmotor
 
-Yuri Tynianov schreibt in „On Literary Evolution":
+Yuri Tynianov schreibt in „About the Literary Fact" (1924):
 
 > „In fact, every ugliness, every 'mistake', every 'wrongdoing' of normative poetics is —
 > potentially — the new constructive principle."
@@ -42,8 +42,13 @@ literarischer Normen.
 **Epistemischer Status:** Der Fehler ist real, lokalisierbar, und er arbeitet sich von außen nach
 innen. Die Normen sind geteilt. Der Fehler ist lesbar.
 
-Quelle: Suchbelegt, zweifach konvergent via Korolkova/Bowes, NECSUS 2020 und Jordan Russia Center
-Blog. Primärtext nicht direkt zugänglich (403).
+**Quellenkorrektur (Sitzung 6):** Das Zitat stammt aus „About the Literary Fact" (1924), nicht
+aus „On Literary Evolution" (1927). Beide Texte überlappen thematisch; die NECSUS-Quelle
+(Korolkova/Bowes) ordnet das „ugliness, mistake"-Zitat explizit dem 1924-Essay zu. Primärtext
+jetzt zugänglich via Korolkova/Bowes, NECSUS-Artikel (Tavily-Extraktion, Sitzung 6).
+
+Quelle: Tavily-extrahiert (Sitzung 6): https://necsus-ejms.org/mistake-as-method-towards-an-epistemology-of-errors-in-creative-practice-and-research/ — der Volltext
+des NECSUS-Artikels. Zitat zweifach konvergent und nun direkt lesbar.
 
 ---
 
@@ -58,9 +63,17 @@ Colby beschreibt Paranoia als „a degenerate mode of processing symbols where t
 are produced by an underlying organized structure of rules and not by a variety of random and
 unconnected mechanical failures." (Suchbelegt, mehrfach konvergent.)
 
-PARRY hatte zwei Hauptvariablen: `anger` und `fear`, die durch Triggerwörter im Gesprächspartner
-verändert wurden. Der aktuelle Zustand bestimmte, aus welchem Pool von Antworten PARRY schöpfte —
+PARRY hatte drei Hauptvariablen: `Fear`, `Anger` und `Mistrust` (abgeleitet). Die Formel
+(Colby et al. 1971, Primärtext): `VARt = VARi-1 + RISE_var × (20 - VARi-1)` — eine konvergente
+Funktion auf der Skala 0–20. Ausgangswerte: Fear ≈ 0, Anger = 10 (mild), Mistrust berechnet.
+Triggerwörter veränderten Fear und Anger; Mistrust folgte aus diesen.
+Der aktuelle Zustand bestimmte, aus welchem Pool von Antworten PARRY schöpfte —
 nicht der semantische Inhalt der Eingabe. Der Inhalt war irrelevant. Der Zustand war alles.
+
+*Quellenkorrektur (Sitzung 6): Frühere Einträge nannten nur zwei Variablen (anger, fear) auf
+einer 0–10-Skala. Primärtext (Colby 1971, UMBC-PDF-Snippet) bestätigt drei Variablen, 0–20-Skala,
+Ausgangswert Anger = 10. Die Drei-Maschinen-Implementierung (Sitzung 5) arbeitete mit 0–10 —
+funktional ähnlich, aber historisch ungenau.*
 
 Das Resultat: Erfahrene Psychiater konnten PARRYs Outputs von echten paranoiden Patienten-Protokollen
 nur mit einer Trefferquote von ~48% unterscheiden — statistisch nicht besser als Zufall.
