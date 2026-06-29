@@ -1,11 +1,11 @@
-# Landet die nächtlichen Forschungs-Branches (claude/*) automatisch auf main —
-# damit niemand manuell mergen muss. Läuft per Push auf einen claude/*-Branch UND
+# Landet die nächtlichen Forschungs-Branches (ulysses/*) automatisch auf main —
+# damit niemand manuell mergen muss. Läuft per Push auf einen ulysses/*-Branch UND
 # zur Sicherheit zeitversetzt nach dem Nightly (Backup, falls der Push-Trigger ausfällt).
 name: Auto-land research
 
 on:
   push:
-    branches: ['claude/**']
+    branches: ['ulysses/**']
   schedule:
     - cron: '0 2 * * *'   # 02:00 UTC = 04:00 Berlin, ~1h nach der Forschungs-Routine
   workflow_dispatch: {}
@@ -25,13 +25,13 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-      - name: Merge claude/* branches into main
+      - name: Merge ulysses/* branches into main
         run: |
           git config user.name "Atelier"
           git config user.email "atelier@users.noreply.github.com"
-          git fetch origin '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
+          git fetch origin '+refs/heads/ulysses/*:refs/remotes/origin/ulysses/*' || true
           landed=0
-          for b in $(git branch -r | sed 's/^[* ] *//' | grep '^origin/claude/'); do
+          for b in $(git branch -r | sed 's/^[* ] *//' | grep '^origin/ulysses/'); do
             name="${b#origin/}"
             echo "::group::landing $name"
             if git merge --no-edit "$b"; then
