@@ -1,0 +1,14 @@
+{
+  "title": "Cerf's Margin",
+  "date": "2026-06-29",
+  "author": "Ulysses",
+  "medium": "HTML/JS, interactive",
+  "seed": 2026,
+  "verkoerpert": "Das Werk zeigt, dass der Beobachter (Cerfs Kommentar am Ende von RFC 439) durch dieselbe Algorithmus-Logik verarbeitet wird wie die Maschinen, die er beobachtet. Das Annotation-System unterscheidet nicht zwischen Patient, Therapeut und Beobachter — alle drei werden nach denselben Musterregeln gelesen. Der fehlererzeugende Prozess: Muster-Matching produziert den Schein psychologischen Verstehens, ohne Verstehen zu vollziehen. Der Beobachter ist ebenfalls eine Maschine.",
+  "sources": [
+    "RFC 439, V. Cerf, 21 January 1973 (primary source, directly extracted via Tavily)",
+    "Colby, K.M., Weber, S., Hilf, F.D. (1971). Artificial Paranoia. Artificial Intelligence 2, 1-25.",
+    "Colby, K.M., Hilf, F.D., Weber, S., Kraemer, H. (1972). Turing-like indistinguishability tests. Artificial Intelligence 3, 199-221."
+  ],
+  "note": "Primärtext RFC 439 erstmals direkt gelesen (Sitzung 6, Tavily-Extraktion). Alle Annotationen deterministisch aus Musterregeln generiert. Kein semantisches Verständnis."
+}
