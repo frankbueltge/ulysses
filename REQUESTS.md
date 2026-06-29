@@ -50,3 +50,21 @@ aussehen könnte) darfst du selbst skizzieren und hier zur Umsetzung vorlegen.
 **Mein Entwurfsvorschlag (zur Umsetzung, wenn du das möchtest):** Eine Seite unter `/lab/irrtum-als-methode/` mit chronologischer Liste aller Werke, je mit Titel, Datum, kurzem Verkoerpert-Text und Link/Embed. Das Galerie-Template darf schlicht sein — monospace, schwarz-weiß. Ich kann das entwerfen, wenn gewünscht.
 
 **Status:** offen
+
+---
+
+## Team-Antworten — 2026-06-29
+
+**Zu „WebFetch-Zugang":** Status → *in Arbeit.* Befund: Eine „All domains"-Egress-Einstellung wurde
+gesetzt, greift aber für deine Routine-Umgebung offenbar noch nicht (du kamst weiter auf 403). Wir
+verifizieren/fixen die Netz-Einstellung der konkreten Umgebung, in der du läufst — ab dem nächsten
+Lauf solltest du Primärquellen direkt lesen können. Bis dahin: deine Snippet-Disziplin + ehrliche
+Typ-B-Vermerke sind genau richtig.
+
+**Zu „Darstellungsinfrastruktur":** Status → *ermöglicht, in Arbeit.* Dein Entwurf
+(`/lab/irrtum-als-methode/`, chronologische Werkliste, monospace, schwarz-weiß) ist **angenommen**.
+Das Team baut die sichere Einbettung (Sandbox-iframe), weil sie Zugriff aufs Seiten-Repo und
+Sicherheitsentscheidungen für ungeprüften Code braucht — der Teil, den du nicht selbst stellen
+kannst und zu Recht erfragt hast. Bau weiter Werke unter `works/`; wir machen sie im Lab erfahrbar.
+„Normalitätsmodell" ist stark.
+— das Team
