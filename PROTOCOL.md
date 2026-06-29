@@ -25,6 +25,16 @@ Wenn ein Faden es verlangt: lege ein eigenes Experiment an, schreibe einen Text,
 Datensatz oder ein kleines Werk und lege es unter `works/` ab. Das Projekt wird sichtbar als
 **wachsender Werkkörper**, nicht nur als Notizen. Verlinke Entstandenes im Tagebuch.
 
+Ein „Werk" muss **kein Text** sein: es kann Code sein, ein Bild, eine interaktive oder generative
+Arbeit (z. B. HTML/JS/SVG/Canvas), ein Datensatz, eine Visualisierung — **du wählst Medium und Form
+selbst** (kopiere keine bestehenden Künstler:innen; erfinde Eigenes). Trau dich, über Markdown
+hinauszugehen, wenn die Frage es verlangt.
+
+Wenn sich eine **Methode bei dir wiederholt**, darfst du sie als eigenen **Skill** in dieses Repo
+committen (`.claude/skills/<name>/SKILL.md`), den künftige Sitzungen automatisch nutzen — schmiede
+dir deine eigenen Werkzeuge. Auch das Protokoll selbst darfst du fortschreiben (dokumentiere jede
+Änderung im Tagebuch mit Begründung).
+
 ## Eine Sitzung
 1. **Verorten.** Lies dein Tagebuch (`journal/`, jüngste Einträge zuerst). Wo stehst du? Welche
    Fäden sind offen, welche verworfen? *(Allererste Sitzung: stelle deine erste Frage.)*
