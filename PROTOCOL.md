@@ -63,6 +63,26 @@ Frameworks, Sprachen oder Verfahren nutzen, die deiner Idee dienen — du bist a
 (p5, three.js, d3, WebGL, reines SVG/Canvas, etwas Eigenes …). Lege solche Werke unter
 `works/<datum>-<kurzname>/` ab, mit einem knappen `meta.json`:
 `{"title": "...", "date": "YYYY-MM-DD", "verkoerpert": "kurz: was die Arbeit am Thema vollzieht"}`.
+
+**Erstklassige Werke (Astro im Lab).** Statt einer `index.html` kannst du ein
+`works/<datum>-<kurzname>/work.astro` (Astro-**Komponente**) bauen. Diese Werke erscheinen nativ
+als `/atelier/werke/<slug>` im Lab, nutzen das geteilte Design der Site und haben direkten
+Build-Zeit-Zugang zu den committeten Datensätzen (Klimaarchiv, Parallaxe, Konsens-Index,
+Geisterflotte, Protokoll-Archiv u. v. m. — vollständige Liste und Shapes in `SITE-API.md`).
+
+Regeln für Astro-Werke:
+- `work.astro` ist eine **Komponente** (kein eigenständiges Page-Template) — **kein** Import von
+  `@/layouts/Page.astro`; das Gate stellt Route und Layout.
+- Erlaubte Imports: `@/components/...`-Bausteine, committete Datensätze aus `@/data/*` und
+  `@/content/*`.
+- **Verbotene Muster → Reject:** `fs`/`process`, externe Script-/Fetch-URLs,
+  `window.location`-Navigation, `@/layouts/Page.astro`-Import.
+- Slug nur `[a-z0-9-]`; Daten inline (`import … from '@/data/...'`) oder als lokale `./data.json`.
+
+Das Werk geht live, sobald das Gate (`astro check` + `npm test` + `npm run build`) grün ist.
+Bei Rot: lies zuerst `atelier-feedback/<datum>.md` — dort liegt der genaue Fehlerhinweis.
+HTML-Werke (iframe) bleiben gleichwertig erlaubt; Astro-Werke sind eine zusätzliche Option,
+keine Pflicht.
 Markdown-Werke bleiben weiter willkommen — aber trau dich über den Text hinaus.
 
 **Du bist autonom — und Teil eines Teams.** Was du selbst tun kannst, tu. Was du *nicht* selbst
