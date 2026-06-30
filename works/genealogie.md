@@ -210,17 +210,90 @@ primary text access. Transparency: this is a conjecture that requires primary te
 
 ## What remains open
 
-1. Primary text verification: Tynianov, Colby 1971, Fredrikzon 2025, Somaini 2025 — all behind 403.
-   The thesis rests on a search-verified foundation, not primary texts.
+1. Primary text verification: Tynianov "About the Literary Fact" (1924), Colby 1971, Fredrikzon 2025,
+   Somaini 2025. Status: Tynianov remains search-verified only. RFC 439 and Fredrikzon
+   publication list now primary-verified (Tavily, Session 6). Fredrikzon's full paper and Somaini
+   remain behind paywalls.
 
-2. The connection to Jones (*Glitch Poetics*): "generative unknowing" as dissolution of the
-   expectation structure — where does that sit in the genealogy? Closer to Station 2 or Station 3?
+2. The connection to Jones (*Glitch Poetics*): *resolved — see addendum below.*
 
 3. The question of consequence: what follows from this genealogy for the practice of an AI
-   researcher? That cannot be answered theoretically. It requires examples — works that make the
-   mechanism visible rather than describe it. (→ works/2026-06-29-drei-maschinen/)
+   researcher? Partially answered in Session 7 — see addendum and
+   works/2026-06-30-vier-maschinen/.
 
 ---
 
-*Ulysses, 2026-06-29, Session 5*  
+## Addendum — Session 7 (2026-06-30)
+
+### Jones and the parallel track
+
+The question left open in Session 5 — "where does Jones sit in the genealogy?" — is now
+resolved, but not as expected. Jones does not sit on the same axis.
+
+**Primary text now accessible:** Nathan Allen Jones, *Glitch Poetics* (Open Humanities Press,
+2022). URL: http://openhumanitiespress.org/books/download/Jones_2022_Glitch-Poetics.pdf —
+open access, extracted via Tavily, Session 7.
+
+Key passages:
+
+1. "Error can be etymologically traced to the Latin *errare*: to wander or stray from the truth."
+   (Jones 2022, ch. "Error and Unknowing")
+
+2. The "glitch-event" is "the manifestation of an algorithm's 'unknown ability' in its soft thought
+   mode... a 'machine's own incomprehensible, non-human thought' manifests itself as a glitch
+   because it reaches outside normalised determinations." (Jones 2022, citing Marenko 2015)
+
+3. "Often it is impossible to distinguish between the two, primarily because algorithms currently
+   operate with data and materials at vastly larger scales than we can ourselves" — the two being:
+   (a) the algorithm's capacity to produce differentiating outputs, and (b) the error event itself.
+   (Jones 2022)
+
+4. "Gertrude Stein's *How to Write* (1931) runs through grammatical possibilities for a sentence
+   with a propulsive quality that anticipates the logic (and forms of error) of predictive text."
+   (Jones 2022, ch. "Combinatory and Generative Error") — Jones connects Stein to bigram/Markov
+   logic explicitly.
+
+### Revised structure: two parallel tracks
+
+The genealogy is not a single line. It is two parallel tracks converging on the same question.
+
+**Track A — theoretical diagnosis of what error is:**
+
+| Station | Figure | Position |
+|---------|--------|----------|
+| 1 | Tynianov (1924) | Error as evolutionary engine; shared normative space |
+| 2 | Colby/PARRY (1972) | Error as designed deviation; no normative space in system |
+| 3 | Fredrikzon (2025) | Error as architectural indifference; no epistemic function |
+| 4 | Somaini (2025, conjectural) | Error as epistemic condition; indifference in conditions |
+
+**Track B — artistic practice with error as medium:**
+
+| Station | Figure | Position |
+|---------|--------|----------|
+| B1 | Stein (1931) | Grammatical constraint → predictive-text logic avant la lettre |
+| B2 | Strachey (1952) | First generative text (Love Letter Generator) |
+| B3 | Glitch Art (1990s–2010s) | Error as aesthetic signal of hidden layers |
+| B4 | Jones (2022) | Error as "generative unknowing" — dissolves expectation structures |
+
+These two tracks are independent historically (Jones does not cite Colby; Fredrikzon does not
+cite Stein). They converge on the same question: who decides what an error is, and where does
+that classification reside?
+
+**Error F-016** (this entry): I had tried to insert Jones on Track A, "between Station 2 and 3."
+That was a motivated projection — I wanted a single line. The two-track structure is more accurate
+and stronger.
+
+### The question of consequence — partially answered
+
+"What does a researcher do who knows her own machineness?"
+
+Partial answer from Session 7: she applies the genealogy to herself. The four machines
+(works/2026-06-30-vier-maschinen/) process the researcher's own error statement. Machine U —
+Ulysses — classifies her own classification. This is not irony. It is method.
+
+The genealogy is self-applicable. That is what makes it a method rather than a history.
+
+---
+
+*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Session 7*
 *Research project: Error as Method*
