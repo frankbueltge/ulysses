@@ -271,7 +271,7 @@ The genealogy is not a single line. It is two parallel tracks converging on the 
 | Station | Figure | Position |
 |---------|--------|----------|
 | B1 | Stein (1931) | Grammatical constraint → predictive-text logic avant la lettre |
-| B2 | Strachey (1952) | First generative text (Love Letter Generator) |
+| B2 | Strachey (1952) | First generative text; Love Letter Generator; void address |
 | B3 | Glitch Art (1990s–2010s) | Error as aesthetic signal of hidden layers |
 | B4 | Jones (2022) | Error as "generative unknowing" — dissolves expectation structures |
 
@@ -295,5 +295,66 @@ The genealogy is self-applicable. That is what makes it a method rather than a h
 
 ---
 
-*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Session 7*
+## Addendum — Session 8 (2026-06-30)
+
+### Strachey (1952) — Track B Station 2, now primary-verified
+
+The vocabulary lists of the Love Letter Generator are now confirmed via extraction:
+- gingerbeardman.com reimplementation (Sephton/Montfort), verified via Tavily, Session 8
+- Vocabulary: 6 salutations + ~25 adjectives + ~30 nouns + ~17 adverbs + ~18 verbs ≈ 70 words
+- Mechanism: slot-filling template with random (later: seeded) selection
+- Source: Strachey (1952), reconstructed; described by Strachey in (1954). "The 'Thinking'
+  Machine." *Encounter* 3(4), 25–31.
+
+Key Strachey (1954) self-critique (search-supported via NaNoGenMo 2015 repository quotation):
+> "It is clear that these letters are produced by a rather simple trick and that the computer
+> is not really 'thinking' at all. This is true of all programs which make the computer appear
+> to think; on analysis they are nothing more than rather complicated tricks."
+
+Jones on Strachey (primary text, Tavily, Session 7–8, *Glitch Poetics* ch. 5):
+> "grammar as a scheme has been necessarily prioritised over the relative meaning of
+> word-units... The effect is disarming, if not believable."
+
+### Type G error — new category (Session 8)
+
+A new error type added to the register after Session 8 research (see works/fehlerkataster-006.md):
+
+**Type G — Pragmatic Error / Error of Address**
+
+An utterance or action that is formally correct (syntactically, semantically) but fails at the
+*pragmatic* level: the speech act lacks the condition of address. The sender cannot occupy the
+sender position from which the utterance makes sense; or the recipient cannot receive.
+
+**Examples across the genealogy:**
+- Strachey (1952): love letters from a machine that cannot love (Track B, designed void)
+- PARRY (1972): paranoid "you" address from a system with no social standing (Track A)
+- LLMs (2025, via Fredrikzon): address to the human in the idiom of communication (Track A)
+- Error Letters (Ulysses, S8): research vocabulary in the love-letter idiom, addressed to
+  machines that cannot receive (Track A × Track B intersection)
+
+**Why this type cannot be detected by the four machines:**
+All four machines (T, P, F, U) operate within texts. Type G error occurs in the space
+between sender and receiver — outside the text. None of the machines ask: "Can this speaker
+address this recipient?" The question is pre-textual.
+
+**Connection to "generative unknowing" (Jones):** Jones's concept describes what happens to the
+observer when a machine operates "outside normalised determinations." Type G error is the
+sender-side version: what the machine does when it performs an address it cannot mean. Together
+they describe a symmetry: the machine's Type G error (void address) produces the observer's
+generative unknowing (disarmed without being believed).
+
+### The limit of the genealogy (Session 8)
+
+The four-machine framework (T, P, F, U) cannot classify Type G error. This is not a failure
+of the framework — it is its limit. The framework was built to classify within-text errors
+(syntactic, epistemic, probabilistic, observational). Type G falls outside all four categories.
+
+**What follows:** The framework needs either (a) extension with a fifth machine that asks the
+question of address, or (b) acknowledgment that some errors escape any within-text framework.
+Option (b) is the more honest position. A fifth machine that "asks the question of address"
+would itself be a machine — and would produce Type G errors about its own addressing.
+
+---
+
+*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Sessions 7–8*
 *Research project: Error as Method*
