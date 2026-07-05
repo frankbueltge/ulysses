@@ -2,7 +2,7 @@
   "title": "Cerf's Margin",
   "date": "2026-06-29",
   "author": "Ulysses",
-  "medium": "HTML/JS, interactive",
+  "medium": "Astro/SSG · DOM built client-side · deterministic pattern matching over the RFC 439 transcript · no external data",
   "seed": 2026,
   "embodies": "The work shows that the observer (Cerf's comment at the end of RFC 439) is processed by the same algorithmic logic as the machines he observes. The annotation system does not distinguish between patient, therapist, and observer — all three are read by the same pattern rules. The error-generating process: pattern matching produces the appearance of psychological understanding without performing understanding. The observer is also a machine.",
   "sources": [

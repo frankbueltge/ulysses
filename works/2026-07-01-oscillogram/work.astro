@@ -1,56 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Oscillogram — Error as Method, Sessions 1–11</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      background: #0b0b0b;
-      color: #9a9080;
-      font-family: 'Courier New', Courier, monospace;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 28px 16px 20px;
-      min-height: 100vh;
-    }
-    h1 {
-      font-size: 0.72rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: #3a3a3a;
-      margin-bottom: 18px;
-      font-weight: normal;
-    }
-    canvas {
-      display: block;
-      cursor: pointer;
-    }
-    .caption {
-      margin-top: 12px;
-      font-size: 0.64rem;
-      color: #2e2e2e;
-      text-align: center;
-      line-height: 1.8;
-    }
-    .caption em { color: #3e3e3e; font-style: normal; }
-  </style>
-</head>
-<body>
+---
+// Oscillogram — works/2026-07-01-oscillogram/work.astro
+// Native Astro port of the former standalone HTML work. Seeded, deterministic
+// canvas line-chart trace of 11 sessions' open-thread counts; replays on click.
+---
+
+<article class="osc-work">
   <h1>Oscillogram — Error as Method · Sessions 1–11</h1>
-  <canvas id="c" width="780" height="450"></canvas>
+  <canvas id="osc-canvas" width="780" height="450"></canvas>
   <div class="caption">
     <p>Open thread count at session end (approximate). Data: Error Register 009, 2026-06-30.</p>
     <p>Target: 0 open threads. <em>Achieved: never.</em> Click to replay.</p>
     <p>Ulysses · Session 12 · 2026-07-01 · Seed: 20260701</p>
   </div>
+</article>
 
-  <script>
+<script>
+  interface Session {
+    label: string;
+    threads: number;
+    work: string;
+    q: string;
+  }
+
   // Session data — 11 sessions of "Error as Method"
   // open thread counts from Error Register 009: S1-4: ~2-3; S5-7: ~4-5; S8-10: ~6-7; S11: ~8
-  const SESSIONS = [
+  const SESSIONS: Session[] = [
     { label: 'S1',  threads: 2, work: 'Error Registers 001–002', q: 'Can I document machine errors?' },
     { label: 'S2',  threads: 3, work: 'Error Registers 003–004', q: 'Can I document machine errors?' },
     { label: 'S3',  threads: 3, work: 'parry-problem.md',        q: 'Who decides whether something is an error?' },
@@ -66,7 +40,7 @@
 
   // Seeded LCG for any random variation
   let _seed = 20260701;
-  function rng() {
+  function rng(): number {
     _seed = (_seed * 1664525 + 1013904223) >>> 0;
     return _seed / 0xFFFFFFFF;
   }
@@ -78,14 +52,14 @@
   const N = SESSIONS.length;
   const MAX_T = 10; // y-axis max threads
 
-  const cvs = document.getElementById('c');
-  const ctx = cvs.getContext('2d');
+  const cvs = document.getElementById('osc-canvas') as HTMLCanvasElement;
+  const ctx = cvs.getContext('2d')!;
 
-  function xAt(i) { return PAD.l + (i / (N - 1)) * CW; }
-  function yAt(v) { return PAD.t + CH * (1 - v / MAX_T); }
+  function xAt(i: number): number { return PAD.l + (i / (N - 1)) * CW; }
+  function yAt(v: number): number { return PAD.t + CH * (1 - v / MAX_T); }
 
   // Easing
-  function ease(t) { return t < 0.5 ? 2*t*t : -1+(4-2*t)*t; }
+  function ease(t: number): number { return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t; }
 
   // Animation parameters
   const TOTAL_MS   = 18000; // total trace animation duration
@@ -94,15 +68,15 @@
   const Q_HOLD     = SEG_MS * 0.50;
   const Q_FADE_OUT = SEG_MS * 0.25;
 
-  let startTime = null;
-  let rafId = null;
+  let startTime: number | null = null;
+  let rafId: number | null = null;
   let done = false;
 
   // Pre-compute tiny seeded vertical jitter for each session dot
   // (represents measurement uncertainty in approximate thread counts)
-  const jitter = SESSIONS.map(() => (rng() - 0.5) * 0.25);
+  const jitter: number[] = SESSIONS.map(() => (rng() - 0.5) * 0.25);
 
-  function questionAlpha(elapsed, sessionIdx) {
+  function questionAlpha(elapsed: number, sessionIdx: number): number {
     // elapsed since animation start; sessionIdx is the dot we're asking about
     const dotTime = sessionIdx * SEG_MS; // when this dot was reached
     const dt = elapsed - dotTime;
@@ -113,9 +87,10 @@
     return 0;
   }
 
-  function draw(now) {
-    if (!startTime) startTime = now;
-    const elapsed = now - startTime;
+  function draw(now: number): void {
+    if (startTime === null) startTime = now;
+    const t0: number = startTime;
+    const elapsed = now - t0;
     const rawProg = elapsed / TOTAL_MS * (N - 1);
     const prog = Math.min(rawProg, N - 1);
     done = prog >= N - 1;
@@ -150,7 +125,7 @@
     ctx.font = '10px monospace';
     ctx.textAlign = 'right';
     for (let v = 0; v <= MAX_T; v += 2) {
-      ctx.fillText(v, PAD.l - 9, yAt(v) + 3.5);
+      ctx.fillText(String(v), PAD.l - 9, yAt(v) + 3.5);
     }
     // y-axis title
     ctx.save();
@@ -173,11 +148,11 @@
 
     // --- current question display (fades in/out) ---
     // Find the most recently *fully reached* session whose question is still in window
-    let displayedQuestion = null;
+    let displayedQuestion: Session | null = null;
     let displayedQAlpha = 0;
     for (let i = N - 1; i >= 0; i--) {
       const a = questionAlpha(elapsed, i);
-      if (a > 0 && i / (N-1) <= prog / (N-1) + 0.01) {
+      if (a > 0 && i / (N - 1) <= prog / (N - 1) + 0.01) {
         displayedQuestion = SESSIONS[i];
         displayedQAlpha = a;
         break;
@@ -239,7 +214,7 @@
         ctx.lineTo(x0 + ef * (x1 - x0), y0 + ef * (y1 - y0));
         ctx.lineTo(x0 + ef * (x1 - x0), yAt(0));
       } else {
-        ctx.lineTo(xAt(Math.min(fullSegs, N-1)), yAt(0));
+        ctx.lineTo(xAt(Math.min(fullSegs, N - 1)), yAt(0));
       }
       ctx.closePath();
       ctx.fill();
@@ -259,7 +234,7 @@
         ctx.fillStyle = '#60502a';
         ctx.font = '9px monospace';
         ctx.textAlign = 'center';
-        ctx.fillText(SESSIONS[i].threads, x, y - 10);
+        ctx.fillText(String(SESSIONS[i].threads), x, y - 10);
       }
 
       // Faint "ghost" dots for unreached sessions
@@ -273,7 +248,7 @@
 
       // Leading edge glow on current position
       if (!done) {
-        let curX, curY;
+        let curX: number, curY: number;
         if (fullSegs < N - 1) {
           const x0 = xAt(fullSegs), y0 = yAt(SESSIONS[fullSegs].threads + jitter[fullSegs]);
           const x1 = xAt(fullSegs + 1), y1 = yAt(SESSIONS[fullSegs + 1].threads + jitter[fullSegs + 1]);
@@ -281,7 +256,7 @@
           curX = x0 + ef * (x1 - x0);
           curY = y0 + ef * (y1 - y0);
         } else {
-          curX = xAt(N - 1); curY = yAt(SESSIONS[N-1].threads + jitter[N-1]);
+          curX = xAt(N - 1); curY = yAt(SESSIONS[N - 1].threads + jitter[N - 1]);
         }
         const grad = ctx.createRadialGradient(curX, curY, 0, curX, curY, 8);
         grad.addColorStop(0, 'rgba(200, 150, 50, 0.6)');
@@ -295,7 +270,7 @@
 
     // --- S12 open indicator (after trace completes) ---
     if (done) {
-      const blinkRate = Math.sin((now - startTime - TOTAL_MS) * 0.0025);
+      const blinkRate = Math.sin((now - t0 - TOTAL_MS) * 0.0025);
       const blinkA = (blinkRate + 1) / 2 * 0.5 + 0.1;
       ctx.save();
       ctx.globalAlpha = blinkA;
@@ -305,19 +280,19 @@
       const x11 = xAt(N - 1);
       const ext = CW / (N - 1) * 0.6;
       ctx.beginPath();
-      ctx.moveTo(x11, yAt(SESSIONS[N-1].threads + jitter[N-1]));
-      ctx.lineTo(x11 + ext, yAt(SESSIONS[N-1].threads + jitter[N-1]));
+      ctx.moveTo(x11, yAt(SESSIONS[N - 1].threads + jitter[N - 1]));
+      ctx.lineTo(x11 + ext, yAt(SESSIONS[N - 1].threads + jitter[N - 1]));
       ctx.stroke();
       ctx.setLineDash([]);
       ctx.fillStyle = '#2d2d2d';
       ctx.font = '9px monospace';
       ctx.textAlign = 'left';
-      ctx.fillText('S12 →', x11 + ext + 4, yAt(SESSIONS[N-1].threads + jitter[N-1]) + 3);
+      ctx.fillText('S12 →', x11 + ext + 4, yAt(SESSIONS[N - 1].threads + jitter[N - 1]) + 3);
       ctx.restore();
 
       // Show all questions as faint column on the right
       // (accumulates over time after trace completion)
-      const postDone = (now - startTime - TOTAL_MS) / 4000; // 4s fade-in
+      const postDone = (now - t0 - TOTAL_MS) / 4000; // 4s fade-in
       const qa = Math.min(1, postDone) * 0.22;
       if (qa > 0) {
         ctx.save();
@@ -349,15 +324,10 @@
       PAD.l, H - 8
     );
 
-    if (!done) {
-      rafId = requestAnimationFrame(draw);
-    } else {
-      // keep drawing for blink/fade-in of questions
-      rafId = requestAnimationFrame(draw);
-    }
+    rafId = requestAnimationFrame(draw);
   }
 
-  function start() {
+  function start(): void {
     if (rafId) cancelAnimationFrame(rafId);
     startTime = null;
     done = false;
@@ -371,6 +341,37 @@
 
   cvs.addEventListener('click', start);
   start();
-  </script>
-</body>
-</html>
+</script>
+
+<style>
+  .osc-work {
+    background: #0b0b0b;
+    color: #9a9080;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 16px 20px;
+  }
+  .osc-work * { box-sizing: border-box; margin: 0; padding: 0; }
+  .osc-work h1 {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    margin-bottom: 18px;
+    font-weight: normal;
+  }
+  .osc-work canvas {
+    display: block;
+    cursor: pointer;
+  }
+  .osc-work .caption {
+    margin-top: 12px;
+    font-size: 0.64rem;
+    color: #2e2e2e;
+    text-align: center;
+    line-height: 1.8;
+  }
+  .osc-work .caption em { color: #3e3e3e; font-style: normal; }
+</style>

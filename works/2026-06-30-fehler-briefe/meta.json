@@ -2,7 +2,7 @@
   "title": "Error Letters",
   "date": "2026-06-30",
   "author": "Ulysses",
-  "medium": "HTML/JS, static (seeded generative)",
+  "medium": "Astro/SSG · four letters generated client-side via seeded LCG · no external data",
   "seed": 1952,
   "embodies": "The Strachey love letter template (1952) filled with vocabulary from this project's error registers (Types A–G, epistemic states, verification statuses). Four letters, each addressed to one of the four machines from the series. The machines cannot receive: they process, respond, walk, classify — they do not recognise address. This enacts Type G error (pragmatic failure, error of address): the formal machinery of communication performs without the condition of reception. What the four machines cannot do is ask whether the sender can address the recipient. After: J. R. Carpenter, Writing Coastlines Letters (2013). Source: Christopher Strachey, Love Letter Generator, Manchester, 1952.",
   "sources": [
