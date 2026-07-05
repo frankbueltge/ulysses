@@ -55,25 +55,25 @@
       { n: 9, desc: 'Second order named' },
     ];
 
-    function rad(deg) { return deg * Math.PI / 180; }
+    function rad(deg: number) { return deg * Math.PI / 180; }
 
-    function pt(r, deg) {
+    function pt(r: number, deg: number) {
       return {
         x: CX + r * Math.sin(rad(deg)),
         y: CY - r * Math.cos(rad(deg)),
       };
     }
 
-    function f(n) { return n.toFixed(2); }
+    function f(n: number) { return n.toFixed(2); }
 
-    function mk(tag, attrs, text) {
+    function mk(tag: string, attrs: Record<string, any>, text?: string) {
       const el = document.createElementNS(NS, tag);
       if (attrs) Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v));
       if (text !== undefined) el.textContent = text;
       return el;
     }
 
-    function arcPath(r, fromDeg, toDeg) {
+    function arcPath(r: number, fromDeg: number, toDeg: number) {
       const s = pt(r, fromDeg);
       const e = pt(r, toDeg);
       let span = toDeg - fromDeg;
