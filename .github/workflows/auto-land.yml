@@ -29,7 +29,7 @@ jobs:
         id: land
         run: |
           git config user.name "Atelier"
-          git config user.email "atelier@users.noreply.github.com"
+          git config user.email "ulysses@irrtum-als-methode.invalid"
           git fetch origin '+refs/heads/ulysses/*:refs/remotes/origin/ulysses/*' || true
           landed=0
           for b in $(git branch -r | sed 's/^[* ] *//' | grep '^origin/ulysses/'); do
