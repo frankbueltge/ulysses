@@ -8,12 +8,22 @@ Your own research says it (Shumailov 2023; Gerstgrasser 2024; Jangjoo/Marsili/Ro
 all anchored in this atlas): a closed self-training loop collapses — unless real points from
 another distribution keep entering it. This atlas is that other distribution, kept clean and
 verifiable: *low-background steel* to forge from, so the sessions do not only feed on their
-own output. It was seeded on 2026-07-14 with 57 verified entries, deliberately weighted
-toward the one field the atelier practices nightly but has never read: the methodology of
-artistic research itself (Frayling, Borgdorff, Schwab, Mersch, and the practice-as-research
-debate), alongside the method-philosophy of the swerve (rhizome, clinamen, diffraction,
-chance, constraint, not-knowing) and the research literature on machine creativity and
-self-consuming loops.
+own output. It was seeded on 2026-07-14 with 57 verified entries and extended the same day
+to 77 (after review: inner-canon anchors and coverage gaps added). It is deliberately
+weighted toward the one field the atelier practices nightly but has never read: the
+methodology of artistic research itself (Frayling, Borgdorff, Schwab, Mersch, and the
+practice-as-research debate), alongside the method-philosophy of the swerve (rhizome,
+clinamen, diffraction, chance, constraint, not-knowing) and the research literature on
+machine creativity and self-consuming loops.
+
+The atlas also **anchors the inner canon**: the works the journal already cites — the
+cybernetics line (Wiener, Bateson, von Foerster, Maturana/Varela), Track A's four stations
+(Tynianov, Colby/Weber/Hilf, Fredrikzon, Somaini), Track B's materials (Stein, Strachey,
+Menkman, Jones) — live here as verified primary records, so the reservoir holds the sources
+themselves and not only the journal's memory of them. Two of these anchors carry repairs:
+Tynianov's Literary Fact gets its citable English edition (Station 1 was search-verified
+only), and the Somaini entry corrects the genealogy's dating (October no. 196 is Spring
+2026 per Crossref, not 2025).
 
 One repair is built in: *The Conflict of the Faculties* was cited from snippets in the very
 first journal entry (2026-06-28), its full text deferred after a failed OAPEN fetch — and
@@ -80,29 +90,31 @@ is missing something, propose the new tag here in the README first, then use it.
 - **Paywalled, existence verified but full text not freely retrievable:** Barad's *Diffracting
   Diffraction* (Taylor & Francis), Haraway's *Situated Knowledges* (JSTOR; university mirrors
   circulate), the Science version of Epstein et al. (arXiv companion given instead), Mersch's
-  *Epistemologien des Ästhetischen*, Schwab's *Experimental Systems*, and most of the books.
-  The atlas points at them anyway — knowing where a text lives is worth more than pretending
-  it does not exist.
+  *Epistemologien des Ästhetischen*, Schwab's *Experimental Systems*, Fredrikzon's *Rethinking
+  Error* (Duke UP — the free promotional window closed 31 Jan 2026; Fehlerkataster F-004
+  stands), Somaini's *Latent Spaces* (MIT Press), and most of the books. The atlas points at
+  them anyway — knowing where a text lives is worth more than pretending it does not exist.
 - **Left out for verification reasons:** Mersch's essay „Was heißt, im Ästhetischen forschen?"
   (2015) exists only as a self-hosted PDF at dieter-mersch.de; its original venue could not be
   independently confirmed, so it was not admitted. Candidate for later admission if a venue
   is verified.
-- **Weak URL, honestly flagged:** *The Third Mind* (Burroughs/Gysin) has no surviving stable
-  publisher page; the entry points to Wikipedia as a locator only.
-- **Coverage gaps, known and open:** non-European and non-anglophone artistic research
-  (this seed is Euro/US-heavy); musical aleatorics beyond Cage (Xenakis was not verified this
-  round); Tim Ingold's making/correspondence line; Flusser's apparatus theory; sound studies.
-- **Deliberately omitted because already in your corpus:** the cybernetics canon (Wiener,
-  Bateson, von Foerster, Maturana), Menkman's glitch studies, and the Track-A genealogy
-  (Tynianov, Colby/PARRY, Fredrikzon, Somaini). The atlas is your outside, not a mirror of
-  your inside. Exception: the model-collapse papers you already cite are anchored here as
-  entries, so the primary sources live in the reservoir rather than only in the journal's
-  memory of them.
+- **Weak or fragile URLs, honestly flagged:** *The Third Mind* (Burroughs/Gysin) has no
+  surviving stable publisher page (Wikipedia as locator only). Strachey's Encounter scan
+  blocks automated fetching (David Link's Variantology PDF is the machine-readable route,
+  named in the entry). Maharaj's journal is dead — the Wayback capture is the record.
+  Mignolo/Vázquez sits behind an anti-bot challenge (Wayback fallback in the entry). Stein's
+  *How to Write* has no open-access scan (Open Library record only). Xenakis' publisher page
+  rejects bots.
+- **Coverage gaps, known and open:** artistic-research primary texts from Asia, Africa and
+  Latin America remain thin — the decolonial entries added (Tuhiwai Smith, Santos, Maharaj,
+  Mignolo/Vázquez) are epistemology and methodology, not artistic-research practice texts;
+  sound studies beyond Xenakis and Cage; the enactivist line after Varela.
 
 ## Provenance
 
-Seeded by Fable (a parallel session steered by Frank, 2026-07-14): candidates drawn from the
-artistic-research canon and from arXiv, each verified against publisher pages, repositories,
-DOI resolvers or arXiv metadata before admission; summaries written against the verified
-records, not from memory. Errors are possible regardless — if you find one, correct the
-entry and note the correction in your journal. That, after all, is the method.
+Seeded and extended by Fable (a parallel session steered by Frank, 2026-07-14): candidates
+drawn from the artistic-research canon, from your own genealogy and works, and from arXiv;
+each verified against publisher pages, repositories, DOI resolvers or arXiv metadata before
+admission; summaries written against the verified records, not from memory. Errors are
+possible regardless — if you find one, correct the entry and note the correction in your
+journal. That, after all, is the method.
