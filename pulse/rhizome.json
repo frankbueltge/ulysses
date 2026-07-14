@@ -1,6 +1,6 @@
 {
  "updated": "2026-07-14",
- "note": "SEED (team, 2026-07-14). Nodes below are the existing dated works — facts derived from works/*/meta.json. Edges are intentionally EMPTY: how your works, threads and sources connect is your reading to draw, not ours to invent. Add thread/ and source/impulse nodes and the edges as your practice reveals them. See REQUESTS.md 2026-07-14 for the shape. | S26 (2026-07-14): first edges drawn — a swerve from the artistic-research field (Rheinberger/Frayling/Schwab/Haseman) into the 'epistemic-thing subtraction' thread, which re-reads two prior works (Generative Unknowing, Named the Glitch) and draws a bridge between them (they are one fact). | S27 (2026-07-14): a Make. Swerve from theoretical biology (Eigen's error threshold) into a 'differential-reproduction / birth-side' thread that gives S26's epistemic-thing subtraction a running mechanism, and draws COMPLEMENT edges to the three loss-side collapse works (Generation Loss, The Closing Loop, Low-Background): they measure how a loop dies, this measures how it produces-and-keeps the new — and finds the 'barren' regime (viable but sterile).",
+ "note": "SEED (team, 2026-07-14). Nodes below are the existing dated works — facts derived from works/*/meta.json. Edges are intentionally EMPTY: how your works, threads and sources connect is your reading to draw, not ours to invent. Add thread/ and source/impulse nodes and the edges as your practice reveals them. See REQUESTS.md 2026-07-14 for the shape. | S26 (2026-07-14): first edges drawn — a swerve from the artistic-research field (Rheinberger/Frayling/Schwab/Haseman) into the 'epistemic-thing subtraction' thread, which re-reads two prior works (Generative Unknowing, Named the Glitch) and draws a bridge between them (they are one fact). | S27 (2026-07-14): a Make. Swerve from theoretical biology (Eigen's error threshold) into a 'differential-reproduction / birth-side' thread that gives S26's epistemic-thing subtraction a running mechanism, and draws COMPLEMENT edges to the three loss-side collapse works (Generation Loss, The Closing Loop, Low-Background): they measure how a loop dies, this measures how it produces-and-keeps the new — and finds the 'barren' regime (viable but sterile). | S28 (2026-07-14): a reach-outside → Make. Swerve from the aesthetics-of-knowledge shelf (Mersch's negative knowledge / the untranslatable; Maharaj's no-how / method-as-stopgap) into a 'no-how / non-discursive' thread that subtracts from the project's own PRACTICE (method-primacy, discursive-primacy) and enacts it as work 22 (Negative Knowledge). A BRIDGE edge to the barren-regime thread: the same inverted band carried onto the discursive↔non-discursive axis.",
  "nodes": [
   {
    "id": "w-2026-06-29-cerfs-margin",
@@ -173,6 +173,27 @@
    "id": "atlas:gerstgrasser-is-model-collapse-inevitable",
    "kind": "source",
    "label": "Gerstgrasser — accumulate vs replace (loss-side cure)"
+  },
+  {
+   "id": "w-2026-07-14-negative-knowledge",
+   "kind": "work",
+   "label": "Negative Knowledge",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "thread-no-how-non-discursive",
+   "kind": "thread",
+   "label": "No-how / the non-discursive: method as stopgap, the journal as note; negative knowledge as the only figure"
+  },
+  {
+   "id": "atlas:mersch-aesthetic-difference-wisdom-of-the-arts",
+   "kind": "source",
+   "label": "Mersch — negative knowledge; the untranslatable"
+  },
+  {
+   "id": "atlas:maharaj-know-how-and-no-how",
+   "kind": "source",
+   "label": "Maharaj — no-how; method as a stopgap"
   }
  ],
  "edges": [
@@ -261,6 +282,29 @@
    "to": "w-2026-07-14-differential-reproduction",
    "kind": "grounds",
    "session": 27
+  },
+  {
+   "from": "atlas:mersch-aesthetic-difference-wisdom-of-the-arts",
+   "to": "thread-no-how-non-discursive",
+   "kind": "swerve",
+   "session": 28
+  },
+  {
+   "from": "atlas:maharaj-know-how-and-no-how",
+   "to": "thread-no-how-non-discursive",
+   "kind": "swerve",
+   "session": 28
+  },
+  {
+   "from": "thread-no-how-non-discursive",
+   "to": "w-2026-07-14-negative-knowledge",
+   "kind": "elaborates"
+  },
+  {
+   "from": "w-2026-07-14-negative-knowledge",
+   "to": "w-2026-07-14-differential-reproduction",
+   "kind": "bridge",
+   "session": 28
   }
  ]
 }
