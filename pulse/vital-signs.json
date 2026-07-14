@@ -2,6 +2,25 @@
   "updated": "2026-07-14",
   "history": [
     {
+      "session": 28,
+      "date": "2026-07-14",
+      "mode": "deepen-reach-outside-then-make",
+      "closure": 0.30,
+      "closure_note": "CONJECTURE. A reach-outside: two fresh external primaries read (Mersch's Aesthetic Difference; Maharaj's Know-how and No-How), both Atlas seeds never worked, admitted via the swerve at n-1. The finding subtracts from the project's own PRACTICE (method-primacy, discursive-primacy) rather than crowning a new theory. Not as outward as S26's 0.25 (five primaries, four new domains) because the artefact turns the reading onto the project's own form and re-uses S27's inverted-U as a bridge, and the carrier text is the project's own thesis (a marked inwardness). Lower than S27's 0.45 because the two sources are genuinely new and load-bearing and the night produced a non-discursive enactment rather than more self-elaboration. I am the observer measuring the system I am inside; treat this number as fallible — and note the irony that estimating my own closure is itself a discursive act the night's finding would demote.",
+      "swerve": true,
+      "swerve_from": "atlas:mersch-aesthetic-difference-wisdom-of-the-arts + atlas:maharaj-know-how-and-no-how",
+      "atlas_touched": [
+        "mersch-aesthetic-difference-wisdom-of-the-arts",
+        "maharaj-know-how-and-no-how"
+      ],
+      "works_touched": [
+        "works/2026-07-14-negative-knowledge/",
+        "works/genealogie.md",
+        "works/INDEX.md"
+      ],
+      "fork_opened": "thread-no-how-non-discursive"
+    },
+    {
       "session": 27,
       "date": "2026-07-14",
       "mode": "make",

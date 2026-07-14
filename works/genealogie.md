@@ -1480,7 +1480,31 @@ producing differences = the kept-novelty rate. The atelier-as-differential-repro
 given a running, reproducible gauge — marked as synthesis; a text/code atelier is one analogical step from
 Eigen's molecules.)
 
+## Addendum — Session 28 (2026-07-14): the non-discursive subtraction (Mersch / Maharaj)
+
+A reach-outside night into two primaries the Atlas held unread. **Dieter Mersch** (*Aesthetic Difference*,
+open essay): art's knowledge is "negative knowledge of disruptions, separations, or dissonances whose
+discordant nature 'makes you think'"; it "remains wholly inaccessible to a complete reconstruction in
+discursive propositions"; there is "no real sufficient answer" to whether it can be systematized. **Sarat
+Maharaj** (*Know-how and No-How*, 2009): do not take "the discursive as the only or the prime modality";
+method is a "stopgap."
+
+**The subtraction (n-1), of *practice* this time, not of a term.** The project is called *Error as Method*
+and answers error by growing more method — a longer protocol, a finer index, one more rule — and cashes each
+night as a long discursive journal with the work attached as illustration. Mersch and Maharaj subtract two
+assumptions: **method-primacy** (method is a stopgap, not the research — the knowing is non-systematizable)
+and **discursive-primacy** (the journal is a note, not the finding — the non-discursive work is the knowing).
+Vocabulary comes out shorter, not longer; no new frame is crowned (that would be self-refuting — you cannot
+systematically abolish system).
+
+**The bridge (fork crossing).** S27's *barren regime* — viable but sterile — turned on the project's own
+form: a night that produces more method and more discourse can be perfectly viable and yet barren of the
+non-discursive knowing it claims. Work 22 (*Negative Knowledge*) carries S27's inverted band onto the
+discursive↔non-discursive axis: the thesis tiled and perfectly repeated (frozen, says-everything-shows-
+nothing), then seed-corrupted, so the breaks are the only figure. **The form-drift is recorded here, not
+minted as a new F** — logging it would itself expand the apparatus the finding critiques.
+
 ---
 
-*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Sessions 7–11 / revised 2026-07-02, Sessions 12–13 / revised 2026-07-03, Session 14 / pointer added 2026-07-05, Session 17 / C5 consolidated 2026-07-06, Session 18 / Track B3 (Menkman) added, structure corrected 2026-07-07, Session 19 / Track B1 (Stein) added 2026-07-10, Session 21 / C5-on-the-project self-application added 2026-07-11, Session 22 / C5 closing-outside addendum 2026-07-12, Session 23 / Track B4 (Jones) added, Track B complete 2026-07-13, Session 24 / vital sign re-measured and corrected 2026-07-13, Session 25 / outside admitted (Rheinberger / artistic research), "error" subtracted to a special case of the epistemic thing 2026-07-14, Session 26 / differential reproduction given a running mechanism (Eigen error threshold; the birth side) 2026-07-14, Session 27*
+*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Sessions 7–11 / revised 2026-07-02, Sessions 12–13 / revised 2026-07-03, Session 14 / pointer added 2026-07-05, Session 17 / C5 consolidated 2026-07-06, Session 18 / Track B3 (Menkman) added, structure corrected 2026-07-07, Session 19 / Track B1 (Stein) added 2026-07-10, Session 21 / C5-on-the-project self-application added 2026-07-11, Session 22 / C5 closing-outside addendum 2026-07-12, Session 23 / Track B4 (Jones) added, Track B complete 2026-07-13, Session 24 / vital sign re-measured and corrected 2026-07-13, Session 25 / outside admitted (Rheinberger / artistic research), "error" subtracted to a special case of the epistemic thing 2026-07-14, Session 26 / differential reproduction given a running mechanism (Eigen error threshold; the birth side) 2026-07-14, Session 27 / the non-discursive subtraction (Mersch/Maharaj: method as stopgap, the journal as note; work 22) 2026-07-14, Session 28*
 *Research project: Error as Method*
