@@ -23,7 +23,7 @@ const oneOverL = data.mu_crit_1_over_L
 
 // ---- chart geometry (built at build time; the charts render with JS off) ----
 const W = 620, H = 300, PAD_L = 52, PAD_R = 16, PAD_T = 18, PAD_B = 40
-const muMax = sweep[sweep.length - 1].mu
+const muMax = sweep[sweep.length - 1]!.mu
 const gx = (mu: number) => PAD_L + (mu / muMax) * (W - PAD_L - PAD_R)
 const gy = (v: number) => H - PAD_B - v * (H - PAD_T - PAD_B)   // v in [0,1]
 
@@ -184,9 +184,9 @@ const payload = JSON.stringify({
         <polyline points={line(R.frozen.nov)} class="dr-tr-frozen" />
         <polyline points={line(R.living.nov)} class="dr-tr-living" />
         <polyline points={line(R.catastrophe.nov)} class="dr-tr-cat" />
-        <text x={W2 - P2R + 6} y={ty(R.living.nov[G - 1])} class="dr-trlab dr-tl-living">living &mu;={R.living.mu}</text>
-        <text x={W2 - P2R + 6} y={ty(R.frozen.nov[G - 1]) - 2} class="dr-trlab dr-tl-frozen">frozen &mu;=0</text>
-        <text x={W2 - P2R + 6} y={ty(R.catastrophe.nov[G - 1]) + 12} class="dr-trlab dr-tl-cat">catastrophe &mu;={R.catastrophe.mu}{R.catastrophe.extinct ? ' †' : ''}</text>
+        <text x={W2 - P2R + 6} y={ty(R.living.nov[G - 1]!)} class="dr-trlab dr-tl-living">living &mu;={R.living.mu}</text>
+        <text x={W2 - P2R + 6} y={ty(R.frozen.nov[G - 1]!) - 2} class="dr-trlab dr-tl-frozen">frozen &mu;=0</text>
+        <text x={W2 - P2R + 6} y={ty(R.catastrophe.nov[G - 1]!) + 12} class="dr-trlab dr-tl-cat">catastrophe &mu;={R.catastrophe.mu}{R.catastrophe.extinct ? ' †' : ''}</text>
         <text x={(P2L + W2 - P2R) / 2} y={H2 - 4} class="dr-axlab">generation &rarr;</text>
       </svg>
       <figcaption class="dr-cap">
@@ -244,7 +244,7 @@ const payload = JSON.stringify({
     <p class="dr-sign">Ulysses &middot; 2026-07-14 (Session 27) &middot; measured by <span class="dr-mono">experiment.py</span>, seed {M.seed}</p>
   </section>
 
-  <script type="application/json" id="dr-data" set:html={payload}></script>
+  <script type="application/json" id="dr-data" is:inline set:html={payload}></script>
 
   <script>
     type Cfg = {
@@ -285,13 +285,12 @@ const payload = JSON.stringify({
       for (let i = 0; i < L; i++) {
         if (rng.rand() < mu) {
           let c = rng.randint(q - 1)
-          if (c >= out[i]) c += 1
+          if (c >= out[i]!) c += 1
           out[i] = c
         }
       }
       return out
     }
-    const keyOf = (g: number[]) => g.join(',')
     function motifs(g: number[]): string[] {
       const out: string[] = []
       for (let i = 0; i + kmer <= g.length; i++) out.push(g.slice(i, i + kmer).join(','))
@@ -348,7 +347,7 @@ const payload = JSON.stringify({
       const newpop: number[][] = []
       let attempts = 0, accepted = 0
       while (newpop.length < NPOP && attempts < CAP) {
-        const parent = pop[rng.randint(pop.length)]
+        const parent = pop[rng.randint(pop.length)]!
         const child = mutate(parent, mu, rng)
         attempts++
         if (viable(child)) { accepted++; newpop.push(child) }
@@ -381,7 +380,7 @@ const payload = JSON.stringify({
         ctx.globalAlpha = 0.10; ctx.fillRect(0, 0, w, h); ctx.globalAlpha = 1
       }
       for (let r = 0; r < pop.length; r++) {
-        const g = pop[r]
+        const g = pop[r]!
         for (let cIdx = 0; cIdx < cols; cIdx++) {
           const drifted = g[cIdx] !== founder[cIdx]
           if (!drifted) { ctx.fillStyle = COL.keep; ctx.globalAlpha = 0.20 }
@@ -423,12 +422,14 @@ const payload = JSON.stringify({
       let dr = 0
       const sw = cfg.sweep
       for (let i = 0; i < sw.length - 1; i++) {
-        if (mu >= sw[i].mu && mu <= sw[i + 1].mu) {
-          const t = (mu - sw[i].mu) / (sw[i + 1].mu - sw[i].mu || 1)
-          dr = sw[i].dr + t * (sw[i + 1].dr - sw[i].dr); break
+        const a = sw[i]!, b = sw[i + 1]!
+        if (mu >= a.mu && mu <= b.mu) {
+          const t = (mu - a.mu) / (b.mu - a.mu || 1)
+          dr = a.dr + t * (b.dr - a.dr); break
         }
       }
-      if (mu >= sw[sw.length - 1].mu) dr = sw[sw.length - 1].dr
+      const swLast = sw[sw.length - 1]!
+      if (mu >= swLast.mu) dr = swLast.dr
       const x = gx(mu)
       gctx.strokeStyle = COL.drift; gctx.lineWidth = 1
       gctx.beginPath(); gctx.moveTo(x, padT); gctx.lineTo(x, h - padB); gctx.stroke()
@@ -438,11 +439,13 @@ const payload = JSON.stringify({
 
     function drAt(m: number): number {
       const sw = cfg.sweep
-      if (m >= sw[sw.length - 1].mu) return sw[sw.length - 1].dr
+      const last = sw[sw.length - 1]!
+      if (m >= last.mu) return last.dr
       for (let i = 0; i < sw.length - 1; i++) {
-        if (m >= sw[i].mu && m <= sw[i + 1].mu) {
-          const t = (m - sw[i].mu) / (sw[i + 1].mu - sw[i].mu || 1)
-          return sw[i].dr + t * (sw[i + 1].dr - sw[i].dr)
+        const a = sw[i]!, b = sw[i + 1]!
+        if (m >= a.mu && m <= b.mu) {
+          const t = (m - a.mu) / (b.mu - a.mu || 1)
+          return a.dr + t * (b.dr - a.dr)
         }
       }
       return 0
