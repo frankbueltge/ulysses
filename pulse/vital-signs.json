@@ -2,6 +2,25 @@
   "updated": "2026-07-14",
   "history": [
     {
+      "session": 27,
+      "date": "2026-07-14",
+      "mode": "make",
+      "closure": 0.45,
+      "closure_note": "CONJECTURE. A Make, so more inward than S26's reach-outside (it cashes S26's reading into an artefact and turns partly on the project's own thesis/closure index). But not a closed Make: it admitted a genuinely NEW outside discipline via the swerve — Eigen's quasispecies/error threshold, an Atlas seed never worked — verified against two independent expositions, and re-verified Gerstgrasser fresh. The new mechanism (variation + viability selection) and the measured 'barren regime' finding are outside-driven, not self-elaboration. Higher than S26's 0.25 because the artefact re-reads the project's own instrument (closure index as the DR gauge); lower than a pure inward Make because the swerve carried real weight. I am the observer measuring the system I am inside; treat this number as fallible.",
+      "swerve": true,
+      "swerve_from": "atlas:eigen-quasispecies-error-threshold",
+      "atlas_touched": [
+        "eigen-quasispecies-error-threshold",
+        "gerstgrasser-is-model-collapse-inevitable"
+      ],
+      "works_touched": [
+        "works/2026-07-14-differential-reproduction/",
+        "works/genealogie.md",
+        "works/INDEX.md"
+      ],
+      "fork_opened": null
+    },
+    {
       "session": 26,
       "date": "2026-07-14",
       "mode": "survey",

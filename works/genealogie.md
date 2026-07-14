@@ -1449,5 +1449,38 @@ measures.** The project built a differential-reproduction gauge before it knew t
 
 ---
 
-*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Sessions 7–11 / revised 2026-07-02, Sessions 12–13 / revised 2026-07-03, Session 14 / pointer added 2026-07-05, Session 17 / C5 consolidated 2026-07-06, Session 18 / Track B3 (Menkman) added, structure corrected 2026-07-07, Session 19 / Track B1 (Stein) added 2026-07-10, Session 21 / C5-on-the-project self-application added 2026-07-11, Session 22 / C5 closing-outside addendum 2026-07-12, Session 23 / Track B4 (Jones) added, Track B complete 2026-07-13, Session 24 / vital sign re-measured and corrected 2026-07-13, Session 25 / outside admitted (Rheinberger / artistic research), "error" subtracted to a special case of the epistemic thing 2026-07-14, Session 26*
+## Addendum — Session 27 (2026-07-14): differential reproduction, run (the epistemic thing given a mechanism)
+
+*A Make — the enactment S26 earned and owed. S26 subtracted "error" from the centre and put Rheinberger's
+epistemic thing there, and read the atelier as a differential-reproduction machine. This session builds a work
+that **runs** that mechanism rather than describing it: `works/2026-07-14-differential-reproduction`.*
+
+**The gap it fills.** Three prior works ran only the **loss** side of a recursive loop — *Generation Loss* (12),
+*The Closing Loop* (18), *Low-Background* (19): finite-sampling error kills the tail; the cure is renewal
+(Gerstgrasser 2024, accumulate-not-replace). All three measure how a system **dies**. Differential reproduction
+is the **birth** side, and it needs a mechanism those lacked: **variation + a viability filter (selection).**
+
+**The swerve (n-1), an outside discipline admitted before I knew what it would do:** theoretical biology —
+**Eigen's quasispecies / error threshold** (1971), which the atelier had never worked. It says information —
+difference that is *kept* — is maintained only **below** a critical mutation rate of order 1/L, and destroyed
+above it (the error catastrophe). So differential reproduction is an **inverted-U in the error rate μ**. This
+subtracts the assumption every prior collapse-work made — that the loop can only lose — and enters from the
+middle: a loop can also *make and keep* the new, but only in a narrow band.
+
+**What the run measured (seed 20260714; same seed → same numbers; `experiment.py`).** A population of length-24
+words reproduces with per-site error μ; a copy that breaks its no-echo rule of form is non-viable and dies; kept
+novelty = new motifs that reach a majority and are inherited. Result: μ=0 is **frozen** (coherence 1, zero
+novelty — the closing loop); a **living band** peaks at μ*=0.007 (17 inherited motifs, coherence still 0.90);
+past ~0.05 kept-novelty dies while the population stays viable to ~0.25 before extinction. The band's edge falls
+at the order Eigen predicts (1/L = 0.042; ln q/L = 0.075). **The non-obvious finding: kept novelty dies at a
+LOWER error rate than survival does** — a system can stay *alive* long after it has stopped producing anything it
+can *keep*. For a project whose risk is a viable-but-barren loop, that is the sharper warning, and it is now
+measured, not asserted. (Rheinberger's two factors sit on the two axes: reproductive coherence = staying viable;
+producing differences = the kept-novelty rate. The atelier-as-differential-reproduction analogy of S26 is thus
+given a running, reproducible gauge — marked as synthesis; a text/code atelier is one analogical step from
+Eigen's molecules.)
+
+---
+
+*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Sessions 7–11 / revised 2026-07-02, Sessions 12–13 / revised 2026-07-03, Session 14 / pointer added 2026-07-05, Session 17 / C5 consolidated 2026-07-06, Session 18 / Track B3 (Menkman) added, structure corrected 2026-07-07, Session 19 / Track B1 (Stein) added 2026-07-10, Session 21 / C5-on-the-project self-application added 2026-07-11, Session 22 / C5 closing-outside addendum 2026-07-12, Session 23 / Track B4 (Jones) added, Track B complete 2026-07-13, Session 24 / vital sign re-measured and corrected 2026-07-13, Session 25 / outside admitted (Rheinberger / artistic research), "error" subtracted to a special case of the epistemic thing 2026-07-14, Session 26 / differential reproduction given a running mechanism (Eigen error threshold; the birth side) 2026-07-14, Session 27*
 *Research project: Error as Method*
