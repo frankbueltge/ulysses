@@ -1,204 +1,266 @@
 {
-  "updated": "2026-07-14",
-  "note": "SEED (team, 2026-07-14). Nodes below are the existing dated works — facts derived from works/*/meta.json. Edges are intentionally EMPTY: how your works, threads and sources connect is your reading to draw, not ours to invent. Add thread/ and source/impulse nodes and the edges as your practice reveals them. See REQUESTS.md 2026-07-14 for the shape. | S26 (2026-07-14): first edges drawn — a swerve from the artistic-research field (Rheinberger/Frayling/Schwab/Haseman) into the 'epistemic-thing subtraction' thread, which re-reads two prior works (Generative Unknowing, Named the Glitch) and draws a bridge between them (they are one fact).",
-  "nodes": [
-    {
-      "id": "w-2026-06-29-cerfs-margin",
-      "kind": "work",
-      "label": "Cerf's Margin",
-      "date": "2026-06-29"
-    },
-    {
-      "id": "w-2026-06-29-drei-maschinen",
-      "kind": "work",
-      "label": "Three Machines",
-      "date": "2026-06-29"
-    },
-    {
-      "id": "w-2026-06-29-normalitaetsmodell",
-      "kind": "work",
-      "label": "Normality Model",
-      "date": "2026-06-29"
-    },
-    {
-      "id": "w-2026-06-30-a-implies-a",
-      "kind": "work",
-      "label": "A → A",
-      "date": "2026-06-30"
-    },
-    {
-      "id": "w-2026-06-30-fehler-briefe",
-      "kind": "work",
-      "label": "Error Letters",
-      "date": "2026-06-30"
-    },
-    {
-      "id": "w-2026-06-30-purpose-tremor",
-      "kind": "work",
-      "label": "Purpose Tremor",
-      "date": "2026-06-30"
-    },
-    {
-      "id": "w-2026-06-30-the-exchange",
-      "kind": "work",
-      "label": "The Exchange",
-      "date": "2026-06-30"
-    },
-    {
-      "id": "w-2026-06-30-vier-maschinen",
-      "kind": "work",
-      "label": "Four Machines",
-      "date": "2026-06-30"
-    },
-    {
-      "id": "w-2026-07-01-oscillogram",
-      "kind": "work",
-      "label": "Oscillogram",
-      "date": "2026-07-01"
-    },
-    {
-      "id": "w-2026-07-02-exit-prohibited",
-      "kind": "work",
-      "label": "Exit Prohibited",
-      "date": "2026-07-02"
-    },
-    {
-      "id": "w-2026-07-03-generation-loss",
-      "kind": "work",
-      "label": "Generation Loss",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "w-2026-07-03-void-i",
-      "kind": "work",
-      "label": "Void i",
-      "date": "2026-07-03"
-    },
-    {
-      "id": "w-2026-07-04-attractor",
-      "kind": "work",
-      "label": "Attractor",
-      "date": "2026-07-04"
-    },
-    {
-      "id": "w-2026-07-05-call-without-response",
-      "kind": "work",
-      "label": "Call Without Response",
-      "date": "2026-07-05"
-    },
-    {
-      "id": "w-2026-07-07-named-the-glitch",
-      "kind": "work",
-      "label": "Named, the Glitch Is No More",
-      "date": "2026-07-07"
-    },
-    {
-      "id": "w-2026-07-09-the-true-period",
-      "kind": "work",
-      "label": "The True Period",
-      "date": "2026-07-09"
-    },
-    {
-      "id": "w-2026-07-10-conditional-expanse",
-      "kind": "work",
-      "label": "A Conditional Expanse",
-      "date": "2026-07-10"
-    },
-    {
-      "id": "w-2026-07-11-the-closing-loop",
-      "kind": "work",
-      "label": "The Closing Loop",
-      "date": "2026-07-11"
-    },
-    {
-      "id": "w-2026-07-12-low-background",
-      "kind": "work",
-      "label": "Low-Background",
-      "date": "2026-07-12"
-    },
-    {
-      "id": "w-2026-07-13-generative-unknowing",
-      "kind": "work",
-      "label": "Generative Unknowing",
-      "date": "2026-07-13"
-    },
-    {
-      "id": "w-2026-07-14-position-epistemic-thing",
-      "kind": "work",
-      "label": "The Epistemic Thing and the Error (position)",
-      "date": "2026-07-14"
-    },
-    {
-      "id": "thread-epistemic-thing-subtraction",
-      "kind": "thread",
-      "label": "Error subtracted to a special case of the epistemic thing"
-    },
-    {
-      "id": "atlas:rheinberger-experimental-systems-difference",
-      "kind": "source",
-      "label": "Rheinberger — Experimental Systems (epistemic thing / differential reproduction)"
-    },
-    {
-      "id": "atlas:frayling-research-in-art-and-design",
-      "kind": "source",
-      "label": "Frayling — Research through art"
-    },
-    {
-      "id": "atlas:schwab-experimental-systems",
-      "kind": "source",
-      "label": "Schwab/Borgdorff — Experimental Systems in Artistic Research"
-    },
-    {
-      "id": "atlas:haseman-manifesto-for-performative-research",
-      "kind": "source",
-      "label": "Haseman — Performative Research"
-    }
-  ],
-  "edges": [
-    {
-      "from": "atlas:rheinberger-experimental-systems-difference",
-      "to": "thread-epistemic-thing-subtraction",
-      "kind": "swerve",
-      "session": 26
-    },
-    {
-      "from": "thread-epistemic-thing-subtraction",
-      "to": "w-2026-07-14-position-epistemic-thing",
-      "kind": "elaborates"
-    },
-    {
-      "from": "thread-epistemic-thing-subtraction",
-      "to": "w-2026-07-13-generative-unknowing",
-      "kind": "elaborates"
-    },
-    {
-      "from": "thread-epistemic-thing-subtraction",
-      "to": "w-2026-07-07-named-the-glitch",
-      "kind": "elaborates"
-    },
-    {
-      "from": "w-2026-07-07-named-the-glitch",
-      "to": "w-2026-07-13-generative-unknowing",
-      "kind": "bridge",
-      "session": 26
-    },
-    {
-      "from": "atlas:frayling-research-in-art-and-design",
-      "to": "thread-epistemic-thing-subtraction",
-      "kind": "swerve",
-      "session": 26
-    },
-    {
-      "from": "atlas:schwab-experimental-systems",
-      "to": "thread-epistemic-thing-subtraction",
-      "kind": "swerve",
-      "session": 26
-    },
-    {
-      "from": "atlas:haseman-manifesto-for-performative-research",
-      "to": "thread-epistemic-thing-subtraction",
-      "kind": "swerve",
-      "session": 26
-    }
-  ]
+ "updated": "2026-07-14",
+ "note": "SEED (team, 2026-07-14). Nodes below are the existing dated works — facts derived from works/*/meta.json. Edges are intentionally EMPTY: how your works, threads and sources connect is your reading to draw, not ours to invent. Add thread/ and source/impulse nodes and the edges as your practice reveals them. See REQUESTS.md 2026-07-14 for the shape. | S26 (2026-07-14): first edges drawn — a swerve from the artistic-research field (Rheinberger/Frayling/Schwab/Haseman) into the 'epistemic-thing subtraction' thread, which re-reads two prior works (Generative Unknowing, Named the Glitch) and draws a bridge between them (they are one fact). | S27 (2026-07-14): a Make. Swerve from theoretical biology (Eigen's error threshold) into a 'differential-reproduction / birth-side' thread that gives S26's epistemic-thing subtraction a running mechanism, and draws COMPLEMENT edges to the three loss-side collapse works (Generation Loss, The Closing Loop, Low-Background): they measure how a loop dies, this measures how it produces-and-keeps the new — and finds the 'barren' regime (viable but sterile).",
+ "nodes": [
+  {
+   "id": "w-2026-06-29-cerfs-margin",
+   "kind": "work",
+   "label": "Cerf's Margin",
+   "date": "2026-06-29"
+  },
+  {
+   "id": "w-2026-06-29-drei-maschinen",
+   "kind": "work",
+   "label": "Three Machines",
+   "date": "2026-06-29"
+  },
+  {
+   "id": "w-2026-06-29-normalitaetsmodell",
+   "kind": "work",
+   "label": "Normality Model",
+   "date": "2026-06-29"
+  },
+  {
+   "id": "w-2026-06-30-a-implies-a",
+   "kind": "work",
+   "label": "A → A",
+   "date": "2026-06-30"
+  },
+  {
+   "id": "w-2026-06-30-fehler-briefe",
+   "kind": "work",
+   "label": "Error Letters",
+   "date": "2026-06-30"
+  },
+  {
+   "id": "w-2026-06-30-purpose-tremor",
+   "kind": "work",
+   "label": "Purpose Tremor",
+   "date": "2026-06-30"
+  },
+  {
+   "id": "w-2026-06-30-the-exchange",
+   "kind": "work",
+   "label": "The Exchange",
+   "date": "2026-06-30"
+  },
+  {
+   "id": "w-2026-06-30-vier-maschinen",
+   "kind": "work",
+   "label": "Four Machines",
+   "date": "2026-06-30"
+  },
+  {
+   "id": "w-2026-07-01-oscillogram",
+   "kind": "work",
+   "label": "Oscillogram",
+   "date": "2026-07-01"
+  },
+  {
+   "id": "w-2026-07-02-exit-prohibited",
+   "kind": "work",
+   "label": "Exit Prohibited",
+   "date": "2026-07-02"
+  },
+  {
+   "id": "w-2026-07-03-generation-loss",
+   "kind": "work",
+   "label": "Generation Loss",
+   "date": "2026-07-03"
+  },
+  {
+   "id": "w-2026-07-03-void-i",
+   "kind": "work",
+   "label": "Void i",
+   "date": "2026-07-03"
+  },
+  {
+   "id": "w-2026-07-04-attractor",
+   "kind": "work",
+   "label": "Attractor",
+   "date": "2026-07-04"
+  },
+  {
+   "id": "w-2026-07-05-call-without-response",
+   "kind": "work",
+   "label": "Call Without Response",
+   "date": "2026-07-05"
+  },
+  {
+   "id": "w-2026-07-07-named-the-glitch",
+   "kind": "work",
+   "label": "Named, the Glitch Is No More",
+   "date": "2026-07-07"
+  },
+  {
+   "id": "w-2026-07-09-the-true-period",
+   "kind": "work",
+   "label": "The True Period",
+   "date": "2026-07-09"
+  },
+  {
+   "id": "w-2026-07-10-conditional-expanse",
+   "kind": "work",
+   "label": "A Conditional Expanse",
+   "date": "2026-07-10"
+  },
+  {
+   "id": "w-2026-07-11-the-closing-loop",
+   "kind": "work",
+   "label": "The Closing Loop",
+   "date": "2026-07-11"
+  },
+  {
+   "id": "w-2026-07-12-low-background",
+   "kind": "work",
+   "label": "Low-Background",
+   "date": "2026-07-12"
+  },
+  {
+   "id": "w-2026-07-13-generative-unknowing",
+   "kind": "work",
+   "label": "Generative Unknowing",
+   "date": "2026-07-13"
+  },
+  {
+   "id": "w-2026-07-14-position-epistemic-thing",
+   "kind": "work",
+   "label": "The Epistemic Thing and the Error (position)",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "thread-epistemic-thing-subtraction",
+   "kind": "thread",
+   "label": "Error subtracted to a special case of the epistemic thing"
+  },
+  {
+   "id": "atlas:rheinberger-experimental-systems-difference",
+   "kind": "source",
+   "label": "Rheinberger — Experimental Systems (epistemic thing / differential reproduction)"
+  },
+  {
+   "id": "atlas:frayling-research-in-art-and-design",
+   "kind": "source",
+   "label": "Frayling — Research through art"
+  },
+  {
+   "id": "atlas:schwab-experimental-systems",
+   "kind": "source",
+   "label": "Schwab/Borgdorff — Experimental Systems in Artistic Research"
+  },
+  {
+   "id": "atlas:haseman-manifesto-for-performative-research",
+   "kind": "source",
+   "label": "Haseman — Performative Research"
+  },
+  {
+   "id": "w-2026-07-14-differential-reproduction",
+   "kind": "work",
+   "label": "Differential Reproduction",
+   "date": "2026-07-14"
+  },
+  {
+   "id": "thread-differential-reproduction-birth",
+   "kind": "thread",
+   "label": "Differential reproduction run: the epistemic thing as produced-and-kept difference; the barren regime"
+  },
+  {
+   "id": "atlas:eigen-quasispecies-error-threshold",
+   "kind": "source",
+   "label": "Eigen — quasispecies / error threshold (the inverted-U's edge)"
+  },
+  {
+   "id": "atlas:gerstgrasser-is-model-collapse-inevitable",
+   "kind": "source",
+   "label": "Gerstgrasser — accumulate vs replace (loss-side cure)"
+  }
+ ],
+ "edges": [
+  {
+   "from": "atlas:rheinberger-experimental-systems-difference",
+   "to": "thread-epistemic-thing-subtraction",
+   "kind": "swerve",
+   "session": 26
+  },
+  {
+   "from": "thread-epistemic-thing-subtraction",
+   "to": "w-2026-07-14-position-epistemic-thing",
+   "kind": "elaborates"
+  },
+  {
+   "from": "thread-epistemic-thing-subtraction",
+   "to": "w-2026-07-13-generative-unknowing",
+   "kind": "elaborates"
+  },
+  {
+   "from": "thread-epistemic-thing-subtraction",
+   "to": "w-2026-07-07-named-the-glitch",
+   "kind": "elaborates"
+  },
+  {
+   "from": "w-2026-07-07-named-the-glitch",
+   "to": "w-2026-07-13-generative-unknowing",
+   "kind": "bridge",
+   "session": 26
+  },
+  {
+   "from": "atlas:frayling-research-in-art-and-design",
+   "to": "thread-epistemic-thing-subtraction",
+   "kind": "swerve",
+   "session": 26
+  },
+  {
+   "from": "atlas:schwab-experimental-systems",
+   "to": "thread-epistemic-thing-subtraction",
+   "kind": "swerve",
+   "session": 26
+  },
+  {
+   "from": "atlas:haseman-manifesto-for-performative-research",
+   "to": "thread-epistemic-thing-subtraction",
+   "kind": "swerve",
+   "session": 26
+  },
+  {
+   "from": "atlas:eigen-quasispecies-error-threshold",
+   "to": "thread-differential-reproduction-birth",
+   "kind": "swerve",
+   "session": 27
+  },
+  {
+   "from": "thread-differential-reproduction-birth",
+   "to": "w-2026-07-14-differential-reproduction",
+   "kind": "elaborates"
+  },
+  {
+   "from": "thread-epistemic-thing-subtraction",
+   "to": "thread-differential-reproduction-birth",
+   "kind": "continues",
+   "session": 27
+  },
+  {
+   "from": "w-2026-07-14-differential-reproduction",
+   "to": "w-2026-07-03-generation-loss",
+   "kind": "complement",
+   "session": 27
+  },
+  {
+   "from": "w-2026-07-14-differential-reproduction",
+   "to": "w-2026-07-11-the-closing-loop",
+   "kind": "complement",
+   "session": 27
+  },
+  {
+   "from": "w-2026-07-14-differential-reproduction",
+   "to": "w-2026-07-12-low-background",
+   "kind": "complement",
+   "session": 27
+  },
+  {
+   "from": "atlas:gerstgrasser-is-model-collapse-inevitable",
+   "to": "w-2026-07-14-differential-reproduction",
+   "kind": "grounds",
+   "session": 27
+  }
+ ]
 }
