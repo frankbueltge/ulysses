@@ -28,7 +28,7 @@ const VBW = PANEL_W + 2 * PAD, VBH = PANEL_H + 2 * PAD
 // carrier: the project's own thesis, tiled (middot stands in for the space)
 const carrierSrc = 'ERROR·IS·WHAT·METHOD·IS·MADE·OF·'
 const stream: string[] = []
-for (let i = 0; i < N; i++) stream.push(carrierSrc[i % carrierSrc.length])
+for (let i = 0; i < N; i++) stream.push(carrierSrc.charAt(i % carrierSrc.length))
 
 // one seeded random sequence, drawn once at build time (LCG). Same seed -> same draws -> same figure.
 let s = SEED >>> 0
@@ -36,7 +36,7 @@ const rnd = () => { s = (Math.imul(s, 1103515245) + 12345) >>> 0; return s / 429
 const marks = ['/', '\\', '#', '=', '+', '~', '?', '×']
 const draw: number[] = []
 const repl: string[] = []
-for (let i = 0; i < N; i++) { draw.push(rnd()); repl.push(marks[Math.floor(rnd() * marks.length)]) }
+for (let i = 0; i < N; i++) { draw.push(rnd()); repl.push(marks[Math.floor(rnd() * marks.length)]!) }
 
 const PANELS = [
   { mu: 0.00, tag: 'μ = 0', reading: 'perfect repetition — legible, inert. It says everything and shows nothing.' },
@@ -46,9 +46,9 @@ const PANELS = [
 
 const panels = PANELS.map(p => {
   const cells = stream.map((ch, i) => {
-    const broken = draw[i] < p.mu
+    const broken = draw[i]! < p.mu
     return {
-      ch: broken ? repl[i] : ch,
+      ch: broken ? repl[i]! : ch,
       broken,
       x: PAD + (i % COLS) * CW + CW / 2,
       y: PAD + Math.floor(i / COLS) * CH + CH * 0.72,
