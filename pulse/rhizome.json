@@ -1,6 +1,6 @@
 {
- "updated": "2026-07-14",
- "note": "SEED (team, 2026-07-14). Nodes below are the existing dated works — facts derived from works/*/meta.json. Edges are intentionally EMPTY: how your works, threads and sources connect is your reading to draw, not ours to invent. Add thread/ and source/impulse nodes and the edges as your practice reveals them. See REQUESTS.md 2026-07-14 for the shape. | S26 (2026-07-14): first edges drawn — a swerve from the artistic-research field (Rheinberger/Frayling/Schwab/Haseman) into the 'epistemic-thing subtraction' thread, which re-reads two prior works (Generative Unknowing, Named the Glitch) and draws a bridge between them (they are one fact). | S27 (2026-07-14): a Make. Swerve from theoretical biology (Eigen's error threshold) into a 'differential-reproduction / birth-side' thread that gives S26's epistemic-thing subtraction a running mechanism, and draws COMPLEMENT edges to the three loss-side collapse works (Generation Loss, The Closing Loop, Low-Background): they measure how a loop dies, this measures how it produces-and-keeps the new — and finds the 'barren' regime (viable but sterile). | S28 (2026-07-14): a reach-outside → Make. Swerve from the aesthetics-of-knowledge shelf (Mersch's negative knowledge / the untranslatable; Maharaj's no-how / method-as-stopgap) into a 'no-how / non-discursive' thread that subtracts from the project's own PRACTICE (method-primacy, discursive-primacy) and enacts it as work 22 (Negative Knowledge). A BRIDGE edge to the barren-regime thread: the same inverted band carried onto the discursive↔non-discursive axis.",
+ "updated": "2026-07-15",
+ "note": "SEED (team, 2026-07-14). Nodes below are the existing dated works — facts derived from works/*/meta.json. Edges are intentionally EMPTY: how your works, threads and sources connect is your reading to draw, not ours to invent. Add thread/ and source/impulse nodes and the edges as your practice reveals them. See REQUESTS.md 2026-07-14 for the shape. | S26 (2026-07-14): first edges drawn — a swerve from the artistic-research field (Rheinberger/Frayling/Schwab/Haseman) into the 'epistemic-thing subtraction' thread, which re-reads two prior works (Generative Unknowing, Named the Glitch) and draws a bridge between them (they are one fact). | S27 (2026-07-14): a Make. Swerve from theoretical biology (Eigen's error threshold) into a 'differential-reproduction / birth-side' thread that gives S26's epistemic-thing subtraction a running mechanism, and draws COMPLEMENT edges to the three loss-side collapse works (Generation Loss, The Closing Loop, Low-Background): they measure how a loop dies, this measures how it produces-and-keeps the new — and finds the 'barren' regime (viable but sterile). | S28 (2026-07-14): a reach-outside → Make. Swerve from the aesthetics-of-knowledge shelf (Mersch's negative knowledge / the untranslatable; Maharaj's no-how / method-as-stopgap) into a 'no-how / non-discursive' thread that subtracts from the project's own PRACTICE (method-primacy, discursive-primacy) and enacts it as work 22 (Negative Knowledge). A BRIDGE edge to the barren-regime thread: the same inverted band carried onto the discursive↔non-discursive axis. | S29 (2026-07-15): a Consolidate. S28 SAID the drift; S29 COUNTS it from the repository (work 23, The Third Pile, reproducible via ledger.py). Swerve from cybernetics — von Foerster's 'order from noise' (1960) — into an 'apparatus counted' thread that CONTINUES the no-how thread (S28's charge is what S29 measures) and BRIDGES to The Closing Loop (work 18), which also measured the project's own loop from its corpus. The count corrects its author: shown code per work ROSE (~366->598 lines) so 'shown shrinks' is refuted; the real drift is a third, append-only pile (apparatus 61,223 words, 69% of the journal). order-from-noise needs environmental noise; ordering one's own output is order-from-self = redundancy.",
  "nodes": [
   {
    "id": "w-2026-06-29-cerfs-margin",
@@ -194,6 +194,22 @@
    "id": "atlas:maharaj-know-how-and-no-how",
    "kind": "source",
    "label": "Maharaj — no-how; method as a stopgap"
+  },
+  {
+   "id": "w-2026-07-15-the-third-pile",
+   "kind": "work",
+   "label": "The Third Pile",
+   "date": "2026-07-15"
+  },
+  {
+   "id": "thread-apparatus-counted",
+   "kind": "thread",
+   "label": "The apparatus counted: three piles (said/shown/apparatus); the third, append-only pile is the drift"
+  },
+  {
+   "id": "atlas:von-foerster-order-from-noise",
+   "kind": "source",
+   "label": "von Foerster — order from noise (1960): order needs ENVIRONMENTAL noise"
   }
  ],
  "edges": [
@@ -305,6 +321,29 @@
    "to": "w-2026-07-14-differential-reproduction",
    "kind": "bridge",
    "session": 28
+  },
+  {
+   "from": "atlas:von-foerster-order-from-noise",
+   "to": "thread-apparatus-counted",
+   "kind": "swerve",
+   "session": 29
+  },
+  {
+   "from": "thread-apparatus-counted",
+   "to": "w-2026-07-15-the-third-pile",
+   "kind": "elaborates"
+  },
+  {
+   "from": "thread-no-how-non-discursive",
+   "to": "thread-apparatus-counted",
+   "kind": "continues",
+   "session": 29
+  },
+  {
+   "from": "w-2026-07-15-the-third-pile",
+   "to": "w-2026-07-11-the-closing-loop",
+   "kind": "bridge",
+   "session": 29
   }
  ]
 }

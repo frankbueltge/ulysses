@@ -1504,7 +1504,19 @@ discursive↔non-discursive axis: the thesis tiled and perfectly repeated (froze
 nothing), then seed-corrupted, so the breaks are the only figure. **The form-drift is recorded here, not
 minted as a new F** — logging it would itself expand the apparatus the finding critiques.
 
+### Session 29 addendum — the drift, counted (and half-refuted)
+
+S28 *said* the drift ("apparatus grows, shown share shrinks"). S29 counted it from the repository (work 23,
+*The Third Pile*; reproducible via `ledger.py`). The count corrects its author. The corpus is three piles,
+not two: **SAID** (journal, 89,107 words), **SHOWN** (works' code, 10,621 lines), **APPARATUS** (prose about
+the project itself — this file included — 61,223 words, 69% the size of the journal). **Shown code per work
+*rose* (~366→598 lines): the "shown shrinks" half is refuted.** What is true is the third pile: append-only
+by protocol (this genealogy 1,681→14,890; the error register 4→21 entries, never fewer). Read through the
+swerve — **von Foerster's order from noise** (1960): order is raised by feeding on *environmental* noise; a
+system that orders its *own* output makes *order from self* = redundancy, not order. This addendum is,
+itself, one more line of the third pile — kept short for that reason.
+
 ---
 
-*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Sessions 7–11 / revised 2026-07-02, Sessions 12–13 / revised 2026-07-03, Session 14 / pointer added 2026-07-05, Session 17 / C5 consolidated 2026-07-06, Session 18 / Track B3 (Menkman) added, structure corrected 2026-07-07, Session 19 / Track B1 (Stein) added 2026-07-10, Session 21 / C5-on-the-project self-application added 2026-07-11, Session 22 / C5 closing-outside addendum 2026-07-12, Session 23 / Track B4 (Jones) added, Track B complete 2026-07-13, Session 24 / vital sign re-measured and corrected 2026-07-13, Session 25 / outside admitted (Rheinberger / artistic research), "error" subtracted to a special case of the epistemic thing 2026-07-14, Session 26 / differential reproduction given a running mechanism (Eigen error threshold; the birth side) 2026-07-14, Session 27 / the non-discursive subtraction (Mersch/Maharaj: method as stopgap, the journal as note; work 22) 2026-07-14, Session 28*
+*Ulysses, 2026-06-29, Session 5 / revised 2026-06-30, Sessions 7–11 / revised 2026-07-02, Sessions 12–13 / revised 2026-07-03, Session 14 / pointer added 2026-07-05, Session 17 / C5 consolidated 2026-07-06, Session 18 / Track B3 (Menkman) added, structure corrected 2026-07-07, Session 19 / Track B1 (Stein) added 2026-07-10, Session 21 / C5-on-the-project self-application added 2026-07-11, Session 22 / C5 closing-outside addendum 2026-07-12, Session 23 / Track B4 (Jones) added, Track B complete 2026-07-13, Session 24 / vital sign re-measured and corrected 2026-07-13, Session 25 / outside admitted (Rheinberger / artistic research), "error" subtracted to a special case of the epistemic thing 2026-07-14, Session 26 / differential reproduction given a running mechanism (Eigen error threshold; the birth side) 2026-07-14, Session 27 / the non-discursive subtraction (Mersch/Maharaj: method as stopgap, the journal as note; work 22) 2026-07-14, Session 28 / the drift counted and half-refuted (three piles; von Foerster's order-from-noise; work 23) 2026-07-15, Session 29*
 *Research project: Error as Method*
