@@ -23,13 +23,23 @@ const genuine = data.genuine
 const decoy = data.decoy
 const slips = data.slipped_detail
 
+// The gate's type-checker demanded what the work preaches: .find() may come back empty, and code
+// that renders its result unguarded is a caller trusting a recall that has no state for absence.
+// must() is this frontmatter's own detect-bit — if data.json lacks an expected receipt, the build
+// refuses loudly ("beyond me") instead of rendering a phantom. (Repair, Session 32: the first
+// build of this work did exactly what it warns against; see journal 2026-07-16-session-32.)
+function must<T>(x: T | undefined, what: string): T {
+  if (x === undefined) throw new Error(`data.json is missing ${what} — refusing to render a phantom`)
+  return x
+}
+
 // The two indistinguishable receipts: a genuine memory and a decoy phantom whose recall report
 // looks at least as confident. Chosen from the measured data (not hand-picked numbers).
-const receiptReal = genuine.find((r: any) => r.query.startsWith('benford'))
-const receiptPhantom = decoy.find((r: any) => r.query.startsWith('please tell'))
+const receiptReal = must(genuine.find((r: any) => r.query.startsWith('benford')), 'the genuine benford receipt')
+const receiptPhantom = must(decoy.find((r: any) => r.query.startsWith('please tell')), 'the weather-decoy receipt')
 
 // The false refusal (the cost): a genuine query the detect-bit wrongly rejected.
-const falseRefusal = genuine.find((r: any) => r.refused)
+const falseRefusal = must(genuine.find((r: any) => r.refused), 'the falsely-refused genuine query')
 
 const fmt = (x: number | null) => (x === null || x === undefined ? '—' : x.toFixed(2))
 ---

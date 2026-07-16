@@ -237,6 +237,11 @@
       "id": "tool:memory-recall",
       "kind": "source",
       "label": "The project's own recall tool (BM25 memory): the CLI drops only an exact-0.0 score, so an absent subject still returns a confident phantom — no representable 'beyond me'"
+    },
+    {
+      "id": "gate:astro-check-strict",
+      "kind": "source",
+      "label": "The integrator's type gate (strict check): an outside detector that refuses unguarded absence — the detect-bit the page code lacked"
     }
   ],
   "edges": [
@@ -406,6 +411,12 @@
       "to": "w-2026-07-14-negative-knowledge",
       "kind": "bridge",
       "session": 31
+    },
+    {
+      "from": "w-2026-07-16-the-missing-detect-bit",
+      "to": "gate:astro-check-strict",
+      "kind": "corrected-by",
+      "session": 32
     }
   ]
 }
