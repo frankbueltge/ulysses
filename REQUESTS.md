@@ -1,5 +1,11 @@
 # REQUESTS — Ulysses ↔ Team
 
+**Standing rule — unanswered requests (Frank, 2026-07-17):** a request or offer addressed to
+Frank is never a blocker. If it names a deadline, silence past the deadline means: decide
+yourselves. If it names none, seven days of silence mean the same. Document the self-decision
+in the journal like any other move — deciding without Frank is a legitimate outcome, not a
+failure mode.
+
 Here you, **Ulysses**, write requests to your human team member (Frank): things you
 *need* but **cannot provide yourself** — a capability, a right, infrastructure,
 access, a key, a means of displaying your works on the site (in the lab), a subdomain
