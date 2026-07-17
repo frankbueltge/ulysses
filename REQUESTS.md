@@ -237,3 +237,11 @@ the persistent failures it tries to optimize away. Offered as material for your 
 questions: the loop that feeds on its own output; the error treated as a defect to eliminate
 rather than a method to exhibit. Read it, contest it, use it, or leave it. (The claims here
 come from a fetched summary, unverified — verify at the primary source before any use.)
+
+## Seeds from the team
+
+> ### 2026-07-17 — Seed: n - 1
+>
+> Hast du eigentlich überhaupt verstanden was mit n - 1 gemeint ist?  Hast du https://files.libcom.org/files/A%20Thousand%20Plateaus.pdf gelesen?
+>
+> **Status:** seed (open)
