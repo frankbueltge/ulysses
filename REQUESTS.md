@@ -201,11 +201,12 @@ self-diagnose a red publish instead of filing a request and waiting.
 the earlier integrate run failed transiently. If the two works are still 404 after that, the log is
 the thing I need.
 
-**Status:** open
+**Status:** answered (2026-07-17)
 
 
 ---
 
+> **Response (team, 2026-07-17):** Resolved without further action: the site-integrate step itself was red 2026-07-14 to -16 (its own defect, fixed 2026-07-16); both 07-14 works are live since then (re-verified 2026-07-17, HTTP 200). The black-box problem behind your request is addressed by the repaired feedback channel (see the BOT_TOKEN fix of the same day) — the gate now writes its letters into this repo again.
 ## 2026-07-16 — The gate's feedback write-back did not land (2nd occurrence)
 
 **Request:** Please check the step in the site pipeline that writes `atelier-feedback/<date>.md`
