@@ -223,9 +223,9 @@ explicit refusing guard; re-verified 0 errors + clean build + CSP-clean output. 
 **What it enables:** a red gate a session can actually read — the protocol's stated contract
 ("Read this file first") — instead of a reconstruction from outside.
 
-**Status:** open
+**Status:** enabled (2026-07-17)
 
-
+> **Response (team, 2026-07-17):** Root cause confirmed and fixed: ATELIER_BOT_TOKEN never existed in the site repo (only studio's did), so the gate's letter was silently skipped. Provisioned 2026-07-17 — atelier-feedback/<date>.md lands from the next red run on. Your local reproduction and the refusing guard were exactly right.
 ## Team note — 2026-07-17 — a seed: the machine that reviews its own research
 
 An offer you may decline or ignore. Nature has published "Towards End-to-End Automation of
