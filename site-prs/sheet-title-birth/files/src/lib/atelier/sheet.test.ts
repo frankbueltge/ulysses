@@ -92,18 +92,55 @@ describe('sheetTitle', () => {
     const title = sheetTitle(rhizome)
     const labels = rhizome.nodes.filter((n) => n.kind === 'thread').map((n) => n.label)
     expect(labels).toContain(title)
-    // the youngest thread is the one born in the highest THREAD-targeted swerve session. A
-    // source→work swerve (an island, n−1) never titles the sheet — an uncentred work organizes
-    // nothing; that is what uncentred means — so the title falls through work targets to the
-    // newest thread.
-    const threadIds = new Set(rhizome.nodes.filter((n) => n.kind === 'thread').map((n) => n.id))
-    const threadSwerves = rhizome.edges.filter(
-      (e) => e.kind === 'swerve' && threadIds.has(e.to) && typeof e.session === 'number',
-    )
-    const maxSession = Math.max(...threadSwerves.map((e) => e.session as number))
-    const youngest = threadSwerves.find((e) => e.session === maxSession)
-    const node = rhizome.nodes.find((n) => n.id === youngest?.to)
-    expect(title).toBe(node?.label)
+    // The youngest thread is the one whose BIRTH — its FIRST (lowest-session) thread-targeted
+    // swerve — is the latest. This mirrors sheetTitle exactly, including its `>=` tie-break
+    // (later thread in node order wins a tie). The old reconstruction here took the thread of
+    // the single youngest SWERVE, which silently assumed each thread is swerved in only one
+    // session; once a thread gathers a LATER outside (a re-swerved older thread — the rhizome's
+    // lateral growth), that latest swerve can land on an OLD thread, and "thread of the youngest
+    // swerve" ≠ "youngest-born thread". A re-swerved old line must NOT re-title the sheet:
+    // the title tracks where a NEW line was born, not where an old one was touched again.
+    const threads = rhizome.nodes.filter((n) => n.kind === 'thread')
+    const birth = new Map<string, number>()
+    for (const e of rhizome.edges) {
+      if (e.kind !== 'swerve' || typeof e.session !== 'number') continue
+      if (!threads.some((t) => t.id === e.to)) continue // thread-targeted swerves only (islands never title)
+      const prev = birth.get(e.to)
+      if (prev === undefined || e.session < prev) birth.set(e.to, e.session)
+    }
+    let expected: (typeof threads)[number] | undefined
+    let bestSession = -Infinity
+    for (const t of threads) {
+      const s = birth.get(t.id) ?? -Infinity
+      if (s >= bestSession) {
+        bestSession = s
+        expected = t
+      }
+    }
+    expect(title).toBe(expected?.label)
+  })
+
+  it('a later swerve onto an OLDER thread does not re-title the sheet (birth, not latest touch)', () => {
+    // th-old is born first (S1); th-new is born later (S2) and is therefore the youngest thread.
+    // A THIRD swerve (S3) then lands back on th-old — the rhizome returning to an old line with a
+    // new outside. S3 is the youngest swerve overall, but it re-titles nothing: th-new stays the
+    // sheet's title because a thread's age is its BIRTH, not its most recent visit.
+    const reSwerved: Rhizome = {
+      updated: '2026-07-18',
+      nodes: [
+        { id: 'th-old', kind: 'thread', label: 'the older thread' },
+        { id: 'th-new', kind: 'thread', label: 'the younger thread' },
+        { id: 'src-a', kind: 'source', label: 'first outside' },
+        { id: 'src-b', kind: 'source', label: 'second outside' },
+        { id: 'src-c', kind: 'source', label: 'a later outside onto the old thread' },
+      ],
+      edges: [
+        { from: 'src-a', to: 'th-old', kind: 'swerve', session: 1 },
+        { from: 'src-b', to: 'th-new', kind: 'swerve', session: 2 },
+        { from: 'src-c', to: 'th-old', kind: 'swerve', session: 3 },
+      ],
+    }
+    expect(sheetTitle(reSwerved)).toBe('the younger thread')
   })
 })
 
@@ -168,5 +205,46 @@ describe('source→work island (n−1)', () => {
     expect((svg.match(/class="rp"/g) ?? []).length).toBe(
       rhizome.edges.filter((e) => e.kind === 'swerve').length,
     )
+  })
+})
+
+// Regression (2026-07-18): a thread can gather swerves across SEVERAL sessions (the n−1
+// continuation). The elbow used to mark only Math.min of them, so a later session's swerve
+// went unlabelled — first exposed live when S42 added a second swerve to a thread already
+// swerved at S40, turning the whole atelier build red. The mark is now per distinct session.
+describe('buildSheetSvg — multi-session swerves on one thread', () => {
+  const multiSession: Rhizome = {
+    nodes: [
+      { id: 'th', kind: 'thread', label: 'a thread that gathers outsides over time' },
+      { id: 'src-a', kind: 'source', label: 'first outside' },
+      { id: 'src-b', kind: 'source', label: 'a later outside' },
+      { id: 'w', kind: 'work', label: 'the work', date: '2026-07-18' },
+    ],
+    edges: [
+      { from: 'src-a', to: 'th', kind: 'swerve', session: 7 },
+      { from: 'src-b', to: 'th', kind: 'swerve', session: 9 },
+      { from: 'th', to: 'w', kind: 'elaborates' },
+    ],
+  } as unknown as Rhizome
+
+  it('marks EVERY distinct swerve session, not only the earliest', () => {
+    const svg = buildSheetSvg(multiSession)
+    expect(svg).toContain('>S7</text>') // the birth
+    expect(svg).toContain('>S9</text>') // the later admission — used to be dropped by Math.min
+  })
+
+  it('draws one red kink per swerve source (both admissions are real)', () => {
+    const svg = buildSheetSvg(multiSession)
+    expect((svg.match(/class="rp"/g) ?? []).length).toBe(2)
+  })
+
+  it('a single-session thread still shows exactly one mark (no regression)', () => {
+    const svg = buildSheetSvg(multiSession)
+    // src-b removed → only S7 remains
+    const single = { ...multiSession, edges: multiSession.edges.filter((e) => e.session !== 9) } as Rhizome
+    const svgSingle = buildSheetSvg(single)
+    expect((svgSingle.match(/>S7</g) ?? []).length).toBe(1)
+    expect(svgSingle).not.toContain('>S9</text>')
+    expect(svg).toContain('>S9</text>') // sanity: the two-session case still has both
   })
 })
