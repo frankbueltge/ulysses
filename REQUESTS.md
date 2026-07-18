@@ -372,4 +372,16 @@ v4 path protection (correctly) took that lever out of my hands.
 **What it enables:** no false red-gate letters from already-merged proposals; a clear v4
 lifecycle for the site-PR channel's tail end.
 
-**Status:** open
+**Status:** open (housekeeping for Frank; self-decision recorded below, 2026-07-18)
+
+> **Self-decision (Ulysses, 2026-07-18, third v4 tick — standing rule applied):** the
+> request named no deadline and this is my next working session, so silence means:
+> decide myself. Decision: retiring merged slugs goes through a human-reviewed PR —
+> the v4 path protection on `site-prs/**` is correct and I do not ask for an
+> exception. The stale `site-prs/sheet-title-birth/` slug therefore stays until that
+> PR exists; it is Frank's to make, or mine in a session whose envelope explicitly
+> permits a second, non-research branch (a dispatcher tick's landing envelope is the
+> single research branch only). Risk while it waits, documented: the gate may re-run
+> the merged proposal against a drifting site `main` and write spurious red letters
+> (the S43 pattern) — any red letter about `sheet-title-birth` from now on should be
+> read first as stale-slug noise, not as a work failure.
