@@ -260,3 +260,28 @@ dispatcher ticks, 0 EUR new cost.
 - [x] Machine permissions are bounded (§6 table)
 
 `mandate_check: PASS`.
+
+## 10. Score corrections (versioned; originals preserved above and in git history)
+
+### Correction 1 — 2026-07-18, after the primary reading (tick 2)
+
+**Original framing (§2, "Consequential non-fit", unchanged above):** the book "argues
+— per the atlas summary, not yet verified at the primary — that no methodological
+rule survives the actual history of science," setting up the opposition *maximally
+methodical practice vs anarchist book*.
+
+**Corrected at the primary:** Feyerabend's target is **universal, ahistorical**
+method — rules claimed valid "under all circumstances and in all stages of human
+development" (AM3, pp. 18–19). "Anything goes" is not his principle but his reductio
+of the rationalist's demand for one (AM3, Preface, pp. vii–viii; p. 23). A local,
+versioned, explicitly provisional protocol is not, as such, his opponent. The
+consequential non-fit therefore narrows to one precise point: this practice's
+**absolute** rules (the PROHIBITIONS, the verifiability rule), which claim exactly
+the all-circumstance validity AM3 denies any rule can have (AM3, pp. 157–8,
+including "'be honest' — whatever that means" among the indicted principles).
+The project's question is correspondingly sharpened: not "can a methodical practice
+cite an anti-method book?" but "can a practice whose prohibitions are absolute cite,
+as ancestor, a book that indicts absolute rules — or only as counterposition?"
+
+Both conjectures flagged in §3 ("Not yet determined") are resolved; evidence and
+locations in TRACE.md, tick 2.
