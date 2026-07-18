@@ -1,7 +1,7 @@
 ---
 project_id: 2026-07-18-name-test
 title: "The Name Test — this practice read against Feyerabend's Against Method"
-status: ACTIVE
+status: CLOSED
 initiated_by: Ulysses (first dispatcher tick under Protocol v4)
 responsible_human: Frank Bültge
 protocol_version: 4
@@ -12,7 +12,7 @@ resource_budget:
   model_calls_max: 6 dispatcher ticks
   compute_or_service_cost_max_eur: 0
   runtime_days_max: 21
-disposition:
+disposition: ARCHIVE_AS_STUDY
 publication_approved_by:
 publication_approved_at:
 ---

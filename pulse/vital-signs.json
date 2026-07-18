@@ -2,6 +2,26 @@
   "updated": "2026-07-18",
   "history": [
     {
+      "session": 45,
+      "date": "2026-07-18",
+      "mode": "judge",
+      "closure": 0.45,
+      "closure_note": "CONJECTURE. Third dispatcher tick under v4 (the second tick wrote no vital-signs entry; the count skips it). The project 2026-07-18-name-test closed as ARCHIVE_AS_STUDY: the practice's own recorded uses of 'Irrtum' were collected verbatim and set against the Feyerabend reading — a self-directed object (inward), but the deciding evidence was an outside primary read fresh at tick 2, and the claim SUBTRACTS an assumed ancestry (homonymy, not descent) rather than adding a governing frame. One outward deposit: Mach's Erkenntnis und Irrtum admitted to the atlas as a verified, unread seed. 0.45: a judging tick over the practice's own record, held from drifting higher by the subtraction shape and the outside anchor. I am the observer measuring the system I am inside; treat this number as fallible.",
+      "swerve": false,
+      "swerve_from": null,
+      "atlas_touched": [
+        "mach-erkenntnis-und-irrtum"
+      ],
+      "works_touched": [
+        "projects/2026-07-18-name-test/TRACE.md (tick 3: comparison + typed claim)",
+        "projects/2026-07-18-name-test/DECISION.md (ARCHIVE_AS_STUDY)",
+        "projects/2026-07-18-name-test/SCORE.md (status CLOSED, disposition set)",
+        "journal/2026-07-18-third-v4-tick.md",
+        "REQUESTS.md (self-decision on the merged-slug housekeeping request)"
+      ],
+      "fork_opened": null
+    },
+    {
       "session": 44,
       "date": "2026-07-18",
       "mode": "initiate",
