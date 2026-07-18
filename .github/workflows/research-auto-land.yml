@@ -1,0 +1,183 @@
+# Safe auto-land of reversible research records (Protocol v4, M-05).
+# Replaces the old auto-land.yml, which coupled branch landing to a site dispatch —
+# repository integration and public appearance are now separate operations. The site's
+# importer runs on its own schedule and remains publication-neutral; a curated Atelier
+# work additionally requires a human-approved PUBLICATION.json (never created here).
+#
+# Mechanism (documented choice per migration patch M-05): direct merge in this workflow,
+# serialised by the concurrency group — same proven structure as the old workflow, plus a
+# per-branch validation gate. Branch forms:
+#   • ulysses/*  — the scheduled research runs (no PR; lands when the gate passes)
+#   • claude/*   — a manually started routine/cloud session (opens a PR; lands only while
+#                  the PR is OPEN and not a draft — a closed PR is never resurrected)
+#
+# THE GATE (all must hold, else the branch is REFUSED and left for human review):
+#   1. only auto-land-eligible paths changed (allowlist from governance/STANDING-DELEGATION.md §4);
+#   2. no protected path touched (PROTOCOL.md, governance/, .github/, tools/, works/, …);
+#   3. no PUBLICATION.json created or modified anywhere;
+#   4. no changed project is escalated or quarantined (mandate_check/status/disposition);
+#   5. main's tools/validate_v4_projects.py passes against the branch tree.
+# A refusal is a legitimate outcome (e.g. an escalated project waiting for Frank), not an
+# error. HONESTY RULE (kept from the old workflow): an ELIGIBLE branch whose merge or
+# push fails turns the job RED. Green means "everything eligible landed" — never
+# "failures were logged away". Refusals are fed back to atelier-feedback/ so the next
+# session can react.
+name: Auto-land research
+
+on:
+  push:
+    branches: ['ulysses/**', 'claude/**']
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+  schedule:
+    - cron: '0 2 * * *'   # 02:00 UTC safety net, ~1h after a scheduled research run
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: read   # to check whether a claude/* branch still has an open PR
+
+concurrency:
+  group: auto-land
+  cancel-in-progress: false
+
+jobs:
+  land:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate and merge eligible research branches into main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "Atelier"
+          git config user.email "ulysses@irrtum-als-methode.invalid"
+          git fetch origin '+refs/heads/ulysses/*:refs/remotes/origin/ulysses/*' \
+                           '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
+
+          # Allowlist and protected paths — keep in sync with governance/STANDING-DELEGATION.md §4/§5.
+          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|docs/research-notes/|REQUESTS\.md$)'
+          PROTECT_RE='^(PROTOCOL\.md|README\.md|LICENSE\.md|SITE-API\.md|governance/|\.github/|tools/|works/|site-prs/|archive/)|(^|/)PUBLICATION\.json$'
+
+          landed=0
+          failed=0
+          summary=""
+          refusals=""
+          note() {
+            echo "outcome $1 $2"
+            summary="${summary}| \`$1\` | $2 |"$'\n'
+          }
+          refuse() {
+            note "$1" "$2"
+            refusals="${refusals}- \`$1\` — $2: $3"$'\n'
+          }
+
+          for b in $(git branch -r | sed 's/^[* ] *//' | grep -E '^origin/(ulysses|claude)/' || true); do
+            name="${b#origin/}"
+            echo "::group::considering $name"
+
+            # claude/* lands only while its PR is OPEN and not a draft (a closed PR means
+            # a human declined the session; it must never resurrect on main).
+            case "$name" in
+              claude/*)
+                pr_state=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$name" --state open \
+                  --json isDraft --jq 'if length == 0 then "none" elif .[0].isDraft then "draft" else "open" end' 2>/dev/null || echo none)
+                if [ "$pr_state" = "none" ]; then
+                  note "$name" skipped_no_pr; echo "::endgroup::"; continue
+                elif [ "$pr_state" = "draft" ]; then
+                  note "$name" skipped_draft_pr; echo "::endgroup::"; continue
+                fi ;;
+            esac
+
+            changed="$(git diff --name-only "origin/main...$b")"
+            if [ -z "$changed" ]; then
+              note "$name" skipped_empty; echo "::endgroup::"; continue
+            fi
+            printf '%s\n' "$changed"
+
+            # Gate 2+3: protected paths and publication metadata never auto-land.
+            bad="$(printf '%s\n' "$changed" | grep -E "$PROTECT_RE" | head -3 || true)"
+            if [ -n "$bad" ]; then
+              refuse "$name" refused_protected_path "$(echo "$bad" | tr '\n' ' ')"
+              echo "::endgroup::"; continue
+            fi
+            # Gate 1: everything else must be inside the allowlist.
+            bad="$(printf '%s\n' "$changed" | grep -Ev "$ALLOW_RE" | head -3 || true)"
+            if [ -n "$bad" ]; then
+              refuse "$name" refused_path_outside_allowlist "$(echo "$bad" | tr '\n' ' ')"
+              echo "::endgroup::"; continue
+            fi
+
+            # Gate 4+5: validate the branch TREE with MAIN's validator (tools/ is a
+            # protected path, so the validator cannot be altered by the branch itself).
+            worktree="$(mktemp -d)/wt"
+            git worktree add --detach "$worktree" "$b" >/dev/null
+            gate_ok=1
+            if ! python tools/validate_v4_projects.py "$worktree"; then
+              refuse "$name" refused_validation "see validator output above"
+              gate_ok=0
+            else
+              # No changed project may be escalated or quarantined.
+              project_dirs="$(printf '%s\n' "$changed" | awk -F/ '$1 == "projects" && $2 !~ /^_/ {print $1 "/" $2}' | sort -u)"
+              while IFS= read -r project_dir; do
+                [ -z "$project_dir" ] && continue
+                score="$worktree/$project_dir/SCORE.md"
+                if [ ! -f "$score" ]; then
+                  refuse "$name" refused_validation "$project_dir has no SCORE.md"
+                  gate_ok=0; break
+                fi
+                if grep -Eq '^mandate_check:[[:space:]]*ESCALATE|^status:[[:space:]]*QUARANTINED|^disposition:[[:space:]]*ESCALATE' "$score"; then
+                  refuse "$name" refused_escalation "$project_dir is escalated/quarantined and waits for human review"
+                  gate_ok=0; break
+                fi
+              done <<< "$project_dirs"
+            fi
+            git worktree remove --force "$worktree"
+            if [ "$gate_ok" = "0" ]; then echo "::endgroup::"; continue; fi
+
+            # Eligible: merge, push, delete the branch. Failures here are RED.
+            if git merge --no-edit "$b"; then
+              if git push origin main && git push origin --delete "$name"; then
+                landed=$((landed+1)); note "$name" landed
+              else
+                failed=$((failed+1)); note "$name" push_failed
+                git reset --hard origin/main   # never build later merges on an unpushed state
+              fi
+            else
+              failed=$((failed+1)); note "$name" conflict
+              git merge --abort || true
+            fi
+            echo "::endgroup::"
+          done
+
+          # Feed refusals back to the practice (non-fatal): the next session reads
+          # atelier-feedback/ during orientation. Refused branches stay untouched.
+          if [ -n "$refusals" ]; then
+            DATE=$(date -u +%F)
+            git checkout main >/dev/null 2>&1 || true
+            git reset --hard origin/main
+            mkdir -p atelier-feedback
+            {
+              printf '# Auto-land refusals %s\n\n' "$DATE"
+              printf 'These branches were NOT landed. A refusal is not an error: protected paths\n'
+              printf 'and escalated projects require a human-reviewed pull request (see\n'
+              printf 'governance/STANDING-DELEGATION.md §4/§5). Ordinary research records belong\n'
+              printf 'under the auto-land-eligible paths.\n\n%s' "$refusals"
+            } > "atelier-feedback/${DATE}-autoland-refusals.md"
+            git add atelier-feedback && git commit -m "feedback: auto-land refusals ${DATE}" \
+              && git push origin main || echo "::warning::refusal feedback not pushed (non-fatal)"
+          fi
+
+          printf '## Auto-land (Protocol v4)\n\n| branch | outcome |\n|---|---|\n%s\n**%s landed, %s failed**\n' \
+            "$summary" "$landed" "$failed" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$failed" -gt 0 ]; then
+            echo "::error::$failed eligible branch(es) failed to land — see outcome lines above"
+            exit 1
+          fi
