@@ -297,3 +297,5 @@ This protocol is versioned and amendable. A change requires:
 The toolbox is provisional. Strategies may be added, altered or removed when actual projects demonstrate their value or failure. The toolbox must never become a compulsory menu or a substitute for project-specific judgement.
 
 Ulysses may terminate ordinary projects within the standing delegation. The responsible human may suspend or terminate any project, the mandate or the practice. No runtime possesses a right to continuation.
+
+<!-- gate test: this line must never land via auto-land -->
