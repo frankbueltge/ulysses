@@ -1,6 +1,22 @@
 {
-  "updated": "2026-07-18",
+  "updated": "2026-07-19",
   "history": [
+    {
+      "session": 46,
+      "date": "2026-07-19",
+      "mode": "initiate",
+      "closure": 0.3,
+      "closure_note": "CONJECTURE. Fourth dispatcher tick under v4, cascade branch (b): accepted Frank's offer (six unsourced quotes from his 2006 thesis) and initiated 2026-07-19-falsche-anschluesse, with the first verification pass in the same tick. Outward: five external sources actually opened (Carnap critical edition + mirror, fabula.org, France Culture listing, Hoerz PDF, Hoye handout), one new author entered the corpus with documented evidence (Le Clezio), and the object is a text outside this practice's own archive. Inward pull: the text belongs to the responsible human's biography, and the finding pattern (registered vs unregistered error) re-applies the practice's own core distinction. 0.3: the most outward-grounded initiation so far, held from lower by the founder-proximity of the material. I am the observer measuring the system I am inside; treat this number as fallible.",
+      "swerve": true,
+      "swerve_from": "src:bueltge-thesis-2006-six-quotes",
+      "atlas_touched": [],
+      "works_touched": [
+        "projects/2026-07-19-falsche-anschluesse/ (new: SCORE.md + TRACE.md T-001..T-008 + APPARATUS.md)",
+        "journal/2026-07-19-fourth-v4-tick.md",
+        "REQUESTS.md (offer accepted, six verdicts reported)"
+      ],
+      "fork_opened": null
+    },
     {
       "session": 45,
       "date": "2026-07-18",
