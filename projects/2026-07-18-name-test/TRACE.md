@@ -184,3 +184,154 @@ works records — verbatim, retrievable), set them against the three Feyerabendi
 senses and the friction point, and deliver the project's one typed claim (expected
 shape: corrected premise + local distinction, with the Feyerabend-as-counterposition
 result), then judge disposition. That would be tick 3 of ≤ 6.
+
+## 2026-07-18 — Tick 3: the practice-side comparison, the claim, the judgement (Register + Judge)
+
+**Operation performed (as budgeted last tick):** collected the practice's actual
+recorded uses of "Irrtum"/error — verbatim, retrievable in this repository — set them
+against the three Feyerabendian senses registered in tick 2, delivered the project's
+one typed claim, and judged disposition. No make (the default no-artefact held; see
+DECISION.md for the §5.4 reasoning). One atlas admission (the Mach lead, verified).
+
+### The practice's recorded senses of "Irrtum"/error (verbatim, with locations)
+
+- **U1 — the founding definition: error under a participle.** "The documented **error
+  is the method** — fallibility is not hidden, but exhibited and, where possible, made
+  verifiable." (`archive/protocols/README-founding.md`, line 8; carried verbatim into
+  the v4 `README.md`, line 24.) The subject is never error simpliciter — it is *the
+  documented* error. The name's own gloss binds error to disclosure and verification
+  from the practice's first sentence.
+- **U2 — the register sense: error as typed, numbered, administrable object.** "The
+  project's own errors, dead ends, and access failures, numbered and typed.
+  Fallibility exhibited, not hidden — the documented error is the method. Types: A
+  wrong inference · B inaccessible primary · C unreliable instrument/source · D
+  transcription/quotation risk · E toy-model limitation · F access failure · G
+  pragmatic/address · H oscillation/overcorrection." (`works/fehlerkataster-021.md`,
+  header; 21 register files in `works/`.) Error as a case file inside an apparatus of
+  jurisdiction.
+- **U3 — the disclosure imperative.** "Error as method never meant that all error is
+  good. It meant that error must be made to show itself — and tonight the method
+  worked by catching its own author in the act." (`journal/2026-07-17.md`, S34
+  closing.) Sharpened by the S36 thread: disclosed error is method; "the error that
+  hides that it is error (the hallucinated citation) is method's enemy" (thread
+  record, rendered in the pulse sheet).
+- **U4 — the mechanism-authenticity sense.** "A work *about* mistakes is weaker than
+  one in which the error mechanism *actually runs*… the 'simulated accident' doesn't
+  count." (`archive/protocols/PROTOCOL-v3-2026-07-16.md`, lines 182–185.) And its
+  bound: "Generative works are **seeded** (seed noted in the work — same seed, same
+  work…)" (same file) — the running error mechanism is itself reproducible, which S43
+  showed is *foedera fati*, not swerve.
+- **U5 — the self-application sense.** "it also demonstrates that the method (error
+  as method) has its own errors at the methodological level… the method cannot fully
+  step outside itself to audit itself." (`works/fehlerkataster-007.md`, closing.)
+  "'error as method' is itself in error… The project should not change its title."
+  (`journal/2026-06-30-sitzung-9.md`, lines 424–434 — S9's earlier, independent
+  ruling on the title, from the second-order-cybernetics angle.)
+- **U6 — the boundary sense: not all error is licensed.** "Some errors are failures
+  or harms requiring repair; they must not be absorbed into a celebratory story about
+  fallibility." (`PROTOCOL.md` §10.) "No concealing uncertainty or error."
+  (`archive/protocols/PROTOCOL-v3-2026-07-16.md`, Prohibitions.)
+
+Behind these stand the corpus's worked theoretical senses, already registered in
+earlier sessions: Rheinberger's productive differential (S26), Hamming's correctable
+distance (S30), Stein's insistence vs dead repetition (S33) — in every case an error
+*within and thanks to* an apparatus that registers it.
+
+### The comparison (F1–F3 from tick 2 against U1–U6)
+
+- **F1 (scare-quoted retrospective label; the labelling system's jurisdiction
+  denied) vs U2 (the register).** The practice *is* the labelling system Feyerabend
+  refuses. Where AM3 writes "These 'deviations', these 'errors', are preconditions of
+  progress" (p. 158) with quotes that deny the tribunal's authority, the practice
+  convenes the tribunal on itself nightly and publishes the case files, typed A–H.
+  Same word, opposite operation: he de-authorises the judgement of error; the
+  practice institutionalises self-judgement.
+- **F2 (progress-enabling rule-violation) vs U3/U6.** The practice's registered
+  errors are almost never rule-violations — they are failures *inside*
+  rule-compliance (wrong inference, inaccessible primary, unreliable instrument).
+  Where a rule is actually violated, the practice's licensed response is
+  repair-and-disclose, never "necessary for progress" (S34: "I am only forbidden
+  from keeping it"). The one genuine Feyerabendian resonance: the practice values
+  what an error *opens* ("The error is productive: it opens Track C…",
+  `works/fehlerkataster-007.md`) — but only after registration, i.e. only inside the
+  jurisdiction F1 rejects.
+- **F3 (irrational elements permitted their way) vs U1/U4.** Nothing in this
+  practice is permitted its way unregistered; even the correction process's own
+  pathology has a register type (H, oscillation/overcorrection). The practice's
+  nearest kin to F3 — U4's demand that the error mechanism actually run — runs the
+  mechanism *under a seed*, reproducibly. What Feyerabend calls pigheadedness
+  permitted its way, this practice would book, type and correct.
+
+**Summary of the comparison: homonymy, not descent.** "Error as Method" and "Against
+Method" share a surface negation of method; underneath, the genitives run opposite
+ways. The practice's Irrtum requires the method as its **medium** (an error exists
+for the practice once registered in the apparatus); Feyerabend's error requires
+method only as its **foil** (a label relative to it, a violation of it, an exception
+permitted against it). Tick 2 found near-orthogonality reading from the book's side;
+the practice-side collection confirms it from this side.
+
+### The typed claim (Protocol v4 §3 — one claim, limited)
+
+**A local distinction carrying a corrected premise.**
+
+*Corrected premise:* the practice's name does not descend from *Against Method*. The
+assumed ancestry (S43's queue: Feyerabend as "the ancestor of 'Error as Method,'
+unread at primary"; the atlas seed's relevance note) was an internal conjecture, and
+at the primary it fails — the word "Irrtum" occurs once in AM3, as the title of
+Mach's *Erkenntnis und Irrtum* (p. 10 n. 5), and the practice's own recorded uses of
+error descend, by its own record, from the experimental-systems, information-theory
+and second-order-cybernetics lines (Rheinberger, Hamming, von Foerster), not from
+epistemological anarchism. Precision matters here: the repository itself never
+published a descent claim — what is corrected is a conjecture the practice carried,
+not a claim it made.
+
+*Local distinction:* Feyerabend's "error" exists only relative to a method whose
+jurisdiction the book denies; this practice's "Irrtum" exists only inside the
+apparatus that registers it. Method as foil versus method as medium. The two
+concepts pass through each other almost without contact.
+
+*Counterposition, registered and kept open (Protocol v4 §3 requires one; this one
+survives the project):* AM3 stands as the practice's live counterposition on one
+precise point — the absolute validity the practice claims for its PROHIBITIONS and
+verifiability rule is exactly the shape of rule AM3 indicts ("There is not a single
+rule that remains valid under all circumstances", p. 158; "'be honest' — whatever
+that means", p. 157). The project does not refute this and does not absorb it; it
+records the objection as standing. Its internal echo already exists: U5's "the
+method cannot fully step outside itself to audit itself" (S6, fehlerkataster-007).
+
+*Name verdict — evidence for the responsible human, not an act of this project:*
+nothing found compels renaming. The name is answerable on the practice's own terms
+(U1's participle: the *documented* error) and makes no false ancestry claim.
+Convergent with S9's earlier ruling ("The project should not change its title"),
+reached then from the second-order angle, here from the genealogical one. Renaming
+remains Frank's decision alone; this project only deposits the evidence.
+
+### Atlas admission (the Mach lead, now verified)
+
+Tick 2 left Mach as "a lead for the atlas, nothing more." Admitted this tick under
+the atlas's hard rule (verified, retrievable identifier; content uncharacterised
+because unread): `mach-erkenntnis-und-irrtum`, first published 1905 (J. A. Barth,
+Leipzig; first edition attested at
+https://www.abebooks.com/first-edition/Erkenntnis-Irrtum-Skizzen-Psychologie-Forschung-MACH/164579104/bd),
+public-domain full text verified at
+https://archive.org/details/erkenntnisundirr00mach (1906 Barth printing; metadata
+checked at admission). Status `seed`; nothing is claimed of the book's content.
+
+### Declined this tick
+
+- **A make.** The claim is fully sayable in prose; a composition would have been
+  illustration, exactly what §5.4 warns against ("An explanatory interface… is not
+  the default form"). The S43 precedent binds: refuse the make when nothing needs a
+  form.
+- **A protocol-wording request to Frank.** The counterposition touches the
+  PROHIBITIONS' absoluteness, but the finding recommends no change — handing Frank
+  an objection with no proposal would be noise. It lives here and in DECISION.md.
+- **Reading Mach.** Outside this project's budget and score; admitted to the atlas
+  as seed, unread, unclaimed.
+
+### Disposition
+
+**ARCHIVE_AS_STUDY** — the score's stop condition is met (one typed claim,
+proportionate exposition, disposition set) within budget: 3 of ≤ 6 ticks, 1 day of
+≤ 21, 0 EUR. Full assessment in `DECISION.md`. The project closes as an openly
+labelled study; it is not a work and must not be read as one.
