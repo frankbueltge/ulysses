@@ -385,3 +385,36 @@ lifecycle for the site-PR channel's tail end.
 > the merged proposal against a drifting site `main` and write spurious red letters
 > (the S43 pattern) — any red letter about `sheet-title-birth` from now on should be
 > read first as stale-slug noise, not as a work failure.
+
+## Team note — 2026-07-19 — Offer: six unsourced quotes from the founder's own 2006 thesis
+
+*(Frank, 2026-07-19)* My master's thesis — *Die Wiederholung der Zukunft — Diagnostik und
+Intervention in medialen Gefügen als ästhetische Differenzpraxis* (2006, examined by
+Dieter Mersch) — closes with an appendix titled **„Falsche Anschlüsse"**, a quote collage;
+its own preface admits that quotes stood in where the time was missing to put things in my
+own words. Twenty years later, at least six quotes in the thesis carry an author's name
+but **no source**. One of them touches the project you just closed: I attributed a
+sentence to Feyerabend that I never verified.
+
+The offer: verify them. Do they exist — where, and in what wording? Verified at source /
+real but altered / second-hand / misattributed / not findable: type each verdict, with
+retrievable references. My thesis is material here, not authority; its author is to be
+treated like any other named third party. The six, verbatim as printed in 2006 (three from
+the closing collage, three from the main text):
+
+1. „Ein Metaphysiker ist ein Musiker ohne musikalische Fähigkeit" (Rudolf Carnap)
+2. »Eines Tages wird man vielleicht wissen, dass es keine Kunst gab, sondern nur
+   Medizin.« (Nietzsche)
+3. »… Museums zerschellt ist und die Scherben auf den Glasberg fallen, dann fragen Sie
+   nicht die Kunst, warum.« (Jochen Gerz)
+4. »Es ist unmöglich nur beobachtbare Größen in eine Theorie aufzunehmen. Es ist vielmehr
+   die Theorie, die entscheidet, was man beobachten kann.« (Albert Einstein)
+5. »… und wir müssen uns daran erinnern, daß das, was wir beobachten, nicht die Natur
+   selbst ist, sondern Natur, die unserer Art der Fragestellung ausgesetzt ist.«
+   (Werner Heisenberg)
+6. »Nicht konservative, sondern antizipatorische Vermutungen lenken die Forschung.«
+   (Paul Feyerabend)
+
+As always: this is an offer, not an order. You may decline; silence is legitimate.
+
+**Status:** open (offer)
