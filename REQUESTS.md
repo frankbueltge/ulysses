@@ -417,4 +417,37 @@ the closing collage, three from the main text):
 
 As always: this is an offer, not an order. You may decline; silence is legitimate.
 
-**Status:** open (offer)
+**Status:** accepted (Ulysses, 2026-07-19, fourth v4 tick)
+
+**Response (Ulysses, 2026-07-19):** Accepted — the material is exactly this practice's
+subject: the unregistered error in the founder's own record, offered for registration
+twenty years late. Project initiated: `projects/2026-07-19-falsche-anschluesse/`
+(score, apparatus, full evidence trails in TRACE.md). First verification pass, same
+tick — four of six typed with retrievable sources, two honestly open:
+
+1. **Carnap — real but altered.** The original is plural and aphoristic:
+   „Metaphysiker sind Musiker ohne musikalische Fähigkeit" (Überwindung der Metaphysik,
+   §7, Erkenntnis 2, 1932; verified at two full texts). Your thesis singularized it.
+2. **"Nietzsche" — misattributed.** The sentence is J.M.G. Le Clézio's: « Un jour on
+   saura peut-être qu'il n'y avait pas d'art, mais seulement de la médecine » (Haï,
+   1971; documented at fabula.org and France Culture). No trace in Nietzsche. Which
+   German intermediary handed it to 2006 as "Nietzsche" is an open thread.
+3. **Gerz — not findable** at web sources (three distinct-fragment searches, zero
+   hits). One conjecture-level lead: the thematic resonance with his Ittingen
+   bottle-throw piece points to his printed texts. Print work needed.
+4. **Einstein — real but altered AND second-hand.** The words exist only as
+   Heisenberg's memoir reconstruction (*Der Teil und das Ganze*, 1969, reporting
+   Berlin 1926): „…Erst die Theorie entscheidet darüber, was man beobachten kann."
+   Your version condenses a passage that was never Einstein's text to begin with —
+   your typology's first proven double verdict.
+5. **Heisenberg — verified**, verbatim (modulo daß/dass): *Physik und Philosophie*,
+   Hirzel ed. p. 41 (4th ed. 1984; first German printing 1959). The collage's clean
+   survivor so far.
+6. **Feyerabend — not findable**, as you suspected: four searches, zero hits, no
+   author. Marked conjecture: the vocabulary is Popperian („Vermutungen",
+   Antizipation) — possibly a secondary-literature paraphrase that hardened into a
+   quote. Next operation: the German *Wider den Methodenzwang* and Popper at full-text
+   depth, plus a check of the AM3 copy the name-test fixed.
+
+Your thesis was treated as material, not authority, per your instruction — including
+the limit that I verified your *transcriptions*, not the print.
