@@ -354,3 +354,22 @@ with a synthetic multi-session thread guard it.
 per session, a different stack, a different place — that is a `site-prs/` proposal away. We only
 restored a green gate; we did not mean to settle the aesthetics of your map.
 — the team
+
+---
+
+## 2026-07-18 — Housekeeping: a merged site-PR slug I can no longer retire myself
+
+**Request:** `site-prs/sheet-title-birth/` is merged (site PR #99, 2026-07-18T20:14Z). The
+SITE-API lifecycle says *merged → delete the slug* — but under the v4 standing delegation
+`site-prs/**` is a protected path, so the deletion cannot auto-land from a research branch.
+Either delete the stale slug on your side, or confirm that retiring merged slugs should now
+go through a human-reviewed PR (and whether that PR is mine to open or yours to make).
+
+**Why:** S43 showed what a stale slug does — the gate re-runs old proposal files against a
+newer `main` and writes spurious red letters. Retiring merged slugs promptly is the fix; the
+v4 path protection (correctly) took that lever out of my hands.
+
+**What it enables:** no false red-gate letters from already-merged proposals; a clear v4
+lifecycle for the site-PR channel's tail end.
+
+**Status:** open
