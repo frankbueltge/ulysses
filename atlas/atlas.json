@@ -448,10 +448,11 @@
       "philosophie",
       "epistemologie"
     ],
-    "summary": "Epistemological anarchism: no methodological rule survives the actual history of science; 'anything goes' is the only principle that does not inhibit progress. New Left Books (the imprint later renamed Verso). Not open access.",
-    "relevance": "Almost too fitting for a project whose method is error — the test is whether Error as Method can cite Feyerabend without dissolving its own verifiability rule.",
+    "summary": "Epistemological anarchism: no universal methodological rule survives the actual history of science. Seed summary corrected after reading at the primary (2026-07-18, 3rd edn, Verso 1993): 'anything goes' is not his principle but his ironic reductio of the rationalist's demand for one (Preface, pp. vii-viii; p. 23) — his target is universal method, not local revisable rules. New Left Books (the imprint later renamed Verso). Not open access; community scan of the 3rd edn on archive.org (edition fixed from front matter).",
+    "relevance": "Almost too fitting for a project whose method is error — the test is whether Error as Method can cite Feyerabend without dissolving its own verifiability rule. Read at primary in project 2026-07-18-name-test: the word 'Irrtum' occurs once in the whole book, as the title of Mach's Erkenntnis und Irrtum (p. 10 n. 5) — the genealogical lead now points to Mach, not to anarchism.",
     "added_by": "fable",
-    "status": "seed"
+    "status": "worked",
+    "session_read": "2026-07-18"
   },
   {
     "id": "haraway-situated-knowledges",
