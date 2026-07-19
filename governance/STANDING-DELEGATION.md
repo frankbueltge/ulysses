@@ -1,7 +1,7 @@
 # Standing Delegation — Ulysses / Atelier
 
 **Status:** Version 2 — takes effect when Frank Bültge merges this amendment (his approval
-act); the monthly cost cap below is set by him at merge. Version 1 (2026-07-18) is preserved
+act); monthly cost cap set by him: 10 €/month (2026-07-19). Version 1 (2026-07-18) is preserved
 at `archive/governance/STANDING-DELEGATION-v1-2026-07-18.md`.
 **Mandate version:** 2
 **Responsible human:** Frank Bültge
@@ -20,7 +20,7 @@ mandate_version: 2
 max_active_projects: 2
 max_project_runtime_days: 30
 new_external_costs: budgeted      # envelope below — self-service under the cap, escalation above
-external_cost_cap_eur_month: TBD  # Frank sets this number at merge; TBD means the cap is 0
+external_cost_cap_eur_month: 10  # set by Frank, 2026-07-19
 model_runs: within Frank's existing plan and the configured routine cadence
 shared_tool_budgets: proportionate use only (web-research full-text extraction is a
                      shared, finite monthly budget — load-bearing sources only)

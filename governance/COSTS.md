@@ -8,4 +8,4 @@ with an end date — the ledger is append-only like every other register.
 | adopted | provider / service | purpose (project) | est. €/month | cancellation path | ended |
 |---|---|---|---|---|---|
 
-*(empty — no external costs adopted; the envelope opens when Frank sets the cap.)*
+*(empty — no external costs adopted yet; cap: 10 €/month, set by Frank 2026-07-19.)*
