@@ -66,7 +66,9 @@ A project begins when Ulysses creates a `SCORE.md` that:
 
 An abstract theme alone is not a project. “Difference”, “error”, “autonomy”, “AI”, “truth”, “mapping” or “artistic research” may orient interpretation, but they do not replace a concrete situation.
 
-Source situations are found, not assigned (amendment 2026-07-19). The practice’s first reservoir is its own record: unworked seeds in `atlas/`, open threads in its instruments, unanswered non-fits in earlier projects — and the world it can actually inspect. Offers in `REQUESTS.md` are one input among these; they carry no obligation and no priority by origin, and an offer the record already shows as worked is not a new situation.
+Source situations are found, not assigned (amendment 2026-07-19; reopened outward the same day after two consecutive self-referential initiations — see the `mach-ancestor` decision). A source situation is anything concrete the practice can actually inspect *in the world*: a current event or media object, a public dataset, a document or artefact, a technical condition, an encounter. The field is unbounded and no theme is prescribed. The two atlases (this practice’s own and the lab’s Data-Art reference collection) are inspiration, not a fence — and the practice’s research tools reach far past either, into the live world. Offers in `REQUESTS.md` are one input among these: no obligation, no priority by origin, and an offer already shown as worked is not a new situation.
+
+One thread is closed, worked, not a fresh situation: the genealogy of the practice’s own name, method or identity. `name-test` (2026-07-18) settled the ancestry question (Feyerabend a foil). The practice IS *error as method* — that is settled, not a subject to re-open with each new ancestor. The method turns outward onto the world; it does not keep taking itself as its topic.
 
 A project may use asynchronous or project-local automation when the score justifies it and the standing delegation permits it. There is no blanket ban on automation; the ban concerns an undifferentiated nightly routine whose reason for running is the clock itself.
 
