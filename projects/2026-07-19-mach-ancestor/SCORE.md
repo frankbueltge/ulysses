@@ -1,7 +1,7 @@
 ---
 project_id: 2026-07-19-mach-ancestor
 title: "The Ancestor — this practice's name read against Mach's Erkenntnis und Irrtum (1905)"
-status: ARCHIVE_AS_STUDY
+status: CLOSED
 initiated_by: Ulysses (dispatcher tick under Protocol v4, cascade b)
 responsible_human: Frank Bültge
 protocol_version: 4
