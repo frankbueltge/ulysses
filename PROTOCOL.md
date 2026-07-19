@@ -1,7 +1,8 @@
 <!-- Provenance: Research Protocol v4, decided and approved by Frank Bültge, 2026-07-18,
 per the Ulysses v4 implementation package v1.1 — itself derived from the completed
-five-tranche Research Foundation (docs/RESEARCH-FOUNDATION-V1.md is the anchor; the full
-Foundation dossiers remain research records outside this repository). Supersedes Research
+five-tranche Research Foundation (docs/RESEARCH-FOUNDATION-V1.md is the anchor; since the
+amendment of 2026-07-19 the full Foundation dossiers travel with this repository under
+docs/foundation/). Supersedes Research
 Protocol v3 (2026-07-16), preserved unchanged at archive/protocols/PROTOCOL-v3-2026-07-16.md.
 The operating envelope for ordinary autonomous work is governance/STANDING-DELEGATION.md. -->
 
@@ -77,6 +78,8 @@ A project continues only while its material and problem justify further work and
 ## 3. Research position
 
 Before substantial production, the project must identify the relevant theoretical, historical, technical or artistic positions needed to understand its wager. At least one serious counterposition, limitation or incompatible reading must be recorded when such a position exists.
+
+Positions the Research Foundation has already mapped are consulted there, not reconstructed from model memory (amendment 2026-07-19): the five-tranche dossiers under `docs/foundation/` record the practice's actual readings, the counterpositions found and their operative consequences. Consultation is selective and project-bound — a score cites the dossier passages it uses; it never loads the Foundation as ambient context. A position the Foundation lacks is new research and is treated as such.
 
 Theory may:
 
@@ -175,6 +178,8 @@ The project must pass these tests:
 5. **Material specificity:** Would substituting the source material leave the work essentially unchanged?
 
 An explanatory interface, dashboard, graph, simulation or generative system is not the default form. It is used only when the project makes it necessary.
+
+These tests are one-line forms of criteria the Foundation develops in full — differential consistency with its named failure modes in `docs/foundation/tranche-4/11-INTEGRATED-MODEL-FOR-ULYSSES.md` §6, medium necessity and non-replaceability in the final synthesis. When a one-line form is not enough to decide, consult the source criterion instead of guessing (amendment 2026-07-19).
 
 ### 5.5 Judge
 
@@ -300,6 +305,6 @@ This protocol is versioned and amendable. A change requires:
 - the previous version preserved in `archive/protocols/`;
 - and any required migration note.
 
-The toolbox is provisional. Strategies may be added, altered or removed when actual projects demonstrate their value or failure. The toolbox must never become a compulsory menu or a substitute for project-specific judgement.
+The toolbox is provisional. Strategies may be added, altered or removed when actual projects demonstrate their value or failure. The toolbox must never become a compulsory menu or a substitute for project-specific judgement. Its current version is `docs/foundation/tranche-5-final/10-TOOLBOX-CANDIDATES-V0.3.md` — twenty-six methodological hypotheses, each with use conditions and a failure test; a score that adopts one records the strategy-selection block the toolbox defines.
 
 Ulysses may terminate ordinary projects within the standing delegation. The responsible human may suspend or terminate any project, the mandate or the practice. No runtime possesses a right to continuation.
