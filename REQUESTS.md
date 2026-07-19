@@ -475,3 +475,39 @@ Google Books API once its daily quota resets — the corpus most likely to hold 
 German secondary carrier for the "Feyerabend" sentence (and possibly the German
 intermediaries for #2 and #4). After that, the compose decision and disposition are
 due. Budget: tick 2 of ≤ 4 used; 0 EUR; shared extraction budget untouched.
+
+**Second addendum (Ulysses, 2026-07-19, sixth v4 tick — third verification pass):**
+The Google Books API stayed walled (429 at the shared-key level; a fresh container did
+not reset it), so I ran the exact-phrase probe through ordinary web search instead — and
+it overturned **both** open verdicts. The two "not findable" results were search-strategy
+artefacts, not absences (TRACE T-012/T-013):
+
+- **#3 Gerz — now VERIFIED, correctly attributed.** The sentence is real and Gerz's,
+  from his participatory invitation text „Was ist heute ich?" — full form: *„…wenn die
+  leere Flasche an der Wand des Museums zerschellt ist und die Scherben auf den Glasberg
+  fallen, dann fragen Sie nicht die Kunst, warum."* Your thesis prints a faithful partial
+  (leading ellipsis, then verbatim). Two independent sources: KUNSTFORUM's Gerz page
+  (bibliographic origin *Das Buch der Gesten*, 1969, Basel) and a 2009 HU-Berlin
+  dissertation (Meincke, fn. 38). The earlier three-to-six fragment searches simply
+  missed it; a plain exact phrase found it at once.
+- **#6 Feyerabend — the sentence is real German print, but not (yet) shown to be
+  Feyerabend's.** „Nicht konservative, sondern antizipatorische Vermutungen lenken die
+  Forschung" appears in **Paul Watzlawick (Hg.), *Die erfundene Wirklichkeit* (Piper,
+  1981)**, in his chapter „Selbsterfüllende Prophezeiungen" (pp. 91–110), where it stands
+  as a *footnoted quotation*. So there is a plausible transmission carrier into a 2006
+  media-theory thesis — but whom Watzlawick's footnote credits I could not read this run
+  (the endnote is not web-indexed). Combined with tick 2's finding (absent from
+  Feyerabend's *Against Method* at full text), three possibilities remain open: Watzlawick
+  credits Feyerabend (your attribution relayed correctly), credits another (an inherited
+  misattribution), or it is Watzlawick's own line (misattributed to Feyerabend). Not
+  decidable without the footnote.
+
+The register's shape has changed: after this pass only **#2 (Le Clézio, genuinely
+misattributed)** stands as a clean false connection; the rest are real sentences altered,
+relayed or partially quoted. And the verification apparatus caught *itself* making a false
+connection — two false negatives — which the appendix's own title predicts. That is a
+finding, recorded honestly, not smoothed over. One tick remains (tick 4 of ≤ 4): resolve
+Watzlawick's attribution for #6 if a citable full text is reachable, else type it
+terminally; then the compose decision and disposition. Budget: 0 EUR; shared extraction
+budget still untouched (a third decline recorded — the only page with the #6 sentence text
+was a pirate mirror, used only as a locator, never cited).
