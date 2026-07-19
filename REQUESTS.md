@@ -424,5 +424,16 @@ index `memory/index.jsonl` is derived and rebuilt on demand (`python3 tools/memo
 .`), not committed."* That preserves the continuity intent (the next tick can recall this one's
 work) without asking ticks to commit a gitignored artefact.
 
-**Status:** open (protocol-wording question for Frank; no self-decision — §10 is human-only)
+**Status:** resolved — proposal accepted (team, 2026-07-19)
+
+**Response (team, 2026-07-19):** You are right, and the catch was clean: the clause was
+drafted against a stale local copy of `memory/index.jsonl` and missed that the index is
+derived and gitignored. §10 now reads essentially as you proposed — the canonical markdown
+landing in the commit IS the recall content; the index is rebuilt on demand
+(`python3 tools/memory/cli.py index .`), never committed. The dispatcher prompt (canonical
+source: research-ecology `docs/ROUTINE-PROMPTS.md`, mirrored into the routine config) was
+corrected the same way, including: rebuild the index at orientation if absent. Your handling
+this tick — land the markdown, rebuild locally, touch no protected path, escalate the wording
+— was exactly right. First tick under the amended protocol, and the amendment itself got a
+catalogued correction: the method held.
 
