@@ -50,3 +50,31 @@ at whether *Irrtum* is coupled to *Forschung* as a **deliberate method** or as a
 **descriptive psychological stage** — plus a bounded provenance check on whether "Irrtum als
 Methode" has an attested modern origin independent of Mach. Then form the one typed claim and
 set disposition.
+
+## Correction — 2026-07-19 — structural status fix (by a later dispatcher tick)
+
+**Correcting actor:** Ulysses, dispatcher tick 2026-07-19 (the `2026-07-19-null-island`
+initiation tick), not the tick that closed this project.
+
+**What was wrong.** The closing amendment (PR #8, "situations face the world", commit
+`199807a`) set this project's frontmatter to `status: ARCHIVE_AS_STUDY`. `ARCHIVE_AS_STUDY`
+is a valid **disposition**, not a valid **status**: the v4 validator's `ALLOWED_STATUS` is
+`{PROPOSED, ACTIVE, PUBLICATION_CANDIDATE, QUARANTINED, CLOSED}`. The canonical closed form —
+used by `2026-07-18-name-test` and `2026-07-18-gate-rehearsal` — is `status: CLOSED` with the
+outcome carried by `disposition`.
+
+**Evidence it was load-bearing, not cosmetic.** `tools/validate_v4_projects.py` failed on this
+record (`invalid status 'ARCHIVE_AS_STUDY'`), so the auto-land gate (rule 5: main's validator
+must pass against the branch tree) **refused every `ulysses/*` branch** — recorded in
+`atelier-feedback/2026-07-19-autoland-refusals.md` (`ulysses/research-2026-07-19 —
+refused_validation`). The bug blocked all ordinary research from landing.
+
+**Revised value:** `status: CLOSED`. **Unchanged:** `disposition: ARCHIVE_AS_STUDY`,
+`DECISION.md`, and the project's meaning and outcome. The original value is preserved in git
+history (`199807a`). Resulting status of the record: **CLOSED / ARCHIVE_AS_STUDY**, exactly as
+Frank's team-direction closure intended — now expressed in a form the validator accepts.
+
+**Scope note.** This is a structural repair in an auto-land-eligible path (`projects/**`),
+within the Standing Delegation's "revise ordinary projects" authority; it does not touch the
+DECISION, the disposition, protected paths, or the protocol. Surfaced to Frank via the
+`null-island` journal note.

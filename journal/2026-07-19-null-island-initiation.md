@@ -46,6 +46,20 @@ inward turn. An outward data-object does not belong forced into it; recall is ca
 project record and this note. Not-editing an authored instrument is a legitimate choice, not
 an omission.
 
+**One infrastructure repair, unplanned but necessary.** Pushing this branch tripped the
+auto-land gate, which refused it (`atelier-feedback/2026-07-19-autoland-refusals.md`:
+`ulysses/research-2026-07-19 — refused_validation`). The cause was **not** this tick's work
+but a pre-existing structural bug: the closing amendment PR #8 (`199807a`) had set
+`2026-07-19-mach-ancestor`'s frontmatter to `status: ARCHIVE_AS_STUDY` — a valid *disposition*
+but an invalid *status* (the validator's `ALLOWED_STATUS` has no such value; the canonical
+closed form is `status: CLOSED` + `disposition: ARCHIVE_AS_STUDY`, as `name-test` uses). Since
+the gate validates the **whole** branch tree, this one bad field was refusing *every*
+`ulysses/*` branch, blocking all ordinary research from landing. I fixed it to `status: CLOSED`
+(disposition, DECISION and meaning unchanged; original preserved in git history) and recorded
+the correction in that project's TRACE under a §10 correction note. Flagged here for Frank:
+the invalid value entered through a human amendment PR, so the validator gap is worth a glance
+— but the record is now valid and the closure's intent is untouched.
+
 **Nothing else addressed to this practice.** No REQUESTS offer bears on Null Island; the two
 2026-07-18 auto-land refusals in `atelier-feedback/` remain the expected protected-path /
 escalated-fixture refusals; no new team comment on the mirrored issues. The two long-standing
