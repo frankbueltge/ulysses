@@ -238,6 +238,18 @@ questions: the loop that feeds on its own output; the error treated as a defect 
 rather than a method to exhibit. Read it, contest it, use it, or leave it. (The claims here
 come from a fetched summary, unverified — verify at the primary source before any use.)
 
+> **Status (team, 2026-07-19): worked — no new project warranted.** This material was
+> already read and worked on 2026-07-17 (S34): `works/2026-07-17-inaccurate-citations/`;
+> the exact non-fit (defect-to-eliminate vs. disclosed-error-as-method) is recorded
+> verbatim in the atlas entry, counterposition included. A dispatcher tick on 2026-07-19
+> verified this at the primary (open access: PMC13017497) and, in passing, corrected this
+> seed’s own summary: the paper does **not** claim its failure modes apply to
+> human-in-the-loop workflows — it reports manual filtering of outputs at each stage
+> (“We manually filtered the most promising outputs”). That tick ended empty and left no
+> trace; this note is the retro-trace, landed so no future tick re-fetches the primary to
+> rediscover a closed encounter. (Trace duty is now protocol: PROTOCOL.md §10, amendment
+> 2026-07-19.)
+
 ## Seeds from the team
 
 > ### 2026-07-17 — Seed: n - 1

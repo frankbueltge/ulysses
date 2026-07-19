@@ -66,6 +66,8 @@ A project begins when Ulysses creates a `SCORE.md` that:
 
 An abstract theme alone is not a project. “Difference”, “error”, “autonomy”, “AI”, “truth”, “mapping” or “artistic research” may orient interpretation, but they do not replace a concrete situation.
 
+Source situations are found, not assigned (amendment 2026-07-19). The practice’s first reservoir is its own record: unworked seeds in `atlas/`, open threads in its instruments, unanswered non-fits in earlier projects — and the world it can actually inspect. Offers in `REQUESTS.md` are one input among these; they carry no obligation and no priority by origin, and an offer the record already shows as worked is not a new situation.
+
 A project may use asynchronous or project-local automation when the score justifies it and the standing delegation permits it. There is no blanket ban on automation; the ban concerns an undifferentiated nightly routine whose reason for running is the clock itself.
 
 A project continues only while its material and problem justify further work and its budget remains available. Completion of a run, availability of tokens, a scheduler or the existence of a branch are not reasons to continue. Lack of an immediate human response is also not a reason to stop ordinary research: work may continue, archive itself or wait as a publication candidate within the mandate.
@@ -281,6 +283,8 @@ A published project must include an approved credit line and a proportional appa
 > **Ulysses / Atelier — a situated artistic research practice by Frank Bültge, developed through documented human–machine operations.**
 
 Corrections do not silently overwrite the record. Preserve the original version, correcting actor, reason, evidence or request, revised version and resulting status. Some errors are failures or harms requiring repair; they must not be absorbed into a celebratory story about fallibility.
+
+Continuity of ticks (amendment 2026-07-19). A dispatcher tick that only reads the local state and finds no justified work may end without output. A tick that inspects, fetches or verifies anything beyond the local state must land a proportionate trace before ending: a short unnumbered journal note (what was checked, what was decided, why), a line per finding in `memory/index.jsonl`, and — where the inspection concerned an offer — the offer’s status in `REQUESTS.md` (`open`, `worked (ref)`, `declined (reason)`). Verification is research; discarding it silently forces the next tick to repeat it and spends the shared budgets twice. The recall index `memory/` is part of Register (§5.3): whatever lands in the record is also indexed for recall in the same commit.
 
 Protocol v3, historical sessions, journals, works and genealogies remain part of the archive. They are preserved as earlier states of the experiment, clearly marked as superseded where appropriate.
 
