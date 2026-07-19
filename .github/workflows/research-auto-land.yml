@@ -63,8 +63,8 @@ jobs:
                            '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
 
           # Allowlist and protected paths — keep in sync with governance/STANDING-DELEGATION.md §4/§5.
-          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|docs/research-notes/|REQUESTS\.md$)'
-          PROTECT_RE='^(PROTOCOL\.md|README\.md|LICENSE\.md|SITE-API\.md|governance/|\.github/|tools/|works/|site-prs/|archive/)|(^|/)PUBLICATION\.json$'
+          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|docs/research-notes/|site-prs/|REQUESTS\.md$)'
+          PROTECT_RE='^(PROTOCOL\.md|README\.md|LICENSE\.md|SITE-API\.md|governance/|\.github/|tools/|works/|archive/)|(^|/)PUBLICATION\.json$'
 
           landed=0
           failed=0

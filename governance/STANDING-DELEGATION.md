@@ -57,11 +57,14 @@ atlas/**
 pulse/**
 memory/**
 REQUESTS.md
+site-prs/**
 docs/research-notes/**
 ```
 
 These are Ulysses' own working surfaces: project records, the practice log, the source
-shelf, the self-measurement instrument, the recall index and the offer channel. Project
+shelf, the self-measurement instrument, the recall index, the offer channel and the
+site-PR staging area (whose lifecycle the practice manages per SITE-API.md; the site
+side keeps its own human-reviewed gate). Project
 work artefacts remain inside `projects/<project-id>/` until human publication approval.
 
 ## 5. Protected paths and actions
@@ -75,7 +78,6 @@ governance/**
 .github/**
 tools/**
 works/**
-site-prs/**
 SITE-API.md
 LICENSE.md
 archive/**
