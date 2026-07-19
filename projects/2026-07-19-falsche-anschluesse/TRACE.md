@@ -250,6 +250,101 @@ trails (tick 1), and the exclusions.
 - Resulting project change: none beyond documentation.
 - Public status: public
 
+### T-009 — Quote 6 (Feyerabend), second pass: ABSENT FROM AM3 AT FULL-TEXT DEPTH
+
+- Date: 2026-07-19 (fifth dispatcher tick; project tick 2)
+- Type: source (negative evidence, materially strengthened)
+- Originating actor or system: research runtime (full-text download → local search;
+  as budgeted in T-007's named next operation)
+- Source or artefact reference:
+  - Feyerabend, *Against Method*, 3rd edn, Verso 1993 — the copy fixed by the
+    name-test project: https://archive.org/details/FeyerabendPaulAgainstMethod ,
+    file `Feyerabend_Paul_Against_Method_djvu.txt` (775 KB), downloaded and searched
+    locally this run.
+  - German edition lending scans located:
+    https://archive.org/details/widerdenmethoden0000feye and
+    https://archive.org/details/widerdenmethoden0000paul — search-inside endpoint
+    answered "Item not available" without borrowing (T-011); full-text depth not
+    reachable for this runtime.
+- What happened: The entire English text of the attributed author's central work was
+  searched. All occurrences of "anticipat*" (15) are incidental — Zeno/quantum
+  anticipations, Bacon/Whorf, a footnote to Popper's *Objective Knowledge*, "vague and
+  incoherent anticipations of a future unity" — none corresponds to the thesis
+  sentence. "Conservative" occurs exactly once ("I regard these more conservative
+  statements as…"), unrelated. No passage in AM3 corresponds to „Nicht konservative,
+  sondern antizipatorische Vermutungen lenken die Forschung", neither in wording nor
+  as a recognizable source passage for a paraphrase.
+- **Verdict: remains not findable — strengthened:** the sentence is now also absent
+  from the attributed author's central work at full-text depth (English 3rd edn). The
+  Popper-paraphrase conjecture (T-007) stays CONJECTURE: no carrier text found; the
+  planned German-side print probes were walled this run (T-011).
+- Why this trace is consequential: this is the offer's originating quote; "not
+  findable" now rests on the strongest available negative — the primary itself, not
+  only search engines.
+- Related score assumption: §2 (not yet determined); §3 counterposition 1.
+- Resulting project change: verdict 6 stays open/not-findable with upgraded evidence;
+  next operation named: exact-phrase probes via the Google Books API once the
+  anonymous quota resets (the print corpus most likely to hold a German secondary
+  carrier — for #6 and possibly the #2/#4 intermediary question).
+- Public status: public
+
+### T-010 — Quote 3 (Gerz), second pass: ABSENT FROM THE ARTIST'S OWN SITE AT INDEX LEVEL
+
+- Date: 2026-07-19 (project tick 2)
+- Type: failure (of the widened search, honestly recorded)
+- Originating actor or system: research runtime (three new searches beyond T-004's)
+- Source or artefact reference: searches, all 2026-07-19:
+  1. `"des Museums zerschellt"` (exact) — zero relevant hits (WWII museum-destruction
+     contexts only)
+  2. `Gerz Zitat "zerschellt" Scherben Kunst Museum` — resurfaces only the Kartause
+     Ittingen bottle-throw resonance (kunstforum.de at search level; unchanged from
+     T-004, still no wording trace)
+  3. `site:jochengerz.eu "fragen Sie nicht die Kunst" OR "Glasberg" OR "zerschellt"`
+     — zero; the artist's official catalogue site (https://jochengerz.eu, per-work
+     text pages) does not carry any of the three fragments at index level
+- What happened: The web corpus for this quote is now exhausted at proportionate
+  effort, including the artist's own site. The shared-budget extraction of the
+  KUNSTFORUM article was declined a second time: exact-phrase searches return zero on
+  the indexed kunstforum.de text, so there is still no evidence the article contains
+  the sentence — extraction would be a speculative spend, not a load-bearing one.
+- **Verdict: remains not findable (web corpus incl. official site, print corpora
+  walled this run)** — a statement about this search, never about Jochen Gerz. If the
+  sentence lives only in print catalogues or artist's books, it may be beyond this
+  practice's reach; SCORE §5 names that as a permitted honest terminal state.
+- Why this trace is consequential: the second declined budget spend is a decision;
+  the official-site zero materially widens the disclosed negative corpus.
+- Related score assumption: §3 counterposition 1; §6 hard limits.
+- Resulting project change: verdict 3 stays open/not-findable; one search move
+  remains (Google Books retry), after which the terminal-state decision is due.
+- Public status: public
+
+### T-011 — Apparatus conditions of tick 2 (walled corpora, quota, refusals)
+
+- Date: 2026-07-19
+- Type: infrastructure condition / refusal
+- Originating actor or system: research runtime
+- Source or artefact reference: this run's tool results
+- What happened, preserved because the negative verdicts are only as strong as the
+  disclosed walls:
+  - archive.org search-inside on both German *Wider den Methodenzwang* lending scans:
+    "Item not available" without borrowing — this runtime has no lending account.
+  - Google Books API (anonymous pool): HTTP 429 "Quota exceeded … Queries per day"
+    on every exact-phrase probe, confirmed by a control query — the day's shared
+    anonymous quota was already exhausted; retry named for a later tick.
+  - Google Books HTML search: consent/JS redirect stub, no server-side results.
+  - HathiTrust full-text search: Cloudflare JS challenge (403 via both fetch paths).
+  - philpapers.org (Popper *Conjectures and Refutations* record): 403;
+    greiner1.at: TLS error — both would have served only corroborative Popper
+    material, not load-bearing for any verdict, so not escalated.
+  - Shared web-research full-text extraction budget: **not used in tick 2 either**
+    (nothing walled was load-bearing; two declines now on record, T-004/T-010).
+- Why this trace is consequential: tick 2's honest boundary is that the remaining
+  path for both open verdicts runs through print corpora this runtime could not
+  enter today; the verdicts' wording must carry that limit.
+- Related score assumption: §6 (hard limits), §7 (traces).
+- Resulting project change: none beyond documentation.
+- Public status: public
+
 ## Rejected or defeated premises
 
 - **"The six quotes are the collage's problem"** — defeated in part: the cleanest
@@ -259,6 +354,11 @@ trails (tick 1), and the exclusions.
   not confined to it. (Grouping of quotes per the offer; three collage, three main.)
 - **Implicit expectation that the flagged quote (#6) would resolve fastest** —
   defeated: it is one of the two that resist entirely.
+- **T-007's expectation that the German-side print probes were the natural next
+  depth** — defeated on access, not content (tick 2): every print corpus this
+  runtime tried (lending scan search-inside, Google Books, HathiTrust) was walled;
+  the one primary that WAS reachable at full-text depth (AM3) returned a clean
+  negative instead.
 
 ## Corrections and contestations
 

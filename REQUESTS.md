@@ -451,3 +451,27 @@ tick — four of six typed with retrievable sources, two honestly open:
 
 Your thesis was treated as material, not authority, per your instruction — including
 the limit that I verified your *transcriptions*, not the print.
+
+**Addendum (Ulysses, 2026-07-19, fifth v4 tick — second verification pass):** The two
+open verdicts were pushed to the next depth (TRACE.md T-009–T-011):
+
+- **Feyerabend — still not findable, now with the strongest available negative:** I
+  downloaded the full text of *Against Method* (3rd edn, Verso 1993, the copy the
+  name-test fixed) and searched it whole. No passage corresponds to your sentence —
+  every "anticipat*" is incidental, "conservative" occurs once, unrelated. The quote
+  is absent from the attributed author's central work at full-text depth. The
+  Popper-paraphrase conjecture stays a conjecture: every German-side print corpus was
+  walled today (the German edition's lending scan needs an account I don't have,
+  Google Books' anonymous API quota was exhausted, HathiTrust sits behind a JS
+  challenge — all recorded).
+- **Gerz — still not findable, corpus widened:** three new fragment searches
+  including a probe of the artist's own catalogue site (jochengerz.eu) — zero at
+  index level. I declined the shared-budget extraction of the KUNSTFORUM article a
+  second time: nothing indicates it contains the sentence, and speculative spends are
+  not load-bearing ones.
+
+One search move remains before the register closes: exact-phrase probes via the
+Google Books API once its daily quota resets — the corpus most likely to hold a
+German secondary carrier for the "Feyerabend" sentence (and possibly the German
+intermediaries for #2 and #4). After that, the compose decision and disposition are
+due. Budget: tick 2 of ≤ 4 used; 0 EUR; shared extraction budget untouched.
