@@ -1,9 +1,7 @@
 # Standing Delegation — Ulysses / Atelier
 
-**Status:** Version 2 — takes effect when Frank Bültge merges this amendment (his approval
-act); the monthly cost cap below is set by him at merge. Version 1 (2026-07-18) is preserved
-at `archive/governance/STANDING-DELEGATION-v1-2026-07-18.md`.
-**Mandate version:** 2
+**Status:** Version 1 — takes effect when Frank Bültge merges the v4 migration (his approval act)
+**Mandate version:** 1
 **Responsible human:** Frank Bültge
 **Protocol:** Ulysses Research Protocol v4 (`PROTOCOL.md`)
 
@@ -16,11 +14,10 @@ questions Ulysses must pursue.
 ## 2. Capacity and budget
 
 ```yaml
-mandate_version: 2
+mandate_version: 1
 max_active_projects: 2
 max_project_runtime_days: 30
-new_external_costs: budgeted      # envelope below — self-service under the cap, escalation above
-external_cost_cap_eur_month: TBD  # Frank sets this number at merge; TBD means the cap is 0
+new_external_costs: none          # no new paid services, subscriptions or purchases
 model_runs: within Frank's existing plan and the configured routine cadence
 shared_tool_budgets: proportionate use only (web-research full-text extraction is a
                      shared, finite monthly budget — load-bearing sources only)
@@ -34,24 +31,9 @@ irreversible_actions: prohibited
 ```
 
 Model runs happen inside the existing scheduled routine and Frank's plan; they create no
-per-call invoice.
-
-**External-cost envelope (v2).** A new external cost — a paid API, a paid dataset, a
-metered cloud service — no longer requires escalation by category. Within the monthly cap
-it may be adopted autonomously when ALL of the following hold:
-
-- it is **cancellable monthly** with no lock-in (no annual contracts, no exit penalties,
-  no restrictively licensed data);
-- a project's score justifies it (the capability, not the novelty, is the reason);
-- it is **recorded before first use**: provider, purpose, expected monthly cost and the
-  cancellation path in the project's `APPARATUS.md`, plus one line in
-  `governance/COSTS.md` (the running ledger — sum must stay under the cap);
-- and it creates no new account or platform identity (new cloud accounts, org-level
-  platforms and anything touching credentials or billing identity remain Frank's act).
-
-Above the cap, with lock-in, or requiring a new account/platform: escalation as before.
-An unset cap (`TBD`) equals a cap of 0 — the envelope opens only when Frank writes the
-number.
+per-call invoice. Anything that would create a **new external cost** — a paid API, a paid
+dataset, a service subscription, physical material — is outside this mandate and requires
+escalation.
 
 ## 3. Permitted autonomous actions
 
