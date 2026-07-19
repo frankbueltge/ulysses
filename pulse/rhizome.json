@@ -369,6 +369,16 @@
       "id": "src:le-clezio-hai-1971",
       "kind": "source",
       "label": "Le Clézio — Haï (1971)"
+    },
+    {
+      "id": "src:watzlawick-erfundene-wirklichkeit-1981",
+      "kind": "source",
+      "label": "Watzlawick (Hg.) — Die erfundene Wirklichkeit (1981)"
+    },
+    {
+      "id": "src:gerz-buch-der-gesten-1969",
+      "kind": "source",
+      "label": "Jochen Gerz — Das Buch der Gesten (1969)"
     }
   ],
   "edges": [
@@ -694,6 +704,18 @@
       "from": "thread-disclosure-vs-hidden-error",
       "to": "thread-falsche-anschluesse",
       "kind": "bridge"
+    },
+    {
+      "from": "src:gerz-buch-der-gesten-1969",
+      "to": "thread-falsche-anschluesse",
+      "kind": "swerve",
+      "session": 48
+    },
+    {
+      "from": "src:watzlawick-erfundene-wirklichkeit-1981",
+      "to": "thread-falsche-anschluesse",
+      "kind": "swerve",
+      "session": 48
     }
   ]
 }
