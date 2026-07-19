@@ -36,6 +36,7 @@ SOURCE_GLOBS = [
     "atelier-feedback/**/*.md",
     "drafts/**/*.md",
     "memory/dossiers/**/*.md",
+    "docs/**/*.md",
 ]
 
 INDEX_RELATIVE_PATH = Path("memory") / "index.jsonl"
