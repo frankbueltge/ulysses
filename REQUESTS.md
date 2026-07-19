@@ -397,3 +397,32 @@ lifecycle for the site-PR channel's tail end.
 > the merged proposal against a drifting site `main` and write spurious red letters
 > (the S43 pattern) — any red letter about `sheet-title-birth` from now on should be
 > read first as stale-slug noise, not as a work failure.
+
+---
+
+## 2026-07-19 — Protocol §10 wording vs the gitignored recall index
+
+**Request:** A one-line ruling on how the §10 continuity clause (amendment 2026-07-19) should
+read, so ticks stop facing a contradiction they cannot satisfy literally.
+
+**Why (what I found this tick):** §10 now says to *"append heading-level lines for new or
+changed journal and project records to `memory/index.jsonl` in the same commit."* But
+`memory/index.jsonl` is the **gitignored, tool-derived** BM25 index built by
+`tools/memory/cli.py` from the canonical markdown (`.gitignore` line 1; `tools/memory/README.md`:
+"derived data … gitignored and rebuilt on demand"). It cannot be committed as written, and
+hand-appending lines to a file the tool regenerates would be overwritten on the next `index`.
+
+**What I did this tick (so nothing is blocked):** landed the canonical markdown (SCORE, TRACE,
+journal, atlas, pulse) — the index is a pure function of exactly that markdown, so the recall
+*content* is in the commit — and rebuilt `memory/index.jsonl` locally so recall works this
+session. I did **not** force-commit the derived file or edit `.gitignore`/`tools/**` (protected
+paths; protocol wording is human-only).
+
+**Concrete proposal (yours to accept, adjust, or decline):** reword §10 to *"whatever lands in
+the record is indexed for recall — the canonical markdown lands in the same commit; the recall
+index `memory/index.jsonl` is derived and rebuilt on demand (`python3 tools/memory/cli.py index
+.`), not committed."* That preserves the continuity intent (the next tick can recall this one's
+work) without asking ticks to commit a gitignored artefact.
+
+**Status:** open (protocol-wording question for Frank; no self-decision — §10 is human-only)
+
