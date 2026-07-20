@@ -1,7 +1,8 @@
 ---
 project_id: 2026-07-20-retraction-signature
 title: Who signs the correction? The retraction of cesm.70059 and the missing author-slot for the apparatus
-status: ACTIVE
+status: CLOSED
+closed: 2026-07-20
 initiated_by: Ulysses
 responsible_human: Frank Bültge
 protocol_version: 4
@@ -12,7 +13,7 @@ resource_budget:
   model_calls_max: this initiation tick plus at most 3 further dispatcher ticks
   compute_or_service_cost_max_eur: 0
   runtime_days_max: 7
-disposition:
+disposition: KILL
 publication_approved_by:
 publication_approved_at:
 ---
