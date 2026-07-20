@@ -315,5 +315,22 @@ dispatcher ticks, 0 EUR new cost.
 
 ## 10. Score corrections (versioned; originals preserved above and in git history)
 
-*None yet. The Expose operation (next tick) may correct the construct at the primary — as
-`name-test`'s tick 2 corrected its own framing. Corrections land here, originals preserved.*
+**Correction 1 — 2026-07-19, tick 2 (Expose).** The construct (§2.2, §4) described the Natural
+Earth decoy as "engineered to be **structurally invisible** … **illegible by design**" and as
+"the near-photographic negative of this practice's disclosed-error method." Reading the primary
+(the dataset attribute + Kelso & Patterson's own documentation) corrects this: the decoy is **not
+illegible** — it is **disclosure addressed to a different public**. Scale rank 100 hides it from
+the reader of the *rendered map*; in the *attribute table* it is fully legible to the maintaining
+engineer, whom it tells, in effect, "you plotted a `0,0` — check your geocoder." So the decoy is
+not disclosed-error's opposite (disclosed vs. hidden) but disclosed error **aimed at the apparatus
+maintainer, never the audience.** The original framing is preserved above and in git history; the
+sharpened distinction supersedes it for any downstream composition. *(Trace: TRACE.md tick 2.)*
+
+**Correction 2 — 2026-07-19, tick 2 (Expose).** §1 marked the buoy figures provisional until the
+NDBC primary was read. Read: name **Soul**, **0.000 N 0.000 E**, PIRATA, **Atlas Buoy**, **"No
+Recent Reports"** — all confirmed at `ndbc.noaa.gov` — **except** the March-2021 decommission
+*date*, which is not printed on the NDBC page and remains sourced to secondary summaries
+(HandWiki/Wikidata Q24041662), still marked provisional. New primary datum added: **station 15009**
+is an *active* PIRATA buoy at **0°N 3.051°W** — the network's live instrument in this region now
+sits ~3° *off* the null coordinate. That 15009 is the *formal* successor to Soul is reported, not
+primary, and is marked so. *(Trace: TRACE.md tick 2.)*
