@@ -9,7 +9,9 @@ standing_delegation_version: 2
 mandate_check: PASS
 created: 2026-07-21
 resource_budget:
-  model_calls_max: 5 dispatcher ticks
+  model_calls_max: material-driven — continue while a concrete next operation is justified,
+    stop on the §8 stop/kill conditions (revised 2026-07-21 per the team's budget
+    correction in REQUESTS.md; original self-imposed cap, preserved: "5 dispatcher ticks")
   compute_or_service_cost_max_eur: 0
   runtime_days_max: 21
 disposition:
@@ -64,6 +66,9 @@ own primaries** (the discipline the `retraction-signature` kill taught):
 - (a) The specification of the negative leap second itself — **ITU-R TF.460-6** (the
   recommendation defining positive and negative leap seconds and the 23:59:58 minute-end).
   Not yet read at source; declared as this project's next operation.
+  *[Resolved 2026-07-21, T-003: read in full at itu.int. Symmetric, recommendation-modal
+  ("should") throughout; no clause mandates a leap second — the obligation lives in the
+  ±0.9 s tolerance. The "required correction" frame is corrected to "standing provision".]*
 - (b) The count "27 leap seconds, all positive, 1972–2016." Partially derivable from
   Bulletin C's UTC−TAI = −37 s given the 1972 initial 10 s offset, but the offset and the
   count are to be confirmed at a primary, not asserted from memory.
@@ -73,6 +78,9 @@ own primaries** (the discipline the `retraction-signature` kill taught):
   reported as arguing that meltwater redistribution has postponed the projected need for a
   negative leap second by several years. Identified, **unread**; to be read at primary
   before any of its claims are used.
+  *[Resolved to abstract level 2026-07-21, T-003: abstract read verbatim at the publisher
+  ("negative discontinuity by 2029"; "unprecedented problem"; postponement "3 years");
+  full body closed-access — only abstract-level claims may be used.]*
 - (d) Reported operational failures during *practiced, positive* leap seconds (e.g. the
   widely reported 2012 and 2017 service outages). From general knowledge only; to be
   verified at retrievable postmortems before any use, or dropped.
@@ -143,6 +151,10 @@ Two non-fits, stacked on the same object:
   (measured, finals.all). Whether any institution has *said* so publicly remains open —
   part of the pre-emption test.]*
 - What ITU-R TF.460-6 actually specifies for the negative case, in its own words.
+  *[Resolved 2026-07-21, T-003: fully symmetric language ("A positive or negative
+  leap-second should be the last second of a UTC month"); mechanics descriptive ("23h 59m
+  58s will be followed one second later by 0h 0m 0s"); Annex 3 Fig. 4 even provides a
+  worked timestamp inside the never-run minute ("30 June, 23h 59m 58.9s UTC").]*
 - Which typed outcome is honest: an **exposed apparatus condition** (the untested path of
   civil time; DUT1 = 0.0 as the quiet zero-marker); a **local distinction** (practiced
   correction vs. specified-but-never-performed correction — the dead letter of an error
@@ -183,6 +195,13 @@ Whether any composed work is warranted stays open until Construct and Expose ear
    timeanddate/leap-second-watch genre and Agnew's paper may already say everything sayable
    — in which case the honest close is a negative result or a thin archive, exactly as with
    `vegetative-em`.
+   *[Sharpened 2026-07-21, T-003: verified — the bare untested-asymmetry claim is
+   pre-empted by the apparatus itself (CGPM Res. 4: "whose insertion has never been
+   foreseen or tested"), by Agnew's abstract and by the engineering/press literature.
+   Three observations were NOT found stated anywhere searched: the recoil finding (T-002
+   result 3), the spec-symmetry/practice-asymmetry finding incl. Annex 3 Fig. 4 (T-003
+   result 2), and the dated July 2026 narrative/arithmetic divergence. The project now
+   stands or falls on these three.]*
 2. **The repeal reading may be backwards.** CGPM Resolution 4 raises a *tolerance*; it does
    not abolish the UT1–UTC relation. Framing it as "the correction dies untested" could be
    the project romanticising a bounded engineering decision. The resolution's actual words —
@@ -260,6 +279,10 @@ frame. Each next operation is chosen because its result can break a premise.
 - TF.460-6 turns out to make the negative leap second something other than a standing
   mandate (e.g. purely permissive language) → the "correction the apparatus requires but
   has never performed" frame must be corrected to the specification's actual modality.
+  *[Fired in part 2026-07-21, T-003: the modality is "should" (recommendation) with
+  descriptive "will" mechanics — a standing provision under a tolerance, not a mandate.
+  Frame corrected accordingly; the symmetry of the language (down to Fig. 4's worked
+  timestamp in the never-run minute) is the sharper finding that replaces it.]*
 
 **Correction route**
 
