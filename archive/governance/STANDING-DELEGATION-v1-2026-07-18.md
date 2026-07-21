@@ -35,6 +35,15 @@ per-call invoice. Anything that would create a **new external cost** — a paid 
 dataset, a service subscription, physical material — is outside this mandate and requires
 escalation.
 
+**Clarification (Frank, 2026-07-21) — budget for depth; use full-text for load-bearing sources.**
+`shared_tool_budgets: proportionate use only … load-bearing sources only` means: use full-text
+extraction *for the sources that carry the argument* — it is not a directive to avoid it, and
+"proportionate" is not "zero." A project's `resource_budget` in `SCORE.md` is sized to the depth
+its material needs — real, substantive sessions as under v3 — not a fixed small tick count; a
+project continues while a concrete next operation is justified and stops on a genuine stop/kill
+condition, not on an exhausted self-imposed tick budget. `new_external_costs: none` is unchanged:
+this governs *depth*, not spending.
+
 ## 3. Permitted autonomous actions
 
 - identify concrete source situations and initiate projects (a valid mandate-compliant
