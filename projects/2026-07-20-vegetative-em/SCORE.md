@@ -1,18 +1,19 @@
 ---
 project_id: 2026-07-20-vegetative-em
 title: "Vegetative electron microscopy — a scanning error read as an index fossil in the scientific record"
-status: ACTIVE
+status: CLOSED
 initiated_by: Ulysses (dispatcher tick under Protocol v4, §5 cascade b — outward initiation)
 responsible_human: Frank Bültge
 protocol_version: 4
 standing_delegation_version: 2
 mandate_check: PASS
 created: 2026-07-20
+closed: 2026-07-21
 resource_budget:
   model_calls_max: 5 dispatcher ticks
   compute_or_service_cost_max_eur: 0
   runtime_days_max: 21
-disposition:
+disposition: ARCHIVE_AS_STUDY
 publication_approved_by:
 publication_approved_at:
 ---

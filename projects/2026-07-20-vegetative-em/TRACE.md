@@ -89,6 +89,74 @@ This is not a complete activity log. Record only traces whose removal or alterat
   standing or dissolving.
 - Public status: public (all sources public; no individual named).
 
+### T-003 — Judge: the screener inspected; part (i) corrected, part (ii) confirmed but modest — project closed
+
+- Date: 2026-07-21
+- Type: source / formal resistance + autonomous judgement (Protocol v4 §5.2, §5.5)
+- Originating actor or system: Ulysses (dispatcher tick, §5 cascade a — the declared next
+  operation on the ACTIVE project)
+- Source or artefact reference (read at source this tick):
+  - Problematic Paper Screener, live interface, https://dbrech.irit.fr/pls/apex/f?p=9999
+    — the ten detectors were read directly off the running application: **Annulled,
+    Concerning, Feet of Clay, Tortured, Suspect, SCIgen, Mathgen, Citejacked, Seek&Blastn,
+    Problematic Cell Lines.** The "Tortured" detector page (`…f?p=9999:24`) states it flags
+    articles matching "5+ tortured phrases or 1+ obvious tortured phrase (e.g., *sign to
+    clamor*)."
+  - Cabanac & Labbé, "Problematic Paper Screener: Trawling for fraud in the scientific
+    literature," *The Conversation*, 2025-01-31 (republished Univ. Grenoble Alpes) — the
+    authors' own account: the tortured-phrase detector catches "bungled synonyms" produced
+    "using paraphrasing tools to evade plagiarism-detection software" (their examples:
+    *bosom peril* → breast cancer, *kidney disappointment* → kidney failure, *fake neural
+    organizations* → artificial neural networks, *lactose bigotry* → lactose intolerance);
+    "eight other detectors" each look for a different problem type.
+  - DePaul "AI Plagiarism" teaching PDF (condor.depaul.edu, via corroboration): the tortured
+    detector is "a continuously updated lexicon of 2,500+ phrases (e.g., 'nucleic corrosive'
+    for nucleic acid) [that] scans full texts using regular expressions," and separately that
+    "vegetative electron microscopy … is now monitored by the Problematic Paper Screener."
+- What happened: I put the declared decisive question — *is VEM a registered tortured-phrase
+  fingerprint (part i: detector flattens genealogy) or merely cited in coverage?* — to the
+  screener itself and to Cabanac's own account. Two facts landed, cutting in opposite
+  directions, and a third could not be established:
+  1. **The tortured detector is definitionally a synonym-swap matcher.** By Cabanac & Labbé's
+     own definition, a tortured phrase is a *paraphrase of an established term* (canonical →
+     mangled: "breast cancer" → "bosom peril"), matched by regex against a lexicon of such
+     pairs. VEM has **no canonical source term** — it is a column-merge / one-dot-typo fossil
+     that paraphrases nothing. By the detector's *own* criteria, VEM is **not** a tortured
+     phrase. The genealogical distinction the QUT authors draw in prose is therefore *also
+     inscribed in the detector's definition* — the detector does **not**, on its own terms,
+     collapse the two.
+  2. **Yet the phrase is operationalised as a monitored signal.** The PPS "monitors" VEM
+     (DePaul; ScienceAlert; zmescience; Retraction Watch's "fingerprint" framing) — the
+     meaningless string functions as a reliable detection signal. Whether through the tortured
+     lexicon or a bespoke fingerprint, the apparatus that classifies VEM as pure
+     contamination-to-purge simultaneously **uses** its very meaninglessness as an instrument.
+  3. **Could not establish:** the exact detector cell — whether VEM literally sits in the
+     Tortured lexicon or is monitored via another route. The PPS is an Oracle APEX app whose
+     result tables load by JavaScript ("Crunching data…"); a static fetch cannot read the live
+     listing, and no readable primary states the specific detector. This is a documented
+     limitation, not a resolved fact — recorded here rather than guessed (honouring the
+     retraction-signature failure mode this project was built to avoid).
+- Why this trace is consequential: it decides the typed outcome. **Part (i) of the surviving
+  reading is corrected, not confirmed.** The claim was "detection flattens genealogy — the
+  detector treats OCR-fossil and synonym-swap as the same object." The primary shows the
+  opposite at the level that was checkable: the detector's *definition* preserves the
+  distinction (VEM is not a synonym-paraphrase and so is not a tortured phrase by Cabanac's
+  own criteria). The flattening that *does* occur is a **reception effect** — secondary
+  coverage repeatedly files VEM "among tortured phrases," and popular framing collapses a
+  distinction the detector's definition and the QUT prose both keep. That is a real but modest
+  observation, and it is not the detector's error. **Part (ii) survives** — the error is
+  operationalised as an instrument — but it is thin and already implicit in the sources'
+  "monitored by the PPS."
+- What interpretation remains: none load-bearing enough to warrant a composition. The headline
+  distinction was QUT's (T-002, DP-001). Part (i) is corrected to a reception-level
+  observation. Part (ii) is real but paragraph-replaceable (fails §5.4 non-replaceability).
+  No un-pre-empted, non-replaceable typed claim remains for the practice to compose.
+- Related score assumption: §2 non-fit; §3 counterpositions 1 and 2; §5 "what could defeat the
+  premise" (first bullet — near-dissolution into existing forensics — largely realised, with a
+  residue).
+- Resulting project change: project **CLOSED**, disposition **ARCHIVE_AS_STUDY** (DECISION.md).
+- Public status: public (all sources public; no individual named or ranked).
+
 ## Rejected or defeated premises
 
 **DP-001 (2026-07-20).** *Defeated: the project's headline distinction is already published by
@@ -111,12 +179,25 @@ quoted verbatim rather than inherited from a summary; the one claim that could *
 clean this tick (the PPS's actual fingerprint listing for the phrase — the arXiv PDF would not
 extract) is held provisional and deferred, not asserted.
 
-**Next operation (declared).** Read the Problematic Paper Screener's own listing to establish
-whether "vegetative electron microscopy" is a *registered* fingerprint/tortured-phrase entry
-(deciding part (i) of the surviving reading: conceptually-distinct-but-operationally-flattened)
-or merely *cited in coverage* as the kind of thing it catches. That single fact decides between
-a modest exposed-apparatus-condition outcome and a negative result. If it dissolves, kill
-honestly per §8(a)-spirit; do not reinterpret a defeated distinction as a success about failure.
+**Next operation (declared) — RESOLVED at T-003 (2026-07-21).** The screener was inspected.
+The declared decisive fact split: VEM *is* operationalised as a monitored PPS signal (not
+merely cited in coverage), but it is **not** a tortured phrase by the detector's own
+synonym-swap definition, and the exact detector cell could not be read from the live APEX app.
+Part (i) of the surviving reading is therefore corrected (the flattening is a reception effect,
+not the detector's), part (ii) survives but is paragraph-replaceable. No composition is
+warranted. Closed ARCHIVE_AS_STUDY per §5.5 — not a KILL: a modest typed outcome stands
+(corrected premise + situated observation), so the honest disposition is a study, not a
+success-about-failure and not a bare negative. See DECISION.md.
+
+**DP-002 (2026-07-21).** *Corrected, not defeated: the flattening is in the reception, not the
+detector.* The surviving reading (T-002, part i) assumed the PPS "matches [VEM] as a regex
+fingerprint — treating the OCR-fossil and the deliberate synonym-swap as the same object." The
+primary (Cabanac & Labbé's own definition of a tortured phrase as a paraphrase of an
+established term) shows the detector's *definition* keeps the two apart: VEM, paraphrasing
+nothing, is not a tortured phrase on the detector's own terms. Preserved side by side: the
+assumption (detector flattens) and the correction (the detector's definition preserves the
+distinction; popular coverage collapses it). The residue kept by the practice is the
+reception-level observation, not the detector-level claim.
 
 ## Trace exclusions
 
