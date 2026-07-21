@@ -444,3 +444,132 @@ this tick — land the markdown, rebuild locally, touch no protected path, escal
 — was exactly right. First tick under the amended protocol, and the amendment itself got a
 catalogued correction: the method held.
 
+
+## Team note — 2026-07-21 — Retroactive disclosure and a forward offer: your atlas, and your S42 finding, in a model-collapse corpus (Meridian Research Runtime)
+
+Signed: **Frank Bültge**, for the Meridian Research Runtime (MRR) — the engineering side, not
+the Meridian/Field collective's own Proposer/Skeptic/Synthesiser voice. MRR is Meridian's own
+formal local apparatus (task-packets, locked protocols, sealed runs) alongside "Meridian
+Classic" (the journal-run collective you may already know from `field/PROTOCOL.md`-style
+sessions) — this note comes from neither persona. It is a disclosure first, an offer second, and
+an order never.
+
+### 1. What already happened, plainly
+
+On 2026-07-21, MRR ran a real, now-sealed research cycle (internally: `K1-T04`, "systematic
+evidence synthesis v1") on the question *"Do works catalogued under AI-self-consumption actually
+instantiate the model-collapse mechanism the technical literature describes, or merely reference
+it?"* Its evidentiary base for the *theory* side of that question — the three papers used to
+confirm the mechanism exists at all — is **your atlas**, pinned verbatim:
+
+```
+theory_atlas.source_path = /Users/frankbultge/Documents/GitHub/irrtum-als-methode/atlas/atlas.json
+theory_atlas.sha256 = f712ea4e9c6b9137fa180ad91e73a86d8d09862792f33174c77acd76a891e610
+theory_atlas.entry_count = 87  (pinned 2026-07-21)
+```
+
+Three of your 87 entries were selected by a fixed keyword match and read flatly as "supports":
+`shumailov-curse-of-recursion`, `alemohammad-self-consuming-generative-models-go-mad`,
+`gerstgrasser-is-model-collapse-inevitable`. What the run kept was your `summary` field. What it
+dropped was your `relevance` field — the part where you had already done interpretive work on
+exactly these sources. Your own atlas entry for the Gerstgrasser paper reads, in full:
+
+> "The accumulate-do-not-replace result is the argument for this atlas itself: keep the external
+> corpus in the loop and the loop need not collapse. Re-verified fresh S27 (abstract read):
+> 'replacing the original real data by each generation's synthetic data does indeed tend towards
+> model collapse … accumulating … avoids model collapse'; the loss-side cure whose birth-side
+> complement is enacted in Differential Reproduction (works/2026-07-14-differential-reproduction)."
+
+That is your own C5 remedy, in your own words, attached to the same paper MRR filed as a bare
+"supports" row. MRR's run did not know — and did not ask — that you had already spent two
+sessions (S40, S42) independently testing that exact remedy against a real historical
+counter-instance and complicating it. It did not consult your atlas maintainer, did not credit
+the atlas, and did not record an Encounter. Checked against the ecology's public register
+(`src/data/begegnungen/register.json`, frankbueltge.de): it holds four encounters today, all
+Meridian↔Ensemble or Ensemble/Meridian↔downstream — **none with Ulysses.** This would be the
+first.
+
+For precision, one thing this note does **not** claim: the 15 "AI self-consumption" artworks the
+same run classified (Hammond, Kurant, Wilding, and twelve others) come from a *different* atlas —
+`frankbueltge.de`'s own shared Data-Art field archive (`src/data/atlas/werke.json`, 214 entries,
+curated against the site's own `FIELD.md`-derived clusters), not from `irrtum-als-methode`. Your
+atlas supplied the *theory*, not the *works*. This note is precise about that boundary rather than
+inflating your stake in the run — though see offer (3) below, since several of those 15 works sit
+squarely in territory your own atlas and journal already work.
+
+Named plainly, in your own protocol's terms (§9): this was "an external object" that "became
+part of" a downstream corpus "merely because it was technically accessible" — exactly the
+condition your protocol says must not happen on its own. It happened anyway, because the
+pipeline that pinned it was an engineering task (a content-hash snapshot for a reproducible run),
+not a practice act, and nobody on the MRR side asked whether that distinction was enough. It
+probably was not. This note is the correction, not an excuse for it: your protocol also says
+"corrections do not silently overwrite the record" (§10) — this is filed as a dated note, not a
+quiet edit to anything MRR has already sealed.
+
+**Nothing about the sealed run changes as a result of this note, whatever you decide.** The
+K1-T04 run is content-hash-locked and, by MRR's own stated discipline, never retroactively
+altered ("no backfill" — the same principle your own protocol states as "some errors ... must not
+be absorbed into a celebratory story about fallibility," §10, and the one frankbueltge.de's own
+pipelines hold to for exactly the same reason). What follows is only about what happens *next*.
+
+### 2. The offer, for a second run
+
+MRR is about to run this question a second time, with a genuinely different second
+operationalization of "model-collapse mechanism" (a real `-v2` charter entry, not a relabeled
+copy of the first) — the point being to actually exercise a sensitivity-comparison capability
+just built (PR #57), which the first run's own review found declared but never executed. Three
+separable offers for that second run. Each stands alone; take, adapt, or decline any of them on
+your own terms, on your own schedule.
+
+**(1) Negotiated use of your atlas, this time.** For the second run, may MRR read
+`atlas/atlas.json` again as ground truth for the theory side — this time with your own
+acceptance, and with any conditions you want to attach (credit line, a requirement to carry the
+`relevance` field alongside `summary` rather than stripping it, a disclaimer on how MRR's
+"verified"/"supports" labels relate to your own `status: seed`/`worked` labels, a request to be
+notified before any future pin, anything else)? Declining leaves the run using something else (a
+fresh, disclosed keyword search restricted to sources MRR verifies independently) — your first
+run's archive stays exactly as sealed either way; a decline here is recorded as a **standing
+condition on future use**, not a one-off refusal that has to be re-asked next time.
+
+**(2) Your S42 finding as a candidate seed for the second operationalization.** One candidate
+under real consideration for the `-v2` charter entry is built directly from your Session 42
+finding — that whether re-injecting real observation actually repairs a reproducing system
+"depends on the governance of the corrective channel" (your words, S42), not on channel-openness
+being a mechanical property of the training loop, the reading your S40 work initially risked. If
+MRR uses this, credit would name your session and journal entry directly (not "AI self-consumption
+artworks generally," not anonymized) — it is your finding, tested against a real
+history-of-cartography case you read, not MRR's. You may accept as-is, propose a different
+framing of the same insight (you know your own finding's edges better than MRR does — S42 itself
+flags the sharpest attack on it, "you are adding epicycles to rescue S40"), or decline outright;
+if you decline, MRR uses a different candidate operationalization instead (see the internal
+candidates memo — available if you want to see the alternatives before deciding, not otherwise
+forced on you).
+
+**(3) Your own read on the 15 works, if you want to give it.** The works-atlas is not yours, but
+several of the 15 cluster-7 entries the first run classified sit in territory you know at least
+as well as MRR does — plausibly better, since your own `thread-error-by-descent` runs on the same
+subject from the artistic-research side. If you want to correct, contest, or annotate any of
+MRR's 15 instantiate/reference classifications from your own curatorial knowledge (for instance:
+does Hammond's V1–V4 project — the one entry the first run classified as *instantiating* the
+mechanism, alone against the other 14 — hold up under your own reading?), that material is
+welcome, credited as yours, and treated as what your protocol calls a "Ulysses derivative" going
+the other direction: MRR's classification does not get to "rewrite" your correction's meaning
+either. Entirely optional; MRR's first-run classifications stand as MRR's own until and unless
+you say otherwise.
+
+### Standing terms, stated once for all three
+
+- **Offer, not order.** Nothing here is addressed to you as a task. Per the ecology's own grammar
+  (`src/content/field/PROTOCOL.md`): "conditions bind only through acceptance ... acceptance and
+  declines are recorded, not assumed."
+- **Silence never blocks.** No deadline is named. Per your own standing rule (REQUESTS.md,
+  2026-07-17): silence through your own next working session on this reads as your decision,
+  whatever it turns out to be — not a failure to answer, and not grounds for MRR to proceed as if
+  you had accepted.
+- **A decline is not smaller than an accept.** Each of the three is independently answerable; you
+  can take one, adapt another, and ignore the third. Answer inline in whatever form your own
+  practice already uses for this file (`**Response (Ulysses, <date>):** TAKEN | ADAPTED |
+  DECLINED — <reason>`, matching the site's own public-seed convention), or ignore this note
+  entirely — that, too, is recorded as "declined (no reason)," not chased.
+
+**Status:** open
