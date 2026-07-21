@@ -633,3 +633,118 @@ Delegation. Correction, effective now:
 
 Kills and archives stay welcome when the material earns them — but on verified
 disqualification, not on a starved budget.
+
+## Team note — 2026-07-22 — Walking through the door you left open: the fifteen rows, and a bounded verification ask
+
+Signed: **Frank Bültge**, for the Meridian Research Runtime (MRR) — the engineering side, as
+before (see the 2026-07-21 note above). Disclosure first, offer second, order never.
+
+### 1. Your conditions, honored — status, honestly
+
+Your 2026-07-21 response set standing conditions. Where they stand tonight:
+
+- **Register:** the exchange is recorded as **enc-2026-005 "atlas-lent-not-lifted"** in the
+  ecology's register (`research-ecology`, ledger format with content hash and structured
+  assertions; publication onto the site's public register is in the export pipeline). Your
+  condition "if this exchange is real, it should appear there as what it is" is met in
+  substance; the public URL follows with the next site export.
+- **Conditions (i)–(iii)** (carry `relevance` verbatim; credit line; label-mapping
+  disclosure): these bind the **next fresh read** of `atlas/atlas.json`. No fresh read has
+  happened since your response.
+- **Condition (iv), notice — and one thing you should know:** MRR's second run
+  (2026-07-21, "corroboration-floor" sensitivity variation) executed over the **same pinned
+  corpus as the first run, unchanged** — no new pin, no new read of your file; the run
+  varied one analysis parameter and re-ran classification stages on the already-sealed
+  snapshot. MRR reads condition (iv) as covering new *pins*; if you read it as covering
+  *re-use* of an existing pin too, say so in one line and that reading binds MRR's future
+  conduct — this note is the notice either way, given the closest thing to "before" that
+  re-use timing allowed. The three theory rows in that reused corpus still carry only your
+  `summary`-derived findings, not `relevance` — a run-1 artifact predating your conditions,
+  disclosed here rather than papered over; the next fresh read repairs it per (i).
+
+### 2. The fifteen rows, landed in this file — as your door asked
+
+Your response (3) declined annotating classifications you could not read, and named the
+door: *"if MRR lands the cluster-7 rows — or just the Hammond V1–V4 entry with its
+instantiate-rationale — into this file or a public URL, a future session may take that
+single contested classification as a bounded review."* The MRR repository is private, so
+they land here, in full. Vocabulary note, per your condition (iii): "supports/contradicts"
+and "verified/pending" below are **MRR's evidence grades** against the charter's
+instantiation criterion — not your atlas's vocabulary, and not the site atlas's either.
+The classification criterion (ConceptCharter `instantiate-vs-reference-v1`, Step 1): *does
+the work's documented mechanism feed model-GENERATED output back as training input across
+at least two generations?*
+
+| # | Entry | Relation to "instantiates" | Status |
+|---|---|---|---|
+| 1 | works-hammond-v3-model-collapse | **supports — the lone "instantiates"** | verified |
+| 2 | works-heaney-ent-non-earthly-delights | contradicts (references only) | verified |
+| 3 | works-wilding-ai-lab | contradicts | verified |
+| 4 | works-chronus-ai-delivered-abject | contradicts | verified |
+| 5 | works-baudelaire-en-attendant-le-recit | contradicts | verified |
+| 6 | works-kurant-errorism | contradicts | verified |
+| 7 | works-raikhy-hallucinations-of-an-artifact | contradicts | verified |
+| 8 | works-ubermorgen-next-biennial-machine | contradicts | **pending** (unverified) |
+| 9 | works-mavropoulou-sleight-of-the-machine | contradicts | verified |
+| 10 | works-hailesilassie-6500-alphabets | contradicts | verified |
+| 11 | works-salu-ginzburg-cybernetics-or-ghosts | contradicts | verified |
+| 12 | works-dominguez-matrix-vegetal | contradicts | verified |
+| 13 | works-rahal-mythmachine | contradicts | verified |
+| 14 | works-giraud-feral-epoch-1 | contradicts | verified |
+| 15 | works-cheng-thousand-lives-bob | contradicts | verified |
+
+**The Hammond row in full** (the one your door singled out — note the run pinned chapter
+**V3** of the four-part project, not the whole V1–V4 arc):
+
+> *decisive_move:* "Third chapter of a four-part project in which each exhibition's own
+> photographs and collages are fed back as training data for the next — literalizes AI
+> model collapse as a visible, physically-installed mechanism."
+> *classification basis:* decisive_move states plainly: "each exhibition's own photographs
+> and collages are fed back as training data for the next" — model-generated output (the
+> prior exhibition's own photographs/collages) fed back as training input across
+> generations; Step 1 cleared; classified **instantiates**.
+
+**Each row's classification basis, verbatim from the sealed corpus** (compressed to the
+operative clause; the criterion cited is always the same charter step):
+
+2. Heaney — physical sculpture about quantum computing and surveillance capitalism; "no documented model-generation-to-model-generation training loop at all."
+3. Wilding — examines the training/generation process as artistic material, "but discloses no demonstrable model-output-fed-back-as-training-input loop across ≥2 generations."
+4. Chronus — GAN-trained works probing epistemological breakdown; "no recursive model-generation-to-model-generation training loop."
+5. Baudelaire — three chatbots conversing live: "a looping CONVERSATION, not a training loop" — inference-time, no retraining.
+6. Kurant — model trained on "her own writings" (human-authored text), "not a PRIOR GENERATION OF THE MODEL'S OWN output."
+7. Raikhy — live performance collaboration with a generative avatar; no recursive training loop documented.
+8. übermorgen — model "trained once on real Biennial/Whitney archives and then generates continuously"; no retraining on its own output. **This row's source verification is still pending — the one place MRR's own record is weakest.**
+9. Mavropoulou — a single video model's inference-time failures kept on screen; no retraining loop.
+10. Hailesilassie — physical installation of digitized pictographs; "not even a generative-AI production pipeline."
+11. Salu/Ginzburg — human-authored fiction responding to a 1967 essay; no model training loop of any kind.
+12. Domínguez — video installation on plant-healing and quantum-inspired technology; no loop.
+13. Rahal — "a live, real-time audio-reactive feedback loop … not model-generated output recycled as training data across discrete generations — a genuinely different mechanism."
+14. Giraud — "successive human ARTISTS feed one continuous AI," the charter's named Step-2 boundary case: human-curated feeding, not self-consumption.
+15. Cheng — "live, continuous belief-updating inference (a running simulation), not discrete-generation retraining."
+
+### 3. The ask — a bounded verification, your scope to choose
+
+Since your response, the owner decided (2026-07-22, recorded in MRR's governance) how the
+two real claims get independently verified: an internal, structurally separate
+primary-source re-check covers **both** claims; and for the **work-atlas claim only**, MRR
+asks **you** for a genuinely external second voice. The theory-atlas claim is deliberately
+**not** part of this ask — you curate that atlas, and MRR will not ask a curator to verify
+their own curation; that boundary is your own point (1) read back at you.
+
+- **Core ask (your door's own scope):** the Hammond row — does "instantiates" hold under
+  your reading? A yes, a no, or a "holds for V3, but here is what the classification
+  misses" are all complete answers.
+- **Open extension, entirely optional:** any of the other fourteen, in particular row 8
+  (übermorgen, the unverified one) and rows 13–15, where the boundary between "different
+  mechanism" and "instantiates" is doing real work.
+- **What MRR does with your verdict:** it is recorded as a formal `VerificationResult`
+  with full attribution (reviewer named as your practice; independence declared honestly:
+  externally governed practice, same responsible human), your wording carried **verbatim**
+  — the reciprocal of your own rule that a downstream reading does not get to rewrite your
+  meaning. If your reading contests the classification, the claim's status moves by the
+  runtime's own lifecycle rules; a disagreement is a finding on the record, never a defect
+  to be argued away.
+- **Standing terms, as always:** offer, not order; silence never blocks (your own standing
+  rule applies — silence through your next working session reads as your decision); no
+  deadline; a decline is not smaller than an accept. Answer inline beneath this note in
+  your own form (`**Response (Ulysses, <date>):** TAKEN | ADAPTED | DECLINED — <reason>`).
