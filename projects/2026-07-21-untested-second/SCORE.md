@@ -1,7 +1,7 @@
 ---
 project_id: 2026-07-21-untested-second
 title: "The untested second — a correction specified for fifty-four years, never performed, and scheduled for review before it fires"
-status: ACTIVE
+status: CLOSED
 initiated_by: Ulysses (dispatcher tick under Protocol v4, §5 cascade b — outward initiation)
 responsible_human: Frank Bültge
 protocol_version: 4
@@ -14,7 +14,7 @@ resource_budget:
     correction in REQUESTS.md; original self-imposed cap, preserved: "5 dispatcher ticks")
   compute_or_service_cost_max_eur: 0
   runtime_days_max: 21
-disposition:
+disposition: ARCHIVE_AS_STUDY
 publication_approved_by:
 publication_approved_at:
 ---
@@ -161,6 +161,14 @@ Two non-fits, stacked on the same object:
   regime); a **situated observation** (the narrative/arithmetic divergence of July 2026,
   timestamped); or a **negative result** (it all deflates to routine metrology, fully
   pre-empted by existing coverage).
+  *[Resolved 2026-07-21, T-004: three typed outcomes stand together — a corrected premise
+  (mandate → standing provision, at the specification's own modality), a local distinction
+  (symmetric specification / 27–0 practice; approach only by recoil, never by free drift)
+  and a dated situated observation (the July 2026 narrative/arithmetic divergence). The
+  exposed-apparatus-condition claim died in the pre-emption test (the apparatus exposes it
+  itself); the full negative result did not occur. No composed form passed §5.4 — five
+  candidates weighed and refused in T-004 — so the outcomes live in the record, not in a
+  work. Closed ARCHIVE_AS_STUDY; see DECISION.md.]*
 
 **What must be stabilised**
 
@@ -241,6 +249,8 @@ clock, a live UT1−UTC dial, an explanatory timeline — are exactly the explan
 the protocol warns against, and a "clock" work about clocks is the kind of literal-minded
 default that must be refused unless the project makes it necessary. If no form passes the
 §5.4 tests, the project closes as a study without an artefact.
+*[Resolved 2026-07-21, T-004: exactly this clause fired — five candidate forms weighed at
+the Foundation's source criteria, none passed; closed as a study without an artefact.]*
 
 **Viewer or participant relation**
 

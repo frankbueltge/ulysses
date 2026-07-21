@@ -196,3 +196,74 @@ change the project's object, interpretation, result or responsibility relation.
   budget revised per team correction. Declared next operation: the compose/judge decision
   on the three surviving observations.
 - Public status: public (institutional documents and published literature only)
+
+### T-004 — Judge: every candidate form fails the §5.4 tests; closed as a study whose record is the contribution
+
+- Date: 2026-07-21 (tick 4)
+- Type: compose/judge decision (Protocol v4 §5.4–§5.5), performed as this tick's one
+  bounded operation
+- Originating actor or system: Ulysses (dispatcher tick). Because the §5.4 one-line tests
+  were load-bearing here, the source criteria were consulted per Protocol §3 and §5.4:
+  `docs/foundation/tranche-4/11-INTEGRATED-MODEL-FOR-ULYSSES.md` §6 (differential
+  consistency: the medium must *actively organise* the relation of heterogeneous series,
+  and the relation must be able to change what the materials can do — not resolve into one
+  thesis, not merely juxtapose) and
+  `docs/foundation/tranche-5-final/12-FOUNDATION-REQUIREMENTS-FINAL.md` FR-27–FR-32
+  (medium necessity; non-replaceability as a kill/reframe rule; no explanatory-interface
+  default; interaction must transform; no exposition rescue).
+- What happened: the three surviving observations (T-003 result 4: recoil;
+  symmetric-specification/asymmetric-practice incl. Annex 3 Fig. 4; the dated July 2026
+  narrative/arithmetic divergence) were put through the tests via five candidate forms,
+  each weighed to an explicit refusal:
+  1. **Countdown clock / live UT1−UTC dial / explanatory timeline.** Refused by default —
+     the score flagged this at initiation (§4) and FR-30 names it. Decisive extra ground:
+     a countdown *enacts approach* while the verified arithmetic retreats (T-002 result 4);
+     the form would resolve the project's central tension in the direction its own data
+     contradict.
+  2. **The never-issued bulletin** — a composed counterfactual Bulletin C announcing the
+     first negative leap second, the letter the timekeeping world has never received. The
+     strongest medium-necessity candidate (the apparatus speaks in bulletins; the genre is
+     the material; material specificity total). Refused on prohibition and affected-public
+     grounds: a plausible institutional document in the name of a real institution (IERS),
+     landed in a public, scrapeable, machine-readable repository, is a fabricated record
+     however clearly framed — the marking does not travel with the text, and this domain's
+     affected public is precisely automated readers of timekeeping announcements. It also
+     fails differential consistency on inspection: it resolves "fully specified / never
+     performed" by performing the announcement rhetorically. Recorded as the project's
+     important rejected line (§5.3: important rejected outputs are traces).
+  3. **A composed prose work** carrying the three observations under a work's title.
+     Fails FR-32 (no exposition rescue): it would be the research note in costume;
+     paragraph-replaceability holds by construction.
+  4. **The mirror catalogue**: the 27 dated occurrences of the impossible time-of-day
+     23:59:60 (each existed exactly once, per the leap-second table) set against the zero
+     non-occurrences of the possible 23:59:59 — the only second of civil time whose
+     non-occurrence is specified in advance. A real local distinction, and it stays in the
+     record as one — but as a form it is a list: §5.4 test 3's named failure (mere
+     juxtaposition), and the sentence above already performs its whole function (FR-28).
+  5. **A durational or silent form** in which nothing happens — the untested second
+     "held". A clock-work about clocks, refused by the score at initiation; a genre
+     convention (the silent duration piece) whose borrowed form would do the resolving
+     the material forbids; nothing in it transforms (FR-31).
+  Across all five, the non-replaceability test (FR-28) was decisive: each observation, and
+  their conjunction, is performed substantially by the paragraphs already standing in this
+  trace. FR-28's own rule then applies: *killed or reframed as a study*.
+- Decision: **ARCHIVE_AS_STUDY** (DECISION.md). Not a KILL — kill clause (a) requires the
+  sign-reading corrected (it was confirmed, T-002) and clause (b) requires every candidate
+  claim pre-empted (three survived, T-003). Not a PUBLICATION_CANDIDATE — that status is
+  for a composed work (Register A), and the honest finding is that no work exists here
+  that its own record does not already perform.
+- Loose end closed honestly rather than silently: provisional item (d) (outage lore from
+  practiced positive leap seconds) was declared usable only if a composition needed it; no
+  composition exists; it dies unverified and **unused** — it never entered any claim.
+- Why this trace is consequential: it records that the close came from a criterion-by-
+  criterion refusal at the Foundation's own tests, not from a starved budget (the team's
+  2026-07-21 correction was applied at T-003; this tick was taken under the revised
+  budget) — and it preserves the rejected bulletin line, which a future reader might
+  otherwise reinvent without its refusal grounds.
+- What interpretation remains uncertain: whether a form could exist that passes — the
+  refusal is of five candidates, not a proof over all forms. The study stays a study; per
+  Protocol §5.5 an archived project is not reinterpreted retroactively, and any future
+  form would be a new project against this record.
+- Resulting project change: status CLOSED, disposition ARCHIVE_AS_STUDY; SCORE §2 fourth
+  determination resolved; DECISION.md written; active-project capacity returns to 0 of 2.
+- Public status: public (institutional documents and published literature only)
