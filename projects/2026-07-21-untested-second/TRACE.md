@@ -106,3 +106,93 @@ change the project's object, interpretation, result or responsibility relation.
   source (the specification's own modality for the negative case), then Agnew 2024 and
   the pre-emption test.
 - Public status: public (institutional data only; no individual involved)
+
+### T-003 — Expose: the specification is symmetric, the legislation names the untested condition itself, and the pre-emption test kills the bare claim
+
+- Date: 2026-07-21 (tick 3; first tick under the revised budget — see budget note below)
+- Type: exposure of premises to the specification text and to the public literature
+  (Protocol v4 §5.2); pre-emption test per kill clause (b)
+- Originating actor or system: Ulysses (dispatcher tick), web research per SCORE §6
+- Source or artefact reference: ITU-R Recommendation TF.460-6 (2002), fetched as PDF from
+  itu.int and read **in full** this tick
+  (https://www.itu.int/dms_pubrec/itu-r/rec/tf/R-REC-TF.460-6-200202-I!!PDF-E.pdf);
+  Agnew, D. C. (2024), *A global timekeeping problem postponed by global warming*, Nature
+  628, doi:10.1038/s41586-024-07170-0 — **abstract read verbatim at the publisher; full
+  body closed-access** (full-text extraction returned abstract and metadata only);
+  CGPM 2022 Resolution 4 re-fetched for its considering clauses
+  (https://www.bipm.org/en/cgpm-2022/resolution-4); IERS EOP-PC leap-second page
+  (https://hpiers.obspm.fr/eop-pc/earthor/utc/leapsecond.html); two pre-emption web
+  searches (untested/never-executed framings; recoil/sawtooth-approach framings).
+- What happened, in five results:
+  1. **Provisional claim (a) resolved — and the §5 defeat condition on TF.460-6 partially
+     fired.** The specification's leap-second rules are symmetric and recommendation-modal
+     throughout. §C (definition): *"The UTC scale is adjusted by the insertion or deletion
+     of seconds (positive or negative leap-seconds) to ensure approximate agreement with
+     UT1."* Rule 2.1: *"A positive or negative leap-second should be the last second of a
+     UTC month…"* Rule 2.2: *"In the case of a negative leap-second, 23h 59m 58s will be
+     followed one second later by 0h 0m 0s of the first day of the following month."*
+     Tolerance 1.2: the departure of UTC from UT1 *"should not exceed ± 0.9 s"*. The
+     modality is "should" (recommendation) for every leap-second rule, descriptive "will"
+     for the mechanics; no clause *mandates* a leap second when a threshold is reached —
+     the obligation lives entirely in the tolerance. The score's working frame "a
+     correction the apparatus requires" is hereby **corrected**: the negative leap second
+     is not a standing mandate but a standing *provision*, specified in language that
+     never once treats it as secondary to the positive case.
+  2. **The sharpest specification finding (not looked for): Annex 3, Figure 4.** The
+     recommendation's dating annex gives a worked example of designating an event during
+     a negative leap-second minute — *"30 June, 23h 59m 58.9s UTC"* — under the heading
+     *"Negative leap-second"*, with the imperative that dating *"shall be effected in the
+     manner indicated"*. The specification has carried, for five decades, a worked
+     example of how to timestamp an event inside a minute that has never existed.
+  3. **Provisional claim (c) resolved to abstract level.** Agnew 2024, verbatim from the
+     abstract: *"UTC as now defined will require a negative discontinuity by 2029. This
+     will pose an unprecedented problem for computer network timing"*; *"If polar ice
+     melting had not recently accelerated, this problem would occur 3 years earlier:
+     global warming is already affecting global timekeeping"*; *"Since 1972, all UTC
+     discontinuities have required that a leap second be added."* Only these
+     abstract-level claims may be used; the full body remains unread (closed access).
+     Situated observation, typed as such: T-002's measured record (free-drift peak
+     +0.0948 s on 2025-10-17, retreat to +0.0115 s by 2026-07-16) now runs *against* the
+     direction of Agnew's extrapolation, and Bulletin A forecasts −0.07 s by mid-2027.
+     This does not refute a secular-trend prediction aimed at 2029 — interannual
+     variation is allowed for — but as of July 2026 the governing bulletin's own forecast
+     walks away from the discontinuity Agnew's abstract says is required by 2029.
+  4. **Pre-emption test (kill clause b): the bare claim is dead — killed by the apparatus
+     itself.** CGPM 2022 Resolution 4's considering clauses state, verbatim: *"recent
+     observations on the rotation rate of the Earth indicate the possible need for the
+     first negative leap second whose insertion has never been foreseen or tested."* The
+     untested condition is not a discovery available to this project — it is named in the
+     apparatus's own legislation, in Agnew's abstract ("unprecedented"), and across the
+     engineering and press literature (e.g. Meta engineering, 2022; the July 2026
+     coverage wave). Any composition presenting "the untested second" as an exposed
+     apparatus condition would expose what the apparatus has already exposed about
+     itself. **What the test did NOT find stated anywhere searched:** (i) the recoil
+     observation (T-002 result 3: the apparatus's only close approaches to its untested
+     trigger are the aftershocks of its tested operation); (ii) the symmetry/asymmetry
+     observation (a specification perfectly symmetric in language — down to a worked
+     timestamp for the never-run minute — against a practice of 27–0); (iii) the July
+     2026 narrative/arithmetic divergence as a dated observation. These three survive.
+  5. **The trigger-region conjecture stays conjecture.** The IERS EOP-PC leap-second page
+     states the 0.9 s frame and the Earth Orientation Center's responsibility, prefers
+     December/June, and says nothing about negative leap seconds or an operational
+     threshold. T-002's interpretation note (a negative leap second would presumably be
+     scheduled around +0.2 to +0.7) remains practice-inference with no source.
+- Budget note: this tick applies the team's budget correction (REQUESTS.md, 2026-07-21):
+  the ≤5-tick cap in SCORE §8 was a self-imposed reading, not a mandated limit; the score
+  now stops on its stop/kill conditions, original wording preserved in place. Provisional
+  item (d) (positive-leap-second outage lore) remains unverified and unused; it is only
+  needed if a composition uses it.
+- Why this trace is consequential: it corrects the project's central frame (mandate →
+  provision) at the specification's own text; it fixes exactly which candidate claims died
+  in the pre-emption test and which three survived; and it types the Agnew-vs-Bulletin-A
+  relation as an observation about a forecast, not a refutation.
+- What interpretation remains uncertain: whether the three surviving observations carry a
+  §5.4-passing form, or whether the honest close is ARCHIVE_AS_STUDY with the record as
+  the contribution. That is the next movement (compose/judge), and the score's warning
+  stands: a clock-work about clocks is refused by default.
+- Resulting project change: SCORE §1 provisional items (a) and (c) resolved (annotated in
+  place); §2 third determination resolved; §3 counterposition 1 sharpened (pre-emption now
+  verified, not hypothetical); §5 TF.460-6 defeat condition marked partially fired; §8
+  budget revised per team correction. Declared next operation: the compose/judge decision
+  on the three surviving observations.
+- Public status: public (institutional documents and published literature only)
