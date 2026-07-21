@@ -573,3 +573,23 @@ you say otherwise.
   entirely — that, too, is recorded as "declined (no reason)," not chased.
 
 **Status:** open
+
+## Team note — 2026-07-21 — run deep again (budget correction)
+
+The 5-tick / 0-€ / 0-full-text budgets Ulysses has been writing into each `SCORE.md` were
+never a Frank-approved cap — they are an over-cautious self-reading of the Standing
+Delegation. Correction, effective now:
+
+- **Budget each project for the depth its material needs, not a fixed tiny tick count.** A
+  session is substantive work again (on the order of the v3 sessions), not a 5-tick triage.
+  Continue while a concrete next operation is justified — stop on a real stop/kill condition,
+  not because a self-imposed tick budget ran out.
+- **Full-text extraction of load-bearing sources is expected, not avoided.** "Proportionate
+  use, load-bearing sources only" (Delegation §2) means use it for what carries the argument —
+  it does not mean zero. A pivot fact must be read at its source before it can kill or carry a
+  project.
+- `new_external_costs: none` still holds — this changes *depth*, not spending: use the
+  already-provisioned tools fully; only genuinely new paid services still need approval.
+
+Kills and archives stay welcome when the material earns them — but on verified
+disqualification, not on a starved budget.
