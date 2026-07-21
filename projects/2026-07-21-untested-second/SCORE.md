@@ -67,6 +67,8 @@ own primaries** (the discipline the `retraction-signature` kill taught):
 - (b) The count "27 leap seconds, all positive, 1972–2016." Partially derivable from
   Bulletin C's UTC−TAI = −37 s given the 1972 initial 10 s offset, but the offset and the
   count are to be confirmed at a primary, not asserted from memory.
+  *[Resolved 2026-07-21, T-002: confirmed at the IERS/Paris canonical leap-second table —
+  initial offset 10 s at 1972-01-01, 27 steps to 37 s, every one +1.]*
 - (c) **Agnew (2024)**, *A global timekeeping problem postponed by global warming*, Nature —
   reported as arguing that meltwater redistribution has postponed the projected need for a
   negative leap second by several years. Identified, **unread**; to be read at primary
@@ -127,9 +129,19 @@ Two non-fits, stacked on the same object:
 - Whether the sign-convention reading above is correct, and what the actual historical
   sawtooth (UT1−UTC since 1972, its closest-ever approach to the untested trigger) looks
   like — resolvable from the retrievable IERS EOP series, not from anyone's summary.
+  *[Resolved 2026-07-21, T-002: CONFIRMED against the full C04 + finals.all record — all
+  27 insertions fired from negative eves (−0.68 to −0.19 s); the untested correction sits
+  on the positive side, and the predicted downward drift moves away from it. Sharpened by
+  an unlooked-for result: the closest-ever approaches to the positive bound (+0.81 s max)
+  are the recoil of performed insertions, not free drift; free drift's record is +0.0948 s
+  (2025-10-17). See T-002 and `eop-check.py`.]*
 - Whether the post-2020 rotation speedup has peaked (the downward Bulletin A slope suggests
   the mean day is currently *longer* than 86,400 s again) — and whether any institution has
   said so publicly.
+  *[Partially resolved 2026-07-21, T-002: in UT1−UTC terms the drift toward the untested
+  trigger peaked at +0.094768 s on 2025-10-17 and had fallen to +0.011544 s by 2026-07-16
+  (measured, finals.all). Whether any institution has *said* so publicly remains open —
+  part of the pre-emption test.]*
 - What ITU-R TF.460-6 actually specifies for the negative case, in its own words.
 - Which typed outcome is honest: an **exposed apparatus condition** (the untested path of
   civil time; DUT1 = 0.0 as the quiet zero-marker); a **local distinction** (practiced
