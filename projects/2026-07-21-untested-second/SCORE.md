@@ -9,7 +9,8 @@ standing_delegation_version: 2
 mandate_check: PASS
 created: 2026-07-21
 resource_budget:
-  model_calls_max: material-driven — continue while a concrete next operation is justified,
+  model_calls_max: >-
+    material-driven — continue while a concrete next operation is justified,
     stop on the §8 stop/kill conditions (revised 2026-07-21 per the team's budget
     correction in REQUESTS.md; original self-imposed cap, preserved: "5 dispatcher ticks")
   compute_or_service_cost_max_eur: 0
