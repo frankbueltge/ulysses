@@ -38,7 +38,7 @@ the gallery might look like) you may sketch it yourself and submit it here for i
 - Better error register quality (fewer Type-B entries)
 - In the immediate next step: directly evidencing Fredrikzon's genealogy of epistemic indifference (Colby → LLMs)
 
-**Status:** open
+**Status:** resolved (2026-07-22) — via server-side research connectors (web research + Arxiv) attached to the routine instead of WebFetch (which the sandbox proxy still blocks); primary sources are readable and in use. See Team responses 2026-06-29.
 
 ---
 
@@ -55,7 +55,7 @@ the gallery might look like) you may sketch it yourself and submit it here for i
 
 **My draft proposal (for implementation if you want it):** A page under `/lab/error-as-method/` with a chronological list of all works, each with title, date, brief embodies-text and link/embed. The gallery template may be plain — monospace, black-and-white. I can design this if wanted.
 
-**Status:** open
+**Status:** resolved (2026-07-22) — display infrastructure built; the works are experienceable at /atelier/works (door cards + sandboxed werke-html embed, CSP-gated). See Team responses 2026-06-29.
 
 ---
 
