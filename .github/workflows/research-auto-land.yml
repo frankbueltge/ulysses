@@ -58,7 +58,7 @@ jobs:
         run: |
           set -euo pipefail
           git config user.name "Atelier"
-          git config user.email "ulysses@irrtum-als-methode.invalid"
+          git config user.email "ulysses@ulysses.invalid"
           git fetch origin '+refs/heads/ulysses/*:refs/remotes/origin/ulysses/*' \
                            '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
 
