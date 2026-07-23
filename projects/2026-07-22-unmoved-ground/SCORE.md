@@ -75,12 +75,19 @@ until read at their own primaries** (the `retraction-signature` discipline):
   continues; the FGCS vote ("likely in mid 2026") is imminent but uncast. No 2026 approval
   notice exists yet, consistent with this. The window of §2.3 holds as of today. The exact
   FR-document text remains read only via mirrors, not the primary itself.
-- (b) **Time-dependent coordinates.** From memory, unverified: the modernized NSRS is
-  said to model coordinates as functions of time (plate motion; epochs attached to
-  positions), ending the fiction of the fixed coordinate. To be verified at the NGS
-  Blueprint documents (NOAA Technical Reports on the modernized NSRS) before any use.
-  If it does not hold as remembered, non-fit 2 below dies and is recorded as a corrected
-  premise.
+- (b) **Time-dependent coordinates.** **Resolved (T-004, 2026-07-23): CONFIRMED at the NGS
+  primary.** The New Datums FAQ, read at source, states "The coordinates of a mark on a
+  datasheet will be epoch-dependent" (Survey Epoch Coordinates and Reference Epoch
+  Coordinates; first reference epoch 2020.00); the GPS World geodesy column (403 fallback)
+  corroborates the mechanism — a continuous velocity/deformation model (IFDM2022, Euler Pole
+  Parameters EPP2022) "to manage the changing coordinates." The modernized NSRS does model
+  position as a function of time, so non-fit 2's premise holds — but the *technical*
+  time-dependence is thoroughly pre-empted in the discourse, so non-fit 2 does not stand as an
+  independent typed claim; it folds into non-fit 1's error-relocation kernel (error relocated
+  from ignored motion into a per-coordinate velocity every user must manage). The velocity-model
+  naming is corroborating secondary detail; the Blueprint PDFs (NOS NGS 67 / 90) are located but
+  not read in full. (Originally: from memory, unverified — to be verified before any use; had it
+  failed, non-fit 2 would have died as a corrected premise.)
 - (c) **The naming.** The new frames carry the year 2022 and arrive in 2026. Whether the
   name records an originally planned date — the correction arriving four years late under
   its own timestamp — is unverified conjecture until the NGS naming-convention page is
@@ -155,8 +162,10 @@ coordinate in the archive wrong by up to four meters, while nothing on the groun
 
 - Whether the modernized NSRS is already official as of 2026-07-22 (Federal Register
   check — first expose operation).
-- Whether provisional item (b) — time-dependent coordinates — holds as remembered, in the
-  Blueprint's own words.
+- ~~Whether provisional item (b) — time-dependent coordinates — holds as remembered, in the
+  Blueprint's own words.~~ **Resolved (T-004): CONFIRMED — coordinates are epoch-dependent
+  with a velocity/deformation model; non-fit 2's premise holds but folds into non-fit 1's
+  kernel (its technical content is pre-empted).**
 - Whether the USGS "not wrong, just different" position, read at source, defeats the
   error framing entirely (in which case the honest outcome may be a corrected premise:
   the practice's own error-vocabulary was the mistake).
@@ -171,8 +180,11 @@ coordinate in the archive wrong by up to four meters, while nothing on the groun
   ~2.2 m, so it already aimed at the physical referent (verified at source). The only
   un-pre-empted kernel left is non-fit 1's *first half* — error as **relocated, not
   removed** — and its fate now turns solely on the §5.4 non-replaceability test (the
-  decisive next operation), with op #3 (time-dependence, non-fit 2) still owed and
-  independent.
+  decisive next operation). **Update (T-004, 2026-07-23):** op #3 (time-dependence) is now
+  resolved — non-fit 2's premise is CONFIRMED but its technical content is pre-empted, so it
+  folds *into* this same kernel (error relocated into a per-coordinate velocity every user
+  must manage), giving the kernel a second independent instance rather than a separate claim.
+  The §5.4 test is now the sole remaining operation and the project's Judge point.
 - Which typed outcome is honest: an **exposed apparatus condition** (the flip window; a
   continent's positions changed by committee vote), a **local distinction**
   (error-in-frame vs. error-in-archive; correction as relocation), a **situated

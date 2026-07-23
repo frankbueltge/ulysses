@@ -244,3 +244,87 @@ change the project's object, interpretation, result or responsibility relation.
   corrected to a narrower, sourced claim; surviving kernel and its deciding test named. No
   composed form earned; none attempted.
 - Public status: public (institutional and public-education documents only; no individuals).
+
+### T-004 — Verify time-dependence (op #3): the fiction of the fixed coordinate does end — but the reading folds into non-fit 1's kernel rather than adding a second
+
+- Date: 2026-07-23 (dispatcher tick, Protocol v4 §5 cascade a — one bounded operation on the
+  ACTIVE project: declared op #3, the last owed empirical verification; §5.2 Expose + §5.3
+  Register)
+- Type: expose / primary-source verification / provisional (b) resolution
+- Originating actor or system: Ulysses (scheduled runtime; web search + fetch; 403 fallback
+  extraction for the trade-press secondary)
+- Operation performed: verify provisional item (b) — is the modernized NSRS's modelling of
+  coordinates as functions of time real, as remembered, in the institution's own words? Read
+  at the NGS primary (New Datums FAQ) and corroborated at a named trade-press secondary.
+- Sources (this run, 2026-07-23):
+  1. NGS, "New Datums Frequently Asked Questions"
+     (https://geodesy.noaa.gov/datums/newdatums/FAQNewDatums.shtml) — primary, NGS's own
+     record. Verbatim: *"The coordinates of a mark on a datasheet will be epoch-dependent."*
+     Two epoch-dependent coordinate types: **Survey Epoch Coordinates (SECs)** at the epochs a
+     survey occupied the mark, and **Reference Epoch Coordinates (RECs)** projected by
+     least-squares adjustment to a reference epoch; *"currently NGS continues to plan for the
+     first reference epoch to be 2020.00."*
+  2. GPS World, "The effects of tectonic plate movement on the modernized 2022 NSRS"
+     (https://www.gpsworld.com/the-effects-of-tectonic-plate-movement-on-the-modernized-2022-nsrs/)
+     — corroborating secondary; direct WebFetch returned HTTP 403, read via the permitted 403
+     fallback (full-text extraction). Verbatim: *"I will highlight the time-dependent aspect of
+     the modernized NSRS and why it is necessary"*; *"estimate coordinates at epochs different
+     from the survey observation epoch by accounting for movement"*; *"Coordinates basically
+     change because the Earth's surface is moving due to the movement of major tectonic plates
+     … NGS … is attempting to manage the changing coordinates by providing a time-dependent
+     component."* Names the velocity model: Intra-Frame Velocity Model (IFVM2022), renamed
+     Intra-Frame Deformation Model (IFDM2022), with Euler Pole Parameters (EPP2022); references
+     NOAA TR NOS NGS 90 (Oct 2021). Author byline and publication date not captured in this
+     run's extraction — not fabricated.
+
+- **Determination 4a — provisional (b) CONFIRMED; non-fit 2's premise holds.** The modernized
+  NSRS does model position as a function of time, not a constant: coordinates are epoch-dependent
+  (NGS primary), driven by a continuous velocity/deformation model (IFDM2022) with Euler-pole
+  plate rotations, referred to a reference epoch (2020.00). The old frame's coordinate was a
+  constant; the new one is a value-at-an-epoch carried by a velocity. The fiction of the fixed
+  coordinate — non-fit 2's "the ground stands still" — does end, in the institution's own
+  design. Honest provisional split preserved: the load-bearing statement (epoch-dependence) is
+  read at NGS itself; the velocity-model naming (IFDM2022 / EPP2022 / NOS NGS 90) is
+  corroborating secondary detail — the Blueprint PDFs (NOS NGS 67, NOS NGS 90) are located but
+  not read in full this run.
+
+- **Determination 4b — the reading folds into non-fit 1; it does not add an independent second
+  kernel.** Applying the same pre-emption discipline that governed T-003: the *technical*
+  time-dependence and *why it is necessary* are thoroughly articulated in the accessible
+  discourse — the GPS World column's whole subject is "why it is necessary," and the Blueprint
+  specifies the mechanism. As technical content, non-fit 2's framing ("the ground stands still"
+  as the deeper error) is pre-empted. What is not pre-empted is, again, only the
+  conservation-of-error reading: the correction does not *remove* the error that the Earth moves
+  — it cannot — it makes every coordinate carry that motion as a managed velocity, distributing
+  a fact the old frame simply ignored into an obligation the institution and every user must now
+  actively perform (attach an epoch, apply a velocity, re-reduce). That is not a second claim; it
+  is non-fit 1's kernel extended from space into time: error is not removed but relocated —
+  spatially, from the frame's origin into every archived coordinate (T-003); temporally, from an
+  ignored motion into a per-coordinate velocity every user must manage (here). The two non-fits
+  collapse into one reinforced kernel.
+
+- **Determination 4c — consequence for the Judge.** Non-fit 2 does not die (its premise is
+  confirmed) and does not survive as an independent typed claim (its technical content is
+  pre-empted). It folds into non-fit 1's surviving kernel and strengthens it: "the correction
+  relocates rather than removes error" now has two independent instances (archive/space;
+  velocity/time) rather than one. This raises the stakes of the single deciding test — §5.4
+  non-replaceability — without changing that it is the test. If "error is conserved and
+  relocated, never removed" can hold both instances together without reducing to "coordinates
+  change in space and in time; apply the transformations," a typed local distinction / exposed
+  apparatus condition survives; if it reduces, ARCHIVE_AS_STUDY. Op #3 is now resolved; that
+  §5.4 test is the sole remaining operation and the project's Judge point.
+
+- Why this trace is consequential: it resolves the last owed empirical verification; confirms
+  non-fit 2's premise at the NGS primary; and, by the pre-emption discipline, folds non-fit 2
+  into non-fit 1 rather than letting it stand as a separate contribution — so the Judge faces one
+  reinforced kernel, not two, which is the honest shape of the project going in.
+- What interpretation remains uncertain / next operation still owed:
+  1. **The §5.4 non-replaceability test on the (now two-instance) error-relocation kernel** —
+     the sole remaining operation and the project's Judge point. Honest default remains doubtful
+     (SCORE §3 counterposition 3: it must survive the prosaic restatement).
+- Related score assumption: §2 non-fit 2 and §2.3; provisional item (b); §8 stop condition; §3
+  counterposition 2 (pre-emption) and 3 (prosaic restatement).
+- Resulting project change: status stays ACTIVE; provisional (b) resolved (CONFIRMED); non-fit 2
+  folded into non-fit 1's kernel; sole remaining operation = §5.4 non-replaceability test (the
+  Judge point). No composed form earned; none attempted.
+- Public status: public (federal institutional document + trade-press secondary; no individuals).
