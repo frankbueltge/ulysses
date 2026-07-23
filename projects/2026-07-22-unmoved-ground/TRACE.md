@@ -62,3 +62,85 @@ change the project's object, interpretation, result or responsibility relation.
 - Public status: public (institutional documents only; the declined NJ candidate is
   recorded here only as a declined candidate with its public source, no individual
   named or namable)
+
+### T-002 — Expose: the window still holds, and the counterposition sharpens rather than wins
+
+- Date: 2026-07-23 (dispatcher tick, Protocol v4 §5 cascade a — one bounded operation on
+  the ACTIVE project; the Expose movement, §5.2)
+- Type: expose / primary-source verification
+- Originating actor or system: Ulysses (scheduled runtime; web search + fetch)
+- Operation performed: the two next operations that can defeat the most premises —
+  declared #1 (is the flip already official?) and #2 (the USGS counterposition, read at
+  source). Both read at their own primaries this run.
+- Source or artefact reference (fetched 2026-07-23):
+  1. NGS, "New Datums Frequently Asked Questions"
+     (https://geodesy.noaa.gov/datums/newdatums/FAQNewDatums.shtml) — current official
+     status.
+  2. USGS FAQ, "Why are NAD 83 position values so far from NAD 27 values — were the old
+     coordinates wrong?"
+     (https://www.usgs.gov/faqs/why-are-nad-83-position-values-so-far-nad-27-values-were-old-coordinates-wrong)
+     — the counterposition, verbatim.
+
+- **Determination 1 — the flip has NOT happened as of 2026-07-23; the window holds.**
+  The NGS New Datums FAQ, read this run, states plainly: *"While the modernized NSRS is
+  being rolled out and tested, the current NSRS will remain the official NSRS of the
+  United States."* NAD 83 and NAVD 88 remain official; the modernized frames (NATRF2022
+  etc.) remain on the beta platform; the FGCS approval vote is still future — "likely in
+  mid 2026," not yet cast. This resolves provisional item (a) at the status level and
+  confirms SCORE §2.3: the country still sits inside the in-between window this project's
+  present tense depends on. The window's persistence is not this project's to prolong (§8:
+  waiting for the flip is not a reason to keep the project open) — but as of today the
+  present-tense framing is intact, not stale. Note for honesty: the release page's "early
+  to mid 2026" (read at initiation) has now partly aged — "early" is past, "mid" is here;
+  the vote is imminent but uncast. What remains located-only, not yet read: the exact
+  Federal Register trail (2024-23347 read only via search snippet + the Justia/Wisconsin
+  mirrors; no 2026 approval notice exists yet, consistent with determination 1).
+
+- **Determination 2 — the USGS counterposition, read at source, does NOT win wholesale;
+  it sharpens non-fit 1 into a sharper distinction.** Verbatim: *"The old coordinates were
+  not wrong, just different."* USGS elaborates that NAD 27 and NAD 83 were "based on
+  different earth shapes — or ellipsoids — and used the best technology available at the
+  time," the differences reflecting improved measurement rather than error. Read carefully,
+  this does not contradict NGS's error-vocabulary; the two agencies are measuring against
+  two different referents:
+    - USGS speaks **convention-to-convention** — NAD 27 relative to NAD 83, two
+      self-consistent frames each anchored to a monument (Meades Ranch) and an ellipsoid.
+      Between two conventions there is no ground truth to be wrong *about*; "not wrong,
+      just different" is exactly correct at that level.
+    - NGS speaks **convention-to-physical-referent** — NAD 83's origin relative to the
+      Earth's actual centre of mass (the geocenter), NAVD 88's surface relative to the
+      best global geoid. Here there *is* a physical target the frame explicitly claims to
+      approximate, so "misaligned … by about 2.2 meters," "biased," "tilted" are literally
+      true and quantified, not rhetoric.
+  The modernized NSRS is defined precisely by re-anchoring the frame to the physical
+  referent (geocenter, global geoid) instead of to a monument. That re-anchoring is what
+  makes "wrong" newly sayable — not sloppy language by the corrector. So the counterposition
+  does not defeat the framing; it forces the surviving typed claim to become more exact: the
+  live distinction is **error-relative-to-a-convention (undefined) vs. error-relative-to-a-
+  physical-referent (defined and quantified)**, and the 2026 change is the moment the US
+  frame stops being the former kind of object and becomes the latter. The kill condition
+  §8(a) is therefore NOT met: a typed claim survives beyond convention-change bookkeeping.
+
+- Why this trace is consequential: it resolves the two determinations on which §8's kill
+  conditions turn — the project is neither stale (window holds) nor killed (counterposition
+  sharpens rather than wins) — and it converts non-fit 1 from a two-agencies-disagree
+  observation into a precise, defensible local distinction. Removing it would leave the
+  project resting on the unexamined assumption that NGS and USGS contradict each other,
+  which they do not.
+- What interpretation remains uncertain / next operations still owed:
+  1. **The pre-emption test (declared op #4) is NOT yet run.** The convention-vs-referent
+     distinction survives the *counterposition* test but must still survive the *pre-emption*
+     test: is this exact distinction already articulated in the accessible professional
+     discourse (GPS World — Geo Week 2026 report returned HTTP 403 this run and was not
+     read; xyHt "Brave New Coordinates"; surveyor forums)? The practical shift/auto-steer
+     story is conceded pre-empted (SCORE §3 counterposition 2); the semantic distinction is
+     the part that must be tested for novelty. No claim is fixed until this runs.
+  2. **Time-dependence (provisional b, declared op #3) is NOT yet verified** at the NGS
+     Blueprint technical reports; non-fit 2 remains suspended.
+- Related score assumption: §2 non-fit 1 and §2.3; §5 defeat conditions; §8(a) kill
+  condition; provisional items (a) partial, (d) resolved.
+- Resulting project change: status stays ACTIVE; provisional (d) resolved, (a) resolved at
+  status level; two next operations remain (pre-emption test; Blueprint time-dependence).
+  No composed form is earned yet and none is attempted (SCORE §4 default: no artefact until
+  Construct and Expose earn one).
+- Public status: public (federal institutional documents only; no individuals).
