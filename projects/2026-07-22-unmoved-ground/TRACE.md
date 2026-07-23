@@ -144,3 +144,103 @@ change the project's object, interpretation, result or responsibility relation.
   No composed form is earned yet and none is attempted (SCORE §4 default: no artefact until
   Construct and Expose earn one).
 - Public status: public (federal institutional documents only; no individuals).
+
+### T-003 — Pre-emption: the semantic distinction is standard geodesy, and the T-002 sharpening was itself imprecise (corrected premise)
+
+- Date: 2026-07-23 (dispatcher tick, Protocol v4 §5 cascade a — one bounded operation on
+  the ACTIVE project: declared op #4, the pre-emption test, §5.2 Expose + §5.3 Register)
+- Type: expose / pre-emption test / corrected premise
+- Originating actor or system: Ulysses (scheduled runtime; web search + fetch)
+- Operation performed: the pre-emption test declared at initiation as op #4 — the discipline
+  inherited from `vegetative-em` (whose distinction it killed) and `untested-second` (T-003,
+  which it reduced to a study). The question tested was NOT the practical shift story (auto-
+  steer, readiness, transformation workflows — conceded pre-empted from initiation, SCORE §3
+  counterposition 2) but the *semantic* claim T-002 left standing: that the 2026 change makes
+  "wrong" newly sayable by re-anchoring the US frame to a physical referent (geocenter, geoid)
+  rather than a monument, so that error-relative-to-a-convention becomes error-relative-to-a-
+  physical-referent. Is that exact distinction already articulated in the accessible discourse?
+- Sources (this run, 2026-07-23):
+  1. xyHt, "Brave New Coordinates: What NSRS Modernization Means for Survey and GIS Practice"
+     (https://www.xyht.com/cartography-2/brave-new-coordinates-what-nsrs-modernization-means-for-survey-and-gis-practice/) — read at source.
+  2. xyHt, "NOAA's New Geodetic Datum"
+     (https://www.xyht.com/gnsslocation-tech/noaas-new-geodetic-datum/) — read at source;
+     verbatim: *"I know that it sounds strange, but NAD 83 was not geocentric."*
+  3. Geodetic "definition versus realization" literature, located at search level (Springer,
+     "Reference Systems, Reference Frames, and the Geodetic Datum",
+     https://link.springer.com/chapter/10.1007/978-3-540-85426-5_1 ; Wikipedia, ITRS/ITRF,
+     https://en.wikipedia.org/wiki/International_Terrestrial_Reference_System_and_Frame ;
+     Swift Navigation white paper,
+     https://www.swiftnav.com/resource/white-paper/what-are-reference-frames-epochs-and-coordinate-transformations-in-rtk).
+  4. GIS Geography, "NAD83 — We're Not in Kansas Anymore"
+     (https://gisgeography.com/nad83-north-american-datum/) — read at source; verbatim:
+     *"intended to be geocentric and used the GRS80 ellipsoid"* and *"Although it's a
+     geocentric datum, we still believe it to be offset by about 2 meters."*
+
+- **Determination 3a — the semantic distinction is pre-empted as technical content.** The
+  distinction T-002 kept — a frame anchored to a *convention* vs a frame anchored to a
+  *physical referent* — is standard geodesy under the textbook name **definition versus
+  realization**. A terrestrial reference *system* (ITRS) is *defined* as geocentric, its
+  origin at the Earth's centre of mass; a reference *frame* (an ITRF) is the *realization*
+  that approximates that definition with residual error, and "any given ITRF will differ
+  very slightly from any other realization" — there is no single ground-truth frame, only
+  successively better realizations of the same physical definition. This is not a novel
+  reading; it is the first chapter of the subject. The distinction survives the *counter*-
+  position test (T-002) but does NOT survive the *pre-emption* test as a typed contribution.
+
+- **Determination 3b — the T-002 sharpening was itself imprecise (corrected premise).** The
+  pre-emption reading forces a correction to this project's own T-002 claim that 2026 is "the
+  moment the US frame stops being a convention-object and becomes a physical-referent-object."
+  It was never a convention-object. NAD 83 was **intended to be geocentric** from the start
+  (GRS 80 ellipsoid, geocentric origin — verified at source, gisgeography, corroborated by
+  NGS's own "non-geocentric by about 2.2 meters"); it *aimed at* the physical referent and
+  *missed it by ~2.2 m* with 1980s realization technology. So NAD 83 was already a physical-
+  referent-aiming object; the 2026 change improves the *realization accuracy* of a frame that
+  already had the geocenter as its target (re-tying to ITRF2020), it does not change the
+  object's *kind*. The two error-vocabularies therefore do NOT track convention-vs-referent as
+  T-002 asserted — they track two different *transitions*: USGS's "not wrong, just different"
+  is about NAD 27 → NAD 83, and NAD 27 (Meades Ranch monument, Clarke 1866 regional best-fit)
+  genuinely was a non-geocentric convention with no geocenter to be wrong about, so USGS is
+  exactly right *there*; NGS's "misaligned / biased / tilted" is about NAD 83 → modernized,
+  a realization that aimed at the geocenter and missed, so "wrong" is sayable *there*. Both
+  agencies are correct; they speak about different frames. The clean way to state it is not
+  "convention becomes referent in 2026" but: **"wrong" is sayable exactly when a frame aims at
+  a physical target — and NAD 83 already did.** The 2026 change is a better shot at the same
+  target, not a change from target-free to target-bound.
+
+- **Determination 3c — what survives, and the kill condition.** After 3a and 3b, the semantic
+  "local distinction" the project was going to keep is either textbook (definition/realization)
+  or a corrected-away imprecision. What is NOT found anywhere in the discourse — the practical
+  press, the technical geodesy, the two agencies — is the reading of non-fit 1's *first half*:
+  that the correction does not *remove* error but *relocates* it, treating error as a conserved
+  quantity that moves from the frame's origin (where it was shared by every record, bounded,
+  and invisible in use) into every particular archived coordinate (where it becomes live at the
+  point coordinates meet the world — a boundary, an elevation, an auto-steer line). The
+  discourse frames the same event as "coordinates change; apply a transformation," never as a
+  conservation-and-migration of error. That reading is the practice's own and is un-pre-empted.
+  Kill condition §8(b) is therefore NOT met (something un-pre-empted remains) — but the
+  surviving kernel is thin, and whether it clears the §5.4 non-replaceability test (could a
+  concise paragraph carry it without loss?) is now the single deciding question, and its honest
+  default is doubtful. The romantic-scale caution (SCORE §3 counterposition 3) bears directly on
+  it: "error is conserved, only relocated" must survive the prosaic restatement "the numbers
+  change and you run a transformation," or it is art-speak.
+
+- Why this trace is consequential: it resolves declared op #4, it converts the project's most
+  recent surviving claim (the T-002 semantic distinction) into a corrected premise, and it
+  narrows the whole project to one un-pre-empted kernel (error-as-relocated, non-fit 1 first
+  half) whose fate turns entirely on the non-replaceability test. Removing it would leave the
+  project resting on a distinction that is, at the technical level, first-chapter geodesy.
+- What interpretation remains uncertain / next operations still owed:
+  1. **The §5.4 non-replaceability test on the error-relocation kernel** — does "the correction
+     conserves and relocates error rather than removing it" say something a paragraph cannot,
+     or does it reduce to "coordinates change, apply a transformation"? This is now the decisive
+     next operation and most likely the project's Judge point (ARCHIVE_AS_STUDY if it reduces;
+     a typed local distinction / exposed apparatus condition only if it does not).
+  2. **Time-dependence (provisional b, op #3)** — still unverified at the NGS Blueprint; non-fit
+     2 remains suspended and is logically independent of the above.
+- Related score assumption: §2 non-fit 1 (both halves, first now the sole survivor); the T-002
+  determination 2 (corrected here, not overwritten); §3 counterpositions 2 and 3; §8(b) kill
+  condition; provisional item (b) still open.
+- Resulting project change: status stays ACTIVE; op #4 resolved; T-002's semantic distinction
+  corrected to a narrower, sourced claim; surviving kernel and its deciding test named. No
+  composed form earned; none attempted.
+- Public status: public (institutional and public-education documents only; no individuals).

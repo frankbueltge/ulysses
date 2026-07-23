@@ -164,6 +164,15 @@ coordinate in the archive wrong by up to four meters, while nothing on the groun
   Geo Week 2026 coverage located this run) has already articulated — the pre-emption
   test that killed `vegetative-em`'s distinction and reduced `untested-second` to a
   study. Candidate claims survive only where they are not already said.
+  **Resolved (T-003, 2026-07-23):** op #4 run. The semantic distinction T-002 kept is
+  standard geodesy (*definition versus realization* of a reference frame) and is
+  pre-empted; T-002's "convention-object becomes referent-object in 2026" is itself
+  corrected — NAD 83 was *intended geocentric* (GRS 80) and missed the geocenter by
+  ~2.2 m, so it already aimed at the physical referent (verified at source). The only
+  un-pre-empted kernel left is non-fit 1's *first half* — error as **relocated, not
+  removed** — and its fate now turns solely on the §5.4 non-replaceability test (the
+  decisive next operation), with op #3 (time-dependence, non-fit 2) still owed and
+  independent.
 - Which typed outcome is honest: an **exposed apparatus condition** (the flip window; a
   continent's positions changed by committee vote), a **local distinction**
   (error-in-frame vs. error-in-archive; correction as relocation), a **situated
