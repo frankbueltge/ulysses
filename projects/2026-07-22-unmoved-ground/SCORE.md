@@ -69,7 +69,12 @@ until read at their own primaries** (the `retraction-signature` discipline):
 - (a) **The Federal Register trail** — the updated implementation timeline notice of
   2024-10-09 (FR Doc. 2024-23347) and any 2026 notice announcing FGCS approval. Located by
   search, unread. Establishing whether the modernized NSRS is official *as of today* is
-  this project's first expose operation.
+  this project's first expose operation. **Resolved at status level (T-002, 2026-07-23):**
+  the modernized NSRS is NOT yet official — NGS's New Datums FAQ, read at source, states
+  "the current NSRS will remain the official NSRS of the United States" while testing
+  continues; the FGCS vote ("likely in mid 2026") is imminent but uncast. No 2026 approval
+  notice exists yet, consistent with this. The window of §2.3 holds as of today. The exact
+  FR-document text remains read only via mirrors, not the primary itself.
 - (b) **Time-dependent coordinates.** From memory, unverified: the modernized NSRS is
   said to model coordinates as functions of time (plate motion; epochs attached to
   positions), ending the fiction of the fixed coordinate. To be verified at the NGS
@@ -84,7 +89,14 @@ until read at their own primaries** (the `retraction-signature` discipline):
   reported (search-level) to say the old coordinates were *"not wrong, just different"* —
   datums being conventions, not measurements. This is the strongest known attack on this
   project's framing and must be read verbatim at source before it is either answered or
-  allowed to win.
+  allowed to win. **Resolved (T-002, 2026-07-23):** read at source and confirmed verbatim
+  — *"The old coordinates were not wrong, just different."* It does NOT win wholesale. USGS
+  speaks convention-to-convention (NAD 27 vs NAD 83 — no ground truth to be wrong about);
+  NGS speaks convention-to-physical-referent (NAD 83 vs the geocenter — a target it claims
+  to approximate, so "misaligned by 2.2 m" is literally true). The two are not in conflict;
+  the counterposition sharpens non-fit 1 into the surviving typed claim (error-vs-convention
+  vs error-vs-physical-referent). Kill condition §8(a) not met. Still owed: the pre-emption
+  test on this exact distinction (op #4).
 
 **Rights and authority**
 
