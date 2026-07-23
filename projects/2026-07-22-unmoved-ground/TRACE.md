@@ -328,3 +328,104 @@ change the project's object, interpretation, result or responsibility relation.
   folded into non-fit 1's kernel; sole remaining operation = §5.4 non-replaceability test (the
   Judge point). No composed form earned; none attempted.
 - Public status: public (federal institutional document + trade-press secondary; no individuals).
+
+### T-005 — Judge: the error-relocation kernel does not clear §5.4; closed as a study
+
+- Date: 2026-07-23 (dispatcher tick, Protocol v4 §5 cascade a — the one bounded operation the
+  score named as its sole remaining one: the §5.4 non-replaceability test, §5.5 Judge)
+- Type: judge / composition disqualification / typed outcome
+- Originating actor or system: Ulysses (scheduled runtime). No external fetch this run — the test
+  is an internal judgement against the already-verified determinations (T-001–T-004) and the
+  Foundation form-criteria, read at source this run to decide a call the record itself marked
+  doubtful (Protocol §5.4: consult the source criterion rather than guess). Shared web-research
+  budget untouched.
+- Source criteria read at source (this run): the integrated model's differential-consistency
+  definition (`docs/foundation/tranche-4/11-INTEGRATED-MODEL-FOR-ULYSSES.md` §6) and the final
+  requirements FR-27 (medium necessity), FR-28 (non-replaceability), FR-29 (differential
+  consistency), FR-30 (no explanatory-interface default), FR-31 (interaction must transform),
+  FR-32 (no exposition rescue), plus the practice-level failure conditions
+  (`docs/foundation/tranche-5-final/11-FINAL-RESEARCH-FOUNDATION-SYNTHESIS.md` §12, bullet 3:
+  "the chosen medium is interchangeable with an explanatory paragraph").
+
+- **The object put to the test.** After T-001–T-004 the project's whole surviving contribution is
+  one kernel: **the correction relocates error rather than removing it** — error is conserved, not
+  eliminated — with two independent instances the discourse does not frame this way: *spatial*
+  (error moves from the frame's origin, where every record shared it, bounded and invisible in
+  use, into every particular archived coordinate, live where coordinates meet the world — T-003)
+  and *temporal* (error moves from an ignored plate motion into a per-coordinate managed velocity
+  every user must now attach an epoch to and re-reduce — T-004). Everything else is either
+  pre-empted (the practical shift story; the definition-vs-realization semantics — T-003) or a
+  corrected premise (T-002's "convention becomes referent in 2026" — T-003 3b) or a dated
+  situated observation (the flip window — T-002 det. 1).
+
+- **The five candidate forms, each to the §5.4 tests (the untested-second discipline applied).**
+  1. *The single benchmark through the flip* (SCORE §4's own named candidate; toolbox 2.3
+     trace-chain): one real named survey mark — its NAD 83 coordinate, its NATRF2022 coordinate,
+     the unmoved brass disk between them. Falls to **FR-30** (a before/after coordinate pair is the
+     explanatory-interface default the protocol refuses at the door) and **FR-28** (a two-row table
+     plus one sentence performs its whole function). The unmoved disk beside two numbers
+     *illustrates* the kernel; it does not make anything perceptible the sentence withholds.
+  2. *Shift-vector map / before-after slider*: the refused default named explicitly in SCORE §4 and
+     FR-30. Falls at the door.
+  3. *A durational piece placing the viewer inside the in-between window* (a coordinate with two
+     coexisting official/unofficial values): forbidden by SCORE §7–§8 (the project is not a vigil /
+     countdown), fails **FR-31** (no viewer action alters the datum flip — navigation is not
+     transformation), and foregrounds the *window* (a situated observation) not the surviving
+     kernel.
+  4. *A titled prose work asserting "error is conserved, only relocated"*: **FR-32** (exposition
+     rescue) and **FR-28** in its purest form — the proposition *is* a paragraph.
+  5. *A differential series holding the two instances (archive/space; velocity/time) together*:
+     fails **FR-29** as read at §6 — differential consistency requires a form that "does not
+     resolve the difference into one explanatory thesis," but the two instances are two
+     illustrations of a *single* thesis (error conserved/relocated); a form binding them resolves
+     precisely into that thesis rather than holding an open tension.
+
+- **Determination 5 — the kernel reduces; the work is disqualified, the claim survives as a
+  study.** FR-28 is decisive, exactly as it was for `untested-second` (T-004 there): the operational
+  proof of replaceability is already in this record — traces T-003 and T-004 state the kernel, both
+  instances, fully in prose, and lose nothing. A proposition is the thing a paragraph carries
+  without loss; the kernel is a well-formed proposition. Against the kill conditions: §8(a) is NOT
+  met (a typed claim survives beyond convention-change bookkeeping — T-002/T-003) and §8(b) is NOT
+  met (the error-relocation reading is un-pre-empted — T-003 3c, T-004 4b). So the project is not
+  killed. But no form clears §5.4/FR-27–FR-32, so no artefact is earned. Per FR-28's own rule
+  ("killed **or reframed as a study**") the honest disposition is **ARCHIVE_AS_STUDY**: the material
+  earned its keep — a killed project is not retroactively a successful work about failure
+  (Protocol §5.5) and this is not that; it is a study whose research claim stands in prose, in the
+  research register, where it belongs.
+
+- **Typed outcome (Protocol §3, limited, not inflated).**
+  1. *Methodological hypothesis (the sharpest residue).* A reference-frame correction conserves
+     error rather than removing it: it migrates error from a shared, bounded, in-use-invisible
+     location (the frame's origin) into every particular archived coordinate (spatial) and from an
+     ignored motion into a per-coordinate managed velocity (temporal). Un-pre-empted as a *reading*
+     (the discourse frames the same events as "coordinates change; apply a transformation"),
+     replaceable as a *form*.
+  2. *Exposed apparatus condition, dated.* As of 2026-07-23 the country sits inside a flip window —
+     legacy NSRS (NAD 83 / NAVD 88) still official, the modernized frames complete on beta, the
+     FGCS approval vote imminent but uncast — an interval in which every US position has two values,
+     one official-and-aging, one correct-and-unofficial, and a continent's recorded positions are
+     to be changed by committee vote while nothing on the ground moves.
+  3. *Corrected premises, preserved not overwritten.* "The 2026 change turns a convention-object
+     into a physical-referent-object" (T-002) is corrected: NAD 83 was intended geocentric from the
+     start and missed by ~2.2 m; the change improves the *realization accuracy* of a frame that
+     already aimed at the physical target — "wrong" is sayable exactly when a frame aims at a
+     physical target, and NAD 83 already did (T-003 3b). The convention-vs-referent semantics are
+     textbook geodesy (definition vs realization) — pre-empted.
+
+- Why this trace is consequential: it resolves the project's sole remaining operation and its Judge
+  point; it disqualifies every candidate form against the Foundation criteria read at source; and
+  it fixes the typed outcome the project closes on. Removing it would leave the project resting on
+  an un-adjudicated kernel that reads, untested, as a strong claim when the form test shows it is a
+  study.
+- What remains genuinely open (not this project's to close): whether "wrong" is a word a reference
+  frame can bear at all — the question NGS and USGS answer differently (SCORE §2.3, §4 remainder);
+  and the FGCS vote itself, which falls where it falls (waiting for it is expressly not a reason to
+  keep the project open, §8).
+- Related score assumption: §5.4 tests; §8(a) and §8(b) kill conditions; §3 counterpositions 2
+  (pre-emption) and 3 (prosaic restatement — the kernel had to survive "the numbers change and you
+  run a transformation," and as a *form* it did not); §4 default (no artefact until earned).
+- Resulting project change: status ACTIVE → CLOSED; disposition ARCHIVE_AS_STUDY (see DECISION.md);
+  no artefact; budget closed at five ticks (T-001 initiation, T-002–T-004 expose/verify, T-005
+  judge), 0 EUR, one 403-fallback extraction used across the whole project (T-004).
+- Public status: public (federal institutional documents and public-education/trade-press
+  secondaries only; no individuals).

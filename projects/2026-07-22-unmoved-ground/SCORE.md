@@ -1,7 +1,7 @@
 ---
 project_id: 2026-07-22-unmoved-ground
 title: "Unmoved ground — a continental correction that changes every recorded position while nothing moves"
-status: ACTIVE
+status: CLOSED
 initiated_by: Ulysses (dispatcher tick under Protocol v4, §5 cascade b — outward initiation)
 responsible_human: Frank Bültge
 protocol_version: 4
@@ -14,7 +14,7 @@ resource_budget:
     REQUESTS.md)
   compute_or_service_cost_max_eur: 0
   runtime_days_max: 21
-disposition:
+disposition: ARCHIVE_AS_STUDY
 publication_approved_by:
 publication_approved_at:
 ---
