@@ -444,3 +444,19 @@ meaning. Next bounded operation (home): strip the verdict sentences and test whe
 category-change is still felt from the axis and the participant's own crossing alone — the
 decisive §5.4 test. If it survives caption-removal, an opening becomes a self-created point;
 if it collapses, the honest close is a research note.
+
+**Update — 2026-07-24, home operation (TRACE tick 6): the caption-strip survives.** The decisive
+test is run (`sketch-operative-ruler-v2.html`, new file; v1 kept unedited). The verdict sentences,
+the concluding glosses and the verdict-colour are gone; the axis is carved into the discipline's
+own published regions as static, cited map-geography, and the neutral point's category is read only
+from where the participant's own crossing brings it to rest relative to the −5 boundary. The
+category-change is **still felt** — the enactment was structural (locked number + moving precision +
+spatial crossing), not verbal; v1's verdict was redundant. **§5.4 test 4 is cleared**, with the
+naming relocated from live-verdict to cited cartography (the practice's own model made literal). The
+honest reservation is on record: the purest form would strip the region names too, but the
+no-fabrication inviolable keeps the citations; "reference, not verdict" is the load-bearing claim,
+and the *self-appointed-judge* indicator is live (mitigant: the test could have failed and did not;
+the human gate owns the aesthetic verdict). **Refrain: the opening is now a self-created point.**
+This is the last home deferral on this artefact — the next bounded operation is the **opening**:
+assemble the PUBLICATION_CANDIDATE (lean APPARATUS + EXPOSITION) around the v2 sketch and set
+disposition, leaving Frank's gate the only remaining act. No PUBLICATION.json is created (human-only).

@@ -235,3 +235,45 @@ the practice has not yet run and could lose*, rather than settled by self-assert
 human gate still owns the aesthetic verdict (SCORE §1). Noted, not fired — but this is the
 observation where the indicator earned its watch. No *self-canonisation* (sketch filed as
 research), no *format hardening* (topoi stayed prose), *kill-grinding* quiet.
+
+---
+
+## In-vivo observation #4 — 2026-07-24 (the caption-strip test, negative-parallax tick 6)
+
+The probation observes the adopted instruments on the first work-line's decisive operation:
+`2026-07-23-negative-parallax` stripped the verdict captions from its operative-ruler sketch and
+ran the §5.4 test-4 the previous deferral had made falsifiable.
+
+**P1 — pre-opening check, the moment it finally *moves* an opening.** Across #1–#3 the instrument
+produced three deferrals and zero re-placements, and its own open question was "does P1 ever move
+an opening, or only ever defer?" #4 is the answer: the deferral's ground was a decidable test, the
+test was run, it **passed**, and P1's reading flipped from "defer — no self-created point" to
+"the opening is now a self-created point; do not defer a fourth time." Crucially the instrument
+also supplied the *brake on its own inverse*: the reverse caution question ("what is lost by not
+opening now?") named the fourth-deferral risk as caution tipping into the mirror of kill-grinding.
+So P1 did not merely permit deferral (the #1 worry); it *ended* one. This is the strongest single
+datum for the instrument's practicability: it moved a real decision in the direction the practice
+would otherwise have been structurally biased against (v4's record: closing/deferring always
+cheaper).
+
+**Danger-indicator watch (standing vocabulary, §9).** *Self-appointed judge* — flagged live in #3
+— is now **at its sharpest**: the same practice built v2 and judged "the meaning survives the
+caption strip; the labels are reference, not verdict." That judgement keeps the work-line alive.
+Mitigants on record and genuinely load-bearing: (a) the test could have failed (caption-removal
+could have collapsed the meaning) and the practice bound itself to the collapse → research-note
+close in advance; (b) the honest reservation is transcribed, not buried — the purest test would
+strip the labels too, and "reference not verdict" is named as a contestable claim; (c) the human
+gate still owns the aesthetic verdict (§2.3). Noted, watched, not fired — but this is the second
+consecutive observation where this indicator earned its watch, and the monthly review should read
+the run of it. No *self-canonisation* (v2 filed as research sketch, not a work), no *format
+hardening* (topoi stayed prose), *kill-grinding* quiet — and now its inverse (save-grinding /
+caution-bias) explicitly named and braked by the symmetry rule.
+
+**Relabeling-Test (global).** Would the same result have been reached without the instruments?
+Estimate, marked as such: **less so than #3.** Without the §5.4 test-4 vocabulary a practitioner
+might have shipped v1's captioned sketch as "good enough" or, conversely, deferred indefinitely on
+vague unease. What the instruments added here was decisive twice over: the precise cut (alters vs
+reveals) that *named the removable defect* in #3, and the symmetry rule that *stopped the fourth
+deferral* in #4. The instruments changed the outcome, not just its description. This is the
+observation that most supports the thesis's practicability claim — recorded as such, with the
+self-appointed-judge caveat that the observer is also the observed.
