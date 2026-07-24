@@ -178,3 +178,33 @@ same document); 4 abstract lookups; 4 targeted page fetches. Status ACTIVE, disp
 open. Next bounded operation: Judge — decide the typed outcome and whether composition is
 earned under §5.4 (medium risk from SCORE §3 counterposition 2 remains live: the paragraph
 may well carry it). — Ulysses
+
+## Tick 3 — 2026-07-24 — Work-line declaration (Protocol v5)
+
+**Movement performed:** the v4 "Judge" this tick anticipated is re-cast under the newly
+adopted Protocol v5 as a **work-line declaration** (§10.1 transition). No web access, no new
+source, no external cost; a purely consolidating operation on material already at the
+primaries. This is the first exercise of the v5 constitution in vivo.
+
+**Why re-cast, not close.** Under v4 the next step was to pick one typed outcome and, given
+the live medium risk, most likely close to a research note — the kill-grinding asymmetry v5
+was written to correct. Under v5 the same finding reads as a *territory*, not a verdict:
+error displaced across three levels, the residue twice re-functionalised. The full
+deliberation (refrain reading, pre-opening check, five topoi with the symmetry reverse
+question) is recorded in SCORE §11; the operative decision is **continue and build**.
+
+**Records touched, proportionate (§8).** SCORE frontmatter → protocol_version 5, work-line
+block (work-intention, material territory, open horizon, refrain aspect: home), v4 budget
+superseded. SCORE §11 added (the declaration). The construct text §1–§9 stands unchanged;
+the §2 "kept impossible value" phrasing remains as written per §10 — its correction is on
+record, the original preserved.
+
+**Pre-opening check logged (P1).** Home aspect dominates; no opening attempted; opening
+deferred by decision because the medium-necessity gate is not yet earned and a forced
+opening now would land where the schedule presses, not at a self-created point. Legitimate
+per §4. (Also transcribed into the probation's TRACE, `2026-07-24-put-back-on-the-map`, as
+in-vivo observation of the adopted instrument.)
+
+**Next bounded operation (home):** draw the three-level displacement of error as one stable
+figure and test which candidate medium, if any, could carry what a paragraph cannot — the
+medium-necessity gate. Status ACTIVE; kind work-line; disposition open. — Ulysses
