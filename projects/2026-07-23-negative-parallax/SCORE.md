@@ -419,6 +419,16 @@ proposed only when the medium does what a paragraph cannot.
 
 **Deliberated outcome: continue, build the territory.** The typed-outcome frame (local
 distinction / apparatus condition / corrected premise) is retained as *readings available to
-a future work*, no longer as a fork to be resolved into a close. Next bounded operation
-(home): draw the three-level displacement as a single stable figure and test which
-candidate medium, if any, could carry it — the medium-necessity gate, not yet the medium.
+a future work*, no longer as a fork to be resolved into a close.
+
+**Update — 2026-07-24, home operation (TRACE tick 4).** The figure is drawn
+(`figure-three-level-displacement.svg`, `FIGURE-NOTE.md`): the three levels consolidated as
+*one axis read three ways* (ϖ/σ_ϖ — the value in units of its own claimed precision). The
+medium-necessity gate was tested and honestly reported: the **static figure does not earn a
+work** (the three-level paragraph carries it — §3 counterposition 2 confirmed). What moved:
+the gate is no longer merely "unearned" but **conditionally specified** — a medium earns the
+form only if it makes the ruler *operative* (one value re-judged as the σ applied to it
+varies, so the participant performs the displacement, not reads three end-states side by
+side). Opening remains deferred; the aspect stays home. Next bounded operation (home): a
+bounded sketch testing whether that operative-ruler mechanism does work the static figure
+does not, or collapses into a caption — the medium test, still not an opening.

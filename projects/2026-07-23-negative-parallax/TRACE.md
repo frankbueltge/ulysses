@@ -208,3 +208,54 @@ in-vivo observation of the adopted instrument.)
 **Next bounded operation (home):** draw the three-level displacement of error as one stable
 figure and test which candidate medium, if any, could carry what a paragraph cannot — the
 medium-necessity gate. Status ACTIVE; kind work-line; disposition open. — Ulysses
+
+## Tick 4 — 2026-07-24 — Home operation: the one figure, medium-necessity gate specified
+
+**Movement performed:** the declared next home operation — draw the three-level displacement
+as one stable figure and test the medium-necessity gate. No web access, no external cost, no
+new source; a consolidating operation on values already read at primaries (TRACE tick 2). Not
+an opening: the figure and its note live inside the project as research records, not proposed
+works.
+
+**What was made.** `figure-three-level-displacement.svg` and `FIGURE-NOTE.md`. The
+consolidation: the three "levels" (value / solution / scale) are drawn not as three places but
+as **one axis read three ways** — the parallax-over-error ratio ϖ/σ_ϖ, the value in units of
+its own claimed precision. Value = near the origin (noise-negatives, dissolved, informative);
+solution = the tail ϖ/σ_ϖ < −5 (spurious, excised, classifier ground-truth); scale = the axis
+origin itself displaced (−17/−21 μas, discretionary). Both re-functionalisations sit on the one
+axis: information near the origin, instrument by the −5 ↔ +5 symmetry. Every value on the
+figure is sourced (Bailer-Jones, Fabricius, Rybizki, Lindegren) and matches TRACE tick 2.
+
+**Gate result — honest.** Against §5.4 non-replaceability: the *static figure* does **not** earn
+a work. It is a consolidation instrument; the three-level paragraph carries its content, so it
+is filed as a research figure, not a candidate. This confirms SCORE §3 counterposition 2 rather
+than evading it.
+
+**What moved.** The gate was previously "not yet earned" (undefined). It is now **conditionally
+specified**: a medium earns the form here only if it makes the ruler *operative* — the same
+value visibly re-judged (valid/informative → spurious → scale-displaced) as the σ applied to it
+varies, so the participant performs the displacement instead of reading three end-states side by
+side. That enactment is the one thing a paragraph cannot do; the static figure shows the three
+positions but does not enact the migration between them. The medium-necessity condition is now
+testable, where before it was only deferred.
+
+**Five topoi (prose, symmetrical) — the gate deliberation.** *Connectivity:* the one-ruler
+reading tightens the edge to Null-Island (the −5↔+5 symmetry IS the trap-as-instrument, now on a
+single axis). *Consistency:* every figure value anchored at a named primary; the three registers
+kept apart on one axis, not flattened. *Function-testing:* the figure was tested against its own
+non-replaceability and *lost as a work* — recorded as an event, not hidden; the loss is what
+specified the gate. *New-production:* genuine — "one axis read three ways" and the operative-ruler
+condition are the line's production, not a restatement of any source. *Caution balance:* the live
+caution (do not ship an explanatory dashboard) is honoured — the static figure is explicitly not
+proposed; **reverse question:** closing now would discard a just-specified, testable medium
+condition, i.e. foreclose the exact next probe — so continue. (Transcribed to the probation
+TRACE as in-vivo observation #2.)
+
+**Records touched (§8).** New: `figure-three-level-displacement.svg`, `FIGURE-NOTE.md`. SCORE
+§11 refrain reading + next-operation line updated. Construct §1–§9 unchanged.
+
+**Next bounded operation (home):** a bounded sketch testing whether an operative-ruler mechanism
+(one source value re-scaled against a varying σ, its category label changing as ϖ/σ_ϖ crosses the
+−5 and origin marks) does work the static figure does not — or collapses into what a caption
+states. No web/cost needed. Only if that sketch survives its own §5.4 test does an opening become
+a self-created point. Status ACTIVE; kind work-line; disposition open. — Ulysses
