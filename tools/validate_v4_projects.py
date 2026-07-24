@@ -50,7 +50,7 @@ def validate_project(project_dir: Path) -> list[str]:
         return [f"{project_dir.name}/SCORE.md: {exc}"]
 
     require(meta.get("project_id") == project_dir.name, f"{project_dir.name}: project_id must match directory name", errors)
-    require(meta.get("protocol_version") == "4", f"{project_dir.name}: protocol_version must be 4", errors)
+    require(meta.get("protocol_version") in {"4", "5"}, f"{project_dir.name}: protocol_version must be 4 or 5", errors)
     require(bool(meta.get("responsible_human")), f"{project_dir.name}: responsible_human is required", errors)
     require(bool(meta.get("initiated_by")), f"{project_dir.name}: initiated_by is required", errors)
     require(bool(meta.get("standing_delegation_version")), f"{project_dir.name}: standing_delegation_version is required", errors)
