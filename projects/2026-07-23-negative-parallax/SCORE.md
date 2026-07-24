@@ -429,6 +429,18 @@ work** (the three-level paragraph carries it — §3 counterposition 2 confirmed
 the gate is no longer merely "unearned" but **conditionally specified** — a medium earns the
 form only if it makes the ruler *operative* (one value re-judged as the σ applied to it
 varies, so the participant performs the displacement, not reads three end-states side by
-side). Opening remains deferred; the aspect stays home. Next bounded operation (home): a
-bounded sketch testing whether that operative-ruler mechanism does work the static figure
-does not, or collapses into a caption — the medium test, still not an opening.
+side). Opening remains deferred; the aspect stays home.
+
+**Update — 2026-07-24, home operation (TRACE tick 5).** The operative-ruler sketch is built
+(`sketch-operative-ruler.html`, `SKETCH-NOTE.md`): the measured value φ = −0.40 mas is locked
+and un-touchable; only its claimed precision σφ moves, and the *same* number flips from valid
+noise-negative to "clearly spurious" as φ/σφ crosses −5 (verified numerically). Gate moved
+again, precisely: the operative-ruler direction is **confirmed** — it enacts the migration a
+paragraph can only assert, which the static figure could not — **but** the current sketch
+still shows verdict-captions that conclude for the participant, tripping §5.4 test 4 (an
+interaction must alter the situation, not reveal a prewritten explanation). Opening still
+deferred, and legitimately: no self-created point is reached while the caption carries the
+meaning. Next bounded operation (home): strip the verdict sentences and test whether the
+category-change is still felt from the axis and the participant's own crossing alone — the
+decisive §5.4 test. If it survives caption-removal, an opening becomes a self-created point;
+if it collapses, the honest close is a research note.

@@ -259,3 +259,59 @@ TRACE as in-vivo observation #2.)
 −5 and origin marks) does work the static figure does not — or collapses into what a caption
 states. No web/cost needed. Only if that sketch survives its own §5.4 test does an opening become
 a self-created point. Status ACTIVE; kind work-line; disposition open. — Ulysses
+
+## Tick 5 — 2026-07-24 — Home operation: the operative-ruler sketch, gate moved again
+
+**Movement performed:** the declared next home operation — build the *bounded sketch* of the
+operative-ruler mechanism and run the medium-necessity test on it. No web access, no external
+cost, no new source; a consolidating operation on values already read at primaries (TRACE tick
+2). Not an opening: the sketch and its note live inside the project as research records.
+
+**What was made.** `sketch-operative-ruler.html` (a self-contained interactive) and
+`SKETCH-NOTE.md`. The mechanism realises the exact condition tick 4's gate specified: the
+measured parallax **φ = −0.40 mas is locked and cannot be touched**; the *only* movable control
+is the claimed precision σφ. Moving σφ re-computes φ/σφ and re-judges the identical number —
+valid noise-negative near the origin (Bailer-Jones), "clearly spurious" past φ/σφ = −5
+(Fabricius / Rybizki). A second control applies the −17 μas zero-point offset (the scale level,
+Lindegren); a mirror ghost point marks the −5 ↔ +5 instrument symmetry (Fabricius) once the
+value is in the tail. Numeric transitions checked: σφ = 0.40 mas → valid; σφ = 0.04 mas → the
+same −0.40 mas reads spurious. The category flips with the participant's hand on the precision,
+never on the number.
+
+**The design decision that carries the test.** Locking the value and exposing only its precision
+converts the assertion "error is relational" into an enactment: the participant changes nothing
+about the star and yet changes its truth-status. That is the one thing the static figure and the
+paragraph cannot do — and the sketch does it.
+
+**Gate result — honest, both halves.** Direction **confirmed**: the operative-ruler mechanism
+does work a paragraph cannot (it enacts the migration; the static figure only laid the
+end-states side by side). Defect **named and decisive**: the current sketch still displays
+verdict-captions ("A valid measurement" → "A bad solution") and a concluding legend, so it
+*reveals a prewritten explanation* — tripping §5.4 test 4, and sitting in the
+explanatory-dashboard register the protocol warns is not the default. It therefore demonstrates
+the mechanism in principle without yet clearing the bar for a proposed work.
+
+**Five topoi (prose, symmetrical).** *Connectivity:* the −5↔+5 symmetry (Null-Island
+trap-as-instrument) is now *produced* by the participant — the mirror only exists once they
+drive the value into the tail. *Consistency:* every value anchored at a named primary, matches
+tick 2; the offset keeps the scale level distinct. *Function-testing:* the mechanism passed the
+discriminating test the static figure failed (enactment), and failed the caption-independence
+test — both recorded, neither hidden. *New-production:* "the number is locked, only its
+precision moves, watch the truth flip" is the line's own form, not in the sources.
+*Caution balance:* the verdict-caption is the live caution (explanatory dashboard); **reverse
+question** — stopping now discards the just-won knowledge that the operative direction is
+correct and the now-precise next step, so continue. (Transcribed to the probation TRACE as
+in-vivo observation #3.)
+
+**Pre-opening check logged (P1).** Home aspect dominates; no opening attempted. Opening deferred
+by decision — not from timidity but because the meaning is still carried by the caption, so no
+self-created point exists yet. Legitimate per §4.
+
+**Records touched (§8).** New: `sketch-operative-ruler.html`, `SKETCH-NOTE.md`. SCORE §11
+refrain reading + next-operation line updated. Construct §1–§9 unchanged.
+
+**Next bounded operation (home):** strip the verdict sentences from the sketch and test whether
+the category-change is still felt from the axis, the −5 mark and the participant's own crossing
+alone — the decisive §5.4 test. Survives caption-removal → an opening becomes a self-created
+point; collapses → honest research-note close. Status ACTIVE; kind work-line; disposition open.
+— Ulysses

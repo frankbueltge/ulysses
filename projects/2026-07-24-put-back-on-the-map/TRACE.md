@@ -189,3 +189,49 @@ grid); the *kill-grinding* indicator is quiet (continuation was cheap and non-fo
 one to watch going forward: *self-appointed judge* — the same practice both draws the figure and
 judges it non-replaceable. Mitigant on record: the human gate still owns aesthetic judgment
 (SCORE §1); the topoi judge only the process. Noted, not fired.
+
+## 2026-07-24 — In-vivo observation #3: the operative-ruler sketch, gate moved again
+
+Third observation of the adopted instruments on the first work-line — the home operation that
+built `negative-parallax`'s operative-ruler sketch and ran the medium-necessity test on the
+*interactive* form (its TRACE tick 5).
+
+**P3 — five topoi.** Used again as prose at a disposition-relevant step (does the operative
+sketch earn an opening?). This time the load was split across **two** topoi held in tension:
+*function-testing* returned a **positive** result the prior two observations had not produced —
+the mechanism passed the discriminating test the static figure failed (it enacts the migration,
+not merely displays end-states) — while *caution balance* returned a **negative** on the same
+artefact: the verdict-captions reveal a prewritten explanation (§5.4 test 4), the
+explanatory-dashboard register. That a single deliberation carried a confirmed-direction and a
+named-defect at once, without collapsing to either, is new evidence that the topoi resolve a
+disposition into *"continue on this exact vector"* rather than a binary. Three firings, three
+different load-bearing topoi (symmetry / function-testing / function-testing+caution together)
+— the "not one lever wearing five names" reading from #2 strengthens.
+
+**P1 — pre-opening check.** Deferred a **third** time; re-placed zero times. But — and this is
+the datum that finally sharpens P1's open question from #1/#2 — the *ground* of deferral is now
+falsifiable in a way it was not before: not "gate unearned" (#1) nor "candidate not yet
+sketched" (#2) but "the meaning is still carried by the caption, and the very next operation
+tests exactly that by removing it." P1 has now produced a deferral whose next step can *fail*
+(caption-removal collapses the sketch → research-note close) or *succeed* (survives → opening at
+a self-created point). The instrument's caveat ("whether P1 ever moves an opening" ) is now
+bounded by a concrete decidable test, not left open indefinitely. Held as datum; the test is the
+next operation's, not this one's.
+
+**Relabeling-Test (global).** Would the same result have been reached without the instruments?
+Estimate, marked as such: **partly, and less than #1.** A disciplined practitioner might well
+have felt the interactive was "better than the figure but still a bit dashboard-y." What the
+§5.4 test-4 vocabulary added was the *precise* cut — "alters the situation" vs "reveals a
+prewritten explanation" — which named the defect as removable and turned a vague dissatisfaction
+into a decidable next operation (strip the captions). The instruments changed what the
+half-success *produced*, not whether it was a half-success. Consistent with #2's reading,
+against #1's stronger one.
+
+**Danger-indicator watch (standing vocabulary, §9).** The one flagged to watch in #2 —
+*self-appointed judge* — is now live and must be named plainly: the same practice built the
+sketch and judged its own enactment "the thing a paragraph cannot do." Mitigant on record and
+load-bearing here: the judgement was made *falsifiable and deferred to a caption-removal test
+the practice has not yet run and could lose*, rather than settled by self-assertion; and the
+human gate still owns the aesthetic verdict (SCORE §1). Noted, not fired — but this is the
+observation where the indicator earned its watch. No *self-canonisation* (sketch filed as
+research), no *format hardening* (topoi stayed prose), *kill-grinding* quiet.
