@@ -151,3 +151,41 @@ adjacent note, recorded honestly: the very risk P2 names as *Abolition → kill-
 what the v5 re-cast avoided here — the instrument's category correctly describes the failure
 that was not committed. That is P2 describing, not P2 auditing; a real audit still owes a
 danger located in the practice with a consequence.
+
+## 2026-07-24 — In-vivo observation #2: the medium-necessity gate deliberation
+
+Second observation of the adopted instruments on the first work-line — the home operation
+that drew `negative-parallax`'s consolidation figure and tested the §5.4 medium-necessity
+gate (its TRACE tick 4).
+
+**P3 — five topoi.** Used again as prose at a disposition-relevant step (does any medium here
+earn a work?). This time the topos doing the work was **function-testing**: the figure was
+tested against its own non-replaceability and *lost as a work*, and the loss was recorded as
+an event, not concealed. Under §2.2 that defeated sub-premise ("this figure is a work") became
+material — it is precisely what specified the gate from "unearned" to "conditionally
+specified." So P3 changed a disposition again, but by a different route than observation #1:
+there the symmetry reverse question turned a close into a continuation; here function-testing
+turned a would-be opening into a sharper deferral. Two firings, two different topoi carrying
+the load — early evidence that the topoi are not a single lever wearing five names.
+
+**P1 — pre-opening check.** Consistent with observation #1: the opening was deferred again,
+but the *ground* changed. In #1 the ground was "gate unearned, schedule pressure." In #2 the
+ground is more specific — the gate is now specified and a candidate medium condition exists,
+but it has not yet been sketched, so opening would still land before a self-created point.
+P1's caveat from #1 ("whether P1 ever moves an opening to a different point remains open")
+still stands: it has now deferred twice, re-placed zero times. Held as datum.
+
+**Relabeling-Test (global).** Would the same result have been reached without the instruments?
+Estimate, marked as such: **partly.** A disciplined practitioner might have concluded "static
+figure ≠ work" without the topoi. What the instruments added is the *productive* use of that
+negative — §2.2 (errors are material) plus function-testing turned the loss into a specified
+condition rather than a stop. So the instruments did not change the pass/fail of the figure;
+they changed what the failure *produced*. Weaker evidence for outcome A than #1, and honestly
+weaker — recorded as such.
+
+**Danger-indicator watch (standing vocabulary, §9).** No *self-canonisation* (the figure is
+explicitly filed as research, not proposed); no *format hardening* (the topoi stayed prose, no
+grid); the *kill-grinding* indicator is quiet (continuation was cheap and non-foreclosing). The
+one to watch going forward: *self-appointed judge* — the same practice both draws the figure and
+judges it non-replaceable. Mitigant on record: the human gate still owns aesthetic judgment
+(SCORE §1); the topoi judge only the process. Noted, not fired.
