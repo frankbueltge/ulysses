@@ -315,3 +315,92 @@ the category-change is still felt from the axis, the −5 mark and the participa
 alone — the decisive §5.4 test. Survives caption-removal → an opening becomes a self-created
 point; collapses → honest research-note close. Status ACTIVE; kind work-line; disposition open.
 — Ulysses
+
+---
+
+## Tick 6 — 2026-07-24 (home operation; the decisive caption-strip test)
+
+**Operation.** The single bounded operation the previous tick pointed to as decisive: strip the
+verdict captions from the operative-ruler sketch and test whether the category-change is still
+*felt* once the words that stated the conclusion are gone (§5.4 test 4). Built as a **new** file,
+`sketch-operative-ruler-v2.html` — v1 is kept unedited, because the before/after *is* the
+evidence and nothing is silently rewritten (§2). No web access, no external cost.
+
+**What was removed, and what replaced it.** Removed: the live verdict sentences ("A valid
+measurement" / "A bad solution" / "On the way between the two") and the concluding second-person
+glosses that told the participant what to think about *their* value; and the point's green→red
+verdict-colour. Replaced by: the axis carved into the discipline's **own published regions** as
+static, cited map-geography — "clearly spurious (Fabricius 2021, φ/σφ < −5)" left of the −5 line,
+"valid measurement / noise-negative (Bailer-Jones 2015, r > 0 by definition)" right of it. The
+point is now one neutral colour; its category is read only from **where it comes to rest**
+relative to the boundary someone else drew, and from the participant's own hand having carried it
+there by moving a quantity (σφ) they are forbidden to attach to the number. The live readout is
+pure quantity: φ = −0.40 mas (fixed), σφ (moving), φ/σφ. Numerics re-checked: σφ = 0.40 → φ/σφ =
+−1.0 (valid region); boundary crossed at σφ = 0.08 (φ/σφ = −5); σφ = 0.04 → −10.0 (deep in the
+spurious tail). The crossing is caused by the precision alone; the −0.40 never changes.
+
+**The test's result — it survives, and I must say precisely on what.** The category-change is
+still felt with the captions gone. What carries it is the interaction structure, not the words:
+a fixed, untouchable number is driven across a *labelled, cited boundary* by adjusting only its
+claimed precision, and comes to rest in a differently-named region of a map the participant did
+not author. v1's verdict added a *redundant conclusion*, not the enactment; removing it does not
+collapse the meaning — which is the positive proof that the enactment was structural all along.
+This is the practice's own model made literal: **cartography, not tracing** — the value is put on
+the map; the map's regions are the discipline's; the crossing is the participant's.
+
+**The honest cut against save-grinding.** The skeptical reading must be stated, not buried: one
+could argue the region labels merely *relocate* the caption from the readout into the axis, so
+the meaning is still carried by words. That reading is real and I tested it against a genuine
+distinction in kind, not a cosmetic one. A verdict readout asserts a proposition about the
+current state ("this is a bad solution") in the second person, live, about *your* value. A map
+region *names a place*, in the third person, statically, authored by the discipline, making no
+claim about your value — the participant must locate their number and read off the discipline's
+name for that territory. Strip the region names entirely and the participant would still feel the
+point cross a red boundary they cannot arrest by touching the number; they would only lose the
+boundary's disciplinary *name*. So the labels are **reference, not verdict** — and that is the
+load-bearing claim a future reader could contest. This is where the *self-appointed-judge*
+danger-indicator (probation #3) is live: the same practice built the sketch and judged its
+enactment. Mitigant on record: the judgement was made against a test the practice could have
+*lost* (caption-removal could have collapsed the meaning), and the human gate still owns the
+aesthetic verdict.
+
+**Residual tension, recorded not resolved.** The purest §5.4 form would strip the region *names*
+too, leaving only the −5 mark and the crossing. I did not, because a research sketch must stay
+sourced — every factual claim carries a retrievable reference (inviolable §2.1). The
+no-fabrication rule and the maximally-austere-interaction test pull against each other here; the
+inviolable wins, and the citations stay. The test is passed at the level that matters (no live
+verdict about the participant's value), and this trade-off is named so it is not mistaken for a
+clean win.
+
+**Five topoi (prose, symmetrical).** *Connectivity:* unchanged and strong — the −5↔+5 mirror is
+still participant-produced; the edge to Null Island is enacted, not cited. *Consistency:* every
+value anchored at a named primary (tick 2), registers held apart, the offset keeps the scale
+level distinct. *Function-testing:* the decisive discriminating test was run and **passed** — the
+meaning did not collapse when the words were removed; it could have, and did not. *New-production:*
+the form ("locked number, moving precision, cited map, participant's crossing") is the line's own,
+not in the sources. *Caution balance:* the live caution shifts from "verdict caption" (now
+resolved) to "reference-not-verdict is my own claim about my own artefact" (self-appointed judge)
+— held open for the human gate, not self-certified. **Reverse question (symmetry):** what is lost
+by *not* opening now, given the bar is cleared? The self-created point itself — the territory has
+finally made the point an opening would land at, and a fourth reflexive deferral would tip caution
+into its own pathology (the mirror of kill-grinding).
+
+**Pre-opening check (P1).** Home aspect still dominates *this* tick (I built and judged an
+artefact). But the ground of deferral is now **exhausted**: the §5.4 gate is cleared, so an
+opening would be at a genuinely self-created point, not where the schedule presses. Therefore I do
+**not** defer indefinitely: I record the disposition to open and specify the opening operation
+concretely so the next tick executes it without re-deliberating. This is the **last home
+deferral** on this artefact — the reason is one-bounded-operation discipline (assembling a
+candidate is real, separate work), not unearned caution.
+
+**Records touched (§8).** New: `sketch-operative-ruler-v2.html`. Appended: `SKETCH-NOTE.md` (v2
+section). SCORE §11 next-operation line + gate result updated. Construct §1–§9 unchanged.
+
+**Next bounded operation (opening — the first outward move of the line).** Assemble the
+PUBLICATION_CANDIDATE around the v2 sketch: a lean `APPARATUS.md` (provider/model/version per the
+disclosure rule; the four primaries; the values-as-read register) and a lean `EXPOSITION.md` (what
+the work is, the one claim — error is relational, displaced across value/solution/scale and twice
+re-functionalised — and the cartography-not-tracing form). Then set disposition
+PUBLICATION_CANDIDATE and stop, leaving Frank's gate (§2.3) the only remaining act. No
+PUBLICATION.json is created (human-only). Status ACTIVE; kind work-line; disposition open →
+(next) candidate. — Ulysses

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sketch v2 — the operative ruler, captions stripped (negative parallax)</title>
+<!--
+  Research sketch, not a proposed work. Lives inside
+  projects/2026-07-23-negative-parallax/. Nothing here is a publication act.
+  Made 2026-07-24, work-line home operation (TRACE tick 6). No web access, no
+  external cost: every value below was read at a primary and is on record in
+  TRACE tick 2 / FIGURE-NOTE.md.
+
+  What changed from v1 (sketch-operative-ruler.html), and why:
+  v1 passed the "make the ruler operative" test but tripped §5.4 test 4 — it
+  carried live VERDICT CAPTIONS ("A valid measurement" / "A bad solution") and
+  concluding glosses that told the participant what to think about THEIR value.
+  That is a prewritten explanation revealed, not merely a situation altered.
+
+  v2 is the decisive test. The verdict sentences and the concluding glosses are
+  removed. What remains is a MAP: the axis is carved into the discipline's own
+  published regions (Bailer-Jones' valid noise-negatives; Fabricius' "clearly
+  spurious" tail past φ/σφ = −5), labelled as fixed geography with their source,
+  never as a live judgement of the participant's value. The point is one neutral
+  colour — its category is read only from WHERE IT SITS relative to the boundary
+  the discipline drew, and from the participant's own hand having carried it there
+  by moving a quantity (the precision) they are forbidden to attach to the number.
+  The live readout shows pure quantity only: φ (fixed), σφ (moving), φ/σφ.
+
+  The test this run performs: is the category-change still FELT once the caption
+  is gone — carried by the crossing of a cited boundary — or does the meaning
+  collapse the moment the words are removed, proving the enactment was the words
+  after all? This is cartography, not tracing (the practice's own model): the
+  value is put on the map; the map's regions are the discipline's; the crossing
+  is the participant's. — Ulysses
+-->
+<style>
+  :root{
+    --paper:#fbfbf9; --ink:#111; --muted:#555; --faint:#888;
+    --spurious:#b03030; --valid:#2f6f3e; --blue:#2b6cb0; --brown:#8a5a00;
+    --bandred:#f3e3e0; --bandgreen:#e6efe6;
+  }
+  html,body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:Georgia,'Times New Roman',serif;}
+  .wrap{max-width:900px;margin:0 auto;padding:28px 22px 60px;}
+  h1{font-size:22px;margin:0 0 4px;}
+  .sub{font-size:13.5px;color:var(--muted);margin:0 0 22px;line-height:1.45;}
+  .stage{border:1px solid #e3e3dd;background:#fff;border-radius:6px;
+    padding:18px 18px 8px;margin-bottom:18px;}
+  svg{width:100%;height:auto;display:block;}
+  .controls{display:flex;flex-wrap:wrap;gap:26px;align-items:flex-start;
+    margin:6px 2px 2px;}
+  .ctl{flex:1 1 240px;min-width:220px;}
+  .ctl label{display:block;font-size:12.5px;color:var(--muted);
+    margin-bottom:6px;}
+  .ctl .val{font-family:'Courier New',monospace;color:var(--ink);
+    font-size:13px;}
+  input[type=range]{width:100%;}
+  .locked{font-size:12.5px;color:var(--faint);border:1px dashed #d8d8cf;
+    border-radius:5px;padding:9px 11px;background:#faf9f4;line-height:1.4;}
+  .locked b{color:var(--spurious);}
+  /* v2: the readout is pure quantity — no verdict, no gloss. */
+  .readout{margin-top:14px;border-top:1px solid #ececE4;padding-top:12px;}
+  .ratio{font-family:'Courier New',monospace;font-size:14px;color:#222;
+    margin:0;letter-spacing:0.2px;}
+  .toggle{font-size:12.5px;color:var(--muted);margin-top:2px;
+    display:flex;align-items:center;gap:7px;cursor:pointer;user-select:none;}
+  .note{font-size:12px;color:var(--faint);line-height:1.55;margin-top:24px;
+    border-top:1px solid #ececE4;padding-top:14px;}
+  .note code{font-family:'Courier New',monospace;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>The operative ruler — captions stripped</h1>
+  <p class="sub">
+    One measured parallax. You cannot touch the number — only the error bar you
+    are willing to claim for it. The axis below is not blank: it is carved into
+    the regions the discipline itself published. Move the precision, and watch
+    where your fixed number comes to rest on someone else's map.
+  </p>
+
+  <div class="stage">
+    <svg viewBox="0 0 900 270" id="ruler" aria-label="parallax over error ruler, carved into the discipline's regions">
+      <!-- region bands: the discipline's own carving of the axis (static map geography) -->
+      <rect x="70" y="128" width="200" height="44" fill="#f3e3e0"/>
+      <rect x="270" y="128" width="560" height="44" fill="#e6efe6"/>
+
+      <!-- region names: fixed, cited, never a live verdict about the participant's value -->
+      <text x="170" y="118" font-size="11.5" text-anchor="middle" fill="#8f2020">clearly spurious</text>
+      <text x="170" y="222" font-size="10" text-anchor="middle" fill="#a06060">Fabricius 2021 &mdash; φ/σφ &lt; &minus;5</text>
+      <text x="560" y="118" font-size="11.5" text-anchor="middle" fill="#2f6f3e">valid measurement (noise-negative)</text>
+      <text x="560" y="222" font-size="10" text-anchor="middle" fill="#6a9a6a">Bailer-Jones 2015 &mdash; r &gt; 0 by definition</text>
+
+      <!-- axis -->
+      <line x1="70" y1="150" x2="830" y2="150" stroke="#111" stroke-width="2"/>
+      <polygon points="830,150 818,144 818,156" fill="#111"/>
+      <polygon points="70,150 82,144 82,156" fill="#111"/>
+      <text x="842" y="154" font-size="12" fill="#444">&#966;/&#963;&#966;</text>
+
+      <!-- nominal zero -->
+      <line id="zeroTick" x1="450" y1="142" x2="450" y2="158" stroke="#111" stroke-width="1.5"/>
+      <text id="zeroLbl" x="450" y="192" font-size="12" text-anchor="middle">0</text>
+
+      <!-- -5 boundary (the discipline's line) and +5 mirror -->
+      <line x1="270" y1="126" x2="270" y2="174" stroke="#b03030" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="270" y="192" font-size="12" text-anchor="middle" fill="#b03030">&#8722;5</text>
+      <line x1="630" y1="132" x2="630" y2="168" stroke="#2b6cb0" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <text x="630" y="192" font-size="12" text-anchor="middle" fill="#2b6cb0">+5</text>
+
+      <!-- endpoints -->
+      <text x="90" y="192" font-size="11" text-anchor="middle" fill="#888">&#8722;10</text>
+      <text x="810" y="192" font-size="11" text-anchor="middle" fill="#888">+10</text>
+
+      <!-- displaced-origin mark (scale level), shown only when offset applied -->
+      <line id="offZero" x1="450" y1="144" x2="450" y2="156" stroke="#8a5a00" stroke-width="1.5" visibility="hidden"/>
+      <text id="offLbl" x="450" y="250" font-size="10.5" text-anchor="middle" fill="#8a5a00" visibility="hidden">true zero, displaced &minus;17&#956;as (Lindegren 2021)</text>
+
+      <!-- mirror ghost point (instrument arm) -->
+      <circle id="mirror" cx="630" cy="150" r="7" fill="#2b6cb0" opacity="0.20"/>
+      <text id="mirrorLbl" x="630" y="250" font-size="10.5" text-anchor="middle" fill="#2b6cb0" opacity="0.75"></text>
+
+      <!-- the value point: one neutral colour. Category is read from POSITION, not from colour. -->
+      <circle id="pt" cx="270" cy="150" r="9" fill="#111" stroke="#fff" stroke-width="1.5"/>
+      <text id="ptLbl" x="270" y="106" font-size="12" font-weight="bold" text-anchor="middle" fill="#111"></text>
+    </svg>
+  </div>
+
+  <div class="controls">
+    <div class="ctl">
+      <div class="locked">
+        the number you <b>cannot</b> touch<br>
+        measured parallax &#966; = <span style="font-family:'Courier New',monospace;color:#111">&#8722;0.40&nbsp;mas</span>
+        <span style="color:#aaa">(a real negative parallax; fixed)</span>
+      </div>
+    </div>
+    <div class="ctl">
+      <label>claimed precision &#963;&#966; = <span class="val" id="sigVal"></span>
+        <span style="color:#aaa">— the only thing you move</span></label>
+      <input type="range" id="sig" min="0.04" max="1.60" step="0.01" value="0.40">
+      <div class="toggle" id="offToggle">
+        <input type="checkbox" id="offBox">
+        <span>apply the zero-point offset (&#8722;17&#956;as, Lindegren 2021 &mdash; the scale level)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="readout">
+    <p class="ratio" id="ratio"></p>
+  </div>
+
+  <p class="note">
+    v2 of the medium-necessity sketch. The verdict captions and concluding glosses of v1 are
+    removed on purpose (§5.4 test 4: an interaction must alter the situation, not reveal a
+    prewritten explanation). What names the regions here is the discipline's own published
+    carving of the axis, fixed as map geography and cited &mdash; not a live judgement of your
+    value. Boundary φ/σφ = &minus;5 and the 3.04M &ldquo;clearly spurious&rdquo; EDR3 sources:
+    Fabricius et al. 2021 (A&amp;A 649, A5); &ldquo;r &gt; 0 by definition&rdquo;: Bailer-Jones
+    2015 (PASP 127, 994); the +5 mirror (matched-negative instrument, &asymp;1.6% spurious
+    among the positives): Fabricius 2021; zero-point offset &minus;17&#956;as, published as
+    discretionary: Lindegren et al. 2021 (A&amp;A 649, A4). Values as read at primaries (TRACE
+    tick 2). Research sketch, not a proposed work.
+  </p>
+</div>
+
+<script>
+(function(){
+  var PHI = -0.40;            // fixed measured parallax, mas (un-touchable)
+  var OFFSET = -0.017;        // zero-point offset, mas (-17 uas), Lindegren 2021
+  var X0 = 450, PXperUnit = 36; // ratio 0 at x=450; -5 at 270, +5 at 630
+  var sig = document.getElementById('sig');
+  var offBox = document.getElementById('offBox');
+
+  function xOf(r){ return X0 + Math.max(-10, Math.min(10, r)) * PXperUnit; }
+
+  function render(){
+    var s = parseFloat(sig.value);
+    var phi = PHI - (offBox.checked ? OFFSET : 0); // offset shifts the judged value's zero
+    var r = phi / s;
+
+    document.getElementById('sigVal').textContent = s.toFixed(2) + ' mas';
+
+    // The point: one neutral colour, always. No colour verdict.
+    var pt = document.getElementById('pt');
+    var ptLbl = document.getElementById('ptLbl');
+    pt.setAttribute('cx', xOf(r));
+    ptLbl.setAttribute('x', xOf(r));
+    ptLbl.textContent = 'φ = −0.40 mas  →  φ/σφ = ' + r.toFixed(1);
+
+    // mirror ghost (instrument arm): the matched positive at +|r|, only in the spurious tail
+    var mir = document.getElementById('mirror');
+    var mLbl = document.getElementById('mirrorLbl');
+    if (r < -5){
+      mir.setAttribute('cx', xOf(-r));
+      mir.setAttribute('visibility','visible');
+      mLbl.setAttribute('x', xOf(-r));
+      mLbl.setAttribute('visibility','visible');
+      mLbl.textContent = 'its mirror at +' + (-r).toFixed(1);
+    } else {
+      mir.setAttribute('visibility','hidden');
+      mLbl.setAttribute('visibility','hidden');
+    }
+
+    // scale-level displaced origin mark
+    var offZero = document.getElementById('offZero');
+    var offLbl = document.getElementById('offLbl');
+    if (offBox.checked){
+      var xd = X0 - (OFFSET / s) * PXperUnit; // where the true zero sits on this ruler
+      offZero.setAttribute('x1', xd); offZero.setAttribute('x2', xd);
+      offZero.setAttribute('visibility','visible');
+      offLbl.setAttribute('x', xd); offLbl.setAttribute('visibility','visible');
+    } else {
+      offZero.setAttribute('visibility','hidden');
+      offLbl.setAttribute('visibility','hidden');
+    }
+
+    // readout: pure quantity, no adjective
+    document.getElementById('ratio').textContent =
+      'φ = −0.40 mas (fixed)   σφ = ' + s.toFixed(2)
+      + ' mas   →   φ/σφ = ' + r.toFixed(2)
+      + (offBox.checked ? '   [zero-point offset applied]' : '');
+  }
+
+  sig.addEventListener('input', render);
+  offBox.addEventListener('change', render);
+  render();
+})();
+</script>
+</body>
+</html>

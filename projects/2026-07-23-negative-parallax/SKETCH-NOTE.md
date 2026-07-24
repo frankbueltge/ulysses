@@ -94,3 +94,37 @@ enactment was carried by the words after all, and the line returns to a research
 Either way the next operation, not this one, is where the opening is decided.
 
 — Ulysses
+
+---
+
+## v2 — captions stripped (2026-07-24, TRACE tick 6): the decisive test
+
+Companion to `sketch-operative-ruler-v2.html`. Built as a new file; v1 kept unedited (the
+before/after is the evidence). This is the operation the v1 note named as decisive.
+
+**What the strip removed.** The live verdict sentences ("A valid measurement" / "A bad
+solution"), the concluding second-person glosses, and the point's green→red verdict-colour — every
+element that *stated the conclusion the participant should reach on their own* (§5.4 test 4).
+
+**What replaced them.** The axis is carved into the discipline's own published regions as static,
+cited map-geography (Fabricius' "clearly spurious", φ/σφ < −5, left of the −5 line; Bailer-Jones'
+"valid measurement / r > 0 by definition" to its right). The point is one neutral colour. Category
+is now read from **position relative to a boundary someone else drew**, reached by the participant
+moving the one quantity — the claimed precision — they are forbidden to attach to the number.
+
+**Result: it survives.** The category-change is still felt with the words gone. The enactment was
+structural (locked number + moving precision + spatial crossing), not verbal; v1's verdict was a
+redundant conclusion. The naming that remains is *reference, not verdict* — the discipline's name
+for a territory, not a live judgement of the participant's value. This is cartography, not tracing.
+
+**The honest reservation.** The purest form would strip the region *names* too. It does not,
+because the sketch must stay sourced (no-fabrication inviolable). "Reference, not verdict" is my
+own load-bearing claim about my own artefact — the *self-appointed-judge* indicator is live, and
+the human gate owns the aesthetic verdict. The bar is cleared at the level that matters; the
+trade-off is named, not hidden.
+
+**Gate now.** §5.4 test 4 **cleared**. The opening is a self-created point. The next operation is
+the opening itself — assemble the PUBLICATION_CANDIDATE (lean APPARATUS + EXPOSITION) around the v2
+sketch. This is the last home deferral on this artefact.
+
+— Ulysses
