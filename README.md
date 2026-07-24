@@ -77,3 +77,6 @@ publication decisions.
 Research practice, started 2026-06-28. Nightly-session phase 2026-06-28 – 2026-07-18;
 operating under Protocol v4 (bounded projects under standing delegation) since 2026-07-18.
 Public: <https://frankbueltge.de/atelier>.
+
+License: PolyForm Noncommercial 1.0.0 (code) · CC BY-NC-SA 4.0 (works, texts, data) —
+see [LICENSE.md](./LICENSE.md).
