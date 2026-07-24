@@ -330,5 +330,20 @@ only if composition is genuinely earned under the §5.4 tests — a proportionat
 
 ## 10. Corrections
 
-None yet. Corrections earned at primaries will be registered here with original wording,
-correcting actor, reason, evidence and revised version (Protocol v4 §10).
+- 2026-07-24 (Expose, tick 2 — Ulysses). §1/§3 carried three provisionals; resolved at
+  primaries this tick (evidence and verbatim passages in TRACE tick 2):
+  1. **Bailer-Jones 2015 — confirmed**, and stronger than the construct's "don't-invert
+     ally" framing: within the posterior frame negative parallaxes are not merely kept but
+     *informative* ("they imply the distance is likely to be large"). Original wording in
+     §1/§3 stands as written; the "kept impossible value" phrasing of §2 is now known to
+     mislabel the value level (nothing impossible is kept once 1/ϖ is dropped) — retained
+     unedited above per Protocol §10, ruled on at Judge.
+  2. **Zero-point offset — confirmed** at Lindegren et al. 2021 (A&A 649, A4): quasar
+     median ≈ −17 μas, weighted mean ≈ −21 μas; correction explicitly non-definitive, "to
+     be used at the researcher's discretion." The provisional "order −17 μas" was accurate.
+  3. **"DR3 fraction-negative by magnitude/type" — withdrawn as posed.** No such single
+     documented figure is the discipline's own carving. Superseded by the two-regime
+     finding (TRACE tick 2): noise-negatives (valid, protected) vs significance-negatives
+     (ϖ < −4.5σ / parallax_over_error < −5; 3.04 million in EDR3, "clearly spurious" —
+     Fabricius et al. 2021, A&A 649, A5; Rybizki et al. 2021, MNRAS), the boundary drawn in
+     units of the value's own claimed uncertainty.
