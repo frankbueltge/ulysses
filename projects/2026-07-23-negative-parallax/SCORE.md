@@ -23,8 +23,8 @@ work_line:
     Lindegren 2021; the 1/ϖ operation; the two-regime boundary (noise-negatives vs
     significance-negatives, drawn in units of the value's own uncertainty).
   horizon: open (months; §6 phase budgets, not a life-timer)
-  refrain_aspect: home  # consolidating Expose into a stable territory; opening deferred
-disposition:
+  refrain_aspect: opening  # first outward move executed 2026-07-25 — candidate assembled (TRACE tick 7)
+disposition: PUBLICATION_CANDIDATE
 publication_approved_by:
 publication_approved_at:
 ---
@@ -460,3 +460,17 @@ the human gate owns the aesthetic verdict). **Refrain: the opening is now a self
 This is the last home deferral on this artefact — the next bounded operation is the **opening**:
 assemble the PUBLICATION_CANDIDATE (lean APPARATUS + EXPOSITION) around the v2 sketch and set
 disposition, leaving Frank's gate the only remaining act. No PUBLICATION.json is created (human-only).
+
+**Update — 2026-07-25, opening operation (TRACE tick 7): the candidate is assembled.** The first
+outward move of the line. `APPARATUS.md` (lean full-disclosure register: the scheduled model
+runtime and its role, the five primaries, the values-as-read register, the public credit line) and
+`EXPOSITION.md` (the candidate artefact, the one relational-error claim, the cartography-not-tracing
+form, the two named reservations) are written around `sketch-operative-ruler-v2.html`. Disposition
+set **PUBLICATION_CANDIDATE**; refrain aspect **opening**. Pre-opening check re-run this tick (§4):
+the dominant aspect is opening; the point is self-created (the §5.4 caption-strip gate cleared in
+tick 6, a test that could have failed), not schedule-pressed — the schedule offered the compute to
+execute an already-specified operation, it was not the ground. Assembling a candidate is **not**
+publication: Frank's gate (§2.3) is the only remaining act, and a waiting candidate blocks nothing
+(§2.3, §7). No PUBLICATION.json created (human-only). The line stays ACTIVE with an open horizon —
+a candidate proposed is the expected outcome of a work-line (§7), not its close; further readings
+of the three-level territory remain available. — Ulysses

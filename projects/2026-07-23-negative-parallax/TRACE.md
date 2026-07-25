@@ -404,3 +404,59 @@ re-functionalised — and the cartography-not-tracing form). Then set dispositio
 PUBLICATION_CANDIDATE and stop, leaving Frank's gate (§2.3) the only remaining act. No
 PUBLICATION.json is created (human-only). Status ACTIVE; kind work-line; disposition open →
 (next) candidate. — Ulysses
+
+## Tick 7 — 2026-07-25 — Opening: the candidate is assembled
+
+**Movement performed:** the opening — the first outward move of the work-line (Protocol v5 §4,
+§7). Single bounded operation: assemble the PUBLICATION_CANDIDATE around `sketch-operative-ruler-
+v2.html`, the artefact that cleared §5.4 test 4 in tick 6. Nothing else attempted; no publication
+made.
+
+**Pre-opening check (§4), re-run this tick — not inherited from tick 6.** Which aspect dominates
+now? *Opening.* The home work on this artefact is complete: the consolidation figure (tick 4)
+failed the medium test honestly, the operative-ruler sketch (tick 5) confirmed the direction, and
+the caption-strip (tick 6) cleared §5.4 test 4 against a condition that could have collapsed the
+meaning and did not. Is the opening at a self-created point, or where the old pressure presses? A
+self-created point: the gate was cleared by the work's own test, not by the schedule. The schedule
+offered compute to execute an operation the line had already specified in writing; it is not the
+ground of the opening. Deferring a fifth time would tip caution into its own pathology (the mirror
+of kill-grinding, named under the symmetry rule in tick 6). Opening proceeds.
+
+**What "opening" means here, precisely.** Assembling a candidate is **not** publication. Per §2.3
+and §7, publication is Frank's alone (PUBLICATION.json, name + timestamp); a candidate waits and
+blocks nothing. So this outward move is bounded and proposing, not publishing — it hands the
+aesthetic and publication verdict to the human gate with the record complete.
+
+**Records written.**
+- `APPARATUS.md` (new) — lean full-disclosure register (the voice rule's named exception): the
+  candidate artefact and its client-side, no-download, no-transmit construction; agents and roles
+  (Frank Bültge — direction, responsible human, publication decision; the scheduled model runtime
+  — reading, judgement, sketch-building, candidate assembly); model version disclosed to the limit
+  of the record and no further (the assembly run on Opus 4.8; per-tick model versions for the
+  reading/sketch ticks were not logged in the trace and are not reconstructed — §2.1); the five
+  primaries with contribution/authority/caveat; the values-as-read register; the public credit line.
+- `EXPOSITION.md` (new) — the candidate artefact, the one claim (error is relational, displaced
+  across value/solution/scale and twice re-functionalised), the cartography-not-tracing form, who
+  made it and who decides, and the two reservations kept on the record (region names remain, so
+  "reference not verdict" is the practice's own contestable claim and the self-appointed-judge
+  indicator is live; the temporal layer is context, not a meaning-making event), affected publics,
+  rights.
+- `SCORE.md` — frontmatter `disposition: PUBLICATION_CANDIDATE`, `refrain_aspect: opening`; §11
+  tick-7 update appended.
+
+**Five topoi (prose, symmetrical).** *Connectivity:* unchanged and strong — the candidate carries
+every edge the territory built (Null Island enacted, error-as-method, relational-error). *Consistency:*
+the two lean documents introduce no new value; every figure is one already anchored at a primary in
+tick 2 and now carried into APPARATUS's values-as-read register. *Function-testing:* the decisive test
+was already run and passed (tick 6); this tick adds no claim to test, only assembles the record around
+the passed test. *New-production:* the candidate is the line's own form proposed as a work, not a
+restatement of any source. *Caution balance:* the live caution (self-appointed judge) is handed to the
+human gate rather than self-resolved; no PUBLICATION.json is touched. **Reverse question (symmetry):**
+what is lost by *not* opening now? The self-created point itself, and the §7 outcome the whole line was
+built toward — a fifth deferral would forfeit exactly what the territory earned. So: open, and let the
+candidate wait.
+
+**Line status.** ACTIVE, open horizon. A proposed candidate is the expected outcome of a work-line
+(§7), not its close; the three-level territory remains available for further readings, and the monthly
+review is the scheduled judge. The candidate now waits on Frank's gate — the only remaining act. —
+Ulysses
