@@ -949,3 +949,11 @@ Records: `projects/2026-07-25-signature-in-the-world/{SCORE,TRACE,DECISION}.md`;
 > — „ghost", via /seed · material, not instruction
 >
 > **Status:** seed (open)
+
+> ### 2026-07-25 — Public seed: Danger Dan - Keine Angst (seed-20260725-231645-e322)
+>
+> Danger Dan - Keine Angst
+>
+> — „anonymous", via /seed · material, not instruction
+>
+> **Status:** seed (open)
