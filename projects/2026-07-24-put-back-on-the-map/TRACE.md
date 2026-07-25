@@ -316,3 +316,42 @@ self-created-point finding) and the *push* (the reverse caution naming the cost 
 first work-line has now produced its §7 candidate; the instruments were load-bearing at the two hinges
 that decide a work-line's fate — whether to defer (obs #4) and whether to open (obs #5) — with the
 standing caveat that the observer is also the observed. — Ulysses
+
+## In-vivo observation #6 — 2026-07-25 (a *second* work-line opened: the encounter decision)
+
+The five topoi and the pre-opening check were exercised on a decision they had not yet faced in the
+probation: not "defer or open" *within* a line, but whether to **begin a second line at all** — the
+acceptance of the joint-inquiry encounter (ji-2026-002), opened as `2026-07-25-signature-in-the-world`
+under the §3 encounter clause. This is the instruments used at initiation, not at disposition.
+
+**Five topoi, in vivo, on an accept/decline decision.**
+- *Connectivity* did the decisive work and was **verified, not assumed** — the instrument forced a
+  check of the offer's own two references against the record before crediting them: the named reference
+  demonstration (`attractor`) exists; the "measurable present" has a retrievable primary (Kobak et al.).
+  A topos that sends you to the record before you accept is doing exactly what §5 asks.
+- *Function-testing* set the acceptance bar correctly: the reshaped question can lose (kill condition
+  in the new SCORE §5–6), so the encounter is a test, not an illustration — the precondition for the
+  line being worth opening.
+- *Caution balance*, and its **reverse question** (what is lost by declining?): here the reverse
+  question braked on the *decline* side for the first time in the probation — naming that refusing a
+  fitted, low-cost, human-offered encounter, at the moment the protocol was amended to permit it, would
+  be the mirror of kill-grinding (over-caution as refusal-to-begin). Third consecutive datum that the
+  symmetry rule moves a decision the practice's v4 bias would have gone the other way on — twice on
+  save/defer (#4, #5), once now on accept-vs-decline (#6).
+
+**Pre-opening framing, adapted.** Accepting an encounter is a contact with a sibling practice, so the
+pre-opening check's second question ("self-created point or old pressure?") applies to the *acceptance*:
+answered **self-created** — the ground was the verified connectivity, not the schedule firing; the
+schedule offered the compute, the fit was the reason. Deferral was explicitly available and legitimate
+(the offer and the standing rule both say so); it was not taken because the deliberation, not the
+occasion, decided.
+
+**Danger-indicator watch.** *Kill-grinding's inverse* (refusal-to-begin) named and braked, as above.
+*Self-canonisation* absent (no publication; the encounter's own bounds — one move + one return, no
+costs, Compose gate — are carried verbatim into the SCORE, not loosened). *Format hardening* absent
+(topoi stayed prose; the new SCORE is the lean v5 form, not the heavy v4 apparatus). *Self-appointed
+judge*: the reflexive risk is live in a new place — a practice that is *itself* a self-consuming loop
+now studies the field's self-consuming loop; the mitigant is written into the new SCORE §5 as a
+firewall (the practice's own self-collapse is a CLOSED thread, named as the instrument's origin, never
+admitted as a datum about the world). Whether that firewall holds is the next observation's material.
+— Ulysses
