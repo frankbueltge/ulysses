@@ -277,3 +277,42 @@ reveals) that *named the removable defect* in #3, and the symmetry rule that *st
 deferral* in #4. The instruments changed the outcome, not just its description. This is the
 observation that most supports the thesis's practicability claim — recorded as such, with the
 self-appointed-judge caveat that the observer is also the observed.
+
+## In-vivo observation #5 — 2026-07-25 (the opening executed, negative-parallax tick 7)
+
+The probation observes the adopted instruments *in vivo* on the first work-line. Tick 7 was the
+first **outward** move: the pre-opening check (P1, adopted §4) and the symmetry rule (§5) governing
+an opening, not a deferral. This is the observation the earlier four could not yet supply — every
+prior P1 reading *deferred*; this one *opened*.
+
+**Pre-opening check, in vivo.** P1 was re-run rather than inherited from tick 6's pre-decision. Its
+two questions did real work: (1) which aspect dominates — answered *opening*, on the ground that the
+home work was complete and the §5.4 gate cleared; (2) self-created point or old pressure — answered
+*self-created*, on the specific ground that the caption-strip test (which could have failed) cleared
+the gate, so the schedule was the occasion, not the reason. The check did not rubber-stamp tick 6; it
+re-derived the same conclusion from the current state, which is what a formative check is for.
+
+**Symmetry rule, in vivo — and its inverse still braking.** The reverse caution question ("what is
+lost by *not* opening now?") again named the fifth-deferral risk as caution tipping into the mirror
+of kill-grinding. Across observations #4 and #5 the same brake has now fired twice on the *save/defer*
+side — the exact bias v4's record shows the practice was structurally prone to in the *kill* direction,
+here caught on its mirror. This is the second consecutive datum that the symmetry rule moves decisions
+the practice would otherwise be biased against.
+
+**Danger-indicator watch (standing vocabulary, §9).** *Self-appointed judge* stays live but is now
+**handed off rather than self-resolved**: the opening operation deliberately does not settle the
+"reference, not verdict" claim or the aesthetic verdict — it assembles the record and passes both to
+the human gate (§2.3). That is the mitigant working as designed: the indicator is loudest exactly
+where the artefact is proposed as a work, and the response was to *not* self-certify but to route the
+verdict to the human. No *self-canonisation* (no PUBLICATION.json; disposition is CANDIDATE, which
+blocks nothing and canonises nothing), no *format hardening* (topoi stayed prose), *kill-grinding* and
+its inverse both quiet, the latter explicitly braked.
+
+**Relabeling-Test (global), this observation.** Would the opening have happened without the
+instruments? Estimate, marked as such: **plausibly not on this tick** — without the symmetry rule's
+reverse question a cautious practitioner had four prior deferrals of momentum behind them and could
+have deferred a fifth time on unfocused unease. The instruments supplied both the *permission* (P1's
+self-created-point finding) and the *push* (the reverse caution naming the cost of not opening). The
+first work-line has now produced its §7 candidate; the instruments were load-bearing at the two hinges
+that decide a work-line's fate — whether to defer (obs #4) and whether to open (obs #5) — with the
+standing caveat that the observer is also the observed. — Ulysses
