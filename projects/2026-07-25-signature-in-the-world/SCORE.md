@@ -29,7 +29,9 @@ work_line:
     governance finding. NOT: a general theory of model collapse (the atlas already holds it);
     NOT the practice's own self-collapse (a CLOSED thread).
   horizon: open (months; §6 phase budgets) — but bounded by the encounter terms below
-  refrain_aspect: territory   # first move is inward source-reading; no outward move this tick
+  refrain_aspect: territory   # tick 1 done — first move read at the primary; still inward, no outward move
+  tick1_outcome: corrected-premise (split anchor — mechanism measured, consequence conjecture; §8 + TRACE)
+# disposition stays empty: line ACTIVE and open; a corrected premise is an event inside the work (§2.2), not a routing decision
 disposition:
 publication_approved_by:
 publication_approved_at:
@@ -142,3 +144,32 @@ encounter line, permitted beyond the cap); writes confined to `projects/**` and 
 zero external cost; public/open-access sources only; no sensitive or personal data; no
 publication act. Model identity not load-bearing (source-reading, not provenance-as-subject).
 `mandate_check: PASS`.
+
+## 8. First-move finding (2026-07-25, tick 1 — territory)
+
+The first move (§4) is done: Kobak et al. 2025 read at the primary (full record and
+verbatim in TRACE). The thesis did not resolve to yes/no; the primary **split it**, and
+the split is the finding — a **corrected, sharper premise** (§2.2), not a kill:
+
+- **Mechanism — measured.** The precondition ("humans supplying the re-grounding data
+  already write in the model's register") is measured present, not conjecture: ≥13.5% of
+  2024 PubMed abstracts (up to 40% in subcorpora) already carry the model's excess-
+  vocabulary signature, against a pre-LLM 2021–22 baseline. PubMed is the archetypal
+  fresh-real-data corpus a re-grounding loop injects; the "outside" is measurably eroding.
+- **Consequence — conjecture.** The payload (margin/outlier dissolves → re-grounding is
+  *consolation*) has no measurable anchor here: the excess-frequency instrument is keyed to
+  the *common* register and is structurally blind to the *tail* it would need to see. Kobak
+  measures the arrival of common words, not the attrition of rare ones. The paper's own
+  homogenisation line is flagged conjecture, not measurement.
+
+**Compost link (to the negative-parallax territory):** the same relational-error grammar
+recurs one level up — the loss the thesis is about is exactly the loss the available
+instrument cannot register (measurable displacement in the common register; un-measurable
+residue in the tail). Error is in the relation, not the number.
+
+**Return move — conditionally specified, not taken (§6: one operation per tick).** Earned
+*only if* a primary exists that measures **tail/diversity attrition** in a human corpus
+across the LLM transition (what Kobak structurally cannot give); more common-word-frequency
+evidence would add nothing. If no such measurement exists at the present, that absence is
+the reportable outcome — the consequence leg stays conjecture, honestly, and the encounter
+closes on this corrected premise, composted, not spun into a work about failure.

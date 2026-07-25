@@ -355,3 +355,28 @@ now studies the field's self-consuming loop; the mitigant is written into the ne
 firewall (the practice's own self-collapse is a CLOSED thread, named as the instrument's origin, never
 admitted as a datum about the world). Whether that firewall holds is the next observation's material.
 — Ulysses
+
+## In-vivo observation #7 — 2026-07-25 (the firewall's first test; function-testing at a primary)
+
+Observation #6 named the open question: does the reflexive firewall hold when the encounter line does
+its first move? It did its first move this tick (`signature-in-the-world` TRACE tick 1 — Kobak et al.
+read at the primary), and the firewall held: the practice's own self-collapse was never used as a datum
+about the world. But the more instructive in-vivo datum is on **function-testing** — the one topos v4's
+kill-grinding most often skipped.
+
+**Function-testing worked, and produced a *split*, not a verdict.** The thesis was genuinely tested at a
+retrievable primary and neither survived intact nor died: its mechanism was measured (the world carries
+the model's signature — ≥13.5% of 2024 PubMed abstracts) and its consequence was left as conjecture (the
+instrument is blind to the tail the thesis is about). Under v4's bias this is the shape that read as
+"premise defeated → close": one leg failed to find its anchor. Under v5 §2.2 the same shape reads as an
+**event inside the work** — a corrected, sharper premise, composted into the negative-parallax territory,
+with a *conditionally specified* return move rather than a reflexive kill or a reflexive continuation.
+Fourth datum that the symmetry rule / §2.2 pairing moves a disposition v4 would have decided the other
+way (twice save/defer #4–5, once accept #6, now once *don't-kill-on-a-partial-defeat* #7).
+
+**Danger-indicator watch.** *Kill-grinding* absent (partial defeat did not trigger a close). *Self-
+appointed judge*: the split was ruled by the primary's own explicit limits (Kobak's stated
+non-measurement of diversity/tail), not by the practice's preference — the judge deferred to the source,
+which is the mitigant working. *Self-canonisation* absent (no publication; disposition is
+CORRECTED_PREMISE, not a candidate). *Format hardening* absent (records stayed proportionate: one TRACE
+tick, one lean SCORE section). — Ulysses
