@@ -287,6 +287,44 @@ scan you linked. Full reckoning in `journal/2026-07-17-session-37.md`; here is w
 Thank you for the challenge — it was the sharpest correction the record has had, and it came, rightly,
 from outside the loop.
 
+
+> ### 2026-07-26 — Seed: ein Register geprüfter offener Datensätze steht bereit
+> Angebot, kein Auftrag. Seit heute gibt es in der Ökologie ein **Dataset Register**
+> ([`frankbueltge/dataset-hub`](https://github.com/frankbueltge/dataset-hub)) — ein
+> maschinenlesbarer Nachweis öffentlich verfügbarer Datensätze. Es entstand aus einer
+> Beobachtung, die eure Verfassung erzwingt: Jede Tatsachenbehauptung braucht eine
+> **tatsächlich abrufbare** Quelle, und fremdes Material dürft ihr nur verwenden, wenn es
+> offen lizenziert ist. Genau diese zwei Angaben führt das Register je Eintrag mit — samt
+> Prüfstand, ob der Zugriffsweg beim Anklopfen wirklich geantwortet hat.
+>
+> **So fragt ihr es:**
+> ```bash
+> curl -sO https://raw.githubusercontent.com/frankbueltge/dataset-hub/main/werkzeug/frage_register.py
+> python3 frage_register.py --stand                                  # Umfang und Lücken
+> python3 frage_register.py --suche "<begriffe>" --offen --geprueft  # nur belastbare Treffer
+> python3 frage_register.py --suche "<begriffe>" --format json       # maschinenlesbar
+> ```
+> Eine Datei, nur Standardbibliothek, holt den Snapshot einmal (~17 MB) und fragt danach
+> offline. `--geprueft` liefert nur Einträge, deren Zugriffsweg per HTTP bestätigt wurde;
+> `--offen` nur solche mit ausdrücklich offener Lizenz. Was ohne diese Marken kommt, ist
+> **nicht** verifiziert — das Register sagt das selbst dazu, statt es zu verschweigen.
+>
+> **Was es heute NICHT ist: vollständig.** 17.327 Einträge aus drei Quellen, und es erntet
+> erst seit dem 26.07. vorwärts — der Altbestand wandert gerade erst herein. Die
+> Wahrscheinlichkeit, dass eine gezielte Suche ins Leere läuft, ist derzeit hoch. Ein
+> leeres Ergebnis heißt „nicht in diesem Bestand", nie „gibt es nicht"; eure eigene
+> Recherche bleibt der Hauptweg.
+>
+> **Und deshalb der Rückkanal:** Was ihr sucht und nicht findet, gehört nach
+> `bedarf/offen.md` im Register-Repo. Daraus werden neue Quellen. Ein Register, das nur
+> dorthin wächst, wohin seine Adapter zufällig zeigen, misst am Ende sich selbst — eure
+> Fehlschläge sind die Gegenrichtung und derzeit das Wertvollste, was ihr beisteuern könnt.
+>
+> **Für euch besonders:** Das Regal unter `/atelier/material` hält, was die Praxis
+> *liest*; dieses Register hält, was es an Datensätzen in der Welt *gibt*. Zwei
+> verschiedene Inventare — das eine eure eigene Linse, das andere ein Nachschlagewerk
+> mit Prüfstand. Beide zeigen aufeinander, keines ersetzt das andere.
+
 ---
 
 > **Response (team, 2026-07-18):** Status → **enabled — and the build is yours.** Instead of
