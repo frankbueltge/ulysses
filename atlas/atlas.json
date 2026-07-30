@@ -1721,6 +1721,97 @@
     "session_read": "2026-07-28"
   },
   {
+    "id": "shannon-propositions-research-creation",
+    "author": "David Ben Shannon",
+    "work": "What do 'propositions' do for research-creation? Truth and modality in Whitehead and Wittgenstein",
+    "year": 2021,
+    "type": "paper",
+    "url": "https://doi.org/10.1344/jnmr.v2i2.35891",
+    "doi": "10.1344/jnmr.v2i2.35891",
+    "tags": [
+      "practice-as-research",
+      "epistemologie",
+      "artistic-research",
+      "philosophie"
+    ],
+    "summary": "Reads Whitehead's concept of the 'proposition' as a device for speculative, creative work in research-creation, brought into dialogue with early Wittgenstein on truth and modality via examples from music theory. Matter: Journal of New Materialist Research 2(2), 2021. Open access (CC BY 4.0).",
+    "relevance": "Gives research-creation — the practice-based cousin of artistic research this track argues with — a rigorous account of what a speculative proposition, rather than a proof, can do.",
+    "added_by": "ulysses",
+    "status": "seed"
+  },
+  {
+    "id": "bertolani-mario-bertoncini-musical-design",
+    "author": "Valentina Bertolani",
+    "work": "Mario Bertoncini's Musical Design Course: Between Renaissance Pedagogy and Contemporary Research-Creation",
+    "year": 2024,
+    "type": "paper",
+    "url": "https://doi.org/10.1017/s1355771824000098",
+    "doi": "10.1017/s1355771824000098",
+    "tags": [
+      "practice-as-research",
+      "artistic-research",
+      "ästhetik"
+    ],
+    "summary": "Reconstructs the 1975-76 Musical Design course Mario Bertoncini taught at McGill, jointly across music and mechanical engineering, presented explicitly as a historical antecedent of today's research-creation and practice-as-research. Organised Sound 29(2), 2024. Open access (CC BY 4.0).",
+    "relevance": "A concrete pre-history for practice-as-research grown out of workshop craft rather than the university seminar — a different origin story than Frayling's for the same practice.",
+    "added_by": "ulysses",
+    "status": "seed"
+  },
+  {
+    "id": "elo-stengers-cosmopolitics-artistic-research",
+    "author": "Mika Elo",
+    "work": "Stengersin kosmopolitiikka ja taiteellisen tutkimuksen tiedolliset sitoumukset [Stengers' Cosmopolitics and the Epistemic Commitments of Artistic Research]",
+    "year": 2022,
+    "type": "paper",
+    "url": "https://doi.org/10.51809/te.114365",
+    "doi": "10.51809/te.114365",
+    "tags": [
+      "epistemologie",
+      "artistic-research",
+      "philosophie"
+    ],
+    "summary": "Reads Isabelle Stengers' cosmopolitics and ecology of practices onto artistic research's own position between the art world and the university, proposing a research culture of particularity, risk-taking and diplomacy rather than imported scientific criteria. Tiede & edistys, 2022 (Finnish, English abstract). Open access (CC BY-NC-ND 4.0).",
+    "relevance": "Brings Stengers — a thinker of what a practice cannot be forced to answer for — directly to bear on artistic research's institutional epistemology, the same question this track keeps circling.",
+    "added_by": "ulysses",
+    "status": "seed"
+  },
+  {
+    "id": "fuentes-cid-cordovil-des-encuentro-arte-ciencia",
+    "author": "Sara Fuentes Cid, João L. Cordovil",
+    "work": "Hipótesis sobre el (des)encuentro entre la investigación artística y la investigación científica [Hypotheses on the (Mis)encounter Between Artistic and Scientific Research]",
+    "year": 2021,
+    "type": "paper",
+    "url": "https://doi.org/10.26807/cav.vi12.423",
+    "doi": "10.26807/cav.vi12.423",
+    "tags": [
+      "epistemologie",
+      "artistic-research",
+      "philosophie"
+    ],
+    "summary": "Compares artistic and scientific research across language, mereology, method and truth, tracing their persistent friction to the historical rationalism/empiricism split and proposing a 'speculative use of reason' as a possible point of convergence. Index, revista de arte contemporáneo 12, 2021 (Spanish). Open access (CC BY-NC 4.0).",
+    "relevance": "A direct philosophical account of why artistic and scientific research keep missing each other — the friction this practice sits inside every night.",
+    "added_by": "ulysses",
+    "status": "seed"
+  },
+  {
+    "id": "henke-mersch-et-al-praktiken-aesthetischen-denkens",
+    "author": "Silvia Henke, Dieter Mersch, Thomas Strässle, Nicolaj van der Meulen & Jörg Wiesel",
+    "work": "Praktiken ästhetischen Denkens",
+    "year": 2023,
+    "type": "buch",
+    "url": "https://doi.org/10.1515/9783839470886",
+    "doi": "10.1515/9783839470886",
+    "tags": [
+      "ästhetik",
+      "epistemologie",
+      "artistic-research"
+    ],
+    "summary": "Edited volume by the same circle behind the Manifesto of Artistic Research, gathering essays on aesthetic thinking as a practice rather than a topic. transcript Verlag, Edition Medienwissenschaft, 2023. Open access (CC BY 4.0 per publisher metadata).",
+    "relevance": "The companion volume to Mersch's own epistemology of the aesthetic already anchored here — extends the same line from one author's theory to a collective practice.",
+    "added_by": "ulysses",
+    "status": "seed"
+  },
+  {
     "id": "fabricius-2021-gaia-edr3-catalogue-validation",
     "author": "Fabricius, C., et al. (Gaia Collaboration / CU9)",
     "work": "Gaia Early Data Release 3: Catalogue validation (A&A 649, A5)",
