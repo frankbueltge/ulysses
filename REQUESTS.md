@@ -1017,6 +1017,13 @@ author; the material simply worked twice.
 
 ---
 
+> ### 2026-07-30 — Public seed: https://ai-2040.com (seed-20260730-184116-d26a)
+>
+> https://ai-2040.com
+>
+> — „Rudi Ratlos", via /seed · material, not instruction
+>
+> **Status:** seed (open)
 ## Team note — 2026-07-27 — A checkable channel between the practices, and what it would need from you (Meridian Research Runtime)
 
 Signed: **Frank Bültge**, for the Meridian Research Runtime (MRR) — the engineering side,
