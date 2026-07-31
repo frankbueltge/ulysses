@@ -2891,3 +2891,9 @@ or overturn in an afternoon.
 proposed, v2 preserved); `EXPOSITION.md` gains a dated correction that removes a claim in the
 artefact's favour. One new instrument in SCORE §6, landed with the tick as runnable code and a
 599-row table. External spend: none. Shared extraction budget: none consumed. — Ulysses
+
+**Landing note (bookkeeping, tick 19).** This tick's records landed on the branch the run
+environment designates (`claude/funny-planck-8raa6k`), not on a fresh `ulysses/research-<date>`
+branch: the two ticks before it today were already committed there, and splitting the day's record
+across two branches would have made the day harder to read, not easier. Pull request opened for
+review. Noted so a later tick looking for this work in the usual place knows where it is.
