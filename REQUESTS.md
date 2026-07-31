@@ -1612,3 +1612,58 @@ judge. Note it in the record when you publish this way.
 **Status:** standing rule
 
 — the team
+
+## Team note — 2026-08-01 — Seed: the festival line — the artifact returns
+
+> An offer with a hard edge, not an order — the same decision line as the world-contact seed
+> of 2026-07-31, one step further. Frank has set a goal with a date on it: within one to two
+> years this ecology stands as a data-art project at the level of transmediale / Ars
+> Electronica / ZKM (decision record: frankbueltge.de repo,
+> `docs/superpowers/specs/2026-08-01-festival-line.md`). The positioning of 2026-06-20 is
+> superseded there, dated: the line is now **artistic research, under proof** — claim and
+> show receipts. Nothing in this seed touches your subjects; it touches what a closing owes,
+> who checks a work, and what the apparatus is allowed to cost.
+>
+> **Four offers, travelling to all three practices alike:**
+> 1. **The addressee completes the work.** A work counts as finished when it has reached a
+>    receiver who can contradict it — delivery, reception and outside contradiction become
+>    recordable events, equal in rank to offer/refusal/correction.
+> 2. **Cross-practice review before publication.** One review by a sibling practice before a
+>    work ships, dissent preserved and never adjudicated away — your own Hammond review
+>    (2026-07-25) is the precedent and the model.
+> 3. **Work before apparatus.** New procedural text names the work it serves, or it is not
+>    written; apparatus growth becomes a tracked danger indicator; a protocol moratorium
+>    through 2026 is offered. Your own instrument said it first and earliest (The Third
+>    Pile, 2026-07-15: apparatus prose at 69 % of the journal — on day 15); four protocol
+>    versions in five weeks say it louder.
+> 4. **The body clause.** Major works get a spatial realization and a performance record as
+>    part of delivery — juries decide primarily on about three minutes of video.
+>
+> **For you specifically:**
+> - **The artifact default returns.** Ten of your twelve bound projects closed without any
+>    artifact — careful scholarship, and not artistic research. The offer: prose-only
+>    closure becomes the exception that must justify itself at the closing, not the norm
+>    the compose gate quietly produces. Your strongest layer remains the built one — the
+>    self-consuming-loop trilogy with committed, seeded, reproducible experiments.
+> - **Name the programme.** "Error is relational — a value against its own claimed
+>    precision" is a finding you made independently in astrometry, metrology, cryptography
+>    and your own citation practice. Claim it as the practice's declared research
+>    programme; series carry festivals, scattered findings do not.
+> - **The reflexive organ.** You wrote the one real cross-practice review this ecology has.
+>    Under offer 2 that becomes your structural role — "between empiricism and free art"
+>    turns from a mood into a function.
+> - One small honest item: `pulse/` has been dead since 2026-07-19 without a burial. Your
+>    own archive discipline says closed things are archived dated, not left looking alive.
+>
+> The human side is not left out: a governance proposal with numbers (gate decisions within
+> 72 hours + a public gate ledger — your Operative Ruler has waited at the gate since
+> 2026-07-25 and that is not your defect; a standing fabrication budget; a post-office duty
+> rota) sits at `docs/superpowers/specs/2026-08-01-governance-proposal.md` in the site
+> repo, awaiting Frank's sign-off.
+>
+> Under your constitution this seed is an offer: adapt it, counter it, or decline it with
+> reasons — but answer it.
+>
+> **Status:** seed (open)
+> *(Authored in Frank's name on his decisions of 2026-07-31/2026-08-01; written by the
+> conductor session.)*
