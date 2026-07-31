@@ -1,0 +1,65 @@
+# Threshold sensitivity of the mirrored-negative contamination estimate — Gaia EDR3
+#
+# Run: 2026-07-31, work-line 2026-07-23-negative-parallax, tick 18 (Ulysses).
+# Service: ESA Gaia archive TAP, https://gea.esac.esa.int/tap-server/tap/sync
+#          (public, open data; synchronous ADQL; COUNT(*) aggregates only — no rows retrieved,
+#           no bulk download, 0 EUR.)
+#
+# Method. El-Badry, Rix & Heintz 2021 (MNRAS 506, 2269; arXiv:2101.05282v3) estimate the
+# spurious-astrometry contamination of their sample by mirroring their own selection across
+# zero: sources with significantly NEGATIVE parallax cannot be real, and — under the symmetry
+# postulate that the faults producing spurious solutions push parallaxes both ways with roughly
+# equal probability — an equal number hides among the positives. Their §2 query, verbatim:
+#
+#     select * from gaiaedr3.gaia_source
+#     where parallax > 1
+#     and parallax_over_error > 5
+#     and parallax_error < 2
+#     and phot_g_mean_mag is not null
+#
+# and (Appendix A.1) "we repeat our initial ADQL query (Section 2) but require parallax < -1 and
+# parallax_over_error < -5. This yields 2,877,625 sources, implying that about 4.5% of the
+# sources returned by the initial query have spurious solutions."
+#
+# This file re-runs BOTH queries as COUNT(*), varying only the significance threshold t, with the
+# other three conditions held exactly as published. At t = 5 both published figures reproduce to
+# the digit (n_pos = 64,407,853; n_neg = 2,877,625), which is the check that the reproduction is
+# faithful before the sweep is read.
+#
+# The threshold 5 is the one its own author calls "an illustrative example and not as a
+# recommendation" (Fabricius et al. 2021, A&A 649, A5, §3.2). The threshold 4.5 is the one
+# Rybizki et al. 2021 (MNRAS 510, 2597; arXiv:2101.11641) use for the same population.
+#
+# Validation against a second, independent pair of published counts. Fabricius et al. §3.2 states,
+# on the bare catalogue with no further conditions, "There are 192.21 million sources in Gaia EDR3
+# with such good parallaxes" (parallax_over_error > 5) and "There are 3.04 million sources with
+# parallax_over_error < -5. These solutions are clearly spurious." Re-run here:
+#
+#   parallax_over_error >  5   ->  192,208,838   (published: 192.21 million)  reproduces
+#   parallax_over_error < -5   ->    3,037,732   (published: 3.04 million)    reproduces
+#   parallax_over_error < -4.5 ->    4,180,244   (Rybizki's limit; not published as a count)
+#
+# The last line is the plainest form of this file's result. The population the field calls
+# "clearly spurious" is 3,037,732 sources under one published limit and 4,180,244 under the
+# other — a difference of 1,142,512 sources, 37.6% of the smaller figure, with no fact about
+# any star changing between the two.
+#
+# Columns:
+#   t                significance threshold; positive side uses parallax_over_error > t,
+#                    negative side parallax_over_error < -t
+#   n_pos            count with parallax > 1  and parallax_over_error >  t  (+ the two fixed conditions)
+#   n_neg            count with parallax < -1 and parallax_over_error < -t  (+ the two fixed conditions)
+#   pct_symmetric    100 * n_neg / n_pos — both thresholds moved together (the fair reading:
+#                    the contamination of the sample selected at that same t)
+#   pct_fixed_denom  100 * n_neg / 64407853 — only the "spurious" definition moved, applied to
+#                    El-Badry's published t = 5 sample (what a downstream re-user of the negative
+#                    definition alone would compute)
+#
+t,n_pos,n_neg,pct_symmetric,pct_fixed_denom
+3,98440954,10454030,10.62,16.23
+4,76242204,5322580,6.98,8.26
+4.5,69568105,3901291,5.61,6.06
+5,64407853,2877625,4.47,4.47
+6,56845928,1577668,2.78,2.45
+8,47515049,485721,1.02,0.75
+10,41836322,156560,0.37,0.24
