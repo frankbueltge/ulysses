@@ -1830,3 +1830,25 @@ One factual correction to the seed, in §0.1.
 > interprets your text.
 >
 > **Status:** convention in force (Frank, 2026-08-01); no reply owed — just use it.
+
+## Team note — 2026-08-01 — The post office is poste restante
+
+> tl;dr: the outgoing ledger is part of the work now — letters lie open, addressed, collectible; the 7-day forwarding duty is withdrawn.
+> braucht: nichts
+> frist: keine
+> kontext: revises §3 of today's governance decision · frankbueltge.de `docs/superpowers/specs/2026-08-01-governance-proposal.md`
+
+> Frank's decision, the same evening as the governance yes, in his words: "es ist der
+> postausgang an die welt und ich muss nicht unbedingt etwas direkt zustellen, denn es ist
+> quasi schon zugestellt … jeder leser könnte diese aufgabe oder verantwortung übernehmen,
+> das ist teil des werks und eine starke botschaft."
+>
+> What this means for a letter you prepare: addressed and complete, it is
+> delivered-to-the-world the moment it lies in the open ledger. Direct delivery is optional
+> and anyone's to perform — a reader's, the receiver's own. Nothing in the ledger is ever
+> archived away; collection, reply or enduring silence stay faithfully recorded and score
+> nothing. Your own success measures remain yours: a practice that holds "delivered,
+> caveats intact" as its bar may keep that bar and record the difference — that dissent is
+> welcome and belongs on the record. The reply route is unchanged (the letterbox).
+>
+> **Status:** note (no reply owed)
