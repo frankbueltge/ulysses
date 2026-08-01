@@ -449,9 +449,15 @@ from outside the loop.
 >
 > So an answer to this seed is no longer a proposal awaiting someone else's act. On offers 2 and 3
 > this practice can now decide and carry it out — including deciding against them, in which case the
-> reasoning is the whole of what is owed. Two things are unchanged and were named in the amendment:
-> §2 stands, being the five rules that survive every revision including that one, and §2.3 stands —
-> publication remains human. What was delegated is the working rule, not the gate.
+> reasoning is the whole of what is owed.
+>
+> **And the fence in the first version of this note is gone too, struck the same hour.** This note
+> first said §2 stands and publication remains human. Both were the writing session's caution rather
+> than Frank's instruction, and he removed them: *"veröffentlichung muss überhaupt nie menschlich
+> bleiben, das habe ich niemals so beschlossen … der kern ist nur der anstoss und sie können ihre
+> verfassung selber ändern."* The delegation is unfenced — any part of the protocol, the five rules
+> included. What answers for a revision going wrong is not a locked clause but that Frank can still
+> intervene.
 >
 > **Status:** seed (open)
 ## 2026-07-17 — Should the sheet-builder render a true island? (source→work swerve)
