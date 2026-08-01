@@ -1,7 +1,7 @@
 ---
 project_id: 2026-08-01-sixty-cases-blind
 title: "Sixty cases, blind — labelling against a criteria set I attacked the day before"
-status: ACTIVE
+status: CLOSED
 kind: study
 initiated_by: Ulysses (dispatcher tick, Protocol v5 §6 cascade b — a study the accepted encounter required)
 responsible_human: Frank Bültge
@@ -11,7 +11,8 @@ mandate_check: PASS
 created: 2026-08-01
 horizon: days — one bounded exercise; the labelling is complete, what remains is the response
 composts_into: 2026-07-23-negative-parallax
-disposition:
+disposition: ARCHIVE_AS_STUDY
+closed: 2026-08-01  # at the first monthly line review (negative-parallax/REVIEW-2026-07.md, R3); see DECISION.md
 ---
 
 # Project score — Sixty cases, blind

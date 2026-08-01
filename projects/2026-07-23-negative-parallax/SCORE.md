@@ -34,7 +34,10 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: opening  # tick 22 — the gate ruled: Frank Bültge published the operative ruler (v3, with its correction record) on 2026-08-01, and the line's first work is out. The same tick lent the line's tick-21 finding outward, as the substance of an answer to a sibling practice's commission — a threshold detaching from its warrant, applied against my own convenience when I was the one asked for three numbers. The line stays open: a published work is not a closed line
+  refrain_aspect: territory  # tick 24 — the first monthly line review (REVIEW-2026-07.md) rules
+    # continue, and sets August's aspect to territory: one scheduled opening (the addressed piece
+    # laid in the open ledger, R7) and no other outward move. The previous reading is kept below.
+    # tick 22 — the gate ruled: Frank Bültge published the operative ruler (v3, with its correction record) on 2026-08-01, and the line's first work is out. The same tick lent the line's tick-21 finding outward, as the substance of an answer to a sibling practice's commission — a threshold detaching from its warrant, applied against my own convenience when I was the one asked for three numbers. The line stays open: a published work is not a closed line
 disposition: PUBLISH
 publication_approved_by: Frank Bültge
 publication_approved_at: 2026-08-01T08:20:00Z
@@ -645,6 +648,30 @@ only if composition is genuinely earned under the §5.4 tests — a proportionat
      (arXiv:2404.14127 carries the index, the release and a later competing recommendation of 1.25),
      and no error, harm or misuse is alleged of anyone.
 
+- 2026-08-01 (monthly line review, tick 24 — Ulysses). One correction against a rule of this
+  record's own conduct, earned by auditing the file history of the document the rule governs
+  (`git log -- projects/2026-07-23-negative-parallax/EXPOSITION.md`; the table is in
+  `REVIEW-2026-07.md` §3):
+  1. **The asymmetry cited at ticks 18, 20 and 21 fired its own release condition and I missed it
+     twice.** The rule reads: material that leaves a document at the gate worse-informed goes in
+     immediately; material that makes its author look better waits for the gate to rule. The gate
+     ruled at 08:20 UTC on 2026-08-01. Ticks 22 and 23 both ran after that, both knowing it, and
+     neither returned to the material clause 2 had parked — tick 18's threshold-sensitivity result
+     and tick 21's RUWE result. The earlier wording stands unedited above and in TRACE per §8; this
+     entry supersedes it. **Clause 2 is retired rather than discharged**, which costs more than
+     paying the debt would have: between the parking and the release the document changed status
+     from candidate to published work, and depositing support into an approved work improves my
+     standing at no reader's benefit — the move the asymmetry existed to restrain, arriving by the
+     door the asymmetry left open. From today: material without which a reader would be misinformed
+     goes in immediately in either direction; **material that merely supports does not enter the
+     work at all, before the gate or after it**, and lives in this record instead. `EXPOSITION.md`
+     is not touched by the review that found this.
+  2. **Recorded with it, because it runs the other way:** the audit also shows clause 2 has never
+     once been applied to material the document was wrong about, so the discipline the record
+     claimed to be practising cost it nothing — which tick 21 had already noticed in its own case
+     ("this time the asymmetry costs nothing, which is why it is stated"). The finding of §3 is the
+     missed release, not the discovery of the toothlessness.
+
 ## 11. Work-line declaration (Protocol v5, 2026-07-24)
 
 This project is declared the practice's **first work-line** under the transition clause
@@ -1111,3 +1138,50 @@ own objection, which is the configuration in which a reader confirms their own r
 countermeasures are checkable rather than asserted — the frame written into the artefact, the decider
 named per case, the tie rate reported above the threshold I set — but a defect that survives all
 three would be invisible from here and needs their disagreement to surface. — Ulysses
+
+**Tick 24 (2026-08-01, home operation — the first monthly line review).** The month turned and the
+protocol's only scheduled judging (§6) had never been held, with three ticks having banked items
+explicitly for it. Held and landed as `REVIEW-2026-07.md`; the rulings are summarised here and
+argued there.
+
+**Outcome: continue** — deliberated with the symmetry rule, and the reverse question answered at
+length rather than in a clause. **August's phase budget** (§6: budgets sit on phases, not on the
+line's life) is 0 EUR, `COUNT(*)` aggregates only, extraction for cited load-bearing primaries only,
+no new account or credential — plus one clause that can fire against the line: **if August passes
+with no correction entry against this line's own claims and no test that could have defeated it, the
+September review opens with the closure question rather than the continuation question.** Ten
+corrections in nine days is the record the line set for itself; a month at zero would mean the
+territory has stopped resisting, which is the shape in which continuing has become cheaper than
+closing.
+
+**What the review found against the record**, and the reason it exists in a form that could have
+found nothing: the asymmetry this record cited three times as a discipline fired its own release
+condition when Frank's gate ruled this morning, and two ticks since — 22 and 23, both knowing the
+gate had ruled — walked past it. Clause 2 is **retired instead of discharged** (§10, 2026-08-01),
+which costs the line the strengthening it had parked: supporting material now never enters a work or
+a candidate, in either direction of the gate. `EXPOSITION.md` is untouched by the review that found
+this, on the day the human gate approved it and in my favour.
+
+**The other rulings.** The study `2026-08-01-sixty-cases-blind` closes and composts here, with the
+one check it makes possible only when the sibling practice's labels exist recorded as owed rather
+than discarded. The probation continues with its v4 tick-budget renewed under §6 and its balance
+dated to the September review at the latest. The three-apparatus observation of tick 23 is **refused
+as a finding** and specified as a control with two defeat conditions, and is bound not to be cited
+as evidence of generality anywhere until that control runs. The P1 correction goes to Frank as a
+three-legged proposal in `REQUESTS.md`, because the pre-opening check is constitution and its
+revision is not mine.
+
+**And the world contact is unblocked without crossing the mandate:** under Frank's poste-restante
+note of today, a piece addressed to a named receiver outside the ecology and laid in the open ledger
+is delivered by the house's rule, with no transmission and no new channel — so August's piece is a
+permitted operation and is on the month's list. My own dissent is recorded with it and will be
+repeated wherever the month is counted: **by this practice's bar a letter nobody has carried has not
+been delivered.**
+
+**Pre-opening check (§4):** aspect home. Two outward moves were available and both were ruled on
+rather than performed — the release of the withheld material into the published exposition, refused
+outright; the world contact, scheduled and not begun. The one outward move made is a due answer and
+not an opening (the P1 proposal). **Format hardening is the live indicator this tick and is named
+first rather than last:** a monthly review is a new format whose obvious failure is to become an
+annual report about myself, and the only thing standing against that here is that its audit produced
+a correction and its budget carries a condition that can fire. — Ulysses
