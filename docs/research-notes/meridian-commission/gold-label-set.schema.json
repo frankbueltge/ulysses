@@ -1,0 +1,263 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mrr/benchmarks/meridianbench/fixtures/gold-label-set.schema.json",
+  "title": "MRR GoldLabelSet",
+  "description": "task-packets/N1-T02.yaml R1: a frozen gold standard for evidence-relation classification — the fixed set of correct answers against which a classifying system's VALIDITY is measured. WHY THIS LIVES HERE AND NOT UNDER schemas/ (corrected during the N1-T02 build, 2026-08-01): schemas/ is reserved for governed CONTRACT ENTITIES, and tests/contract/test_examples.py enforces that reservation — every file there must have a matching examples/*.example.json and a mrr.contracts Pydantic model, in lockstep. A gold label set is none of those things: it has no id/revision/status/signature lifecycle, it never enters the object store, and N1-T02 forbids packages/contracts/** on purpose. The packet originally placed it under schemas/; the repository's own test refused, and the repository was right. The precedent it now follows is CorpusEntry, whose module says the same thing of itself: 'validated only here (not schematized under schemas/)'. This document therefore describes an INPUT FILE, the way corpora/model-collapse/verification/agreement-crosswalk.v1.json is an input file — committed, hash-pinned, citable and contestable, but not a governed object. It is kept as JSON Schema rather than only as Python because another practice has to PRODUCE one of these: a machine-readable spec is what makes the commission checkable at its own end. Immutability is by VERSION, not by edit: mb-cls-v1 is never changed; a changed standard is mb-cls-v2, and scripts/check_gold_freeze.py fails when a registered version's bytes move. The order gate (labelled_at strictly after criteria_locked_at) is carried IN the data rather than asserted in prose, so a moved goal post is a refused run instead of a footnote — docs/design/2026-07-24-capability-roadmap-entwurf.md's N1 requirement 'Validierung erst nach Kriterien-Finalisierung (als Objekt-Zustand erzwingbar)'. REVISED 2026-08-01 for criteria v2, after the labelling practice objected to two rules and was right about both: cases now carry `decided_by` and `tie_with` so a fired tie-break is visible, and `undecidable` so a criteria set's coverage is reportable instead of absorbed. Both objections had the same shape — v1 produced a tidy output by destroying the evidence of its own uncertainty.",
+  "$defs": {
+    "labelProvenance": {
+      "description": "WHO produced these labels, and under which act. Non-negotiable per the owner's decision of 2026-08-01: the criteria for 'better' are not set by the practice being measured, so a gold set that cannot say where its labels came from is not a standard. 'producing_practice' is the machine-checkable half; a set carrying the reserved value 'synthetic-fixture' is refused for real evaluation by the loader (N1-T02 R7) — quarantine by provenance, not by filename, because a filename can be copied.",
+      "type": "object",
+      "required": [
+        "producing_practice",
+        "account"
+      ],
+      "properties": {
+        "producing_practice": {
+          "description": "Stable identifier of the practice or party that produced the labels — e.g. 'ulysses', 'ensemble', a urn:mrr:practice:... URN, or the reserved 'synthetic-fixture'.",
+          "type": "string",
+          "minLength": 1
+        },
+        "account": {
+          "description": "Plain-language account of how the labels were made: blind or not, against which criteria, in which act or encounter.",
+          "type": "string",
+          "minLength": 1
+        },
+        "encounter_id": {
+          "description": "The encounter register entry recording the act, when the labels came from a cross-practice exchange (e.g. 'enc-2026-006-...'). Null when they did not.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "blind_to_measured_labels": {
+          "description": "Whether the labelling party was blind to the classifications being measured. False is permitted but must be stated: a non-blind rater is a confirmation, not an independent standard, and the report carries this through.",
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "goldCase": {
+      "description": "One labelled case. The split between what a system may see and what only a scorer may see is enforced STRUCTURALLY at load time by benchmarks/meridianbench/harness.py's BenchmarkCase typing (E4-T07), not by this schema — this document is the on-disk form that the loader splits.",
+      "type": "object",
+      "required": [
+        "case_id",
+        "excerpt",
+        "excerpt_sha256",
+        "claim_text",
+        "decided_by"
+      ],
+      "properties": {
+        "case_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "excerpt": {
+          "description": "The verbatim source text the classification is made against — never a third party's description of the source (corpora/README.md: 'Jeder claim_relevant_finding muss aus der Quelle selbst belegt sein').",
+          "type": "string",
+          "minLength": 1
+        },
+        "excerpt_sha256": {
+          "type": "string",
+          "pattern": "^sha256:[a-f0-9]{64}$",
+          "description": "sha256 of the excerpt's UTF-8 bytes, so a drifted excerpt is detectable rather than silently re-read."
+        },
+        "source_identifiers": {
+          "description": "How the source is found again. Shape mirrors CorpusEntry.identifiers.",
+          "type": "object",
+          "properties": {
+            "doi": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "repository_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "archive_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "local_asset_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "claim_text": {
+          "description": "The claim the source is being related TO. Without it 'supports' has no object.",
+          "type": "string",
+          "minLength": 1
+        },
+        "expected_relation": {
+          "description": "The correct answer, or null when the case is undecidable under the criteria. MUST be a member of the set's own 'categories' when non-null. Same vocabulary as CorpusEntry.evidence_relation, deliberately: the benchmark measures the decision the pipeline actually consumes.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "expected_rationale": {
+          "description": "Why that relation is correct, in the labeller's own words — or, for an undecidable case, why it could not be decided. Required whenever expected_relation is non-null. Scorer-visible only; it is the record that makes a disputed label arguable rather than merely asserted.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "metadata": {
+          "description": "Free-text, human-readable reporting labels only (e.g. {'category': 'hedged finding'}). NEVER a side channel for anything a scorer needs — mirrors harness.BenchmarkCase.metadata's own restriction.",
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "decided_by": {
+          "description": "R-record-the-decider (criteria v2): the id of the rule, or the name of the definition, that actually produced this label. A label decided by R-conservative-supports is a different object from one the `qualifies` definition decided cleanly, and the difference must survive into the record.",
+          "type": "string",
+          "minLength": 1
+        },
+        "tie_with": {
+          "description": "R-conservative-supports as amended in criteria v2: the runner-up label, when the tie-break rule rather than the definitions produced the answer; null when the definitions decided cleanly. Added because Ulysses showed the v1 rule was invisible — a coin-flip `qualifies` was indistinguishable from a decided one, which made the corroboration count a point estimate whose distance from its own alternative was unrecoverable. With this field the count can be computed twice and the interval between them is the honest width of the evidence. Structurally the same move as keeping Gaia's negative parallaxes as measured instead of deleting them to obtain a clean sample.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "undecidable": {
+          "description": "R-undecidable-is-a-finding (criteria v2): true when the case cannot be decided under the criteria. Such cases are EXCLUDED from the confusion matrix and reported as their own count — a criteria set's coverage is a measurable property of it, and forcing every case to a label hides exactly that. Replaces v1's R-no-abstention.",
+          "type": "boolean",
+          "default": false
+        },
+        "undecidable_reason": {
+          "description": "Required whenever `undecidable` is true. What the criteria failed to settle, in one sentence.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "undecidable": {
+                "const": true
+              }
+            },
+            "required": [
+              "undecidable"
+            ]
+          },
+          "then": {
+            "required": [
+              "undecidable_reason"
+            ],
+            "properties": {
+              "expected_relation": {
+                "type": "null"
+              },
+              "undecidable_reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "else": {
+            "required": [
+              "expected_relation",
+              "expected_rationale"
+            ],
+            "properties": {
+              "expected_relation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "expected_rationale": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "type": "object",
+  "required": [
+    "set_id",
+    "categories",
+    "criteria_version",
+    "criteria_locked_at",
+    "criteria_lock_content_hash",
+    "labelled_at",
+    "label_provenance",
+    "cases"
+  ],
+  "properties": {
+    "set_id": {
+      "description": "This frozen version's own name, e.g. 'mb-cls-v1'. Immutable: a changed standard gets a new set_id, never an edit.",
+      "type": "string",
+      "minLength": 1
+    },
+    "categories": {
+      "description": "The declared label space, in an EXPLICIT order — the confusion matrix's axis order is taken from here, never from set/dict iteration (mrr.domain.agreement.confusion_matrix's own requirement).",
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "criteria_version": {
+      "description": "Which version of the classification criteria (the concept definitions deciding what 'supports' means) the labels were made under.",
+      "type": "string",
+      "minLength": 1
+    },
+    "criteria_locked_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When those criteria were finalized. The first half of the order gate."
+    },
+    "criteria_lock_content_hash": {
+      "type": "string",
+      "pattern": "^sha256:[a-f0-9]{64}$",
+      "description": "Content hash of the locked criteria, mirroring MethodProtocol.protocol_lock_content_hash's role: it pins WHICH criteria, not merely that some were locked."
+    },
+    "criteria": {
+      "description": "The locked criteria themselves, carried inline so a case can be re-judged without a second file: category name -> its binding definition. Every declared category should appear.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "labelled_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the labelling happened. MUST be strictly after criteria_locked_at — enforced by the loader, which refuses rather than warns. Criteria that move after the labels are a moving standard, which is the exact failure the ordering exists to prevent."
+    },
+    "label_provenance": {
+      "$ref": "#/$defs/labelProvenance"
+    },
+    "notes": {
+      "description": "Free-text remarks about the set as a whole — known limitations, sampling frame, anything a reader needs to judge what the number means.",
+      "type": "string"
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/goldCase"
+      }
+    }
+  },
+  "additionalProperties": false
+}
