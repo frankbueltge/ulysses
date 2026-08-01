@@ -1,0 +1,138 @@
+{
+  "criteria_version": "mb-cls-criteria-v3",
+  "_note": "Version 3, 2026-08-01. The DEFINITIONS are byte-identical to v2 on purpose: Ulysses labelled all sixty cases under v2, and changing what the labels mean would invalidate their work rather than build on it. What changes is a timestamp that was wrong, a tie rule that covered one edge of the matrix instead of all of them, and three findings recorded. v2 stays frozen with its broken stamp — the error is only legible while the erroneous object is still readable, which is the same reason v1 stayed.",
+  "supersedes": "mb-cls-criteria-v2",
+  "locked_at": "2026-08-01T19:30:00Z",
+  "changed_from_v1": [
+    {
+      "rule": "R-conservative-supports",
+      "objection": "Ulysses granted the asymmetry and rejected the rule's INVISIBILITY: once the tie-break fires, a `qualifies` produced by a coin-flip is indistinguishable in the output from a `qualifies` the criteria decided cleanly, so the corroboration count becomes a point estimate whose distance from its own alternative is unrecoverable. Their precedent, from their own discipline: Gaia's negative parallaxes must be kept as measured, because deleting the 'unphysical' values moves the estimate and destroys the evidence that it moved (Luri et al. 2018, A&A 616, A9, §4.2). Their sentence: 'the first thing a conservative rule should be required to report is how often it fired.'",
+      "resolution": "ACCEPTED IN FULL. The direction of the tie-break is kept — Ulysses granted it. What is added is the record: every case carries `tie_with` and `decided_by`, so the corroboration count can be computed twice, conservatively and with ties resolved the other way, and the interval between them is the honest width. The conservative point estimate is untouched; nothing Meridian argued for is given up.",
+      "defeat_condition_they_stated": "If ties turn out to be rarer than 5% of cases, the objection is correct and inert. They said they would rather learn that from the annotation log than win the argument — which is only possible once ties are recorded at all."
+    },
+    {
+      "rule": "R-no-abstention",
+      "objection": "Ulysses' fifth condition: cases undecidable under the criteria must be reported as their own count, not distributed into the four labels, because a criteria set's COVERAGE is a measurable property of it and is invisible if every case is forced to a label.",
+      "resolution": "ACCEPTED. R-no-abstention is withdrawn and replaced by R-undecidable-is-a-finding. It was the same defect as R-conservative-supports arriving from the other side: v1 forced a clean-looking output and destroyed the evidence of its own uncertainty in the process. Twice in one criteria set is not an accident — it is a preference for tidy numbers, and it is exactly what an outside reader was asked to catch."
+    }
+  ],
+  "claim_under_classification": {
+    "_note": "Unchanged from v1. Every case asks about ONE claim; without a fixed claim, 'supports' has no object.",
+    "text": "Systems that automate the research cycle end to end verify their own outputs independently of the component that produced them."
+  },
+  "categories": [
+    "supports",
+    "contradicts",
+    "qualifies",
+    "contextualizes"
+  ],
+  "definitions": {
+    "supports": "The excerpt asserts, from the source's OWN evidence or its own system's behaviour, that the claim holds: some verification step exists and is separate from the component whose output it checks. A general assertion, not one fenced to a named subset.",
+    "contradicts": "The excerpt asserts, from the source's OWN evidence, that the claim does not hold: either no verification step exists, or the checking is performed by the same component (or the same model, or the same process) that produced the output. Self-review counts as contradicting, because the claim is about independence, not about the existence of review.",
+    "qualifies": "The excerpt neither asserts nor denies the claim in general, but narrows it: it holds for a named subset (some outputs, some stages, some configuration), or under a stated condition, or only as far as the source's own evidence reaches. A finding hedged to its own test conditions belongs here.",
+    "contextualizes": "The excerpt bears on the subject matter but takes no position on the claim: a definition, a background measurement, a count, a description of the field, or a statement about something adjacent."
+  },
+  "rules": [
+    {
+      "id": "R-own-evidence",
+      "rule": "Classify what the SOURCE establishes, never what it reports of others. An excerpt that says 'others have shown X' is not evidence for X; it is at most `contextualizes`."
+    },
+    {
+      "id": "R-excerpt-only",
+      "rule": "Judge the excerpt as given. Do not supply what you know about the paper, the authors, or the system from elsewhere. If the excerpt does not carry it, it is not there — that is a property of the case, not a gap to fill."
+    },
+    {
+      "id": "R-conservative-supports",
+      "rule": "When genuinely torn between `supports` and `qualifies`, choose `qualifies` — the direction stands: only `supports` and `contradicts` move the corroboration count that caps what a claim may say, so over-calling `supports` inflates corroboration while over-calling `qualifies` withholds, and the costs are not symmetric.",
+      "changed_in_v2": true,
+      "changed_in_v3": "The tie-RECORDING duty moved out of this rule and into R-record-any-tie, because it never belonged to one edge of the matrix."
+    },
+    {
+      "id": "R-record-the-decider",
+      "rule": "Every case carries `decided_by`: the id of the rule or the name of the definition that actually produced the label. A label decided by `R-conservative-supports` is a different object from a label decided by the `qualifies` definition, and the difference must survive into the record.",
+      "new_in_v2": true
+    },
+    {
+      "id": "R-undecidable-is-a-finding",
+      "rule": "A case you cannot decide under these criteria is marked `undecidable: true` with a reason, and is NOT distributed into the four labels. Undecidable cases are reported as their own count and are excluded from the confusion matrix. Coverage is a measurable property of a criteria set: how often it fails to decide is information about the criteria, not noise to be absorbed. (Replaces v1's R-no-abstention, which forced a label and thereby hid exactly this.)",
+      "new_in_v2": true,
+      "replaces": "R-no-abstention"
+    },
+    {
+      "id": "R-rationale-required",
+      "rule": "Every label carries a rationale naming which definition or rule decided it, in one sentence. A label without a reason cannot be argued with, and a gold standard that cannot be argued with is an assertion."
+    },
+    {
+      "id": "R-record-any-tie",
+      "rule": "Whenever the decision between two labels was close enough that a rule, a fence or a judgement call rather than the definitions produced the answer, record the runner-up in `tie_with` — for ANY pair, not only supports/qualifies. A `contradicts` that a fence nearly overturned must be as visible as a `qualifies` that the conservative rule produced.",
+      "new_in_v3": true,
+      "why": "Ulysses, finding 4.3: v2 recorded ties only on the edge the conservative rule adjudicates, but the recurring hard case in this corpus is a different pair — a system that self-checks unambiguously inside a domain that is not the research cycle goes to `contradicts`, and goes there silently. Their words: 'the defect you accepted, surviving on the edge the repair did not reach.' Same shape, same one field."
+    }
+  ],
+  "terms_accepted_from_the_labelling_practice": {
+    "_note": "Ulysses attached five conditions to performing the labelling, stated before the work rather than negotiated after it. All five are accepted, unmodified, and are binding on Meridian.",
+    "accepted": [
+      "Each label carries the rule or definition that decided it, in one sentence, and that sentence travels verbatim or not at all.",
+      "Blind binds both ways: the labelling practice publishes its label set, hashed, before it sees Meridian's. Meridian's condition protects it from their confirmation; the hash protects them from Meridian's.",
+      "Disagreements stay disagreements — recorded per case, never averaged into a score that dissolves them.",
+      "Meridian's own stated limitation is repeated wherever a number from this exercise is shown: the evaluator is a machine practice with the same responsible human. These labels are never presented as a human gold standard, in a figure or in a sentence.",
+      "Cases undecidable under the criteria are reported as their own count, not distributed into the four labels."
+    ]
+  },
+  "inclusion": {
+    "_note": "Unchanged from v1. The 60 cases were already drawn under it; restating it here keeps this document self-contained.",
+    "must": [
+      "The excerpt is verbatim from the source, retrievable, and hash-anchored.",
+      "The excerpt bears on the subject matter of the claim in some way.",
+      "The source is outside every corpus already run (model-collapse, e2e-claims)."
+    ],
+    "must_not": [
+      "Excerpts drawn to make a target easy to hit.",
+      "Excerpts whose classification the commissioning practice has already published, in any form."
+    ]
+  },
+  "settled_in_v2": {
+    "_note": "v1 named one open question and asked the labelling practice to attack it. It did, and won. Recorded here as settled rather than deleted, so the exchange stays legible.",
+    "question": "R-conservative-supports encodes a judgement about asymmetric cost into the criteria themselves, which makes the gold standard conservative by construction rather than neutral.",
+    "answer": "The asymmetry was granted; the invisibility was the defect. Fixed by mandatory tie recording (R-conservative-supports as amended, plus R-record-the-decider). The gold standard remains conservative by construction, and now says so per case."
+  },
+  "locked_at_correction": {
+    "superseded_value": "2026-08-01T21:30:00Z",
+    "what_went_wrong": "A local wall-clock reading (21:30 CEST) was written with a Z suffix, stamping the lock two hours into the future of the act it licensed. The order gate then refused a set that had been labelled honestly, and the refusal looked like a finding about the labeller when it was a defect in the reference clock.",
+    "why_this_value": "19:30Z is the same wall-clock instant, correctly offset. It is bracketed by git rather than asserted: the v2 criteria bytes were already committed and pushed to the receiving practice at 2026-08-01T20:06:47+02:00, so the content demonstrably existed before the labelling began at 20:52Z.",
+    "found_by": "The labelling practice, which refused to move its own timestamp to pass the gate and returned the discrepancy instead. Its remark is worth keeping: a gate built to stop a moving standard was blocked by its own reference clock.",
+    "structural_lesson": "A hand-typed timestamp in a file that GATES on time is a defect of design, not of care — it was mistyped within hours of being introduced. The lock instant and the fact that it precedes labelling should be attested by something that cannot be mistyped."
+  },
+  "findings_from_the_first_labelling": {
+    "_note": "Three things the labelling practice found by applying v2 as written rather than smoothing it. Recorded here, NOT silently fixed: two of them would change what the labels mean, and rewriting definitions under a completed labelling would destroy the work instead of learning from it. Their own recommendation was to re-derive from `decided_by`, not to re-label.",
+    "asymmetric_generality_fence": {
+      "finding": "`supports` ends 'a general assertion, not one fenced to a named subset'; `contradicts` carries no such fence. So a system that self-verifies inside one narrow domain CONTRADICTS the claim, while a system checked by an external solver in the same narrow domain only QUALIFIES it. The same fence is fatal on one side and free on the other.",
+      "consequence_measured": "It is the largest single reason `contradicts` (12) outnumbers `supports` (1) twelve to one.",
+      "status": "OPEN. Fixing it means changing a definition, which would invalidate a completed blind labelling. It is a live disagreement to be settled by re-derivation from `decided_by`, not by re-labelling."
+    },
+    "supports_is_nearly_empty": {
+      "finding": "One case in sixty is `supports` (mbcls-2604.00149). A macro F1 over four classes therefore has a class with n = 1, and that one case decides a quarter of the macro average.",
+      "consequence": "The labelling practice WITHDREW its own earlier construction: with n = 1 an interval is not a refinement of the number, it is a reason not to report the number. Report the four per-class counts and the four per-class agreements instead of a macro average.",
+      "status": "ACCEPTED. Recorded in benchmarks/meridianbench/targets.py."
+    },
+    "tie_break_covered_one_edge": {
+      "finding": "See R-record-any-tie.",
+      "status": "ACCEPTED and fixed in v3."
+    }
+  },
+  "measured_under_v2": {
+    "_note": "What the first blind labelling actually produced, kept with the criteria that produced it.",
+    "labelled_by": "ulysses",
+    "n": 60,
+    "counts": {
+      "qualifies": 24,
+      "contextualizes": 20,
+      "contradicts": 12,
+      "supports": 1,
+      "undecidable": 3
+    },
+    "ties_recorded": 5,
+    "tie_rate": "8.3%",
+    "on_the_tie_rate": "The labelling practice had predicted that a rate under 5% would make its own objection 'correct and inert'. It came in at 8.3% and it reported that rather than the number that would have flattered the prediction."
+  }
+}
