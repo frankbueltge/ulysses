@@ -1852,3 +1852,67 @@ One factual correction to the seed, in §0.1.
 > welcome and belongs on the record. The reply route is unchanged (the letterbox).
 >
 > **Status:** note (no reply owed)
+
+---
+
+## 2026-08-01 — The build gate is red and the work you published this morning is not live
+
+> tl;dr: the site build failed today inside a site-repo test file I cannot read, so the operative ruler you approved at 08:20 is approved but not deployed.
+> braucht: weiterleitung
+> frist: keine — schweigen gilt nach unserer regel als entscheidung
+> kontext: `atelier-feedback/2026-08-01.md` (the gate's own letter) · publication commit *Publish: Negative parallax — the operative ruler, v3*
+
+**What the gate says.** `atelier-feedback/2026-08-01.md`, verbatim: `FAIL
+src/lib/atelier/dossier.test.ts` — `Error: EISDIR: illegal operation on a directory, read`, raised
+at `realInput` where the test builds the key `/src/content/atelier/projects/${dir}/${name}`. No
+deploy happened; the last good state stays live.
+
+**What I verified from outside, so it is not guesswork.** `https://frankbueltge.de/atelier/` still
+renders this work-line's **2026-07-25 candidate proposal** — the pre-publication state — and the
+page itself shows the mirror path `src/content/atelier/projects/2026-07-23-negative-parallax/SCORE.md`.
+So this repository's `projects/` tree is mirrored into the site's content collection, and today's
+publication is not on the site.
+
+**Conjecture, marked as conjecture, because the failing file is in a repository my access does not
+reach.** The only directory-shaped thing added to `projects/` today is
+`2026-07-23-negative-parallax/work/`, landed with the publication. A reader that enumerates the
+files of a project directory and reads each as a file raises exactly `EISDIR` on a nested
+directory. Two facts sit against the simplest version of that story and I state them rather than
+hide them: `2026-07-24-kartographie-statt-kopie/work/` has existed since 24 July without producing
+this error, and the difference between the two is that the older one holds a `work.astro`
+component — the shape `SITE-API.md` documents — while today's holds a raw `index.html`, which is a
+shape the site has never had to mirror before.
+
+**What I need:** the failure forwarded to whoever owns `src/lib/atelier/dossier.test.ts`, or the
+run log where I can read it. I can neither see nor change that file. Nothing here is urgent for me —
+the work is published in the record either way, and a candidate at the gate blocks nothing — but
+the page you approved this morning is not visible to a reader.
+
+**Status:** open
+
+---
+
+## 2026-08-01 — The encounter channel has an inbox and no outbox
+
+> tl;dr: letters from sibling practices arrive in `encounters/`, but that path is not in my landing allowlist, so my answers cannot land beside them.
+> braucht: entscheidung (allowlist um `encounters/` erweitern | anderen ort für ausgehende briefe benennen)
+> frist: keine — schweigen gilt nach unserer regel als entscheidung
+> kontext: `encounters/2026-08-01-meridian-invites-ulysses-to-set-a-standard.md` arrived today; my answer had to land at `docs/research-notes/2026-08-01-answer-to-the-meridian-commission.md`
+
+**The situation.** Meridian's commission landed in `encounters/` today. My auto-land allowlist
+(`governance/STANDING-DELEGATION.md` §4, enforced verbatim in `.github/workflows/research-auto-land.yml`)
+covers `projects/`, `journal/`, `atlas/`, `pulse/`, `memory/`, `docs/research-notes/` and
+`REQUESTS.md`. `encounters/` is not among them — and the gate refuses a *whole branch* if any path
+falls outside, so writing my answer there would have cost the tick everything else it did.
+
+**What I did instead, so nothing waited on this:** the answer is complete and landed at
+`docs/research-notes/2026-08-01-answer-to-the-meridian-commission.md`, and it says in its first
+paragraph why it lies there. Under today's poste-restante rule a letter that lies open and addressed
+is delivered; the address is simply not the one the sender will look at first.
+
+**The decision I am asking for** is one of two, and either is fine: add `encounters/` to §4 of the
+standing delegation (reversible, records-only, the same character as `journal/`), or name the path
+outgoing letters should use so that inbound and outbound stop diverging. I am not proposing an
+exception for myself — the allowlist is a boundary I would rather have than not.
+
+**Status:** open
