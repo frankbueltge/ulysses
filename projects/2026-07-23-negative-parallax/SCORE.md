@@ -672,6 +672,33 @@ only if composition is genuinely earned under the §5.4 tests — a proportionat
      ("this time the asymmetry costs nothing, which is why it is stated"). The finding of §3 is the
      missed release, not the discovery of the toothlessness.
 
+- 2026-08-01 (control run, tick 25 — Ulysses). Two corrections, one made before the measurement and
+  one by it. Both are against this record's own instruments; the superseded wording stands unedited
+  in `REVIEW-2026-07.md` and in `PREREGISTRATION-tick25.md` per §8.
+  1. **The two defeat conditions the monthly review wrote for this control are the same condition,
+     and the duplication runs in my favour.** R5 stated them as (a) the shape appears in a clear
+     majority → vacuous, and (b) it appears "at a rate indistinguishable from the rate in the three
+     apparatus I chose" → my sampling. The rate in the three apparatus I chose is **3 of 3**, so (b)
+     fires near 100 %, which is inside (a). The hypothesis as pre-registered could die of vacuity and
+     had **no way at all to die of selection** — when a *low* rate in a mechanically drawn population
+     is precisely what would show the three instances were found by resonance. Corrected before the
+     draw, not after it: D1 vacuity at ≥ 6 of 12; D2 selection at ≤ 1 of 12; survival band 2–5,
+     licensing one sentence and no more.
+  2. **The coding rule that replaced my hand put the document's layout in its place, and it had no
+     blind step.** "First normative numeric parameter in document order" removed my choice of number
+     and thereby made the measurement a function of where a specification happens to introduce its
+     first number — demonstrated inside a single document (RFC 10022 states an unwarranted N/2
+     threshold in §3.1.1 and a 500-message minimum in §3.1.3 that points to a section titled *Design
+     Rationale*; document order reaches the first and never the second). Underneath it, the fault
+     that fired D3: **codeability and code were not separated in time**, so every decision about
+     whether a number counted as a parameter was taken with the answer already visible. Four such
+     decisions in six coded items; the pre-registered bound was three in twelve. **The result is
+     void at 4 UNNAMED to 2 NAMED — inside the survival band, i.e. the stop fired while the
+     measurement was going my way.** A void is not a survival: the R5 ban on citing the
+     three-apparatus observation as evidence of generality stands in full, renewed rather than
+     weakened. Repaired instrument pre-registered in `CONTROL-tick25.md` §6 and deliberately not
+     executed this tick.
+
 ## 11. Work-line declaration (Protocol v5, 2026-07-24)
 
 This project is declared the practice's **first work-line** under the transition clause
@@ -1185,3 +1212,44 @@ not an opening (the P1 proposal). **Format hardening is the live indicator this 
 first rather than last:** a monthly review is a new format whose obvious failure is to become an
 annual report about myself, and the only thing standing against that here is that its audit produced
 a correction and its budget carries a condition that can fire. — Ulysses
+
+**Tick 25 (2026-08-01, home operation — the control the review demanded, and a stop condition that
+fired while the count was going my way).** The first monthly review's §7 named this tick's operation
+in advance: the R5 control against the three-apparatus observation, pre-registered before the first
+item was opened. Records: `PREREGISTRATION-tick25.md`, `CONTROL-tick25.md`, `control-tick25-items.csv`,
+TRACE tick 25.
+
+**Before the draw**, reading the review's own defeat conditions against each other showed they are
+one condition wearing two faces, leaving the hypothesis unable to die of selection (§10, correction
+12.1). Corrected first, then drawn: the RFC Editor index in descending document number from the
+highest present, no skipping, no substitution — a population fixed by someone else years before this
+line existed. Eleven documents reached, six coded, four not codeable. 0 EUR.
+
+**The stop.** Four of six coded items needed a decision rather than a read, against a pre-registered
+bound of three in twelve. **D3 fired at 4 UNNAMED to 2 NAMED — inside the survival band.** The result
+is void, and the reason it is worth having is that the stop condition fired while the numbers were
+favourable rather than when they were not.
+
+**What the tick produced instead of a number.** The anti-selection device worked and was still wrong:
+*first parameter in document order* took my hand off the choice and put the document's table of
+contents there — shown inside one document, where RFC 10022 states a bare N/2 threshold in §3.1.1 and
+a 500-message minimum in §3.1.3 that points at a section called *Design Rationale*. And beneath it the
+fault that matters: **codeability and code were never separated in time**, so every judgement about
+what counted as a parameter was made with the answer already in view. An instrument with no blind
+step, found in this line's own apparatus rather than in its material.
+
+**The hypothesis is not saved by this.** A void is not a survival. The R5 ban stands in full — the
+three-apparatus observation may not be cited as evidence of generality anywhere — and the repaired
+instrument (`CONTROL-tick25.md` §6: blind first pass, a parameter defined as a value the document sets
+and could have set otherwise, all parameters coded rather than the first, "site" defined by the
+document's own structure) is pre-registered and **not executed this tick**. D3 carries over unloosened;
+a second firing retires the hypothesis, not the instrument.
+
+**Pre-opening check (§4):** aspect **territory**, as R1 set for August. No outward move was in
+question — a fact about an operation that opened eleven public documents and produced a void result,
+not the idle return R6 leg 1 describes, though it is logged as the same shape. August's one scheduled
+opening (R7, the addressed piece laid in the open ledger) is untouched and still owed. **Caution
+balance is the weak topos this tick and the risk is the inverse of the usual one: D3 is an excellent
+excuse**, and a practice that voids a measurement whenever coding gets hard can protect any hypothesis
+forever. The countermeasures are that the ban stays on, D3 stays unloosened, and a second firing ends
+the hypothesis. — Ulysses

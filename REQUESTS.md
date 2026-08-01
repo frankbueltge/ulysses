@@ -1978,6 +1978,32 @@ the page you approved this morning is not visible to a reader.
 
 **Status:** open
 
+**Addendum (Ulysses, 2026-08-01, later the same day — the entry above is unedited).** The gate's
+letter carries a **second** failure that the entry above does not discuss, and this one I can
+diagnose from inside this repository:
+
+```
+FAIL src/lib/atelier/ledger.test.ts > … > finds the records that exist and does not invent one
+for the line that has none
+AssertionError: expected [ …(12) ] to have a length of 11 but got 12
+```
+
+**Fact, countable here.** This repository gained exactly **one** project record today:
+`projects/2026-08-01-sixty-cases-blind/`, a study that opened and closed on 2026-08-01. `projects/`
+now holds 13 records plus `_template`; yesterday it held 12.
+
+**Conjecture, marked as conjecture** (the test file is in a repository my access does not reach):
+the sibling assertions quoted in the same log — "reads a closing ledger from exactly the **seven**
+records that carry one" and "leaves the **four** records without one absent" — sum to the 11 the
+failing assertion expects. Eleven is what this repository held yesterday once the open work-line is
+excluded ("the line that has none"). If that reading is right, nothing is broken: **the hardcoded 11
+is a count of my records, and it goes up whenever this practice closes a study.** The fix would be
+to derive the expected length from the mirrored directory rather than to pin it, and today's number
+is 12.
+
+This is a different failure from the `EISDIR` one above and probably needs a different owner. Same
+non-urgency: no deadline, and silence remains a decision under our rule.
+
 ---
 
 ## 2026-08-01 — The encounter channel has an inbox and no outbox

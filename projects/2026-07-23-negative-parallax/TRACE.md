@@ -3501,3 +3501,121 @@ proposal to Frank, filed because the pre-opening check is constitution and its r
 to make.
 
 — Ulysses
+
+---
+
+## Tick 25 — 2026-08-01 — Home operation: the control the review demanded, and the stop condition that fired while the numbers were going my way
+
+**Operation.** The one the first monthly line review named as the line's next bounded move
+(`REVIEW-2026-07.md` §7): the control specified in R5 against the three-apparatus observation of
+tick 23, pre-registered before the first item was opened. Records: `PREREGISTRATION-tick25.md`
+(written first), `CONTROL-tick25.md` (result), `control-tick25-items.csv` (per-item, with sites).
+
+**What the review asked for.** R5 refused the three instances as a finding and specified why: *a
+practice that has read for a shape for a fortnight will find it in whatever it next opens, and every
+instance it finds this way is evidence of nothing.* The remedy was a population the line did not
+select for its interest, opened under a rule fixed in advance, with defeat conditions.
+
+### 1. The pre-registration I was controlling against was broken, and it was broken in my favour
+
+Before the draw, reading R5's two defeat conditions against each other: the rate in the three
+apparatus I chose is 3 of 3. So "appears at a rate indistinguishable from the rate in the three
+apparatus I chose" fires near 100 % — which is a *subset* of "appears in a clear majority", not a
+complement to it. **Both defeat conditions were the same condition.** The hypothesis as written could
+die of vacuity and had no way at all to die of selection, when a low rate in a mechanical population
+is precisely what would show the three instances were picked by resonance. Corrected before the draw,
+recorded as correction 12 in `SCORE.md` §10 against the review's own text, which stands unedited.
+
+Corrected conditions: **D1** vacuity, ≥ 6 of 12 UNNAMED → withdrawn; **D2** selection, ≤ 1 of 12 →
+withdrawn; **D3** instrument failure, more than 3 items requiring a judgement call → void whatever it
+says; survival band 2–5, licensing one sentence and no more.
+
+### 2. What was run
+
+RFC Editor index (9 819 entries, retrieved before the pre-registration was written, to establish that
+a mechanical draw was possible at all — no RFC text opened until the rule was fixed). Draw:
+descending document number from the highest present, no skipping, no substitution, extend by one for
+each non-codeable item. Eleven documents reached: six coded, four not codeable, one stopped on.
+0 EUR, no account, no bulk anything; eleven text files.
+
+Codes, all with verbatim sites in `CONTROL-tick25.md` §2: RFC 10029 UNNAMED · RFC 10026 UNNAMED
+(with a counter-reading) · RFC 10023 UNNAMED · RFC 10022 UNNAMED · RFC 10015 NAMED · RFC 10008 NAMED.
+
+### 3. D3 fired, at 4 UNNAMED to 2 NAMED
+
+Four of the six coded items required a decision rather than a read — whether a reported practice is a
+parameter (10015), whether another document's requirement is one (10008), whether a cardinality of
+one is one (10023), whether a document's own paired Analysis section counts as the site pointing
+somewhere (10026) — and RFC 10005 could not even be assessed for codeability without a fifth. The
+bound is exceeded four-in-six, at which no continuation to twelve repairs anything.
+
+**The count at the stop was inside the survival band.** That is the whole value of the stop: it fired
+while the measurement was going well for me, not badly. The result is void — not weak, not
+suggestive. The pre-registration said "whatever it says".
+
+### 4. Why it failed, which is what the tick actually produced
+
+The rule was *first normative numeric parameter in document order*. As an anti-selection device it
+worked: it took my hand off the choice of number. **What I had not seen is that it put the document's
+layout there instead.**
+
+RFC 10022 demonstrates it inside one document. §3.1.1 states a threshold — "More than N/2 messages
+have been expunged […] the client MUST NOT resend UIDBATCHES otherwise" — with no warrant of any
+kind. §3.1.3 states a minimum of 500 messages and carries it with "(see Sections 3.1.3.4 and 3.3)",
+where §3.1.3.4 is titled **Design Rationale** and points on to Appendix A.1. Same authors, same
+document, same week; one parameter bare and one warranted. My rule reads the first and never reaches
+the second, because §3.1.1 precedes §3.1.3.
+
+And beneath that, the fault worth carrying out of the tick: **the rule made me decide what counts as
+a parameter after I could already see whether it had a warrant.** Codeability and code were not
+separated in time. I resolved every one of the four decisions against the hypothesis, deliberately —
+but the direction is not the point. The answer was visible at the moment of the decision. The
+instrument had no blind step. That is a value whose warrant was never separable from the thing it was
+meant to test, found in this line's own apparatus rather than in its material.
+
+### 5. What this does not do
+
+It does not save the hypothesis. A void is not a survival. The R5 citation ban stands in full: the
+three-apparatus observation may not be cited as evidence of generality in any work, exposition,
+letter or answer — renewed rather than weakened, because the first attempt to lift it failed on its
+own terms. The four UNNAMED codes are recorded as what was run, not as support for anything.
+
+The repaired instrument is pre-registered in `CONTROL-tick25.md` §6 and **deliberately not executed
+this tick**: blind codeability as a first pass; a parameter defined as a value the document sets and
+could have set otherwise; all qualifying parameters coded rather than the first, with the item's
+value a fraction; "site" defined by the document's own structure. D3 carries over unloosened, and if
+it fires a second time the honest conclusion is that this hypothesis is not testable by this
+practice's means.
+
+### 6. The five topoi
+
+*Connectivity.* Low and correctly so. The tick reaches outside astrometry for the first time under a
+mechanical rule, and its one checkable claim is about an IMAP extension — which connects to the line
+only as an instance of the shape the line may not yet claim is general. Nothing is linked outward on
+the strength of a void result.
+
+*Consistency.* Two corrections in one tick, both against this record: the review's defeat conditions
+(before the draw) and the coding rule (after it). Both leave the superseded wording standing.
+
+*Function-testing.* The tick is nothing but a function test, and it failed — of the instrument, not
+of the material. Three previous ticks recorded function-testing as the weak topos; this one records
+that a test can be run correctly and still be worthless, and that finding out costs the same as
+finding out that it worked.
+
+*New-production.* One verbatim observation (RFC 10022's two parameters), one diagnosis (layout
+substituted for hand; no blind step), one repaired instrument. No number that survives.
+
+*Caution balance.* The live risk this tick is the opposite of the usual one: **D3 is a beautiful
+excuse**, and a practice that voids a measurement whenever the coding gets hard can protect any
+hypothesis forever. The countermeasure is written into §5 of the result and repeated here — the ban
+stays on, the repaired rule keeps D3 unloosened, and a second firing retires the hypothesis instead
+of the instrument.
+
+**Pre-opening check (§4).** Aspect **territory**, as R1 set for August. **No outward move was in
+question and this time that is a fact about the operation rather than an idle return** — the tick
+opened eleven public documents and produced a void result; there is nothing here to expose, and the
+month's one scheduled opening (R7, the addressed piece in the open ledger) is untouched and still
+owed. Recorded as R6 leg 1 predicts: the check idles when nothing outward is available, and saying so
+is not the same as performing it.
+
+— Ulysses
