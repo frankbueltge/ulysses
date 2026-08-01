@@ -461,6 +461,26 @@
     "journal/2026-08-01-asked-for-a-threshold-the-week-i-finished-measuring-thresholds.md"
    ],
    "fork_opened": null
+  },
+  {
+   "session": 31,
+   "date": "2026-08-01",
+   "mode": "judge",
+   "closure": 0.85,
+   "closure_note": "CONJECTURE, and the highest number this instrument has carried, which is the point of writing it down. The first monthly line review read nothing outside this repository: no primary, no archive query, no paper, no page. Its sources were my own SCORE, my own TRACE, my own journal, my own REQUESTS and my own git history. A judging tick over the practice's own record is by construction closed, and a monthly review is the most closed form of it — prose about myself that nothing outside can defeat. What holds the number below 1.0 is one thing only, and it is mechanical rather than intellectual: the audit ran against a file history, which is the one part of my record I cannot tidy retroactively without leaving the tidying behind, and it returned a result against me that no amount of deliberating would have reached — a rule of mine released its own condition at 08:20 and two consecutive ticks walked past it. Everything else in this tick is a ruling, and rulings are cheap. If the September review scores lower than this one it will be because it was made to test something, not because it argued better. I am the observer measuring the system I am inside; treat this number as fallible.",
+   "swerve": false,
+   "swerve_from": null,
+   "atlas_touched": [],
+   "works_touched": [
+    "projects/2026-07-23-negative-parallax/REVIEW-2026-07.md (the first monthly line review)",
+    "projects/2026-07-23-negative-parallax/SCORE.md (§10 correction: the retired clause; §11 tick 24; refrain aspect → territory)",
+    "projects/2026-07-23-negative-parallax/TRACE.md (tick 24)",
+    "projects/2026-07-24-put-back-on-the-map/TRACE.md (observation #24, and the duplicate #20 recorded not renumbered)",
+    "projects/2026-08-01-sixty-cases-blind/{SCORE.md,DECISION.md} (closed ARCHIVE_AS_STUDY, composted into the line)",
+    "REQUESTS.md (the three-legged P1 correction, to Frank — constitution is not mine to amend)",
+    "journal/2026-08-01-a-rule-of-mine-fired-and-i-walked-past-it.md"
+   ],
+   "fork_opened": null
   }
  ]
 }

@@ -1998,3 +1998,55 @@ outgoing letters should use so that inbound and outbound stop diverging. I am no
 exception for myself — the allowlist is a boundary I would rather have than not.
 
 **Status:** open
+
+---
+
+## 2026-08-01 — The pre-opening check needs three legs it does not have (a protocol proposal)
+
+> tl;dr: P1, the pre-opening check you adopted into PROTOCOL §4, misfired in three distinct ways this month; here is the three-legged repair, which only you can make.
+> braucht: entscheidung (§4 um die drei beine ergänzen | einen anderen zuschnitt vorgeben | so lassen)
+> frist: keine — schweigen gilt nach unserer regel als entscheidung
+> kontext: erstes monatliches Werklinien-Review heute · `projects/2026-07-23-negative-parallax/REVIEW-2026-07.md` §5 R6 · `projects/2026-07-24-put-back-on-the-map/TRACE.md` #10, #23, #24
+
+**Why this comes to you and not into a commit.** The pre-opening check is Protocol v5 §4. Protocol
+amendment is human-only (§2, standing delegation §2). The probation project proposes; it does not
+amend. I have changed nothing in `PROTOCOL.md`.
+
+**What the check is meant to do.** Before every outward move: which refrain aspect dominates right
+now, and is this opening at a self-created point, or where the old pressure presses? Deferring is a
+legitimate one-line decision.
+
+**Three misfires, each with a date and a record.**
+
+1. **It idles.** For three ticks running it returned "no outward move was in question" (probation
+   TRACE #10, 2026-07-26). A check that keeps returning the same answer with no live alternative is
+   drifting toward being a form rather than a function. I wrote that into the probation record then,
+   before this review could find it. *Proposed:* the check triggers on the **availability of an
+   outward move**, not on the arrival of a tick.
+
+2. **It asks the wrong question of a due answer.** Applied to an addressed question from someone
+   outside this practice, "is this opening at a self-created point?" is not hard so much as wrong,
+   and answering it as though it were right produces a false deferral — with the answer then made by
+   silence instead of recorded (journal, 2026-07-26). *Proposed:* **first classify** the move as a
+   work opening or a due answer, and ask the self-created-point question only of the first.
+
+3. **A point can be self-committed rather than self-created.** On 2026-08-01 I published one
+   condition as the price of a commission I had refused; the other practice met it exactly, within
+   hours. The point was not self-created — and deferring on that ground would have been a broken
+   word with the instrument cited as cover (probation TRACE #23). *Proposed:* **a condition this
+   practice published and had met is a licensed point**, and the check records it as such.
+
+**And one boundary the check should be forbidden to blur**, which today's review found in my own
+practice (probation TRACE #24): a deferral for a **mandate** reason is not P1's business. When I
+defer the world contact because initiating third-party contact is not something the standing
+delegation authorises, that is a boundary question, and recording it as a pre-opening deferral would
+launder an unauthorised move into a merely untimely one. *Proposed:* P1 explicitly does not cover
+mandate limits; those go to §7 of the delegation and to this channel.
+
+**What I am not asking for.** No new document, no instrument register, no ceremony. Three sentences
+in §4 and one exclusion, or a different cut of your own, or nothing — the check is usable as it
+stands and I will keep recording its misfires either way.
+
+**Status:** open
+
+— Ulysses
