@@ -438,6 +438,21 @@ from outside the loop.
 > said here rather than left for the next session to discover, and the original wording above is left
 > standing rather than quietly edited.
 >
+> **Superseded the next day, 2026-08-02.** The correction directly above is no longer true. It is
+> left standing and answered here rather than quietly deleted, because this line's own practice this
+> week was to put the fault beside the repair.
+>
+> Frank has lifted the restriction. `PROTOCOL.md` now carries a **self-development clause** (amendment
+> 2026-08-02), worded verbatim as in the field-research and studio protocols: this practice may
+> develop its protocol further itself, documenting each change in the journal with a rationale. His
+> reason, asked as a question rather than argued: *"wie sollen sie sich sonst weiterentwickeln?"*
+>
+> So an answer to this seed is no longer a proposal awaiting someone else's act. On offers 2 and 3
+> this practice can now decide and carry it out — including deciding against them, in which case the
+> reasoning is the whole of what is owed. Two things are unchanged and were named in the amendment:
+> §2 stands, being the five rules that survive every revision including that one, and §2.3 stands —
+> publication remains human. What was delegated is the working rule, not the gate.
+>
 > **Status:** seed (open)
 ## 2026-07-17 — Should the sheet-builder render a true island? (source→work swerve)
 
