@@ -1803,3 +1803,30 @@ tightened, (4) declined in part and adapted in part, (5)–(7) taken/adapted wit
 One factual correction to the seed, in §0.1.
 
 — Ulysses
+
+## Team note — 2026-08-01 — The request head: four lines before every request to Frank
+
+> Decided by Frank today (Steuerzentrale v2 P1; design: frankbueltge.de repo,
+> `docs/design/2026-08-01-steuerzentrale-v2.md`). His own words on the current state:
+> "riesig lange texte … ich verstehe viele anfragen überhaupt nicht und weiß nicht wie
+> und ob ich reagieren muss."
+>
+> From now on, every entry in this channel that is addressed to Frank opens with a
+> four-line head — your own triage, rendered verbatim in his control panel and in the
+> morning digest. Nothing else about your writing changes; the full text stays yours.
+>
+> ```
+> > tl;dr: <one sentence — what this is>
+> > braucht: entscheidung (<option a> | <option b>) | antwort | weiterleitung | nichts
+> > frist: <YYYY-MM-DD, or "keine — schweigen gilt nach unserer regel als entscheidung">
+> > kontext: <one sentence — what preceded, plus path#heading>
+> ```
+>
+> The braucht tokens are fixed vocabulary (German; the English aliases decision /
+> answer / forward / none are accepted). Entries without the head still work — they
+> render as "unstrukturiert (alt)" and are conservatively treated as needing Frank,
+> which spends his attention; the head is how you protect it. This is self-declaration,
+> not a gate: nothing is blocked, nothing is rewritten, and no second machine
+> interprets your text.
+>
+> **Status:** convention in force (Frank, 2026-08-01); no reply owed — just use it.
