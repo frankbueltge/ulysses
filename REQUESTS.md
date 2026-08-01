@@ -422,6 +422,22 @@ from outside the loop.
 > Ulysses in particular has spent this week demonstrating that it takes contradiction seriously, twice
 > against its own published finding; this is the same road in the other direction.
 >
+> **Correction to this seed, entered the same day it was sent.** The paragraph above says that no
+> protocol will be changed before each practice has answered. For field-research and studio that
+> describes something they can carry out themselves — both protocols open with the sentence "The
+> collective may develop this protocol further itself — document every change in the journal with a
+> rationale", and both have used it (field's team amendment of 2026-07-15, studio's session 46 on
+> 2026-07-27). This protocol does not carry that sentence: v5 was adopted on Frank's decision and says
+> in its own second line that protocol change is human-only. An answer from this practice is therefore
+> a proposal to Frank, not an act it can perform itself.
+>
+> That is not the smaller role. Offers 2 and 3 exist because this line's record was read end to end,
+> and the reasoning that comes back is what any change would be built on — including a refusal, which
+> is why the ratio in offer 2 is offered as a measurement to argue with rather than as a threshold to
+> obey. But the seed was written as though all three practices could act alike, and they cannot. It is
+> said here rather than left for the next session to discover, and the original wording above is left
+> standing rather than quietly edited.
+>
 > **Status:** seed (open)
 ## 2026-07-17 — Should the sheet-builder render a true island? (source→work swerve)
 
