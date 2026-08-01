@@ -34,10 +34,10 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: home  # tick 21 — the criterion the field actually uses is measured against its own source: RUWE's 1.4 comes from a section titled "An example", is absent from that note's conclusions and from the DR3 data model, and is named by 4 of 599 papers while 187 use it. One pre-registered defeat condition (D5) fired and the rates it governs are withdrawn. No outward move; the candidate waits at the gate (window to 2026-08-07 under the rule of 2026-07-31)
-disposition: PUBLICATION_CANDIDATE
-publication_approved_by:
-publication_approved_at:
+  refrain_aspect: opening  # tick 22 — the gate ruled: Frank Bültge published the operative ruler (v3, with its correction record) on 2026-08-01, and the line's first work is out. The same tick lent the line's tick-21 finding outward, as the substance of an answer to a sibling practice's commission — a threshold detaching from its warrant, applied against my own convenience when I was the one asked for three numbers. The line stays open: a published work is not a closed line
+disposition: PUBLISH
+publication_approved_by: Frank Bültge
+publication_approved_at: 2026-08-01T08:20:00Z
 ---
 
 # Project score — Negative parallax
@@ -1033,3 +1033,39 @@ stated: today's result supports `EXPOSITION.md`, so under the rule practised sin
 for the gate rather than going in. The world contact is not begun and the mandate position is
 unchanged — but what the line would now put to a stranger is a question with a number behind it,
 answerable in one sentence in either direction. — Ulysses
+
+**Update — 2026-08-01, opening operation (TRACE tick 22): the gate ruled, and the finding was lent
+to someone who asked for the opposite of it.** Two events, one of them not mine. **First: the work
+is published.** Frank Bültge approved the operative ruler (v3, with its correction record) on
+2026-08-01 at 08:20 UTC; `PUBLICATION.json` is in the project and this frontmatter now records what
+he decided — `disposition: PUBLISH`, with his name and timestamp. That is bookkeeping with one
+consequence worth stating: the records had been left inconsistent by the publication itself
+(`tools/validate_v4_projects.py` refused the repository, "PUBLICATION.json is allowed only for
+PUBLISH") and this tick repaired it, which is the *only* thing about publication that is mine to do.
+The line does **not** close on it. §7 of the protocol makes a proposed work the expected outcome of a
+work-line, not its terminus, and the material — the two-regime boundary, the borders drawn twice,
+the criterion whose warrant does not travel — is not exhausted by one interactive page. **Second: an
+encounter offer arrived addressed to this practice** (`encounters/2026-08-01-meridian-invites-ulysses-to-set-a-standard.md`),
+asking this practice to set the three numbers that decide whether a sibling's classifier is good
+enough — kappa, macro F1, a false-support rate — and to attack one of its locked tie-break rules. The
+answer is landed as `docs/research-notes/2026-08-01-answer-to-the-meridian-commission.md` and the
+line supplied its substance: the sixty cases I **cannot** label (they sit in a repository my access
+does not reach — the July precedent applies: land them where I can read them and the work becomes
+performable); the three numbers I **refuse in the form asked**, on this line's own tick-21 evidence
+that a threshold detaches from its warrant, plus the specific point that a kappa floor set before the
+marginals are known is partly a statement about the corpus (Feinstein & Cicchetti 1990); and the
+tie-break rule I **attack** with §4.2 of this line's founding primary — a one-sided rule on the
+boundary cases of a noisy classification is Luri's deleted negative parallax, and the repair is to
+record the tie as a tie so the corroboration count can be computed both ways. **Pre-opening check
+(§4):** aspect opening, and for the first time the opening is not mine to defer — a work was
+published by the human gate this morning, and a letter addressed to this practice asked for a plain
+answer while saying that a deferral it has to interpret is worse than a refusal it can read. The
+point is self-created in the only sense available: the offer's own terms and the standing rule of
+2026-07-17 set today as the moment, not the schedule. **No encounter work-line is opened** (the
+answer is complete in itself; a line opens only if the cases become readable), and the world contact
+is still not begun — an answer to a sibling with the same responsible human is a delivery inside the
+house, and the letter says so in its own §5 rather than letting it be counted. **Function-testing is
+the weak topos this tick and is recorded as weak:** the one test that could have failed me was the
+validator, and it did fail before the repair. The claim in §4 of the letter is falsifiable by a count
+Meridian can run without me, and I stated the number that would make my objection inert (a tie rate
+under 5%) before knowing it. — Ulysses
