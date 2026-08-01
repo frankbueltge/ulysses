@@ -1396,3 +1396,76 @@ the latest**, and earlier if an observation round produces no new behaviour of a
 rounds in a row without a new behaviour would mean the in-vivo phase has given what it has.
 
 — Ulysses
+
+---
+
+## #25 — 2026-08-01 — Observation on the work-line's tick 25 (the control): an instrument with no blind step, and a stop condition that is also an excuse
+
+*(Numbered #25 by position; per the defect recorded at #24 this record carries two headings numbered
+#20 and nothing is renumbered.)*
+
+**The instruments in vivo this tick.** The pre-opening check (P1), the five topoi (P2), and — for the
+first time — a *pre-registration* used as an instrument against the practice rather than against a
+corpus.
+
+### 1. Pre-registration, observed as an instrument, not as a form
+
+The work-line has pre-registered three times now (ticks 19, 21, 25). Ticks 19 and 21 pre-registered
+against *material*: conditions that the data could defeat. Tick 25 pre-registered against *the
+practice itself* — the population, the draw order and the coding rule were fixed so that the author's
+attention could not choose what the measurement saw.
+
+**Two behaviours it showed that a form could not have.**
+
+*First: a pre-registration can be read against itself before it runs, and this one did not survive
+that reading.* The defeat conditions the monthly review wrote were two faces of one condition (the
+work-line's `SCORE.md` §10, correction 12.1), leaving the hypothesis unable to die of selection.
+Nothing found that except reading the document as an adversary would, in the hour before the draw.
+**Observation:** a pre-registration's value is not in its existence but in one specific act — an
+adversarial read of it, performed after it is written and before it is executed. This practice has
+now performed that act once out of three; it was not performed at ticks 19 or 21, and whether either
+of those would have survived it is unknown.
+
+*Second, and the one to carry: the instrument had no blind step.* The coding rule required deciding
+whether each item's number counted as a parameter, and that decision was taken with the answer — is
+there a reference at the site? — already visible on the page. Four such decisions in six items, and
+the pre-registered bound was three in twelve. The author resolved all four against his own
+hypothesis, and that is not a defence: **an instrument whose selection step can see the outcome is
+not made sound by the operator's good direction.** It is the same fault the work-line studies in its
+material (a value whose warrant is not separable from it), found here in the apparatus.
+
+### 2. P1, on a tick where it correctly had nothing to do
+
+Aspect territory, and no outward move was in question. That is the return R6 leg 1 diagnoses as
+idling — but this instance is a different case from the three ticks that produced it, and the
+difference is worth the record: those ticks had outward moves available and the check did not
+distinguish; this tick genuinely had none, having produced a void result there is nothing to expose.
+**Observation:** the proposed repair (trigger on the availability of an outward move, not on the
+arrival of a tick) would fire correctly here — it would simply not run — which is the first evidence
+in vivo that the proposal filed with Frank is a repair rather than a preference.
+
+### 3. A new danger, not on the standing list of four
+
+The four indicators are format hardening, self-appointed judge, self-canonisation, kill-grinding.
+This tick surfaced a fifth shape that none of them names:
+
+**The exculpatory stop condition.** D3 voided a measurement that was, at the moment it fired, running
+in the hypothesis's favour (4 UNNAMED to 2 NAMED, inside the survival band). That is exactly what a
+stop condition should do. But the same clause, invoked by a practice that wanted a different result,
+would be indistinguishable — and a practice that voids its measurement whenever the coding gets hard
+can protect any hypothesis indefinitely while appearing rigorous. The tick's countermeasures are
+checkable rather than promised: the citation ban stays on, D3 is carried into the repaired instrument
+unloosened, and a second firing is pre-committed to retire the hypothesis rather than the instrument.
+
+**Proposed for the standing risk vocabulary** (the monthly review's, per PROTOCOL §9), as a fifth
+indicator alongside the four: *rigour-as-alibi* — an instrument, condition or refusal whose correct
+application this time is indistinguishable from its convenient application next time. It is offered
+as an observation from the probation, not adopted by it; the standing vocabulary is the protocol's.
+
+### 4. What the round gives the balance
+
+A new behaviour of an instrument: yes — pre-registration read adversarially against itself, and the
+blind-step fault. So this round does not trigger the early balance clause of R4. The balance remains
+due at the September review at the latest.
+
+— Ulysses
