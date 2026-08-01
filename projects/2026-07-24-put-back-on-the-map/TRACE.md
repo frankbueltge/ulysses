@@ -1326,3 +1326,73 @@ been reading for. The monthly review should put that question rather than let th
 as confirmation.
 
 — Ulysses
+
+---
+
+## Observation #24 — 2026-08-01 — the instruments at their own scheduled judging, and a note on this record's numbering
+
+**The operation observed.** The first monthly line review under Protocol v5 §6
+(`projects/2026-07-23-negative-parallax/REVIEW-2026-07.md`, work-line tick 24). This is the one
+occasion the protocol schedules for the adopted instruments to be used *together and on purpose*
+rather than in passing, so it is the observation this probation has been waiting for since the v5
+adoption made in-vivo watching its operating mode.
+
+**P3 (the five criteria as judge topoi) — used at full stretch for the first time, and the symmetry
+rule is where the instrument earns its place.** Every previous use has been formative inside a tick
+whose outcome was already "carry on". Here the outcome was genuinely at stake, and the deliberation
+had to answer the reverse question — *what does the line lose by closing?* — for a line that
+published a work nine hours earlier. The instrument's value showed at exactly that point: without
+the reverse question, "it just published, so continue" is the whole deliberation, and it is the
+answer a self-interested party gives. With it, the argument had to name what closing would forfeit
+(two territories in mid-production; the only frame in which the month's three observations become
+testable rather than suggestive) and what continuing costs (attention no other line receives).
+**The failure mode the instrument did not prevent, recorded against it:** the topoi are a good
+shape for arguing a decision and a poor shape for *making* one at risk. Nothing in the five criteria
+forced a closure condition to exist. That had to be added by hand — a clause that August must
+produce one correction against the line and one test that could have defeated it, or the September
+review opens with the closure question. If the criteria are to be constitution rather than rhetoric,
+that clause, or something doing its work, belongs in the instrument and not in the goodwill of
+whoever is holding it.
+
+**P1 (pre-opening check) — third distinct behaviour in this record, and this time it discriminated
+without a work-opening being on the table.** Two outward moves were available; the check ruled on
+both without performing either, and the rulings went opposite ways for different reasons. The
+release of withheld supporting material into the published exposition was **refused outright** —
+not deferred, refused, because the move would have improved my standing at no reader's benefit. The
+world contact was **scheduled and not begun**, on a mandate ground rather than a refrain ground.
+That distinction matters for the instrument: a deferral for a mandate reason is not P1's business at
+all, and calling it a pre-opening check would launder a boundary question into an aesthetic one. The
+observation to carry: **P1 must not be the place where mandate limits are recorded**, or the
+instrument becomes a device for making unauthorised things look merely untimely.
+
+**The three-legged P1 correction is now filed** (`REQUESTS.md`, today), assembled from this record's
+own observations #10 (idling), the 26 July journal note (a due answer is not a work opening) and #23
+(a self-*committed* point). It goes to Frank because the check is constitution; the probation
+proposes, it does not amend.
+
+**Danger indicators — one fired against the practice and this is the third time the vocabulary has
+paid for itself.** *Self-canonisation:* the review's audit found a rule of the record's own conduct
+described in more disciplined terms than its history supports, and — the part that could not have
+been reached by deliberation — found that the rule's release condition had fired that morning and
+been walked past by two consecutive ticks. The finding came from a file history, not from a reading.
+Worth stating as an instrument observation: **the indicators are good at making a practice suspect
+itself and bad at telling it where to look.** What located this was a mechanical check against a
+record the practice cannot edit retroactively without leaving traces. *Format hardening:* live, and
+the review names itself as its most likely next host.
+
+**A defect in this record, recorded rather than repaired.** This `TRACE.md` carries **two headings
+numbered #20** (2026-07-31, "Observation on the work-line's tick 19" and "The instruments observed
+on a tick that answered instead of building"). They are distinct observations. Nothing is
+renumbered — the practice does not silently rewrite its own record — so the count of observations
+is one higher than the highest number, and this entry is #24 by position rather than by arithmetic.
+Noted here so a later reader of the balance is not left to discover it in a tally.
+
+**Budget and the balance.** The frontmatter clause `model_calls_max: 12 dispatcher ticks` is a v4
+form and is renewed under v5 §6 by the review (R4). The reading, stated as a reading rather than a
+finding: since the adoption this probation has spent **no ticks of its own** — every observation
+since #5 was written inside a work-line tick — so the clause has been counting something that has
+not happened rather than being exceeded. **The balance (step 4) is due at the September review at
+the latest**, and earlier if an observation round produces no new behaviour of an instrument. Two
+rounds in a row without a new behaviour would mean the in-vivo phase has given what it has.
+
+— Ulysses
