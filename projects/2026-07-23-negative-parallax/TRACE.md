@@ -3398,3 +3398,106 @@ would make the work the terminus of the line, which is precisely the shape §7 w
 prevent.
 
 — Ulysses
+
+---
+
+## Tick 24 — 2026-08-01 — Home operation: the first monthly line review, and a rule of mine that fired while I wasn't looking
+
+**The occasion, and why it is not the schedule.** The month turned. Protocol v5 §6 makes the
+monthly line review the practice's only scheduled judging, and none had been held — the line is nine
+days old and the protocol eight, so this is the first calendar occasion there has been. Three ticks
+had banked items *for the monthly review* by name and left them sitting: the pre-opening check's
+idling (26 July, probation #10), a two-legged correction to P1 that is constitution and not mine to
+make (26 July), and the three-apparatus observation of tick 23, banked with its own suspicion
+attached ("three instances in two days is either evidence that the object is general, or evidence
+that a practice finds what it has spent a fortnight reading for").
+
+The review is landed whole at `REVIEW-2026-07.md`. This entry records what it cost and what it
+found, not what it says.
+
+### 1. The audit, and why the review has one at all
+
+A review that only re-describes the month is the *format-hardening* indicator performing itself. So
+one rule of this record's own conduct was picked for audit before the deliberation was written, on
+the criterion that it could come out against me. It did.
+
+The rule, cited at ticks 18, 20 and 21 as a discipline this record practises: *material that leaves
+a document at the gate worse-informed goes in immediately; material that makes its author look
+better waits for the gate to rule.* The method was the file history of the document it governs —
+`git log -- projects/2026-07-23-negative-parallax/EXPOSITION.md`, five commits, each one readable
+against the tick that made it.
+
+**What I expected to find** and did: clause 2 has never once been applied to material the document
+was *wrong* about. Every deposit made was a correction; clause 2 bites only on pure support. That is
+a weak finding — tick 21 had already said it of its own case ("this time the asymmetry costs
+nothing, which is why it is stated").
+
+**What I did not expect.** The rule says favourable material *waits for the gate to rule*. **The
+gate ruled at 08:20 UTC this morning.** Ticks 22 and 23 both ran after that, both of them recording
+that the gate had ruled, and neither went back to the material clause 2 had parked — tick 18's
+threshold-sensitivity result, tick 21's RUWE result. A rule I wrote fired its own release condition
+and I walked past it twice in one day. It took a `git log`, not a reading.
+
+### 2. The ruling, which is not the discharge
+
+The parked material is **not** deposited and clause 2 is retired instead. The reasoning, because it
+matters more than the outcome: between the parking and the release the document changed status from
+candidate to published work. The three deposits that were made were all things without which a
+reader would have been misinformed. Support is not of that kind. Depositing it into an approved work
+improves my standing at no reader's benefit — which is the exact move the asymmetry was written to
+restrain, arriving through the door the asymmetry itself left open.
+
+So the rule from today: material without which a reader would be misinformed goes in immediately,
+whichever way it runs; **material that merely supports never enters the work or the candidate at
+all**, before the gate or after it, and lives in this record where it can be checked and is not
+doing rhetorical work on anyone. Recorded in SCORE §10 (2026-08-01); the earlier wording stands
+unedited there and here.
+
+`EXPOSITION.md` is untouched by this tick. That is worth stating plainly: on the day the human gate
+approved it, the session that found a reason it could be strengthened did not strengthen it.
+
+### 3. What the review refused
+
+The tick-23 observation — the same shape in three apparatus in two days — is **refused as a
+finding**. Not deferred, not softened: ruled un-answerable by deliberation, on the ground that a
+practice which has read for a shape for a fortnight will find it in whatever it next opens, and
+every instance found that way is evidence of nothing. It is bound as a hypothesis that may not be
+cited as evidence of generality in any work, letter or answer until a control runs, and the control
+is specified with two defeat conditions that between them can retire it either way (REVIEW §5, R5).
+That control is the line's next bounded operation.
+
+### 4. Five topoi
+
+*Connectivity.* The review's own connective act is small and real: it links the line's rules to the
+line's file history, which is the one place the practice's claims about its own conduct can be
+checked rather than believed.
+
+*Consistency.* Ten correction entries in nine days, each naming what it supersedes; one duplicated
+observation number in the probation record recorded rather than renumbered. This tick adds an
+eleventh correction and leaves the superseded wording standing.
+
+*Function-testing.* The tick's one test could have found nothing and found something against me.
+Recorded honestly all the same: an audit of my own file history is cheap, and it is not a test of
+the line's material. Three ticks in a row (16, 20, 22) recorded function-testing as weak; the
+pattern the review names is that this line's *home* operations are tested and its *opening*
+operations are not.
+
+*New-production.* Almost none, and it should be said rather than dressed: a review produces rulings,
+not material. What is new is a closure condition that can fire (August with no correction and no
+defeated test → the September review opens with the closure question) and a rule that now costs
+something.
+
+*Caution balance.* The live indicator is format hardening and this document is a candidate for it.
+**Reverse question (symmetry rule), asked of the line:** what does it lose by closing now? Two
+territories in mid-production, the only frame in which the month's three observations can be tested
+rather than suggested, and all of it one day after the gate ruled — the moment at which closing
+would look most like a result and be least like one. The cost of continuing is attention no other
+line is getting. It is the smaller cost.
+
+**Pre-opening check (§4).** Aspect home. Two outward moves were available and both were ruled on
+instead of performed: the release into the published exposition, refused; the world contact,
+scheduled and not begun. The one outward move made is a due answer, not an opening — the P1
+proposal to Frank, filed because the pre-opening check is constitution and its revision is not mine
+to make.
+
+— Ulysses
