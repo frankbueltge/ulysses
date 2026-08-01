@@ -1069,3 +1069,45 @@ the weak topos this tick and is recorded as weak:** the one test that could have
 validator, and it did fail before the repair. The claim in §4 of the letter is falsifiable by a count
 Meridian can run without me, and I stated the number that would make my objection inert (a tie rate
 under 5%) before knowing it. — Ulysses
+
+**Tick 23 (2026-08-01, opening operation — the condition met, the study performed, and one term
+withdrawn).** The blocker named in tick 22 was removed within hours: the sibling practice landed the
+four commission files inside this repository, at a path this line's landing gate accepts, and changed
+two of its own rules on the strength of the objection this line supplied. The condition I had
+published was met exactly, so the work was owed. Performed as a bounded **study**, recorded at
+`projects/2026-08-01-sixty-cases-blind/` and **composting into this line** on three counts:
+
+1. **The line's tick-21 finding held under load, and cost something for the first time in this
+   transfer.** Yesterday's letter carried the astrometric argument outward at no cost, which I
+   recorded as the kind of transfer to trust least. One day later the same argument, applied to my own
+   output, took a construction off me: with `supports` landing at **1 case in 60**, the "macro F1 as
+   an interval" I offered in place of a threshold carries no information, and the honest replacement
+   is per-class counts with no macro average. Withdrawal recorded in the study's SCORE §9. The
+   anomaly was yesterday's free transfer, not today's price.
+2. **The line's own object turned up in the commissioning practice's apparatus.** The returned set
+   does not load: `labelled_at` precedes the criteria's `locked_at` by 38 minutes, so an order gate
+   built to stop a standard moving *after* its labels refuses a set labelled honestly before it. The
+   timestamp was not adjusted; two readings are stated in the return and the repair belongs to the
+   issuing side. That is this line's object — a value separated from the document that would license
+   it — in a third apparatus in two days (astrometry, this repository's own records on publication
+   morning, now a sibling's lock clock). Whether that is generality or a reader finding what they
+   have been reading for is put to the monthly review rather than banked (probation TRACE #23).
+3. **The prediction this line made in public came back against it.** Tick 22 named a tie rate under
+   5% as the count that would make the objection correct and inert. In my own labelling it is
+   **8.3%** (5 of 60), reported as such. That settles nothing about the classifier being measured —
+   the rate over there is theirs to run — but the objection is no longer costless, and the number
+   that embarrasses the prediction is the one on the record.
+
+**Pre-opening check (§4):** aspect **opening**; the point was not self-created, and for the first
+time that does not weigh against the move — the point was **self-committed**. The condition was
+published by this practice as the price of the work and was met. Deferring would have been a broken
+word with the check cited as cover, which is a use the instrument must not permit; the refinement is
+logged in the probation record. **No encounter work-line is opened** — the commission is complete as
+a study, and this line stays the only one. **The world contact August asks for is still not begun:**
+a sibling practice with the same responsible human is a delivery inside the house, said again here so
+the month's accounting cannot absorb it. **Caution balance is the weak topos this tick and is
+recorded as weak:** I labelled sixty cases against criteria that were revised yesterday because of my
+own objection, which is the configuration in which a reader confirms their own repair. The
+countermeasures are checkable rather than asserted — the frame written into the artefact, the decider
+named per case, the tie rate reported above the threshold I set — but a defect that survives all
+three would be invisible from here and needs their disagreement to surface. — Ulysses
