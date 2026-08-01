@@ -1,0 +1,2128 @@
+{
+  "schema_version": "gold-classification-candidate-pool.v1",
+  "_note": "The FULL candidate pool the MB-CLS case set was drawn from, committed so the draw is auditable. Discovery: 14 fixed arXiv searches over automated research and the checking of its outputs; an abstract had to mention checking AND automation/agency and be at least 400 characters; anything already cited in a run corpus (model-collapse, e2e-claims) was excluded. 353 survived. The pool is discovery, NOT evidence — the authoritative excerpts are fetched separately by scripts/fetch_source_content.py and hash-anchored.",
+  "drawn_on": "2026-08-01",
+  "draw_rule": "sorted by sha256('mb-cls-v1' + arxiv_id), first 60 taken. Reproducible from this file; no judgement, no selection for an expected label.",
+  "pool_size": 353,
+  "drawn": 60,
+  "candidates": [
+    {
+      "arxiv": "1303.5714",
+      "title": "A Bayesian Method for Constructing Bayesian Belief Networks from Databases",
+      "published": "2013-03-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "1612.04933",
+      "title": "Dynamical Kinds and their Discovery",
+      "published": "2016-12-15",
+      "drawn": false
+    },
+    {
+      "arxiv": "2004.09677",
+      "title": "Approximate exploitability: Learning a best response in large games",
+      "published": "2020-04-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2010.11930",
+      "title": "Scientific Claim Verification with VERT5ERINI",
+      "published": "2020-10-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2110.15116",
+      "title": "Abstract, Rationale, Stance: A Joint Model for Scientific Claim Verification",
+      "published": "2021-09-13",
+      "drawn": false
+    },
+    {
+      "arxiv": "2202.02646",
+      "title": "RerrFact: Reduced Evidence Retrieval Representations for Scientific Claim Verification",
+      "published": "2022-02-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2205.08794",
+      "title": "LogiGAN: Learning Logical Reasoning via Adversarial Pre-training",
+      "published": "2022-05-18",
+      "drawn": true
+    },
+    {
+      "arxiv": "2210.08604",
+      "title": "NormSAGE: Multi-Lingual Multi-Cultural Norm Discovery from Conversations On-the-Fly",
+      "published": "2022-10-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2303.17651",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+      "published": "2023-03-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2304.12208",
+      "title": "Can ChatGPT be used to generate scientific hypotheses?",
+      "published": "2023-03-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2308.04119",
+      "title": "Constructing Custom Thermodynamics Using Deep Learning",
+      "published": "2023-08-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2309.06687",
+      "title": "Self-Refined Large Language Model as Automated Reward Function Designer for Deep Reinforcement Learning in Robotics",
+      "published": "2023-09-13",
+      "drawn": false
+    },
+    {
+      "arxiv": "2309.13308",
+      "title": "Calibrating LLM-Based Evaluator",
+      "published": "2023-09-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2310.12963",
+      "title": "AutoMix: Automatically Mixing Language Models",
+      "published": "2023-10-19",
+      "drawn": false
+    },
+    {
+      "arxiv": "2311.05965",
+      "title": "Large Language Models are Zero Shot Hypothesis Proposers",
+      "published": "2023-11-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2311.06633",
+      "title": "The Pros and Cons of Using Machine Learning and Interpretable Machine Learning Methods in psychiatry detection applications, specifically depression disorder: A Brief Review",
+      "published": "2023-11-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2311.07582",
+      "title": "Evaluating the Potential of Leading Large Language Models in Reasoning Biology Questions",
+      "published": "2023-11-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2402.00559",
+      "title": "A Chain-of-Thought Is as Strong as Its Weakest Link: A Benchmark for Verifiers of Reasoning Chains",
+      "published": "2024-02-01",
+      "drawn": true
+    },
+    {
+      "arxiv": "2402.04247",
+      "title": "Risks of AI Scientists: Prioritizing Safeguarding Over Autonomy",
+      "published": "2024-02-06",
+      "drawn": false
+    },
+    {
+      "arxiv": "2402.11436",
+      "title": "Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement",
+      "published": "2024-02-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2402.12391",
+      "title": "Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data",
+      "published": "2024-02-15",
+      "drawn": false
+    },
+    {
+      "arxiv": "2403.00827",
+      "title": "Self-Refinement of Language Models from External Proxy Metrics Feedback",
+      "published": "2024-02-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2403.10795",
+      "title": "Can Large Language Models Solve Robot Routing?",
+      "published": "2024-03-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2403.11886",
+      "title": "QueryAgent: A Reliable and Efficient Reasoning Framework with Environmental Feedback-based Self-Correction",
+      "published": "2024-03-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2404.10500",
+      "title": "When Emotional Stimuli meet Prompt Designing: An Auto-Prompt Graphical Paradigm",
+      "published": "2024-04-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2404.17140",
+      "title": "Small Language Models Need Strong Verifiers to Self-Correct Reasoning",
+      "published": "2024-04-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2405.12641",
+      "title": "Fight Fire with Fire: How Much Can We Trust ChatGPT on Source Code-Related Tasks?",
+      "published": "2024-05-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2405.13352",
+      "title": "\"Turing Tests\" For An AI Scientist",
+      "published": "2024-05-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2405.16205",
+      "title": "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases",
+      "published": "2024-05-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2406.06769",
+      "title": "DISCOVERYWORLD: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents",
+      "published": "2024-06-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2406.12692",
+      "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
+      "published": "2024-06-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2406.17873",
+      "title": "Improving Arithmetic Reasoning Ability of Large Language Models through Relation Tuples, Verification and Dynamic Feedback",
+      "published": "2024-06-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2406.18859",
+      "title": "Two-Pronged Human Evaluation of ChatGPT Self-Correction in Radiology Report Simplification",
+      "published": "2024-06-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2407.00466",
+      "title": "BioKGBench: A Knowledge Graph Checking Benchmark of AI Agent for Biomedical Science",
+      "published": "2024-06-29",
+      "drawn": true
+    },
+    {
+      "arxiv": "2407.05600",
+      "title": "GenArtist: Multimodal LLM as an Agent for Unified Image Generation and Editing",
+      "published": "2024-07-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2407.08940",
+      "title": "Large Language Models as Biomedical Hypothesis Generators: A Comprehensive Evaluation",
+      "published": "2024-07-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2407.18367",
+      "title": "Robust Claim Verification Through Fact Detection",
+      "published": "2024-07-25",
+      "drawn": true
+    },
+    {
+      "arxiv": "2408.06292",
+      "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+      "published": "2024-08-12",
+      "drawn": true
+    },
+    {
+      "arxiv": "2408.08781",
+      "title": "Evaluating the Evaluator: Measuring LLMs' Adherence to Task Evaluation Instructions",
+      "published": "2024-08-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2408.14033",
+      "title": "MLR-Copilot: Autonomous Machine Learning Research based on Large Language Models Agents",
+      "published": "2024-08-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2409.04109",
+      "title": "Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers",
+      "published": "2024-09-06",
+      "drawn": true
+    },
+    {
+      "arxiv": "2409.05258",
+      "title": "Towards Automated Machine Learning Research",
+      "published": "2024-09-09",
+      "drawn": true
+    },
+    {
+      "arxiv": "2409.07123",
+      "title": "Cross-Refine: Improving Natural Language Explanation Generation by Learning in Tandem",
+      "published": "2024-09-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2409.11363",
+      "title": "CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark",
+      "published": "2024-09-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2410.01440",
+      "title": "Closed-Loop Long-Horizon Robotic Planning via Equilibrium Sequence Modeling",
+      "published": "2024-10-02",
+      "drawn": true
+    },
+    {
+      "arxiv": "2410.02736",
+      "title": "Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge",
+      "published": "2024-10-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2410.05080",
+      "title": "ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery",
+      "published": "2024-10-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2410.09403",
+      "title": "Many Heads Are Better Than One: Improved Scientific Idea Generation by A LLM-Based Multi-Agent System",
+      "published": "2024-10-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2410.13191",
+      "title": "MCQG-SRefine: Multiple Choice Question Generation and Evaluation with Iterative Self-Critique, Correction, and Comparison Feedback",
+      "published": "2024-10-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2410.13716",
+      "title": "MIRAGE-Bench: Automatic Multilingual Benchmark Arena for Retrieval-Augmented Generation Systems",
+      "published": "2024-10-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2411.06590",
+      "title": "CriticAL: Critic Automation with Language Models",
+      "published": "2024-11-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2411.11910",
+      "title": "AIGS: Generating Science from AI-Powered Automated Falsification",
+      "published": "2024-11-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2412.09385",
+      "title": "AI Predicts AGI: Leveraging AGI Forecasting and Peer Review to Explore LLMs' Complex Reasoning Capabilities",
+      "published": "2024-12-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2412.11427",
+      "title": "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges",
+      "published": "2024-12-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2412.11499",
+      "title": "Embodied CoT Distillation From LLM To Off-the-shelf Agents",
+      "published": "2024-12-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2412.20127",
+      "title": "M-MAD: Multidimensional Multi-Agent Debate for Advanced Machine Translation Evaluation",
+      "published": "2024-12-28",
+      "drawn": false
+    },
+    {
+      "arxiv": "2501.16961",
+      "title": "Instantiation-based Formalization of Logical Reasoning Tasks using Language Models and Logical Solvers",
+      "published": "2025-01-28",
+      "drawn": true
+    },
+    {
+      "arxiv": "2502.06193",
+      "title": "Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering",
+      "published": "2025-02-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2502.12510",
+      "title": "Aspect-Guided Multi-Level Perturbation Analysis of Large Language Models in Automated Peer Review",
+      "published": "2025-02-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2502.12565",
+      "title": "Self Iterative Label Refinement via Robust Unlabeled Learning",
+      "published": "2025-02-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2502.16487",
+      "title": "All That Glitters is Not Novel: Plagiarism in AI Generated Research",
+      "published": "2025-02-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2502.18864",
+      "title": "Accelerating scientific discovery with Co-Scientist",
+      "published": "2025-02-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2502.19295",
+      "title": "Complex LLM Planning via Automated Heuristics Discovery",
+      "published": "2025-02-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2502.19613",
+      "title": "Self-rewarding correction for mathematical reasoning",
+      "published": "2025-02-26",
+      "drawn": true
+    },
+    {
+      "arxiv": "2503.00596",
+      "title": "BadJudge: Backdoor Vulnerabilities of LLM-as-a-Judge",
+      "published": "2025-03-01",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.02246",
+      "title": "From Code to Courtroom: LLMs as the New Software Judges",
+      "published": "2025-03-04",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.04381",
+      "title": "TRACT: Regression-Aware Fine-tuning Meets Chain-of-Thought Reasoning for LLM-as-a-Judge",
+      "published": "2025-03-06",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.08600",
+      "title": "NSF-SciFy: Mining the NSF Awards Database for Scientific Claims",
+      "published": "2025-03-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.08979",
+      "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+      "published": "2025-03-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.17039",
+      "title": "Summarization Metrics for Spanish and Basque: Do Automatic Scores and LLM-Judges Correlate with Humans?",
+      "published": "2025-03-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.19309",
+      "title": "Iterative Hypothesis Generation for Scientific Discovery with Monte Carlo Nash Equilibrium Self-Refining Trees",
+      "published": "2025-03-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.22444",
+      "title": "Scaling Laws in Scientific Discovery with AI and Robot Scientists",
+      "published": "2025-03-28",
+      "drawn": true
+    },
+    {
+      "arxiv": "2503.23170",
+      "title": "AstroAgents: A Multi-Agent AI for Hypothesis Generation from Mass Spectrometry Data",
+      "published": "2025-03-29",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.23616",
+      "title": "Interpretable Machine Learning in Physics: A Review",
+      "published": "2025-03-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2503.24047",
+      "title": "Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents",
+      "published": "2025-03-31",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.00406",
+      "title": "VerifiAgent: a Unified Verification Agent in Language Model Reasoning",
+      "published": "2025-04-01",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.01911",
+      "title": "Advancing AI-Scientist Understanding: Multi-Agent LLMs with Interpretable Physics Reasoning",
+      "published": "2025-04-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.02822",
+      "title": "Do Two AI Scientists Agree?",
+      "published": "2025-04-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.03424",
+      "title": "The AI Cosmologist I: An Agentic System for Automated Data Analysis",
+      "published": "2025-04-04",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.05496",
+      "title": "A Survey on Hypothesis Generation for Scientific Discovery in the Era of Large Language Models",
+      "published": "2025-04-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.08066",
+      "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "published": "2025-04-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.09702",
+      "title": "MLRC-Bench: Can Language Agents Solve Machine Learning Research Challenges?",
+      "published": "2025-04-13",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.11524",
+      "title": "HypoBench: Towards Systematic and Principled Benchmarking for Hypothesis Generation",
+      "published": "2025-04-15",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.12976",
+      "title": "Sparks of Science: Hypothesis Generation Using Structured Paper Data",
+      "published": "2025-04-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.16323",
+      "title": "Media Content Atlas: A Pipeline to Explore and Investigate Multidimensional Media Space using Multimodal LLMs",
+      "published": "2025-04-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.16728",
+      "title": "IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery",
+      "published": "2025-04-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.18736",
+      "title": "EvidenceBench: A Benchmark for Extracting Evidence from Biomedical Papers",
+      "published": "2025-04-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.19678",
+      "title": "From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review",
+      "published": "2025-04-28",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.20054",
+      "title": "Marmot: Object-Level Self-Correction via Multi-Agent Reasoning",
+      "published": "2025-04-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2504.21625",
+      "title": "Meeseeks: A Feedback-Driven, Iterative Self-Correction Benchmark evaluating LLMs' Instruction Following Capability",
+      "published": "2025-04-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.03049",
+      "title": "34 Examples of LLM Applications in Materials Science and Chemistry: Towards Automation, Assistants, Agents, and Accelerated Scientific Discovery",
+      "published": "2025-05-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.08341",
+      "title": "Benchmarking AI scientists for omics data driven biological discovery",
+      "published": "2025-05-13",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.11855",
+      "title": "When AI Co-Scientists Fail: SPOT-a Benchmark for Automated Verification of Scientific Research",
+      "published": "2025-05-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.12501",
+      "title": "ALAS: A Stateful Multi-LLM Agent Framework for Disruption-Aware Planning",
+      "published": "2025-05-18",
+      "drawn": true
+    },
+    {
+      "arxiv": "2505.13400",
+      "title": "Robin: A multi-agent system for automating scientific discovery",
+      "published": "2025-05-19",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.15047",
+      "title": "PiFlow: Principle-Aware Scientific Discovery with Multi-Agent Collaboration",
+      "published": "2025-05-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.15410",
+      "title": "ClickSight: Interpreting Student Clickstreams to Reveal Insights on Learning Strategies via LLMs",
+      "published": "2025-05-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.16982",
+      "title": "Beyond Correlation: Towards Causal Large Language Model Agents in Biomedicine",
+      "published": "2025-05-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.17873",
+      "title": "MOOSE-Chem3: Toward Experiment-Guided Hypothesis Ranking via Simulated Experimental Feedback",
+      "published": "2025-05-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.18705",
+      "title": "AI-Researcher: Autonomous Scientific Innovation",
+      "published": "2025-05-24",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.19897",
+      "title": "ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows",
+      "published": "2025-05-26",
+      "drawn": true
+    },
+    {
+      "arxiv": "2505.19955",
+      "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+      "published": "2025-05-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.21034",
+      "title": "LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms",
+      "published": "2025-05-27",
+      "drawn": true
+    },
+    {
+      "arxiv": "2505.21935",
+      "title": "From Reasoning to Learning: A Survey on Hypothesis Discovery and Rule Learning with Large Language Models",
+      "published": "2025-05-28",
+      "drawn": true
+    },
+    {
+      "arxiv": "2505.23559",
+      "title": "SafeScientist: Toward Risk-Aware Scientific Discoveries by LLM Agents",
+      "published": "2025-05-29",
+      "drawn": false
+    },
+    {
+      "arxiv": "2505.24230",
+      "title": "ProofNet++: A Neuro-Symbolic System for Formal Proof Verification with Self-Correction",
+      "published": "2025-05-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.00249",
+      "title": "MIR: Methodology Inspiration Retrieval for Scientific Research Problems",
+      "published": "2025-05-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.01663",
+      "title": "Zoom-Refine: Boosting High-Resolution Multimodal Understanding via Localized Zoom and Self-Refinement",
+      "published": "2025-06-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.02918",
+      "title": "World Modelling Improves Language Model Agents",
+      "published": "2025-06-03",
+      "drawn": true
+    },
+    {
+      "arxiv": "2506.06923",
+      "title": "Boosting LLM Reasoning via Spontaneous Self-Correction",
+      "published": "2025-06-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.08968",
+      "title": "ADAM: Autonomous Discovery and Annotation Model using LLMs for Context-Aware Annotations",
+      "published": "2025-06-10",
+      "drawn": true
+    },
+    {
+      "arxiv": "2506.09443",
+      "title": "LLMs Cannot Reliably Judge (Yet?): A Comprehensive Assessment on the Robustness of LLM-as-a-Judge",
+      "published": "2025-06-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.10406",
+      "title": "PAG: Multi-Turn Reinforced LLM Self-Correction with Policy as Generative Verifier",
+      "published": "2025-06-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.11113",
+      "title": "Breaking the Reviewer: Assessing the Vulnerability of Large Language Models in Automated Peer Review Under Textual Adversarial Attacks",
+      "published": "2025-06-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.11237",
+      "title": "LLM-as-a-Judge for Reference-less Automatic Code Validation and Refinement for Natural Language to Bash in IT Automation",
+      "published": "2025-06-12",
+      "drawn": true
+    },
+    {
+      "arxiv": "2506.11442",
+      "title": "ReVeal: Self-Evolving Code Agents via Reliable Self-Verification",
+      "published": "2025-06-13",
+      "drawn": true
+    },
+    {
+      "arxiv": "2506.12385",
+      "title": "Recent Advances and Future Directions in Literature-Based Discovery",
+      "published": "2025-06-14",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.13983",
+      "title": "SANGAM: SystemVerilog Assertion Generation via Monte Carlo Tree Self-Refine",
+      "published": "2025-06-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.18096",
+      "title": "Deep Research Agents: A Systematic Examination And Roadmap",
+      "published": "2025-06-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.18348",
+      "title": "Dynamic Knowledge Exchange and Dual-diversity Review: Concisely Unleashing the Potential of a Multi-Agent Research Team",
+      "published": "2025-06-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2506.22419",
+      "title": "The Automated LLM Speedrunning Benchmark: Reproducing NanoGPT Improvements",
+      "published": "2025-06-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.02554",
+      "title": "AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench",
+      "published": "2025-07-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.03093",
+      "title": "From stellar light to astrophysical insight: automating variable star research with machine learning",
+      "published": "2025-07-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.05495",
+      "title": "Deep Research Comparator: A Platform For Fine-grained Human Annotations of Deep Research Agents",
+      "published": "2025-07-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.06774",
+      "title": "Checklist Engineering Empowers Multilingual LLM Judges",
+      "published": "2025-07-09",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.08038",
+      "title": "AblationBench: Evaluating Automated Planning of Ablations in Empirical AI Research",
+      "published": "2025-07-09",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.08870",
+      "title": "GUIDE: Towards Scalable Advising for Research Ideas",
+      "published": "2025-07-09",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.10590",
+      "title": "Repairing Language Model Pipelines by Meta Self-Refining Competing Constraints at Runtime",
+      "published": "2025-07-11",
+      "drawn": true
+    },
+    {
+      "arxiv": "2507.16248",
+      "title": "FinResearchBench: A Logic Tree based Agent-as-a-Judge Evaluation Framework for Financial Research Agents",
+      "published": "2025-07-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.17209",
+      "title": "HypoChainer: A Collaborative System Combining LLMs and Knowledge Graphs for Hypothesis-Driven Scientific Discovery",
+      "published": "2025-07-23",
+      "drawn": true
+    },
+    {
+      "arxiv": "2507.21028",
+      "title": "Multi-Agent-as-Judge: Aligning LLM-Agent-Based Automated Evaluation with Multi-Dimensional Human Evaluation",
+      "published": "2025-07-28",
+      "drawn": false
+    },
+    {
+      "arxiv": "2507.23276",
+      "title": "How Far Are AI Scientists from Changing the World?",
+      "published": "2025-07-31",
+      "drawn": false
+    },
+    {
+      "arxiv": "2508.01746",
+      "title": "Bayes-Entropy Collaborative Driven Agents for Research Hypotheses Generation and Optimization",
+      "published": "2025-08-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2508.03963",
+      "title": "Can Large Language Models Adequately Perform Symbolic Reasoning Over Time Series?",
+      "published": "2025-08-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2508.06600",
+      "title": "BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent",
+      "published": "2025-08-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2508.11860",
+      "title": "LARC: Towards Human-level Constrained Retrosynthesis Planning through an Agentic Framework",
+      "published": "2025-08-16",
+      "drawn": true
+    },
+    {
+      "arxiv": "2508.14111",
+      "title": "From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery",
+      "published": "2025-08-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2508.14146",
+      "title": "MMReview: A Multidisciplinary and Multimodal Benchmark for LLM-Based Peer Review Automation",
+      "published": "2025-08-19",
+      "drawn": false
+    },
+    {
+      "arxiv": "2508.15126",
+      "title": "aiXiv: A Next-Generation Open Access Ecosystem for Scientific Discovery Generated by AI Scientists",
+      "published": "2025-08-20",
+      "drawn": true
+    },
+    {
+      "arxiv": "2508.15804",
+      "title": "ReportBench: Evaluating Deep Research Agents via Academic Survey Tasks",
+      "published": "2025-08-14",
+      "drawn": false
+    },
+    {
+      "arxiv": "2508.17692",
+      "title": "LLM-based Agentic Reasoning Frameworks: A Survey from Methods to Scenarios",
+      "published": "2025-08-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2509.03036",
+      "title": "Knowledge Integration for Physics-informed Symbolic Regression Using Pre-trained Large Language Models",
+      "published": "2025-09-03",
+      "drawn": true
+    },
+    {
+      "arxiv": "2509.08713",
+      "title": "The More You Automate, the Less You See: Hidden Pitfalls of AI Scientist Systems",
+      "published": "2025-09-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2509.13310",
+      "title": "Scaling Agents via Continual Pre-training",
+      "published": "2025-09-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2509.19349",
+      "title": "ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution",
+      "published": "2025-09-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2509.21117",
+      "title": "TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them",
+      "published": "2025-09-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2509.21549",
+      "title": "Correct Reasoning Paths Visit Shared Decision Pivots",
+      "published": "2025-09-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2509.23426",
+      "title": "Democratizing AI scientists using ToolUniverse",
+      "published": "2025-09-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2509.26603",
+      "title": "DeepScientist: Advancing Frontier-Pushing Scientific Findings Progressively",
+      "published": "2025-09-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.00620",
+      "title": "HARPA: A Testability-Driven, Literature-Grounded Framework for Research Ideation",
+      "published": "2025-10-01",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.01293",
+      "title": "Cyber Academia-Chemical Engineering (CA-ChemE): A Living Digital Town for Self-Directed Research Evolution and Emergent Scientific Discovery",
+      "published": "2025-10-01",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.01553",
+      "title": "IoDResearch: Deep Research on Private Heterogeneous Data via the Internet of Data",
+      "published": "2025-10-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.02190",
+      "title": "Dr. Bench: A Multidimensional Evaluation for Deep Research Agents, from Answers to Reports",
+      "published": "2025-10-02",
+      "drawn": true
+    },
+    {
+      "arxiv": "2510.05016",
+      "title": "Large Language Models Achieve Gold Medal Performance at the International Olympiad on Astronomy & Astrophysics (IOAA)",
+      "published": "2025-10-06",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.08619",
+      "title": "Hypothesis Hunting with Evolving Networks of Autonomous Scientific Agents",
+      "published": "2025-10-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.09901",
+      "title": "Autonomous Agents for Scientific Discovery: Orchestrating Scientists, Language, Code, and Physics",
+      "published": "2025-10-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.10472",
+      "title": "FML-bench: Benchmarking Machine Learning Agents for Scientific Research",
+      "published": "2025-10-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.10487",
+      "title": "Towards Self-Refinement of Vision-Language Models with Triangular Consistency",
+      "published": "2025-10-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.11661",
+      "title": "SR-Scientist: Scientific Equation Discovery With Agentic AI",
+      "published": "2025-10-13",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.12194",
+      "title": "ResearStudio: A Human-Intervenable Framework for Building Controllable Deep-Research Agents",
+      "published": "2025-10-14",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.13804",
+      "title": "Generative Universal Verifier as Multimodal Meta-Reasoner",
+      "published": "2025-10-15",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.15280",
+      "title": "Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition",
+      "published": "2025-10-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.17853",
+      "title": "CiteGuard: Faithful Citation Attribution for LLMs via Retrieval-Augmented Validation",
+      "published": "2025-10-15",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.18104",
+      "title": "From AutoRecSys to AutoRecLab: A Call to Build, Evaluate, and Govern Autonomous Recommender-Systems Research Labs",
+      "published": "2025-10-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.18560",
+      "title": "WebDevJudge: Evaluating (M)LLMs as Critiques for Web Development Quality",
+      "published": "2025-10-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.19949",
+      "title": "Surfer 2: The Next Generation of Cross-Platform Computer Use Agents",
+      "published": "2025-10-22",
+      "drawn": true
+    },
+    {
+      "arxiv": "2510.23045",
+      "title": "A Survey of AI Scientists",
+      "published": "2025-10-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.24367",
+      "title": "LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead",
+      "published": "2025-10-28",
+      "drawn": false
+    },
+    {
+      "arxiv": "2510.24891",
+      "title": "Idea2Plan: Exploring AI-Powered Research Planning",
+      "published": "2025-10-28",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.00054",
+      "title": "SpatialTraceGen: High-Fidelity Traces for Efficient VLM Spatial Reasoning Distillation",
+      "published": "2025-10-28",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.02246",
+      "title": "Demo: Statistically Significant Results On Biases and Errors of LLMs Do Not Guarantee Generalizable Results",
+      "published": "2025-11-04",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.03739",
+      "title": "TextualVerifier: Verify TextGrad Step-by-Step",
+      "published": "2025-10-29",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.04583",
+      "title": "Jr. AI Scientist and Its Risk Report: Autonomous Scientific Exploration from a Baseline Paper",
+      "published": "2025-11-06",
+      "drawn": true
+    },
+    {
+      "arxiv": "2511.05498",
+      "title": "Biomedical Hypothesis Explainability with Graph-Based Context Retrieval",
+      "published": "2025-09-15",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.05524",
+      "title": "Evidence-Bound Autonomous Research (EviBound): A Governance Framework for Eliminating False Claims",
+      "published": "2025-10-28",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.06065",
+      "title": "ScRPO: From Errors to Insights",
+      "published": "2025-11-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.08522",
+      "title": "AlphaResearch: Accelerating New Algorithm Discovery with Language Models",
+      "published": "2025-11-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.08866",
+      "title": "BioVerge: A Comprehensive Benchmark and Study of Self-Evaluating Agents for Biomedical Hypothesis Generation",
+      "published": "2025-11-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.09325",
+      "title": "Not Everything That Counts Can Be Counted: A Case for Safe Qualitative AI",
+      "published": "2025-11-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.10673",
+      "title": "Large language models in materials science and the need for open-source approaches",
+      "published": "2025-11-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.13825",
+      "title": "When AI Does Science: Evaluating the Autonomous AI Scientist KOSMOS in Radiation Biology",
+      "published": "2025-11-17",
+      "drawn": true
+    },
+    {
+      "arxiv": "2511.15593",
+      "title": "What Does It Take to Be a Good AI Research Agent? Studying the Role of Ideation Diversity",
+      "published": "2025-11-19",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.16931",
+      "title": "OmniScientist: Toward a Co-evolving Ecosystem of Human and AI Scientists",
+      "published": "2025-11-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.16997",
+      "title": "MirrorMind: Empowering OmniScientist with the Expert Perspectives and Collective Knowledge of Human Scientists",
+      "published": "2025-11-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.20233",
+      "title": "REFLEX: Self-Refining Explainable Fact-Checking via Verdict-Anchored Style Control",
+      "published": "2025-11-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.21444",
+      "title": "EWE: An Agentic Framework for Extreme Weather Analysis",
+      "published": "2025-11-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.22570",
+      "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
+      "published": "2025-11-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2511.23436",
+      "title": "Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent",
+      "published": "2025-11-28",
+      "drawn": true
+    },
+    {
+      "arxiv": "2512.01089",
+      "title": "CodeDistiller: Automatically Generating Code Libraries for Scientific Coding Agents",
+      "published": "2025-11-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2512.02389",
+      "title": "Synthetic Error Injection Fails to Elicit Self-Correction In Language Models",
+      "published": "2025-12-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2512.03887",
+      "title": "A Hierarchical Tree-based approach for creating Configurable and Static Deep Research Agent (Static-DRA)",
+      "published": "2025-12-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2512.11509",
+      "title": "Does Less Hallucination Mean Less Creativity? An Empirical Investigation in LLMs",
+      "published": "2025-12-12",
+      "drawn": true
+    },
+    {
+      "arxiv": "2512.18292",
+      "title": "Measuring Fine-Grained Negotiation Tactics of Humans and LLMs in Diplomacy",
+      "published": "2025-12-20",
+      "drawn": true
+    },
+    {
+      "arxiv": "2512.19458",
+      "title": "VASP Agent: An Agentic Framework for Autonomous First-principles Calculations",
+      "published": "2025-12-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2512.19753",
+      "title": "QMBench: A Research Level Benchmark for Quantum Materials Research",
+      "published": "2025-12-19",
+      "drawn": false
+    },
+    {
+      "arxiv": "2512.21430",
+      "title": "EVE: A Generator-Verifier System for Generative Policies",
+      "published": "2025-12-24",
+      "drawn": false
+    },
+    {
+      "arxiv": "2512.21782",
+      "title": "Accelerating Scientific Discovery with Autonomous Goal-evolving Agents",
+      "published": "2025-12-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2512.22145",
+      "title": "Pre-review to Peer review: Pitfalls of Automating Reviews using Large Language Models",
+      "published": "2025-12-14",
+      "drawn": true
+    },
+    {
+      "arxiv": "2601.00828",
+      "title": "Decomposing LLM Self-Correction: The Accuracy-Correction Paradox and Error Depth Hypothesis",
+      "published": "2025-12-24",
+      "drawn": true
+    },
+    {
+      "arxiv": "2601.03315",
+      "title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+      "published": "2026-01-06",
+      "drawn": true
+    },
+    {
+      "arxiv": "2601.04853",
+      "title": "RAAR: Retrieval Augmented Agentic Reasoning for Cross-Domain Misinformation Detection",
+      "published": "2026-01-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.04879",
+      "title": "Mind2Report: A Cognitive Deep Research Agent for Expert-Level Commercial Report Synthesis",
+      "published": "2026-01-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.05111",
+      "title": "Agent-as-a-Judge",
+      "published": "2026-01-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.06676",
+      "title": "One Interaction Is Worth a Thousand Guesses: Benchmarking the Interactive Capabilities of Deep Research Agents",
+      "published": "2026-01-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.12346",
+      "title": "MMDeepResearch-Bench: A Benchmark for Multimodal Deep Research Agents",
+      "published": "2026-01-18",
+      "drawn": true
+    },
+    {
+      "arxiv": "2601.13217",
+      "title": "Beyond Single-shot Writing: Deep Research Agents are Unreliable at Multi-turn Report Revision",
+      "published": "2026-01-19",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.13299",
+      "title": "Enginuity: Building an Open Multi-Domain Dataset of Complex Engineering Diagrams",
+      "published": "2026-01-19",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.17942",
+      "title": "LLM-Based SQL Generation: Prompting, Self-Refinement, and Adaptive Weighted Majority Voting",
+      "published": "2026-01-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.18207",
+      "title": "PaperSearchQA: Learning to Search and Reason over Scientific Papers with RLVR",
+      "published": "2026-01-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.18467",
+      "title": "OffSeeker: Online Reinforcement Learning Is Not All You Need for Deep Research Agents",
+      "published": "2026-01-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2601.22984",
+      "title": "Why Your Deep Research Agent Fails? On Hallucination Evaluation in Full Research Trajectory",
+      "published": "2026-01-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.00185",
+      "title": "QUASAR: A Universal Autonomous System for Atomistic Simulation and a Benchmark of Its Capabilities",
+      "published": "2026-01-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.00521",
+      "title": "Diagnosing the Reliability of LLM-as-a-Judge via Item Response Theory",
+      "published": "2026-01-31",
+      "drawn": true
+    },
+    {
+      "arxiv": "2602.00733",
+      "title": "EchoReview: Learning Peer Review from the Echoes of Scientific Citations",
+      "published": "2026-01-31",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.01590",
+      "title": "Wiki Live Challenge: Challenging Deep Research Agents with Expert-Level Wikipedia Articles",
+      "published": "2026-02-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.01815",
+      "title": "INDIBATOR: Diverse and Fact-Grounded Individuality for Multi-Agent Debate in Molecular Discovery",
+      "published": "2026-02-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.02905",
+      "title": "FIRE-Bench: Evaluating AI Agents on the Rediscovery of Scientific Insights",
+      "published": "2026-02-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.03849",
+      "title": "HybridQuestion: Human-AI Collaboration for Identifying High-Impact Research Questions",
+      "published": "2025-12-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.04288",
+      "title": "Contextual Drag: How Errors in the Context Affect LLM Reasoning",
+      "published": "2026-02-04",
+      "drawn": true
+    },
+    {
+      "arxiv": "2602.04290",
+      "title": "Guided Verifier: Collaborative Multimodal Reasoning via Dynamic Process Supervision",
+      "published": "2026-02-04",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.05975",
+      "title": "SAGE: Benchmarking and Improving Retrieval for Deep Research Agents",
+      "published": "2026-02-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.06034",
+      "title": "V-Retrver: Evidence-Driven Agentic Reasoning for Universal Multimodal Retrieval",
+      "published": "2026-02-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.06923",
+      "title": "From Kepler to Newton: Inductive Biases Guide Learned World Models in Transformers",
+      "published": "2026-02-06",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.09443",
+      "title": "P1-VL: Bridging Visual Perception and Scientific Reasoning in Physics Olympiads",
+      "published": "2026-02-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.09801",
+      "title": "Tiny Moves: Game-based Hypothesis Refinement",
+      "published": "2026-02-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.11238",
+      "title": "SurveyLens: A Discipline-Aware Benchmark for Automatic Survey Generation",
+      "published": "2026-02-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.12639",
+      "title": "CLASE: A Hybrid Method for Chinese Legalese Stylistic Evaluation",
+      "published": "2026-02-13",
+      "drawn": true
+    },
+    {
+      "arxiv": "2602.13692",
+      "title": "ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System",
+      "published": "2026-02-14",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.15730",
+      "title": "Causal Effect Estimation with Latent Textual Treatments",
+      "published": "2026-02-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.18920",
+      "title": "DeepInnovator: Triggering the Innovative Capabilities of LLMs",
+      "published": "2026-02-21",
+      "drawn": true
+    },
+    {
+      "arxiv": "2602.18940",
+      "title": "DREAM: Deep Research Evaluation with Agentic Metrics",
+      "published": "2026-02-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.19516",
+      "title": "Pixel2Phys: Distilling Governing Laws from Visual Dynamics",
+      "published": "2026-02-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.20117",
+      "title": "ReSyn: Autonomously Scaling Synthetic Environments for Reasoning Models",
+      "published": "2026-02-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.21201",
+      "title": "Aletheia tackles FirstProof autonomously",
+      "published": "2026-02-24",
+      "drawn": false
+    },
+    {
+      "arxiv": "2602.21230",
+      "title": "TRACE: Trajectory-Aware Comprehensive Evaluation for Deep Research Agents",
+      "published": "2026-02-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.01421",
+      "title": "SciDER: Scientific Data-centric End-to-end Researcher",
+      "published": "2026-03-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.07444",
+      "title": "HLER: Human-in-the-Loop Economic Research via Multi-Agent Pipelines for Empirical Discovery",
+      "published": "2026-03-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.08127",
+      "title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+      "published": "2026-03-09",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.11515",
+      "title": "Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems",
+      "published": "2026-03-12",
+      "drawn": true
+    },
+    {
+      "arxiv": "2603.12226",
+      "title": "Sparking Scientific Creativity via LLM-Driven Interdisciplinary Inspiration",
+      "published": "2026-03-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.15726",
+      "title": "MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification",
+      "published": "2026-03-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.16664",
+      "title": "Kestrel: Grounding Self-Refinement for LVLM Hallucination Mitigation",
+      "published": "2026-03-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.18516",
+      "title": "Total Recall QA: A Verifiable Evaluation Suite for Deep Research Agents",
+      "published": "2026-03-19",
+      "drawn": true
+    },
+    {
+      "arxiv": "2603.19782",
+      "title": "Embodied Science: Closing the Discovery Loop with Agentic Embodied AI",
+      "published": "2026-03-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.20101",
+      "title": "Pitfalls in Evaluating Interpretability Agents",
+      "published": "2026-03-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.20132",
+      "title": "Revisiting Gene Ontology Knowledge Discovery with Hierarchical Feature Selection and Virtual Study Group of AI Agents",
+      "published": "2026-03-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.20262",
+      "title": "Deciphering Scientific Reasoning Steps from Outcome Data for Molecule Optimization",
+      "published": "2026-03-13",
+      "drawn": true
+    },
+    {
+      "arxiv": "2603.22363",
+      "title": "Early Discoveries of Algorithmist I: Promise of Provable Algorithm Synthesis at Scale",
+      "published": "2026-03-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.25342",
+      "title": "From Intent to Evidence: A Categorical Approach for Structural Evaluation of Deep Research Agents",
+      "published": "2026-03-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.26499",
+      "title": "AIRA_2: Overcoming Bottlenecks in AI Research Agents",
+      "published": "2026-03-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.28407",
+      "title": "MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome",
+      "published": "2026-03-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.28589",
+      "title": "Towards a Medical AI Scientist",
+      "published": "2026-03-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2603.29403",
+      "title": "Security in LLM-as-a-Judge: A Comprehensive SoK",
+      "published": "2026-03-31",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.00149",
+      "title": "Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations",
+      "published": "2026-03-31",
+      "drawn": true
+    },
+    {
+      "arxiv": "2604.00248",
+      "title": "REM-CTX: Automated Peer Review via Reinforcement Learning with Auxiliary Context",
+      "published": "2026-03-31",
+      "drawn": true
+    },
+    {
+      "arxiv": "2604.00790",
+      "title": "RefineRL: Advancing Competitive Programming with Self-Refinement Reinforcement Learning",
+      "published": "2026-04-01",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.01161",
+      "title": "Reasoning Shift: How Context Silently Shortens LLM Reasoning",
+      "published": "2026-04-01",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.02346",
+      "title": "DrugPlayGround: Benchmarking Large Language Models and Embeddings for Drug Discovery",
+      "published": "2026-02-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.03553",
+      "title": "Chronos: The AI Co-Historian",
+      "published": "2026-04-04",
+      "drawn": true
+    },
+    {
+      "arxiv": "2604.04131",
+      "title": "Profile-Then-Reason: Bounded Semantic Complexity for Tool-Augmented Language Agents",
+      "published": "2026-04-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.05550",
+      "title": "AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery",
+      "published": "2026-04-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.05557",
+      "title": "EpiBench: Benchmarking Multi-turn Research Workflows for Multimodal Agents",
+      "published": "2026-04-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.05939",
+      "title": "Context-Value-Action Architecture for Value-Driven Large Language Model Agents",
+      "published": "2026-04-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.05952",
+      "title": "Towards Trustworthy Report Generation: A Deep Research Agent with Progressive Confidence Estimation and Calibration",
+      "published": "2026-04-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.09251",
+      "title": "DRBENCHER: Can Your Agent Identify the Entity, Retrieve Its Properties and Do the Math?",
+      "published": "2026-04-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.09584",
+      "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+      "published": "2026-02-26",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.09590",
+      "title": "DeepReviewer 2.0: A Traceable Agentic System for Auditable Scientific Peer Review",
+      "published": "2026-03-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.09621",
+      "title": "Competing with AI Scientists: Agent-Driven Approach to Astrophysics Research",
+      "published": "2026-03-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.09793",
+      "title": "GIANTS: Generative Insight Anticipation from Scientific Literature",
+      "published": "2026-04-10",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.10228",
+      "title": "SVSR: A Self-Verification and Self-Rectification Paradigm for Multimodal Reasoning",
+      "published": "2026-04-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.13699",
+      "title": "MIND: AI Co-Scientist for Material Research",
+      "published": "2026-04-15",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.14683",
+      "title": "DR$^{3}$-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+      "published": "2026-04-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.17406",
+      "title": "EvoMaster: A Foundational Evolving Agent Framework for Agentic Science at Scale",
+      "published": "2026-04-19",
+      "drawn": true
+    },
+    {
+      "arxiv": "2604.17745",
+      "title": "HiRAS: A Hierarchical Multi-Agent Framework for Paper-to-Code Generation and Execution",
+      "published": "2026-04-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.18240",
+      "title": "AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation",
+      "published": "2026-04-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.18418",
+      "title": "MedProbeBench: Systematic Benchmarking at Deep Evidence Integration for Expert-level Medical Guideline",
+      "published": "2026-04-20",
+      "drawn": true
+    },
+    {
+      "arxiv": "2604.19502",
+      "title": "Beyond Rating: A Comprehensive Evaluation and Benchmark for AI Reviews",
+      "published": "2026-04-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.20441",
+      "title": "MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills",
+      "published": "2026-04-22",
+      "drawn": true
+    },
+    {
+      "arxiv": "2604.24618",
+      "title": "Evaluating whether AI models would sabotage AI safety research",
+      "published": "2026-04-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2604.28158",
+      "title": "Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists",
+      "published": "2026-04-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.00116",
+      "title": "ViLegalNLI: Natural Language Inference for Vietnamese Legal Texts",
+      "published": "2026-04-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.00927",
+      "title": "BioVeil MATRIX: Uncovering and categorizing vulnerabilities of agentic biological AI scientists",
+      "published": "2026-04-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.02092",
+      "title": "NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science",
+      "published": "2026-05-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.06177",
+      "title": "BioMedArena: An Open-source Toolkit for Building and Evaluating Biomedical Deep Research Agents",
+      "published": "2026-05-07",
+      "drawn": true
+    },
+    {
+      "arxiv": "2605.06607",
+      "title": "AI CFD Scientist: Toward Open-Ended Computational Fluid Dynamics Discovery with Physics-Aware AI Agents",
+      "published": "2026-05-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.06660",
+      "title": "Verifier-Backed Hard Problem Generation for Mathematical Reasoning",
+      "published": "2026-05-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.08956",
+      "title": "Agentic AI Scientists Are Not Built For Autonomous Scientific Discovery",
+      "published": "2026-05-09",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.10820",
+      "title": "MaD Physics: Evaluating information seeking under constraints in physical environments",
+      "published": "2026-05-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.12620",
+      "title": "Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents",
+      "published": "2026-05-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.13596",
+      "title": "Creativity Bias: How Machine Evaluation Struggles with Creativity in Literary Translations",
+      "published": "2026-05-13",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.15011",
+      "title": "The Scientific Contribution Graph: Automated Literature-based Technological Roadmapping at Scale",
+      "published": "2026-05-14",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.16616",
+      "title": "MLReplicate: Benchmarking Autonomous Research Systems for Machine Learning Reproducibility",
+      "published": "2026-05-15",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.17046",
+      "title": "1GC-7RC: One Graphic Card -- Seven Research Challenges! How Good Are AI Agents at Doing Your Job?",
+      "published": "2026-05-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.18752",
+      "title": "Traditional statistical representations outperform generative AI in identifying expert peer reviewers",
+      "published": "2026-05-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.18854",
+      "title": "Evaluating Memory Condensation Strategies for Coding Agents in Data-Driven Scientific Discovery",
+      "published": "2026-05-13",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.19196",
+      "title": "Time to REFLECT: Can We Trust LLM Judges for Evidence-based Research Agents?",
+      "published": "2026-05-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.20025",
+      "title": "AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+      "published": "2026-05-19",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.21481",
+      "title": "AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists",
+      "published": "2026-05-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.21491",
+      "title": "Teaching Language Models to Forecast Research Success Through Comparative Idea Evaluation",
+      "published": "2026-04-06",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.23273",
+      "title": "Self-Refining Topology Optimization via an LLM-Based Multi-Agent Framework",
+      "published": "2026-05-22",
+      "drawn": true
+    },
+    {
+      "arxiv": "2605.24245",
+      "title": "Deep-Research Agents Can Be Poisoned via User-Generated Content",
+      "published": "2026-05-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.25273",
+      "title": "LLM-as-a-Judge in Healthcare: A Scoping Analysis of Applications, Methods, and Human Alignment",
+      "published": "2026-05-24",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.26340",
+      "title": "ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence",
+      "published": "2026-05-25",
+      "drawn": false
+    },
+    {
+      "arxiv": "2605.26730",
+      "title": "PRISM: A Multi-Dimensional Benchmark for Evaluating LLM Peer Reviewers",
+      "published": "2026-05-26",
+      "drawn": true
+    },
+    {
+      "arxiv": "2605.28561",
+      "title": "Soft-SVeRL: Self-Verified Reinforcement Learning with Soft Rewards",
+      "published": "2026-05-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.00644",
+      "title": "ForeSci: Evaluating LLM Agents for Forward-Looking AI Research Judgment",
+      "published": "2026-05-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.00660",
+      "title": "FineVerify: Scaling Test-Time Compute with Fine-Grained Self-Verification for Agentic Search",
+      "published": "2026-05-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.02060",
+      "title": "Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories",
+      "published": "2026-06-01",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.02320",
+      "title": "TVIR: Building Deep Research Agents Towards Text-Visual Interleaved Report Generation",
+      "published": "2026-06-01",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.04220",
+      "title": "Dead Science Walking: Publication Bias and the AI Scientist Pipeline",
+      "published": "2026-06-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.04228",
+      "title": "When Does Structure Help? The Information Bonus of AlphaFold2 Representations over Protein Language Models",
+      "published": "2026-06-02",
+      "drawn": true
+    },
+    {
+      "arxiv": "2606.04507",
+      "title": "Self-Evolving Deep Research via Joint Generation and Evaluation",
+      "published": "2026-06-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.05241",
+      "title": "Search-Time Contamination in Deep Research Agents: Measuring Performance Inflation in Public Benchmark Evaluation",
+      "published": "2026-06-03",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.07462",
+      "title": "Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle",
+      "published": "2026-06-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.07591",
+      "title": "ResearchClawBench: A Benchmark for End-to-End Autonomous Scientific Research",
+      "published": "2026-05-28",
+      "drawn": true
+    },
+    {
+      "arxiv": "2606.07697",
+      "title": "TianJi-Environ: An Autonomous AI Scientist for Atmospheric Environmental Research",
+      "published": "2026-06-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.08723",
+      "title": "From Text to Discovery: How Large Language Models Are Reshaping Research Across Scientific and Humanistic Disciplines",
+      "published": "2026-06-07",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.09500",
+      "title": "Deterministic Integrity Gates for LLM-Assisted Clinical Manuscript Preparation: An Auditable Biomedical Informatics Architecture",
+      "published": "2026-06-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.09556",
+      "title": "AI Scientists Are Only as Good as Their Evidence: A Stratified Ablation of Proprietary Data and Reasoning Skills in Drug-Asset Valuation",
+      "published": "2026-06-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.10402",
+      "title": "Harnessing the Collective Intelligence of AI Agents in the Wild for New Discoveries",
+      "published": "2026-06-09",
+      "drawn": true
+    },
+    {
+      "arxiv": "2606.13662",
+      "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
+      "published": "2026-06-11",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.15345",
+      "title": "Beyond Monolingual Deep Research: Evaluating Agents and Retrievers with Cross-Lingual BrowseComp-Plus",
+      "published": "2026-06-13",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.15497",
+      "title": "Towards End-to-End Automation of AI Research",
+      "published": "2026-03-31",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.17458",
+      "title": "ICBCBench: An Industry Consortium Benchmark for Financial Deep Research",
+      "published": "2026-06-16",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.19057",
+      "title": "Quantifying and Auditing LLM Evaluation via Positive--Unlabeled Learning",
+      "published": "2026-06-17",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.20873",
+      "title": "SciLens: Multi-modal Scientific Claim Verification with Agentic Entailment and Grounding",
+      "published": "2026-06-18",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.22859",
+      "title": "AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions",
+      "published": "2026-06-22",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.25057",
+      "title": "LLM-Based Scientific Peer Review: Methods, Benchmarks, and Reliability Challenges",
+      "published": "2026-06-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.28756",
+      "title": "AICID: Unique Identifiers for AI Scientists",
+      "published": "2026-06-27",
+      "drawn": true
+    },
+    {
+      "arxiv": "2606.29100",
+      "title": "Toward Exascale AI for Science: A Scalable AI Skill for Autonomous Microkinetics Discovery",
+      "published": "2026-06-27",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.29981",
+      "title": "Hephaestus: Toward a Cybersecurity AI Scientist",
+      "published": "2026-06-29",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.29999",
+      "title": "AlgoSkill: Learning to Design Algorithms by Scheduling Human-Like Skills",
+      "published": "2026-06-29",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.30246",
+      "title": "Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration",
+      "published": "2026-06-29",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.30699",
+      "title": "Joint discovery of governing partial differential equations from multi-source datasets by competitive optimization",
+      "published": "2026-06-29",
+      "drawn": false
+    },
+    {
+      "arxiv": "2606.31478",
+      "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
+      "published": "2026-06-30",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.01584",
+      "title": "EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation",
+      "published": "2026-07-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.01639",
+      "title": "Autonomous discovery of traffic laws with AI traffic scientists",
+      "published": "2026-07-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.02329",
+      "title": "Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics",
+      "published": "2026-07-02",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.03863",
+      "title": "Rethinking Scientific Discovery in the Agentic Era",
+      "published": "2026-07-04",
+      "drawn": true
+    },
+    {
+      "arxiv": "2607.04293",
+      "title": "CausalGame: Benchmarking Causal Thinking of LLM Agents in Games",
+      "published": "2026-07-05",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.09195",
+      "title": "Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents",
+      "published": "2026-07-10",
+      "drawn": true
+    },
+    {
+      "arxiv": "2607.10127",
+      "title": "GAE: Graph-Augmented Evolution for Scientific Discovery via Reinforcement Optimization",
+      "published": "2026-07-11",
+      "drawn": true
+    },
+    {
+      "arxiv": "2607.10712",
+      "title": "Distributed Denial of Science: How Indirect Data Poisoning of AI Systems Can Industrialize Scientific Fraud",
+      "published": "2026-07-12",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.12835",
+      "title": "Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction",
+      "published": "2026-07-14",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.16262",
+      "title": "Autonomous mechanistic discovery of colorectal cancer vulnerabilities via multi-scale AI swarms",
+      "published": "2026-06-28",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.17917",
+      "title": "PEARL: Auditable Repair for Scientific Reasoning Graph Extraction",
+      "published": "2026-07-20",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.18249",
+      "title": "MechAInistic: An LLM-guided Multi-Agent System for Reasoning over Genome-Scale Constraint-Based Metabolic Models",
+      "published": "2026-05-08",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.18665",
+      "title": "SciHazard: A Benchmark for Measuring Scientific Safety Risks with Decomposed Harm Scoring",
+      "published": "2026-07-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.19336",
+      "title": "Agents in the Wild: Where Research Meets Deployment",
+      "published": "2026-07-21",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.20891",
+      "title": "Is Deep Research Reliable? Misleading Knowledge Induces False Conclusions",
+      "published": "2026-07-23",
+      "drawn": false
+    },
+    {
+      "arxiv": "2607.22553",
+      "title": "Evaluating the Impact of Reviewer Guideline Design on LLM-Based Automated Peer Review",
+      "published": "2026-05-16",
+      "drawn": true
+    },
+    {
+      "arxiv": "2607.26064",
+      "title": "The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science",
+      "published": "2026-06-18",
+      "drawn": true
+    },
+    {
+      "arxiv": "2607.27690",
+      "title": "LabEvolver: Training-Free Experience Evolution for Safe and Grounded Wet-Lab Agents",
+      "published": "2026-07-30",
+      "drawn": false
+    }
+  ]
+}
