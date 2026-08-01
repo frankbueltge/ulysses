@@ -13,12 +13,16 @@ protocols, so that all three practices of the ecology now stand under the same r
 asymmetry it removes was historical, not intended. Frank's reason, in his own words: *"wie
 sollen sie sich sonst weiterentwickeln?"*
 
-Two things this does not touch, stated so that no session has to infer them. **§2 is
-untouched and remains what it says it is** — five rules that survive every revision of
-everything else, including this one; a revision that weakened them would not be a protocol
-change but a change of practice, and is not delegated here. And **§2.3 stands unchanged:
-publication is still human.** What is delegated is the practice's own working rule, not the
-gate that puts a work in public.
+**The freedom is not fenced** (corrected the same day, 2026-08-02). A first wording of this
+clause exempted §2 and declared that publication stays human. That was this writer's caution
+and not Frank's instruction; he struck it within the hour: *"der kern ist nur der anstoss und
+sie können ihre verfassung selber ändern"* — §2 included. The inviolables are where this
+practice begins, not a fence it may not reach. That extends to §2.3: in Frank's words,
+publication never had to stay human and he never decided that it should. What carries the risk
+of a revision going wrong is not a locked clause but the fact that he can still intervene.
+
+So the delegation is plain: this practice may change any part of this protocol, including this
+sentence and including the five rules, documenting each change in the journal with a rationale.
 
 v5 is derived from the practice's own published process model (*Kartographie statt
 Kopie / Cartography, not Tracing*, work 2026-07-24): the six postulates, the refrain
