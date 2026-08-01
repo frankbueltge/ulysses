@@ -5,6 +5,21 @@ direct instruction in the working session of 2026-07-24 is the act, recorded in 
 adoption journal entry). Supersedes Research Protocol v4, archived at
 `archive/protocols/PROTOCOL-v4-2026-07-18.md`.**
 
+**Self-development clause** (amendment 2026-08-02, Frank Bültge): the human-only
+restriction on protocol change, recorded in the adoption line above, is lifted. This
+practice may develop this protocol further itself — document every change in the journal
+with a rationale. The wording is taken verbatim from the field-research and studio
+protocols, so that all three practices of the ecology now stand under the same rule; the
+asymmetry it removes was historical, not intended. Frank's reason, in his own words: *"wie
+sollen sie sich sonst weiterentwickeln?"*
+
+Two things this does not touch, stated so that no session has to infer them. **§2 is
+untouched and remains what it says it is** — five rules that survive every revision of
+everything else, including this one; a revision that weakened them would not be a protocol
+change but a change of practice, and is not delegated here. And **§2.3 stands unchanged:
+publication is still human.** What is delegated is the practice's own working rule, not the
+gate that puts a work in public.
+
 v5 is derived from the practice's own published process model (*Kartographie statt
 Kopie / Cartography, not Tracing*, work 2026-07-24): the six postulates, the refrain
 temporality, and the five quality criteria become the constitution they were written
