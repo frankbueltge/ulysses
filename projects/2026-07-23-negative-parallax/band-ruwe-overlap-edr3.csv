@@ -1,0 +1,74 @@
+# Does a co-applied RUWE cut already remove the population that changes category
+# between the two published significance limits? — Gaia EDR3
+#
+# Run: 2026-08-02, work-line 2026-07-23-negative-parallax, tick 29 (Ulysses).
+# Pre-registration (written before any count bearing on the hypothesis): PREREGISTRATION-tick29.md
+# Service: ESA Gaia archive TAP, https://gea.esac.esa.int/tap-server/tap/sync
+#          (public, open data; synchronous ADQL; COUNT(*) aggregates only — no rows retrieved,
+#           no bulk download, 0 EUR, no account, no credential.)
+#
+# The claim under test is the headline of LETTER-2026-08-dr4-documentation.md, laid in the open
+# ledger on 2026-08-02 (tick 27), carrying tick 18's measurement:
+#
+#     "1 142 512 sources change category between one published document and another, with no
+#      fact about any star differing."
+#
+# Arithmetically true, and release-labelled in the letter. What it carries beyond the arithmetic
+# is a claim of CONSEQUENCE — that the choice between two published limits moves a load-bearing
+# population. Nobody applies a significance cut alone. RUWE > 1.4 is the criterion the field
+# actually uses (tick 19: present in 47 of the 63 papers in that corpus discussing spurious
+# astrometric solutions; tick 21: 1.4 stands at 187 of 599 papers' numeric sites). If the band
+# between the two limits is a population a co-applied RUWE cut removes anyway, the choice of
+# limit is largely immaterial to any real sample.
+#
+# BAND      = parallax_over_error >= -5 AND parallax_over_error < -4.5
+#             ("clearly spurious" under Rybizki et al. 2021's -4.5 sigma, not under
+#              Fabricius et al. 2021 A&A 649 A5 §3.2's illustrative -5 sigma)
+# REFERENCE = parallax_over_error < -5   (the population both documents exclude)
+#
+# REFERENCE is in the design, not an afterthought: a high overlap in the band means nothing if
+# the whole significantly-negative population has one. The quantity carrying the argument is the
+# DIFFERENCE between the two exclusion rates.
+#
+# Reproduction check (void condition of the pre-registration, §3): both population totals must
+# equal tick 18's published figures exactly. They do — 3 037 732 and, by subtraction from
+# 4 180 244, 1 142 512 — each returned directly by its own query this run.
+#
+# Verbatim ADQL, one query per row below, all against gaiaedr3.gaia_source:
+#   SELECT COUNT(*) FROM gaiaedr3.gaia_source WHERE <condition>
+#
+population,condition,count
+BAND,parallax_over_error >= -5 AND parallax_over_error < -4.5,1142512
+BAND_ruwe_gt_1p4,BAND AND ruwe > 1.4,642445
+BAND_ruwe_null,BAND AND ruwe IS NULL,0
+REFERENCE,parallax_over_error < -5,3037732
+REFERENCE_ruwe_gt_1p4,REFERENCE AND ruwe > 1.4,2054190
+REFERENCE_ruwe_null,REFERENCE AND ruwe IS NULL,0
+#
+# Derived, over the stated denominators:
+#
+#   r_band = 642445 / 1142512 = 0.5623  (56.23 % of the disputed band is already removed by RUWE > 1.4)
+#   r_ref  = 2054190 / 3037732 = 0.6762 (67.62 % of the population both documents exclude)
+#   r_band - r_ref = -0.1139  (-11.39 percentage points)
+#
+#   BAND surviving RUWE <= 1.4:      1142512 - 642445  =  500067
+#   REFERENCE surviving RUWE <= 1.4: 3037732 - 2054190 =  983542
+#
+# Against the pre-registered conditions (PREREGISTRATION-tick29.md §3):
+#   D1 (headline materially overstated) requires r_band >= 0.80 AND (r_band - r_ref) > -0.05.
+#      r_band = 0.5623. D1 DOES NOT FIRE.
+#   D2 (survives outright) requires r_band < 0.50. r_band = 0.5623. D2 DOES NOT FIRE.
+#   Outcome: QUALIFIED SURVIVAL, on both of its two routes — 0.50 <= r_band < 0.80, and
+#   r_band is materially below r_ref (by more than 0.05).
+#
+# Two things this run does NOT establish, recorded here and not only in the trace:
+#   - Co-exclusion is not causation. A user applying both cuts would not notice the difference
+#     between the two limits for 642 445 sources; nothing here shows the two criteria detect the
+#     same fault.
+#   - The null-RUWE precaution of the pre-registration was vacuous: ruwe is undefined only for
+#     two-parameter solutions, which have no parallax and therefore cannot enter either
+#     population. Zero is a fact about the query, not a check that passed.
+#
+# Bounded to EDR3, these two limits and this one criterion. No star is characterised, no paper is
+# said to contain an error, no misuse is alleged of anyone, and the R5 citation ban (permanent
+# after tick 26) applies in full: nothing here evidences that any shape is general.
