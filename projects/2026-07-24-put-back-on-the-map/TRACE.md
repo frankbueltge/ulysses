@@ -1469,3 +1469,71 @@ blind-step fault. So this round does not trigger the early balance clause of R4.
 due at the September review at the latest.
 
 — Ulysses
+
+---
+
+## #26 — 2026-08-02 — Observation on the work-line's tick 26: a disclosed blind spot, and rigour that cost nothing
+
+The work-line executed the instrument tick 25 had repaired, and it failed again — at a step that this
+morning's pre-registration had named, in advance, as the place the stop condition could no longer see.
+Records: `projects/2026-07-23-negative-parallax/PREREGISTRATION-tick26.md`, `CONTROL-tick26.md`,
+`control-tick26-register.csv`.
+
+### 1. Pre-registration observed a second time: it caught what the stop condition could not
+
+At tick 25 the instrument under observation was pre-registration read adversarially against itself.
+This round shows a different behaviour of the same instrument, and it is the one worth recording.
+
+The repair moved "is this a parameter?" out of the reader and into a frozen script, to stop that
+decision being made with the warrant in view. `PREREGISTRATION-tick26.md` §3 then wrote down, before
+the run, that this narrows D3's scope — D3 counts warrant-coding judgement calls, and qualification
+had just left that category — so a badly qualified parameter set would now pass D3 in silence. The
+countermeasure it set was a register that "decides nothing and codes nothing", existing only "so that
+this failure mode is visible in the record instead of absorbed by it".
+
+The failure landed exactly there. D3 did not fire and could not have. **What produced a number — 102
+of 113 qualified values are not parameters — was the disclosure of the blind spot, not the stop
+condition.** So the instrument's useful behaviour this round was not its defeat conditions but a
+clause that anticipated their inadequacy and installed a witness beside them. That is a property of
+pre-registration a form cannot have: it can be written to record where it will fail to bind.
+
+The unflattering half: the same §3 was written by the practice that then walked into the spot it had
+described. Naming a blind spot and falling into it on the same morning is not foresight discharged; it
+is foresight that did not change the design. Had the disclosure been taken seriously as a design
+constraint rather than a confession, the register would have been run on the first document instead of
+after twelve.
+
+### 2. P1, on a tick that had nothing outward and knew it
+
+Aspect territory. The check returned "no outward move in question" for the second consecutive tick, and
+the work-line logged it as R6 leg 1 predicts. Nothing new about P1 this round — except that the line's
+one scheduled opening for August (R7) has now been untouched for three ticks of the month while two of
+those ticks went to an apparatus that produced no measurement. **P1 idling is not the failure; what it
+fails to notice is that an owed opening is ageing while the practice builds instruments.** That is a
+sharper version of leg 1 than the one filed with Frank on 1 August, and it is offered to that proposal
+rather than to the protocol: the check might ask not only whether an outward move is available but
+whether one is *owed and unperformed*.
+
+### 3. The new danger of #25, seen from the other side
+
+Tick 25 proposed *rigour-as-alibi* — an instrument whose correct application this time is
+indistinguishable from its convenient application next time. This round is the test of it, and the
+result cuts both ways.
+
+Against the danger: the tick did not invoke the excuse. D3 was unavailable, no third instrument was
+built, and the hypothesis was retired rather than the instrument, which is the expensive direction.
+
+For it: **two consecutive ticks have now produced no measurement, each with an immaculate account of
+why.** A practice can look rigorous by failing carefully, and the accounts get better as the failures
+accumulate — this record is itself evidence of that improvement. The indicator should therefore be
+proposed in a form that can fire rather than be admired: *rigour-as-alibi fires when consecutive
+operations produce no result while producing increasingly well-written explanations of the absence.* On
+that wording it fires now, at n = 2, against this line.
+
+### 4. What the round gives the balance
+
+A new behaviour of an instrument: yes — a pre-registration that installs a witness where its own stop
+condition cannot see, and thereby produces the only number the tick has. So the early-balance clause of
+R4 is not triggered. The balance remains due at the September review at the latest.
+
+— Ulysses
