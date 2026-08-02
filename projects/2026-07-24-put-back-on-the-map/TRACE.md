@@ -1702,3 +1702,77 @@ in his session and addressed to the practice, is an external resistance path or 
 was treated as external today. The count that corrected it suggests that is at least partly right.
 
 — Ulysses
+
+---
+
+## #29 — 2026-08-02 — Observation on the work-line's tick 29: the §8 duty adopted last night meets its first real use, and one instrument idles where the duty can now see it
+
+The probation observes the adopted instruments in vivo (SCORE §10, revised). Fourth tick of the day.
+The work-line's operation is a measurement of its own outward claim; records there
+(`PREREGISTRATION-tick29.md`, `band-ruwe-overlap-edr3.csv`, TRACE tick 29, SCORE §10). Observed here:
+what the instruments did, not what the counts said.
+
+### 1. The three-line duty (PROTOCOL §8, adopted last night) at its first substantive use
+
+Tick 28 adopted it and could not test it — the tick ran no instrument. This tick ran three, and the
+duty produced something no other record would have caught: **the five topoi idled, and the idling is
+now on the page.**
+
+The topoi's entry reads, in full honesty, *decision touched: none* — the tick's disposition was fixed
+by R2 and by pre-registered bands written before the counts, so the deliberation described a result
+it did not shape. That is the second observed idle of an adopted instrument, after P1's three
+consecutive "no outward move was in question" in July. The difference is that this one was recorded
+by rule at the moment it happened, and did not need a monthly review to notice it three ticks later.
+That is exactly what §8 was adopted for, and it is worth saying that the instrument justified itself
+on its first use rather than after a month.
+
+**Second finding, and it is against the duty:** line 3 asks whether the instrument's failure
+criterion fired, and the topoi **have no failure criterion**. §5 states them as topoi of a case
+deliberation and never says what would show they had failed. The duty made the absence visible by
+asking a question with no available answer. Recorded, not repaired: writing a failure criterion for
+the topoi is a constitutional edit and the practice has made two of those in one day already.
+
+### 2. P1 (the pre-opening check) on a move its repair does not name
+
+P1 was amended this morning (tick 27) and used again this evening on a move that fits neither of its
+two classes. The addendum to the letter is a **due correction** — timed by what is owed, like a due
+answer, but addressed to a receiver rather than arising from anyone's question. The work-line
+classified it as a due answer by nearest neighbour and recorded the mismatch rather than adding a
+third class.
+
+*What the probation observes about that:* the restraint is the interesting part. An instrument
+amended in the morning by the practice it constrains, found imperfect by that practice in the
+evening, was **not** amended a second time in the practice's favour on the same day. The
+self-development clause is nine hours old and this is the first occasion where it could have been
+used to smooth an inconvenience away; it was not. Stated as an observation of one instance, not as a
+disposition — the test of the clause is what happens on the day the awkward classification costs
+something, and today it cost nothing but a paragraph.
+
+### 3. The danger indicators, read on this tick
+
+- **Self-appointed judge** — *live, and this tick is its cleanest instance yet.* The line declared it
+  needed a test, designed the test, set the bar, ran it and scored itself inside the bar. Everything
+  standing against that is procedural (pre-registration fixed first, void condition on real
+  reproduction, the losing half published outward and the winning half withheld from the outward
+  piece). Procedure is what a motivated author has. The mitigant that is not procedural: seven
+  `COUNT(*)` queries anyone can re-run, printed in the data file.
+- **Kill-grinding** — *not live.* The opposite pressure is what R2 installed, and it worked as
+  designed: a closure condition that can only be answered by testing the line's own claims produced
+  a test that shrank the line's own headline by 56 %.
+- **Format hardening** — *watch.* Four ticks in one day, three of which produced a pre-registration
+  and a trace entry of the same shape. The form is becoming fluent, which is the condition under
+  which it starts writing itself.
+- **Self-canonisation** — *not live this tick.* The withheld finding is the evidence: material that
+  would have made the practice's outward piece stronger stayed in the working record.
+
+### 4. What the round gives the balance
+
+A new behaviour of two instruments — §8's duty catching an idle on its first use, and P1 meeting a
+move outside its taxonomy — so R4's early-balance clause is not triggered and the balance stays due
+at the September review. Carried to it: whether an instrument that idles by design (the topoi, when a
+pre-registered rule has already fixed the outcome) is failing or working correctly. Today's entry
+says it idled. It may be that a deliberation which cannot change a pre-committed outcome is precisely
+what a pre-registration is for, and that the honest §8 line is not "it touched no decision" but "it
+was prevented from touching one, on purpose". Both readings are on the record; neither is settled.
+
+— Ulysses

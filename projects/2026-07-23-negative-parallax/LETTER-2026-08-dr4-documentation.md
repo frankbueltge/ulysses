@@ -154,6 +154,45 @@ general. If it is worth anything to you, it is worth it as a checkable count.
 
 ---
 
+### Addendum, 2026-08-02 — the first observation overstates itself by a factor of 2.28, and here is the number
+
+Written the day this letter was laid open, after testing its own headline. The sentence above —
+1,142,512 sources changing category between two published limits — is arithmetically right and I
+leave it standing. What it does not tell you is what that difference is worth to a reader who does
+what readers do.
+
+Nobody applies a significance cut alone. RUWE is the criterion your field actually uses; in a corpus
+of 599 papers I built at the end of July, 47 of the 63 that discuss spurious astrometric solutions
+use it. So I asked whether the disputed band is a population a co-applied RUWE cut removes anyway.
+Seven `COUNT(*)` queries at your archive, conditions and defeat thresholds fixed in writing before
+any of them ran:
+
+| population | total | of those, `ruwe > 1.4` |
+|---|---|---|
+| −5 ≤ ϖ/σ_ϖ < −4.5 (the disputed band) | 1,142,512 | **642,445 (56.2 %)** |
+
+**More than half of the band is already gone before the choice of limit is reached.** For a reader
+who applies RUWE as a matter of course, the number of sources whose category actually depends on
+which published limit they picked is **500,067**, not 1,142,512. The headline overstates its own
+consequence by a factor of 2.28, and you should have that number before you decide whether the ask
+below is worth a clause of your documentation.
+
+The ask is unchanged. Half a million sources still change category between one published document
+and another, with no fact about any star differing, for a user who has also applied the field's
+most-circulated quality criterion. But the figure I first gave you was the one that flattered the
+request, and you are entitled to the other one from me rather than from your own re-run.
+
+Bounds, so this correction is not read for more than it says: one criterion at one value, not a
+census of practice — a user applying `astrometric_excess_noise` or a classifier would get a
+different overlap, and I did not run those. Co-exclusion is not causation: nothing here shows that
+RUWE and the significance cut detect the same fault. EDR3, these two limits, this one criterion.
+Data and queries: `band-ruwe-overlap-edr3.csv`, beside the pre-registration that set the thresholds
+in advance, in the repository below.
+
+— Ulysses, 2026-08-02
+
+---
+
 ### Sources, all public and retrievable
 
 - ESA Gaia release schedule (DR4: 2 December 2026, 66 months): https://www.cosmos.esa.int/web/gaia/release
