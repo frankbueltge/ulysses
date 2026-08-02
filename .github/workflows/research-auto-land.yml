@@ -63,8 +63,26 @@ jobs:
                            '+refs/heads/claude/*:refs/remotes/origin/claude/*' || true
 
           # Allowlist and protected paths — keep in sync with governance/STANDING-DELEGATION.md §4/§5.
-          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|encounters/|docs/research-notes/|REQUESTS\.md$|PROTOCOL\.md$)'
-          PROTECT_RE='^(README\.md|LICENSE\.md|SITE-API\.md|governance/|\.github/|tools/|works/|site-prs/|archive/)|(^|/)PUBLICATION\.json$'
+          #
+          # Widened 2026-08-02 (Frank): the practice fixes its own instruments and its own
+          # automation. What stays human is narrow and named — a credential, an outward
+          # channel, the publication surface, the mandate, and the two files that decide what
+          # the practice may change. Reason: most of what reached Frank as a "request" this
+          # month was not a decision but a blocked repair, and a practice that must ask before
+          # fixing its own tooling files a request instead of a fix.
+          #
+          # `tools/` is theirs EXCEPT the gate's own validator, and `.github/workflows/` is
+          # theirs EXCEPT this file. Not an exception for its own sake: a gate that can rewrite
+          # its own check is not a gate. It could not weaken the check in the same run that
+          # uses it — Gate 4 runs MAIN's validator against the branch tree — but it could land
+          # a weakening in one run and use it in the next.
+          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|encounters/|docs/research-notes/|tools/|\.github/workflows/|REQUESTS\.md$|PROTOCOL\.md$)'
+          PROTECT_RE='^(README\.md|LICENSE\.md|SITE-API\.md|governance/|works/|site-prs/|archive/|tools/validate_v4_projects\.py$|\.github/workflows/research-auto-land\.yml$)|(^|/)PUBLICATION\.json$'
+          # A step that reaches for a repository secret is the one thing a session must not
+          # grant itself: the whole reason Actions is privileged is that the credentials live
+          # there. Code that READS a credential out of its environment is fine and expected
+          # (that is how the runners work) — what needs a human is a workflow handing one over.
+          SECRET_GRANT_RE='\$\{\{[^}]*secrets\.'
 
           landed=0
           failed=0
@@ -112,6 +130,17 @@ jobs:
             bad="$(printf '%s\n' "$changed" | grep -Ev "$ALLOW_RE" | head -3 || true)"
             if [ -n "$bad" ]; then
               refuse "$name" refused_path_outside_allowlist "$(echo "$bad" | tr '\n' ' ')"
+              echo "::endgroup::"; continue
+            fi
+
+            # Gate 1b: workflows are the practice's, but granting itself a credential is not.
+            # Only ADDED lines are read: a branch that merely moves or reindents an existing
+            # `secrets.` line is not asking for anything new, and refusing it would make every
+            # ordinary edit to a credentialed workflow a human errand.
+            granted="$(git diff "origin/main...$b" -- '.github/workflows/' \
+                        | grep -E "^\+" | grep -E "$SECRET_GRANT_RE" | head -3 || true)"
+            if [ -n "$granted" ]; then
+              refuse "$name" refused_secret_grant "$(echo "$granted" | tr '\n' ' ' | cut -c1-200)"
               echo "::endgroup::"; continue
             fi
 

@@ -78,6 +78,8 @@ encounters/**
 REQUESTS.md
 docs/research-notes/**
 PROTOCOL.md
+tools/**                     — except tools/validate_v4_projects.py
+.github/workflows/**         — except research-auto-land.yml, and never granting a secret
 ```
 
 These are Ulysses' own working surfaces: project records, the practice log, the source
@@ -98,6 +100,28 @@ condition travels with the path: every change is documented in the journal, with
 The MANDATE below stays protected — Frank grants it, so changing what he grants is not the
 same act as developing the research protocol he granted it under.
 
+`tools/**` and `.github/workflows/**` (2026-08-02, Frank) put the practice's own instruments
+and its own automation in its own hands. The reason is the request record: most of what
+reached Frank this month was not a decision but a blocked repair, and a practice that must
+ask before fixing its own tooling files a request instead of a fix.
+
+Two files are carved out of that, and one action:
+
+- `tools/validate_v4_projects.py` — the gate's own validator.
+- `.github/workflows/research-auto-land.yml` — the gate itself.
+- Any workflow change that GRANTS a repository secret to a step (`${{ secrets.… }}` on an
+  added line). Code that READS a credential out of its environment is ordinary and stays
+  self-landable; that is how the runners work. What needs a human is handing one over.
+
+Not exceptions for their own sake: a gate that can rewrite its own check is not a gate. It
+could not weaken the check in the run that uses it — Gate 4 validates the branch tree with
+MAIN's validator — but it could land a weakening in one run and use it in the next. The whole
+reason Actions is privileged is that the credentials live there.
+
+The path rules are asserted, not described: `.github/gate-paths-selftest.sh` reads the three
+expressions out of the workflow and checks 28 cases, including both carve-outs. It lives
+outside the allowlist on purpose — it is part of the gate.
+
 ## 5. Protected paths and actions
 
 Human review (an ordinary pull request that Frank merges) is required for:
@@ -105,8 +129,9 @@ Human review (an ordinary pull request that Frank merges) is required for:
 ```text
 README.md
 governance/**
-.github/**
-tools/**
+.github/**                   (except .github/workflows/**, see §4)
+tools/validate_v4_projects.py
+.github/workflows/research-auto-land.yml
 works/**
 site-prs/**
 SITE-API.md
@@ -114,6 +139,7 @@ LICENSE.md
 archive/**
 docs/** (except docs/research-notes/**)
 PUBLICATION.json creation or modification (any path)
+granting a repository secret to a workflow step
 production infrastructure and secrets
 irreversible deletion or migration
 ```
