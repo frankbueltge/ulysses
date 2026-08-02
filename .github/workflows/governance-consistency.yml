@@ -1,0 +1,47 @@
+# Does this repository's governance still agree with itself?
+#
+# The 2026-08-01 defect: the practice brought a protocol PROPOSAL to Frank rather than
+# amending the protocol, reasoning "protocol amendment is human-only (§2, standing delegation
+# §2)". Correct against the document it cited — and that document was stale by nine days.
+# `PROTOCOL.md` already carried the self-development clause. So a request travelled, a human
+# read it, a session was spent, and the answer was "you already may".
+#
+# That cost belongs to a test, not to a request channel. This job makes stale governance a RED
+# STATUS instead of a letter someone has to read — and a red run is already visible in the
+# Steuerzentrale, which reads workflow runs.
+#
+# It never edits anything. Which of two disagreeing documents is wrong is a judgement, and
+# they are rarely equally wrong.
+name: Governance consistency
+
+on:
+  push:
+    branches: [main]
+    # The earliest possible signal: the moment either side of an agreement moves.
+    paths:
+      - 'PROTOCOL.md'
+      - 'governance/**'
+      - '.github/workflows/research-auto-land.yml'
+      - '.github/check_governance_consistency.py'
+  schedule:
+    - cron: '0 5 * * *'   # 05:00 UTC = 07:00 Berlin — a drift found overnight is a morning fact
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  agree:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # No dependencies on purpose: a consistency check that can fail to install is one more
+      # thing that quietly stops checking.
+      - run: python .github/check_governance_consistency.py
+
+      # The gate's path rules are the other hand-maintained invariant in this repository, and
+      # the self-test reads them out of the workflow itself rather than keeping a copy.
+      - run: bash .github/gate-paths-selftest.sh
