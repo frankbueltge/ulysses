@@ -1,0 +1,112 @@
+# Does the documented astrometric quality apparatus — not RUWE alone — already remove the
+# population that changes category between the two published significance limits? — Gaia EDR3
+#
+# Run: 2026-08-03, work-line 2026-07-23-negative-parallax, tick 30 (Ulysses).
+# Pre-registration (written before any count bearing on the hypothesis): PREREGISTRATION-tick30.md
+# Service: ESA Gaia archive TAP, https://gea.esac.esa.int/tap-server/tap/sync
+#          (public, open data; synchronous ADQL; COUNT(*) aggregates only — no rows retrieved,
+#           no bulk download, 0 EUR, no account, no credential.)
+#
+# Why this run exists: tick 29 measured the RUWE overlap and wrote its own limitation into the
+# record — "one criterion is not 'the field'" — and the addendum it put into
+# LETTER-2026-08-dr4-documentation.md names the same gap in the letter's own text: "a user applying
+# astrometric_excess_noise or a classifier would get a different overlap, and I did not run those."
+# This run runs two of them.
+#
+# BAND      = parallax_over_error >= -5 AND parallax_over_error < -4.5
+#             ("clearly spurious" under Rybizki et al. 2021's -4.5 sigma, not under
+#              Fabricius et al. 2021 A&A 649 A5 §3.2's illustrative -5 sigma)
+# REFERENCE = parallax_over_error < -5   (the population both documents exclude)
+#
+# The three criteria, each with the sentence that licenses it (read at source 2026-08-03):
+#   C1  ruwe > 1.4
+#       Lindegren 2018, GAIA-C3-TN-LU-LL-124-01, "An example using the RUWE". Present at 187 of
+#       599 papers' numeric sites (tick 21); used by 47 of the 63 corpus papers discussing
+#       spurious solutions (tick 19).
+#   C2  astrometric_excess_noise_sig > 2
+#       Gaia (E)DR3 gaia_source data model, verbatim: "A value D > 2 indicates that the given
+#       epsilon_i is probably significant" / "If D <= 2 then epsilon_i is probably not
+#       significant". The SAME entry declines to supply a filtering threshold: "the user must
+#       study the empirical distributions of epsilon_i and D to make sensible cutoffs before
+#       filtering out sources for their particular application."
+#   C3  visibility_periods_used < 10
+#       Same data model entry, verbatim: "A small value (e.g. less than 10) indicates that the
+#       calculated parallax could be more vulnerable to errors, e.g. from the calibration model,
+#       not reflected in the formal uncertainties."
+#       MARKED AGAINST MYSELF: that threshold is introduced by its own document with an "e.g.".
+#       Applying it as a criterion is MY choice of a value the documentation declined to fix —
+#       the same move this line charges others with. See the derived section: it changes almost
+#       nothing, which is a fact about this population and not an excuse.
+#
+# Void condition (pre-registration §4): four figures already in this record must reproduce
+# exactly. All four did — BAND 1142512, REFERENCE 3037732, BAND&C1 642445, REFERENCE&C1 2054190.
+#
+# Verbatim ADQL, one query per row below, all against gaiaedr3.gaia_source:
+#   SELECT COUNT(*) FROM gaiaedr3.gaia_source WHERE <condition>
+#   UNION := (ruwe > 1.4 OR astrometric_excess_noise_sig > 2 OR visibility_periods_used < 10)
+#
+population,condition,count
+BAND,parallax_over_error >= -5 AND parallax_over_error < -4.5,1142512
+BAND_C1_ruwe,BAND AND ruwe > 1.4,642445
+BAND_C2_aen_sig,BAND AND astrometric_excess_noise_sig > 2,997312
+BAND_C3_vis_periods,BAND AND visibility_periods_used < 10,30614
+BAND_UNION,BAND AND UNION,1008716
+BAND_aen_sig_null,BAND AND astrometric_excess_noise_sig IS NULL,0
+BAND_vis_periods_null,BAND AND visibility_periods_used IS NULL,0
+BAND_vis_periods_lt6,BAND AND visibility_periods_used < 6,0
+BAND_vis_periods_lt7,BAND AND visibility_periods_used < 7,0
+REFERENCE,parallax_over_error < -5,3037732
+REFERENCE_C1_ruwe,REFERENCE AND ruwe > 1.4,2054190
+REFERENCE_C2_aen_sig,REFERENCE AND astrometric_excess_noise_sig > 2,2818888
+REFERENCE_C3_vis_periods,REFERENCE AND visibility_periods_used < 10,92161
+REFERENCE_UNION,REFERENCE AND UNION,2843710
+#
+# Derived, over the stated denominators (no null in either population, on either column):
+#
+#   BAND       C1 0.5623   C2 0.8729   C3 0.0268   UNION 0.8829
+#   REFERENCE  C1 0.6762   C2 0.9280   C3 0.0303   UNION 0.9361
+#
+#   u_band - u_ref = 0.8829 - 0.9361 = -0.0532  (-5.32 percentage points)
+#
+#   BAND surviving the union:      1142512 - 1008716 =  133796
+#   REFERENCE surviving the union: 3037732 - 2843710 =  194022
+#
+# Against the pre-registered conditions (PREREGISTRATION-tick30.md §4):
+#   D1 (headline's consequence materially overstated) requires u_band >= 0.80 AND
+#      (u_band - u_ref) > -0.05. First leg fires (0.8829). Second leg does NOT: -0.0532.
+#      D1 DOES NOT FIRE — by 0.32 percentage points. Reported as the thin thing it is.
+#   D2 (the number printed in the letter yesterday misinforms) requires S < 400000.
+#      S = 133796. D2 FIRES. A second dated addendum is owed to the letter and is written
+#      the same day.
+#   D3 (the added criteria change nothing) requires u_band - r_ruwe,band < 0.05.
+#      0.8829 - 0.5623 = 0.3206. D3 DOES NOT FIRE.
+#
+#   Consequence for the outward claim, stated as a chain because that is what it is:
+#     1142512 (headline, tick 18) -> 500067 (RUWE co-applied, tick 29) -> 133796 (documented
+#     apparatus co-applied, this tick). 8.54 times below the headline; 3.74 times below the
+#     figure printed in the letter one day ago.
+#
+# Which criterion does the work, and what its own documentation says about itself:
+#   C2 alone removes 87.29 % of the band. C1 removes 56.23 %. C3 removes 2.68 % — and since the
+#   union is 1008716 with C3 and C3 contributes at most its own 30614, C1-or-C2 alone lies
+#   between 978102 and 1008716 (85.6 %-88.3 %): the result does not depend on the one threshold
+#   I chose myself.
+#   C2 is the column whose data model states D > 2 as significance in one sentence and refuses to
+#   supply a filtering cutoff four sentences earlier. The criterion that empties the disputed
+#   population is one the catalogue both gives and declines to give.
+#
+# Descriptive, bearing on none of the defeat conditions: no source in the BAND has fewer than 7
+# visibility periods (both counts are 0), so all 30614 of C3's sources have 7 <= vpu <= 9. The
+# DR2 acceptance value (Lindegren et al. 2018, A&A 616, A2, Eq. 11: visibility_periods_used >= 6)
+# and the 7-period variant of that paper's negative-tail discussion select nothing here.
+#
+# Two things this run does NOT establish:
+#   - Co-exclusion is not causation. Nothing here shows that these criteria and the significance
+#     cut detect the same fault.
+#   - Three criteria are not "the field" either. The Rybizki et al. fidelity classifier is an
+#     external catalogue and was not included; that gap was named in the pre-registration before
+#     the run, not discovered afterwards.
+#
+# Bounded to EDR3, these two limits and these three criteria. No star is characterised, no paper
+# is said to contain an error, no misuse is alleged of anyone, and the R5 citation ban (permanent
+# after tick 26) applies in full: nothing here evidences that any shape is general.
