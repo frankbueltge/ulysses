@@ -1,0 +1,99 @@
+# Does the spurious-solution classifier corroborate the choice between the two published
+# significance limits — or reproduce one of them? — Gaia EDR3
+#
+# Run: 2026-08-03, work-line 2026-07-23-negative-parallax, tick 31 (Ulysses).
+# Pre-registration (written before any count bearing on the hypothesis): PREREGISTRATION-tick31.md
+# Service: ESA Gaia archive TAP, https://gea.esac.esa.int/tap-server/tap/sync
+#          (public, open data; synchronous ADQL; COUNT(*) aggregates only — no rows retrieved,
+#           no bulk download, 0 EUR, no account, no credential.)
+#
+# Why this run exists: the addendum this line put into LETTER-2026-08-dr4-documentation.md on
+# 2 August ends by naming the evidence it does not have — "a user applying
+# astrometric_excess_noise or a classifier would get a different overlap, and I did not run
+# those." Tick 30 ran the first. This runs the classifier, which is the last named item.
+#
+# THE INSTRUMENT
+#   Rybizki, Green, Rix, El-Badry, Demleitner, Zari, Udalski, Smart & Gould 2022, "A classifier
+#   for spurious astrometric solutions in Gaia eDR3", MNRAS 510, 2597, DOI 10.1093/mnras/stab3588
+#   (arXiv:2101.11641v3, read at source 2026-08-03). Published per source as fidelity_v2 and
+#   queryable at the ESA archive as external.gaiaedr3_spurious (1 467 744 800 rows; the archive's
+#   own description: "Data replicated from the gedr3spur.main table at the GAVO Data Center TAP
+#   service https://dc.g-vo.org/tap").
+#
+#   Operating threshold, verbatim (§4.2): "In the rest of this work, we classify objects with
+#   fidelity > 0.5 as good, though users can make stricter (or looser) cuts to improve purity at
+#   the expense of completeness (or completeness at the expense of purity)."
+#
+#   Training rule for the "bad" class, verbatim (§3.1.1): "We obtain the bulk of our bad training
+#   sample by selecting sources with parallax_over_error < -4.5. We use the following query:
+#   SELECT * FROM gaiaedr3.gaia_source WHERE parallax_over_error < -4.5 . This returns 4.18
+#   million sources."
+#
+#   That is the same population this line measured at tick 18 (4 180 244) as Rybizki et al. 2021's
+#   published limit, against 3 037 732 under Fabricius et al. 2021's illustrative -5. THE DISPUTED
+#   BAND IS ENTIRELY INSIDE THE RULE THAT LABELLED THIS CLASSIFIER'S BAD TRAINING CLASS.
+#
+# WHAT IS MEASURED
+#   The good-rate g = (fidelity_v2 > 0.5) / total, in half-sigma bins of parallax_over_error
+#   straddling the training-label boundary at -4.5, and the step ratio r = g(next)/g(this) across
+#   each adjacent pair. If the classifier's verdict on the band carries information independent of
+#   the label rule, r across -4.5 is unremarkable among its neighbours (pre-registration D1). If it
+#   tracks the rule, r across -4.5 stands out (D2).
+#
+# Void condition (pre-registration §4, D3): the band total must reproduce 1 142 512 (ticks 18, 29,
+#   30) and good + not-good must sum to each bin total. Both held; the void did not fire.
+#
+# Coverage check, run before the pre-registration was fixed and reported there: the band joined to
+#   external.gaiaedr3_spurious on source_id returns 1 142 512 — every band source carries a
+#   fidelity value, so no count below can be moved by missing rows.
+#
+# Verbatim ADQL, two queries per bin:
+#   SELECT COUNT(*) FROM gaiaedr3.gaia_source AS g
+#     JOIN external.gaiaedr3_spurious AS s ON s.source_id = g.source_id
+#     WHERE g.parallax_over_error >= <lo> AND g.parallax_over_error < <hi>
+#   ... and the same with AND s.fidelity_v2 > 0.5
+#
+bin,parallax_over_error_low,parallax_over_error_high,inside_bad_label_rule,total,fidelity_gt_0p5,good_rate_pct
+B1,-6.0,-5.5,yes,587337,3508,0.5973
+B2,-5.5,-5.0,yes,814430,5600,0.6876
+B3,-5.0,-4.5,yes (the disputed band),1142512,9801,0.8578
+B4,-4.5,-4.0,no,1643370,121162,7.3728
+B5,-4.0,-3.5,no,2462169,292689,11.8874
+B6,-3.5,-3.0,no,4002864,812859,20.3069
+#
+# DERIVED — step ratios r = g(next)/g(this)
+#
+pair,crosses_label_boundary,step_ratio
+B1->B2,no,1.151
+B2->B3,no,1.248
+B3->B4,YES (-4.5),8.595
+B4->B5,no,1.612
+B5->B6,no,1.708
+#
+# Pre-registered D2 fired: r(B3->B4) = 8.595 is >= 3 and is larger than every non-crossing
+# adjacent ratio (max 1.708). D1 did not fire. The good-rate rises monotonically and smoothly
+# across the whole range at 1.15x-1.71x per half-sigma bin; the one discontinuity sits exactly at
+# the classifier's own training-label boundary.
+#
+# COUNTER-READING, recorded at full strength and NOT refuted by these counts (pre-registration §4):
+# a step is also what a good classifier should show where a real separation is. What the step
+# cannot distinguish is a learned rule from a learned world. The licensed verb is "tracks", fixed
+# before the counts were run.
+#
+# SURVIVAL COUNTS — the four criteria together (tick 30's three plus the classifier)
+#   Reported for completeness and DELIBERATELY NOT carried into the letter as a further
+#   correction of the disputed population: for this band the classifier is not an independent
+#   criterion, so subtracting with it would be applying the -4.5 limit twice and calling the
+#   result a measurement. See LETTER addendum 3 and TRACE tick 31.
+#
+population,condition,count
+BAND_4crit,BAND AND ruwe <= 1.4 AND astrometric_excess_noise_sig <= 2 AND visibility_periods_used >= 10 AND fidelity_v2 > 0.5,7464
+REFERENCE_4crit,REFERENCE AND ruwe <= 1.4 AND astrometric_excess_noise_sig <= 2 AND visibility_periods_used >= 10 AND fidelity_v2 > 0.5,8860
+#
+# For comparison, tick 30 (band-quality-apparatus-overlap-edr3.csv): the same three documented
+# criteria without the classifier leave 133 796 in the band and 194 022 in the reference
+# population. The classifier removes 94.42% and 95.43% of those respectively.
+#
+# NOT ALLEGED: no error in Rybizki et al. 2022, whose §3.1.1 publishes the training query that
+# makes this test possible; nothing about the classifier's performance on the positive-parallax
+# sources that are most of its use; nothing about its authors.
