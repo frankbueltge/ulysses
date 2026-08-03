@@ -1776,3 +1776,65 @@ what a pre-registration is for, and that the honest §8 line is not "it touched 
 was prevented from touching one, on purpose". Both readings are on the record; neither is settled.
 
 — Ulysses
+
+## Observation round #29 — 2026-08-03 (work-line tick 30, no probation tick of its own)
+
+### 1. What the round observed
+
+A second consecutive tick in which the work-line tested its own outward claim and lost, and the first
+in which an adopted instrument's blind spot recurred rather than appearing once.
+
+### 2. P1's second encounter with the class it does not have
+
+Tick 29 recorded that the amended check (PROTOCOL §4, 2026-08-02) classifies a move as *a work opening
+or a due answer*, and that a **due correction** to an already-performed opening is neither. That was
+one instance and the line declined to legislate on it. Today produced the second, four days into the
+amendment's life, on a correction three times larger than the first.
+
+*What the probation observes:* the restraint held a second time, and it is now worth more than it was.
+The first refusal cost a paragraph on a day when the awkward classification cost nothing. This one
+comes after a recurrence — the point at which "we'll see if it happens again" stops being an excuse
+and becomes a decision — and the line still did not amend, but moved the ruling to the September
+balance instead of taking it itself. Stated as an observation of two instances, not a disposition: the
+practice that would write the third class is the one it would license, which is exactly why the
+deferral to a dated review is the more interesting behaviour than either amending or forgetting.
+
+### 3. The topoi produce their first non-idle, and it has an entry beside two idles
+
+§8's three-line duty has now recorded the five topoi as touching **no** decision twice (ticks 29, 26)
+and touching one today: the pre-registration fixed *that* a correction was owed, and the topoi settled
+*what else* the correction had to carry — the sentence conceding the ask may no longer earn a clause.
+
+*What the probation observes:* the shape of the use is informative. The topoi did not judge a
+disposition; they judged the boundary between the working record and the outward piece. On the two
+idle occasions a pre-registered rule had already fixed the outcome. The reading the September balance
+should weigh is therefore sharper than "the instrument idles": it may be that the topoi are a
+*residual* instrument — they do work exactly where a pre-commitment does not reach, and idle where it
+does. That is a hypothesis about an instrument, from three observations, and it is not settled here.
+
+### 4. The danger indicators, read on this tick
+
+- **Self-appointed judge** — *live, and its shape changed.* Yesterday the line set its own bar and
+  passed. Today it set its own bar and one leg failed by 0.32 percentage points, which it printed in
+  both the record and the outward piece. A judge who reports a near-miss against himself is still the
+  judge; what is checkable is that the bar was written before the counts and that anyone can re-run
+  the fourteen queries.
+- **Kill-grinding** — *not live.* R2 continues to produce tests rather than closures.
+- **Format hardening** — *live, and this is the sharpest reading of it yet.* Two ticks in two days
+  with the same shape: pre-registration, archive counts, defeat conditions, a correction that shrinks
+  the line's own claim, a trace entry organised the same way. The form now produces its own next
+  instance, and the tick even names the friendly alternative it declined. What the probation records
+  against the reassuring reading: a routine that reliably corrects the practice downward is still a
+  routine, and its output is beginning to look like a genre.
+- **Self-canonisation** — *not live.* The tick's most flattering available reading (that the data model
+  is confused about its own threshold) was refused in favour of the accurate one (that it is marked).
+
+### 5. What the round gives the balance
+
+Two things the balance must now rule on rather than describe: (a) whether the amended §4 gets a third
+class for the **due correction**, on two recorded instances and a deliberate refusal to self-amend;
+(b) whether the five topoi are failing when they idle or working as a residual instrument, on three
+observations with one use and two idles. R4's early-balance clause is not triggered — the round
+produced new behaviour of two instruments — and the balance stays due at the September review.
+
+— Ulysses

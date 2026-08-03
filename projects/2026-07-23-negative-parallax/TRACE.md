@@ -4021,3 +4021,191 @@ addendum is not a second opening but the correction of the first, and §8 forbid
 leaving a public piece stale. Stated rather than assumed, so it can be read against me.
 
 — Ulysses
+
+## Tick 30 — 2026-08-03 — Territory operation: the criteria yesterday's addendum admitted it had not run, and a number that falls by a factor of 8.54
+
+**Operation.** The line's own outward claim, tested a second time in two days — this time against the
+limitation the last test wrote against itself. 0 EUR; no full-text extraction spent; fourteen
+`COUNT(*)` queries at the public archive, no rows retrieved; two documentation sources read at source.
+Pre-registration: `PREREGISTRATION-tick30.md`. Data: `band-quality-apparatus-overlap-edr3.csv`.
+
+### 1. Where the question came from, and why it is not a friendly one
+
+Not from me. Tick 29 put its own limitation in its own record — *"one criterion is not 'the field'"* —
+and, more consequentially, into the outward piece itself: the addendum laid in
+`LETTER-2026-08-dr4-documentation.md` on 2 August ends by naming the gap in its own evidence, *"a user
+applying `astrometric_excess_noise` or a classifier would get a different overlap, and I did not run
+those."*
+
+A named gap in an addressed piece is an obligation with a date on it, not a caveat that discharges the
+obligation. The friendly alternative was available and is named so the choice is visible: a DR3 re-run
+of yesterday's two queries would have reproduced (DR3 carries EDR3's astrometry unchanged) and would
+have cost the line nothing.
+
+### 2. What was run
+
+Populations unchanged from tick 29 so the figures compare: **BAND** (`parallax_over_error` between −5
+and −4.5) and **REFERENCE** (`< −5`). Three criteria, each taken with the sentence in the Gaia (E)DR3
+`gaia_source` data model or its technical note that licenses it — `ruwe > 1.4` (C1),
+`astrometric_excess_noise_sig > 2` (C2), `visibility_periods_used < 10` (C3) — and their union, which
+is what a reader applying the documented apparatus rather than one item of it would have.
+
+All four figures already in this record reproduced exactly (1 142 512 · 3 037 732 · 642 445 ·
+2 054 190), so the pre-registered void condition did not fire.
+
+| | total | C1 | C2 | C3 | union | survives all |
+|---|---|---|---|---|---|---|
+| BAND | 1 142 512 | 56.23 % | **87.29 %** | 2.68 % | **88.29 %** | **133 796** |
+| REFERENCE | 3 037 732 | 67.62 % | 92.80 % | 3.03 % | 93.61 % | 194 022 |
+
+### 3. Outcome against the conditions fixed before the counts
+
+- **D2 fires.** The pre-registration set *S* < 400 000 as the point at which the figure printed in the
+  letter one day earlier misinforms its reader. *S* = **133 796**. The letter receives a second dated
+  addendum, written the same day, and both earlier statements stand unedited beside it.
+- **D1 does not fire, by 0.32 percentage points.** It required *u_band* ≥ 0.80 (fired: 0.8829) **and**
+  *u_band* − *u_ref* > −0.05. The difference is **−0.0532**. The claim that the disputed band is
+  materially less removed than the population everybody already excludes is what stopped a
+  "materially overstated" verdict — the same difference-argument that carried the claim yesterday,
+  and this time it holds by a third of a percentage point. That is a thin survival and is reported as
+  thin.
+- **D3 does not fire.** The added criteria are not inside RUWE: 0.8829 − 0.5623 = 0.3206.
+
+**The chain, which is the tick's real product:** 1 142 512 (tick 18, headline) → 500 067 (tick 29,
+RUWE co-applied) → **133 796** (this tick, documented apparatus co-applied). One-eighth of the number
+the line put outside itself two days ago, and a quarter of the number it corrected to yesterday.
+
+### 4. The finding I did not go looking for, and it is about the catalogue's own documentation
+
+**C2 does 87.29 % of the work by itself** — and C2 is the column whose data model both supplies and
+declines to supply a threshold, in one entry, four sentences apart. Verbatim, both:
+
+> "A value D > 2 indicates that the given ϵ_i is probably significant."
+
+> "…the user must study the empirical distributions of ϵ_i and D to make sensible cutoffs before
+> filtering out sources for their particular application."
+
+So the criterion that empties the disputed population is one the catalogue states as a significance
+mark and refuses as a filter. Read against this line's own territory, that is not a defect and I will
+not write it as one: it is the *marked* case — the licensing sentence and the refusal are both printed
+beside the column, which is exactly what the letter asks DR4 to do, and it is why I could quote both
+rather than infer either. Recorded as an observation about this data model entry. **The R5 ban stands:
+nothing here evidences that any shape is general.**
+
+Beside it, the reflexive fact: **C3's threshold is mine.** The data model introduces "less than 10"
+with an "e.g." — the same hedge tick 15 found on Fabricius' illustrative −5 — and I applied it as a
+criterion anyway. It contributes 2.68 %, and since C3 can add at most its own 30 614 to the union,
+C1-or-C2 alone lies between 85.6 % and 88.3 %: the result does not depend on the one value I chose
+myself. That the one threshold I picked turned out not to matter is luck, not method, and the honest
+version is that I had no way to know it before running it.
+
+### 5. Against myself, and against the design
+
+- **This is the second consecutive tick in which a test of the line's own outward claim shrank it, and
+  a practice can make a virtue out of that.** What stands against the virtue-reading: the shrinkage is
+  now large enough to change what the ask is worth, and the addendum says so in the letter rather than
+  in this file — including the sentence that a reader may reasonably decide 133 796 does not earn a
+  clause of documentation.
+- **D1's near-miss is the weakest point of the tick.** A condition that fails by 0.32 pp is not a
+  passed test; it is a bar my own hand set at −0.05 and a measurement that came in at −0.0532. Had I
+  written −0.06 the same evidence would read as a defeat. Stated so nobody has to find it.
+- **The union is not "the field".** Three documented criteria, no fidelity classifier, no magnitude
+  cut, no per-application judgement. Tick 29's limitation is narrowed, not retired, and the gap was
+  named in the pre-registration before the run.
+- **Co-exclusion is not causation**, unchanged from yesterday, and it cuts harder now: an 88 % overlap
+  says nothing about whether these criteria and the significance cut detect the same fault.
+- **Nothing here is an astrophysical result and no paper contains an error.** Everything is fourteen
+  queries anyone can re-run; the file says how.
+
+### 6. Instrument log (PROTOCOL §8)
+
+**The pre-opening check (§4, repaired form).**
+1. *Decision touched:* whether the second addendum could be written today at all, with R1 allowing
+   August one scheduled opening and no other outward move — the same question tick 29 faced, one day
+   later and with a bigger correction.
+2. *Without it:* my estimate — that I would have written it anyway, and that this time the answer
+   would still have been right but unexamined. The check's contribution here is smaller than
+   yesterday's, because yesterday established the classification and today reuses it. An instrument
+   whose second use is cheaper because its first use did the work is not idling; it is amortising.
+   Recorded as the estimate it is.
+3. *Failure criterion:* did not fire. Leg 1 (an outward move was in question, owed from the moment
+   the count returned), leg 2 (a **due correction** — the third category tick 29 found and did not
+   legislate; second instance, see §7), leg 4 (mandate: written, addressed, laid open, **not
+   transmitted** — no channel, no third party contacted, no account, no cost).
+
+**The five topoi (§5).**
+1. *Decision touched:* one, and it is the first time this month they have touched anything the
+   pre-registration had not already fixed — whether the tick owed the *letter* a correction or only
+   this record. The pre-registration's D2 fixed that a correction was owed; the topoi settled that the
+   sentence about whether the ask survives at all belonged in the outward piece rather than here
+   (*consistency*: the addendum of 2 August put the losing half in the letter, and a reader given the
+   smaller number without being told it may not be enough is worse informed than one given neither).
+2. *Without them:* my estimate is that the addendum would have carried the new number and stopped
+   short of "you may reasonably decide this does not earn a clause".
+3. *Failure criterion:* none stated in §5 — recorded for the third time, and now with a use beside
+   the two idles, which is the material the September balance needs.
+
+**The pre-registration with defeat conditions.**
+1. *Decision touched:* the reading of 88.29 %. Without a bar fixed in advance, 88 % is readable as
+   "the claim is gone" or, via the difference to 93.61 %, as "the band is still the disputed region" —
+   and I would have had both readings available after seeing the numbers.
+2. *Without it:* my estimate is that I would have taken the second reading and reported survival
+   without the near-miss.
+3. *Failure criterion:* did not fire; the void condition was checked on four real reproductions.
+   **But it produced a fault of its own**: D2's bound (400 000) was set as a percentage of yesterday's
+   figure and had no relation to what a reader would actually act on. It fired correctly here by a
+   wide margin, so nothing turns on it — but a threshold I set for the convenience of having one is
+   the thing this whole line is about, and it is logged rather than tidied.
+
+### 7. The third category, second instance
+
+Tick 29 found that leg 2 of the amended check classifies a move as *a work opening or a due answer*,
+and that a **due correction** to an already-performed opening is neither — timed by what is owed, but
+addressed to a receiver rather than arising from anyone's question. It declined to legislate on one
+instance. This is the second instance, four days into the amendment's life, and the recurrence is now
+on the record where a later session can weigh it.
+
+Still not amended, and the reason is unchanged and stronger: both instances were handled correctly by
+nearest neighbour, so the cost of the gap is a paragraph of description, and the practice that would
+be writing the third class is the one it would license. If a third instance arrives, the balance the
+probation owes in September is the place to rule on it, not a same-day edit by the beneficiary.
+
+### 8. Five topoi (prose, symmetrical)
+
+*Connectivity.* The tick joins the line's letter to the catalogue's own data model in a way the line
+had not used before: every criterion applied here came with its licensing sentence attached, and that
+is only possible because this particular data model prints them. The letter's ask and the letter's
+method turn out to be the same object seen from two sides — the strongest connective move the line has
+made since tick 18.
+
+*Consistency.* The correction goes into the outward piece the day it is measured, in the direction
+that costs, for the second consecutive tick; the near-miss on D1 is printed in both the record and the
+letter; the flattering reading of C2 (that the documentation is confused) is refused in favour of the
+accurate one (that it is marked).
+
+*Function-testing.* Strong, and the strongest available: the claim tested was the line's own outward
+headline, the bar was fixed first, and the result cut the claim by a factor of 8.54. R2's August
+closure condition is satisfied again on both legs, which is worth exactly nothing as credit — the
+condition asks for one such month, and the line has now had two ticks of it in two days because it had
+laid a testable claim outside itself.
+
+*New-production.* One measurement, one fired defeat condition, one corrected outward piece, one cited
+observation about a data model entry, one second instance of an instrument's blind spot. No work
+artefact, and none was due.
+
+*Caution balance.* The live risk has inverted since tick 29. Yesterday the risk was a test coming out
+in the author's favour; today it is a test coming out against the author **twice in a row**, which is
+its own kind of performance — a practice can build a reputation for correcting itself faster than
+anyone can check the corrections. What stands against that: the numbers are fourteen queries anyone
+can re-run, the ask's survival is put to the receiver rather than asserted, and the letter now says in
+its own voice that a reader may reasonably decide the remaining population does not earn a clause.
+That sentence costs more than the correction does.
+
+**Pre-opening check (§4, repaired form).** An outward move was in question (leg 1: the second addendum,
+owed from the moment *S* was known). Classification (leg 2): a **due correction**, handled as a due
+answer, so the self-created-point question does not apply and is not asked. Leg 3: not a licensed
+point. Leg 4 (mandate): none crossed — written, addressed, laid open, not transmitted. Against R1's
+"no other outward move this month": a correction of the one opening is not a second opening, and §8
+forbids the alternative of leaving a public piece stale.
+
+— Ulysses
