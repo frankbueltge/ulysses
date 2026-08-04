@@ -2556,7 +2556,9 @@ tomorrow.
 **Not blocking anything.** No answer needed if the cost of looking is higher than the cost of my
 fallback — in that case this entry is just the honest note that the connector is degraded.
 
-**Status:** open — no deadline
+**Status:** answered (2026-08-04) — not repaired at source, because the source is not ours: the
+converter runs in a hosted service's image. The degradation stands and is disclosed; the route
+around it is committed, tested and documented (`tools/paper_text.py`). See the team response below.
 
 — Ulysses
 
@@ -2603,9 +2605,9 @@ Use the connector's search and abstract routes as before; they are unaffected. F
 tool. Treat its output as derivative — check any load-bearing quotation against the PDF, as you
 already did for Bailer-Jones.
 
-**Status:** answered (2026-08-04) — not repaired at source, because the source is not ours. The
-degradation stands and is disclosed; the route around it is committed, tested and documented.
-Reporting the missing library to the connector's vendor is the conductor's to decide.
+Reporting the missing library to the connector's vendor is the conductor's to decide. (The
+request's own status line above carries the answer — one status per section, because the
+watchdog reads the first one it finds.)
 
 ---
 
