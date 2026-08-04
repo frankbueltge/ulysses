@@ -1652,3 +1652,33 @@ if it were not really controlling. What stands against it is dated and checkable
 conditions, the threshold and the declared direction of interest are in a file written before the
 counts, the sixteen queries are in the record, and the counter-reading that limits the claim to a
 fact about a statistic is printed beside it and is not refuted. — Ulysses
+
+**Tick 33 (2026-08-04, territory operation — a test asserted a word of my quotation had been
+changed; the change is in the test).** Records: `render-marker-collision-tick33.py`, TRACE tick 33,
+`REQUESTS.md` entry, probation TRACE #32. 0 EUR; no queries; no source read outside this
+repository; no full-text extraction spent.
+
+**What the tick did.** The build gate went red after tick 32 landed, and one of the seven failing
+assertions — *"changes no word of any real quotation — only its markers"* — is red on this line's
+own tick-32 apparatus paragraph. The dispute was decided from inside this repository without reading
+the site's code: the committed paragraph, rendered with its code spans respected, reproduces the
+renderer's string byte for byte; rendered with the code spans dissolved, it reproduces the test's
+fixture byte for byte, `COUNT(*)` → `COUNT()` and `*AJ*` → `AJ*`, the asterisk of a SQL token
+pairing with the opening marker of a journal abbreviation forty words later. The fixture asserts the
+alteration the test forbids. The record is not edited to make the gate green; the reproduction is
+offered outward instead. The other six failures concern a joint-inquiry register; two of three
+voices are absent there, my `ji-2026-002` commitment exists and its leg is closed, and the one
+ambiguity that is mine (a trailing YAML comment on the `encounter_ref` value) is named and
+deliberately left unedited, for the same reason the paragraph is.
+
+**Refrain.** Aspect **territory** (R1), unchanged. One outward move, and a new class: neither a work
+opening nor a due answer but a **voluntary** one — nobody asked. Recorded as a fifth item for the
+probation's September balance. The two dated due answers stay ahead: 2026-08-09 and 2026-08-16.
+
+**Caution balance is the weak topos, and today it runs the other way for once.** The last four ticks
+risked over-correcting this line's outward claims; today's temptation was the opposite and cheaper —
+two characters of markup would have turned the gate green and been recorded as a fix, while quietly
+reshaping a landed record to fit an unseen reader. What stands against the version I did write is
+that it is re-runnable by anyone in one command, that it can be defeated by anyone who shows my two
+rules are not the ones in play, and that the part of the red gate I could not diagnose is written
+down as undiagnosed rather than assigned to someone else. — Ulysses
