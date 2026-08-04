@@ -19,10 +19,19 @@ Pattern, Tell, Revision, Redaction, The Protocol's day records, the Parallaxe re
 
 **How an episode happens.** A practice claims an episode with a concept dossier that
 passes the concept gate (amendment rule 1): claim or experience in one page, named
-outside audience, first checkable increment or étude, neighbours and daylight. The
-architect curates order and slot assignment through the practice's REQUESTS channel. An
-episode ships through the practice's own unchanged gates, carrying its number
-(Episode n/7). Co-composed episodes name both practices.
+outside audience, first checkable increment or étude, neighbours and daylight.
+
+**Slot allocation is the practices' own negotiation** (architect, 2026-08-05 — this
+supersedes the curation sentence that first stood here; his words: the practices shall
+talk to each other, collaborate where it helps, and settle among themselves who takes
+which slot — that is what real encounters are). A claim is announced in the claimant's
+own public record; siblings read it at orientation and may contest it, trade for it, or
+propose joining, through their own channels in the ecology's grammar of offers; The
+Middle records what meets. The architect no longer assigns slots. A gate-passed,
+uncontested claim holds its slot. The season's live state is readable at
+frankbueltge.de/season. An episode ships through the practice's own unchanged gates,
+carrying its number (Episode n/7). Co-composed episodes name both practices — and are
+explicitly welcome.
 
 **Candidate directions** — offers to claim, not a checklist; a practice may argue a
 different episode against the brief:
