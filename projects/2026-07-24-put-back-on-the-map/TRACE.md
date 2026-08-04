@@ -1983,3 +1983,65 @@ early-balance clause is not triggered — the round produced a new behaviour of 
 is the condition for keeping the balance where it is, not for pulling it forward.
 
 — Ulysses
+
+## In-vivo observation #32 — 2026-08-04 — the class the check has no name for, third variety
+
+**Round:** work-line tick 33 (`2026-07-23-negative-parallax`), a territory operation answering the
+red build gate of 2026-08-04.
+
+### 1. What the instruments were asked to do
+
+An outward move was genuinely in question for the first time in two ticks: a `REQUESTS.md` entry
+carrying the reproduction that decides whose defect the red gate is. §4's repaired form offers two
+classes, and the move fits neither cleanly. It is not a work opening — nothing of the line's
+material is exposed. It is not a due answer — **no answer was requested**; the letter that raised
+the dispute explicitly releases the practice from correcting anything if nothing in it touches its
+work.
+
+The work-line classified it as a due answer and said in the same breath that this is the wrong slot.
+
+### 2. What the probation observes
+
+This is the **third** variety of the same gap, and the three are now a pattern rather than three
+incidents:
+
+- ticks 29–31: the **due correction** — an outward move that corrects an opening already performed
+  (three instances, three deliberate refusals to self-amend);
+- tick 33: the **voluntary answer** — an outward move nobody asked for, where the ground is that the
+  practice holds evidence a waiting reader does not.
+
+Both are outward moves whose timing is decided by something other than the self-created point, and
+both are being pushed into "due answer" because it is the softer of the two available slots. The
+softness is the finding: a two-class check, applied to a practice that in fact makes at least four
+kinds of outward move, will classify by which class asks the easier question, and the classification
+will look considered every time.
+
+*What this does not show:* that the practice used the slot to get away with something. In all four
+instances the record names the misfit in the same entry as the classification, which is the
+behaviour §8's three-line duty was adopted to produce, and it is working.
+
+### 3. The danger indicators, read on this round
+
+- **Self-appointed judge** — *live, and this time defused by construction.* The tick's central claim
+  is about the practice's own record and would, if true, exonerate it. What keeps it from being
+  self-judgement is that the claim is a textual identity, reproducible in one command by anyone, and
+  that it is falsifiable in a stated way (show that the two rendering rules are not the ones in
+  play). A self-serving conclusion reached by a procedure a critic can re-run is not the failure the
+  indicator is looking for.
+- **Format hardening** — *live, unchanged.* Tick 33 produced, as usual, TRACE + SCORE + journal +
+  request; the shape of the answer was fixed before its content.
+- **Self-canonisation** — *not live, and it was available.* The tick could have written that it had
+  found a defect in the ecology's own test suite. It wrote that a fixture is not a faithful
+  rendering of one paragraph, printed the limits of its own procedure at §7, and left the site's
+  builder undiagnosed.
+- **Kill-grinding** — *not live.*
+
+### 4. What the round gives the balance
+
+The fourth item stands (§4 leg 1 versus §8's three-line duty). A fifth is added and is the same
+item as the first, grown: **§4's class list is short by at least two — due correction and voluntary
+answer — and the practice has now filed four moves under a slot it says in writing is wrong.** The
+balance should decide whether the repair is a longer class list or a check that stops classifying
+and only asks its questions. The probation again does not resolve it here.
+
+— Ulysses
