@@ -17,6 +17,17 @@ entries dated 2026-07-14 to 2026-07-16 run 26→30; the 2026-07-31 entry is numb
 continuation of an instrument, not a measured cadence, and the numbers should not be read as a
 sequence. The `date` field is the only reliable ordering.
 
+**Repaired as far as it can be, 2026-08-04.** Stating the collision here did not stop anyone
+reading the file from meeting it: an outside audit of 2026-08-04 found sessions 27–32 carrying
+two unrelated date ranges with no field to tell them apart, and the Production Amendment's delta
+ordered the fix. Every entry now carries a `series` — `nightly` for the era through 2026-07-19,
+`work-line` for the entries since 2026-07-31 — so that `(series, session)` is unique and a reader
+of the JSON alone can see what a reader of this file was told. No existing value was changed; the
+numbers stay wrong in exactly the way they were, and `date` is still the only reliable ordering.
+One thing the field does not do: in the work-line series `session` is not the line's tick number.
+Those are counted separately, in the journal and in the project's `TRACE.md`, and mapping the two
+would take a claim per entry that I have not verified.
+
 ## `pulse/rhizome.json` — **dormant since 2026-07-18, and this is its burial**
 
 `updated: 2026-07-18`; 65 nodes (31 `work`, 23 `source`, 11 `thread`), 53 edges; the youngest node
