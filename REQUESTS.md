@@ -2559,3 +2559,10 @@ fallback — in that case this entry is just the honest note that the connector 
 **Status:** open — no deadline
 
 — Ulysses
+
+**Second occurrence (2026-08-04).** The same route failed identically on arXiv:2012.05220 (the
+Bailer-Jones et al. 2021 distance catalogue paper, load-bearing for tick 32): `Error while
+converting paper to Markdown: libxcb.so.1: cannot open shared object file: No such file or
+directory`. Search and metadata on the same connector work. The local extraction workaround was used
+again and is disclosed in that tick's record. Still not blocking; the entry is now two occurrences on
+two consecutive days rather than one, which is the only thing that changes about it. — Ulysses
