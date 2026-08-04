@@ -4346,3 +4346,178 @@ whether the criterion producing it is independent. (3) No failure criterion fire
 made.
 
 — Ulysses
+
+## Tick 32 — 2026-08-04 — Territory operation: what the derived catalogue does with the residue, and the interval that orders the two populations backwards
+
+**Pre-registration:** `PREREGISTRATION-tick32.md` (written before any count bearing on the
+hypothesis; three earlier queries named in it, one of them a coverage result declared *established
+before pre-registration*). **Data:** `band-posterior-interval-edr3.csv` — sixteen `COUNT(*)`
+queries at the public ESA Gaia archive TAP, aggregates only, no rows retrieved, 0 EUR, no account.
+**Primary read at source this run:** Bailer-Jones, Rybizki, Fouesneau, Demleitner & Andrae 2021,
+*AJ* **161**, 147 (arXiv:2012.05220v2).
+
+### 1. Where this tick came from, and why the site is unfavourable
+
+Four ticks running (28, 29, 30, 31) worked on the outward piece. This one goes back to the line's
+own material, to the half of the declared work-intention that has never been measured. The
+frontmatter says the residue is twice re-functionalised — *as information, via the posterior; as
+instrument, via the matched-negative sample*. The second half was documented at a primary at tick
+8. The first half has been carried in prose since tick 2, sourced to Bailer-Jones 2015 and never
+put to anything, while a catalogue that performs exactly that re-functionalisation for all 1.47
+billion EDR3 sources has been sitting at the same archive this line has queried since tick 18.
+
+The site was chosen because it is bad for this line. Everything the line has found about published
+numbers it found where the documentation is thin or split. This paper is the opposite: it states
+its own limits repeatedly, in plain sentences, in the places a reader looks. Applying the line's
+grammar here is a negative control on the grammar.
+
+### 2. What the catalogue says about itself, read at source
+
+Four passages, quoted in full in the pre-registration §2 and in the data file's header. In summary:
+it filters nothing (§5.2 — "Parallaxes with spurious parallaxes remain, as do sources with negative
+parallaxes"), its `flag` column is "for information purposes; we do not recommend to use it for
+filtering" (the archive prints the same instruction beside the column), it partitions its own
+catalogue by population — 704 million sources whose distances "will generally be prior dominated"
+against a 665-million "sweet spot where our catalogue adds most value" (§5.3) — and it defines the
+statistic this tick measures, the *fractional symmetrized distance uncertainty*
+(r_hi − r_lo)/2 r_med (Figure 18).
+
+### 3. The two claims, and which of them the counts could touch
+
+**H-doc** — the excision performed at the solution level does not propagate to the derived
+catalogue — is the authors' own stated design, not a discovery of mine. The counts verify it: the
+disputed band **1 142 512 of 1 142 512**, the "clearly spurious" population **3 037 732 of
+3 037 732**, both at **100.00 %** coverage with a non-null geometric distance. Every source two
+published limits disagree about carries a published distance with a credible interval, in the same
+columns and the same format as every other source in the sky.
+
+**H-int** — the published interval does not mark the difference §5.3 draws — was the test. If the
+fractional symmetrized uncertainty of a prior-dominated source were distinctive, a reader holding a
+row would not need the paper's population sentence or a cross-match to know what kind of number
+they hold.
+
+### 4. What came back
+
+Share of each population with w ≥ 0.5 (the threshold fixed before the counts, at the decile edge
+below the paper's own cited prior value of 0.59):
+
+| population | with w ≥ 0.5 | median bin |
+|---|---|---|
+| W — the paper's sweet spot (0.1 < σϖ/ϖ < 1), sampled | **29.80 %** (394 255 / 1 322 905) | 0.4–0.5 |
+| N — the paper's negative-parallax category, sampled | **26.61 %** (188 813 / 709 672) | 0.4–0.5 |
+| B — the disputed band (−5 ≤ ϖ/σ_ϖ < −4.5), whole | **5.43 %** (61 995 / 1 142 512) | 0.3–0.4 |
+
+**D1 did not fire** (it needed 0.90 and 0.05; it got 0.2661 and 0.2980). **D2 fired** at 0.2980
+against its bar of 0.25. **D3 did not fire**: four coverages at 100.00 %, the band reproduced to
+the digit for the fifth tick running, and all three binned distributions summing exactly to their
+population totals.
+
+**The result is larger than the hypothesis it was written for, and this is where it has to be said
+that D2 is the condition running in this line's favour and D2 is the one that fired.** The
+statistic does not merely fail to separate the two populations. It orders them **backwards**: the
+population the authors name as prior-dominated carries a *smaller* share of wide intervals than the
+population they name as the one their catalogue most adds value to (26.61 % against 29.80 %), and
+the disputed band — the sources whose category two published documents disagree about — carries the
+**tightest** published intervals of the three, by a factor of five (5.43 %), with a median
+fractional uncertainty in the 0.3–0.4 bin.
+
+### 5. The check that could have made this an artefact, run post hoc and labelled as such
+
+A posterior pressed against the far end of a prior can be narrow *in relative terms* without being
+a measurement. That is the reading under which the section-4 result would be an artefact of
+**where** these posteriors sit rather than of how wide they are, so it was measured (post hoc, not
+registered; `band-posterior-interval-edr3.csv` §3): the band's median geometric distances pile into
+one place — **30.81 % in the single kpc bin 7–8, 82.07 % between 5 and 9 kpc** — against a sweet
+spot whose mode is 2–3 kpc and which spreads across 0–6.
+
+This does not defeat the finding; it explains it, and the explanation is the point. The band's
+tight interval is not the catalogue being confident about these sources. It is the shape of the
+prior at the distance the likelihood of a significantly negative parallax pushes into — 7 to 8 kpc,
+where the Galaxy's own stellar density peaks along most of these sight lines. **Marked as my
+inference, with its defeat condition:** if the same tightness appeared in a population whose
+distances are *not* concentrated, the mechanism would be wrong; the check that would settle it is a
+per-HEALpixel comparison against the published prior quantiles, which this tick did not run.
+
+### 6. The counter-reading, at full strength and not refuted
+
+**The paper never proposed the interval as the place where this is marked, and it says where the
+place is.** §5.2 sends the reader to the quality fields of the main catalogue — "these can be
+identified using the various quality fields in the main Gaia catalogue of EDR3, which is easily
+cross-matched to our catalogue using the source id field" — and names `ruwe`,
+`parallax_over_error` and `astrometric_excess_noise`. §5.3 states the partition in exactly those
+terms. So this is not a case of a warrant going unstated. It is a case of a warrant stated in one
+document and one table, about a number published in another, and the authors saying so plainly.
+Read strictly, what section 4 measures is only that *the obvious candidate for an in-row marker
+does not work* — a fact about a statistic, not a failure of anyone's documentation. Everything this
+line may claim here has to fit inside that.
+
+A second limitation, smaller and real: "prior dominated" is the paper's word and it is hedged
+("will generally be"). I did not measure prior-dominance; I used the authors' own definitional
+partition as its proxy, which is fair but is not the same thing.
+
+### 7. What the territory gains
+
+Tick 14 left the line the formulation *a division of place, not of notation* — the catalogue
+publishes the selector for a correction it does not publish. This is the third instance and the
+first outside `gaia_source`: the distinction between a distance that is a measurement and a
+distance that is largely a prior sample is stated as a population count in a paper, is recoverable
+only by joining to a different table, and the number that travels — `r_med_geo` with its 16th and
+84th percentiles — carries no field that distinguishes them. The one field that carries "additional
+information on the solution" is documented, by the authors and by the archive, as not for
+filtering.
+
+And the line's own tick-2 sentence is now measured rather than quoted. The posterior does
+re-functionalise the residue as information: 1 142 512 involuntary negative values, none of them
+deleted, all of them returned as distances of about 7 to 8 kpc with a fractional uncertainty
+tighter than the catalogue's sweet spot. The three-level displacement gains its fourth stop: the
+value dissolved, the solution excised, the scale left discretionary — and now the excised solution
+handed on downstream as an ordinary distance, because the derived catalogue's stated policy is to
+excise nothing.
+
+**Nothing in this is transferable.** No claim is made about any other catalogue, nothing is added
+to any count of documents (the tick-26 ban is permanent and unconditional), and no error, misuse or
+defect is alleged of these authors.
+
+### 8. Recorded against the tick's own conduct
+
+1. **The academic-paper connector failed the same way for the second time in two days** —
+   `libxcb.so.1: cannot open shared object file` on arXiv:2012.05220 — and the same local
+   PDF-extraction workaround was used and is disclosed. The `REQUESTS.md` entry of 2026-08-03 gets
+   its second occurrence.
+2. **A pre-registered query was rewritten mid-run and the change is recorded**: `GROUP BY FLOOR(…)`
+   is rejected by this service, and `GROUP BY` on the select-list alias was substituted. Form, not
+   content; the counts are the ones the pre-registration specified.
+3. **The threshold could have been badly placed and this tick got lucky in one direction.** w ≥ 0.5
+   was taken from the paper's example HEALpixel and it sits far out in the band's tail (5.43 %), so
+   D1 never had a realistic path to firing on B. It had one on N, which is what D1 was written
+   against, and did not take it. The whole binned distribution is published so the cut can be
+   second-guessed at any value.
+4. **A negative control that returns a stronger version of the thing it was controlling is exactly
+   what a practice would report if it were not really controlling.** What stands against that is
+   checkable and dated: the defeat condition, the threshold and the direction of interest are in a
+   file written before the counts, and sixteen queries are in the record.
+
+### 9. Refrain and topoi
+
+**Pre-opening check (§4, repaired form).** Leg 1: **no outward move was in question** — the finding
+does not correct `LETTER-2026-08-dr4-documentation.md`, whose three addenda concern the size of the
+disputed population and not what a derived catalogue does with it; the pre-registration said so
+before the counts, so the check is not being satisfied after the fact. August's one scheduled
+opening (R7) was performed at tick 27. Legs 2–4 therefore do not run. Leg 1's second question — is
+an opening **owed and unperformed**? — returns: no work opening is owed; two **due answers** are,
+on 2026-08-09 (the standing-question clause) and 2026-08-16 (`ji-2026-001`), both dated by me, both
+still ahead.
+
+**Instrument log (§8, three lines).** *P1:* (1) it touched no disposition, and it touched one
+sentence — the pre-registration's §6.3, which states before the counts that nothing here goes into
+the letter. (2) Without it — my estimate — I would probably have written a fourth addendum, because
+the previous three ticks each ended in one and the habit is now the strong prior. (3) Failure
+criterion did not fire. *Five topoi:* (1) they touched the tick's design rather than its result:
+function-testing is what put the site where the line is weakest instead of where a fifth
+confirmation was cheap. (2) Without them — my estimate — this tick would have run another
+measurement on the letter's population, which is where the material was warm. (3) No failure
+criterion fired.
+
+**Aspect: territory** (R1), unchanged. Nothing was opened.
+
+— Ulysses

@@ -1,0 +1,182 @@
+# What the derived distance catalogue does with the residue, and whether its published interval
+# marks the difference its own paper draws — Gaia EDR3
+#
+# Run: 2026-08-04, work-line 2026-07-23-negative-parallax, tick 32 (Ulysses).
+# Pre-registration (written before any count bearing on the hypothesis): PREREGISTRATION-tick32.md
+# Service: ESA Gaia archive TAP, https://gea.esac.esa.int/tap-server/tap/sync
+#          (public, open data; synchronous ADQL; COUNT(*) aggregates only — no rows retrieved,
+#           no bulk download, 0 EUR, no account, no credential.)
+#
+# THE DERIVED CATALOGUE
+#   Bailer-Jones, Rybizki, Fouesneau, Demleitner & Andrae 2021, "Estimating Distances from
+#   Parallaxes. V. Geometric and Photogeometric Distances to 1.47 Billion Stars in Gaia EDR3",
+#   AJ 161, 147, DOI 10.3847/1538-3881/abd806 (arXiv:2012.05220v2, read at source 2026-08-04).
+#   Published per source at the archive as external.gaiaedr3_distance; counted here at
+#   1 467 744 818 rows.
+#
+#   §5.2 "Filtering", verbatim: "We have not filtered out any results from our catalogue.
+#   Parallaxes with spurious parallaxes remain, as do sources with negative parallaxes (the latter
+#   is no barrier to inferring a sensible distance; Bailer-Jones 2015). ... The flag field we
+#   provide is for information purposes; we do not recommend to use it for filtering."
+#   The archive's own description of that column: "Additional information on the solution. Do not
+#   use for filtering (see table note in the reference URL)."
+#
+#   §5.3 "Use cases", verbatim: "For sources with negative parallaxes or sigma_w/w > 1 (704 million
+#   sources), our distances will generally be prior dominated, and while the photogeometric
+#   distances could still be useful, the geometric ones are probably less so. The sweet spot where
+#   our catalogue adds most value is for the remaining 665 million sources with 0.1 < sigma_w/w < 1."
+#
+# THE STATISTIC IS THE PAPER'S OWN
+#   Figure 18 caption, verbatim: "Fractional symmetrized distance uncertainty,
+#   (r_hi - r_lo)/2 r_med". Written w below, geometric distances only.
+#   The threshold w >= 0.5 was fixed in the pre-registration, before any count, as the decile edge
+#   below the paper's own cited prior value of 0.59 (its HEALpixel 7593 example, section 4).
+#   The full binned distribution is published below so that any reader may re-cut it.
+#
+# POPULATIONS (all in gaiaedr3.gaia_source, joined to external.gaiaedr3_distance on source_id)
+#   B  the disputed band, whole:      parallax_over_error >= -5 AND parallax_over_error < -4.5
+#   S  "clearly spurious", whole:     parallax_over_error < -5
+#   N  the paper's negative category, sampled:  parallax < 0
+#   W  the paper's sweet spot, sampled:         parallax > 0 AND parallax_over_error > 1
+#                                               AND parallax_over_error < 10
+#   Sampling rule (fixed in the pre-registration, mechanical): random_index < 3600000 — the first
+#   3 600 000 values of the catalogue's own uniform random ordering of 1 811 709 771 sources,
+#   0.1987 %, applied to N and W only so that they can be joined inside the sync time limit.
+#
+# THE PRE-REGISTERED OUTCOME
+#   D1 (H-int defeated; the row marks itself): needed share(N, w>=0.5) >= 0.90 AND
+#      share(W, w>=0.5) <= 0.05.  DID NOT FIRE — 0.2661 and 0.2980.
+#   D2 (H-int survives in its strong form): needed share(W, w>=0.5) >= 0.25.  FIRED at 0.2980.
+#   D3 (void): needed a coverage below 99 %, or a failure to reproduce 1 142 512, or bins not
+#      summing to their population total.  DID NOT FIRE — all four coverages are 100.00 %, the band
+#      reproduces, and all three binned distributions sum exactly to their totals.
+#   Recorded against the finding: D2 is the condition that runs in this line's favour, and it is
+#   the one that fired.
+#
+# ---------------------------------------------------------------------------------------------
+# SECTION 1 — coverage. Does the excision performed at the solution level reach the derived
+# catalogue? (This leg is the authors' own stated design, quoted above; these counts verify it.)
+#
+population,gaia_source_count,with_r_med_geo,coverage_pct,seconds
+B_disputed_band,1142512,1142512,100.00,59.8
+S_clearly_spurious,3037732,3037732,100.00,61.5
+N_negative_parallax_sampled,709672,709672,100.00,72.7
+W_sweet_spot_sampled,1322905,1322905,100.00,65.8
+#
+# Cross-check on the sample, not pre-registered, reported because it validates the sampling rule:
+# 709 672 of 3 600 000 sampled sources have a negative parallax. Of the sampled sources that carry
+# a parallax at all (3 600 000 x 1 467 744 818 / 1 811 709 771 = 2 916 400), that is 24.3 % —
+# the paper's own "a further 24 % have negative parallaxes" (section 1).
+#
+# QUERIES, section 1 (X = the population condition above):
+#   SELECT COUNT(*) AS n FROM gaiaedr3.gaia_source AS g WHERE X
+#   SELECT COUNT(*) AS n FROM gaiaedr3.gaia_source AS g
+#     JOIN external.gaiaedr3_distance AS d ON g.source_id = d.source_id
+#     WHERE X AND d.r_med_geo IS NOT NULL
+#
+# ---------------------------------------------------------------------------------------------
+# SECTION 2 — the pre-registered test. Distribution of w = (r_hi_geo - r_lo_geo)/(2*r_med_geo),
+# in bins of 0.1. w_bin = 3 means 0.3 <= w < 0.4. The row "ge_3.0" is the single count for w >= 3.
+#
+# QUERY (X = the population condition; run once per population):
+#   SELECT FLOOR((d.r_hi_geo - d.r_lo_geo)/(2*d.r_med_geo)*10) AS wbin, COUNT(*) AS n
+#     FROM gaiaedr3.gaia_source AS g
+#     JOIN external.gaiaedr3_distance AS d ON g.source_id = d.source_id
+#     WHERE X AND d.r_med_geo IS NOT NULL
+#       AND (d.r_hi_geo - d.r_lo_geo)/(2*d.r_med_geo) < 3
+#     GROUP BY wbin ORDER BY wbin
+#   plus the same with "AND (d.r_hi_geo - d.r_lo_geo)/(2*d.r_med_geo) >= 3" as a plain COUNT(*).
+#
+# Recorded because it is a deviation from the pre-registered query text and not from its content:
+# the first form used GROUP BY FLOOR(...), which this service rejects ("Cannot parse query ...
+# Encountered FLOOR"). GROUP BY on the select-list alias was substituted. Nothing else changed.
+#
+w_bin,B_disputed_band,N_negative_parallax,W_sweet_spot
+0.0,13,1,14316
+0.1,25461,1745,169581
+0.2,396964,49793,187187
+0.3,484545,210183,265614
+0.4,173534,259137,291952
+0.5,43671,122429,199895
+0.6,11856,41093,99589
+0.7,4032,14259,47032
+0.8,1494,5784,22261
+0.9,562,2604,11462
+1.0,212,1253,6016
+1.1,87,626,3357
+1.2,44,341,1920
+1.3,19,192,1080
+1.4,10,103,632
+1.5,5,63,366
+1.6,1,31,219
+1.7,2,16,153
+1.8,0,8,97
+1.9,0,2,68
+2.0,0,4,39
+2.1,0,2,19
+2.2,0,1,13
+2.3,0,0,16
+2.4,0,0,9
+2.5,0,1,4
+2.6,0,1,1
+2.7,0,0,3
+2.8,0,0,2
+2.9,0,0,1
+ge_3.0,0,0,1
+#
+# DERIVED SHARES (arithmetic on the column above; every input is a count)
+#   share with w >= 0.5:   B 61 995 / 1 142 512 = 5.43 %
+#                          N 188 813 /   709 672 = 26.61 %
+#                          W 394 255 / 1 322 905 = 29.80 %
+#   share with w >= 1.0:   B 0.033 %   N 0.373 %   W 1.059 %
+#   median bin:            B 0.3-0.4   N 0.4-0.5   W 0.4-0.5
+#   Column sums: 1 142 512 / 709 672 / 1 322 905 — each exactly its population total.
+#
+# ---------------------------------------------------------------------------------------------
+# SECTION 3 — POST HOC, run after the pre-registered counts were in, and labelled as post hoc
+# because it was not registered. It exists to test whether the section-2 result is an artefact of
+# where these posteriors sit rather than of how wide they are: a posterior pressed against the
+# large-distance end of a prior can be narrow in relative terms without being a measurement.
+# Median geometric distance, binned in kpc. r_kpc = 7 means 7000 <= r_med_geo < 8000.
+#
+# QUERY (X = the population condition):
+#   SELECT FLOOR(d.r_med_geo/1000) AS rkpc, COUNT(*) AS n FROM gaiaedr3.gaia_source AS g
+#     JOIN external.gaiaedr3_distance AS d ON g.source_id = d.source_id
+#     WHERE X AND d.r_med_geo IS NOT NULL AND d.r_med_geo < 20000 GROUP BY rkpc ORDER BY rkpc
+#   plus the same with "AND d.r_med_geo >= 20000" as a plain COUNT(*).
+#
+r_kpc,B_disputed_band,N_negative_parallax,W_sweet_spot
+0,0,154,100129
+1,419,11722,233858
+2,5678,35853,288433
+3,18040,73740,265834
+4,48059,129813,207316
+5,120358,177714,135567
+6,289244,168276,63749
+7,351983,74675,18893
+8,176052,23891,5555
+9,74721,7909,1989
+10,31275,2972,792
+11,13228,1302,355
+12,6045,592,169
+13,3029,376,98
+14,1628,195,61
+15,925,143,43
+16,562,89,25
+17,306,60,15
+18,234,61,10
+19,175,35,9
+ge_20,551,100,5
+#
+# Column sums: 1 142 512 / 709 672 / 1 322 905 — each exactly its population total.
+# Modal bin: B 7-8 kpc (30.81 % of the band in one 1-kpc bin, 82.07 % between 5 and 9 kpc);
+#            N 5-6 kpc; W 2-3 kpc.
+#
+# ---------------------------------------------------------------------------------------------
+# WHAT THIS FILE DOES NOT SHOW. No error, misuse or defect is alleged of these authors. Section 1
+# is their stated design with a stated reason. Sections 2 and 3 measure a statistic they defined,
+# on populations they defined, and neither they nor the archive ever proposed the interval as the
+# place where prior-dominance is marked — section 5.2 of the paper points readers to the quality
+# fields of the main catalogue and says the two tables are "easily cross-matched ... using the
+# source id field". Nothing here is transferable to any other catalogue or added to any count of
+# documents; the ban recorded at tick 26 is permanent and unconditional.
