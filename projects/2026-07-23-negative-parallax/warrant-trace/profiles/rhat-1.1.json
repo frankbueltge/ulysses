@@ -1,0 +1,73 @@
+{
+  "id": "rhat-1.1",
+  "focus_value": "1.1",
+  "statistic": "R-hat, the potential scale reduction factor — the between/within-chain convergence diagnostic of an iterative simulation, published under three names in the same literature (R-hat, PSRF, the Gelman-Rubin statistic)",
+  "deriving_document": "Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A. & Rubin, D. B., 'Bayesian Data Analysis', 3rd ed. (2013), section 11.5 'Stopping the simulations', read at source 2026-08-05 in the authors' free electronic edition: 'We recommend computing the potential scale reduction for all scalar estimands of interest; if R-hat is not near 1 for all of them, continue the simulation runs (perhaps altering the simulation algorithm itself to make the simulations more efficient, as described in the next section). The condition of R-hat being ‘near’ 1 depends on the problem at hand, but we generally have been satisfied with setting 1.1 as a threshold.' The number is a reading stated inside a textbook section and hedged in the same sentence; the same book applies it as a criterion in its own worked examples ('R-hat < 1.1 for all parameters').",
+  "provenance_note": "Gelman & Rubin (1992), Statistical Science 7(4), 457–472, doi:10.1214/ss/1177011136 — the paper the diagnostic is named after and the document the threshold is usually attributed to — was read in full at source (publisher's scan, 16 pages, no text layer, read as page images) on 2026-08-05 and STATES NO NUMERIC THRESHOLD. Its operative sentences are 'once R-hat is near 1 for all scalar estimands of interest' (§2.2, p. 461) and 'In practice, we are concerned if the scale reduction is large, but not if it is small' (§3.7, p. 465). Vehtari et al. (2021), doi:10.1214/20-BA1221, arXiv:1903.08008, derives the rival value 1.01 and attributes the older threshold to that 1992 paper: 'This threshold is much tighter than the one recommended by Gelman & Rubin (1992).' So `cite_gr1992` is NOT the deriving flag: it records where the field points, and the deriving flag records where the number is. Neither flag is evidence on its own — every site at the focus value is hand-read against the citing paper's own bibliography, as at tick 35, where a flag built to identify a deriving document returned 0 of 38 and the hand-count found 3.",
+  "window": 420,
+  "term": "(?:(?:wide)?hat\\s*\\{?\\s*R\\b|\\bR-?hat\\b|\\bRhat\\b|R̂|\\bPSRF\\b|potential\\s+scale\\s+reduction(?:\\s+factor)?|Gelman[-–\\s]?Rubin(?:\\s+(?:statistic|diagnostic|criterion|convergence))?)",
+  "rel": "(?:<|>|=|less\\s+than|smaller\\s+than|lower\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|below|above|exceed(?:ing|s)?|of|up\\s+to|at\\s+most|at\\s+least|under|over|worse\\s+than|better\\s+than)",
+  "site_patterns": [
+    "{TERM}[^.;:\\n]{0,50}?{REL}\\s*(\\d(?:\\.\\d+)?)\\b",
+    "(\\d(?:\\.\\d+)?)\\s*(?:<|>)\\s*{TERM}"
+  ],
+  "flags": {
+    "cite_bda": {
+      "scope": "both",
+      "pattern": "bayesian\\s+data\\s+analysis|\\bBDA\\s?[23]?\\b|gelman[^,\\s]*(?:2013|2014|2004|1995|13\\b)|gelman.{0,30}carlin",
+      "note": "the deriving document — the textbook section that carries the number"
+    },
+    "cite_gr1992": {
+      "scope": "cites",
+      "pattern": "gelman.{0,14}rubin|gelman[^,\\s]*(?:1992|92)\\b|\\bGR9?2\\b",
+      "note": "a citation key pointing at the 1992 paper — which contains no numeric threshold. Scope is the cite keys only, so the eponym in prose does not fire it."
+    },
+    "name_gr": {
+      "scope": "window",
+      "pattern": "Gelman[-–\\s]?Rubin",
+      "note": "the eponym used as the name of the statistic — not a citation, recorded separately for exactly that reason"
+    },
+    "cite_vehtari": {
+      "scope": "both",
+      "pattern": "vehtari|1903\\.08008|BA1221|rank[-\\s]?normali[sz]",
+      "note": "the 2021 paper that derives the rival value 1.01 and recommends against 1.1"
+    },
+    "cite_software": {
+      "scope": "both",
+      "pattern": "\\bstan\\b|rstan|cmdstan|pymc|\\bjags\\b|\\bbrms\\b|nimble|numpyro|winbugs|openbugs|\\bbayestestR\\b|posterior\\s+package",
+      "note": "a piece of software standing where the deriving document could stand"
+    },
+    "prov": {
+      "scope": "window",
+      "pattern": "near\\s+1|close\\s+to\\s+1|depends\\s+on\\s+the\\s+problem|satisfi|derived\\s+(?:for|from|on)|simulation\\s+stud|best\\s+case",
+      "note": "the reading the number came from, or its hedge, reproduced at the use site"
+    },
+    "hedge": {
+      "scope": "window",
+      "pattern": "commonly\\s+(?:used|adopted)|widely\\s+(?:used|adopted)|standard\\s+(?:cut|threshold|criteri|value|selection)|typical(?:ly)?\\s*(?:used|adopted|applied)|conventional|arbitrar|recommend|customar|usual(?:ly)?\\s*(?:used|adopted|applied)|often\\s+(?:used|adopted)|frequently\\s+(?:used|adopted)|de\\s+facto|rule\\s+of\\s+thumb|common\\s+(?:practice|choice)",
+      "note": "status marked without citation — verbatim from the ruwe-1.4 and uwe-1.25 profiles, so the three cases are comparable on this one vocabulary"
+    }
+  },
+  "match_flags": {
+    "as_rhat": {
+      "pattern": "hat|R̂",
+      "note": "the site names the statistic R-hat"
+    },
+    "as_psrf": {
+      "pattern": "PSRF|potential\\s+scale\\s+reduction",
+      "note": "the site names it the potential scale reduction factor"
+    },
+    "as_eponym": {
+      "pattern": "Gelman",
+      "note": "the site names it after its authors — the name travels where the document does not have to"
+    }
+  },
+  "deriving_flag": "cite_bda",
+  "targets": [
+    {"name": "bda", "pattern": "bayesian\\s+data\\s+analysis|\\bBDA\\s?[23]?\\b|gelman[^,\\s]*(?:2013|2014|2004|1995)|gelman.{0,30}carlin"},
+    {"name": "vehtari_2021", "pattern": "vehtari|1903\\.08008|BA1221|rank[-\\s]?normali[sz]"},
+    {"name": "gelman_rubin_1992", "pattern": "gelman.{0,14}rubin|gelman[^,\\s]*(?:1992|92)\\b|\\bGR9?2\\b"},
+    {"name": "brooks_gelman_1998", "pattern": "brooks.{0,14}gelman|brooks[^,\\s]*(?:1998|98)\\b"},
+    {"name": "software", "pattern": "\\bstan\\b|rstan|cmdstan|pymc|\\bjags\\b|\\bbrms\\b|nimble|numpyro|winbugs|openbugs|coda\\b"}
+  ]
+}
