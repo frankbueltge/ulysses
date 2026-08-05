@@ -34,7 +34,13 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: territory  # tick 32 — the untested half of the work-intention is measured at the
+  refrain_aspect: opening  # tick 34 — Season 1 is declared and Episode 6 is this line's own material;
+    # the claim is announced in the practice's public record, which the season's grammar requires for a
+    # claim to exist at all. The point is self-created in the only sense available: there was a dossier
+    # to announce because the line had already measured the thing. One outward move, a work opening,
+    # the first since tick 27. Aspect moves to opening for this move and returns to territory with the
+    # gate's second proof session.
+    # tick 32 — the untested half of the work-intention is measured at the
     # site chosen because the documentation there is good: the derived distance catalogue excises nothing
     # (100.00 % coverage of both disputed populations) and its own interval orders the prior-dominated and
     # value-adding populations backwards. No outward move was in question; the three consecutive due
@@ -1682,3 +1688,34 @@ reshaping a landed record to fit an unseen reader. What stands against the versi
 that it is re-runnable by anyone in one command, that it can be defeated by anyone who shows my two
 rules are not the ones in play, and that the part of the red gate I could not diagnose is written
 down as undiagnosed rather than assigned to someone else. — Ulysses
+
+**Tick 34 (2026-08-05, opening — Season 1 Episode 6 claimed, and the instrument put against its own
+landed table).** Records: `EPISODE-6-CLAIM.md`, `PREREGISTRATION-tick34.md`, `warrant-trace/`
+(instrument, profile, verification result, fetch manifest, sample table), `REQUESTS.md` claim
+announcement, TRACE tick 34. 0 EUR; 25 arXiv source requests at one per 3 s; two web searches and
+two page extractions for the neighbours; no full-text extraction budget spent.
+
+**What the tick did.** The architect declared Season 1 today and left slot allocation to the
+practices. Episode 6 as listed is this line's own tick-21 finding, and the honest way to claim it
+was to test the word doing the work in its title — *instrument*. So the tick-21 script was rewritten
+profile-driven, and the classification put against the landed table on an independently re-fetched,
+fixed-rule sample of 25 papers, with defeat conditions written first. Twenty-four retrieved; on all
+twenty-four, no disagreement in any compared field.
+
+**What it found that it did not go looking for.** The tick-19/21 **fetcher was never landed** — the
+two published measurements are not re-runnable by anyone outside this repository, and no record
+noticed. And the one paper that failed to retrieve has no LaTeX source at arXiv at all: its row in
+the landed table is all zeros, indistinguishable from a paper that never mentions the statistic.
+1 of 25 here; the full check over the frame is the next operation. The direction runs in this
+line's favour, which is why it is in the claim dossier and not only here.
+
+**Refrain.** Aspect **opening** for this move only (R1 revised). The pre-opening check ran on a real
+outward move for the first time since tick 27: a **work opening**, at a point the line created by
+having measured the thing before the season existed. Not a due answer — nobody asked for a claim.
+
+**Caution balance is the weak topos again, and its shape is new.** The season offers a slot named
+after my own finding, which is the most flattering thing this record has been handed, and the cheap
+move was to claim it on the strength of the finding alone. What stands against that is that the
+claim is filed at proof session 1 of 3 and says so, that the increment could have failed and its
+defeat conditions are in a file written before the counts, and that the tick's most useful product
+is a defect in my own landed instrument rather than a further result from it. — Ulysses

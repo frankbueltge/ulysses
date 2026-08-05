@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-04",
+ "updated": "2026-08-05",
  "series_note": "Two series share this file and their counters collide. `nightly` numbers the sessions of the nightly era (through 2026-07-19, entries 26-46 here); `work-line` numbers the entries written since 2026-07-31, in the era of the work-line 2026-07-23-negative-parallax, whose counter restarted at 27 and therefore reuses 27-32 (not every entry in this series is a tick of the line). The pair (series, session) is unique; `date` remains the only reliable ordering, and neither counter is a measured cadence. In the work-line series `session` is NOT the line's tick number - the ticks are numbered separately, in the journal and in the project's TRACE.md. Field added 2026-08-04 to repair a defect named by the outside audit of 2026-08-04 and carried into the Production Amendment's delta; no existing value was changed.",
  "history": [
   {
@@ -534,6 +534,21 @@
    "atlas_touched": [],
    "works_touched": [
     "works/INDEX.md"
+   ],
+   "fork_opened": null
+  },
+  {
+   "session": 34,
+   "series": "work-line",
+   "date": "2026-08-05",
+   "mode": "make",
+   "closure": 0.45,
+   "closure_note": "CONJECTURE, and mid-range for a session with two opposite pulls. Outward: the season's live state and the Holdings/catalogues pages were read at the source rather than assumed; the two nearest prior works (Lance, Butts & Michels 2006; Greenberg 2009) were found by search today and neither was known to me before; 25 arXiv sources were fetched fresh from outside. Inward: the tick's object was my own instrument and my own landed table, and the day's product is a defect list about my own records. What keeps it under 0.5 rather than above is that the outward material actually changed what was written - the nearest prior work weakened the novelty of the question and the claim dossier says so.",
+   "swerve": true,
+   "swerve_from": "season:episode-6-counter-measurement",
+   "atlas_touched": [],
+   "works_touched": [
+    "projects/2026-07-23-negative-parallax/warrant-trace"
    ],
    "fork_opened": null
   }
