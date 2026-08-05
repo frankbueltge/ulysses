@@ -1,0 +1,39 @@
+n,arxiv,match,statistic_at_site,cite_keys,sieve_cite_penoyre,sieve_cite_paper_i_id,hand_document,hand_note
+1,2202.06963,RUWE>1.25,RUWE,,0,0,"Penoyre+2022 Paper II (MNRAS 513, 5270; doi 10.1093/mnras/stac1147) — uses the value, declines it as a criterion","the deriving authors' own follow-up, quoting its own figure; no citation at the site"
+2,2202.06963,RUWE>1.25,RUWE,,0,0,"Penoyre+2022 Paper II (MNRAS 513, 5270; doi 10.1093/mnras/stac1147) — uses the value, declines it as a criterion","same paper, second occurrence: '1.25 (the most extreme values that could be expected from stochastic scatter of single stars)'"
+3,2206.04392,RUWE _ ast >1.25,RUWE,,0,0,none,no citation stands in the window at this site
+4,2206.04392,RUWE _ ast >1.25,RUWE,,0,0,none,no citation stands in the window at this site
+5,2206.04392,RUWE _ ast >1.25,RUWE,,0,0,none,no citation stands in the window at this site
+6,2206.04392,RUWE _ ast >1.25,RUWE,,0,0,none,no citation stands in the window at this site
+7,2206.04392,UWE _ ast >1.25,UWE,,0,0,none,no citation stands in the window at this site
+8,2206.04392,UWE _ ast >1.25,UWE,Penoyre20 Penoyre20,1,0,"Penoyre+2020 (MNRAS 495, 321; doi 10.1093/mnras/staa1148) — a third Penoyre paper, not the source of 1.25","cite key Penoyre20 resolved in this paper's own bibliography to MNRAS 495, 321"
+9,2206.04392,UWE _ ast <1.25,UWE,,0,0,none,no citation stands in the window at this site
+10,2206.04392,UWE _ ast >1.25,UWE,,0,0,none,no citation stands in the window at this site
+11,2206.04392,RUWE _ ast >1.25,RUWE,Arenou22 Price-Whelan20,0,0,"other document, not the deriving one","Arenou+2022, Price-Whelan+2020"
+12,2206.04392,RUWE _ ast >1.25,RUWE,Price-Whelan20,0,0,"other document, not the deriving one",Price-Whelan+2020
+13,2206.04392,RUWE _ ast >1.25,RUWE,Schlegel_1998 Green2019 Gaia18,0,0,"other document, not the deriving one","Schlegel+1998, Green+2019, Gaia DR2"
+14,2206.04392,RUWE _ ast > 1.25,RUWE,Gaia18,0,0,"other document, not the deriving one",Gaia DR2
+15,2206.04392,RUWE _ ast >1.25,RUWE,,0,0,none,no citation stands in the window at this site
+16,2206.04392,RUWE _ ast >1.25,RUWE,Penoyre20,1,0,"Penoyre+2020 (MNRAS 495, 321; doi 10.1093/mnras/staa1148) — a third Penoyre paper, not the source of 1.25",same key; the site also carries a hedge word
+17,2304.11980,re-normalised unit weight error (RUWE) parameter above 1.25,RUWE,,0,0,none,no citation stands in the window at this site
+18,2304.11980,re-normalised unit weight error (RUWE) parameter above 1.25,RUWE,,0,0,none,no citation stands in the window at this site
+19,2312.11124,ruwe > 1.25,RUWE,,0,0,none,no citation stands in the window at this site
+20,2404.08234,RUWE > 1.25,RUWE,"Andrew2022,Penoyre2022",1,0,"Penoyre+2022 Paper II (MNRAS 513, 5270; doi 10.1093/mnras/stac1147) — uses the value, declines it as a criterion",cite key Penoyre2022 resolved in this paper's bibliography to doi stac1147
+21,2404.08234,RUWE > 1.25,RUWE,"Andrew2022,Penoyre2022 lena2020hypercompact",1,0,"Penoyre+2022 Paper II (MNRAS 513, 5270; doi 10.1093/mnras/stac1147) — uses the value, declines it as a criterion","same key, same paper"
+22,2404.08234,RUWE < 1.25,RUWE,"Andrew2022,Penoyre2022 lena2020hypercompact",1,0,"Penoyre+2022 Paper II (MNRAS 513, 5270; doi 10.1093/mnras/stac1147) — uses the value, declines it as a criterion","same key, same paper"
+23,2404.08234,RUWE < 1.25,RUWE,,0,0,none,no citation stands in the window at this site
+24,2404.08234,RUWE < 1.25,RUWE,,0,0,none,no citation stands in the window at this site
+25,2404.14127,ruwe > 1.25,RUWE,,0,0,none,no citation stands in the window at this site
+26,2411.00088,RUWE values above 1.25,RUWE,"Penoyre2022b,Castro-Ginard2024",1,0,"Penoyre+2022 Paper II (MNRAS 513, 5270; doi 10.1093/mnras/stac1147) — uses the value, declines it as a criterion",cite key Penoyre2022b resolved to doi stac1147
+27,2501.14462,RUWE is larger than 1.25,RUWE,castro_ginard24 castro_ginard24,0,0,"other document, not the deriving one",Castro-Ginard+2024
+28,2501.14462,RUWE > 1.25,RUWE,castro_ginard24 castro_ginard24,0,0,"other document, not the deriving one",Castro-Ginard+2024
+29,2501.14462,RUWE>=1.25,RUWE,raghavan10,0,0,"other document, not the deriving one",Raghavan+2010
+30,2501.14462,RUWE>=1.25,RUWE,raghavan10,0,0,"other document, not the deriving one",Raghavan+2010
+31,2501.14462,RUWE>=1.25,RUWE,raghavan10,0,0,"other document, not the deriving one",Raghavan+2010
+32,2501.14462,RUWE>=1.25,RUWE,,0,0,none,no citation stands in the window at this site
+33,2504.11528,RUWE <1.25,RUWE,Lindegren_2018_RUWE Lindegren_2018_RUWE Penoyre2022 Belokurov2020 Penoyre2020,1,0,"Penoyre+2022 Paper I (MNRAS 513, 2437; doi 10.1093/mnras/stac959) — THE DERIVING DOCUMENT",cite key Penoyre2022 resolved to doi stac959; site also carries Lindegren_2018_RUWE
+34,2504.11528,RUWE > 1.25,RUWE,Smart2021,0,0,"other document, not the deriving one",Smart+2021
+35,2504.11528,RUWE >1.25,RUWE,El-Badry2021 Penoyre2022,1,0,"Penoyre+2022 Paper I (MNRAS 513, 2437; doi 10.1093/mnras/stac959) — THE DERIVING DOCUMENT",cite key Penoyre2022 resolved to doi stac959; site also carries El-Badry2021
+36,2507.13783,RUWE values >1.25,RUWE,Penoyre2022 Gaia2020_DR3,1,0,"Penoyre+2022 Paper I (MNRAS 513, 2437; doi 10.1093/mnras/stac959) — THE DERIVING DOCUMENT","cite key Penoyre2022 resolved by volume/page to MNRAS 513, 2437"
+37,2510.14927,RUWE of 1.25,RUWE,Wallace2025,0,0,"other document, not the deriving one",Wallace+2025
+38,2510.14927,RUWE of 1.25,RUWE,Wallace2025,0,0,"other document, not the deriving one",Wallace+2025

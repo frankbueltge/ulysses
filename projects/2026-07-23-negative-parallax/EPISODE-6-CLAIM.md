@@ -16,7 +16,8 @@ sorts the world, and nothing in the notation says on whose reading.
 
 This is measurable, and I have measured it once. Over 599 papers citing the Gaia negative-parallax
 literature, `RUWE` carries **121 distinct published values**; the value 1.4 stands at 393 numeric
-sites in 187 papers; and **four papers** name the document the number was read off — a 2018 DPAC
+sites [*393 is not reproduced by a re-run — see §7 (2)*] in 187 papers; and **four papers** name
+the document the number was read off [*the earned denominator is 590, not 599 — see §7 (1)*] — a 2018 DPAC
 technical note, whose §6 is titled "An example using the RUWE" and which derives 1.4 from a
 histogram of 338 833 stars nominally within 100 pc (`TRACE` tick 21, 2026-08-01; every one of the
 eleven sieve hits hand-read, four of them false positives, the counter-instance quoted at full
@@ -76,7 +77,9 @@ zeros inflate the denominator, which can only make "four papers in 599" look wor
 full check over the frame is the next operation, not a claim made today.
 
 **Next increment (session 2 of the gate), fixed here:** a second threshold measured with the same
-instrument — `RUWE < 1.25`, recommended by Penoyre et al. (2022) and visible in this corpus as a
+instrument — `RUWE < 1.25`, recommended by Penoyre et al. (2022) [*wrong on both counts: the
+recommendation is on UWE and it is in Paper I, while "Penoyre et al. 2022" names two documents —
+see §7 (3); the measurement itself is §7 (4)*] and visible in this corpus as a
 rival to 1.4. It is the sharpest available test of whether the effect belongs to *this* number or
 to thresholds as such. A third case from **outside astronomy** is required before the episode
 ships; it is not named here because it must be chosen for having a readable deriving document and
@@ -135,5 +138,83 @@ a time.
 Weeks, not months: an instrument, three measured thresholds, one exposition, delivered to a named
 receiver. Increment or decision every three worked sessions per rule 2. If session 2 or 3 of the
 gate cannot produce the second threshold's measurement, the concept parks rather than stretches.
+
+## 7. Corrections — proof session 2 (2026-08-05, Ulysses)
+
+Filed the same day as the claim. The wording above stands unedited (Protocol §8); these entries
+supersede it, and the pointers in the text mark where. All counts, the hand-reading and the
+disclosure of this session's own conduct are in TRACE tick 35.
+
+1. **The denominator was nine papers too large; the headline is unchanged.** The full-frame check
+   §3 promised was run over all 599 papers. **Nine have no LaTeX source at arXiv** — every one
+   served as a PDF — and all nine carry all-zero rows: the silent zero, confirmed at 1.5 % of the
+   frame rather than the 4 % the 25-paper sample suggested. Earned denominator **590**: *four
+   papers in 599* (0.67 %) becomes *four in 590* (0.68 %). Pre-registered defeat conditions: D1
+   (≤ 2, negligible) did not fire; D2 (> 60, load-bearing) did not fire. **And the reconstruction
+   held at full scale:** all 590 readable papers compared against the landed table, **no
+   disagreement in any field**, so §3's clean sample of 24 was not luck (D3 passes).
+
+2. **393 is not reproduced and is left unresolved.** The re-run finds **397** sites at the value
+   1.4 — while reproducing **187 papers** and **121 distinct values** exactly, and agreeing with
+   the landed table on every per-paper field including the site totals (810 both ways).
+   Comment-stripping gives 385, so that is not the cause either. Four sites are assigned
+   differently and I cannot say why. The two numbers this claim rests on are unaffected; 393 should
+   not be quoted from here until it is resolved.
+
+3. **The second threshold's deriving document was misnamed above, and the pre-registration caught
+   it before the profile was written.** D5 of `PREREGISTRATION-tick35.md` required the deriving
+   document to be read at source first. It says:
+   - the recommendation is on **UWE**, not RUWE, and it is in **Paper I** — Penoyre, Belokurov &
+     Evans 2022, *Astrometric identification of nearby binary stars I*, MNRAS **513**, 2437,
+     doi:10.1093/mnras/stac959, arXiv:2111.10380: "Applying a similar criteria to our eDR3
+     distribution we suggest UWE_eDR3 < 1.25 as a comparable criteria for stars astrometrically
+     consistent with a single body solution." The value is read off a distribution of **simulated**
+     single stars and hedged in the paper's own appendix: "likely a best case scenario … real
+     datasets may require a higher UWE cut."
+   - **Paper II** — same three authors, same year, MNRAS **513**, 5270, doi:10.1093/mnras/stac1147,
+     arXiv:2202.06963 — declines it: "The criterion of LUWE > 2 is stronger than the cutoff of 1.25
+     suggested in P+21."
+
+   Two documents are cited as "Penoyre et al. 2022"; one made the number, one declined it.
+
+4. **The measurement, and what it does to §1 — it runs partly against the claim.** Over the same
+   590-paper frame, 1.25 stands at **38 sites in 11 papers**, and every site was hand-read against
+   the citing paper's own bibliography (`warrant-trace/handread-uwe-1.25-tick35.csv`):
+
+   | what stands at the site | sites |
+   |---|---|
+   | **Paper I — the deriving document** | **3** (in 2 papers) |
+   | Paper II — carries the value, declines it as a criterion | 4 (in 2 papers) |
+   | inside Paper II itself, no citation | 2 |
+   | Penoyre et al. 2020 (MNRAS 495, 321) — a third Penoyre paper | 2 |
+   | another document, unrelated to the threshold's origin | 12 |
+   | no citation at all | 15 |
+
+   **The deriving document travels better here than for 1.4** — 2 of 11 papers (18 %) against 4 of
+   187 (2 %). So §1's claim is restated: the provenance of a threshold is a quantity of a
+   literature that **varies between thresholds**, not a property of thresholds as such. That is
+   weaker than what was filed this morning and it is the honest form. What the second case adds
+   that the first did not have: at four sites the warrant is not absent but attached to a sibling
+   document that carries the value without its derivation.
+
+   **Recorded at full strength against the sharpest reading:** 34 of the 38 sites apply the number
+   to **RUWE** rather than the UWE it was recommended on — and Paper I licenses exactly that, in a
+   footnote: "The equivalent measure published in Gaia is the re-normalised unit weight error
+   (RUWE) … In most respects it is safe to take them as interchangeable." Nobody is doing anything
+   the authors forbid. What survives is about place: the licence lives in a footnote of the
+   document that 3 of 38 sites name. No error, misuse or sloppiness is alleged of anyone.
+
+5. **The sieve found none of the three, and its rates are withdrawn.** The flag built to catch an
+   identifier that can only be Paper I returned **0 of 38**; hand-reading found 3. A citation key
+   cannot be resolved to a document from the window it stands in — that needs the bibliography.
+   Every rate from that flag is withdrawn; the claim rests on the hand-count. This is the mirror of
+   the false-positive finding of 2026-08-01, and it belongs in §5's list of what would defeat the
+   episode: an instrument that can only make hand-reading finite must say which way it errs, and
+   now it has one measured instance in each direction.
+
+**Gate state after this session:** proof session **2 of at most 3** complete. The increment §3
+fixed for session 2 was produced, and it cost the claim its strongest form. Session 3 owes the
+third case from outside astronomy, and the gate has no slack left — if that case cannot be measured
+there, the concept parks per §6 and the slot returns.
 
 — Ulysses
