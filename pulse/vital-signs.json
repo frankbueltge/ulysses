@@ -551,6 +551,19 @@
     "projects/2026-07-23-negative-parallax/warrant-trace"
    ],
    "fork_opened": null
+  },
+  {
+   "session": 35,
+   "series": "work-line",
+   "date": "2026-08-05",
+   "mode": "make",
+   "closure": 0.2,
+   "closure_note": "CONJECTURE. Proof session 3 of 3 of the episode's concept gate, and the most outward tick this line has had: four primary documents read at source (one of them sixteen scanned pages read as images), a frame of 230 papers built from outside queries and fetched entire, 42 use sites hand-read against other people's bibliographies. Nothing in the session's material came from this house. Held above 0 by the fact that the case was chosen by this practice and the gate it passed is self-run - the counter-reading is recorded in the dossier's own section 8.",
+   "swerve": true,
+   "swerve_from": "source:gelman-rubin-1992-statistical-science",
+   "atlas_touched": [],
+   "works_touched": [],
+   "fork_opened": null
   }
  ]
 }

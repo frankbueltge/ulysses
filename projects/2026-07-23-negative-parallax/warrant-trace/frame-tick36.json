@@ -1,0 +1,2823 @@
+{
+ "built_utc": "2026-08-05T19:24:43Z",
+ "queries": {
+  "F1": "cat:stat.CO AND abs:\"Markov chain Monte Carlo\"",
+  "F2": "cat:stat.AP AND abs:\"Bayesian\""
+ },
+ "requested_each": 120,
+ "dropped_astro": [
+  "2511.07385",
+  "2510.00533",
+  "2607.26619",
+  "2606.01496",
+  "2606.00768"
+ ],
+ "duplicates": 5,
+ "papers": [
+  {
+   "id": "2607.24378v1",
+   "cats": [
+    "stat.ME",
+    "q-bio.QM",
+    "stat.AP",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Feature Extraction using Gaussian and Diffused-gamma Priors for High Dimensional Spatio-Temporal Data",
+   "published": "2026-07-27T12:54:59Z",
+   "frame": "F1",
+   "base": "2607.24378"
+  },
+  {
+   "id": "2607.24055v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Marginal Data Augmentation for Efficient Bayesian Modeling of Counts and Rates with a Demographic Application",
+   "published": "2026-07-27T06:51:50Z",
+   "frame": "F1",
+   "base": "2607.24055"
+  },
+  {
+   "id": "2607.22989v1",
+   "cats": [
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "SuSIE: Subset Simulation with Intrepid Exploration",
+   "published": "2026-07-25T02:04:25Z",
+   "frame": "F1",
+   "base": "2607.22989"
+  },
+  {
+   "id": "2607.22449v1",
+   "cats": [
+    "stat.CO",
+    "math.PR"
+   ],
+   "primary": "stat.CO",
+   "title": "Scaling Results for Piecewise Deterministic Monte Carlo : A Survey",
+   "published": "2026-07-24T16:12:20Z",
+   "frame": "F1",
+   "base": "2607.22449"
+  },
+  {
+   "id": "2607.18030v1",
+   "cats": [
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.AP",
+   "title": "Predicting subjective rage and facial expressions in human driving: A Bayesian network approach with beta-distributed nodes",
+   "published": "2026-07-20T14:59:36Z",
+   "frame": "F1",
+   "base": "2607.18030"
+  },
+  {
+   "id": "2607.15499v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Compound Auxiliary Metropolis: Incorporating Auxiliary Variables into Multi-Candidate MCMC",
+   "published": "2026-07-16T23:04:27Z",
+   "frame": "F1",
+   "base": "2607.15499"
+  },
+  {
+   "id": "2607.11631v1",
+   "cats": [
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Markov Chain Monte Carlo with Diffusion Paths",
+   "published": "2026-07-13T14:48:19Z",
+   "frame": "F1",
+   "base": "2607.11631"
+  },
+  {
+   "id": "2607.07188v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Mixing efficiency of trans-model Markov chain Monte Carlo algorithms with applications in Bayesian phylogenetics",
+   "published": "2026-07-08T09:23:55Z",
+   "frame": "F1",
+   "base": "2607.07188"
+  },
+  {
+   "id": "2607.05579v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "On the Computation of Normalized Power Priors",
+   "published": "2026-07-06T19:25:07Z",
+   "frame": "F1",
+   "base": "2607.05579"
+  },
+  {
+   "id": "2606.30018v1",
+   "cats": [
+    "math.ST",
+    "math.PR",
+    "stat.CO"
+   ],
+   "primary": "math.ST",
+   "title": "Error bounds for simultaneous Wasserstein contractive adaptive increasingly rare MCMC",
+   "published": "2026-06-29T09:23:16Z",
+   "frame": "F1",
+   "base": "2606.30018"
+  },
+  {
+   "id": "2606.29205v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Using Variational Inference to Improve the Efficiency of MCMC Algorithms",
+   "published": "2026-06-28T05:11:23Z",
+   "frame": "F1",
+   "base": "2606.29205"
+  },
+  {
+   "id": "2606.25983v1",
+   "cats": [
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "Exploring Pareto smoothing in sequential Monte Carlo",
+   "published": "2026-06-24T15:53:06Z",
+   "frame": "F1",
+   "base": "2606.25983"
+  },
+  {
+   "id": "2606.25603v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Resampling in conditional SMC algorithms",
+   "published": "2026-06-24T09:08:54Z",
+   "frame": "F1",
+   "base": "2606.25603"
+  },
+  {
+   "id": "2606.24427v1",
+   "cats": [
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "NoLimits.jl: Flexible and Composable Nonlinear Mixed-Effects Modeling in Julia",
+   "published": "2026-06-23T11:04:55Z",
+   "frame": "F1",
+   "base": "2606.24427"
+  },
+  {
+   "id": "2606.22615v1",
+   "cats": [
+    "stat.CO",
+    "q-fin.CP"
+   ],
+   "primary": "stat.CO",
+   "title": "Stochastic Volatility in Mean Models with Heavy Tails: A Fast Approximate Bayesian Inference Using Hidden Markov Models",
+   "published": "2026-06-21T17:45:08Z",
+   "frame": "F1",
+   "base": "2606.22615"
+  },
+  {
+   "id": "2606.19540v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "Overfitted high-dimensional matrix factorizations via adaptive spectral shrinkage",
+   "published": "2026-06-17T19:33:03Z",
+   "frame": "F1",
+   "base": "2606.19540"
+  },
+  {
+   "id": "2606.15725v1",
+   "cats": [
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Score-Based Martingale Posteriors for Deep Neural Networks",
+   "published": "2026-06-14T10:18:57Z",
+   "frame": "F1",
+   "base": "2606.15725"
+  },
+  {
+   "id": "2606.07981v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Making Recursive Bayesian Inference Robust",
+   "published": "2026-06-06T05:12:21Z",
+   "frame": "F1",
+   "base": "2606.07981"
+  },
+  {
+   "id": "2606.14743v1",
+   "cats": [
+    "stat.CO",
+    "math.PR"
+   ],
+   "primary": "stat.CO",
+   "title": "Delayed acceptance sampling with Hamiltonian proposal subchains for random field materials inference",
+   "published": "2026-06-03T12:07:32Z",
+   "frame": "F1",
+   "base": "2606.14743"
+  },
+  {
+   "id": "2606.03033v1",
+   "cats": [
+    "cs.IT",
+    "math.ST",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "cs.IT",
+   "title": "Local and Global Contraction Principles for MCMC Mixing",
+   "published": "2026-06-02T02:16:52Z",
+   "frame": "F1",
+   "base": "2606.03033"
+  },
+  {
+   "id": "2606.02874v1",
+   "cats": [
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Neural Posterior Estimation for Stochastic Epidemic Models Using Final Outcome Data",
+   "published": "2026-06-01T20:40:27Z",
+   "frame": "F1",
+   "base": "2606.02874"
+  },
+  {
+   "id": "2606.00783v1",
+   "cats": [
+    "stat.AP",
+    "cs.AI",
+    "math.PR",
+    "stat.CO"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian Inference of Nonlinear Malaria Dynamics in Ghana via an Ensemble Markov Chain Monte Carlo Sampler",
+   "published": "2026-05-30T16:02:56Z",
+   "frame": "F1",
+   "base": "2606.00783"
+  },
+  {
+   "id": "2605.30722v2",
+   "cats": [
+    "cs.LG",
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "cs.LG",
+   "title": "Self-Certifying Transport MCMC via Dual Spectral-Gap Certificates",
+   "published": "2026-05-29T01:31:56Z",
+   "frame": "F1",
+   "base": "2605.30722"
+  },
+  {
+   "id": "2605.30674v1",
+   "cats": [
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "Spectral subsampling MCMC for L\u00e9vy-driven continuous-time ARMA models with expensive likelihood contributions",
+   "published": "2026-05-29T00:07:45Z",
+   "frame": "F1",
+   "base": "2605.30674"
+  },
+  {
+   "id": "2605.30532v1",
+   "cats": [
+    "stat.CO",
+    "cs.LG",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "True Self-Avoiding Walk for Accelerating Markov-Chain Monte Carlo Integration",
+   "published": "2026-05-28T20:09:36Z",
+   "frame": "F1",
+   "base": "2605.30532"
+  },
+  {
+   "id": "2605.29180v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Neural Posterior Estimation for Spatial Individual-Level Epidemic Models",
+   "published": "2026-05-27T23:36:43Z",
+   "frame": "F1",
+   "base": "2605.29180"
+  },
+  {
+   "id": "2605.25079v1",
+   "cats": [
+    "q-bio.QM",
+    "stat.AP",
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "q-bio.QM",
+   "title": "Trans-dimensional Bayesian model averaging for $^{13}$C-based metabolic flux analysis: Evidence-based flux inference under structural model uncertainty",
+   "published": "2026-05-24T13:42:07Z",
+   "frame": "F1",
+   "base": "2605.25079"
+  },
+  {
+   "id": "2605.23631v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Directional subset simulation method for reliability analysis",
+   "published": "2026-05-22T13:41:31Z",
+   "frame": "F1",
+   "base": "2605.23631"
+  },
+  {
+   "id": "2605.21782v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "A Scalable Parametric Item Calibration Engine (SPICE) for Explanatory IRT with Sparse Data",
+   "published": "2026-05-20T22:22:06Z",
+   "frame": "F1",
+   "base": "2605.21782"
+  },
+  {
+   "id": "2605.18476v2",
+   "cats": [
+    "stat.CO",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "primary": "stat.CO",
+   "title": "AI4BayesCode: From Natural Language Descriptions to Validated Modular Stateful Bayesian Samplers",
+   "published": "2026-05-18T14:31:24Z",
+   "frame": "F1",
+   "base": "2605.18476"
+  },
+  {
+   "id": "2605.15847v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Inference for Non-Conjugate Distance Dependent Chinese Restaurant Process Models",
+   "published": "2026-05-15T11:00:44Z",
+   "frame": "F1",
+   "base": "2605.15847"
+  },
+  {
+   "id": "2605.13397v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Stabilised weighted data subsampling for accelerated inference in models with recursive likelihoods",
+   "published": "2026-05-13T11:53:57Z",
+   "frame": "F1",
+   "base": "2605.13397"
+  },
+  {
+   "id": "2605.12807v1",
+   "cats": [
+    "stat.CO",
+    "cs.IT"
+   ],
+   "primary": "stat.CO",
+   "title": "Multi-Marginal Couplings for Metropolis-Hastings",
+   "published": "2026-05-12T22:59:47Z",
+   "frame": "F1",
+   "base": "2605.12807"
+  },
+  {
+   "id": "2605.10914v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "gemlib.mcmc: composable kernels for Metropolis-within-Gibbs sampling schemes",
+   "published": "2026-05-11T17:51:06Z",
+   "frame": "F1",
+   "base": "2605.10914"
+  },
+  {
+   "id": "2605.09880v1",
+   "cats": [
+    "math.NA",
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "math.NA",
+   "title": "Parameter Estimation for Partially Observed Time-Changed SDEs",
+   "published": "2026-05-11T02:08:26Z",
+   "frame": "F1",
+   "base": "2605.09880"
+  },
+  {
+   "id": "2605.09506v1",
+   "cats": [
+    "stat.ME",
+    "q-bio.QM",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Accelerating Bayesian Phylogenetic Inference via Delayed Acceptance Sequential Monte Carlo with Random Forest Surrogates",
+   "published": "2026-05-10T12:27:55Z",
+   "frame": "F1",
+   "base": "2605.09506"
+  },
+  {
+   "id": "2605.03266v1",
+   "cats": [
+    "stat.ML",
+    "cs.LG",
+    "math.ST",
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.ML",
+   "title": "Intrinsic effective sample size for manifold-valued Markov chain Monte Carlo via kernel discrepancy",
+   "published": "2026-05-05T01:37:41Z",
+   "frame": "F1",
+   "base": "2605.03266"
+  },
+  {
+   "id": "2605.01603v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "dirichletprocess: An R Package for Fitting Complex Bayesian Nonparametric Models",
+   "published": "2026-05-02T20:58:59Z",
+   "frame": "F1",
+   "base": "2605.01603"
+  },
+  {
+   "id": "2605.01198v1",
+   "cats": [
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "Modular Markov chain Monte Carlo with application to multimodal sampling",
+   "published": "2026-05-02T02:21:31Z",
+   "frame": "F1",
+   "base": "2605.01198"
+  },
+  {
+   "id": "2604.27603v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Martingale Posteriors for Discretely Observed Diffusions",
+   "published": "2026-04-30T08:54:15Z",
+   "frame": "F1",
+   "base": "2604.27603"
+  },
+  {
+   "id": "2604.25410v1",
+   "cats": [
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "Laplace and skew-Laplace approximations for Dirichlet process mixture posterior density",
+   "published": "2026-04-28T09:23:48Z",
+   "frame": "F1",
+   "base": "2604.25410"
+  },
+  {
+   "id": "2604.21009v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Revisiting Bayesian Variable Selection via Optimization",
+   "published": "2026-04-22T18:56:31Z",
+   "frame": "F1",
+   "base": "2604.21009"
+  },
+  {
+   "id": "2604.20052v2",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Annealed Langevin Monte Carlo for Flow ODE Sampling",
+   "published": "2026-04-21T23:25:55Z",
+   "frame": "F1",
+   "base": "2604.20052"
+  },
+  {
+   "id": "2604.10863v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Restricted Search Space Graph MCMC via Birth-Death Processes",
+   "published": "2026-04-13T00:13:03Z",
+   "frame": "F1",
+   "base": "2604.10863"
+  },
+  {
+   "id": "2604.09832v2",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Adaptive Riemannian Manifold Hamiltonian Monte Carlo with Hierarchical Metric",
+   "published": "2026-04-10T19:02:38Z",
+   "frame": "F1",
+   "base": "2604.09832"
+  },
+  {
+   "id": "2604.02304v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Disentangled Deep Priors for Bayesian Inverse Problems",
+   "published": "2026-04-02T17:45:04Z",
+   "frame": "F1",
+   "base": "2604.02304"
+  },
+  {
+   "id": "2604.02116v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "A new wavelet-based variational family with copula dependence structures",
+   "published": "2026-04-02T14:51:46Z",
+   "frame": "F1",
+   "base": "2604.02116"
+  },
+  {
+   "id": "2604.00671v2",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Implementation and Workflows for INLA-Based Approximate Bayesian Structural Equation Modelling",
+   "published": "2026-04-01T09:16:40Z",
+   "frame": "F1",
+   "base": "2604.00671"
+  },
+  {
+   "id": "2603.27276v1",
+   "cats": [
+    "stat.AP",
+    "cs.MS",
+    "stat.CO"
+   ],
+   "primary": "stat.AP",
+   "title": "PyINLA: Fast Bayesian Inference for Latent Gaussian Models in Python",
+   "published": "2026-03-28T14:16:25Z",
+   "frame": "F1",
+   "base": "2603.27276"
+  },
+  {
+   "id": "2603.12299v2",
+   "cats": [
+    "stat.CO",
+    "math.PR"
+   ],
+   "primary": "stat.CO",
+   "title": "Regenerative Rejection Sampling",
+   "published": "2026-03-12T04:21:32Z",
+   "frame": "F1",
+   "base": "2603.12299"
+  },
+  {
+   "id": "2603.07247v1",
+   "cats": [
+    "math.NA",
+    "stat.CO"
+   ],
+   "primary": "math.NA",
+   "title": "Multi-parameter determination in the semilinear Helmholtz equation",
+   "published": "2026-03-07T14:57:46Z",
+   "frame": "F1",
+   "base": "2603.07247"
+  },
+  {
+   "id": "2603.05817v1",
+   "cats": [
+    "stat.CO",
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "Two Localization Strategies for Sequential MCMC Data Assimilation with Applications to Nonlinear Non-Gaussian Geophysical Models",
+   "published": "2026-03-06T02:03:04Z",
+   "frame": "F1",
+   "base": "2603.05817"
+  },
+  {
+   "id": "2603.04003v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Efficient Bayesian Estimation of Dynamic Structural Equation Models via State Space Marginalization",
+   "published": "2026-03-04T12:47:12Z",
+   "frame": "F1",
+   "base": "2603.04003"
+  },
+  {
+   "id": "2603.02467v2",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "CCMnet: A Software Package for Network Generation with Congruence Class Models",
+   "published": "2026-03-02T23:17:37Z",
+   "frame": "F1",
+   "base": "2603.02467"
+  },
+  {
+   "id": "2602.22358v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Multiproposal Elliptical Slice Sampling",
+   "published": "2026-02-25T19:31:58Z",
+   "frame": "F1",
+   "base": "2602.22358"
+  },
+  {
+   "id": "2602.20448v3",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Posterior Mode-Guided Dimension Reduction for Bayesian Model Averaging in Heavy-Tailed Linear Regression",
+   "published": "2026-02-24T01:18:12Z",
+   "frame": "F1",
+   "base": "2602.20448"
+  },
+  {
+   "id": "2602.14692v1",
+   "cats": [
+    "stat.CO",
+    "math.PR"
+   ],
+   "primary": "stat.CO",
+   "title": "Weak Poincar\u00e9 inequalities for Deterministic-scan Metropolis-within-Gibbs samplers",
+   "published": "2026-02-16T12:27:31Z",
+   "frame": "F1",
+   "base": "2602.14692"
+  },
+  {
+   "id": "2602.14616v2",
+   "cats": [
+    "stat.CO",
+    "q-bio.QM",
+    "stat.AP"
+   ],
+   "primary": "stat.CO",
+   "title": "Higher-Order Hit-&-Run Samplers for Linearly Constrained Densities",
+   "published": "2026-02-16T10:20:52Z",
+   "frame": "F1",
+   "base": "2602.14616"
+  },
+  {
+   "id": "2602.11325v2",
+   "cats": [
+    "stat.ML",
+    "cs.LG",
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.ML",
+   "title": "Amortised and provably-robust simulation-based inference",
+   "published": "2026-02-11T19:54:27Z",
+   "frame": "F1",
+   "base": "2602.11325"
+  },
+  {
+   "id": "2602.10714v2",
+   "cats": [
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "A Non-asymptotic Analysis for Learning and Applying a Preconditioner in MCMC",
+   "published": "2026-02-11T10:19:56Z",
+   "frame": "F1",
+   "base": "2602.10714"
+  },
+  {
+   "id": "2602.06568v2",
+   "cats": [
+    "math.ST",
+    "math.PR",
+    "stat.CO"
+   ],
+   "primary": "math.ST",
+   "title": "Ergodicity of an Adaptive MCMC Sampler under a Probability Bound",
+   "published": "2026-02-06T10:07:53Z",
+   "frame": "F1",
+   "base": "2602.06568"
+  },
+  {
+   "id": "2602.04554v1",
+   "cats": [
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.AP",
+   "title": "mmcmcBayes:An R Package Implementing a Multistage MCMC Framework for Detecting the Differentially Methylated Regions",
+   "published": "2026-02-04T13:44:19Z",
+   "frame": "F1",
+   "base": "2602.04554"
+  },
+  {
+   "id": "2602.00512v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Exact Gibbs sampling for stochastic differential equations with gradient drift and constant diffusion",
+   "published": "2026-01-31T04:41:47Z",
+   "frame": "F1",
+   "base": "2602.00512"
+  },
+  {
+   "id": "2601.22999v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Computationally efficient segmentation for non-stationary time series with oscillatory patterns",
+   "published": "2026-01-30T14:06:01Z",
+   "frame": "F1",
+   "base": "2601.22999"
+  },
+  {
+   "id": "2601.22911v2",
+   "cats": [
+    "stat.CO",
+    "math.CT",
+    "math.PR"
+   ],
+   "primary": "stat.CO",
+   "title": "A categorical account of the Metropolis-Hastings algorithm",
+   "published": "2026-01-30T12:34:01Z",
+   "frame": "F1",
+   "base": "2601.22911"
+  },
+  {
+   "id": "2601.21765v2",
+   "cats": [
+    "stat.CO",
+    "stat.ME",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Mean-field Variational Bayes for Sparse Probit Regression",
+   "published": "2026-01-29T14:16:31Z",
+   "frame": "F1",
+   "base": "2601.21765"
+  },
+  {
+   "id": "2601.19722v1",
+   "cats": [
+    "stat.CO",
+    "math.ST",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "Zeroth-order parallel sampling",
+   "published": "2026-01-27T15:45:16Z",
+   "frame": "F1",
+   "base": "2601.19722"
+  },
+  {
+   "id": "2601.16696v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Faster parallel MCMC: Metropolis adjustment is best served warm",
+   "published": "2026-01-23T12:23:23Z",
+   "frame": "F1",
+   "base": "2601.16696"
+  },
+  {
+   "id": "2601.16585v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Variational approximate penalized credible regions for Bayesian grouped regression",
+   "published": "2026-01-23T09:36:05Z",
+   "frame": "F1",
+   "base": "2601.16585"
+  },
+  {
+   "id": "2601.12515v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Bayesian Inference for Partially Observed McKean-Vlasov SDEs with Full Distribution Dependence",
+   "published": "2026-01-18T18:01:12Z",
+   "frame": "F1",
+   "base": "2601.12515"
+  },
+  {
+   "id": "2601.11066v1",
+   "cats": [
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "Sub-Cauchy Sampling: Escaping the Dark Side of the Moon",
+   "published": "2026-01-16T08:02:52Z",
+   "frame": "F1",
+   "base": "2601.11066"
+  },
+  {
+   "id": "2601.09007v1",
+   "cats": [
+    "math.ST",
+    "math.NA",
+    "stat.CO"
+   ],
+   "primary": "math.ST",
+   "title": "Global polynomial-time estimation in statistical nonlinear inverse problems via generalized stability",
+   "published": "2026-01-13T22:10:04Z",
+   "frame": "F1",
+   "base": "2601.09007"
+  },
+  {
+   "id": "2601.05859v1",
+   "cats": [
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.AP",
+   "title": "Neural Methods for Multiple Systems Estimation Models",
+   "published": "2026-01-09T15:34:39Z",
+   "frame": "F1",
+   "base": "2601.05859"
+  },
+  {
+   "id": "2601.03532v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Propagating Surrogate Uncertainty in Bayesian Inverse Problems",
+   "published": "2026-01-07T02:45:34Z",
+   "frame": "F1",
+   "base": "2601.03532"
+  },
+  {
+   "id": "2512.18255v1",
+   "cats": [
+    "math.PR",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "math.PR",
+   "title": "Central Limit Theorem for ergodic averages of Markov chains \\& the comparison of sampling algorithms for heavy-tailed distributions",
+   "published": "2025-12-20T07:37:55Z",
+   "frame": "F1",
+   "base": "2512.18255"
+  },
+  {
+   "id": "2512.17868v1",
+   "cats": [
+    "stat.CO",
+    "math.ST"
+   ],
+   "primary": "stat.CO",
+   "title": "Delayed Acceptance Slice Sampling",
+   "published": "2025-12-19T18:17:19Z",
+   "frame": "F1",
+   "base": "2512.17868"
+  },
+  {
+   "id": "2512.12748v1",
+   "cats": [
+    "stat.CO",
+    "math.PR",
+    "math.ST",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Complexity of Markov Chain Monte Carlo for Generalized Linear Models",
+   "published": "2025-12-14T16:04:27Z",
+   "frame": "F1",
+   "base": "2512.12748"
+  },
+  {
+   "id": "2512.11475v2",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Discretization approximation: An alternative to Monte Carlo in Bayesian computation",
+   "published": "2025-12-12T11:20:00Z",
+   "frame": "F1",
+   "base": "2512.11475"
+  },
+  {
+   "id": "2512.08173v1",
+   "cats": [
+    "stat.ME",
+    "math.ST",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Semiparametric Mixture Cure (Frailty) Models",
+   "published": "2025-12-09T02:05:07Z",
+   "frame": "F1",
+   "base": "2512.08173"
+  },
+  {
+   "id": "2512.00895v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "A Scalable Variational Bayes Approach for Fitting Non-Conjugate Spatial Generalized Linear Mixed Models via Basis Expansions",
+   "published": "2025-11-30T13:50:38Z",
+   "frame": "F1",
+   "base": "2512.00895"
+  },
+  {
+   "id": "2512.00220v2",
+   "cats": [
+    "stat.CO",
+    "math.PR",
+    "math.ST"
+   ],
+   "primary": "stat.CO",
+   "title": "Iterated sampling importance resampling with adaptive number of proposals",
+   "published": "2025-11-28T21:40:46Z",
+   "frame": "F1",
+   "base": "2512.00220"
+  },
+  {
+   "id": "2511.21563v1",
+   "cats": [
+    "stat.CO",
+    "math.PR",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Some aspects of robustness in modern Markov Chain Monte Carlo",
+   "published": "2025-11-26T16:35:17Z",
+   "frame": "F1",
+   "base": "2511.21563"
+  },
+  {
+   "id": "2511.21553v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Efficient bayesian spatially varying coefficients modeling for censored data using the vecchia approximation",
+   "published": "2025-11-26T16:22:47Z",
+   "frame": "F1",
+   "base": "2511.21553"
+  },
+  {
+   "id": "2511.19628v2",
+   "cats": [
+    "stat.ML",
+    "cs.LG",
+    "stat.CO"
+   ],
+   "primary": "stat.ML",
+   "title": "Optimization and Regularization Under Arbitrary Objectives",
+   "published": "2025-11-24T19:03:43Z",
+   "frame": "F1",
+   "base": "2511.19628"
+  },
+  {
+   "id": "2511.17117v5",
+   "cats": [
+    "stat.CO",
+    "econ.EM"
+   ],
+   "primary": "stat.CO",
+   "title": "Modified Delayed Acceptance MCMC for Quasi-Bayesian Inference with Linear Moment Conditions",
+   "published": "2025-11-21T10:27:57Z",
+   "frame": "F1",
+   "base": "2511.17117"
+  },
+  {
+   "id": "2511.08124v1",
+   "cats": [
+    "stat.CO",
+    "stat.AP"
+   ],
+   "primary": "stat.CO",
+   "title": "gemlib: Probabilistic programming for epidemic models",
+   "published": "2025-11-11T11:28:49Z",
+   "frame": "F1",
+   "base": "2511.08124"
+  },
+  {
+   "id": "2511.07736v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Improved Bounds for Context-Dependent Evolutionary Models Using Sequential Monte Carlo",
+   "published": "2025-11-11T01:40:40Z",
+   "frame": "F1",
+   "base": "2511.07736"
+  },
+  {
+   "id": "2511.06967v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "Approximate Bayesian inference for cumulative probit regression models",
+   "published": "2025-11-10T11:15:42Z",
+   "frame": "F1",
+   "base": "2511.06967"
+  },
+  {
+   "id": "2511.04975v4",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Sequential Markov Chain Monte Carlo for Filtering of State-Space Models with Low or Degenerate Observation Noise",
+   "published": "2025-11-07T04:27:13Z",
+   "frame": "F1",
+   "base": "2511.04975"
+  },
+  {
+   "id": "2510.22252v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Proximal Hamiltonian Monte Carlo",
+   "published": "2025-10-25T11:10:51Z",
+   "frame": "F1",
+   "base": "2510.22252"
+  },
+  {
+   "id": "2510.20947v1",
+   "cats": [
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "To MCMC or not to MCMC: Evaluating non-MCMC methods for Bayesian penalized regression",
+   "published": "2025-10-23T19:13:13Z",
+   "frame": "F1",
+   "base": "2510.20947"
+  },
+  {
+   "id": "2510.19133v2",
+   "cats": [
+    "stat.ME",
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Efficient scenario analysis in real-time Bayesian election forecasting via sequential meta-posterior sampling",
+   "published": "2025-10-21T23:47:25Z",
+   "frame": "F1",
+   "base": "2510.19133"
+  },
+  {
+   "id": "2510.13233v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Scalable Bayesian inference for high-dimensional mixed-type multivariate spatial data",
+   "published": "2025-10-15T07:37:40Z",
+   "frame": "F1",
+   "base": "2510.13233"
+  },
+  {
+   "id": "2510.12917v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Escaping Neal's Funnel: a multi-stage sampling method for hierarchical models",
+   "published": "2025-10-14T18:44:50Z",
+   "frame": "F1",
+   "base": "2510.12917"
+  },
+  {
+   "id": "2510.10034v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Efficient Prior Sensitivity and Tipping-point Analysis for Medical Research: Revisiting Sampling Importance Resampling",
+   "published": "2025-10-11T05:31:01Z",
+   "frame": "F1",
+   "base": "2510.10034"
+  },
+  {
+   "id": "2510.07559v3",
+   "cats": [
+    "stat.CO",
+    "math.PR",
+    "math.ST",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "A coupling-based approach to f-divergences diagnostics for Markov chain Monte Carlo",
+   "published": "2025-10-08T21:14:15Z",
+   "frame": "F1",
+   "base": "2510.07559"
+  },
+  {
+   "id": "2510.03587v2",
+   "cats": [
+    "stat.CO",
+    "stat.ME",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Exact and Approximate MCMC for Doubly-intractable Probabilistic Graphical Models Leveraging the Underlying Independence Model",
+   "published": "2025-10-04T00:34:25Z",
+   "frame": "F1",
+   "base": "2510.03587"
+  },
+  {
+   "id": "2510.03226v1",
+   "cats": [
+    "stat.CO",
+    "stat.ME",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "A fast non-reversible sampler for Bayesian finite mixture models",
+   "published": "2025-10-03T17:57:44Z",
+   "frame": "F1",
+   "base": "2510.03226"
+  },
+  {
+   "id": "2510.01016v1",
+   "cats": [
+    "stat.CO",
+    "cond-mat.mtrl-sci",
+    "cond-mat.stat-mech"
+   ],
+   "primary": "stat.CO",
+   "title": "Sequential Bayesian Inference of the GTN Damage Model Using Multimodal Experimental Data",
+   "published": "2025-10-01T15:22:48Z",
+   "frame": "F1",
+   "base": "2510.01016"
+  },
+  {
+   "id": "2509.26385v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "An Order of Magnitude Time Complexity Reduction for Gaussian Graphical Model Posterior Sampling Using a Reverse Telescoping Block Decomposition",
+   "published": "2025-09-30T15:18:48Z",
+   "frame": "F1",
+   "base": "2509.26385"
+  },
+  {
+   "id": "2509.24820v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Adaptive Pseudo-Marginal Algorithm",
+   "published": "2025-09-29T14:08:49Z",
+   "frame": "F1",
+   "base": "2509.24820"
+  },
+  {
+   "id": "2509.17980v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Covariance-Corrected WAIC for Bayesian Sequential Data Models",
+   "published": "2025-09-22T16:25:39Z",
+   "frame": "F1",
+   "base": "2509.17980"
+  },
+  {
+   "id": "2509.16062v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Transient regime of piecewise deterministic Monte Carlo algorithms",
+   "published": "2025-09-19T15:12:10Z",
+   "frame": "F1",
+   "base": "2509.16062"
+  },
+  {
+   "id": "2509.15164v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian inference for spatio-temporal hidden Markov models using the exchange algorithm",
+   "published": "2025-09-18T17:13:48Z",
+   "frame": "F1",
+   "base": "2509.15164"
+  },
+  {
+   "id": "2509.11781v1",
+   "cats": [
+    "cs.MS",
+    "stat.CO"
+   ],
+   "primary": "cs.MS",
+   "title": "A Computational Framework and Implementation of Implicit Priors in Bayesian Inverse Problems",
+   "published": "2025-09-15T11:03:04Z",
+   "frame": "F1",
+   "base": "2509.11781"
+  },
+  {
+   "id": "2509.08102v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Recursive Adaptive Importance Sampling with Optimal Replenishment",
+   "published": "2025-09-09T19:25:31Z",
+   "frame": "F1",
+   "base": "2509.08102"
+  },
+  {
+   "id": "2509.08020v1",
+   "cats": [
+    "q-bio.QM",
+    "cs.DC",
+    "stat.CO"
+   ],
+   "primary": "q-bio.QM",
+   "title": "Towards Scalable Proteomics: Opportunistic SMC Samplers on HTCondor",
+   "published": "2025-09-09T08:54:13Z",
+   "frame": "F1",
+   "base": "2509.08020"
+  },
+  {
+   "id": "2509.02772v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "Inference on covariance structure in high-dimensional multi-view data",
+   "published": "2025-09-02T19:20:42Z",
+   "frame": "F1",
+   "base": "2509.02772"
+  },
+  {
+   "id": "2509.00941v1",
+   "cats": [
+    "stat.CO",
+    "cs.LG",
+    "math.PR",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Regime-Switching Langevin Monte Carlo Algorithms",
+   "published": "2025-08-31T17:18:41Z",
+   "frame": "F1",
+   "base": "2509.00941"
+  },
+  {
+   "id": "2509.00753v1",
+   "cats": [
+    "stat.ME",
+    "cs.LG",
+    "stat.AP",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "FBMS: An R Package for Flexible Bayesian Model Selection and Model Averaging",
+   "published": "2025-08-31T09:04:01Z",
+   "frame": "F1",
+   "base": "2509.00753"
+  },
+  {
+   "id": "2509.00562v1",
+   "cats": [
+    "stat.CO",
+    "math.ST",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "SANVI: A Fast Spectral-Assisted Network Variational Inference Method with an Extended Surrogate Likelihood Function",
+   "published": "2025-08-30T17:11:38Z",
+   "frame": "F1",
+   "base": "2509.00562"
+  },
+  {
+   "id": "2508.18413v2",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "Parallelizing MCMC Across the Sequence Length",
+   "published": "2025-08-25T19:01:21Z",
+   "frame": "F1",
+   "base": "2508.18413"
+  },
+  {
+   "id": "2508.16556v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Spherical latent space models for social network analysis",
+   "published": "2025-08-22T17:23:25Z",
+   "frame": "F1",
+   "base": "2508.16556"
+  },
+  {
+   "id": "2508.15069v2",
+   "cats": [
+    "stat.CO",
+    "stat.ME",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "Sampling by averaging: A multiscale approach to score estimation",
+   "published": "2025-08-20T21:09:34Z",
+   "frame": "F1",
+   "base": "2508.15069"
+  },
+  {
+   "id": "2508.11982v1",
+   "cats": [
+    "stat.CO",
+    "econ.EM",
+    "stat.ME",
+    "stat.ML"
+   ],
+   "primary": "stat.CO",
+   "title": "A note on simulation methods for the Dirichlet-Laplace prior",
+   "published": "2025-08-16T08:44:27Z",
+   "frame": "F1",
+   "base": "2508.11982"
+  },
+  {
+   "id": "2508.09758v1",
+   "cats": [
+    "stat.CO"
+   ],
+   "primary": "stat.CO",
+   "title": "sanba: An R Package for Bayesian Clustering of Distributions via Shared Atoms Nested Models",
+   "published": "2025-08-13T12:39:20Z",
+   "frame": "F1",
+   "base": "2508.09758"
+  },
+  {
+   "id": "2507.18404v2",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Convergence Rate of Efficient MCMC with Ancillarity-Sufficiency Interweaving Strategy for Panel Data Models",
+   "published": "2025-07-24T13:41:26Z",
+   "frame": "F1",
+   "base": "2507.18404"
+  },
+  {
+   "id": "2507.17065v1",
+   "cats": [
+    "stat.ME",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Efficient Bayesian Inference for Spatial Point Patterns Using the Palm Likelihood",
+   "published": "2025-07-22T22:56:47Z",
+   "frame": "F1",
+   "base": "2507.17065"
+  },
+  {
+   "id": "2608.03775v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Multi-Signal Safety Surveillance with Bayesian Latent Factor Modeling and Bias Correction",
+   "published": "2026-08-04T14:58:09Z",
+   "frame": "F2",
+   "base": "2608.03775"
+  },
+  {
+   "id": "2608.03566v1",
+   "cats": [
+    "stat.ML",
+    "cs.LG",
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.ML",
+   "title": "Divide-and-Conquer: Towards Generalizable Amortized Bayesian Inference for the Drift Diffusion Model",
+   "published": "2026-08-04T12:29:47Z",
+   "frame": "F2",
+   "base": "2608.03566"
+  },
+  {
+   "id": "2608.02923v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Estimating Climate Sensitivity Using Bayesian Model Averaging for CMIP Models",
+   "published": "2026-08-03T22:18:13Z",
+   "frame": "F2",
+   "base": "2608.02923"
+  },
+  {
+   "id": "2607.29093v1",
+   "cats": [
+    "q-bio.NC",
+    "cs.AI",
+    "stat.AP"
+   ],
+   "primary": "q-bio.NC",
+   "title": "metasignal: A Python Package for Comprehensive Metacognitive Analysis and Decision-Making",
+   "published": "2026-07-31T07:18:19Z",
+   "frame": "F2",
+   "base": "2607.29093"
+  },
+  {
+   "id": "2607.28585v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "ABC methods for IoT Emitter Geolocalisation using LEO Satellite Doppler Measurements",
+   "published": "2026-07-30T17:41:56Z",
+   "frame": "F2",
+   "base": "2607.28585"
+  },
+  {
+   "id": "2607.28500v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Stated, Realized, and Optimal Aiming Strategies for the Tennis Serve: Experimental Evidence from Collegiate Athletes",
+   "published": "2026-07-30T16:45:05Z",
+   "frame": "F2",
+   "base": "2607.28500"
+  },
+  {
+   "id": "2607.27678v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "A Bayesian Bootstrap Method for Survival Models",
+   "published": "2026-07-30T04:49:14Z",
+   "frame": "F2",
+   "base": "2607.27678"
+  },
+  {
+   "id": "2607.26949v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Plackett--Luce latent block models for ranked data",
+   "published": "2026-07-29T14:16:44Z",
+   "frame": "F2",
+   "base": "2607.26949"
+  },
+  {
+   "id": "2607.26297v1",
+   "cats": [
+    "q-bio.NC",
+    "stat.AP"
+   ],
+   "primary": "q-bio.NC",
+   "title": "Three Failures of Pain Location: Why the Diagnostic Utility of Symptom Localization Is Not One Thing",
+   "published": "2026-07-28T21:41:05Z",
+   "frame": "F2",
+   "base": "2607.26297"
+  },
+  {
+   "id": "2607.26185v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "The Dirichlet Process as sampling distribution",
+   "published": "2026-07-28T18:46:21Z",
+   "frame": "F2",
+   "base": "2607.26185"
+  },
+  {
+   "id": "2607.25382v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Validation of methods to estimate the uncertainty of buildings energy savings in a controlled numerical setting and Bayesian energy signature with autocorrelated errors",
+   "published": "2026-07-28T07:38:32Z",
+   "frame": "F2",
+   "base": "2607.25382"
+  },
+  {
+   "id": "2607.25257v1",
+   "cats": [
+    "stat.AP",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "primary": "stat.AP",
+   "title": "Laplace-PSN-IRT: Uncertainty Quantification for Neural Item Response Theory Models of LLM Benchmarks",
+   "published": "2026-07-28T03:56:23Z",
+   "frame": "F2",
+   "base": "2607.25257"
+  },
+  {
+   "id": "2607.24084v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Simulation-Free Bayesian Power and Sample Size Calculations for Bayes Factors in Single-Arm Phase II Trials with Binary Endpoints",
+   "published": "2026-07-27T07:25:42Z",
+   "frame": "F2",
+   "base": "2607.24084"
+  },
+  {
+   "id": "2607.23294v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "AIM: Amortized Inference for Multistate Transition Models",
+   "published": "2026-07-25T17:06:22Z",
+   "frame": "F2",
+   "base": "2607.23294"
+  },
+  {
+   "id": "2607.21847v1",
+   "cats": [
+    "stat.ME",
+    "cs.LG",
+    "stat.AP",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "Distributional Determinantal Point Process for Repulsive Clustering of Distributions",
+   "published": "2026-07-23T22:32:00Z",
+   "frame": "F2",
+   "base": "2607.21847"
+  },
+  {
+   "id": "2607.21114v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Enhancing Gender Equality Assessment through Object-Oriented Bayesian networks: the European Gender Equality Index Case",
+   "published": "2026-07-23T09:47:04Z",
+   "frame": "F2",
+   "base": "2607.21114"
+  },
+  {
+   "id": "2607.21044v1",
+   "cats": [
+    "stat.AP",
+    "econ.EM",
+    "stat.OT"
+   ],
+   "primary": "stat.AP",
+   "title": "Trust by Context, Not by Design? A Quantitative Study of Data Donation Willingness for Open-Source Civic AI in Switzerland",
+   "published": "2026-07-23T08:26:15Z",
+   "frame": "F2",
+   "base": "2607.21044"
+  },
+  {
+   "id": "2607.19734v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Two-Stage Estimation of Population Abundance with Robust Inference under Interacting Survey Protocols",
+   "published": "2026-07-22T04:01:13Z",
+   "frame": "F2",
+   "base": "2607.19734"
+  },
+  {
+   "id": "2607.19498v1",
+   "cats": [
+    "stat.ML",
+    "cs.LG",
+    "math.PR",
+    "stat.AP",
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.ML",
+   "title": "A Bayesian Framework for Built-in Input Dimension Reduction for Gaussian Process Modeling",
+   "published": "2026-07-21T18:16:49Z",
+   "frame": "F2",
+   "base": "2607.19498"
+  },
+  {
+   "id": "2607.19493v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Interrupted Time Series Analysis Of Count Data With Nuisance Interruptions",
+   "published": "2026-07-21T18:11:41Z",
+   "frame": "F2",
+   "base": "2607.19493"
+  },
+  {
+   "id": "2607.18009v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Conway-Maxwell-Poisson model with spike-and slab priors for dispersed count data with application to football scores",
+   "published": "2026-07-20T14:44:12Z",
+   "frame": "F2",
+   "base": "2607.18009"
+  },
+  {
+   "id": "2607.17908v1",
+   "cats": [
+    "stat.AP",
+    "math.ST",
+    "stat.ME",
+    "stat.OT"
+   ],
+   "primary": "stat.AP",
+   "title": "PIONEER: Bayesian Joint Modelling of Mechanistic Tumour Growth and Time-to-Event Endpoints for Dynamic Prediction of Ongoing Oncology Trials",
+   "published": "2026-07-20T12:59:39Z",
+   "frame": "F2",
+   "base": "2607.17908"
+  },
+  {
+   "id": "2607.16081v1",
+   "cats": [
+    "stat.CO",
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "Scaling Hawkes Processes",
+   "published": "2026-07-17T16:12:40Z",
+   "frame": "F2",
+   "base": "2607.16081"
+  },
+  {
+   "id": "2607.14860v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Assing Preferential Sampling in Retail Survival Data: A Bayesian Joint LGCP and Spatial Probit Model for Mini-Supermarket Closure in Tokyo",
+   "published": "2026-07-16T11:32:49Z",
+   "frame": "F2",
+   "base": "2607.14860"
+  },
+  {
+   "id": "2607.13185v1",
+   "cats": [
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "A Bayesian Spatiotemporal Model to Estimate Disease Burden Using Hospital-Based Active Surveillance",
+   "published": "2026-07-14T18:36:54Z",
+   "frame": "F2",
+   "base": "2607.13185"
+  },
+  {
+   "id": "2607.11558v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Modeling Time-course Gene Expression Data through Bayesian Partition Functional Principal Component Analysis",
+   "published": "2026-07-13T13:40:09Z",
+   "frame": "F2",
+   "base": "2607.11558"
+  },
+  {
+   "id": "2607.07917v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "College closures from 2020 to 2025: An exploratory analysis and its implications for the enrollment cliff",
+   "published": "2026-07-08T21:02:55Z",
+   "frame": "F2",
+   "base": "2607.07917"
+  },
+  {
+   "id": "2607.07609v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian spatial modelling framework for assessing residential flood risk in property insurance",
+   "published": "2026-07-08T16:27:39Z",
+   "frame": "F2",
+   "base": "2607.07609"
+  },
+  {
+   "id": "2607.06905v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Learning Item Embeddings and Hyperparameters for IRT Calibration via Monte Carlo EM",
+   "published": "2026-07-08T01:57:42Z",
+   "frame": "F2",
+   "base": "2607.06905"
+  },
+  {
+   "id": "2607.06805v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "A spatial duration-augmented framework for drought persistence",
+   "published": "2026-07-07T21:04:51Z",
+   "frame": "F2",
+   "base": "2607.06805"
+  },
+  {
+   "id": "2607.06284v1",
+   "cats": [
+    "q-bio.NC",
+    "stat.AP"
+   ],
+   "primary": "q-bio.NC",
+   "title": "Quantifying Entrainment Evidence: A Comparison of Frequentist and Bayesian Approaches for Information Processing Pathway Maps",
+   "published": "2026-07-07T13:50:25Z",
+   "frame": "F2",
+   "base": "2607.06284"
+  },
+  {
+   "id": "2607.05887v1",
+   "cats": [
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "Fast, Frequentist Estimation of Epidemic Reproduction Numbers",
+   "published": "2026-07-07T06:30:32Z",
+   "frame": "F2",
+   "base": "2607.05887"
+  },
+  {
+   "id": "2607.04976v1",
+   "cats": [
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "Impact of interim analyses on Bayesian and frequentist operating characteristics of Bayesian clinical trials",
+   "published": "2026-07-06T12:10:34Z",
+   "frame": "F2",
+   "base": "2607.04976"
+  },
+  {
+   "id": "2607.04205v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "A Bayesian predictive framework for adaptive interim-analysis timing with robust borrowing in confirmatory trials",
+   "published": "2026-07-05T09:53:35Z",
+   "frame": "F2",
+   "base": "2607.04205"
+  },
+  {
+   "id": "2607.02786v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "A Bayesian Joint Model for Multiple Point Processes with Application to Presence-Only Data",
+   "published": "2026-07-02T21:52:19Z",
+   "frame": "F2",
+   "base": "2607.02786"
+  },
+  {
+   "id": "2607.02000v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Convergence fragility in probit Bayesian kernel machine regression implemented in the bkmr R package for binary-outcome environmental mixture analyses: a simulation study",
+   "published": "2026-07-02T10:37:01Z",
+   "frame": "F2",
+   "base": "2607.02000"
+  },
+  {
+   "id": "2607.01476v1",
+   "cats": [
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "Sensitivity Analysis and Optimization of Stochastic Epidemic Models under Parameter Uncertainty",
+   "published": "2026-07-01T21:17:18Z",
+   "frame": "F2",
+   "base": "2607.01476"
+  },
+  {
+   "id": "2607.00907v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Beyond the Flow: A Bayesian Latent Clustering Framework for Shared Micro-mobility Users in Venice",
+   "published": "2026-07-01T13:12:13Z",
+   "frame": "F2",
+   "base": "2607.00907"
+  },
+  {
+   "id": "2607.00722v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "How does academic performance affect self-efficacy? Interpretable modelling through latent academic achievement",
+   "published": "2026-07-01T10:11:49Z",
+   "frame": "F2",
+   "base": "2607.00722"
+  },
+  {
+   "id": "2606.31964v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Scalable Joint Modeling of Dependent Multi-Type Survey Data for Small Area Estimation",
+   "published": "2026-06-30T17:03:34Z",
+   "frame": "F2",
+   "base": "2606.31964"
+  },
+  {
+   "id": "2606.31022v1",
+   "cats": [
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian Uncertainty Quantification for Ranked Choice Voting Polls",
+   "published": "2026-06-30T01:39:04Z",
+   "frame": "F2",
+   "base": "2606.31022"
+  },
+  {
+   "id": "2606.30999v1",
+   "cats": [
+    "cs.LG",
+    "econ.EM",
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "cs.LG",
+   "title": "Estimating Supply Incrementality in Two-sided Marketplaces: A Causal Machine Learning Approach",
+   "published": "2026-06-30T00:23:00Z",
+   "frame": "F2",
+   "base": "2606.30999"
+  },
+  {
+   "id": "2606.30992v1",
+   "cats": [
+    "stat.ME",
+    "cs.LG",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Hierarchical Clustering As a Novel Solution to the Notorious Multicollinearity Problem in Observational Causal Inference",
+   "published": "2026-06-30T00:07:22Z",
+   "frame": "F2",
+   "base": "2606.30992"
+  },
+  {
+   "id": "2606.29448v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Scalable Bayesian Spatial Mixture Modelling for Remote Sensing Image Segmentation",
+   "published": "2026-06-28T15:12:49Z",
+   "frame": "F2",
+   "base": "2606.29448"
+  },
+  {
+   "id": "2606.29402v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian Copula Directional Dependence is Cross-Network Robust for Gene-Regulatory Pair Direction: A Benchmark Study on DREAM5",
+   "published": "2026-06-28T13:48:43Z",
+   "frame": "F2",
+   "base": "2606.29402"
+  },
+  {
+   "id": "2606.28522v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian Joint Estimation of the Hurst Parameter and Volatility with Applications to Fractional Option Pricing",
+   "published": "2026-06-26T18:19:51Z",
+   "frame": "F2",
+   "base": "2606.28522"
+  },
+  {
+   "id": "2606.28251v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Push Puppet Networks: Structured Bayesian Pruning Algorithm for Language Model Compression",
+   "published": "2026-06-26T16:37:06Z",
+   "frame": "F2",
+   "base": "2606.28251"
+  },
+  {
+   "id": "2606.24652v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Estimation of the Eigenstructure in High-Dimensional Approximate Factor Models",
+   "published": "2026-06-23T14:46:07Z",
+   "frame": "F2",
+   "base": "2606.24652"
+  },
+  {
+   "id": "2606.24367v1",
+   "cats": [
+    "cs.SD",
+    "stat.AP"
+   ],
+   "primary": "cs.SD",
+   "title": "Statistical validation and full-sphere extension of a Bayesian model for human static sound localisation",
+   "published": "2026-06-23T09:57:43Z",
+   "frame": "F2",
+   "base": "2606.24367"
+  },
+  {
+   "id": "2606.23358v1",
+   "cats": [
+    "stat.AP",
+    "stat.CO",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "Order-Restricted Bayesian Ordinal Regression for the Modeling of Neuron Degeneration in Caenorhabditis elegans",
+   "published": "2026-06-22T13:58:42Z",
+   "frame": "F2",
+   "base": "2606.23358"
+  },
+  {
+   "id": "2606.23326v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Online forecast reconciliation using linear models",
+   "published": "2026-06-22T13:35:43Z",
+   "frame": "F2",
+   "base": "2606.23326"
+  },
+  {
+   "id": "2606.23146v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "A Bias-Corrected Two-Stage Approach for Joint Modelling of Multidimensional Longitudinal HRQoL and Survival Data",
+   "published": "2026-06-22T10:47:03Z",
+   "frame": "F2",
+   "base": "2606.23146"
+  },
+  {
+   "id": "2606.22601v1",
+   "cats": [
+    "stat.ML",
+    "cs.LG",
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.ML",
+   "title": "Scalable Bayesian Additive Models for Stellar Flare Detection via Amortized Gaussian Process Inference and Hidden Markov Models",
+   "published": "2026-06-21T17:20:26Z",
+   "frame": "F2",
+   "base": "2606.22601"
+  },
+  {
+   "id": "2606.20341v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Anchors Away: Navigating Unanchored Indirect Comparisons with Multilevel Unanchored Meta-Regression (ML-UMR)",
+   "published": "2026-06-18T15:10:31Z",
+   "frame": "F2",
+   "base": "2606.20341"
+  },
+  {
+   "id": "2606.19044v1",
+   "cats": [
+    "stat.CO",
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.CO",
+   "title": "smoothbp: Fast Bayesian Hierarchical Piecewise Regression with Smoothed Transitions and Spike-and-Slab Model Selection",
+   "published": "2026-06-17T13:11:12Z",
+   "frame": "F2",
+   "base": "2606.19044"
+  },
+  {
+   "id": "2606.18809v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Applying the Weibull Shape Parameter test for signal detection in pharmacovigilance using the R package WSPsignal",
+   "published": "2026-06-17T08:25:49Z",
+   "frame": "F2",
+   "base": "2606.18809"
+  },
+  {
+   "id": "2606.18806v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Spatial emergence of acceleration in global warming",
+   "published": "2026-06-17T08:22:17Z",
+   "frame": "F2",
+   "base": "2606.18806"
+  },
+  {
+   "id": "2606.18567v1",
+   "cats": [
+    "stat.ML",
+    "cs.LG",
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.ML",
+   "title": "Bridging Data Gaps in Structural Fragility Modeling through Transfer Learning: Methodology and Case Studies",
+   "published": "2026-06-17T00:38:30Z",
+   "frame": "F2",
+   "base": "2606.18567"
+  },
+  {
+   "id": "2606.17790v1",
+   "cats": [
+    "stat.AP",
+    "cs.IT"
+   ],
+   "primary": "stat.AP",
+   "title": "Distributed Experimental Design: Bayes-optimal Fusion of Local Designs",
+   "published": "2026-06-16T11:07:14Z",
+   "frame": "F2",
+   "base": "2606.17790"
+  },
+  {
+   "id": "2606.17717v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Double zero-inflated spatio-temporal modeling of daily precipitation under detection thresholds",
+   "published": "2026-06-16T09:30:15Z",
+   "frame": "F2",
+   "base": "2606.17717"
+  },
+  {
+   "id": "2606.17343v2",
+   "cats": [
+    "cs.CV",
+    "stat.AP"
+   ],
+   "primary": "cs.CV",
+   "title": "Trustworthy MRI Reconstruction via Bayesian Uncertainty Quantification with Sparsity Prior Models",
+   "published": "2026-06-15T22:44:38Z",
+   "frame": "F2",
+   "base": "2606.17343"
+  },
+  {
+   "id": "2606.17267v1",
+   "cats": [
+    "stat.ME",
+    "econ.EM",
+    "math.NA",
+    "stat.AP",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Poisson-Randomized Gamma Tensor Factorization with Application to International Trade Flows",
+   "published": "2026-06-15T20:18:27Z",
+   "frame": "F2",
+   "base": "2606.17267"
+  },
+  {
+   "id": "2606.16677v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Distributional Forecasting of EU Asylum Applications with Dynamic Multivariate Count Models",
+   "published": "2026-06-15T13:10:45Z",
+   "frame": "F2",
+   "base": "2606.16677"
+  },
+  {
+   "id": "2606.16224v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "A Bayesian hierarchical model for meta-analysis",
+   "published": "2026-06-15T05:05:41Z",
+   "frame": "F2",
+   "base": "2606.16224"
+  },
+  {
+   "id": "2606.15525v1",
+   "cats": [
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "Modeling Nonlinear Ability Trajectories and Learner Heterogeneity in Online Learning: A Bayesian Nonparametric Dynamic IRT Framework",
+   "published": "2026-06-14T00:45:53Z",
+   "frame": "F2",
+   "base": "2606.15525"
+  },
+  {
+   "id": "2606.14902v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Heterogeneous behavioral mechanisms in epidemiological models",
+   "published": "2026-06-12T19:11:33Z",
+   "frame": "F2",
+   "base": "2606.14902"
+  },
+  {
+   "id": "2606.13305v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Semiparametric Bayesian inference for causal mediation in cluster randomized trials",
+   "published": "2026-06-11T13:01:10Z",
+   "frame": "F2",
+   "base": "2606.13305"
+  },
+  {
+   "id": "2606.13019v2",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Stochastic Modeling of Composite Interfaces: Sensitivity to Spatial Correlation and Bayesian Identification from Standard Fracture Tests",
+   "published": "2026-06-11T07:53:53Z",
+   "frame": "F2",
+   "base": "2606.13019"
+  },
+  {
+   "id": "2606.11405v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Causal Machine Learning for Cure Models",
+   "published": "2026-06-09T19:55:11Z",
+   "frame": "F2",
+   "base": "2606.11405"
+  },
+  {
+   "id": "2606.10772v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Structural Under-Representation of Women in News: Nonparametric Bayesian Mixtures Capture Time-Dependent Dynamics",
+   "published": "2026-06-09T12:27:07Z",
+   "frame": "F2",
+   "base": "2606.10772"
+  },
+  {
+   "id": "2606.10256v1",
+   "cats": [
+    "physics.data-an",
+    "hep-ex",
+    "stat.AP"
+   ],
+   "primary": "physics.data-an",
+   "title": "Confidence, Statistical Evidence and Relative Belief with Applications to a Problem in Particle Physics",
+   "published": "2026-06-08T23:48:47Z",
+   "frame": "F2",
+   "base": "2606.10256"
+  },
+  {
+   "id": "2606.09307v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "Robust high-dimensional Bayesian regression with non-Gaussian errors under global--local shrinkage priors",
+   "published": "2026-06-08T10:15:23Z",
+   "frame": "F2",
+   "base": "2606.09307"
+  },
+  {
+   "id": "2606.08660v2",
+   "cats": [
+    "stat.AP",
+    "stat.ME",
+    "stat.OT"
+   ],
+   "primary": "stat.AP",
+   "title": "Active Learning with Bayesian Reasoning: A POGIL-Based Pedagogy in Introductory Statistics",
+   "published": "2026-06-07T15:02:43Z",
+   "frame": "F2",
+   "base": "2606.08660"
+  },
+  {
+   "id": "2606.08642v2",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "A Practical Framework for Sensitivity Analysis in Externally Controlled Trials: An Illustration with a Bayesian Hybrid Evidence Synthesis Case Study",
+   "published": "2026-06-07T14:14:50Z",
+   "frame": "F2",
+   "base": "2606.08642"
+  },
+  {
+   "id": "2606.07947v1",
+   "cats": [
+    "stat.ME",
+    "math.ST",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Global Fr\u00e9chet Regression via Weak Conditional Expectations",
+   "published": "2026-06-06T02:34:09Z",
+   "frame": "F2",
+   "base": "2606.07947"
+  },
+  {
+   "id": "2606.07677v1",
+   "cats": [
+    "stat.ML",
+    "cs.LG",
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.ML",
+   "title": "Disentangling Latent Risk Pathways via Bayesian Hypergraph Inference",
+   "published": "2026-06-04T19:56:09Z",
+   "frame": "F2",
+   "base": "2606.07677"
+  },
+  {
+   "id": "2606.06173v1",
+   "cats": [
+    "eess.SY",
+    "stat.AP"
+   ],
+   "primary": "eess.SY",
+   "title": "From data to decisions: Bayesian modelling and global sensitivity analysis for flotation control",
+   "published": "2026-06-04T13:45:15Z",
+   "frame": "F2",
+   "base": "2606.06173"
+  },
+  {
+   "id": "2606.03961v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "A Neural Estimation Framework for Aggregated Relational Data under Intractable Likelihoods",
+   "published": "2026-06-02T17:49:58Z",
+   "frame": "F2",
+   "base": "2606.03961"
+  },
+  {
+   "id": "2606.02410v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Optimal sequential two-stage Bayes Factor Design for two-arm clinical Phase II Trials with binary Endpoints",
+   "published": "2026-06-01T15:53:21Z",
+   "frame": "F2",
+   "base": "2606.02410"
+  },
+  {
+   "id": "2606.02017v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP",
+    "stat.ML"
+   ],
+   "primary": "stat.ME",
+   "title": "PliableBVS: A flexible Bayesian variable selection method for modeling interactions with mandatory modifying variables",
+   "published": "2026-06-01T10:07:53Z",
+   "frame": "F2",
+   "base": "2606.02017"
+  },
+  {
+   "id": "2606.01489v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Model complexity in econometrics - a combinatorial analysis",
+   "published": "2026-05-31T23:14:18Z",
+   "frame": "F2",
+   "base": "2606.01489"
+  },
+  {
+   "id": "2606.01428v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Quantifying Evidential Rigor in Meta-Analytic Corpora: A Simulation-Characterized, Bias-Robust Bayesian Workflow with a Nutrition Case Study",
+   "published": "2026-05-31T19:56:12Z",
+   "frame": "F2",
+   "base": "2606.01428"
+  },
+  {
+   "id": "2605.31511v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian Nonparametric Clustering to Support Medical Decision-Making: A Variational Inference Approach",
+   "published": "2026-05-29T16:29:35Z",
+   "frame": "F2",
+   "base": "2605.31511"
+  },
+  {
+   "id": "2605.31394v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "A Dynamic Latent Space Model for Healthcare Mobility Networks: the Italian National Health Service case",
+   "published": "2026-05-29T14:58:50Z",
+   "frame": "F2",
+   "base": "2605.31394"
+  },
+  {
+   "id": "2605.30775v2",
+   "cats": [
+    "stat.AP",
+    "stat.ML"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian Classification with Probit-link Split-and-merge Gaussian Process Prior in EEG-based Brain-Computer Interfaces",
+   "published": "2026-05-29T03:05:06Z",
+   "frame": "F2",
+   "base": "2605.30775"
+  },
+  {
+   "id": "2605.30623v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "A Bayesian Framework for Uncertainty-Aware Estimation of Main Pulmonary Artery Velocity Profiles from Phase-Contrast MRI",
+   "published": "2026-05-28T22:18:39Z",
+   "frame": "F2",
+   "base": "2605.30623"
+  },
+  {
+   "id": "2605.29196v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Coating Breakdown Prediction for Ships and Inspection Planning",
+   "published": "2026-05-28T00:15:00Z",
+   "frame": "F2",
+   "base": "2605.29196"
+  },
+  {
+   "id": "2605.29193v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian reversal of the liquid level trajectory in a draining tank for pollution forensics",
+   "published": "2026-05-28T00:08:50Z",
+   "frame": "F2",
+   "base": "2605.29193"
+  },
+  {
+   "id": "2605.28212v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "How to measure intra-physician variability in clinical decision-making?",
+   "published": "2026-05-27T09:30:45Z",
+   "frame": "F2",
+   "base": "2605.28212"
+  },
+  {
+   "id": "2605.27889v2",
+   "cats": [
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "Beyond Empirical Bayes: A Hierarchical Bayesian Approach to Crash Rate Estimation with Missing Traffic Volume",
+   "published": "2026-05-27T03:10:38Z",
+   "frame": "F2",
+   "base": "2605.27889"
+  },
+  {
+   "id": "2605.27720v1",
+   "cats": [
+    "cs.LG",
+    "stat.AP"
+   ],
+   "primary": "cs.LG",
+   "title": "Bayesian Deployment Approval for Learned Landing Controllers under Finite Rollout Validation",
+   "published": "2026-05-26T21:45:17Z",
+   "frame": "F2",
+   "base": "2605.27720"
+  },
+  {
+   "id": "2605.27184v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Posterior Quantification of Borrowing from Multiple Historical Control Data in Bayesian Dynamic Borrowing Methods: A Scoping Review",
+   "published": "2026-05-26T15:36:28Z",
+   "frame": "F2",
+   "base": "2605.27184"
+  },
+  {
+   "id": "2605.26843v1",
+   "cats": [
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "stat.AP",
+   "title": "A warning system for risk prediction of metabolic syndrome in a healthy population of blood donors",
+   "published": "2026-05-26T10:56:30Z",
+   "frame": "F2",
+   "base": "2605.26843"
+  },
+  {
+   "id": "2605.25043v1",
+   "cats": [
+    "stat.AP",
+    "stat.ML"
+   ],
+   "primary": "stat.AP",
+   "title": "Shared Keyboard: An improved Bayesian design for phase I clinical trials via Beta kernel process",
+   "published": "2026-05-24T12:39:00Z",
+   "frame": "F2",
+   "base": "2605.25043"
+  },
+  {
+   "id": "2605.24847v2",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Logistic regression is not enough: The need for Bayesian nonparametric modelling for causal inference using observational data, exemplified by the 'gateway' effect",
+   "published": "2026-05-24T03:36:03Z",
+   "frame": "F2",
+   "base": "2605.24847"
+  },
+  {
+   "id": "2605.23858v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Anticipating Continued Global Fertility Decline via Neural Forecasting",
+   "published": "2026-05-22T17:17:48Z",
+   "frame": "F2",
+   "base": "2605.23858"
+  },
+  {
+   "id": "2605.23692v1",
+   "cats": [
+    "stat.CO",
+    "stat.AP"
+   ],
+   "primary": "stat.CO",
+   "title": "Trajectory-Oriented Optimization Via Adaptive Thompson Sampling And Grid Refinement: A Tutorial With The ADAPTIVE\\_TS Package",
+   "published": "2026-05-22T14:48:08Z",
+   "frame": "F2",
+   "base": "2605.23692"
+  },
+  {
+   "id": "2605.23048v1",
+   "cats": [
+    "cs.HC",
+    "cs.CY",
+    "stat.AP",
+    "stat.ME"
+   ],
+   "primary": "cs.HC",
+   "title": "StanBKT: Rethinking Parameter Estimation in Bayesian Knowledge Tracing",
+   "published": "2026-05-21T21:27:10Z",
+   "frame": "F2",
+   "base": "2605.23048"
+  },
+  {
+   "id": "2605.20692v1",
+   "cats": [
+    "stat.ME",
+    "q-bio.PE",
+    "q-bio.QM",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Inferring infectiousness: a joint model of the within-host viral kinetics of SARS-CoV-2",
+   "published": "2026-05-20T04:39:53Z",
+   "frame": "F2",
+   "base": "2605.20692"
+  },
+  {
+   "id": "2605.20400v1",
+   "cats": [
+    "stat.AP",
+    "cs.LG",
+    "stat.ML"
+   ],
+   "primary": "stat.AP",
+   "title": "Understanding Deterioration Random Effects for Causal Discovery in Infrastructure Management",
+   "published": "2026-05-19T18:57:35Z",
+   "frame": "F2",
+   "base": "2605.20400"
+  },
+  {
+   "id": "2605.20143v2",
+   "cats": [
+    "stat.AP",
+    "stat.CO",
+    "stat.ML"
+   ],
+   "primary": "stat.AP",
+   "title": "Semi-Parametric Bayesian Additive Regression Trees for Risk Prediction with High-Dimensional Epigenetic Signatures and Low-Dimensional Covariates",
+   "published": "2026-05-19T17:31:20Z",
+   "frame": "F2",
+   "base": "2605.20143"
+  },
+  {
+   "id": "2605.18728v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian Sparse Regression for Microbiome-Metabolite Data Integration",
+   "published": "2026-05-18T17:51:59Z",
+   "frame": "F2",
+   "base": "2605.18728"
+  },
+  {
+   "id": "2605.17518v1",
+   "cats": [
+    "physics.data-an",
+    "stat.AP",
+    "stat.ML"
+   ],
+   "primary": "physics.data-an",
+   "title": "Integrating Bayesian Spectral Deconvolution and Expert Scientific Reasoning for Robust Peak Estimation",
+   "published": "2026-05-17T16:03:13Z",
+   "frame": "F2",
+   "base": "2605.17518"
+  },
+  {
+   "id": "2605.16804v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Multi-resolution Spatial Graphical Regression Models for Hierarchical Spatial Transcriptomics Data",
+   "published": "2026-05-16T04:17:07Z",
+   "frame": "F2",
+   "base": "2605.16804"
+  },
+  {
+   "id": "2605.15291v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "BaySC: Uncovering Tissue Architecture in Spatial Multi-Omics via Probabilistic Spatial Clustering",
+   "published": "2026-05-14T18:07:26Z",
+   "frame": "F2",
+   "base": "2605.15291"
+  },
+  {
+   "id": "2605.14565v2",
+   "cats": [
+    "stat.ME",
+    "math.ST",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "A Bayesian Longitudinal Spatial Normative Model for Individualized Brain Deviation Mapping",
+   "published": "2026-05-14T08:36:45Z",
+   "frame": "F2",
+   "base": "2605.14565"
+  },
+  {
+   "id": "2605.13660v2",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Improving ecological inference and uncertainty quantification from camera trap data through the fusion of AI confidences and manual annotations",
+   "published": "2026-05-13T15:18:03Z",
+   "frame": "F2",
+   "base": "2605.13660"
+  },
+  {
+   "id": "2605.12901v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP",
+    "stat.CO"
+   ],
+   "primary": "stat.ME",
+   "title": "A Bayesian Adaptive Latent Mixture Model for Zero-Inflated Weighted Brain Connectome Analysis",
+   "published": "2026-05-13T02:25:09Z",
+   "frame": "F2",
+   "base": "2605.12901"
+  },
+  {
+   "id": "2605.09064v1",
+   "cats": [
+    "stat.AP"
+   ],
+   "primary": "stat.AP",
+   "title": "Bayesian decision theory for wildlife management under uncertainty: from inference to action",
+   "published": "2026-05-09T17:14:54Z",
+   "frame": "F2",
+   "base": "2605.09064"
+  },
+  {
+   "id": "2605.07300v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "A Beta-GAM Hidden Markov Model for Proportion Time Series",
+   "published": "2026-05-08T06:11:16Z",
+   "frame": "F2",
+   "base": "2605.07300"
+  },
+  {
+   "id": "2605.06742v1",
+   "cats": [
+    "stat.ME",
+    "stat.AP"
+   ],
+   "primary": "stat.ME",
+   "title": "Bayesian Modeling and Prediction of Generalized Contact Matrices",
+   "published": "2026-05-07T14:30:57Z",
+   "frame": "F2",
+   "base": "2605.06742"
+  },
+  {
+   "id": "2605.06333v1",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG",
+    "stat.AP",
+    "stat.ML"
+   ],
+   "primary": "cs.CV",
+   "title": "TinyBayes: Closed-Form Bayesian Inference via Jacobi Prior for Real-Time Image Classification on Edge Devices",
+   "published": "2026-05-07T14:26:10Z",
+   "frame": "F2",
+   "base": "2605.06333"
+  }
+ ]
+}

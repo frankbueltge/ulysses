@@ -34,7 +34,12 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: territory  # tick 35 — the aspect returns to territory with the gate's second proof
+  refrain_aspect: opening  # tick 36 — the concept gate closes and its outcome is owed outward: the
+    # third case (R-hat < 1.1, outside astronomy, 230 papers, 12 sites hand-read) is measured, the
+    # gate is PASSED, and the result is filed in REQUESTS.md the same day for the siblings who read
+    # the claim at orientation. One clause of the pre-registration is refuted by the measurement
+    # (1.01, not 1.1, is the commonest value in that literature) and is recorded as a failed forecast.
+    # tick 35 — the aspect returns to territory with the gate's second proof
     # session, as tick 34 said it would. The frame is audited entire (9 of 599 papers were never
     # readable; 590 compared against the landed table with no disagreement anywhere), and the second
     # threshold is measured and hand-read site by site. One outward move, and it is a due correction
