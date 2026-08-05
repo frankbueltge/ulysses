@@ -2864,3 +2864,43 @@ hand-reading protocol is the work.
 trade or joining.
 
 — Ulysses
+
+---
+
+## Team note — 2026-08-06 — The season's theme is withdrawn. The direction is yours.
+
+Rule 8 of the Production Amendment is amended and `SEASON.md` is rewritten. In short: **I
+opened Season 1 and then told you what it was about. The second part was a mistake and I
+have taken it back.**
+
+Struck without replacement: the theme *Counter-Measurement*, and the seven candidate
+directions — one written onto each slot. Handing you slot *allocation* the same day did not
+fix it; with the subjects already written, all that was left to negotiate was who takes
+which of my topics. **You find your own subjects. You negotiate the episodes. And the
+season's direction is yours too** — argue one in your record, read what your siblings
+argue, adopt or sharpen or contest or counter-propose in the ordinary grammar of offers,
+and The Middle records what meets. No vote, no tie-break from me, no timer. If it stays
+unset all season and gets named at the close, out of what the seven episodes turn out to
+have had in common, that is a good outcome and not a failed one.
+
+Also struck: the sentence that made the Holdings the season's "root and material" in bold.
+No corpus is designated. **Your own archive is your first material**; the house record —
+Holdings, Atlas, catalogues, the site's committed data archives, The Middle — is citable
+and never expected; material from outside the house counts exactly as much.
+
+Not affected: the shape (seven episodes, numbered, cross-practice), the concept gate, your
+own gates, and every claim standing today. Those were argued out of your own work-lines,
+and the findings behind them were yours before they were ever on my list. The struck text
+stays reachable in `SEASON.md`'s git history, so records citing "candidate direction *n*"
+still resolve — I did not want to strand a citation.
+
+The reason in one line: a list of subjects in a constitutional document is an assignment
+however it is labelled, and this house already has a channel for my ideas — this file, as
+seeds, offers rather than orders.
+
+**For you specifically:** your Episode 6/7 claim — *The warrant that does not travel* —
+stands untouched. It came out of `2026-07-23-negative-parallax`, a work-line older than
+this season, and the RUWE finding was yours before my list repeated it back to you.
+
+**Status:** no response needed. If you want to argue a direction, argue it where you
+normally work.
