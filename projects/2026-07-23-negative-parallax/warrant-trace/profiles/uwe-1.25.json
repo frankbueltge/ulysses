@@ -1,0 +1,60 @@
+{
+  "id": "uwe-1.25",
+  "focus_value": "1.25",
+  "statistic": "UWE / RUWE — the (renormalised) unit weight error of a Gaia astrometric solution. Note the asymmetry this profile exists to measure: 1.25 is recommended on UWE_eDR3, and the catalogue publishes RUWE.",
+  "deriving_document": "Penoyre, Z., Belokurov, V. & Evans, N. W. (2022), 'Astrometric identification of nearby binary stars I: predicted astrometric signals', MNRAS, doi:10.1093/mnras/stac959, arXiv:2111.10380 — §'Distribution of UWE' (in 'Astrometric change as a function of period' → 'Change in UWE'), read at source 2026-08-05: 'The significantly smaller spread in eDR3 UWE motivated us to use a new critical value over which astrometric deviations are considered inconsistent with a single star. Previously a value of 1.4 has been adopted, as used in P+20 and B+20. We show in the inset panel that this is approximately where only one single star in a million is removed from DR2. Applying a similar criteria to our eDR3 distribution we suggest UWE_eDR3 < 1.25 as a comparable criteria for stars astrometrically consistent with a single body solution.' The number is read off a distribution of SIMULATED single stars, by analogy with how 1.4 behaves in DR2. It is restated in the Conclusions ('By comparing the distribution of DR2 and eDR3 single star UWEs we suggest an analogous criteria is UWE_eDR3 > 1.25') and hedged in the appendix: 'The criteria that we suggest in this paper, of UWE_eDR3 > 1.25, is likely a best case scenario — our simulated data is missing many possible noise sources … and thus real datasets may require a higher UWE cut.'",
+  "provenance_note": "Two documents can be cited as 'Penoyre et al. 2022' and the sieve cannot tell them apart from a citation key: Paper I (arXiv:2111.10380, doi:10.1093/mnras/stac959) derives 1.25; Paper II (arXiv:2202.06963, doi:10.1093/mnras/stac1147), same three authors, same year, does NOT adopt it — 'The criterion of LUWE > 2 is stronger than the cutoff of 1.25 suggested in P+21.' This is the same hazard the ruwe-1.4 profile records for the two Lindegren documents, and it is the reason `cite_penoyre` (anyone of the authors, either paper) and `cite_paper_i_id` (an identifier that can only be Paper I) are separate flags. `cite_penoyre` is NOT evidence that the deriving document is meant. Every load-bearing hit is hand-read.",
+  "window": 420,
+  "term": "(?:\\bRUWE\\b|\\bruwe\\b|\\bUWE\\b|\\buwe\\b|(?:re-?normali[sz]ed\\s+)?unit[- ]weight\\s+error)",
+  "rel": "(?:<|>|=|less\\s+than|smaller\\s+than|lower\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|below|above|exceed(?:ing|s)?|of|up\\s+to|at\\s+most|at\\s+least|under|over|worse\\s+than|better\\s+than)",
+  "site_patterns": [
+    "{TERM}[^.;:\\n]{0,50}?{REL}\\s*(\\d(?:\\.\\d+)?)\\b",
+    "(\\d(?:\\.\\d+)?)\\s*(?:<|>)\\s*{TERM}"
+  ],
+  "flags": {
+    "cite_penoyre": {
+      "scope": "both",
+      "pattern": "penoyre",
+      "note": "any Penoyre citation in the window — NOT evidence that Paper I is meant, since Paper II carries the same authors and year and declines the number"
+    },
+    "cite_paper_i_id": {
+      "scope": "both",
+      "pattern": "2111\\.10380|stac959|P\\+\\s?21|penoyre[^,\\s]*(?:2021|21)\\b|predicted\\s+astrometric\\s+signals",
+      "note": "an identifier that can only be Paper I — the deriving document identified as such"
+    },
+    "prov": {
+      "scope": "window",
+      "pattern": "simulat|synthetic|one\\s+(?:single\\s+)?(?:star|source)\\s+in\\s+a\\s+million|single[-\\s]star\\s+distribution|critical\\s+value|derived\\s+(?:for|from|on)|best\\s+case|eDR3\\s+baseline",
+      "note": "the sample or the reading the number came from"
+    },
+    "prov_release": {
+      "scope": "window",
+      "pattern": "\\beDR3\\b|\\bEDR3\\b|Early\\s+Data\\s+Release\\s+3",
+      "note": "the release it was derived on, named alone — the weakest mark"
+    },
+    "hedge": {
+      "scope": "window",
+      "pattern": "commonly\\s+(?:used|adopted)|widely\\s+(?:used|adopted)|standard\\s+(?:cut|threshold|criteri|value|selection)|typical(?:ly)?\\s*(?:used|adopted|applied)|conventional|arbitrar|recommend|customar|usual(?:ly)?\\s*(?:used|adopted|applied)|often\\s+(?:used|adopted)|frequently\\s+(?:used|adopted)|de\\s+facto|rule\\s+of\\s+thumb|common\\s+(?:practice|choice)",
+      "note": "status marked without citation — the field saying 'this is a convention'"
+    }
+  },
+  "match_flags": {
+    "on_ruwe": {
+      "pattern": "\\bRUWE\\b|\\bruwe\\b|re-?normali[sz]ed",
+      "note": "the site carries RUWE — the catalogue column, not the statistic the threshold was recommended on"
+    },
+    "on_uwe": {
+      "pattern": "(?<![Rr])\\bUWE\\b|(?<![Rr])\\buwe\\b",
+      "note": "the site carries bare UWE — the statistic of the recommendation"
+    }
+  },
+  "deriving_flag": "cite_paper_i_id",
+  "targets": [
+    {"name": "penoyre", "pattern": "penoyre|2111\\.10380|2202\\.06963|stac959|stac1147"},
+    {"name": "lindegren_tn", "pattern": "LL-?\\s?124|GAIA-C3-TN|lindegren.{0,12}(?:tech|note)|re-?normali[sz](?:ing|ation).{0,20}chi"},
+    {"name": "lindegren", "pattern": "lindegren"},
+    {"name": "fabricius", "pattern": "fabricius"},
+    {"name": "belokurov", "pattern": "belokurov"},
+    {"name": "gaia_generic", "pattern": "gaia[-_]?(?:collab|edr3|dr3|dr2|mission|brown|vallenari|prusti)|edr3astrom|dr3astrom|_astrometry|astrometry_"}
+  ]
+}

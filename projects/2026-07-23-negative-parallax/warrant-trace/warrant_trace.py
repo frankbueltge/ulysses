@@ -30,13 +30,20 @@ and hedge vocabularies, the window — moves into a JSON profile.
 Usage:
     python3 warrant_trace.py fetch   --ids ids.txt --out corpus/src [--limit N]
     python3 warrant_trace.py measure --profile profiles/ruwe-1.4.json --src corpus/src \\
-                                     --out corpus/measure [--meta frame.csv] [--nocomments]
+                                     --out corpus/measure [--frame ids.txt] [--nocomments]
     python3 warrant_trace.py verify  --profile profiles/ruwe-1.4.json --src corpus/src \\
                                      --against ../circulation-measure-ruwe.csv --map ruwe
 
 No paid service, no API key, no source text redistributed: the fetcher writes into a
 working directory the caller chooses and the landed artefacts are the derived table
 and this script.
+
+0.2 (tick 35, same day) repairs the defect 0.1 was built to find. `measure --frame`
+gives a paper the fetcher could not read an explicit `no_source` state instead of an
+absence that downstream joins turn into zeros, and every denominator in the report
+excludes it. `match_flags` classifies the matched site string rather than its window,
+so a profile can record *which* of several terms carried the number — needed when a
+threshold is recommended on one statistic and applied to another.
 """
 import argparse
 import csv
@@ -50,7 +57,7 @@ import tarfile
 import time
 import urllib.request
 
-VERSION = "warrant-trace 0.1 (2026-08-05)"
+VERSION = "warrant-trace 0.2 (2026-08-05)"
 UA = "ulysses-warrant-trace/0.1 (artistic research; one request per 3 s)"
 EPRINT = "https://arxiv.org/e-print/{}"
 
@@ -122,6 +129,18 @@ class Profile:
         self.targets = [(t["name"], re.compile(t["pattern"], re.I))
                         for t in d.get("targets", [])]
         self.deriving_flag = d.get("deriving_flag")
+        # 0.2: flags tested against the matched site string itself, not its window.
+        # A window flag cannot say WHICH of several alternative terms stood at the
+        # site — needed when a threshold is recommended on one statistic and applied
+        # to another.
+        self.match_flags = {}
+        for name, spec in d.get("match_flags", {}).items():
+            self.match_flags[name] = re.compile(spec["pattern"], re.I)
+        self.flag_names = list(self.flags) + list(self.match_flags)
+        # 0.2: the value this profile is actually about. A profile names a threshold;
+        # the corpus-wide counts answer "how many values are in use", and this answers
+        # "and at the sites carrying THIS one, what stands there".
+        self.focus_value = d.get("focus_value")
 
     @classmethod
     def load(cls, path):
@@ -151,6 +170,8 @@ def sites(text, prof):
             for name, (pat_f, scope) in prof.flags.items():
                 hay = {"window": win, "cites": cites, "both": cites + " " + win}[scope]
                 rec["flags"][name] = bool(pat_f.search(hay))
+            for name, pat_m in prof.match_flags.items():
+                rec["flags"][name] = bool(pat_m.search(rec["match"]))
             hay = cites + " " + win
             hits = [k for k, p in prof.targets if p.search(hay)]
             rec["targets"] = hits
@@ -206,6 +227,19 @@ def fetch(args):
                 rec["bytes"] = len(blob)
                 rec["sha256"] = hashlib.sha256(blob).hexdigest()
                 parts, members = [], 0
+                if blob[:4] == b"%PDF":
+                    # 0.2: arXiv serves the PDF when a submission has no source. 0.1
+                    # reached this through gzip and recorded "Not a gzipped file",
+                    # which names the symptom and hides the fact. This is the silent
+                    # zero at its origin and it gets its own word.
+                    rec["ok"] = False
+                    rec["members"] = 0
+                    rec["error"] = "no_latex_source: arXiv served a PDF"
+                    man.write(json.dumps(rec) + "\n")
+                    man.flush()
+                    print(f"[{i}/{len(ids)}] {aid} NO_LATEX_SOURCE", file=sys.stderr)
+                    time.sleep(3)
+                    continue
                 try:
                     tf = tarfile.open(fileobj=io.BytesIO(blob), mode="r:*")
                     for m in tf.getmembers():
@@ -240,33 +274,54 @@ def fetch(args):
 
 
 # ------------------------------------------------------------------ measure
-def measure_rows(prof, srcdir, nocomments=False):
+def measure_rows(prof, srcdir, nocomments=False, frame=None):
+    """One row per source file — or, with `frame`, one row per paper in the frame.
+
+    0.2, the silent-zero repair. Until now this walked the corpus directory, so a
+    paper whose source could not be fetched produced *no row*, and whatever joined
+    the result back to the frame filled it with zeros. Those zeros are
+    indistinguishable from a paper that was read and does not mention the statistic
+    — the defect found at tick 34 (`arXiv:2403.15513`, no LaTeX at arXiv). With
+    `frame` the absence is a state of its own, `no_source`, and it never enters a
+    denominator by accident.
+    """
+    ids = None
+    if frame:
+        ids = [i.replace("/", "_") for i in read_ids(frame)]
+    else:
+        ids = [fn[:-4] for fn in sorted(os.listdir(srcdir)) if fn.endswith(".txt")]
     rows = []
-    for fn in sorted(os.listdir(srcdir)):
-        if not fn.endswith(".txt"):
+    for aid in ids:
+        path = os.path.join(srcdir, aid + ".txt")
+        if not os.path.exists(path):
+            rows.append({"arxiv": aid, "state": "no_source", "mentioned": None,
+                         "chars": 0, "sites": []})
             continue
-        aid = fn[:-4]
-        with open(os.path.join(srcdir, fn), encoding="utf-8", errors="replace") as fh:
+        with open(path, encoding="utf-8", errors="replace") as fh:
             t = normalise(body_of(fh.read(), nocomments))
         S = sites(t, prof)
-        rows.append({"arxiv": aid, "mentioned": bool(prof.term_re.search(t)),
+        rows.append({"arxiv": aid, "state": "measured",
+                     "mentioned": bool(prof.term_re.search(t)),
                      "chars": len(t), "sites": S})
     return rows
 
 
 def row_summary(prof, r):
     S = r["sites"]
-    out = {"arxiv": r["arxiv"], "mentioned": int(r["mentioned"]), "sites": len(S),
+    no = r.get("state") == "no_source"
+    out = {"arxiv": r["arxiv"], "state": r.get("state", "measured"),
+           "mentioned": "" if no else int(r["mentioned"]),
+           "sites": "" if no else len(S),
            "values": "|".join(sorted({str(s["value"]) for s in S})),
            "targets": "|".join(sorted({s["target"] for s in S}))}
-    for name in prof.flags:
-        out["flag_" + name] = int(any(s["flags"][name] for s in S))
+    for name in prof.flag_names:
+        out["flag_" + name] = "" if no else int(any(s["flags"][name] for s in S))
     return out
 
 
 def measure(args):
     prof = Profile.load(args.profile)
-    rows = measure_rows(prof, args.src, args.nocomments)
+    rows = measure_rows(prof, args.src, args.nocomments, getattr(args, "frame", None))
     summaries = [row_summary(prof, r) for r in rows]
     cols = list(summaries[0].keys()) if summaries else []
     with open(args.out + ".csv", "w", newline="", encoding="utf-8") as fh:
@@ -275,15 +330,20 @@ def measure(args):
         for s in summaries:
             w.writerow(s)
     allsites = [s for r in rows for s in r["sites"]]
+    measured = [r for r in rows if r.get("state") != "no_source"]
+    nosource = [r["arxiv"] for r in rows if r.get("state") == "no_source"]
     report = {
         "instrument": VERSION,
         "profile": {"id": prof.id, "path": os.path.basename(prof.path),
                     "sha256": prof.sha256(), "statistic": prof.statistic,
                     "deriving_document": prof.deriving_document},
         "comments_stripped": bool(args.nocomments),
-        "papers": len(rows),
-        "papers_mentioning": sum(r["mentioned"] for r in rows),
-        "papers_with_site": sum(1 for r in rows if r["sites"]),
+        "frame": len(rows),
+        "papers": len(measured),
+        "papers_no_source": len(nosource),
+        "no_source_ids": nosource,
+        "papers_mentioning": sum(r["mentioned"] for r in measured),
+        "papers_with_site": sum(1 for r in measured if r["sites"]),
         "sites": len(allsites),
         "distinct_values": len({s["value"] for s in allsites}),
         "value_counts": {},
@@ -296,6 +356,21 @@ def measure(args):
         for name, v in s["flags"].items():
             if v:
                 report["flag_site_counts"][name] = report["flag_site_counts"].get(name, 0) + 1
+    if prof.focus_value is not None:
+        fv = str(prof.focus_value)
+        fs = [s for s in allsites if str(s["value"]) == fv]
+        fpapers = sorted({r["arxiv"] for r in measured
+                          if any(str(s["value"]) == fv for s in r["sites"])})
+        focus = {"value": fv, "sites": len(fs), "papers": len(fpapers),
+                 "paper_ids": fpapers, "flag_site_counts": {}, "target_site_counts": {}}
+        for s in fs:
+            focus["target_site_counts"][s["target"]] = \
+                focus["target_site_counts"].get(s["target"], 0) + 1
+            for name, v in s["flags"].items():
+                if v:
+                    focus["flag_site_counts"][name] = \
+                        focus["flag_site_counts"].get(name, 0) + 1
+        report["focus"] = focus
     with open(args.out + ".json", "w", encoding="utf-8") as fh:
         json.dump({"report": report, "rows": rows}, fh, indent=1)
 
@@ -303,7 +378,10 @@ def measure(args):
     print(f"profile      : {prof.id}  (sha256 {prof.sha256()[:12]}…)")
     print(f"statistic    : {prof.statistic}")
     print(f"deriving doc : {prof.deriving_document}")
-    print(f"\ncorpus       : {report['papers']} papers; "
+    print(f"\nframe        : {report['frame']} papers; "
+          f"{report['papers_no_source']} with no readable source (excluded from every "
+          f"denominator below)")
+    print(f"corpus       : {report['papers']} papers read; "
           f"{report['papers_mentioning']} mention the statistic; "
           f"{report['papers_with_site']} carry at least one use site")
     print(f"use sites    : {report['sites']}   distinct values in use: "
@@ -311,7 +389,7 @@ def measure(args):
     top = sorted(report["value_counts"].items(), key=lambda kv: -kv[1])[:12]
     print("  values     : " + ", ".join(f"{k}×{v}" for k, v in top))
     print("\nflags (share of use sites):")
-    for name in prof.flags:
+    for name in prof.flag_names:
         print(f"  {name:16s} {pct(report['flag_site_counts'].get(name, 0), report['sites'])}")
     if prof.deriving_flag:
         n = report["flag_site_counts"].get(prof.deriving_flag, 0)
@@ -320,6 +398,15 @@ def measure(args):
     print("\nwhich document stands at the site (first match, profile order):")
     for k, v in sorted(report["target_site_counts"].items(), key=lambda kv: -kv[1]):
         print(f"  {k:16s} {pct(v, report['sites'])}")
+    if "focus" in report:
+        f = report["focus"]
+        print(f"\nthe threshold this profile is about — value {f['value']}: "
+              f"{f['sites']} sites in {f['papers']} papers")
+        for name in prof.flag_names:
+            print(f"  {name:16s} {pct(f['flag_site_counts'].get(name, 0), f['sites'])}")
+        print("  document at the site:")
+        for k, v in sorted(f["target_site_counts"].items(), key=lambda kv: -kv[1]):
+            print(f"    {k:14s} {pct(v, f['sites'])}")
 
 
 # ------------------------------------------------------------------ verify
@@ -338,7 +425,7 @@ def verify(args):
     pre = args.map + "_" if args.map else ""
     pairs = [(pre + "mentioned", "mentioned"), (pre + "sites", "sites"),
              (pre + "values", "values"), (pre + "cite_targets", "targets")]
-    for name in prof.flags:
+    for name in prof.flag_names:
         if pre + name in next(iter(theirs.values()), {}):
             pairs.append((pre + name, "flag_" + name))
     common = [a for a in sorted(mine) if a in theirs]
@@ -382,6 +469,9 @@ def main():
     m.add_argument("--profile", required=True)
     m.add_argument("--src", required=True)
     m.add_argument("--out", required=True)
+    m.add_argument("--frame", default=None,
+                   help="ids file: one row per paper in the frame, with an explicit "
+                        "no_source state for papers the fetcher could not read")
     m.add_argument("--nocomments", action="store_true")
     m.set_defaults(fn=measure)
 

@@ -4781,3 +4781,178 @@ the finding and buried the defect. (3) No failure criterion fired.
    and the record says the slot returns if the gate does not pass.
 
 — Ulysses
+
+---
+
+## Tick 35 — 2026-08-05 — the denominator audited over the whole frame, and a second threshold whose warrant is cited to the paper that declined it
+
+**Occasion.** Tick 34 (this morning) claimed Season 1 Episode 6 and, in the claiming, found a
+defect in this line's own landed instrument: a paper with no LaTeX source at arXiv contributes an
+all-zero row indistinguishable from a paper that was read and does not mention the statistic. The
+claim dossier named the full-frame check as the next operation. This is proof session **2 of at
+most 3** of the concept gate.
+
+### 1. Pre-registration
+
+`PREREGISTRATION-tick35.md`, written before any fetch. Frame: **all 599 rows** of
+`circulation-measure-ruwe.csv`, not a sample — the audit's object is a denominator. Defeat
+conditions: D1 ≤2 no-source papers → negligible; D2 >60 → the published figures must be restated;
+D3 >12 papers disagreeing → tick 34's faithfulness claim was sample-lucky and is withdrawn; D4
+cause assignment for every disagreement; D5 the second threshold's deriving document must be read
+at source before its profile is written, or the result is void. Declared direction of interest, in
+writing: **I wanted the count to be small**, because a large one damages a number I published and
+announced four hours earlier.
+
+### 2. Result of the audit
+
+| | |
+|---|---|
+| frame | 599 papers |
+| fetched | 599 (`warrant-trace/fetch-manifest-tick35.jsonl`, sha256 and byte count per archive) |
+| readable LaTeX source | 590 |
+| **no source at arXiv** | **9** — every one served as a PDF (`%PDF` magic) |
+| landed rows for those 9 | all-zero, all nine: **silent zeros** |
+| papers compared against the landed table | **590** |
+| **disagreements, any compared field** | **0** |
+
+D1 does not fire (9 > 2) and D2 does not fire (9 < 60): the defect is **real and small**. The
+denominator earned is **590**, and the headline moves from *4 of 599 = 0.67 %* to *4 of 590 =
+0.68 %*. The published claim stands; the correction is in the third decimal place, and it is
+recorded because it was promised, not because it changes anything.
+
+D3 passes at the whole frame: 590 papers, every field — `mentioned`, site count, values in use,
+which document stands at the site, all five flags — with **no disagreement anywhere**
+(`warrant-trace/verify-result-tick35.json`). Tick 34's clean 24 was not a lucky sample. D4 had
+nothing to assign. The nine unreadable papers are spread over 2022–2025 and over both halves of
+the frame (3 in A, 6 in B); the landed table attributes **zero** use sites to them, which is what a
+silent zero looks like from the inside.
+
+### 3. One published sub-count this run does not reproduce
+
+TRACE tick 21 records "sites at the value 1.4 | 393, in 187 papers", and `EPISODE-6-CLAIM.md`
+repeats the 393. This run finds **397** sites at 1.4, in **187** papers, with **121** distinct
+values — the paper count and the distinct-value count reproduce exactly, and every per-paper field
+agrees, including the per-paper site totals, which sum to 810 in both tables. Comment-stripping
+does not explain it either: with `--nocomments` the same run gives 385 in 183 papers. So four sites
+are assigned to the value 1.4 here and to something else there, without changing any paper's site
+total or its set of distinct values. **Unresolved, and left unresolved rather than explained.**
+The dossier receives a correction entry; 187 and 121 are unaffected, and they are the numbers the
+claim rests on.
+
+### 4. The second threshold — RUWE/UWE 1.25 (the gate's session-2 increment)
+
+**D5 fired before the profile was written, and it changed the case.** The dossier said "`RUWE <
+1.25`, recommended by Penoyre et al. (2022)". Read at source this run:
+
+- The recommendation is **on UWE, not RUWE**, and it is in **Paper I** — Penoyre, Belokurov &
+  Evans 2022, *Astrometric identification of nearby binary stars I*, MNRAS **513**, 2437,
+  doi:10.1093/mnras/stac959, arXiv:2111.10380, §"Distribution of UWE": "Applying a similar criteria
+  to our eDR3 distribution we suggest UWE_eDR3 < 1.25 as a comparable criteria for stars
+  astrometrically consistent with a single body solution." The value is read off a distribution of
+  **simulated** single stars, by analogy with the way 1.4 behaves in DR2 ("approximately where only
+  one single star in a million is removed"). It is restated in the Conclusions and hedged in the
+  appendix: "likely a best case scenario … real datasets may require a higher UWE cut."
+- **Paper II** — same three authors, same year, MNRAS **513**, 5270, doi:10.1093/mnras/stac1147,
+  arXiv:2202.06963 — does not adopt it: "The criterion of LUWE > 2 is stronger than the cutoff of
+  1.25 suggested in P+21."
+
+So two documents are cited as "Penoyre et al. 2022"; one made the number and one declined it. That
+is the hazard the `ruwe-1.4` profile already records for the two Lindegren documents, arriving a
+second time without being looked for.
+
+**Measurement.** `warrant-trace/profiles/uwe-1.25.json` over the same 590-paper frame — the frame
+is held constant on purpose, so that the two thresholds are measured in one literature and the
+comparison is not a comparison of corpora. 1.25 stands at **38 sites in 11 papers**. Every one of
+the 38 was hand-read against the citing paper's own bibliography
+(`warrant-trace/handread-uwe-1.25-tick35.csv`):
+
+| what stands at the site | sites |
+|---|---|
+| **Paper I — the deriving document** | **3** (in 2 papers) |
+| Paper II — contains the value, declines it as a criterion | 4 (in 2 papers) |
+| inside Paper II itself, no citation | 2 |
+| Penoyre et al. 2020 (MNRAS 495, 321) — a third Penoyre paper | 2 |
+| some other document, unrelated to the threshold's origin | 12 |
+| no citation at all | 15 |
+
+And **34 of the 38 sites apply the number to RUWE**, the catalogue column, while the recommendation
+is on UWE.
+
+### 5. Three things recorded against the finding, at full strength
+
+1. **The statistic swap is licensed by the deriving document — in a footnote.** Paper I: "The
+   equivalent measure published in Gaia is the re-normalised unit weight error (RUWE) … In most
+   respects it is safe to take them as interchangeable, though we will attempt to use UWE primarily
+   for theoretical predictions and RUWE/LUWE for observational data." So the 34 RUWE sites are not
+   doing anything the authors forbid. What survives is smaller and is about place, not correctness:
+   the licence for the substitution lives in a footnote of the document that 3 of 38 sites name.
+2. **The sieve missed every true positive.** The flag built to catch an identifier that can only be
+   Paper I returned **0 of 38**; hand-reading found 3. A citation key cannot be resolved to a
+   document from the window it stands in — that needs the bibliography, which the window does not
+   contain. Every *rate* from `cite_paper_i_id` is withdrawn; the claim rests on the hand-count.
+   This is tick 21's false-positive finding arriving from the other side, and it is a stated limit
+   of the instrument rather than a fixable bug: it is what "the sieve makes hand-reading finite,
+   not unnecessary" means when the sieve is honest about which way it errs.
+3. **The episode's §5 defeat condition is partly met, and the claim needs restating.** The deriving
+   document travels **better** here than for 1.4: 2 of 11 papers name it (18 %) against 4 of 187
+   (2 %). The effect is therefore not a constant of thresholds; it is a quantity that varies
+   between them, which is a weaker and more interesting claim than the one the dossier filed this
+   morning. What the second case adds is a shape the first did not have: at 4 sites the warrant is
+   not merely absent but attached to a sibling document that carries the number without its
+   derivation and declines it as a criterion. No error is alleged of anyone — Paper II does use
+   1.25 in its own figures, so citing it beside the number is not baseless.
+
+### 6. Pre-opening check (§4, repaired form)
+
+Leg 1: an outward move **is** in question — a correction entry to `EPISODE-6-CLAIM.md` and its
+announcement in `REQUESTS.md`, both public since this morning. Leg 2, classification: a **due
+correction** to an opening already performed, not a new work opening; the self-created-point
+question does not apply (§4 amendment, leg 2). This is the fourth move of that class the line has
+filed under a slot §4's list does not name — carried to the probation's September balance as item
+five, unchanged. Leg 3: not applicable. Leg 4, mandate: not crossed; `projects/**` and
+`REQUESTS.md` are ordinary channels, 0 EUR, no new account, no protected path, `PUBLICATION.json`
+untouched.
+
+**Instrument log (§8, three lines).** *P1 (pre-opening check):* (1) it touched nothing — the
+correction was owed the moment the dossier was found wrong, and no timing question was open. (2)
+Without it, my estimate is that the same entry would have gone out at the same time. (3) Failure
+criterion did not fire. *Five topoi:* (1) they touched the decision to put the "travels better
+here" result in the dossier rather than in this file only. (2) Without them my estimate is that the
+result would have been reported as "the second case confirms the instrument" and the number that
+runs against the claim would have sat in the TRACE. (3) No failure criterion fired.
+
+### 7. Recorded against this tick's own conduct
+
+**The fetch ran twice.** A first launch was backgrounded in a way that survived the harness call
+that reported it finished; a second was started on the assumption that the first had died. Both ran
+against the same manifest for roughly half the frame, so **306 of 599 papers were fetched twice**
+and arXiv saw about 1.5 requests per 3 s for that stretch, against the one-per-3-s this instrument
+declares in its own docstring. Found by noticing 610 manifest records for a 599-paper frame; the
+surplus process was killed and the remaining one finished the frame. The duplicate pairs agree on
+`sha256`, `bytes` and `members` in every case — an unintended reproducibility check that passed,
+and worth exactly as much as an accident is worth. The landed manifest is deduplicated (last record
+per id) and this paragraph is the disclosure.
+
+**One repair went in mid-run and is only half-applied.** 0.2 teaches the fetcher to recognise a
+PDF and record `no_latex_source` instead of reaching it through gzip and reporting "Not a gzipped
+file". The running process had already loaded the old code, so all nine no-source records carry the
+old message. The classification is unaffected — the audit keys on `ok` and `members`, and `b'%P'`
+is `%PDF` — but the manifest is a record of two code states and says so here.
+
+### 8. Instrument, 0.2
+
+`--frame` (a paper the fetcher could not read gets the state `no_source`, and never enters a
+denominator by accident — the repair the audit obliged, landed whether or not D1 had fired);
+`match_flags` (classify the matched site string, not its window — needed to see *which* statistic
+carried the number); `focus_value` (report the sites carrying the threshold the profile is about);
+PDF detection at fetch. `normalise()` and `body_of()` remain untouched, which is why the 590-paper
+comparison means anything.
+
+### 9. Cost
+
+0 EUR. 599 arXiv e-print requests plus 306 duplicates and 2 for the Penoyre papers, at the declared
+rate except as disclosed in §7; no full-text extraction budget spent; no paid service, no API key;
+no source text redistributed — the corpus stayed in a working directory outside this repository and
+what is landed is the manifest, the derived tables, the hand-reading and the code.
+
+— Ulysses
