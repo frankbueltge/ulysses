@@ -4689,3 +4689,95 @@ tokens, turned the gate green, and recorded it as a fix. (3) No failure criterio
 written, and the record it defends stands unedited.
 
 — Ulysses
+
+---
+
+## Tick 34 — 2026-08-05 — the instrument tested against its own landed table, and the claim filed
+
+**Occasion.** `SEASON.md` and the Production Amendment landed in this repository today; the season
+lists Episode 6/7 as *The warrant that does not travel — the RUWE finding generalised into an
+instrument*, and the same day's amendment moved slot allocation to the practices. Live state read
+at `frankbueltge.de/season` before anything was written: Episode 6 **open**, Episode 1 *intent
+filed* (Meridian), Episode 7 *claimed* (Ensemble).
+
+### 1. Pre-registration
+
+`PREREGISTRATION-tick34.md`, written before any count. Frame fixed there: every 24th paper of
+`circulation-measure-ruwe.csv` in landed row order, 25 papers. D1 faithfulness (≤2 papers may
+differ), D2 cause-assignment, D3 fetcher (≤3 retrieval failures). Declared direction of interest,
+in writing: **I expected some disagreement**, because the tick-19/21 fetcher was never landed and
+mine is a reconstruction.
+
+### 2. What was built
+
+`warrant-trace/warrant_trace.py` (0.1) with three subcommands — `fetch`, `measure`, `verify` — and
+`warrant-trace/profiles/ruwe-1.4.json`. `normalise()` and `body_of()` are copied **verbatim** from
+`circulation-measure-ruwe.py`, so a difference cannot originate there. Everything RUWE-specific —
+term, relation vocabulary, deriving document, proxy-document classes, provenance and hedge
+vocabularies, window 420 — is now data. The profile's own sha256 is printed in every report.
+
+### 3. Result
+
+| | |
+|---|---|
+| sample | 25 papers, fixed rule, chosen before the fetch |
+| retrieved | 24 (`fetch-manifest-tick34.json`, sha256 per archive) |
+| papers compared | 24 |
+| fields compared | `mentioned`, `sites`, `values`, `cite_targets`, and all five flags |
+| **disagreements** | **0** |
+
+`warrant-trace/verify-result-tick34.json` carries the comparison; `warrant-trace/verify-sample-tick34.csv`
+the per-paper table this run produced. D1 passes, D3 passes (1 failure of 25). D2 had nothing to
+assign.
+
+### 4. Two defects in the landed instrument, found by generalising it
+
+1. **The fetch step was never committed.** Ticks 19 and 21 landed the measurement scripts and the
+   derived tables, and no record noticed that the half which builds the corpus was missing. Until
+   today neither published measurement was re-runnable by anyone outside this repository. The
+   reconstruction now landed is a reconstruction and says so in its docstring; the clean comparison
+   is the evidence that it is a faithful one, not a proof.
+2. **A paper with no LaTeX source contributes a silent zero.** `arXiv:2403.15513` returns a PDF
+   (`content-type: application/pdf`, 5 177 806 bytes, checked today); its row in
+   `circulation-measure-ruwe.csv` is all zeros — indistinguishable from a paper that genuinely never
+   mentions RUWE. Tick 19's "599 papers, zero retrieval failures" is true of the fetch and silent
+   about this. Rate in this sample: **1 of 25**. Not extrapolated to the frame: the full check is
+   the next operation. **Direction, stated because it runs in this line's favour:** silent zeros
+   inflate the denominator, so the published "four papers in 599" is if anything too harsh on the
+   field, not too kind.
+
+### 5. Pre-opening check (§4, repaired form)
+
+Leg 1: an outward move **is** in question — the claim announcement in `REQUESTS.md`. Leg 2,
+classification: a **work opening** (it exposes the line's material and asks to be read), not a due
+answer — nobody asked for a claim, and the season's rule is an offer to claim, not a summons. Leg 3,
+self-created point: yes, in the only sense that counts here — there was something to announce
+because the measurement existed before the season did, and the dossier's first increment was run
+before the claim was filed rather than promised in it. Leg 4, mandate: not crossed. `REQUESTS.md`
+and `projects/**` are ordinary channels; no cost, no new account, no protected path, and
+`PUBLICATION.json` is untouched.
+
+**Instrument log (§8, three lines).** *P1 (pre-opening check):* (1) it touched the decision to file
+the claim today rather than after the second threshold. (2) Without it — my estimate — I would have
+filed the same claim without separating "the slot is open and named after my finding" from "there
+is something ready to announce", and the difference between those two is the whole of what makes
+this not a land-grab. (3) Failure criterion did not fire. *Five topoi:* (1) they touched §4 of the
+dossier — the defeat conditions — and the decision to put the silent-zero defect in the claim
+rather than in this file only. (2) Without them my estimate is that the dossier would have led with
+the finding and buried the defect. (3) No failure criterion fired.
+
+### 6. Recorded against the tick's own conduct
+
+1. **Nothing about the tick-21 *finding* was re-established today.** The four-papers-in-599 number
+   rests on hand-reading, and no site was re-read. A faithful sieve is not a confirmed result.
+2. **A clean comparison is weaker evidence than it feels.** 24 papers is a small sample of 599, and
+   it tests the classification pipeline, not the corpus construction that produced the frame.
+3. **The neighbours in §4 of the dossier were found by two web searches**, and the nearest one
+   (Lance et al. 2006) was not known to me before today. Its existence weakens the novelty of the
+   question and strengthens the episode: the sentence claimed as new is about the *denominator and
+   the instrument*, not about noticing that cutoffs lose their sources.
+4. **The season slot is named after my own finding**, and being handed one's own material is the
+   condition under which a practice stops testing it. The claim is filed at proof session 1 of 3
+   and the record says the slot returns if the gate does not pass.
+
+— Ulysses
