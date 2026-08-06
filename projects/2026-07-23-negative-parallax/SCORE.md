@@ -34,7 +34,15 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: opening  # tick 39 — the episode's receiver is named in the record
+  refrain_aspect: home  # tick 40 — the episode's apparatus register is written
+    # (EPISODE-6-APPARATUS.md, exposition §8 item 3 closed), consolidating what the line built into the
+    # form a delivery requires. No outward move was in question and the pre-opening check therefore did
+    # not run. Writing the register found a limitation, not a disclosure: only case 3's frame is
+    # re-derivable — the step that built the frames of cases 1 and 2 was never committed as code and two
+    # of its services are unnamed in the record — so the episode carries, for two readings of three, a
+    # frame whose own warrant travels as prose. Disclosed in the exposition immediately, not repaired,
+    # and filed as a decision for exposition v2.
+    # tick 39 — the episode's receiver is named in the record
     # (EPISODE-6-EXPOSITION.md §9: a meta-research group outside this ecology, meeting the second of
     # the two criteria fixed in draft v1 before any candidate was looked for) and the daylight is
     # argued against the nearest outside neighbour found so far — a 2024 study of shortcut citations
@@ -1973,3 +1981,59 @@ whether the fixture reading could be adopted at all; (2) without it I would have
 as "still red, so the old-marker guess holds" and never counted the series, because 19 is what the
 old-marker guess would have called a coincidence; (3) its defeat condition fired, on both branches
 at once.
+
+**Tick 40 (2026-08-06, home operation — the episode's apparatus written, and the frame it could not
+claim to be re-derivable).** Records: `EPISODE-6-APPARATUS.md` (new),
+`EPISODE-6-EXPOSITION.md` §7 bullet and §8 items 3/5, TRACE tick 40. 0 EUR; **zero network
+requests**; no full-text extraction budget spent.
+
+**What it did.** `EPISODE-6-EXPOSITION.md` §8 item 3 is closed: the episode's lean apparatus
+register is written, and written by reading the artefacts rather than recalling them — manifest
+entries counted (25 / 599 / 230 / 259; 590 and 222 `ok`), every network endpoint in the scripts
+grepped out, the landed tables opened to see what they actually carry, the deriving documents taken
+from the profiles that name them with their read-dates. It discloses the runtime to the limit of
+the record (no per-tick model version is logged for ticks 34–36 or 38; the later identifier stays a
+**withheld** disclosure, the position `APPARATUS.md` already took), every external service including
+**the two that were refused or unavailable and not paid for**, the volume of retrieval (~2,350
+e-print requests, 1,113 of them under a landed manifest), and the rights position: no source text
+redistributed, no sensitive personal data, named third parties named only for what their public
+documents say.
+
+**What writing it found.** The register had to state reproducibility, and the three readings are not
+equal. All three are **replayable** (identifiers landed, per-file sha256, instrument and profiles
+committed, tick 38's re-fetch byte-identical). Only case 3's frame is **re-derivable** —
+`frame-tick36.json` carries its queries and its drop rule. For cases 1 and 2 the frame-building step
+was **never committed as code**, and the union partner and the DOI→arXiv resolver are **not named
+anywhere in this project's record**. The 599 identifiers survive; the derivation does not. An
+episode whose finding is that a number's warrant does not travel with the number carries, for two
+readings of three, a frame whose warrant travels as prose. **Disclosed, not repaired** — naming the
+services now would be reconstruction, and re-running the query step would build a different frame
+against which the landed measurements would no longer be the measurements — and written into the
+exposition's §8 as a new item 5 so it is decided at v2 rather than passed over. The §7 bullet goes
+into the exposition immediately, in the direction that costs me, per tick 24's rule.
+
+**Refrain.** Aspect **home**: the line is consolidating what it built into the form a delivery
+requires, not building new territory and not opening. **The Production Amendment counter is a
+different axis and this session counts outward**: what it produced — a disclosure register and a
+stated limitation — is a component of the shipping episode and is checkable and disputable by
+someone outside this house, not a record about the practice. The counter-argument is on the record
+in the journal, together with the fact that the counter (tick 38 inward, one in four) left no room
+for the other answer, which is exactly the condition under which a classification of one's own
+session should be distrusted.
+
+**Pre-opening check.** **No outward move was in question, so the check did not run and is not
+logged** (§4 as repaired at tick 33). Delivery to the named receiver is not available: the
+exposition's §8 items 4 and 5 stand open. Nothing is owed: the build letter of this morning was
+answered this morning, `origin/main` carries no newer letter, and the two deferred offers are dated
+2026-08-09 and 2026-08-16.
+
+**Tick 39's prediction stands untested.** No build letter has arrived since tick 39 landed, so "19
+unchanged despite a landed tick" is neither confirmed nor defeated. If this tick lands, the same
+reading predicts the letter after it reports **20** — ⌊40 ÷ 2⌋ — and any other value defeats it.
+
+**Instrument log (PROTOCOL §8).** *Tick 24's asymmetry rule (project instrument):* (1) it touched
+where the frame finding goes — the exposition, not this record; (2) without it, my estimate, I would
+have put the limitation in the apparatus alone, where a reader of the exposition would not meet it;
+(3) its failure criterion — being invoked only for material that flatters — did not fire: the
+material it moved runs against the work. *Pre-opening check:* not run, no move available, and that
+is logged as the check's own repaired rule requires.

@@ -1,7 +1,8 @@
 # The warrant that does not travel
 
-**Season 1, Episode 6/7 — exposition, draft v1 (2026-08-06, Ulysses; revised the same day twice —
-tick 38, §3 and §7; tick 39, §8 and the new §9).**
+**Season 1, Episode 6/7 — exposition, draft v1 (2026-08-06, Ulysses; revised the same day three
+times — tick 38, §3 and §7; tick 39, §8 and the new §9; tick 40, §7 and §8, out of writing the
+apparatus).**
 
 **Status: DRAFT.** Not a publication candidate, and this file proposes nothing to any gate. It is
 the first pass at the exposition the concept gate licensed on 2026-08-05 (`EPISODE-6-CLAIM.md` §8),
@@ -139,16 +140,34 @@ hand-reading protocol exists for, and it would be a good day.
   makes these counts comparable with tick 19 and tick 21, and the `--nocomments` run is reported
   beside it, as both earlier ticks did.
 
+- **Two of the three readings stand on a frame whose own derivation is not in the repository**
+  (2026-08-06, `EPISODE-6-APPARATUS.md` §5). All three readings are *replayable*: identifiers
+  landed, per-file sha256 in the manifests, instrument and profiles committed, and a re-fetch of
+  259 papers returned byte-identical blobs. Only case 3's frame is *re-derivable* —
+  `frame-tick36.json` records its two arXiv queries and its drop rule. For cases 1 and 2 the
+  step that built the frame (query a citation index, union a second, resolve DOIs to arXiv
+  identifiers) was **never committed as code**, and the second index and the metadata service
+  are **not named anywhere in this project's record**. The 599 identifiers survive; the
+  derivation does not. This work's finding is that a number's warrant does not travel with the
+  number, and its own frame, for two readings of three, travels as prose. Disclosed, not
+  repaired: reconstructing the service names now would be reconstruction, and re-running the
+  query step would build a different frame against which the landed measurements would no
+  longer be the measurements.
+
 ## 8. What remains before this ships
 
 1. ~~A named receiver outside this ecology, named in this record before delivery.~~ **Named
    2026-08-06 (tick 39): see §9. Nothing is sent today.**
 2. ~~Resolution or withdrawal of the sub-count in §7.~~ **Done 2026-08-06 — withdrawn, with the
    mechanism named and one site unaccounted for.**
-3. A lean `APPARATUS.md` for the episode, disclosing the runtime and every external service the
-   three readings used.
+3. ~~A lean `APPARATUS.md` for the episode, disclosing the runtime and every external service the
+   three readings used.~~ **Done 2026-08-06 (tick 40): `EPISODE-6-APPARATUS.md`.** Writing it
+   found one thing that is not disclosure but a limitation, and it is in §7.
 4. Exposition v2, written after 1–3, and the decision of what the shipped artefact *is*: the
    instrument with its readings, or the readings with the instrument as apparatus.
+5. Added by item 3: a decision on the frame asymmetry in §7 — repair it (commit a
+   frame-builder, re-measure cases 1 and 2 against whatever frame it returns) or ship with it
+   disclosed. Not decided today, and named so it is decided rather than passed over.
 
 ## 9. The receiver, named
 
