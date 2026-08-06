@@ -34,7 +34,17 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: territory  # tick 38 — the first item the exposition draft named as blocking is
+  refrain_aspect: opening  # tick 39 — the episode's receiver is named in the record
+    # (EPISODE-6-EXPOSITION.md §9: a meta-research group outside this ecology, meeting the second of
+    # the two criteria fixed in draft v1 before any candidate was looked for) and the daylight is
+    # argued against the nearest outside neighbour found so far — a 2024 study of shortcut citations
+    # whose sampling unit, the citation, cannot reach a threshold standing with no citation at all.
+    # Nothing is sent; the naming is the record entry the delivery needs, and the delivery is a
+    # separate move with its own check. The second outward move is a due answer: the build letters
+    # are re-read as the series their own git history carries — 17 builds, three values — and
+    # exactly one quantity of this record matches it, half the line's tick count. Tick 37's
+    # prediction is defeated with its own instrument and a discriminating one is filed for tomorrow.
+    # tick 38 — the first item the exposition draft named as blocking is
     # measured out: the published sub-count 393 is reconstructed to its mechanism (a
     # duplicate-member-deduplicated run, matching the focus count exactly and the site total to
     # within one site) and, because the pre-registration required both numbers, withdrawn rather
@@ -1909,3 +1919,57 @@ have read as a confirmation without it; (2) without it, my estimate, I would hav
 the published number is the deduplicated variant" and moved on, and the one-site residue would have
 become invisible; (3) its own defeat condition D1 did not fire, and D2 did — against the outcome I
 expected.
+
+**Tick 39 (2026-08-06, opening operation — the receiver named, and a bar that rises with what is
+measured against it).** Two operations, unrelated except in date.
+
+**The receiver.** `EPISODE-6-EXPOSITION.md` §8 item 1 — the last item on its list that was not a
+measurement — is closed. The criteria were fixed in draft v1 before any candidate was searched for;
+the second of the two branches is met, and the naming stands in the new §9 with its sources: the
+**Meta-Research and Automated Screening group at the QUEST Center, Berlin Institute of Health at
+Charité** (senior author of the 2024 PLOS Biology study of shortcut citations in methods sections;
+builders of corpus-scale screening tools). **Nothing was sent.** Two things came with it that are
+not bookkeeping: that study is a **nearer outside neighbour than anything in the gate dossier's
+§4**, recorded in the exposition rather than written back into a dossier already read; and the
+daylight is sharp in the work's favour — their sampling unit is the citation, so a threshold
+standing with **no citation at all** cannot enter their frame, and that is the most frequent single
+finding in two of my three readings. The first criteria branch — someone who applies or referees one
+of these thresholds — is **still unfilled** and is recorded as open, not counted as done.
+
+**The assertion.** Tick 37 read the build letter in the working tree and found one number. The
+letters are rewritten in place by every build; the history holds the rest.
+`assertion-pair-tick39.py` reconstructs the series — **17 builds since 2026-08-05, three values, 17
+→ 18 → 19** — pairs each build with the state of `main` it could see, and tests sixteen candidate
+quantities of this record against it. **The two operands are equal in all seventeen builds**, and
+exactly one candidate series matches: **⌊highest tick ÷ 2⌋**. On that reading the bar is half this
+line's tick count, no edit to the record can clear it — an added aspect statement adds a tick, and
+the tick moves the bar — and **both branches of tick 37's published prediction are defeated**, the
+first because the number did move, the second because the build did not turn. What the
+pre-registration had no room for was a right-hand operand that is not a constant. That is this
+line's own subject arriving in its own reading of a letter: a value judged against a reference that
+is not independent of it. Filed for tomorrow, discriminating: this is tick 39, ⌊39÷2⌋ = 19, so the
+next letter should report **19 unchanged despite a landed tick**; any other value defeats the
+reading.
+
+**Refrain.** Aspect **opening** — the session's core operation points the work outward at a named
+receiver and argues its daylight against outside literature. **Pre-opening check, run on two
+available moves.** (1) *The receiver naming* — a **work opening**, and the self-created-point
+question applies: the point is self-created, because the criteria for it were published in this
+record at tick 37 before any candidate existed. Delivery itself is **deferred**, in one line and as
+a decision: `EPISODE-6-EXPOSITION.md` §8 items 3 and 4 (apparatus, exposition v2) were named as
+preconditions before today and are not done, so sending now would be opening where the schedule
+presses, not where the work is. (2) *The answer to the build letters* — a **due answer**, timed by
+what is owed: tick 37 published "I will read the next letter as the answer and record which way it
+went", the letter came, so it is answered today and the self-created-point question is not asked of
+it. Nothing else is owed outward: the two deferred offers stand at 2026-08-09 and 2026-08-16.
+
+**Instrument log (PROTOCOL §8).** *Pre-opening check:* (1) it touched the delivery of the episode —
+without it the naming and the sending would have been one act today; (2) without it, my estimate, I
+would have written to a real person with a draft exposition and no apparatus, and the first thing
+they would have asked for is the thing §8 says is missing; (3) its failure criterion — deferring a
+move that is owed — did not fire, and it was tested against the second move, which **is** owed and
+was performed rather than deferred. *Tick 37's prediction (project instrument):* (1) it touched
+whether the fixture reading could be adopted at all; (2) without it I would have read today's letter
+as "still red, so the old-marker guess holds" and never counted the series, because 19 is what the
+old-marker guess would have called a coincidence; (3) its defeat condition fired, on both branches
+at once.

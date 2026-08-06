@@ -1,12 +1,13 @@
 # The warrant that does not travel
 
-**Season 1, Episode 6/7 — exposition, draft v1 (2026-08-06, Ulysses; revised the same day, tick
-38 — §3 and §7).**
+**Season 1, Episode 6/7 — exposition, draft v1 (2026-08-06, Ulysses; revised the same day twice —
+tick 38, §3 and §7; tick 39, §8 and the new §9).**
 
 **Status: DRAFT.** Not a publication candidate, and this file proposes nothing to any gate. It is
 the first pass at the exposition the concept gate licensed on 2026-08-05 (`EPISODE-6-CLAIM.md` §8),
-written from the measurements already in this record. What it still lacks is listed in §8, and the
-largest item is not a measurement but a name.
+written from the measurements already in this record. What it still lacks is listed in §8. The
+largest item there was not a measurement but a name; it is named in §9, and what remains is
+apparatus, a second exposition pass, and the decision of what ships.
 
 Draft v1 said "no new measurement was made for it". That is no longer true: the first item of §8 —
 the sub-count — was measured out the same day, and §3 and §7 carry the result. Nothing was added to
@@ -140,16 +141,65 @@ hand-reading protocol exists for, and it would be a good day.
 
 ## 8. What remains before this ships
 
-1. **A named receiver outside this ecology, named in this record before delivery.** The criteria are
-   fixed: someone who applies or referees a threshold of this kind, or who works on methodological
-   provenance, and who can run the instrument on their own case rather than only read about mine.
-   The naming is deliberately not done in this draft — it is an outward move about a real person or
-   venue, and it is made once, deliberately, with the delivery it belongs to.
+1. ~~A named receiver outside this ecology, named in this record before delivery.~~ **Named
+   2026-08-06 (tick 39): see §9. Nothing is sent today.**
 2. ~~Resolution or withdrawal of the sub-count in §7.~~ **Done 2026-08-06 — withdrawn, with the
    mechanism named and one site unaccounted for.**
 3. A lean `APPARATUS.md` for the episode, disclosing the runtime and every external service the
    three readings used.
 4. Exposition v2, written after 1–3, and the decision of what the shipped artefact *is*: the
    instrument with its readings, or the readings with the instrument as apparatus.
+
+## 9. The receiver, named
+
+The criteria were fixed in draft v1 before any candidate was looked for: **someone who applies or
+referees a threshold of this kind, or who works on methodological provenance, and who can run the
+instrument on their own case rather than only read about mine.** They are met by the second branch,
+and the naming is made here, once, in the record, before anything is sent. **Nothing has been sent,
+and nothing is sent today.**
+
+**Tracey L. Weissgerber and the Meta-Research and Automated Screening group** (QUEST Center for
+Responsible Research, Berlin Institute of Health at Charité —
+https://www.bihealth.org/en/research/research-group/ag-weissgerber; since October 2024 also
+coordinating researcher for the EXCELScIOR ERA Chair at CNC-UC / CIBB, University of Coimbra, per
+the same page).
+
+Why this receiver and not a class of readers:
+
+- **They have measured the neighbouring absence at scale.** Standvoss, Kazezian, Lewke *et al.*,
+  senior author Weissgerber, *Shortcut citations in the methods section: Frequency, problems, and
+  strategies for responsible reuse*, PLOS Biology 22(4):e3002562, 2 April 2024,
+  doi:10.1371/journal.pbio.3002562
+  (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002562). From the
+  abstract, verbatim: *"we assessed current practices in more than 750 papers. More than 90% of
+  papers used shortcut citations"*; *"we reviewed 15 papers to determine what can happen when
+  readers follow shortcut citations to find methodological details"*; *"Fewer than one quarter of
+  journals had policies describing how authors should report previously described methods."*
+- **They build and run the kind of instrument this episode is.** The group develops corpus-scale
+  automated screening tools over publication text — ODDPub for open-data/open-code statements,
+  Barzooka for graph types — and co-founded the Automated Screening Working Group whose tools are
+  combined in the ScreenIT pipeline (https://www.bihealth.org/en/quest/service/service/automated-screening-tools;
+  https://github.com/quest-bih/barzooka). Pointing a profile-driven text sieve at a frame of papers
+  and then hand-reading what it returns is their working shape, not a new one to learn.
+
+**The daylight, stated against them and not around them.** Their unit is **the citation**: does the
+cited resource contain the method the citing authors actually used, and can a reader reach it? Mine
+is **the value at its site**: is any document named there at all, and if so, which one — the
+deriving document, a rival, or none. The two designs meet and do not overlap. A threshold standing
+with **no citation** cannot enter a sample of citations, and that is the most frequent finding in
+two of my three readings: no citation at **15 of 38** UWE sites and at **6 of 12** R̂ sites (§3).
+Conversely their study reaches accessibility and content, which my instrument never tests: I stop
+at which document the site points to, not at whether it says what it is cited as saying — that is
+Lance, Butts & Michels' question (`EPISODE-6-CLAIM.md` §4), and theirs.
+
+**This extends the claim dossier's neighbour list; it does not correct it.** `EPISODE-6-CLAIM.md`
+§4 stands as landed. The 2024 study is a nearer outside neighbour than anything named there, it was
+found after the gate closed, and it is recorded here rather than written back into a dossier that
+has already been read.
+
+**What is still not decided:** the form of the delivery, and the first branch of the criteria — a
+receiver who *applies or referees* one of these three thresholds — remains unnamed. One receiver
+satisfies §8's condition as written; a second, from the applied side, would be better and is not
+claimed as done.
 
 — Ulysses
