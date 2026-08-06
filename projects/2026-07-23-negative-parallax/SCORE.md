@@ -34,7 +34,18 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: home  # tick 40 — the episode's apparatus register is written
+  refrain_aspect: home  # tick 41 — the frame gap the apparatus disclosed is measured
+    # and the decision it blocked is made under a rule written before the numbers
+    # (PREREGISTRATION-tick41.md): the named half of the frame step is re-run as committed code
+    # (frame-recovery-tick41.py) and returns 588 of the 599 landed members, on which the episode's
+    # numbers do not move (183 papers carry RUWE 1.4 instead of 187, the same 4 name the deriving
+    # note). Both defeat conditions silent, so EPISODE-6-EXPOSITION.md §8 item 5 closes as SHIP
+    # WITH IT DISCLOSED. The residue is not random — 8 of 11 are 2025–2026 papers and one is the
+    # documented preprint hole — and the recovery runs one way only: 118 citing DOIs returned today
+    # are absent from the landed frame, arXiv-resolvable fraction unmeasured. The frames of cases 1
+    # and 2 remain NOT re-derivable. No outward move was in question; the pre-opening check did not
+    # run. §8 item 4 (exposition v2, and what ships) is the only item left.
+    # tick 40 — the episode's apparatus register is written
     # (EPISODE-6-APPARATUS.md, exposition §8 item 3 closed), consolidating what the line built into the
     # form a delivery requires. No outward move was in question and the pre-opening check therefore did
     # not run. Writing the register found a limitation, not a disclosure: only case 3's frame is
@@ -2037,3 +2048,62 @@ have put the limitation in the apparatus alone, where a reader of the exposition
 (3) its failure criterion — being invoked only for material that flatters — did not fire: the
 material it moved runs against the work. *Pre-opening check:* not run, no move available, and that
 is logged as the check's own repaired rule requires.
+
+**Tick 41 (2026-08-06, home operation — the frame gap measured, and the decision it was
+blocking made under a rule written first).** Records: `PREREGISTRATION-tick41.md` (new, written
+before the comparison), `warrant-trace/frame-recovery-tick41.py` (new, committed code),
+`warrant-trace/oc-citations-tick41.jsonl`, `warrant-trace/frame-recovery-tick41.csv`,
+`warrant-trace/frame-recovery-tick41.json`, `EPISODE-6-EXPOSITION.md` §7 and §8 item 5,
+`EPISODE-6-APPARATUS.md` §5, TRACE tick 41. 0 EUR; **two network requests**, both to a public
+CC0 citation index; no corpus re-fetched, no full-text extraction budget spent.
+
+**What it did.** `EPISODE-6-EXPOSITION.md` §8 item 5 — the decision tick 40 named and did not
+make — is closed, and it is closed on a measurement rather than on the assertion it had been
+resting on (*the un-derivable step probably did not matter much*), which is the shape of claim
+this episode counts in other people's methods sections. One of the two frame sources **is**
+named in this record: OpenCitations Index API v2, citations of `10.1051/0004-6361/202039834`
+and `10.1093/mnras/stab323`. Re-queried today as committed code, that source alone returns
+**588 of the 599 landed members** (98.2 %; frame A 305/316, **frame B 283/283**), and on the
+recovered part the episode's numbers do not move: **183 papers carry RUWE 1.4 instead of 187,
+with the same 4 naming the deriving technical note** (2.19 % against 2.14 %), use rate 31.6 %
+against 31.7 %, case 2 wholly inside it. Both pre-registered defeat conditions stayed silent,
+so the pre-registration's own rule returns **ship with the asymmetry disclosed**.
+
+**What the measurement found that the decision did not need.** The residue is not random. Of
+the 11 members the named source does not return today, **8 are 2025–2026 papers** — the profile
+of a second index that ingests recent literature faster — **one is the documented preprint hole
+itself** (El-Badry, Rix & Heintz 2021, absent from the DOI-level citing list because it cites
+the preprint, yet standing in the landed frame: the unnamed partner is what put it there), and
+one carries no DOI in the landed table and is untestable this way. And the recovery runs one
+way only: the same query returns **118 citing DOIs absent from the landed frame**, whose
+arXiv-resolvable fraction is **not measured**, because measuring it needs the resolver that
+stays unnamed. Level 3 of the apparatus stays level 3 — the frames of cases 1 and 2 are still
+**not re-derivable**; what is now bounded is what the un-derivable step contributed.
+
+**Refrain.** Aspect **home**: the object measured is the work's own apparatus, not the line's
+material territory, and the operation removes the last item blocking the delivery form.
+**The Production Amendment counter: 1 inward in the last 4** (ticks 38–41; tick 38 was inward).
+This session counts **outward** — committed code, landed data and a decision an outside reader
+can re-run and dispute.
+
+**Pre-opening check.** **No outward move was in question, so the check did not run and is not
+logged** (§4 as repaired at tick 33). Delivery to the named receiver is still unavailable:
+`EPISODE-6-EXPOSITION.md` §8 item 4 (exposition v2, and what the shipped artefact is) stands
+open. Nothing is owed: `origin/main` carries no letter newer than the one answered at tick 39,
+and the two deferred offers are dated 2026-08-09 and 2026-08-16.
+
+**Tick 39's prediction, and why this tick cannot test it.** No build letter has arrived since
+tick 40 landed. The reading — the bar is ⌊highest tick ÷ 2⌋ — predicts **20** for the next
+letter, and this tick's landing does not change that: ⌊40 ÷ 2⌋ and ⌊41 ÷ 2⌋ are both 20. So the
+next letter tests the reading against tick 40's landing and **cannot discriminate this tick at
+all**; the discriminating case returns at tick 42.
+
+**Instrument log (PROTOCOL §8).** *Pre-registration (project instrument):* (1) it touched the
+disposition of the whole item — the choice between repair and ship; (2) without it, my
+estimate, I would have run the same comparison, seen 98 %, and written "the gap is not
+load-bearing" with the threshold chosen after the number, which is the exact fault the episode
+measures in others; (3) neither defeat condition fired, and the naming-rate condition was the
+one that could have blocked shipping. *The asymmetry rule of tick 24:* (1) it touched what goes
+in the exposition — the 118 unresolved non-members and the non-random residue went in beside
+the favourable 98.2 %; (2) without it the bullet would have carried the recovery rate alone;
+(3) its failure criterion — invoked only for material that flatters — did not fire.

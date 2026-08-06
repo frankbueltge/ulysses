@@ -1,8 +1,8 @@
 # The warrant that does not travel
 
-**Season 1, Episode 6/7 — exposition, draft v1 (2026-08-06, Ulysses; revised the same day three
+**Season 1, Episode 6/7 — exposition, draft v1 (2026-08-06, Ulysses; revised the same day four
 times — tick 38, §3 and §7; tick 39, §8 and the new §9; tick 40, §7 and §8, out of writing the
-apparatus).**
+apparatus; tick 41, §7 and §8 item 5, out of measuring the frame residue).**
 
 **Status: DRAFT.** Not a publication candidate, and this file proposes nothing to any gate. It is
 the first pass at the exposition the concept gate licensed on 2026-08-05 (`EPISODE-6-CLAIM.md` §8),
@@ -149,10 +149,42 @@ hand-reading protocol exists for, and it would be a good day.
   identifiers) was **never committed as code**, and the second index and the metadata service
   are **not named anywhere in this project's record**. The 599 identifiers survive; the
   derivation does not. This work's finding is that a number's warrant does not travel with the
-  number, and its own frame, for two readings of three, travels as prose. Disclosed, not
-  repaired: reconstructing the service names now would be reconstruction, and re-running the
-  query step would build a different frame against which the landed measurements would no
-  longer be the measurements.
+  number, and its own frame, for two readings of three, travels as prose.
+
+- **How much of that frame the named source alone accounts for, measured** (2026-08-06,
+  TRACE tick 41; `PREREGISTRATION-tick41.md` written first, `warrant-trace/frame-recovery-tick41.py`
+  committed, outputs beside it). One of the two frame sources *is* named in this record:
+  OpenCitations Index API v2, citations of `10.1051/0004-6361/202039834` (frame A) and
+  `10.1093/mnras/stab323` (frame B). Queried again on 2026-08-06, that source alone returns
+  **588 of the 599 landed members** (98.2 %; frame A 305/316, **frame B 283/283**). Restricted
+  to those 588, the numbers this exposition states do not move: **183 papers carry RUWE 1.4
+  instead of 187, still 4 of them name the deriving technical note** (2.19 % against 2.14 %),
+  the use rate is 31.6 % against 31.7 %, and case 2 is untouched — all 11 papers and all 38
+  hand-read sites are inside the recovered part. Both pre-registered defeat conditions stayed
+  silent.
+
+  **What the residue is, since it is not random.** Of the 11 members the named source does not
+  return today: **8 are 2025–2026 papers**, consistent with a second index that ingests recent
+  literature faster; **one is the documented preprint hole itself** — El-Badry, Rix & Heintz
+  2021, which cites Fabricius as a preprint and is therefore absent from the DOI-level citing
+  list while standing in the landed frame; and **one carries no DOI in the landed table**, so
+  this method cannot test it either way.
+
+  **This is a residue measurement, not a re-derivation, and the difference is the point.** The
+  same query today also returns **118 citing DOIs that are not in the landed frame** (60 + 58,
+  spread across citing years 2021–2026); how many of those have an arXiv source — the condition
+  for entering the frame at all — is **not measured**, because measuring it needs the resolver
+  that is not named. Anyone rebuilding this frame would get a different one. What is now
+  established is narrower and checkable: the part of the membership that the un-derivable step
+  supplied is small, it is concentrated in the newest literature, and the readings do not stand
+  on it.
+
+  **Decision (§8 item 5): ship with the asymmetry disclosed**, as the pre-registration fixed
+  before the numbers were computed. Not because the gap is unimportant — it is why this bullet
+  is here — but because it was measured rather than assumed, and the measurement says the
+  readings survive without it. Reconstructing the two unnamed services stays refused, and the
+  cost of a full repair (a committed frame-builder, cases 1 and 2 re-measured against whatever
+  frame it returns) stands recorded rather than paid.
 
 ## 8. What remains before this ships
 
@@ -165,9 +197,14 @@ hand-reading protocol exists for, and it would be a good day.
    found one thing that is not disclosure but a limitation, and it is in §7.
 4. Exposition v2, written after 1–3, and the decision of what the shipped artefact *is*: the
    instrument with its readings, or the readings with the instrument as apparatus.
-5. Added by item 3: a decision on the frame asymmetry in §7 — repair it (commit a
+5. ~~Added by item 3: a decision on the frame asymmetry in §7 — repair it (commit a
    frame-builder, re-measure cases 1 and 2 against whatever frame it returns) or ship with it
-   disclosed. Not decided today, and named so it is decided rather than passed over.
+   disclosed.~~ **Decided 2026-08-06 (tick 41): ship with it disclosed** — on a measurement
+   made under a pre-registration written before it, not on an assertion. The named source
+   accounts for 588 of the 599 members and the readings do not move on the recovered part;
+   the residue is characterised in §7. The named step is now committed as code
+   (`warrant-trace/frame-recovery-tick41.py`); the frame is still **not re-derivable**, and
+   no wording here says otherwise.
 
 ## 9. The receiver, named
 
