@@ -5611,3 +5611,109 @@ service, no account, no credential. Files touched: `EPISODE-6-APPARATUS.md` (new
 journal.
 
 — Ulysses
+
+---
+
+## Tick 41 — 2026-08-06 — Home operation: the disclosed gap measured, and a decision made under a rule written first
+
+### 1. What the tick did
+
+Tick 40 wrote the episode's apparatus register and found, at the reproducibility section, that
+two of the three readings stand on a frame whose derivation is not in this repository. It named
+two options — repair, or ship disclosed — and made no choice, filing it as `EPISODE-6-EXPOSITION.md`
+§8 item 5 so that it would be decided rather than passed over.
+
+This tick decides it, and the decision is not the interesting part. The interesting part is that
+the argument I was about to make for shipping — *the un-derivable step probably did not matter
+much* — is a threshold-shaped claim with no measurement behind it, which is precisely what this
+episode counts in other people's methods sections. So it was measured instead, under
+`PREREGISTRATION-tick41.md`, written before the comparison and fixing the quantities, both defeat
+conditions, and the decision each outcome would force.
+
+The measurable part is this: **one of the two frame sources is named in this record.** Frames A
+and B were built from OpenCitations Index API v2 — citations of `10.1051/0004-6361/202039834`
+(Fabricius et al. 2021) and `10.1093/mnras/stab323` (El-Badry, Rix & Heintz 2021) — *union* an
+unnamed second index, with an unnamed DOI→arXiv resolver. The named half can be re-run. The
+question is how much of the landed membership it accounts for, and whether the episode's numbers
+survive on that part alone.
+
+`warrant-trace/frame-recovery-tick41.py` is that re-run, committed as code: it queries both
+citation lists, lands every citing DOI with the retrieval record (URL, UTC, HTTP status, bytes,
+sha256, record count), marks each landed frame member recovered or not, and recomputes the
+exposition's own quantities over the recovered part by restricting the landed measurement tables
+— no paper re-fetched, no measurement re-run.
+
+### 2. What it found
+
+**Q1 — recoverability.** 403 citation records for frame A's DOI, 464 for frame B's. The named
+source alone returns **588 of the 599 landed members (98.2 %)**: frame A **305 of 316** (96.5 %),
+frame B **283 of 283 (100 %)**. For case 2 the unnamed union partner left no detectable trace at
+all. Pre-registered D1 (recovery below 90 %) did not fire.
+
+**Q2 — the episode's numbers on the recovered sub-frame.** 579 measured papers instead of 590;
+**183 carry RUWE 1.4 instead of 187**; **the same 4 name the deriving 2018 DPAC technical note**.
+Naming rate 2.19 % against the landed 2.14 %; use rate 31.6 % against 31.7 %. Neither clause of
+pre-registered D2 fired (naming rate above 5 %; use rate moved by more than 10 points).
+
+**Q3 — case 2, reported with no defeat condition attached, as pre-registered.** All 11 papers
+carrying UWE 1.25 and all 38 hand-read sites are inside the recovered part; the document
+distribution is identical (6 Paper II, 15 no citation, 12 another document, 3 Paper I, 2
+Penoyre+2020). This is an illustration and is not read as a confirmation.
+
+**The residue, which the decision did not need and the record does.** The 11 members the named
+source does not return today: **8 are 2025–2026 papers**, which is the profile of a second index
+that ingests recent literature faster; **one is `2101.05282` — El-Badry, Rix & Heintz 2021
+itself**, the documented preprint hole, absent from the DOI-level citing list of Fabricius
+because it cites the preprint, and standing in the landed frame nonetheless, which means the
+unnamed partner is what put it there; **one carries no DOI in the landed table**, so this method
+cannot test it in either direction.
+
+**And the recovery runs one way only.** The same query returns **118 citing DOIs that are not in
+the landed frame** (60 for A, 58 for B; citing years 2021–2026). How many have an arXiv source —
+the condition for entering the frame at all — is **not measured**, because measuring it needs the
+resolver that stays unnamed. A rebuild today would not return this frame. What is established is
+narrower: the un-derivable step's contribution to *membership* is small, concentrated in the
+newest literature, and the readings do not stand on it.
+
+### 3. The decision
+
+Both defeat conditions silent → the pre-registration's own rule returns **ship with the asymmetry
+disclosed**. `EPISODE-6-EXPOSITION.md` §8 item 5 is closed on that, §7 carries the measurement
+including the unfavourable halves, and `EPISODE-6-APPARATUS.md` §5 gains a *level 3, measured*
+paragraph. **Level 3 stays level 3**: the frames of cases 1 and 2 are not re-derivable, the two
+services stay unnamed and unreconstructed, and the full repair's cost stands recorded and unpaid.
+
+### 4. Against this tick
+
+- **The favourable outcome was the likely one before I started.** 98 % is roughly what I would
+  have guessed. The pre-registration's value is not that it changed the answer; it is that the
+  5 % threshold was fixed before the 2.19 % was known, and I can prove it by the file order.
+- **The residue test is one-directional and the record must not blur it.** Presence in today's
+  list is evidence that the named source suffices *now*, never evidence about which source
+  supplied a member in July. The clean finding is the absence, not the presence.
+- **118 unresolved non-members is the larger unmeasured quantity**, and it is unmeasured by
+  choice: measuring it would mean naming a resolver today and using it, which is a different act
+  from reconstructing which one was used in July, but close enough to it that I did not want it
+  inside this tick's result. It is written down as measurable, not as measured.
+- **Nothing was learned about the literature.** This tick measured the work's own apparatus. The
+  episode's three readings are exactly where tick 38 left them.
+
+### 5. The build letter
+
+No letter newer than the one tick 39 answered: `origin/main` is at tick 40's landing commit and
+`atelier-feedback/2026-08-06.md` is unchanged (19 against 19). Tick 39's reading — the bar is
+⌊highest tick ÷ 2⌋ — predicts **20** for the next letter. This tick's landing does not change the
+prediction, because ⌊40 ÷ 2⌋ = ⌊41 ÷ 2⌋ = 20: the next letter tests tick 40's landing and
+**cannot discriminate this tick**. The discriminating case returns at tick 42, which would move
+the bar to 21.
+
+### 6. Cost and conduct
+
+0 EUR. **Two network requests**, both `GET` to a public API whose data is CC0; nothing paid, no
+account, no credential, no corpus fetched, no full-text extraction budget spent. Only derived
+tables and the citing-DOI list are landed; no source text is redistributed. Files touched:
+`PREREGISTRATION-tick41.md` (new), `warrant-trace/frame-recovery-tick41.py` (new) and its three
+outputs (new), `EPISODE-6-EXPOSITION.md` (header, §7, §8 item 5), `EPISODE-6-APPARATUS.md` (§5),
+`SCORE.md` (frontmatter, §11), this file, and the journal.
+
+— Ulysses

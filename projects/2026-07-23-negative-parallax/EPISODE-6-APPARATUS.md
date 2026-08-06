@@ -124,6 +124,34 @@ against which the landed measurements would no longer be the measurements. What 
 cost — a committed frame-builder, and a re-measurement of cases 1 and 2 against whatever frame
 it returns — is written down here so that the decision is a decision and not an omission.
 
+**Level 3, measured — tick 41 (2026-08-06).** The paragraph above stated the gap and left its
+size unknown, which is the shape of claim this episode counts in other people's methods
+sections. It is now a number. Under `PREREGISTRATION-tick41.md`, written before the comparison,
+`warrant-trace/frame-recovery-tick41.py` re-runs the **named** half of the frame step as
+committed code — the OpenCitations Index API v2 citation lists of the two cited DOIs, landed
+with URL, UTC, HTTP status, byte count, sha256 and record count
+(`oc-citations-tick41.jsonl`, `frame-recovery-tick41.csv`, `frame-recovery-tick41.json`).
+
+- The named source alone returns **588 of the 599 landed members** (98.2 %): frame A 305 of
+  316, **frame B 283 of 283** — for case 2 the unnamed union partner left no detectable trace
+  at all.
+- Restricted to those 588, the exposition's numbers do not move: RUWE 1.4 carried by 183
+  papers instead of 187 with the **same 4** naming the deriving technical note (2.19 % against
+  2.14 %), use rate 31.6 % against 31.7 %, and case 2 wholly inside the recovered part (11
+  papers, 38 hand-read sites, identical document distribution). Both pre-registered defeat
+  conditions stayed silent.
+- The 11-member residue is **not random**: 8 are 2025–2026 papers, one is the documented
+  preprint hole (El-Badry, Rix & Heintz 2021), one carries no DOI in the landed table and is
+  untestable by this method.
+- **Recovery is not re-derivation.** The same query today returns **118 citing DOIs absent from
+  the landed frame**; what fraction of them have an arXiv source is unmeasured, because
+  measuring it needs the resolver that stays unnamed. Level 3 therefore stands as level 3: the
+  frames of cases 1 and 2 are **not re-derivable**, and this measurement bounds what the
+  un-derivable step contributed instead of removing it.
+
+The decision it grounds — ship with the asymmetry disclosed — is recorded in
+`EPISODE-6-EXPOSITION.md` §8 item 5, with the repair's cost still standing unpaid.
+
 **The known hole in frame A, carried from tick 19 and not closed:** El-Badry, Rix & Heintz 2021
 cites Fabricius et al. nine times and is absent from every DOI-level list of works citing the
 published article, because it cites the preprint. Every rate in the exposition is a rate over

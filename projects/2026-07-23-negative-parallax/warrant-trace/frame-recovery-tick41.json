@@ -1,0 +1,211 @@
+{
+  "tick": 41,
+  "written_utc": "2026-08-06T16:50:04Z",
+  "preregistration": "PREREGISTRATION-tick41.md",
+  "retrieval": [
+    {
+      "cited_doi": "10.1051/0004-6361/202039834",
+      "requested_url": "https://api.opencitations.net/index/v2/citations/doi:10.1051/0004-6361/202039834",
+      "final_url": "https://api.opencitations.net/index/v2/citations/doi:10.1051/0004-6361/202039834",
+      "http_status": 200,
+      "fetched_utc": "2026-08-06T16:49:58Z",
+      "bytes": 142775,
+      "sha256": "d90d7e76313469cf9bff0233c1a9ba3f405e78f04675f8d7b5e56179957d1ff1",
+      "records": 403,
+      "frame": "A"
+    },
+    {
+      "cited_doi": "10.1093/mnras/stab323",
+      "requested_url": "https://api.opencitations.net/index/v2/citations/doi:10.1093/mnras/stab323",
+      "final_url": "https://api.opencitations.net/index/v2/citations/doi:10.1093/mnras/stab323",
+      "http_status": 200,
+      "fetched_utc": "2026-08-06T16:50:01Z",
+      "bytes": 159909,
+      "sha256": "810bc55823c9ca86d031733315cf1a1e95c90dd6cc8b9a548fe0fef7b0ecbef0",
+      "records": 464,
+      "frame": "B"
+    }
+  ],
+  "q1_recovery": {
+    "landed_members": 599,
+    "recovered_in_own_frame": 588,
+    "r_union": 0.9816,
+    "per_frame": {
+      "A": {
+        "landed": 316,
+        "with_doi": 315,
+        "recovered": 305,
+        "rate": 0.9652
+      },
+      "B": {
+        "landed": 283,
+        "with_doi": 283,
+        "recovered": 283,
+        "rate": 1.0
+      }
+    },
+    "returned_today_not_in_landed_frame": {
+      "A": 60,
+      "B": 58
+    },
+    "returned_today_not_in_landed_frame_by_citing_year": {
+      "A": {
+        "2022": 15,
+        "2021": 11,
+        "2025": 11,
+        "2024": 14,
+        "?": 1,
+        "2026": 4,
+        "2023": 4
+      },
+      "B": {
+        "2022": 12,
+        "2023": 9,
+        "2025": 12,
+        "2026": 5,
+        "2024": 14,
+        "2021": 6
+      }
+    },
+    "residue_members": [
+      {
+        "frame": "A",
+        "arxiv": "2012.08534",
+        "doi": "10.3847/2041-8213/abdbaf",
+        "year": "2020"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2101.05282",
+        "doi": "10.1093/mnras/stab323",
+        "year": "2021"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2306.11276",
+        "doi": null,
+        "year": "2023"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2509.21643",
+        "doi": "10.1038/s41550-026-02816-7",
+        "year": "2025"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2510.13288",
+        "doi": "10.1134/s1063772925702488",
+        "year": "2025"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2512.08932",
+        "doi": "10.3847/1538-4357/ae4c5e",
+        "year": "2025"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2603.00229",
+        "doi": "10.3847/1538-4365/ae4fbb",
+        "year": "2026"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2603.02327",
+        "doi": "10.1051/0004-6361/202558003",
+        "year": "2026"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2603.10481",
+        "doi": "10.3847/1538-4357/ae4fb5",
+        "year": "2026"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2603.11994",
+        "doi": "10.3847/1538-3881/ae46a2",
+        "year": "2026"
+      },
+      {
+        "frame": "A",
+        "arxiv": "2603.25787",
+        "doi": "10.3847/1538-3881/ae7f02",
+        "year": "2026"
+      }
+    ],
+    "residue_by_arxiv_year": {
+      "2020": 1,
+      "2021": 1,
+      "2023": 1,
+      "2025": 3,
+      "2026": 5
+    }
+  },
+  "q2_ruwe_1_4": {
+    "whole_frame": {
+      "in_frame": 599,
+      "measured": 590,
+      "carrying_focus": 187,
+      "naming_deriving_document": 4,
+      "use_rate": 0.3169491525423729,
+      "naming_rate": 0.0213903743315508
+    },
+    "recovered_sub_frame": {
+      "in_frame": 588,
+      "measured": 579,
+      "carrying_focus": 183,
+      "naming_deriving_document": 4,
+      "use_rate": 0.3160621761658031,
+      "naming_rate": 0.02185792349726776
+    }
+  },
+  "q3_uwe_1_25": {
+    "whole_frame": {
+      "in_frame": 599,
+      "measured": 590,
+      "carrying_focus": 11,
+      "naming_deriving_document": 0,
+      "use_rate": 0.01864406779661017,
+      "naming_rate": 0.0
+    },
+    "recovered_sub_frame": {
+      "in_frame": 588,
+      "measured": 579,
+      "carrying_focus": 11,
+      "naming_deriving_document": 0,
+      "use_rate": 0.018998272884283247,
+      "naming_rate": 0.0
+    },
+    "hand_reading": {
+      "whole_frame": {
+        "sites": 38,
+        "papers": 11,
+        "by_document": {
+          "Penoyre+2022 Paper II (MNRAS 513, 5270; doi 10.1093/mnras/stac1147)": 6,
+          "none": 15,
+          "Penoyre+2020 (MNRAS 495, 321; doi 10.1093/mnras/staa1148)": 2,
+          "other document, not the deriving one": 12,
+          "Penoyre+2022 Paper I (MNRAS 513, 2437; doi 10.1093/mnras/stac959)": 3
+        }
+      },
+      "recovered_sub_frame": {
+        "sites": 38,
+        "papers": 11,
+        "by_document": {
+          "Penoyre+2022 Paper II (MNRAS 513, 5270; doi 10.1093/mnras/stac1147)": 6,
+          "none": 15,
+          "Penoyre+2020 (MNRAS 495, 321; doi 10.1093/mnras/staa1148)": 2,
+          "other document, not the deriving one": 12,
+          "Penoyre+2022 Paper I (MNRAS 513, 2437; doi 10.1093/mnras/stac959)": 3
+        }
+      }
+    }
+  },
+  "defeat": {
+    "D1_recovery_below_0.90": false,
+    "D2_naming_rate_above_0.05": false,
+    "D2_use_rate_shift_above_0.10": false
+  }
+}
