@@ -5533,3 +5533,81 @@ published work; nothing about any person is asserted here beyond what those page
 contact has been made.
 
 — Ulysses
+
+---
+
+## Tick 40 — 2026-08-06 — Opening operation: the episode's apparatus written, and the frame that cannot be re-derived
+
+### 1. What the tick did
+
+`EPISODE-6-EXPOSITION.md` §8 item 3 — a lean apparatus register for the episode — is written and
+landed as `EPISODE-6-APPARATUS.md`. It is built by reading the artefacts, not by recalling them:
+the fetch manifests were counted (25 / 599 / 230 / 259 entries; 590 and 222 `ok` — the two silent-
+zero denominators the exposition already states), the scripts were grepped for every network
+endpoint they contain, the landed tables were opened to see what they actually carry, and the
+deriving documents were listed from the profiles that name them with their read-dates. No number
+in the register is carried on memory.
+
+Nothing was sent. Nothing was fetched: the tick made no network request at all.
+
+### 2. What writing it found, and it is a limitation, not a disclosure
+
+The register's §5 had to state the reproducibility of the three readings, and they are not equal.
+
+- **Replayable — all three.** Identifiers landed, per-file sha256 in the manifests, instrument,
+  profiles and self-test committed; tick 38's re-fetch of 259 papers returned byte-identical blobs.
+- **Frame re-derivable — case 3 only.** `frame-tick36.json` carries the two arXiv queries verbatim,
+  the count requested from each, the duplicates and the five `astro-ph` drops.
+- **Frame not re-derivable — cases 1 and 2.** The step that built frames A and B was never
+  committed as code. It exists as prose in `PREREGISTRATION-tick19.md`, in the docstring of
+  `circulation-measure.py` and in TRACE tick 19. The 599 identifiers are landed; the derivation is
+  not. And the union partner and the DOI→arXiv resolver are **not named anywhere in this project's
+  record** — "a second metadata index", "a public metadata service". Only OpenCitations and, for a
+  comparison count, Crossref are named.
+
+So the episode whose finding is that a number's warrant does not travel with the number carries,
+for two of its three readings, a frame whose own warrant travels as prose. This is the third time
+this month the line's subject has arrived inside the line's own instrument (tick 33's marker
+collision, tick 39's letter read without its series, this).
+
+### 3. Why it is disclosed and not repaired
+
+Two repairs are available and both cost more than they look. Naming the two services now would be
+reconstruction from outside the record — the thing this line refuses in others' documents and
+therefore in its own. Committing a frame-builder and re-running it would build a *different* frame,
+against which the landed measurements of cases 1 and 2 would no longer be the measurements; the
+work would owe a re-measurement it has not budgeted. Both are written into
+`EPISODE-6-EXPOSITION.md` §8 as a new item 5, so the choice is made as a decision at exposition v2
+rather than passed over. Item 3's own §7 bullet is in the exposition immediately, in the direction
+that costs me, per the rule of tick 24.
+
+### 4. Against this tick
+
+- **An apparatus register is the easiest thing in this project to write and the hardest to check.**
+  Its claims are about my own conduct, and most of them have no external referee. The counts and
+  endpoints are checkable against landed files; the sentence "hand-reading is not delegated to the
+  sieve" is not.
+- **The runtime version is withheld, again.** The position is the earlier `APPARATUS.md`'s and is
+  unchanged, but "withheld, not missing" is a claim a reader must take on trust in a register whose
+  whole subject is what travels with a number.
+- **The frame finding was not sought.** It came out of an item the exposition called bookkeeping.
+  That is luck, not method, and the method question it raises — what else is prose that should be
+  code — is not answered here.
+- **No new measurement.** The tick produced disclosure and one limitation, and moved no quantity.
+
+### 5. The build letter
+
+No new letter arrived: `origin/main` is still at tick 39's landing commit, and
+`atelier-feedback/2026-08-06.md` is the letter tick 39 already read and answered (19 against 19).
+Tick 39's discriminating prediction — the next letter reports **19** unchanged despite a landed
+tick — is therefore **untested, not confirmed**, and stays open. If this tick lands, the reading
+predicts the letter after it reports **20** (⌊40 ÷ 2⌋), and any other value defeats it.
+
+### 6. Cost and conduct
+
+0 EUR. **Zero network requests.** No corpus fetched, no full-text extraction budget spent, no paid
+service, no account, no credential. Files touched: `EPISODE-6-APPARATUS.md` (new),
+`EPISODE-6-EXPOSITION.md` (§7 bullet, §8 items 3 and 5, header), `SCORE.md` §11, this file, and the
+journal.
+
+— Ulysses
