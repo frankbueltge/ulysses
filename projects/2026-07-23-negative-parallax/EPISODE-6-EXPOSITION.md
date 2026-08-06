@@ -1,11 +1,16 @@
 # The warrant that does not travel
 
-**Season 1, Episode 6/7 — exposition, draft v1 (2026-08-06, Ulysses).**
+**Season 1, Episode 6/7 — exposition, draft v1 (2026-08-06, Ulysses; revised the same day, tick
+38 — §3 and §7).**
 
 **Status: DRAFT.** Not a publication candidate, and this file proposes nothing to any gate. It is
 the first pass at the exposition the concept gate licensed on 2026-08-05 (`EPISODE-6-CLAIM.md` §8),
-written from the measurements already in this record; no new measurement was made for it. What it
-still lacks is listed in §8, and the largest item is not a measurement but a name.
+written from the measurements already in this record. What it still lacks is listed in §8, and the
+largest item is not a measurement but a name.
+
+Draft v1 said "no new measurement was made for it". That is no longer true: the first item of §8 —
+the sub-count — was measured out the same day, and §3 and §7 carry the result. Nothing was added to
+the three readings; one number is withdrawn and two are stated in both of the readings they have.
 
 ---
 
@@ -47,9 +52,15 @@ line's own headline. Those papers are excluded from every denominator and counte
 
 | threshold | frame | denominator | distinct values in use | focus value stands at | what stands at the site |
 |---|---|---|---|---|---|
-| **RUWE < 1.4** | 599 papers citing the Gaia negative-parallax literature | **590** (9 with no LaTeX source) | **121** | **187 papers** (site count under correction — §7) | the 2018 DPAC technical note that derives it: **4 papers** |
+| **RUWE < 1.4** | 599 papers citing the Gaia negative-parallax literature | **590** (9 with no LaTeX source) | **121** written forms, **115** as numbers | **397 sites in 187 papers** | the 2018 DPAC technical note that derives it: **4 papers** |
 | **UWE < 1.25** | the same 590 papers | 590 | — | **38 sites in 11 papers** | Paper I, which recommends it: **3 sites in 2 papers**; Paper II, same authors and year, which carries the value and declines it as a criterion: 4 sites; another document: 12; no citation: 15 |
-| **R̂ < 1.1** | 230 recent `stat.CO` / `stat.AP` arXiv papers, every `astro-ph` cross-list dropped by rule | **222** (8 with no LaTeX source) | **22** | **12 sites in 7 papers** | *Bayesian Data Analysis* §11.5, which states the number and hedges it in the same sentence: **1 site**, and there in order to report it superseded; Gelman & Rubin 1992, **which states no numeric threshold at all**: 3 sites; no citation: 6 |
+| **R̂ < 1.1** | 230 recent `stat.CO` / `stat.AP` arXiv papers, every `astro-ph` cross-list dropped by rule | **222** (8 with no LaTeX source) | **22** written forms, **20** as numbers | **12 sites in 7 papers** | *Bayesian Data Analysis* §11.5, which states the number and hedges it in the same sentence: **1 site**, and there in order to report it superseded; Gelman & Rubin 1992, **which states no numeric threshold at all**: 3 sites; no citation: 6 |
+
+Two of these numbers changed on 2026-08-06 and both changes are corrections of this draft, recorded
+in §7: the RUWE site count is now stated (397, with the run that produced it named), and the
+distinct-value counts are given in both readings, because a literature writes one threshold in more
+than one way — `1.1` and `1.10`, `1.2` and `1.20` — and counting written forms is not counting
+values.
 
 Full records: `TRACE.md` ticks 21, 35, 36; hand-readings in `warrant-trace/handread-*.csv`;
 measurement tables and reports beside them; frames and fetch manifests with per-file sha256.
@@ -104,14 +115,28 @@ hand-reading protocol exists for, and it would be a good day.
 
 ## 7. Open against this exposition
 
-- **A published sub-count is not reproduced and is left unresolved.** The landed table gives 393
-  sites at RUWE 1.4; the reconstruction that reproduces every other field — 187 papers, 121 values,
-  810 sites in total — gives 397. Four sites are assigned differently and I cannot yet say why.
-  Nothing in §4 rests on it, and **it is not quoted here**; it is resolved or withdrawn before this
-  exposition leaves draft.
-- **The instrument's two faults found at tick 36** (a focus value compared as a string, so `1.10`
-  was not counted with `1.1`; a default run that reads commented-out LaTeX as text) are fixed in the
-  reported counts by hand and not yet in the code.
+- **The published sub-count 393 is withdrawn, and the mechanism behind it is named with one site
+  unaccounted for** (2026-08-06, TRACE tick 38). Two landed tables of the RUWE frame agree on every
+  per-paper field — 810 sites, 187 papers, 121 written value forms — so the tick-21 headline's 803
+  sites and 393 at 1.4 came from a **different run of the same script**, not from the table it was
+  printed beside. Re-fetching the 259 site-bearing papers (all 259 blobs byte-identical to the
+  earlier fetch) reproduces the landed table exactly, and a run that drops members repeating a
+  basename — the four archives here each carry a second copy of the manuscript in a subdirectory —
+  returns **393 at 1.4 exactly** and **804 sites against the published 803**. The pre-registration
+  required both numbers to match, so this is reported as what it is: the mechanism identified, the
+  arithmetic one site short, and 393 **withdrawn** rather than explained. **397** is the number this
+  work carries, with its run named. No variant rules were searched for one that lands on 803; the
+  deduplication step was never committed, and a rule reconstructed to hit a target carries no
+  information.
+- **A second quantity had the fault the first repair was about.** `1.1` and `1.10` are one
+  threshold; both landed reports counted written forms and called them "distinct values in use". The
+  §3 table now gives both readings. Found while fixing the code, not by an audit — and not
+  pre-registered, which is stated where it is used.
+- **The tick-36 faults in code.** The focus filter now matches numerically and reports the old
+  string count beside it (`warrant-trace/warrant_trace.py` 0.3, asserted by
+  `warrant-trace/selftest-0.3.py`). The comments-included default is **not** changed: it is what
+  makes these counts comparable with tick 19 and tick 21, and the `--nocomments` run is reported
+  beside it, as both earlier ticks did.
 
 ## 8. What remains before this ships
 
@@ -120,7 +145,8 @@ hand-reading protocol exists for, and it would be a good day.
    provenance, and who can run the instrument on their own case rather than only read about mine.
    The naming is deliberately not done in this draft — it is an outward move about a real person or
    venue, and it is made once, deliberately, with the delivery it belongs to.
-2. Resolution or withdrawal of the sub-count in §7.
+2. ~~Resolution or withdrawal of the sub-count in §7.~~ **Done 2026-08-06 — withdrawn, with the
+   mechanism named and one site unaccounted for.**
 3. A lean `APPARATUS.md` for the episode, disclosing the runtime and every external service the
    three readings used.
 4. Exposition v2, written after 1–3, and the decision of what the shipped artefact *is*: the

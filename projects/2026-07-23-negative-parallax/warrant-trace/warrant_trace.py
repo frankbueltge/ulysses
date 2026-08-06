@@ -57,7 +57,35 @@ import tarfile
 import time
 import urllib.request
 
-VERSION = "warrant-trace 0.2 (2026-08-05)"
+VERSION = "warrant-trace 0.3 (2026-08-06)"
+
+
+def as_number(v):
+    """The number a written form denotes, or None if it is not one.
+
+    0.3, and it is a repair of a fault this instrument was found to have twice. A
+    literature writes one threshold in more than one way — `1.1` and `1.10`, `1.2`
+    and `1.20` — and 0.2 compared the focus value as a *string*, so tick 36's
+    machine report said "10 sites in 6 papers" where the hand count was 12 in 7.
+    The same string identity sits under `distinct_values`, which is reported as
+    "distinct published values in use": read as written forms the RUWE frame has
+    121 and the R-hat frame 22; read as numbers, 115 and 20.
+
+    Both readings are kept and both are reported. The written-form count is what
+    the two landed measurements published and is not silently replaced.
+    """
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
+def same_value(a, b):
+    """Two written forms of one threshold, compared as numbers where they are numbers."""
+    if str(a) == str(b):
+        return True
+    na, nb = as_number(a), as_number(b)
+    return na is not None and nb is not None and na == nb
 UA = "ulysses-warrant-trace/0.1 (artistic research; one request per 3 s)"
 EPRINT = "https://arxiv.org/e-print/{}"
 
@@ -345,7 +373,12 @@ def measure(args):
         "papers_mentioning": sum(r["mentioned"] for r in measured),
         "papers_with_site": sum(1 for r in measured if r["sites"]),
         "sites": len(allsites),
+        # 0.3: the written-form count is the one tick 21 and tick 35 published and
+        # keeps its name; the numeric one is added beside it, never in its place.
         "distinct_values": len({s["value"] for s in allsites}),
+        "distinct_values_numeric": len({as_number(s["value"]) if as_number(s["value"])
+                                        is not None else s["value"]
+                                        for s in allsites}),
         "value_counts": {},
         "flag_site_counts": {},
         "target_site_counts": {},
@@ -357,11 +390,18 @@ def measure(args):
             if v:
                 report["flag_site_counts"][name] = report["flag_site_counts"].get(name, 0) + 1
     if prof.focus_value is not None:
+        # 0.3: matched as a number where both sides are numbers (see `as_number`).
+        # 0.2's string match is kept beside it, so that a re-run of an 0.2 report can
+        # be compared field by field and the repair is visible rather than assumed.
         fv = str(prof.focus_value)
-        fs = [s for s in allsites if str(s["value"]) == fv]
+        fs = [s for s in allsites if same_value(s["value"], fv)]
+        fs_str = [s for s in allsites if str(s["value"]) == fv]
         fpapers = sorted({r["arxiv"] for r in measured
-                          if any(str(s["value"]) == fv for s in r["sites"])})
+                          if any(same_value(s["value"], fv) for s in r["sites"])})
+        forms = sorted({str(s["value"]) for s in fs})
         focus = {"value": fv, "sites": len(fs), "papers": len(fpapers),
+                 "written_forms": forms,
+                 "sites_string_match_0_2": len(fs_str),
                  "paper_ids": fpapers, "flag_site_counts": {}, "target_site_counts": {}}
         for s in fs:
             focus["target_site_counts"][s["target"]] = \
@@ -385,7 +425,8 @@ def measure(args):
           f"{report['papers_mentioning']} mention the statistic; "
           f"{report['papers_with_site']} carry at least one use site")
     print(f"use sites    : {report['sites']}   distinct values in use: "
-          f"{report['distinct_values']}")
+          f"{report['distinct_values']} written forms, "
+          f"{report['distinct_values_numeric']} as numbers")
     top = sorted(report["value_counts"].items(), key=lambda kv: -kv[1])[:12]
     print("  values     : " + ", ".join(f"{k}×{v}" for k, v in top))
     print("\nflags (share of use sites):")
@@ -401,7 +442,9 @@ def measure(args):
     if "focus" in report:
         f = report["focus"]
         print(f"\nthe threshold this profile is about — value {f['value']}: "
-              f"{f['sites']} sites in {f['papers']} papers")
+              f"{f['sites']} sites in {f['papers']} papers "
+              f"(written {', '.join(f['written_forms'])}; "
+              f"0.2's string match found {f['sites_string_match_0_2']})")
         for name in prof.flag_names:
             print(f"  {name:16s} {pct(f['flag_site_counts'].get(name, 0), f['sites'])}")
         print("  document at the site:")

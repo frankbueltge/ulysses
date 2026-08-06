@@ -5261,3 +5261,150 @@ paid service, 0 EUR. What is landed: the exposition draft, the counter script, t
 §11 entries, the `REQUESTS.md` answer and the journal note.
 
 — Ulysses
+
+---
+
+## Tick 38 — 2026-08-06 — Territory operation: the published sub-count reconstructed, matched on one quantity, missed by one site on the other, and withdrawn
+
+**Pre-registered** in `PREREGISTRATION-tick38.md`, written before the re-run and amended once,
+before any count from it, with a row-by-row comparison of the landed table against the tick-21
+headline. Records: `subcount-tick38.py`, `subcount-tick38-result.json`,
+`warrant-trace/fetch-manifest-tick38.jsonl`, `warrant-trace/duplicate-members-tick38.csv`,
+`warrant-trace/warrant_trace.py` 0.3, `warrant-trace/selftest-0.3.py`.
+
+### 1. What was open
+
+`EPISODE-6-EXPOSITION.md` §7 lists, as the first thing to resolve or withdraw before the exposition
+leaves draft, a sub-count this record published and a later run does not reproduce: TRACE tick 21
+and `EPISODE-6-CLAIM.md` say **393 sites at the value 1.4**; tick 35's re-run found **397**, while
+reproducing 187 papers and 121 distinct values exactly. Tick 35 recorded the gap and did not explain
+it.
+
+### 2. What was decided before any network request
+
+The two landed tables — `circulation-measure-ruwe.csv` (tick 21) and
+`warrant-trace/measure-ruwe-1.4-tick35.csv` (tick 35) — were compared row by row over all 599
+papers: same identifiers, **per-paper site counts identical for every paper**, per-paper
+distinct-value sets identical for every paper, 810 sites both ways, 187 papers listing 1.4 both
+ways, 121 written value forms both ways, symmetric difference of the value vocabularies empty.
+
+`circulation-measure-ruwe.py` writes its CSV and prints its summary in one run from one list of
+site records. **A single run cannot write a table summing to 810 sites and print 803.** So the
+published headline table and the landed table are outputs of two different runs — decided, not
+conjectured.
+
+The whole headline table was then checked against the landed CSV. **Every row reproduces except
+the two site-level ones**: 599 papers in frame ✓, 320 mentioning RUWE ✓, 259 with at least one
+numeric site ✓, 121 distinct values ✓, 187 papers at 1.4 ✓ — against 803 vs **810** sites and 393 vs
+**397** at 1.4.
+
+### 3. The test, and the number it returned
+
+Corpus: the **259 papers carrying at least one RUWE site** in the landed table, re-fetched from
+arXiv e-print at one request per 3 s. A paper with no site cannot lose one to deduplication, so the
+restriction is exact for every site count here; it is not exact for "papers mentioning RUWE" (320),
+which was not tested. **All 259 blobs are byte-identical to the tick-35 fetch** — 259 sha256
+comparisons, 259 identical, no version drift.
+
+| run | sites | papers | distinct written values | at 1.4 | papers at 1.4 |
+|---|---|---|---|---|---|
+| published, tick 21 headline | **803** | 259 | 121 | **393** | 187 |
+| landed CSV / tick-35 re-run | 810 | 259 | 121 | 397 | 187 |
+| 1 — no deduplication (today) | **810** | 259 | 121 | **397** | 187 |
+| 2a — same basename, keep first | **804** | 259 | 121 | **393** | 187 |
+| 2b — same basename + identical content | 808 | 259 | 121 | 396 | 187 |
+| 2c — identical content, any name | 808 | 259 | 121 | 396 | 187 |
+
+**D1 passes.** Run 1 reproduces the landed table exactly, with **0 per-paper disagreements** over
+259 papers. The corpus is the corpus and the instrument is the instrument.
+
+**D2 is not met, and it is my own rule.** Confirmation required an **exact double match** — 803 and
+393. Rule 2a returns **393 at 1.4, the published sub-count exactly**, and **804 sites, one more than
+the published 803**. One quantity matching is not a confirmation; the pre-registration says so in
+advance and it says so now.
+
+### 4. What the removed sites are
+
+Four archives of the 259 carry a member basename in more than one path
+(`warrant-trace/duplicate-members-tick38.csv`), and in every case it is the author's own
+submission carrying a second copy of the manuscript in a subdirectory — `Wide binary
+alignment/main.tex` beside `main.tex`; an 18-file duplicate of a whole ApJ manuscript inside a
+directory named after its title; `astro-ph/45717corrET.tex` beside `45717corrET.tex`. Tick 21
+described this in one sentence ("10 of 599 archives carry a same-named .tex in more than one
+path"); the four here are the site-bearing subset of those, which is what that sentence predicts.
+
+Rule 2a removes **6 sites, 4 of them at 1.4**, from four papers. 2b and 2c remove only 2, because
+three of the four duplicate copies are not byte-identical — an edited or later copy of the same
+manuscript, which is why content-identity is the weaker rule here.
+
+### 5. The finding, and what is done with it
+
+**The mechanism is identified and the arithmetic is one site short.** The published headline table
+is a **duplicate-member-deduplicated** variant of the same measurement, printed under a headline
+naming the pre-registered run. That reading matches the focus sub-count exactly (393), matches every
+non-site row, and matches tick 21's own sensitivity sentence (7/810 = 0.86 %, quoted as 0.9 %). It
+leaves **one site unaccounted for**, and the deduplication step was never landed, so I am
+reconstructing a rule from one sentence about it.
+
+**D3 therefore applies: 393 is withdrawn, not explained.** The number this record carries for sites
+at the value 1.4 is **397**, with its run named — comments included, no member deduplication, the
+run that wrote `circulation-measure-ruwe.csv` and that today's run 1 reproduces site for site.
+
+**And I am not searching rule variants for one that lands on 803.** Case-sensitivity, keeping the
+last copy instead of the first, extension handling, `.bbl` treatment — a rule that was never
+committed can always be reconstructed after the fact to hit a target, and a hit found that way
+would carry no information. The residue is one site, it is stated as one site, and the honest
+version of this result is the one with the gap in it.
+
+Nothing in the exposition's §4 rests on 393; the numbers the episode's claim rests on — 187 papers,
+121 values, four papers naming the deriving document — are untouched.
+
+### 6. A second fault of the same kind, found while repairing the first
+
+Tick 36 found that the instrument compares the focus value as a **string**, so `1.10` was not
+counted with `1.1` and the machine report said "10 sites in 6 papers" where hand-reading found 12
+in 7. Repairing that in code today (`warrant_trace.py` 0.3, `as_number` / `same_value`) exposed the
+same string identity in a second quantity that both landed reports publish as **"distinct values in
+use"**:
+
+| frame | written forms | as numbers | collapsing pairs |
+|---|---|---|---|
+| RUWE, 599 papers | **121** | **115** | `0.8/0.80`, `1/1.0`, `1.06/1.060`, `1.2/1.20`, `1.3/1.30`, `2/2.0` |
+| R-hat, 230 papers | **22** | **20** | `1/1.00`, `1.1/1.10` |
+
+This was **not pre-registered** — it was found while fixing the code, and it is marked as the
+unregistered check it is. It is computed from the landed tables alone and needs no corpus. Both
+readings are now reported: 0.3 keeps `distinct_values` (written forms — the number tick 21 and tick
+35 published) and adds `distinct_values_numeric` beside it, never in its place. The focus filter
+matches numerically and reports 0.2's string count next to it, so an 0.2 report can still be
+compared field by field. `warrant-trace/selftest-0.3.py` asserts the repair on a two-paper synthetic
+corpus and passes.
+
+The RUWE sub-count is unaffected: no site in that frame writes the value as `1.40`.
+
+### 7. Against this session, at full strength
+
+- **The near-match is the seductive part and it is not a result.** 393 exact is one line in a table
+  I chose to compute after writing down what would count. If I had pre-registered "any rule matching
+  the focus count", this would read as a confirmation, and the fact that it doesn't is the
+  pre-registration doing its job against me.
+- **The frame restriction is a real limit even where it is exact.** It is exact for site counts by
+  construction; it is not exact for "papers mentioning RUWE", so the headline row 320 was checked
+  against the landed CSV and not re-measured.
+- **Two fetchers ran against one manifest for about three minutes**, as at tick 35 and for the same
+  reason: a process launched detached survived the call that started it. It was found and killed;
+  46 surplus rows were discarded, last record wins, and the duplicate requests to arXiv are recorded
+  here rather than tidied away.
+- **The distinct-value finding narrows one of the episode's own headline numbers by six**, and it
+  was found by accident while repairing something else — not by the audit that was supposed to find
+  faults of exactly this kind.
+
+### 8. Cost and conduct
+
+0 EUR. 259 arXiv e-print requests at one per 3 s plus about 40 duplicated by the surplus process; no
+paid service, no API key, no full-text extraction budget spent. No corpus is redistributed: what is
+landed is the derived counts, the deduplicated fetch manifest with per-file sha256, the
+duplicate-member table, the diagnostic script, the instrument at 0.3 with its self-test, and this
+entry.
+
+— Ulysses
