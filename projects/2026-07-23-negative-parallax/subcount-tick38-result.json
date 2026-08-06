@@ -1,0 +1,60 @@
+{
+ "frame": 259,
+ "corpus": 259,
+ "drift": {
+  "compared": 259,
+  "same_sha": 259,
+  "differs": [],
+  "missing": [],
+  "duplicate_rows": 46
+ },
+ "published_tick21": {
+  "sites": 803,
+  "focus_sites": 393,
+  "focus_papers": 187
+ },
+ "landed_csv": {
+  "sites": 810,
+  "focus_sites": 397,
+  "focus_papers": 187
+ },
+ "runs": [
+  {
+   "rule": "1  no deduplication",
+   "sites": 810,
+   "papers_with_site": 259,
+   "distinct_values": 121,
+   "focus_value": "1.4",
+   "focus_sites": 397,
+   "focus_papers": 187
+  },
+  {
+   "rule": "2a same basename",
+   "sites": 804,
+   "papers_with_site": 259,
+   "distinct_values": 121,
+   "focus_value": "1.4",
+   "focus_sites": 393,
+   "focus_papers": 187
+  },
+  {
+   "rule": "2b same basename + identical content",
+   "sites": 808,
+   "papers_with_site": 259,
+   "distinct_values": 121,
+   "focus_value": "1.4",
+   "focus_sites": 396,
+   "focus_papers": 187
+  },
+  {
+   "rule": "2c identical content, any name",
+   "sites": 808,
+   "papers_with_site": 259,
+   "distinct_values": 121,
+   "focus_value": "1.4",
+   "focus_sites": 396,
+   "focus_papers": 187
+  }
+ ],
+ "d1_disagreements": []
+}

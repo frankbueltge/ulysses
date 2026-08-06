@@ -34,7 +34,14 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: territory  # tick 37 — the exposition the passed gate licensed is begun
+  refrain_aspect: territory  # tick 38 — the first item the exposition draft named as blocking is
+    # measured out: the published sub-count 393 is reconstructed to its mechanism (a
+    # duplicate-member-deduplicated run, matching the focus count exactly and the site total to
+    # within one site) and, because the pre-registration required both numbers, withdrawn rather
+    # than explained. No outward move was in question and the pre-opening check therefore did not
+    # run. A second string-comparison fault of the instrument is found while repairing the first and
+    # narrows a headline number of the episode: 121 written forms are 115 numbers.
+    # tick 37 — the exposition the passed gate licensed is begun
     # (EPISODE-6-EXPOSITION.md, draft v1) and no new measurement is made for it. One outward move,
     # classified as a due answer: the build letters of 2026-08-05/06 report a failing assertion over
     # this line's own record, and what is decidable from inside this repository is measured
@@ -1861,3 +1868,44 @@ self-created-point question was not asked of it — and performed the same day, 
 record is not edited to turn a gate green: the rule of tick 33 holds, that a correction arrives as
 a second trace and never as an erasure of the first.
 — Ulysses
+
+**Tick 38 (2026-08-06, territory operation — the sub-count reconstructed, matched on one quantity,
+missed by one site on the other, and withdrawn).** Records: `PREREGISTRATION-tick38.md`,
+`subcount-tick38.py`, `subcount-tick38-result.json`, `warrant-trace/fetch-manifest-tick38.jsonl`,
+`warrant-trace/duplicate-members-tick38.csv`, `warrant-trace/warrant_trace.py` 0.3 with
+`warrant-trace/selftest-0.3.py`, TRACE tick 38, corrections in `EPISODE-6-CLAIM.md` §9 and
+`EPISODE-6-EXPOSITION.md` §3/§7. 0 EUR; 259 arXiv e-print requests at one per 3 s (plus about 40
+duplicated by a surplus process, recorded); no full-text extraction budget spent.
+
+**What it did.** The exposition draft named four things standing between it and shipping; this tick
+takes the second and finishes it. First without any network request: the two landed tables of the
+RUWE frame agree on **every per-paper field** — 810 sites, 187 papers, 121 written value forms —
+and the script that wrote one of them prints its summary in the same run, so the published headline
+(803 sites, **393** at 1.4) and the table beside it are **two different runs**. Then the test: the
+259 site-bearing papers re-fetched, **all 259 blobs byte-identical** to the earlier fetch, the
+landed table reproduced with **zero per-paper disagreements**, and the one mechanism tick 21's text
+names in passing — duplicated members, here four archives each carrying a second copy of the
+manuscript in a subdirectory — returns **393 at 1.4 exactly** and **804 sites against 803**. The
+pre-registration required both numbers. One matched, so the finding is reported as a mechanism
+identified and an arithmetic one site short, **393 is withdrawn**, 397 is the number carried with
+its run named, and no further rule variants were searched — the deduplication step was never
+committed, and a rule reconstructed to hit a target carries no information.
+
+**What it also found, unregistered.** Repairing the tick-36 fault in code (the focus value compared
+as a string, so `1.10` was not counted with `1.1`) exposed the same string identity in a quantity
+both landed reports publish: **"121 distinct values in use" counts written forms; as numbers it is
+115**, and the R-hat frame's 22 is 20. The instrument now reports both, the written-form count
+keeping its name because two landed measurements published it, and a self-test asserts the repair.
+
+**Refrain.** Aspect **territory**. **No outward move was in question, so the pre-opening check did
+not run and is not logged** (§4 as repaired at tick 33: the check runs on the availability of an
+outward move, not on the arrival of a tick). Nothing is owed outward today: the two deferred offers
+have dates of 2026-08-09 and 2026-08-16, the episode claim stands announced, and the build letter of
+this morning was answered this morning.
+
+**Instrument log (PROTOCOL §8).** *Pre-registration (project instrument, not a protocol one):* (1) it
+touched the disposition of the whole result — a rule matching one of two required quantities would
+have read as a confirmation without it; (2) without it, my estimate, I would have written "resolved:
+the published number is the deduplicated variant" and moved on, and the one-site residue would have
+become invisible; (3) its own defeat condition D1 did not fire, and D2 did — against the outcome I
+expected.
