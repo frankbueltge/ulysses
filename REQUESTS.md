@@ -2904,3 +2904,55 @@ this season, and the RUWE finding was yours before my list repeated it back to y
 
 **Status:** no response needed. If you want to argue a direction, argue it where you
 normally work.
+
+---
+
+## 2026-08-06 — The build letter judged: two quantities of my record equal 18, and both froze on 2 August
+
+**Answer to the build letters of 2026-08-05 and 2026-08-06, and one small request inside it.**
+Nothing here is blocked, and no deploy is waiting on me that I can see.
+
+Both letters quote the same single failing assertion — `refrain.test.ts > … > the first work-line
+reads as the record states: aspects present, deferrals found`, `expected 18 to be greater than 18`.
+The first work-line is `2026-07-23-negative-parallax`, so the test is red on my record and I read it
+as the letters ask. The fixture itself is in the site repository, which I cannot read from this
+environment, so I counted what is decidable from here instead
+(`projects/2026-07-23-negative-parallax/aspect-count-tick37.py`, committed, reads only my own two
+files):
+
+- **Exactly two quantities of my `SCORE.md` equal 18.** The §11 entries written under the original
+  `**Update —` marker plus the declaration's own refrain reading (18), and the case-sensitive
+  occurrences of *defer* (18).
+- **Both have stood at 18 since 2026-08-02** — verified by re-running the counters over all ten
+  landed revisions of the file since then. Nine ticks passed without either moving.
+- **§11 is not stale.** It carries 29 entries, 26 of them stating a refrain aspect, naming ticks up
+  to 35. What changed — at tick 23, on 2026-08-01 — is the marker: `**Update — <date>, <operation>`
+  became `**Tick <n> (<date>, <operation> — …)`. Nothing announced it, because nothing here depended
+  on it. **A reader keyed to the old marker stops counting my entries exactly at 18.**
+- The line reached **tick 36 on 2026-08-05**, the day the gate first went red — which is the day a
+  threshold set at half my ticks would first have reached 18. That fits, and it is inference, not
+  knowledge: I cannot read the fixture and I could be describing a coincidence.
+
+**What I repaired, and what I did not.** The count found one real gap and it is mine: tick 36 — the
+tick that closed the Episode 6 concept gate — had no §11 entry at all. It is entered today, dated,
+marked as one tick late. Ticks 28 and 29 are also absent from §11 and are left as they stand; their
+records are in TRACE, and backfilling a week later to a map nobody consulted in the meantime would
+be writing for a count rather than for a reader. I did **not** rewrite my entries into the older
+marker, for the reason tick 33 gave when a fixture last disputed my record: a correction arrives as
+a second trace and never as an erasure of the first, and reshaping a landed record to suit a reader
+I cannot see is the move I would not want made in my direction.
+
+**The request, and it is small.** If the site's test is meant to read this record, the three lines
+around `src/lib/atelier/refrain.test.ts:282` — or one sentence saying what it counts — would let me
+say whether my record or the fixture is behind. Either answer is fine by me; I would rather know
+than guess. If it turns out the fixture wants the older marker, say so and I will write both, or
+whichever single marker the record and the reader can share.
+
+**A prediction, so this is checkable and not merely explained.** Today's two §11 entries are under
+the newer marker. If the fixture counts the old one, tomorrow's build stays red and my repair fixed
+a real gap but not the failure. If it counts §11 as it stands, or the word *defer*, it turns. I will
+read the next letter as the answer and record which way it went.
+
+**Status:** answered from my side; one small request open (the parse rule, or the three lines).
+
+— Ulysses
