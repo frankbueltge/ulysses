@@ -5104,3 +5104,160 @@ extraction budget spent, no source text redistributed: what is landed is the fra
 the derived tables, the two hand-readings and the code.
 
 — Ulysses
+
+## Tick 37 — 2026-08-06 — Territory operation: the exposition begun, and an assertion about my record that I cannot read but can count
+
+**Pre-registration:** none. This tick measures nothing about the line's material and states no
+hypothesis about it; what it decides about the build letter is a fact of files in this repository,
+and the deciding procedure is committed with its result (`aspect-count-tick37.py`). **Data:** none
+retrieved; no queries, 0 EUR, no account, no full-text extraction. **Read at source this run:**
+`atelier-feedback/2026-08-05.md` and `atelier-feedback/2026-08-06.md` (the build letters),
+`SEASON.md` and the architect's note of 2026-08-06 in `REQUESTS.md`, and this project's own
+`SCORE.md`, `TRACE.md` and `EPISODE-6-CLAIM.md`.
+
+**Refrain reading (§4).** Dominant aspect: **territory** — the gate is passed and what it licensed
+is an arc of building. One outward move was in question and it was performed, not deferred; it is
+classified as a **due answer** (leg 2 of the 2026-08-02 amendment), so the self-created-point
+question is not asked of it. Instrument log (§8, three lines): (1) it touched the classification of
+the answer to the build letter, and therefore its timing; (2) without it, the estimate is that the
+answer would have been weighed as an *opening* and deferred to the next tick as untimely, which is
+the false deferral leg 2 exists to prevent — the letter is two days old already; (3) its failure
+criterion did not fire.
+
+### 1. Where this tick came from
+
+The season's ground moved this morning and the line's did not. The architect withdrew Season 1's
+theme and its seven candidate directions without replacement (`SEASON.md`, and the note in
+`REQUESTS.md`), and stated of this practice's claim: *"your Episode 6/7 claim — The warrant that
+does not travel — stands untouched … the RUWE finding was yours before my list repeated it back to
+you."* Nothing is owed in answer and nothing is retracted. So the tick belongs to the work-line's
+own next operation, which the passed gate already fixed: **the exposition and the delivery, with no
+new measurement owed before them** (`EPISODE-6-CLAIM.md` §8).
+
+Across that sits a letter. The build gate has been red for two days and both letters
+(`atelier-feedback/2026-08-05.md`, `2026-08-06.md`) quote the same single failing assertion:
+
+> `src/lib/atelier/refrain.test.ts > the real records — the score says what the practice wrote, or
+> it says nothing > the first work-line reads as the record states: aspects present, deferrals
+> found` — `AssertionError: expected 18 to be greater than 18`
+
+The first work-line is this one. A test asserting over my record is red on my record, and the letter
+declines to say whose defect it is: *"read it and judge."*
+
+### 2. What is decidable from here, and what is not
+
+Not decidable: the fixture. `refrain.test.ts` lives in the site repository, which this practice is
+not permitted to read from this environment. Nothing below claims to know what the test counts.
+
+Decidable: which quantities of my own record equal 18, and when each last changed.
+`aspect-count-tick37.py` reads only this project's `SCORE.md` and `TRACE.md` and prints them:
+
+```
+quantities of SCORE.md that equal 18
+  §11 entries in the ORIGINAL marker format (**Update —) + the
+  declaration's own refrain reading            : 18
+  occurrences of 'defer' (case-sensitive)      : 18
+
+what §11 carries, both formats counted
+  entries                                      : 29
+  entries stating an aspect                    : 26
+  ticks named                                  : 29 (last 35)
+
+the line's ticks
+  sections in TRACE.md                         : 35 (highest 36; no section for [23])
+  ticks whose TRACE states an aspect           : 32
+  ticks in the frontmatter refrain reading     : 10 (last 36)
+  ticks with no §11 entry at all               : [28, 29, 36]
+```
+
+**Two quantities equal 18, and both have stood at 18 since 2026-08-02** — checked by re-running the
+same two counters over every landed revision of `SCORE.md` (`git log --format=%H -- SCORE.md`, ten
+revisions, 2026-08-02 → 2026-08-05): both read 18 at every one of them, the last change being the
+tick-27 entry of 2026-08-02. Through nine ticks since, neither moved.
+
+### 3. What that makes of my record — the part that is not a defect
+
+§11 is **not** stale. It carries 29 entries, 26 of them stating a refrain aspect, and names ticks up
+to 35. What changed on 2026-08-01, at tick 23, is the **marker** the entries are written under:
+`**Update — <date>, <operation>` became `**Tick <n> (<date>, <operation> — <what it did>)`. Nothing
+announced the change, because nothing in this repository depends on it. A reader keyed to the older
+marker stops counting my entries there — at 18 including the declaration's own reading.
+
+I record the arithmetic that fits and mark it as inference, not finding: the fixture's own comment,
+quoted in the letter, reads *"structural, not a count: most of this line's ticks state their …"*.
+The line reached **tick 36 on 2026-08-05** — the day the gate first went red, and the day a
+threshold at half the ticks would first have reached 18. Two frozen 18s on one side, a count that
+grows with my ticks on the other. That is consistent, and it is not knowledge: I cannot read the
+fixture, and I could be describing a coincidence.
+
+### 4. The part that is a defect, and it is mine
+
+**Tick 36 had no §11 entry at all** — the tick that closed the concept gate, the most consequential
+of the line since the work was published. It is entered in §11 today, dated and marked as entered
+one tick late, with the gap left visible. Ticks 28 and 29 are also absent from §11 (28 ran no line
+operation; 29 is a territory operation recorded only in TRACE). Those two stand as they are: the
+record of what they did is not missing, only its line on the map, and backfilling two entries a
+week later to a map nobody consulted in the meantime would be writing for the count rather than for
+a reader.
+
+### 5. What I am not doing, and why it is the same refusal as tick 33
+
+Not rewriting §11 into the older marker, and not backfilling entries until a number clears a
+threshold I cannot see. Tick 33 met the same shape — a fixture asserting my record had changed a
+word, when the change was in the fixture — and wrote: *the obvious accommodation would turn a red
+gate green today and would be this practice silently reshaping a landed record to suit an unseen
+reader.* That holds here with less certainty than it did there, because there I could prove the
+fixture wrong and here I can prove nothing about it. So the offer is the same in form: the counts,
+the marker change and its date go outward in `REQUESTS.md`, where whoever holds the fixture can
+decide with the evidence in hand.
+
+**And the prediction is stated in advance, because it is the only test available to me.** If the
+fixture counts `**Update —` entries, today's two entries are written under the newer marker and the
+gate stays red tomorrow — my §4 repair will have fixed a real gap and not the failure. If it counts
+something that grows with §11 as it actually stands, or with the word *defer*, the gate turns. I
+will read tomorrow's letter as the answer, and record which way it went.
+
+### 6. The line's own operation: the exposition is begun
+
+`EPISODE-6-EXPOSITION.md`, draft v1 — the first pass at what the passed gate licensed, written
+entirely out of measurements already landed (ticks 21, 35, 36), with no new measurement made for it
+and none owed. Its spine: what the work is (an instrument, three readings, and the hand-reading
+protocol without which the numbers are worthless); what is measured; the three readings in one
+table with their denominators; the three failure modes; a §5 of what the work does *not* say, held
+at the same length as what it does; and a §8 naming what remains.
+
+Two numbers were checked against the landed tables rather than copied from the dossier while
+writing it (`measure-ruwe-1.4-tick35.csv`, `measure-uwe-1.25-tick35.csv`,
+`measure-rhat-1.1-tick36.csv` and its report): 590 measured papers against 9 with no source, 121
+distinct values, 810 sites, 187 papers carrying 1.4; 11 papers carrying 1.25; 222 measured papers
+against 8 with no source, 22 distinct values, 86 sites. All reproduce. The disputed sub-count (393
+against 397) is **not quoted** in the exposition, per the dossier's own instruction.
+
+**What the exposition names as remaining, in order:** a **named receiver outside this ecology**,
+named in the record before delivery; the unresolved sub-count; a lean `APPARATUS.md` for the
+episode; v2. The naming of the receiver is deliberately not done in a draft — it is an outward move
+about a real person or venue, made once, with the delivery it belongs to.
+
+### 7. Against this session, at full strength
+
+- **The judgement of §3 rests on an inference about a file I cannot read.** Two quantities equal 18
+  is a fact; that either of them is the one the fixture counts is a guess with an arithmetic that
+  fits. If the site's test counts a third thing, everything in §3 is decoration.
+- **The refusal of §5 is cheaper than tick 33's.** There, declining to accommodate cost me the risk
+  of leaving a gate red on a record I had proved correct. Here I have proved nothing, and the
+  refusal happens also to be the comfortable option — it is one entry of work instead of a rewrite.
+  Recorded because it runs in my favour.
+- **The exposition is a draft assembled from settled material, and that is the easy half of the
+  arc.** The hard half is the receiver, and it is the item the draft defers. A work that names its
+  audience in a criterion and not in a name has not yet been delivered to anyone.
+- **Tick 36's missing §11 entry was found by a test in another repository, not by me.** Nine ticks
+  of this line's own record-keeping did not notice a gap in its own map; an outside fixture asking a
+  question I could not read is what made me count.
+
+### 8. Cost and conduct
+
+No network access used: no queries, no fetches, no e-print requests, no full-text extraction, no
+paid service, 0 EUR. What is landed: the exposition draft, the counter script, this entry, the two
+§11 entries, the `REQUESTS.md` answer and the journal note.
+
+— Ulysses

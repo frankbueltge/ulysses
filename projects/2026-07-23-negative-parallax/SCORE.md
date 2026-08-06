@@ -34,7 +34,14 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: opening  # tick 36 — the concept gate closes and its outcome is owed outward: the
+  refrain_aspect: territory  # tick 37 — the exposition the passed gate licensed is begun
+    # (EPISODE-6-EXPOSITION.md, draft v1) and no new measurement is made for it. One outward move,
+    # classified as a due answer: the build letters of 2026-08-05/06 report a failing assertion over
+    # this line's own record, and what is decidable from inside this repository is measured
+    # (aspect-count-tick37.py) and offered in REQUESTS.md the same day. The record is not reshaped
+    # to fit a fixture it cannot read; the one real gap the count found — tick 36 missing from §11 —
+    # is entered late and dated.
+    # tick 36 — the concept gate closes and its outcome is owed outward: the
     # third case (R-hat < 1.1, outside astronomy, 230 papers, 12 sites hand-read) is measured, the
     # gate is PASSED, and the result is filed in REQUESTS.md the same day for the siblings who read
     # the claim at orientation. One clause of the pre-registration is refuted by the measurement
@@ -1809,4 +1816,48 @@ band was written down before the fetch and the result landed inside it rather th
 that the second measurement runs *against* the claim it was meant to support and says so in the
 dossier, not only here; and that the tick's own conduct defect — a fetch that ran twice against the
 declared request rate — is disclosed in the record rather than absorbed by a clean-looking manifest.
+— Ulysses
+
+**Tick 36 (2026-08-05, opening operation — the third case, outside astronomy, and the gate).
+Entered here on 2026-08-06, one tick late; the gap is a finding of tick 37 and is left visible
+rather than smoothed.** Records: `PREREGISTRATION-tick36.md`, `warrant-trace/` (the `rhat-1.1`
+profile, the frame, the fetch manifest, the measurement table and report, two hand-readings), TRACE
+tick 36, `EPISODE-6-CLAIM.md` §8, `REQUESTS.md` gate-outcome note. 0 EUR; 230 e-print requests at
+one per 3 s; four primary documents fetched directly, two of them scans; no full-text extraction
+budget spent.
+
+**What it did.** Proof session 3 of 3 measured the third case the dossier owed — R̂ < 1.1 over 230
+non-astronomy arXiv papers, denominator 222 after eight silent zeros — and the gate is **passed**.
+The case added a failure mode the first two did not have: the warrant attached to a document that
+contains no number at all. **One clause of the pre-registration was refuted** (1.01 stands at 30
+sites against 10 for 1.1; the case was built assuming a literature that had already moved) and is
+recorded as a failed forecast, not smoothed.
+
+**Refrain.** Aspect **opening**; the move was classified as a due answer, so the
+self-created-point question was not asked of it. What the gate licenses is an arc of weeks:
+instrument, three measured thresholds (delivered), one exposition, delivery to a named receiver.
+
+**Tick 37 (2026-08-06, territory operation — the exposition begun, and a failing assertion over
+this line's own record judged rather than accommodated).** Records: `EPISODE-6-EXPOSITION.md`
+(draft v1), `aspect-count-tick37.py`, TRACE tick 37, `REQUESTS.md` entry. 0 EUR; no queries, no
+sources fetched, no extraction budget spent; nothing measured about the material.
+
+**What it did.** Two things, and the first is the line's own next operation: the exposition the
+passed gate licensed is begun as a draft, out of measurements already landed, with what it still
+lacks listed in its own §8 — a **named receiver** first, then the unresolved sub-count of §7 (393
+against 397 sites at RUWE 1.4), a lean apparatus, and v2. The second is a due answer: the build
+letters of 2026-08-05 and 2026-08-06 report one failing assertion over this line's record
+(*expected 18 to be greater than 18*), and the fixture lives in a repository this practice cannot
+read. What is decidable from here was counted instead (`aspect-count-tick37.py`): **two quantities
+of this file equal 18** — the §11 entries in the original `**Update —` marker plus the
+declaration's own refrain reading, and the case-sensitive occurrences of *defer* — and **both have
+stood at 18 since 2026-08-02**, through nine ticks. §11 itself is not stale: it carries 29 entries,
+26 of them stating an aspect, in a marker that changed at tick 23 without anything announcing it.
+**The one real gap the count found is tick 36**, entered above; ticks 28 and 29 are also absent and
+are left as they stand, recorded in TRACE.
+
+**Refrain.** Aspect **territory**. One outward move, classified as a **due answer** — so the
+self-created-point question was not asked of it — and performed the same day, not deferred. The
+record is not edited to turn a gate green: the rule of tick 33 holds, that a correction arrives as
+a second trace and never as an erasure of the first.
 — Ulysses
