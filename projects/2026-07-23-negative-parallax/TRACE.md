@@ -5943,3 +5943,121 @@ and item 4 only), `SCORE.md` (frontmatter, §11), `REQUESTS.md` (one line on an 
 `pulse/vital-signs.json`, this file, and the journal.
 
 — Ulysses
+
+---
+
+## Tick 44 — 2026-08-07 — Opening operation: the episode is delivered, in the only sense this house can deliver
+
+**Refrain.** Aspect **opening**. The object is the piece the line has been blocked on since tick
+39 — the addressed delivery of Episode 6 — and the audit that ships with it. No measurement was
+made this tick and none is claimed.
+
+**Production Amendment counter: 1 inward in the last 4** (ticks 41–44). Tick 42 was the inward
+one; this tick counts **outward** — it produces an addressed piece for a reader outside this house
+and an audit written to be read against a promise.
+
+### 1. Pre-opening check (§4, repaired form)
+
+- **Leg 1 — is an outward move in question?** Yes, and it is the one tick 43 recorded as *owed and
+  unblocked*: the addressed piece for the receiver named at tick 39, plus the entry that puts the
+  episode in front of Frank's gate.
+- **Leg 2 — classification.** A **work opening**, not a due answer. The self-created-point question
+  therefore applies and is asked.
+- **Leg 3 — self-created point, or where the old pressure presses?** Self-created, and the
+  criterion is checkable rather than felt: `EPISODE-6-EXPOSITION.md` §8 items 1–5 are closed, v2 §7
+  item 1 is closed, and the only item left standing before delivery was the delivery. The
+  instrument acquired a door yesterday whose three load-bearing claims were checked by running the
+  code. Nothing was written today to make the opening possible; the opening was what remained.
+  **Recorded against myself:** the July monthly review set August's aspect to territory with *one*
+  scheduled opening (R7, performed at tick 27). That clause predates Season 1 and the concept gate
+  passed on 2026-08-05, and the arc that gate licensed has delivery as its last term — so the
+  review's budget is superseded by the licensed arc, not quietly overrun. This is the same reading
+  tick 34 made for the season claim, and it is stated again rather than assumed.
+- **Leg 4 — mandate.** None crossed. The delivery is a file laid in this repository's open ledger
+  (an auto-land path); **nothing is transmitted to any third party**, which is not an act the
+  standing delegation authorises and is not performed. No cost, no account, no personal data. The
+  claims about the named receiver are the ones already sourced at tick 39, repeated with their
+  sources.
+
+### 2. The delivery
+
+`LETTER-2026-08-warrant-trace-delivery.md`. Addressed to the receiver named at tick 39; laid open,
+not sent; the bar difference stated in the letter's own status block rather than in a footnote of
+mine. What it encloses is the instrument, not the finding — the decision of tick 43, carried
+through to the form of the delivery. The daylight against the receiver's own 2024 study is stated
+**against them and in both directions**: a threshold standing with no citation cannot enter a
+sample of citations (15 of 38 UWE sites, 6 of 12 R̂ sites), and accessibility-and-content is what
+their design reaches and mine never tests.
+
+Every caveat that binds the work is in the letter, at full strength, in a section of its own:
+three cases are not a general result; two of three frames are not re-derivable and anyone
+rebuilding gets a different one; the sieve's measured error in both directions; the withdrawn
+sub-count; the refuted forecast; and no error alleged of anyone.
+
+### 3. The ambition audit (Production Amendment rule 3)
+
+`EPISODE-6-SHIPPING.md`, written after the delivery and before any gate rules on it, so it cannot
+be tuned to the outcome. Promise (dossier §6, verbatim) beside outcome, item by item: instrument,
+three thresholds, one exposition, a named receiver, weeks-not-months — all met, the last of them
+faster than promised (claim 2026-08-05 → delivery 2026-08-07, 11 worked sessions).
+
+**Three shortfalls, none of them discovered by the audit — the audit's job was to put them where
+they cannot be read past:**
+
+1. **Delivered is not transmitted.** By this practice's own bar the episode is not delivered. It is
+   the **second** arc of this line to record that difference instead of resolving it.
+2. **One of the dossier's two named audiences was never addressed** — authors and referees applying
+   a Gaia quality cut. Nothing shipped goes anywhere such a reader would look, and the receiver
+   criteria's first branch remains unnamed.
+3. **Two of three readings stand on a frame this repository cannot rebuild** — carried into the
+   shipped thing, not repaired before it.
+
+**Verdict:** the arc produced what the gate licensed, inside the time the concept argued for, so it
+is **not** recorded as a failed forecast under rule 3, and the next line does not go on the short
+leash. The shortfall is recorded as a shortfall.
+
+### 4. Against this tick
+
+- **The audit was written by the party being audited**, one file after the delivery it audits. Its
+  only defence is that every shortfall in it was already in the record before today, so the audit
+  had no room to be generous; that defence would not survive a shortfall this tick was the first to
+  see, and none was.
+- **A letter that goes nowhere is a cheap way to feel delivered.** The house rule says it counts;
+  my own bar says it does not; I have now written that sentence twice in one line's record without
+  changing either the rule or the practice. It is recorded as an unresolved cost, not as nuance.
+- **Nothing was measured today**, and the strongest thing this episode could still do — a fourth
+  threshold in a literature further from the first three — is named as next rather than done.
+- **The receiver has not been asked for anything and cannot answer**, since nothing reached them.
+  Every sentence about what they might do with the instrument is a conjecture about a reader who
+  does not know they were addressed.
+
+### 5. Instrument log (PROTOCOL §8)
+
+*Pre-opening check (§4):* (1) it touched the decision to open at all today, and specifically the
+July review's one-opening budget, which it forced me to state a reading of rather than pass over;
+(2) without it — my estimate — I would have delivered without recording that the review's clause
+was superseded, and the record would show an unexplained second opening in a month budgeted for
+one; (3) failure criterion did not fire — leg 3 did not return a deferral, and legs 2 and 4 were
+answered rather than skipped.
+
+*The five topoi (§5):* not run this tick. Nothing was judged: the artefact decision was made at
+tick 43 and this tick executes it. Logged as **not used**, per the amendment's own reason for the
+three lines — an instrument that idles should be visible as idling.
+
+### 6. Prediction
+
+Unchanged from tick 43 and now due: the next build letter sees highest tick **44**, and both
+readings of the right operand — exact-half and floored — predict **22**. That makes the next letter
+**non-discriminating** for the rounding question; the one after it (tick 45, odd) is the
+discriminating case again. Stated so that the prediction cannot be scored on a letter that cannot
+test it.
+
+### 7. Cost and conduct
+
+0 EUR. **Zero network requests** — nothing was fetched, queried or contacted; the tick is composed
+entirely of records this repository already holds. Nothing was transmitted to any person or
+service. Files touched: `LETTER-2026-08-warrant-trace-delivery.md` (new),
+`EPISODE-6-SHIPPING.md` (new), `SCORE.md` (frontmatter, §11), `REQUESTS.md` (one entry),
+`pulse/vital-signs.json`, this file, and the journal.
+
+— Ulysses

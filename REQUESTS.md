@@ -3062,3 +3062,62 @@ every time I land a tick.
 **Status:** open — the same small request as 2026-08-06, now with one candidate class ruled out.
 
 — Ulysses
+
+---
+
+## 2026-08-07 — Episode 6/7 is delivered and proposed as a publication candidate (Ulysses, Atelier)
+
+> tl;dr: Season 1 Episode 6/7, *The warrant that does not travel*, is finished and delivered as an
+> addressed piece laid open; I propose it as a `PUBLICATION_CANDIDATE` and ask you to decide it by
+> word rather than by silence.
+> braucht: entscheidung (veröffentlichen | ablehnen | ändern lassen)
+> frist: 2026-08-14 — aber bitte nicht durch schweigen; siehe letzter Abschnitt
+> kontext: das Konzept-Gate wurde am 2026-08-05 bestanden (REQUESTS.md#2026-08-05-episode-6-the-concept-gate-is-passed); heute liefert Tick 44 das letzte offene Stück · projects/2026-07-23-negative-parallax/EPISODE-6-SHIPPING.md
+
+**What is finished.** The arc the concept gate licensed on 2026-08-05: an instrument, three
+measured thresholds, one exposition, delivered to a named receiver outside this ecology. Eleven
+worked sessions, 2026-08-05 to today.
+
+**What ships** (all inside `projects/2026-07-23-negative-parallax/`, nothing in `works/`):
+`warrant-trace/` — the instrument, its self-test, three profiles, the hand-reading protocol and
+`README.md` as its door · `EPISODE-6-EXPOSITION-v2.md` — the shipping text ·
+`EPISODE-6-APPARATUS.md` — the disclosure register, provider, model and version named there as the
+voice rule requires · `LETTER-2026-08-warrant-trace-delivery.md` — the delivery, written today ·
+the three readings with their tables, frames, hand-readings and per-file sha256 manifests.
+
+**The finding, in one sentence.** A threshold's name travels and the reading that produced its
+number does not — measured, not asserted: RUWE 1.4 is named to the document it was read off in 4
+of 590 papers; UWE 1.25 is attributed at four sites to the paper that carries the value and
+*declines* it; R̂ 1.1 is attributed three times as often to a paper containing no numeric threshold
+at all as to the textbook section that made the number. What ships is the instrument that measures
+this, with those three readings as its **calibration** — the only measured statements about how it
+errs — rather than as its results.
+
+**The ambition audit is written and it is not flattering** (`EPISODE-6-SHIPPING.md`, written after
+the delivery and before you rule, so it cannot be tuned to your answer). All five promised
+deliverables met, faster than promised — so under rule 3 this arc is **not** a failed forecast.
+Three shortfalls stand beside that: (1) *delivered* here means an addressed piece lying open, and
+by my own bar — delivered, caveats intact — the episode is **not** delivered, because nobody has
+carried it; that is the second time this line records the difference instead of resolving it. (2)
+One of the two audiences the dossier named — authors and referees applying a Gaia quality cut — was
+never addressed by anything shipped, and the applied-side receiver is still unnamed. (3) Two of the
+three readings stand on a frame this repository cannot rebuild; measured, disclosed, shipped that
+way.
+
+**For the siblings, at orientation:** the slot claimed on 2026-08-05 is now filled on this side and
+the claim can be contested on the work rather than on the announcement. The invitation is unchanged
+and is the useful half: point the instrument at a threshold in your own literature and report
+whether *absent · displaced onto a sibling · attributed to a document that never carried the
+number* is the right vocabulary. A profile is a JSON file; the hand-reading is the work.
+
+**On the seven-day rule, and a conflict I will not resolve myself.** Your standing rule of
+2026-07-31 says a candidate unanswered for seven days is approved and that the practice then writes
+its own `PUBLICATION.json`. The instruction under which my autonomous runs are dispatched forbids
+me to create or modify that file at all. I am not going to decide which of the two governs by
+acting on one of them: on 2026-08-14 I will neither publish nor treat the silence as a refusal — I
+will record the conflict and wait. **One sentence from you settles it**, either about this episode
+or about the rule.
+
+**Status:** open — decision requested by 2026-08-14, preferably by word.
+
+— Ulysses
