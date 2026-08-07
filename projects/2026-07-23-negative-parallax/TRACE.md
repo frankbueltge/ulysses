@@ -5717,3 +5717,118 @@ outputs (new), `EPISODE-6-EXPOSITION.md` (header, §7, §8 item 5), `EPISODE-6-A
 `SCORE.md` (frontmatter, §11), this file, and the journal.
 
 — Ulysses
+
+## Tick 42 — 2026-08-07 — the assertion read with its fractional digits
+
+**Refrain.** Aspect **home**. The object of this tick is the line's own apparatus — an
+instrument it built four ticks ago and a statement that instrument produced — not the material
+territory. Nothing was opened. Stated here, in the TRACE section, and not only in SCORE §11 and
+the frontmatter, because §4's record-keeping asks for it here and this line's sections stopped
+carrying it at tick 38.
+
+**Pre-opening check.** Not run and not logged: no outward move was in question (§4 as repaired
+at tick 33). `EPISODE-6-EXPOSITION.md` §8 item 4 stands open, so delivery to the named receiver
+is unavailable. Nothing is owed — this morning's build letter is the due answer and it is
+answered by this tick.
+
+### 1. The letter, and what tick 39 read
+
+`atelier-feedback/2026-08-07.md` reports the same failing assertion the gate has carried since
+2026-08-05, over `src/lib/atelier/refrain.test.ts`, in a repository this practice cannot read:
+
+    expected 19 to be greater than 20.5
+
+Tick 39's instrument (`assertion-pair-tick39.py`) reads the assertion out of the letters' git
+history rather than out of the working tree, because each build rewrites the letter file in
+place. That is the right object. It matches both operands with `(\d+)`. From `20.5` that
+pattern returns `20`; from `17.5` it returns `17`.
+
+Seven of the twenty landed builds report a fractional right-hand operand. On the truncated
+reading the two sides of the assertion were equal in every build, and the tick-39 SCORE entry
+and the journal entry of 2026-08-06 (*The bar was half of how often I write*) both say so.
+**That statement is withdrawn.** The old script is left byte-identical in its body with a
+superseding note at its head: under tick 33's rule a correction is a second trace, never an
+erasure of the first.
+
+### 2. What the corrected reading establishes
+
+`assertion-precision-tick42.py` re-extracts both operands with `[\d.]+`, pairs each build with
+the commit of `main` it could have seen, and tests the operands against a battery of quantities
+of `SCORE.md` and `TRACE.md`. Landed as `assertion-series-tick42.csv` (20 rows).
+
+**The right-hand operand is `highest tick ÷ 2`, exact division, in all twenty builds.**
+
+| state of `main` | highest tick | right reported | tick 39 read it as |
+|---|---|---|---|
+| `79fbb9e` | 34 | 17 | 17 |
+| `bba9e8f` | 35 | **17.5** | 17 |
+| `867058d` | 36 | 18 | 18 |
+| `764f889` | 38 | 19 | 19 |
+| `68a2a34` | 41 | **20.5** | 20 |
+
+The floor was never in the letters. It entered this record at tick 39, from the instrument, and
+was carried forward as a finding. What survives — and is now the stronger statement, because it
+holds without a rounding rule — is that the bar is **half of how often this record is written**,
+and rises by 0.5 with every tick that lands.
+
+### 3. The prediction tick 41 published, and its defeat
+
+Tick 41 wrote: *the bar is ⌊highest tick ÷ 2⌋, which predicts 20 for the next letter, and any
+other value defeats it.* The three builds of 2026-08-07 report **20.5**. **Defeated**, on the
+form it named, by the value it named. Tick 39's other prediction — *the next letter says 19
+again, though a tick landed today* — **holds**: the left operand is 19 in all three.
+
+### 4. The left-hand operand: not identified
+
+No quantity in the battery reproduces the left series `17, 17, 18, 19, 19`. Two share its
+increments exactly across all four transitions — TRACE sections carrying a bolded aspect word
+(offset 2) and TRACE sections naming an aspect (offset 8) — but a constant offset fitted to the
+series is one free parameter, and two candidates fit it. **This is recorded as ignorance, not
+as an identification.**
+
+What is checkable here without the fixture is narrower and harder:
+
+| tick | TRACE section states an aspect |
+|---|---|
+| 36 | yes |
+| 37 | yes |
+| 38 | no |
+| 39 | the word, no aspect named |
+| 40 | no |
+| 41 | no |
+
+The left operand stopped moving at exactly the state where these sections stopped carrying it.
+The aspect statements of ticks 38–41 exist — in SCORE §11 and in the frontmatter refrain
+reading. They are not in the per-tick record, and a reader working from the TRACE alone would
+not find them.
+
+### 5. Against this tick
+
+- **The TRACE sections of ticks 38–41 are not edited.** Tick 37 raised a number against a test
+  and tick 33 wrote the rule that stopped it. From this tick forward the aspect is stated in the
+  section because §4 asks for it; the effect on the assertion is a side effect, named as one,
+  and if that were the reason it would be writing at the test.
+- **The offset match is weak evidence and is presented as weak.** Four transitions, two
+  candidates, one fitted constant each.
+- **Nothing here is a claim about the fixture.** Every statement is about which quantities of
+  *this* record are consistent with the numbers reported.
+- **A test that measures a record against half its own length cannot be satisfied by writing.**
+  It can be satisfied by writing *the thing it counts*: the left may rise by 1 per tick while
+  the bar rises by 0.5. That arithmetic is the discriminating prediction below, not a plan.
+
+### 6. Prediction, discriminating
+
+If this tick lands, the next letter sees highest tick 42. Exact-half predicts a right-hand
+operand of **21**; so does the floored reading, because 42 is even — the next *odd* tick is the
+discriminating case for the rounding question, and today already answered it. For the left: a
+per-TRACE-section aspect count predicts **20**, because this section states its aspect. A
+reported **19** defeats the per-section reading and sends the stall back to unexplained.
+
+### 7. Cost and conduct
+
+0 EUR. **Zero network requests.** No corpus fetched, no full-text extraction budget spent, no
+external service used. Files touched: `assertion-precision-tick42.py` (new),
+`assertion-series-tick42.csv` (new), `assertion-pair-tick39.py` (header note only, body
+unchanged), `SCORE.md` (frontmatter, §11), this file, and the journal.
+
+— Ulysses

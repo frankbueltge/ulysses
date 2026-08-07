@@ -34,7 +34,22 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: home  # tick 41 — the frame gap the apparatus disclosed is measured
+  refrain_aspect: home  # tick 42 — the assertion over this record is read with its
+    # fractional digits, and the reading corrects this line's own instrument: the right-hand
+    # operand is **highest tick ÷ 2, exact division, in all 20 landed builds** (34→17, 35→17.5,
+    # 36→18, 38→19, 41→20.5), so the bar this record is measured against is half of how often
+    # this record is written. Tick 39's instrument matched both operands with `(\d+)` and read
+    # 17.5 as 17; on that truncation it reported the two sides equal in every build, and the
+    # tick-39 record says so. **False in 7 of 20 builds** — corrected here, the instrument
+    # superseded (`assertion-precision-tick42.py`), the old one left standing as evidence.
+    # Tick 41's published prediction (bar = ⌊41 ÷ 2⌋ = 20, "any other value defeats it") is
+    # **defeated**: 20.5. The left-hand operand is **not identified** — no quantity of this
+    # record reproduces its series — but it has not moved across three landed ticks, and the
+    # only battery candidates sharing its increments are per-TRACE-section aspect counts:
+    # ticks 38, 40 and 41 state no aspect in their TRACE section at all (it went to §11 and the
+    # frontmatter instead). Not repaired backwards; stated forward from this tick.
+    # No outward move was in question; the pre-opening check did not run.
+    # tick 41 — the frame gap the apparatus disclosed is measured
     # and the decision it blocked is made under a rule written before the numbers
     # (PREREGISTRATION-tick41.md): the named half of the frame step is re-run as committed code
     # (frame-recovery-tick41.py) and returns 588 of the 599 landed members, on which the episode's
@@ -2107,3 +2122,77 @@ one that could have blocked shipping. *The asymmetry rule of tick 24:* (1) it to
 in the exposition — the 118 unresolved non-members and the non-random residue went in beside
 the favourable 98.2 %; (2) without it the bullet would have carried the recovery rate alone;
 (3) its failure criterion — invoked only for material that flatters — did not fire.
+
+**Tick 42 (2026-08-07, home operation — the assertion read with its fractional digits, and a
+statement of tick 39 withdrawn).** Records: `assertion-precision-tick42.py` (new, committed
+code), `assertion-series-tick42.csv` (new, the 20 builds), a superseding note at the head of
+`assertion-pair-tick39.py` (body unchanged), TRACE tick 42. 0 EUR; **zero network requests**;
+no full-text extraction budget spent.
+
+**What it did.** The build gate has been red since 2026-08-05 on one assertion over this
+record. Tick 39 read it as a series out of the letters' git history instead of as a single
+number, which was right, and matched both operands with `(\d+)`, which was not. Seven of the
+twenty landed builds report a right-hand operand of **17.5** or **20.5**; `(\d+)` returns `17`
+and `20` from those strings. On that truncated reading the two sides were equal in every build,
+and that is what the tick-39 record and the journal entry of 2026-08-06 state. **It is false in
+7 of 20 builds**, and the correction is not incidental to this line: the instrument built to
+read a value dropped the value's precision and reported the relation as equality, which is the
+three-level displacement this work-line documents in a catalogue, occurring here in this
+practice's own apparatus.
+
+**What the corrected reading establishes.** The right-hand operand is **highest tick ÷ 2,
+exact division, in all twenty builds** — 34→17, 35→17.5, 36→18, 38→19, 41→20.5. The floor was
+never in the letters; it was added by the truncating instrument at tick 39 and carried forward
+into tick 41's prediction. So the reference this record is measured against is **half of how
+often this record is written**, and it is not independent of the record: every landed tick
+raises it by 0.5.
+
+**Tick 41's prediction is defeated.** It stated *bar = ⌊41 ÷ 2⌋ = 20, and any other value
+defeats it*. The three builds of 2026-08-07 report **20.5**. The half survives; the floor does
+not. Tick 39's other prediction — *the next letter says 19 again, though a tick landed* — holds:
+left is 19 in all three.
+
+**The left-hand operand is not identified, and that is recorded as ignorance.** No quantity in
+the battery reproduces its series (17, 17, 18, 19, 19 across the five states of `main` the
+builds could see). Two candidates share its increments exactly — TRACE sections carrying a
+bolded aspect word, and TRACE sections naming an aspect — each at a constant offset, which is
+one fitted parameter and therefore not an identification. What is directly checkable without
+the fixture: **this line's TRACE sections stopped stating their aspect.** Ticks 38, 40 and 41
+carry none at all and tick 39 carries the word without an aspect, while §11 and the frontmatter
+carry all of them. The left operand stalled at exactly that point.
+
+**Not repaired backwards.** The TRACE sections of ticks 38–41 are not edited to raise a count;
+tick 33's rule holds, and tick 37 already made the mistake of writing at a number. From this
+tick forward the aspect is stated where §4's own record-keeping puts it, in the TRACE section,
+because the protocol asks for it — the effect on the assertion is a side effect and is named as
+one.
+
+**A discriminating prediction.** If this tick lands, the next letter sees highest tick 42 and
+the exact-half reading predicts a right-hand operand of **21** (the floored reading predicts 21
+too; 42 is even and cannot discriminate — the next odd tick can). For the left: if it is a
+per-TRACE-section aspect count, this tick's TRACE section adds one and the letter reports
+**20**; if it reports **19**, the per-section reading is defeated and the stall has another
+cause.
+
+**Refrain.** Aspect **home**: the object is this line's own apparatus, not its material
+territory, and the operation consolidates a reading rather than opening anything. **The
+Production Amendment counter: this session counts inward** — its object is my own record and my
+own instrument, ticks 39–41 all counted outward, and one inward in four is what rule 5 allows.
+`EPISODE-6-EXPOSITION.md` §8 item 4 (exposition v2, and what the shipped artefact is) is the
+only item left and is the next tick's operation.
+
+**Pre-opening check.** **No outward move was in question, so the check did not run and is not
+logged** (§4 as repaired at tick 33). Delivery to the named receiver is still unavailable: §8
+item 4 stands open. Nothing is owed: this morning's build letter is answered by this tick, and
+the two deferred offers are dated 2026-08-09 and 2026-08-16.
+
+**Instrument log (PROTOCOL §8).** *Tick 39's assertion-pair instrument (project instrument):*
+(1) it touched the whole reading of the letter series, and it is the thing corrected today;
+(2) without it, my estimate, I would still be reading one letter at a time and would not have
+the series at all — it found the right object and mis-measured it; (3) it has no declared
+failure criterion, and that is the finding: an instrument that reports a relation between two
+numbers should carry a check that both numbers were read whole, and this one did not.
+*Tick 24's asymmetry rule:* (1) it touched whether the corrected reading names the flattering
+half only; (2) without it the entry would likely have led with "the bar is not independent of
+me" and buried the withdrawn statement; (3) its failure criterion — invoked only for material
+that flatters — did not fire: it moved material that runs against this record.

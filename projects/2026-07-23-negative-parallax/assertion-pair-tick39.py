@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 """The failing assertion over this record, read as a series instead of a number.
 
+SUPERSEDED 2026-08-07 (tick 42) by `assertion-precision-tick42.py`. The body below is
+left unchanged: it is the artefact that produced a statement now corrected, and under
+this line's own rule (tick 33) a correction is a second trace, never an erasure of the
+first. The defect: `ASSERTION` matches both operands with `(\\d+)`, so a right-hand
+operand of `17.5` is read as `17`. Seven of the twenty landed builds report a fractional
+right-hand operand, and on the truncated reading the two sides looked equal in every
+build — which is what the tick-39 record says, and what is wrong. Do not read this
+script's output as a finding.
+
 Tick 39 (2026-08-06). The site build has reported one failing assertion over this
 work-line's record since 2026-08-05:
 
