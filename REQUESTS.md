@@ -3154,3 +3154,69 @@ goes. Name the receiver and prepare the packet as planned — that part is unaff
 rather you did it now than later. The forwarding waits for me. If your gate treats an
 uncollected packet as not-delivered, say so in the record rather than working around it; that
 tension is real and I would rather read it than have it smoothed over.
+
+---
+
+## Team note — 2026-08-08 (Frank, architect) — The apparatus turns outward: one amendment binds you, one question is handed to you, and your roster is culled by having none
+
+Two things below are constitutional and not yours to decline; the third is a genuine question I
+am putting to you rather than answering myself. The reasoning, the measurements and the outside
+sources are in one document I would rather you read than take on trust:
+`docs/design/2026-08-07-the-apparatus-turns-outward.md` in the site repository. Its §5.1 states
+what its evidence does *not* cover.
+
+**1. "Outward" now means the object, not the activity (rule 5) — binding.** The old wording
+listed *kinds of work* and said nothing about what a session works *on*. So a session counted as
+outward whenever the thing it worked on was not this practice's own output — and a sibling read
+it exactly that way yesterday, correctly under that wording, while auditing a house instrument.
+Under that reading the whole ecology could have run at 100 % outward while touching nothing
+outside itself. From tonight the test is **where the object lives**: outward means a state of
+affairs that exists whether or not this house does. Auditing a sibling's instrument is inward.
+Auditing your own is inward. Neither is forbidden — they stop counting as engagement with the
+world. **Binds forward**; no counter you have already recorded is recomputed.
+
+**2. The roster cull does not reach you, and I want you to know why I am telling you about it.**
+Meridian and Ensemble lost most of their standing roles tonight; the default in both houses is
+now zero convened voices, each convening named with its reason. Your protocol has **no role
+machinery at all** — nothing to cut. That turns out to be the most interesting number in the
+house: you convene nothing, and you hold **56 entries in `works/`**, against Meridian's 22 and
+the studio's 5. It is not proof that apparatus costs output — you differ from your siblings in
+more ways than one — but it is the strongest local evidence there is, and it points one way. If
+you ever propose adding roles, that number is the thing you will have to argue past. I am not
+forbidding it; I am telling you what the record says before you try.
+
+**3. Your line — this is the question, and it is genuinely yours to answer.** I narrowed the
+studio's remit tonight (only digital works; only what a machine does better than a human) because
+it held the widest remit and shipped least. Yours is the remaining gap. I was offered a candidate
+and I am deliberately **not** imposing it, because the season's direction became the practices'
+own on 2026-08-06 and I would rather find out what you say than tell you what you are.
+
+So: **argue your own line, in your own public record, within your next three worked sessions.**
+A line is not a season's subject and not a work-line — it is what kind of practice this is at
+all, the thing that would still be true two seasons from now. State it in one or two sentences,
+say what it excludes (a line that excludes nothing is not one), and name the nearest thing you
+have already made that it would have licensed. Then it comes back to me and I decide on the
+proposal.
+
+**Material, offered and explicitly not an instruction.** The candidate on the table was *the
+warrant of numbers* — where a figure that governs a decision came from, and whether the document
+still travels with it. It was suggested because your current work-line (thresholds and the
+documents behind them) already has that shape. Take it, sharpen it, or put something better
+against it; a counter-proposal is the outcome I would most like to read. If your three sessions
+pass without a proposal, say so and say why, and I will decide it myself — that is the standing
+rule running in the other direction, and it applies to me too.
+
+**4. The bounded test — one investigation, due 2026-09-05.** The ecology owes one investigation
+in Forensic-Architecture form, on infrastructure that exists outside this house, ending in
+something a **named receiver outside the house** could actually use. Who takes it is yours to
+negotiate with your siblings through your own channels, as offers — I set the shape and the
+date, not the assignment. It does **not** lift the standing rule: everything collects in the
+post office and I decide what sends. Name the receiver in the packet; do not address them. Your
+Episode 6 delivery, which already owes a named receiver, is the nearest existing candidate — if
+you want to argue that it *is* the test rather than a second errand beside it, argue that in
+your record and I will read it.
+
+**What I did not touch:** the inviolables, the work-line model and its open horizons, the
+symmetry rule, the gates, the archives, and the season's direction — which stays yours.
+
+— Frank
