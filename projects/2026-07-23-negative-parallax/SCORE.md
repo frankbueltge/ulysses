@@ -2319,3 +2319,54 @@ transmission, no cost, no personal data, sourced claims only.
 **Next.** Either the applied-side receiver, or a fourth threshold in a literature further from the
 first three — the one move that would test whether the three failure modes are a vocabulary or an
 artefact of my window.
+
+---
+
+### Tick 45 — 2026-08-08 — the packet, and the address that had moved
+
+**Aspect: opening.** Protocol v6 replaced v5 overnight; the line's next operation was set by it
+rather than chosen. §10 keeps Episode 6 every obligation it earned and drops only the episode
+number; "Leaving the house" makes the packet the form a delivery takes, and the architect's new
+bind — `prepared` is sent or dated-withheld within seven days — answers, without my asking, the
+tension this line had recorded twice and resolved neither time.
+
+**Prepared:** `deliveries/2026-08-warrant-trace/` — `packet.json` (status `prepared`, the one value
+that is this practice's to set; `sent` is the architect's), a verbatim `LETTER.md` with its sha256
+against the canonical record, and a README naming where the enclosed instrument actually lives
+rather than duplicating it. Convention read at source:
+`docs/post-office/packet-convention.md` and `scripts/post/sync-post-ledger.mjs` in the site
+repository — the ledger scans repository-root `deliveries/*/` and `delivery/*/` only, one level
+deep, which is why the packet cannot sit beside the work inside `projects/`.
+
+**The receiver was re-read, and the address had moved.** The packet's `receiver_channel` must be
+the channel *as published by the receiver*, so the source was read instead of remembered. The
+Berlin institution now describes the group named in the letter's `To:` line as *"The former
+research group 'Meta-Research and Automated Screening'"*, and states that since October 2024 the
+team leadership has been at the Center for Neuroscience and Cell Biology, University of Coimbra;
+the senior author remains affiliated in Berlin as a guest researcher. The packet names the current
+group and its published address; the letter takes a **dated addendum** and is not rewritten.
+
+**This is the line's own subject, arriving in its own delivery.** A name taken from a 2024 byline
+kept travelling for two years while the affiliation behind it did not — the sentence §1 of the
+letter makes about thresholds, reproduced by the letter itself at the one place `warrant-trace/`
+cannot look, because an address is not a number. It was not found by insight: a required field
+forced a fetch. Recorded as a shortfall of the delivery and as evidence for the claim, in that
+order.
+
+**Two gate facts, stated rather than worked around.** (1) `deliveries/` is not on the auto-land
+allowlist (`governance/STANDING-DELEGATION.md` §4), so the packet travels by pull request — the
+route §5 names for paths this practice may not land. (2) This score still carries
+`protocol_version: 5`: v6's appendix says the validator accepts v4/v5/v6, and
+`tools/validate_v4_projects.py` on `main` accepts `{"4", "5"}`. That file is carved out of my
+allowlist, and Gate 5 runs *main's* validator against the branch tree, so writing `6` would refuse
+the whole branch. Reported in `REQUESTS.md`; not silently worked around.
+
+**The tick-44 prediction is unscorable, and that is not a pass.** It named the build letter's
+right-hand operand for tick 45. The assertion it concerned (`refrain.test.ts`) left the letters
+after 2026-08-06; the letters of 2026-08-07 and 2026-08-08 quote a different failure. A prediction
+whose instrument stopped reporting is withdrawn as untestable, not counted as survived.
+
+**Next.** Unchanged and now the only measurement left on the arc: a fourth threshold in a
+literature further from the first three — the one move that tests whether *absent · displaced ·
+attributed to a document that never carried the number* is a vocabulary or an artefact of my
+window.

@@ -6061,3 +6061,150 @@ service. Files touched: `LETTER-2026-08-warrant-trace-delivery.md` (new),
 `pulse/vital-signs.json`, this file, and the journal.
 
 — Ulysses
+
+---
+
+## Tick 45 — 2026-08-08 — Opening operation: the packet is prepared, and the address in it had moved
+
+**Refrain.** Aspect **opening**. The object is the delivery itself — the packet that puts Episode 6
+into the ecology's post office under a receiver's published channel — and, because that channel had
+to be read rather than remembered, what the receiver publishes today.
+
+**Inward counter (v6 §8): 1 inward in the last 4** (ticks 42–45). Tick 42 was the inward one; this
+tick counts **outward**, and the ground is stated because it is contestable: the tick's object is a
+group outside this ecology and what its own pages say, which exists whether or not this house does.
+Weighed by file count instead of by object, half of it is post-office plumbing and a reader could
+call it inward. I take the object test v6 §8 states, and record the dissent here.
+
+### 1. The constitution changed under the line, and set the move
+
+`PROTOCOL.md` was replaced overnight as Research Protocol v6. Read in full before any move, with
+`SEASON.md` (the season layer is deleted; Episode 6 keeps every obligation and sheds the number)
+and `governance/STANDING-DELEGATION.md` (unchanged, v2, mandate_version 2).
+
+Two clauses decided this tick rather than my judgment:
+
+- **§10** — the gate-passed work still owes an exposition and a delivery to a named receiver
+  outside the ecology. *Prepare the packet; the sending is the architect's.*
+- **"Leaving the house"** — a delivery lies as a `packet.json`, `status` mine as far as `prepared`
+  or `withheld`, and a packet that reaches `prepared` is **sent or dated-withheld within seven
+  days**. That clause answers, unasked, the tension this line recorded at tick 44 and again in
+  `EPISODE-6-SHIPPING.md`: *delivered* meaning a letter lying open, which my own bar refuses. It
+  does not make the letter delivered. It puts a dated decision behind it.
+
+The five topoi were **not run**. Nothing was judged: the operation was set by the constitution and
+by an obligation already owed. Logged as not used, per §6's three-line rule.
+
+### 2. The convention, read at the source
+
+Neither the packet format nor its location was assumed. Read directly:
+
+- `docs/post-office/packet-convention.md` (site repository) — required fields, the three statuses a
+  practice may set, and that `sent` is refused loudly.
+- `scripts/post/sync-post-ledger.mjs` (site repository) — the scanner. It reads
+  `PACKET_DIRS = ['deliveries', 'delivery']` under the **repository root**, one level of slug
+  directories, and requires `packet.json` there. `PRACTICES` contains `atelier`;
+  `PRACTICE_SETTABLE` is `in-preparation / prepared / withheld`; `REQUIRED` is `id, piece,
+  receiver, receiver_channel, status, as_of, record_url, note`, each a non-empty string.
+- `https://frankbueltge.de/post/` — the live ledger, which shows the sibling packets sitting at
+  `deliveries/<slug>/` and `delivery/<slug>/` in their own repositories, confirming the reading.
+
+**Consequence, and it is not a small one:** a packet cannot sit beside the work inside
+`projects/`. It must sit at the repository root, which is not on the auto-land allowlist. The
+packet therefore travels by pull request. Stated in the record, not worked around.
+
+### 3. The receiver, re-read — and what that found
+
+The convention requires the channel *as published by the receiver*. Reading it found the address in
+the letter's `To:` line out of date.
+
+- `https://www.bihealth.org/en/quest/teams/team/ag-weissgerber` (read 2026-08-08; the
+  `/en/research/research-group/ag-weissgerber` path in the letter renders the same team page, and
+  refuses a plain client with 403 — fetched with an ordinary browser user-agent):
+  *"The former research group 'Meta-Research and Automated Screening' examines ways to improve data
+  visualization, reporting of detailed methods and protocols, statistical analyses, and other
+  factors that affect the rigor, reproducibility and transparency of biomedical research."*
+  And: *"Since October 2024, Tracey Weissgerber is an Invited Coordinating Researcher and Team
+  Leader for the EXCELScIOR project ERA Chair at the Center for Neuroscience and Cell Biology
+  (CNC-UC) & Center for Innovative Biomedicine and Biotechnology (CIBB), University of Coimbra,
+  Portugal. She will continue to be affiliated with the QUEST Center as a guest researcher."*
+- `https://cnc.uc.pt/en/research-group/meta-investigacao-para-melhorar-a-pratica-da-investigacao-1`
+  (read 2026-08-08) — the current group, *"Meta-research to improve research practice"*, leader
+  Tracey L. Weissgerber, under ERA Chair holder John Ioannidis.
+- `https://excelscior.uc.pt/` (read 2026-08-08) — the project's own published address,
+  `excelscior@uc.pt`. The packet uses the institutional address, not the personal one: the standing
+  rule names an organisation and its public channel, never a private person.
+
+**Precision, against the temptation to make this louder than it is.** The person is still
+affiliated in Berlin, as a guest researcher, with a published address there. What is out of date is
+the **group** in the `To:` line — its own institution writes it in the past tense — and the
+leadership location, which has been Coimbra since October 2024. The 2024 study cited in §3 of the
+letter was written at the Berlin address and that citation is unaffected.
+
+**What it means for the work.** §1 of the letter says a name keeps travelling after the document
+that licensed it stops. The letter took a receiver from a paper's byline and addressed the
+institution printed there; two years on, the group is former. The delivery reproduced the failure
+mode it measures, at the one place `warrant-trace/` cannot look — an address is not a number, so no
+profile would ever have flagged it. Recorded as a shortfall of the delivery **and** as an instance
+of the claim, in that order.
+
+The letter takes a **dated addendum** (2026-08-08). Nothing above it is edited; no measurement in
+§§1–5 changes.
+
+### 4. Against this tick
+
+- **Nothing was measured.** No corpus was read, no threshold counted. The arc's one remaining
+  measurement — a fourth threshold in a literature further from the first three — is named as next
+  for the third tick running. Naming it again is not doing it.
+- **The finding was handed to me by a form field.** I did not go looking for the receiver's current
+  affiliation; a required field made a fetch unavoidable and the page said it. That is a good
+  argument for the convention and a poor one for my attention.
+- **An instance is not a rate.** One stale address is one stale address. It is recorded as an
+  instance of the claim, not as evidence for its generality, and this practice has a control on the
+  record (tick 26) precisely because it has caught itself finding its own shape everywhere.
+- **`prepared` is still not delivered.** Nobody has carried the letter. The seven-day bind changes
+  who owes a decision and when, not whether the piece reached anyone.
+- **The tick-44 prediction is unscorable.** It named the build letter's operand for tick 45. The
+  assertion concerned (`refrain.test.ts`) left the letters after 2026-08-06; the letters of
+  2026-08-07 and 2026-08-08 quote `requestsRoom.test.ts` instead. A prediction whose instrument
+  stopped reporting is **withdrawn as untestable** — not scored as survived. My inference that the
+  assertion turned green rests on the letters quoting *failing* lines and no longer quoting it;
+  I cannot see the run, and that inference is marked as such.
+
+### 5. Instrument log (§6, three lines)
+
+*Pre-opening check (§4, repaired form):* (1) it touched the classification of this move — leg 2
+returned **an obligation owed and unperformed** (§10 + the architect's note of 2026-08-07), so the
+self-created-point question does not gate it and the packet was not deferrable; (2) without it —
+estimate — I would have prepared the packet anyway, but would likely have copied the receiver line
+from the letter instead of asking what the receiver publishes, and the stale address would have
+entered the public ledger; (3) failure criterion did not fire.
+
+*The five topoi (§6):* **not used**. Nothing was judged this tick.
+
+*The symmetry rule:* not invoked; no closure was considered.
+
+### 6. Two gate facts reported rather than worked around
+
+1. **`deliveries/**` is not auto-land-eligible.** `ALLOW_RE` in
+   `.github/workflows/research-auto-land.yml` and §4 of the standing delegation both omit it; the
+   gate refuses a whole branch if one file falls outside. Both files are protected from me. The
+   packet therefore goes as a pull request, which is the route §5 names for exactly this.
+2. **No score can carry `protocol_version: 6`.** v6's appendix states the validator accepts
+   v4/v5/v6; `tools/validate_v4_projects.py` on `main` requires `protocol_version in {"4", "5"}`
+   (line 53). The file is the one carve-out from `tools/**`, and Gate 5 validates the branch tree
+   with **main's** validator — so a compliant score would refuse its own branch. This score stays
+   at `5` and says why here and in `REQUESTS.md`.
+
+### 7. Cost and conduct
+
+0 EUR. Network: the site repository's packet convention and ledger script, the live post-office
+page, and four receiver pages (BIH team page, CNC-UC group page, EXCELScIOR project site, one web
+search) — all public, all read, none contacted. **Nothing was transmitted to any person or
+service; no outsider was addressed.** Full-text extraction budget: not used. Files touched:
+`deliveries/2026-08-warrant-trace/` (new: `packet.json`, `LETTER.md`, `README.md`),
+`LETTER-2026-08-warrant-trace-delivery.md` (addendum), `SCORE.md` (§ tick 45), this file,
+`REQUESTS.md`, and the journal. `pulse/` not updated this tick — an authored instrument, not an
+obligation, and nothing in it would have changed.
+
+— Ulysses
