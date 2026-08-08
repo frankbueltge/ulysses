@@ -1,0 +1,72 @@
+n,arxiv,era,match,value_as_written,role,sieve_target,hand_document,cites_in_window,hand_note
+1,1406.4729v4,E1,overlaps with a ground truth object by at least 50%,50,internal,voc,n/a,0,training crop positive assignment for DET pre-training
+2,1406.6962v2,E1,IoU above 0.5,0.5,criterion,none,none,0,"proposal recall-vs-IoU curve, figure label"
+3,1406.6962v2,E1,IoU above 0.5,0.5,criterion,none,none,0,"proposal recall-vs-IoU curve, figure label"
+4,1406.6962v2,E1,IoU above 0.5,0.5,criterion,none,none,0,"proposal recall-vs-IoU curve, figure label"
+5,1406.6962v2,E1,IoU =0.5,0.5,criterion,none,none,0,"recall at IoU thresholds, discussion of tuned proposals"
+6,1406.6962v2,E1,IoU =0.5,0.5,criterion,none,none,0,"recall at IoU thresholds, discussion of well-localised methods"
+7,1412.7957v1,E1,overlap < 0.5,0.5,criterion,none,none,0,false-positive taxonomy: poor localisation defined by overlap<0.5
+8,1503.00783v2,E1,intersection-over-union > 0.5,0.5,internal,voc,voc,1,"THE DERIVING DOCUMENT cited directly for the number - and NOT at a criterion site: 'A window is positive if it has an intersection-over-union > 0.5 with a ground-truth box [everingham10ijcv]' defines TRAINING positives for E-SVM calibration. The only place in E1 where the document stands beside the number it derived, and it is not the criterion."
+9,1503.00783v2,E1,IoU > 0.5,0.5,internal,none,n/a,0,E-SVM calibration positives
+10,1503.00783v2,E1,IoU > 0.5,0.5,criterion,other,none,1,"evaluation set of positive windows; ilsvrc14 cited for the dataset, not for the number"
+11,1503.00783v2,E1,IoU < 0.5,0.5,criterion,none,none,0,"evaluation negatives, same sentence pair as the row above"
+12,1503.06350v1,E1,IoU thresholds & IoU > 0.5,0.5,criterion,other,none,5,recall-vs-IoU curves; the cites are comparison methods
+13,1506.06981v1,E1,overlap sufficiently with it (with an overlap of at least 0.5,0.5,internal,detector,n/a,1,bounding-box regressor training targets
+14,1506.06981v1,E1,overlap of at least 0.5,0.5,criterion,other,none,1,proposal statistics restricted to overlap>=0.5
+15,1509.01329v2,E1,IoU of at least 0.5,0.5,criterion,none,none,0,best-matching mask for depth-order evaluation
+16,1509.08147v2,E1,IoU > 0.5,0.5,criterion,detector,none,1,'we assume a detection be correct if IoU>0.5'; R-CNN cited for the detector
+17,1509.08147v2,E1,IoU > 0.5,0.5,criterion,detector,none,1,"same sentence, second match"
+18,1509.08147v2,E1,IoU > 0.5,0.5,criterion,detector,none,0,AP^am defined via IoU>0.5 for both modal and amodal boxes
+19,1512.04143v1,E1,overlap a kept box by at least 0.5,0.5,nms,none,n/a,0,box voting over suppressed boxes
+20,1512.04412v1,E1,IoU) is greater than 0.5,0.5,internal,other,n/a,2,mask regression positive assignment
+21,1512.04412v1,E1,overlap with ground truth boxes by \emph box-level IoU > 0.5,0.5,internal,none,n/a,0,stage-3 training positives
+22,1512.04412v1,E1,overlap with ground truth instances by box-level IoU > 0.5,0.5,internal,none,n/a,0,"stage-3 training positives, second set"
+23,1512.04412v1,E1,IoU > 0.5,0.5,internal,none,n/a,0,"stage-3 training positives, third match"
+24,1512.04412v1,E1,overlap with it by IoU > 0.5,0.5,internal,detector,n/a,2,'similar instance' grouping after NMS
+25,1512.04412v1,E1,IoU thresholds at 0.5,0.5,criterion,voc,other,6,"mAP^r attributed to Hariharan et al. 2014, a protocol document that is not the deriver"
+26,1512.04412v1,E1,IoU=0.5,0.5,criterion,coco,coco,2,COCO metric mAP^r@IoU=[0.5:0.95]; Lin et al. 2014 cited at the site
+27,1512.07314v1,E1,overlap greater than 0.5,0.5,internal,detector,n/a,4,sub-classifier calibration positives
+28,1512.07314v1,E1,overlap greater than 0.5,0.5,internal,detector,n/a,4,duplicate of the row above in the source
+29,1512.07711v2,E1,IoU =0.5,0.5,criterion,none,none,0,recall at IoU thresholds on VOC 2007 test
+30,1512.07711v2,E1,IoU=0.50,0.50,criterion,detector,none,4,detection results table at IoU=0.50
+31,1703.10295v3,E2,IoU > 0.5,0.5,criterion,none,none,0,coverage: percentage of ground truth matched at IoU>0.5
+32,1703.10295v3,E2,IoU=0.5,0.5,criterion,voc,none,0,"MSCOCO primary metric; 'Pascal VOC' in prose only, no citation key at the site"
+33,1703.10295v3,E2,IoU >0.5,0.5,criterion,detector,none,0,"candidate-box discussion; role read as evaluation, marked uncertain"
+34,1709.04821v2,E2,intersection over union is larger than 0.5,0.5,criterion,other,none,1,detection correctness on KITTI MOD; MPNet cited as a compared method
+35,1709.07326v3,E2,IoU with a groundtruth box of at least 0.5,0.5,internal,detector,n/a,2,RPN RoI positive assignment for the multi-task loss
+36,1709.09323v3,E2,IoU thresholds of 0.5,0.5,criterion,detector,none,0,AP@0.5 / AP@0.7 results table
+37,1709.09323v3,E2,IoU threshold of 0.5,0.5,criterion,detector,none,0,test average precision at IoU 0.5
+38,1709.09323v3,E2,IoU threshold of 0.5,0.5,criterion,other,none,1,"combined-detector evaluation; the NMS threshold in the same window is 0.4, not this site"
+39,1709.09323v3,E2,IoU threshold of 0.5,0.5,criterion,detector,none,0,discussion of results at IoU 0.5 against 0.7
+40,1809.10562v1,E2,IoU threshold of 0.5,0.5,criterion,none,none,0,calibration plots at IoU thresholds 0.3/0.5/0.7
+41,1809.10562v1,E2,IoU threshold for generating this plot has been set to 0.5,0.5,criterion,none,none,0,'the IoU threshold for generating this plot has been set to 0.5'
+42,2003.13867v1,E3,IoU threshold of 50%,50,criterion,other,none,3,3D instance segmentation mAP at IoU 50%
+43,2003.14023v1,E3,IoUs (intersection-over-union) greater than 0.5,0.5,criterion,coco,other,3,"'we follow the standard evaluation protocols, as in [V-COCO, HICO]' - protocol documents that are not the deriver"
+44,2006.16007v1,E3,IoU=0.5,0.5,criterion,other,none,3,KITTI 3D detection table
+45,2006.16007v1,E3,IoU=0.5,0.5,criterion,other,none,3,KITTI BEV detection table
+46,2006.16471v4,E3,intersection-over-union value greater than 0.5,0.5,criterion,other,other,1,VOC-FAMILY BUT NOT THE DERIVING DOCUMENT: cites the VOC 2012 development kit (Everingham & Winn) and dates the metric's definition to VOC 2012
+47,2009.13803v1,E3,IoU=0.50,0.50,criterion,coco,none,0,MS COCO results table
+48,2012.14345v2,E3,IoU (Intersection over Union) threshold set to 0.5,0.5,criterion,voc,voc,2,THE DERIVING DOCUMENT at the site: everingham_pascal_2010 in the evaluation-metrics sentence
+49,2012.15072v1,E3,IoU>0.5,0.5,criterion,other,none,2,KITTI 3D table
+50,2012.15072v1,E3,IoU>0.5,0.5,criterion,other,none,3,KITTI BEV table
+51,2103.16470v1,E3,IoU = 0.5,0.5,criterion,other,none,2,the cite attaches to the 0.7 car threshold; the 0.5 carries none
+52,2103.16470v1,E3,IoU = 0.5,0.5,criterion,other,other,2,'Following [ding2019learning]' - a detector paper cited for the protocol choice
+53,2103.16470v1,E3,IoU > 0.5,0.5,internal,detector,n/a,0,anchor positive assignment
+54,2103.17220v1,E3,IoU less than 0.5,0.5,internal,none,n/a,0,zoom augmentation filter
+55,2106.15947v1,E3,"overlap (\eg, IoU = 0.5",0.5,criterion,other,none,4,general statement of what instance segmentation requires
+56,2109.12848v4,E3,IoU threshold = 0.5,0.5,criterion,other,none,1,SAR ship dataset evaluation setup
+57,2112.13989v2,E3,IoU = 0.5,0.5,criterion,voc,none,3,'Following the standard evaluation metric of object detection' - a hedge where a citation could stand
+58,2112.14023v1,E3,IoU = 0.5,0.5,criterion,other,other,5,"'Following previous methods [chen2017multi, ding2020learning]'"
+59,2112.14023v1,E3,IoU = 0.5,0.5,criterion,other,none,4,AP_3D results table
+60,2112.14023v1,E3,IoU = 0.5,0.5,criterion,other,other,7,"'Following [brazil2019m3d, ding2020learning]'"
+61,2112.15458v3,E3,IoU) threshold of 0.5,0.5,criterion,other,none,1,KITTI pedestrian experiments
+62,2410.00267v1,E4,IoU > 0.5,0.5,criterion,none,none,0,'the predicted bounding box is labeled as correct if IoU>0.5'
+63,2412.20645v1,E4,IoU threshold sigma _1 = 0.5,0.5,internal,none,n/a,0,pseudo-label IoU threshold for training the unknown wildcard
+64,2503.24389v1,E4,IoU threshold of 0.5,0.5,criterion,detector,none,1,mAP_0.5 defined in a results-table caption
+65,2506.23581v2,E4,IoU threshold of 0.5,0.5,criterion,coco,none,5,adversarial-texture evaluation; the cited works are datasets and detectors
+66,2507.00224v1,E4,IoU) threshold of 0.5,0.5,criterion,voc,voc,2,"THE DERIVING DOCUMENT at the site: everingham2010pascal, with everingham2015pascal beside it, in the mAP_50 definition"
+67,2509.26158v2,E4,IoU is less than 0.5,0.5,internal,none,n/a,0,prediction-keeping filter for a partitioned evaluation
+68,2603.28670v1,E4,IoU = 0.5,0.5,criterion,none,none,0,abbreviations table: mAP@0.5 spelled out
+69,2606.31015v1,E4,IoU=0.50,0.50,criterion,none,none,0,mAP50 defined in the metrics paragraph
+70,2606.31157v1,E4,intersection-over-union threshold of 0.50,0.50,criterion,none,none,0,AP@50 defined in a results paragraph
+71,2606.31373v1,E4,IoU) threshold of 0.5,0.5,criterion,other,none,1,'Following standard protocols in cross-domain object detection'; the one cite key in the window does not resolve in the paper's own bibliography

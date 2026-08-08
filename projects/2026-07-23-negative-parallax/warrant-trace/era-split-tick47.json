@@ -1,0 +1,138 @@
+{
+ "eras": [
+  {
+   "era": "E1",
+   "frame": 59,
+   "readable": 55,
+   "mentioning": 33,
+   "sites": 47,
+   "no_source": 4,
+   "papers_with_site": 13,
+   "ap50_occurrences": 0,
+   "states_threshold": 12,
+   "carries_name": 1,
+   "roles": {
+    "internal": 11,
+    "criterion": 18,
+    "nms": 1
+   },
+   "handread_sites": 30,
+   "criterion_sites": 18,
+   "documents": {
+    "none": 16,
+    "other": 1,
+    "coco": 1
+   },
+   "voc_any_role": 1,
+   "crit_papers_citing_deriver_anywhere": 7,
+   "no_source_share": 0.0678,
+   "over_d3": false,
+   "criterion_papers": 9,
+   "voc_papers": 0,
+   "voc_share": 0.0,
+   "coco_share": 0.0556,
+   "none_share": 0.8889,
+   "collision_share": 0.4
+  },
+  {
+   "era": "E2",
+   "frame": 64,
+   "readable": 57,
+   "mentioning": 30,
+   "sites": 30,
+   "papers_with_site": 10,
+   "no_source": 7,
+   "ap50_occurrences": 2,
+   "states_threshold": 5,
+   "carries_name": 2,
+   "name_only": 1,
+   "roles": {
+    "criterion": 10,
+    "internal": 1
+   },
+   "handread_sites": 11,
+   "criterion_sites": 10,
+   "documents": {
+    "none": 10
+   },
+   "crit_papers_citing_deriver_anywhere": 1,
+   "no_source_share": 0.1094,
+   "over_d3": false,
+   "criterion_papers": 4,
+   "voc_papers": 0,
+   "voc_share": 0.0,
+   "coco_share": 0.0,
+   "none_share": 1.0,
+   "collision_share": 0.0909
+  },
+  {
+   "era": "E3",
+   "frame": 64,
+   "readable": 60,
+   "mentioning": 47,
+   "sites": 70,
+   "no_source": 4,
+   "papers_with_site": 21,
+   "ap50_occurrences": 64,
+   "carries_name": 16,
+   "name_only": 9,
+   "states_threshold": 14,
+   "roles": {
+    "criterion": 18,
+    "internal": 2
+   },
+   "handread_sites": 20,
+   "criterion_sites": 18,
+   "documents": {
+    "none": 12,
+    "other": 5,
+    "voc": 1
+   },
+   "voc_any_role": 1,
+   "crit_papers_citing_deriver_anywhere": 3,
+   "no_source_share": 0.0625,
+   "over_d3": false,
+   "criterion_papers": 13,
+   "voc_papers": 1,
+   "voc_share": 0.0556,
+   "coco_share": 0.0,
+   "none_share": 0.6667,
+   "collision_share": 0.1
+  },
+  {
+   "era": "E4",
+   "frame": 64,
+   "readable": 60,
+   "mentioning": 50,
+   "sites": 15,
+   "papers_with_site": 12,
+   "no_source": 4,
+   "states_threshold": 10,
+   "ap50_occurrences": 120,
+   "carries_name": 14,
+   "name_only": 9,
+   "roles": {
+    "criterion": 8,
+    "internal": 2
+   },
+   "handread_sites": 10,
+   "criterion_sites": 8,
+   "documents": {
+    "none": 7,
+    "voc": 1
+   },
+   "voc_any_role": 1,
+   "crit_papers_citing_deriver_anywhere": 2,
+   "no_source_share": 0.0625,
+   "over_d3": false,
+   "criterion_papers": 8,
+   "voc_papers": 1,
+   "voc_share": 0.125,
+   "coco_share": 0.0,
+   "none_share": 0.875,
+   "collision_share": 0.2
+  }
+ ],
+ "d3_bar": 0.15,
+ "unknown_rows": []
+}

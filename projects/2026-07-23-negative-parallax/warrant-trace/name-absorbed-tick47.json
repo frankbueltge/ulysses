@@ -1,0 +1,42 @@
+{
+ "frame": 251,
+ "papers": 232,
+ "papers_no_source": 19,
+ "comments_stripped": false,
+ "occurrences": {
+  "ap50": 186,
+  "ap_at_half": 47,
+  "ap_band": 75,
+  "ap75": 59
+ },
+ "papers_with_form": {
+  "ap50": 19,
+  "ap_at_half": 15,
+  "ap_band": 7,
+  "ap75": 9
+ },
+ "papers_naming_the_0_5_threshold": 33,
+ "papers_stating_the_0_5_threshold": 41,
+ "papers_naming_but_never_stating": 19,
+ "naming_but_never_stating_ids": [
+  "1807.00119v1",
+  "2003.14142v1",
+  "2009.14558v1",
+  "2012.15439v1",
+  "2012.15159v1",
+  "2106.16118v1",
+  "2109.13913v1",
+  "2109.13488v2",
+  "2109.12862v1",
+  "2112.14000v1",
+  "2409.20122v1",
+  "2503.24219v1",
+  "2506.23785v1",
+  "2509.26281v3",
+  "2509.25164v5",
+  "2509.25026v3",
+  "2512.24622v1",
+  "2512.23273v2",
+  "2512.23208v1"
+ ]
+}

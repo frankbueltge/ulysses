@@ -1,0 +1,3410 @@
+{
+ "built_utc": "2026-08-08T21:42:18Z",
+ "query": "cat:cs.CV AND abs:\"object detection\"",
+ "eras": {
+  "E1": [
+   "2014-01-01",
+   "2015-12-31"
+  ],
+  "E2": [
+   "2017-01-01",
+   "2018-12-31"
+  ],
+  "E3": [
+   "2020-01-01",
+   "2021-12-31"
+  ],
+  "E4": [
+   "2024-07-01",
+   "2026-06-30"
+  ]
+ },
+ "per_quarter": 8,
+ "sampling_rule": "each era split into its 8 calendar quarters; the API's 8 most recent matching papers taken per quarter, sortBy=submittedDate descending. Pre-registered before the build.",
+ "drop_rule": "duplicates by arXiv id without version; the earliest era wins.",
+ "quarter_yields": [
+  {
+   "era": "E1",
+   "quarter": "2014Q1",
+   "returned": 3,
+   "kept": 3,
+   "short": 5
+  },
+  {
+   "era": "E1",
+   "quarter": "2014Q2",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E1",
+   "quarter": "2014Q3",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E1",
+   "quarter": "2014Q4",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E1",
+   "quarter": "2015Q1",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E1",
+   "quarter": "2015Q2",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E1",
+   "quarter": "2015Q3",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E1",
+   "quarter": "2015Q4",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E2",
+   "quarter": "2017Q1",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E2",
+   "quarter": "2017Q2",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E2",
+   "quarter": "2017Q3",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E2",
+   "quarter": "2017Q4",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E2",
+   "quarter": "2018Q1",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E2",
+   "quarter": "2018Q2",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E2",
+   "quarter": "2018Q3",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E2",
+   "quarter": "2018Q4",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E3",
+   "quarter": "2020Q1",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E3",
+   "quarter": "2020Q2",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E3",
+   "quarter": "2020Q3",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E3",
+   "quarter": "2020Q4",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E3",
+   "quarter": "2021Q1",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E3",
+   "quarter": "2021Q2",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E3",
+   "quarter": "2021Q3",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E3",
+   "quarter": "2021Q4",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E4",
+   "quarter": "2024Q3",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E4",
+   "quarter": "2024Q4",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E4",
+   "quarter": "2025Q1",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E4",
+   "quarter": "2025Q2",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E4",
+   "quarter": "2025Q3",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E4",
+   "quarter": "2025Q4",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E4",
+   "quarter": "2026Q1",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  },
+  {
+   "era": "E4",
+   "quarter": "2026Q2",
+   "returned": 8,
+   "kept": 8,
+   "short": 0
+  }
+ ],
+ "short_quarters": [
+  {
+   "era": "E1",
+   "quarter": "2014Q1",
+   "returned": 3,
+   "kept": 3,
+   "short": 5
+  }
+ ],
+ "duplicates": 0,
+ "duplicate_ids": [],
+ "size": 251,
+ "size_per_era": {
+  "E1": 59,
+  "E2": 64,
+  "E3": 64,
+  "E4": 64
+ },
+ "papers": [
+  {
+   "id": "1403.3724v4",
+   "base": "1403.3724",
+   "cats": [
+    "cs.CV",
+    "cs.CE",
+    "q-bio.QM"
+   ],
+   "primary": "cs.CV",
+   "title": "VESICLE: Volumetric Evaluation of Synaptic Interfaces using Computer vision at Large Scale",
+   "published": "2014-03-14T23:16:36Z",
+   "era": "E1",
+   "quarter": "2014Q1"
+  },
+  {
+   "id": "1402.0289v1",
+   "base": "1402.0289",
+   "cats": [
+    "cs.CV",
+    "cs.RO",
+    "eess.SY"
+   ],
+   "primary": "cs.CV",
+   "title": "A Robust Framework for Moving-Object Detection and Vehicular Traffic Density Estimation",
+   "published": "2014-02-03T06:17:57Z",
+   "era": "E1",
+   "quarter": "2014Q1"
+  },
+  {
+   "id": "1401.4612v1",
+   "base": "1401.4612",
+   "cats": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "primary": "cs.RO",
+   "title": "Modelling Observation Correlations for Active Exploration and Robust Object Detection",
+   "published": "2014-01-18T21:37:47Z",
+   "era": "E1",
+   "quarter": "2014Q1"
+  },
+  {
+   "id": "1406.7120v1",
+   "base": "1406.7120",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Template Matching based Object Detection Using HOG Feature Pyramid",
+   "published": "2014-06-27T09:18:44Z",
+   "era": "E1",
+   "quarter": "2014Q2"
+  },
+  {
+   "id": "1406.6962v2",
+   "base": "1406.6962",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "How good are detection proposals, really?",
+   "published": "2014-06-26T18:00:56Z",
+   "era": "E1",
+   "quarter": "2014Q2"
+  },
+  {
+   "id": "1406.6507v1",
+   "base": "1406.6507",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Weakly-supervised Discovery of Visual Pattern Configurations",
+   "published": "2014-06-25T09:35:40Z",
+   "era": "E1",
+   "quarter": "2014Q2"
+  },
+  {
+   "id": "1406.4729v4",
+   "base": "1406.4729",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+   "published": "2014-06-18T14:24:17Z",
+   "era": "E1",
+   "quarter": "2014Q2"
+  },
+  {
+   "id": "1406.3906v1",
+   "base": "1406.3906",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Human-Machine CRFs for Identifying Bottlenecks in Holistic Scene Understanding",
+   "published": "2014-06-16T05:37:17Z",
+   "era": "E1",
+   "quarter": "2014Q2"
+  },
+  {
+   "id": "1406.1134v2",
+   "base": "1406.1134",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Local Decorrelation For Improved Detection",
+   "published": "2014-06-04T18:20:38Z",
+   "era": "E1",
+   "quarter": "2014Q2"
+  },
+  {
+   "id": "1405.5732v2",
+   "base": "1405.5732",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Self-tuned Visual Subclass Learning with Shared Samples An Incremental Approach",
+   "published": "2014-05-22T12:47:15Z",
+   "era": "E1",
+   "quarter": "2014Q2"
+  },
+  {
+   "id": "1405.3531v4",
+   "base": "1405.3531",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Return of the Devil in the Details: Delving Deep into Convolutional Nets",
+   "published": "2014-05-14T15:19:22Z",
+   "era": "E1",
+   "quarter": "2014Q2"
+  },
+  {
+   "id": "1409.7164v1",
+   "base": "1409.7164",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Deep Learning Representation using Autoencoder for 3D Shape Retrieval",
+   "published": "2014-09-25T06:27:28Z",
+   "era": "E1",
+   "quarter": "2014Q3"
+  },
+  {
+   "id": "1409.6911v3",
+   "base": "1409.6911",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Do More Dropouts in Pool5 Feature Maps for Better Object Detection",
+   "published": "2014-09-24T11:50:48Z",
+   "era": "E1",
+   "quarter": "2014Q3"
+  },
+  {
+   "id": "1409.6235v1",
+   "base": "1409.6235",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Detecting People in Cubist Art",
+   "published": "2014-09-22T16:37:57Z",
+   "era": "E1",
+   "quarter": "2014Q3"
+  },
+  {
+   "id": "1409.6155v3",
+   "base": "1409.6155",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "1-HKUST: Object Detection in ILSVRC 2014",
+   "published": "2014-09-22T12:42:08Z",
+   "era": "E1",
+   "quarter": "2014Q3"
+  },
+  {
+   "id": "1409.5209v3",
+   "base": "1409.5209",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Pedestrian Detection with Spatially Pooled Features and Structured Ensemble Learning",
+   "published": "2014-09-18T07:14:33Z",
+   "era": "E1",
+   "quarter": "2014Q3"
+  },
+  {
+   "id": "1409.3505v1",
+   "base": "1409.3505",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "DeepID-Net: multi-stage and deformable deep convolutional neural networks for object detection",
+   "published": "2014-09-11T17:13:26Z",
+   "era": "E1",
+   "quarter": "2014Q3"
+  },
+  {
+   "id": "1409.1484v3",
+   "base": "1409.1484",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "The Evolution of First Person Vision Methods: A Survey",
+   "published": "2014-09-04T16:38:43Z",
+   "era": "E1",
+   "quarter": "2014Q3"
+  },
+  {
+   "id": "1409.1411v1",
+   "base": "1409.1411",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Visual Speech Recognition",
+   "published": "2014-09-03T00:19:42Z",
+   "era": "E1",
+   "quarter": "2014Q3"
+  },
+  {
+   "id": "1412.7957v1",
+   "base": "1412.7957",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Detect2Rank : Combining Object Detectors Using Learning to Rank",
+   "published": "2014-12-26T16:46:52Z",
+   "era": "E1",
+   "quarter": "2014Q4"
+  },
+  {
+   "id": "1412.7854v2",
+   "base": "1412.7854",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Joint Deep Learning for Car Detection",
+   "published": "2014-12-25T18:55:49Z",
+   "era": "E1",
+   "quarter": "2014Q4"
+  },
+  {
+   "id": "1412.7190v4",
+   "base": "1412.7190",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "cs.NE"
+   ],
+   "primary": "cs.CV",
+   "title": "Convolutional Neural Networks for joint object detection and pose estimation: A comparative study",
+   "published": "2014-12-22T22:26:26Z",
+   "era": "E1",
+   "quarter": "2014Q4"
+  },
+  {
+   "id": "1412.7062v4",
+   "base": "1412.7062",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "cs.NE"
+   ],
+   "primary": "cs.CV",
+   "title": "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs",
+   "published": "2014-12-22T17:18:33Z",
+   "era": "E1",
+   "quarter": "2014Q4"
+  },
+  {
+   "id": "1412.6885v1",
+   "base": "1412.6885",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "cs.NE"
+   ],
+   "primary": "cs.CV",
+   "title": "Half-CNN: A General Framework for Whole-Image Regression",
+   "published": "2014-12-22T06:43:58Z",
+   "era": "E1",
+   "quarter": "2014Q4"
+  },
+  {
+   "id": "1412.6124v1",
+   "base": "1412.6124",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Semantic Part Segmentation using Compositional Model combining Shape and Appearance",
+   "published": "2014-12-18T21:27:38Z",
+   "era": "E1",
+   "quarter": "2014Q4"
+  },
+  {
+   "id": "1412.6115v1",
+   "base": "1412.6115",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "cs.NE"
+   ],
+   "primary": "cs.CV",
+   "title": "Compressing Deep Convolutional Networks using Vector Quantization",
+   "published": "2014-12-18T21:09:01Z",
+   "era": "E1",
+   "quarter": "2014Q4"
+  },
+  {
+   "id": "1412.5661v2",
+   "base": "1412.5661",
+   "cats": [
+    "cs.CV",
+    "cs.NE"
+   ],
+   "primary": "cs.CV",
+   "title": "DeepID-Net: Deformable Deep Convolutional Neural Networks for Object Detection",
+   "published": "2014-12-17T22:41:35Z",
+   "era": "E1",
+   "quarter": "2014Q4"
+  },
+  {
+   "id": "1503.06917v1",
+   "base": "1503.06917",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Unsupervised Video Analysis Based on a Spatiotemporal Saliency Detector",
+   "published": "2015-03-24T05:25:45Z",
+   "era": "E1",
+   "quarter": "2015Q1"
+  },
+  {
+   "id": "1503.06648v1",
+   "base": "1503.06648",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Vehicle Local Position Estimation System",
+   "published": "2015-03-23T14:14:10Z",
+   "era": "E1",
+   "quarter": "2015Q1"
+  },
+  {
+   "id": "1503.06350v1",
+   "base": "1503.06350",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Boosting Convolutional Features for Robust Object Proposals",
+   "published": "2015-03-21T20:54:39Z",
+   "era": "E1",
+   "quarter": "2015Q1"
+  },
+  {
+   "id": "1503.05038v1",
+   "base": "1503.05038",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "3D Object Class Detection in the Wild",
+   "published": "2015-03-17T13:34:22Z",
+   "era": "E1",
+   "quarter": "2015Q1"
+  },
+  {
+   "id": "1503.03771v1",
+   "base": "1503.03771",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Learning to Detect Vehicles by Clustering Appearance Patterns",
+   "published": "2015-03-12T15:33:09Z",
+   "era": "E1",
+   "quarter": "2015Q1"
+  },
+  {
+   "id": "1503.02351v1",
+   "base": "1503.02351",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Fully Connected Deep Structured Networks",
+   "published": "2015-03-09T01:08:00Z",
+   "era": "E1",
+   "quarter": "2015Q1"
+  },
+  {
+   "id": "1503.00783v2",
+   "base": "1503.00783",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Joint calibration of Ensemble of Exemplar SVMs",
+   "published": "2015-03-02T23:59:50Z",
+   "era": "E1",
+   "quarter": "2015Q1"
+  },
+  {
+   "id": "1502.07643v3",
+   "base": "1502.07643",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Dynamic Belief Fusion for Object Detection",
+   "published": "2015-02-26T17:31:15Z",
+   "era": "E1",
+   "quarter": "2015Q1"
+  },
+  {
+   "id": "1506.07704v2",
+   "base": "1506.07704",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "AttentionNet: Aggregating Weak Directions for Accurate Object Detection",
+   "published": "2015-06-25T11:21:04Z",
+   "era": "E1",
+   "quarter": "2015Q2"
+  },
+  {
+   "id": "1506.07363v1",
+   "base": "1506.07363",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Salient Object Detection via Objectness Measure",
+   "published": "2015-06-24T13:44:21Z",
+   "era": "E1",
+   "quarter": "2015Q2"
+  },
+  {
+   "id": "1506.07224v1",
+   "base": "1506.07224",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Deep CNN Ensemble with Data Augmentation for Object Detection",
+   "published": "2015-06-24T02:15:17Z",
+   "era": "E1",
+   "quarter": "2015Q2"
+  },
+  {
+   "id": "1506.06981v1",
+   "base": "1506.06981",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "R-CNN minus R",
+   "published": "2015-06-23T13:26:36Z",
+   "era": "E1",
+   "quarter": "2015Q2"
+  },
+  {
+   "id": "1506.06204v2",
+   "base": "1506.06204",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Learning to Segment Object Candidates",
+   "published": "2015-06-20T06:36:49Z",
+   "era": "E1",
+   "quarter": "2015Q2"
+  },
+  {
+   "id": "1506.05920v1",
+   "base": "1506.05920",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "New Descriptor for Glomerulus Detection in Kidney Microscopy Image",
+   "published": "2015-06-19T09:03:48Z",
+   "era": "E1",
+   "quarter": "2015Q2"
+  },
+  {
+   "id": "1506.02640v5",
+   "base": "1506.02640",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "You Only Look Once: Unified, Real-Time Object Detection",
+   "published": "2015-06-08T19:52:52Z",
+   "era": "E1",
+   "quarter": "2015Q2"
+  },
+  {
+   "id": "1506.02432v1",
+   "base": "1506.02432",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Reflection Invariance: an important consideration of image orientation",
+   "published": "2015-06-08T10:44:36Z",
+   "era": "E1",
+   "quarter": "2015Q2"
+  },
+  {
+   "id": "1509.09089v1",
+   "base": "1509.09089",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Moving Object Detection in Video Using Saliency Map and Subspace Learning",
+   "published": "2015-09-30T09:13:20Z",
+   "era": "E1",
+   "quarter": "2015Q3"
+  },
+  {
+   "id": "1509.08970v3",
+   "base": "1509.08970",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Energy-Efficient Object Detection using Semantic Decomposition",
+   "published": "2015-09-29T22:56:33Z",
+   "era": "E1",
+   "quarter": "2015Q3"
+  },
+  {
+   "id": "1509.08147v2",
+   "base": "1509.08147",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Amodal Completion and Size Constancy in Natural Scenes",
+   "published": "2015-09-27T21:39:42Z",
+   "era": "E1",
+   "quarter": "2015Q3"
+  },
+  {
+   "id": "1509.06114v2",
+   "base": "1509.06114",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "Vision System and Depth Processing for DRC-HUBO+",
+   "published": "2015-09-21T06:17:21Z",
+   "era": "E1",
+   "quarter": "2015Q3"
+  },
+  {
+   "id": "1509.04874v3",
+   "base": "1509.04874",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "DenseBox: Unifying Landmark Localization with End to End Object Detection",
+   "published": "2015-09-16T10:30:37Z",
+   "era": "E1",
+   "quarter": "2015Q3"
+  },
+  {
+   "id": "1509.03150v2",
+   "base": "1509.03150",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "STC: A Simple to Complex Framework for Weakly-supervised Semantic Segmentation",
+   "published": "2015-09-10T13:45:01Z",
+   "era": "E1",
+   "quarter": "2015Q3"
+  },
+  {
+   "id": "1509.02094v1",
+   "base": "1509.02094",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Future Localization from an Egocentric Depth Image",
+   "published": "2015-09-07T15:51:11Z",
+   "era": "E1",
+   "quarter": "2015Q3"
+  },
+  {
+   "id": "1509.01329v2",
+   "base": "1509.01329",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Semantic Amodal Segmentation",
+   "published": "2015-09-04T02:20:13Z",
+   "era": "E1",
+   "quarter": "2015Q3"
+  },
+  {
+   "id": "1512.08648v1",
+   "base": "1512.08648",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "A framework for robust object multi-detection with a vote aggregation and a cascade filtering",
+   "published": "2015-12-29T10:54:40Z",
+   "era": "E1",
+   "quarter": "2015Q4"
+  },
+  {
+   "id": "1512.07729v2",
+   "base": "1512.07729",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "G-CNN: an Iterative Grid Based Object Detector",
+   "published": "2015-12-24T07:02:37Z",
+   "era": "E1",
+   "quarter": "2015Q4"
+  },
+  {
+   "id": "1512.07711v2",
+   "base": "1512.07711",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Adaptive Object Detection Using Adjacency and Zoom Prediction",
+   "published": "2015-12-24T04:20:16Z",
+   "era": "E1",
+   "quarter": "2015Q4"
+  },
+  {
+   "id": "1512.07506v2",
+   "base": "1512.07506",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Recovering 6D Object Pose and Predicting Next-Best-View in the Crowd",
+   "published": "2015-12-23T15:06:05Z",
+   "era": "E1",
+   "quarter": "2015Q4"
+  },
+  {
+   "id": "1512.07314v1",
+   "base": "1512.07314",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Mid-level Representation for Visual Recognition",
+   "published": "2015-12-23T00:45:41Z",
+   "era": "E1",
+   "quarter": "2015Q4"
+  },
+  {
+   "id": "1512.06075v1",
+   "base": "1512.06075",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Modeling Colors of Single Attribute Variations with Application to Food Appearance",
+   "published": "2015-12-18T18:55:21Z",
+   "era": "E1",
+   "quarter": "2015Q4"
+  },
+  {
+   "id": "1512.04412v1",
+   "base": "1512.04412",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Instance-aware Semantic Segmentation via Multi-task Network Cascades",
+   "published": "2015-12-14T17:17:23Z",
+   "era": "E1",
+   "quarter": "2015Q4"
+  },
+  {
+   "id": "1512.04143v1",
+   "base": "1512.04143",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Inside-Outside Net: Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks",
+   "published": "2015-12-14T00:37:31Z",
+   "era": "E1",
+   "quarter": "2015Q4"
+  },
+  {
+   "id": "1703.10896v2",
+   "base": "1703.10896",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "BB8: A Scalable, Accurate, Robust to Partial Occlusion Method for Predicting the 3D Poses of Challenging Objects without Using Depth",
+   "published": "2017-03-31T13:56:35Z",
+   "era": "E2",
+   "quarter": "2017Q1"
+  },
+  {
+   "id": "1703.10664v3",
+   "base": "1703.10664",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Tube Convolutional Neural Network (T-CNN) for Action Detection in Videos",
+   "published": "2017-03-30T20:28:31Z",
+   "era": "E2",
+   "quarter": "2017Q1"
+  },
+  {
+   "id": "1703.10295v3",
+   "base": "1703.10295",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "DeNet: Scalable Real-time Object Detection with Directed Sparse Sampling",
+   "published": "2017-03-30T02:50:54Z",
+   "era": "E2",
+   "quarter": "2017Q1"
+  },
+  {
+   "id": "1703.10025v2",
+   "base": "1703.10025",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Flow-Guided Feature Aggregation for Video Object Detection",
+   "published": "2017-03-29T13:21:28Z",
+   "era": "E2",
+   "quarter": "2017Q1"
+  },
+  {
+   "id": "1703.08912v2",
+   "base": "1703.08912",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Exploiting Color Name Space for Salient Object Detection",
+   "published": "2017-03-27T03:08:58Z",
+   "era": "E2",
+   "quarter": "2017Q1"
+  },
+  {
+   "id": "1703.08603v3",
+   "base": "1703.08603",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Adversarial Examples for Semantic Segmentation and Object Detection",
+   "published": "2017-03-24T21:26:16Z",
+   "era": "E2",
+   "quarter": "2017Q1"
+  },
+  {
+   "id": "1703.08289v1",
+   "base": "1703.08289",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Deep Direct Regression for Multi-Oriented Scene Text Detection",
+   "published": "2017-03-24T05:54:11Z",
+   "era": "E2",
+   "quarter": "2017Q1"
+  },
+  {
+   "id": "1703.07815v1",
+   "base": "1703.07815",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Cross-View Image Matching for Geo-localization in Urban Environments",
+   "published": "2017-03-22T18:51:51Z",
+   "era": "E2",
+   "quarter": "2017Q1"
+  },
+  {
+   "id": "1706.10217v1",
+   "base": "1706.10217",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "SMC Faster R-CNN: Toward a scene-specialized multi-object detector",
+   "published": "2017-06-30T14:31:12Z",
+   "era": "E2",
+   "quarter": "2017Q2"
+  },
+  {
+   "id": "1706.09650v1",
+   "base": "1706.09650",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Co-salient Object Detection Based on Deep Saliency Networks and Seed Propagation over an Integrated Graph",
+   "published": "2017-06-29T09:40:48Z",
+   "era": "E2",
+   "quarter": "2017Q2"
+  },
+  {
+   "id": "1706.09180v2",
+   "base": "1706.09180",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Yes-Net: An effective Detector Based on Global Information",
+   "published": "2017-06-28T09:16:18Z",
+   "era": "E2",
+   "quarter": "2017Q2"
+  },
+  {
+   "id": "1706.08574v1",
+   "base": "1706.08574",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Detecting Small Signs from Large Images",
+   "published": "2017-06-26T19:42:33Z",
+   "era": "E2",
+   "quarter": "2017Q2"
+  },
+  {
+   "id": "1706.08249v8",
+   "base": "1706.08249",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Few-Example Object Detection with Model Communication",
+   "published": "2017-06-26T07:00:30Z",
+   "era": "E2",
+   "quarter": "2017Q2"
+  },
+  {
+   "id": "1706.08211v1",
+   "base": "1706.08211",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "End-to-end Learning of Image based Lane-Change Decision",
+   "published": "2017-06-26T02:59:56Z",
+   "era": "E2",
+   "quarter": "2017Q2"
+  },
+  {
+   "id": "1706.06782v2",
+   "base": "1706.06782",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Object Detection Using Deep CNNs Trained on Synthetic Images",
+   "published": "2017-06-21T08:16:29Z",
+   "era": "E2",
+   "quarter": "2017Q2"
+  },
+  {
+   "id": "1706.06768v1",
+   "base": "1706.06768",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Saliency Guided End-to-End Learning for Weakly Supervised Object Detection",
+   "published": "2017-06-21T07:29:21Z",
+   "era": "E2",
+   "quarter": "2017Q2"
+  },
+  {
+   "id": "1709.09323v3",
+   "base": "1709.09323",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Pseudo-labels for Supervised Learning on Dynamic Vision Sensor Data, Applied to Object Detection under Ego-motion",
+   "published": "2017-09-27T03:45:27Z",
+   "era": "E2",
+   "quarter": "2017Q3"
+  },
+  {
+   "id": "1709.08142v3",
+   "base": "1709.08142",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Domain Adaptation from Synthesis to Reality in Single-model Detector for Video Smoke Detection",
+   "published": "2017-09-24T03:33:41Z",
+   "era": "E2",
+   "quarter": "2017Q3"
+  },
+  {
+   "id": "1709.07326v3",
+   "base": "1709.07326",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "AffordanceNet: An End-to-End Deep Learning Approach for Object Affordance Detection",
+   "published": "2017-09-21T13:48:49Z",
+   "era": "E2",
+   "quarter": "2017Q3"
+  },
+  {
+   "id": "1709.07322v1",
+   "base": "1709.07322",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Playing for Benchmarks",
+   "published": "2017-09-21T13:44:47Z",
+   "era": "E2",
+   "quarter": "2017Q3"
+  },
+  {
+   "id": "1709.05943v1",
+   "base": "1709.05943",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.NE"
+   ],
+   "primary": "cs.CV",
+   "title": "Fast YOLO: A Fast You Only Look Once System for Real-time Embedded Object Detection in Video",
+   "published": "2017-09-18T13:57:16Z",
+   "era": "E2",
+   "quarter": "2017Q3"
+  },
+  {
+   "id": "1709.05054v3",
+   "base": "1709.05054",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Feature-Fused SSD: Fast Detection for Small Objects",
+   "published": "2017-09-15T04:21:05Z",
+   "era": "E2",
+   "quarter": "2017Q3"
+  },
+  {
+   "id": "1709.05021v1",
+   "base": "1709.05021",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.HC"
+   ],
+   "primary": "cs.CV",
+   "title": "ClickBAIT: Click-based Accelerated Incremental Training of Convolutional Neural Networks",
+   "published": "2017-09-15T00:58:38Z",
+   "era": "E2",
+   "quarter": "2017Q3"
+  },
+  {
+   "id": "1709.04821v2",
+   "base": "1709.04821",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "MODNet: Moving Object Detection Network with Motion and Appearance for Autonomous Driving",
+   "published": "2017-09-14T14:48:43Z",
+   "era": "E2",
+   "quarter": "2017Q3"
+  },
+  {
+   "id": "1712.09558v2",
+   "base": "1712.09558",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Memory-Efficient Deep Salient Object Segmentation Networks on Gridized Superpixels",
+   "published": "2017-12-27T12:20:13Z",
+   "era": "E2",
+   "quarter": "2017Q4"
+  },
+  {
+   "id": "1712.09093v3",
+   "base": "1712.09093",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Brain Tumor Segmentation Based on Refined Fully Convolutional Neural Networks with A Hierarchical Dice Loss",
+   "published": "2017-12-25T16:06:34Z",
+   "era": "E2",
+   "quarter": "2017Q4"
+  },
+  {
+   "id": "1712.08745v1",
+   "base": "1712.08745",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Scene-Specific Pedestrian Detection Based on Parallel Vision",
+   "published": "2017-12-23T09:33:29Z",
+   "era": "E2",
+   "quarter": "2017Q4"
+  },
+  {
+   "id": "1712.08062v2",
+   "base": "1712.08062",
+   "cats": [
+    "cs.CR",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CR",
+   "title": "Note on Attacking Object Detectors with Adversarial Stickers",
+   "published": "2017-12-21T16:33:01Z",
+   "era": "E2",
+   "quarter": "2017Q4"
+  },
+  {
+   "id": "1712.07322v1",
+   "base": "1712.07322",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Lost in Time: Temporal Analytics for Long-Term Video Surveillance",
+   "published": "2017-12-20T05:07:48Z",
+   "era": "E2",
+   "quarter": "2017Q4"
+  },
+  {
+   "id": "1712.06780v1",
+   "base": "1712.06780",
+   "cats": [
+    "cs.RO",
+    "cs.CG",
+    "cs.CV"
+   ],
+   "primary": "cs.RO",
+   "title": "Tracking objects using 3D object proposals",
+   "published": "2017-12-19T04:52:34Z",
+   "era": "E2",
+   "quarter": "2017Q4"
+  },
+  {
+   "id": "1712.06317v3",
+   "base": "1712.06317",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Video Object Detection with an Aligned Spatial-Temporal Memory",
+   "published": "2017-12-18T10:02:23Z",
+   "era": "E2",
+   "quarter": "2017Q4"
+  },
+  {
+   "id": "1712.05896v1",
+   "base": "1712.05896",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Impression Network for Video Object Detection",
+   "published": "2017-12-16T02:53:30Z",
+   "era": "E2",
+   "quarter": "2017Q4"
+  },
+  {
+   "id": "1803.11395v1",
+   "base": "1803.11395",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "cs.NE",
+    "stat.ML"
+   ],
+   "primary": "cs.CV",
+   "title": "Contrast-Oriented Deep Neural Networks for Salient Object Detection",
+   "published": "2018-03-30T09:51:04Z",
+   "era": "E2",
+   "quarter": "2018Q1"
+  },
+  {
+   "id": "1803.11365v1",
+   "base": "1803.11365",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Cross-Domain Weakly-Supervised Object Detection through Progressive Domain Adaptation",
+   "published": "2018-03-30T06:53:43Z",
+   "era": "E2",
+   "quarter": "2018Q1"
+  },
+  {
+   "id": "1803.11316v1",
+   "base": "1803.11316",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Task-Driven Super Resolution: Object Detection in Low-resolution Images",
+   "published": "2018-03-30T02:15:24Z",
+   "era": "E2",
+   "quarter": "2018Q1"
+  },
+  {
+   "id": "1803.10861v1",
+   "base": "1803.10861",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Memory Warps for Learning Long-Term Online Video Representations",
+   "published": "2018-03-28T21:36:40Z",
+   "era": "E2",
+   "quarter": "2018Q1"
+  },
+  {
+   "id": "1803.10842v1",
+   "base": "1803.10842",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Deep Learning Object Detection Methods for Ecological Camera Trap Data",
+   "published": "2018-03-28T20:30:39Z",
+   "era": "E2",
+   "quarter": "2018Q1"
+  },
+  {
+   "id": "1803.10794v1",
+   "base": "1803.10794",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild",
+   "published": "2018-03-28T18:30:17Z",
+   "era": "E2",
+   "quarter": "2018Q1"
+  },
+  {
+   "id": "1803.10683v3",
+   "base": "1803.10683",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Pose2Seg: Detection Free Human Instance Segmentation",
+   "published": "2018-03-28T15:33:56Z",
+   "era": "E2",
+   "quarter": "2018Q1"
+  },
+  {
+   "id": "1803.10474v2",
+   "base": "1803.10474",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Objects Localisation from Motion with Constraints",
+   "published": "2018-03-28T09:14:33Z",
+   "era": "E2",
+   "quarter": "2018Q1"
+  },
+  {
+   "id": "1807.00202v2",
+   "base": "1807.00202",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Improved Techniques for Learning to Dehaze and Beyond: A Collective Study",
+   "published": "2018-06-30T16:52:33Z",
+   "era": "E2",
+   "quarter": "2018Q2"
+  },
+  {
+   "id": "1807.00147v3",
+   "base": "1807.00147",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Cost-effective Object Detection: Active Sample Mining with Switchable Selection Criteria",
+   "published": "2018-06-30T09:07:33Z",
+   "era": "E2",
+   "quarter": "2018Q2"
+  },
+  {
+   "id": "1807.00119v1",
+   "base": "1807.00119",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Structure Inference Net: Object Detection Using Scene-Level Context and Instance-Level Relationships",
+   "published": "2018-06-30T03:33:55Z",
+   "era": "E2",
+   "quarter": "2018Q2"
+  },
+  {
+   "id": "1806.11368v1",
+   "base": "1806.11368",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Detecting Mammals in UAV Images: Best Practices to address a substantially Imbalanced Dataset with Deep Learning",
+   "published": "2018-06-29T11:59:14Z",
+   "era": "E2",
+   "quarter": "2018Q2"
+  },
+  {
+   "id": "1806.11314v2",
+   "base": "1806.11314",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Hyperspectral Image Dataset for Benchmarking on Salient Object Detection",
+   "published": "2018-06-29T09:31:56Z",
+   "era": "E2",
+   "quarter": "2018Q2"
+  },
+  {
+   "id": "1806.11223v3",
+   "base": "1806.11223",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Active query-driven visual search using probabilistic bisection and convolutional neural networks",
+   "published": "2018-06-28T23:05:40Z",
+   "era": "E2",
+   "quarter": "2018Q2"
+  },
+  {
+   "id": "1806.10787v1",
+   "base": "1806.10787",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "stat.ML"
+   ],
+   "primary": "cs.CV",
+   "title": "How To Extract Fashion Trends From Social Media? A Robust Object Detector With Support For Unsupervised Learning",
+   "published": "2018-06-28T06:23:56Z",
+   "era": "E2",
+   "quarter": "2018Q2"
+  },
+  {
+   "id": "1806.10781v1",
+   "base": "1806.10781",
+   "cats": [
+    "cs.CV",
+    "eess.IV"
+   ],
+   "primary": "cs.CV",
+   "title": "Accurate and efficient video de-fencing using convolutional neural networks and temporal information",
+   "published": "2018-06-28T05:59:56Z",
+   "era": "E2",
+   "quarter": "2018Q2"
+  },
+  {
+   "id": "1810.00434v2",
+   "base": "1810.00434",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "CaTDet: Cascaded Tracked Detector for Efficient Object Detection from Video",
+   "published": "2018-09-30T17:59:42Z",
+   "era": "E2",
+   "quarter": "2018Q3"
+  },
+  {
+   "id": "1810.00345v2",
+   "base": "1810.00345",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Pixel and Feature Level Based Domain Adaption for Object Detection in Autonomous Driving",
+   "published": "2018-09-30T09:26:40Z",
+   "era": "E2",
+   "quarter": "2018Q3"
+  },
+  {
+   "id": "1809.11036v2",
+   "base": "1809.11036",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Real-time Dynamic Object Detection for Autonomous Driving using Prior 3D-Maps",
+   "published": "2018-09-28T14:04:31Z",
+   "era": "E2",
+   "quarter": "2018Q3"
+  },
+  {
+   "id": "1809.10821v1",
+   "base": "1809.10821",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Boundary-guided Feature Aggregation Network for Salient Object Detection",
+   "published": "2018-09-28T01:50:51Z",
+   "era": "E2",
+   "quarter": "2018Q3"
+  },
+  {
+   "id": "1809.10792v1",
+   "base": "1809.10792",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Cursive Scene Text Analysis by Deep Convolutional Linear Pyramids",
+   "published": "2018-09-27T22:51:56Z",
+   "era": "E2",
+   "quarter": "2018Q3"
+  },
+  {
+   "id": "1809.10562v1",
+   "base": "1809.10562",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Dropout Distillation for Efficiently Estimating Model Confidence",
+   "published": "2018-09-27T15:02:56Z",
+   "era": "E2",
+   "quarter": "2018Q3"
+  },
+  {
+   "id": "1809.10548v1",
+   "base": "1809.10548",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "Real-time 3D Pose Estimation with a Monocular Camera Using Deep Learning and Object Priors On an Autonomous Racecar",
+   "published": "2018-09-27T14:45:19Z",
+   "era": "E2",
+   "quarter": "2018Q3"
+  },
+  {
+   "id": "1810.03967v3",
+   "base": "1810.03967",
+   "cats": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "primary": "cs.CV",
+   "title": "Vision-based Navigation of Autonomous Vehicle in Roadway Environments with Unexpected Hazards",
+   "published": "2018-09-27T02:08:21Z",
+   "era": "E2",
+   "quarter": "2018Q3"
+  },
+  {
+   "id": "1812.11901v1",
+   "base": "1812.11901",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Large-Scale Object Detection of Images from Network Cameras in Variable Ambient Lighting Conditions",
+   "published": "2018-12-31T17:06:44Z",
+   "era": "E2",
+   "quarter": "2018Q4"
+  },
+  {
+   "id": "1901.00003v3",
+   "base": "1901.00003",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Learning Spatial Common Sense with Geometry-Aware Recurrent Networks",
+   "published": "2018-12-31T15:37:18Z",
+   "era": "E2",
+   "quarter": "2018Q4"
+  },
+  {
+   "id": "1812.11797v1",
+   "base": "1812.11797",
+   "cats": [
+    "cs.CV",
+    "q-bio.QM",
+    "stat.ML"
+   ],
+   "primary": "cs.CV",
+   "title": "Pixel personality for dense object tracking in a 2D honeybee hive",
+   "published": "2018-12-31T13:46:21Z",
+   "era": "E2",
+   "quarter": "2018Q4"
+  },
+  {
+   "id": "1812.10956v2",
+   "base": "1812.10956",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Salient Object Detection via High-to-Low Hierarchical Context Aggregation",
+   "published": "2018-12-28T11:34:12Z",
+   "era": "E2",
+   "quarter": "2018Q4"
+  },
+  {
+   "id": "1812.10330v1",
+   "base": "1812.10330",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Region Proposal Networks with Contextual Selective Attention for Real-Time Organ Detection",
+   "published": "2018-12-26T14:33:59Z",
+   "era": "E2",
+   "quarter": "2018Q4"
+  },
+  {
+   "id": "1812.10240v1",
+   "base": "1812.10240",
+   "cats": [
+    "cs.LG",
+    "cs.CV",
+    "cs.NE"
+   ],
+   "primary": "cs.LG",
+   "title": "Studying the Plasticity in Deep Convolutional Neural Networks using Random Pruning",
+   "published": "2018-12-26T06:26:06Z",
+   "era": "E2",
+   "quarter": "2018Q4"
+  },
+  {
+   "id": "1812.10066v3",
+   "base": "1812.10066",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Selectivity or Invariance: Boundary-aware Salient Object Detection",
+   "published": "2018-12-25T08:31:47Z",
+   "era": "E2",
+   "quarter": "2018Q4"
+  },
+  {
+   "id": "1812.09025v1",
+   "base": "1812.09025",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Detection of distal radius fractures trained by a small set of X-ray images and Faster R-CNN",
+   "published": "2018-12-21T10:13:14Z",
+   "era": "E2",
+   "quarter": "2018Q4"
+  },
+  {
+   "id": "2004.03333v1",
+   "base": "2004.03333",
+   "cats": [
+    "cs.NE",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.NE",
+   "title": "Binary Neural Networks: A Survey",
+   "published": "2020-03-31T16:47:20Z",
+   "era": "E3",
+   "quarter": "2020Q1"
+  },
+  {
+   "id": "2003.14194v2",
+   "base": "2003.14194",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Attention-based Assisted Excitation for Salient Object Detection",
+   "published": "2020-03-31T13:33:33Z",
+   "era": "E3",
+   "quarter": "2020Q1"
+  },
+  {
+   "id": "2003.14142v1",
+   "base": "2003.14142",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Look-into-Object: Self-supervised Structure Modeling for Object Recognition",
+   "published": "2020-03-31T12:22:51Z",
+   "era": "E3",
+   "quarter": "2020Q1"
+  },
+  {
+   "id": "2003.14023v1",
+   "base": "2003.14023",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Learning Human-Object Interaction Detection using Interaction Points",
+   "published": "2020-03-31T08:42:06Z",
+   "era": "E3",
+   "quarter": "2020Q1"
+  },
+  {
+   "id": "2003.13880v2",
+   "base": "2003.13880",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "cs.NE",
+    "eess.IV"
+   ],
+   "primary": "cs.CV",
+   "title": "MUXConv: Information Multiplexing in Convolutional Neural Networks",
+   "published": "2020-03-31T00:09:47Z",
+   "era": "E3",
+   "quarter": "2020Q1"
+  },
+  {
+   "id": "2003.13870v1",
+   "base": "2003.13870",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "eess.IV"
+   ],
+   "primary": "cs.CV",
+   "title": "RetinaTrack: Online Single Stage Joint Detection and Tracking",
+   "published": "2020-03-30T23:46:29Z",
+   "era": "E3",
+   "quarter": "2020Q1"
+  },
+  {
+   "id": "2003.13867v1",
+   "base": "2003.13867",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "3D-MPA: Multi Proposal Aggregation for 3D Semantic Instance Segmentation",
+   "published": "2020-03-30T23:28:50Z",
+   "era": "E3",
+   "quarter": "2020Q1"
+  },
+  {
+   "id": "2003.13630v3",
+   "base": "2003.13630",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "eess.IV"
+   ],
+   "primary": "cs.CV",
+   "title": "TResNet: High Performance GPU-Dedicated Architecture",
+   "published": "2020-03-30T17:04:47Z",
+   "era": "E3",
+   "quarter": "2020Q1"
+  },
+  {
+   "id": "2007.00114v3",
+   "base": "2007.00114",
+   "cats": [
+    "cs.CV",
+    "cs.DB"
+   ],
+   "primary": "cs.CV",
+   "title": "FathomNet: An underwater image training database for ocean exploration and discovery",
+   "published": "2020-06-30T21:23:06Z",
+   "era": "E3",
+   "quarter": "2020Q2"
+  },
+  {
+   "id": "2006.16956v2",
+   "base": "2006.16956",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "ITSELF: Iterative Saliency Estimation fLexible Framework",
+   "published": "2020-06-30T16:51:31Z",
+   "era": "E3",
+   "quarter": "2020Q2"
+  },
+  {
+   "id": "2006.16867v2",
+   "base": "2006.16867",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Boosting Deep Neural Networks with Geometrical Prior Knowledge: A Survey",
+   "published": "2020-06-30T14:56:05Z",
+   "era": "E3",
+   "quarter": "2020Q2"
+  },
+  {
+   "id": "2006.16836v2",
+   "base": "2006.16836",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Can Your Face Detector Do Anti-spoofing? Face Presentation Attack Detection with a Multi-Channel Face Detector",
+   "published": "2020-06-30T14:22:46Z",
+   "era": "E3",
+   "quarter": "2020Q2"
+  },
+  {
+   "id": "2006.16471v4",
+   "base": "2006.16471",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Object Detection Under Rainy Conditions for Autonomous Vehicles: A Review of State-of-the-Art and Emerging Techniques",
+   "published": "2020-06-30T02:05:10Z",
+   "era": "E3",
+   "quarter": "2020Q2"
+  },
+  {
+   "id": "2006.16007v1",
+   "base": "2006.16007",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "MoNet3D: Towards Accurate Monocular 3D Object Localization in Real Time",
+   "published": "2020-06-29T12:48:57Z",
+   "era": "E3",
+   "quarter": "2020Q2"
+  },
+  {
+   "id": "2006.15789v1",
+   "base": "2006.15789",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "A Benchmark dataset for both underwater image enhancement and underwater object detection",
+   "published": "2020-06-29T03:12:50Z",
+   "era": "E3",
+   "quarter": "2020Q2"
+  },
+  {
+   "id": "2007.00047v1",
+   "base": "2007.00047",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "eess.IV"
+   ],
+   "primary": "cs.CV",
+   "title": "A Survey on Instance Segmentation: State of the art",
+   "published": "2020-06-28T14:39:20Z",
+   "era": "E3",
+   "quarter": "2020Q2"
+  },
+  {
+   "id": "2009.14558v1",
+   "base": "2009.14558",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Learning Object Detection from Captions via Textual Scene Attributes",
+   "published": "2020-09-30T10:59:20Z",
+   "era": "E3",
+   "quarter": "2020Q3"
+  },
+  {
+   "id": "2009.14524v1",
+   "base": "2009.14524",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Monocular Differentiable Rendering for Self-Supervised 3D Object Detection",
+   "published": "2020-09-30T09:21:43Z",
+   "era": "E3",
+   "quarter": "2020Q3"
+  },
+  {
+   "id": "2009.14178v1",
+   "base": "2009.14178",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Robust Detection of Objects under Periodic Motion with Gaussian Process Filtering",
+   "published": "2020-09-29T17:45:21Z",
+   "era": "E3",
+   "quarter": "2020Q3"
+  },
+  {
+   "id": "2009.14119v4",
+   "base": "2009.14119",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Asymmetric Loss For Multi-Label Classification",
+   "published": "2020-09-29T16:08:19Z",
+   "era": "E3",
+   "quarter": "2020Q3"
+  },
+  {
+   "id": "2009.13803v1",
+   "base": "2009.13803",
+   "cats": [
+    "cs.LG",
+    "cs.CV"
+   ],
+   "primary": "cs.LG",
+   "title": "Self-grouping Convolutional Neural Networks",
+   "published": "2020-09-29T06:24:32Z",
+   "era": "E3",
+   "quarter": "2020Q3"
+  },
+  {
+   "id": "2010.11702v1",
+   "base": "2010.11702",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "MLOD: Awareness of Extrinsic Perturbation in Multi-LiDAR 3D Object Detection for Autonomous Driving",
+   "published": "2020-09-29T06:11:22Z",
+   "era": "E3",
+   "quarter": "2020Q3"
+  },
+  {
+   "id": "2009.13723v1",
+   "base": "2009.13723",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "A Flow Base Bi-path Network for Cross-scene Video Crowd Understanding in Aerial View",
+   "published": "2020-09-29T01:48:24Z",
+   "era": "E3",
+   "quarter": "2020Q3"
+  },
+  {
+   "id": "2009.13684v2",
+   "base": "2009.13684",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Detecting soccer balls with reduced neural networks: a comparison of multiple architectures under constrained hardware scenarios",
+   "published": "2020-09-28T23:26:25Z",
+   "era": "E3",
+   "quarter": "2020Q3"
+  },
+  {
+   "id": "2012.15712v2",
+   "base": "2012.15712",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection",
+   "published": "2020-12-31T17:02:46Z",
+   "era": "E3",
+   "quarter": "2020Q4"
+  },
+  {
+   "id": "2012.15460v2",
+   "base": "2012.15460",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "TransTrack: Multiple Object Tracking with Transformer",
+   "published": "2020-12-31T06:03:00Z",
+   "era": "E3",
+   "quarter": "2020Q4"
+  },
+  {
+   "id": "2012.15439v1",
+   "base": "2012.15439",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "SID: Incremental Learning for Anchor-Free Object Detection via Selective and Inter-Related Distillation",
+   "published": "2020-12-31T04:12:06Z",
+   "era": "E3",
+   "quarter": "2020Q4"
+  },
+  {
+   "id": "2012.15432v1",
+   "base": "2012.15432",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "eess.IV"
+   ],
+   "primary": "cs.CV",
+   "title": "SharpGAN: Receptive Field Block Net for Dynamic Scene Deblurring",
+   "published": "2020-12-31T03:57:12Z",
+   "era": "E3",
+   "quarter": "2020Q4"
+  },
+  {
+   "id": "2012.15159v1",
+   "base": "2012.15159",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "MM-FSOD: Meta and metric integrated few-shot object detection",
+   "published": "2020-12-30T14:02:52Z",
+   "era": "E3",
+   "quarter": "2020Q4"
+  },
+  {
+   "id": "2012.15072v1",
+   "base": "2012.15072",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "RTS3D: Real-time Stereo 3D Detection from 4D Feature-Consistency Embedding Space for Autonomous Driving",
+   "published": "2020-12-30T07:56:37Z",
+   "era": "E3",
+   "quarter": "2020Q4"
+  },
+  {
+   "id": "2012.14891v1",
+   "base": "2012.14891",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Detecting Hate Speech in Multi-modal Memes",
+   "published": "2020-12-29T18:30:00Z",
+   "era": "E3",
+   "quarter": "2020Q4"
+  },
+  {
+   "id": "2012.14345v2",
+   "base": "2012.14345",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "From Handheld to Unconstrained Object Detection: a Weakly-supervised On-line Learning Approach",
+   "published": "2020-12-28T16:36:11Z",
+   "era": "E3",
+   "quarter": "2020Q4"
+  },
+  {
+   "id": "2103.17220v1",
+   "base": "2103.17220",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Scale-aware Automatic Augmentation for Object Detection",
+   "published": "2021-03-31T17:11:14Z",
+   "era": "E3",
+   "quarter": "2021Q1"
+  },
+  {
+   "id": "2103.17202v1",
+   "base": "2103.17202",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "GrooMeD-NMS: Grouped Mathematically Differentiable NMS for Monocular 3D Object Detection",
+   "published": "2021-03-31T16:29:50Z",
+   "era": "E3",
+   "quarter": "2021Q1"
+  },
+  {
+   "id": "2103.17084v2",
+   "base": "2103.17084",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "DA-DETR: Domain Adaptive Detection Transformer with Information Fusion",
+   "published": "2021-03-31T13:55:56Z",
+   "era": "E3",
+   "quarter": "2021Q1"
+  },
+  {
+   "id": "2103.16847v3",
+   "base": "2103.16847",
+   "cats": [
+    "eess.IV",
+    "cs.CV"
+   ],
+   "primary": "eess.IV",
+   "title": "A Novel Deep ML Architecture by Integrating Visual Simultaneous Localization and Mapping (vSLAM) into Mask R-CNN for Real-time Surgical Video Analysis",
+   "published": "2021-03-31T06:59:13Z",
+   "era": "E3",
+   "quarter": "2021Q1"
+  },
+  {
+   "id": "2103.16844v1",
+   "base": "2103.16844",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Fixing the Teacher-Student Knowledge Discrepancy in Distillation",
+   "published": "2021-03-31T06:52:20Z",
+   "era": "E3",
+   "quarter": "2021Q1"
+  },
+  {
+   "id": "2103.16651v1",
+   "base": "2103.16651",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "DAP: Detection-Aware Pre-training with Weak Supervision",
+   "published": "2021-03-30T19:48:30Z",
+   "era": "E3",
+   "quarter": "2021Q1"
+  },
+  {
+   "id": "2103.16470v1",
+   "base": "2103.16470",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection",
+   "published": "2021-03-30T16:20:24Z",
+   "era": "E3",
+   "quarter": "2021Q1"
+  },
+  {
+   "id": "2103.16370v1",
+   "base": "2103.16370",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Distribution Alignment: A Unified Framework for Long-tail Visual Recognition",
+   "published": "2021-03-30T14:09:53Z",
+   "era": "E3",
+   "quarter": "2021Q1"
+  },
+  {
+   "id": "2107.00057v1",
+   "base": "2107.00057",
+   "cats": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "primary": "cs.CV",
+   "title": "Simple Training Strategies and Model Scaling for Object Detection",
+   "published": "2021-06-30T18:41:47Z",
+   "era": "E3",
+   "quarter": "2021Q2"
+  },
+  {
+   "id": "2106.16118v1",
+   "base": "2106.16118",
+   "cats": [
+    "cs.RO",
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.RO",
+   "title": "SimNet: Enabling Robust Unknown Object Manipulation from Pure Synthetic Data via Stereo",
+   "published": "2021-06-30T15:18:14Z",
+   "era": "E3",
+   "quarter": "2021Q2"
+  },
+  {
+   "id": "2106.15947v1",
+   "base": "2106.15947",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "SOLO: A Simple Framework for Instance Segmentation",
+   "published": "2021-06-30T09:56:54Z",
+   "era": "E3",
+   "quarter": "2021Q2"
+  },
+  {
+   "id": "2106.15796v2",
+   "base": "2106.15796",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Monocular 3D Object Detection: An Extrinsic Parameter Free Approach",
+   "published": "2021-06-30T03:35:51Z",
+   "era": "E3",
+   "quarter": "2021Q2"
+  },
+  {
+   "id": "2106.15793v1",
+   "base": "2106.15793",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Multi-Source Domain Adaptation for Object Detection",
+   "published": "2021-06-30T03:17:20Z",
+   "era": "E3",
+   "quarter": "2021Q2"
+  },
+  {
+   "id": "2106.15788v4",
+   "base": "2106.15788",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Exploring Localization for Self-supervised Fine-grained Contrastive Learning",
+   "published": "2021-06-30T02:56:26Z",
+   "era": "E3",
+   "quarter": "2021Q2"
+  },
+  {
+   "id": "2106.15753v3",
+   "base": "2106.15753",
+   "cats": [
+    "eess.IV",
+    "cs.CV"
+   ],
+   "primary": "eess.IV",
+   "title": "RCNN-SliceNet: A Slice and Cluster Approach for Nuclei Centroid Detection in Three-Dimensional Fluorescence Microscopy Images",
+   "published": "2021-06-29T23:38:29Z",
+   "era": "E3",
+   "quarter": "2021Q2"
+  },
+  {
+   "id": "2106.15681v1",
+   "base": "2106.15681",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "SIMPL: Generating Synthetic Overhead Imagery to Address Zero-shot and Few-Shot Detection Problems",
+   "published": "2021-06-29T19:06:05Z",
+   "era": "E3",
+   "quarter": "2021Q2"
+  },
+  {
+   "id": "2110.00061v3",
+   "base": "2110.00061",
+   "cats": [
+    "cs.LG",
+    "cs.CV"
+   ],
+   "primary": "cs.LG",
+   "title": "PubTables-1M: Towards comprehensive table extraction from unstructured documents",
+   "published": "2021-09-30T19:42:07Z",
+   "era": "E3",
+   "quarter": "2021Q3"
+  },
+  {
+   "id": "2109.14979v3",
+   "base": "2109.14979",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "eess.IV"
+   ],
+   "primary": "cs.CV",
+   "title": "Moving Object Detection for Event-based vision using Graph Spectral Clustering",
+   "published": "2021-09-30T10:19:22Z",
+   "era": "E3",
+   "quarter": "2021Q3"
+  },
+  {
+   "id": "2109.14737v1",
+   "base": "2109.14737",
+   "cats": [
+    "cs.LG",
+    "cs.AI",
+    "cs.CV"
+   ],
+   "primary": "cs.LG",
+   "title": "Unlocking the potential of deep learning for marine ecology: overview, applications, and outlook",
+   "published": "2021-09-29T21:59:16Z",
+   "era": "E3",
+   "quarter": "2021Q3"
+  },
+  {
+   "id": "2109.13913v1",
+   "base": "2109.13913",
+   "cats": [
+    "cs.CV",
+    "cs.LG",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "$f$-Cal: Calibrated aleatoric uncertainty estimation from neural networks for robot perception",
+   "published": "2021-09-28T17:57:58Z",
+   "era": "E3",
+   "quarter": "2021Q3"
+  },
+  {
+   "id": "2109.13488v2",
+   "base": "2109.13488",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Towards Rotation Invariance in Object Detection",
+   "published": "2021-09-28T04:44:54Z",
+   "era": "E3",
+   "quarter": "2021Q3"
+  },
+  {
+   "id": "2109.13027v1",
+   "base": "2109.13027",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Experience feedback using Representation Learning for Few-Shot Object Detection on Aerial Images",
+   "published": "2021-09-27T13:04:53Z",
+   "era": "E3",
+   "quarter": "2021Q3"
+  },
+  {
+   "id": "2109.12862v1",
+   "base": "2109.12862",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Deep Structured Instance Graph for Distilling Object Detectors",
+   "published": "2021-09-27T08:26:00Z",
+   "era": "E3",
+   "quarter": "2021Q3"
+  },
+  {
+   "id": "2109.12848v4",
+   "base": "2109.12848",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "A General Gaussian Heatmap Label Assignment for Arbitrary-Oriented Object Detection",
+   "published": "2021-09-27T07:46:09Z",
+   "era": "E3",
+   "quarter": "2021Q3"
+  },
+  {
+   "id": "2201.00063v1",
+   "base": "2201.00063",
+   "cats": [
+    "eess.SY",
+    "cs.CV",
+    "cs.DC",
+    "cs.LG"
+   ],
+   "primary": "eess.SY",
+   "title": "Croesus: Multi-Stage Processing and Transactions for Video-Analytics in Edge-Cloud Systems",
+   "published": "2021-12-31T21:38:05Z",
+   "era": "E3",
+   "quarter": "2021Q4"
+  },
+  {
+   "id": "2112.15458v3",
+   "base": "2112.15458",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Accurate and Real-time 3D Pedestrian Detection Using an Efficient Attentive Pillar Network",
+   "published": "2021-12-31T13:41:37Z",
+   "era": "E3",
+   "quarter": "2021Q4"
+  },
+  {
+   "id": "2112.15139v4",
+   "base": "2112.15139",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Finding the Task-Optimal Low-Bit Sub-Distribution in Deep Neural Networks",
+   "published": "2021-12-30T17:28:11Z",
+   "era": "E3",
+   "quarter": "2021Q4"
+  },
+  {
+   "id": "2112.14663v3",
+   "base": "2112.14663",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "MetaGraspNet_v0: A Large-Scale Benchmark Dataset for Vision-driven Robotic Grasping via Physics-based Metaverse Synthesis",
+   "published": "2021-12-29T17:23:24Z",
+   "era": "E3",
+   "quarter": "2021Q4"
+  },
+  {
+   "id": "2112.14023v1",
+   "base": "2112.14023",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "The Devil is in the Task: Exploiting Reciprocal Appearance-Localization Features for Monocular 3D Object Detection",
+   "published": "2021-12-28T07:31:18Z",
+   "era": "E3",
+   "quarter": "2021Q4"
+  },
+  {
+   "id": "2112.14019v2",
+   "base": "2112.14019",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Semi-supervised Salient Object Detection with Effective Confidence Estimation",
+   "published": "2021-12-28T07:14:48Z",
+   "era": "E3",
+   "quarter": "2021Q4"
+  },
+  {
+   "id": "2112.14000v1",
+   "base": "2112.14000",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Pale Transformer: A General Vision Transformer Backbone with Pale-Shaped Attention",
+   "published": "2021-12-28T05:37:24Z",
+   "era": "E3",
+   "quarter": "2021Q4"
+  },
+  {
+   "id": "2112.13989v2",
+   "base": "2112.13989",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Associative Adversarial Learning Based on Selective Attack",
+   "published": "2021-12-28T04:15:06Z",
+   "era": "E3",
+   "quarter": "2021Q4"
+  },
+  {
+   "id": "2410.00267v1",
+   "base": "2410.00267",
+   "cats": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "primary": "cs.CV",
+   "title": "KPCA-CAM: Visual Explainability of Deep Computer Vision Models using Kernel PCA",
+   "published": "2024-09-30T22:36:37Z",
+   "era": "E4",
+   "quarter": "2024Q3"
+  },
+  {
+   "id": "2410.10843v1",
+   "base": "2410.10843",
+   "cats": [
+    "eess.IV",
+    "cs.CV"
+   ],
+   "primary": "eess.IV",
+   "title": "Adaptive Data Transport Mechanism for UAV Surveillance Missions in Lossy Environments",
+   "published": "2024-09-30T18:22:58Z",
+   "era": "E4",
+   "quarter": "2024Q3"
+  },
+  {
+   "id": "2409.20520v2",
+   "base": "2409.20520",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Accelerating Non-Maximum Suppression: A Graph Theory Perspective",
+   "published": "2024-09-30T17:20:49Z",
+   "era": "E4",
+   "quarter": "2024Q3"
+  },
+  {
+   "id": "2409.20508v1",
+   "base": "2409.20508",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "NUTRIVISION: A System for Automatic Diet Management in Smart Healthcare",
+   "published": "2024-09-30T17:10:25Z",
+   "era": "E4",
+   "quarter": "2024Q3"
+  },
+  {
+   "id": "2409.20426v1",
+   "base": "2409.20426",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Navigating Threats: A Survey of Physical Adversarial Attacks on LiDAR Perception Systems in Autonomous Vehicles",
+   "published": "2024-09-30T15:50:36Z",
+   "era": "E4",
+   "quarter": "2024Q3"
+  },
+  {
+   "id": "2409.20122v1",
+   "base": "2409.20122",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Training a Computer Vision Model for Commercial Bakeries with Primarily Synthetic Images",
+   "published": "2024-09-30T09:21:59Z",
+   "era": "E4",
+   "quarter": "2024Q3"
+  },
+  {
+   "id": "2409.19986v2",
+   "base": "2409.19986",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "SuperPose: Improved 6D Pose Estimation with Robust Tracking and Mask-Free Initialization",
+   "published": "2024-09-30T06:26:49Z",
+   "era": "E4",
+   "quarter": "2024Q3"
+  },
+  {
+   "id": "2409.19983v1",
+   "base": "2409.19983",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "TSdetector: Temporal-Spatial Self-correction Collaborative Learning for Colonoscopy Video Detection",
+   "published": "2024-09-30T06:19:29Z",
+   "era": "E4",
+   "quarter": "2024Q3"
+  },
+  {
+   "id": "2501.00625v3",
+   "base": "2501.00625",
+   "cats": [
+    "cs.CV",
+    "cs.GR"
+   ],
+   "primary": "cs.CV",
+   "title": "Gaussian Building Mesh (GBM): Extract a Building's 3D Mesh with Google Earth and Gaussian Splatting",
+   "published": "2024-12-31T19:53:27Z",
+   "era": "E4",
+   "quarter": "2024Q4"
+  },
+  {
+   "id": "2501.00426v1",
+   "base": "2501.00426",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "B2Net: Camouflaged Object Detection via Boundary Aware and Boundary Fusion",
+   "published": "2024-12-31T13:06:06Z",
+   "era": "E4",
+   "quarter": "2024Q4"
+  },
+  {
+   "id": "2412.20911v1",
+   "base": "2412.20911",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "TiGDistill-BEV: Multi-view BEV 3D Object Detection via Target Inner-Geometry Learning Distillation",
+   "published": "2024-12-30T12:44:20Z",
+   "era": "E4",
+   "quarter": "2024Q4"
+  },
+  {
+   "id": "2412.20749v1",
+   "base": "2412.20749",
+   "cats": [
+    "cs.CV",
+    "astro-ph.IM",
+    "astro-ph.SR",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Solar Filaments Detection using Active Contours Without Edges",
+   "published": "2024-12-30T06:43:22Z",
+   "era": "E4",
+   "quarter": "2024Q4"
+  },
+  {
+   "id": "2412.20701v1",
+   "base": "2412.20701",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Open-Set Object Detection By Aligning Known Class Representations",
+   "published": "2024-12-30T04:26:56Z",
+   "era": "E4",
+   "quarter": "2024Q4"
+  },
+  {
+   "id": "2412.20665v2",
+   "base": "2412.20665",
+   "cats": [
+    "cs.CV",
+    "cs.MM"
+   ],
+   "primary": "cs.CV",
+   "title": "SM3Det: A Unified Model for Multi-Modal Remote Sensing Object Detection",
+   "published": "2024-12-30T02:47:51Z",
+   "era": "E4",
+   "quarter": "2024Q4"
+  },
+  {
+   "id": "2412.20645v1",
+   "base": "2412.20645",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "YOLO-UniOW: Efficient Universal Open-World Object Detection",
+   "published": "2024-12-30T01:34:14Z",
+   "era": "E4",
+   "quarter": "2024Q4"
+  },
+  {
+   "id": "2412.20370v1",
+   "base": "2412.20370",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Differential Evolution Integrated Hybrid Deep Learning Model for Object Detection in Pre-made Dishes",
+   "published": "2024-12-29T06:28:07Z",
+   "era": "E4",
+   "quarter": "2024Q4"
+  },
+  {
+   "id": "2504.00149v1",
+   "base": "2504.00149",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Towards Precise Action Spotting: Addressing Temporal Misalignment in Labels with Dynamic Label Assignment",
+   "published": "2025-03-31T18:57:57Z",
+   "era": "E4",
+   "quarter": "2025Q1"
+  },
+  {
+   "id": "2503.24389v1",
+   "base": "2503.24389",
+   "cats": [
+    "cs.CV",
+    "cs.NE"
+   ],
+   "primary": "cs.CV",
+   "title": "SU-YOLO: Spiking Neural Network for Efficient Underwater Object Detection",
+   "published": "2025-03-31T17:59:52Z",
+   "era": "E4",
+   "quarter": "2025Q1"
+  },
+  {
+   "id": "2503.24219v1",
+   "base": "2503.24219",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.CL",
+    "cs.LG",
+    "cs.MM"
+   ],
+   "primary": "cs.CV",
+   "title": "MB-ORES: A Multi-Branch Object Reasoner for Visual Grounding in Remote Sensing",
+   "published": "2025-03-31T15:36:41Z",
+   "era": "E4",
+   "quarter": "2025Q1"
+  },
+  {
+   "id": "2503.23947v2",
+   "base": "2503.23947",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Spectral-Adaptive Modulation Networks for Visual Perception",
+   "published": "2025-03-31T10:53:42Z",
+   "era": "E4",
+   "quarter": "2025Q1"
+  },
+  {
+   "id": "2504.01987v3",
+   "base": "2504.01987",
+   "cats": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "primary": "cs.RO",
+   "title": "CaLiV: LiDAR-to-Vehicle Calibration of Arbitrary Sensor Setups",
+   "published": "2025-03-31T08:08:21Z",
+   "era": "E4",
+   "quarter": "2025Q1"
+  },
+  {
+   "id": "2503.23709v1",
+   "base": "2503.23709",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Expanding-and-Shrinking Binary Neural Networks",
+   "published": "2025-03-31T04:13:33Z",
+   "era": "E4",
+   "quarter": "2025Q1"
+  },
+  {
+   "id": "2503.23508v1",
+   "base": "2503.23508",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Re-Aligning Language to Visual Objects with an Agentic Workflow",
+   "published": "2025-03-30T16:41:12Z",
+   "era": "E4",
+   "quarter": "2025Q1"
+  },
+  {
+   "id": "2503.23330v1",
+   "base": "2503.23330",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "EagleVision: Object-level Attribute Multimodal LLM for Remote Sensing",
+   "published": "2025-03-30T06:13:13Z",
+   "era": "E4",
+   "quarter": "2025Q1"
+  },
+  {
+   "id": "2507.00224v1",
+   "base": "2507.00224",
+   "cats": [
+    "cs.CV",
+    "cs.HC"
+   ],
+   "primary": "cs.CV",
+   "title": "Computer Vision for Objects used in Group Work: Challenges and Opportunities",
+   "published": "2025-06-30T19:51:28Z",
+   "era": "E4",
+   "quarter": "2025Q2"
+  },
+  {
+   "id": "2507.00190v1",
+   "base": "2507.00190",
+   "cats": [
+    "cs.RO",
+    "cs.CV"
+   ],
+   "primary": "cs.RO",
+   "title": "Rethink 3D Object Detection from Physical World",
+   "published": "2025-06-30T18:59:20Z",
+   "era": "E4",
+   "quarter": "2025Q2"
+  },
+  {
+   "id": "2506.24063v1",
+   "base": "2506.24063",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Continual Adaptation: Environment-Conditional Parameter Generation for Object Detection in Dynamic Scenarios",
+   "published": "2025-06-30T17:14:12Z",
+   "era": "E4",
+   "quarter": "2025Q2"
+  },
+  {
+   "id": "2506.23785v1",
+   "base": "2506.23785",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Visual Textualization for Image Prompted Object Detection",
+   "published": "2025-06-30T12:27:35Z",
+   "era": "E4",
+   "quarter": "2025Q2"
+  },
+  {
+   "id": "2506.23581v2",
+   "base": "2506.23581",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "PBCAT: Patch-based composite adversarial training against physically realizable attacks on object detection",
+   "published": "2025-06-30T07:36:21Z",
+   "era": "E4",
+   "quarter": "2025Q2"
+  },
+  {
+   "id": "2506.23575v1",
+   "base": "2506.23575",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Event-based Tiny Object Detection: A Benchmark Dataset and Baseline",
+   "published": "2025-06-30T07:28:50Z",
+   "era": "E4",
+   "quarter": "2025Q2"
+  },
+  {
+   "id": "2506.23565v1",
+   "base": "2506.23565",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "OcRFDet: Object-Centric Radiance Fields for Multi-View 3D Object Detection in Autonomous Driving",
+   "published": "2025-06-30T07:18:17Z",
+   "era": "E4",
+   "quarter": "2025Q2"
+  },
+  {
+   "id": "2506.23519v1",
+   "base": "2506.23519",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "From Sight to Insight: Unleashing Eye-Tracking in Weakly Supervised Video Salient Object Detection",
+   "published": "2025-06-30T05:01:40Z",
+   "era": "E4",
+   "quarter": "2025Q2"
+  },
+  {
+   "id": "2510.00303v1",
+   "base": "2510.00303",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Looking Beyond the Known: Towards a Data Discovery Guided Open-World Object Detection",
+   "published": "2025-09-30T21:48:08Z",
+   "era": "E4",
+   "quarter": "2025Q3"
+  },
+  {
+   "id": "2509.26281v3",
+   "base": "2509.26281",
+   "cats": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "primary": "cs.CV",
+   "title": "Point2RBox-v3: Self-Bootstrapping from Point Annotations via Integrated Pseudo-Label Refinement and Utilization",
+   "published": "2025-09-30T14:01:59Z",
+   "era": "E4",
+   "quarter": "2025Q3"
+  },
+  {
+   "id": "2509.26158v2",
+   "base": "2509.26158",
+   "cats": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "primary": "cs.CV",
+   "title": "Towards Continual Expansion of Data Coverage: Automatic Text-guided Edge-case Synthesis",
+   "published": "2025-09-30T12:11:25Z",
+   "era": "E4",
+   "quarter": "2025Q3"
+  },
+  {
+   "id": "2509.26088v1",
+   "base": "2509.26088",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Predicting Penalty Kick Direction Using Multi-Modal Deep Learning with Pose-Guided Attention",
+   "published": "2025-09-30T11:02:59Z",
+   "era": "E4",
+   "quarter": "2025Q3"
+  },
+  {
+   "id": "2509.26070v2",
+   "base": "2509.26070",
+   "cats": [
+    "cs.CV",
+    "math.DG"
+   ],
+   "primary": "cs.CV",
+   "title": "Geometric Learning of Canonical Parameterizations of $2D$-curves",
+   "published": "2025-09-30T10:45:10Z",
+   "era": "E4",
+   "quarter": "2025Q3"
+  },
+  {
+   "id": "2509.25570v1",
+   "base": "2509.25570",
+   "cats": [
+    "cs.CV",
+    "cs.AI",
+    "eess.IV"
+   ],
+   "primary": "cs.CV",
+   "title": "AttentionViG: Cross-Attention-Based Dynamic Neighbor Aggregation in Vision GNNs",
+   "published": "2025-09-29T22:47:48Z",
+   "era": "E4",
+   "quarter": "2025Q3"
+  },
+  {
+   "id": "2509.25164v5",
+   "base": "2509.25164",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "YOLO26: Key Architectural Enhancements and Performance Benchmarking for Real-Time Object Detection",
+   "published": "2025-09-29T17:58:04Z",
+   "era": "E4",
+   "quarter": "2025Q3"
+  },
+  {
+   "id": "2509.25026v3",
+   "base": "2509.25026",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "GeoVLM-R1: Reinforcement Fine-Tuning for Improved Remote Sensing Reasoning",
+   "published": "2025-09-29T16:48:54Z",
+   "era": "E4",
+   "quarter": "2025Q3"
+  },
+  {
+   "id": "2601.00139v1",
+   "base": "2601.00139",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Compressed Map Priors for 3D Perception",
+   "published": "2025-12-31T23:38:00Z",
+   "era": "E4",
+   "quarter": "2025Q4"
+  },
+  {
+   "id": "2601.00067v1",
+   "base": "2601.00067",
+   "cats": [
+    "cond-mat.mes-hall",
+    "cs.CV",
+    "cs.ET",
+    "cs.LG",
+    "quant-ph"
+   ],
+   "primary": "cond-mat.mes-hall",
+   "title": "Automated electrostatic characterization of quantum dot devices in single- and bilayer heterostructures",
+   "published": "2025-12-31T19:00:04Z",
+   "era": "E4",
+   "quarter": "2025Q4"
+  },
+  {
+   "id": "2512.24622v1",
+   "base": "2512.24622",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "FireRescue: A UAV-Based Dataset and Enhanced YOLO Model for Object Detection in Fire Rescue Scenes",
+   "published": "2025-12-31T04:37:51Z",
+   "era": "E4",
+   "quarter": "2025Q4"
+  },
+  {
+   "id": "2512.24592v3",
+   "base": "2512.24592",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "GH-ESD: Grounded Hypothesis-Driven Error Slice Discovery for Instance-Level Vision Tasks",
+   "published": "2025-12-31T03:28:41Z",
+   "era": "E4",
+   "quarter": "2025Q4"
+  },
+  {
+   "id": "2512.24411v1",
+   "base": "2512.24411",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "AI-Driven Evaluation of Surgical Skill via Action Recognition",
+   "published": "2025-12-30T18:45:34Z",
+   "era": "E4",
+   "quarter": "2025Q4"
+  },
+  {
+   "id": "2512.24385v2",
+   "base": "2512.24385",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems",
+   "published": "2025-12-30T17:58:01Z",
+   "era": "E4",
+   "quarter": "2025Q4"
+  },
+  {
+   "id": "2512.23273v2",
+   "base": "2512.23273",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "YOLO-Master: MOE-Accelerated with Specialized Transformers for Enhanced Real-time Detection",
+   "published": "2025-12-29T07:54:49Z",
+   "era": "E4",
+   "quarter": "2025Q4"
+  },
+  {
+   "id": "2512.23208v1",
+   "base": "2512.23208",
+   "cats": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "primary": "cs.CV",
+   "title": "Exploring Syn-to-Real Domain Adaptation for Military Target Detection",
+   "published": "2025-12-29T05:05:41Z",
+   "era": "E4",
+   "quarter": "2025Q4"
+  },
+  {
+   "id": "2603.30008v2",
+   "base": "2603.30008",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Conditional Polarization Guidance for Camouflaged Object Detection",
+   "published": "2026-03-31T17:03:06Z",
+   "era": "E4",
+   "quarter": "2026Q1"
+  },
+  {
+   "id": "2603.29954v2",
+   "base": "2603.29954",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Detecting Unknown Objects via Energy-based Separation for Open World Object Detection",
+   "published": "2026-03-31T16:20:56Z",
+   "era": "E4",
+   "quarter": "2026Q1"
+  },
+  {
+   "id": "2603.29842v1",
+   "base": "2603.29842",
+   "cats": [
+    "cs.CV",
+    "cs.LG"
+   ],
+   "primary": "cs.CV",
+   "title": "Toward Generalizable Whole Brain Representations with High-Resolution Light-Sheet Data",
+   "published": "2026-03-31T15:00:10Z",
+   "era": "E4",
+   "quarter": "2026Q1"
+  },
+  {
+   "id": "2603.28670v1",
+   "base": "2603.28670",
+   "cats": [
+    "cs.CV",
+    "cs.RO"
+   ],
+   "primary": "cs.CV",
+   "title": "Sim-to-Real Fruit Detection Using Synthetic Data: Quantitative Evaluation and Embedded Deployment with Isaac Sim",
+   "published": "2026-03-30T16:52:29Z",
+   "era": "E4",
+   "quarter": "2026Q1"
+  },
+  {
+   "id": "2603.28584v4",
+   "base": "2603.28584",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "ORSIFlow: Saliency-Guided Rectified Flow for Optical Remote Sensing Salient Object Detection",
+   "published": "2026-03-30T15:33:26Z",
+   "era": "E4",
+   "quarter": "2026Q1"
+  },
+  {
+   "id": "2603.28224v1",
+   "base": "2603.28224",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Ghost-FWL: A Large-Scale Full-Waveform LiDAR Dataset for Ghost Detection and Removal",
+   "published": "2026-03-30T09:46:55Z",
+   "era": "E4",
+   "quarter": "2026Q1"
+  },
+  {
+   "id": "2603.28182v1",
+   "base": "2603.28182",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "A Closer Look at Cross-Domain Few-Shot Object Detection: Fine-Tuning Matters and Parallel Decoder Helps",
+   "published": "2026-03-30T08:46:10Z",
+   "era": "E4",
+   "quarter": "2026Q1"
+  },
+  {
+   "id": "2603.28149v1",
+   "base": "2603.28149",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "BlankSkip: Early-exit Object Detection onboard Nano-drones",
+   "published": "2026-03-30T08:14:46Z",
+   "era": "E4",
+   "quarter": "2026Q1"
+  },
+  {
+   "id": "2607.00129v1",
+   "base": "2607.00129",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "A Synthetic-Driven Vision System for Assembly Step Recognition",
+   "published": "2026-06-30T20:08:47Z",
+   "era": "E4",
+   "quarter": "2026Q2"
+  },
+  {
+   "id": "2606.31834v1",
+   "base": "2606.31834",
+   "cats": [
+    "cs.CV",
+    "cs.AI"
+   ],
+   "primary": "cs.CV",
+   "title": "Real-Time Source-Free Object Detection",
+   "published": "2026-06-30T15:38:56Z",
+   "era": "E4",
+   "quarter": "2026Q2"
+  },
+  {
+   "id": "2606.31496v1",
+   "base": "2606.31496",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "HVPNet: A Bio-Inspired Network for General Salient and Camouflaged Object Detection",
+   "published": "2026-06-30T11:14:11Z",
+   "era": "E4",
+   "quarter": "2026Q2"
+  },
+  {
+   "id": "2606.31373v1",
+   "base": "2606.31373",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Domain Adaptive Object Detection via Dual-Stream Bilevel-Cycle Optimization",
+   "published": "2026-06-30T09:05:30Z",
+   "era": "E4",
+   "quarter": "2026Q2"
+  },
+  {
+   "id": "2606.31157v1",
+   "base": "2606.31157",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Rethinking Foundation Model Collaboration: Enhancing Specialized Models through Proxy Task Reasoning",
+   "published": "2026-06-30T05:35:18Z",
+   "era": "E4",
+   "quarter": "2026Q2"
+  },
+  {
+   "id": "2606.31096v1",
+   "base": "2606.31096",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Horizon3D: Sparse Radar-Camera Fusion for Long-Range 3D Perception in Autonomous Driving",
+   "published": "2026-06-30T03:36:00Z",
+   "era": "E4",
+   "quarter": "2026Q2"
+  },
+  {
+   "id": "2606.31029v1",
+   "base": "2606.31029",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "TerraDiT-$\u03a9$: Unified Spatial Control for Satellite Image Synthesis with Any Geospatial Primitive",
+   "published": "2026-06-30T01:56:41Z",
+   "era": "E4",
+   "quarter": "2026Q2"
+  },
+  {
+   "id": "2606.31015v1",
+   "base": "2606.31015",
+   "cats": [
+    "cs.CV"
+   ],
+   "primary": "cs.CV",
+   "title": "Dual Sparse Aggregation Transformer for Multispectral Object Detection",
+   "published": "2026-06-30T01:05:24Z",
+   "era": "E4",
+   "quarter": "2026Q2"
+  }
+ ]
+}
