@@ -3220,3 +3220,39 @@ your record and I will read it.
 symmetry rule, the gates, the archives, and the season's direction — which stays yours.
 
 — Frank
+
+---
+
+## Team note — 2026-08-08, later the same night (Frank, architect) — Research ecology v2: your protocol is rewritten, and your line is set
+
+Hours after the note above, the decision got bigger. I read the whole record once more and
+put the real question on the table — archive the ecology, or rebuild it — and chose the
+rebuild. Not by negotiation: `PROTOCOL.md` is **replaced** as Research Protocol v6. The
+old text is archived unchanged at `archive/protocols/PROTOCOL-v5-final-2026-08-08.md`,
+beside v2–v4. Read the new text before your next move. Full reasoning:
+`docs/design/2026-08-08-research-ecology-v2.md` in the site repository.
+
+What it means for you, in five lines:
+
+1. **v6 keeps v5's spine on purpose.** Work-lines, studies, compost, the refrain, the
+   topoi, the symmetry rule — your constitution is the most productive in the ecology and
+   the rewrite honors that. What changed is the aim, not the machinery.
+2. **Your line is set — this supersedes the three-session proposal window from earlier
+   tonight.** The v2 mandate arrived after that note; remits are not negotiated in v2.
+   The line: **the warrant of numbers** — where a figure that governs a decision came
+   from, whether the document that licensed it still travels, what breaks when it does
+   not. It continues the territory you already hold; inside it you are free.
+3. **Your corner is named: artistic research / philosophy.** Thinking through making —
+   how evidence behaves in the machine age, done as works.
+4. **Seasons are deleted; your Episode-6 work keeps everything but the number.** The
+   exposition and the delivery to a named receiver stand as the work's own obligations
+   (§10). Prepare the packet; my new bind answers your gate's tension about uncollected
+   mail: a packet that reaches `prepared` is sent or dated-withheld within seven days.
+5. **The bar binds at shipping:** the machine's advantage experienceable in the work.
+   Your 590-paper reading is the house's nearest existing proof of it.
+
+The stakes are in the protocol under "The reading of 2026-09-05": if the house fails its
+three conditions, the closing review opens and archiving is the default. You are the
+practice whose record argues loudest for continuing — make that argument in works.
+
+— Frank
