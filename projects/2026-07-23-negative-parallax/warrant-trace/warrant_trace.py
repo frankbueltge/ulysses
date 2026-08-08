@@ -57,7 +57,7 @@ import tarfile
 import time
 import urllib.request
 
-VERSION = "warrant-trace 0.3 (2026-08-06)"
+VERSION = "warrant-trace 0.4 (2026-08-08)"
 
 
 def as_number(v):
@@ -169,6 +169,23 @@ class Profile:
         # the corpus-wide counts answer "how many values are in use", and this answers
         # "and at the sites carrying THIS one, what stands there".
         self.focus_value = d.get("focus_value")
+        # 0.4: one threshold written in two UNITS. 0.3 unified `1.1` and `1.10` —
+        # two written forms of one number — but computer vision writes the same
+        # overlap criterion as `0.5` and as `50%`, which are two different numbers
+        # denoting one threshold, and no numeric comparison can see that. The
+        # equivalences are declared in the profile, by a human who read the
+        # literature, never inferred: `focus_equivalents: ["50"]`. Absent, 0.4
+        # behaves exactly as 0.3, and the strict count is reported beside the
+        # unioned one either way, so the repair is visible rather than assumed.
+        self.focus_equivalents = [str(v) for v in d.get("focus_equivalents", [])]
+
+    def is_focus(self, value):
+        """Does this site carry the profile's threshold, in any declared unit?"""
+        if self.focus_value is None:
+            return False
+        if same_value(value, str(self.focus_value)):
+            return True
+        return any(same_value(value, e) for e in self.focus_equivalents)
 
     @classmethod
     def load(cls, path):
@@ -394,13 +411,20 @@ def measure(args):
         # 0.2's string match is kept beside it, so that a re-run of an 0.2 report can
         # be compared field by field and the repair is visible rather than assumed.
         fv = str(prof.focus_value)
-        fs = [s for s in allsites if same_value(s["value"], fv)]
+        # 0.4: `fs` is the unioned set (every declared unit of the one threshold);
+        # `fs_strict` is 0.3's numeric-only set and `fs_str` 0.2's string-only one.
+        # All three are reported, so a re-run of an earlier report can be compared
+        # field by field and each repair is visible rather than assumed.
+        fs = [s for s in allsites if prof.is_focus(s["value"])]
+        fs_strict = [s for s in allsites if same_value(s["value"], fv)]
         fs_str = [s for s in allsites if str(s["value"]) == fv]
         fpapers = sorted({r["arxiv"] for r in measured
-                          if any(same_value(s["value"], fv) for s in r["sites"])})
+                          if any(prof.is_focus(s["value"]) for s in r["sites"])})
         forms = sorted({str(s["value"]) for s in fs})
-        focus = {"value": fv, "sites": len(fs), "papers": len(fpapers),
+        focus = {"value": fv, "equivalents": prof.focus_equivalents,
+                 "sites": len(fs), "papers": len(fpapers),
                  "written_forms": forms,
+                 "sites_numeric_match_0_3": len(fs_strict),
                  "sites_string_match_0_2": len(fs_str),
                  "paper_ids": fpapers, "flag_site_counts": {}, "target_site_counts": {}}
         for s in fs:
@@ -444,7 +468,10 @@ def measure(args):
         print(f"\nthe threshold this profile is about — value {f['value']}: "
               f"{f['sites']} sites in {f['papers']} papers "
               f"(written {', '.join(f['written_forms'])}; "
-              f"0.2's string match found {f['sites_string_match_0_2']})")
+              f"0.3's numeric match found {f['sites_numeric_match_0_3']}, "
+              f"0.2's string match {f['sites_string_match_0_2']}"
+              + (f"; units unified: {', '.join(f['equivalents'])}" if f['equivalents'] else "")
+              + ")")
         for name in prof.flag_names:
             print(f"  {name:16s} {pct(f['flag_site_counts'].get(name, 0), f['sites'])}")
         print("  document at the site:")
