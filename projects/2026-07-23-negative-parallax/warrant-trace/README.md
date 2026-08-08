@@ -103,6 +103,28 @@ has one measured instance in each direction, and they are in the record, not in 
   because a repair that does not reach the hand-reading step does not reach the numbers.
 - **Comments are included by default.** `--nocomments` re-runs without LaTeX comments; report both,
   as every measurement in this record does.
+- **Value collision: 18 of 108 hand-read focus sites** (2026-08-08, tick 46; owed to this section
+  since that day and written here at tick 47). A site can carry the focus *number* and a
+  *different threshold*: in computer vision, 7 of those 18 were a non-maximum-suppression
+  threshold, 7 method-internal filters, 4 not this statistic at all. A number is not a criterion,
+  and only hand-reading tells them apart. Rate measured in one literature; assume it exists in
+  yours.
+- **Site detection misses stated thresholds — seven named ways** (2026-08-08, tick 47). A
+  hand-read sample of 36 papers the sieve had recorded as *mentioning the statistic and stating
+  no threshold* found that **8 of 36 do state one** (4 of 12 in the Gaia frame, 0 of 12 in the
+  MCMC frame, 4 of 12 in the CV frame). Each miss is pinned to a verbatim fragment in
+  `faults-tick47.py`, which reproduces all seven against 0.4:
+  **F1** an intervening decimal (`RUWE … is 34.676, far above the limit of > 1.4`) breaks the gap
+  class `[^.;:\n]`; **F2** a subscripted identifier (`ruwe_2<1.4`) is not a term match;
+  **F3** LaTeX `\textless` / `\textgreater` are not normalised to `<` / `>`; **F4** the R-hat
+  term has no left boundary, so the letters `hat R` inside **`that R`** count as a mention;
+  **F5** a value standing before the term (`each at the 0.50 IoU threshold`) is a site only for
+  `<` and `>`; **F6** the CV profile's relation list has no bare `of`, so `IoU of 0.50` — a site
+  that carries a citation — is invisible; **F7** a sweep (`IoU thresholds from 0.50 to 0.95`)
+  states values no relation reaches. F1–F3 and F5–F7 understate sites; **F4 overstates
+  mentions**, which inflates a denominator. Direction matters here: an understated site count
+  makes a warrant look *less* travelled than it is, which flatters this instrument's own
+  finding. Repair and re-measurement: tick 48.
 
 ## The frame
 

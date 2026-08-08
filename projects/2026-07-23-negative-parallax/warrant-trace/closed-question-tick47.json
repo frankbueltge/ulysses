@@ -1,0 +1,51 @@
+{
+ "tick": 47,
+ "quantity": "invokes and states no threshold",
+ "denominator": "papers with state == measured",
+ "literatures": [
+  {
+   "key": "gaia",
+   "label": "Gaia astrometry \u2014 RUWE / UWE, the astrometric quality cut",
+   "table": "measure-ruwe-1.4-tick35.csv",
+   "frame_tick": 35,
+   "manifest": "fetch-manifest-tick35.jsonl",
+   "papers_in_table": 599,
+   "measured": 590,
+   "no_source": 9,
+   "invoking": 320,
+   "candidates": 61,
+   "rate_of_invoking": 19.1,
+   "rate_of_measured": 10.3
+  },
+  {
+   "key": "mcmc",
+   "label": "MCMC convergence \u2014 R-hat / PSRF / Gelman-Rubin",
+   "table": "measure-rhat-1.1-tick36.csv",
+   "frame_tick": 36,
+   "manifest": "fetch-manifest-tick36.jsonl",
+   "papers_in_table": 230,
+   "measured": 222,
+   "no_source": 8,
+   "invoking": 59,
+   "candidates": 28,
+   "rate_of_invoking": 47.5,
+   "rate_of_measured": 12.6
+  },
+  {
+   "key": "cv",
+   "label": "Computer-vision detection \u2014 IoU, the correctness criterion",
+   "table": "measure-iou-0.5-tick46.csv",
+   "frame_tick": 46,
+   "manifest": "fetch-manifest-tick46.jsonl",
+   "papers_in_table": 256,
+   "measured": 240,
+   "no_source": 16,
+   "invoking": 205,
+   "candidates": 118,
+   "rate_of_invoking": 57.6,
+   "rate_of_measured": 49.2
+  }
+ ],
+ "gaia_profiles_share_invoking_set": true,
+ "gaia_invoking_symmetric_difference": 0
+}

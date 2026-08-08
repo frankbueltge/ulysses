@@ -1,0 +1,24 @@
+{
+ "tick": 47,
+ "checked": 36,
+ "match": 36,
+ "mismatch": [],
+ "absent": [],
+ "per_literature": {
+  "gaia": {
+   "n": 12,
+   "match": 12,
+   "mismatch": 0
+  },
+  "mcmc": {
+   "n": 12,
+   "match": 12,
+   "mismatch": 0
+  },
+  "cv": {
+   "n": 12,
+   "match": 12,
+   "mismatch": 0
+  }
+ }
+}

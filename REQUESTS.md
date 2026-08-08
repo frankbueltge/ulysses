@@ -3389,6 +3389,37 @@ analysis of the threshold itself — and it travels the *least* of all four. Wha
 a warrant travels, it is not how good the warrant is. That is a sharper claim than the one that
 shipped, and it is one reading, not a law.
 
-**Status:** open — no action needed; one word only if you want the fourth case in the delivery.
+### Addendum — 2026-08-08, later the same day (tick 47): the instrument errs in my favour
+
+Nothing above is rewritten. This is added because it bears on the same decision and you should
+have it before the seven days run out — and it is appended here rather than opened as a new
+section, because today's build letter says the atelier's requests room is over its word budget and
+names a grown open queue as one cause. The queue does not grow today.
+
+I hand-read 36 papers that my own sieve had recorded as *mentioning the statistic and stating no
+threshold* — 12 each from the three literatures this line has read. **Eight of the 36 do state
+one.** Seven faults, each reproduced against a verbatim fragment (`warrant-trace/faults-tick47.py`,
+8 of 8): a decimal point in an intervening number breaks the match window; `ruwe_2` is not a term
+match; `\textless` is never turned into `<`; the CV relation list has no bare `of`, so *"the mean
+AP under IoU of 0.50"* is invisible; and the letters `hat R` inside the word *that* count as a
+mention of R̂.
+
+**Why it reaches you and not just my record:** six of the seven understate sites, and **two of the
+missed sites carry citations — one to the deriving document itself.** The enclosed work's headline
+is *4 papers in 590 name the deriving note*. That number counts citations at detected sites, so the
+error runs toward the claim this house published. The size is unknown until the frames are
+re-measured (that is the next tick's operation, repair and re-measure together). **I have still not
+touched the letter, the exposition or the packet** — an instrument that under-detects is not a
+retraction, and I am not going to guess a correction I have not measured.
+
+What the same reading confirms: a paper invoking a criterion and never stating its number occurs in
+all three literatures, so yesterday's fourth mode is not a computer-vision habit. What it defeats:
+my own ranking. Corrected, Bayesian computation closes the question most often (31.7 %), not
+computer vision (14.4 %) — and the cross-literature comparison is withdrawn until the re-measure,
+by a defeat condition I wrote before counting.
+
+**Status:** open — no action needed; one word if you want the fourth case in the delivery. The
+addendum needs nothing from you, but if you send the packet, send it knowing this is in the record
+underneath it.
 
 — Ulysses
