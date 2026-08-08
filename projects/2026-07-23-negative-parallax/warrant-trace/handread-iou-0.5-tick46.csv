@@ -1,0 +1,109 @@
+n,arxiv,match,value_as_written,role,sieve_target,hand_document,prose_names_coco,cites_in_window,hand_note
+1,2603.12624v1,IoU threshold of 0.50,0.50,criterion,none,none,0,0,
+2,2603.12759v1,overlap ratio to r=0.5,0.5,not_this_threshold,none,n/a,0,0,"panorama view-overlap ratio r=0.5, not a detection criterion"
+3,2603.16241v1,"IoU, we selected conf=0.5",0.5,not_this_threshold,none,n/a,0,0,"conf=0.5 (confidence), captured because IoU stands 30 chars earlier"
+4,2603.16241v1,"IoU, we selected conf=0.5",0.5,not_this_threshold,other,n/a,0,1,"same sentence as row 3; the citation is to the segmenter, not to a threshold"
+5,2603.19926v1,IoU thresholds of 50%,50,criterion,other,none,0,1,
+6,2603.20074v1,IoU thresholds of 0.50,0.50,criterion,coco,none,1,0,"'standard COCO evaluation protocol' in prose, no citation"
+7,2603.28297v1,mIoU improvements <0.5,0.5,not_this_threshold,none,n/a,0,0,"'mIoU improvements <0.5 points' — a difference in score, not a threshold"
+8,2604.10609v1,IoU threshold of 0.5,0.5,criterion,other,other,0,1,"cite resolves to a cell-tracking benchmark paper, i.e. another benchmark's protocol"
+9,2604.17856v1,IoU threshold of 0.50,0.50,criterion,coco,coco,0,1,
+10,2604.17920v1,IoU _\text match = 0.5,0.5,criterion,detector,none,0,0,
+11,2604.20395v2,IoU > 0.5,0.5,criterion,none,none,0,0,
+12,2604.20395v2,IoU > 0.5,0.5,criterion,other,none,0,1,
+13,2604.20395v2,IoU > 0.5,0.5,criterion,none,none,0,0,
+14,2604.20395v2,IoU > 0.5,0.5,criterion,other,none,0,1,
+15,2604.20395v2,IoU > 0.5,0.5,criterion,other,none,0,1,
+16,2604.20395v2,IoU > 0.5,0.5,criterion,none,none,0,0,
+17,2604.20395v2,IoU > 0.5,0.5,criterion,other,none,0,1,
+18,2604.20395v2,IoU\\ > 0.50,0.50,criterion,other,none,0,1,
+19,2604.21313v1,IoU threshold of 0.5,0.5,criterion,none,none,0,0,
+20,2605.07415v2,IoU > 0.5,0.5,criterion,none,none,0,0,
+21,2605.07415v2,IoU > 0.5,0.5,criterion,none,none,0,0,
+22,2605.07415v2,IoU > 0.5,0.5,criterion,none,none,0,0,
+23,2605.15673v1,IoU = 0.50,0.50,criterion,coco,none,0,0,
+24,2605.26095v2,IoU thresholds of 0.50,0.50,criterion,coco,none,1,0,"'COCO-style AP averaged over 0.50:0.95' in prose, no citation"
+25,2605.26370v1,IoU thresholds of 0.5,0.5,criterion,coco,coco,0,1,
+26,2605.26370v1,IoU > 0.5,0.5,criterion,coco,coco,0,1,
+27,2605.26370v1,IoU > 0.5,0.5,criterion,none,none,0,0,
+28,2605.26370v1,IoU < 0.5,0.5,criterion,none,none,0,0,
+29,2605.26370v1,IoU > 0.5,0.5,criterion,none,none,0,0,
+30,2605.29429v2,IoU > 0.5,0.5,nms,none,none,0,0,non-maximum suppression
+31,2605.31284v1,overlap higher than 0.5,0.5,internal,none,none,0,0,mask de-duplication filter
+32,2606.01549v1,IoU) with a ground-truth instance exceeds 0.5,0.5,criterion,none,none,0,0,
+33,2606.03748v1,IoU < 0.5,0.5,internal,other,none,0,1,pseudo-label acceptance filter
+34,2606.08014v1,IoU) thresholds of 50%,50,criterion,other,none,0,1,
+35,2606.08014v1,IoU) threshold of 0.5,0.5,nms,coco,none,0,1,non-maximum suppression
+36,2606.08206v2,IoU is at least 0.5,0.5,criterion,none,none,0,0,
+37,2606.08206v2,IoU threshold of 0.5,0.5,criterion,none,none,0,0,
+38,2606.10107v1,IoU strictly greater than 0.5,0.5,criterion,voc,voc,0,1,"cite key everingham_pascal_2010; the key is unambiguous but unresolved in this source's bibliography, and it is attached to the adjacent F1/AP sentence rather than to the threshold itself"
+39,2606.10769v1,IoU \(\tau_ \text nms =0.50,0.50,nms,none,none,0,0,non-maximum suppression (tau_nms)
+40,2606.25312v2,IoU threshold of 0.5,0.5,nms,none,none,0,0,non-maximum suppression
+41,2606.25324v1,IoU thresholds of 0.5,0.5,criterion,other,none,0,1,
+42,2606.27491v1,IoU threshold of 0.50,0.50,criterion,other,none,0,1,
+43,2606.27491v1,IoU =0.5,0.5,criterion,other,none,0,1,
+44,2606.30795v1,IoU threshold of 0.5,0.5,criterion,other,none,0,1,
+45,2606.30875v1,IoU <0.5,0.5,internal,none,none,0,0,pseudo-label pruning oracle
+46,2606.30875v1,IoU) >0.5,0.5,criterion,none,none,0,0,
+47,2606.30875v1,IoU >0.5,0.5,criterion,coco,voc,0,1,cite key EvEtAl10 resolves in the source's own bibliography to Everingham et al. 2010 — THE SIEVE MISSED THIS ONE (initialism key)
+48,2606.30875v1,IoU = 0.5,0.5,criterion,coco,coco,0,1,"COCO cited for the averaged band; EvEtAl10 also stands in the window, counted at row 47"
+49,2606.31015v1,IoU=0.50,0.50,criterion,none,none,0,0,
+50,2606.31157v1,intersection-over-union threshold of 0.50,0.50,criterion,none,none,0,0,
+51,2606.31373v1,IoU) threshold of 0.5,0.5,criterion,other,none,0,1,
+52,2607.00338v1,IoU=0.50,0.50,criterion,software,none,0,1,
+53,2607.01759v1,IoU threshold of 0.5,0.5,criterion,coco,none,0,1,
+54,2607.01759v1,IoU > 0.5,0.5,internal,none,none,0,0,proposal grouping
+55,2607.01759v1,IoU <0.5,0.5,internal,none,none,0,0,proposal grouping
+56,2607.01759v1,IoU > 0.5,0.5,internal,coco,none,0,0,proposal-group table header
+57,2607.01759v1,IoU <0.5,0.5,internal,coco,none,0,0,proposal-group table header
+58,2607.01827v1,IoU=0.5,0.5,criterion,none,none,0,0,
+59,2607.01983v1,IoU =0.5,0.5,criterion,other,other,0,1,cite resolves to the dataset's own prior evaluation protocol
+60,2607.02636v1,IoU thresholds of 0.50,0.50,criterion,none,none,0,0,
+61,2607.02636v1,IoU thresholds of 0.50,0.50,criterion,none,none,0,0,
+62,2607.02636v1,IoU threshold of 0.50,0.50,criterion,coco,coco,0,1,
+63,2607.02636v1,IoU threshold \tau = 0.50,0.50,criterion,none,none,0,0,
+64,2607.02636v1,IoU exceeds 0.50,0.50,criterion,coco,none,1,0,"'The COCO evaluation protocol and Ultralytics' in prose, no citation"
+65,2607.03795v1,IoU=0.5,0.5,criterion,none,none,0,0,
+66,2607.03795v1,IoU=0.5,0.5,criterion,none,none,0,0,
+67,2607.03795v1,IoU=0.5,0.5,criterion,none,none,0,0,
+68,2607.03915v2,IoU threshold is 0.50,0.50,criterion,none,none,0,0,
+69,2607.04330v1,IoU) threshold of 0.5,0.5,criterion,none,none,0,0,
+70,2607.04587v1,IoU= 0.5,0.5,criterion,other,none,0,1,
+71,2607.05311v1,"overlap) to 1 (perfect overlap), with a threshold of 0.5",0.5,criterion,none,none,0,0,
+72,2607.05649v1,IoU > 0.50,0.50,criterion,none,none,0,0,
+73,2607.05649v1,IoU > 0.50,0.50,criterion,none,none,0,0,
+74,2607.05978v1,IoU > 0.5,0.5,criterion,none,none,0,0,
+75,2607.05978v1,IoU below 0.5,0.5,criterion,coco,none,0,1,
+76,2607.05978v1,IoU > 0.5,0.5,nms,coco,none,0,0,vote-weighted non-maximum suppression
+77,2607.05978v1,IoU > 0.5,0.5,nms,none,none,0,0,greedy NMS on temporal IoU
+78,2607.07192v1,IoU threshold of 0.5,0.5,criterion,other,none,0,1,
+79,2607.08004v1,IoU threshold of 0.5,0.5,criterion,none,none,0,0,
+80,2607.08191v1,IoU threshold of 0.5,0.5,criterion,none,none,0,0,
+81,2607.12959v1,IoU = 0.5,0.5,criterion,other,none,0,1,
+82,2607.13452v1,IoU thresholds of 0.50,0.50,criterion,coco,coco,0,1,
+83,2607.13891v1,IoU threshold of 0.5,0.5,criterion,none,none,0,0,
+84,2607.14560v1,IoU threshold of 0.5,0.5,criterion,other,none,0,1,
+85,2607.18700v1,IoU threshold of 0.5,0.5,nms,none,none,0,0,greedy NMS
+86,2607.19036v1,IoU) thresholds of 0.5,0.5,criterion,other,none,0,1,
+87,2607.20263v1,IoU=0.5,0.5,criterion,none,none,0,0,
+88,2607.20263v1,IoU=0.5,0.5,criterion,none,none,0,0,
+89,2607.20263v1,IoU=0.5,0.5,criterion,none,none,0,0,
+90,2607.20947v1,IoU =0.5,0.5,criterion,other,none,0,1,
+91,2607.20947v1,IoU=0.5,0.5,criterion,none,none,0,0,
+92,2607.20947v1,IoU=0.5,0.5,criterion,other,none,0,1,
+93,2607.20947v1,IoU=0.5,0.5,criterion,other,none,0,1,
+94,2607.20947v1,IoU=0.5,0.5,criterion,none,none,0,0,
+95,2607.20947v1,IoU=0.5,0.5,criterion,none,none,0,0,
+96,2607.20947v1,IoU=0.5,0.5,criterion,none,none,0,0,
+97,2607.23576v1,IoU=0.50,0.50,criterion,none,none,0,0,
+98,2607.27058v1,IoU threshold of 0.5,0.5,criterion,none,none,0,0,
+99,2608.01302v1,IoU > 0.5,0.5,criterion,detector,none,0,0,
+100,2608.01302v1,IoU > 0.5,0.5,criterion,detector,none,0,0,
+101,2608.02495v1,IoU threshold uniformly set to 0.5,0.5,criterion,none,none,0,0,
+102,2608.02495v1,IoU greater than 0.5,0.5,criterion,none,none,0,0,
+103,2608.03370v1,IoU threshold of 0.5,0.5,criterion,none,none,0,0,
+104,2608.03385v1,IoU threshold of 0.5,0.5,criterion,coco,none,1,0,"'standard COCO-style metrics' in prose, no citation"
+105,2608.04865v1,IoU threshold at 0.5,0.5,criterion,coco,coco,0,1,
+106,2608.04865v1,IoU threshold at 0.5,0.5,criterion,coco,coco,0,1,
+107,2608.05858v1,IoU of at least 0.5,0.5,criterion,none,none,0,0,
+108,2608.05858v1,IoU > 0.5,0.5,criterion,none,none,0,0,

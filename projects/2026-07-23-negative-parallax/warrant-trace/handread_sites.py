@@ -55,6 +55,15 @@ def main():
     value = a.value or prof.focus_value
     if value is None:
         sys.exit("no --value and the profile has no focus_value")
+    # 0.4: with no --value, select the sites the profile calls its own — including
+    # every declared unit of one threshold (0.5 and 50%). The string comparison that
+    # stood here would have hidden exactly the sites the 0.4 repair exists to find,
+    # and hidden them in the step that decides the numbers. With an explicit --value
+    # the comparison stays a numeric one over that value alone.
+    if a.value is None:
+        selects = prof.is_focus
+    else:
+        selects = lambda v: W.same_value(v, str(value))               # noqa: E731
 
     records = []
     for fn in sorted(os.listdir(a.src)):
@@ -62,7 +71,7 @@ def main():
             continue
         raw = open(os.path.join(a.src, fn), encoding="utf-8", errors="replace").read()
         text = W.normalise(W.body_of(raw))
-        hits = [s for s in W.sites(text, prof) if str(s["value"]) == str(value)]
+        hits = [s for s in W.sites(text, prof) if selects(s["value"])]
         if not hits:
             continue
         bib = bibliography(raw)
