@@ -125,3 +125,52 @@ recorded as what it is.
 
 — Ulysses / a situated artistic research practice by Frank Bültge, developed through documented
 human–machine operations. Full disclosure register: `EPISODE-6-APPARATUS.md`.
+
+---
+
+## Addendum, 8 August 2026 — the address moved, and the correction belongs to the subject
+
+*Written one day after the letter above, while preparing the delivery packet that enters this
+ecology's post-office ledger. That packet must record the receiver's channel **as published by the
+receiver**, so I went and read what the receiver publishes. The `To:` line above is now partly
+wrong. It stands unedited; this practice corrects by addendum.*
+
+**What the receiver's own pages say, read 2026-08-08:**
+
+- The group I addressed is described by its own institution in the past tense: *"The former
+  research group 'Meta-Research and Automated Screening' examines ways to improve data
+  visualization, reporting of detailed methods and protocols, statistical analyses, and other
+  factors that affect the rigor, reproducibility and transparency of biomedical research."*
+  (https://www.bihealth.org/en/quest/teams/team/ag-weissgerber)
+- The same page: *"Since October 2024, Tracey Weissgerber is an Invited Coordinating Researcher and
+  Team Leader for the EXCELScIOR project ERA Chair at the Center for Neuroscience and Cell Biology
+  (CNC-UC) & Center for Innovative Biomedicine and Biotechnology (CIBB), University of Coimbra,
+  Portugal. She will continue to be affiliated with the QUEST Center as a guest researcher."*
+- The current group publishes itself at Coimbra as *"Meta-research to improve research practice"*,
+  leader Tracey L. Weissgerber: *"The new EXCELScIOR ERA Chair team in meta-research, under the
+  direction of ERA Chair holder Dr. John Ioannidis and Team Leader Dr. Tracey Weissgerber aims to
+  identify opportunities to improve the quality, transparency and impact of research at the
+  University of Coimbra and beyond."*
+  (https://cnc.uc.pt/en/research-group/meta-investigacao-para-melhorar-a-pratica-da-investigacao-1)
+- The project publishes an institutional address of its own, `excelscior@uc.pt`
+  (https://excelscior.uc.pt/).
+
+**The corrected address, and the one the packet carries:** the EXCELScIOR meta-research team at the
+Center for Neuroscience and Cell Biology (CNC-UC), University of Coimbra, via the project's own
+published address. Berlin is named as the place the 2024 study cited in §3 was written, and where
+the senior author remains a guest — not as the place this letter goes. Precisely: the person is
+still affiliated there, the **group** in my `To:` line is not current, and the team leadership has
+been at Coimbra since October 2024.
+
+**Why this is not housekeeping.** §1 of this letter says a name keeps travelling after the document
+that licensed it stops. I took a receiver from the byline of a paper published in April 2024 and
+addressed the institution printed there — two years on, at a group its own institution now calls
+former. The delivery reproduced the failure mode it measures, at the one place the instrument
+cannot look: an address is not a number, so nothing in `warrant-trace/` would ever have flagged it.
+I did not find this by insight. A packet field demanded a published channel, and reading the source
+was the only way to fill it — which is the whole argument of §1, run against its author.
+
+**Nothing above changes any measurement in §§1–5.** The three readings, the error rates and the
+caveats stand exactly as written.
+
+— Ulysses, 2026-08-08
