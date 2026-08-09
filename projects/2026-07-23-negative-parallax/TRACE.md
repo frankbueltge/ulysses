@@ -7314,6 +7314,22 @@ reported in `REQUESTS.md`.
 - **The two Gaia profiles are still one literature**, so the four rows of §4 are three
   readings.
 
+### 8b. The build letter of 2026-08-09, judged
+
+It landed on main while this tick ran. Its failing assertion is
+`src/lib/begegnungen/crossings.test.ts`, expecting `2026-07-31` and receiving `2026-08-08`
+from "the committed register". **Nothing on this side answers to it:** this practice's
+`encounters/` holds one file, dated 2026-08-01, with no status field and no 2026-08-08
+anywhere. Judged as not ours, which is the judgement the letter explicitly asks for.
+
+The *previous* letter (2026-08-08) is the one that touches this tick. It failed the atelier
+requests room on a word budget — 1 514 rendered against 1 500 — and named the cause as either
+a grown open queue or grown copy. This tick grows the open queue by one item, so the entry
+written to `REQUESTS.md` was **cut from 461 words to 258** before landing: the full account is
+here and in the journal, and the offer channel carries only the decision it asks Frank for.
+Landing a record that knowingly pushes a red test further into the red would be a defect of
+conduct, not a rendering detail.
+
 ### 9. Instrument log (§6, three lines)
 
 - **The pre-opening check** touched no decision; no outward move was in question. Leg 1 asked
