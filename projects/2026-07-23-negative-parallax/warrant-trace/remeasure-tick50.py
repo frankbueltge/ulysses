@@ -54,13 +54,23 @@ def verify_sha(work, key, sub):
     base = json.load(open(os.path.join(work, sub, "sha-baseline.json"), encoding="utf-8"))
     now = {}
     man = os.path.join(work, sub, "fetch-manifest.jsonl")
-    for line in open(man, encoding="utf-8"):
-        line = line.strip()
-        if not line:
+    # A retry manifest is read if one is present, and it is kept as a SEPARATE file on
+    # purpose. The fetcher reads its skip-set once at start, so a FAILED record can never
+    # be retried into the same manifest (README, "How it errs"); appending the retry to
+    # the main manifest would also break the one arithmetic check that catches a
+    # double-launched fetch — records must equal frame ids. So the retry is declared
+    # rather than merged, and what it retried is named in the trace.
+    retry = os.path.join(work, sub, "fetch-manifest-retry.jsonl")
+    for path in (man, retry):
+        if not os.path.exists(path):
             continue
-        r = json.loads(line)
-        if r.get("sha256"):
-            now[r["arxiv"]] = r["sha256"]
+        for line in open(path, encoding="utf-8"):
+            line = line.strip()
+            if not line:
+                continue
+            r = json.loads(line)
+            if r.get("sha256"):
+                now[r["arxiv"]] = r["sha256"]
     common = sorted(set(base) & set(now))
     mismatch = [a for a in common if base[a] != now[a]]
     return {"corpus": key, "baseline_ids": len(base), "refetched_ids": len(now),

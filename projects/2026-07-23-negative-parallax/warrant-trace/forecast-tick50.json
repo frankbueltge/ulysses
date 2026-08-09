@@ -1,0 +1,190 @@
+{
+ "tick": 50,
+ "instrument": "warrant-trace 0.5",
+ "verdicts": {
+  "P1": true,
+  "P2": true,
+  "P3": false,
+  "P4": false,
+  "P5": true,
+  "P6": false
+ },
+ "detail": {
+  "P1": {
+   "ruwe-1.4": {
+    "sites_0_4": 810,
+    "sites_0_5": 855,
+    "rose": true
+   },
+   "uwe-1.25": {
+    "sites_0_4": 849,
+    "sites_0_5": 896,
+    "rose": true
+   },
+   "iou-0.5": {
+    "sites_0_4": 216,
+    "sites_0_5": 328,
+    "rose": true
+   },
+   "rhat-1.1": {
+    "sites_0_4": 86,
+    "sites_0_5": 89,
+    "sites_did_not_fall": true,
+    "mentions_0_4": 59,
+    "mentions_0_5": 50,
+    "mentions_fell": true
+   }
+  },
+  "P2": {
+   "gaia": {
+    "rate_0_4": 19.1,
+    "rate_0_5": 16.6,
+    "fell": true
+   },
+   "mcmc": {
+    "rate_0_4": 47.5,
+    "rate_0_5": 40.0,
+    "fell": true
+   },
+   "cv": {
+    "rate_0_4": 57.6,
+    "rate_0_5": 42.4,
+    "fell": true
+   }
+  },
+  "P3": {
+   "gaia": {
+    "census_rate_0_5": 16.6,
+    "as_written_interval": [
+     3.7,
+     13.0
+    ],
+    "as_written_inside": false,
+    "matched_prediction": 12.7,
+    "matched_gap": 3.9,
+    "note": "matched = raw x (A+C)/n, the quantity 0.5 actually estimates"
+   },
+   "mcmc": {
+    "census_rate_0_5": 40.0,
+    "as_written_interval": [
+     18.6,
+     40.9
+    ],
+    "as_written_inside": true,
+    "matched_prediction": 47.5,
+    "matched_gap": -7.5,
+    "note": "matched = raw x (A+C)/n, the quantity 0.5 actually estimates"
+   },
+   "cv": {
+    "census_rate_0_5": 42.4,
+    "as_written_interval": [
+     5.1,
+     30.6
+    ],
+    "as_written_inside": false,
+    "matched_prediction": 38.4,
+    "matched_gap": 4.0,
+    "note": "matched = raw x (A+C)/n, the quantity 0.5 actually estimates"
+   }
+  },
+  "P4": {
+   "census_ranking_low_to_high": [
+    "gaia",
+    "mcmc",
+    "cv"
+   ],
+   "tick47_corrected_ranking": [
+    "gaia",
+    "cv",
+    "mcmc"
+   ],
+   "tick47_raw_ranking": [
+    "gaia",
+    "mcmc",
+    "cv"
+   ],
+   "rates": {
+    "gaia": 16.6,
+    "mcmc": 40.0,
+    "cv": 42.4
+   }
+  },
+  "P5": {
+   "as_published": {
+    "papers": 187,
+    "sites_at_1_4": 397,
+    "sites_with_note": 4
+   },
+   "shipped_frame_0_4_today": {
+    "sites": 397,
+    "papers": 187,
+    "sites_with_flag": 5
+   },
+   "shipped_frame_0_5": {
+    "sites": 399,
+    "papers": 187,
+    "sites_with_flag": 5
+   },
+   "note_papers_0_4": [
+    "2201.09097",
+    "2302.04348",
+    "2404.14127",
+    "2510.19810"
+   ],
+   "note_papers_0_5": [
+    "2201.09097",
+    "2302.04348",
+    "2404.14127",
+    "2510.19810"
+   ],
+   "full_frame_0_4": {
+    "sites": 397,
+    "papers": 187,
+    "sites_with_flag": 5
+   },
+   "full_frame_0_5": {
+    "sites": 412,
+    "papers": 194,
+    "sites_with_flag": 6
+   },
+   "full_frame_note_papers_0_5": [
+    "2201.09097",
+    "2209.04210",
+    "2302.04348",
+    "2404.14127",
+    "2510.19810"
+   ],
+   "note_site_shift_on_shipped_frame": 0
+  },
+  "P6": {
+   "n": 20,
+   "classes": {
+    "T": 9,
+    "X": 8,
+    "R": 3
+   },
+   "genuine": 9,
+   "threshold": 14,
+   "class_key": {
+    "T": "a genuine threshold statement",
+    "R": "a reported value, not a criterion",
+    "X": "the captured number is not this statistic"
+   }
+  },
+  "ground_truth_not_preregistered": {
+   "class_B_papers": 8,
+   "class_B_now_sited_by_0_5": 7,
+   "class_A_papers": 16,
+   "class_A_falsely_sited_by_0_5": 0,
+   "reading": "the sites the repair adds are unreliable (P6), but the papers it moves OUT of the candidate set are not: in the 24 papers where a hand-reader established the truth, 0.5 recovers 7 of 8 real thresholds and removes no genuine closed question."
+  }
+ },
+ "defeats": {
+  "D1_any_frame_lost_sites": false,
+  "D2_census_outside_interval": true,
+  "D3_ranking_differs": true,
+  "D4_shipped_note_moved": false,
+  "D5_new_sites_below_70pct": true,
+  "D6_sha_mismatch": false
+ }
+}
