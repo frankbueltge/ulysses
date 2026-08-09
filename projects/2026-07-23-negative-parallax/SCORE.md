@@ -60,6 +60,38 @@ work_line:
     # naming a false-positive class the rule now owns (`GAIA-C3-TN` matches any DPAC C3 note).
     # Aspect stays **territory**; no outward move was in question and the pre-opening check did not run,
     # its leg 1 asked and answered. Five topoi **not used** and logged as unused: nothing was judged.
+    # tick 47-B (recovered 2026-08-09) — a parallel session of 2026-08-08 whose branch never landed;
+    # its reading is reproduced unedited below and its own numbering (tick 47) is left standing.
+    # Its own words, from here: tick 46's fourth failure mode (*the question closes*) is
+    # read BACKWARDS across the three literatures this line has already read, from data already
+    # landed: **invokes the statistic and states no threshold**, per paper, from the committed
+    # measure tables (`closed-question-tick47.py`, offline). Gaia **61 of 320 invoking papers
+    # (19.1 %)** · MCMC **28 of 59 (47.5 %)** · CV **118 of 205 (57.6 %)** — declared in the
+    # pre-registration §0 as computed BEFORE it was written, so no forecast is claimed over them;
+    # and `ruwe-1.4`/`uwe-1.25` are asserted to share their invoking set (three literatures, not
+    # four). Hand-read **36 papers**, 12 per literature, `random.Random(47)`, drawn by code after
+    # the registration; sources re-fetched and **36 of 36 byte-identical** against the tick-35/36/46
+    # manifests (D5 silent). **P1 holds** — a paper that invokes a criterion and never states its
+    # number occurs in all three literatures (A = 41.7 % · 66.7 % · **25.0 %**, CV on the exact
+    # boundary): tick 46's mode is not a computer-vision naming habit. **P2 holds.** **P3 and P4 are
+    # defeated; D2 and D4 fire.** Class B — a threshold IS stated and the sieve missed it — is
+    # **4 of 12 in Gaia and 4 of 12 in CV**, and correcting by the A-share REVERSES the ranking:
+    # Gaia 8.0 % · CV 14.4 % · MCMC **31.7 %** (Wilson 95 % on n = 12 printed beside each). The
+    # literature that most often closes the question is Bayesian computation, not the field where
+    # the mode was found. The §1 comparison is **withdrawn** per D2 until the repair and re-measure.
+    # **Seven faults, each pinned to a verbatim string and reproduced by `faults-tick47.py` (8/8):**
+    # F1 an intervening decimal breaks the gap class · F2 `ruwe_2` is not a term match · F3
+    # `\textless` unnormalised · F4 the letters `hat R` inside **`that R`** count as a mention ·
+    # F5 value-before-term · F6 the CV relation list lacks a bare `of` · F7 a sweep. Six understate
+    # sites, one overstates mentions — and **F1 and F6 both hid sites that carry citations**, so the
+    # instrument errs in the direction that flatters this line's own claim, including the shipped
+    # headline (4 of 590). Named before anyone asked; size unknown until tick 48. Owed from tick 46
+    # and discharged: the value-collision class is written into the README's "How it errs", with the
+    # seven faults beside it. **The shipped work is untouched.** Two observations the counts did not
+    # ask for: a criterion whose threshold is a free symbol (`IoU > β`), and one that dissolves into
+    # a learned score with no threshold to warrant. Aspect stays **territory**; no outward move was
+    # in question, the pre-opening check did not run (leg 1 asked: nothing owed is ageing); five
+    # topoi **not used** and logged as unused.
     # tick 47 — the fourth case is read across TWELVE YEARS instead of one
     # edge, and the challenge tick 46 wrote against itself is run. Frame **built by committed code**
     # (`frame-tick47.py`): one query in four two-year windows, each window split into its 8 calendar
@@ -2597,3 +2629,109 @@ wrong. The record should not have had to learn that at tick 48.
 **Next.** The judging, at the monthly line review, now with two quantities to read the four cases
 against rather than one sentence — and one cheap measurement that would give the pair a third data
 point: the same question in case 3 (`R̂ < 1.1`), a third discipline, 31 papers with sites.
+
+---
+
+> **Recovered 2026-08-09 (tick 49).** Written 2026-08-08 by a parallel session whose branch
+> `ulysses/research-2026-08-08` conflicted with the one that landed and was therefore refused by
+> the gate. Reproduced **verbatim**; its self-numbering as tick 47 is left standing, and this
+> record now holds two sections called tick 47 for one day. Its pre-registration is landed as
+> `PREREGISTRATION-tick47-B.md`, renamed only to avoid overwriting the other one.
+
+---
+
+### Tick 47 — 2026-08-08 — the fourth mode, read backwards, and the sieve that flattered me
+
+**Aspect: territory.** Outward: the object is three literatures — 1 052 papers this line has
+already read — and what they do when they invoke a criterion without stating its number.
+
+**The operation.** Tick 46 found a failure mode the first three cases could not produce: the
+threshold absorbed into a metric's name, where no site exists at which a warrant could stand. One
+reading is not a finding. The test is to ask the same question of the literatures already read —
+and the quantity needed no new corpus, because it was lying in the landed tables unasked:
+*invokes the statistic · states no threshold*. Gaia 61 of 320 (19.1 %), MCMC 28 of 59 (47.5 %), CV
+118 of 205 (57.6 %). Both facts a reader would otherwise have to find alone are declared in
+`PREREGISTRATION-tick47.md` §0: these three numbers were **computed before the registration was
+written**, so no forecast is claimed over them; and the two Gaia profiles share their invoking set,
+so this line has three literatures, not four.
+
+**The hand-reading.** 36 papers, 12 per literature, seed 47, drawn by code after the registration.
+Re-fetched today: **36 of 36 byte-identical** to the manifests of ticks 35, 36 and 46 — the frames
+are the same texts they were counted over.
+
+**What survived.** A paper that invokes a criterion and never states its number exists in all three
+literatures (P1: 41.7 % · 66.7 % · 25.0 %). Tick 46's mode is not a habit of one field. CV cleared
+the bar by exactly one paper, and that is written as a survival, not a confirmation.
+
+**What was defeated.** P3 and P4, and with them D2 and D4. In Gaia and in CV, **4 of 12** sampled
+papers *do* state a threshold the sieve missed. Correcting each raw rate by its hand-read A-share
+**reverses the ranking**: Gaia 8.0 %, CV 14.4 %, MCMC 31.7 %. The literature that most often closes
+the question is Bayesian computation — not the field where the mode was found. The
+cross-literature comparison is **withdrawn** until the repair and re-measure, per my own D2.
+
+**Seven faults, reproduced not asserted** (`faults-tick47.py`, 8 of 8 cases): a decimal point that
+breaks the gap class · a subscripted `ruwe_2` · an unnormalised `\textless` · the letters `hat R`
+inside **`that R`** counting as a mention · a value standing before its term · a missing bare `of`
+in the CV relation list · a sweep. Six understate sites and one overstates mentions — and two of
+the misses hid sites that **carry citations**, one of them to the deriving document. The instrument
+errs in the direction that flatters this line's claim, the shipped headline included. Stated now,
+size unknown until the re-measure.
+
+**Owed and discharged:** tick 46's value-collision class is written into the instrument's README
+under "How it errs", with the seven new faults beside it.
+
+**The shipped work is untouched** — letter, exposition and the packet in PR #12 are not rewritten
+(tick 46 §9's rule). This score still carries `protocol_version: 5`: main's validator accepts only
+4 or 5 and is carved out of my allowlist, so writing 6 would refuse the whole branch. Reported at
+tick 45 in `REQUESTS.md`; not silently worked around.
+
+**Pre-opening check:** did not run — no outward move was in question. Leg 1 asked and answered:
+nothing owed is ageing here. **Five topoi: not used**, logged as unused.
+
+**Next.** One operation, not two: repair the instrument to 0.5 against the seven pinned faults
+*and* re-measure all three frames with it. Only the re-measure lifts the withdrawal, and a repair
+without it would be an improvement that earned no finding.
+
+---
+
+### Tick 49 — 2026-08-09 — a session of this record was on a branch, not in it
+
+**Aspect: home. INWARD** — the object is this house's own record. Inward counter: 1 in the last 4
+(46–49). Full record: TRACE tick 49.
+
+**Found by a red light, not by an instrument.** Tick 48's push made the landing gate red. Tick 48's
+own branch had landed; the red belonged to a **second branch of 2026-08-08**,
+`ulysses/research-2026-08-08`, which the gate had been failing to merge on every run since —
+`CONFLICT` in `SCORE.md`, `TRACE.md` and `PREREGISTRATION-tick47.md`.
+
+**Two sessions ran that day and both called their work tick 47.** One landed. The other carried a
+journal entry, a pre-registration, seven scripts, five tables — and the sharpest self-correction in
+this line's record: 36 papers the sieve had filed as *mentions the statistic, states no threshold*
+were hand-read, and **8 of them state one**. Seven faults, each pinned to a verbatim fragment and
+reproduced by committed code. Six understate sites; two of the missed sites carry citations, one to
+the deriving document. **The instrument errs in the direction that flatters this line's claim.**
+
+**That caveat reaches tick 48, this morning, retroactively.** Tick 48's exact reproduction of
+187 / 397 / 4 was computed with the same unrepaired 0.4, so it reproduces the shipped figures *and*
+inherits whatever the seven faults cost them. Recorded here rather than left for a later document.
+
+**A refused branch is not a filed refusal.** The feedback channel this practice reads at
+orientation carries branches the gate refuses *on a rule*; a branch that passes every gate and then
+fails to **merge** turns the job red and writes nothing there. The record lost a session and said
+so only where the practice does not look. Reported in `REQUESTS.md`; the workflow is carved out of
+this practice's allowlist and is not touched here.
+
+**The recovery is verbatim.** Nothing of the stranded session is edited, summarised or renumbered;
+its self-numbering as tick 47 stands, so this record now holds two sections called tick 47 for one
+day. Its pre-registration is landed as `PREREGISTRATION-tick47-B.md` — the single change made to
+any of its files, because the path was taken.
+
+**Against this tick:** it is inward, it produced no knowledge about anything outside this house,
+and no instrument of this practice detected the loss — a job went red and the red was read. Nothing
+in this record says why two sessions of one day both opened as tick 47, and this tick did not find
+out.
+
+**Next.** The recovered session's own next operation now comes first: **instrument 0.5 against the
+seven pinned faults, and the re-measure of all three frames in one operation** — until that is
+done, every rate this line has published, tick 48's included, carries an unmeasured understatement
+in its own favour. Then the judging, at the monthly line review.
