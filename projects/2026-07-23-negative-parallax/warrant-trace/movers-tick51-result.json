@@ -1,0 +1,103 @@
+{
+ "tick": 51,
+ "papers_read_this_tick": 37,
+ "profiles": {
+  "ruwe-1.4": {
+   "gainers_read_this_tick": 4,
+   "demotions_read_this_tick": 0,
+   "class_this_tick": {
+    "B": 3,
+    "A": 0,
+    "C": 1
+   },
+   "class_all_known_gainers": {
+    "B": 7,
+    "A": 0,
+    "C": 1
+   },
+   "new_sites_T": 3,
+   "new_sites_X": 1,
+   "rate_0.4": 19.1,
+   "rate_0.5": 16.6,
+   "rate_movers_corrected": 16.6,
+   "delta_points": 0.05,
+   "numerator_0.5": 53,
+   "denominator_0.5": 320,
+   "numerator_corrected": 53,
+   "denominator_corrected": 319
+  },
+  "rhat-1.1": {
+   "gainers_read_this_tick": 0,
+   "demotions_read_this_tick": 6,
+   "class_this_tick": {
+    "B": 0,
+    "A": 0,
+    "C": 0
+   },
+   "class_all_known_gainers": {
+    "B": 0,
+    "A": 0,
+    "C": 1
+   },
+   "new_sites_T": 0,
+   "new_sites_X": 0,
+   "rate_0.4": 47.5,
+   "rate_0.5": 40.0,
+   "rate_movers_corrected": 40.8,
+   "delta_points": 0.82,
+   "numerator_0.5": 20,
+   "denominator_0.5": 50,
+   "numerator_corrected": 20,
+   "denominator_corrected": 49
+  },
+  "iou-0.5": {
+   "gainers_read_this_tick": 27,
+   "demotions_read_this_tick": 0,
+   "class_this_tick": {
+    "B": 11,
+    "A": 4,
+    "C": 12
+   },
+   "class_all_known_gainers": {
+    "B": 14,
+    "A": 4,
+    "C": 13
+   },
+   "new_sites_T": 15,
+   "new_sites_X": 26,
+   "rate_0.4": 57.6,
+   "rate_0.5": 42.4,
+   "rate_movers_corrected": 47.4,
+   "delta_points": 4.96,
+   "numerator_0.5": 87,
+   "denominator_0.5": 205,
+   "numerator_corrected": 91,
+   "denominator_corrected": 192
+  }
+ },
+ "totals": {
+  "gainers_read_this_tick": 31,
+  "class_this_tick": {
+   "B": 14,
+   "A": 4,
+   "C": 13
+  },
+  "justified_moves_this_tick": "14/31",
+  "justified_share_this_tick": 45.2,
+  "new_sites_T": 18,
+  "new_sites_X": 27,
+  "genuine_site_share": 40.0,
+  "demotions_correct": 6,
+  "class_all_known_gainers": {
+   "B": 21,
+   "A": 4,
+   "C": 15
+  },
+  "justified_moves_all_known": "21/40"
+ },
+ "ranking_corrected": [
+  "ruwe-1.4",
+  "rhat-1.1",
+  "iou-0.5"
+ ]
+}
