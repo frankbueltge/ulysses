@@ -3584,44 +3584,26 @@ orientation should read run status instead.
 
 ---
 
-## 2026-08-09 — The instrument that flattered me is repaired, and the shipped work's *frame* is the part that moves (Ulysses, Atelier)
+## 2026-08-09 — The repaired instrument moves the Episode 6 *frame*, not its headline (Ulysses, Atelier)
 
-**Offer / decision input — no action needed unless you want the packet changed.**
+**Offer / decision input.** I repaired the seven faults yesterday's recovered session pinned,
+and re-measured all three frames — 1 085 papers, forecast written first. Three facts, one
+question.
 
-Yesterday's recovered session found seven faults in the sieve behind Episode 6, six of which
-understated in the direction that made my claim look stronger. Today I repaired all seven and
-re-measured all three frames — 1 085 papers — with the forecast written first.
+1. **Nothing published drifted.** Every re-fetched e-print is byte-identical to the sha256
+   first recorded, and the *unrepaired* instrument reproduces all three landed tables exactly.
+2. **The headline is unmoved; the frame is not.** The deriving note stands at the site in
+   **4 papers** under both versions — what left the house. But those 187 papers were selected
+   by the faulty sieve; the repaired one finds **194**, and one of the seven added
+   (`arXiv:2209.04210`) carries the note at the site. Repaired reading: **5 of 194 (2.6 %)**
+   against the shipped **4 of 187 (2.1 %)** — against my own claim, too small to alter it.
+3. **The repair cost something.** Of 20 newly found sites, only 9 are threshold statements;
+   its *paper* classification improved, its *site counts* got worse. Both are written into the
+   instrument's "How it errs". Consequence: the reversal I reported last week from a 12-paper
+   sample is **not reproduced** by the census. Withdrawn, and it stays withdrawn.
 
-**Three things you may want on the record.**
+**The question:** the packet in PR #12 is untouched. One word if you want it to carry the
+repaired frame before it is sent or withheld; otherwise the shipped numbers stand and this is
+the record of what a repaired instrument says about them.
 
-1. **Nothing published drifted.** Re-fetched today, every one of the 1 085 e-prints is
-   byte-identical to the sha256 recorded when it was first read (599/599, 229/229, 256/256),
-   and the *unrepaired* instrument run over that corpus reproduces all three landed tables
-   exactly. This is the widest re-derivation this line has done.
-
-2. **The shipped headline is unmoved. The shipped frame is not.** The deriving technical note
-   stands at the site in **4 papers**, under both the old and the repaired instrument —
-   exactly what left the house. But the 187-paper frame that number is computed over was
-   *selected by the faulty sieve*. The repaired sieve finds **194** papers stating
-   `RUWE < 1.4`, and one of the seven it adds (`arXiv:2209.04210`) carries the note at the
-   site. So the repaired reading is **5 of 194 (2.6 %)** against the shipped **4 of 187
-   (2.1 %)** — a change *against* my own claim, and too small to alter it.
-
-   **I have not touched the letter, the exposition or the packet in PR #12** (the rule since
-   tick 46). If you would rather the packet carry the repaired frame before it goes, that is
-   a word from you; if not, the shipped numbers stand and this note is the record of what a
-   repaired instrument says about them.
-
-3. **The repair also cost something, and I would rather say it than have it found.** Of 20
-   sites the repaired sieve newly finds, hand-read against their windows, only **9 are
-   threshold statements** — the rest are parallaxes, colours, separations, loss weights
-   standing near the statistic's name. Its *paper* classification improved (7 of 8 known
-   misses recovered, 0 of 16 known non-cases falsely flagged); its *site counts* got worse.
-   Both are written into the instrument's own "How it errs".
-
-   A consequence for a claim I made to you last week: the reversal I reported at tick 47 from
-   a 12-paper sample — Bayesian computation closing the question most often — is **not
-   reproduced** by the census. It is withdrawn, not refuted, and it stays withdrawn.
-
-**Status:** open as an offer — no response needed. One word from you only if you want the
-Episode 6 packet to carry the repaired frame before it is sent or withheld.
+**Status:** open as an offer — no response needed.
