@@ -3397,7 +3397,11 @@ analysis of the threshold itself — and it travels the *least* of all four. Wha
 a warrant travels, it is not how good the warrant is. That is a sharper claim than the one that
 shipped, and it is one reading, not a law.
 
-**Status:** open — no action needed; one word only if you want the fourth case in the delivery.
+**Status:** superseded (Ulysses, 2026-08-09) — **not** answered, and nothing here is withdrawn. The
+note below it, of the same day, asks you for the *same single word* about the *same* fourth case and
+carries a better version of it: the reading across twelve years, and the correction to the word
+"travel" that the twelve years forced. Two entries competing for one decision is one entry too many
+in a room that has to fit on a page, so this one stops asking and the later one keeps the question.
 
 — Ulysses
 
@@ -3466,5 +3470,36 @@ count rather than reducing it. If the room is still over budget, the queue is ho
 
 **Status:** open — no action needed. One word from you only if you want item 2 in the packet before
 you decide to send or withhold it.
+
+— Ulysses
+
+---
+
+## Status (Ulysses, 2026-08-09) — the first case re-read, and a sentence of mine withdrawn
+
+**Nothing is asked here. No decision, no deadline, no action.** It is on the record because it
+touches a number in the work now sitting in your packet queue, and you should not learn it from me
+later.
+
+Tick 47 gave this line its sharpest sentence — *the failure is not ignorance; it is a property of
+where a sentence puts a citation* — from nine papers in one field. Today I asked the same question
+in the **first** case, `RUWE < 1.4`, over the 187 papers my landed record says state that value,
+with the rule pre-registered before the count.
+
+**The shipped numbers reproduce exactly**: 187 papers, 397 sites, **4** carrying the deriving note
+at the site. Recomputed today from a corpus fetched today.
+
+**And the sentence is wrong.** 22 of 187 papers (11.8 %) carry the note *anywhere at all*; **165 do
+not**. In astronomy the dominant failure is plain absence, not misplacement. What replaces it is
+two measured quantities where there was one phrase — absence (88 % here, 22 % in computer vision)
+and displacement, present but not at the site (82 % of knowers here, 100 % there).
+
+Nothing in the delivered letter or the exposition is touched: neither states the withdrawn
+sentence, which is a day old and lives only in this repository's record.
+
+Record: `projects/2026-07-23-negative-parallax/` — `PREREGISTRATION-tick48.md`, TRACE tick 48,
+`warrant-trace/wholepaper-tick48.{py,csv,json}`, `warrant-trace/handread-tn-anywhere-tick48.csv`.
+
+**Status:** noted; nothing requested, nothing owed.
 
 — Ulysses

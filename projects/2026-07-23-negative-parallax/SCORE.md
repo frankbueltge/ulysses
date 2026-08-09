@@ -34,7 +34,33 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: territory  # tick 47 — the fourth case is read across TWELVE YEARS instead of one
+  refrain_aspect: territory  # tick 48 — the prior question the instrument had never asked is asked,
+    # in the FIRST case and by code: of the **187 papers that state `RUWE < 1.4`**, how many carry the
+    # deriving note (`GAIA-C3-TN-LU-LL-124-01`) **anywhere in the paper**, as against the 4 that carry
+    # it at the site? Pre-registered before any table (`PREREGISTRATION-tick48.md`); frame rebuilt from
+    # the landed tick-35 record; all 187 e-prints fetched today, **187 readable, no_source 0.0 %**.
+    # **The shipped measurement reproduces exactly** — 187 papers, 397 sites at 1.4, **4** with the note
+    # at a site — so D3 (corpus drift) does not fire and the unversioned frame cost the record nothing.
+    # **Anywhere: 25 machine hits, 22 after hand-reading every one of them** (11.8 %). All 22 carry it
+    # in the **bibliography**; **none** carries it only as a footnote URL.
+    # **Tick 47's strong reading is corrected, at the line's own expense.** It wrote *"the failure is
+    # not ignorance; it is a property of where a sentence puts a citation."* Here **165 of 187 (88.2 %)
+    # do not carry the document anywhere at all**. What survives is smaller and better measured: two
+    # failure modes that tick 47 could not separate, now two quantities — **absence** (88.2 % here,
+    # 22 % in E1) and **displacement**, the document present and not at the site (**18 of 22 knowers,
+    # 82 %** here; 7 of 7, 100 %, in E1). "Independence" is not what two fields show, and the tick-47
+    # wording is superseded rather than edited.
+    # **My forecast loses two of four legs, and they are the ones I would have bet hardest:** the grey
+    # note is *not* carried as a bare URL (0 of 22) and is *not* swamped by its famous sibling (48 vs
+    # 22, 2.2×). It is bibliographically ordinary; what it is not is placed.
+    # **A defect of conduct is recorded, and it is a repeat:** the fetcher was launched twice — 286
+    # manifest records for 187 papers, the declared 1-request-per-3 s briefly at double rate — found by
+    # arithmetic, as the same defect was on 2026-08-05 in `2026-07-24-put-back-on-the-map`. Every
+    # duplicated id returned a byte-identical sha256. D1/D2/D3/D5 silent; D4 silent at 3 rejects of 25,
+    # naming a false-positive class the rule now owns (`GAIA-C3-TN` matches any DPAC C3 note).
+    # Aspect stays **territory**; no outward move was in question and the pre-opening check did not run,
+    # its leg 1 asked and answered. Five topoi **not used** and logged as unused: nothing was judged.
+    # tick 47 — the fourth case is read across TWELVE YEARS instead of one
     # edge, and the challenge tick 46 wrote against itself is run. Frame **built by committed code**
     # (`frame-tick47.py`): one query in four two-year windows, each window split into its 8 calendar
     # quarters, 8 papers per quarter — 251 papers (E1 2014–15: 59 · E2 2017–18: 64 · E3 2020–21: 64 ·
@@ -2449,6 +2475,43 @@ window.
 
 ---
 
+### Tick 46 — 2026-08-08 — the fourth threshold *(entered late, 2026-08-09)*
+
+**Entered on 2026-08-09, dated as such.** Tick 46's reading went into this score's frontmatter and
+into TRACE, and §11 skipped from 45 to 47 — the same omission tick 37 found for tick 36 and
+repaired the same way. Nothing below is new: it is a précis of what the frontmatter and TRACE
+already carry, placed where this record's own form puts it.
+
+**Aspect: territory.** The fourth case is measured — `IoU ≥ 0.5`, computer vision's
+detection-correctness criterion, chosen because it is a stipulation of an evaluation protocol
+rather than a statistic computed on data, and because its deriving document (Everingham et al.
+2010, *IJCV* 88(2)) carries the fullest warrant of the four: the number, the reason, the named
+limitation, and a published sensitivity analysis of the threshold in its own §6.2.3.
+
+**The frame is built by committed code** (`warrant-trace/frame-tick46.py`) — closing, for one
+case, the limitation the instrument's README calls the episode's sharpest. 256 papers, 240
+readable, 216 use sites, 108 sites at 0.5 in 62 papers, **all 108 hand-read**. Of them 18 are a
+different threshold sharing the number — **value collision**, the largest measured
+false-positive class this instrument has, written into the README.
+
+**At the 90 criterion sites in 53 papers the deriving document stands at 2**, MS COCO at 8,
+another benchmark's protocol at 2, nothing at 78. **And a fourth failure mode the first three
+cases could not show:** the number is absorbed into the metric's *name* (`AP50`, `mAP@0.5`),
+where no site exists at which a warrant could stand — 106 of 240 papers carry it as a name, 64
+carry the name and never state the threshold at all. Union: **126 papers report a number this
+criterion governs; 2 cite the document that derived it.**
+
+**The forecast survived on all four legs, and the journal recorded that as a weakness** — a
+forecast that risks nothing wins cheaply. Instrument at 0.4; `selftest-0.4.py` passes,
+`selftest-0.3.py` left standing. The shipped work is untouched; the reading went to `REQUESTS.md`
+the same day as a decision input under the architect's seven-day bind. Pre-opening check did not
+run — no outward move was in question. Five topoi not used and logged as unused.
+
+**Next (as written that day).** A literature that has used this threshold since 2010 is not read
+by reading its newest edge — the challenge tick 47 then ran.
+
+---
+
 ### Tick 47 — 2026-08-08 — the same threshold across twelve years
 
 **Aspect: territory.** Tick 46 wrote the next operation against itself: *"a literature that has used
@@ -2480,3 +2543,57 @@ as tick 46's reading was.
 
 **Next.** Deliberately unnamed. The arc's measurements are done; what the four cases now need is
 judging, not measuring, and the monthly line review (§8) is where that belongs.
+
+---
+
+### Tick 48 — 2026-08-09 — the prior question the instrument had never asked
+
+**Aspect: territory. Outward** — the object is 187 astronomy papers and where they put a citation.
+Pre-registration: `PREREGISTRATION-tick48.md`; full record: TRACE tick 48.
+
+**Not a fifth case.** Tick 47's best finding was its least defended: 78 % of E1's criterion papers
+carry the deriving document somewhere and 0 % at the site, from nine papers, in one field, counted
+after the zero came back. The way to put that at risk is not a fifth threshold but the **same
+question in the first case**, where the base is forty times larger and the rule can be written
+first. The instrument in `warrant-trace/` has never asked it: it answers what stands at the site
+and has never asked whether the document is in the paper at all.
+
+**The shipped measurement reproduces exactly.** 187 papers, 397 sites at 1.4, **4** papers with the
+note at a site — recomputed today from a corpus fetched today. D3 does not fire; the unversioned
+frame cost the record nothing. All 187 e-prints were readable (`no_source` 0.0 %, against 6.3 % and
+7.6 % in the computer-vision frames).
+
+**The answer: 22 of 187 (11.8 %)**, hand-read one by one from 25 machine hits. All 22 carry the
+note in the **bibliography**; not one carries it only as a footnote URL.
+
+**Tick 47's strong reading is corrected, and it costs the line its most attractive sentence.**
+*"The failure is not ignorance; it is a property of where a sentence puts a citation"* is false
+here: **165 of 187 papers (88.2 %) do not carry the document anywhere.** What survives is smaller
+and better measured — **two failure modes that tick 47 could not separate, now two quantities**:
+*absence* (88.2 % here, 22 % in E1) and *displacement*, present but not at the site (**18 of 22
+knowers, 82 %** here; 7 of 7 in E1). The tick-47 wording stands unedited in its own record per
+§8/§10; this entry supersedes it. Independence is not what two fields show.
+
+**The forecast loses two of four legs, and they are the ones I would have bet hardest.** A grey
+technical note, I expected, would travel as a bare URL and be swamped by its famous sibling. It is
+carried as a proper bibliography entry in **every** one of the 22, and the sibling leads it by 2.2×,
+not 3×. The note is bibliographically ordinary; what it is not is *placed*.
+
+**A defect of conduct, and it is a repeat.** The fetcher was launched twice: 286 manifest records
+for 187 papers, the declared one-request-per-3 s running at roughly double for the middle of the
+corpus. Found by arithmetic, not by watching — the same way, and the same defect, as
+`2026-07-24-put-back-on-the-map` recorded on 2026-08-05. Every duplicated id returned a
+byte-identical sha256, so the corpus is not mixed within itself. That mitigates the damage and
+excuses nothing.
+
+**Also found, and smaller:** `profiles/ruwe-1.4.json` carries no `focus_value` — a key added to the
+profile format after it was written — so the landed tick-35 flags OR over every RUWE site, not only
+the 1.4 sites. Both readings were computed and are identical (4 and 4), so nothing shipped is
+wrong. The record should not have had to learn that at tick 48.
+
+**Pre-opening check** did not run; no outward move was in question, its leg 1 asked and answered.
+**Five topoi not used** and logged as unused: nothing was judged today.
+
+**Next.** The judging, at the monthly line review, now with two quantities to read the four cases
+against rather than one sentence — and one cheap measurement that would give the pair a third data
+point: the same question in case 3 (`R̂ < 1.1`), a third discipline, 31 papers with sites.

@@ -113,6 +113,21 @@ has one measured instance in each direction, and they are in the record, not in 
   count second. If you skip that, your denominator is inflated by every other use of the number.
 - **Comments are included by default.** `--nocomments` re-runs without LaTeX comments; report both,
   as every measurement in this record does.
+- **A window pattern is not a whole-paper pattern: 3 of 25 hits, 12 %** (2026-08-09,
+  `wholepaper-tick48.py`). Asking whether the deriving document is in the paper *at all* is a
+  different question from what stands at a site, and the profile's flag regexes are written for a
+  420-character window. Two alternatives of `cite_tn` (`technical note`, `DPAC technical`) match
+  unrelated prose the moment the window is removed, and even after dropping them `GAIA-C3-TN`
+  matches **any** DPAC C3 technical note — the three rejects carry LL-136, LL-125 and LL-084, and
+  none carries LL-124. If you reuse a profile flag over a whole document, narrow it first (which
+  can only lower the count) and hand-read every hit.
+- **The fetcher's resume set is read once, at start.** Two `fetch` runs against the same manifest
+  therefore do not divide the work — they duplicate it, and the declared one-request-per-3 s
+  becomes two. This was done here on 2026-08-09: 286 records for a 187-paper frame, caught by
+  arithmetic afterwards. Check `wc -l` on the manifest against your frame before you trust a rate.
+  Unrepaired, and named rather than fixed, like the other fetcher limitation below: a `FAILED`
+  fetch also enters the manifest the skip-set reads, so it can never be retried into the same
+  corpus.
 
 ## The frame
 

@@ -6665,3 +6665,165 @@ topoi not used and logged as unused: nothing was judged today.**
 **Next.** Unnamed on purpose. The arc's measurements are done and the four cases have said what they
 can say; the line's next operation is a judging question, not a measuring one, and the monthly
 review (§8) is where it belongs.
+
+---
+
+## Tick 48 — 2026-08-09 — Territory operation: the prior question the instrument had never asked
+
+**Aspect: territory. Outward** — the object is 187 astronomy papers and where they put a citation.
+Inward counter (v6 §8): 0 inward in the last 4 (45–48).
+
+Pre-registration: `../PREREGISTRATION-tick48.md`, written before any table existed. Code:
+`warrant-trace/wholepaper-tick48.py`. Frame: `warrant-trace/frame-tick48-ruwe14.txt`. Tables:
+`warrant-trace/wholepaper-tick48.csv` (per paper), `warrant-trace/handread-tn-anywhere-tick48.csv`
+(every machine hit, read by hand), `warrant-trace/wholepaper-tick48.json` (report).
+
+### 1. Why this and not a fifth case
+
+Tick 47's best finding was also its weakest: *of the 9 papers in era E1 with a criterion site, 7
+cite the deriving document somewhere in the paper and none at the site* — 78 % against 0 %, from
+which the record drew "being in the bibliography and being at the site are independent". Nine
+papers, one era, one field, and the count written after the zero came back. TRACE tick 47 §8 says
+so itself.
+
+The line does not need a fifth threshold to test that. It needs the **same** question asked where
+it can fail: in case 1, `RUWE < 1.4`, a different discipline, on the 187 papers the landed tick-35
+table records as stating the value — forty times the E1 base, with the rule written first.
+
+The instrument in this directory has never asked it. It answers *what stands at the site*; it has
+never asked *whether the document is in the paper at all*.
+
+### 2. The corpus, and one defect of conduct in building it
+
+All 187 e-prints fetched from arXiv today. **187 of 187 readable — no_source 0.0 %.** D1 does not
+fire, and the zero is itself worth a line: in the computer-vision frames 6.3 % and 7.6 % of papers
+had no LaTeX source. This literature submits LaTeX.
+
+**The fetcher was launched twice and the manifest says so: 286 records for 187 papers, about 99
+duplicate requests, and the declared rate of one request per 3 s ran at roughly twice that for the
+middle of the corpus.** Found by arithmetic — 195 records for a 187-paper frame — not by watching.
+The second process was killed and one allowed to finish. Two facts against the damage and neither
+excuses it: every duplicated id returned a **byte-identical sha256**, so the corpus is not mixed
+within itself, and no paper was fetched more than twice. This is the same defect the study
+`2026-07-24-put-back-on-the-map` recorded on 2026-08-05 (610 records for a 599-paper frame), which
+makes it a repeat and not a first.
+
+### 3. What the rule is, and how it was narrowed
+
+The deriving document is Lindegren (2018), `GAIA-C3-TN-LU-LL-124-01`, *Re-normalising the
+astrometric chi-square in Gaia DR2*, in whose §6 the number 1.4 is read off a histogram.
+
+The profile's `cite_tn` pattern was written to run inside a 420-character window; two of its
+alternatives (`technical note`, `DPAC technical`) match unrelated prose once the window is
+removed. The whole-paper rule therefore **drops them** — narrower, which can only lower the
+anywhere-count. The conservative direction, chosen and declared for that reason
+(pre-registration §3).
+
+### 4. The numbers
+
+| | papers | of 187 |
+|---|---|---|
+| state `RUWE < 1.4` (397 sites) | **187** | — |
+| readable today | 187 | 100 % |
+| carry a bibliography in the arXiv source | 177 | 94.7 % |
+| **cite the deriving note anywhere** (machine) | 25 | 13.4 % |
+| **cite the deriving note anywhere** (hand-verified) | **22** | **11.8 %** |
+| …of which in the bibliography | 22 | 100 % |
+| …of which body or footnote URL only | **0** | 0 % |
+| **cite the deriving note at a site** | **4** | **2.1 %** |
+| cite the near-neighbour, Lindegren et al. 2018 A&A 616 A2 (machine only) | 48 | 25.7 % |
+
+**The shipped measurement is reproduced exactly.** 187 papers, 397 sites at 1.4, and 4 papers with
+the note at a site — the three numbers `EPISODE-6-EXPOSITION-v2.md` publishes, recomputed today
+from a corpus fetched today by code that had never been run before. **D3 does not fire**; the
+version drift the frame's unversioned ids made possible did not move a single one of the three.
+
+### 5. What it means, in the order the evidence supports
+
+1. **The tick-47 magnitude does not reproduce, and the strong reading is false.** Tick 47 wrote
+   *"the failure is not ignorance; it is a property of where a sentence puts a citation."* Here
+   **165 of 187 papers (88.2 %) do not carry the document anywhere in the paper.** In this
+   literature the failure mostly *is* ignorance of the document — or at least absence of it —
+   and the sentence's placement never comes into it. That claim of tick 47 is corrected here, in
+   the direction that costs the line its most attractive sentence.
+2. **The shape reproduces, conditionally and weakly.** Among the papers that do carry it,
+   **18 of 22 (82 %) never put it at the site.** So placement fails even for the knowers — but
+   the base of knowers is small, which is exactly what E1 could not show, because there the
+   document was in almost everyone's bibliography for a reason unrelated to the threshold (it is
+   the dataset paper).
+3. **Two failure modes now separate, and they are measured quantities, not readings.**
+   *Absence* — the document is not in the paper: 88.2 % here, 22 % in E1.
+   *Displacement* — the document is in the paper and not at the site: 82 % of knowers here,
+   100 % of knowers in E1.
+   Tick 47 could not tell them apart, having measured one field. The line now has two numbers
+   where it had one sentence, and they differ by field. **This supersedes the tick-47 wording
+   "being in the bibliography and being at the site are independent"**, which is retained
+   unedited in its own record per §8/§10; independence is not what two fields show.
+4. **Trivially but worth saying:** all 4 at-site papers are among the 22. A resolvable citation
+   key requires a bibliography entry, so the two counts are nested by construction and nothing
+   should be read into that nesting.
+
+### 6. The pre-registered conditions, scored
+
+- **D1 (unmeasurable, > 20 % unreadable):** not met — 0.0 %.
+- **D2 (my headline forecast defeated, A > 25 %):** not met — 11.8 %. The forecast holds.
+- **D3 (corpus drift, B outside 4 ± 2):** not met — B = 4 exactly, and 397 sites exactly.
+- **D4 (rule slack > 25 % of hits rejected by hand):** not met — **3 of 25 rejected, 12 %**. Every
+  machine hit was read. The three rejects name a false-positive class the rule now owns:
+  `GAIA-C3-TN` matches **any** DPAC C3 technical note, and the three papers carry LL-136 (2022),
+  LL-125 (2019) and LL-084 — checked individually for LL-124 anywhere in the source, absent in all
+  three. Reported as the hand-verified 22, with the machine 25 beside it.
+- **D5 (the miss I cannot see):** not met — **0 of 15**. The deterministic sample of A-negative
+  papers (`neg[::step][:15]`, no randomness) was read for the note under any form the rule misses.
+  Every Lindegren-2018 entry in those 15 is the multi-author A&A paper, not the single-author note.
+  One of them, `2404.11022`, states `RUWE < 1.4` and cites `\citep[RUWE,][]{Lindegren2018}` at the
+  site, where the entry resolves to the A&A paper — the third failure mode of this line's own
+  vocabulary (*attributed to a document that never carried the number*), found in the control
+  sample rather than sought.
+- **D6 (instrument identity):** `wholepaper-tick48.py`
+  sha256 `22b0b392f2d6996bded56fc6370594a11e86b7eeab333b7e978e6f2e88606844`; `warrant_trace.py`
+  `2a79d2a0ba254fe118581d678c05e25abd9b60fc5ef11e458db82921b15560b7`; `profiles/ruwe-1.4.json`
+  `57e89c92b7c794ce5e3c06dd7048579728c147cadcc4bdb3f30e3c682b6d81a6`.
+
+**My forecast loses two of four legs, and the two it loses are the ones I would have bet hardest.**
+(a) holds — 11.8 % ≤ 25 %. (b) holds — the anywhere/at-site ratio is 5.5×, not the 12×+ of E1.
+**(c) fails:** I expected the famous sibling to swamp the grey note by more than 3×; it leads by
+2.2×. **(d) fails:** I expected a technical note to be carried as a bare footnote URL rather than
+a bibliography entry, because that is how grey literature normally travels. **All 22 carry it as a
+proper bibliography entry; not one carries it only in the body.** The note is bibliographically
+ordinary. What it is not is *placed*.
+
+### 7. Against this tick
+
+- **One case tested against one case.** Two literatures are two literatures; nothing here is a
+  result about science, and §5.3's two quantities are two data points each.
+- **`C` is machine-only** and is a **lower bound**: its pattern does not cross newlines, and
+  bibliography entries wrap. It is reported because a low anywhere-count means something different
+  in a literature that cites no Lindegren at all — not as a measured rate.
+- **Ten papers carry no bibliography in their arXiv source.** Their entry can exist in the
+  published PDF and be invisible here, so `A` is a lower bound by up to ten papers. Counted in the
+  open rather than assumed to be zero.
+- **The profile carries no `focus_value`**, a key added to the format after it was written, so the
+  landed tick-35 flags OR over **every** RUWE site rather than only the 1.4 sites. Both readings
+  were computed here and are **identical (4 and 4)**, so the shipped number is unaffected — but it
+  could have been, and the record should not have had to find that out at tick 48.
+- **The hand-reading is mine alone**, a fifth time, and 25 hits is a small enough set that a second
+  reader would have been cheap. It was not done.
+- **The corpus is today's versions**, not tick 35's. D3 is the only evidence that this did not
+  matter, and it is evidence about three numbers, not about the papers.
+
+### 8. Instrument log (§6, three lines)
+
+- **The pre-opening check** touched no decision: no outward move was in question. Leg 1 asked and
+  answered — nothing owed on this side is ageing; the packet is `prepared` and with the architect
+  under his seven-day bind. Failure criterion did not fire.
+- **The five topoi** were **not used**, and are logged as unused: nothing was judged today. What
+  would have happened without them: nothing, which is the honest answer and the reason the log
+  exists.
+
+### 9. Next
+
+Unchanged from tick 47 and now better furnished: the judging, at the monthly line review. The two
+quantities of §5.3 are what the review should read the four cases against — and the one measurement
+that would earn a third data point is the same question in case 3 (`R̂ < 1.1`, 31 papers with sites),
+which is small, cheap, and in a third discipline.
