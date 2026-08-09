@@ -44,6 +44,14 @@ absence that downstream joins turn into zeros, and every denominator in the repo
 excludes it. `match_flags` classifies the matched site string rather than its window,
 so a profile can record *which* of several terms carried the number — needed when a
 threshold is recommended on one statistic and applied to another.
+
+0.5 (tick 50, 2026-08-09) repairs the seven faults a hand-reading found in the sieve at
+tick 47, where 8 of 36 papers filed as "invokes the statistic, states no threshold" state
+one. Six understated sites and one overstated mentions: the instrument erred in the
+direction that flattered the finding it was built to produce. Two repairs are here — the
+site gap (`GAP`) and the text-mode relations in `normalise` — and five are in the profiles.
+Nothing published under 0.2-0.4 is rewritten; the side-counts of each earlier version are
+still reported, so any earlier table can be compared to a re-run field by field.
 """
 import argparse
 import csv
@@ -57,7 +65,28 @@ import tarfile
 import time
 import urllib.request
 
-VERSION = "warrant-trace 0.4 (2026-08-08)"
+VERSION = "warrant-trace 0.5 (2026-08-09)"
+
+# 0.5, the repair of the seven faults pinned at tick 47 by hand-reading 36 papers the
+# sieve had filed as "invokes the statistic, states no threshold" — 8 of which state one.
+# Six of the seven understated sites and one overstated mentions, so the instrument erred
+# in the direction that flattered the finding it was built to produce. Two of the seven
+# live here in the engine; five live in the profiles, beside the literature they are about.
+#
+# GAP is F1. A site pattern must cross the words between a statistic's name and the
+# comparison that carries its number, and 0.4 spent that crossing on a character class,
+# `[^.;:\n]{0,50}?`, which stops at any period — including the decimal point inside an
+# intervening measurement. `the RUWE for this source is 34.676, far above the limit of >
+# 1.4` states a threshold AND cites the deriving document, and 0.4 could not see it,
+# because 34.676 has a period in it. Here a period is admitted only when a digit follows,
+# so a decimal is traversable and a sentence boundary is not.
+#
+# The bound is 100 and was fixed BEFORE any repaired count existed, by the rule written
+# into `../PREREGISTRATION-tick50.md` §3: the smallest multiple of ten that admits both of
+# F1's two pinned fragments, and no larger. The wider fragment needs 91 characters. A
+# wider gap buys sites and sells precision; that trade is measured at tick 50 by hand-
+# reading a sample of the sites the repair newly finds, not asserted here.
+GAP = r"(?:[^.;:\n]|\.(?=\d)){0,100}?"
 
 
 def as_number(v):
@@ -101,6 +130,11 @@ def normalise(t):
                r" \1 ", t)
     t = re.sub(r"\\(geq|ge)\b", " > ", t)
     t = re.sub(r"\\(leq|le)\b", " < ", t)
+    # 0.5, F3: the same two relations written for a text-mode document. `\textless` and
+    # `\textgreater` are how a LaTeX author writes < and > outside maths, and 0.4 left them
+    # standing as words, so `ruwe \textless 1.4` was not a site at all.
+    t = re.sub(r"\\textless\b", " < ", t)
+    t = re.sub(r"\\textgreater\b", " > ", t)
     for ch in "${}~":
         t = t.replace(ch, " ")
     return re.sub(r"[ \t]+", " ", t)
@@ -148,7 +182,12 @@ class Profile:
         self.window = int(d.get("window", 420))
         term, rel = d["term"], d.get("rel", "")
         self.term_re = re.compile(term)
-        self.site_res = [re.compile(p.replace("{TERM}", term).replace("{REL}", rel))
+        # 0.5: `{GAP}` expands to the module's gap expression, so the bound that decides
+        # how far a site may reach lives in ONE place and a profile cannot quietly carry a
+        # different one. A profile written against 0.4 keeps its literal `[^.;:\n]{0,50}?`
+        # and behaves exactly as it did — the repair is adopted per profile, visibly.
+        self.site_res = [re.compile(p.replace("{TERM}", term).replace("{REL}", rel)
+                                     .replace("{GAP}", GAP))
                          for p in d["site_patterns"]]
         self.flags = {}
         for name, spec in d.get("flags", {}).items():

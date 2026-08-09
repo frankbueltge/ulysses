@@ -4,10 +4,10 @@
   "deriving_document": "Lindegren (2018), GAIA-C3-TN-LU-LL-124-01, §6 ‘An example using the RUWE’ — where 1.4 is read off a histogram of 338 833 sources nominally within 100 pc, cut at parallax significance > 10; the note's Conclusions do not contain the number",
   "provenance_note": "Transcribed from circulation-measure-ruwe.py (tick 21, 2026-08-01), whose result is landed in circulation-measure-ruwe.csv. Nothing here is new: the profile is the same instrument written down where it can be replaced. The comment in that script about the two Lindegren documents being one character apart in most bibliographies is the reason `cite_lindegren` and `cite_tn` are separate flags, and the reason every load-bearing hit is hand-read.",
   "window": 420,
-  "term": "(?:\\bRUWE\\b|\\bruwe\\b|re-?normali[sz]ed\\s+unit[- ]weight\\s+error)",
+  "term": "(?:(?<![A-Za-z0-9])RUWE(?![A-Za-z])|(?<![A-Za-z0-9])ruwe(?![A-Za-z])|re-?normali[sz]ed\\s+unit[- ]weight\\s+error)",
   "rel": "(?:<|>|=|less\\s+than|smaller\\s+than|lower\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|below|above|exceed(?:ing|s)?|of|up\\s+to|at\\s+most|at\\s+least|under|over|worse\\s+than|better\\s+than)",
   "site_patterns": [
-    "{TERM}[^.;:\\n]{0,50}?{REL}\\s*(\\d(?:\\.\\d+)?)\\b",
+    "{TERM}{GAP}{REL}\\s*(\\d(?:\\.\\d+)?)\\b",
     "(\\d(?:\\.\\d+)?)\\s*(?:<|>)\\s*{TERM}"
   ],
   "flags": {
@@ -39,10 +39,26 @@
   },
   "deriving_flag": "cite_tn",
   "targets": [
-    {"name": "tn", "pattern": "LL-?\\s?124|GAIA-C3-TN|lindegren.{0,12}(?:tech|note)|re-?normali[sz](?:ing|ation).{0,20}chi"},
-    {"name": "lind_dr2", "pattern": "lindegren[^,\\s]*(?:2018|18)\\b|2018A&A\\.\\.\\.616A\\.\\.\\.2L"},
-    {"name": "lind_edr3", "pattern": "lindegren[^,\\s]*(?:2021|21)\\b|2021A&A\\.\\.\\.649A\\.\\.\\.2L"},
-    {"name": "fabricius", "pattern": "fabricius"},
-    {"name": "gaia_generic", "pattern": "gaia[-_]?(?:collab|edr3|dr3|dr2|mission|brown|vallenari|prusti)|edr3astrom|dr3astrom|_astrometry|astrometry_"}
-  ]
+    {
+      "name": "tn",
+      "pattern": "LL-?\\s?124|GAIA-C3-TN|lindegren.{0,12}(?:tech|note)|re-?normali[sz](?:ing|ation).{0,20}chi"
+    },
+    {
+      "name": "lind_dr2",
+      "pattern": "lindegren[^,\\s]*(?:2018|18)\\b|2018A&A\\.\\.\\.616A\\.\\.\\.2L"
+    },
+    {
+      "name": "lind_edr3",
+      "pattern": "lindegren[^,\\s]*(?:2021|21)\\b|2021A&A\\.\\.\\.649A\\.\\.\\.2L"
+    },
+    {
+      "name": "fabricius",
+      "pattern": "fabricius"
+    },
+    {
+      "name": "gaia_generic",
+      "pattern": "gaia[-_]?(?:collab|edr3|dr3|dr2|mission|brown|vallenari|prusti)|edr3astrom|dr3astrom|_astrometry|astrometry_"
+    }
+  ],
+  "repair_0_5": "F2 (2026-08-09): the term's boundaries were \\b, which fails against an underscore because _ is a word character — a subscripted identifier such as ruwe_2<1.4 was not a term match and its stated threshold was invisible. The boundaries are now (?<![A-Za-z0-9]) and (?![A-Za-z]), so a subscript or an index digit is admitted and an embedding letter still is not. F1: the site patterns take the engine's {GAP}, whose period rule lets a site cross an intervening decimal number."
 }
