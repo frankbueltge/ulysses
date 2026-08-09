@@ -1,0 +1,407 @@
+{
+ "tick": 50,
+ "preregistered": false,
+ "source": "handread-tick47.csv",
+ "literatures": [
+  {
+   "literature": "gaia",
+   "profile": "ruwe-1.4",
+   "by_class": {
+    "A": {
+     "n": 5,
+     "sites_0_4": 0,
+     "sites_0_5": 0,
+     "no_source": 0
+    },
+    "B": {
+     "n": 4,
+     "sites_0_4": 0,
+     "sites_0_5": 4,
+     "no_source": 0
+    },
+    "C": {
+     "n": 3,
+     "sites_0_4": 0,
+     "sites_0_5": 0,
+     "no_source": 0
+    }
+   }
+  },
+  {
+   "literature": "mcmc",
+   "profile": "rhat-1.1",
+   "by_class": {
+    "A": {
+     "n": 8,
+     "sites_0_4": 0,
+     "sites_0_5": 0,
+     "no_source": 0
+    },
+    "C": {
+     "n": 4,
+     "sites_0_4": 0,
+     "sites_0_5": 1,
+     "no_source": 0
+    }
+   }
+  },
+  {
+   "literature": "cv",
+   "profile": "iou-0.5",
+   "by_class": {
+    "B": {
+     "n": 4,
+     "sites_0_4": 0,
+     "sites_0_5": 3,
+     "no_source": 0
+    },
+    "A": {
+     "n": 3,
+     "sites_0_4": 0,
+     "sites_0_5": 0,
+     "no_source": 0
+    },
+    "C": {
+     "n": 5,
+     "sites_0_4": 0,
+     "sites_0_5": 1,
+     "no_source": 0
+    }
+   }
+  }
+ ],
+ "papers": [
+  {
+   "literature": "gaia",
+   "arxiv": "2302.02611",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "ruwe & astrometric quality flag \u2014 the released table's column description; the number is given a quality role and no criterion is stated"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2109.11951",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "Another indicator that the Gaia solution is strongly perturbed comes from the RUWE parameter, which is as high as 16.1 for A. It is not clear how much the Gaia data can be trusted"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2306.03140",
+   "class": "B",
+   "fault": "F1",
+   "sites_0_4": 0,
+   "sites_0_5": 1,
+   "evidence": "the Renormalised Unit Weight Error (RUWE) for this source is 34.676, far above the limit of > 1.4 for poor astrometric fits suggested by [Lindegren18] \u2014 threshold AND deriving document present, site m"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2312.10158",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "the RUWE values for both components are relatively low, which indicates reliable astrometric estimations from Gaia"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2307.05421",
+   "class": "B",
+   "fault": "F1",
+   "sites_0_4": 0,
+   "sites_0_5": 2,
+   "evidence": "(ruwe) for these stars amounted to 3.62 and 2.51, values that are much greater than the cut-off of 1.4 suggested by [Fabricius21] \u2014 a displaced attribution the tick-35 count never saw"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2312.12827",
+   "class": "B",
+   "fault": "F2+F3",
+   "sites_0_4": 0,
+   "sites_0_5": 5,
+   "evidence": "ruwe_2<1.4 ... texttt ruwe \\textless 1.4 \u2014 subscripted identifier and LaTeX relation"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2212.11971",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "%RUWE&Re-normalised unit-weight error \u2014 the sole occurrence is a commented-out line in an acronym table"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2206.11275",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "a seeming excess in the RUWE can be due to stellar variability rather than binarity per se ... RUWE values for variable stars are difficult to interpret"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2310.06295",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "astrometric excess noise, RUWE, BPRP excesses and signal to noise ratios ... for all sources \u2014 an input feature of a scoring model; no threshold is implied, the boundary is learned"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2304.12490",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "\\nocolhead RUWE \u2014 a table column specification, and the column is suppressed"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2305.03557",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "companions that have poor astrometric fits according to their large values of RUWE \u2014 and the deriving document is cited beside the table column, not beside a number"
+  },
+  {
+   "literature": "gaia",
+   "arxiv": "2404.18099",
+   "class": "B",
+   "fault": "F2",
+   "sites_0_4": 0,
+   "sites_0_5": 2,
+   "evidence": "ruwe_1<1.4 and ruwe_2<1.4 \u2014 subscripted identifiers"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2605.09064v1",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "assessed convergence using standard diagnostics (R-hat, effective sample size, trace plots)"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2509.02772v2",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 1,
+   "evidence": "||U - U_0 \\hat R || \u2014 \\hat R is an orthogonal matrix from a Davis-Kahan bound; a symbol collision, not the diagnostic"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2605.14565v2",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "All key parameters exhibited satisfactory convergence behavior with \\widehat R values close to one \u2014 the number replaced by a word, and a table column of R-hat values with no criterion"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2605.29193v1",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "we computed the Gelman-Rubin and Brooks diagnostics which compare within- and between-chain variances of each parameter"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2605.21782v1",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "Stored samples are used to compute Gelman-Rubin statistics to assess convergence across parallel chains"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2605.30722v2",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "Practitioners rely on heuristic diagnostics---trace plots, the \\hat R statistic ... that can detect certain pathologies but cannot certify convergence"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2604.02304v1",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "\\widehat R _0^(K) and \\widehat R _1^(K) \u2014 correlation quantities in a VAE penalty; a symbol collision"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2601.22911v2",
+   "class": "C",
+   "fault": "F4",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "It follows that R \\ll \\phi \\circ \\P \u2014 the term regex matched the letters `hat R` inside `that R`; the paper never mentions the diagnostic"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2605.27889v2",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "in the joint model the maximum \\hat R is 1.01 and there were no divergent transitions \u2014 the achieved value is reported, the criterion it is being compared against is not"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2605.12901v1",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "Convergence and sampling efficiency are assessed using rank-normalised potential scale reduction, bulk and tail effective sample sizes"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2606.18806v1",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "Convergence is assessed using trace diagnostics, the potential scale reduction factor (\\hat R), and effective sample size criteria"
+  },
+  {
+   "literature": "mcmc",
+   "arxiv": "2508.18413v2",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "We do not use traditional MCMC metrics like effective sample size (ESS) or \\hat R because such metrics mainly target the autocorrelatedness \u2014 an explicit non-use"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2606.15427v1",
+   "class": "B",
+   "fault": "F5",
+   "sites_0_4": 0,
+   "sites_0_5": 2,
+   "evidence": "We report each at both 0.5 threshold and averaged over IoU thresholds from 0.5 to 0.95 ... each at the 0.50 IoU threshold \u2014 the value stands before the term"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2603.25524v1",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "we validate against 688 annotations, with a mean 0.84 intersection over union (IOU) \u2014 an adequacy claim with no criterion"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2606.28398v1",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "downstream visual task accuracy (e.g., object detection mAP, semantic segmentation mIoU) \u2014 named in future work only"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2607.02724v1",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "enforcing a minimum 150 m separation to reduce spatial overlap \u2014 `overlap` in its ordinary sense; the profile's term is broad"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2606.29136v1",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "In other tests, AP _ 0.5 is uniformly used as the reported detection performance metric \u2014 the number lives only inside the metric's name, never asserted as a threshold"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2607.05148v2",
+   "class": "B",
+   "fault": "F7",
+   "sites_0_4": 0,
+   "sites_0_5": 1,
+   "evidence": "report mAP _ 50, mAP _ 75, and mAP averaged over IoU thresholds from 0.50 to 0.95 \u2014 a sweep states threshold values; `from` is not a relation the profile knows"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2606.12826v1",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 6,
+   "evidence": "mIoU _ ins (%) & mIoU _ 01 (%) & mAP (%) \u2014 IoU as a segmentation score, not a correctness criterion; nothing is decided by a threshold"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2605.19213v1",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "the acquisition regions of Scene 1 to Scene 3 partially overlap \u2014 ordinary sense"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2607.00129v1",
+   "class": "B",
+   "fault": "F7",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "mAP, following COCO protocol across IoU thresholds 0.5-0.95 \u2014 values stated; and elsewhere `with the IoU > \\beta`, a criterion whose threshold is a free symbol"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2606.22702v1",
+   "class": "A",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "Performance is measured using average precision (AP) across multiple IoU thresholds and object scales \u2014 thresholds invoked, no value anywhere"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2606.25652v1",
+   "class": "C",
+   "fault": "",
+   "sites_0_4": 0,
+   "sites_0_5": 0,
+   "evidence": "matching predictions to GT by 2D centre distance rather than by IoU, the latter being unstable \u2014 an explicit non-use"
+  },
+  {
+   "literature": "cv",
+   "arxiv": "2607.08076v1",
+   "class": "B",
+   "fault": "F6",
+   "sites_0_4": 0,
+   "sites_0_5": 2,
+   "evidence": "The m AP _ 50 metric represents the mean AP under IoU of 0.50 [zhao2024removal] \u2014 a stated threshold carrying a citation; the CV profile's relation list has no bare `of`"
+  }
+ ],
+ "summary": {
+  "class_B_total": 8,
+  "class_B_found_by_0_5": 7,
+  "class_B_found_by_0_4": 0,
+  "class_A_total": 16,
+  "class_A_falsely_sited_by_0_5": 0,
+  "class_A_falsely_sited_by_0_4": 0
+ }
+}
