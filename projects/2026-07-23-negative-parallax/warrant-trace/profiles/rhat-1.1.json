@@ -5,10 +5,10 @@
   "deriving_document": "Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A. & Rubin, D. B., 'Bayesian Data Analysis', 3rd ed. (2013), section 11.5 'Stopping the simulations', read at source 2026-08-05 in the authors' free electronic edition: 'We recommend computing the potential scale reduction for all scalar estimands of interest; if R-hat is not near 1 for all of them, continue the simulation runs (perhaps altering the simulation algorithm itself to make the simulations more efficient, as described in the next section). The condition of R-hat being ‘near’ 1 depends on the problem at hand, but we generally have been satisfied with setting 1.1 as a threshold.' The number is a reading stated inside a textbook section and hedged in the same sentence; the same book applies it as a criterion in its own worked examples ('R-hat < 1.1 for all parameters').",
   "provenance_note": "Gelman & Rubin (1992), Statistical Science 7(4), 457–472, doi:10.1214/ss/1177011136 — the paper the diagnostic is named after and the document the threshold is usually attributed to — was read in full at source (publisher's scan, 16 pages, no text layer, read as page images) on 2026-08-05 and STATES NO NUMERIC THRESHOLD. Its operative sentences are 'once R-hat is near 1 for all scalar estimands of interest' (§2.2, p. 461) and 'In practice, we are concerned if the scale reduction is large, but not if it is small' (§3.7, p. 465). Vehtari et al. (2021), doi:10.1214/20-BA1221, arXiv:1903.08008, derives the rival value 1.01 and attributes the older threshold to that 1992 paper: 'This threshold is much tighter than the one recommended by Gelman & Rubin (1992).' So `cite_gr1992` is NOT the deriving flag: it records where the field points, and the deriving flag records where the number is. Neither flag is evidence on its own — every site at the focus value is hand-read against the citing paper's own bibliography, as at tick 35, where a flag built to identify a deriving document returned 0 of 38 and the hand-count found 3.",
   "window": 420,
-  "term": "(?:(?:wide)?hat\\s*\\{?\\s*R\\b|\\bR-?hat\\b|\\bRhat\\b|R̂|\\bPSRF\\b|potential\\s+scale\\s+reduction(?:\\s+factor)?|Gelman[-–\\s]?Rubin(?:\\s+(?:statistic|diagnostic|criterion|convergence))?)",
-  "rel": "(?:<|>|=|less\\s+than|smaller\\s+than|lower\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|below|above|exceed(?:ing|s)?|of|up\\s+to|at\\s+most|at\\s+least|under|over|worse\\s+than|better\\s+than)",
+  "term": "(?:(?<![A-Za-z])(?:wide)?hat\\s*\\{?\\s*R\\b|\\bR-?hat\\b|\\bRhat\\b|R̂|\\bPSRF\\b|potential\\s+scale\\s+reduction(?:\\s+factor)?|Gelman[-–\\s]?Rubin(?:\\s+(?:statistic|diagnostic|criterion|convergence))?)",
+  "rel": "(?:<|>|=|less\\s+than|smaller\\s+than|lower\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|below|above|exceed(?:ing|s)?|of|up\\s+to|at\\s+most|at\\s+least|under|over|worse\\s+than|better\\s+than|ranging\\s+from|from)",
   "site_patterns": [
-    "{TERM}[^.;:\\n]{0,50}?{REL}\\s*(\\d(?:\\.\\d+)?)\\b",
+    "{TERM}{GAP}{REL}\\s*(\\d(?:\\.\\d+)?)\\b",
     "(\\d(?:\\.\\d+)?)\\s*(?:<|>)\\s*{TERM}"
   ],
   "flags": {
@@ -64,10 +64,26 @@
   },
   "deriving_flag": "cite_bda",
   "targets": [
-    {"name": "bda", "pattern": "bayesian\\s+data\\s+analysis|\\bBDA\\s?[23]?\\b|gelman[^,\\s]*(?:2013|2014|2004|1995)|gelman.{0,30}carlin"},
-    {"name": "vehtari_2021", "pattern": "vehtari|1903\\.08008|BA1221|rank[-\\s]?normali[sz]"},
-    {"name": "gelman_rubin_1992", "pattern": "gelman.{0,14}rubin|gelman[^,\\s]*(?:1992|92)\\b|\\bGR9?2\\b"},
-    {"name": "brooks_gelman_1998", "pattern": "brooks.{0,14}gelman|brooks[^,\\s]*(?:1998|98)\\b"},
-    {"name": "software", "pattern": "\\bstan\\b|rstan|cmdstan|pymc|\\bjags\\b|\\bbrms\\b|nimble|numpyro|winbugs|openbugs|coda\\b"}
-  ]
+    {
+      "name": "bda",
+      "pattern": "bayesian\\s+data\\s+analysis|\\bBDA\\s?[23]?\\b|gelman[^,\\s]*(?:2013|2014|2004|1995)|gelman.{0,30}carlin"
+    },
+    {
+      "name": "vehtari_2021",
+      "pattern": "vehtari|1903\\.08008|BA1221|rank[-\\s]?normali[sz]"
+    },
+    {
+      "name": "gelman_rubin_1992",
+      "pattern": "gelman.{0,14}rubin|gelman[^,\\s]*(?:1992|92)\\b|\\bGR9?2\\b"
+    },
+    {
+      "name": "brooks_gelman_1998",
+      "pattern": "brooks.{0,14}gelman|brooks[^,\\s]*(?:1998|98)\\b"
+    },
+    {
+      "name": "software",
+      "pattern": "\\bstan\\b|rstan|cmdstan|pymc|\\bjags\\b|\\bbrms\\b|nimble|numpyro|winbugs|openbugs|coda\\b"
+    }
+  ],
+  "repair_0_5": "F4 (2026-08-09): the hat-R alternative had no left boundary, so the letters 'hat R' inside the ordinary English 'that R' counted as a mention of the statistic. This is the one fault of the seven that OVERSTATES: it inflates the denominator of every rate computed over mentioning papers. A left boundary (?<![A-Za-z]) is added; the LaTeX form \\hat{R} is unaffected, since a backslash is not a letter. F7: 'from' and 'ranging from' join the relation list so that a swept threshold yields a site — its LOWER BOUND ONLY, which is a stated limitation and not a silent one. F1: the site patterns take {GAP}."
 }

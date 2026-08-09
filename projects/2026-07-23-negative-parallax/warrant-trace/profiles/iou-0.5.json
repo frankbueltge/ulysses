@@ -1,17 +1,20 @@
 {
   "id": "iou-0.5",
   "focus_value": "0.5",
-  "focus_equivalents": ["50"],
+  "focus_equivalents": [
+    "50"
+  ],
   "statistic": "the bounding-box overlap ratio a_o = area(Bp n Bgt) / area(Bp u Bgt) — intersection over union, IoU — which decides whether a detection counts as correct. Unlike the other three thresholds this instrument has read, it is not a statistic computed on data but a stipulation of an evaluation protocol; and this literature writes the same threshold in two units, 0.5 and 50%, which is why the profile carries focus_equivalents (instrument 0.4).",
   "deriving_document": "Everingham, M., Van Gool, L., Williams, C. K. I., Winn, J. & Zisserman, A. (2010), 'The PASCAL Visual Object Classes (VOC) Challenge', International Journal of Computer Vision 88(2), 303-338, doi:10.1007/s11263-009-0275-7, section 4.2 'Bounding box evaluation'. Read at source 2026-08-08 (https://homepages.inf.ed.ac.uk/ckiw/postscript/ijcv_voc09.pdf, sha256 bda24d6d51d58815b6816cb483394356f692d897002c280014fa4fd4bbdc72cd, pdftotext 24.02.0 -layout, quotations checked against the PDF): 'To be considered a correct detection, the area of overlap ao between the predicted bounding box Bp and ground truth bounding box Bgt must exceed 0.5 (50%) by the formula [...]' followed immediately by the reason: 'The threshold of 50% was set deliberately low to account for inaccuracies in bounding boxes in the ground truth data, for example defining the bounding box for a highly non-convex object, e.g. a person with arms and legs spread, is somewhat subjective.'",
   "provenance_note": "The warrant here is unusually complete, which is the point of choosing it. The deriving document states the number, states the reason (annotation noise), names the limitation (box subjectivity), and then MEASURES ITS OWN THRESHOLD'S SENSITIVITY in section 6.2.3 'Evaluation of the overlap threshold': 'We evaluated the effect the overlap threshold has on the measured AP by varying the threshold [...] the measured AP drops steeply for thresholds above 50%, indicating that none of the methods give highly accurate bounding box predictions.' A stated reason, a named limitation and a published sensitivity analysis: the question is whether any of it travels. LIMIT ON THE ATTRIBUTION, recorded before the count: the 0.5 criterion is older than this paper — it was already the rule of the VOC challenges of 2005-2007 whose results the paper reports. This is the document that states criterion, formula, justification and sensitivity together and that the citing literature can cite; it is not claimed as the number's first appearance, and no count rests on that claim.",
   "window": 420,
   "term": "(?:\\bIoUs?\\b|\\bmIoU\\b|intersection[-\\s]?over[-\\s]?union|Jaccard(?:\\s+(?:index|similarity|coefficient))?|(?:bounding[-\\s]?box|bbox|box|mask)\\s+overlap|\\boverlaps?\\b)",
-  "rel": "(?:<|>|=|at\\s+least|no\\s+less\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|above|below|less\\s+than|smaller\\s+than|lower\\s+than|exceed(?:ing|s)?|thresholds?\\s+(?:of|at|is|was|set\\s+to)|set\\s+to|fixed\\s+at|of\\s+at\\s+least)",
+  "rel": "(?:<|>|=|at\\s+least|no\\s+less\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|above|below|less\\s+than|smaller\\s+than|lower\\s+than|exceed(?:ing|s)?|thresholds?\\s+(?:of|at|is|was|set\\s+to)|set\\s+to|fixed\\s+at|of\\s+at\\s+least|ranging\\s+from|from|of)",
   "site_patterns": [
-    "{TERM}[^.;:\\n]{0,50}?{REL}\\s*(\\d{1,3}(?:\\.\\d+)?)\\s*%",
-    "{TERM}[^.;:\\n]{0,50}?{REL}\\s*(\\d{1,3}(?:\\.\\d+)?)\\b",
-    "(\\d(?:\\.\\d+)?)\\s*(?:<|>)\\s*{TERM}"
+    "{TERM}{GAP}{REL}\\s*(\\d{1,3}(?:\\.\\d+)?)\\s*%",
+    "{TERM}{GAP}{REL}\\s*(\\d{1,3}(?:\\.\\d+)?)\\b",
+    "(\\d(?:\\.\\d+)?)\\s*(?:<|>)\\s*{TERM}",
+    "(\\d{1,3}(?:\\.\\d+)?)\\s*%?\\s*(?:\\w+\\s+){0,2}{TERM}\\s*(?:threshold|criterion|cut-?off|cut)"
   ],
   "flags": {
     "cite_voc": {
@@ -66,10 +69,26 @@
   },
   "deriving_flag": "cite_voc",
   "targets": [
-    {"name": "voc", "pattern": "everingham|pascal.{0,8}voc|s11263-009-0275-7"},
-    {"name": "coco", "pattern": "\\bcoco\\b|1405\\.0312|lin.{0,14}2014"},
-    {"name": "detector", "pattern": "girshick|\\brcnn\\b|redmon|\\byolo\\b|1506\\.01497|1311\\.2524|retinanet|\\bdetr\\b"},
-    {"name": "iou_loss", "pattern": "rezatofighi|\\bgiou\\b|\\bdiou\\b|\\bciou\\b"},
-    {"name": "software", "pattern": "mmdetection|detectron2?|pycocotools|ultralytics|\\bmmcv\\b|openmmlab"}
-  ]
+    {
+      "name": "voc",
+      "pattern": "everingham|pascal.{0,8}voc|s11263-009-0275-7"
+    },
+    {
+      "name": "coco",
+      "pattern": "\\bcoco\\b|1405\\.0312|lin.{0,14}2014"
+    },
+    {
+      "name": "detector",
+      "pattern": "girshick|\\brcnn\\b|redmon|\\byolo\\b|1506\\.01497|1311\\.2524|retinanet|\\bdetr\\b"
+    },
+    {
+      "name": "iou_loss",
+      "pattern": "rezatofighi|\\bgiou\\b|\\bdiou\\b|\\bciou\\b"
+    },
+    {
+      "name": "software",
+      "pattern": "mmdetection|detectron2?|pycocotools|ultralytics|\\bmmcv\\b|openmmlab"
+    }
+  ],
+  "repair_0_5": "F6 (2026-08-09): the relation list carried no bare 'of', which the other three profiles have carried since tick 21 — so 'IoU of 0.50' was not a site, and one of the sites it hid carries a citation. The CV profile was the inconsistent one and is brought into line. F5: a new site pattern for a value standing BEFORE the term in prose ('each at the 0.50 IoU threshold'), which 0.4 admitted only for the signs < and >. It requires the criterion noun after the term, so a number merely standing near the word IoU is not a site. F7: 'from' and 'ranging from' join the relation list, so a sweep ('IoU thresholds from 0.50 to 0.95') yields a site — its LOWER BOUND ONLY; the upper bound and the interior points are not recorded, and that is a limitation of this repair rather than a property of the literature. F1: {GAP}."
 }
