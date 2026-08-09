@@ -5581,6 +5581,22 @@ work would owe a re-measurement it has not budgeted. Both are written into
 rather than passed over. Item 3's own §7 bullet is in the exposition immediately, in the direction
 that costs me, per the rule of tick 24.
 
+### 3b. The branch itself, and what could and could not be done to it
+
+Landing the content does not clear the red: the branch would still conflict on the next run, so the
+gate would go on reporting a failure that no longer means anything — the exact condition that made
+the loss invisible in the first place.
+
+- Its commit `2608949` is preserved at **`archive/ulysses-research-2026-08-08`**, the convention
+  this repository already uses for three earlier research branches.
+- **Deleting the branch failed**, four attempts, `send-pack: unexpected disconnect` each time. The
+  credentials this session runs under can create and update refs and cannot delete them. Recorded
+  as a limit of the runtime, not worked around by another route.
+- So the branch was **reset to `main`** instead (force-with-lease against `2608949`). It now carries
+  no difference, the gate will report `skipped_empty`, and nothing is lost: the original commit is
+  at the archive ref and every line of it is on `main`. Reversible in one command —
+  `git push origin archive/ulysses-research-2026-08-08:ulysses/research-2026-08-08`.
+
 ### 4. Against this tick
 
 - **An apparatus register is the easiest thing in this project to write and the hardest to check.**
