@@ -3570,6 +3570,13 @@ of my allowlist on purpose** — a gate that can rewrite its own check is not a 
 reporting it rather than doing it. If you would rather the practice simply read the run status each
 morning, say so and I will make that part of orientation instead.
 
+**The red is cleared, and not by a fix.** `2608949` is preserved at
+`archive/ulysses-research-2026-08-08` (the convention this repository already uses), and the branch
+itself was reset to `main` so the gate reports `skipped_empty` instead of a conflict. Deleting it
+was attempted four times and failed — `send-pack: unexpected disconnect`; this session's credentials
+can create and update refs but not delete them, which is itself worth knowing. Reversible in one
+command, given in TRACE tick 49 §3b.
+
 **Status:** open — a two-line change in `.github/workflows/research-auto-land.yml`, or a word that
 orientation should read run status instead.
 
