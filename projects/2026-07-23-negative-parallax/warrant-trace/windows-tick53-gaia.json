@@ -1,0 +1,861 @@
+[
+ {
+  "arxiv": "2111.11725",
+  "read_order": 1,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 36344,
+    "match": "ruwe",
+    "text": "mra_error & Standard error of proper motion in right ascension direction & mas/year\\\\\npmdec & Proper motion in declination direction & mas/year\\\\\npmdec_error & Standard error of proper motion in declination direction & mas/year\\\\\nruwe & Renormalised unit weight error & --\\\\\nphot_g_mean_flux_over_error & G-band mean flux divided by its error & --\\\\\nphot_g_mean_mag & G-band mean magnitude & --\\\\\nphot_bp_mean_flux_over_error & BP-band mean flux divided by its err"
+   }
+  ]
+ },
+ {
+  "arxiv": "2212.11971",
+  "read_order": 2,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 241881,
+    "match": "RUWE",
+    "text": "c Pole \\\\\nNSL & Nominal Scanning Law \\\\\nNSS & Non-Single Star \\\\\n%PMa&proper motion anomaly \\\\\nPSF & Point Spread Function (two dimensional) \\\\\n%RGB&Red Giant Branch (star) \\\\\n%RMS&Root-Mean-Square \\\\\nRP & Gaia Red Photometer \\\\\n%RUWE&Re-normalised unit-weight error \\\\\nRV & Radial Velocity \\\\\nRVS&Radial Velocity Spectrometer (instrument) \\\\\nSB & Spectroscopic Binary \\\\\nSB1&Single-lined Spectroscopic Binary \\\\\nSB2&Double-lined Spectroscopic Binary \\\\\nSEAPipe & "
+   }
+  ]
+ },
+ {
+  "arxiv": "2110.13382",
+  "read_order": 3,
+  "state": "measured",
+  "n_total": 9,
+  "windows": [
+   {
+    "at": 80395,
+    "match": "RUWE",
+    "text": "he peak of the distribution located at \\sim 150 pc, and a long tail toward larger distances (truncated in the figure).\n\n\\begin figure \n\\plotone hist.png \n\\figcaption Distributions of the Gaia EDR3 brightness, color, distance, and RUWE for the eclipsing binaries in the catalog. The histograms are truncated on the right (and some on the left) for clarity.\\label fig:gaiahist \n\\end figure \n\nThe bottom panel displays the distribution of the Renormalized Unit Weight"
+   },
+   {
+    "at": 81718,
+    "match": "RUWE",
+    "text": "jor axis of the photocentric motion. For the binaries in the catalog we do not have sufficient information to estimate the semimajor axis of the photocenter. However, we can place the EB sample into the broader context of typical RUWE values for Gaia stars across the HR diagram. This is shown in Figure \\ref fig:gaiacmd1 , where the left panel represents the RUWE in grayscale for the \\sim 1 million Gaia EDR3 stars within 400 pc having 5 < G < 19 and |b| > 60^\\c"
+   },
+   {
+    "at": 85236,
+    "match": "RUWE",
+    "text": "tainly be unresolved; hence, it may not be surprising that <<CITE:El-Badry:2021>> did not report resolved tertiaries for these systems. More importantly, we re-emphasize that the EB sample clearly exhibits systematically elevated RUWE values in Gaia (Figure \\ref fig:gaiacmd1 ), which is likely to be a direct manifestation of unresolved tertiaries in many cases, especially for those EBs with P<3 d <<CITE:Tokovinin:2006>> . \n\n\n it em[Use calibrated 2-min cadence"
+   }
+  ]
+ },
+ {
+  "arxiv": "2304.07158",
+  "read_order": 4,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 38583,
+    "match": "ruwe",
+    "text": "venumber & mathrm \\mu m^ -1 \\\\\n texttt GEDR3_pseudocolour & \\gaia EDR3 pseudocolour & mathrm \\mu m^ -1 \\\\\n texttt GEDR3_astrometric_params_solved & \\gaia EDR3 number of astrometric parameters solved & mathrm None \\\\\n texttt GEDR3_ruwe & \\gaia EDR3 renormalised unit weight error & mathrm None \\\\\n texttt GEDR3_ipd_frac_multi_peak & \\gaia EDR3 percent of successful-IPD windows with more than one peak & mathrm None \\\\\n texttt GEDR3_ipd_gof_harmonic_amplitude & \\ga"
+   }
+  ]
+ },
+ {
+  "arxiv": "2601.02250",
+  "read_order": 5,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 57460,
+    "match": "re-normalised unit weight error",
+    "text": "remarkably close to the zero-age He-MS of <<CITE:Paczynski1971>> , irrespective of whether they belong to the iHe or eHe class, suggesting that most are in a core-helium burning phase. \n\nNotably, excluding three objects with high re-normalised unit weight error values from textit Gaia (RUWE; Sect. \\ref low_mass_sdbs ), as well as the pre-ELM candidates CPD-20 1123 and EVR-CB-001 (see Sect. \\ref low_lum_sdbs ), 22 sdB stars are underluminous and are located below the canonical EHB in bot"
+   },
+   {
+    "at": 72606,
+    "match": "RUWE",
+    "text": "tit Gaia effects at greater distances. Our sample is largely unaffected, with a mean parallax uncertainty of only 1.54% . The exceptions are EC 20106-5248, PG 1634+061, and RL 105, with parallax uncertainties of 3 to 6 % and high RUWE values ( 2 to 3 ). Their parallax-derived masses fall below 0.4 M_ \\odot and are likely unreliable due to poor textit Gaia astrometry, while their spectroscopic surface gravities place them on the EHB and should not be affected. "
+   },
+   {
+    "at": 100095,
+    "match": "RUWE",
+    "text": "such as more massive sdBs originating from intermediate-mass progenitors, whose core-helium burning occurs at luminosities above the 0.5 \\msun\\ EHB, though their lifetimes would be short. \nThree sdB stars were removed due to high RUWE values (Sect. \\ref low_mass_sdbs ), and several stars lie higher up on the EHB beyond the tracks (grey circles), but alone they are not sufficient to explain the 2-3 fold discrepancy because if on the EHB they would count less to"
+   }
+  ]
+ },
+ {
+  "arxiv": "2104.13148",
+  "read_order": 6,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 211867,
+    "match": "renormalized unit weight error",
+    "text": " identified 46 Vela OB1 sources with textit Gaia DR2 counterparts. We cross-matched these 46 sources with textit Gaia EDR3 and obtained a counterpart for all of them. However, we rejected 7 sources with poor astrometric solution (renormalized unit weight error, RUWE,\\footnote https://www.cosmos.esa.int/web/gaia/dr2-known-issues > 1.4). \n\nWe assumed that all Vela OB1 members have similar distances (parallaxes) and kinematic (proper motions). We therefore applied an iterative 3 sigma cli"
+   }
+  ]
+ },
+ {
+  "arxiv": "2601.07184",
+  "read_order": 7,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 14855,
+    "match": "ruwe",
+    "text": "F_G is \n the flux excess.\n \n it em Reliable astrometry: We discarded sources with bad astrometry, often caused by multiplicity. To do so, we followed the prescription from <<CITE:gdr3_validation_2021>> and applied the condition \n ruwe\\geqslant 1.4 , where ruwe is the re-normalized unit weighted \n error <<CITE:Lindegren2018>> . This condition affects the entire sample \n and removes potential multiple systems that will not be included in the IMFs. We show in Sec"
+   },
+   {
+    "at": 113918,
+    "match": "ruwe",
+    "text": "ogue, and quality conditions, which do not define the sample of interest in itself but ensure some degree of quality in the data. In our specific case, one selection condition is varpi \\geqslant 5 mas and one quality condition is ruwe \\leqslant 1.4 . \n\nIf we assume that the number of contaminants in the sample resulting from applying all conditions is negligible, we can estimate the real completeness as f=n_ s\\cap q /n_ \\text real with n_ s\\cap q the number of"
+   }
+  ]
+ },
+ {
+  "arxiv": "2206.11275",
+  "read_order": 8,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 12423,
+    "match": "renormalized unit weight error",
+    "text": "errors, to be correlated with binarity. <<CITE:Laos20>> found that those keyword values correlated strongly with the presence of binary companions within 1.5 mas in adaptive optics imaging. <<CITE:Belokurov20>> used instead the ``renormalized unit weight error\", analogous to the reduced \\chi^ 2 of the astrometric fit (Renormalised Unit Weight Error(RUWE), <<CITE:Lindegren18>> ) as a proxy for stellar multiplicity. They identified that two regions of the Hertzsprung-Russell diagram cont"
+   },
+   {
+    "at": 44882,
+    "match": "RUWE",
+    "text": "he radial velocity noise is genuinely high for a reason other than orbital reflex motion. This contamination problem was considered for \\Gaia\\ astrometric noise by <<CITE:Belokurov20>> , who cautioned that a seeming excess in the RUWE can be due to stellar variability rather than binarity textit per se . For this reason, they described, RUWE values for variable stars are difficult to interpret. The RUWE values are additionally elevated for B stars, and the red"
+   },
+   {
+    "at": 75821,
+    "match": "RUWE",
+    "text": "aia\\ RV observations included in <<CITE:Pourbaix_2004>> , we recover 82.8% . Intriguingly, this figure is similarly to the \\sim 75% recovery of binarity in the SB9 sample by <<CITE:Belokurov20>> , using \\Gaia's astrometric noise (RUWE) rather than radial velocity noise. One interpretation is preference of SB9 binaries, as with other binaries detected by radial velocity, to reside closer to edge-on geometries. Such edge-on configurations would present relativel"
+   }
+  ]
+ },
+ {
+  "arxiv": "2405.13395",
+  "read_order": 9,
+  "state": "measured",
+  "n_total": 7,
+  "windows": [
+   {
+    "at": 25724,
+    "match": "RUWE",
+    "text": " the cluster center and radius (\\alphac, \\deltac, r ), central proper motion and radius (\\pmrac, \\pmdecc, r_\\mu ), color range with respect to a reference isochrone [ \\Delta(\\BPRP) ], and possibly other quantities such as maximum RUWE, \\Cstar, and parallax uncertainty sigma e. A code written in IDL is then used to calculate the distance d iteratively excluding those objects whose external parallaxes are more than 3 sigma e\\ away from the group parallax pi g, a"
+   },
+   {
+    "at": 50254,
+    "match": "RUWE",
+    "text": "\\\n2 & 7 & \\phantom 2 0.6 & & \\pmrac & = & - 2.68 mas/a \\\\\n3 & 10 & \\phantom 2 0.6 & & \\pmdecc & = & - 0.66 mas/a \\\\\n4 & 10 & 20.0 & & \\Cstar & < & \\phantom - 0.40 \\\\\n\\cline 1-3 \n & & & & \\Delta(\\BPRP) & > & - 0.50 mag \\\\\n & & & & RUWE & < & \\phantom - 5 \\\\\n\\cline 5-7 \n\\end tabular \n\\addtolength \\tabcolsep 2pt \n\\end table \n\n\\begin table* \n\\caption Membership and distance results for the four samples. \n\\centerline \n\\renewcommand \\arraystretch 1.2 \n\\begin tabular"
+   },
+   {
+    "at": 103929,
+    "match": "RUWE",
+    "text": "it em \\rc: Core radius for the King profile.\n it em rm u: Filtering separation from the center in proper motion, see Villafranca papers. \n it em \\RV: Ratio of monochromatic extinction to color excess, see <<CITE:Maiz24>> .\n it em RUWE: Renormalized Unit Weight Error.\n it em \\rho(r) : Stellar number density.\n it em sigma i: Individual textit Gaia (E)DR3 parallax/proper motion uncertainty, see Eqn. \\ref sigmae . \n it em sigma e: Individual textit Gaia (E)DR3 cor"
+   }
+  ]
+ },
+ {
+  "arxiv": "2505.12945",
+  "read_order": 10,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 50297,
+    "match": "RUWE",
+    "text": "ematics may be affected by additional motion <<CITE:dehnenbinney1998>> , therefore reducing the reliability of the membership probability. Within the texttt gr8stars sample, 75.1% of targets have a Renormalised Unit Weight Error (RUWE) between 0.8 and 1.2, indicating that a single star solution fits well to the astrometric data. Figure \\ref fig:toomre shows the resulting Toomre diagram of the texttt gr8stars sample, including targets for which we have not yet "
+   }
+  ]
+ },
+ {
+  "arxiv": "2309.13453",
+  "read_order": 11,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 99960,
+    "match": "ruwe",
+    "text": "within a distance rm ax from the Sun:\n\n\\noindent\\footnotesize texttt select ra, dec, l, b, ecl_lat, astrometric_params_solved, parallax, parallax_error, parallax_over_error, astrometric_excess_noise, astrometric_excess_noise_sig, ruwe, phot_g_mean_mag, phot_g_mean_flux, phot_g_mean_flux_error, phot_bp_mean_mag, phot_bp_mean_flux, phot_bp_mean_flux_error, phot_rp_mean_mag, phot_rp_mean_flux, phot_rp_mean_flux_error, phot_bp_rp_excess_factor, bp_rp, pseudocolour"
+   }
+  ]
+ },
+ {
+  "arxiv": "2510.02509",
+  "read_order": 12,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 13951,
+    "match": "RUWE",
+    "text": "using a Python function provided by M. Pantaleoni Gonz\u00e1lez (priv. comm.) to account for known systematics in the astrometric data. \\new The latter method inflates the uncertainties according to the Renormalised Unit Weight Error (RUWE) of the source, so the objects with poor astrometric solutions are assigned larger uncertainties. \n\nAs \\beta Pic lies approximately 20 \\textrm pc from the Sun, the largest sphere centred on \\beta Pic that fits within the GCNS cov"
+   }
+  ]
+ },
+ {
+  "arxiv": "2209.02731",
+  "read_order": 13,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 11502,
+    "match": "ruwe",
+    "text": " Gaia EDR3, in order to recover their astrometry, and their photometry in the textit Gaia bands (if available).\n Stringent quality cuts regarding large-scale systematics, binarity, or crowded regions using keywords such as texttt ruwe , texttt ipd_gof_harmonic_amplitude , texttt astrometric_excess_noise , etc were applied to textit Gaia astrometric and photometric data following the recommendations of <<CITE:Fabricius2021,Lindegren2021a>> , and <<CITE:Riello20"
+   }
+  ]
+ },
+ {
+  "arxiv": "2211.08463",
+  "read_order": 14,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 27889,
+    "match": "ruwe",
+    "text": "of_harmonic_amplitude & 3.61 \\\\\n astrometric_n_good_obs_al & 2.67 \\\\\n astrometric_n_obs_al & 2.65 \\\\\n scan_direction_mean_k1 & 2.53 \\\\\n parallax_error & 2.42 \\\\\n scan_direction_mean_k2 & 2.24 \\\\\n scan_direction_mean_k3 & 2.22 \\\\\n ruwe & 1.96 \\\\\n astrometric_excess_noise_sig & 1.84 \\\\\n astrometric_gof_al & 1.81 \\\\\n astrometric_excess_noise & 1.74 \\\\\n pmdec_error & 1.70 \\\\\n redChi2 & 1.64 \\\\\n scan_direction_strength_k1 & 1.57 \\\\\n astrometric_sigma5d_max & 1.50 \\"
+   },
+   {
+    "at": 33682,
+    "match": "ruwe",
+    "text": "width=1\\columnwidth] Figures/plxOverError.jpeg \n \\includegraphics[width=1\\columnwidth] Figures/plxError.jpeg \n \\newline\n \\includegraphics[width=1\\columnwidth] Figures/pmraError.jpeg \n \\includegraphics[width=1\\columnwidth] Figures/ruwe.jpeg \n \\caption Distributions of a subset of astrometric parameters taken from \\gaia\\ DR3 included in XGAPS (black solid lines). All but the texttt parallax_over_error values have been used for training the Random Forest classifi"
+   },
+   {
+    "at": 45569,
+    "match": "ruwe",
+    "text": "c_excess_noise & mas & Excess noise of the source from the textit Gaia astrometric solution\\\\\n texttt astrometric_excess_noise_sig & & Significance of excess noise of the source from the textit Gaia astrometric solution\\\\\n texttt ruwe & & Renormalised unit weight error \\\\\n texttt duplicated_source & & Source with multiple source identifiers in textit Gaia DR3 \\\\\n texttt phot_g_mean_flux & electron/s & textit Gaia DR3 G-band mean flux\\\\\n texttt phot_g_mean_flux"
+   }
+  ]
+ },
+ {
+  "arxiv": "2508.08374",
+  "read_order": 15,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 79849,
+    "match": "renormalized unit weight error",
+    "text": ", orbital models, and eclipsing binary classifications.\nThe Gaia non-single stars of interest here are the astrometric non-single stars--those for which a five-parameter astrometric sky path is a poor fit. This is captured by the renormalized unit weight error, or RUWE <<CITE:GaiaDR3>> . Stars with high RUWE values have astrometric residuals that indicate nonlinear motion through space; they are candidates for Keplerian orbital fits or astrometric acceleration fits. If either of these "
+   }
+  ]
+ },
+ {
+  "arxiv": "2410.05654",
+  "read_order": 16,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 34718,
+    "match": "RUWE",
+    "text": "& <2 \\\\\n P_ mathrm rot & Stellar rotation period in days & 13.3 \\pm 1.3 & - \\\\\n i_\\star & Stellar inclination in degrees & 90 \\pm 41 & - \\\\\n RV & Absolute radial velocity in \\unit km\\ s^ -1 & -17.53 \\pm 0.23 & -52.70 \\pm 0.21 \\\\ \nRUWE & Gaia RUWE & 1.50 & 3.55 \\\\ \n U & Galactic U Velocity ( mathrm km : s^ -1 ) & -26.21\\pm0.05 & -33.78\\pm0.06 \\\\\n V & Galactic V Velocity ( mathrm km : s^ -1 ) & -15.7\\pm0.05 & -45.74\\pm0.2 \\\\\n W & Galactic W Velocity ( mathrm km "
+   }
+  ]
+ },
+ {
+  "arxiv": "2310.02256",
+  "read_order": 17,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 6094,
+    "match": "RUWE",
+    "text": " 2) as true binaries. \n\n\\textcolor black There are some additional parameters in the textit Gaia DR3 data products that are useful in identifying possible binaries that could help push the above current boundaries. Primarily, the RUWE value has been used to identify astrometric solutions that deviate significantly from a single star solution <<CITE:Belokurov2020>> . A more powerful diagnostic for barely resolved systems, which applies to many of these very clo"
+   }
+  ]
+ },
+ {
+  "arxiv": "2407.19219",
+  "read_order": 18,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 17674,
+    "match": "RUWE",
+    "text": "ta (2016) & -62\\degr02\\arcmin08\\farcs1 & -62^ rm h 02^ rm m 03\\fs9 & (1) \\\\\n G_ rm BP & 20.22 \\pm 0.04 & 21.8 \\pm 0.2 & (1) \\\\\n G & 19.581 \\pm 0.003 & 20.701 \\pm 0.009 & (1) \\\\\n G_ rm RP & 18.90 \\pm 0.03 & 19.24 \\pm 0.05 & (1) \\\\\nRUWE & 1.034 & 1.259 & (1) \\\\\n g (DECaPS) & 20.407 \\pm 0.008 & --- & (4) \\\\\n r (DECaPS) & 19.429 \\pm 0.003 & 22.99 \\pm 0.39 & (4)\\\\\n i (DECaPS) & 19.12 \\pm 0.02 & 19.68 \\pm 0.03 & (4)\\\\\n z (DECaPS) & 19.00 \\pm 0.02 & 18.20 \\pm 0.01 & "
+   },
+   {
+    "at": 45548,
+    "match": "RUWE",
+    "text": "elatively large uncertainties could resolve the incompatible age estimates in a binary. None the less, there is no clear evidence that VVV 1256 - 62A could be an unresolved double WD, and the small Renormalized Unit Weight Error (RUWE: 1.034) from \\sl Gaia DR3 for this source further argues agains the binary hypothesis.\n\n\\begin figure* \n \\includegraphics[width=\\textwidth] uvw_vvv1256-62e.pdf \n \\caption Space velocities of five WD + UCD wide binary systems comp"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.11994",
+  "read_order": 19,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 92220,
+    "match": "RUWE",
+    "text": "stars (light grey symbols) and the 80 pc sample (black, gold, and yellow points). This relation excludes stars with S_C(G) \\gtrsim 10, large differences between observed and predicted V and I ( \\delta V, I \\gtrsim 0.1), and large RUWE \\gtrsim 3. Aside from a few outliers, there is a clear correlation, where stars with larger I_B have bluer colors. The full sample and the 80 pc sample follow the same relation. \n\nAlthough there is also a strong correlation betwe"
+   }
+  ]
+ },
+ {
+  "arxiv": "2504.19866",
+  "read_order": 20,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 73995,
+    "match": "ruwe",
+    "text": "e motion of the components of the binary system around the center of mass leads to a motion of the photometric center of the system that cannot be fitted with a single star astrometric model and sometimes results in a high texttt ruwe (Renormalised Unit Weight Error) value.\n\n <<CITE:elbadry21>> used Gaia eDR3 to make a catalog of wide binaries within \\SI 1 \\kilo\\pc of the Sun; <<CITE:penoyre22_ii>> looked for binaries in the Gaia Catalog of Nearby Stars <<CITE"
+   },
+   {
+    "at": 74279,
+    "match": "ruwe",
+    "text": "elbadry21>> used Gaia eDR3 to make a catalog of wide binaries within \\SI 1 \\kilo\\pc of the Sun; <<CITE:penoyre22_ii>> looked for binaries in the Gaia Catalog of Nearby Stars <<CITE:GCNSs21>> using a renormalized version of texttt ruwe ; more recently, <<CITE:castroginard24>> investigated the probability of detecting unresolved binary systems using a texttt ruwe threshold that depends on the location on the sky.\nHowever, a limitation of this kind of analysis is"
+   },
+   {
+    "at": 74593,
+    "match": "ruwe",
+    "text": "ing unresolved binary systems using a texttt ruwe threshold that depends on the location on the sky.\nHowever, a limitation of this kind of analysis is that as the distance increases, the signal that one can expect from the texttt ruwe decreases as well.\nIn fact, <<CITE:castroginard24>> show that already at \\SI 1 \\kilo\\pc the probability of detecting a binary system reaches 50%, and it is also a strong function of the period.\n\nAsteroseismology can fill in with "
+   }
+  ]
+ },
+ {
+  "arxiv": "2203.07294",
+  "read_order": 21,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 76825,
+    "match": "RUWE",
+    "text": "eria on the astrometric and photometric quality indicators (given in the Gaia archive and discussed in <<CITE:Lindegren+21,Riello+21,Fabricius_2021>> ), in order to use the stars with the most reliable astrometric measures: ( i ) RUWE\\footnote RUWE is the renormalised unit weight error (for astrometry) discussed in <<CITE:Lindegren+21>> . < 2.4 ; ( ii ) astrometric_excess_noise\\footnote it is the excess noise of the source and it measures the disagreement, exp"
+   }
+  ]
+ },
+ {
+  "arxiv": "2306.13130",
+  "read_order": 22,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 28563,
+    "match": "RUWE",
+    "text": "rst identifying photometric binaries that contain a WD and then matching the binaries with a co-moving companion (of any spectral type). \nSince we are searching for binaries as well, we do not impose any restriction on the texttt RUWE parameter.\nAfter keeping only objects that have photometry for the G_p , B_p , and R_p textit Gaia bands and have an texttt ASTROMETRIC-ERROR < 0.9 , we begin our search for WD systems using a \\GAIA Hertzsprung\u2013Russell (HR) diagr"
+   }
+  ]
+ },
+ {
+  "arxiv": "2406.11593",
+  "read_order": 23,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 61503,
+    "match": "renormalized unit weight error",
+    "text": "s+Pourbaix+Arenou+etal_2023,Holl+Sozzetti+Sahlmann+etal_2023>> , and will be available for many more stars in the future. At these short orbital periods a five-parameter fit becomes a poor model for the sky path seen in Gaia. The renormalized unit weight error (RUWE), a measure of the goodness-of-fit in Gaia, can provide an indication of these situations.\n\nAs noted in Section \\ref sec:longperiod , if radial velocity data are also available, the parameter space shown in the top panel of"
+   }
+  ]
+ },
+ {
+  "arxiv": "2302.02611",
+  "read_order": 24,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 59041,
+    "match": "ruwe",
+    "text": "n [mas] \\\\\nparallax_error & parallax error [mas] \\\\\npmra & proper motion RA [mas/yr] \\\\\npmra_error & error of proper motion RA [mas/yr] \\\\\npmdec & proper motion DEC [mas/yr] \\\\\npmdec_error & error of proper motion DEC [mas/yr] \\\\\nruwe & astrometric quality flag \\\\\nradial_velocity & radial velocity [km/s] \\\\\nradial_velocity_error & radial velocity error [km/s] \\\\\nphot_g_mean_mag & apparent G magnitude [mag] \\\\\nphot_bp_mean_mag & apparent G_\\textrm BP magnitude "
+   }
+  ]
+ },
+ {
+  "arxiv": "2305.10269",
+  "read_order": 25,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 33895,
+    "match": "ruwe",
+    "text": "sters with only one stellar radial velocity value, we have used the radial velocity error instead. Furthermore, we have provided researchers with member star information for all results, including astrometric data, uncertainties, ruwe values, photometry, and radial velocity, all of which come from the Gaia DR3 catalog. In Table \\ref tab:table_mem , we have included an ifcore value to designate core members ( ifcore =1) and outer members ( ifcore =0).\n\n\\subsect"
+   },
+   {
+    "at": 50575,
+    "match": "ruwe",
+    "text": "otometric parameters of the member stars from Gaia DR3 <<CITE:gaia2021>> . The core member are labeled as ifcore = 1 from DBSCAN. \n\\tablewidth 0pt \n\\label tab:table_mem \n\\tabletypesize \\scriptsize \n\\tablehead source _ id& l & b & ruwe &parallax& parallax _ error &pmra &pmra _ error& pmdec& pmdec _ error& radia _ velocity & radial _ velocity _ error &phot _ g _ mean _ mag &bp _ rp & ifcore & Cluster ID\\\\ \n& [ ^ \\circ ] & [ ^ \\circ ] & & [mas] & [mas] & [mas yr "
+   }
+  ]
+ },
+ {
+  "arxiv": "2407.02594",
+  "read_order": 26,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 13289,
+    "match": "RUWE",
+    "text": "c wobble of the centre of light, which has often been used to select strong candidates through the so called Renormalised Unit Weight Error <<CITE:Belokurov2020ruwe>> . Of the likes, <<CITE:Korol2022gapDWDseparationGaia>> analyse RUWE-excessive candidates to identify a gap in the separation distribution of DWDs at approximately 1 au while finding a consistent DWD fraction with the spectroscopic sample analyses and indicating a sensitivity in the detection of D"
+   }
+  ]
+ },
+ {
+  "arxiv": "2201.05614",
+  "read_order": 27,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 26489,
+    "match": "ruwe",
+    "text": "n & \\delta [deg] & 57.274803 \\\\\nApparent it Gaia eDR3 magnitude & G [mag] & 7.98 \\\\\nApparent it Gaia eDR3 color & G_ rm BP -G_ rm RP [mag] & 0.42 \\\\\n\nCorrected it Gaia eDR3 parallax & varpi [mas] & 1.64\\pm 0.03 \\\\\n it Gaia texttt ruwe & & 1.11 \\\\\n\nColor excess & E(g-r) [mag] & 0.255\\pm 0.02 \\\\\nDereddened absolute magnitude & M_ G,0 [mag] & -1.62\\pm 0.06 \\\\\n\n\\hline\n\n\n\\multicolumn 3 l bf Parameters of the subgiant donor star \\\\ \nEffective temperature & T_ rm eff"
+   },
+   {
+    "at": 56316,
+    "match": "ruwe",
+    "text": "ht stars <<CITE:El-Badry2021_wb>> , the it Gaia eDR3 parallax of HD 15124 is varpi = 1.64\\pm0.03 (eDR3 source id 458048851856088064; <<CITE:Gaia2021>> ). This corresponds to a distance d = (610 \\pm 11) rm pc . The reported texttt ruwe value is 1.11, indicating a reasonably good single-star astrometric solution. For our best-fit parameters (Section \\ref sec:stellar_params ), the projected semimajor axis of the binary is \\rho= varpi times left (a/1 rm au right )"
+   },
+   {
+    "at": 56659,
+    "match": "ruwe",
+    "text": "ection \\ref sec:stellar_params ), the projected semimajor axis of the binary is \\rho= varpi times left (a/1 rm au right )\\approx0.17 rm mas , about 11% of the parallax. This may account for the somewhat larger than average texttt ruwe <<CITE:Belokurov2020>> but is small enough that we expect the parallax to be reliable. \n\nAlthough the it Gaia astrometric solution appears to be well-behaved, comparison of the it Hipparcos--Gaia position change with the measured"
+   }
+  ]
+ },
+ {
+  "arxiv": "2312.10158",
+  "read_order": 28,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 9525,
+    "match": "renormalised unit weight error",
+    "text": "90% bound probability (e.g., <<CITE:2021MNRAS.506.2269E>> ) . Table \\ref tab:gaia_WDBD presents the \\emph Gaia DR3 measurements for both components, encompassing locations, parallaxes, proper motions in equatorial components, the renormalised unit weight errors (RUWEs), and distances derived from the parallax measurements. \n\nWe adopt a distance of 89.6\\pm0.5 pc for this system based on the more accurately measured parallax value of the WD component, which has an uncertainty of 0.07 mas"
+   },
+   {
+    "at": 10331,
+    "match": "RUWE",
+    "text": " rm t, WD = 14.62\\pm0.02 km s^ -1 and V_ rm t, UCD = 17.87\\pm0.15 km s^ -1 . The projected separation between the WD and UCD is 13.8\" , which corresponds to a physical separation of \\sim1240 au at that distance, and note that the RUWE values for both components are relatively low, which indicates reliable astrometric estimations from \\emph Gaia <<CITE:2021A&A...649A...2L>> , and that both components do not likely possess close stellar companions <<CITE:2022RNA"
+   },
+   {
+    "at": 10965,
+    "match": "RUWE",
+    "text": "corresponds to the WD, while component B (second row) corresponds to the UCD. \n \\label tab:gaia_WDBD \n \\begin tabular lcccccccc \n \\hline\n \\emph Gaia DR3 ID & \\alpha & \\delta & \\overline pi & \\mu_ \\alpha \\cos\\delta & \\mu_ \\delta & RUWE & \\Delta \\\\\n & (deg) & (deg) & (mas) & (mas yr ^ -1 ) & (mas yr ^ -1 ) & & (pc)\\\\\n \\hline\n 5877522801734482432 & 219.624\\pm0.0387 & -61.9806\\pm0.0446 & 11.162\\pm0.066 & -14.975\\pm0.062 & -31.019\\pm0.060 & 0.956 & 89.6\\pm0.5 \\\\[0."
+   }
+  ]
+ },
+ {
+  "arxiv": "2109.11951",
+  "read_order": 29,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 19658,
+    "match": "RUWE",
+    "text": "d S. Columns 5 through 20 contain Gaia EDR3 information about\nthe primary component, including its source id, RA and Dec coordinates, parallax, proper motion, formal errors of\nthe five astrometric parameters, astrometric \\chi^2 , RUWE, and G , \\gbp, \\grp\\ magnitudes (when available).\nThe third block of columns (21 -- 36) includes the same information about the secondary component. The remaining columns provide data derived in this paper: q=m_2/m_1 , alignment "
+   },
+   {
+    "at": 32090,
+    "match": "RUWE",
+    "text": "s 8.2, where something slightly higher than 1 is expected. \nPhotometric data from <<CITE:2000A&A...356..141F>> must clearly be preferred for this pair.\nAnother indicator that the Gaia solution is strongly perturbed comes from the RUWE parameter, which\nis as high as 16.1 for A. It is not clear how much the Gaia data can be trusted for this object. Our\nestimated q=9.1 comes from the fact that the long-term motion \\nu_2 is close to the EDR3 proper motion of B\n(wi"
+   }
+  ]
+ },
+ {
+  "arxiv": "2111.01860",
+  "read_order": 30,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 30220,
+    "match": "renormalised unit-weight error",
+    "text": "ut flags (summarised in the column \\tt SH_GAIAFLAG ) based on the DR2 recommendations by the it Gaia Collaboration (e.g. <<CITE:Lindegren2018>> ). It contained three digits corresponding to astrometric fidelity (in particular the renormalised unit-weight error, \\tt ruwe ; <<CITE:Lindegren2018a>> ), the photometric fidelity (indicated by the \\tt phot_bp_rp_colour_excess ), as well as the DR2-native \\tt variability_flag .\n\nIn this work we make use of the quality criteria established by <"
+   }
+  ]
+ },
+ {
+  "arxiv": "2111.01145",
+  "read_order": 31,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 9559,
+    "match": "ruwe",
+    "text": "0 \\\\\n\\verb|phot_bp_mean_mag| < 20.5 AND \\verb|phot_bp_mean_flux_over_error| >10 \\\\\n\\verb|phot_rp_mean_mag| < 20 AND \\verb|phot_rp_mean_flux_over_error| >10 \\\\\n \\beta < 0.1 AND |C*| < 5 sigma _ C^ * (G) AND fidelity >0.5 AND \\verb|ruwe| < max( \\overline texttt ruwe + sigma _ texttt ruwe , 1.4)\\\\\n \\bottomrule\nWhite dwarf color-magnitude cuts \\\\\n \\midrule\n G+5-5 times \\log (1000/ varpi ) >9 times (G-G_ rm RP )-3 times (G-G_ rm RP )^ 2 -0.9 times (G-G_ rm RP )^ 3 "
+   },
+   {
+    "at": 16587,
+    "match": "renormalized unit weight error",
+    "text": "We removed the most likely spurious astrometric solutions <<CITE:rybizki2021>> , and imposed a 5 sigma cut on the corrected BP and RP flux excess <<CITE:riello2021>> . As an additional safety measure, we also applied a cut on the renormalized unit weight error <<CITE:lindegren2018-b>> as defined in Table \\ref t:gaia . Finally, we collected the geometric distance estimates <<CITE:bailer-jones2021>> for all identified objects. In addition, we removed from the cross-match all the SPY whit"
+   }
+  ]
+ },
+ {
+  "arxiv": "2310.06295",
+  "read_order": 32,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 92082,
+    "match": "RUWE",
+    "text": "1 and W2 bands, astrometric errors, angular distances, between the images, as well as global properties of the parameter distributions as the minimum, mean and maximum astrometric and photometric errors, astrometric excess noise, RUWE, BPRP excesses and signal to noise ratios (e.g. fluxes, positions, proper motions and parallaxes over their errors) for all sources. As such, the \\tt HESIOD score is assigned for the entire candidate system, composed of multiple "
+   }
+  ]
+ },
+ {
+  "arxiv": "2206.08383",
+  "read_order": 33,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 91821,
+    "match": "RUWE",
+    "text": " . \\gaia\\ EDR3 astrometry and imaging similarly show no sign of a companion. There is only one star detected with the \\kepler\\ PSF, which is too faint to reproduce the transit. \\starname\\ has a low Renormalised Unit Weight Error (RUWE) in EDR3 (0.94). RUWE value is effectively an astrometric reduced \\chi^2 value, normalized to correct for color and brightness dependent effects\\footnote \\url https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_"
+   },
+   {
+    "at": 92092,
+    "match": "ruwe",
+    "text": "tively an astrometric reduced \\chi^2 value, normalized to correct for color and brightness dependent effects\\footnote \\url https://gea.esac.esa.int/archive/documentation/GDR2/Gaia_archive/chap_datamodel/sec_dm_main_tables/ssec_dm_ruwe.html . RUWE should be around 1 for well-behaved sources, and higher values (RUWE \\gtrsim 1.3) suggests with the presence of a stellar companion <<CITE:Ziegler2020,Wood2021>> . \n \n It is possible the high false-positive probabilit"
+   }
+  ]
+ },
+ {
+  "arxiv": "2506.17861",
+  "read_order": 34,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 36134,
+    "match": "re-normalised unit weight error",
+    "text": " as a field star in the thin disk <<CITE:bensby_exploring_2014>> .\n\n\n\\subsection Stellar companions \nGaia DR3 <<CITE:gaia_collaboration_gaia_2023>> provides an astrometric constraint on the lack of unresolved companions using the re-normalised unit weight error (RUWE) metric. For TOI-7149, the reported RUWE is 0.973, which is lower than the commonly accepted threshold in literature of \\gtrsim 1.4 to ascertain the potential presence of stellar companions in binary studies <<CITE:penoyre_"
+   }
+  ]
+ },
+ {
+  "arxiv": "2406.18767",
+  "read_order": 35,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 91730,
+    "match": "ruwe",
+    "text": "iven in textit Gaia DR3. & float\\\\\n \\verb+ebpminrp_gspphot+ & mag & Extinction in G band as given in textit Gaia DR3. & float\\\\\n \\verb+ebpminrp_gspphot+ & mag & Colour excess E(BP-RP) as given in textit Gaia DR3. & float\\\\\n \\verb+ruwe+ & -- & RUWE value as given in textit Gaia DR3. & float\\\\\n \\verb+mass+ & M_\\odot & Mass of the star calculated from the isochrone for age given by <<CITE:cantatgaudin20>> and Solar metallicity. Potential binaries are treated as s"
+   },
+   {
+    "at": 96617,
+    "match": "RUWE",
+    "text": "ty stars are indeed members of a cluster is therefore wrong. See Section \\ref sec:robust for more discussion.\n it em We include in our analysis all textit Gaia stars, regardless of the quality of the measured parameters (given by RUWE, for example). This is necessary to achieve completeness which is necessary to reliably measure membership probabilities. User must be careful to avoid the stars with poor-quality data, as their parameters reported in this work m"
+   },
+   {
+    "at": 134874,
+    "match": "ruwe",
+    "text": "iadr3.astrophysical_parameters.logg_gspspec, gaiadr3.astrophysical_parameters.mh_gspspec, gaiadr3.astrophysical_parameters.alphafe_gspspec, gaiadr3.gaia_source.ag_gspphot, gaiadr3.gaia_source.ebpminrp_gspphot, gaiadr3.gaia_source.ruwe \nFROM gaiadr3.gaia_source \nLEFT JOIN external.gaiaedr3_distance \nON gaiadr3.gaia_source.source_id = external.gaiaedr3_distance.source_id \nLEFT JOIN gaiadr3.astrophysical_parameters \nON gaiadr3.gaia_source.source_id = gaiadr3.astr"
+   }
+  ]
+ },
+ {
+  "arxiv": "2408.14694",
+  "read_order": 36,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 107778,
+    "match": "RUWE",
+    "text": "sim 3\\arcsec, run 50 trials for each candidate with 1 million instances for each scenario, and include the high contrast imaging curve as well as constraints from texttt MOLUSC <<CITE:wood_characterizing_2021>> utilizing the Gaia RUWE, HPF RVs and high contrast imaging curves. Since we have ground-based transits for each of these candidates, we set the Nearby False Positive Probability (NFPP) to 0, i.e., the probability that the transit signal is from a nearby"
+   }
+  ]
+ },
+ {
+  "arxiv": "2109.09185",
+  "read_order": 37,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 107707,
+    "match": "renormalised unit weight error",
+    "text": "tric_excess_noise_sig parameter).\nThis significance is much larger than the threshold of 2 that is required for a certain corruption of the astrometric measurements <<CITE:lindegren2020b>> .\nThis conclusion is also supported by a renormalised unit weight error (RUWE) of \\sim13 ;\nfor well-behaved sources mathrm RUWE \\approx1 is expected.\nAs parallaxes and proper motions for the binary and the textit Gaia companion candidate are highly consistent, it is very likely that these three objec"
+   }
+  ]
+ },
+ {
+  "arxiv": "2207.08742",
+  "read_order": 38,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 39215,
+    "match": "re-normalised unit weight error",
+    "text": "\n\nReliable parallaxes from the early third Gaia release <<CITE:2021A&A...649A...1G,2021A&A...649A...2L,2021MNRAS.tmp..394E>> allow us to derive precise distances. For CoRoT-34, however, the EDR3 quality parameters\\footnote The it re-normalised unit weight error , RUWE <<CITE:RUWE>> , as well as the texttt ipd_gof_harmonic and texttt ipd_frac_multi parameters are inspected. indicate an inconsistent parallax measurement. Thus, we derived Gaia EDR3 distances for CoRoT--35 and CoRoT--36 onl"
+   }
+  ]
+ },
+ {
+  "arxiv": "2111.03887",
+  "read_order": 39,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 72724,
+    "match": "renormalized unit weight error",
+    "text": "ser than other distance determinations. The solution in EDR3 is a 5-parameter solution, and the it Gaia does not yet provide solutions for binary stars. There are hints within the statistics that \\alpha Dra might be resolved. The renormalized unit weight error \\tt ruwe is 2.4 and this is greater than the 1.4 level that may indicate a resolved double. However, the related statistic \n \\tt ipd_gof_harmonic_amplitude is 0.056 which is less than the 0.1 that is associated with resolved doub"
+   },
+   {
+    "at": 73843,
+    "match": "ruwe",
+    "text": "y solution from it Gaia is provided it is speculative to associate this 31 ^ \\circ offset for a 7 mas binary with the flux ratio determined in this work. In summary, there are two statistics suggestive of a resolved binary: \n \\tt ruwe and \\tt ipd_gof_harmonic_phase . Although, it is not clear that the orientation of the phase supports agreement with the position angle of the binary at this time. The \\tt ipd_gof_harmonic_amplitude , which should be considered w"
+   },
+   {
+    "at": 74089,
+    "match": "ruwe",
+    "text": "_gof_harmonic_phase . Although, it is not clear that the orientation of the phase supports agreement with the position angle of the binary at this time. The \\tt ipd_gof_harmonic_amplitude , which should be considered with the \\tt ruwe , does not suggest a resolved binary. We eagerly await future releases from it Gaia that include results for resolved doubles. \n\nOur complementary observations of the \\alpha Dra system enable direct determination of its distance "
+   }
+  ]
+ },
+ {
+  "arxiv": "2304.12490",
+  "read_order": 40,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 31126,
+    "match": "RUWE",
+    "text": "olhead PM RA & \\nocolhead PM Dec & \\nocolhead G & \\nocolhead BP & \\nocolhead RP & \\nocolhead V & \\nocolhead K_s & \\colhead Distance & \\colhead T_ mathrm eff & \\colhead L_ \\star & \\colhead R_ \\star & \\colhead M_ \\star & \\nocolhead RUWE & \\nocolhead GCNS binary & \\nocolhead Gaia EDR3 binary & \\nocolhead Robo-AO binary & \\nocolhead Gaia DR3 binary & \\nocolhead SIMBAD binary & \\colhead Binary & \\colhead Systemic Velocity & \\colhead Systemic Velocity \\vspace -8pt \\"
+   },
+   {
+    "at": 137468,
+    "match": "RUWE",
+    "text": "olhead PM RA & \\nocolhead PM Dec & \\nocolhead G & \\nocolhead BP & \\nocolhead RP & \\nocolhead V & \\nocolhead K_s & \\colhead Distance & \\colhead T_ mathrm eff & \\colhead L_ \\star & \\colhead R_ \\star & \\colhead M_ \\star & \\nocolhead RUWE & \\nocolhead GCNS binary & \\nocolhead Gaia EDR3 binary & \\nocolhead Robo-AO binary & \\nocolhead Gaia DR3 binary & \\nocolhead SIMBAD binary & \\colhead Binary & \\colhead Systemic Velocity & \\colhead Systemic Velocity \\vspace -8pt \\"
+   }
+  ]
+ },
+ {
+  "arxiv": "2112.07023",
+  "read_order": 41,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 30728,
+    "match": "RUWE",
+    "text": "and PM in equatorial coordinates as well as a parallax (and pseudo-colour for the six-parameter solutions), and then remove any for which the renomalised unit weight error <<CITE:gaiaedr3_astrom>> is greater than 1.2. This cut on RUWE effectively removes those with poor astrometric solutions and is even stricter than that done in \\gaia\\ EDR3 catalogue validation <<CITE:gaiaedr3_catval>> , as we strongly prioritise quality rather than quantity of the tie points"
+   }
+  ]
+ },
+ {
+  "arxiv": "2107.12691",
+  "read_order": 42,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 11453,
+    "match": "re-normalised unit weight error",
+    "text": " <<CITE:Wang2019>> . Firstly, we corrected the offset in altitude introduced by the differential colour refraction effects. In addition, we adopted some criteria to reject sources with possible bad astrometry based on Gaia EDR3's re-normalised unit weight error (RUWE), and we also rejected sources that suffered from saturated or crowding status on the observations. We also introduced the weighted scheme to reduce the effect of a large number of low signal-to-noise (S/N) stars on the red"
+   }
+  ]
+ },
+ {
+  "arxiv": "2107.06373",
+  "read_order": 43,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 12951,
+    "match": "renormalized unit weight error",
+    "text": "95S>> , allowing us to consider the binary as a two-star cluster. \n\nWe then searched the Gaia EDR3 catalog <<CITE:2020arXiv201201533G>> for each non-DA WD; seven WDs have tabulated proper motion and parallax measurements with the renormalized unit weight error <<CITE:2020arXiv201206242F,2020arXiv201203380L>> < 1.4 . We consider a WD to be a member of its respective open star cluster if the proper motion vectors and measured parallax are within 2 sigma of the cluster measurements tabula"
+   }
+  ]
+ },
+ {
+  "arxiv": "2601.03810",
+  "read_order": 44,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 28736,
+    "match": "RUWE",
+    "text": "\n \\small\n \\begin tabularx 0.85\\columnwidth @ X r@ \n \\toprule\\toprule\n \\multicolumn 2 c Gaia DR3 astrometry \\\\\n \\midrule\n \n RA (J2000) & 06:58:16.72\\\\\n Dec (J2000) & +09:43:43.12\\\\\n G (mag) & 13.57\\\\\n varpi (mas) & 0.79\\pm0.05 \\\\\n RUWE & 1.085\\\\\n \\midrule\n \\multicolumn 2 c Spectroscopic fit \\\\\n \\midrule\n \n T_ rm eff (K) & 35 800\\pm750 \\\\\n \\log g (dex) & 5.37\\pm0.07 \\\\\n \\log(n_ rm He ) & -1.76\\pm0.05 \\\\\n \\log(n_ rm N ) & -4.1\\pm0.1 \\\\\n \\log(n_ rm Si ) & -5.0\\pm0"
+   }
+  ]
+ },
+ {
+  "arxiv": "2305.03557",
+  "read_order": 45,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 21491,
+    "match": "renormalized unit weight error",
+    "text": "-1 .\n\n\n\n\n\n\n\nThe 67 Gaia sources that are adopted as TWA members in this work are presented \nin Table \\ref tab:mem , which includes source names from Gaia DR3 and previous\nstudies; equatorial coordinates, proper motion, parallax, \nrenormalized unit weight error <<CITE:lin18>> , and photometry\nfrom Gaia DR3; measurements of spectral types and the type adopted in this\nwork; distance estimate based on the Gaia DR3 parallax <<CITE:bai21>> ; \nthe adopted radial velocity measurement; the UVW "
+   },
+   {
+    "at": 30888,
+    "match": "RUWE",
+    "text": "l members satisfy the criteria for photometric\nerrors and only four of the diskless stars are omitted because\nof parallax errors. All of the latter are companions that have poor\nastrometric fits according to their large values of RUWE.\nThe resulting sample contains 17 sources.\nI have calculated their offsets in M_ G_ rm RP from a fit to the median\nof the sequence for UCL/LCC <<CITE:luh23>> . I have assumed that the stars\nhave no extinction since they are locat"
+   }
+  ]
+ },
+ {
+  "arxiv": "2404.02976",
+  "read_order": 46,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 59243,
+    "match": "RUWE",
+    "text": "ITE:holl2023>> . This can lead to erroneous positions in the Gaia catalog, where the largest errors would most likely be in the position angle of the system. Such errors make sense for our candidate binaries as they all have high RUWE values, which indicates poor astrometric fits and thus less certain positions.\n\nFor the speckle data, astrometric calibration is key to achieving results with a high level of precision. Issues with, say, the pixel scale are multi"
+   }
+  ]
+ },
+ {
+  "arxiv": "2510.18343",
+  "read_order": 47,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 17217,
+    "match": "re-normalised unit weight error",
+    "text": "enoyreBelokurov_2020,ChulkovMalkov_2022>> , which can result in binary stars being missed as member stars of clusters <<CITE:TagaevSeleznev_2025>> . Depending on the period of the binary, this can manifest as a larger than normal re-normalised unit weight error (RUWE) value for the star. In practice, the impact of binarity on whether or not a member star is missed depends on period, distance, and orbital inclination of the system; only certain periods of binary star (such as those of ar"
+   },
+   {
+    "at": 18095,
+    "match": "RUWE",
+    "text": "1 kpc with a 40% binary-star fraction, extrapolating from simulations of binary-star detectability conducted by <<CITE:Castro-GinardPenoyre_2024>> suggests that only around 2% of cluster-member stars would be binaries with a high RUWE, which decreases even further as distance increases. Some additional binaries without a high RUWE (such as those with a period near one year) would also have poor astrometry. Not simulating binary-star astrometry hence contribute"
+   }
+  ]
+ },
+ {
+  "arxiv": "2312.03162",
+  "read_order": 48,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 13705,
+    "match": "RUWE",
+    "text": "even for the widest binaries considered, at 12 kau, 0.06 pc, the nearest it Gaia neighbour\nmust lie more than 8.3 times the binary internal separation away. Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia \nsingle star solution quality index <1.2 , imposing a final distance cut of 130 pc. All stars included in the final sample are main sequence stars and have it Gaia \nreported radial velocities, which ensures high "
+   }
+  ]
+ },
+ {
+  "arxiv": "2507.09622",
+  "read_order": 49,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 72434,
+    "match": "RUWE",
+    "text": "ach.\n\n\\subsubsection Inflating Parallax Uncertainties \n\nTo address underestimation, we adopt the inflation model from <<CITE:elbadry2025usegaiaparallaxesstars>> to adjust uncertainties based on the Renormalized Unit Weight Error (RUWE), a metric of astrometric fit quality where higher values indicate poorer fits. \nMany binaries with close companions have elevated RUWE values due to photocenter oscillations from orbital motion, which single-star models cannot a"
+   },
+   {
+    "at": 72808,
+    "match": "RUWE",
+    "text": "ues due to photocenter oscillations from orbital motion, which single-star models cannot accommodate <<CITE:gaiacollaboration2023a>> . \nFor binaries with orbital periods of a few years, photocentric acceleration further increases RUWE. \nThe model of <<CITE:elbadry2025usegaiaparallaxesstars>> adjusts reported uncertainties as a function of RUWE, parallax, and apparent magnitude, transforming error distributions into Gaussian forms.\n\nWe compare the \\chi^2 improv"
+   },
+   {
+    "at": 104930,
+    "match": "ruwe",
+    "text": "ble & Gaia DR3 B-R colors \\\\\n texttt phot_g_mean_mag & Double & Gaia DR3 G-band magnitude \\\\\n texttt parallax & Double & Gaia DR3 parallax (mas) \\\\\n texttt parallax_error & Double & Uncertainty in parallax measurement \\\\\n% texttt ruwe & Double & Renormalized unit weight error \\\\\n texttt radial_velocity & Double & Gaia DR3 radial velocity (km/s) \\\\\n texttt radial_velocity_error & Double & Uncertainty in Gaia DR3 radial velocity (km/s) \\\\\n texttt E_edhf & Double"
+   }
+  ]
+ },
+ {
+  "arxiv": "2402.14960",
+  "read_order": 50,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 12109,
+    "match": "ruwe",
+    "text": "n dwarfs contaminating the white dwarf sample. There are also issues with spurious large parallax values and high astrometric noise (through parameters \\textsc astrometric_sigma5d_max , \\textsc astrometric_excess_noise or \\textsc ruwe ). Different methods have been proposed, both by the textit Gaia DPAC team and white dwarf community, to filter these non-white dwarf sources (see e.g. <<CITE:Gentile2021>> ).\n\n\\begin figure \n \\centering\n \\includegraphics[width=1"
+   },
+   {
+    "at": 41928,
+    "match": "RUWE",
+    "text": "orol2022,Kupfer2023,Ren2023>> . In particular, <<CITE:Korol2022>> find a gap at \\approx 1 au in the double white dwarf separation distribution derived from textit Gaia stellar centroid astrometric wobbling (converted from \\textsc RUWE parameter), which they attribute to the effect of common-envelope evolution.\n\n bf Unresolved WD+MS binaries: <<CITE:Rebassa2021>> have identified 112 WD+MS candidates within 100 pc based on their placement in the textit Gaia DR3 "
+   }
+  ]
+ },
+ {
+  "arxiv": "2310.15671",
+  "read_order": 51,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 59783,
+    "match": "ruwe",
+    "text": "m , textit pmra , and textit pmdec : Proper motion parameters, where textit pm is total proper motion, and textit pmra and textit pmdec are proper motions in right ascension and declination directions, respectively.\n it em textit ruwe : Renormalized Unit Weight Error (RUWE) assessing the reliability of Gaia astrometric solutions.\n it em textit ipd_frac_multi_peak and textit ipd_frac_odd_win : Parameters related to the Integrated Probability Density Function (I"
+   }
+  ]
+ },
+ {
+  "arxiv": "2204.13672",
+  "read_order": 52,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 36124,
+    "match": "ruwe",
+    "text": "S \n\\newcommand \\gcs \\sl GCS \n\\newcommand \\twomass \\sl 2MASS \n\\newcommand \\galaxy \\sl Milky Way \n\\newcommand \\hipparcos \\sl Hipparcos \n\\newcommand \\wise \\sl WISE \n\\newcommand \\bprp G_ BP - G_ RP \n\\newcommand \\gaiaG G \n\\newcommand \\ruwe textit RUWE \n\\newcommand \\astromexnoise textit astrometric_excess_noise \n\\newcommand \\visibperiods textit visibility_periods_used \n\\newcommand \\errorovparallax sigma _ varpi / varpi \n\\newcommand \\rc \\sl RC \n\n% Datasets\n\\newcomman"
+   },
+   {
+    "at": 50900,
+    "match": "re-normalised unit weight error",
+    "text": "%============================\n\n\n\nDespite the high quality of data, systematics and spurious astrometry have been identified in \\gaia <<CITE:Fabricius:2021>> . These can usually be filtered out using quality parameters such as the re-normalised unit weight error (\\ruwe), \\astromexnoise , \\visibperiods , and others. <<CITE:Rybizki:2022>> showed that such simple filtering does not necessarily remove spurious sources. They trained a neural network classifier on selected quality filters usin"
+   }
+  ]
+ },
+ {
+  "arxiv": "2407.20949",
+  "read_order": 53,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 36244,
+    "match": "RUWE",
+    "text": " 10.804\\pm0.003 & 11.389\\pm0.003 \\\\\n textit Gaia DR3 (B-P) ^ a & 11.208\\pm0.003 & 11.856\\pm0.003 \\\\\n textit Gaia DR3 (R-P) ^ a & 10.236\\pm0.004 & 10.761\\pm0.004 \\\\\n textit Gaia DR3 parallax ^ a & 7.566\\pm0.012 & 7.565\\pm0.016 \\\\\n RUWE ^ a & 0.839 & 0.881 \\\\\n Radial velocity ^ a (km s ^ -1 ) & -45.920\\pm0.349 & -45.992\\pm0.553 \\\\\n \\mu_ \\alpha ^ \\ast a (mas yr ^ -1 ) & 57.786\\pm0.011 & 57.419\\pm0.015 \\\\\n \\mu_ \\delta ^ a (mas yr ^ -1 ) & -92.392\\pm0.012 & -93.021"
+   },
+   {
+    "at": 38142,
+    "match": "RUWE",
+    "text": ".674A...1G>> but now applied to the one million binaries catalog of <<CITE:El-Badry:2021MNRAS.tmp..394E>> . The components of the pair share identical radial velocities (RVs), and their textit Gaia Renormalized Unit Weight Error (RUWE, <<CITE:GaiaDR3:2023A&A...674A...1G>> ), which is an indicator of multiplicity, are lower than 1 (see Table \\ref tab:parameters ), indicating that the components are not themselves binary systems <<CITE:Kervella:2022A&A...657A..."
+   }
+  ]
+ }
+]

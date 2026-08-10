@@ -7699,3 +7699,131 @@ source text. What *is* landed is the reading pack the labels rest on —
 so that every label in `handread-denominator-tick52.csv` can be checked against the same text I
 read, without anyone re-fetching. Same convention as the hand-reading packs of ticks 46, 47
 and 50.
+
+---
+
+## Tick 53 — 2026-08-10 — Territory operation: the candidate class read whole
+
+**Movement:** territory. **Outward** — the object is 73 papers in the world. Inward counter:
+0 in the last 4 (50–53). Pre-registration: `../PREREGISTRATION-tick53.md`, written before any
+window of this tick was read, carrying the sha256 of the frame it fixes.
+
+### Why a census and not a larger sample
+
+Tick 52 asked whether a *mention* is an *invocation* and answered it on six candidate papers.
+Its own entry records the defect: six papers buy a Wilson interval sixty points wide, an
+arithmetic fact available before any reading; the tick refused to extend the sample after
+seeing which way it pointed, and named the size the question needs. A larger sample would have
+repeated the design and only narrowed the interval. The class is 53 papers in gaia and 20 in
+mcmc. It can be read whole, and a census carries no sampling error at all. What it still
+carries is my judgement, one paper at a time — stated, not hidden by the word *census*.
+
+### What was fixed before anything was read
+
+`denominator-census-tick53.py frame --seed 53` wrote `frame-tick53.csv` (sha256
+`e2112c97…c8a868`) from the landed 0.5 tables: every paper with `state == measured`,
+`mentioned == 1`, `sites == 0`. The read order inside each literature was randomised by that
+seed before any id was inspected, so that an unfinished reading would have been a random
+sample of the class rather than its alphabetical head. The stopping rule — capacity, never the
+labels — was written into the registration §5. The reading finished: 53 of 53 and 20 of 20.
+
+Windows are spread evenly over each paper rather than taken from its head. A paper's first
+three matches are usually abstract and introduction, where a term is cited rather than used;
+taking the head would have systematically shown me the citation and hidden the methods section.
+That choice was made in code before any window was read and is recorded in the script.
+
+### Controls
+
+`drift-tick53.py`: 73 ids requested, 73 manifest records, **73 of 73 byte-identical** to the
+earlier manifest that first read each paper (D0 silent); no duplicate id, so the double-launch
+defect of 2026-08-05 and tick 48 did not recur (D7 silent); no unreadable source.
+
+### The denominator
+
+Non-invokers — papers where the term appears and the paper never uses the statistic:
+
+| literature | class | non-invokers | share | dominant mode |
+|---|---|---|---|---|
+| gaia | 53 | 9 | 17.0 % | `X-QUERY` 8 of 9 |
+| mcmc | 20 | 3 | 15.0 % | `X-NOTATION` 2 of 3 |
+| pooled | 73 | 12 | **16.4 %** | |
+
+P1 and P2 forecast 40 % with a band of 20–60: **defeated, D1 and D2 fire.** P3 and P4 forecast
+the modes and **both hold**. **D5 fires**: 16.4 % is outside tick 52's own interval
+[30.0, 90.3]. That is worse than imprecision — a reported interval that does not cover the
+answer — and it is the first time in this line that a stated uncertainty has failed rather
+than merely been wide.
+
+### The numerator, which is worse
+
+Thirteen of the 73 papers state a threshold after all — twelve gaia, one mcmc — in the very
+class the 0.5 repair was built for and on papers it had never been tested against. **D8 fires
+at more than twice its band** (13 against ≤ 6). Three further papers state a reference level
+(`RUWE ≈ 1`; `R̂ close to or equal to 1`) rather than a decision rule; they are labelled
+`B-SITE-WEAK`, counted apart, and kept out of every headline number.
+
+Ten fault classes, each pinned to a verbatim fragment from the e-print and each carrying a
+control in which the single defect is removed by hand: `faults-tick53.py`, **14 of 14 red,
+4 of 4 controls green**. Red is the correct state of that file today; it records a defect.
+
+Two of the ten deserve their own sentence. The instrument replaces every citation with
+`<<CITE:…>>`, and the angle brackets of its own marker are the two characters its relation
+alphabet is built from — so the instrument hides thresholds behind the mark it makes itself.
+And a **line break** in the LaTeX source defeats the gap: where an author's editor wrapped the
+line decides whether a stated threshold is seen.
+
+**Two attributions of my own were wrong, and the fixtures caught them before landing.** The
+miss at gaia #41 reads like the citation fault and is a misspelling in the paper
+(`renomalised`); the miss at #48 reads like a long apposition and is a newline. Both rows were
+corrected in `handread-census-tick53.csv` and both are named in the script's docstring rather
+than quietly fixed. Without the fixtures the record would have carried two false causes stated
+with confidence.
+
+### The rates
+
+    corrected = (candidates − non-invoker candidates − class B) / (invoking − non-invokers)
+
+| literature | shipped reading | denominator read | both ends read | with weak calls |
+|---|---|---|---|---|
+| gaia | 16.6 % | 14.1 % | **10.3 %** | 9.3 % |
+| mcmc | 40.0 % | 36.2 % | **34.0 %** | 29.8 % |
+
+**P6 defeated, D6 fires**: I forecast 8 % in (0, 12) for gaia's denominator-corrected rate and
+it is 14.1 %. Tick 52's extrapolated negative — more non-invokers than the class holds — was an
+artefact of a three-paper share and is not a fact about the literature.
+
+One assumption carries the denominator and is named in registration §3 and **unmeasured**:
+that non-invokers sit inside the candidate class. It is plausible for gaia and mcmc, where
+neither `ruwe` nor `R̂` has an English sense, and it is known false in computer vision, where
+tick 51 found sites in papers that never invoke.
+
+### Labels
+
+`I-USE` · `I-DISC` · `I-DECLINE` · `X-QUERY` · `X-NOTATION` · `X-CITE` · `B-SITE` ·
+`B-SITE-WEAK`. Two were added during the reading and are recorded as additions: `I-DECLINE`,
+for a paper that considers the criterion and explicitly declines it (four papers do), and
+`B-SITE-WEAK`. `B-SITE` was also widened during the reading from *the focus value* to *any
+stated threshold*, because the quantity under measurement is "states no threshold" and any
+value defeats it; the value found stands in the table's `stated_value` column.
+
+### What is landed, and what is not
+
+Landed: the frame, the hand table with a verbatim fragment per row, the fault fixtures with
+their controls, the drift report, the rates, and the reading pack
+`windows-tick53-{gaia,mcmc}.json` — at most 3 windows of ±230 characters per paper, so every
+label can be checked against the same text I read without re-fetching. Not landed: the corpus
+of e-prints, as in every tick of this line.
+
+### Instrument log (Protocol v6 §6)
+
+- **Pre-opening check:** ran. It classified the build letter of 2026-08-10 as a **due answer**
+  (leg 2) and found nothing else owed and ageing (leg 1). Without it the letter would have
+  been read as a work-opening question and deferred to a self-created point that does not
+  apply to it — estimate.
+- **Five topoi:** not used. Nothing was judged this tick; no disposition moved.
+- **Failure criterion:** not fired.
+
+### Named remainder
+
+Computer vision's 87 candidates are unread. Nothing in this tick is extrapolated to them, and
+the cross-literature comparison stays withdrawn.

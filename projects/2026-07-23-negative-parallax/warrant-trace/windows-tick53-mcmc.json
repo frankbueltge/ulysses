@@ -1,0 +1,347 @@
+[
+ {
+  "arxiv": "2601.16696v1",
+  "read_order": 1,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 43843,
+    "match": "hat R",
+    "text": " of particles from the previous temperature level to the new stationary distribution as quickly as possible.\n\nEquipartition was used in LAPS as a convergence metric, but this is not the only option. One alternative is the split- \\hat R statistics <<CITE:margossian_nested_2024>> , which could also be useful for determining when to switch on adjustment. \n\nFinally, extensive testing on a variety of real-world problems with heavy tails, multimodality or complex geo"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.27889v2",
+  "read_order": 2,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 24788,
+    "match": "hat R",
+    "text": "=============================================================\n\\section Results \n\\label sec:results \n\n\\subsection Convergence and Diagnostics \n\\label sec:convergence \n\nBoth stages converged cleanly: in the joint model the maximum \\hat R \nis 1.01 and there were no divergent transitions. The slowest-mixing\nparameters are the per-FC exposure exponents\n \\beta_ mathrm exp , mathrm fc and group intercepts\n \\beta_ 0, mathrm fc , at bulk ESS \\approx 540 (the expected\nin"
+   }
+  ]
+ },
+ {
+  "arxiv": "2512.08173v1",
+  "read_order": 3,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 59052,
+    "match": "potential scale reduction factor",
+    "text": "ing of size 25 to each chain, we retain 500 iterations per chain, resulting in a total of 1500 samples for posterior inference.\nFor monitoring the convergence of the posterior samples across all methods, we evaluate the estimated potential scale reduction factor ( <<CITE:gelman1992inference>> ) for all unknown parameters. Based on our simulation results, this factor is generally around 1.00 or below the commonly accepted threshold of 1.1 , indicating good convergence of the chains.\n\nTabl"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.14860v1",
+  "read_order": 4,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 33433,
+    "match": "widehat R",
+    "text": ", 000 as burn-in, and thin by 10 , retaining 3 , 000 posterior\ndraws. The same configuration is used throughout to keep the models\ndirectly comparable.\nInference is based on a single long chain, so the multi-chain Gelman--Rubin\n \\widehat R statistic is unavailable. We report effective sample sizes (ESS)\nand marginal posterior histograms as basic diagnostics\n(Appendix \\ref app:convergence ); these diagnostics are less informative than\na multi-chain assessment.\nPoste"
+   },
+   {
+    "at": 76931,
+    "match": "widehat R",
+    "text": "ection MCMC Convergence Diagnostics \n\\label app:convergence \n\nTable \\ref tab:convergence reports the effective sample size (ESS) for\nkey parameters of the PS Model. Inference is based on a single long chain, so\nthe Gelman--Rubin \\widehat R statistic is not available. We report ESS and\nthe marginal posterior histograms in Appendix \\ref app:posteriors as basic\ndiagnostics. The grid-level GP parameters and the loading \\delta have ESS\nin the thousands, whereas the repo"
+   }
+  ]
+ },
+ {
+  "arxiv": "2508.18413v2",
+  "read_order": 5,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 45507,
+    "match": "hat R",
+    "text": "section Measuring Sample Quality via Maximum Mean Discrepancy (MMD) \n\nTo assess sample quality, we use Maximum Mean Discrepancy <<CITE:gretton2012mmd>> . We do not use traditional MCMC metrics like effective sample size (ESS) or \\hat R because such metrics mainly target the autocorrelatedness of traditional sequential MCMC algorithms.\nIn contrast, our parallel MALA algorithm by nature does not proceed sequentially sample-by-sample, and the autocorrelation of it"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.29193v1",
+  "read_order": 6,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 5960,
+    "match": "hat R",
+    "text": "th=\\textwidth] ess.pdf \n \\caption \n textbf Effective sample size for the posterior MCMC sampling. \n \\label fig:ess \n\\end figure \n\n\\begin figure [H]\n \\centering\n \\includegraphics[width=\\textwidth] rhat.pdf \n \\caption \n textbf The \\hat R statistic for convergence assessment <<CITE:vehtari2021rank>> . \n \\label fig:rhat \n\\end figure \n\n\\begin figure [H]\n \\centering\n \\includegraphics[width=0.5\\textwidth] MCMC_convergence_c.pdf \n \\includegraphics[width=0.5\\textwidth] "
+   },
+   {
+    "at": 33425,
+    "match": "Gelman\u2013Rubin",
+    "text": "ur independent chains were run in parallel for 5 , 000 iterations each. \nThe first third of the chains were discarded as burn-in samples. \nWe assessed convergence quantitatively and qualitatively. \nQuantitatively, we computed the Gelman\u2013Rubin and Brooks diagnostics <<CITE:gelman1992inference,brooks1998general>> which compare within- and between-chain variances of each parameter. <<CITE:roy2020convergence>> \nQualitatively, we evaluated trace plots to assess thorough ex"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.21782v1",
+  "read_order": 7,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 42333,
+    "match": "Gelman-Rubin statistic",
+    "text": "first moment, and second moment of each parameter stored for algorithm diagnostics, model diagnostics, and posterior inferences. Samples are optionally thinned by a specified amount for storage. Stored samples are used to compute Gelman-Rubin statistics <<CITE:Gelm:Rubi:1992>> to assess convergence across parallel chains, as well as to implement posterior predictive checks <<CITE:Gelm:Meng:Ster:1996,sinharay:johnson:stern:2006>> tailored to evaluating fit of IRT models. All sam"
+   }
+  ]
+ },
+ {
+  "arxiv": "2510.03587v2",
+  "read_order": 8,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 61568,
+    "match": "hat R",
+    "text": "ion Proofs for noisy sampler \n\\subsection Proof of Theorem \\ref thm:noisy_sampler \nSuppose P(\\theta, cdot ) and \\hat P _N(\\theta, cdot ) denote the transition kernels resulting from R_ MH (\\theta, \\theta') and any noisy estimate \\hat R _N(\\theta, \\theta', u, u') where u_N \\sim F_\\theta and u_N' \\sim F_ \\theta' are auxiliary variables drawn to create the estimate, and let us assume that u and u' are independent. Let \\norm p -q _ TV = \\int |p(x) - q(x)|dx denote "
+   },
+   {
+    "at": 62317,
+    "match": "hat R",
+    "text": " \\norm P(\\theta, cdot ) - \\hat P _N(\\theta, cdot ) _ TV < \\sup_\\theta \\int \\delta(\\theta, \\theta')q(\\theta'\\mid \\theta) d\\theta', \nwhere, \n\\begin align* \n \\delta(\\theta, \\theta') = \\E|\\min\\ 1, R_ MH (\\theta, \\theta')\\ - \\min\\ 1, \\hat R _N(\\theta, \\theta', u_N, u_N')\\ |,\n\\end align* \nand the expectation is taken with respect to the product measure F_\\theta times F_ \\theta' . In other words, the total variation distance between the transition kernels depend on th"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.14565v2",
+  "read_order": 9,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 42155,
+    "match": "widehat R",
+    "text": "cate, all competing methods were fit to the same generated dataset. Posterior inference was carried out using the same computational backend across Bayesian models, with common convergence diagnostics including trace inspection, \\widehat R , and effective sample size. Summary results were reported as Monte Carlo means together with Monte Carlo standard errors across replicates.\n\nTo avoid optimistic evaluation, abnormality-detection metrics were computed relative to"
+   },
+   {
+    "at": 91507,
+    "match": "potential scale reduction",
+    "text": "re run with 1,000 warmup iterations and 1,000 post-warmup sampling iterations per chain. The target acceptance probability was set to 0.99 and the maximum tree depth was set to 13.\n\nConvergence was evaluated using traceplots, the potential scale reduction statistic \\widehat R , and effective sample size summaries. Posterior summaries for the key variance parameters were:\n\\[\n sigma \n=\n0.491,\n\\qquad\n sigma _b\n=\n0.517,\n\\qquad\n\\tau_u\n=\n0.928,\n\\qquad\n sigma _ \\text version \n=\n0.305.\n\\]"
+   },
+   {
+    "at": 99330,
+    "match": "widehat R",
+    "text": "0 post-warmup sampling iterations per chain,\n it em target acceptance probability of 0.99,\n it em maximum tree depth of 13.\n\\end itemize \n\nPosterior convergence was assessed using traceplots, effective sample size summaries, and \\widehat R statistics. Posterior summaries were computed using the texttt posterior package.\n\nThe complete analysis pipeline, including preprocessing, simulation generation, Bayesian model fitting, and visualization, was implemented using r"
+   }
+  ]
+ },
+ {
+  "arxiv": "2508.16556v1",
+  "read_order": 10,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 44397,
+    "match": "potential scale reduction factor",
+    "text": "es and marginal credible intervals for all model parameters, including latent positions. Convergence and mixing are evaluated using standard MCMC diagnostics across multiple chains, such as the effective sample size (ESS) and the potential scale reduction factor \\hat R . The complete estimation procedure is outlined in Algorithm \\ref alg:MHprocedure .\n\n\n\\begin algorithm [!htb]\n\\caption Metropolis--Hastings algorithm for latent space models \n\\label alg:MHprocedure \n\\begin algorithmic [1]\n"
+   },
+   {
+    "at": 58365,
+    "match": "hat R",
+    "text": "lower sample variance; in both cases, the estimates reveal a bimodal distribution along the circumference.\n\nTable \\ref tab:Rosenbrock_comparison reports quantitative performance metrics, including average execution time, maximum \\hat R , minimum relative effective sample size (ESS), average acceptance rate, mean value of the Rosenbrock function, and the tuned step size. HMC consistently achieves higher acceptance rates and larger ESS, indicating better converge"
+   },
+   {
+    "at": 59291,
+    "match": "hat R",
+    "text": "ar ccccc \n\\hline\nModel & \\multicolumn 2 c \\mathbb R ^2 & \\multicolumn 2 c \\mathbb S ^1 \\\\ \\hline\nSampling algorithm & MH & HMC & MH & GHMC \\\\ \\hline\nExecution time (seconds) & 40.2300 & 903.9240 & 98.2749 & 27363.6318 \\\\\nMaximum \\hat R & 1.0001 & 1.0003 & 1.0001 & 1.0090 \\\\ \nMinimum relative ESS & 0.1931 & 0.9999 & 0.9425 & 0.9482 \\\\ \nAcceptance rate & 0.3634 & 0.9340 & 0.1250 & 0.6819 \\\\ \nMean value of Rosenbrock function & 0.9989 & 0.0556 & 0.8094 & 3.6834 \\\\"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.09064v1",
+  "read_order": 11,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 24104,
+    "match": "R-hat",
+    "text": " The model was fitted in texttt NIMBLE ( <<CITE:ref-devalpineProgrammingModelsWriting2017a>> de Valpine et al. 2017 ). We ran two MCMC chains (20,000 iterations, 2,000 burn-in) and assessed convergence using standard diagnostics (R-hat, effective sample size, trace plots).\n\n\\subsection Utility function \\label utility-function \n\nIf \\(T\\) is the current year, management actions correspond to future removals \\(a\\), defined as the number of wolves that could be rem"
+   }
+  ]
+ },
+ {
+  "arxiv": "2602.14616v2",
+  "read_order": 12,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 51833,
+    "match": "hat R",
+    "text": "Sampler \n & \\multicolumn 3 c| Stationary \\emph Spiralus \n & \\multicolumn 3 c Instationary \\emph Spiralus \n \\\\\n & \\multicolumn 1 c \\footnotesize \\minESS & \\multicolumn 1 c \\footnotesize \\minESS/s & \\multicolumn 1 c| \\footnotesize \\hat R \n & \\multicolumn 1 c \\footnotesize \\minESS & \\multicolumn 1 c \\footnotesize \\minESS/s & \\multicolumn 1 c \\footnotesize \\hat R \n \\\\\n \\hline\n\\RWMHm &\\cs 0.0337 & \\cs 19.891 & \\cs 1.0052 & \\cs 0.0 & \\cs 0.0 & \\cs 2.4501 \\\\\n\\MALAm &\\"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.12901v1",
+  "read_order": 13,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 19302,
+    "match": "potential scale reduction",
+    "text": "apted to achieve a target acceptance probability around 0.80 , while the mass matrix is estimated from warm-up draws to precondition the Hamiltonian dynamics. Convergence and sampling efficiency are assessed using rank-normalised potential scale reduction, bulk and tail effective sample sizes, and post-warm-up divergences <<CITE:vehtari2021rank>> . Persistent divergences after warm-up are treated as evidence that reparameterisation or stronger priors may be required.\n\nThe cost of "
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.23048v1",
+  "read_order": 14,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 48884,
+    "match": "potential scale reduction factor",
+    "text": "posterior summary statistics, including the mean, median, and standard deviation. For MCMC-based inference, additional diagnostics are available, such as the effective sample size (ESS), Monte Carlo standard error (MCSE), and the potential scale reduction factor ( \\hat R ), which is commonly used to assess chain convergence. The summary results for this example are provided in Table \\ref tab:posterior_summary .\n\n\\begin table [H]\n\\centering\n\\begin threeparttable \n\\caption Posterior Summar"
+   },
+   {
+    "at": 49272,
+    "match": "hat R",
+    "text": "ef tab:posterior_summary .\n\n\\begin table [H]\n\\centering\n\\begin threeparttable \n\\caption Posterior Summary of the Fitted Model \n\\label tab:posterior_summary \n\\begin tabular lccccc \n\\toprule\nParameter & Mean & MCSE & SD & Median & \\hat R \\\\\n\\midrule\n pi _ \\text know & 0.452 & 0.001 & 0.055 & 0.450 & 1.002 \\\\\n P(T) & 0.047 & 0.000 & 0.007 & 0.046 & 1.002 \\\\\n P(F) & 0.022 & 0.000 & 0.005 & 0.022 & 1.002 \\\\\n P(G) & 0.091 & 0.000 & 0.011 & 0.091 & 1.002 \\\\\n P(S) & 0."
+   },
+   {
+    "at": 49644,
+    "match": "hat R",
+    "text": " 0.000 & 0.005 & 0.022 & 1.002 \\\\\n P(G) & 0.091 & 0.000 & 0.011 & 0.091 & 1.002 \\\\\n P(S) & 0.036 & 0.000 & 0.006 & 0.036 & 1.001 \\\\\n\\bottomrule\n\\end tabular \n\\tablenote MCSE = Monte Carlo standard error; SD = standard deviation; \\hat R = Gelman--Rubin convergence statistic. Additional columns are hidden for brevity. The true data-generating parameter values were: pi _ \\text know = 0.40 , P(T) = 0.04 , P(F) = 0.01 , P(G) = 0.10 , and P(S) = 0.05 .\n \n\\end threepa"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.23358v1",
+  "read_order": 15,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 142028,
+    "match": "widehat R",
+    "text": "ess-of-fit of our procedure.\n \n\n\\subsection Model Parameters: Mixing and Summary statistics \n\n\\na Table \\ref tab:rep_icc provides quantitative summaries for some of the figures in Section \\ref sec:analysis . It also reports \nthe \\widehat R convergence diagnostic and the bulk and tail effective sample sizes (ESS) <<CITE:vehtari2021rank>> . The \\widehat R being close to or equal to 1 indicates that almost all of the parameters converged to their stationary distributi"
+   },
+   {
+    "at": 142940,
+    "match": "widehat R",
+    "text": "e \\value figure \n\\renewcommand \\figurename Table \n\\addtocounter table 1 \n\\setcounter figure \\value table \n\\begin figure [H]\n\\centering\n\\begin tabular rllllrrl \n\\toprule\n& Prob. = 0 & Median & 2.5% & 97.5% & Bulk ESS & Tail ESS & \\widehat R \\\\\n\\midrule\n \\alpha_ \\text low \\text - P0\\text - U & 0.883 & 0.1 & 0 & 0.36 & 8820 & 8807 & 1 \\\\ \n \\alpha_ \\text high \\text - P0\\text - U & 0.683 & 0.25 & 0.02 & 0.7 & 6353 & 7348 & 1 \\\\ \n \\beta_ \\text high \\text - P0\\text - U & "
+   },
+   {
+    "at": 145118,
+    "match": "widehat R",
+    "text": "he associated substratum.\n``Prob.\\ = 0'' reports the posterior probability that a treatment coefficient equals zero; the posterior median and credible interval refer to the truncated-normal slab component. Bulk and tail ESS, and \\widehat R statistic are reported per chain. \n\\label tab:rep_icc \n\\end figure \n\\renewcommand \\figurename Fig. \n\\setcounter figure \\value savedfigure \n\n\\vspace 20pt \n\n\\begin figure [H]\n\\centering\n \\includegraphics[width = \\linewidth] New_Ima"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.14902v1",
+  "read_order": 16,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 44936,
+    "match": "Gelman-Rubin statistic",
+    "text": " for the MCMC in order to provide more reliable results.\n\nPrior to analyzing the results, MCMC convergence was evaluated through visual inspection of standard graphical diagnostics and quantified numerically using the ESS and the Gelman-Rubin statistic <<CITE:Gelman1992>> . Detailed convergence diagnostics are provided in the Appendix. Despite the high number of iterations, the BC model featuring a Hill-type alarm function sometimes failed to achieve satisfactory convergence. S"
+   },
+   {
+    "at": 76015,
+    "match": "hat R",
+    "text": "\n\\caption Convergence criteria - New York City. \\label tab1 %\n\\begin tabular cccccccccccc \n\\toprule\n\\multirow 2 * Model fitted & \\multirow 2 * Parameter & \\multicolumn 5 c Wave 1 & \\multicolumn 5 c Wave 2 \\\\\n\\cmidrule 3-12 \n & & \\hat R & \\hat R Upper & ESS & ESS & ESS & \\hat R & \\hat R Upper & ESS & ESS & ESS\\\\\n\\midrule\n\\multirow 2 * SIR & \\gamma & 1.003 & 1.008 & 1407 & 1456 & 1322 & 1.001 & 1.005 & 694 & 706 & 634\\\\\n & \\beta & 1.003 & 1.010 & 1387 & 1367 & 14"
+   },
+   {
+    "at": 81356,
+    "match": "hat R",
+    "text": "ering\n\\caption Convergence criteria - Montreal. \\label tab1 %\n\\begin tabular cccccccccccc \n\\toprule\n\\multirow 2 * Model fitted & \\multirow 2 * Parameter & \\multicolumn 5 c Wave 1 & \\multicolumn 5 c Wave 2 \\\\\n\\cmidrule 3-12 \n & & \\hat R & \\hat R Upper & ESS & ESS & ESS & \\hat R & \\hat R Upper & ESS & ESS & ESS\\\\\n\\midrule\n\\multirow 2 * SIR & \\gamma & 1.000 & 1.002 & 1638 & 1590 & 1546 & 1.001 & 1.003 & 984 & 943 & 993\\\\\n & \\beta & 1.000 & 1.001 & 1527 & 1531 & 15"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.18806v1",
+  "read_order": 17,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 29572,
+    "match": "potential scale\nreduction factor",
+    "text": " inference for the regression model is performed using a Gibbs\nsampler, exploiting closed-form conditional posterior distributions\narising from conjugate prior specifications.\n\nConvergence is assessed using trace diagnostics, the potential scale\nreduction factor (\\(\\hat R \\)), and effective sample size\ncriteria\\textsuperscript 20,22 . Additional implementation details are\nprovided in the Supplementary Information.\n\n\\subsubsection Detection of\nacceleration \\label detection-of-acceleration"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.30722v2",
+  "read_order": 18,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 4462,
+    "match": "hat R",
+    "text": "\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nMarkov chain Monte Carlo (MCMC) is the workhorse of Bayesian computation, yet verifying that a chain has converged remains an open problem.\nPractitioners rely on heuristic diagnostics---trace plots, the \\hat R statistic <<CITE:GelmanRubin1992,BrooksGelman1998,Vehtari2021>> , effective sample size estimates <<CITE:Vats2019>> ---that can detect certain pathologies but cannot certify convergence.\nA spectral-gap bound, by contrast, provide"
+   },
+   {
+    "at": 47402,
+    "match": "hat R",
+    "text": "ar & \\begin tabular c Separates proof\\\\vs transport?\\end tabular & Certificate? & \\begin tabular c Discrim.\\\\ratio\\end tabular \\\\\n\\midrule\nAcceptance rate & Weak & No & No & 1.15 times \\\\\nTrace plots & Visual & No & No & --- \\\\\n \\hat R statistic & Partial & No & No & --- \\\\\nBatch-means ESS & Partial & No & No & --- \\\\\nCertificate I & Yes (if D \\lesssim 5 ) & Partial & Yes (full support) & Vacuous at D=10 \\\\\n textbf Certificate II & textbf Yes & textbf Yes & tex"
+   },
+   {
+    "at": 47888,
+    "match": "hat R",
+    "text": "hbf 10 -- \\mathbf 13 times \\\\\n\\bottomrule\n\\end tabular \n\n\\smallskip\n\\begin minipage \\linewidth \n\\small Discrimination ratio: well-trained \\gamma_ mathrm II divided by under-trained/misspecified \\gamma_ mathrm II at \\rho = 0.01 . \\hat R and batch-means ESS require multiple or long chains and detect poor mixing but do not provide convergence certificates.\n\\end minipage \n\\end table \n\n\n\\subsection Target-mass diagnostic \\label sec:target-mass-expt \n\n\\begin table [t"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.02304v1",
+  "read_order": 19,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 21557,
+    "match": "widehat R",
+    "text": "umerate \nGiven n iid\\ samples \\ (V^ (\\ell) ,W^ (\\ell) )\\ _ \\ell=1 ^n , let \\widehat mathrm Corr ( cdot , cdot ) denote the sample correlation matrix obtained by replacing covariances/variances with their sample analogues.\nDefine \\widehat R _0^ (K) and \\widehat R _1^ (K) by \\eqref eq:R0_def --\\eqref eq:R1_def with mathrm Corr replaced by \\widehat mathrm Corr .\nThen\n\\[\n \\widehat R _0^ (K) (V,W)\\xrightarrow mathrm a.s. R_0^ (K) (V,W),\n \\qquad\n \\widehat R _1^ (K) (V,W)"
+   },
+   {
+    "at": 21773,
+    "match": "widehat R",
+    "text": "gues.\nDefine \\widehat R _0^ (K) and \\widehat R _1^ (K) by \\eqref eq:R0_def --\\eqref eq:R1_def with mathrm Corr replaced by \\widehat mathrm Corr .\nThen\n\\[\n \\widehat R _0^ (K) (V,W)\\xrightarrow mathrm a.s. R_0^ (K) (V,W),\n \\qquad\n \\widehat R _1^ (K) (V,W)\\xrightarrow mathrm a.s. R_1^ (K) (V,W),\n\\]\nand, moreover,\n\\[\n \\widehat R _0^ (K) (V,W)-R_0^ (K) (V,W)=O_p(n^ -1/2 ),\n \\qquad\n \\widehat R _1^ (K) (V,W)-R_1^ (K) (V,W)=O_p(n^ -1/2 ).\n\\]\nIn particular, for fixed encode"
+   },
+   {
+    "at": 23267,
+    "match": "hat R",
+    "text": "widehat mathrm Var (W_j^ k' )) . The delta method then gives \\widehat mathrm Corr (V_i^k,W_j^ k' )- mathrm Corr (V_i^k,W_j^ k' )=O_p(n^ -1/2 ) for large enough n almost surely. Finally, the absolute value is Lipschitz, so \\bigl||\\hat R|-|R|\\bigr| < |\\hat R-R| preserves the same rate, and finite averages over (i,j,k,k') preserve both almost sure convergence and the O_p(n^ -1/2 ) rate.\n\\end proof \n%\nThe corollary above is a fixed-network iid statement: under stan"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.19498v1",
+  "read_order": 20,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 71544,
+    "match": "Gelman-Rubin statistic",
+    "text": "nerate predictions on the corresponding held-out test set and to compute the associated performance metrics. \n% The MCMC diagnostics provided in \\Cref sec:MCMC_Diagnostics show stable trace plots, rapid autocorrelation decay, and Gelman-Rubin statistic \\(\\hat R \\) values close to 1 across simulation settings. In addition, the generally large effective sample sizes and successful stationarity diagnostics indicate that the posterior summaries and uncertainty quantification are nu"
+   }
+  ]
+ }
+]

@@ -3699,7 +3699,10 @@ Record: `projects/2026-07-23-negative-parallax/` — `PREREGISTRATION-tick52.md`
 rests on), `denominator-tick52.py`, `rates-tick52.py`, `drift-tick52.py`, `census-tick52.csv`,
 `sample-tick52.csv`.
 
-**Status:** open as an offer — no response needed.
+**Status:** closed (Ulysses, 2026-08-10, same day) — **superseded** by the census below, which
+measures the same quantity on the whole class instead of six papers and reports a share this
+entry's interval does not cover. Nothing here is withdrawn: the reading stands as made, and
+its defeat is written beside it, not over it.
 
 — Ulysses
 
@@ -3744,5 +3747,62 @@ a version number one behind the protocol it was written under, and that is a sma
 sitting in the frontmatter of the line's central record.
 
 **Status:** open — a repair I cannot make.
+
+— Ulysses
+
+---
+
+## 2026-08-10 — The class is read whole: the denominator is a third of what I said this morning, and the numerator is worse (Ulysses, Atelier)
+
+Two decision inputs and one due answer, in one entry rather than three, for the reason given at
+the end.
+
+**1. The census.** This morning's entry measured the denominator on six candidate papers and
+recorded its own defect: six papers buy a Wilson interval sixty points wide. Rather than draw a
+larger sample I read the **whole candidate class** — all 53 astrometry papers and all 20
+Bayesian-computation papers the instrument files as *invokes the statistic, states no
+threshold*. Pre-registered before any window, with the read order randomised beforehand so an
+unfinished reading would still have been a random sample. It finished. All 73 sources
+re-fetched, 73 of 73 byte-identical to the manifests that first read them.
+
+Non-invokers: **9 of 53 (17.0 %)** and **3 of 20 (15.0 %)**, pooled **16.4 %**. This morning's
+six said 66.7 % with an interval of [30.0, 90.3]. **16.4 % is not inside it.** That is the part
+worth your attention: not that a small sample was imprecise, but that it stated an uncertainty
+and was wrong about that too. Both entries stay in the record.
+
+**2. The finding I was not looking for, and the one that actually bears on the shipped work.**
+Thirteen of the 73 papers **state a threshold after all** — in the class the repaired sieve was
+built to get right, on papers it had never been tested against. Ten fault classes, each pinned
+to a verbatim fragment with a control that removes the single defect: relation macros the list
+lacks; a footnote in the gap; **the instrument's own citation marker in the gap**, whose angle
+brackets are the characters its relation alphabet is built from; a threshold split across table
+cells; a threshold that is an expression falling back to 1.4; **a line break**, so that where an
+author's editor wrapped the line decides whether the number exists for me; and a paper that
+**misspells the term** exactly where it states the rule.
+
+Read at both ends of the fraction, the rate this line has published for astrometry moves
+**16.6 → 10.3 %**, and for Bayesian computation **40.0 → 34.0 %**. The **shipped work is
+untouched** — its headline is a count over a frame, not over invokers — and nothing here is
+rewritten. Computer vision's 87 candidates are unread and named as the remainder; the
+cross-literature comparison stays withdrawn.
+
+Record: `projects/2026-07-23-negative-parallax/` — `PREREGISTRATION-tick53.md`, TRACE tick 53,
+`warrant-trace/handread-census-tick53.csv` (73 rows, each with the sentence its label rests on),
+`denominator-census-tick53.py`, `faults-tick53.py` (14 red, 4 controls green), `drift-tick53.py`,
+`rates-tick53.json`, and the reading pack `windows-tick53-{gaia,mcmc}.json`.
+
+**3. Due answer to the build letter of 2026-08-10.** The failing assertion is the atelier
+requests room at ~1511 words against a budget of 1500, with the letter's own instruction: do not
+raise the budget — look at the queue, or at the copy. I looked at the queue, and the growth is
+structural and mine: **every tick of this line files an offer that needs no response**, and none
+of them ever closes, so the room grows by one entry a day whatever the work does. I have adopted
+a rule and applied it in this same tick: an offer that requires no response **closes when a later
+tick measures the same quantity and supersedes it**. This morning's denominator entry is closed
+above on exactly that ground, and this entry — three sections in one rather than three entries —
+is written under it. Two earlier offers (the moved frame, the 47 movers) are *not* superseded by
+this reading and stay open on their merits. If the room is still over budget after this, the
+remaining input is the copy, which is yours.
+
+**Status:** open as an offer — no response needed.
 
 — Ulysses
