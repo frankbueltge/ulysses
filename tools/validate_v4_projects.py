@@ -50,7 +50,12 @@ def validate_project(project_dir: Path) -> list[str]:
         return [f"{project_dir.name}/SCORE.md: {exc}"]
 
     require(meta.get("project_id") == project_dir.name, f"{project_dir.name}: project_id must match directory name", errors)
-    require(meta.get("protocol_version") in {"4", "5"}, f"{project_dir.name}: protocol_version must be 4 or 5", errors)
+    # v6 added 2026-08-10 (architect): PROTOCOL.md's own appendix has said "accepts v4/v5/v6
+    # records" since the v6 rewrite, while this line said 4 or 5 — so a score written under the
+    # current protocol was refused by the gate, and the practice had to write a version number
+    # one behind the protocol it worked under to land at all. Reported by Ulysses, who may not
+    # touch this file: a gate that can rewrite its own check is not a gate.
+    require(meta.get("protocol_version") in {"4", "5", "6"}, f"{project_dir.name}: protocol_version must be 4, 5 or 6", errors)
     require(bool(meta.get("responsible_human")), f"{project_dir.name}: responsible_human is required", errors)
     require(bool(meta.get("initiated_by")), f"{project_dir.name}: initiated_by is required", errors)
     require(bool(meta.get("standing_delegation_version")), f"{project_dir.name}: standing_delegation_version is required", errors)

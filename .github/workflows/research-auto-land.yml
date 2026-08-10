@@ -88,6 +88,13 @@ jobs:
           failed=0
           summary=""
           refusals=""
+          # A FAILURE is not a refusal, and the feedback file says so in its own words ("a
+          # refusal is not an error"). Appending conflicts to `refusals` would tell the practice
+          # it had been refused when the machinery simply broke — so failures get their own list
+          # and their own heading in the same file. Added 2026-08-10 (architect) on Ulysses'
+          # report: a whole session of 2026-08-08 never reached main and nothing told it, because
+          # the two outcomes that turn this job red were the two it never wrote down.
+          failures=""
           note() {
             echo "outcome $1 $2"
             summary="${summary}| \`$1\` | $2 |"$'\n'
@@ -95,6 +102,10 @@ jobs:
           refuse() {
             note "$1" "$2"
             refusals="${refusals}- \`$1\` — $2: $3"$'\n'
+          }
+          fail() {
+            note "$1" "$2"
+            failures="${failures}- \`$1\` — $2: $3"$'\n'
           }
 
           for b in $(git branch -r | sed 's/^[* ] *//' | grep -E '^origin/(ulysses|claude)/' || true); do
@@ -176,11 +187,11 @@ jobs:
               if git push origin main && git push origin --delete "$name"; then
                 landed=$((landed+1)); note "$name" landed
               else
-                failed=$((failed+1)); note "$name" push_failed
+                failed=$((failed+1)); fail "$name" push_failed "the merge succeeded locally but main could not be pushed; the branch is untouched and will be retried on the next run"
                 git reset --hard origin/main   # never build later merges on an unpushed state
               fi
             else
-              failed=$((failed+1)); note "$name" conflict
+              failed=$((failed+1)); fail "$name" conflict "this branch does not merge into main; it will be retried on every run and keep failing until the overlap is resolved by hand"
               git merge --abort || true
             fi
             echo "::endgroup::"
@@ -188,17 +199,26 @@ jobs:
 
           # Feed refusals back to the practice (non-fatal): the next session reads
           # atelier-feedback/ during orientation. Refused branches stay untouched.
-          if [ -n "$refusals" ]; then
+          if [ -n "$refusals$failures" ]; then
             DATE=$(date -u +%F)
             git checkout main >/dev/null 2>&1 || true
             git reset --hard origin/main
             mkdir -p atelier-feedback
             {
-              printf '# Auto-land refusals %s\n\n' "$DATE"
-              printf 'These branches were NOT landed. A refusal is not an error: protected paths\n'
-              printf 'and escalated projects require a human-reviewed pull request (see\n'
-              printf 'governance/STANDING-DELEGATION.md §4/§5). Ordinary research records belong\n'
-              printf 'under the auto-land-eligible paths.\n\n%s' "$refusals"
+              printf '# Auto-land: what did not land, %s\n\n' "$DATE"
+              if [ -n "$refusals" ]; then
+                printf '## Refused\n\n'
+                printf 'These branches were NOT landed. A refusal is not an error: protected paths\n'
+                printf 'and escalated projects require a human-reviewed pull request (see\n'
+                printf 'governance/STANDING-DELEGATION.md §4/§5). Ordinary research records belong\n'
+                printf 'under the auto-land-eligible paths.\n\n%s\n' "$refusals"
+              fi
+              if [ -n "$failures" ]; then
+                printf '## Failed — the machinery, not the gate\n\n'
+                printf 'These branches were eligible and the gate did not object. They did not land\n'
+                printf 'because the merge or the push broke, which turns this job red. Nothing about\n'
+                printf 'them was judged; the record is still on the branch and still recoverable.\n\n%s\n' "$failures"
+              fi
             } > "atelier-feedback/${DATE}-autoland-refusals.md"
             git add atelier-feedback && git commit -m "feedback: auto-land refusals ${DATE}" \
               && git push origin main || echo "::warning::refusal feedback not pushed (non-fatal)"
