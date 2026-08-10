@@ -1,0 +1,94 @@
+{
+ "tick": 52,
+ "old_manifest": "fetch-manifest-tick46.jsonl",
+ "records_today": 256,
+ "checked": 256,
+ "match": 256,
+ "mismatch": [],
+ "absent_from_old": [],
+ "not_ok_today": [
+  {
+   "arxiv": "2608.02806v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2608.02448v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.17669v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.12110v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.09835v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.06896v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.04921v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.02699v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.02025v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2606.27831v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2606.27667v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.21050v2",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2607.03764v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2606.21026v2",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2606.18484v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  },
+  {
+   "arxiv": "2603.10782v1",
+   "error": "no_latex_source: arXiv served a PDF"
+  }
+ ],
+ "not_ok_at_tick46": [
+  "2608.02806v1",
+  "2608.02448v1",
+  "2607.17669v1",
+  "2607.12110v1",
+  "2607.09835v1",
+  "2607.06896v1",
+  "2607.04921v1",
+  "2607.02699v1",
+  "2607.02025v1",
+  "2606.27831v1",
+  "2606.27667v1",
+  "2607.21050v2",
+  "2607.03764v1",
+  "2606.21026v2",
+  "2606.18484v1",
+  "2603.10782v1"
+ ],
+ "d0_fires": false
+}

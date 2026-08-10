@@ -1,0 +1,215 @@
+[
+ {
+  "arxiv": "2604.02304v1",
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 21557,
+    "match": "widehat R",
+    "text": "\\ne 0 , \\forall 1 < i < m_v , 1 < j < m_w , and 1 < k,k' < K .\n\\end enumerate \nGiven n iid\\ samples \\ (V^ (\\ell) ,W^ (\\ell) )\\ _ \\ell=1 ^n , let \\widehat mathrm Corr ( cdot , cdot ) denote the sample correlation matrix obtained by replacing covariances/variances with their sample analogues.\nDefine \\widehat R _0^ (K) and \\widehat R _1^ (K) by \\eqref eq:R0_def --\\eqref eq:R1_def with mathrm Corr replaced by \\widehat mathrm Corr .\nThen\n\\[\n \\widehat R _0^ (K) (V,W)\\xrightarrow mathrm a.s. R_0^ (K) (V,W),\n \\qquad\n \\widehat R _1^ (K) (V,W)\\xrightarrow mathrm a.s. R_1^ (K) (V,W),\n\\]\nand, moreover,\n\\[\n \\wideha"
+   },
+   {
+    "at": 21773,
+    "match": "widehat R",
+    "text": "ix obtained by replacing covariances/variances with their sample analogues.\nDefine \\widehat R _0^ (K) and \\widehat R _1^ (K) by \\eqref eq:R0_def --\\eqref eq:R1_def with mathrm Corr replaced by \\widehat mathrm Corr .\nThen\n\\[\n \\widehat R _0^ (K) (V,W)\\xrightarrow mathrm a.s. R_0^ (K) (V,W),\n \\qquad\n \\widehat R _1^ (K) (V,W)\\xrightarrow mathrm a.s. R_1^ (K) (V,W),\n\\]\nand, moreover,\n\\[\n \\widehat R _0^ (K) (V,W)-R_0^ (K) (V,W)=O_p(n^ -1/2 ),\n \\qquad\n \\widehat R _1^ (K) (V,W)-R_1^ (K) (V,W)=O_p(n^ -1/2 ).\n\\]\nIn particular, for fixed encoder parameters and iid samples, the minibatch penalties in \\eqref eq:aux"
+   },
+   {
+    "at": 23267,
+    "match": "hat R",
+    "text": "w)=(\\widehat mathrm Cov (V_i^k,W_j^ k' ),\\widehat mathrm Var (V_i^k),\\widehat mathrm Var (W_j^ k' )) . The delta method then gives \\widehat mathrm Corr (V_i^k,W_j^ k' )- mathrm Corr (V_i^k,W_j^ k' )=O_p(n^ -1/2 ) for large enough n almost surely. Finally, the absolute value is Lipschitz, so \\bigl||\\hat R|-|R|\\bigr| < |\\hat R-R| preserves the same rate, and finite averages over (i,j,k,k') preserve both almost sure convergence and the O_p(n^ -1/2 ) rate.\n\\end proof \n%\nThe corollary above is a fixed-network iid statement: under standard moment assumptions, the minibatch dependence penalties converge t"
+   }
+  ]
+ },
+ {
+  "arxiv": "2510.01016v1",
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 20662,
+    "match": "Gelman-Rubin statistic",
+    "text": ". In this work, Transitional Markov Chain Monte Carlo (T-MCMC) is employed to gradually transform the prior to the posterior through intermediate distributions, improving sampling efficiency in complex likelihood landscapes <<CITE:Ching2007>> . Convergence assessment through diagnostics such as the Gelman-Rubin statistic and effective sample size calculations ensures reliable posterior characterization and parameter uncertainty quantification <<CITE:Gelman1992>> .\n\n\n\\subsubsection Sequential multimodal updating \n\nAs already discussed, practical implementation of sequential BI can be order-sensitive <<CITE:Iglesias2"
+   },
+   {
+    "at": 66730,
+    "match": "Gelman-Rubin statistic",
+    "text": "le from the tempered target distribution <<CITE:Hastings1970>> . This annealed sequence stabilizes mixing and improves exploration of the posterior relative to a single-stage random-walk sampler. We ran 8 independent runs (chains) for between-run diagnostics. Convergence was assessed with the split Gelman-Rubin statistic \\hat R and the effective sample size (ESS) <<CITE:Gelman2013>> . All runs achieved split- \\hat R <1.05 (most <1.02 ), and the minimum ESS per parameter exceeded 6500. For additional details of the T-MCMC implementation, the reader is referred to prior publications <<CITE:Ching2007,Venkatraman2025>>"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.26949v1",
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 58412,
+    "match": "widehat R",
+    "text": " per setting. \n\nEach data set is fitted with two chains initialized at (C,K)=(2,2) and (7,9) , each run for 4,000 iterations with 1,200 discarded and split--merge proposals using one exact restricted-allocation pass. We assess the 2,800 retained C and K values separately with rank-normalized split \\widehat R <<CITE:vehtari_gelman_simpson_2021,gelman_rubin_1992>> ; values near one indicate that both starts explore the same marginal distribution. A data set passes only if \\widehat R_C\\leq1.01 and \\widehat R_K\\leq1.01 ; in this case, the two independent chains are pooled. Bulk ESS is the approximate numbe"
+   },
+   {
+    "at": 58842,
+    "match": "widehat R",
+    "text": "inal distribution. A data set passes only if \\widehat R_C\\leq1.01 and \\widehat R_K\\leq1.01 ; in this case, the two independent chains are pooled. Bulk ESS is the approximate number of independent draws represented by the 5,600 correlated two-chain draws. In Table \\ref tab:main-simulation-summary , \\widehat R and ESS average all eight data sets in a setting, whereas recovery uses only those passing this screen.\n\nThe Co-clustering Adjusted Rand Index (CARI) compares estimated and true assessor--item cells <<CITE:robert_vasseur_brault_2020>> : values near one indicate nearly perfect joint recovery and val"
+   },
+   {
+    "at": 60023,
+    "match": "widehat R",
+    "text": " a pair of chains that could be pooled. \n \\label fig:sim-cari-main \n\\end figure \n\n\\begin table [htbp]\n \\centering\n \\caption Selected simulation results. ``Passed'' counts data sets with both \\widehat R_C\\leq1.01 and \\widehat R_K\\leq1.01 . Mean CARI uses only passing data sets; mean rank-normalized \\widehat R and bulk ESS use all eight. Each ESS is based on 5,600 retained draws from two chains. \n \\label tab:main-simulation-summary \n \\footnotesize\n \\setlength \\tabcolsep 4pt \n \\begin tabular lrrrrrr \n \\toprule\n Regime & Passed & Mean CARI & Mean \\widehat R_C & Mean \\widehat R_K & Mean ESS _C & Mean ESS _K"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.31022v1",
+  "state": "measured",
+  "n_total": 0,
+  "windows": []
+ },
+ {
+  "arxiv": "2606.00783v1",
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 42299,
+    "match": "Gelman\u2013Rubin statistic",
+    "text": " \\]\n% Accept \\boldsymbol \\theta ' with probability q , otherwise retain \\boldsymbol \\theta _i .\n% \n% \n% Discard burn-in samples and flatten remaining chains to obtain \\ \\boldsymbol \\theta _i^ (k) \\ .\n% \\end algorithm \n\n\n% Convergence was confirmed visually through trace plots and quantitatively via Gelman\u2013Rubin statistics \n% ( \\hat R < 1.05 ) and effective sample sizes exceeding 500 per parameter.\n% Posterior summaries (means, standard deviations, and 95% credible intervals) were extracted for all parameters.\n\n\n%% 3.2.1\n\n\\subsubsection Bayesian inference using the affine-invariant ensemble sampler \n\\label subsec:in"
+   },
+   {
+    "at": 47820,
+    "match": "hat R",
+    "text": "dsymbol \\theta _i^ (k) \\ .\n\\end algorithm \n\nConvergence was assessed using multiple complementary diagnostics. \nVisual inspection of trace plots and marginal posterior densities was used to detect non-stationarity or multimodality, while quantitative diagnostics included Gelman--Rubin statistics ( \\hat R < 1.05 ) and effective sample sizes exceeding 500 per parameter, consistent with recommended best practices for Bayesian computation <<CITE:gelman2013bayesian,vehtari2021rank>> .\nPosterior summaries (means, standard deviations, and 95% credible intervals) were extracted for all parameters.\n%%\n\n\n\n% "
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.30722v2",
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 4462,
+    "match": "hat R",
+    "text": "tion Introduction \\label sec:intro \n%% \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nMarkov chain Monte Carlo (MCMC) is the workhorse of Bayesian computation, yet verifying that a chain has converged remains an open problem.\nPractitioners rely on heuristic diagnostics---trace plots, the \\hat R statistic <<CITE:GelmanRubin1992,BrooksGelman1998,Vehtari2021>> , effective sample size estimates <<CITE:Vats2019>> ---that can detect certain pathologies but cannot certify convergence.\nA spectral-gap bound, by contrast, provides a \\emph certificate : a computable quantity that guarantees the chai"
+   },
+   {
+    "at": 47402,
+    "match": "hat R",
+    "text": "c \n\\toprule\nDiagnostic & \\begin tabular c Detects\\\\bad flow?\\end tabular & \\begin tabular c Separates proof\\\\vs transport?\\end tabular & Certificate? & \\begin tabular c Discrim.\\\\ratio\\end tabular \\\\\n\\midrule\nAcceptance rate & Weak & No & No & 1.15 times \\\\\nTrace plots & Visual & No & No & --- \\\\\n \\hat R statistic & Partial & No & No & --- \\\\\nBatch-means ESS & Partial & No & No & --- \\\\\nCertificate I & Yes (if D \\lesssim 5 ) & Partial & Yes (full support) & Vacuous at D=10 \\\\\n textbf Certificate II & textbf Yes & textbf Yes & textbf Yes (core) & \\mathbf 10 -- \\mathbf 13 times \\\\\n\\bottomrule\n\\end ta"
+   },
+   {
+    "at": 47888,
+    "match": "hat R",
+    "text": "bf Certificate II & textbf Yes & textbf Yes & textbf Yes (core) & \\mathbf 10 -- \\mathbf 13 times \\\\\n\\bottomrule\n\\end tabular \n\n\\smallskip\n\\begin minipage \\linewidth \n\\small Discrimination ratio: well-trained \\gamma_ mathrm II divided by under-trained/misspecified \\gamma_ mathrm II at \\rho = 0.01 . \\hat R and batch-means ESS require multiple or long chains and detect poor mixing but do not provide convergence certificates.\n\\end minipage \n\\end table \n\n\n\\subsection Target-mass diagnostic \\label sec:target-mass-expt \n\n\\begin table [t]\n\\centering\n\\caption Empirical target mass \\hat pi (\\tilde G _\\rho) v"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.20692v1",
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 75702,
+    "match": "hat R",
+    "text": "elevant standard deviations in the transformed parameters block. This eliminates the funnel geometries that arise from centered parameterizations of hierarchical models <<CITE:neal2003slice,betancourt2016diagnosing>> and that, in preliminary runs, led to severe convergence failures (E-BFMI < 0.07, \\hat R up to 2.46). For the correlated RNA random effects, the NCP is extended via the Cholesky factorization of the correlation matrix (Section \\ref sec:model ), which parameterizes the correlation structure through its lower-triangular factor \\mathbf L and avoids direct sampling of the positive-definite"
+   },
+   {
+    "at": 76838,
+    "match": "hat R",
+    "text": "reduces sensitivity to the prior scale. %Fourth, PFU individual random effects are restricted to the N_ \\text pfu = 275 individuals who contribute at least one viral culture observation, avoiding the estimation of thousands of poorly identified parameters.\n\nConvergence is assessed using the split- \\hat R statistic <<CITE:vehtari2021rank>> , with all parameters required to satisfy \\hat R < 1.05 , and effective sample sizes (both bulk and tail ESS) required to exceed 100 per parameter. We additionally monitor the number of divergent transitions, the energy Bayesian fraction of missing information (E-"
+   },
+   {
+    "at": 78592,
+    "match": "hat R",
+    "text": "hout divergent transitions (0 of 64 , 000 transitions) and without maximum tree depth exceedances. The energy Bayesian fraction of missing information (E-BFMI) ranged from 0.68 to 0.70 across chains, well above the 0.3 threshold that would suggest problematic posterior geometry. The maximum split- \\hat R across all parameters was 1.03 (for the RNA correlation matrix element L_ \\Omega,\\text rna [4,3] ), with only 17 parameters exhibiting \\hat R > 1.01 , all of which are elements of the RNA individual-effect correlation matrix. No PFU-related parameters showed convergence concerns. The minimum bulk e"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.27889v2",
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 24788,
+    "match": "hat R",
+    "text": "ovide informed priors for the latent ADT in the joint\nrun.\n\n% =====================================================================\n\\section Results \n\\label sec:results \n\n\\subsection Convergence and Diagnostics \n\\label sec:convergence \n\nBoth stages converged cleanly: in the joint model the maximum \\hat R \nis 1.01 and there were no divergent transitions. The slowest-mixing\nparameters are the per-FC exposure exponents\n \\beta_ mathrm exp , mathrm fc and group intercepts\n \\beta_ 0, mathrm fc , at bulk ESS \\approx 540 (the expected\nintercept--slope correlation within a class), while the length exponent\n"
+   }
+  ]
+ },
+ {
+  "arxiv": "2509.02772v2",
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 68385,
+    "match": "hat R",
+    "text": "decomposition of F_0 . By Proposition \\ref prop:recovery_P_0 , we have ||\\bar U \\bar U^\\top - U_0 U_0^\\top || \\lesssim \\frac 1 n + \\frac 1 p_ \\min , with probability at least 1 - o(1) .\n Then, by Davis-Kahan theorem <<CITE:davis_kahan>> we have\n \\min_ R: R^\\top R = I_ k_0 ||U - U_0R || = ||U - U_0 \\hat R || \\lesssim \\frac 1 n + \\frac 1 p_ \\min , with probability at least 1 - o(1) , where \\hat R is the orthogonal matrix achieving the minimum of the quantity on the left hand side. Recalling that \\hat F = \\sqrt n U and letting \\tilde R = V_0 \\hat R , we have \\begin equation* \n \\begin aligned \n ||\\hat "
+   },
+   {
+    "at": 68631,
+    "match": "hat R",
+    "text": "\\min_ R: R^\\top R = I_ k_0 ||U - U_0R || = ||U - U_0 \\hat R || \\lesssim \\frac 1 n + \\frac 1 p_ \\min , with probability at least 1 - o(1) , where \\hat R is the orthogonal matrix achieving the minimum of the quantity on the left hand side. Recalling that \\hat F = \\sqrt n U and letting \\tilde R = V_0 \\hat R , we have \\begin equation* \n \\begin aligned \n ||\\hat F - F_0 \\tilde R || &= ||\\sqrt n U - U_0 D_0 \\hat R || < ||\\sqrt n (U -U_0\\hat R ) || + ||\\sqrt n U_0\\hat R - U_0 D_0 \\hat R ||\\\\\n & < \\sqrt n \\big(\\frac 1 n + \\frac 1 p_ \\min \\big) + \\max_ 1 < l < k_0 |\\sqrt n - d_ 0l |,\n \\end aligned \n \\end equ"
+   }
+  ]
+ },
+ {
+  "arxiv": "2511.21553v1",
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 55651,
+    "match": "hat R",
+    "text": "\\subsection Results and Spatial Patterns \n\nThe Bayesian spatially varying coefficients model with latent-free Vecchia approximation successfully converged after 10,000 MCMC iterations across 4 parallel chains. All parameters exhibited satisfactory mixing properties and convergence diagnostics (all \\hat R < 1.01 ).\n\n\nFigure \\ref fig:spatial_analysis presents four complementary perspectives on the spatial analysis of hydrocarbon contamination. \\\\\n\nPanel A displays the posterior mean predictions of log-transformed hydrocarbon concentrations (C10-C40) across the study area. The spatial pattern reveals "
+   }
+  ]
+ },
+ {
+  "arxiv": "2601.05859v1",
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 43424,
+    "match": "Gelman-Rubin statistic",
+    "text": " (NUTS) <<CITE:hoffman2011_NUTS>> , an efficient Hamiltonian Monte Carlo algorithm, to perform the sampling.\n\nFor each of the 10,000 simulated datasets, we ran four independent MCMC chains for 5,000 iterations each, discarding the first 1,000 iterations as burn-in. We assessed convergence using the Gelman-Rubin statistic (\\hat R ) <<CITE:Gelman1992>> . We considered chains to have successfully converged only if \\hat R < 1.01 for all model parameters.\n\n\\subsection Point estimate accuracy \n\nTo make a fair comparison of all three methods, we first select a single point estimate for each. We use the posterior median, a"
+   },
+   {
+    "at": 52483,
+    "match": "Gelman-Rubin",
+    "text": "udegraphics[width=0.7\\linewidth] figures/mcmc_convergence_ape.png \n \\caption A scatter plot showing the true hidden population size against the log APE computed from posterior samples obtained via MCMC where each sample is (blue) converged or (red) not converged, where convergence is defined as the Gelman-Rubin (GR) statistic < 1.01 . \n \\label fig:mcmc_ape_convergence \n\\end figure \n\n\nUpon inspection, MCMC failures were concentrated in atypical datasets, particularly those simulations generating unusually large list counts (Figure \\ref fig:nbe_mcmc_convergence ). \n\n\\begin figure \n \\centering\n \\includegraph"
+   },
+   {
+    "at": 53047,
+    "match": "Gelman-Rubin",
+    "text": "e ). \n\n\\begin figure \n \\centering\n \\includegraphics[width=0.7\\linewidth] figures/convergence_comparison.png \n \\caption Densities of the log average count on each of the five main lists for chains that have converged (blue) overlaid with those not converged (red), where convergence is defined as the Gelman-Rubin (GR) statistic < 1.01 . \n \\label fig:nbe_mcmc_convergence \n\\end figure \n\nThese data likely induce complex posterior geometries that proved difficult for the NUTS sampler which often manifested as an inability for the sampler to find correct tuning parameters during the warm-up phase. While it might"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.15499v1",
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 35248,
+    "match": "hat R",
+    "text": "udget. Note that for the CAM configurations using ASMC-based AGDs, the time required to execute the initial ASMC pre-processing step is included within this fixed time budget.\n\n\\paragraph* Post-Processing \nTo automatically determine the burn-in period for each generated sample, we used the average \\hat R statistic <<CITE:vehtari2021ranknormalization>> across all coordinates, discarding initial samples until convergence was indicated. Because \\hat R is an unreliable diagnostic for multimodal targets <<CITE:vehtari2021ranknormalization>> , burn-in for the Gaussian mixture experiment was handled using"
+   },
+   {
+    "at": 35659,
+    "match": "hat R",
+    "text": "convergence was indicated. Because \\hat R is an unreliable diagnostic for multimodal targets <<CITE:vehtari2021ranknormalization>> , burn-in for the Gaussian mixture experiment was handled using a separate, distance-based truncation method described in Section 3.1. Effective sample sizes (ESS) and \\hat R diagnostics were computed in Julia using the MCMCChains.jl library <<CITE:smithmcmcchains>> . All visualizations were rendered in R <<CITE:r>> using the ggplot2 package <<CITE:ggplot2wickham2016>> . These experiments can be replicated at the following git repository: \\url https://github.com/SFU-Sta"
+   },
+   {
+    "at": 44997,
+    "match": "hat R",
+    "text": "\\label fig:banana CAM \n\\end figure \n\nFigure \\ref fig:banana ESS benchmarks this CAM configuration against existing methods. For the MTM baseline, M=10000 yielded the best relative performance. Both MH and MTM exhibited particularly poor efficiency compared to CAM and Stan. MTM failed to converge ( \\hat R > 1.05 ) for the severe B=10^ -1 setting, resulting in no valid data for that coordinate. These failures reinforce the observation that standard component-wise random walk struggles in highly non-Gaussian spaces unless assisted by global auxiliary jumps. While NUTS achieved the highest ESS per iter"
+   }
+  ]
+ }
+]

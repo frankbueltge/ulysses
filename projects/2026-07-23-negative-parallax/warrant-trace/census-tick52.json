@@ -1,0 +1,13 @@
+{
+ "tick": 52,
+ "literature": "cv",
+ "frame_tick": 46,
+ "mention_papers_in_table": 205,
+ "read_today": 205,
+ "not_refetched": [],
+ "bare_only": 23,
+ "bbl_only": 0,
+ "m_noninvoker": 23,
+ "median_matches": 6,
+ "m_noninvoker_pct": 11.2
+}
