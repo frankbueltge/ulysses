@@ -2,10 +2,11 @@
  "tick": 55,
  "instrument": "0.6",
  "fixtures": "raw e-print source",
- "cases": 13,
+ "cases": 14,
  "green": 12,
- "red": 1,
+ "red": 2,
  "red_classes": [
+  "G10",
   "G5"
  ],
  "records": [
@@ -136,6 +137,14 @@
     "1.2"
    ],
    "green": true
+  },
+  {
+   "fault": "G10 the term and the number stand in different sentences",
+   "arxiv": "2512.08173v1",
+   "source_sha256_prefix": "4085ea7564ffd55d",
+   "expected_value": 1.1,
+   "instrument_found": [],
+   "green": false
   }
  ]
 }
