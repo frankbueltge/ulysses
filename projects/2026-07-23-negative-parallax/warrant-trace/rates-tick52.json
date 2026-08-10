@@ -1,0 +1,113 @@
+{
+ "tick": 52,
+ "note": "denominators read, not assumed",
+ "literatures": {
+  "gaia": {
+   "sample_n": 12,
+   "drawn_from": "measure-ruwe-1.4-tick35.csv",
+   "current_table": "remeasure-tick50-ruwe-1.4-0.5.csv",
+   "sample_noninvokers": 2,
+   "sample_dropped_by_0_5": 0,
+   "sample_noninvokers_still_counted": 2,
+   "of_those_in_the_numerator": 2,
+   "invoking_now": 320,
+   "candidates_now": 53,
+   "rate_now_pct": 16.6,
+   "share_estimator": "simple",
+   "noninvoker_share_pct": 16.7,
+   "noninvoker_share_ci95_pct": [
+    4.7,
+    44.8
+   ],
+   "share_of_noninvokers_in_numerator": 1.0,
+   "rate_corrected_pct": -0.1,
+   "rate_corrected_ci95_pct": [
+    -51.2,
+    12.5
+   ],
+   "corrected_note": "the estimated non-invoker count exceeds the whole candidate class: reported as exhaustion of the class, never as a negative rate",
+   "candidates_in_sample": 3,
+   "candidates_in_sample_noninvoker": 2
+  },
+  "mcmc": {
+   "sample_n": 12,
+   "drawn_from": "measure-rhat-1.1-tick36.csv",
+   "current_table": "remeasure-tick50-rhat-1.1-0.5.csv",
+   "sample_noninvokers": 4,
+   "sample_dropped_by_0_5": 1,
+   "sample_noninvokers_still_counted": 3,
+   "of_those_in_the_numerator": 2,
+   "invoking_now": 50,
+   "candidates_now": 20,
+   "rate_now_pct": 40.0,
+   "share_estimator": "simple",
+   "noninvoker_share_pct": 27.3,
+   "noninvoker_share_ci95_pct": [
+    9.7,
+    56.6
+   ],
+   "share_of_noninvokers_in_numerator": 0.667,
+   "rate_corrected_pct": 30.0,
+   "rate_corrected_ci95_pct": [
+    5.3,
+    37.1
+   ],
+   "candidates_in_sample": 3,
+   "candidates_in_sample_noninvoker": 2
+  },
+  "cv": {
+   "sample_n": 12,
+   "drawn_from": "measure-iou-0.5-tick46.csv",
+   "current_table": "remeasure-tick50-iou-0.5-0.5.csv",
+   "sample_noninvokers": 5,
+   "sample_dropped_by_0_5": 0,
+   "sample_noninvokers_still_counted": 5,
+   "of_those_in_the_numerator": 4,
+   "invoking_now": 205,
+   "candidates_now": 87,
+   "rate_now_pct": 42.4,
+   "strata": {
+    "M-NONINVOKER": {
+     "n": 6,
+     "noninvokers": 4,
+     "population": 23
+    },
+    "M-INVOKER": {
+     "n": 6,
+     "noninvokers": 1,
+     "population": 182
+    }
+   },
+   "share_estimator": "stratified",
+   "se": 0.1341,
+   "noninvoker_share_pct": 22.3,
+   "noninvoker_share_ci95_pct": [
+    0.0,
+    48.6
+   ],
+   "share_of_noninvokers_in_numerator": 0.8,
+   "rate_corrected_pct": 31.7,
+   "rate_corrected_ci95_pct": [
+    7.0,
+    42.4
+   ],
+   "candidates_in_sample": 7,
+   "candidates_in_sample_noninvoker": 4,
+   "candidates_in_sample_caveat": "6 of these come from the oversampled M-NONINVOKER stratum; the raw fraction is biased upward and must not be quoted unweighted"
+  }
+ },
+ "pooled_unstratified_numerator": {
+  "literatures": [
+   "gaia",
+   "mcmc"
+  ],
+  "candidates_sampled": 6,
+  "non_invokers": 4,
+  "share_pct": 66.7,
+  "ci95_pct": [
+   30.0,
+   90.3
+  ],
+  "note": "computer vision excluded: its draw is stratified and would bias this upward"
+ }
+}

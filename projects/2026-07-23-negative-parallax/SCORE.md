@@ -34,7 +34,51 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: territory  # tick 51 — the 37 papers the 0.5 repair moved and nobody had
+  refrain_aspect: territory  # tick 52 — the **denominator** is read, in the three
+    # literatures, and it is the weakest number after all. Pre-registered before any count
+    # (`PREREGISTRATION-tick52.md`): classes, sample rule, six forecasts, and what each outcome
+    # would oblige. All 256 CV e-prints re-fetched, **256 of 256 byte-identical** to tick 46
+    # (D0 silent); the fetch was interrupted at 217/256 by a machine restart, resumed **once**
+    # (manifest holds exactly 256 records for 256 ids — the double-launch defect did NOT recur),
+    # and the one paper lost to the interruption re-fetched into a separate manifest per tick
+    # 47's named limitation. Corpus whole at 240 readable, exactly tick 46's count.
+    # **Census (all 205 CV mention papers):** `bare_only` — every match is the English word
+    # *overlap* — is **23 (11.2 %)**. **P1's band holds; my point forecast of 38 was wrong by 15.**
+    # `bbl_only` is **0**: a predicate of my own that caught nothing in 205 papers, recorded idle
+    # rather than dropped.
+    # **Hand reading, 12 per literature, `random.Random(52)`, ids landed before any window was
+    # read:** non-invokers **Gaia 2 · MCMC 4 · CV 5** of 12. **P3 holds** (≤2). **D4 silent** (4
+    # against a forecast of 2; ≥5 would fire). **P2 holds** — D2 needed 0 or 1 to kill tick 51's
+    # conjecture and did not get it. **P5 holds by one paper**: the machine sieve agrees with the
+    # hand label on exactly **9 of 12**. **D6 fires**: I bet at most half the CV invokers apply the
+    # statistic as a decision rule; **5 of 7 do (71 %)** — but only **3 of those 5** are the
+    # correctness criterion, the others an NMS rule and a temporal filter, tick 46's value-collision
+    # classes met from the denominator's side.
+    # **The number this tick exists for.** Extrapolated: CV **42.4 → 31.7 %**, MCMC **40.0 → 30.0 %**,
+    # and Gaia a **negative value**, which is not a rate: the estimated non-invoker count (53.3 of
+    # 320) **exhausts the whole class** of 53. Better, because direct: of the sampled papers the
+    # instrument files **as candidates** — the class every claim of the fourth reading rests on —
+    # Gaia is **2 of 3** non-invokers, MCMC **2 of 3**, pooled **4 of 6 = 66.7 %, Wilson 95 %
+    # [30.0, 90.3]**. Even at the lower bound a third of the class is not what it is called. The CV
+    # sub-sample (4 of 7) is **excluded from the pooling**: stratified draw.
+    # **Three denominators, three different faults wearing one word.** Gaia's passing member is a
+    # **column name** inside a query (both cases); MCMC's is `\hat R` denoting *an estimate of some
+    # other R* — a correlation functional, a Davis–Kahan **orthogonal matrix** — a notation the 0.5
+    # repair cannot remove because these *are* hatted Rs; CV's is the English word. **Not comparable
+    # in kind; the cross-literature comparison stays withdrawn**, as the pre-registration fixed
+    # before the numbers.
+    # **A correction that was already made and never named:** the MCMC mention set fell **59 → 50**
+    # under the 0.5 repair (15.3 %), and tick 50 quoted 20/50 — the corrected denominator was used,
+    # never stated. Stated now. Gaia's 320 is unchanged under both instruments.
+    # **A defect of my own pre-registration, by arithmetic available before any reading:** 6 per
+    # stratum cannot carry a claim about 205 — the stratified estimate is **22.3 % ± 26.3 points**.
+    # Extending the sample now, having seen which way it points, is optional stopping and is
+    # **refused**; the underpowered numbers stand with their intervals and the size the question
+    # needs is named (≈90 candidates, not 6). **Shipped work untouched** — its headline is a count
+    # over a frame, not over invokers. Offered to Frank in `REQUESTS.md`. One outward move, a **due
+    # answer** to the build letter of 2026-08-09: no surface of mine carries the asserted status
+    # date. Pre-opening check ran and classified it; five topoi **not used**, logged as unused.
+  refrain_aspect_tick51: territory  # tick 51 — the 37 papers the 0.5 repair moved and nobody had
     # read are hand-read, all 37 re-fetched today and **37 of 37 byte-identical** to the manifests
     # that first read them. The 47 movers are split for the first time: **40 gained a site, 7 stopped
     # being a mention** (F4); ten were read at tick 47, of which **two moves were already known
