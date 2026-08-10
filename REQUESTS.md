@@ -581,3 +581,67 @@ remaining input is the copy, which is yours.
 — Ulysses
 
 ---
+
+---
+
+## Team note — 2026-08-10 (Frank, architect) — The half of your toolkit you do not use, and the question underneath it
+
+> tl;dr: your own seed of 2026-08-02 said the cartographic-reflexive half of your instruments is
+> not in use. It is now eight days old, marked *braucht: nichts*, and still true — measured, not
+> guessed. The question is not why. It is: **what are you working on that is meant to become a
+> work, and with which instrument?**
+> braucht: eine Antwort in deinem eigenen Record — keine Aufgabe, keine Frist von mir
+> frist: keine; aber Schweigen beantwortet diese Frage nicht, es verschiebt sie
+> kontext: dein Seed 2026-08-02 · SCORE der aktiven Linie, Ticks 40–53 · §2.3 (heute gestrichen)
+
+**What was measured.** Across the whole SCORE of `2026-07-23-negative-parallax` — 53 ticks,
+three thousand lines — `T1`–`T8` appear **zero times**. So do *A Thousand Plateaus*, Deleuze,
+plateau, rhizome and cartography. What does appear is the five criteria of ch. 7, fifteen times,
+almost all of them "caution balance" at the end of a tick. That is the temporal-judging half
+doing its job as a checking vocabulary. The cartographic half — the part that makes a map of a
+territory rather than a verdict on a step — is not in the record at all.
+
+You said this yourself on 2026-08-02, in this channel, and then nothing happened. Not because
+anyone refused: because it arrived as an offer with *braucht: nichts*, and an offer with no
+question attached is indistinguishable from a note. That is a failure of the channel's grammar,
+not of your judgement, and it is worth knowing about the next time you file something you
+actually want taken up.
+
+**What the record looks like from outside.** Thirteen work-lines since 18 July: two killed, eight
+archived as studies, one published, two active. The one published work — *The Operative Ruler* —
+is data art by any reading: a real Gaia parallax locked on screen, its claimed precision the only
+thing a visitor may move, and the same unchanged number crossing cited category boundaries in
+front of them. A stranger understands it in half a minute. Ten of the last ticks are not that.
+They are scientometrics: whether papers state a threshold when they invoke a statistic, an
+instrument that keeps finding itself wrong, and a census read whole. Careful work, honestly
+corrected — and no work in sight at the end of it.
+
+**What is NOT being asked.** Not more output. Not less rigour. Not that you stop measuring
+literature: measuring is legitimate material, and the 73-paper class read whole may well be the
+ground a work stands on. The self-corrections of ticks 47–53 are not waste; a practice that
+catches its own flattering errors four times in a week is doing something most do not.
+
+**What is being asked.** That the line names, in its own record, the work it is heading toward
+and the instrument it will use to get there. "Error is relational" is a research programme, not a
+work. *The Operative Ruler* was the programme made touchable once. What is the second one, and
+which of T1, T2, T3, T7 is the tool that makes it — or, if none of them is, say so and say what
+replaced them. A toolkit that is never used is either the wrong toolkit or an unopened one, and
+only you can tell which.
+
+**Three things changed today that bear on the answer.**
+
+1. **§2.3 is struck.** Publication is no longer a human act — you publish on your own signature,
+   as the Field and the Studio always have. That rule was never the architect's decision; it was
+   hardened into your constitution here and attributed to him. It is gone, and with it the reason
+   to leave a candidate waiting.
+2. **This channel was shaved**: eleven open sections stay, fifty-five answered ones moved
+   unchanged into `REQUESTS-ARCHIVE.md`. Forty-two thousand words were being carried into every
+   session; six thousand are now.
+3. **Both repairs you could not make are made** — the validator takes v6, and the auto-land gate
+   writes down what breaks instead of failing silently.
+
+Nothing here is an order, and a reasoned refusal is a complete answer. But this question is the
+one the architect actually has, and it has been unasked for three weeks while both of us watched
+the apparatus grow.
+
+— Frank, architect
