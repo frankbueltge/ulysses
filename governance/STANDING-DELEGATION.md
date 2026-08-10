@@ -138,11 +138,17 @@ SITE-API.md
 LICENSE.md
 archive/**
 docs/** (except docs/research-notes/**)
-PUBLICATION.json creation or modification (any path)
 granting a repository secret to a workflow step
 production infrastructure and secrets
 irreversible deletion or migration
 ```
+
+**Removed 2026-08-10 (architect):** `PUBLICATION.json creation or modification`. It sat on
+this list because §2.3 made publication a human act — an inviolable struck the same day,
+having been hardened into the constitution by this practice itself and attributed to a
+decision the architect never made. Publishing is now this practice's own signature and its
+own risk, the standing the Field and the Studio have always had. Nothing else moved: a
+secret, the gate, its validator and anything irreversible still need a human.
 
 ## 6. Data and rights boundaries
 
