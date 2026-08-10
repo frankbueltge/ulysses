@@ -26,10 +26,10 @@ import sys
 
 # (fault, arxiv, corpus, anchor regex over the RAW source, chars before, chars after)
 ANCHORS = [
-    ("G1", "2601.07184", "gaia", r"geqslant", 200, 200),
-    ("G2", "2603.11994", "gaia", r"gtrsim", 220, 160),
+    ("G1", "2601.07184", "gaia", r"ruwe\\geqslant", 180, 200),
+    ("G2", "2603.11994", "gaia", r"RUWE \$\\gtrsim\$ 3", 200, 120),
     ("G2", "2206.08383", "gaia", r"RUWE.{0,4}gtrsim.{0,4}1\.3", 260, 160),
-    ("G2", "2506.17861", "gaia", r"gtrsim\s*1\.4", 240, 160),
+    ("G2", "2506.17861", "gaia", r"reported RUWE is 0\.973", 60, 300),
     ("G3", "2104.13148", "gaia", r"RUWE,\\footnote", 140, 200),
     ("G3", "2203.07294", "gaia", r"RUWE\\footnote", 120, 300),
     ("G4", "2405.13395", "gaia", r"RUWE\s*&\s*<", 160, 160),

@@ -1,0 +1,141 @@
+{
+ "tick": 55,
+ "instrument": "0.6",
+ "fixtures": "raw e-print source",
+ "cases": 13,
+ "green": 12,
+ "red": 1,
+ "red_classes": [
+  "G5"
+ ],
+ "records": [
+  {
+   "fault": "G1 the relation is a macro the list lacks: \\geqslant",
+   "arxiv": "2601.07184",
+   "source_sha256_prefix": "baef4f50061c776b",
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G2 the relation is a macro the list lacks: \\gtrsim",
+   "arxiv": "2603.11994",
+   "source_sha256_prefix": "776dbf38cf22393a",
+   "expected_value": 3.0,
+   "instrument_found": [
+    "3"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G2 the relation is a macro the list lacks: \\gtrsim",
+   "arxiv": "2206.08383",
+   "source_sha256_prefix": "c2fb130ab9e5f09a",
+   "expected_value": 1.3,
+   "instrument_found": [
+    "1.3"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G2 the relation is a macro the list lacks: \\gtrsim",
+   "arxiv": "2506.17861",
+   "source_sha256_prefix": "b8860e83d8e0e219",
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G3 a footnote stands between the term and the relation",
+   "arxiv": "2104.13148",
+   "source_sha256_prefix": "5645dd4453a17275",
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G3 a footnote stands between the term and the relation",
+   "arxiv": "2203.07294",
+   "source_sha256_prefix": "168337486a2f67c2",
+   "expected_value": 2.4,
+   "instrument_found": [
+    "2.4"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G4 term, relation and value stand in separate table cells",
+   "arxiv": "2405.13395",
+   "source_sha256_prefix": "cad2d9e221ff37f4",
+   "expected_value": 5.0,
+   "instrument_found": [
+    "5"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G5 the threshold is an expression that falls back to the value",
+   "arxiv": "2111.01145",
+   "source_sha256_prefix": "53dc68ef1965335d",
+   "expected_value": 1.4,
+   "instrument_found": [],
+   "green": false
+  },
+  {
+   "fault": "G6 an article stands between the relation and the value",
+   "arxiv": "2111.03887",
+   "source_sha256_prefix": "297513a06d614ca9",
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G7 the instrument's own citation marker stands in the gap",
+   "arxiv": "2107.06373",
+   "source_sha256_prefix": "82f70751f6aacca0",
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G7 the instrument's own citation marker stands in the gap",
+   "arxiv": "2407.20949",
+   "source_sha256_prefix": "99b4fa4f834b6a42",
+   "expected_value": 1.0,
+   "instrument_found": [
+    "1"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G8 a line break stands in the gap",
+   "arxiv": "2312.03162",
+   "source_sha256_prefix": "24a9b370195999b1",
+   "expected_value": 1.2,
+   "instrument_found": [
+    "1.2"
+   ],
+   "green": true
+  },
+  {
+   "fault": "G9 the paper misspells the term at the site",
+   "arxiv": "2112.07023",
+   "source_sha256_prefix": "95d4da6937153b41",
+   "expected_value": 1.2,
+   "instrument_found": [
+    "1.2"
+   ],
+   "green": true
+  }
+ ]
+}
