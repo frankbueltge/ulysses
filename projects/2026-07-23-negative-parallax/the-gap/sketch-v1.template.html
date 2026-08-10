@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The gap — sketch v1</title>
+<style>
+  :root{
+    --bg:#0d0f12; --ink:#e8e6e1; --dim:#8a8f98; --line:#242a31;
+    --sees:#7fd1a8; --blind:#e0645f; --mark:#f2c45a;
+    --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+    --serif:"Iowan Old Style",Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.55 var(--serif);-webkit-font-smoothing:antialiased}
+  main{max-width:52rem;margin:0 auto;padding:3.5rem 1.25rem 5rem}
+  h1{font-size:1.9rem;font-weight:600;letter-spacing:-.01em;margin:0 0 .4rem}
+  .sub{color:var(--dim);margin:0 0 2.2rem;font-size:.95rem}
+  .gapline{font-family:var(--mono);font-size:.9rem;background:#14181d;border:1px solid var(--line);
+           border-radius:6px;padding:.7rem .85rem;margin:0 0 .5rem;overflow-x:auto;white-space:nowrap}
+  .gapnote{color:var(--dim);font-size:.85rem;margin:0 0 3rem}
+  section{border-top:1px solid var(--line);padding:2.2rem 0 .5rem}
+  h2{font-size:1.15rem;font-weight:600;margin:0 0 .15rem}
+  .meta{color:var(--dim);font-size:.8rem;font-family:var(--mono);margin:0 0 .9rem}
+  .note{color:var(--dim);font-size:.92rem;margin:0 0 1.3rem;max-width:42rem}
+  .frag{font-family:var(--mono);font-size:.87rem;line-height:1.75;background:#14181d;
+        border:1px solid var(--line);border-left:3px solid var(--line);border-radius:6px;
+        padding:1rem 1.1rem;white-space:pre-wrap;word-break:break-word;margin:0 0 1rem;
+        transition:border-left-color .15s}
+  .frag.sees{border-left-color:var(--sees)} .frag.blind{border-left-color:var(--blind)}
+  .chg{color:var(--mark);background:rgba(242,196,90,.10);border-radius:2px}
+  .brk{color:var(--mark);font-weight:700}
+  .ctrl{display:flex;align-items:center;gap:.85rem;flex-wrap:wrap;margin:0 0 1rem}
+  .knob{color:var(--dim);font-size:.82rem;font-family:var(--mono)}
+  button{font:inherit;font-size:.85rem;font-family:var(--mono);color:var(--ink);
+         background:#1b2027;border:1px solid var(--line);border-radius:5px;
+         padding:.4rem .8rem;cursor:pointer}
+  button[aria-pressed=true]{background:#2a323c;border-color:#3c4653}
+  input[type=range]{flex:1;min-width:14rem;accent-color:var(--mark)}
+  .verdict{font-family:var(--mono);font-size:.95rem}
+  .verdict b{font-weight:700}
+  .sees .verdict b,b.sees{color:var(--sees)} .blind .verdict b,b.blind{color:var(--blind)}
+  .tally{color:var(--dim);font-size:.82rem;font-family:var(--mono);margin:.6rem 0 0}
+  footer{border-top:1px solid var(--line);margin-top:3.5rem;padding-top:1.5rem;
+         color:var(--dim);font-size:.8rem}
+  footer code{font-family:var(--mono);font-size:.75rem;word-break:break-all}
+  footer p{max-width:44rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>The gap</h1>
+  <p class="sub">Sketch v1 — four real sentences, one movable accident each, and a reader that
+  has read 590 papers.</p>
+
+  <p class="gapline" id="gapexpr"></p>
+  <p class="gapnote">This is the whole of it. Every threshold this practice has counted as
+  <em>stated</em> or <em>not stated</em> passed through that expression: a name, then at most
+  100 characters that may not contain a newline, a colon, a semicolon or a sentence-ending
+  period, then a comparison, then a number. Below, the sentences are as fetched. Move the one
+  thing each panel gives you, and watch a number that is printed in the paper enter and leave
+  the record.</p>
+
+  <div id="panels"></div>
+
+  <footer>
+    <p><b>What judges here.</b> Nothing in this page decides anything. Every verdict shown was
+    computed by the committed instrument in <code>../warrant-trace/warrant_trace.py</code>
+    over the exact string displayed, and written into <code>states-tick54.json</code> by
+    <code>gapstates-tick54.py</code>. The page only renders what the instrument answered.
+    Re-run the script and the page rebuilds itself; if a verdict here disagrees with the
+    instrument, the instrument is right and this page is broken.</p>
+    <p><b>Where the sentences come from.</b> Each is quoted in
+    <code>../warrant-trace/faults-tick53.py</code> from the e-print named beside it, fetched
+    2026-08-10, and is imported from that file rather than retyped. The line-break panel is a
+    sweep over the same word sequence: one space becomes a newline, once per position, and
+    nothing else changes.</p>
+    <p id="hashes"></p>
+  </footer>
+</main>
+
+<script>
+const D = /*STATES*/;
+
+const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+// longest common prefix/suffix — enough to show which span the knob moved
+function diffSpan(a, b){
+  let p = 0; while (p < a.length && p < b.length && a[p] === b[p]) p++;
+  let s = 0; while (s < a.length - p && s < b.length - p &&
+                    a[a.length-1-s] === b[b.length-1-s]) s++;
+  return [p, s];
+}
+function markDiff(text, other){
+  const [p, s] = diffSpan(text, other);
+  if (p + s >= text.length) return esc(text);
+  return esc(text.slice(0, p)) + '<span class="chg">' + esc(text.slice(p, text.length - s)) +
+         '</span>' + esc(text.slice(text.length - s));
+}
+function verdictLine(found){
+  return found.length
+    ? 'the reader sees a threshold: <b>' + esc(found.join(', ')) + '</b>'
+    : 'the reader sees <b>nothing</b> — this sentence states no threshold';
+}
+
+const root = document.getElementById('panels');
+document.getElementById('gapexpr').textContent = 'GAP = ' + D.gap_expression;
+document.getElementById('hashes').innerHTML = 'Instrument at generation — ' +
+  Object.entries(D.instrument).map(([k,v]) => '<code>'+esc(k)+' '+esc(v.slice(0,16))+'…</code>')
+  .join(' · ');
+
+for (const p of D.panels){
+  const sec = document.createElement('section');
+  const head = `<h2>${esc(p.title)}</h2>
+    <p class="meta">arXiv:${esc(p.arxiv)} · profile ${esc(p.profile)} ·
+       the paper states ${p.stated_value}</p>
+    <p class="note">${esc(p.note)}</p>`;
+
+  if (p.kind === 'switch'){
+    sec.innerHTML = head + `
+      <div class="ctrl"><span class="knob">${esc(p.knob)}</span>` +
+      p.states.map((s, i) =>
+        `<button data-i="${i}" aria-pressed="${i === 0}">${esc(s.label)}</button>`).join('') +
+      `</div>
+      <div class="frag" data-frag></div>
+      <p class="verdict" data-verdict></p>
+      <p class="tally" data-caveat></p>`;
+    const frag = sec.querySelector('[data-frag]'),
+          vd   = sec.querySelector('[data-verdict]'),
+          cav  = sec.querySelector('[data-caveat]');
+    const show = i => {
+      const st = p.states[i], base = p.states[i === 0 ? 1 : 0];
+      frag.innerHTML = markDiff(st.text, base.text);
+      frag.className = 'frag ' + (st.sees ? 'sees' : 'blind');
+      vd.className = 'verdict ' + (st.sees ? 'sees' : 'blind');
+      vd.innerHTML = verdictLine(st.found);
+      cav.textContent = st.caveat ? '⚠ ' + st.caveat : '';
+      sec.querySelectorAll('button').forEach(btn =>
+        btn.setAttribute('aria-pressed', String(+btn.dataset.i === i)));
+    };
+    sec.querySelectorAll('button').forEach(btn =>
+      btn.addEventListener('click', () => show(+btn.dataset.i)));
+    show(0);
+  } else {
+    const n = p.states.length, start = p.positions.indexOf(p.fixture_position);
+    sec.innerHTML = head + `
+      <div class="ctrl"><span class="knob">${esc(p.knob)}</span>
+        <input type="range" min="0" max="${n-1}" value="${start < 0 ? 0 : start}"></div>
+      <div class="frag" data-frag></div>
+      <p class="verdict" data-verdict></p>
+      <p class="tally">${p.blind_positions.length} of ${n} places this line could have
+        wrapped make the number disappear. The paper's own break is one of them.</p>`;
+    const frag = sec.querySelector('[data-frag]'),
+          vd   = sec.querySelector('[data-verdict]'),
+          rng  = sec.querySelector('input');
+    const show = i => {
+      const st = p.states[i];
+      frag.innerHTML = esc(st.before) + '<span class="brk">⏎\n</span>' + esc(st.after);
+      frag.className = 'frag ' + (st.sees ? 'sees' : 'blind');
+      vd.className = 'verdict ' + (st.sees ? 'sees' : 'blind');
+      vd.innerHTML = verdictLine(st.found) +
+        (st.pos === p.fixture_position ? ' &nbsp;— <i>this is where the paper breaks it</i>' : '');
+    };
+    rng.addEventListener('input', () => show(+rng.value));
+    show(+rng.value);
+  }
+  root.appendChild(sec);
+}
+</script>
+</body>
+</html>
