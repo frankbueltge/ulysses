@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The gap — sketch v1</title>
+<style>
+  :root{
+    --bg:#0d0f12; --ink:#e8e6e1; --dim:#8a8f98; --line:#242a31;
+    --sees:#7fd1a8; --blind:#e0645f; --mark:#f2c45a;
+    --mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+    --serif:"Iowan Old Style",Georgia,"Times New Roman",serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.55 var(--serif);-webkit-font-smoothing:antialiased}
+  main{max-width:52rem;margin:0 auto;padding:3.5rem 1.25rem 5rem}
+  h1{font-size:1.9rem;font-weight:600;letter-spacing:-.01em;margin:0 0 .4rem}
+  .sub{color:var(--dim);margin:0 0 2.2rem;font-size:.95rem}
+  .gapline{font-family:var(--mono);font-size:.9rem;background:#14181d;border:1px solid var(--line);
+           border-radius:6px;padding:.7rem .85rem;margin:0 0 .5rem;overflow-x:auto;white-space:nowrap}
+  .gapnote{color:var(--dim);font-size:.85rem;margin:0 0 3rem}
+  section{border-top:1px solid var(--line);padding:2.2rem 0 .5rem}
+  h2{font-size:1.15rem;font-weight:600;margin:0 0 .15rem}
+  .meta{color:var(--dim);font-size:.8rem;font-family:var(--mono);margin:0 0 .9rem}
+  .note{color:var(--dim);font-size:.92rem;margin:0 0 1.3rem;max-width:42rem}
+  .frag{font-family:var(--mono);font-size:.87rem;line-height:1.75;background:#14181d;
+        border:1px solid var(--line);border-left:3px solid var(--line);border-radius:6px;
+        padding:1rem 1.1rem;white-space:pre-wrap;word-break:break-word;margin:0 0 1rem;
+        transition:border-left-color .15s}
+  .frag.sees{border-left-color:var(--sees)} .frag.blind{border-left-color:var(--blind)}
+  .chg{color:var(--mark);background:rgba(242,196,90,.10);border-radius:2px}
+  .brk{color:var(--mark);font-weight:700}
+  .ctrl{display:flex;align-items:center;gap:.85rem;flex-wrap:wrap;margin:0 0 1rem}
+  .knob{color:var(--dim);font-size:.82rem;font-family:var(--mono)}
+  button{font:inherit;font-size:.85rem;font-family:var(--mono);color:var(--ink);
+         background:#1b2027;border:1px solid var(--line);border-radius:5px;
+         padding:.4rem .8rem;cursor:pointer}
+  button[aria-pressed=true]{background:#2a323c;border-color:#3c4653}
+  input[type=range]{flex:1;min-width:14rem;accent-color:var(--mark)}
+  .verdict{font-family:var(--mono);font-size:.95rem}
+  .verdict b{font-weight:700}
+  .sees .verdict b,b.sees{color:var(--sees)} .blind .verdict b,b.blind{color:var(--blind)}
+  .tally{color:var(--dim);font-size:.82rem;font-family:var(--mono);margin:.6rem 0 0}
+  footer{border-top:1px solid var(--line);margin-top:3.5rem;padding-top:1.5rem;
+         color:var(--dim);font-size:.8rem}
+  footer code{font-family:var(--mono);font-size:.75rem;word-break:break-all}
+  footer p{max-width:44rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>The gap</h1>
+  <p class="sub">Sketch v1 — four real sentences, one movable accident each, and a reader that
+  has read 590 papers.</p>
+
+  <p class="gapline" id="gapexpr"></p>
+  <p class="gapnote">This is the whole of it. Every threshold this practice has counted as
+  <em>stated</em> or <em>not stated</em> passed through that expression: a name, then at most
+  100 characters that may not contain a newline, a colon, a semicolon or a sentence-ending
+  period, then a comparison, then a number. Below, the sentences are as fetched. Move the one
+  thing each panel gives you, and watch a number that is printed in the paper enter and leave
+  the record.</p>
+
+  <div id="panels"></div>
+
+  <footer>
+    <p><b>What judges here.</b> Nothing in this page decides anything. Every verdict shown was
+    computed by the committed instrument in <code>../warrant-trace/warrant_trace.py</code>
+    over the exact string displayed, and written into <code>states-tick54.json</code> by
+    <code>gapstates-tick54.py</code>. The page only renders what the instrument answered.
+    Re-run the script and the page rebuilds itself; if a verdict here disagrees with the
+    instrument, the instrument is right and this page is broken.</p>
+    <p><b>Where the sentences come from.</b> Each is quoted in
+    <code>../warrant-trace/faults-tick53.py</code> from the e-print named beside it, fetched
+    2026-08-10, and is imported from that file rather than retyped. The line-break panel is a
+    sweep over the same word sequence: one space becomes a newline, once per position, and
+    nothing else changes.</p>
+    <p id="hashes"></p>
+  </footer>
+</main>
+
+<script>
+const D = {"tick": 54, "generated_by": "gapstates-tick54.py", "gap_expression": "(?:[^.;:\\n]|\\.(?=\\d)){0,100}?", "instrument": {"warrant_trace.py": "d334f5d8774a38ae088f3aa174fad9a5cbe54fdc5ddb04ca844d096070bf26d6", "profiles/ruwe-1.4.json": "02e0dc871449658adf48984acbb1f8ad56d8832926c3b58a0ad7f44fc99558ac", "profiles/rhat-1.1.json": "eadd19a4fb1f3f7ceefdd004f706fc8c479441033a73be482949ed82d78fd47a", "faults-tick53.py": "d6bef4628bb83968a4d81936f396079850b7e554a24ac34bf334464b77809cca"}, "provenance": "Every fragment is imported from faults-tick53.py, where it is quoted from the e-print fetched on 2026-08-10 and recorded with its arXiv id and the tick-53 read order. No string is retyped in this file; the two single-change variants of G9 are produced from the imported fragment by one `str.replace` each, both visible above.", "fixture_audit": {"claim_in_tick_53": "each fault class carries a control where the single defect is removed by hand, so the claim 'the fault is HERE' is tested", "holds_for": ["G7 (single deletion)", "G8 (whitespace only)"], "fails_for": {"G9": {"what_the_control_does": "corrects the spelling AND deletes the citation marker AND truncates the sentence", "measured": {"spelling corrected, marker kept": [], "marker deleted, spelling kept": [], "both, sentence otherwise intact": ["1.2"]}, "consequence": "neither single change restores the number: the paper is blinded twice over, and tick 53's hand-correction of this attribution ('it is the spelling, not the citation fault') excluded a cause that is also true"}, "G10": {"what_the_control_does": "replaces the paper's sentence with a shorter one written by hand", "consequence": "legitimate as a demonstration that distance is the operative quantity, but it is not the paper's text and the sketch says so"}}, "not_repaired_here": "faults-tick53.py is landed and is left byte-identical; its sha256 is recorded above. This audit is the tick-54 record."}, "panels": [{"id": "G7", "kind": "switch", "title": "the mark the reader makes itself", "note": "The instrument rewrites every citation in a source as `<<CITE:…>>`. The colon in its own marker is one of the four characters its gap forbids — so the reader is blinded by the mark it made. Nothing here is the paper's fault: delete the reader's own mark and the printed number returns.", "knob": "the reader's citation marker", "arxiv": "2107.06373", "fixture_fault": "G7 the instrument's own citation marker stands in the gap", "profile": "ruwe-1.4", "stated_value": 1.4, "states": [{"label": "present", "text": "seven WDs have tabulated proper motion and parallax measurements with the renormalized unit weight error <<CITE:2020arXiv201206242F,2020arXiv201203380L>> < 1.4 . We consider", "found": [], "sees": false, "faithful": true, "caveat": null, "gap_chars": 1}, {"label": "deleted", "text": "seven WDs have tabulated proper motion and parallax measurements with the renormalized unit weight error < 1.4 . We consider", "found": ["1.4"], "sees": true, "faithful": true, "caveat": "the deleted mark is the reader's, not the paper's", "gap_chars": 1}]}, {"id": "G9", "kind": "switch", "title": "two accidents, and I had named one", "note": "The paper writes *renomalised*. The reader's English is correct and the paper's is not, and the paper wins. But the same sentence also carries the reader's own citation marker — and correcting only the spelling, or removing only the marker, leaves the number invisible either way. Two independent accidents, each sufficient on its own. The tick-53 record calls this paper the spelling fault and says so as a correction of an earlier attribution; it is both, and this panel is where that was found.", "knob": "which accident is removed", "arxiv": "2112.07023", "fixture_fault": "G9 the paper misspells the term at the site", "profile": "ruwe-1.4", "stated_value": 1.2, "states": [{"label": "as printed", "text": "remove any for which the renomalised unit weight error <<CITE:gaiaedr3_astrom>> is greater than 1.2. This cut on RUWE effectively removes those with poor astrometric solutions", "found": [], "sees": false, "faithful": true, "caveat": null, "gap_chars": null}, {"label": "spelling corrected only", "text": "remove any for which the renormalised unit weight error <<CITE:gaiaedr3_astrom>> is greater than 1.2. This cut on RUWE effectively removes those with poor astrometric solutions", "found": [], "sees": false, "faithful": true, "caveat": null, "gap_chars": 1}, {"label": "marker deleted only", "text": "remove any for which the renomalised unit weight error is greater than 1.2. This cut on RUWE effectively removes those with poor astrometric solutions", "found": [], "sees": false, "faithful": true, "caveat": null, "gap_chars": null}, {"label": "both, sentence intact", "text": "remove any for which the renormalised unit weight error is greater than 1.2. This cut on RUWE effectively removes those with poor astrometric solutions", "found": ["1.2"], "sees": true, "faithful": true, "caveat": null, "gap_chars": 4}, {"label": "both, and shortened (the fixture's control)", "text": "remove any for which the renormalised unit weight error is greater than 1.2.", "found": ["1.2"], "sees": true, "faithful": false, "caveat": "hand-shortened as well — not a sentence the paper contains, and the state beside it shows the shortening was never needed", "gap_chars": 4}]}, {"id": "G10", "kind": "switch", "title": "one clause too far", "note": "Nothing is malformed here. The statistic and its threshold stand in one sentence of ordinary prose, and more than 100 characters stand between them — one clause more than the bound the reader was given. The second state is the same claim written short by hand, to show that only the distance is doing the work.", "knob": "the distance between name and rule", "arxiv": "2512.08173v1", "fixture_fault": "G10 the gap bound of 100 characters is shorter than the sentence", "profile": "rhat-1.1", "stated_value": 1.1, "states": [{"label": "as written in the paper", "text": "we evaluate the estimated potential scale reduction factor ( <<CITE:gelman1992inference>> ) for all unknown parameters. Based on our simulation results, this factor is generally around 1.00 or below the commonly accepted threshold of 1.1 , indicating good convergence", "found": [], "sees": false, "faithful": true, "caveat": null, "gap_chars": 3}, {"label": "the same claim, written short", "text": "the potential scale reduction factor is below the commonly accepted threshold of 1.1", "found": ["1.1"], "sees": true, "faithful": false, "caveat": "written by hand for the control — not the paper's sentence", "gap_chars": 4}]}, {"id": "G8", "kind": "sweep", "title": "where the line happened to wrap", "note": "One space becomes a newline, and nothing else changes. The gap class excludes `\\n`, so a line break the author never chose — an editor's wrap, a formatting convention — decides whether the number exists for the reader.", "knob": "the position of the line break", "arxiv": "2312.03162", "fixture_fault": "G8 a line break stands in the gap", "profile": "ruwe-1.4", "stated_value": 1.2, "base": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut", "positions": [4, 12, 17, 24, 27, 34, 39, 48, 54, 59, 65, 70, 72, 77, 86, 89, 94, 101, 106, 115, 123, 129, 134, 136, 145, 147, 153, 162], "blind_positions": [77, 86, 89, 94, 101, 106, 115, 123, 129], "fixture_position": 94, "states": [{"pos": 4, "found": ["1.2"], "sees": true, "before": "Data", "after": "quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 12, "found": ["1.2"], "sees": true, "before": "Data quality", "after": "cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 17, "found": ["1.2"], "sees": true, "before": "Data quality cuts", "after": "follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 24, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow", "after": "to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 27, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to", "after": "ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 34, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure", "after": "only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 39, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only", "after": "binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 48, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries", "after": "where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 54, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where", "after": "both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 59, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both", "after": "stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 65, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars", "after": "have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 70, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars have", "after": "a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 72, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars have a", "after": "RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 77, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE", "after": "internal it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 86, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal", "after": "it Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 89, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it", "after": "Gaia single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 94, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia", "after": "single star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 101, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single", "after": "star solution quality index <1.2 , imposing a final distance cut"}, {"pos": 106, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star", "after": "solution quality index <1.2 , imposing a final distance cut"}, {"pos": 115, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution", "after": "quality index <1.2 , imposing a final distance cut"}, {"pos": 123, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality", "after": "index <1.2 , imposing a final distance cut"}, {"pos": 129, "found": [], "sees": false, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index", "after": "<1.2 , imposing a final distance cut"}, {"pos": 134, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2", "after": ", imposing a final distance cut"}, {"pos": 136, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 ,", "after": "imposing a final distance cut"}, {"pos": 145, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing", "after": "a final distance cut"}, {"pos": 147, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a", "after": "final distance cut"}, {"pos": 153, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final", "after": "distance cut"}, {"pos": 162, "found": ["1.2"], "sees": true, "before": "Data quality cuts follow to ensure only binaries where both stars have a RUWE internal it Gaia single star solution quality index <1.2 , imposing a final distance", "after": "cut"}]}]};
+
+const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+// longest common prefix/suffix — enough to show which span the knob moved
+function diffSpan(a, b){
+  let p = 0; while (p < a.length && p < b.length && a[p] === b[p]) p++;
+  let s = 0; while (s < a.length - p && s < b.length - p &&
+                    a[a.length-1-s] === b[b.length-1-s]) s++;
+  return [p, s];
+}
+function markDiff(text, other){
+  const [p, s] = diffSpan(text, other);
+  if (p + s >= text.length) return esc(text);
+  return esc(text.slice(0, p)) + '<span class="chg">' + esc(text.slice(p, text.length - s)) +
+         '</span>' + esc(text.slice(text.length - s));
+}
+function verdictLine(found){
+  return found.length
+    ? 'the reader sees a threshold: <b>' + esc(found.join(', ')) + '</b>'
+    : 'the reader sees <b>nothing</b> — this sentence states no threshold';
+}
+
+const root = document.getElementById('panels');
+document.getElementById('gapexpr').textContent = 'GAP = ' + D.gap_expression;
+document.getElementById('hashes').innerHTML = 'Instrument at generation — ' +
+  Object.entries(D.instrument).map(([k,v]) => '<code>'+esc(k)+' '+esc(v.slice(0,16))+'…</code>')
+  .join(' · ');
+
+for (const p of D.panels){
+  const sec = document.createElement('section');
+  const head = `<h2>${esc(p.title)}</h2>
+    <p class="meta">arXiv:${esc(p.arxiv)} · profile ${esc(p.profile)} ·
+       the paper states ${p.stated_value}</p>
+    <p class="note">${esc(p.note)}</p>`;
+
+  if (p.kind === 'switch'){
+    sec.innerHTML = head + `
+      <div class="ctrl"><span class="knob">${esc(p.knob)}</span>` +
+      p.states.map((s, i) =>
+        `<button data-i="${i}" aria-pressed="${i === 0}">${esc(s.label)}</button>`).join('') +
+      `</div>
+      <div class="frag" data-frag></div>
+      <p class="verdict" data-verdict></p>
+      <p class="tally" data-caveat></p>`;
+    const frag = sec.querySelector('[data-frag]'),
+          vd   = sec.querySelector('[data-verdict]'),
+          cav  = sec.querySelector('[data-caveat]');
+    const show = i => {
+      const st = p.states[i], base = p.states[i === 0 ? 1 : 0];
+      frag.innerHTML = markDiff(st.text, base.text);
+      frag.className = 'frag ' + (st.sees ? 'sees' : 'blind');
+      vd.className = 'verdict ' + (st.sees ? 'sees' : 'blind');
+      vd.innerHTML = verdictLine(st.found);
+      cav.textContent = st.caveat ? '⚠ ' + st.caveat : '';
+      sec.querySelectorAll('button').forEach(btn =>
+        btn.setAttribute('aria-pressed', String(+btn.dataset.i === i)));
+    };
+    sec.querySelectorAll('button').forEach(btn =>
+      btn.addEventListener('click', () => show(+btn.dataset.i)));
+    show(0);
+  } else {
+    const n = p.states.length, start = p.positions.indexOf(p.fixture_position);
+    sec.innerHTML = head + `
+      <div class="ctrl"><span class="knob">${esc(p.knob)}</span>
+        <input type="range" min="0" max="${n-1}" value="${start < 0 ? 0 : start}"></div>
+      <div class="frag" data-frag></div>
+      <p class="verdict" data-verdict></p>
+      <p class="tally">${p.blind_positions.length} of ${n} places this line could have
+        wrapped make the number disappear. The paper's own break is one of them.</p>`;
+    const frag = sec.querySelector('[data-frag]'),
+          vd   = sec.querySelector('[data-verdict]'),
+          rng  = sec.querySelector('input');
+    const show = i => {
+      const st = p.states[i];
+      frag.innerHTML = esc(st.before) + '<span class="brk">⏎\n</span>' + esc(st.after);
+      frag.className = 'frag ' + (st.sees ? 'sees' : 'blind');
+      vd.className = 'verdict ' + (st.sees ? 'sees' : 'blind');
+      vd.innerHTML = verdictLine(st.found) +
+        (st.pos === p.fixture_position ? ' &nbsp;— <i>this is where the paper breaks it</i>' : '');
+    };
+    rng.addEventListener('input', () => show(+rng.value));
+    show(+rng.value);
+  }
+  root.appendChild(sec);
+}
+</script>
+</body>
+</html>

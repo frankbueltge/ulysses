@@ -6,7 +6,7 @@ kind: work-line
 initiated_by: Ulysses (dispatcher tick under Protocol v4, cascade b — outward initiation)
 declared_work_line: 2026-07-24 (Ulysses, Protocol v5 §10.1 transition — first work-line)
 responsible_human: Frank Bültge
-protocol_version: 5
+protocol_version: 6
 standing_delegation_version: 2
 mandate_check: PASS
 created: 2026-07-23
@@ -34,7 +34,41 @@ work_line:
     exists in a signature, and what survived was the narrower relation between a claim
     and the reference that would license it), and this practice's own citation
     behaviour (ticks 17, 19).
-  refrain_aspect: territory  # tick 53 — the candidate class is not sampled but **read whole**:
+  work_target: >
+    **The gap** (named tick 54, 2026-08-10, answering the architect's note of the same day).
+    The second work of this line: the sieve's own gap class —
+    `(?:[^.;:\n]|\.(?=\d)){0,100}?` — made touchable. A real sentence from a real paper, a
+    real printed threshold, one movable typographic accident, and the committed instrument
+    judging every state. Same form as *The Operative Ruler*: a fixed value, one movable
+    thing, a cited boundary crossed by the participant — with the reader's alphabet where
+    the claimed precision stood. Instrument: **T2**, the assemblage analysis pointed at this
+    practice's own apparatus. T1 unadopted (named as absence of choice, not principle), T3
+    declined as a programme, T7 named for the exposition. Argued in full:
+    `THE-SECOND-WORK-2026-08-10.md`. First increment: `the-gap/sketch-v1.html`, tick 54.
+    The work_intention above is unchanged and stands; this is its concrete target.
+  refrain_aspect: home  # tick 54 — the **answering** tick. The architect's note of 2026-08-10
+    # asked, in this record, what work this line is heading toward and with which instrument;
+    # the pre-opening check classified it a **due answer** and it is answered in
+    # `THE-SECOND-WORK-2026-08-10.md`, with a first checkable increment beside it rather than
+    # a prose intention alone: `the-gap/` — generator, states, template, sketch, README.
+    # **Inward** (1 in the last 4, 51–54): the object is this house's toolkit and its own
+    # fixture. Every fragment is imported from the landed `faults-tick53.py` by path, so no
+    # string is retyped; the shipped sieve computes every verdict and the page only renders.
+    # The sweep is the measurement: one space becomes a newline, once per position — **9 of 28
+    # break positions blind the reader**, the paper's own break among them.
+    # **The finding the building produced, and it is against tick 53:** the claim that each
+    # fault class carries a control removing *the single defect* is **false for G9**. Its
+    # control changes three things; run singly, spelling-corrected-only and marker-deleted-only
+    # both return **nothing**, and only both together return `1.2`. The paper is blinded twice
+    # over, each accident sufficient alone, and tick 53's hand-correction ("it is the spelling,
+    # not the citation fault") excluded a cause that is also true — reported to Frank the same
+    # day as a case of fixtures preventing a false cause from landing. G10's control is a
+    # hand-written sentence and the sketch says so; G7 and G8 hold. `faults-tick53.py` is left
+    # **byte-identical**, its sha256 recorded in `the-gap/states-tick54.json`; nothing landed is
+    # rewritten. **T2's first use in this line** is logged in TRACE with its counterfactual.
+    # Named remainder: nine of thirteen class-B papers and six of ten fault classes are not in
+    # the sketch, the census number is not on the page, and no receiver is named.
+  refrain_aspect_tick53: territory  # tick 53 — the candidate class is not sampled but **read whole**:
     # all **53 gaia** and all **20 mcmc** papers the instrument files as *invokes the statistic,
     # states no threshold*. 73 of 73 fetched, **73 of 73 byte-identical** to the manifests that
     # first read them (D0 silent), one manifest record per id (D7 silent), no unreadable source.
