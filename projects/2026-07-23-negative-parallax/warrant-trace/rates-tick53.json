@@ -1,0 +1,85 @@
+{
+ "tick": 53,
+ "design": "census of the candidate class, gaia + mcmc",
+ "note": "both ends of the fraction are read: non-invokers leave numerator and denominator, class-B papers leave the numerator only (they state a threshold, so they are not what the numerator claims, but they do invoke the statistic).",
+ "literatures": {
+  "gaia": {
+   "invoking": 320,
+   "candidates": 53,
+   "read": 53,
+   "census_complete": true,
+   "non_invokers": 9,
+   "non_invoker_share_pct": 17.0,
+   "class_B_strict": 12,
+   "class_B_weak": 3,
+   "class_B_share_pct": 22.6,
+   "rate_now_pct": 16.6,
+   "rate_denominator_corrected_pct": 14.1,
+   "rate_both_ends_corrected_pct": 10.3,
+   "rate_both_ends_with_weak_calls_pct": 9.3,
+   "modes": {
+    "X-QUERY": 8,
+    "X-CITE": 1
+   },
+   "labels": {
+    "B-SITE": 12,
+    "B-SITE-WEAK": 3,
+    "I-DECLINE": 2,
+    "I-DISC": 7,
+    "I-USE": 20,
+    "X-CITE": 1,
+    "X-QUERY": 8
+   }
+  },
+  "mcmc": {
+   "invoking": 50,
+   "candidates": 20,
+   "read": 20,
+   "census_complete": true,
+   "non_invokers": 3,
+   "non_invoker_share_pct": 15.0,
+   "class_B_strict": 1,
+   "class_B_weak": 2,
+   "class_B_share_pct": 5.0,
+   "rate_now_pct": 40.0,
+   "rate_denominator_corrected_pct": 36.2,
+   "rate_both_ends_corrected_pct": 34.0,
+   "rate_both_ends_with_weak_calls_pct": 29.8,
+   "modes": {
+    "X-NOTATION": 2,
+    "X-CITE": 1
+   },
+   "labels": {
+    "B-SITE": 1,
+    "B-SITE-WEAK": 2,
+    "I-DECLINE": 2,
+    "I-DISC": 1,
+    "I-USE": 11,
+    "X-CITE": 1,
+    "X-NOTATION": 2
+   }
+  }
+ },
+ "pooled": {
+  "read": 73,
+  "non_invokers": 12,
+  "share_pct": 16.4,
+  "tick52_sample": {
+   "read": 6,
+   "non_invokers": 4,
+   "share_pct": 66.7,
+   "ci95_pct": [
+    30.0,
+    90.3
+   ]
+  },
+  "inside_tick52_interval": false
+ },
+ "forecasts": {
+  "P1 gaia non-invoker share in [20,60] pct": false,
+  "P2 mcmc non-invoker share in [20,60] pct": false,
+  "P5 pooled share inside tick52 CI": false,
+  "P6 gaia denominator-corrected rate in (0,12) pct": false,
+  "D8 class B (strict) at most 6 of 73": false
+ }
+}

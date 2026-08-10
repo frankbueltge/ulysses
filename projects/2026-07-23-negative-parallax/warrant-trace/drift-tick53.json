@@ -1,0 +1,22 @@
+{
+ "tick": 53,
+ "ids_requested": 73,
+ "manifest_records": 73,
+ "ok_records": 73,
+ "failed_records": [],
+ "D7_duplicate_ids": {},
+ "D7_fires": false,
+ "prior_manifests_read": [
+  "fetch-manifest-tick35.jsonl",
+  "fetch-manifest-tick36.jsonl",
+  "fetch-manifest-tick38.jsonl",
+  "fetch-manifest-tick46.jsonl",
+  "fetch-manifest-tick47.jsonl",
+  "fetch-manifest-tick52.jsonl"
+ ],
+ "compared_against_prior": 73,
+ "byte_identical": 73,
+ "changed": [],
+ "D0_fires": false,
+ "not_in_any_prior_manifest": []
+}
