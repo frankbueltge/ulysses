@@ -1,0 +1,46 @@
+{
+ "tick": 55,
+ "instrument": "warrant-trace 0.6 (2026-08-10)",
+ "arxiv": "2512.08173v1",
+ "fault_class_as_named_at_tick_53": "G10 the gap bound of 100 characters is shorter than the sentence",
+ "rows": [
+  {
+   "bound": 100,
+   "as_printed": [],
+   "full_stop_as_comma": []
+  },
+  {
+   "bound": 200,
+   "as_printed": [],
+   "full_stop_as_comma": [
+    "1.1"
+   ]
+  },
+  {
+   "bound": 400,
+   "as_printed": [],
+   "full_stop_as_comma": [
+    "1.1"
+   ]
+  },
+  {
+   "bound": 1000,
+   "as_printed": [],
+   "full_stop_as_comma": [
+    "1.1"
+   ]
+  },
+  {
+   "bound": 10000,
+   "as_printed": [],
+   "full_stop_as_comma": [
+    "1.1"
+   ]
+  }
+ ],
+ "verdict": {
+  "sentence_boundary_sufficient_alone": true,
+  "bound_sufficient_alone": true
+ },
+ "correction": "the fragment is blocked twice, each block sufficient alone: a full stop between the term and the number, and the bound. Tick 53 named only the second, and the second alone does not close the class."
+}
