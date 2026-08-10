@@ -116,8 +116,17 @@ CASES = [
 ]
 
 MCMC_CASES = [
+    # Tick 53 called this class "the gap bound of 100 characters is shorter than the
+    # sentence". The raw text says otherwise, and `g10-double-block-tick55.py` proves it: the
+    # term stands in one sentence and the number in the next, carried by the anaphor *this
+    # factor*, and a full stop is not a bound. Two blocks, each sufficient alone.
     ("G10 the term and the number stand in different sentences", "2512.08173v1",
-     "PENDING", "PENDING", 1.1),
+     "4085ea7564ffd55d",
+     "For monitoring the convergence of the posterior samples across all methods, we "
+     "evaluate the estimated potential scale reduction factor (\\cite{gelman1992inference}) "
+     "for all unknown parameters. Based on our simulation results, this factor is generally "
+     "around $1.00$ or below the commonly accepted threshold of $1.1$, indicating good "
+     "convergence of the chains.", 1.1),
 ]
 
 
