@@ -52,6 +52,20 @@ direction that flattered the finding it was built to produce. Two repairs are he
 site gap (`GAP`) and the text-mode relations in `normalise` — and five are in the profiles.
 Nothing published under 0.2-0.4 is rewritten; the side-counts of each earlier version are
 still reported, so any earlier table can be compared to a re-run field by field.
+
+0.6 (tick 55, 2026-08-10) repairs eight of the ten fault classes the tick-53 census pinned,
+when the whole candidate class of two literatures was read by hand and 13 of 73 papers
+turned out to state a threshold the sieve had filed as absent. Five repairs are here in the
+engine (E1 the relation macros `\\geqslant`/`\\gtrsim` and their mirrors; E2 the gap
+traverses the instrument's OWN `<<CITE:…>>` marker, whose colon the gap class excluded; E3
+a footnote is lifted out of the sentence it hangs on; E4 the gap traverses a single
+non-paragraph newline, so the place the author's editor wrapped the line stops deciding what
+counts as evidence; E5 `\\phantom{…}` is dropped, it typesets nothing) and two are in the
+profiles (`{VGAP}`, the step from the relation to the value; one optional letter in the RUWE
+term, for a paper that misspells it). Two are DECLINED and named as unreached: a threshold
+that is an expression falling back to the value, and an mcmc miss whose term and number
+stand in different sentences — for which tick 53's name, "the gap bound is shorter than the
+sentence", is wrong and is corrected in `../PREREGISTRATION-tick55.md` §1.
 """
 import argparse
 import csv
@@ -65,7 +79,7 @@ import tarfile
 import time
 import urllib.request
 
-VERSION = "warrant-trace 0.5 (2026-08-09)"
+VERSION = "warrant-trace 0.6 (2026-08-10)"
 
 # 0.5, the repair of the seven faults pinned at tick 47 by hand-reading 36 papers the
 # sieve had filed as "invokes the statistic, states no threshold" — 8 of which state one.
@@ -86,7 +100,34 @@ VERSION = "warrant-trace 0.5 (2026-08-09)"
 # F1's two pinned fragments, and no larger. The wider fragment needs 91 characters. A
 # wider gap buys sites and sells precision; that trade is measured at tick 50 by hand-
 # reading a sample of the sites the repair newly finds, not asserted here.
-GAP = r"(?:[^.;:\n]|\.(?=\d)){0,100}?"
+# 0.6 adds two branches to the class, and both are answers to faults the tick-53 census
+# pinned to verbatim fragments.
+#
+# E2. `<<CITE:…>>` is the instrument's own rendering of a citation, and it carries a colon —
+# one of the four characters the gap treats as a sentence boundary. So a threshold went
+# missing whenever the citation stood between the statistic's name and its number: the sieve
+# was blinded by its own marker. The first branch consumes a whole marker. Its cost is
+# stated rather than hidden: a traversed marker counts as ONE unit against the bound of 100,
+# so where a citation stands in the gap, the gap reaches further in characters than the
+# bound says. That widening is measured at tick 55 by hand-reading a drawn sample of the
+# sites it newly produces (`../PREREGISTRATION-tick55.md` P7), as at tick 50.
+#
+# E4. A newline was excluded as a proxy for a sentence boundary, and it is the wrong proxy:
+# in LaTeX a single newline is whitespace and a BLANK line is the paragraph break. Under 0.5
+# the column at which the author's editor happened to wrap the line decided whether a printed
+# threshold entered this line's record. The second branch admits a newline that does not
+# begin a blank line. Cost, likewise named: with comments left in — the default of every
+# measurement this line has published — a `%`-commented line can now be traversed into the
+# line below it, and the number of new sites whose window carries an unescaped `%` is
+# reported at tick 55 rather than estimated.
+GAP = r"(?:<<[^<>\n]*>>|\n(?![ \t]*\n)|[^.;:\n]|\.(?=\d)){0,100}?"
+
+# 0.6, and the other half of two pinned faults. A site pattern joined the relation to its
+# number with `\s*`, so `greater than THE 1.4 level` (G6) and a table row whose cells are
+# `RUWE & < & 5` (G4) were not sites at all. `{VGAP}` is that step, written once: whitespace,
+# table-cell separators, and at most one article. It is expanded in the profiles the same way
+# `{GAP}` is — a profile that does not take it keeps `\s*` and behaves exactly as it did.
+VGAP = r"[\s&]*(?:\b(?:the|an?)\s+)?[\s&]*"
 
 
 def as_number(v):
@@ -122,12 +163,64 @@ EPRINT = "https://arxiv.org/e-print/{}"
 CITE_RE = re.compile(r"\\[a-zA-Z]*cite[a-zA-Z]*\s*(?:\[[^\]]*\])*\s*\{([^}]*)\}")
 
 
+FOOTNOTE_RE = re.compile(r"\\footnote\s*(?:\[[^\]]*\])?\{((?:[^{}]|\{[^{}]*\})*)\}")
+PHANTOM_RE = re.compile(r"\\[hv]?phantom\s*\{(?:[^{}]|\{[^{}]*\})*\}")
+
+
+def _defootnote(t):
+    """0.6, E3: a footnote is not part of the sentence it hangs on — and is not deleted.
+
+    Pinned twice by the tick-53 census. A footnote's body is a sentence of its own — a URL,
+    a definition, a citation — and 0.5 left it standing inline between a statistic's name and
+    its threshold, where its full stops and colons stopped the gap dead.
+
+    Two things must be true of the repair, and the first draft of it only did one. In place,
+    the body is replaced by a marker and the citation markers it contained, so that a paper
+    citing the deriving document IN the footnote still carries that citation in the host
+    site's window — that reading is what this instrument exists to make. And the body is
+    **moved, not dropped**: each one is appended at the end of the text as a sentence of its
+    own, because a threshold stated INSIDE a footnote is a threshold this line counts, and
+    deleting the body would have made the repair buy sites in one place by losing them in
+    another. Named cost of the move: a footnote's citation keys appear twice in the
+    normalised text, once at the host site and once in the moved sentence.
+
+    One brace level deep, which covers `\\url{…}` and the ordinary emphasis macros; a
+    footnote nested deeper is left alone and behaves exactly as it did under 0.5.
+    """
+    moved = []
+
+    def repl(m):
+        body = m.group(1)
+        moved.append(body)
+        cites = " ".join(re.findall(r"<<CITE:[^>]*>>", body))
+        return " <<FN>> " + (cites + " " if cites else "")
+
+    t = FOOTNOTE_RE.sub(repl, t)
+    if moved:
+        t = t + "\n\n" + " . ".join(moved) + " . "
+    return t
+
+
 def normalise(t):
     """LaTeX -> flat text, with citation keys preserved as <<CITE:key>> markers."""
     t = CITE_RE.sub(lambda m: " <<CITE:" + m.group(1).replace(" ", "") + ">> ", t)
+    t = _defootnote(t)
+    # 0.6, E5: `\phantom{…}` typesets nothing — it reserves the width of its body for
+    # alignment. 0.5 stripped the braces and left the body standing, so a table cell written
+    # `\phantom{-}5` read as ` - 5`, an invisible minus turned into a visible one between the
+    # relation and its number.
+    t = PHANTOM_RE.sub(" ", t)
     t = t.replace("\\_", "_").replace("\\%", "%").replace("\\,", " ").replace("\\!", "")
     t = re.sub(r"\\(varpi|pi|sigma|cdot|times|mathrm|texttt|textit|textbf|rm|it|bf|left|right|,|;|:|&)",
                r" \1 ", t)
+    # 0.6, E1: two relation macros the substitution list lacked, each pinned to a paper by
+    # the tick-53 census — `\geqslant` (one paper) and `\gtrsim` (three). Their mirrors join
+    # them, because a sieve that admits one direction of a comparison and not the other
+    # carries a direction-dependent bias into every count it makes. `\gtrsim` is "greater
+    # than of order", not ">", and it is admitted as a relation on the ground the census
+    # used: the papers that write it are stating a threshold with it.
+    t = re.sub(r"\\(geqslant|gtrsim|gtrapprox)\b", " > ", t)
+    t = re.sub(r"\\(leqslant|lesssim|lessapprox)\b", " < ", t)
     t = re.sub(r"\\(geq|ge)\b", " > ", t)
     t = re.sub(r"\\(leq|le)\b", " < ", t)
     # 0.5, F3: the same two relations written for a text-mode document. `\textless` and
@@ -187,7 +280,7 @@ class Profile:
         # different one. A profile written against 0.4 keeps its literal `[^.;:\n]{0,50}?`
         # and behaves exactly as it did — the repair is adopted per profile, visibly.
         self.site_res = [re.compile(p.replace("{TERM}", term).replace("{REL}", rel)
-                                     .replace("{GAP}", GAP))
+                                     .replace("{GAP}", GAP).replace("{VGAP}", VGAP))
                          for p in d["site_patterns"]]
         self.flags = {}
         for name, spec in d.get("flags", {}).items():

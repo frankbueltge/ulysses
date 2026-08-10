@@ -8,7 +8,7 @@
   "term": "(?:(?<![A-Za-z])(?:wide)?hat\\s*\\{?\\s*R\\b|\\bR-?hat\\b|\\bRhat\\b|R̂|\\bPSRF\\b|potential\\s+scale\\s+reduction(?:\\s+factor)?|Gelman[-–\\s]?Rubin(?:\\s+(?:statistic|diagnostic|criterion|convergence))?)",
   "rel": "(?:<|>|=|less\\s+than|smaller\\s+than|lower\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|below|above|exceed(?:ing|s)?|of|up\\s+to|at\\s+most|at\\s+least|under|over|worse\\s+than|better\\s+than|ranging\\s+from|from)",
   "site_patterns": [
-    "{TERM}{GAP}{REL}\\s*(\\d(?:\\.\\d+)?)\\b",
+    "{TERM}{GAP}{REL}{VGAP}(\\d(?:\\.\\d+)?)\\b",
     "(\\d(?:\\.\\d+)?)\\s*(?:<|>)\\s*{TERM}"
   ],
   "flags": {
@@ -85,5 +85,6 @@
       "pattern": "\\bstan\\b|rstan|cmdstan|pymc|\\bjags\\b|\\bbrms\\b|nimble|numpyro|winbugs|openbugs|coda\\b"
     }
   ],
-  "repair_0_5": "F4 (2026-08-09): the hat-R alternative had no left boundary, so the letters 'hat R' inside the ordinary English 'that R' counted as a mention of the statistic. This is the one fault of the seven that OVERSTATES: it inflates the denominator of every rate computed over mentioning papers. A left boundary (?<![A-Za-z]) is added; the LaTeX form \\hat{R} is unaffected, since a backslash is not a letter. F7: 'from' and 'ranging from' join the relation list so that a swept threshold yields a site — its LOWER BOUND ONLY, which is a stated limitation and not a silent one. F1: the site patterns take {GAP}."
+  "repair_0_5": "F4 (2026-08-09): the hat-R alternative had no left boundary, so the letters 'hat R' inside the ordinary English 'that R' counted as a mention of the statistic. This is the one fault of the seven that OVERSTATES: it inflates the denominator of every rate computed over mentioning papers. A left boundary (?<![A-Za-z]) is added; the LaTeX form \\hat{R} is unaffected, since a backslash is not a letter. F7: 'from' and 'ranging from' join the relation list so that a swept threshold yields a site — its LOWER BOUND ONLY, which is a stated limitation and not a silent one. F1: the site patterns take {GAP}.",
+  "repair_0_6": "tick 55, 2026-08-10. P-A only: the site patterns take the engine's {VGAP} in place of \\s*, so that an article or a table-cell separator between the relation and its number no longer hides a stated threshold. No fault of the tick-53 census was pinned to this profile's vocabulary; the engine repairs (E1-E5) reach it through warrant_trace.py."
 }

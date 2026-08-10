@@ -2922,6 +2922,54 @@ in its own favour. Then the judging, at the monthly line review.
 
 ---
 
+### Tick 55 — 2026-08-10 — the ten faults repaired *(landed mid-operation; see the note)*
+
+**Aspect: territory. The classification is deliberately NOT set yet, and that is the point.**
+The repair on its own is inward — its object is this house's toolkit — and the floor allows
+one inward session in four, which tick 54 has already spent (51–54). The half that makes this
+tick outward is the re-measure of 1 085 papers in three frames, which was still running when
+this section was written. So the honest state is: **the operation is not finished, and the
+repair alone would not have been a legitimate tick.** Recorded here rather than backdated
+later.
+
+**What exists at this point.** `PREREGISTRATION-tick55.md` — the repair specified before it
+was written, two faults declined with their reasons, nine forecasts with defeat conditions,
+and two amendments dated before any measurement rather than discovered after. Instrument
+**0.6**: five repairs in the engine (the relation macros `\geqslant`/`\gtrsim` and their
+mirrors · the gap steps over the instrument's OWN `<<CITE:…>>` marker, whose colon is one of
+the four characters its gap forbids · a footnote is moved out of its host sentence and not
+deleted · the gap steps over a single non-paragraph newline · `\phantom{…}` is dropped) and
+two in the profiles (`{VGAP}`, the step from a relation to its number; one optional letter in
+the RUWE term, for a paper that misspells it at the site). `selftest-0.6.py` passes — eleven
+repaired cases green, twelve controls still refused, and the footnote repair held to both
+halves. The rendered fixtures of `faults-tick53.py` go **9 green / 5 red** under 0.6, which is
+exactly what P1 forecast, red case for red case; the landed file and its json are left
+byte-identical and the 0.6 run is kept beside them as `faults-tick53-under-0.6.json`.
+
+**Two corrections against this record, both proven rather than asserted.**
+`g10-double-block-tick55.py`: tick 53 named the one mcmc miss *"the gap bound of 100
+characters is shorter than the sentence"*. As a diagnosis that is wrong — the fragment is
+blocked **twice**, each block sufficient alone. The full stop between the term and the number
+hides it at a bound of 10 000; with that one character turned into a comma and nothing else
+changed, the bound of 100 hides it and 200 does not. Second fault class in two days named
+after one cause that has two (tick 54 found the first, in G9). And a control written for the
+new profile repair **failed against 0.5 as well**: `of` reaches a number through an ordinary
+English genitive — *the companion mass **of** 1.4 solar masses* — with no comparison in the
+sentence. Recorded as **N1** in `selftest-0.6.py`, red by design and NOT repaired: no instance
+of it is pinned in a paper, and repairing an invented string would reverse the order every
+other repair of this line obeyed. Its direction is overstatement of sites, and a false site
+carries no deriving document, so it lowers the fraction the shipped reading reports — the
+direction that flatters the claim.
+
+**Standing until the operation completes:** no number of this line may be recomputed with 0.6
+until the re-measure of all three frames is landed. That is tick 50's rule, tick 51 paid for
+it, and tick 53 restated it as the reason this tick exists.
+
+**Status:** ACTIVE, unchanged. Disposition unchanged. `mandate_check: PASS`. Shipped work
+untouched.
+
+---
+
 ### Tick 53 — 2026-08-10 — the class read whole, and the numerator worse than the denominator
 
 **Aspect: territory. OUTWARD** — 73 papers in two literatures, every member of the class,

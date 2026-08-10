@@ -1,0 +1,208 @@
+{
+ "tick": 53,
+ "profile": "profiles/ruwe-1.4.json (instrument 0.5)",
+ "cases": 14,
+ "green": 9,
+ "red": 5,
+ "fault_classes": [
+  "G1",
+  "G10",
+  "G2",
+  "G3",
+  "G4",
+  "G5",
+  "G6",
+  "G7",
+  "G8",
+  "G9"
+ ],
+ "controls": 4,
+ "controls_green": 4,
+ "records": [
+  {
+   "kind": "case",
+   "fault": "G1 the relation is a macro the list lacks: \\geqslant / \\leqslant",
+   "arxiv": "2601.07184",
+   "read_order": 7,
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "fault": "G2 the relation is a macro the list lacks: \\gtrsim",
+   "arxiv": "2603.11994",
+   "read_order": 19,
+   "expected_value": 3.0,
+   "instrument_found": [
+    "3"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "fault": "G2 the relation is a macro the list lacks: \\gtrsim",
+   "arxiv": "2206.08383",
+   "read_order": 33,
+   "expected_value": 1.3,
+   "instrument_found": [
+    "1.3"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "fault": "G2 the relation is a macro the list lacks: \\gtrsim",
+   "arxiv": "2506.17861",
+   "read_order": 34,
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "fault": "G3 a footnote stands between the term and the relation",
+   "arxiv": "2104.13148",
+   "read_order": 6,
+   "expected_value": 1.4,
+   "instrument_found": [],
+   "green": false
+  },
+  {
+   "kind": "case",
+   "fault": "G3 a footnote stands between the term and the relation",
+   "arxiv": "2203.07294",
+   "read_order": 21,
+   "expected_value": 2.4,
+   "instrument_found": [],
+   "green": false
+  },
+  {
+   "kind": "case",
+   "fault": "G4 term, relation and value stand in separate table cells",
+   "arxiv": "2405.13395",
+   "read_order": 9,
+   "expected_value": 5.0,
+   "instrument_found": [],
+   "green": false
+  },
+  {
+   "kind": "case",
+   "fault": "G5 the threshold is an expression that falls back to the value",
+   "arxiv": "2111.01145",
+   "read_order": 31,
+   "expected_value": 1.4,
+   "instrument_found": [],
+   "green": false
+  },
+  {
+   "kind": "case",
+   "fault": "G6 an article stands between the relation and the value",
+   "arxiv": "2111.03887",
+   "read_order": 39,
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "fault": "G7 the instrument's own citation marker stands in the gap",
+   "arxiv": "2107.06373",
+   "read_order": 43,
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "fault": "G7 the instrument's own citation marker stands in the gap",
+   "arxiv": "2407.20949",
+   "read_order": 53,
+   "expected_value": 1.0,
+   "instrument_found": [
+    "1"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "fault": "G8 a line break stands in the gap",
+   "arxiv": "2312.03162",
+   "read_order": 48,
+   "expected_value": 1.2,
+   "instrument_found": [
+    "1.2"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "fault": "G9 the paper misspells the term at the site",
+   "arxiv": "2112.07023",
+   "read_order": 41,
+   "expected_value": 1.2,
+   "instrument_found": [
+    "1.2"
+   ],
+   "green": true
+  },
+  {
+   "kind": "case",
+   "profile": "rhat-1.1",
+   "fault": "G10 the gap bound of 100 characters is shorter than the sentence",
+   "arxiv": "2512.08173v1",
+   "read_order": 3,
+   "expected_value": 1.1,
+   "instrument_found": [],
+   "green": false
+  },
+  {
+   "kind": "control",
+   "fault": "G7 control: the citation marker deleted",
+   "arxiv": "2107.06373",
+   "expected_value": 1.4,
+   "instrument_found": [
+    "1.4"
+   ],
+   "green": true
+  },
+  {
+   "kind": "control",
+   "fault": "G8 control: the line break replaced by a space",
+   "arxiv": "2312.03162",
+   "expected_value": 1.2,
+   "instrument_found": [
+    "1.2"
+   ],
+   "green": true
+  },
+  {
+   "kind": "control",
+   "fault": "G9 control: the spelling corrected",
+   "arxiv": "2112.07023",
+   "expected_value": 1.2,
+   "instrument_found": [
+    "1.2"
+   ],
+   "green": true
+  },
+  {
+   "kind": "control",
+   "fault": "G10 control: the same relation and value, one clause apart",
+   "arxiv": "2512.08173v1",
+   "expected_value": 1.1,
+   "instrument_found": [
+    "1.1"
+   ],
+   "green": true
+  }
+ ]
+}
