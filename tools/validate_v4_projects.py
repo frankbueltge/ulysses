@@ -38,6 +38,55 @@ def require(condition: bool, message: str, errors: list[str]) -> None:
         errors.append(message)
 
 
+# ————————————————————————————————————————————————— the floors of §8 ——————————
+# Added 2026-08-12 (architect). These are NOT new rules. Protocol v6 §8 has said since
+# 2026-08-08 that SCORE is "a living map (a page, revised)" and §4 that it is "short"; nothing
+# ever counted it, and by 2026-08-12 one line's SCORE stood at 40,691 words and its whole
+# record at 196,000. A constitution that states a limit and never counts it is a wish.
+#
+# Two deliberate limits on this check:
+#
+#  · **Live lines only.** A CLOSED record is archive. §8's own "corrections preserve the record:
+#    nothing public is ever silently rewritten or deleted" forbids compacting history to satisfy
+#    a check introduced afterwards, so closed lines are exempt by design, not by leniency.
+#  · **Only the floors that are unambiguous.** §8 also says "a work's process record < 3,000
+#    words", but a work-line has no single file that is "the work's process record", and
+#    inventing an interpretation would be exactly the drift this check exists to stop. It is
+#    left unenforced and named here, so the omission is visible rather than silent.
+#
+# TRACE carries no number in §8 — it says "in proportion to consequence". The limit below makes
+# that countable, set well above the largest closed line's entire record. What it forbids is the
+# 87,000-word case, not a thorough trace.
+WORD_FLOORS = {
+    "SCORE.md": (900, '§8 "SCORE as living map (a page, revised)"'),
+    "TRACE.md": (6000, '§8 "TRACE in proportion to consequence"'),
+}
+
+
+def word_count(path: Path) -> int:
+    return len(path.read_text(encoding="utf-8").split())
+
+
+def validate_floors(project_dir: Path, status: str) -> list[str]:
+    """Size floors, for lines that are still live. Closed records are archive."""
+    if status == "CLOSED":
+        return []
+    errors: list[str] = []
+    for name, (limit, clause) in WORD_FLOORS.items():
+        path = project_dir / name
+        if not path.exists():
+            continue
+        count = word_count(path)
+        require(
+            count <= limit,
+            f"{project_dir.name}/{name}: {count} words exceeds the floor of {limit} "
+            f"({clause}). The line parks until it compacts: narration belongs in the journal, "
+            f"and TRACE's older half rotates into archive/trace/.",
+            errors,
+        )
+    return errors
+
+
 def validate_project(project_dir: Path) -> list[str]:
     errors: list[str] = []
     score = project_dir / "SCORE.md"
@@ -96,6 +145,8 @@ def validate_project(project_dir: Path) -> list[str]:
 
     if mandate_check == "ESCALATE":
         require(status == "QUARANTINED" or disposition == "ESCALATE", f"{project_dir.name}: mandate escalation must be quarantined or have ESCALATE disposition", errors)
+
+    errors.extend(validate_floors(project_dir, status))
 
     return errors
 

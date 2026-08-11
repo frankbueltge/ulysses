@@ -30,9 +30,19 @@ from chunking import chunk_markdown
 from store import build_index, recall
 
 # Repo-relative source globs to index.
+#
+# `projects/**` added 2026-08-12 (architect). This list was written on 2026-07-02, sixteen days
+# before the first work-line was opened, and was never extended when the unit of work changed.
+# Every word a work-line produces — SCORE, TRACE, the pre-registrations, the controls — was
+# therefore invisible to recall, and the only way to know where a line stood was to read it end
+# to end. One line's record had reached 196,000 words by the time this was found.
+#
+# The rule this encodes: when the practice starts writing somewhere new, this list follows it.
+# test_sources.py fails if a directory the practice writes records into is not covered here.
 SOURCE_GLOBS = [
     "journal/**/*.md",
     "works/**/*.md",
+    "projects/**/*.md",
     "atelier-feedback/**/*.md",
     "drafts/**/*.md",
     "memory/dossiers/**/*.md",

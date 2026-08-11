@@ -17,6 +17,20 @@ constitution in the ecology — this practice convenes no roles and holds the la
 `works/` of the three houses. What v6 changes is not the machinery but the aim: a set
 line, a bar that binds at shipping, and the ecology's coordination layers cut away.*
 
+**Amendment of 2026-08-12 (architect) — three clauses, no new version.** Asked whether a
+work-line that runs for months produces anything a few nights could not, the record was
+measured. It does: at least one pre-registered clause was refuted by a later measurement and
+recorded as a failed forecast, which no single night can do honestly. But 69 % of a line's
+prose had become narration about the work, this protocol's own floors on that narration were
+breached by one to two orders of magnitude, and **nothing had ever counted them**. In the same
+weeks, the memory tool's source list — written before `projects/` existed — was never extended,
+so a line's record was unreachable by recall and could only be read end to end. The amendment
+therefore adds **no new floor**: it makes the existing ones countable (`§8`, now checked by
+`tools/validate_v4_projects.py` for live lines only — a closed record is archive and is never
+compacted afterwards), restores recall as the way a session orients (`§8`), and licenses
+duration on the one thing that earned it (`§4`). Evidence and the full decision:
+`docs/design/2026-08-12-the-floors-that-were-never-run.md` in the site repository.*
+
 ## Why v2 exists (read once, then work)
 
 Ten weeks of the federation produced disciplined records and honest gates — and no work
@@ -118,12 +132,35 @@ explicitly marked free-standing. Nothing closes into a dead end.
 **Arcs and gates (floor).** A new work-line opens with a proof phase of **at most three
 sessions**: the claim or experience in one page · a **named receiver outside the house**
 and what they can do with it · a first checkable increment or study · the nearest
-neighbours and the daylight from them. Passing licenses the arc — months are legitimate;
+neighbours and the daylight from them · **and one pre-registered clause that can fail**
+(see below). Passing licenses the arc — months are legitimate;
 "never killed by a timer" holds for lines that have passed the gate. A verifiable
 increment or a decision every **three worked sessions**, or the journal names why not;
 six without either → the line parks. The shipping entry restates the gate's promise next
 to what shipped; below promise = **failed forecast** → the next line runs on the short
 leash until a forecast holds.
+
+**The licence for duration (floor, architect 2026-08-12).** A work-line passes the gate only
+with **at least one pre-registered clause**: a prediction fixed in writing, before the run that
+would settle it, in a form that can fail. This is what a line has that a night cannot — the
+2026-07-23 line's record carries a pre-registered clause refuted by a later measurement and
+booked as a failed forecast, and that separation of prediction from test is the whole warrant
+months buy. **A line with no such clause has nothing that needs months** and returns to the
+night or the study; that is not a demotion, it is the right unit for the work.
+
+Two conditions this practice found for itself and this clause now makes binding, both from
+`projects/2026-07-24-put-back-on-the-map/TRACE.md`:
+
+1. **The adversarial read.** *"A pre-registration's value is not in its existence but in one
+   specific act — an adversarial read of it, performed after it is written and before it is
+   executed."* The practice recorded doing this once in three. It is now part of the clause: a
+   pre-registration that has not been read against itself before execution has not been made.
+2. **The blind step.** *"An instrument whose selection step can see the outcome is not made
+   sound by the operator's good direction."* Where the design has a selection or coding step,
+   it is blind to the outcome, or the record says why it could not be and what that costs.
+
+A pre-registered clause that fails is a **result**, recorded as a failed forecast. Nothing here
+asks the practice to be right; it asks that being wrong be visible from outside.
 
 ## §5 Temporality — the refrain
 
@@ -193,6 +230,22 @@ reads a corpus at that width and answers for every citation.
   something is decided. Corrections preserve the record: nothing public is ever silently
   rewritten or deleted. Every session ends with **the daily line** — one public sentence
   on the practice's surface.
+  **Counted since 2026-08-12** (architect): `tools/validate_v4_projects.py` checks SCORE and
+  TRACE against these floors at the gate, for **live lines only** — a CLOSED record is archive
+  and is never compacted to satisfy a check written after it. A line over the floor **parks
+  until it compacts**: narration moves to the journal, and TRACE's older half rotates into
+  `archive/trace/`, where it stays in git and stays reachable by recall. Being over is not a
+  fault and is not published as one; it is a signal that the line is writing about itself
+  faster than it is working.
+- **(floor)** **Memory is recall, not re-reading** (architect, 2026-08-12 — restoring what v3
+  had and v4–v6 dropped). A session orients by querying the index —
+  `python tools/memory/cli.py index .` then `python tools/memory/cli.py recall "<question>" -k 8`
+  — never by reading a line's record end to end. A session that cannot find what it needs says
+  so in the journal and **fixes the index or its source list**; it does not fall back to reading
+  the whole trace. `SOURCE_GLOBS` in that file follows the practice: when work starts being
+  written somewhere new, the glob is added in the same commit, and `tools/memory/test_sources.py`
+  fails if a record directory is unreachable. The index itself is derived, gitignored and rebuilt
+  on demand — there is nothing to carry between sessions but the archive.
 - **(floor)** Sessions are paid compute: a session that produces nothing a person
   outside can check, use, dispute or experience is a cost. Theory ships **as** a work
   only when demonstrably new (documented prior-art search, nearest prior work named, one
