@@ -1,0 +1,182 @@
+[
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2206.15318",
+  "value": "1.7",
+  "match": "RUWE = 1.7",
+  "marker_in_match": false,
+  "percent_in_window": false
+ },
+ {
+  "corpus": "iou-0.5",
+  "profile": "iou-0.5",
+  "arxiv": "2607.09115v2",
+  "value": "0.45",
+  "match": "IoU threshold of \\(\\tau_ \\text nms =0.45",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2209.04210",
+  "value": "5",
+  "match": "ruwe evaluates the quality of the 5",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2206.04567",
+  "value": "3",
+  "match": "RUWE <<FN>> ) above 3",
+  "marker_in_match": true,
+  "percent_in_window": false
+ },
+ {
+  "corpus": "iou-0.5",
+  "profile": "iou-0.5",
+  "arxiv": "2607.00357v1",
+  "value": "1",
+  "match": "mIoU ( \\uparrow ) & \\multicolumn 4 c F1-score ( \\uparrow ) \\\\ Algorithms & N =1",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2201.09097",
+  "value": "5.27",
+  "match": "RUWE) of this star has a value of 5.27",
+  "marker_in_match": false,
+  "percent_in_window": false
+ },
+ {
+  "corpus": "ruwe-1.4",
+  "profile": "ruwe-1.4",
+  "arxiv": "2410.20194",
+  "value": "1.4",
+  "match": "ruwe (1.94) than the suggested cutoff value ( < 1.4",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2210.03725",
+  "value": "1.4",
+  "match": "RUWE measurements being smaller than the 1.4",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "iou-0.5",
+  "profile": "iou-0.5",
+  "arxiv": "2603.28297v1",
+  "value": "1",
+  "match": "mIoU % = % \\frac 1 C % \\sum_ c=1",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "ruwe-1.4",
+  "profile": "ruwe-1.4",
+  "arxiv": "2209.04210",
+  "value": "5",
+  "match": "ruwe evaluates the quality of the 5",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "iou-0.5",
+  "profile": "iou-0.5",
+  "arxiv": "2606.10769v1",
+  "value": "1",
+  "match": "IoU threshold \\(\\tau_ \\text nms \\), obtaining the set \\begin equation \\mathcal M=\\ (M_i,B_i)\\ _ i=1",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2501.14462",
+  "value": "1.25",
+  "match": "renormalised unit weight error <<CITE:Gaia_Lindegren2018>> , whereas two secondaries have values larger than 1",
+  "marker_in_match": true,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "ruwe-1.4",
+  "profile": "ruwe-1.4",
+  "arxiv": "2110.13943",
+  "value": "1.4",
+  "match": "re-normalised unit weight error ( texttt ruwe ) < 1.4",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2109.12114",
+  "value": "1.4",
+  "match": "RUWE < 1.4",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "ruwe-1.4",
+  "profile": "ruwe-1.4",
+  "arxiv": "2203.03659",
+  "value": "1",
+  "match": "1< RUWE",
+  "marker_in_match": false,
+  "percent_in_window": false
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2201.09097",
+  "value": "1.4",
+  "match": "renormalised unit weight error'' <<CITE:LL:LL-124>> is larger than 1.4",
+  "marker_in_match": true,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "iou-0.5",
+  "profile": "iou-0.5",
+  "arxiv": "2608.05858v1",
+  "value": "1",
+  "match": "IoU , xlabel style= font=\\scriptsize , ylabel style= font=\\scriptsize , xtick= 1",
+  "marker_in_match": false,
+  "percent_in_window": true
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2407.20949",
+  "value": "1",
+  "match": "RUWE, <<CITE:GaiaDR3:2023A&A...674A...1G>> ), which is an indicator of multiplicity, are lower than 1",
+  "marker_in_match": true,
+  "percent_in_window": false
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2509.13412",
+  "value": "1.4",
+  "match": "RUWE values ( > 1.4",
+  "marker_in_match": false,
+  "percent_in_window": false
+ },
+ {
+  "corpus": "uwe-1.25",
+  "profile": "uwe-1.25",
+  "arxiv": "2203.07294",
+  "value": "2.4",
+  "match": "RUWE <<FN>> <<CITE:Lindegren+21>> < 2.4",
+  "marker_in_match": true,
+  "percent_in_window": false
+ }
+]

@@ -1,0 +1,319 @@
+{
+ "tick": 55,
+ "fault": "N1 \u2014 `of` reaches a number through a genitive",
+ "repaired": false,
+ "profiles": [
+  {
+   "profile": "ruwe-1.4",
+   "0.5": {
+    "sites": 855,
+    "reached_through_a_soft_relation": 89,
+    "and_carrying_a_non_threshold_noun": 28,
+    "share_of_all_sites_pct": 10.4,
+    "examples": [
+     {
+      "arxiv": "2108.05321",
+      "value": "1.5",
+      "match": "ruwe value of 1.5"
+     },
+     {
+      "arxiv": "2109.10912",
+      "value": "5",
+      "match": "RUWE value, and the companion masses m_2 are given for an orbital radius of 5"
+     },
+     {
+      "arxiv": "2201.00733",
+      "value": "1.06",
+      "match": "ruwe value of 1.06"
+     },
+     {
+      "arxiv": "2206.04567",
+      "value": "8.8",
+      "match": "RUWE value of 8.8"
+     },
+     {
+      "arxiv": "2209.03906",
+      "value": "1.0",
+      "match": "RUWE is dimensionless, with an ideal value of 1.0"
+     },
+     {
+      "arxiv": "2209.03906",
+      "value": "1.4",
+      "match": "RUWE value of 1.4"
+     },
+     {
+      "arxiv": "2209.04210",
+      "value": "1.4",
+      "match": "ruwe evaluates the quality of the 5-parameter solution, and a value above 1.4"
+     },
+     {
+      "arxiv": "2211.07899",
+      "value": "1.5",
+      "match": "RUWE value of 1.5"
+     },
+     {
+      "arxiv": "2306.08179",
+      "value": "1.23",
+      "match": "RUWE value of 1.23"
+     },
+     {
+      "arxiv": "2308.00104",
+      "value": "1.393",
+      "match": "ruwe that has a value of 1.393"
+     },
+     {
+      "arxiv": "2309.10148",
+      "value": "1.21",
+      "match": "RUWE value of 1.21"
+     },
+     {
+      "arxiv": "2310.05653",
+      "value": "4.5",
+      "match": "RUWE, and 0.02\\si '' using the Hipparcos-Gaia PMa and with magnitude differences up to 4.5"
+     }
+    ]
+   },
+   "0.6": {
+    "sites": 910,
+    "reached_through_a_soft_relation": 93,
+    "and_carrying_a_non_threshold_noun": 29,
+    "share_of_all_sites_pct": 10.2,
+    "examples": [
+     {
+      "arxiv": "2108.05321",
+      "value": "1.5",
+      "match": "ruwe value of 1.5"
+     },
+     {
+      "arxiv": "2109.10912",
+      "value": "5",
+      "match": "RUWE value, and the companion masses m_2 are given for an orbital radius of 5"
+     },
+     {
+      "arxiv": "2201.00733",
+      "value": "1.06",
+      "match": "ruwe value of 1.06"
+     },
+     {
+      "arxiv": "2201.09097",
+      "value": "5.27",
+      "match": "RUWE) of this star has a value of 5.27"
+     },
+     {
+      "arxiv": "2206.04567",
+      "value": "8.8",
+      "match": "RUWE value of 8.8"
+     },
+     {
+      "arxiv": "2209.03906",
+      "value": "1.0",
+      "match": "RUWE is dimensionless, with an ideal value of 1.0"
+     },
+     {
+      "arxiv": "2209.03906",
+      "value": "1.4",
+      "match": "RUWE value of 1.4"
+     },
+     {
+      "arxiv": "2211.07899",
+      "value": "1.5",
+      "match": "RUWE value of 1.5"
+     },
+     {
+      "arxiv": "2306.08179",
+      "value": "1.23",
+      "match": "RUWE value of 1.23"
+     },
+     {
+      "arxiv": "2308.00104",
+      "value": "1.393",
+      "match": "ruwe that has a value of 1.393"
+     },
+     {
+      "arxiv": "2309.10148",
+      "value": "1.21",
+      "match": "RUWE value of 1.21"
+     },
+     {
+      "arxiv": "2310.05653",
+      "value": "4.5",
+      "match": "RUWE, and 0.02\\si '' using the Hipparcos-Gaia PMa and with magnitude differences up to 4.5"
+     }
+    ]
+   }
+  },
+  {
+   "profile": "uwe-1.25",
+   "0.5": {
+    "sites": 896,
+    "reached_through_a_soft_relation": 91,
+    "and_carrying_a_non_threshold_noun": 29,
+    "share_of_all_sites_pct": 10.2,
+    "examples": [
+     {
+      "arxiv": "2108.05321",
+      "value": "1.5",
+      "match": "ruwe value of 1.5"
+     },
+     {
+      "arxiv": "2109.10912",
+      "value": "5",
+      "match": "RUWE value, and the companion masses m_2 are given for an orbital radius of 5"
+     },
+     {
+      "arxiv": "2201.00733",
+      "value": "1.06",
+      "match": "ruwe value of 1.06"
+     },
+     {
+      "arxiv": "2202.06963",
+      "value": "1",
+      "match": "UWE of a population dominated by single stars to stray from the expected value of 1"
+     },
+     {
+      "arxiv": "2206.04567",
+      "value": "8.8",
+      "match": "RUWE value of 8.8"
+     },
+     {
+      "arxiv": "2209.03906",
+      "value": "1.0",
+      "match": "RUWE is dimensionless, with an ideal value of 1.0"
+     },
+     {
+      "arxiv": "2209.03906",
+      "value": "1.4",
+      "match": "RUWE value of 1.4"
+     },
+     {
+      "arxiv": "2209.04210",
+      "value": "1.4",
+      "match": "ruwe evaluates the quality of the 5-parameter solution, and a value above 1.4"
+     },
+     {
+      "arxiv": "2211.07899",
+      "value": "1.5",
+      "match": "RUWE value of 1.5"
+     },
+     {
+      "arxiv": "2306.08179",
+      "value": "1.23",
+      "match": "RUWE value of 1.23"
+     },
+     {
+      "arxiv": "2308.00104",
+      "value": "1.393",
+      "match": "ruwe that has a value of 1.393"
+     },
+     {
+      "arxiv": "2309.10148",
+      "value": "1.21",
+      "match": "RUWE value of 1.21"
+     }
+    ]
+   },
+   "0.6": {
+    "sites": 952,
+    "reached_through_a_soft_relation": 96,
+    "and_carrying_a_non_threshold_noun": 30,
+    "share_of_all_sites_pct": 10.1,
+    "examples": [
+     {
+      "arxiv": "2108.05321",
+      "value": "1.5",
+      "match": "ruwe value of 1.5"
+     },
+     {
+      "arxiv": "2109.10912",
+      "value": "5",
+      "match": "RUWE value, and the companion masses m_2 are given for an orbital radius of 5"
+     },
+     {
+      "arxiv": "2201.00733",
+      "value": "1.06",
+      "match": "ruwe value of 1.06"
+     },
+     {
+      "arxiv": "2201.09097",
+      "value": "5.27",
+      "match": "RUWE) of this star has a value of 5.27"
+     },
+     {
+      "arxiv": "2202.06963",
+      "value": "1",
+      "match": "UWE of a population dominated by single stars to stray from the expected value of 1"
+     },
+     {
+      "arxiv": "2206.04567",
+      "value": "8.8",
+      "match": "RUWE value of 8.8"
+     },
+     {
+      "arxiv": "2209.03906",
+      "value": "1.0",
+      "match": "RUWE is dimensionless, with an ideal value of 1.0"
+     },
+     {
+      "arxiv": "2209.03906",
+      "value": "1.4",
+      "match": "RUWE value of 1.4"
+     },
+     {
+      "arxiv": "2211.07899",
+      "value": "1.5",
+      "match": "RUWE value of 1.5"
+     },
+     {
+      "arxiv": "2306.08179",
+      "value": "1.23",
+      "match": "RUWE value of 1.23"
+     },
+     {
+      "arxiv": "2308.00104",
+      "value": "1.393",
+      "match": "ruwe that has a value of 1.393"
+     },
+     {
+      "arxiv": "2309.10148",
+      "value": "1.21",
+      "match": "RUWE value of 1.21"
+     }
+    ]
+   }
+  },
+  {
+   "profile": "rhat-1.1",
+   "0.5": {
+    "sites": 89,
+    "reached_through_a_soft_relation": 3,
+    "and_carrying_a_non_threshold_noun": 0,
+    "share_of_all_sites_pct": 3.4,
+    "examples": []
+   },
+   "0.6": {
+    "sites": 92,
+    "reached_through_a_soft_relation": 3,
+    "and_carrying_a_non_threshold_noun": 0,
+    "share_of_all_sites_pct": 3.3,
+    "examples": []
+   }
+  },
+  {
+   "profile": "iou-0.5",
+   "0.5": {
+    "sites": 328,
+    "reached_through_a_soft_relation": 110,
+    "and_carrying_a_non_threshold_noun": 0,
+    "share_of_all_sites_pct": 33.5,
+    "examples": []
+   },
+   "0.6": {
+    "sites": 344,
+    "reached_through_a_soft_relation": 110,
+    "and_carrying_a_non_threshold_noun": 0,
+    "share_of_all_sites_pct": 32.0,
+    "examples": []
+   }
+  }
+ ]
+}
