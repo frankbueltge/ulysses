@@ -253,7 +253,8 @@ reads a corpus at that width and answers for every citation.
   it and no way to know which part was load-bearing. So:
   **the standing text is the synthesis** —
   `docs/foundation/tranche-5-final/11-FINAL-RESEARCH-FOUNDATION-SYNTHESIS.md` and
-  `12-FOUNDATION-REQUIREMENTS-FINAL.md`, together under 4,000 words. A session that takes up
+  `docs/foundation/tranche-5-final/12-FOUNDATION-REQUIREMENTS-FINAL.md`, together under
+  4,000 words. A session that takes up
   anything touching the practice's basis reads those two and recalls the tranches for the rest;
   it never reads the tranches whole. If the synthesis and the practice diverge, that is a finding
   and goes in the journal — the Foundation is a basis this practice may develop, not a scripture.
