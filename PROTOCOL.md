@@ -121,9 +121,24 @@ still travels, month after month, verifying every step.
 
 **The work-line (Werklinie)** is the core unit — one at a time, at most two. A
 work-line is declared with a **work-intention** (the direction of a concrete work or
-family of works — an orientation, never a deadline), a **material territory**, and an
-**open horizon**: months, not days. A work-line is never killed by a timer. Its SCORE is
-a living map, not a contract: short, revised as the line moves.
+family of works — an orientation, never a deadline), a **material territory**, and a
+**bounded horizon** (architect, 2026-08-12 — this replaces "an open horizon: months, not
+days"). Its SCORE is a living map, not a contract: short, revised as the line moves.
+
+**Why the horizon closed.** The open horizon was measured, on the line that used it most.
+Its pre-registrations — the one thing a line has that a single night does not — were written
+**one to two per day, on consecutive days**: the cycle from prediction to test is a session
+boundary, not a season. So the months were never bought by the method. What they produced was
+**58 ticks and one published work**, and a record of 196,000 words, 69 % of it narration. A
+work-line is a **chain of nights with memory**; its horizon was in part compensating for a
+memory layer that could not reach its own record, and that layer is now fixed (§8).
+
+**The bound.** An arc ships or closes within **twelve worked sessions**. It may be renewed
+**once**, and only by naming in the journal what the extension buys that the first twelve did
+not — a renewal that cannot say this is a line that has stopped moving. A line is still never
+killed by the calendar: weeks of waiting on an outside reply cost nothing, because waiting is
+not a worked session. What is bounded is how many sessions a line may **consume**, not how long
+it may **stand open**.
 
 **Studies** are short bounded exercises (days): sketches for the line, or free probes. A
 closed study **composts**: its findings are linked into the work-line's map, or
@@ -133,8 +148,8 @@ explicitly marked free-standing. Nothing closes into a dead end.
 sessions**: the claim or experience in one page · a **named receiver outside the house**
 and what they can do with it · a first checkable increment or study · the nearest
 neighbours and the daylight from them · **and one pre-registered clause that can fail**
-(see below). Passing licenses the arc — months are legitimate;
-"never killed by a timer" holds for lines that have passed the gate. A verifiable
+(see below). Passing licenses the arc — twelve worked sessions, renewable once;
+the calendar still never kills a line that is waiting on the outside. A verifiable
 increment or a decision every **three worked sessions**, or the journal names why not;
 six without either → the line parks. The shipping entry restates the gate's promise next
 to what shipped; below promise = **failed forecast** → the next line runs on the short
@@ -142,11 +157,13 @@ leash until a forecast holds.
 
 **The licence for duration (floor, architect 2026-08-12).** A work-line passes the gate only
 with **at least one pre-registered clause**: a prediction fixed in writing, before the run that
-would settle it, in a form that can fail. This is what a line has that a night cannot — the
-2026-07-23 line's record carries a pre-registered clause refuted by a later measurement and
-booked as a failed forecast, and that separation of prediction from test is the whole warrant
-months buy. **A line with no such clause has nothing that needs months** and returns to the
-night or the study; that is not a demotion, it is the right unit for the work.
+would settle it, in a form that can fail. This is what a line has that a **single** night cannot
+— the 2026-07-23 line's record carries a pre-registered clause refuted by a later measurement
+and booked as a failed forecast, and that separation of prediction from test is the whole
+warrant a line buys. It is bought with **a session boundary, not a season**: measured on that
+line, its pre-registrations were written one to two per day, on consecutive days. **A line with
+no such clause has nothing that needs a second session** and returns to the night or the study;
+that is not a demotion, it is the right unit for the work.
 
 Two conditions this practice found for itself and this clause now makes binding, both from
 `projects/2026-07-24-put-back-on-the-map/TRACE.md`:
@@ -213,9 +230,15 @@ reads a corpus at that width and answers for every citation.
 
 ## §8 Cadence, budgets, records
 
-- Dispatcher ticks serve the work-line by default. Cascade: (a) the line's next
-  operation, (b) a study the line needs, (c) a free study, (d) initiation of a new line
-  only when none is open or Frank directs. An honest empty tick remains legitimate.
+- **(floor)** Dispatcher ticks serve the work-line **when it has a live pre-registered clause
+  awaiting its test** — not by default (architect, 2026-08-12; the earlier text read "serve the
+  work-line by default"). With an open horizon that default meant every session fed the
+  container and left a trace entry instead of a work: 58 ticks, one published work, 196,000
+  words. Cascade: (a) the line's open clause, if one is awaiting test, (b) **a night's own
+  work** — one research day, one thing on the record, (c) a study the line needs, (d) a free
+  study, (e) initiation of a new line only when none is open or Frank directs. An honest empty
+  tick remains legitimate. A line with no clause awaiting test does not get the session by
+  right; it earns it back by writing the next clause.
 - Budgets sit on phases, not on the line's life; **the monthly line review** is the only
   scheduled judging: five topoi + a refrain reading. Outcomes: continue /
   re-territorialise / open / close (symmetry rule). Its standing risk vocabulary:
