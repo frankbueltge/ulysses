@@ -1,0 +1,35 @@
+{
+ "tick": 56,
+ "status": "POST-HOC \u2014 not forecast in the registration",
+ "sample": 24,
+ "of_site_bearing_class": 121,
+ "site_states": {
+  "real_focus": 12,
+  "invented": 7,
+  "real_nonfocus": 5
+ },
+ "site_states_pct": {
+  "real_focus": 50.0,
+  "invented": 29.2,
+  "real_nonfocus": 20.8
+ },
+ "invented_sites": 7,
+ "invented_and_invoker": 3,
+ "invented_and_invoker_share_pct": 12.5,
+ "invented_and_invoker_ci_pct": [
+  4.3,
+  31.0
+ ],
+ "papers_owed_to_the_numerator": 15.1,
+ "papers_owed_to_the_numerator_ci": [
+  5.3,
+  37.5
+ ],
+ "rate_both_ends_strict_pct": 28.4,
+ "rate_with_invented_sites_returned_pct": 39.2,
+ "rate_with_invented_sites_returned_ci_pct": [
+  32.1,
+  55.1
+ ],
+ "reading": "the registration's corrected rate is a LOWER bound, not the answer: a fault measured in this tick and not repaired moves it upward by roughly as much as the denominator correction moved it down."
+}

@@ -33,6 +33,14 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--manifest", required=True)
     ap.add_argument("--ids", required=True)
+    # Added 2026-08-11 (tick 56). This script wrote its report to a HARD-CODED
+    # `drift-tick53.json`, so re-using it in a later tick silently overwrote tick 53's
+    # landed control record with another tick's numbers. It did, today, and the overwrite
+    # was caught by `git status` rather than by the instrument. The defaults below leave
+    # tick 53's own behaviour unchanged; what is new is that a later tick can name its own
+    # output and its own number instead of destroying an earlier one.
+    ap.add_argument("--out", default="drift-tick53.json")
+    ap.add_argument("--tick", type=int, default=53)
     a = ap.parse_args()
 
     ids = [l.strip() for l in open(os.path.join(HERE, a.ids), encoding="utf-8")
@@ -69,7 +77,7 @@ def main():
             unseen.append(aid)
 
     rep = {
-        "tick": 53,
+        "tick": a.tick,
         "ids_requested": len(ids),
         "manifest_records": len(today),
         "ok_records": sum(1 for r in today if r.get("ok")),
@@ -83,7 +91,7 @@ def main():
         "D0_fires": bool(changed),
         "not_in_any_prior_manifest": unseen,
     }
-    with open(os.path.join(HERE, "drift-tick53.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(HERE, a.out), "w", encoding="utf-8") as fh:
         json.dump(rep, fh, indent=1)
     print(json.dumps(rep, indent=1))
 

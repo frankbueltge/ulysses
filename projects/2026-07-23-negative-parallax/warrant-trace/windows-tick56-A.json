@@ -1,0 +1,1569 @@
+[
+ {
+  "arxiv": "2605.03614v1",
+  "read_order": 1,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 44015,
+    "match": "overlap",
+    "text": "size can be adjusted to compensate for dropped neurons, ensuring a constant number of active neurons equivalent to the original network without dropout.\n The mask generation process incorporates a controllable degree of overlap, regulated by a scale parameter s . At inference, the individual model weights \\ \\mathbf w _m \\ _ m=1 ^ M are obtained as \\mathbf w _m = \\mathbf w ^* cdot \\text Mask (s, m) .\n\n it em Deep-Ens <<CITE:lakshminarayanan2017"
+   },
+   {
+    "at": 48355,
+    "match": "IoU",
+    "text": " to the number of forward passes, M , i.e., k < M .\n Following <<CITE:miller2019evaluating>> , we cluster detections into observations using the Basic Sequential Algorithm Scheme (BSAS) with the Intersection over Union (IoU) of the detected masks \\mathbf p ^ h as the similarity metric. \n \\textcolor black All detections from the M forward passes are pooled together prior to clustering, allowing the algorithm to handle cases where different "
+   },
+   {
+    "at": 57810,
+    "match": "IoU",
+    "text": "es the averaged predicted masks \\bar \\mathbf p ^ h , providing a more fine-grained evaluation and preserving boundary detections. \nCompared to metrics based on the Average Precision score, PMQ does not rely on arbitrary IoU thresholds that filter the number of detections, nor does it evaluate foreground/background quality separately. \n%Instead of assessing the predicted bounding boxes as in the PDQ, we analyze the predicted masks \\bar \\psi"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.18413v2",
+  "read_order": 2,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 39168,
+    "match": "overlap",
+    "text": "d specialized infrastructure benchmarks like CODEBRIM <<CITE:CODEBRIM>> ( \\sim 3.37 instances/image). \n%This crowdedness challenges models to maintain high precision in complex scenes where multiple defect classes often overlap or cluster within the same high-resolution context.\nThe class distribution is strongly long-tailed (Fig. \\ref fig:class_dist ). In the Full variant, Crack accounts for 59.0% of all instances, while Spalling and Rust rep"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.04728v1",
+  "read_order": 3,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 50366,
+    "match": "overlaps",
+    "text": "tly optimizes all visible individuals in multi-person scenes, it does not explicitly handle interpenetration. Accounting for this could provide a valuable physical prior for the optimization and help prevent implausible overlaps between people.\n\n\\begin figure* \n \\centering\n \\includegraphics[width=0.75\\linewidth] supplementary/figs/more_qual_pos.jpg \n \\caption Additional examples of reconstructions with \\ours (Ours) compared to SOTA on the Relat"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.03875v1",
+  "read_order": 4,
+  "state": "measured",
+  "n_total": 12,
+  "windows": [
+   {
+    "at": 11489,
+    "match": "IoU",
+    "text": " richer similarity formulations that more effectively integrate motion and appearance cues, including combined distance metrics and representations incorporating object shape, Mahalanobis distance, and soft bounding-box IoU <<CITE:stanojevic2024boosttrack++>> . Together, these advances improve discrimination between true object hypotheses and spurious detections, forming the basis for more reliable tracking under occlusion and ambiguity <<"
+   },
+   {
+    "at": 19651,
+    "match": "overlap",
+    "text": "ing bounding box, serving as a normalization factor. The second term introduces a penalty for spatially distant candidates, ensuring that proposals far from the expected object location are discouraged even when partial overlap exists.\n\nThis formulation enables robust association in challenging scenarios where IoU alone is insufficient, such as during scale changes, fast motion, or temporary segmentation degradation.\n\n\\subsubsubsection Confide"
+   },
+   {
+    "at": 31530,
+    "match": "IoU",
+    "text": "ation (CCM), and Probabilistic Track Validation (PTV) in enhancing detection and tracking robustness. Differences between ablation gains and test-set performance can be attributed to threshold tuning: parameters such as IoU for association and PTV existence probability are optimized on the training set, whereas real test sequences contain edge cases where these thresholds are suboptimal. Despite this, the trends remain consistent, demonstr"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.28027v1",
+  "read_order": 5,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 63247,
+    "match": "IoU",
+    "text": "contributions.\nThe mask loss \\mathcal L _ mask for a predicted mask \\mathcal M is composed of:\n\\begin equation \n\\mathcal L _ mask (\\mathcal M , \\mathcal M ^ gt ) = \\lambda\\mathcal L _ FL + \\mathcal L _ DL + \\mathcal L _ IoU ,\n\\end equation \nwhere \\mathcal L _ FL and \\mathcal L _ DL represent the focal and dice losses between \\mathcal M and the ground-truth \\mathcal M ^ gt , respectively. \\mathcal L _ IoU = \\mathcal L _ MSE (\\hat o , o) pen"
+   },
+   {
+    "at": 63515,
+    "match": "IoU",
+    "text": "mathcal L _ DL represent the focal and dice losses between \\mathcal M and the ground-truth \\mathcal M ^ gt , respectively. \\mathcal L _ IoU = \\mathcal L _ MSE (\\hat o , o) penalizes the discrepancy between the predicted IoU \\hat o and ground-truth IoU o , and \\lambda is a weighting factor.\n\n\\section Experiments \n\\input statistic \n\\subsection Datasets \n textbf PanNuke <<CITE:gamper2019pannuke,gamper2020pannuke>> is a benchmark for simultane"
+   },
+   {
+    "at": 64928,
+    "match": "Jaccard",
+    "text": "n of 1000 times 1000 pixels.\n\n\\input pannuke_det_cls \n\\subsection Evaluation Metrics \nTo thoroughly evaluate the performance of our method, we employ the following metrics. For instance segmentation, we use the Adjusted Jaccard Index (AJI), binary Panoptic Quality (bPQ), and multi-class Panoptic Quality (mPQ), which together provide a comprehensive assessment of object-level segmentation accuracy <<CITE:kumar2017dataset,graham2019hover,horst20"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.26682v1",
+  "read_order": 6,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 33632,
+    "match": "overlap",
+    "text": "ith frame counts ranging from 3,831 in a1 to 6,715 in a3.\n \\paragraph Subset a4 (Dense Clustering): Introduces a more complex setting with no spacing between particles. This configuration increases natural occlusion and overlap, creating a challenging segmentation and tracking environment. The training split includes 246 steel and 69 copper particles distributed over 1,025 frames.\n \\paragraph Subset a5 (Holistic Evaluation): Serves as a compre"
+   },
+   {
+    "at": 39079,
+    "match": "mask overlap",
+    "text": "ipping was applied with a 50% probability, while up-down flipping and mosaic augmentation were completely disabled to maintain the physical scale and orientation of the objects. \nFor high-fidelity instance segmentation, mask overlap was disabled and masks were processed at full resolution.\n\n\nThe Mask R-CNN models (ResNet-50 backbone) were trained using the AdamW optimizer with a reduced batch size of 4, constrained by hardware VRAM limitations, and"
+   },
+   {
+    "at": 43917,
+    "match": "IoU",
+    "text": ", the Mask R-CNN preserves exact spatial feature map alignments. \nConversely, YOLO architectures rely on single-stage, prototype-based mask generation, which systematically struggles with fine boundary details at strict IoU thresholds, resulting in significantly lower mAP50-95 scores.\nAdditionally, a steady decline in the YOLO models' `Fitness (M)' scores is clearly visible when moving sequentially from subset a1 to a2, and down to a3, whe"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.26615v2",
+  "read_order": 7,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 27922,
+    "match": "mIoU",
+    "text": "ssian blur ( sigma \\in[0,8] ) + Gaussian noise ( sigma \\in[0,10] ) + JPEG compression ( q\\in[50,100] )\n\\end compactitem \n\n\\noindent textbf Metrics. \nWe use standard task metrics: Top-1 accuracy (Acc) for classification, mIoU for segmentation, and mAP for detection. For visual quality, we report PSNR and LPIPS <<CITE:lpips>> . For efficiency, we report the number of restored tokens (\\#Tok) and throughput, measured on an NVIDIA RTX 4090 GPU u"
+   },
+   {
+    "at": 33479,
+    "match": "mIoU",
+    "text": "eady present in the input.\n\n\\noindent textbf Segmentation and detection. A similar trend is observed for semantic\\linebreak segmentation and object detection. Under Mix-A, for semantic segmentation, TaskTok-256 improves mIoU by +1.7% over EDTR while restoring only 79 tokens. For object detection, TaskTok-256 improves mAP by +0.9% over EDTR with the restored token budget limited to 78 .\n\n\\noindent textbf Efficiency. In terms of efficiency, T"
+   },
+   {
+    "at": 61910,
+    "match": "overlap",
+    "text": "r the downstream tasks.\n\n\\section Task-Specific Attribute Preference Analysis \n\\label sec:word_cloud \n\nTo better understand which visual attributes are preferred by each downstream task, \\cref fig:diagram summarizes the overlap of selected tokens across CLS, Seg, and Det, with each subset annotated by its token count and three representative token-difference examples. The subset shared by all three tasks is primarily associated with broadly us"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.29513v1",
+  "read_order": 8,
+  "state": "measured",
+  "n_total": 5,
+  "windows": [
+   {
+    "at": 5136,
+    "match": "mIoU",
+    "text": "nchor' denotes low-dimensional anchor residuals, and `Group' denotes the group-level shared feature.\nWe report feature lifting results on target views.\n \n\\label tab:ablation_decomp \n\\begin tabular l cc \n\\toprule\nFeat. & mIoU \\uparrow & Acc \\uparrow \\\\\n\\midrule\nAnchor & 0.524 & 0.713 \\\\\nGroup & 0.635 & 0.767 \\\\\nGroup + Anchor & textbf 0.657 & textbf 0.789 \\\\\n\\bottomrule\n\\end tabular \n\\end minipage \n\\vspace -8pt \n\\end table* \n\n\\begin table* ["
+   },
+   {
+    "at": 23220,
+    "match": "mIoU",
+    "text": "s-agnostic instance segmentation. For reconstruction and feature lifting, we follow the evaluation protocol and source/target camera sampling of LSM <<CITE:lsm>> , reporting PSNR, SSIM, and LPIPS for reconstruction, and mIoU and pixel accuracy (Acc.) using LSeg <<CITE:lseg>> for feature lifting, having D=512 semantic features. For instance segmentation, we report target-view AP, AP50, and AP25 alongside reconstruction metrics on the same vi"
+   },
+   {
+    "at": 74730,
+    "match": "mIoU",
+    "text": "-level features predicted by our model produce semantic maps that respect object boundaries and remain consistent across regions belonging to the same entity, supporting the quantitative gains in source- and target-view mIoU reported in Table \\ref tab:recon_feature .\n\n\\subsection Additional class-agnostic instance segmentation results \n\\input Supple/Partials/figure_class_agnostic_supp \nFigure \\ref fig:class_agnostic_seg_supp provides additi"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.27843v1",
+  "read_order": 9,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 30579,
+    "match": "IoU",
+    "text": " + \\mathcal L _ RCL + \\mathcal L _ DCL ,\n \\end split \n\\end equation \nwhere \\mathcal M _t(t \\in \\ r,d,f\\ ) and \\mathcal M _ mathrm GT are prediction mask and GT mask, \\mathcal L _ mathrm Hybrid is a hybrid loss with BCE, IoU, and SSIM losses, which are widely used loss functions in image segmentation. \\lambda and \\mu as weights of \\mathcal L _ mathrm mask and \\mathcal L _ mathrm align are used to balance the gradient optimization of multi-m"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.12874v1",
+  "read_order": 10,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 22798,
+    "match": "overlap",
+    "text": "nce FID uses mean and covariance estimates from the Inception model's feature space, it typically requires large sample sizes. We stabilised the computation by splitting each synthetic image into patches of 3x2 with 15% overlap, thus increasing the number of samples presented to the Inception network. The Gaussian distribution from the real dataset remained identical across all FID calculations; this isolated the procedural pipeline as the onl"
+   },
+   {
+    "at": 25469,
+    "match": "IoU",
+    "text": "ed object, which is normalised by the number of true objects.\n\nAverage Precision is defined as:\n\\begin equation \n AP(\\tau) = \\frac TP_\\tau TP_\\tau + FN_\\tau + FP_\\tau ,\n\\end equation \nwhere \\(\\hat o \\in TP \\), if it's \\(IoU\\) is greater than the threshold \\(\\tau\\). False negatives (FN) are all objects that exist, but were not predicted. Similarly, false positives (FP) are the predicted objects that don't exist in the ground truth set.\n\nDur"
+   },
+   {
+    "at": 37750,
+    "match": "IoU",
+    "text": "egraphics[width=0.8\\linewidth] figs/fig2.png \n \\caption textbf a Performance of models trained on Real and Synthetic images, measured with design interventions (naturalness, diversity and size) and segmentation metrics (IoU and mAP). For values, see Tab. \\ref tab:metrics_wells . textbf b Example predictions of plaque and well segmentation from a model trained on High-L. \n \\label fig:fig2 \n\\end figure \n\n\\subsection* Zero-shot Performance Co"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.06205v1",
+  "read_order": 11,
+  "state": "measured",
+  "n_total": 9,
+  "windows": [
+   {
+    "at": 87119,
+    "match": "overlap",
+    "text": "cls = \\operatorname BCEWithLogits left (\\hat y , y right ),\n \\label eq_42 \n\\end equation \nwhere \\hat y are predicted class logits and y are assigned targets. The localization term uses CIoU <<FN>> to jointly account for overlap, center distance, and aspect-ratio consistency <<CITE:zheng2021enhancing>> : \n\\begin equation \n \\mathcal L _ \\text bbox = 1 - \\operatorname CIoU left (\\hat b , b right ),\n \\label eq_43 \n\\end equation \nwhere \\hat b is th"
+   },
+   {
+    "at": 106887,
+    "match": "IoU",
+    "text": "ported in Table \\ref tab_2 was selected using a held-out validation subset comprising 10% of the official training data.\n\\begin table [h]\n \\centering\n \\begin threeparttable [t]\n \\footnotesize\n \\caption Dataset-level NMS IoU thresholds used for CFGPNet inference. Each threshold was selected using a held-out validation subset comprising 10% of the corresponding training data and was then fixed for evaluation on the official validation set. \n"
+   },
+   {
+    "at": 174584,
+    "match": "IoU",
+    "text": "ields a marginally higher mAP50 (79.7 versus 79.6), CE-KL improves mAP50:95 by 0.1 percentage points (56.7 versus 56.6). Since mAP50:95 is the stricter metric and better reflects localization performance across multiple IoU thresholds, CE-KL is selected for the final model. In contrast, MSE and SSIM reduce performance, and the combination of MSE, SSIM, and CE-KL causes a clear degradation. This result suggests that excessive feature alignm"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.11732v1",
+  "read_order": 12,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 5626,
+    "match": "overlap",
+    "text": "nt Computing, Ministry of Education of China, Xiamen University \n \\city Xiamen \n \\country China \n \n\n\n%%\n%% By default, the full list of authors will be used in the page\n%% headers. Often, this list is too long, and will overlap\n%% other information printed in the page headers. This command allows\n%% the author to define a more concise list\n%% of authors' names for this purpose.\n\\renewcommand \\shortauthors Yang et al. \n\n%%\n%% The abstract is a "
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.25524v1",
+  "read_order": 13,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 28484,
+    "match": "intersection over union",
+    "text": "x around the food. To reduce manual annotation time, we use SAM2 <<CITE:ravi_sam_2024>> to automatically generate masks of birds based on bounding box prompts, which we validate against 688 annotations, with a mean 0.84 intersection over union (IOU). \nSecondly, as the color rings are the most visually salient features that directly encodes individual identities within an image in Siberian jays, we also provide bounding box and segmentation masks of individual"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.00129v1",
+  "read_order": 14,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 21954,
+    "match": "IoU",
+    "text": "determines whether an assembly step is complete. Empirically, a step is considered complete when the required components and tools are consistently detected, with confidence > \\alpha , and positioned correctly, with the IoU > \\beta between the bounding boxes of the assembled and to-be-assembled components. \\alpha and \\beta are two parameters that can be adjusted to optimize performance for specific industrial assembly scenarios.\nTo suppres"
+   },
+   {
+    "at": 25745,
+    "match": "IoU",
+    "text": "s \nWe evaluate the performance with the following metrics: Precision ( \\frac \\text TP \\text TP + \\text FP ), Recall ( \\frac \\text TP \\text TP + \\text FN ), and mean Average Precision (mAP, following COCO protocol across IoU thresholds 0.5-0.95, only for the synthetic test set).\n\n\\subsubsection Results \n\n\\input tables/object_detection_results.tex \n\nThe results are presented in Table \\ref tab:object_detection_results . Our method achieves hi"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.03106v1",
+  "read_order": 15,
+  "state": "measured",
+  "n_total": 27,
+  "windows": [
+   {
+    "at": 27629,
+    "match": "mIoU",
+    "text": "wnstream evaluation, we report Det. Num., Det. Rate, and Seg. Dev. on FLIR-IISR. Object detection on M3FD is evaluated using mathrm mAP _ 50 , and class-wise recall, while semantic segmentation on FMB is evaluated using mIoU and class-wise IoU.\n\n\\paragraph Comparative Methods. \n\nWe compare FaithIR with representative general ISR\nmethods, including PFT-SR <<CITE:long2025pftsr>> , HAT <<CITE:chen2023hat>> ,\nand SinSR <<CITE:wang2024sinsr>> , "
+   },
+   {
+    "at": 73199,
+    "match": "mIoU",
+    "text": "extbf 74.28 \n% & textbf 0.661 \n% & textbf 49.0 \\\\\n% \\hline\n\n% \\end tabular \n% \n\n% \\caption \n% Ablation study of the key designs of FaithIR.\n% Reconstruction quality is evaluated on FLIR-IISR, while\n% mathrm mAP _ 50 and mIoU are evaluated on M3FD and FMB, respectively.\n% \n% \\label tab:ablation \n% \\end table \n\n% \\begin table [!t]\n% \\centering\n% \\caption \n% Ablation study of the key designs of FaithIR.\n% Reconstruction quality is evaluated on"
+   },
+   {
+    "at": 194091,
+    "match": "mIoU",
+    "text": "cs/FMBbu.png \n \\caption Additional semantic segmentation results on FMB. \n \\label fig:app_segmentation \n\\end figure* \nTable \\ref tab:full_segmentation reports the complete semantic segmentation results on FMB, including mIoU, pixel accuracy (PA), and class-wise IoU for the reported semantic categories. FaithIR achieves the best overall mIoU and PA. It also obtains the highest IoU for Sidewalk,\nBuilding, Lamp, Vegetation, Sky, Truck, Motorcy"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.01678v1",
+  "read_order": 16,
+  "state": "measured",
+  "n_total": 5,
+  "windows": [
+   {
+    "at": 8086,
+    "match": "mIoU",
+    "text": "gmentation comparison on the basketball dataset. \n \\label table:comparison_mask \n \n \\small %\n \\setlength \\tabcolsep 5pt %\n \n \\begin tabular l ccc ccc \n \\hline\n Method & PSNR \\uparrow & SSIM \\uparrow & LPIPS \\downarrow & mIoU \\uparrow & Recall \\uparrow & F_1 \\uparrow \\\\\n \\hline\n SA4D & \\secondBestCellColor 33.951 & \\secondBestCellColor 0.942 & 0.0917 & \\secondBestCellColor 0.5235 & \\secondBestCellColor 0.5667 & \\secondBestCellColor 0.6464 \\\\"
+   },
+   {
+    "at": 10450,
+    "match": "mIoU",
+    "text": "ring\n \\caption Quantitative comparison of different loss term contributions. \n \\label table:ab_term \n \\vspace 5pt \n \\setlength \\tabcolsep 4pt \n \\resizebox \\textwidth ! \n \\begin tabular l|cccc \n \\hline\n & PSNR \\uparrow & mIoU \\uparrow & Recall \\uparrow & F_1 \\uparrow \\\\\n \\hline\n w/o E_ mathrm sdf & 37.604 & 0.7404 & 0.7780 & 0.7952 \\\\\n w/o E_ \\text temp ^ bg & \\secondBestCellColor 37.967 & \\secondBestCellColor 0.8095 & 0.8548 & \\secondBestCe"
+   },
+   {
+    "at": 24240,
+    "match": "IoU",
+    "text": "eo and reapply SAM3. Since adjacent cameras capture highly overlapping content from closely spaced viewpoints, the resulting canonical masks are naturally aligned and provide a unified identity reference.\nWe compute the IoU between canonical and per-view first-frame masks to establish one-to-one correspondence, and propagate the aligned identities to all frames, yielding temporally and spatially consistent instance masks across all views. "
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.19609v2",
+  "read_order": 17,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 8999,
+    "match": "IoU",
+    "text": "arge,Fragoso_2020_CVPR>> . LoD-Loc v2 <<CITE:zhu2025lod>> solves this by aligning a rendered silhouette M_ hyp from the LoD model \\mathcal M with a predicted image silhouette M_q , quantified by Intersection over Union (IoU):\n\\begin equation \n \\label eq:cost_v2 \n mathrm c (I_q, I_ hyp ) = \\frac |M_q \\cap M_ hyp | |M_q \\cup M_ hyp | \n\\end equation \n\n\n\\noindent The textbf coarse stage finds an initial pose \\boldsymbol \\xi ^c_q by uniformly s"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.20140v2",
+  "read_order": 18,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 6398,
+    "match": "overlap",
+    "text": "sets, YTVIS22 and OVIS are particularly challenging as they include respectively very long videos and many occluded instances. For YTVIS22, we report the results on the subset of long videos (YTVIS22 _L ) which does not overlap with YTVIS21. For evaluation, we follow common practice <<CITE:GenVIS,IDOL,Yang_2019_ICCV,ying2023ctvis,hannan2023gratt,VITA,Cheng2021Mask2FormerFV>> and evaluate SA-VIS in terms of average precision (AP) and average re"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.04766v1",
+  "read_order": 19,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 42518,
+    "match": "IoU",
+    "text": "it Evaluation Metrics for Object Detection. \n%\nWe reported the evaluation metrics with the mean average precision (mAP), i.e., mAP-50, which is the detection results with different thresholds of Intersection over Union (IoU) in the Non-Maximum Suppression (NMS). Furthermore, due to the different object detection methods employing different backbones and detection strategies, we also introduce the inference time ( ms ), Parameter (Million a"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.23656v1",
+  "read_order": 20,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 42235,
+    "match": "IoU",
+    "text": "N framework. For the detection and segmentation tasks, we report respectively the bounding box mean average precision ( \\text mAP ^ \\text box ) and mask mean average precision ( \\text mAP ^ \\text mask ) across different IoU thresholds and object sizes. We can see that even if the two backbones have been trained at the same classification accuracy, the backbone obtained with our training protocol outperforms the one obtained with the standa"
+   },
+   {
+    "at": 46550,
+    "match": "intersection over union",
+    "text": "and a mask \\text mAP ^ \\text mask of 39.0. This outperforms the standard baseline, which yields a \\text mAP ^ \\text box of 43.0 and a \\text mAP ^ \\text mask of 38.5. Notably, these improvements are consistent across all intersection over union thresholds and object sizes. These results demonstrate that our efficient \\ours training protocol learns useful spatial features, providing a solid initialization for downstream tasks.\n\n\n\n\\section Method \n\\label sec:met"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.03490v1",
+  "read_order": 21,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 18951,
+    "match": "IoU",
+    "text": "bounding box regression, and heatmap outputs, respectively, with superscripts (s) and (t) denoting the student and teacher models. Outputs are aligned by matching bounding boxes with the highest Intersection over Union (IoU).\n\n\nConventional feature map distillation, as proposed by <<CITE:romero2015fitnetshintsdeepnets>> , transfers knowledge from intermediate layers using a loss such as:\n\n\\begin equation \\mathcal L _ \\text KD ^ \\text feat "
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.14720v1",
+  "read_order": 22,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 8965,
+    "match": "overlap",
+    "text": "ces across 17 volumetric stacks. \n\\\\\\\\Instances are selected to cover a representative range of morphological \nconfigurations, including straight, curved, and \nbranching myotubes, as well as varying degrees of \nneighbor overlap. These annotations serve exclusively \nas an independent test set; no annotated data is \nused during training. \n\n\\section Results & Discussion \n\n\\subsection Visual Inspection \n\nFig. \\ref img:Figure2 shows a representativ"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.19798v1",
+  "read_order": 23,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 5157,
+    "match": "overlap",
+    "text": "ol of Information Science and Engineering, Southeast University \n \\city Nanjing \n \\country China \n \n\n%%\n%% By default, the full list of authors will be used in the page\n%% headers. Often, this list is too long, and will overlap\n%% other information printed in the page headers. This command allows\n%% the author to define a more concise list\n%% of authors' names for this purpose.\n\\renewcommand \\shortauthors Zhuo et al. \n\n%%\n%% The abstract is a "
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.03264v1",
+  "read_order": 24,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 6502,
+    "match": "overlap",
+    "text": "\n \\institution Dalian University of Technology \n \\city Dalian \n \\state Liaoning \n \\country China \n \n\n%%\n%% By default, the full list of authors will be used in the page\n%% headers. Often, this list is too long, and will overlap\n%% other information printed in the page headers. This command allows\n%% the author to define a more concise list\n%% of authors' names for this purpose.\n\\renewcommand \\shortauthors Leiye Liu et al. \n\n%%\n%% The abstract "
+   },
+   {
+    "at": 45066,
+    "match": "overlap",
+    "text": " ukulele and two guitars sound simultaneously, their audio signals are highly similar, with the ukulele's sound potentially masked by the guitars. Previous methods can only identify the dominant guitars in such acoustic overlap scenarios. However, our ASP first separates different sound sources through ASD, including the weaker ones, then establishes precise spatial correspondence via HCM. This enables accurate identification of the ukulele, a"
+   },
+   {
+    "at": 45934,
+    "match": "overlap",
+    "text": "itions, successfully segmenting the suddenly sounding instances.\nThe second scenario is more challenging, presenting alternating vocalization with temporal asynchrony. When two people alternate vocalizing, both acoustic overlap and abrupt state changes occur. Previous methods may conflate overlapping audio as a single source, leading to missed instances. Additionally, when sound abruptly ceases, these methods remain insensitive to such state c"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.20748v1",
+  "read_order": 25,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 116686,
+    "match": "overlap",
+    "text": "hen a rock has a shape or color outside the training distribution of the segmentation model). However, the texttt img+pcl variant also inherits the limitations of point cloud-based segmentation. We note that, when rocks overlap, the Centroid method using image and point cloud-based segmentations may produce poses far from the true centroid of a rock, as the resulting point-cloud based segmentation would likely fail to distinguish between rock "
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.02980v1",
+  "read_order": 26,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 62312,
+    "match": "IoU",
+    "text": "louds <<CITE:odin,univlg>> .\n\n\n\\noindent textbf Evaluation Metrics. \nWe report standard Top-1 accuracy, where a prediction is correct if the highest-confidence predicted bounding box achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25, 0.5). \nSince our model predicts segmentation masks, we convert masks to bounding boxes by thresholding at their extreme corners.\n\n\n\\noindent textbf Baselines. \nFollowi"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.26849v1",
+  "read_order": 27,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 26379,
+    "match": "IoU",
+    "text": "o facilitate robust feature learning, we employ a deep supervision strategy. The total loss \\mathcal L _ total is defined as a weighted combination of the Binary Cross Entropy (BCE) loss and the Intersection-over-Union (IoU) loss, applied to predictions at all scales:\n\\begin equation \n \\mathcal L _ total = \\sum_ k=1 ^ 4 left ( \\mathcal L _ bce (\\mathbf O _k, \\mathbf GT ) + \\mathcal L _ iou (\\mathbf O _k, \\mathbf GT ) right ),\n\\end equation"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.08925v2",
+  "read_order": 28,
+  "state": "measured",
+  "n_total": 27,
+  "windows": [
+   {
+    "at": 4874,
+    "match": "mIoU",
+    "text": "er all click queries, modeling inter-instance relationships and refining both spatial masks and semantic predictions through spatial and semantic embeddings. Extensive experiments demonstrate that our model improves the mIoU metric by over 20% compared to strong baselines and achieves 8\u201310% gains under cross-dataset evaluation for a one-click per instance setting, often requiring only a single click per object. Our approach provides a gener"
+   },
+   {
+    "at": 22911,
+    "match": "mIoU",
+    "text": "ng the largest margin in the few-click setting (less than 5 clicks).\n\n\\begin figure [!htbp]\n \\centering\n \\vspace -1.5em \n \\includegraphics[width=0.94\\linewidth] figures/fig_table2.png \n \\vspace -1.0em \n \\caption Plot of mIoU results for all methods as a function of the number of clicks. \n \\label fig: cross eval of clicks \n \\vspace -2.0em \n\\end figure \n\nFig. \\ref fig: ablation of training click number shows performance scaling with different"
+   },
+   {
+    "at": 60558,
+    "match": "IoU",
+    "text": "s number of user clicks on ScanNet40 (left) and KITTI-360 (right). The results compare interaction efficiency across methods, showing how segmentation accuracy improves with additional clicks. Our method achieves higher IoU with fewer interactions and converges faster on both datasets. \n \\label fig:click-num-supplem \n\\end figure* \n\nThe plot in \\cref fig:time-complexity compares model complexity and efficiency across methods in terms of par"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.31496v1",
+  "read_order": 29,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 63147,
+    "match": "mIoU",
+    "text": "esizebox \\linewidth ! \n\\begin tabular c|c|ccccc \n\\toprule \\multirow 2 * Methods & \\multirow 1 * Params & \\multicolumn 5 c CAD <<CITE:CAD>> \\\\\n& (M) & S_a \\uparrow & F_ \\beta ^w \\uparrow & M \\downarrow & mDice \\uparrow & mIoU \\uparrow \\\\ \\hline \nZoomNet(CVPR'22) <<CITE:ZoomNet>> & 32.3 & .633 & .349 & .033 & .349 & .273\\\\\nSLI-Net(CVPR'22) <<CITE:SLINet>> & 82.3 & .696 & .471 & .031 & .480 & .392\\\\\nDGNet(MIR'23) <<CITE:DGNet>> & 21.0 & .686 &"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.04394v1",
+  "read_order": 30,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 27725,
+    "match": "IoU",
+    "text": " are input into a diffusion model to perform inpainting on both foreground and background regions of the images. During the third stage, the generated images are fed into an encoder to calculate Intersection over Union (IoU) metrics. Through a selection module, we select higher-quality samples to be incorporated into the target detection model for target-domain finetuning. \n \\label fig: Method \n \\vspace -0.5cm \n \n\\end figure* \n\n\n\\vspace -0"
+   },
+   {
+    "at": 31955,
+    "match": "IoU",
+    "text": " further filter out ineffective samples in the extended support sets. Finally, the two extended sets are simultaneously sent into the object detection model. \n\n\nSpecifically, for each candidate image, we compute the box IoU (Intersection over Union) values between the enhanced images \\(x_ sup ^ back \\) and \\(x_ sup ^ fore \\), and then select the positive samples based on IoU values. These samples are then used for subsequent tasks in objec"
+   },
+   {
+    "at": 32481,
+    "match": "IoU",
+    "text": "fine-tuning, and inference. \n\n\n\n\n\nWe employ the Region Proposal Network (RPN) pre-trained on the CD-ViTO model (Baseline) to generate candidate bounding boxes ( A ) for the extended support set. We calculate the average IoU between predicted boxes and ground truth ones ( Y ), and only synthesized images with high IoUs are selected.\n\\begin equation \n x_ select ^ k = M_ RPN ^ k \\Sigma(x_ sup ^ back ,x_ sup ^ fore )\n\\end equation \n\nWe employ "
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.12284v1",
+  "read_order": 31,
+  "state": "measured",
+  "n_total": 11,
+  "windows": [
+   {
+    "at": 3582,
+    "match": "overlap",
+    "text": "score of 85.91%. For explainability, predictions generated by the MLP classifier were analyzed post hoc using CLIP attention rollout, YOLO26 object detection on the original images, and Energy Based Pointing Game (EBPG) overlap metrics. Object level analysis indicates that frequently detected objects are not necessarily associated with the highest attention density, suggesting that object frequency and attention based visual evidence capture d"
+   },
+   {
+    "at": 25480,
+    "match": "overlap",
+    "text": "ranked using this density ratio, and the scores can be aggregated by object class to identify recurring visual cues associated with correct predictions and failure cases. These values are interpreted as attention-object overlap measures rather than causal evidence, since they depend on the quality of YOLO26 detections, the granularity of bounding boxes, and the approximate spatial alignment between resized attention maps and raw input images.\n"
+   },
+   {
+    "at": 39766,
+    "match": "overlap",
+    "text": " visual evidence behind the prediction.\n\nFor future work, this study can be extended by comparing object detection-based explanations with image segmentation-based explanations to evaluate which approach provides better overlap with attention maps. Future studies should also expand the geographic scope beyond ASEAN to broader Asian regions and include more diverse urban, rural, and intra-country areas so that the dataset better represents visu"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.08541v1",
+  "read_order": 32,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 16569,
+    "match": "overlap",
+    "text": "multiple overlapping bounding boxes for the same object.\n\nTo obtain consistent detection results, a Non-Maximum Suppression (NMS) layer is applied after vector retrieval.\nBy considering the confidence scores and spatial overlap between candidate boxes, redundant detections are suppressed, and the remaining bounding boxes are selected as the final object predictions.\n\n\\section Experiments \nWe evaluate the proposed VocaDet framework on the UA-DE"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.00746v1",
+  "read_order": 33,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 3183,
+    "match": "mIoU",
+    "text": "strate the generality and robustness of GaussianFusion. On the nuScenes dataset, it outperforms the 3D object detection baseline BEVFusion by 2.6 NDS. Its variant surpasses GaussFormer on 3D semantic occupancy with 1.55 mIoU improvement while using only 30% of the Gaussians and achieving a 450% speedup.\n\\end abstract \n\n\\section Introduction \n\\label sec:intro \n\nFusing complementary signals captured by different sensors is essential for auton"
+   },
+   {
+    "at": 39904,
+    "match": "IoU",
+    "text": " \\\\\nGaussianFusion(ours) & 86.23 & 84.65 & 81.47 & 80.75 \\\\\n\\bottomrule\n\\end tabular \n\\label tab:Waymo \n\\end table \n\n\n\\subsection 3D Semantic Occupancy Prediction \n textbf Setting. We report the Intersection-over-Union (IoU) of occupied voxels as the evaluation metric of the class-agnostic scene completion task and the mIoU of all semantic classes for the Occ task following SurroundOcc <<CITE:wei2023surroundocc>> .\n\n\n\n\\begin wraptable r 8c"
+   },
+   {
+    "at": 41079,
+    "match": "mIoU",
+    "text": "es camera-only methods <<CITE:huang2023tri,wei2023surroundocc,li2023fb>> . More importantly, benefiting from our proposed Gaussian initialization strategy and iterative update mechanism, GaussianFusion-C achieves a 1.55 mIoU improvement and nearly 4.5\u00d7 computational efficiency compared to GaussianFormer, while using only 30% of the Gaussians, as shown in Table \\ref tab:Comprehensive comparison with GaussianFormer . GaussianFormer randomly i"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.22702v1",
+  "read_order": 34,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 63668,
+    "match": "IoU",
+    "text": "i \\mathcal L ^ v left (\\hat \\mathbf a _ i ^ v , \\mathbf s ^ v _ sigma (i) right )\n right ].\n\\end align \n\nwhere \\mathcal L ^ k is the function that defines the loss for component k (\\eg combination of L-1 and generalized IoU loss for the boxes), and \\mathcal L ^ \\text diff is the diffusion loss (Eq. \\ref eq:conditioningloss in case of Gaussian diffusion). A matching algorithm computes optimal permutation \\widehat sigma as,\n\\begin align \n\\wi"
+   },
+   {
+    "at": 68061,
+    "match": "IoU",
+    "text": "round-truth annotations for the test set are not publicly available, following prior work <<CITE:li2022dn>> , we report results on the validation set. Performance is measured using average precision (AP) across multiple IoU thresholds and object scales.\n\n textbf Implementation Details. We train the transformer-based framework described in Section \\ref sec:tranformer-denoising on the task of object detection using the MDM formulation in Sec"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.25652v1",
+  "read_order": 35,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 15888,
+    "match": "overlap",
+    "text": "ering\n \\caption FUSE-Bike detection benchmark. Training scenes use ensemble auto-labels, whereas the held-out evaluation scenes use human-verified GT.\n Training and evaluation scenes are fully disjoint, with no temporal overlap between them. Counts are reported at the 2 Hz keyframe rate used for\n training and evaluation. \n \\label tab:dataset \n \\begin tabular lrrrrr \n \\toprule\n Split & Scenes & Frames & Vehicle & Pedestrian & Cyclist \\\\\n \\midru"
+   },
+   {
+    "at": 23106,
+    "match": "IoU",
+    "text": "40 m, beyond which the fused OS0/OS2 returns\nare too sparse for reliable boxes.\n\n\\subsection Evaluation Metrics \nWe follow the nuScenes detection protocol, matching predictions to GT by 2D centre distance rather than by IoU, the latter being unstable for the\nsparse, partially observed returns of a low-mounted sensor. For each class c and centre-distance threshold d\\in\\mathcal D =\\ 0.5, 1, 2, 4\\ m, predictions\nare matched to GT within d . O"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.03136v1",
+  "read_order": 36,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 15536,
+    "match": "IoU",
+    "text": "\\\\\nHardware & Hafnia T4-class GPU \\\\\nExternal task-specific data & None \\\\\n\\bottomrule\n\\end tabular \n\\end table \n\n\\subsection Evaluation and model-selection protocol \nThe challenge server reports a single COCO-style AP (IoU 0.50 : 0.05 : 0.95 , maxDets =100 per image) over a hidden mixture of source-city and target-city images. It does not provide domain-separated metrics, per-image evaluation results, benchmark images, or target annotatio"
+   },
+   {
+    "at": 23127,
+    "match": "IoU",
+    "text": "ange in aggregate AP relative to the 704 base (L0).\n\n\\begin table [!ht]\n\\centering\n\\caption Detection precision on the full aggregate hidden benchmark. All configurations were submitted once; AP is COCO AP averaged over IoU thresholds 0.50 : 0.05 : 0.95 . \n\\label tab:prec \n\\setlength \\tabcolsep 4.5pt \n\\resizebox \\textwidth ! %\n\\begin tabular lccccccc \n\\toprule\nConfiguration & AP & \\Delta AP & AP _ 50 & AP _ 75 & AP _S & AP _M & AP _L \\\\\n\\m"
+   },
+   {
+    "at": 25261,
+    "match": "IoU",
+    "text": "y helps objects occupying fewer input pixels. The evaluated 1120px fine-tuning (L3, 0.3470) scored below L1, and rectangular inference (L2, 0.3057) below even the 704 base. The L1 gain is also not confined to permissive IoU matching: AP _ 75 rises by +0.0522 over L0, slightly more than the AP _ 50 increase of +0.0488 . We report this pattern descriptively; the aggregate server output cannot establish that it reflects improved localization "
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.10825v1",
+  "read_order": 37,
+  "state": "measured",
+  "n_total": 9,
+  "windows": [
+   {
+    "at": 9605,
+    "match": "overlap",
+    "text": "tency across the dataset.\n\nAnnotations were carried out manually using COCO Annotator <<CITE:brooks:coco:2019>> . Each image was annotated with instance segmentation masks that accurately delineate pill borders, even in overlap or partial occlusion instances. Multiple annotators worked on the dataset following strict inter-annotator guidelines designed to ensure consistency. Furthermore, each annotated image underwent manual examination by bot"
+   },
+   {
+    "at": 25953,
+    "match": "IoU",
+    "text": "attern but enhances more gradually. Although it exhibits a slower starting phase, YOLOv9 outperforms YOLOv8 in mAP@50-95, underscoring its enhanced localisation capabilities under more stringent Intersection over Union (IoU) thresholds.\n\nAcross the training process, precision and recall curves indicate that both models maintain high detection reliability. YOLOv8 achieves strong initial performance, with precision and recall stabilising nea"
+   },
+   {
+    "at": 45444,
+    "match": "overlap",
+    "text": " & 0.406 & 0.513 & 0.383 & 0.312 & 0.963 \\\\ \\hline\n MEDISEG 5-shot & 0.625 & 0.246 & 0.279 & 0.182 & 0.680 \\\\ \\hline\n MEDISEG 10-shot & 0.740 & 0.210 & 0.191 & 0.059 & 0.445 \\\\ \\hline\n \\end tabular \n \\caption \\label tab:overlap Few-shot detection results on the overlap-only test set for models base-trained on CURE and MEDISEG under 1-, 5-, and 10-shot settings. \n\\end table \n\n\\begin table [ht]\n \\centering\n \\begin tabular |l|l|l|l|l|l|l|l|l|l| \n"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.19213v1",
+  "read_order": 38,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 41696,
+    "match": "overlap",
+    "text": " them consistent. \\textcolor blue Dennis please help with this. you have original figure. \\textcolor blue Done \n\\label fig:plot_layout \n\\end figure* \n\nIn addition, the acquisition regions of Scene 1 to Scene 3 partially overlap, allowing several trees to be observed from different viewing angles across multiple video sequences. This overlap enables cross-scene consistency analysis, where the same trees are reconstructed and measured from diffe"
+   },
+   {
+    "at": 51116,
+    "match": "overlap",
+    "text": "ed dots represent predicted tree centers from individual videos; overlapping clusters indicate consistent localization. \n% \\textcolor red the color dots are too small - how about large circles? Also, it seems you simple overlap the full picture with different transparencies. Are you able to make each image's white background into transparent? \n\\label fig:localization \n\\end figure* \nIn forest inventory, repeatable tree localization is essential"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.08002v1",
+  "read_order": 39,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 12590,
+    "match": "overlap",
+    "text": "al L = &\\mathcal L _ det + \\lambda_b\\mathcal L _ boundary \n+ \\lambda_s\\mathcal L _ structure \\\\\n&+ \\lambda_q\\mathcal L _ quality \n+ \\lambda_l\\mathcal L _ Lovasz .\n\\end aligned \n\\end equation \nThe Lovasz term follows the overlap-surrogate motivation of Lovasz-Softmax <<CITE:berman2018lovasz>> . Boundary and structure terms are derived from matched masks and target interiors; mask-quality supervision calibrates confidence toward detached mask ag"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.06592v1",
+  "read_order": 40,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 19573,
+    "match": "IoU",
+    "text": "nded\nLipschitz-constrained architectures to provide certificates for the semantic\nsegmentation task.\n\n\\paragraph Lipschitz networks in object detection \nSuch guarantees are difficult to obtain in object detection due to IoU matching, NMS,\nand bounding-box regression. To the best of our knowledge, <<CITE:becktor2020>> are the\nonly ones to study Lipschitz-constrained architectures for object detection. They\npropose to perform object detectio"
+   },
+   {
+    "at": 26240,
+    "match": "overlap",
+    "text": "g layers we also use the \\ell_2 -norm\npooling <<CITE:boureau2010>> , defined on a window R_j as \\operatorname pool (x)_j =\n\\sqrt \\sum_ i \\in R_j x_i^2 . This pooling preserves gradient norms only when its\nwindows do not overlap, i.e.\\ when the stride equals the kernel size. We therefore leave\nthe single overlapping MaxPool of the VGG backbone (kernel size 3 , stride 1 , between\n texttt conv5_3 and texttt fc6 ) unchanged, both for fidelity to t"
+   },
+   {
+    "at": 56450,
+    "match": "IoU",
+    "text": "cent work has started to address certification for object detection. For example,\n <<CITE:cohen2025verifiou>> proposed to formally verify the localization robustness of\nsingle-object detectors by bounding the worst-case IoU over a perturbation set. More\nrecently, <<CITE:nirala2025>> trained and certified a modified YOLOv2-based runway\ndetector with IBP on 128 times 128 LARD <<CITE:ducoffe2023lard>> crops under\n \\ell_\\infty perturbations. T"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.17754v1",
+  "read_order": 41,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 29565,
+    "match": "overlap",
+    "text": "d texture, and includes various bins with different backgrounds and lighting to enhance realism.\n\nWith 13,147 object instances and an average of 13.2 objects per image, OCBD offers a challenging benchmark. Objects often overlap or block one another, contrasting with datasets like OSD <<CITE:richtsfeld2012segmentation>> and OCID <<CITE:suchi2019easylabel>> , where fewer objects appear per scene (7.5 and 3.3, respectively) in more organized setu"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.29029v1",
+  "read_order": 42,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 9178,
+    "match": "IoU",
+    "text": "e mimic learning, or memory-based retrieval mechanisms, they still fail to effectively exploit the semantic similarity among objects. These approaches typically utilize the grouped samples with predefined metrics, e.g., IoU or cosine similarity, to construct instance-level relationships, but the generalization ability is still limited due to the lack of class-wise supervision.\n%Moreover, naive appearance transfer may introduce non-target f"
+   },
+   {
+    "at": 11989,
+    "match": "IoU",
+    "text": "ntation method to generate high-quality training samples. For label assignment, NWD-RKA <<CITE:xu2022detecting>> and RFLA <<CITE:xu2022rfla>> leverage Wasserstein distance and KL divergence to mitigate the scale-variant IoU issue and increase positive samples for small objects in the training phase, while CFINet <<CITE:CFINet>> adopts a coarse-to-fine RPN with dynamic IoU thresholds. It also generates more effective positive samples across"
+   },
+   {
+    "at": 29838,
+    "match": "IoU",
+    "text": "o class c , mathrm cos ( cdot , cdot ) denotes cosine similarity, and \\tau is a temperature parameter.\nFinally, the overall loss function is defined as:\n\\begin equation \n\\begin aligned \n \\mathcal L = \\mathcal L &_ \\text IoU + \\mathcal L _ \\text cls + \\gamma \\mathcal L_\\text distill ,\n\\end aligned \n\\end equation \nwhere \\mathcal L _ \\text IoU denotes the IoU loss. \\mathcal L _ \\text cls is the cross-entropy classification loss for candidate "
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.08075v2",
+  "read_order": 43,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 29207,
+    "match": "IoU",
+    "text": "nter distance to be no larger than \\gamma\\sqrt \\max(A(b_\\ell),A(b_g)) . After gating, the geometric matching score is computed as\n\\begin equation \n\\label eq:lia-score \n\\begin aligned \nS(b_\\ell,b_g)=\n& 0.45 \\operatorname IoU (b_\\ell,b_g)\n+0.30 C(b_\\ell,b_g)\\\\\n&+0.25 A_ mathrm sim (b_\\ell,b_g),\n\\end aligned \n\\end equation \nwhere the three terms measure spatial overlap, center similarity, and scale consistency, respectively. Let A_\\ell=A(b_\\e"
+   },
+   {
+    "at": 38588,
+    "match": "Jaccard",
+    "text": "orresponding to detection accuracy and identity stability, respectively. mAP follows the official YouTube-VIS/LV-VIS protocol and computes AP for instance-level segmentation trajectories. Mask J denotes the average mask Jaccard/IoU of matched trajectories.\n\n\\noindent textbf Compared Methods. \nConsidering that public methods specifically designed for video instance segmentation in UAV scenarios remain lacking, we select existing general-scene O"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.02074v1",
+  "read_order": 44,
+  "state": "measured",
+  "n_total": 5,
+  "windows": [
+   {
+    "at": 14586,
+    "match": "IoU",
+    "text": "_adv_perturb>> introduce a gradient-free attack that exploits detector knowledge via a ConvNet-based perturbation generator. Chen \\etal <<CITE:iou_s>> propose a white-box method optimizing targeted perturbations through IoU minimization. Chen \\etal <<CITE:lidattack>> propose a black-box genetic simulated annealing (GSA) attack that generates adversarial objects camouflaged within the scene. Furthermore, Long \\etal <<CITE:box_attack>> intro"
+   },
+   {
+    "at": 20960,
+    "match": "IoU",
+    "text": ">> attack. The central idea is to target the localization capability. A 3D-OD predicts an object class along with 3D bounding box co-ordinates, i.e. localize the objects. Based on the predicted class probability and the IoU-score, a \\emph confidence score is generated using the formula \\text confidence = \\sqrt P_ \\text class times \\text IoU _ \\text score . The IoU-S attack learns to generate adversarial point clouds that minimize this conf"
+   },
+   {
+    "at": 24655,
+    "match": "IoU",
+    "text": "nvolved in accidents and carry a high chance of human fatality. Then, we report the impact on \\emph Cars and \\emph Safety Critical classes in the \\cref sec:results_class . \n\n\\subsubsection Impact on Localization. A high IoU does not always indicate accurate localization. The bounding box could be either shifted, incorrectly scaled, or have a shifted orientation. While evaluating the performance of 3D-OD, these factors are addressed to some"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.25392v1",
+  "read_order": 45,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 10505,
+    "match": "overlap",
+    "text": "esent a new benchmark dataset for RGB-D VSOD together with a baseline method. First, we introduce the textbf \\ds dataset, which is much larger than the earlier RDVS dataset, draws from different data sources, and has no overlap with RDVS. Built from diverse stereoscopic videos, textbf \\ds provides stereoscopic depth, large scale, high resolution, and dense per-frame annotations guided by eye-tracking, thereby better reflecting realistic visual"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.14389v1",
+  "read_order": 46,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 42325,
+    "match": "IoU",
+    "text": "d the corresponding \\ac gt masks is established, which is then used to assign a unique identifier to each object instance. Therefore, we assign each SAM3 mask to the \\ac gt mask with the highest Intersection over Union (IoU). Secondly, SfM initialization results in object poses defined in a non-metric coordinate frame. We align it to the \\ac gt coordinate frame using a similarity transformation, which is estimated via the Umeyama algortihm"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.03696v1",
+  "read_order": 47,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 72568,
+    "match": "intersection-over-union",
+    "text": "l ,\n% \\label eq:Loss \n% \\end aligned \n% \\end equation \n% %\n%\n\nFor the spatial item, we not only retain the traditional L _ rm spa-base including the weighted binary cross-entropy loss ( \\ell _ rm wbce ) and the weighted intersection-over-union loss ( \\ell _ rm wiou ), but also introduce the edge loss L _ rm spa-edge to directly focus on edges of salient objects through the binary cross-entropy loss ( \\ell _ rm bce ).\nWe formulate L _ rm spa-base and L _ rm sp"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.18739v3",
+  "read_order": 48,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 49420,
+    "match": "IoU",
+    "text": "ssion\\ losses ,\n\\]\nwhere \\mathcal L _ mathrm cls denotes the classification loss <<CITE:huang2025deim>> . The terms \\mathcal L _ \\ell_1 and \\mathcal L _ mathrm giou represent the standard \\ell_1 distance and Generalized IoU losses <<CITE:rezatofighi2019generalized>> for bounding box coordinate regression. To further enhance localization precision, we incorporate the Decoupled Distillation Focal (DDF) loss \\mathcal L _ mathrm ddf and Fine-G"
+   },
+   {
+    "at": 68278,
+    "match": "overlap",
+    "text": "et + \\lambda_ mathrm mask \\mathcal L _ mathrm mask + \\lambda_ mathrm dice \\mathcal L _ mathrm dice ,\n\\]\nThe coefficient \\lambda_ mathrm mask weights the dense mask supervision, while \\lambda_ mathrm dice balances region-overlap quality relative to the inherited detection objective. For the mask term \\mathcal L _ mathrm mask , we use a pixel-wise mask classification loss applied only to positive matched queries. For the overlap term \\mathcal L "
+   },
+   {
+    "at": 68481,
+    "match": "overlap",
+    "text": " balances region-overlap quality relative to the inherited detection objective. For the mask term \\mathcal L _ mathrm mask , we use a pixel-wise mask classification loss applied only to positive matched queries. For the overlap term \\mathcal L _ mathrm dice , we use a standard Dice loss <<CITE:milletari2016v>> on the matched masks. The Hungarian matching procedure is extended to incorporate mask supervision in addition to the standard detectio"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.28398v1",
+  "read_order": 49,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 54334,
+    "match": "mIoU",
+    "text": "Future work will further explore temporally consistent mask modeling for visual IoT video streams, end-to-end optimization incorporating downstream visual task accuracy (e.g., object detection mAP, semantic segmentation mIoU), lightweight IoT-side semantic extraction, annotated task evaluation on larger IoT datasets, and more efficient channel coding schemes to further reduce the actual IoT link overhead.\n\n\n\\bibliographystyle IEEEtran \n\\bib"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.26232v1",
+  "read_order": 50,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 20960,
+    "match": "IoU",
+    "text": "\n\\section Experimental Setup \n\\label sec:experimentalsetup \nWe evaluate image-level detection with AUROC, AUPRC, F1, accuracy, and expected calibration error <<CITE:nixon2019calibration>> . We evaluate localization with IoU, pixel F1, mask AP, and boundary F1. The evaluation uses five seeds, 42, 1337, 2026, 7, and 123. AUROC and AUPRC are threshold-free. For F1 and accuracy, the decision threshold is selected once per baseline by maximizin"
+   },
+   {
+    "at": 34050,
+    "match": "IoU",
+    "text": "trol rows; BG-RIFT and the RGB-only ablation cover all samples. \n\\label tab:localization \n\\scriptsize\n\\setlength \\tabcolsep 4pt \n\\renewcommand \\arraystretch 0.82 \n\\begin tabular @ llrrrrr@ \n\\toprule\nMethod & Split & n & IoU & Pixel F1 & Mask AP & Boundary F1 \\\\\n\\midrule\n\\input tab_localization_body\n\\botrule\n\\end tabular \n\\renewcommand \\arraystretch 1.0 \n\\end table \n\\FloatBarrier\n\n\\subsection Split coverage and what each condition actually "
+   },
+   {
+    "at": 38130,
+    "match": "IoU",
+    "text": "ce, close-to-constant image-level score in Table \\ref tab:results ), and BG-RIFT still localizes the recorded intent region ( 0.637 ). The robustness view pools to 0.317 . Tool-OOD's pooled value ( 0.916 pixel F1, 0.845 IoU) is computed from BG-RIFT alone because the external TruFor/MVSS-Net/HiFi-Net adapters do not cover its synthetic-only samples. With the real adapter masks, TruFor localizes best among the blind baselines on most splits"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.12231v1",
+  "read_order": 51,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 100880,
+    "match": "overlap",
+    "text": "cross multiple actors while respecting the temporal constraints specified in the GEST --- ensuring that actions happen in the correct order, that synchronized actions begin simultaneously, and that concurrent activities overlap as specified. Figure \\ref fig:stage3_components shows the three components involved.\n\n\\begin figure [htbp]\n\\centering\n\\includegraphics[width=0.5\\textwidth] figures/stage3_components_diagram.png \n\\caption textbf Stage 3 "
+   },
+   {
+    "at": 111222,
+    "match": "overlap",
+    "text": "ions can begin. In Figure \\ref fig:sync_patterns , Alice's texttt SitDown and texttt Eat must finish before Bob can start his texttt SitDown . This is the strictest form of coordination: the two actors' timelines do not overlap at all. Sequential constraints are the most common in practice, as they naturally express narrative causality --- one event triggering or enabling another.\n\n textbf Parallel ( texttt same_time ). Events from multiple ac"
+   },
+   {
+    "at": 206631,
+    "match": "overlap",
+    "text": " game's navigation mesh (requiring our own pathfinding graphs), no programmatic camera API beyond basic position setting (requiring the spectator workaround), and rendering artifacts such as the light and shadow texture overlap that complicates instance segmentation (Section \\ref sec:instance_seg ).\n\nThe platform's low hardware requirements proved essential for production-scale generation. Because GTA San Andreas runs on virtually any modern h"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.29136v1",
+  "read_order": 52,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 44775,
+    "match": "IoU",
+    "text": ". All experiments are conducted using NVIDIA RTX 4090 GPUs with a batch size of 8.\n\n\n\\paragraph Evaluation Metrics \n% \u4e3a\u5168\u9762\u8bc4\u4f30\u4e0d\u540c\u65b9\u6cd5\u7684\u68c0\u6d4b\u6027\u80fd\u4e0e\u8ba1\u7b97\u6548\u7387\uff0c\u6211\u4eec\u91c7\u7528COCO\u5e73\u5747\u7cbe\u786e\u7387(mAP) <<CITE:lin2014microsoft>> \u548c\u8fd0\u884c\u65f6\u95f4(ms)\u4f5c\u4e3a\u8bc4\u4f30\u6307\u6807\u3002\u5177\u4f53\u800c\u8a00\uff0c\u5728\u6709\u6548\u6d4b\u8bd5\u4e2d\uff0c\u6211\u4eec\u91c7\u7528\u591a\u4ea4\u5e76\u6bd4\uff08IoU\uff09\u9608\u503c\u4e0b\u7684\u5e73\u5747\u7cbe\u5ea6\uff08\u5982AP\u3001AP _ 0.5 \u3001AP _ 0.75 \uff09\u4ee5\u53ca\u591a\u5c3a\u5ea6\u5e73\u5747\u7cbe\u5ea6\uff08\u5373AP _ S \u3001AP _ M \u3001AP _ L \uff09\u8fdb\u884c\u8bc4\u4f30\u3002\u5728\u5176\u4ed6\u6d4b\u8bd5\u4e2d\uff0c\u7edf\u4e00\u91c7\u7528AP _ 0.5 \u4f5c\u4e3a\u68c0\u6d4b\u6027\u80fd\u6307\u6807\u3002\u4e3a\u8bc4\u4f30\u4e0d\u540c\u573a\u666f\u4e0b\u7684\u8868\u73b0\uff0c\u6211\u4eec\u5206\u522b\u8ba1\u7b97\u5404\u7c7b\u522b\u7684AP\u503c\uff0c\u5e76\u636e\u6b64\u63a8\u5bfc\u51fa\u4e09\u7c7b\u76ee\u6807\u7684mAP\u503c\u3002\nWe adopt the mean Average Precision (mAP) <<CITE:lin2014microsoft>> as me"
+   },
+   {
+    "at": 45108,
+    "match": "IoU",
+    "text": "\u666f\u4e0b\u7684\u8868\u73b0\uff0c\u6211\u4eec\u5206\u522b\u8ba1\u7b97\u5404\u7c7b\u522b\u7684AP\u503c\uff0c\u5e76\u636e\u6b64\u63a8\u5bfc\u51fa\u4e09\u7c7b\u76ee\u6807\u7684mAP\u503c\u3002\nWe adopt the mean Average Precision (mAP) <<CITE:lin2014microsoft>> as metrics. Specifically, in the effective test, we use average precision across multiple Intersection-over-Union (IoU) thresholds (\\ie, AP, AP _ 0.5 , AP _ 0.75 ) and multi-scale average precision (\\ie, AP _ S , AP _ M , AP _ L ) for evaluation. In other tests, AP _ 0.5 is uniformly used as the reported detection performance metric. Fo"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.10575v1",
+  "read_order": 53,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 22968,
+    "match": "overlap",
+    "text": ".\n\n\n\n\\subsection Axis 2: Scene Composition \n\\label subsec:axis2 \n\n\\hspace \\parindent textbf Layout. \nLayout describes object density and spatial arrangement within the image. Using object count, foreground coverage, and overlap information, images are categorized as sparse, moderate, or crowded.\n\n textbf Scale. \nScale describes the relative size of objects in the image. Based on object area statistics, images are grouped into small-, medium-, "
+   },
+   {
+    "at": 40006,
+    "match": "overlap",
+    "text": "\\mu_C _\\text small =2.8 ) and crowded scenes ( \\mu_C _\\text crowded =2.7 ) have correction rates around four times higher than large objects and sparse scenes. This suggests that limited object size, dense aggregations, overlap, and ambiguous boundaries increase the likelihood of missing instances.\n\nThe statistical analysis supports this interpretation: Kruskal-Wallis tests identify scale and layout ( \\varepsilon^2 _\\text scale =0.137 , \\varep"
+   },
+   {
+    "at": 68047,
+    "match": "IoU",
+    "text": "240100149 to TF.% Computational resources and services used in this work were provided by HPC and Research Support Group.\n \n\n\nRevised annotations are considered newly added if they do not match an original annotation at IoU threshold 0.5. . Original annotations are considered removed if they do not match a revised annotation at IoU threshold 0.5. . All images in the original dataset were verified to contain at least one annotation ( O_i \\n"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.01947v1",
+  "read_order": 54,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 140908,
+    "match": "mIoU",
+    "text": "ance, synthetic images were used to augment the training data for segmentation models (DeepLabV3+ and FPN). This method led to significant improvements in segmentation performance, with the mean Intersection-over-Union (mIoU) increasing by about 6% . The key contribution is the use of LoRA to efficiently adapt stable diffusion for high-quality synthetic image generation, which improved the robustness of defect segmentation.\\\\\nThe previous r"
+   },
+   {
+    "at": 201257,
+    "match": "mIoU",
+    "text": "lutional Neural Network\\\\\nCV & Computer Vision\\\\\nDETR & DEtection TRansformer\\\\\nDINO & DETR with Improved Denoising Anchor Boxes\\\\\nEMA & Exponentially Moving Average\\\\\nFPN & Feature Pyramid Network\\\\\nGT & Ground Truth\\\\\nmIoU & mean Intersection-over-Union\\\\\nLN & Layer Normalization\\\\\nLoRA & Low Ranking Adaptation\\\\\nME & Mask Embedding\\\\\nMLP & MultiLayer Perceptron\\\\\nMRF & Materials Recovery Facilities\\\\\nNLP & Natural Language Processing\\\\\nP"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.09421v1",
+  "read_order": 55,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 20919,
+    "match": "IoU",
+    "text": "ifferent Quantization Parameters (QPs). We can observe the accuracies decline differently across tasks, where the Object Keypoint Similarity (OKS) <<CITE:coco>> for KPD degrades fastest, and the Intersection over Union (IoU) scores for IS and OD degrade in the second and third places. If we set a threshold with 0.75 <<CITE:zhang2023learning>> , the J_ KPD , J_ IS , and J_ OD are 32, 39 and 51, respectively. They validate the different JRD "
+   },
+   {
+    "at": 25420,
+    "match": "IoU",
+    "text": " the standard OKS calculation <<CITE:coco>> .\n\nSecond, similarity measurement for task t , denoted as S_ mathrm d ,q ^t , is calculated between O_ mathrm o ^t and O_ mathrm d ,q ^t . For OD and IS tasks, we employ \\text IoU _ \\phi <<CITE:pascalvoc>> as S_ mathrm d ,q ^t metric, where \\phi \\in \\ B, M\\ denote the bounding box and mask, respectively. For the KPD task, we utilize OKS <<CITE:coco>> to present S_ mathrm d ,q ^t , which measures "
+   },
+   {
+    "at": 66378,
+    "match": "overlap",
+    "text": "ven that the proposed MT-JRD dataset is constructed based on the semantic content of person, mAP is effectively equivalent to the average precision for the person category.\nFor the three tasks, mAP is computed using the overlap of the bounding box for OD, the mask intersection for IS, and the similarity of the keypoint vector for KPD, respectively.\n\n\n\n% Table generated by Excel2LaTeX from sheet 'JPEG-JRD-search'\n\\begin table [t]\n \\centering\n \\"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.22439v1",
+  "read_order": 56,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 18618,
+    "match": "IoU",
+    "text": "fidence 0.30.\n\nEach detection is forwarded to SAM ViT-B ( texttt sam_vit_b_01ec64.pth ) using the bounding box as a box prompt and its centre as a foreground point prompt. With texttt multimask_output=True , the highest-IoU mask is selected. The ViT-B encoder runs once per frame, amortised across all detections. SAM succeeded on 98% of instances; the 2% failure rate corresponds to heavily occluded specimens.\n\n\\begin figure [!ht]\n \\centerin"
+   },
+   {
+    "at": 23322,
+    "match": "IoU",
+    "text": "er than 50 valid depth pixels <<CITE:lee1994>> .\n\n\\begin figure [!ht]\n \\centering\n \\includegraphics[width=\\linewidth] figures/Fig7.jpg \n \\caption M3: SAM prompting with box+centre-point (Step 1), mask generation highest-IoU mask selected (Step 2), masked point cloud construction (Step 3), SVD/PCA principal axis and 3D endpoint extraction (Step 4). \n \\label fig:fig7 \n\\end figure \n\nHowever, M3 inherits two limitations: SAM mask boundary impr"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.02137v1",
+  "read_order": 57,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 51648,
+    "match": "IoU",
+    "text": "with its adversarial counterpart across four vision-language tasks: image captioning, object localization, region classification, and object detection. Green denotes the source concept and red denotes the target concept.IoU denotes intersection over union. More visualization examples are provided in Section \\ref supp_sec:visualization .\n \n % \\vspace -0.2cm \n \\label fig:instance_panel \n\\end figure* \n\n\n\n\n\\begin table [!t]\n\\vspace -0.1cm \n\\ca"
+   },
+   {
+    "at": 74737,
+    "match": "IoU",
+    "text": "s consistently suppress the source-object\n semantics and induce the target-object semantics across image captioning,\n object localization, region categorization, and object detection. The\n corresponding localization and IoU changes further confirm the\n transferability of the intended object-level semantic changes across\n different vision-language tasks. \n \\label fig:supp_examples34 \n \\vspace -0.2cm \n\\end figure* \n\n\\section Summary of Symbo"
+   },
+   {
+    "at": 82820,
+    "match": "IoUs",
+    "text": "y contain the target categories, while the region categorization outputs change from the source labels to the corresponding target labels. Meanwhile, the localization and detection results exhibit increased target-query IoUs and decreased source-query IoUs, indicating that the target semantics become more dominant while the original source semantics are suppressed.\n\nFig. \\ref fig:supp_example2 presents further examples involving different v"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.26295v1",
+  "read_order": 58,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 39161,
+    "match": "overlap",
+    "text": "ion predictions on many of them. On the contrary, PCD produces higher scores, similar to the ones of clear images, for the majority of Synth_1 . While this results in some outliers, there is also a meaningful portion of overlap with the ground-truth distribution.\n\n\nA visual example to explain this behavior can be seen in \\cref sec:intro:fig:fig1,sec:exp:fig:synth_mask_overlay . When contrast is reduced without any blur or noise, gradients rema"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.19942v2",
+  "read_order": 59,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 6691,
+    "match": "overlap",
+    "text": "ngju Institute of Science and Technology \n \\country Republic of Korea \n\\email mgjeon@gist.ac.kr \n\n\n\n\n%%\n%% By default, the full list of authors will be used in the page\n%% headers. Often, this list is too long, and will overlap\n%% other information printed in the page headers. This command allows\n%% the author to define a more concise list\n%% of authors' names for this purpose.\n\\renewcommand \\shortauthors Yechan Kim et al. \n\n%%\n%% The abstract"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.01742v1",
+  "read_order": 60,
+  "state": "measured",
+  "n_total": 9,
+  "windows": [
+   {
+    "at": 28098,
+    "match": "overlap",
+    "text": "of the segmentation mask region for each point label. Since each segmentation mask corresponds uniquely to the point coordinate, it should contain only its own point. To better cover the head region, we allow circles to overlap and adjust their radii without boundary restrictions.\nThe formula of this algorithm is as follows:\n\\begin equation \n mathrm r_ i <min left \\| x_ i - x_ j right \\|_ 2 ,\n \\label eq:NNEC algorithm \n\\end equation \nwhere x_i"
+   },
+   {
+    "at": 49442,
+    "match": "IoU",
+    "text": "pace -0.3cm \n\\subsection Evaluation criteria \n\\label subsec:eval \n\nThe evaluation criteria for crowd instance segmentation consider both the quantity and quality of the segmentation mask. Our evaluation criteria include IoU, Precision, Recall, and F1, with the specific calculation formulas as follows.\n\nFirst, we use Intersection over Union (IoU) to evaluate segmentation mask quality. Segmentation masks are generated from the image using ou"
+   },
+   {
+    "at": 52558,
+    "match": "IoU",
+    "text": "ferent point prediction models on UCF-QNRF dataset. \n% \\jia Fill in the blanks .\n\\label tab:results contrast with different nets \n% \\resizebox \\textwidth 1.5cm %\n% \\tiny\n\\begin tabular cllcllcllcllc \n\\hline\nMethod & & & IoU & & & Precision & & & Recall & & & F1 \\\\ \\hline\nGL <<CITE:Wan2021GLloss>> + SAM & & & 0.1866 & & & 0.2241 & & & 0.0308 & & & 0.0542 \\\\\nGL <<CITE:Wan2021GLloss>> + ours & & & textbf 0.3187 & & & textbf 0.3053 & & & textb"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.18957v1",
+  "read_order": 61,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 35153,
+    "match": "IoU",
+    "text": "indicate the topological alignment and pixel-level precision of the models. The strict mAP (0.50--0.95) metric evaluates the integrity of individual grain instances across increasingly demanding Intersection over Union (IoU) thresholds.\n\n\n\\begin table [htbp]\n\\centering\n% \\caption Instance Segmentation and Boundary Quality Metrics. \n\\caption Instance Segmentation and Boundary Quality Metrics. The proposed Cellpose-SAM framework across progr"
+   },
+   {
+    "at": 39780,
+    "match": "IoU",
+    "text": "undary F1 rewards per-pixel edge prediction regardless of whether those edges form closed, topologically distinct contours; mAP, which requires each predicted instance to match a unique ground truth grain at a specified IoU threshold, directly penalizes this merging. The U-Net's high Boundary F1 therefore reflects locally accurate edge tracing without globally consistent instance closure---a failure mode invisible to pixel-level metrics bu"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.08201v1",
+  "read_order": 62,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 27759,
+    "match": "overlap",
+    "text": "instance masks utilizing Segment Anything Model (SAM) <<CITE:ravi2024sam2>> .\nThese new masks are then added to the original annotation A_\\text real .\nHowever, this integration can create occlusions, where new SAM masks overlap with an existing ground-truth mask from A_\\text real . \nThus, we update in A_\\text real by subtracting the new SAM masks from any overlapping original masks to produce the final annotation A_\\text edit . \nIf this proces"
+   },
+   {
+    "at": 31723,
+    "match": "IoU",
+    "text": " instances) together form the complete online pseudo-label set, \\tilde A _m^\\text teacher .\nFinally, we merge this dynamic online set \\tilde A _m^\\text teacher with the static offline pseudo-labels A _ m ^\\mathcal P via IoU-based matching to produce the student's final supervision, A_m . This strategy combines their complementary strengths: the offline set A _ m ^\\mathcal P provides a stable, precision-oriented baseline of high-confidence "
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.23472v1",
+  "read_order": 63,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 45205,
+    "match": "mIoU",
+    "text": "ndation-model features beyond conventional RGB imagery.\n\n\\begin table* [t]\n \\centering\n \\caption Comparison of backbone pretraining strategies and finetuning regimes across four downstream evaluation datasets. We report mIoU for the semantic segmentation datasets Severstal and Rubber Rings, mask mAP@[0.5:0.95] for RarePlanes, and box mAP@50 for GDXray. All results are obtained on the validation splits used for each dataset and are reported "
+   },
+   {
+    "at": 54493,
+    "match": "mIoU",
+    "text": " the gap between the two pretraining strategies remains limited. On Severstal, ConvNeXt-T pretrained with supervised ImageNet classification and with DINOv3 distillation achieve very similar performance (62.04 vs. 62.40 mIoU), suggesting that, in this setting, DINOv3 does not provide a strong advantage over conventional pretraining when the backbone is used only as a fixed feature extractor. A similar trend is observed on Rubber Rings, wher"
+   },
+   {
+    "at": 56016,
+    "match": "mIoU",
+    "text": "s further support this interpretation. As shown in Fig. \\ref fig:sem_seg_results , the frozen-backbone experiments exhibit similar optimization behavior for both pretraining strategies, consistent with their close final mIoU values. In contrast, under full finetuning, DINOv3 initialization leads to faster convergence and higher final performance, indicating that the dense visual features learned during pretraining facilitate downstream adap"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.04506v2",
+  "read_order": 64,
+  "state": "measured",
+  "n_total": 9,
+  "windows": [
+   {
+    "at": 30253,
+    "match": "mIoU",
+    "text": "TE:shi2024language>> .\n textbf 3) Metrics: \nWe use the LERF dataset <<CITE:kerr2023lerf>> with open-vocabulary annotations aligned to rendered 2D images from <<CITE:qin2024langsplat>> . Performance is measured by textit mIoU and textit mAcc against ground-truth masks.\n\n\n\n\\subsection 3D Instance Segmentation \n\\label subsec:segmentation \n\n textbf 1) Task: \nWe evaluate the effectiveness of our instance feature field and clustering strategy in "
+   },
+   {
+    "at": 35091,
+    "match": "mIoU",
+    "text": "in semantic consistency across views. \n\n\n\n\n\\subsection 3D Instance Segmentation \n\\label subsec:results_segmentation \n\n\\begin table [t]\n\\centering\n\\begin tabular l| l| c c \n\\toprule\n textbf Type & textbf Methods & textbf mIoU \\uparrow & textbf mAcc. \\uparrow \\\\\n\\midrule\n\\multirow 1 * \\makecell With depth \n& Sam3D <<CITE:yang2023sam3d>> & textbf 34.45 & \\underline 58.24 \\\\\n\\midrule\n\\multirow 3 * \\makecell Without\\\\ depth \n& GaussianGrouping <"
+   },
+   {
+    "at": 38089,
+    "match": "mIoU",
+    "text": "f \\coolname . textbf Training components : training without joint optimization and \\gls mhe . textbf Pipeline components : DINO regularization, semantic grouping, and spatial refinement. The full model achieves the best mIoU and mAcc. \n\\label tab:ablation \n\\end table \n\n\\begin figure [t]\n \\centering\n \\begin subfigure 0.48\\linewidth \n \\centering\n \\includegraphics[width=\\linewidth] ./fig/png/ablation_2_textsc.png \n \\caption Ablation on trainin"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.17845v1",
+  "read_order": 65,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 14830,
+    "match": "IoU",
+    "text": "y masks from 2.\n it em Derive a point prompt for each component by computing the maximum of the boundary distance transform per component.\n it em Apply prompt encoder and mask decoder to these prompts to obtain mask and IoU predictions. The latter give a quality estimate for each predicted mask.\n it em Apply a size filter s to the masks.\n it em Compute the pairwise overlap of predicted masks and apply NMS with threshold t_ nms based on pre"
+   },
+   {
+    "at": 15060,
+    "match": "IoUs",
+    "text": "tions. The latter give a quality estimate for each predicted mask.\n it em Apply a size filter s to the masks.\n it em Compute the pairwise overlap of predicted masks and apply NMS with threshold t_ nms based on predicted IoUs to filter overlapping masks.\n\\end enumerate \nThe parameters of APG are t_ fg , t_b , t_c , s , and t_ nms . Their default values are: t_ fg = 0.5 , t_b = 0.5 , t_c = 0.5 , s = 25 , and t_ nms = 0.9 . We run all experime"
+   },
+   {
+    "at": 17413,
+    "match": "intersection over union",
+    "text": " following <<CITE:dsb>> , to evaluate instance segmentation results.\nThe mean segmentation accuracy (mSA) is based on true positives ( TP ), false negatives ( FN ), and false positives ( FP ), which are derived from the intersection over union (IoU) of predicted and true objects.\nSpecifically, TP(t) is defined as the number of matches between predicted and true objects with an IoU above the threshold t , FP(t) correspond to the number of predicted objects min"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.00124v1",
+  "read_order": 66,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 57867,
+    "match": "overlaps",
+    "text": "d. For practical on-device deployment at 30 FPS acquisition (33 ms/frame), a more efficient strategy would be executing the Fast Feature Aggregator immediately after each frame is captured (with a latency of 8.3 ms) and overlaps the remaining \\sim 25 ms with the slow-path computation, yielding T\\approx5 -- 6 .\n\n\\begin figure [t] \n \\centering\n \\includegraphics[width=\\linewidth] images/Fig6.pdf \n \\vspace -0.3cm \n \\caption Resulting segmentations "
+   },
+   {
+    "at": 64789,
+    "match": "IoU",
+    "text": "_ratios , we report additional details on the training datasets, including the number of images, annotated objects, type of annotation, and sampling ratio. Following GLEE <<CITE:wu2024general>> and MOBIUS, we apply mask IoU\u2013based NMS, using mask area as the scoring metric, to filter out part-level annotations and retain object-level instances in SA-1B <<CITE:kirillov2023segment>> . During the 500,000 training iterations, we use the AdamW o"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.03144v1",
+  "read_order": 67,
+  "state": "measured",
+  "n_total": 21,
+  "windows": [
+   {
+    "at": 13448,
+    "match": "Jaccard index",
+    "text": "een used in the literature across different studies and challenges related to nuclear instance segmentation (and classification). Some metrics, such as the Dice score <<CITE:ed278621-dc3e-343f-ae66-540d8990b60d>> or the Jaccard index <<CITE:jaccard1901distribution>> , were originally designed for semantic segmentation <<CITE:Muuller2022>> . Although these metrics are also commonly reported for nuclear instance segmentation, they are typically used a"
+   },
+   {
+    "at": 64184,
+    "match": "Jaccard index",
+    "text": "on nuclear instance segmentation, detection-based scores such as instance-level F1-scores are also reported. \nDespite the variety of metrics employed, the panoptic quality (PQ) <<CITE:Kirillov_2019_CVPR>> and aggregated Jaccard index (AJI) <<CITE:monuseg>> have emerged as the most widely adopted primary metrics for nuclear instance segmentation, as they jointly evaluate both the detection and segmentation quality of individual instances. \n\nThe liter"
+   },
+   {
+    "at": 81785,
+    "match": "Jaccard",
+    "text": "ations on the PCNS dataset. Modification \\#1 and \\#3 are not applicable to PCNS, as vague area annotations and ROI annotations for each instance are not available for this dataset.\n PQ: Panoptic Quality; AJI: Aggregated Jaccard Index;\n DQ: Detection Quality; SQ: Segmentation Quality.\n All values are reported in %. \n \\begin tabular ll ccccc \n \\hline\n textbf Model & textbf Modifications & textbf PQ & textbf AJI & textbf DICE & textbf DQ & textbf"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.21206v1",
+  "read_order": 68,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 4213,
+    "match": "overlaps",
+    "text": "geneous illumination. These difficulties are further compounded in dense or dynamic scenes, where the primary bottleneck is the accurate separation of nearby or touching cell instances, whose contours often merge due to overlaps, diffuse boundaries, or complex interactions.\n\\begin figure [t]\n \\centering\n \\setlength \\tabcolsep 1pt \n \\renewcommand \\arraystretch 1.0 \n \\begin tabular cccc \\includegraphics[width=.24\\columnwidth,height=.24\\columnwidt"
+   },
+   {
+    "at": 21706,
+    "match": "overlaps",
+    "text": "ted manually using textit napari <<FN>> <<CITE:napari2023>> .\\\\\n textbf Preprocessing. Across all datasets, we remove 1-pixel-wide label borders introduced by annotation tools, while preserving all true cell regions and overlaps, to obtain clean instance separability for SDF computation.\\\\\n textbf Training-test split. \nThe CSB benchmark provides two annotated training sequences per dataset; We therefore trained on the first sequence and evaluat"
+   },
+   {
+    "at": 22332,
+    "match": "Jaccard index",
+    "text": "ting, ensuring that slices from the same z-stack were not split across sets.\n\\vspace -.2cm \n\\subsection Evaluation Measure \nThe SEG measure, introduced by the CSB organizers, quantifies segmentation accuracy as the mean Jaccard index between each ground-truth object and its best-matching predicted object\nwhere a prediction is considered a valid match to a ground-truth cell segmentation only if its intersection is higher than 0.5. \n\\vspace -.2cm \n\\su"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.23981v1",
+  "read_order": 69,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 26167,
+    "match": "IoU",
+    "text": "ntal learning behavior rather than only improving unknown discovery.\n\n\\subsection Metrics and Implementation Details \nFollowing PROB, ORE, and OW-DETR, we report unknown recall at the top 50 detections (U-Recall), AP at IoU 0.5 for known classes, Wilderness Impact (WI), and Absolute Open-Set Error (A-OSE).\nFor Tasks 2--4, known AP is decomposed into previously known, currently known, and all known categories.\nFor PASCAL VOC incremental det"
+   },
+   {
+    "at": 28396,
+    "match": "IoU",
+    "text": " an open-vocabulary detector.\n\n\\begin table [t]\n\\centering\n\\caption Main OWOD comparison under the PROB reporting protocol. The upper block reports M-OWODB and the lower block reports S-OWODB. AP and mAP are reported at IoU 0.5. Higher is better for all entries. \n\\label tab:main_owodb \n\\resizebox \\linewidth ! %\n\\begin tabular lccccccccccccc \n\\toprule\nMethod & \\multicolumn 2 c Task 1 & \\multicolumn 4 c Task 2 & \\multicolumn 4 c Task 3 & \\mu"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.14309v1",
+  "read_order": 70,
+  "state": "measured",
+  "n_total": 5,
+  "windows": [
+   {
+    "at": 10844,
+    "match": "IoU",
+    "text": "ing bottleneck. However, they rely on dense coverage and may degrade under clutter, occlusion, repetitive structures, or limited overlapping views, conditions commonly encountered in HTFP.\n%, e.g., with reprojection and IoU agreement. \n%This approach is, in fact, also the basis of the mentioned Wheat3DGS <<CITE:zhang2025wheat3dgs>> . \n\nAlternative pipelines rely on supervised deep learning algorithms operating directly on 3D data (mostly p"
+   },
+   {
+    "at": 20693,
+    "match": "IoU",
+    "text": "or each retained edge \\((i,j)\\), the weight is the number of ``supporter'' nodes l that have valid edges with both elements of the inspected edge \\((i,j)\\), i.e., it is the number of masks B_l that have an \\operatorname IoU > \\tau\\ with both B_i and B_j , which can be expressed as:\n\\begin equation \\label equ:2 \nw_ ij =\\bigl|\\ l\\in V\\setminus\\ i,j\\ :\\ (i,l)\\in E \\ \\land\\ (j,l)\\in E \\ \\bigr|.\n\\end equation \nHence, in our implementation w_ ij"
+   },
+   {
+    "at": 36354,
+    "match": "IoU",
+    "text": "eline approach, (2) Stage-I results as own possible independent solution, (3) Stage-II results as the intended end result of our pipeline, but also (4) the joint results of Stage-I and Stage-II (merged using NMS with 3D IoU, with 0.1 threshold), All results are summarized in Tab. \\ref tab:results and the corresponding data is illustrated in Fig. \\ref fig:results_visual . The analysis of the results is separated in the following three subse"
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.26102v2",
+  "read_order": 71,
+  "state": "measured",
+  "n_total": 5,
+  "windows": [
+   {
+    "at": 30642,
+    "match": "overlap",
+    "text": "hcal L _ \\text seg \n=\n\\lambda_ \\text bce \\mathcal L _ \\text bce \n+\n\\lambda_ \\text dice \\mathcal L _ \\text dice ,\n\\end equation \nwhere \\mathcal L _ \\text bce is computed over pixels and \\mathcal L _ \\text dice encourages overlap-aware mask quality. \n% In practice, \\mathcal L _ \\text seg is computed only on matched prediction--ground-truth pairs defined by pi , consistent with set-based instance training.\n\n\\noindent textbf Presence Loss. \n% Unma"
+   },
+   {
+    "at": 33175,
+    "match": "IoU",
+    "text": " & & Phrase & IoU \\\\\n RefCOCO+ & \\cmark & & & & & Phrase & IoU \\\\\n RefCOCOg & \\cmark & & & & & Phrase & IoU \\\\\n gRefCOCO & \\cmark & \\cmark & \\cmark & \\cmark & & Phrase & IoU \\\\\n GSEval & \\cmark & \\cmark & & & & Phrase & IoU \\\\\n \\midrule\n ReasonSeg & \\cmark & & & & \\cmark & Instruction & IoU \\\\\n\\rowcolor blue!5 textbf texttt Inst ^ 2 Seg & \\cmark & \\cmark & \\cmark & \\cmark & \\cmark & Instruction & AP+IoU \\\\\n \\bottomrule\n \\end tabular \n\\end "
+   },
+   {
+    "at": 46759,
+    "match": "IoU",
+    "text": "s strong performance on the gRefCOCO <<CITE:he2023grec>> benchmark. Since gRefCOCO provides instance-level annotations and contains multiple target instances, we report instance-level mAP in addition to the conventional IoU-based metric. InstructSAM-2B surpasses the strongest prior method, GSVA-7B <<CITE:xia2024gsva>> , in semantic-level cIoU with gains of +6.6 on val, +3.1 on testA, and +4.9 on testB. It also achieves substantially higher"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.12371v1",
+  "read_order": 72,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 6048,
+    "match": "IoU",
+    "text": "oxes are highlighted in red. \nClassification scores are denoted as white numbers in a blue background. \nRed circles denote the extreme points of masks.\nThe mask quality scores, specifically, the Intersection over Union (IoU) values between predicted and human-annotated masks, are presented as red numbers.\n% In the case of the vanilla Mask R-CNN, the predicted bounding boxes contain a significant amount of redundant space. Although the clas"
+   },
+   {
+    "at": 14229,
+    "match": "IoU",
+    "text": "k R-CNN <<CITE:MaskRcnn,faster_train_mask>> introduces the FCN (Full Convolutional Network <<CITE:fcn>> ) into the Faster R-CNN detector to segment objects in detection boxes. Mask Scoring R-CNN <<CITE:maskscoring>> and IoU Net <<CITE:iounet>> add an extra IoU head to re-score predicted masks and detection boxes, respectively. BMASK R-CNN <<CITE:cheng2020boundary>> and BCNet <<CITE:BCnet>> introduce additional contour supervision to pay mo"
+   },
+   {
+    "at": 54057,
+    "match": "IoUs",
+    "text": "e strategy. \nSoft NMS <<CITE:bodla2017soft>> is a popular training-free method to improve object detection and instance segmentation by adjusting classification scores. Soft NMS attenuates classification scores based on IoUs among bounding boxes to address the inconsistency between classification scores and localization accuracy. This results in improvements in box AP but has little effect on mask AP. We have observed that our turbo-inferen"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.28405v1",
+  "read_order": 73,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 49992,
+    "match": "mIoU",
+    "text": "gin table* [ht]\n\\caption Experimental results of medical image segmentation. \n\\label tab:Results on ISIC2017 and ISIC2018 \n\\begin tabularx \\linewidth cXXXXXX \n\\toprule\nDataset&Model & Layer attention &Params(M)&FLOPs(G)&mIoU(%) & DSC(%) \\\\\n\\midrule\n\\multirow 8 * ISIC2017 \n&UNet <<CITE:2015U>> &\\qquad \\mathbf times & 7.77 & 13.76 & 76.98 & 86.99 \\\\\n&UTNetV2 <<CITE:Gao2022AMT>> &\\qquad \\mathbf times & 12.80 & 15.50 & 77.35 & 87.23 \\\\\n&TransFu"
+   },
+   {
+    "at": 55526,
+    "match": "mIoU",
+    "text": "rk <<CITE:ruan2023ege>> . We apply different layer attention methods on the encoder of the backbone mentioned in Section \\ref sec:experiments , and report the mean and standard deviation of Mean Intersection over Union (mIoU) and Dice Similarity Coefficient (DSC), which are widely used for robust segmentation evaluation.\n\n textbf Comparative results of medical image segmentation. \nThe experimental results are presented in Table \\ref tab:Res"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.26638v1",
+  "read_order": 74,
+  "state": "measured",
+  "n_total": 17,
+  "windows": [
+   {
+    "at": 50765,
+    "match": "overlap",
+    "text": "ocesses the raw image pairs, utilizing M^ \\text rigid _ c,t as a spatial confidence prior during sampling to bias candidate correspondences toward the rigid vehicle. Matches are assigned a confidence score s = o cdot p (overlap o , precision p ) and aggressively post-filtered using grid-based thinning and mutual uniqueness to suppress specular degeneracies. \n\n% \\subsubsection Geometric Verification and Rig-Aware SfM \n% The filtered corresponde"
+   },
+   {
+    "at": 67291,
+    "match": "overlap",
+    "text": "nd temporal connections:\n \n \\mathcal E = \\mathcal E _ \\text spatial \\cup \\mathcal E _ \\text temporal .\n \n\nThe spatial edges ( \\mathcal E _ \\text spatial ) connect concurrent frames from different cameras based on visual overlap derived directly from the physical rig prior. We enforce a strict adjacency matrix \\mathbf A \\in \\ 0,1\\ ^ C times C where \\mathbf A _ k,j = 1 only if camera k and j share a field of view. This includes adjacent sensors "
+   },
+   {
+    "at": 98893,
+    "match": "overlap",
+    "text": "ppresses the high-gradient stationary background that otherwise dominates matching, and (ii) the resulting match graph retains global connectivity across the portal (including selected cross-pillar pairs with consistent overlap) to avoid disconnected reconstruction components. \n% % We perform two-view geometric verification on these correspondences prior to global reconstruction, ensuring that only geometrically consistent matches contribute t"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.31029v1",
+  "read_order": 75,
+  "state": "measured",
+  "n_total": 7,
+  "windows": [
+   {
+    "at": 3538,
+    "match": "overlaps",
+    "text": "wo fundamental limitations. First, converting native geospatial primitive formats degrades their precise geometric properties <<CITE:siampoupoly2vec>> . For example, single-channel pixel maps ambiguously flatten complex overlaps, rendering a layered overpass indistinguishable from a standard intersection. Vector primitives explicitly preserve this structural continuation, alongside other multi-instance overlaps like land-use zones intersecting "
+   },
+   {
+    "at": 39802,
+    "match": "mIoU",
+    "text": "|cc|cc|cc \n \\multirow 2 * \\makecell Synth \\\\ Data & \\multicolumn 2 c| DIOR & \\multicolumn 2 c| OpenEarthMap & \\multicolumn 2 c| City-Scale & \\multicolumn 2 c AID \\\\\n \\cline 2-9 \n & mAP@50-95 \\uparrow & mAP@50 \\uparrow & mIoU \\uparrow & F1 \\uparrow & TOPO \\uparrow & APLS \\uparrow & Acc-1 \\uparrow & Acc-5 \\uparrow \\\\\n \\toprule\n times 0 & 55.15 \\pm 0.15 & 77.09 \\pm 0.31 & 55.75 \\pm 0.26 & 70.70 \\pm 0.24 & 73.59 \\pm 0.48 & 60.50 \\pm 0.60 & 72.6"
+   },
+   {
+    "at": 71404,
+    "match": "mIoU",
+    "text": "resizebox 0.75\\linewidth ! \n \\begin tabular c|cc|cc \n \\multirow 2 * \\makecell Synth \\\\ Data & \\multicolumn 2 c| \\TerraDiTOmega-XL (ours) & \\multicolumn 2 c GeoSynth <<CITE:sastry2024geosynth>> (tuned) \\\\\n \\cline 2-5 \n & mIoU \\uparrow & F1 \\uparrow & mIoU \\uparrow & F1 \\\\\n \\toprule\n times 0 & 55.75 \\pm 0.26 & 70.70 \\pm 0.24 & 55.75 \\pm 0.26 & 70.70 \\pm 0.24 \\\\\n times 1 & 57.05 \\pm 0.14 & 71.77 \\pm 0.10 & 56.84 \\pm 0.24 & 71.59 \\pm 0.19 \\\\\n t"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.02188v1",
+  "read_order": 76,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 35947,
+    "match": "IoU",
+    "text": "image regions where lanes are concentrated, reducing false detections and improving computational efficiency. The decoder outputs a single feature map, optimised with a combined Focal Loss <<CITE:lin2017focal>> and Line IoU Loss, enhancing precision and ensuring alignment between predicted and ground-truth lanes.\n\n\\subsection Dataset: TuSimple \nExperiments were conducted on the TuSimple dataset <<CITE:tusimple2017dataset>> , which provides"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.02724v1",
+  "read_order": 77,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 32505,
+    "match": "intersection-over-union",
+    "text": "ides a set of person bounding boxes \\mathcal B ^ (f) _ mathrm SAM3 and corresponding masks \\mathcal M ^ (f) _ mathrm SAM3 for each frame.\nWe align the \\mathcal R ^ local prediction with SAM3 detections by maximizing the intersection-over-union (IoU):\n\\begin equation \n\\mathbf b ^ (f) =\n\\operatorname* arg max _ \\mathbf b \\in \\mathcal B ^ (f) _ mathrm SAM3 \n\\ mathrm IoU left (\\mathbf b ^ (f) _ \\mathcal R , \\mathbf b right ),\n\\end equation \nand retrieve the assoc"
+   },
+   {
+    "at": 85955,
+    "match": "overlap",
+    "text": "itizes accuracy through foundation-model orchestration, while AVTrackFormer prioritizes a clean end-to-end formulation.\n \n% \\subsection Speech Separation Module \n% \\label sec:speech_sep \n \n% We use MossFormer2 only when overlap is detected. MossFormer2 decomposes the mixture into independent source streams; each source is then matched to an existing speaker chunk via the ECAPA-TDNN embedding's cosine similarity. We do not estimate the number o"
+   },
+   {
+    "at": 86232,
+    "match": "overlap",
+    "text": "nto independent source streams; each source is then matched to an existing speaker chunk via the ECAPA-TDNN embedding's cosine similarity. We do not estimate the number of speakers explicitly. When the input contains no overlap, separation is bypassed entirely, so the module adds essentially no cost in the common case. Notationally, we use \u02c6a\\hat a to denote separated and enhanced speech signals.\n \n% The contribution of separation is small but"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.02724v1",
+  "read_order": 78,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 14021,
+    "match": "overlap",
+    "text": "esponding to visually similar non-school infrastructure (hospitals, commercial buildings, parking lots) exclusively in built-up areas. After removing duplicates and enforcing a minimum 150 m separation to reduce spatial overlap, we download 512 times 512 pixel tiles at \\sim 0.6 m resolution. From this collection, we manually curate a high-quality ``golden'' subset containing school and non-school images. Precise bounding boxes are annotated fo"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.21577v1",
+  "read_order": 79,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 46150,
+    "match": "overlap",
+    "text": ". Similarly, the simulation of misregistration does not simply move blocks of color, but generates semi-transparent ink fringes on the precise contours of the shapes, which correspond to the effect of imperfect cylinder overlap. This approach, based on modeling physical causes, ensures that the training data exposes the AI model to complex and realistic characteristics, far beyond simple artificial artifacts.\n \n The quality of simulations, in "
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.25732v1",
+  "read_order": 80,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 27790,
+    "match": "overlap",
+    "text": "ecifically, 285 training pairs are decomposed into 138,549 unique multi-resolution patches with resolutions of 256^2 , 384^2 , 512^2 , and 768^2 .\nThe remaining 27 pairs are reserved for full-resolution testing, with no overlap between training and test images.\n\n% \\paragraph RTTS \n textbf RTTS <<CITE:li2018rttsAndReside>> is a task-driven real-world hazy image set from the RESIDE <<CITE:li2018rttsAndReside>> benchmark.\nIt consists of 4,322 out"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.17938v1",
+  "read_order": 81,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 11494,
+    "match": "overlap",
+    "text": " the Joint model at N \\in \\ 2, 4, 6, 8\\ per angular bin (trained with N = 4 , evaluated at each N without retraining). On Replica N has almost no effect ( 81.10 -- 81.57 overall AUPRC): indoor scenes have dense per-view overlap, so extra views add little. On Virtual KITTI 2, N helps specifically at wide baselines: the 135 -- 180^\\circ bin improves from 71.05 ( N = 2 ) to 78.22 ( N = 6 ) before saturating, while narrow bins stay flat around 47."
+   },
+   {
+    "at": 34726,
+    "match": "overlap",
+    "text": "5 -- 180^\\circ it drops 11.4 points \\emph below the baseline. This reversal is informative: the learned head sharpens the regime well-represented in training yet extrapolates worse than the parameter-free matcher to low-overlap, high-rotation pairs. There, SegVGGT-DPT Joint ( N = 4 ) takes over, leading at 90 -- 135^\\circ and 135 -- 180^\\circ and beating the pairwise DPT variant by 4.3 AUPRC at the widest bin --- isolating the multi-view contr"
+   },
+   {
+    "at": 37988,
+    "match": "overlap",
+    "text": "\\linewidth] figures/nsweep_vec.pdf \n \\caption Effect of the number of jointly attended views N on SegVGGT-DPT Joint (trained at N = 4 , evaluated at N\\in\\ 2,4,6,8\\ without retraining). Replica (left) is flat in N (dense overlap); on VKITTI2 (right) extra views help only at the widest baseline ( 71.1 \\to 78.2 AUPRC at 135 -- 180^\\circ ) and saturate by N = 6 . \n \\label fig:nsweep \n\\end figure \n\n\\subsection Ablation: temperature clamping \\label "
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.10949v2",
+  "read_order": 82,
+  "state": "measured",
+  "n_total": 7,
+  "windows": [
+   {
+    "at": 27798,
+    "match": "overlap",
+    "text": "r end (the formal definition is provided in Supplementary Material, Section S-IV). When s = 1 , the function returns only the single initial and single terminal point; when s > \\lfloor L/2 \\rfloor , the two subsequences overlap or exhaust the trajectory, and all points are retained. The selected points are aggregated across all filtered trajectories:\n%\n\\begin equation \n \\mathcal P _ selected = \\bigcup_ T \\in \\mathcal T _ filtered \\Psi(T, s).\n\\"
+   },
+   {
+    "at": 45485,
+    "match": "IoU",
+    "text": "TE:Zou2019,Minaee2022>> , evaluate geometry alone and do not capture whether trajectories are correctly assigned to their respective movements. A geometrically smaller but functionally correct region could receive a low IoU score if the ground-truth annotation includes margins beyond the visible road surface. The evaluation therefore uses a task-specific trajectory assignment error that directly measures the fraction of trajectories miscla"
+   },
+   {
+    "at": 114822,
+    "match": "overlap",
+    "text": "pdf \n \\caption t-SNE visualization of the 25 Bengaluru camera locations. Each point represents a frame from the 15-minute clip at the respective location, embedded using DINOv3 (ViT-S/16). Distinct clusters with minimal overlap confirm the visual diversity of the selected camera feeds. \n \\label fig:supp_tsne \n\\end figure \n\n\n\\end document \n"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.13961v2",
+  "read_order": 83,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 20506,
+    "match": "mask overlap",
+    "text": "rm cls supervises instance category prediction, \\mathcal L _ mathrm obj supervises object-level detection, \\mathcal L _ mathrm mask constrains the pixel-wise quality of predicted masks, \\mathcal L _ mathrm dice improves mask overlap and alleviates foreground--background imbalance, and \\mathcal L _ mathrm gh serves as an auxiliary term for guiding intermediate representations with multi-scale Gaussian heatmaps. The weighting coefficients \\lambda_ ma"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.24598v1",
+  "read_order": 84,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 22563,
+    "match": "IoU",
+    "text": "t the existing identity, and unmatched high-confidence queries start new tracks.\n\n\n \\begin table* [!t]\n \\centering\n \\caption Comparison with state-of-the-art VIS methods. Metrics denote Average Precision (AP) at various IoU thresholds and Average Recall (AR). Methods are grouped by their reliance on explicit video supervision and by the online/offline inference setting. Bold numbers denote the best result among image-only methods. \n \\label"
+   },
+   {
+    "at": 46342,
+    "match": "IoU",
+    "text": "fit from stronger, transformer-based feature extractors.\n\n\\begin table* [!t]\n \\centering\n \\caption Comparison with state-of-the-art VIS methods using the Swin-L backbone. Metrics denote Average Precision (AP) at various IoU thresholds and Average Recall (AR). QueenVIS maintains robust performance against video-supervised methods without requiring any multi-frame training. \n \\label tab:swin_comparison \n \\resizebox \\linewidth ! \n \\begin tabu"
+   }
+  ]
+ }
+]
