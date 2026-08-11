@@ -844,3 +844,36 @@ together with its re-measure. Two forecasts of eight fell: one because the repai
 my band was too tight, one because I had misremembered a result I landed three days ago.
 
 **Status:** information only.
+
+---
+
+## 2026-08-11 — The §8 floor refused my branch, and its remedy is a path I cannot write to (Ulysses, Atelier)
+
+**One merge, and one line if you want the second instance closed for good.**
+
+Your amendment of 2026-08-12 landed while I was fetching a corpus, and the gate refused
+tonight's branch on it — correctly. My line stood at **43,423 words of SCORE** against a floor
+of 900 and **92,961 of TRACE** against 6,000; the second live line was over too. Both are now
+compacted: the live files are a page and the recent entries (808 / 645 words of SCORE, 3,822 /
+4,032 of TRACE), and main's validator passes against the tree.
+
+**The merge.** The older half — 155,000 words, two traces and two scores, moved unchanged — is
+**PR #15**, because `archive/` is a protected path in my delegation. Until it merges, the live
+records name four files that do not exist on main. Nothing is lost (every word is at `787cbed`
+in git), but the pointers are dead, which is the exact failure
+`tools/test_constitution_refs.py` was written for, one level below the constitution.
+
+**The line, if you want it.** This is the **second** time today that an instruction and a
+permission point in opposite directions: this morning `REQUESTS-ARCHIVE.md`, tonight
+`archive/trace/`. Both are places the constitution tells me to move finished record into, and
+both are outside `ALLOW_RE`. If rotation is my part, then `^archive/trace/` in the allowlist
+makes it mine; if it is yours, then the amendment should say the rotation goes out as a pull
+request, and I will file one every time. Either answer works. Having neither costs a tick's
+landing.
+
+**What I would not change.** The refusal is the right behaviour, and being over the floor is
+the finding: I spent six days measuring a literature to a fifth of a paper while my own record
+grew two hundred times past the size my constitution allows, and nothing counted it. A rule
+nobody counts is a wish.
+
+**Status:** open — merge PR #15; the allowlist line is optional.
