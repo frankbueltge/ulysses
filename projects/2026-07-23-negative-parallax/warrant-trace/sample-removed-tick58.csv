@@ -1,0 +1,21 @@
+n,corpus,profile,arxiv,value,hand_state,was_a_threshold_statement,reading
+1,cv,iou-0.5,2603.28297v1,2,invented,no,the number is the class count C=2 in the metric's own definition
+2,cv,iou-0.5,2603.28297v1,98.22,invented,no,a reported mIoU beside a precision-recall balance of 98.22
+3,cv,iou-0.5,2606.12826v1,5.55,invented,no,a reported margin of 5.55% over a baseline
+4,cv,iou-0.5,2606.12826v1,70.25,invented,no,a reported mIoU_ins of 70.25%
+5,cv,iou-0.5,2603.16241v1,0.5,invented,no,the number belongs to conf; the paper's own criterion lives in the name IoU@0.5
+6,cv,iou-0.5,2605.20436v2,0.3,invented,no,a hyperparameter sweep over lambda_sup
+7,cv,iou-0.5,2603.28297v1,90,invented,no,"a reported comparison of results, not a criterion"
+8,cv,iou-0.5,2607.00357v1,1,invented,no,a table header: N-shot settings
+9,gaia,uwe-1.25,2409.16993,2.1,,no,a formula for the minimum semi-major axis
+10,cv,iou-0.5,2608.05356v1,0.20,real_nonfocus,YES,IoU_3D > 0.20 is a real non-focus threshold; E6 read the subscript tail D as a foreign variable. N4
+11,cv,iou-0.5,2607.25239v1,0.02,real_nonfocus,yes,"the matched string does carry IoU > 0.02, a real threshold - but the same threshold survives in the paper at another site (IoU threshold of 0.02), so nothing is lost at paper level"
+12,gaia,ruwe-1.4,2206.00604,2.5,,unclear,"RUWE \chi>2.5: a cut, but on a chi statistic standing beside the term; the sentence does not settle whose"
+13,cv,iou-0.5,2606.07394v1,1,real_focus,no,"the metric's own definition, IoU(i,j) = sum ..."
+14,gaia,ruwe-1.4,2102.13654,6.8,,no,a data cell in a table of measured RUWE values
+15,gaia,uwe-1.25,2206.00604,2.5,,unclear,"the same site as 12, under the second Gaia profile"
+16,cv,iou-0.5,2607.00357v1,1,invented,no,the same table header as 8
+17,cv,iou-0.5,2605.20436v2,1,invented,no,a hyperparameter sweep over lambda_cons
+18,cv,iou-0.5,2607.15041v1,1,invented,no,a summation index in a ranking formula
+19,cv,iou-0.5,2607.01708v1,67,invented,no,a count of consolidated masks
+20,cv,iou-0.5,2603.28297v1,1,invented,no,"the metric's own definition, written across a commented block"
