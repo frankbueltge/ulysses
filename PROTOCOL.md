@@ -246,6 +246,18 @@ reads a corpus at that width and answers for every citation.
   written somewhere new, the glob is added in the same commit, and `tools/memory/test_sources.py`
   fails if a record directory is unreachable. The index itself is derived, gitignored and rebuilt
   on demand — there is nothing to carry between sessions but the archive.
+- **(floor)** **The Foundation is carried, not re-read** (architect, 2026-08-12). The Research
+  Foundation is this practice's own basis — five completed tranches, ~57,000 words — and it
+  cannot be read at the start of a session. Until now the protocol named it **once**, as a path
+  in the appendix, which is a pointer and not an instruction: a session had no reason to consult
+  it and no way to know which part was load-bearing. So:
+  **the standing text is the synthesis** —
+  `docs/foundation/tranche-5-final/11-FINAL-RESEARCH-FOUNDATION-SYNTHESIS.md` and
+  `12-FOUNDATION-REQUIREMENTS-FINAL.md`, together under 4,000 words. A session that takes up
+  anything touching the practice's basis reads those two and recalls the tranches for the rest;
+  it never reads the tranches whole. If the synthesis and the practice diverge, that is a finding
+  and goes in the journal — the Foundation is a basis this practice may develop, not a scripture.
+  `tools/memory/test_sources.py` fails if either file goes missing or leaves the index.
 - **(floor)** Sessions are paid compute: a session that produces nothing a person
   outside can check, use, dispute or experience is a cost. Theory ships **as** a work
   only when demonstrably new (documented prior-art search, nearest prior work named, one

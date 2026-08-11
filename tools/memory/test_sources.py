@@ -75,6 +75,31 @@ def test_no_top_level_directory_is_silently_unindexed() -> None:
     )
 
 
+def test_the_foundation_synthesis_exists_and_is_indexed() -> None:
+    """The two files §8 names as the practice's standing basis must be there and reachable.
+
+    The Foundation is ~57,000 words across five tranches and cannot be read at session start.
+    §8 therefore names a synthesis as the text that is actually carried. If either file is
+    renamed or moved, the protocol would be pointing a session at nothing — silently, because
+    a missing file simply returns no recall hits rather than an error.
+    """
+    named = [
+        "docs/foundation/tranche-5-final/11-FINAL-RESEARCH-FOUNDATION-SYNTHESIS.md",
+        "docs/foundation/tranche-5-final/12-FOUNDATION-REQUIREMENTS-FINAL.md",
+    ]
+    missing = [rel for rel in named if not (REPO_ROOT / rel).is_file()]
+    assert not missing, (
+        f"PROTOCOL.md §8 names these as the Foundation's standing text and they are gone: "
+        f"{missing}. Either restore them or amend §8 — a protocol pointing at a missing file "
+        "sends the session back to reading 57,000 words."
+    )
+    indexed = {p.resolve() for p in _collect_source_files(REPO_ROOT)}
+    unreachable = [rel for rel in named if (REPO_ROOT / rel).resolve() not in indexed]
+    assert not unreachable, (
+        f"the Foundation's standing text is not covered by SOURCE_GLOBS: {unreachable}"
+    )
+
+
 def test_the_work_line_record_is_actually_reachable() -> None:
     """The regression itself: a real project's SCORE must be among the indexed files."""
     projects = REPO_ROOT / "projects"
