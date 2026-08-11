@@ -1,0 +1,21 @@
+n,corpus,profile,arxiv,value,marker_in_match,percent_in_window,is_threshold_statement,reading
+1,uwe-1.25,uwe-1.25,2206.15318,1.7,0,0,0,"'it has RUWE = 1.7, the highest of any star remaining in the TESS sample' - a reported value."
+2,iou-0.5,iou-0.5,2607.09115v2,0.45,0,1,1,"'an NMS IoU threshold of \tau_nms = 0.45' - a threshold, named as one."
+3,uwe-1.25,uwe-1.25,2209.04210,5,0,1,0,FALSE SITE: 'the ruwe evaluates the quality of the 5-parameter solution' - the 5 counts astrometric parameters. The real threshold stands in the next clause and is not what matched.
+4,uwe-1.25,uwe-1.25,2206.04567,3,1,0,1,"'we selected stars with ... Renormalised Unit Weight Errors (RUWE<fn>) above 3 to exclude astrometric solutions strongly affected by unresolved companions' - a criterion, with the footnote marker standing in the gap: E3 at work."
+5,iou-0.5,iou-0.5,2607.00357v1,1,0,1,0,FALSE SITE: a table header ('mIoU & \multicolumn 4 c F1-score'); the 1 is not a value of the statistic.
+6,uwe-1.25,uwe-1.25,2201.09097,5.27,0,0,0,'the RUWE of this star has a value of 5.27' - a reported value for one star.
+7,ruwe-1.4,ruwe-1.4,2410.20194,1.4,0,1,1,'a larger ruwe (1.94) than the suggested cutoff value (< 1.4)' - the cutoff named as such.
+8,uwe-1.25,uwe-1.25,2210.03725,1.4,0,1,1,'RUWE measurements being smaller than the 1.4 threshold' - the word threshold is the paper's own.
+9,iou-0.5,iou-0.5,2603.28297v1,1,0,1,0,"FALSE SITE, and the cost E4 named: the match runs through a block of COMMENTED-OUT equations; the 1 comes from \frac 1 C."
+10,ruwe-1.4,ruwe-1.4,2209.04210,5,0,1,0,"the same false site as 03, read under the second Gaia profile."
+11,iou-0.5,iou-0.5,2606.10769v1,1,0,1,0,"FALSE SITE: the 1 comes from a subscript (_{i=1}) after an equation opener; the IoU threshold in that sentence is a symbol, not a number."
+12,uwe-1.25,uwe-1.25,2501.14462,1.25,1,1,0,"'two secondaries have values larger than 1.25, suggesting that they might be binaries' - a description of two stars, not a rule imposed. Borderline."
+13,ruwe-1.4,ruwe-1.4,2110.13943,1.4,0,1,1,"'four suggested criteria were tested: ... re-normalised unit weight error (ruwe) < 1.4 <cite>' - a criterion, with its citation."
+14,uwe-1.25,uwe-1.25,2109.12114,1.4,0,1,1,"'for good quality measurements, they should take values fulfilling the condition UWE < 1.96 or RUWE < 1.4' - a stated rule, attributed."
+15,ruwe-1.4,ruwe-1.4,2203.03659,1,0,0,0,'the main peak of the RUWE distribution (typically with 1 < RUWE < 1.4)' - a description of where the distribution peaks.
+16,uwe-1.25,uwe-1.25,2201.09097,1.4,1,1,1,"'excluding stars for which the renormalised unit weight error <cite:LL-124> is larger than 1.4' - a quality criterion, and the citation is the deriving technical note itself."
+17,iou-0.5,iou-0.5,2608.05858v1,1,0,1,0,a TikZ axis option list inside a figure; the 1 is a tick position.
+18,uwe-1.25,uwe-1.25,2407.20949,1,1,0,0,"'their RUWE ... are lower than 1, indicating that the components are not themselves binary systems' - a reported comparison licensing an inference; tick 53's own census called this paper a WEAK class-B call for the same reason."
+19,uwe-1.25,uwe-1.25,2509.13412,1.4,0,0,1,table caption 'Red-giants in ABs with high RUWE values (> 1.4)' - the value defines what the table contains.
+20,uwe-1.25,uwe-1.25,2203.07294,2.4,1,0,1,"the G3 fixture paper: '(i) RUWE<fn><cite> < 2.4' - the pinned threshold, found in the corpus by the repaired instrument."
