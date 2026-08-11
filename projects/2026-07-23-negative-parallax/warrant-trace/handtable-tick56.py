@@ -1,0 +1,173 @@
+#!/usr/bin/env python3
+"""handtable-tick56 — the hand reading of tick 56, written out and checked against the frame.
+
+One row per paper, one label, one verbatim fragment. The labels are mine; the check is
+not: every id and read_order below is asserted against `frame-tick56.csv`, so a mis-keyed
+id fails here rather than surviving into a rate. Two ids were mis-keyed while drafting
+this table (A15/A36 in the same 2608.031xx neighbourhood) and this assertion is what
+caught them.
+
+Writes `handread-tick56.csv`.
+"""
+import csv
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+NON_INVOKER = {"X-ENGLISH", "X-LOSS", "X-SCORE", "X-CITE", "X-QUERY", "X-NOTATION",
+               "X-OTHER"}
+INVOKER = {"I-USE", "I-DISC", "I-NAME", "B-SITE", "B-SITE-WEAK"}
+
+ROWS = [
+    # stratum A — the census of the candidate class, in the seed-56 read order
+    ("A", 1, "2605.03614v1", "I-DISC", "PMQ does not rely on arbitrary IoU thresholds that filter the number of detections", ""),
+    ("A", 2, "2605.18413v2", "I-NAME", "mAP_50:95 / AP_50:95 column headers", "threshold stated nowhere"),
+    ("A", 3, "2605.04728v1", "X-ENGLISH", "prevent implausible overlaps between people", ""),
+    ("A", 4, "2606.03875v1", "X-OTHER", "parameters such as IoU for association ... are optimized on the training set", "tracking-association threshold, not the correctness criterion"),
+    ("A", 5, "2603.28027v1", "X-LOSS", "L_IoU = L_MSE(hat o, o) penalizes the discrepancy between the predicted IoU", "its metrics are AJI / PQ"),
+    ("A", 6, "2605.26682v1", "I-NAME", "Mean Average Precision at a threshold of 0.50 (mAP50)", "a threshold IS stated and the quantity it governs is not named at the site"),
+    ("A", 7, "2606.26615v2", "X-SCORE", "mIoU for segmentation, and mAP for detection", ""),
+    ("A", 8, "2606.29513v1", "I-NAME", "we report target-view AP, AP50, and AP25", ""),
+    ("A", 9, "2607.27843v1", "X-LOSS", "a hybrid loss with BCE, IoU, and SSIM losses", ""),
+    ("A", 10, "2607.12874v1", "I-USE", "hat o in TP if its IoU is greater than the threshold tau", "free-symbol threshold"),
+    ("A", 11, "2608.06205v1", "I-NAME", "80.7% mAP50 / 45.0% mAP50:95 on FLIR", "also states NMS IoU thresholds - a different quantity"),
+    ("A", 12, "2607.11732v1", "X-ENGLISH", "this list is too long, and will overlap other information printed in the page headers", "ACM template boilerplate"),
+    ("A", 13, "2603.25524v1", "X-SCORE", "with a mean 0.84 intersection over union (IOU)", ""),
+    ("A", 14, "2607.00129v1", "B-SITE", "mAP, following COCO protocol across IoU thresholds 0.5-0.95", "the hyphenated sweep - the fault tick 50 named and left unrepaired"),
+    ("A", 15, "2608.03106v1", "I-NAME", "Object detection on M3FD is evaluated using mAP_50, and class-wise recall", ""),
+    ("A", 16, "2604.01678v1", "X-SCORE", "mIoU / Recall / F_1 comparison table", ""),
+    ("A", 17, "2603.19609v2", "X-SCORE", "quantified by Intersection over Union (IoU), used as an alignment cost", ""),
+    ("A", 18, "2606.20140v2", "I-NAME", "FSI queries which do not significantly help improve accuracy in terms of AP_50", ""),
+    ("A", 19, "2608.04766v1", "I-NAME", "mAP-50, which is the detection results with different thresholds of Intersection over Union", "live text, not a comment - checked at source"),
+    ("A", 20, "2605.23656v1", "I-USE", "mAP^box and mAP^mask across different IoU thresholds and object sizes", ""),
+    ("A", 21, "2608.03490v1", "X-OTHER", "Outputs are aligned by matching bounding boxes with the highest Intersection over Union (IoU)", "max-IoU matching inside a distillation method"),
+    ("A", 22, "2604.14720v1", "X-ENGLISH", "varying degrees of neighbor overlap", ""),
+    ("A", 23, "2604.19798v1", "I-NAME", "the detection of Signboards achieved high precision (mAP@0.5 = 0.774)", ""),
+    ("A", 24, "2608.03264v1", "X-ENGLISH", "both acoustic overlap and abrupt state changes occur", ""),
+    ("A", 25, "2607.20748v1", "X-ENGLISH", "when rocks overlap, the Centroid method ... may produce poses far from the true centroid", ""),
+    ("A", 26, "2608.02980v1", "B-SITE", "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25, 0.5)", "relation present; the number sits second in a parenthetical list"),
+    ("A", 27, "2606.26849v1", "X-LOSS", "weighted combination of the BCE loss and the Intersection-over-Union (IoU) loss", ""),
+    ("A", 28, "2605.08925v2", "I-NAME", "mIOU / mAP_25% / mAP_50% table headers", ""),
+    ("A", 29, "2606.31496v1", "X-SCORE", "mDice / mIoU comparison table", ""),
+    ("A", 30, "2608.04394v1", "X-OTHER", "select the positive samples based on IoU values", "sample-selection filter, no threshold stated"),
+    ("A", 31, "2607.12284v1", "X-ENGLISH", "Energy Based Pointing Game (EBPG) overlap metrics", ""),
+    ("A", 32, "2607.08541v1", "X-ENGLISH", "considering the confidence scores and spatial overlap between candidate boxes", "the word describing NMS; no criterion invoked"),
+    ("A", 33, "2607.00746v1", "X-SCORE", "we report the Intersection-over-Union (IoU) of occupied voxels as the evaluation metric", ""),
+    ("A", 34, "2606.22702v1", "I-NAME", "AP / AP_50 / AP_75 box and mask table", ""),
+    ("A", 35, "2606.25652v1", "I-DISC", "matching predictions to GT by 2D centre distance rather than by IoU, the latter being unstable", "declines the criterion with a stated reason"),
+    ("A", 36, "2608.03136v1", "B-SITE", "a single COCO-style AP (IoU 0.50 : 0.05 : 0.95 , maxDets = 100 per image)", "the sweep again, colon-separated this time"),
+    ("A", 37, "2603.10825v1", "I-NAME", "YOLOv9 outperforms YOLOv8 in mAP@50-95", "the tick-46 name counter does not match the @50-95 form"),
+    ("A", 38, "2605.19213v1", "X-ENGLISH", "the acquisition regions of Scene 1 to Scene 3 partially overlap", ""),
+    ("A", 39, "2606.08002v1", "I-NAME", "We report COCO-style mask mAP, AP50, AP75", ""),
+    ("A", 40, "2607.06592v1", "I-DISC", "guarantees are difficult to obtain in object detection due to IoU matching, NMS, and bounding-box regression", ""),
+    ("A", 41, "2607.17754v1", "X-ENGLISH", "Objects often overlap or block one another", ""),
+    ("A", 42, "2606.29029v1", "I-NAME", "AP / AP_50 / AP_75 results table", ""),
+    ("A", 43, "2607.08075v2", "I-USE", "mAP follows the official YouTube-VIS/LV-VIS protocol", ""),
+    ("A", 44, "2607.02074v1", "I-DISC", "A high IoU does not always indicate accurate localization", ""),
+    ("A", 45, "2607.25392v1", "X-ENGLISH", "has no overlap with RDVS", "dataset disjointness"),
+    ("A", 46, "2606.14389v1", "X-OTHER", "we assign each SAM3 mask to the GT mask with the highest Intersection over Union (IoU)", "max-IoU matching for identifier assignment"),
+    ("A", 47, "2607.03696v1", "X-LOSS", "the weighted intersection-over-union loss (ell_wiou)", "live text, not a comment - checked at source"),
+    ("A", 48, "2603.18739v3", "I-NAME", "We report the standard COCO detection metrics, including AP, AP_50, AP_75", ""),
+    ("A", 49, "2606.28398v1", "I-NAME", "evaluated at mAP@0.5 with confidence threshold 0.3", ""),
+    ("A", 50, "2607.26232v1", "X-SCORE", "We evaluate localization with IoU, pixel F1, mask AP, and boundary F1", ""),
+    ("A", 51, "2607.12231v1", "X-ENGLISH", "the two actors' timelines do not overlap at all", ""),
+    ("A", 52, "2606.29136v1", "I-NAME", "AP_50 / mAP_50 / mAP_75 table; AP_0.5 uniformly used as the reported detection metric", ""),
+    ("A", 53, "2607.10575v1", "B-SITE", "considered newly added if they do not match an original annotation at IoU threshold 0.5", "apposition: term, the word threshold, the number - no relation token"),
+    ("A", 54, "2606.01947v1", "X-SCORE", "the mean Intersection-over-Union (mIoU) increasing by about 6%", "also appears as an acronym-glossary row"),
+    ("A", 55, "2604.09421v1", "I-USE", "we employ IoU_phi [pascalvoc] as S metric ... If we set a threshold with 0.75", "states a threshold at a NON-focus value, and the sieve missed that too"),
+    ("A", 56, "2606.22439v1", "X-OTHER", "With multimask_output=True, the highest-IoU mask is selected", ""),
+    ("A", 57, "2608.02137v1", "X-SCORE", "the localization and IoU changes further confirm the transferability", ""),
+    ("A", 58, "2606.26295v1", "I-NAME", "The results in the form of AP50 are shown in", ""),
+    ("A", 59, "2607.19942v2", "I-NAME", "achieving a mean AP_50:95 of 50.96 compared to 44.57", "live text, not a comment - checked at source"),
+    ("A", 60, "2604.01742v1", "X-SCORE", "we use Intersection over Union (IoU) to evaluate segmentation mask quality", ""),
+    ("A", 61, "2604.18957v1", "I-NAME", "The AP@0.50 jumps by over 24 percentage points to 0.6457", ""),
+    ("A", 62, "2607.08201v1", "X-OTHER", "merge this dynamic online set with the static offline pseudo-labels via IoU-based matching", ""),
+    ("A", 63, "2605.23472v1", "I-NAME", "mask mAP@[0.5:0.95] for RarePlanes, and box mAP@50 for GDXray", "the tick-46 name counter does not match the @50 form"),
+    ("A", 64, "2605.04506v2", "X-SCORE", "Performance is measured by mIoU and mAcc against ground-truth masks", ""),
+    ("A", 65, "2603.17845v1", "I-USE", "TP(t) is defined as the number of matches ... with an IoU above the threshold t", "free-symbol threshold; also states t_nms = 0.9, a non-focus value"),
+    ("A", 66, "2607.00124v1", "I-NAME", "AP / AP_50 / AP_75 fast-model table", ""),
+    ("A", 67, "2605.03144v1", "I-DISC", "the Jaccard index ... were originally designed for semantic segmentation", ""),
+    ("A", 68, "2603.21206v1", "X-SCORE", "the SEG measure ... the mean Jaccard index between each ground-truth object and its best-matching predicted object", "its 0.5 rule is on intersection-over-GT-area, a different statistic sharing the number"),
+    ("A", 69, "2607.23981v1", "B-SITE", "AP at IoU 0.5 for known classes ... AP and mAP are reported at IoU 0.5", "apposition, no relation token"),
+    ("A", 70, "2603.14309v1", "X-OTHER", "the number of masks B_l that have an IoU > tau with both B_i and B_j", "graph-edge rule; also NMS with 3D IoU at a 0.1 threshold"),
+    ("A", 71, "2605.26102v2", "I-USE", "we report instance-level mAP in addition to the conventional IoU-based metric", ""),
+    ("A", 72, "2606.12371v1", "I-NAME", "they significantly reduce the AP_50 value", ""),
+    ("A", 73, "2606.28405v1", "X-SCORE", "the mean and standard deviation of Mean Intersection over Union (mIoU) and Dice", ""),
+    ("A", 74, "2603.26638v1", "X-ENGLISH", "spatial edges connect concurrent frames from different cameras based on visual overlap", ""),
+    ("A", 75, "2606.31029v1", "I-NAME", "mAP@50-95 / mAP@50 / mIoU results table", "the tick-46 name counter does not match the @50 form"),
+    ("A", 76, "2604.02188v1", "X-LOSS", "optimised with a combined Focal Loss and Line IoU Loss", ""),
+    ("A", 77, "2606.02724v1", "X-OTHER", "We align the R^local prediction with SAM3 detections by maximizing the intersection-over-union (IoU)", ""),
+    ("A", 78, "2607.02724v1", "I-NAME", "The primary evaluation metric is the mean Average Precision (mAP50) and the (mAP@0.5:0.95)", ""),
+    ("A", 79, "2607.21577v1", "I-NAME", "the 80.9% mAP50 accuracy rate achieved by the proposed RT-DETR model", ""),
+    ("A", 80, "2606.25732v1", "I-NAME", "mAP_50 / mAP_75 / mAP_50:95 comparison table", ""),
+    ("A", 81, "2607.17938v1", "X-ENGLISH", "indoor scenes have dense per-view overlap", ""),
+    ("A", 82, "2607.10949v2", "I-DISC", "A geometrically smaller but functionally correct region could receive a low IoU score", "declines the criterion for a task-specific error"),
+    ("A", 83, "2603.13961v2", "I-NAME", "Although its AP_50 is not the highest among all compared methods", ""),
+    ("A", 84, "2607.24598v1", "I-NAME", "Metrics denote Average Precision (AP) at various IoU thresholds", ""),
+
+    # stratum B — 24 of the 121 site-bearing papers, the end tick 53 had to assume.
+    # `site_real` records whether the sieve's own site is a threshold statement at all;
+    # it is not a label, and it does not enter the invoker arithmetic.
+    ("B", 1, "2607.01759v1", "I-USE", "the box mean average precision at an IoU threshold of 0.5 for 65 classes", "site_real=yes"),
+    ("B", 2, "2607.21032v1", "X-LOSS", "a hybrid loss function consisting of a BCE loss and an intersection over union (IoU) loss", "site_real=NO - the site runs from the term across the gap to `_i=1`"),
+    ("B", 3, "2607.01983v1", "I-USE", "we report BEV AP (%) and 3D AP (%) for the sedan category at IoU = 0.5", "site_real=yes"),
+    ("B", 4, "2607.05467v1", "I-USE", "the mean average precision at IoU threshold 0.50 is reported as mAP@0.50", "site_real=yes"),
+    ("B", 5, "2606.21594v1", "I-NAME", "BbM achieves consistently higher AP_50, AP_75, and mIoU", "site_real=NO - the site is the reported value mIoU=0.92"),
+    ("B", 6, "2607.05176v2", "I-USE", "AP is computed by averaging results over IoU thresholds from 0.50 to 0.95", "site_real=yes"),
+    ("B", 7, "2607.20238v1", "I-NAME", "The detection performance is evaluated at mAP, AP50, and AP75 metrics", "site_real=NO - the sites are reported mIoU gains"),
+    ("B", 8, "2606.15427v1", "I-USE", "average precision (AP) ... each at the 0.50 IoU threshold and averaged across IoU thresholds from 0.50 to 0.95", "site_real=yes"),
+    ("B", 9, "2606.30179v1", "I-NAME", "HiRes achieves a detection mAP_50 of 0.9906, a segmentation mIoU of 0.8444", "site_real=NO - the sites are reported mIoU values"),
+    ("B", 10, "2607.09115v2", "I-NAME", "detection accuracy remains largely preserved, with mAP@0.5 decreasing by less than 0.099", "site_real=yes but non-focus: the site is the NMS threshold tau_nms = 0.45"),
+    ("B", 11, "2608.00508v1", "I-USE", "the mean average precision at an intersection-over-union threshold of 0.1 (mAP@0.1)", "site_real=yes, non-focus: the criterion applied at 0.1"),
+    ("B", 12, "2605.09936v1", "I-USE", "annotations retained at IoU > 0.80", "site_real=yes, non-focus"),
+    ("B", 13, "2608.04865v1", "I-USE", "IoU threshold between 0.5 and 0.95 with steps of 0.05", "site_real=yes"),
+    ("B", 14, "2607.27585v1", "X-SCORE", "an IoU of 0.9008 between annotators", "site_real=NO - the site is a reported inter-annotator agreement"),
+    ("B", 15, "2604.10609v1", "I-USE", "SEG ... measures the quality of instance segmentation at an IoU threshold of 0.5", "site_real=yes"),
+    ("B", 16, "2607.05649v1", "I-USE", "IoU > 0.50", "site_real=yes; other sites are reported IoU scores above 85%"),
+    ("B", 17, "2607.00747v1", "X-ENGLISH", "per-pool coverage differential ... overlap (1 of 71)", "site_real=NO - the word overlap beside an unrelated count"),
+    ("B", 18, "2605.15673v1", "I-USE", "segmentation mAP ... over IoU thresholds ranging from 0.50", "site_real=yes; another site is the flight overlap of 80%"),
+    ("B", 19, "2604.08916v1", "I-USE", "we evaluate ... at IoU thresholds of 0.25 and from 0.50", "site_real=yes"),
+    ("B", 20, "2604.24718v1", "X-OTHER", "mask overlap falls below a threshold theta_IoU = 0.15", "site_real=yes, non-focus: a tracking-association threshold"),
+    ("B", 21, "2603.27993v1", "X-SCORE", "on RefCOCO, RefCOCO+, and RefCOCOg using both oIoU and mIoU", "site_real=NO - the site is a reported mIoU gain"),
+    ("B", 22, "2606.25324v1", "I-USE", "we adopt two sets of metrics ... at IoU thresholds of 0.5", "site_real=yes"),
+    ("B", 23, "2607.17340v1", "I-USE", "evaluated at the 0.5 IoU threshold", "site_real=yes"),
+    ("B", 24, "2607.16351v1", "I-USE", "an IoU threshold of 0.40 in the detection and tracking pipeline", "site_real=yes, non-focus"),
+]
+
+
+def main():
+    frame = {(r["stratum"], int(r["read_order"])): r["arxiv"]
+             for r in csv.DictReader(open(os.path.join(HERE, "frame-tick56.csv"),
+                                          encoding="utf-8"))}
+    bad = []
+    for stratum, order, aid, label, frag, note in ROWS:
+        want = frame.get((stratum, order))
+        if want != aid:
+            bad.append(f"{stratum}{order:02d}: table says {aid}, frame says {want}")
+        if label not in NON_INVOKER | INVOKER:
+            bad.append(f"{stratum}{order:02d}: unknown label {label}")
+        if not frag:
+            bad.append(f"{stratum}{order:02d}: no evidence fragment")
+    if len(ROWS) != len(frame):
+        bad.append(f"{len(ROWS)} rows against {len(frame)} frame members")
+    if bad:
+        print("FRAME CHECK FAILED:", file=sys.stderr)
+        for b in bad:
+            print("  " + b, file=sys.stderr)
+        return 1
+
+    path = os.path.join(HERE, "handread-tick56.csv")
+    with open(path, "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["stratum", "read_order", "arxiv", "label", "invoker", "fragment",
+                    "note"])
+        for stratum, order, aid, label, frag, note in ROWS:
+            w.writerow([stratum, order, aid, label,
+                        "1" if label in INVOKER else "0", frag, note])
+    print(f"frame check passed: {len(ROWS)} rows -> handread-tick56.csv")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

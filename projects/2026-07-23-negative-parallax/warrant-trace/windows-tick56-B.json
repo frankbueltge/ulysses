@@ -1,0 +1,514 @@
+[
+ {
+  "arxiv": "2607.01759v1",
+  "read_order": 1,
+  "state": "measured",
+  "n_total": 9,
+  "windows": [
+   {
+    "at": 19670,
+    "match": "IoU",
+    "text": "d LVIS <<CITE:LVIS>> . By following OVR-CNN <<CITE:OVRCNN>> , we divide the 65 classes in the COCO dataset into 48 base classes and 17 novel classes. In the COCO benchmark, we report the box mean average precision at an IoU threshold of 0.5 for 65 classes, base classes, and novel classes, denoted as \\text AP ^\\text 50 , \\text AP _ \\text base ^\\text 50 and \\text AP _ \\text novel ^\\text 50 , respectively.\nProCal is evaluated on LVIS comprisi"
+   },
+   {
+    "at": 29758,
+    "match": "IoU",
+    "text": "ment improves the novel detection performance, we analyze whether the final detection score better reflects the localization quality of the proposal.\nWe divide proposals into three groups: \n(1) novel positive proposals: IoU > 0.5 with novel ground-truth boxes, (2) partial novel proposals: 0.1 < IoU <0.5 with novel ground-truth boxes, and (3) background proposals: IoU < 0.1 with base and novel ground-truth boxes.\n% We then compare the origi"
+   },
+   {
+    "at": 66823,
+    "match": "overlaps",
+    "text": "-semantic priors that are not biased by base-class supervision.\nFig. \\ref fig:fig1 shows \n% However, F-VLM-style methods \n% compute high confidence score for the background proposal and partial object proposal that less overlaps with the ground truth boxes for novel classes.\n% The partial object proposals survive over high localization quality proposals for novel classes in postprocessing process.\n% The issue requires to recognize the backgroun"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.21032v1",
+  "read_order": 2,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 32990,
+    "match": "intersection over union",
+    "text": "ection performance, especially in challenging scenarios. \n \\label fig_hsodbit \n\\end figure* \n\n\\subsection Learning Objective \nWe use a hybrid loss function consisting of a binary cross-entropy (BCE) loss function and an intersection over union (IoU) loss function to supervise the saliency prediction maps left \\ \\boldsymbol S _i right \\ _ i=1 ^3 generated at each stage. The total loss is defined as:\n\\begin equation \n\\label deqn_ex20 \n\\mathcal L =\\sum_ i=1 ^ 3 "
+   },
+   {
+    "at": 33317,
+    "match": "IoU",
+    "text": "_i right \\ _ i=1 ^3 generated at each stage. The total loss is defined as:\n\\begin equation \n\\label deqn_ex20 \n\\mathcal L =\\sum_ i=1 ^ 3 left [ \\mathcal L _\\text BCE ^i(\\boldsymbol S _i,\\boldsymbol G )+ \\mathcal L _\\text IoU ^i(\\boldsymbol S _i,\\boldsymbol G ) right ],\n\\end equation \nwhere \\boldsymbol G denotes the ground-truth saliency map.\n\n\\begin figure [t] \n \\centering\n \\includegraphics[width=\\linewidth] spectral.pdf \n \\caption Spectral"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.01983v1",
+  "read_order": 3,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 10458,
+    "match": "IoU",
+    "text": "nd itemize \n\n\\par\\medskip\\noindent textbf Metrics. \nFollowing the KITTI 3D detection protocol used in prior K-Radar works <<CITE:Paek2022KRadar,l4dr>> ,\nwe report BEV AP (%) and 3D AP (%) for the \\emph sedan category at IoU =0.5 .\nUnless otherwise noted, all methods are evaluated using the same preprocessing and evaluation configuration.\n\n\\par\\medskip\\noindent textbf Implementation details. \nThe detection-guided critic \\mathcal H is pretra"
+   },
+   {
+    "at": 14917,
+    "match": "IoU",
+    "text": "olds over \\ 0.1,0.2,0.3\\ . Across all nine combinations, DCDA has the highest \\emph mean unseen-weather BEV AP, leading the best baseline by textbf 1.6 to textbf 7.3 points. The largest gain is observed under the strict IoU = 0.7 setting, and the full grid is provided in Sec. C.1 of the supplementary material.\n\n\\par\\medskip\\noindent textbf Severity-open (synthetic severity). \nTo evaluate robustness to unseen severity levels within known sy"
+   },
+   {
+    "at": 29715,
+    "match": "overlap",
+    "text": "fusion-based denoising further leverages radar as a condition to suppress weather noise in LiDAR features <<CITE:v2xr>> .\nDespite these advances, many existing evaluations follow standard splits where weather categories overlap between training and test, leaving explicit generalization to held-out weather types/severity less explored.\n\n\n\\subsection Out-of-Distribution (OOD) Weather Generalization \nA limited but growing body of work explicitly "
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.05467v1",
+  "read_order": 4,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 34748,
+    "match": "IoU",
+    "text": "\\begin equation \n mathrm AP = \\int_ 0 ^ 1 p(r) dr,\n\\end equation \nwhere p(r) denotes precision as a function of recall <<CITE:everingham2010pascal>> . For the present single-class detector, the mean average precision at IoU threshold 0.50 is reported as mAP@0.50, while mAP@0.50:0.95 denotes the mean average precision averaged over IoU thresholds from 0.50 to 0.95 in increments of 0.05.\n\nThe clean-trained results reveal two distinct behavio"
+   },
+   {
+    "at": 37606,
+    "match": "IoU",
+    "text": "ng AP and its mean variants. The stronger drop in mAP@0.50:0.95 compared with mAP@0.50 under severe fog further suggests that fog affects not only target detectability but also localization quality, because the stricter IoU thresholds used in mAP@0.50:0.95 are more sensitive to degraded box alignment. In all three YOLO11 variants, restored images remain consistently above the corresponding foggy images in the clean-trained column, showing "
+   },
+   {
+    "at": 71468,
+    "match": "IoU",
+    "text": "\\midrule\nASM & Atmospheric Scattering Model \\\\\nCAP & Color Attenuation Prior \\\\\nCNN & Convolutional Neural Network \\\\\nDCP & Dark Channel Prior \\\\\nFN & False Negative \\\\\nFP & False Positive \\\\\nIDF1 & Identity F1 Score \\\\\nIoU & Intersection over Union \\\\\nmAP & Mean Average Precision \\\\\nMOTA & Multiple Object Tracking Accuracy \\\\\nPSNR & Peak Signal-to-Noise Ratio \\\\\nSSIM & Structural Similarity Index \\\\\nTP & True Positive \\\\\nUAV & Unmanned Ae"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.21594v1",
+  "read_order": 5,
+  "state": "measured",
+  "n_total": 8,
+  "windows": [
+   {
+    "at": 21822,
+    "match": "overlap",
+    "text": "end equation \n\nwhere S_c measures instance count consistency to ensure the number of predicted objects matches the ground truth, \n S_b evaluates boundary alignment using the boundary F1 score, \n S_u measures the overall overlap between prediction and ground truth via the union IoU, \nand S_f penalizes excessive fragmentation of a single object into multiple small pieces.\n\nThe optimal threshold is then chosen as\n\\[\n\\tau_ \\text obj ^ \\ast = \\arg\\"
+   },
+   {
+    "at": 35570,
+    "match": "mIoU",
+    "text": "re in Fig. \\ref fig:our-result , and object/part flexibility is illustrated in Fig. \\ref fig:object-part .\n\n\\paragraph (i) Cross-method comparison. \nBbM achieves consistently higher mathrm AP _ 50 , mathrm AP _ 75 , and mIoU than appearance-driven baselines, with the largest margins at small K and on texture-poor parts; for mathrm AP _ 50 : 95 , YOLOv11 is slightly higher only at K = 10 , while BbM leads otherwise.\nThese results indicate th"
+   },
+   {
+    "at": 40129,
+    "match": "mIoU",
+    "text": " effective, data-efficient, and flexible for FSIS of industrial parts, especially in the few-shot regime with very few samples.\nFirst, BbM surpasses strong appearance-driven baselines on mathrm AP _ 50 / mathrm AP _ 75 /mIoU under matched splits, with the largest gains precisely where interior cues are weak (texture-poor or color-uniform parts), thereby validating the core premise that \\emph boundaries are the right inductive bias . \nSecond"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.05176v2",
+  "read_order": 6,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 14505,
+    "match": "IoU",
+    "text": "gradation on small objects due to insufficient fine-grained feature representation and limited long-range dependency modeling. Although data augmentation strategies (e.g., copy-paste techniques <<CITE:copy_paste>> ) and IoU-aware loss <<CITE:zhang2022focaleiou,yang2025pinwheel,alpha_iou,tong2023wiseiou>> formulations attempt to mitigate scale imbalance, these approaches primarily operate at the data or optimization level, leaving represent"
+   },
+   {
+    "at": 37740,
+    "match": "IoU",
+    "text": "on Metrics \n\\label subsect4.3:Evaluation Metrics \n\nTo evaluate FSDC-DETR, we report Average Precision (AP) with at most 300 detections per image. Following the standard protocol, AP is computed by averaging results over IoU thresholds from 0.50 to 0.95 with a step size of 0.05. We also report scale-specific AP, i.e., AP _s , AP _m , and AP _l , for small, medium, and large objects, respectively.\n\n\\subsection Main Results \n\\label subsect4.4"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.20238v1",
+  "read_order": 7,
+  "state": "measured",
+  "n_total": 9,
+  "windows": [
+   {
+    "at": 31442,
+    "match": "mIoU",
+    "text": " results adapted form official checkpoint. \n \\begin tabular* \\hsize @ \\extracolsep \\fill lcccccc \n \\toprule\n \\multirow 2 * Method & Pretrained & Pretrained & MFNet & SODA & SCUTSEG & MSRS\\\\ \\cline 4-7 \n & Data & Epoch & mIoU & mIoU & mIoU & mIoU \\\\\n \\midrule\n DeepLab V3+ & -- & -- & 49.80 & 68.73 & 50.46 & 65.20 \\\\\n PSPNet & -- & -- & 45.24 & 68.68 & 48.16 & -- \\\\\n UPerNet & -- & -- & 48.56 & 67.45 & -- & 65.60 \\\\\n SegFormer & -- & -- & 50."
+   },
+   {
+    "at": 44959,
+    "match": "mIoU",
+    "text": " and MSRS, reaching 52.32%, 72.23%, and 75.85%, respectively. Compared with our reproduced UNIV ^ \\dagger baseline, it brings improvements of 1.18, 2.58, and 0.37 points. Meanwhile, IAS (Image-style) obtains the highest mIoU on SODA , achieving 71.07%, with gains of 1.39 points over UNIV ^ \\dagger . Although there is a small performance gap between the official UNIV ^ \\ast checkpoint and our reproduced UNIV ^ \\dagger due to implementation d"
+   },
+   {
+    "at": 53769,
+    "match": "mIoU",
+    "text": "e \n\\end figure \n\n\\noindent textbf Hard Truncation vs.\\ Soft Weighting. \nTable \\ref tab:hardsoft compares hard truncation and soft weighting on infrared semantic segmentation. Soft weighting consistently performs best on mIoU metrics, and we attribute this advantage to the fact that soft weighting preserves informative gradients from all patches while suppressing unreliable ones, which leads to smoother optimization and better performance.\n\n"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.15427v1",
+  "read_order": 8,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 19975,
+    "match": "IoU",
+    "text": "localization, with AP@0.75 values above 0.49, indicating accurate mask boundaries. Antennas (0.221 AP@0.50) and thrusters (0.081 AP@0.50) remain substantially more challenging, with rapid precision degradation at higher IoU thresholds.\n\n% \\subsection Effect of Prompt Engineering \n\n% The prompts in Table \\ref tab:prompts were selected through systematic comparison of 8+ variants per class on the development split. Table \\ref tab:prompt_abla"
+   },
+   {
+    "at": 23980,
+    "match": "IoU",
+    "text": "x \n\\end table \n\nPerformance exhibits a clear scale-dependent asymmetry. Large structural components like spacecraft bodies (0.639 AP@0.5) and solar arrays (0.598 AP@0.5) localize reliably with stable mask quality across IoU thresholds. In contrast, smaller components remain substantially more challenging: antennas (0.221 AP@0.5) and thrusters (0.081 AP@0.5). Performance on the test set closely matches development-split behavior, indicating"
+   },
+   {
+    "at": 31879,
+    "match": "IoU",
+    "text": "aluation.\n\n% \\paragraph Instance-level metrics. \n% Instance segmentation performance is measured using standard instance-level clas-level average precision (AP) and overall mean Average Precision (mAP), each at the 0.50 IoU threshold and averaged across IoU thresholds from 0.50 to 0.95 in increments of 0.05.\n\n% \\paragraph Inference thresholds. \n% Predicted masks are binarized using a fixed mask threshold of 0.40 and filtered with a fixed s"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.30179v1",
+  "read_order": 9,
+  "state": "measured",
+  "n_total": 5,
+  "windows": [
+   {
+    "at": 2159,
+    "match": "mIoU",
+    "text": "filtering, gap-preserving band separation, and validation against the E24 resistor series. Experiments across diverse real-world images show that HiRes achieves a detection mAP\\textsubscript 50 of 0.9906, a segmentation mIoU of 0.8444, and an end-to-end identification accuracy of 85.8% (95% CI: 78.0--91.9%), outperforming the publicly available classical baseline, CVResist, which fails to generalize beyond controlled conditions. In addition"
+   },
+   {
+    "at": 24971,
+    "match": "mIoU",
+    "text": "ative results of the YOLOv8n-based resistor detector on resistor images. \n \\label fig:yolo_results \n\\end figure \n\n\\subsection Band Segmentation \n\\label sec:results_seg \n\nThe segmentation model achieves a best validation mIoU of 0.8444 at epoch 139, with strong performance across most color classes. As shown in Table \\ref tab:segmentation_iou , high IoU scores are obtained for distinct colors such as blue (0.9412) and red (0.9285), while low"
+   },
+   {
+    "at": 26193,
+    "match": "IoU",
+    "text": "ring\n \\scriptsize\n \\setlength \\tabcolsep 2.5pt \n \\renewcommand \\arraystretch 1.05 \n\n \\begin tabular lcccccccccccc \n \\toprule\n Class\n & Blk & Blu & Brn & Gld & Grn & Gry\n & Org & Red & Slv & Vio & Wht & Ylw \\\\\n \\midrule\n IoU\n & 0.9118 & 0.9412 & 0.8964 & 0.9046 & 0.8687 & 0.5635\n & 0.8926 & 0.9285 & 0.6602 & 0.9045 & 0.8351 & 0.8257 \\\\\n \\midrule\n Mean & \\multicolumn 12 c textbf 0.8444 \\\\\n \\bottomrule\n \\end tabular \n\\end table \n\n\\begin figur"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.09115v2",
+  "read_order": 10,
+  "state": "measured",
+  "n_total": 7,
+  "windows": [
+   {
+    "at": 11397,
+    "match": "IoU",
+    "text": "pression \n Object detection models inherently produce multiple overlapping bounding boxes for each object.\nNMS resolves these redundancies by iteratively comparing candidate boxes based on their Intersection over Union (IoU) and suppressing overlaps <<CITE:Bodla2017SoftNMS>> .\nA fundamental property of NMS is that its computational complexity scales super-linearly with the number of candidate boxes N , reaching O(N^2) in the worst case <<C"
+   },
+   {
+    "at": 33385,
+    "match": "IoU",
+    "text": "lained by the interaction between SNN temporal dynamics and NMS suppression behavior.\n% In congested scenes, trigger-induced candidates are spatially distributed across multiple activation peaks, often yielding pairwise IoU values near the suppression threshold \\(\\tau_ \\text nms \\).\n% As a result, each NMS iteration removes only a small fraction of candidates, driving execution toward worst-case \\(O(N^2)\\) behavior.\n\n% Despite this degrada"
+   },
+   {
+    "at": 47596,
+    "match": "IoU",
+    "text": ".\n\\end equation \nThis operation introduces controlled perturbations while maintaining a comparable input scale.\n\nAll perturbed variants are evaluated using a confidence threshold of\n\\(\\tau_ \\text conf =0.25\\) and an NMS IoU threshold of\n\\(\\tau_ \\text nms =0.45\\). If the target class is not detected in a perturbed variant, its confidence score is recorded as zero, imposing a strict penalty on unstable target-class responses.\n\nThe robustness"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.00508v1",
+  "read_order": 11,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 7739,
+    "match": "overlap",
+    "text": "was done in YOLO26, and removed the respective DFL module to directly predict the box extent and center offset.\n\nWe added a small-object fallback to the task-aligned assigner (TAL), ensuring that small objects with zero overlap with any predicted box are still assigned to a box as a training target.\n\nTo allow simultaneous object detection and instance segmentation, we added a layer to predict prototype segmentation masks on half the input imag"
+   },
+   {
+    "at": 13167,
+    "match": "intersection-over-union",
+    "text": "ensembling and test-time augmentation drastically decreased its detection performance.\nWe therefore retained these settings despite their substantially increased inference time.\n\nWe used the mean average precision at an intersection-over-union threshold of 0.1 (mAP@0.1) and the mean over mAP@0.1 to mAP@0.95 in steps of 0.05 (mAP@0.1-0.95) as evaluation metrics. \nIn addition, we report a FROC score, computed as the average sensitivity at false-positive rates o"
+   },
+   {
+    "at": 17202,
+    "match": "IoU",
+    "text": "2; 0.81 vs. 0.67 on VerSe), reflecting its more precise bounding box localization for organs and vertebrae.\n\n\\begin figure [tb]\n\\centering\n\\includegraphics[width=\\textwidth] froc_by_dataset.pdf \n\\caption FROC curves for IoU threshold of 0.1. nnU-Net reaches equal or higher sensitivity than RadYOLO only in the regime of 0.5\u20132 false positives or more per image. \n\\label fig:froc_curves \n\\end figure \n\nFor segmentation, nnU-Net achieves higher "
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.09936v1",
+  "read_order": 12,
+  "state": "measured",
+  "n_total": 5,
+  "windows": [
+   {
+    "at": 26069,
+    "match": "IoU",
+    "text": " <<CITE:ravi2024sam2>> with \\emph per-class text prompts \n(16--20 semantically appropriate object terms per \\husic class;\nfull vocabulary in Appendix \\ref app:segvocab ).\nTraining pseudo-labels use confidence > 0.35 and IoU > 0.80 .\nThe evaluation subset applies stricter thresholds\n( > 0.50 , > 0.88 ) with human review, ensuring reliable\nground truth for model comparison.\nAnnotations stored as COCO-compatible JSON.\nT3 evaluation adopts a \\"
+   },
+   {
+    "at": 36055,
+    "match": "mIoU",
+    "text": "= best trainable model. \n\\label tab:t3_main \n\\setlength \\tabcolsep 4pt \n\\renewcommand \\arraystretch 1.08 \n\\small\n\\begin tabular l c c c c c \n\\toprule\n textbf Model & textbf AP & textbf AP _ 50 & textbf AP _ 75 &\n textbf mIoU & textbf FPS \\\\\n\\midrule\nMask R-CNN <<CITE:he2017maskrcnn>> & 0.267 & 0.472 & 0.276 & 0.629 & 15.4 \\\\\nCascade Mask R-CNN <<CITE:cai2019cascade>> & 0.290 & 0.495 & 0.299 & 0.635 & 12.7 \\\\\n\\midrule\nMask R-CNN + SAM <<CITE"
+   },
+   {
+    "at": 59867,
+    "match": "IoU",
+    "text": "SAM fine-tuning is performed.\nGT-box SAM oracle: SAM ViT-H with ground-truth bounding boxes; no training.\nAll T3 models trained on \\approx 45K pseudo-label annotations\n(Grounding DINO confidence > 0.35 , SAM 2 predicted IoU > 0.80 ).\n\n\n% =============================================================================\n\\section Extended Discussion and Limitations \n\\label app:discussion \n\\begin enumerate [leftmargin=1.8em,itemsep=2pt,topsep=4pt]"
+   }
+  ]
+ },
+ {
+  "arxiv": "2608.04865v1",
+  "read_order": 13,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 32309,
+    "match": "IoU",
+    "text": "ed from a 1 Mpx pretrained model; we then train the EvRT-DETR-B model by initializing it from the trained RT-DETR-B model.\n\n\\noindent textbf Criteria. For evaluation we report the average precision AP <<CITE:coco>> with IoU threshold between 0.5 and 0.95 with steps of 0.05, AP_ 50 with IoU threshold at 0.5, and AP_ 05 with IoU threshold at 0.05.\n\n\\noindent textbf Results. Table \\ref tab:object_results shows the baseline results. YOLOv10 ac"
+   },
+   {
+    "at": 60547,
+    "match": "IoU",
+    "text": "eo stage additionally applies geometric augmentation with probability 0.6 and random erasing with probability 0.4 . All experiments are run on a single NVIDIA A40 GPU.\n\nWe use the average precision AP <<CITE:coco>> with IoU threshold between 0.5 and 0.95 with steps of 0.05, and AP_ 50 with IoU threshold at 0.5 to evaluate the object detection models, as they are the standard metric for object detection <<CITE:yolov10,rvt,coco>> .\n\n\\subsect"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.27585v1",
+  "read_order": 14,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 45495,
+    "match": "IoU",
+    "text": "raining from the experts proficient in zooplankton biology. Annotations were independently reviewed and refined by three additional senior annotators. Quantitative evaluation (\\cref fig: DA (a)) achieves a high pairwise IoU of 0.9008, confirming reliable annotation consistency. After removing unclear images and images with excessive impurities, we finally obtained 5358 images, which constitute ZMIS5K. The actual annotation results are show"
+   },
+   {
+    "at": 59821,
+    "match": "IoU",
+    "text": "on (AP), which is frequently used in a series of instance segmentation models such as Mask R-CNN, as the metric to evaluate model performance, including mAP , AP_ 50 , and AP_ 75 under different Intersection over Union (IoU) thresholds. The AP can be measured by calculating the area under the precision-recall curve.\n\\begin equation \n\\begin aligned \n Precision = \\frac TP TP+FP \n\\end aligned \n\\end equation \n\\begin equation \n\\begin aligned \n "
+   },
+   {
+    "at": 64882,
+    "match": "IoU",
+    "text": "e overall trainable parameters. In summary, ZMIS-SAM enhances the instance segmentation accuracy of zooplankton microscopic images while maintaining a controllable increase in trainable parameters. Notably, under higher IoU thresholds, the model demonstrates more effective instance segmentation performance for zooplankton.\n\\begin table \n\\centering\n\\caption \\label tab: ablation-params The parameter count of each module, where \\dag represent"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.10609v1",
+  "read_order": 15,
+  "state": "measured",
+  "n_total": 4,
+  "windows": [
+   {
+    "at": 21728,
+    "match": "overlap",
+    "text": "oach to process images that are larger than the 512x512 crop size. Specifically, the input image is sliced into 512x512 crops and our finetuned model generates objective predictions on each crop independently. We use an overlap size of 128 on all sides of the crop and average the overlapping objective predictions to mitigate the effects of inference on partially observed cells at crop boundaries. Full-image segmentation masks are then decoded "
+   },
+   {
+    "at": 31684,
+    "match": "IoU",
+    "text": "en matched ground-truth and predicted instances. Ground-truth and predicted masks are matched under a one-to-one constraint using an IoU threshold of 0.5 to determine valid correspondences. SEG is defined as the average IoU over all matched instances, with unmatched ground-truth instances not contributing to the score. This metric emphasizes boundary accuracy and penalizes both under- and over-segmentation. A formula \\ref eq:seg_metric for"
+   },
+   {
+    "at": 33621,
+    "match": "overlap",
+    "text": "d truth and predicted instances form two disjoint node sets. Edges are constructed between overlapping ground-truth and predicted masks and are weighted by their intersection area. The resulting matching maximizes total overlap under a one-to-one constraint, ensuring that each predicted mask is matched to at most one ground-truth mask and vice versa. This is shown below \\ref eq:mma_metric where GT_i and P_i represent the ground truth and predi"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.05649v1",
+  "read_order": 16,
+  "state": "measured",
+  "n_total": 8,
+  "windows": [
+   {
+    "at": 29417,
+    "match": "IoU",
+    "text": "Ov8 <<CITE:jocher2023ultralytics>> as a representative modern object detector. Detections on recovered or vandalized images are matched against detections on the paired clean frame using class agreement and bounding-box IoU. This protocol measures whether recovery restores perception-relevant objects, not merely whether reconstructed pixels look plausible.\n\n\\subsection Quality Assessment Framework \nThroughout the pipeline, we employ compre"
+   },
+   {
+    "at": 34993,
+    "match": "IoU",
+    "text": "ation_examples , where we observe the segmentation model achieving remarkable localization precision for Bottom-top (Figure \\ref fig:iou99 ) and Targeted VOAs (Figure \\ref fig:iou85 ), with mean Intersection over Union (IoU) scores exceeding 85% across all VOA types. Structured VOAs (center-out, top-bottom, bottom-top, targeted) consistently achieve IoU scores above 88%, while random VOAs achieve 82% IoU due to their inherently scattered n"
+   },
+   {
+    "at": 51483,
+    "match": "IoU",
+    "text": "riptsize\n \\setlength \\tabcolsep 3pt \n \\caption Aggregate YOLOv8l detection recovery across 500 tracked image pairs. Clean-frame detections serve as the reference; recovered/vandalized detections are matched by class and IoU > 0.50. \n \\label table:detection_stats \n \\begin tabular |l|c|c|c|c|c| \n \\hline\n textbf Method & textbf TP & textbf FP & textbf FN & textbf Avg. Prec. & textbf Avg. Rec. \\\\\n \\hline\n Unrecovered VOA & 1346 & 193 & 949 & 0"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.00747v1",
+  "read_order": 17,
+  "state": "measured",
+  "n_total": 2,
+  "windows": [
+   {
+    "at": 40488,
+    "match": "IoU",
+    "text": " no warm-starting from the previous round. Models are trained with AdamW (learning rate 2.5 times 10^ -4 , weight decay 1.25 times 10^ -4 ), batch size 24, and standard geometric and photometric augmentations (zoom-out, IoU crop, brightness and contrast jitter). Training runs for up to 100 epochs with early stopping on validation loss (patience 40) to avoid retaining a local optimum. The document-level encoder g (Section \\ref sec:uherding "
+   },
+   {
+    "at": 53078,
+    "match": "overlap",
+    "text": "end figure \n\n This reallocation is directly visible in Figure \\ref fig:coverage_qualitative . Starting from the same initial labeled set ( |L_0|=71 ), CAPA and MaxHerding each select 71 additional samples with near-zero overlap (1 of 71 shared). In the DiT embedding space (a), both strategies achieve comparable coverage ( \\Delta=-0.3% , where \\Delta is the mean Gaussian kernel coverage gain of CAPA over MaxHerding across the pool). In the TSR "
+   }
+  ]
+ },
+ {
+  "arxiv": "2605.15673v1",
+  "read_order": 18,
+  "state": "measured",
+  "n_total": 7,
+  "windows": [
+   {
+    "at": 11542,
+    "match": "overlap",
+    "text": "E under the settings shown in Table \\ref tab:flight_parameters . In Sadayama Forest, aerial imagery was acquired on August 22, 2023, using a Matrice 300 RTK equipped with a Zenmuse L1 <<CITE:Takeshige2025>> . The flight overlap was set to 80% in the forward direction (front overlap) and 80% in the lateral direction (side overlap). The ground sampling distance (GSD) was 2.2 cm, and the flight speed was 5.0 m/s. In Borneo Forest, aerial imagery "
+   },
+   {
+    "at": 17574,
+    "match": "IoU",
+    "text": "set was computed every 5,000 iterations.\n\nThe segmentation mAP used in this study follows the COCO evaluation metric and is defined as the mean of the Average Precision (AP) values computed over Intersection over Union (IoU) thresholds ranging from 0.50 to 0.95 in increments of 0.05. In addition, mAP at IoU = 0.50 and IoU = 0.75 (denoted as mAP50 and mAP75, respectively) were also calculated.\n\nModel selection was based on the segmentation "
+   },
+   {
+    "at": 19136,
+    "match": "overlaps",
+    "text": "se with an IoU of 0.1 or greater were merged, as they were assumed to represent the same tree crown. The merged instance masks were converted into polygons, and an additional post-processing step was performed to remove overlaps between polygons.\n\n\n\\subsection Evaluation of Model Generalization \n\nTo evaluate the generalization performance of the trained model, inference was conducted using datasets that were not used in model development proces"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.08916v1",
+  "read_order": 19,
+  "state": "measured",
+  "n_total": 3,
+  "windows": [
+   {
+    "at": 16559,
+    "match": "IoU",
+    "text": "mploy 2D foundation models, such as Grounding-DINO <<CITE:groundingdino>> and SAM <<CITE:sam>> , to segment per-frame 2D instance masks.\nFollowing previous works <<CITE:sam3d>> , we apply NMS based on the SAM prediction IoU scores to remove redundant masks and merge the remaining masks in each frame into a single coarse segmentation map \\ \\mathbf L ^ mathrm C _t\\ _ t=1 ^ T .\nIn the segmentation map, each pixel is assigned a mask label indi"
+   },
+   {
+    "at": 16909,
+    "match": "IoU",
+    "text": " ^ mathrm C _t\\ _ t=1 ^ T .\nIn the segmentation map, each pixel is assigned a mask label indicating the index of the covering 2D mask. \nWhen a pixel is covered by multiple masks, only the one with the highest prediction IoU score is retained, ensuring non-overlapping masks.\nHowever, coarse segmentation maps often lack multi-view consistency, and 2D-only post-processing can cause fragmented masks to overwrite complete instance masks, leadin"
+   },
+   {
+    "at": 31042,
+    "match": "IoU",
+    "text": "ting semantic labels for each instance.\nFor both settings, we evaluate the results using the widely adopted Average Precision (AP) score. Following the evaluation scheme from ScanNetV2 <<CITE:scannet>> , we report AP at IoU thresholds of 0.25 (AP _ 25 ) and 0.50 (AP _ 50 ), as well as the average AP over IoU thresholds from 0.50 to 0.95 in steps of 0.05 (mAP).\n\n\\noindent textbf Implementation details. \nFollowing recent works <<CITE:open3di"
+   }
+  ]
+ },
+ {
+  "arxiv": "2604.24718v1",
+  "read_order": 20,
+  "state": "measured",
+  "n_total": 12,
+  "windows": [
+   {
+    "at": 19495,
+    "match": "mask overlap",
+    "text": "s whose image-plane projections fall within the mask.\nA Kalman-filtered tracker with a constant-velocity model associates 3D point clusters across frames using a cost function that combines normalised 3D distance and 2D mask overlap (Equation \\ref eq:tracking_cost ), solved via the Hungarian algorithm.\nA two-tier active/dormant track management scheme handles occlusion: dormant tracks continue to propagate Kalman predictions and can be reactivated "
+   },
+   {
+    "at": 66739,
+    "match": "mask overlap",
+    "text": "-animal scenes, individuals may partially occlude one another, degrading the effective visibility of specific body aspects.\nWe quantify inter-animal occlusion using ray-OBB intersection tests in 3D, validated against 2D mask overlap.\n\nFor each visible face, we cast rays from the camera position through a uniform grid of sample points on the face surface.\nEach ray is tested for intersection against all other animals' OBBs using the slab method <<CIT"
+   },
+   {
+    "at": 139137,
+    "match": "IoU",
+    "text": " remained within the relaxed re-identification threshold ( 2 times \\delta_ \\max ) upon reappearance.\n\n\\paragraph Zebras. \nDuring crossover events, individuals passed within one body length of each other, causing 2D mask IoU between crossing animals to momentarily exceed the IoU of the correct track association.\nThe 3D geometric term ( \\lambda_ \\text 3D = 0.7 ) mitigated this: even when 2D masks overlapped substantially, the 3D centroids re"
+   }
+  ]
+ },
+ {
+  "arxiv": "2603.27993v1",
+  "read_order": 21,
+  "state": "measured",
+  "n_total": 9,
+  "windows": [
+   {
+    "at": 28935,
+    "match": "mIoU",
+    "text": "require understanding relationships among multiple objects.\n\n textbf Metrics. \nFollowing common practice in referring image segmentation, we adopt overall Intersection over Union (oIoU) and mean Intersection over Union (mIoU) to evaluate model performance.\noIoU computes the ratio between the total intersection area and the total union area over all samples, reflecting the overall segmentation quality while being sensitive to large objects.\n"
+   },
+   {
+    "at": 34368,
+    "match": "mIoU",
+    "text": "bf Results on RefCOCO. \nOn RefCOCO, PPCR achieves overall better performance than GLaMM across the three splits.\nSpecifically, PPCR improves oIoU by +0.60%, +1.63%, and +0.70% on Val, TestA, and TestB, respectively.\nFor mIoU, PPCR achieves gains of +0.34% on Val and +0.91% on TestA, while showing a slight decrease of 0.03% on TestB.\nThese results suggest that the proposed progressive reasoning strategy improves both overall localization acc"
+   },
+   {
+    "at": 41805,
+    "match": "mIoU",
+    "text": "toprule\n\\multirow 3 * Variant \n& \\multicolumn 6 c RefCOCO \n& \\multicolumn 6 c RefCOCO+ \n& \\multicolumn 4 c RefCOCOg \\\\\n\\cmidrule(lr) 2-7 \\cmidrule(lr) 8-13 \\cmidrule(lr) 14-17 \n& \\multicolumn 3 c oIoU & \\multicolumn 3 c mIoU \n& \\multicolumn 3 c oIoU & \\multicolumn 3 c mIoU \n& \\multicolumn 2 c oIoU & \\multicolumn 2 c mIoU \\\\\n\\cmidrule(lr) 2-4 \\cmidrule(lr) 5-7 \n\\cmidrule(lr) 8-10 \\cmidrule(lr) 11-13 \n\\cmidrule(lr) 14-15 \\cmidrule(lr) 16-17 \n"
+   }
+  ]
+ },
+ {
+  "arxiv": "2606.25324v1",
+  "read_order": 22,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 48132,
+    "match": "IoU",
+    "text": "uracy and efficiency. For accuracy, we use mean Average Precision (mAP), specifically \\text AP _ \\text bbox for bounding boxes, \\text AP _ \\text mask for instance masks, and \\text AP ^\\text 50 and \\text AP ^\\text 75 for IoU thresholds of 0.5 and 0.75, respectively. For efficiency, we measure the Floating-point Operations (FLOPs) and the number of parameters.\n\n\n\\subsection Qualitative Analysis \n\nWe compare the proposed RS4D with other state"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.17340v1",
+  "read_order": 23,
+  "state": "measured",
+  "n_total": 1,
+  "windows": [
+   {
+    "at": 34975,
+    "match": "IoU",
+    "text": "evel visual corruptions <<CITE:hendrycks2019benchmarking>> applied to VOC images, serving as a fine-grained benchmark for robustness under distributional perturbations. We adopt the mean average precision (mAP) at a 0.5 IoU threshold as the evaluation metric. At each session t , after training on data X^t , we evaluate the model on the test sets of all previously seen domains. \n\n\n textbf Implementation Details. \nWe follow the implementatio"
+   }
+  ]
+ },
+ {
+  "arxiv": "2607.16351v1",
+  "read_order": 24,
+  "state": "measured",
+  "n_total": 6,
+  "windows": [
+   {
+    "at": 25328,
+    "match": "IoU",
+    "text": " input is changed.\n\n\\paragraph Raw-reference stability. \nWe measure textbf worker retention and textbf load retention by matching detections in each obfuscated video to detections in the corresponding raw video using an IoU-based criterion. These metrics quantify how well the two detection primitives required for downstream hazard reasoning are preserved under obfuscation. We also measure textbf worker localization jitter and textbf load l"
+   },
+   {
+    "at": 67801,
+    "match": "IoU",
+    "text": "mall\n\\setlength \\tabcolsep 4pt \n\\begin tabular llp 7cm \n\\toprule\n textbf Parameter & textbf Default & textbf Purpose \\\\\n\\midrule\n texttt YOLO_CONF & 0.15 & Detection confidence threshold \\\\\n texttt YOLO_IOU & 0.40 & NMS IoU threshold \\\\\n texttt SUSPENDED_CLEARANCE_RATIO & 0.12 & Minimum clearance to classify load as suspended \\\\\n texttt NEARBY_WORKER_X_EXPANSION & 1.25 & Horizontal search radius ( times load width) \\\\\n texttt ASSUMED_WORKE"
+   },
+   {
+    "at": 79603,
+    "match": "overlap",
+    "text": "s weak or absent, load mislocalization that suppresses suspension inference by shifting the estimated load bottom, entire-crane-as-load confusion that inflates the fall-zone proxy, and depth ambiguity where monocular 2D overlap produces a false hazard despite true depth separation.\n\nThese cases reinforce the interpretation in the main paper: the current system should be viewed as a lightweight relational proxy for privacy-robustness analysis r"
+   }
+  ]
+ }
+]

@@ -1,0 +1,81 @@
+{
+ "tick": 56,
+ "literature": "cv",
+ "instrument": "0.6",
+ "design": "stratum A: census of the 84 candidates; stratum B: 24 of 121 site-bearing papers, drawn by seed before any window was read",
+ "note": "the first rate in this line with BOTH ends measured. X_A is exact; X_B is an extrapolation and carries its Wilson interval through the arithmetic rather than being reported as a point.",
+ "invoking_papers": 205,
+ "candidates": 84,
+ "site_bearing": 121,
+ "rate_now_pct": 41.0,
+ "stratum_A": {
+  "size": 84,
+  "read": 84,
+  "census_complete": true,
+  "non_invokers": 39,
+  "non_invoker_share_pct": 46.4,
+  "class_B_strict": 5,
+  "class_B_weak": 0,
+  "I_NAME": 28,
+  "modes": {
+   "X-OTHER": 8,
+   "X-SCORE": 13,
+   "X-ENGLISH": 13,
+   "X-LOSS": 5
+  },
+  "labels": {
+   "B-SITE": 5,
+   "I-DISC": 6,
+   "I-NAME": 28,
+   "I-USE": 6,
+   "X-ENGLISH": 13,
+   "X-LOSS": 5,
+   "X-OTHER": 8,
+   "X-SCORE": 13
+  }
+ },
+ "stratum_B": {
+  "drawn": 24,
+  "read": 24,
+  "of_class": 121,
+  "non_invokers": 5,
+  "non_invoker_share_pct": 20.8,
+  "ci95_pct": [
+   9.2,
+   40.5
+  ],
+  "modes": {
+   "X-SCORE": 2,
+   "X-OTHER": 1,
+   "X-ENGLISH": 1,
+   "X-LOSS": 1
+  },
+  "labels": {
+   "I-NAME": 4,
+   "I-USE": 15,
+   "X-ENGLISH": 1,
+   "X-LOSS": 1,
+   "X-OTHER": 1,
+   "X-SCORE": 2
+  }
+ },
+ "corrected": {
+  "denominator_corrected_pct": 32.0,
+  "denominator_corrected_ci_pct": [
+   29.1,
+   38.5
+  ],
+  "both_ends_strict_pct": 28.4,
+  "both_ends_strict_ci_pct": [
+   25.8,
+   34.2
+  ],
+  "both_ends_with_weak_pct": 28.4,
+  "X_A_exact": 39,
+  "X_B_point": 25.2,
+  "X_B_ci": [
+   11.1,
+   49.0
+  ]
+ }
+}
