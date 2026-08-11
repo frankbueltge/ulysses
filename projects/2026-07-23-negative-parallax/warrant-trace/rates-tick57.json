@@ -1,0 +1,111 @@
+{
+ "tick": 57,
+ "literature": "cv",
+ "instrument": "0.6",
+ "design": "census of BOTH classes: stratum A 84/84 (tick 56), stratum B 121/121 (tick 56: 24, tick 57: 97). No sampling error enters any figure below.",
+ "corrections_applied": [
+  {
+   "arxiv": "2607.27585v1",
+   "from": "X-SCORE",
+   "to": "I-NAME",
+   "found_by": "AP@50-name check, tick 57"
+  },
+  {
+   "arxiv": "2606.22439v1",
+   "from": "X-OTHER",
+   "to": "I-NAME",
+   "found_by": "AP@50-name check, tick 57 \u2014 the only flag in 39, confirmed by hand"
+  }
+ ],
+ "invoking_papers": 205,
+ "candidates": 84,
+ "site_bearing": 121,
+ "rate_as_landed_pct": 41.0,
+ "stratum_A": {
+  "size": 84,
+  "read": 84,
+  "non_invokers": 38,
+  "class_B_strict": 5,
+  "class_B_weak": 0,
+  "NOT re-read at tick 57": true
+ },
+ "stratum_B": {
+  "size": 121,
+  "read": 121,
+  "census_complete": true,
+  "non_invokers": 25,
+  "non_invoker_share_pct": 20.7,
+  "non_invokers_by_half": {
+   "tick56": 4,
+   "tick57": 21
+  },
+  "tick56_estimate_pct": 20.8,
+  "tick56_ci_pct": [
+   9.2,
+   40.5
+  ],
+  "tick56_X_B_point": 25.2,
+  "tick56_X_B_ci": [
+   11.1,
+   49.0
+  ],
+  "modes": {
+   "X-ENGLISH": 5,
+   "X-SCORE": 13,
+   "X-OTHER": 6,
+   "X-LOSS": 1
+  },
+  "labels": {
+   "I-USE": 79,
+   "X-ENGLISH": 5,
+   "I-NAME": 15,
+   "X-SCORE": 13,
+   "X-OTHER": 6,
+   "I-DISC": 2,
+   "X-LOSS": 1
+  }
+ },
+ "site_validity": {
+  "read": 121,
+  "states": {
+   "real_focus": 80,
+   "invented": 27,
+   "real_nonfocus": 14
+  },
+  "states_pct": {
+   "real_focus": 66.1,
+   "invented": 22.3,
+   "real_nonfocus": 11.6
+  },
+  "invented_by_half": {
+   "tick56": 7,
+   "tick57": 20
+  },
+  "invented_and_invoker": 8,
+  "returned_to_numerator": 7,
+  "withheld_because_it_states_a_threshold": [
+   "2607.05311v1"
+  ],
+  "I_NAME_among_invented_invokers": 7,
+  "tick56_estimate": {
+   "invented_pct": 29.2,
+   "invented_and_invoker_pct": 12.5,
+   "papers_owed_point": 15.1,
+   "papers_owed_ci": [
+    5.3,
+    37.5
+   ]
+  }
+ },
+ "corrected": {
+  "denominator_corrected_pct": 32.4,
+  "both_ends_strict_pct": 28.9,
+  "both_ends_with_weak_pct": 28.9,
+  "with_invented_sites_returned_pct": 33.8,
+  "X_A_exact": 38,
+  "X_B_exact": 25,
+  "returned_exact": 7,
+  "denominator": 142,
+  "interval": "none - every quantity in this fraction is a count"
+ }
+}

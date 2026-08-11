@@ -1,0 +1,25 @@
+{
+ "tick": 57,
+ "status": "POST-HOC - not forecast in the registration",
+ "what_this_is": "a mechanical flag over labels, not a re-reading; a flag is a paper worth re-reading and is not itself a corrected label",
+ "hand_table": "handread-tick56.csv",
+ "stratum": "A",
+ "rows_in_stratum": 84,
+ "tested_non_invokers": 39,
+ "no_source": [],
+ "flagged": 1,
+ "clean": 38,
+ "flag_rate_pct": 2.6,
+ "detail": [
+  {
+   "arxiv": "2606.22439v1",
+   "landed_label": "X-OTHER",
+   "live_hits": 2,
+   "lines": [
+    "The YOLO26n (nano) variant was selected because it balances accuracy, segmentation quality, and edge deployability within a single architecture. With only $\\sim$2.4\\,M parameters and $\\sim$6.5\\,GFLOPs",
+    "Fig.~\\ref{fig:fig12} shows YOLO26n training over 300 epochs. All losses converge monotonically without train--validation divergence. Detection: precision and recall $>$0.90 by epoch 100; mAP@50(B) $\\a"
+   ]
+  }
+ ],
+ "calibration": "the same test over the 44 site-bearing non-invoker readings of ticks 56-57 flagged 3, and all 3 were confirmed by hand as I-NAME: 2604.01907v2, 2604.19609v1, 2607.27585v1"
+}

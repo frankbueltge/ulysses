@@ -1,0 +1,75 @@
+### t56 #1 2607.01759v1 | label=I-USE | tick56 note: site_real=yes | sites=7
+   S1 '0.5'     'IoU threshold of 0.5'
+   S2 '0.5'     'IoU > 0.5'
+   S3 '0.5'     'IoU <0.5'
+   S4 '0.1'     'IoU < 0.1'
+   S5 '0.5'     'IoU > 0.5'
+   S6 '0.5'     'IoU <0.5'
+### t56 #2 2607.21032v1 | label=X-LOSS | tick56 note: site_real=NO - the site runs from the term across the gap to `_i=1` | sites=1
+   S1 '1'       'intersection over union (IoU) loss function to supervise the saliency prediction maps left \\ \\boldsymbol '
+### t56 #3 2607.01983v1 | label=I-USE | tick56 note: site_real=yes | sites=2
+   S1 '0.5'     'IoU =0.5'
+   S2 '0.7'     'IoU = 0.7'
+### t56 #4 2607.05467v1 | label=I-USE | tick56 note: site_real=yes | sites=1
+   S1 '0.50'    'IoU thresholds from 0.50'
+### t56 #5 2606.21594v1 | label=I-NAME | tick56 note: site_real=NO - the site is the reported value mIoU=0.92 | sites=1
+   S1 '0.92'    'mIoU=0.92'
+### t56 #6 2607.05176v2 | label=I-USE | tick56 note: site_real=yes | sites=1
+   S1 '0.50'    'IoU thresholds from 0.50'
+### t56 #7 2607.20238v1 | label=I-NAME | tick56 note: site_real=NO - the sites are reported mIoU gains | sites=2
+   S1 '1.39'    'mIoU on SODA , achieving 71.07%, with gains of 1.39'
+   S2 '0.89'    'mIoU and mAcc, reaching 50.82% and 62.51%, with gains of 0.89'
+### t56 #8 2606.15427v1 | label=I-USE | tick56 note: site_real=yes | sites=2
+   S1 '0.5'     'IoU thresholds from 0.5'
+   S2 '0.50'    'IoU threshold and averaged across IoU thresholds from 0.50'
+### t56 #9 2606.30179v1 | label=I-NAME | tick56 note: site_real=NO - the sites are reported mIoU values | sites=2
+   S1 '85.8'    'mIoU of 0.8444, and an end-to-end identification accuracy of 85.8%'
+   S2 '0.8444'  'mIoU of 0.8444'
+### t56 #10 2607.09115v2 | label=I-NAME | tick56 note: site_real=yes but non-focus: the site is the NMS threshold tau_nms = 0 | sites=1
+   S1 '0.45'    'IoU threshold of \\(\\tau_ \\text nms =0.45'
+### t56 #11 2608.00508v1 | label=I-USE | tick56 note: site_real=yes, non-focus: the criterion applied at 0.1 | sites=4
+   S1 '0.1'     'intersection-over-union (IoU) thresholds from 0.1'
+   S2 '0.1'     'IoU of 0.1'
+   S3 '0.1'     'intersection-over-union threshold of 0.1'
+   S4 '0.1'     'IoU threshold of 0.1'
+### t56 #12 2605.09936v1 | label=I-USE | tick56 note: site_real=yes, non-focus | sites=2
+   S1 '0.80'    'IoU > 0.80'
+   S2 '0.80'    'IoU > 0.80'
+### t56 #13 2608.04865v1 | label=I-USE | tick56 note: site_real=yes | sites=5
+   S1 '0.05'    'IoU threshold between 0.5 and 0.95 with steps of 0.05'
+   S2 '0.5'     'IoU threshold at 0.5'
+   S3 '0.05'    'IoU threshold at 0.05'
+   S4 '0.05'    'IoU threshold between 0.5 and 0.95 with steps of 0.05'
+   S5 '0.5'     'IoU threshold at 0.5'
+### t56 #14 2607.27585v1 | label=X-SCORE | tick56 note: site_real=NO - the site is a reported inter-annotator agreement | sites=1
+   S1 '0.9008'  'IoU of 0.9008'
+### t56 #15 2604.10609v1 | label=I-USE | tick56 note: site_real=yes | sites=2
+   S1 '128'     'overlap size of 128'
+   S2 '0.5'     'IoU threshold of 0.5'
+### t56 #16 2607.05649v1 | label=I-USE | tick56 note: site_real=yes; other sites are reported IoU scores above 85% | sites=4
+   S1 '85'      'IoU) scores exceeding 85%'
+   S2 '88'      'IoU scores above 88%'
+   S3 '0.50'    'IoU > 0.50'
+   S4 '0.50'    'IoU > 0.50'
+### t56 #17 2607.00747v1 | label=X-ENGLISH | tick56 note: site_real=NO - the word overlap beside an unrelated count | sites=1
+   S1 '71'      'overlap (1 of 71'
+### t56 #18 2605.15673v1 | label=I-USE | tick56 note: site_real=yes; another site is the flight overlap of 80% | sites=5
+   S1 '80'      'overlap was set to 80%'
+   S2 '80'      'overlap was set to 80%'
+   S3 '0.50'    'IoU) thresholds ranging from 0.50'
+   S4 '0.50'    'IoU = 0.50'
+   S5 '0.1'     'IoU) was calculated between overlapping instances, and those with an IoU of 0.1'
+### t56 #19 2604.08916v1 | label=I-USE | tick56 note: site_real=yes | sites=2
+   S1 '0.25'    'IoU thresholds of 0.25'
+   S2 '0.50'    'IoU thresholds from 0.50'
+### t56 #20 2604.24718v1 | label=X-OTHER | tick56 note: site_real=yes, non-focus: a tracking-association threshold | sites=2
+   S1 '0.15'    'mask overlap falls below a threshold \\theta_ \\text IoU = 0.15'
+   S2 '0.15'    'IoU (M_d, M_\\tau) < \\theta_ \\text IoU = 0.15'
+### t56 #21 2603.27993v1 | label=X-SCORE | tick56 note: site_real=NO - the site is a reported mIoU gain | sites=1
+   S1 '0.03'    'mIoU, PPCR achieves gains of +0.34% on Val and +0.91% on TestA, while showing a slight decrease of 0.03%'
+### t56 #22 2606.25324v1 | label=I-USE | tick56 note: site_real=yes | sites=1
+   S1 '0.5'     'IoU thresholds of 0.5'
+### t56 #23 2607.17340v1 | label=I-USE | tick56 note: site_real=yes | sites=1
+   S1 '0.5'     '0.5 IoU threshold'
+### t56 #24 2607.16351v1 | label=I-USE | tick56 note: site_real=yes, non-focus | sites=1
+   S1 '0.40'    'IoU threshold of 0.40'

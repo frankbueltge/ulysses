@@ -1,0 +1,98 @@
+stratum,read_order,arxiv,label,invoker,site_state,states_threshold,sites,fragment,note
+B,1,2603.26541v1,I-USE,1,site_real=yes,no,1,IoU (mIoU) and instance-level average precision (AP) at IoU thresholds of 25%,site_real=yes - AP at IoU thresholds of 25/50/75 %; the sieve caught the 25 and the same match names 50
+B,2,2607.13452v1,I-USE,1,site_real=yes,no,6,IoU thresholds from 0.50,site_real=yes
+B,3,2604.20395v2,I-USE,1,site_real=yes,no,8,IoU > 0.5,site_real=yes - mask recall at IoU > 0.5
+B,4,2607.03915v2,I-USE,1,site_real=yes,no,2,IoU threshold is 0.50,site_real=yes
+B,5,2604.02032v1,I-NAME,1,"site_real=yes, non-focus",no,2,bounding-box overlap (IoU > 0.1,"site_real=yes, non-focus - sites are an occlusion proxy at IoU>0.1; the criterion enters only as AP@0.5 in a name"
+B,6,2607.05978v1,I-USE,1,site_real=yes,no,5,IoU > 0.5,"site_real=yes - IoU > 0.5 throughout, as the matching criterion"
+B,7,2604.17856v1,I-USE,1,site_real=yes,no,3,IoU threshold of 0.50,site_real=yes - one site is `overlap of 200` pixels between crops and is invented; the 0.50 site is real
+B,8,2605.26370v1,I-USE,1,site_real=yes,no,6,IoU thresholds of 0.5,site_real=yes - one site is a reported mean IoU of 0.67 for another method
+B,9,2608.04423v1,X-SCORE,0,site_real=NO,no,3,IoU of 0.910,"site_real=NO - three sites, all reported values; IoU is the quality number, no threshold role"
+B,10,2604.01907v2,I-NAME,1,site_real=NO,no,1,overlap of 50,site_real=NO - `overlap of 50 frames` between clips. The paper NEVER writes IoU and reports AP_25/AP_50 tables: the criterion is wholly absorbed into the name. Corrected from a first reading of X-ENGLISH by the AP@50-name check
+B,11,2606.12826v1,X-SCORE,0,site_real=NO,no,6,mIoU _ mathrm ins of 70.25%,site_real=NO - sites are reported mIoU_ins percentages
+B,12,2606.30795v1,I-USE,1,site_real=yes,no,2,IoU threshold of 0.5,site_real=yes
+B,13,2603.25993v1,I-USE,1,site_real=yes,no,3,IoU) thresholds of 25%,site_real=yes - AP at IoU thresholds of 25 % and 50 %
+B,14,2607.29222v1,X-SCORE,0,site_real=NO,no,1,IoU of 0.89,site_real=NO - the site is a reported enclosing-box IoU of 0.89
+B,15,2607.09583v1,I-USE,1,site_real=yes,no,2,IoU) thresholds from 0.50,site_real=yes
+B,16,2606.30875v1,I-USE,1,site_real=yes,no,4,IoU) >0.5,site_real=yes - IoU>0.5 defines TP in the paper's own equation
+B,17,2607.01708v1,X-SCORE,0,site_real=NO,no,5,mIoU = \frac 1 N \sum_ i=1,"site_real=NO - five sites: three reported mIoU values, two where the gap ran from the term into `\frac 1 N \sum_ i=1`"
+B,18,2607.03795v1,I-USE,1,site_real=yes,no,3,IoU=0.5,site_real=yes
+B,19,2607.01827v1,I-USE,1,site_real=yes,no,7,IoU=0.5,site_real=yes - table headers IoU=0.3/0.5/0.7 for 3D mAP
+B,20,2608.01302v1,I-USE,1,site_real=yes,no,2,IoU > 0.5,site_real=yes - boxes matched at class-agnostic IoU > 0.5
+B,21,2603.20074v1,I-USE,1,site_real=yes,no,1,IoU thresholds of 0.50,site_real=yes
+B,22,2608.05858v1,I-USE,1,site_real=yes,no,9,IoU of at least 0.5,site_real=yes - Match_50 defined as IoU of at least 0.5; other sites are reported mean IoU values
+B,23,2608.01348v2,I-USE,1,site_real=yes,no,1,IoU thresholds ranging from 0.50,site_real=yes
+B,24,2607.03810v1,X-OTHER,0,"site_real=yes, non-focus",no,2,IoU threshold of 0.6,"site_real=yes, non-focus - the real site is an NMS threshold of 0.6; the paper's metric is mIoU. Second site is `mIoU is achieved at an input resolution of 640` and is invented"
+B,25,2607.02371v1,I-USE,1,"site_real=yes, non-focus",no,2,intersection-over-union (IoU) of 0.3,"site_real=yes, non-focus - sites are NMS at 0.3 and tracking at 0.4; the paper DOES state `mAP at IoU 0.50` and the sieve missed it — an apposition with no relation token"
+B,26,2603.28297v1,X-SCORE,0,site_real=NO,no,13,mIoU of 89.04%,"site_real=NO - thirteen sites, all reported mIoU percentages"
+B,27,2606.01549v1,I-USE,1,site_real=yes,no,1,IoU) with a ground-truth instance exceeds 0.5,site_real=yes
+B,28,2607.04330v1,I-USE,1,site_real=yes,no,1,IoU) threshold of 0.5,site_real=yes
+B,29,2605.07415v2,I-USE,1,site_real=yes,no,3,"IoU between predicted boxes and ground-truth boxes, and consider a pair eligible if mathrm IoU > 0.5",site_real=yes
+B,30,2605.31284v1,X-OTHER,0,site_real=yes,no,1,overlap higher than 0.5,site_real=yes - a real threshold AT 0.5 in another role: masks overlapping a neighbour above 0.5 are discarded. The paper's metric is the Dice score
+B,31,2604.05347v1,I-USE,1,site_real=yes,no,3,IoU) thresholds ranging from 50 %,site_real=yes
+B,32,2607.07192v1,I-USE,1,site_real=yes,no,1,IoU threshold of 0.5,site_real=yes
+B,33,2606.08014v1,I-USE,1,site_real=yes,no,2,IoU) thresholds of 50%,site_real=yes - AP@50 and AP@25; a second site is NMS at 0.5
+B,34,2607.00338v1,I-USE,1,site_real=yes,no,1,IoU=0.50,site_real=yes
+B,35,2607.08191v1,I-USE,1,site_real=yes,no,1,IoU threshold of 0.5,site_real=yes
+B,36,2606.31015v1,I-USE,1,site_real=yes,no,2,IoU=0.50,site_real=yes
+B,37,2606.08206v2,I-USE,1,site_real=yes,no,2,IoU is at least 0.5,site_real=yes
+B,38,2607.20263v1,I-USE,1,site_real=yes,no,5,IoU=0.5,site_real=yes - a coarse evidence criterion at 0.15 stands beside the mAP50 statement
+B,39,2607.25455v1,I-USE,1,site_real=yes,no,2,"IoU (Intersection over Union), and mAP from 50%",site_real=yes
+B,40,2607.04587v1,I-USE,1,site_real=yes,no,1,IoU= 0.5,site_real=yes
+B,41,2606.31157v1,I-USE,1,site_real=yes,no,3,intersection-over-union threshold of 0.50,site_real=yes - two of three sites are invented — a reported mIoU and a table header — and the third is real
+B,42,2607.25239v1,X-OTHER,0,"site_real=yes, non-focus",no,2,IoU threshold of 0.02,"site_real=yes, non-focus - an identity-association gate at IoU > 0.02, not the correctness criterion"
+B,43,2606.16414v1,X-SCORE,0,site_real=NO,no,2,mIoU of 72.47%,site_real=NO - both sites are reported mIoU percentages
+B,44,2603.19926v1,I-USE,1,site_real=yes,no,2,IoU thresholds from 50%,site_real=yes
+B,45,2605.20436v2,X-SCORE,0,site_real=NO,no,31,IoU from 0.235,"site_real=NO - THIRTY-ONE sites, every one of them a reported IoU value or a hyperparameter sweep. The only mAP50 in the file is inside `%`-commented table rows"
+B,46,2603.12759v1,X-ENGLISH,0,site_real=NO,no,1,overlap ratio to r=0.5,site_real=NO - `overlap ratio to r=0.5` between panoramic viewpoints
+B,47,2607.20947v1,I-USE,1,site_real=yes,no,12,IoU =0.5,"site_real=yes - AP for car at IoU=0.5, pedestrian and cyclist at 0.25"
+B,48,2605.29505v1,I-USE,1,site_real=yes,no,2,IoU) thresholds---typically from 0.5,site_real=yes
+B,49,2606.25312v2,I-NAME,1,site_real=yes,no,1,IoU threshold of 0.5,"site_real=yes - the only site is NMS at 0.5, real; the correctness threshold is stated nowhere and the metric is each benchmark's `primary metric` mAP"
+B,50,2603.12624v1,I-USE,1,site_real=yes,no,2,IoU thresholds from 0.50,site_real=yes
+B,51,2608.02495v1,I-USE,1,site_real=yes,no,2,IoU threshold uniformly set to 0.5,site_real=yes
+B,52,2605.26095v2,I-USE,1,site_real=yes,no,4,IoU thresholds of 0.50,site_real=yes - the paper's own criterion is at 0.1; the 0.50 site is a FUTURE-WORK sentence recommending mask AP at 0.50 and 0.75
+B,53,2607.18700v1,I-NAME,1,site_real=yes,no,1,IoU threshold of 0.5,"site_real=yes - greedy NMS at IoU 0.5, real; the competition metric is mAP and no correctness threshold is stated"
+B,54,2606.27491v1,I-USE,1,site_real=yes,no,4,IoU threshold of 0.50,site_real=yes
+B,55,2605.24533v1,X-SCORE,0,site_real=NO,no,5,mIoU of 38.5%,"site_real=NO - five sites, all reported occ-mIoU values and one gate hyperparameter"
+B,56,2607.15041v1,X-SCORE,0,site_real=NO,no,2,IoU^ rank _i right \ ^ 10 _ i=1,site_real=NO - both sites ran from the term into `\sum_ i=1`; IoU is a mask-consistency score
+B,57,2607.27058v1,I-USE,1,site_real=yes,no,1,IoU threshold of 0.5,site_real=yes
+B,58,2604.19609v1,I-NAME,1,site_real=NO,no,2,"mIoU (%) , xmode=log, log basis x=10","site_real=NO - both sites are pgfplots AXIS OPTIONS (`ylabel= mIoU (%) , xmode=log, log basis x=10`). The paper reports 82.7 mAP50 in live text: an invoker whose threshold is wholly in the name. Corrected from a first reading of X-SCORE by the AP@50-name check"
+B,59,2604.18549v1,X-SCORE,0,site_real=NO,no,1,mIoU of 48.3,site_real=NO - the site is a reported mIoU of 48.3
+B,60,2607.14560v1,I-USE,1,site_real=yes,no,1,IoU threshold of 0.5,site_real=yes
+B,61,2606.07394v1,I-USE,1,site_real=yes,no,2,IoU thresholds from 0.50,site_real=yes - one site ran into a summation index; the other states 0.50 to 0.95
+B,62,2606.10107v1,I-USE,1,site_real=yes,no,2,IoU strictly greater than 0.5,site_real=yes - a metrics paper that computes AP@50 as a baseline against its own measure
+B,63,2605.17584v1,I-NAME,1,"site_real=yes, non-focus",no,4,IoU threshold of \tau = 0.6,"site_real=yes, non-focus - sites are box-stabilisation thresholds at 0.6/0.7; the reported metric is mAP_50 and the number is nowhere stated"
+B,64,2607.28007v1,I-NAME,1,"site_real=yes, non-focus",no,1,IoU thresholds of 0.7,"site_real=yes, non-focus - the site is the RPN assignment threshold 0.7/0.3; validation mAP is the metric and the correctness number is not stated"
+B,65,2605.13152v1,I-USE,1,site_real=yes,no,2,IoU thresholds of 25%,site_real=yes - AP@25 and AP@50; a second site filters candidates at 60 %
+B,66,2608.01906v1,I-USE,1,"site_real=yes, non-focus",no,1,IoU) larger than 0.75,"site_real=yes, non-focus - the criterion applied at 0.75 (AP^75); no site at 0.5"
+B,67,2607.02636v1,I-USE,1,site_real=yes,no,7,IoU thresholds of 0.50,site_real=yes
+B,68,2605.05616v1,X-ENGLISH,0,site_real=NO,no,1,"overlap DSC values are much lower, and several difficult bone pairs fall below 60%",site_real=NO - projection overlap of hand bones; the number is a DSC value
+B,69,2607.19036v1,I-USE,1,site_real=yes,no,1,IoU) thresholds of 0.5,site_real=yes
+B,70,2607.13891v1,I-USE,1,site_real=yes,no,2,IoU threshold of 0.5,site_real=yes - AP under point-wise IoU thresholds of 0.3 and 0.5
+B,71,2604.22838v1,X-ENGLISH,0,site_real=NO,no,1,"overlap between certain classes, resulting in lower accuracies of 87.79%","site_real=NO - overlap between feature clusters, and the number is an accuracy"
+B,72,2604.21313v1,I-USE,1,site_real=yes,no,2,IoU threshold of 0.5,site_real=yes - the first site is a flight overlap of 75 % and is invented
+B,73,2606.03748v1,I-NAME,1,site_real=yes,no,1,IoU < 0.5,site_real=yes - IoU < 0.5 filters pseudo-labels — a real threshold in another role. Reported metrics are COCO mAP and DOTA mAP with no correctness number stated
+B,74,2607.12959v1,I-USE,1,site_real=yes,no,4,IoU = 0.5,site_real=yes
+B,75,2607.05311v1,I-DISC,1,site_real=NO,yes,2,IoU values range from 0,site_real=NO - a survey. Both sites are invented — `IoU values range from 0` and a `\sum` — AND the paper states the threshold in the same sentence the sieve broke: `with a threshold of 0.5 typically adopted for positive detection assignment`. states_threshold=yes: it does NOT return to the numerator
+B,76,2607.16671v1,I-USE,1,"site_real=yes, non-focus",no,1,IoU threshold of 75%,"site_real=yes, non-focus - Recall@100 at a stricter IoU threshold of 75 %"
+B,77,2604.17920v1,I-USE,1,site_real=yes,no,9,"IoU =t , \end equation where T is the set of IoU thresholds from 0.5",site_real=yes - five of nine sites are reported mean IoU values; the COCO protocol sentence is real
+B,78,2607.00357v1,X-SCORE,0,site_real=NO,no,4,mIoU ( \uparrow ) & \multicolumn 4 c F1-score ( \uparrow ) \\ Algorithms & N =1,site_real=NO - all four sites are table headers `mIoU ( \uparrow ) & ... N =1`
+B,79,2607.25736v1,I-USE,1,site_real=yes,no,1,intersection-over-union (IoU) score of 0.5,site_real=yes
+B,80,2608.05356v1,X-OTHER,0,"site_real=yes, non-focus",no,9,IoU above 0.05,"site_real=yes, non-focus - cross-epoch association gates at 0.05/0.10/0.30; the reported metrics are accuracy, macro F1 and macro IoU"
+B,81,2608.03385v1,I-USE,1,site_real=yes,no,1,IoU threshold of 0.5,site_real=yes
+B,82,2607.08076v1,I-USE,1,site_real=yes,no,2,IoU of 0.50,site_real=yes
+B,83,2605.11300v1,X-SCORE,0,site_real=NO,no,1,mIoU (SS) of 50.9,site_real=NO - the site is a reported mIoU (SS) of 50.9
+B,84,2608.03370v1,I-USE,1,site_real=yes,no,2,IoU threshold of 0.5,site_real=yes
+B,85,2606.31834v1,I-USE,1,site_real=yes,no,2,0.5 IoU threshold,site_real=yes - mAP at 0.5 IoU threshold; a second site is an `O2M NMS IoU threshold` whose value the gap read as 2
+B,86,2607.23576v1,I-DISC,1,site_real=yes,no,2,IoU=0.50,site_real=yes - a survey: the metric table defines mAP at a fixed IoU=0.50 without applying it to data of its own
+B,87,2607.03589v2,I-USE,1,site_real=yes,no,1,75 denote IoU threshold,site_real=yes - `subscripts 50 and 75 denote IoU thresholds`
+B,88,2606.10769v1,I-NAME,1,site_real=yes,no,2,IoU \(\tau_ \text nms =0.50,"site_real=yes - the real site is HBB-NMS at 0.50; the reported metric is mAP_0.50:0.95 and AP50, with the correctness number stated nowhere"
+B,89,2607.05148v2,I-USE,1,site_real=yes,no,1,IoU thresholds from 0.50,site_real=yes
+B,90,2606.26743v2,I-USE,1,site_real=yes,no,2,IoU thresholds of 0.3,site_real=yes
+B,91,2607.08004v1,I-USE,1,site_real=yes,no,2,IoU threshold of 0.5,site_real=yes
+B,92,2605.29429v2,X-OTHER,0,site_real=yes,no,1,IoU > 0.5,site_real=yes - NMS at IoU > 0.5 — a real threshold at the focus value in another role; the paper's metrics are AJI and Dice
+B,93,2603.16241v1,I-NAME,1,site_real=NO,no,2,"IoU, we selected conf=0.5","site_real=NO - the gap ran from the term across a comma into `conf=0.5`: `IoU, we selected conf=0.5`. The paper's own metric is IoU@0.5, an absorbed name, and it states no threshold: states_threshold=no, so it RETURNS to the numerator"
+B,94,2607.18779v1,X-ENGLISH,0,site_real=NO,no,2,overlap of 80%,site_real=NO - front and side flight overlaps of 80 % and 75 %
+B,95,2607.17778v1,I-USE,1,site_real=yes,no,3,mask overlap thresholds—50% and 25%—and averaged across IoU thresholds from 0.5,site_real=yes
+B,96,2606.31373v1,I-USE,1,site_real=yes,no,1,IoU) threshold of 0.5,site_real=yes
+B,97,2603.25165v2,I-USE,1,site_real=yes,no,1,"IoU thresholds, while AP averages scores from 50%",site_real=yes - AP_25 and AP_50 at 25 % and 50 % IoU thresholds
