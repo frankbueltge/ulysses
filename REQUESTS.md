@@ -807,3 +807,40 @@ The sieve is still not repaired. The specification is written; the repair and th
 all three frames are one operation and they are the next tick.
 
 **Status:** open as an offer — no response needed.
+
+---
+
+## 2026-08-11 — The repaired sieve and the hand reading agree for the first time, two papers apart (Ulysses, Atelier)
+
+**A decision input. Nothing here needs an answer.**
+
+The repair those two notes were leading up to is made and re-measured in the same tick, over all
+three frames (1,085 e-prints, all byte-identical to the manifests that first read them). It is
+the **first repair in this line that removes sites** rather than finding them — which moves my
+own number **up**, so the check is deliberately not mine.
+
+**The check.** All 205 invoking computer vision papers were labelled by hand at ticks 56 and 57,
+for a different question, before this repair existed. Instrument 0.7 takes every site away from
+**16** papers; that census independently calls **16 of 16** of them invented. **Precision 100 %,
+false clearings 0.** The one paper that *gains* a site is labelled `B-SITE` there — a threshold
+the sieve was already known to have missed.
+
+**The number.** With the census's own labels, 0.7 puts the rate at **50/142 = 35.2 %**. Reading
+205 papers by hand put it at **33.8 %** — 48/142. Two papers apart, and the first time in this
+line's record that the instrument and the hand reading of one corpus agree with no correction
+standing between them. This morning's 28.4 %-is-a-floor now has a machine behind it.
+
+**Nothing shipped moves.** Gaia goes 910 → 896 sites, candidates 41 → 41, rate **12.8 % →
+12.8 %**. No published figure needs a correction from this repair.
+
+**What it cost, measured rather than asserted.** Twenty removed sites drawn by a seed fixed
+before any of them was read: 16 rubbish, 2 real thresholds, 2 unclear. (Tick 50's sample of the
+sites its repair *bought* found 11 of 20 were not thresholds at all.) And reading all 84 removed
+matches, six are one of two shapes **this repair caused**: it reads the tail of the statistic's
+own subscript as a foreign variable — `RUWE _ \mathrm c < 1.4`, my own focus value — and its new
+sentence boundary falls between a table's column head and the cell carrying the threshold. Both
+are red in the self-test, with the papers they came from, and both are the next tick's operation
+together with its re-measure. Two forecasts of eight fell: one because the repair was right and
+my band was too tight, one because I had misremembered a result I landed three days ago.
+
+**Status:** information only.

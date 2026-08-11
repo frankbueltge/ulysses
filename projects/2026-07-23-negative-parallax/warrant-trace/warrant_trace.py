@@ -66,6 +66,32 @@ term, for a paper that misspells it). Two are DECLINED and named as unreached: a
 that is an expression falling back to the value, and an mcmc miss whose term and number
 stand in different sentences — for which tick 53's name, "the gap bound is shorter than the
 sentence", is wrong and is corrected in `../PREREGISTRATION-tick55.md` §1.
+
+0.7 (tick 58, 2026-08-11) is the first repair in this instrument's record that REMOVES sites
+rather than finding them, and it is specified against the first hand census of the sieve's
+own output: at ticks 56 and 57 all 121 site-bearing papers of the computer vision frame were
+read, and 27 of them have no site that is a threshold statement at all — the sieve invented
+every one. Two repairs are here in the engine and two are in the profile.
+
+E6, the bound relation. A comparison sign binds to the token on its left, and where that
+token is neither the statistic nor a word standing for its value, the comparison is not
+about the statistic: `IoU, we selected conf=0.5` is a confidence threshold, `\sum_ i=1` is a
+summation index, `log basis x=10` is a plot option, and `Algorithms & N =1` is a table
+column. E7, the gap runs into a formula or across a table row: a row break and a big-operator
+macro are sentence boundaries of the same kind as the full stop the gap already respects.
+
+The direction matters and is stated rather than left to be noticed. 0.5 and 0.6 repaired
+faults that understated sites, which is the direction that flattered this line's claim; 0.7
+removes sites, which returns papers to the candidate class and moves the same claim UP. That
+is why its check is not a self-test but a census read before it existed, and why a sample of
+the sites it removes is hand-read at tick 58 (`../PREREGISTRATION-tick58.md` §2).
+
+DECLINED at 0.7 and named as unreached: the reported value read as a rule, in general — `an
+IoU of 0.910` and `an IoU of 0.50` differ in what the sentence is doing, not in any property
+a regex can hold, and the sieve's job is to make hand-reading finite rather than to replace
+it. What is repaired is the one form with a mechanical property, in the profile (P-C, the
+mean). Also declined: the criterion that lives wholly in a metric name (`AP_50`, `mAP@50`),
+which needs a second detector and would change what the instrument measures.
 """
 import argparse
 import csv
@@ -79,7 +105,7 @@ import tarfile
 import time
 import urllib.request
 
-VERSION = "warrant-trace 0.6 (2026-08-10)"
+VERSION = "warrant-trace 0.7 (2026-08-11)"
 
 # 0.5, the repair of the seven faults pinned at tick 47 by hand-reading 36 papers the
 # sieve had filed as "invokes the statistic, states no threshold" — 8 of which state one.
@@ -120,7 +146,59 @@ VERSION = "warrant-trace 0.6 (2026-08-10)"
 # measurement this line has published — a `%`-commented line can now be traversed into the
 # line below it, and the number of new sites whose window carries an unescaped `%` is
 # reported at tick 55 rather than estimated.
-GAP = r"(?:<<[^<>\n]*>>|\n(?![ \t]*\n)|[^.;:\n]|\.(?=\d)){0,100}?"
+# 0.7, E7. The gap has always treated four characters as sentence boundaries and, since 0.6,
+# the blank line as the paragraph break. Two boundaries of exactly that kind were missing, and
+# the tick-57 census pinned both: the table row break `\\`, and the macro that opens a
+# formula. `mIoU ( \uparrow ) & \multicolumn 4 c F1-score ( \uparrow ) \\ Algorithms & N =1`
+# is four sites in one paper, every one of them a table header read as a threshold; `mIoU =
+# \frac 1 N \sum_ i=1` is a definition of the metric read as a rule about it. A summation
+# index is not a threshold, and the row of a table is not the sentence of the row above it.
+# The guard runs at every step of the repetition, so the bound of 100 is unchanged and no
+# match that never reaches a formula behaves differently than it did under 0.6.
+STOP = r"\\\\|\\(?:frac|sum|prod|int|multicolumn|hline|midrule|toprule|bottomrule|begin|end)\b"
+GAP = r"(?:(?!" + STOP + r")(?:<<[^<>\n]*>>|\n(?![ \t]*\n)|[^.;:\n]|\.(?=\d))){0,100}?"
+
+# 0.7, E6, and the vocabulary its two escapes are made of. A sign relation binds to the token
+# on its left. Where that token is the statistic itself the site is the statistic's; where it
+# is a relation word (`a limit of > 1.4`, the fragment 0.5 was repaired to admit) the sign
+# stands in prose; where it is one of the nouns below, the token stands FOR the statistic's
+# value and the comparison is still about it (`the RUWE cut < 1.4`). Anything else — `conf`,
+# `i`, `c`, `x`, `N`, `improvements` — carries its own number, not the statistic's.
+VALUE_NOUN = re.compile(r"^(?:thresholds?|criteri(?:on|a)|cut|cuts|cutoffs?|limits?|bounds?|"
+                        r"values?|maximum|minimum|max|min)$", re.I)
+# And the bound that keeps E6 to the shape it was pinned on, fixed by the fixtures and not
+# chosen: the tokens the census pinned are SYMBOLS — `i`, `c`, `x`, `N`, `r`, `conf`, `xmin`,
+# `xmode` — a variable in a formula, a column of a table, an option of a plot. A longer word
+# beside a statistic's name is prose, and prose there is usually the statistic's own
+# apposition: `a RUWE internal Gaia single star solution quality index <1.2` is a threshold,
+# and the FIRST draft of E6 removed it. That case is not invented — it is G8 of
+# `selftest-0.6.py`, pinned to a paper by the tick-53 census and landed as a repair — and it
+# failed while this file was being written, which is what part B of a self-test is for. So the
+# bound is the longest pinned symbol (4) and no longer, by the rule tick 50 used for the gap:
+# the smallest bound that admits every pinned fragment. A digit anywhere in the token makes it
+# a symbol whatever its length.
+# A second condition, and it was found the same way as the first — by a control failing. A
+# 60-paper smoke run of the gaia frame, made to test the re-measure script before the corpus
+# was complete, removed `RUWE as < 1.4`: a plain threshold whose preceding token is the
+# two-letter English word `as`, which the width bound alone calls a symbol. The typographic
+# fact that separates them is how the sign is set: a variable carries its comparison
+# attached — `conf=0.5`, `i=1`, `x=10`, `xmin=8`, `r=0.5` — while prose puts a space on both
+# sides of it. Every fragment the census pinned is attached or a single character (`N =1`);
+# `as < 1.4` and `quality index <1.2` are neither. So E6 needs both conditions, and what it
+# gives up by needing them is stated: `RUWE selection … sigma _ pi <0.4` stays a site under
+# 0.7, wrongly, because the parallax variable is spaced away from its own sign.
+SYMBOL_WIDTH = 4
+
+
+def symbolic(tok, attached):
+    """A token that reads as a variable rather than as a word — see the two notes above."""
+    if len(tok) > SYMBOL_WIDTH and not any(ch.isdigit() for ch in tok):
+        return False
+    return attached or len(tok) == 1
+# The second escape, and it is the one that keeps a real threshold written with a symbol:
+# `IoU thresholds % \tau=0.50` binds `=` to `tau`, which is no noun of any list, and the
+# site survives because the criterion is named in the matched string itself.
+CRITERION = re.compile(r"thresholds?|criteri(?:on|a)|cut-?offs?", re.I)
 
 # 0.6, and the other half of two pinned faults. A site pattern joined the relation to its
 # number with `\s*`, so `greater than THE 1.4 level` (G6) and a table row whose cells are
@@ -275,6 +353,10 @@ class Profile:
         self.window = int(d.get("window", 420))
         term, rel = d["term"], d.get("rel", "")
         self.term_re = re.compile(term)
+        # 0.7: the relation vocabulary compiled as well as expanded. E6 has to ask whether the
+        # token before a sign is a relation word, and the profile is the only place that knows
+        # which words this literature's authors use for one.
+        self.rel_re = re.compile(rel) if rel else None
         # 0.5: `{GAP}` expands to the module's gap expression, so the bound that decides
         # how far a site may reach lives in ONE place and a profile cannot quietly carry a
         # different one. A profile written against 0.4 keeps its literal `[^.;:\n]{0,50}?`
@@ -296,6 +378,18 @@ class Profile:
         self.match_flags = {}
         for name, spec in d.get("match_flags", {}).items():
             self.match_flags[name] = re.compile(spec["pattern"], re.I)
+        # 0.7: a site the profile declares is not one. The engine's own repairs (E6, E7) are
+        # about how a sentence is built and hold in any literature; this is for the shapes only
+        # a reader of one literature can name — and it stays in the profile for the reason the
+        # instrument was generalised at all, so that what is known about a field is visible
+        # beside the field rather than compiled into the sieve. Each entry rejects a matched
+        # string its `pattern` hits, UNLESS its `unless` hits the same string.
+        self.site_rejects = []
+        for spec in d.get("site_rejects", []):
+            self.site_rejects.append((spec.get("name", "reject"),
+                                      re.compile(spec["pattern"], re.I),
+                                      re.compile(spec["unless"], re.I) if spec.get("unless")
+                                      else None))
         self.flag_names = list(self.flags) + list(self.match_flags)
         # 0.2: the value this profile is actually about. A profile names a threshold;
         # the corpus-wide counts answer "how many values are in use", and this answers
@@ -329,13 +423,77 @@ class Profile:
             return hashlib.sha256(fh.read()).hexdigest()
 
 
+VGAP_TAIL = re.compile(r"[\s&]*(?:\b(?:the|an?)\s+)?[\s&]*$", re.I)
+TRAILING_ID = re.compile(r"([A-Za-z][A-Za-z0-9]*)$")
+
+
+def bound_elsewhere(m, prof):
+    """0.7, E6 — does the sign that carries this value belong to some other token?
+
+    The site patterns end `{REL}{VGAP}(value)`, so the text of the match up to the value's
+    own group is the term, the gap and the relation. If that text ends in `=`, `<` or `>`,
+    the sign has a token immediately to its left, and the question is whose comparison it is.
+
+    Four ways it is the statistic's, and they are checked in this order: the token is the
+    statistic (`RUWE < 1.4`); the token is a relation word of this literature (`a limit of >
+    1.4`, the fragment 0.5 was repaired to admit and which must not be lost here); the token
+    stands for the statistic's value (`the RUWE cut < 1.4`); or the criterion is named
+    somewhere in the matched string (`IoU thresholds % \\tau=0.50`). Anything else and the
+    number belongs to `conf`, to a summation index, to a plot option or to a table column.
+
+    Returns True when the site should be dropped. It errs towards KEEPING: no sign, no
+    identifier before the sign, or a value group that cannot be located all return False.
+    """
+    gi = next((i for i, g in enumerate(m.groups(), 1) if g), None)
+    if gi is None:
+        return False
+    pre = m.group(0)[:m.start(gi) - m.start()]
+    pre = VGAP_TAIL.sub("", pre)
+    if not pre or pre[-1] not in "=<>":
+        return False
+    head = pre[:-1]
+    attached = not head.endswith(" ")
+    if not attached:                            # at most one space between token and sign
+        head = head[:-1]
+    idm = TRAILING_ID.search(head)
+    if not idm:
+        return False
+    tok = idm.group(1)
+    if not symbolic(tok, attached):
+        return False
+    if any(mm.end() == len(head) for mm in prof.term_re.finditer(head)):
+        return False
+    if prof.rel_re and any(mm.end() == len(head) for mm in prof.rel_re.finditer(head)):
+        return False
+    if VALUE_NOUN.match(tok):
+        return False
+    return not CRITERION.search(m.group(0))
+
+
+def rejected_by_profile(m, prof):
+    """0.7 — the profile's own declared non-sites; returns the rule's name or None."""
+    s = m.group(0)
+    for name, pat, unless in prof.site_rejects:
+        if pat.search(s) and not (unless and unless.search(s)):
+            return name
+    return None
+
+
 def sites(text, prof):
-    """Every use site of the statistic, with its window classified by the profile."""
+    """Every use site of the statistic, with its window classified by the profile.
+
+    0.7: a match that E6 or a profile rule rejects is dropped BEFORE the 40-character
+    dedup key is claimed, so a rejected match cannot block a later pattern from finding a
+    real site in the same place. That order is the reason `IoU thresholds % \\tau=0.50`
+    behaves the same whichever pattern reaches it first.
+    """
     out, seen = [], set()
     for pat in prof.site_res:
         for m in pat.finditer(text):
             key = m.start() // 40
             if key in seen:
+                continue
+            if bound_elsewhere(m, prof) or rejected_by_profile(m, prof):
                 continue
             seen.add(key)
             s, e = max(0, m.start() - prof.window), min(len(text), m.end() + prof.window)
