@@ -31,6 +31,7 @@ import importlib.util
 import json
 import os
 import sys
+from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -48,6 +49,29 @@ run_measure, site_key, verify_sha = _t50.run_measure, _t50.site_key, _t50.verify
 
 LANDED = os.path.join(HERE, "remeasure-tick50.json")
 CENSUS = os.path.join(HERE, "handread-census-tick53.csv")
+
+
+def match_key(s):
+    """A site's identity across two instrument versions — the 0.6 replacement for `site_key`.
+
+    Tick 50's `site_key` anchors on the window's last sixty characters, on the argument that
+    "the number stands at the END of every site pattern, so the text after it does not move
+    when the gap widens". That is true of a repair that widens a gap. It is false of a repair
+    that MOVES TEXT — and E3 moves every footnote body to the end of the paper, so in any
+    paper with footnotes the windows shift and the same site is counted once as lost and once
+    as gained.
+
+    It is not a small effect and it was not predicted: measured against this key, **113 of
+    the 249 sites the tail key called new already existed under 0.5, with the same value and
+    the same matched string**. Both keys are computed and both are reported; this one is the
+    headline, because a site whose value and matched string are unchanged is the same site
+    however its window moved.
+
+    Its own weakness, stated: two genuinely distinct sites in one paper that carry the same
+    value and the same matched string collapse into one, which undercounts a difference. That
+    is the safer direction for a script whose job is to size a repair's effect.
+    """
+    return (str(s.get("value")), " ".join(s.get("match", "").split()))
 
 
 def class_b_ids():
@@ -125,23 +149,30 @@ def main():
 
             rows5 = {r["arxiv"]: r for r in r5["rows"]}
             gained = lost = marker_in_match = pct_in_window = 0
+            tail_gained = tail_lost = 0
             papers_gained, papers_lost = [], []
             for row6 in r6["rows"]:
                 aid = row6["arxiv"]
                 if row6.get("state") == "no_source":
                     continue
                 row5 = rows5.get(aid, {})
-                k5 = {site_key(s) for s in row5.get("sites", [])}
-                k6 = {site_key(s) for s in row6.get("sites", [])}
+                k5 = Counter(match_key(s) for s in row5.get("sites", []))
+                k6 = Counter(match_key(s) for s in row6.get("sites", []))
                 new, gone = k6 - k5, k5 - k6
-                gained += len(new)
-                lost += len(gone)
+                gained += sum(new.values())
+                lost += sum(gone.values())
+                # tick 50's key, kept beside it so the two are comparable and the size of its
+                # window-shift artefact is on the record rather than in a sentence
+                t5 = {site_key(s) for s in row5.get("sites", [])}
+                t6 = {site_key(s) for s in row6.get("sites", [])}
+                tail_gained += len(t6 - t5)
+                tail_lost += len(t5 - t6)
                 if new:
                     papers_gained.append(aid)
                 if gone:
                     papers_lost.append(aid)
                 for s in row6.get("sites", []):
-                    if site_key(s) not in new:
+                    if match_key(s) not in new:
                         continue
                     match = s.get("match", "")
                     win = s.get("window", "")
@@ -160,6 +191,8 @@ def main():
 
             entry = {"corpus": key, "profile": pid, "v0_5": a, "v0_6": b,
                      "sites_gained": gained, "sites_lost": lost,
+                     "sites_gained_tick50_tail_key": tail_gained,
+                     "sites_lost_tick50_tail_key": tail_lost,
                      "papers_gaining_a_site": len(papers_gained),
                      "papers_losing_a_site": len(papers_lost),
                      "new_sites_with_marker_in_match": marker_in_match,
