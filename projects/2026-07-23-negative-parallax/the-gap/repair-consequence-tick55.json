@@ -1,0 +1,33 @@
+{
+ "tick": 55,
+ "instrument_now": "warrant-trace 0.6 (2026-08-10)",
+ "instrument_at_tick_54": {
+  "warrant_trace.py": "d334f5d8774a38ae088f3aa174fad9a5cbe54fdc5ddb04ca844d096070bf26d6",
+  "profiles/ruwe-1.4.json": "02e0dc871449658adf48984acbb1f8ad56d8832926c3b58a0ad7f44fc99558ac",
+  "profiles/rhat-1.1.json": "eadd19a4fb1f3f7ceefdd004f706fc8c479441033a73be482949ed82d78fd47a",
+  "faults-tick53.py": "d6bef4628bb83968a4d81936f396079850b7e554a24ac34bf334464b77809cca"
+ },
+ "arxiv": "2312.03162",
+ "positions": 28,
+ "blind_positions_at_tick_54": [
+  77,
+  86,
+  89,
+  94,
+  101,
+  106,
+  115,
+  123,
+  129
+ ],
+ "blind_positions_now": [],
+ "blind_at_tick_54": 9,
+ "blind_now": 0,
+ "paper_own_break_position": 94,
+ "paper_own_break_still_blinds": false,
+ "landed_untouched": {
+  "states-tick54.json": "88cacda071908cb66f25d25f07cc56ddb257bfae72770a1d9550945d2a33c706",
+  "sketch-v1.html": "de27ca24335193e357d68eca547ed76f3beff8532619f1f51794c779512e0d70",
+  "faults-tick53.py": "d6bef4628bb83968a4d81936f396079850b7e554a24ac34bf334464b77809cca"
+ }
+}

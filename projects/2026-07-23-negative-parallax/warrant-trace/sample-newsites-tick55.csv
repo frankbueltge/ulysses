@@ -1,0 +1,21 @@
+n,corpus,profile,arxiv,value,marker_in_match,percent_in_window,is_threshold_statement,reading
+1,gaia,uwe-1.25,2206.00604,1.8,0,0,1,"'We reject the high-RUWE ($\chi_3>1.8$) third-light source when a more reliable primary parallax exists' - a rejection criterion with its value, written in the paper's own notation for the statistic."
+2,gaia,uwe-1.25,2501.14462,2,0,1,0,"FALSE SITE, and the cost E4 named: the match runs through a LaTeX COMMENT line and attaches a threshold on a different quantity (IPDfmp > 2) to RUWE."
+3,cv,iou-0.5,2605.20436v2,0.7,0,1,0,"'mIoU (0.6382) is achieved at \lambda_sup = 0.7' - 0.7 is a hyperparameter of the method, not an IoU threshold."
+4,gaia,uwe-1.25,2209.04210,5,0,1,0,FALSE SITE: 'the ruwe evaluates the quality of the 5-parameter solution' - the 5 is the number of astrometric parameters. The real threshold (1.4) stands in the next clause and is not what matched.
+5,gaia,ruwe-1.4,2111.03887,1.4,0,0,1,"the G6 fixture paper: 'greater than the 1.4 level that may indicate a resolved double' - the pinned fault, repaired, found in the corpus."
+6,cv,iou-0.5,2605.20436v2,0.7,0,1,0,"a second occurrence of the same hyperparameter site as 03, in the same paper and profile."
+7,gaia,uwe-1.25,2203.03659,1,0,0,0,"'assuming that the peak is at RUWE = 1' - where the distribution peaks, not a rule."
+8,gaia,ruwe-1.4,2501.14462,2,0,1,0,"the same LaTeX-comment false site as 02, read under the second Gaia profile."
+9,gaia,ruwe-1.4,2106.08128,1.4,0,1,1,'as well as RUWE < 1.4 to eliminate a few extreme outliers in that parameter' - a cut the paper imposes.
+10,gaia,ruwe-1.4,2206.05411,1.05,0,0,0,"'five stars have RUWE > 1.64, while the other eight stars have RUWE > 1.05' - reported values of individual stars."
+11,gaia,uwe-1.25,2505.10123,1.09,0,0,0,'reports values of ... RUWE = 1.09 and RUWE = 1.11' - reported values; the threshold named in the next sentence is not what matched.
+12,gaia,uwe-1.25,2403.04592,1.4,0,1,1,figure caption 'Host stars with Gaia DR3 RUWE values > 1.4 as green stars' - the value selects what is plotted.
+13,gaia,uwe-1.25,2511.02539,1.4,0,0,1,'the Gaia single-star astrometric solution is not necessarily accurate (when ruwe > 1.4)' - an interpretive rule with its value.
+14,gaia,ruwe-1.4,2210.03725,1.4,0,1,1,"'RUWE measurements being smaller than the 1.4 threshold (i.e., 1.14 and 1.20)' - the word threshold is the paper's own."
+15,gaia,uwe-1.25,2603.00229,1.4,0,0,1,"'If the Gaia DR3 catalog reported a RUWE value in excess of 1.4, we take that as an indication of unmodeled binary motion' - a criterion."
+16,gaia,ruwe-1.4,2206.00604,1.8,0,0,1,"'Blue dot is used when both sources have reliable low-RUWE ($\chi_{1,3}<1.8$) solutions' - a criterion, here for the colour coding of a figure."
+17,gaia,uwe-1.25,2511.15610,1.4,1,0,1,'stars with RUWE (<<CITE>>) > 1.4 were classified as potential binary' - a threshold whose citation stands IN the gap: the E2 repair working in the corpus.
+18,gaia,ruwe-1.4,2206.00604,2.5,0,0,0,"'all resolved pairs with rho < 0.5 arcsec have excessive RUWE chi > 2.5' - a described property of a set, not a rule imposed."
+19,gaia,uwe-1.25,2409.16993,2.7,0,1,0,'is at least above the 2.7-sigma significance level' - 2.7 is a sigma level on a different quantity.
+20,cv,iou-0.5,2608.05858v1,1,0,1,0,a TikZ axis option list inside a figure; the 1 is a tick position.
