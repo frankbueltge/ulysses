@@ -46,7 +46,40 @@ work_line:
     declined as a programme, T7 named for the exposition. Argued in full:
     `THE-SECOND-WORK-2026-08-10.md`. First increment: `the-gap/sketch-v1.html`, tick 54.
     The work_intention above is unchanged and stands; this is its concrete target.
-  refrain_aspect: territory  # tick 57 (2026-08-11) — the **third end of the fraction**, read whole.
+  refrain_aspect: territory  # tick 58 (2026-08-11) — the repair the census specified, **and its price**,
+    # in one tick, per the rule tick 50 set. Instrument **0.7**: the first repair in this line's record
+    # that TAKES SITES AWAY. Four fault classes were named at tick 57; two are repaired in the engine
+    # (E6 the bound relation — a comparison sign binds to the token on its left, so `conf=0.5`, `x=10`,
+    # `\sum_ i=1` and `Algorithms & N =1` are not the statistic's; E7 the gap runs into a formula or
+    # across a table row), one in the profile (P-C the mean: `mIoU` is an average over classes and
+    # cannot be a per-detection criterion), one ADDS sites (P-A the apposition: `mAP at IoU 0.50`), and
+    # one is **declined and named** — the reported value read as a rule in general, which differs from a
+    # criterion in what the sentence does and not in anything a regex holds.
+    # **OUTWARD** (0 inward in the last 4, 55–58): 1,085 e-prints re-fetched, **599 + 229 + 256
+    # byte-identical, 0 differ** (D0); D11, the reproduction check, finds 0.6 re-run today identical to
+    # every field tick 55 landed — so every difference is the instrument.
+    # **The check is not mine.** All 205 invoking computer vision papers carry a hand label from ticks
+    # 56/57, read before this repair existed. 0.7 clears **16** papers and the census independently
+    # calls **16 of 16 invented**: precision **100 %**, **false clearings 0**. The single paper that
+    # gains a site is labelled `B-SITE` there — a threshold the sieve was known to have missed.
+    # **cv: 344 → 280 sites, candidates 84 → 99, rate 41.0 → 48.3 %.** With the census's own labels the
+    # corrected rate is **50/142 = 35.2 %**, against **33.8 %** computed by reading 205 papers by hand —
+    # **two papers apart**. First time in this line that instrument and hand reading agree with no
+    # correction between them. gaia is unmoved (910 → 896 sites, 41 candidates, 12.8 %), so nothing
+    # shipped needs a correction from this repair.
+    # **The price, drawn by seed 58 before any removed window was read:** of 20 removed sites, 16 no,
+    # 2 yes, 2 unclear — against tick 50's sample of BOUGHT sites, where 11 of 20 were not thresholds.
+    # **And 0.7 causes two faults of its own**, pinned in six of the 84 removed matches and left for the
+    # next tick with their re-measure: **N4** the subscripted statistic (`RUWE _ \mathrm c < 1.4` at the
+    # focus value; `IoU _ 3 \mathrm D > 0.20`) and **N5** the table column head and its cell
+    # (`IoU\\ > 0.50`). Both are red in `selftest-0.7.py` part D.
+    # **Two defeats. D6**: mcmc candidates 20 → **22** against band [20,21] — and the repair is right,
+    # both papers being proofs where `\hat R` is an orthogonal matrix, not Gelman–Rubin's statistic.
+    # **D8**: P8 forecast 13 of 13 class-B papers still found; **0.6 itself only ever found 11** —
+    # a misremembering of a landed result, scored as fixed. Of the 11, 0.7 keeps 11.
+    # Six forecasts hold. Five topoi **not used**, logged as unused. Pre-opening check ran: no work
+    # opening owed or available.
+  refrain_aspect_tick57: territory  # tick 57 (2026-08-11) — the **third end of the fraction**, read whole.
     # Tick 56 measured two ends of a rate and found a third it could only bracket: its own sieve's
     # sites, 7 of 24 of which state no threshold at all. That bracket is why it wrote **28.4 % is a
     # lower bound, not an answer**. This tick reads the remaining **97** site-bearing papers, so
