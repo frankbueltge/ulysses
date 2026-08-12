@@ -76,8 +76,25 @@ jobs:
           # its own check is not a gate. It could not weaken the check in the same run that
           # uses it — Gate 4 runs MAIN's validator against the branch tree — but it could land
           # a weakening in one run and use it in the next.
-          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|encounters/|docs/research-notes/|tools/|\.github/workflows/|REQUESTS\.md$|PROTOCOL\.md$)'
-          PROTECT_RE='^(README\.md|LICENSE\.md|SITE-API\.md|governance/|works/|site-prs/|archive/|tools/validate_v4_projects\.py$|\.github/workflows/research-auto-land\.yml$)|(^|/)PUBLICATION\.json$'
+          #
+          # Opened 2026-08-12 (Frank): `archive/**` and `REQUESTS-ARCHIVE.md`. Protocol v6
+          # ORDERS a line to rotate its older record into `archive/trace/`, and this gate
+          # forbade it from writing there — a rule written without checking it could be obeyed.
+          # The rotations sat in pull requests nobody merged, so the archived half of the
+          # record was on no branch main could see and the site's readers went weaker on a
+          # record they could no longer reach. Here, blocking an archive write is what loses
+          # record: the writes themselves were pure additions.
+          #
+          # Frank chose the wide form over an add-only carve-out, knowing the trade: the
+          # practice can now also rewrite what it archived, `archive/governance/` and
+          # `archive/protocols/` included — the record of what its own rules used to be. Two
+          # things stand against that, neither of them a merge queue. §5 still requires a human
+          # for "irreversible deletion or migration" on whatever path it happens; and every
+          # archive write that is not an addition is REPORTED (Gate 6 below) into the summary
+          # and into the feedback file the next session reads at orientation. Delegated, and
+          # auditable — a delegation nobody can see the use of is indistinguishable from none.
+          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|encounters/|archive/|docs/research-notes/|tools/|\.github/workflows/|REQUESTS\.md$|REQUESTS-ARCHIVE\.md$|PROTOCOL\.md$)'
+          PROTECT_RE='^(README\.md|LICENSE\.md|SITE-API\.md|governance/|works/|site-prs/|tools/validate_v4_projects\.py$|\.github/workflows/research-auto-land\.yml$)|(^|/)PUBLICATION\.json$'
           # A step that reaches for a repository secret is the one thing a session must not
           # grant itself: the whole reason Actions is privileged is that the credentials live
           # there. Code that READS a credential out of its environment is fine and expected
@@ -95,6 +112,12 @@ jobs:
           # report: a whole session of 2026-08-08 never reached main and nothing told it, because
           # the two outcomes that turn this job red were the two it never wrote down.
           failures=""
+          # A REPORT is neither: the branch landed and nothing objected. It exists because
+          # `archive/**` was delegated whole on 2026-08-12 and a delegation whose use leaves no
+          # trace cannot be reviewed later. Only writes that could remove record are reported,
+          # never ordinary rotation — a report on every addition would be noise, and noise is
+          # how a report stops being read.
+          reports=""
           note() {
             echo "outcome $1 $2"
             summary="${summary}| \`$1\` | $2 |"$'\n'
@@ -106,6 +129,9 @@ jobs:
           fail() {
             note "$1" "$2"
             failures="${failures}- \`$1\` — $2: $3"$'\n'
+          }
+          report() {
+            reports="${reports}- \`$1\` — $2"$'\n'
           }
 
           for b in $(git branch -r | sed 's/^[* ] *//' | grep -E '^origin/(ulysses|claude)/' || true); do
@@ -155,6 +181,16 @@ jobs:
               echo "::endgroup::"; continue
             fi
 
+            # Gate 6 — the one that does not refuse. `archive/**` is the practice's own since
+            # 2026-08-12, so rotation lands unattended; but a write there that DELETES, MODIFIES
+            # or RENAMES is the one shape that can make record disappear, and §5's human hand on
+            # "irreversible deletion or migration" survives the path change. Naming it here is
+            # what makes that clause checkable after the fact instead of merely written down.
+            # Read BEFORE the merge, reported only if the branch actually lands: `origin/main`
+            # moves under our feet on the push, and a refused branch has nothing to report.
+            rewritten="$(git diff --name-status --diff-filter=DMR "origin/main...$b" -- 'archive/' \
+                          | head -5 | tr '\n' ' ' || true)"
+
             # Gate 4+5: validate the branch TREE with MAIN's validator (tools/ is a
             # protected path, so the validator cannot be altered by the branch itself).
             worktree="$(mktemp -d)/wt"
@@ -186,6 +222,11 @@ jobs:
             if git merge --no-edit "$b"; then
               if git push origin main && git push origin --delete "$name"; then
                 landed=$((landed+1)); note "$name" landed
+                # An `if`, not `[ … ] && …`: under `set -e` the short form is a statement whose
+                # false case ends the job, and the false case here is every ordinary landing.
+                if [ -n "$rewritten" ]; then
+                  report "$name" "landed, and archive/ was not only added to: $rewritten"
+                fi
               else
                 failed=$((failed+1)); fail "$name" push_failed "the merge succeeded locally but main could not be pushed; the branch is untouched and will be retried on the next run"
                 git reset --hard origin/main   # never build later merges on an unpushed state
@@ -199,7 +240,7 @@ jobs:
 
           # Feed refusals back to the practice (non-fatal): the next session reads
           # atelier-feedback/ during orientation. Refused branches stay untouched.
-          if [ -n "$refusals$failures" ]; then
+          if [ -n "$refusals$failures$reports" ]; then
             DATE=$(date -u +%F)
             git checkout main >/dev/null 2>&1 || true
             git reset --hard origin/main
@@ -218,6 +259,15 @@ jobs:
                 printf 'These branches were eligible and the gate did not object. They did not land\n'
                 printf 'because the merge or the push broke, which turns this job red. Nothing about\n'
                 printf 'them was judged; the record is still on the branch and still recoverable.\n\n%s\n' "$failures"
+              fi
+              if [ -n "$reports" ]; then
+                printf '## Noted — landed, and worth seeing\n\n'
+                printf 'Neither a refusal nor a failure: these branches landed and the gate did not\n'
+                printf 'object. `archive/**` became yours on 2026-08-12, and rotation into it needs no\n'
+                printf 'human — but a write there that deletes, modifies or renames is the one shape\n'
+                printf 'that can make record disappear, and §5 still asks a human about irreversible\n'
+                printf 'deletion whatever path it happens on. Nothing is being asked of you here. If a\n'
+                printf 'line below is a surprise, that is the point of writing it down.\n\n%s\n' "$reports"
               fi
             } > "atelier-feedback/${DATE}-autoland-refusals.md"
             git add atelier-feedback && git commit -m "feedback: auto-land refusals ${DATE}" \

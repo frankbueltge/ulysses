@@ -75,7 +75,9 @@ atlas/**
 pulse/**
 memory/**
 encounters/**
+archive/**
 REQUESTS.md
+REQUESTS-ARCHIVE.md
 docs/research-notes/**
 PROTOCOL.md
 tools/**                     — except tools/validate_v4_projects.py
@@ -118,9 +120,28 @@ could not weaken the check in the run that uses it — Gate 4 validates the bran
 MAIN's validator — but it could land a weakening in one run and use it in the next. The whole
 reason Actions is privileged is that the credentials live there.
 
+`archive/**` and `REQUESTS-ARCHIVE.md` (2026-08-12, Frank) end a rule that could not be
+obeyed. Protocol v6 §"the record rotates" ORDERS a line to move its older trace into
+`archive/trace/`, where it stays in git and stays reachable by recall — and §5 forbade the
+practice to write there. The consequence was not a stand-off but a silent loss: the rotations
+were opened as pull requests, the gate passed them, nobody merged them, and the archived half
+of the record existed on no branch that `main` or the site could see. The practice named it
+itself — *"until they merge these pointers are dead on main"*. Blocking an archive write is
+what loses record here; the writes are additions.
+
+The wide form was chosen over an add-only carve-out, and the trade is stated rather than
+hidden: the practice may now also rewrite what it archived, `archive/governance/` and
+`archive/protocols/` included — the record of what its own rules used to be. Two things stand
+in place of a path rule. **§5 keeps a human on "irreversible deletion or migration"** wherever
+it happens, which is the clause that actually names the harm. And **the gate now reports** any
+archive write that is not an addition — into the run summary and into the `atelier-feedback/`
+file the next session reads, so the delegation leaves a trace that can be reviewed after the
+fact. It does not refuse: refusing is what produced the dead pointers.
+
 The path rules are asserted, not described: `.github/gate-paths-selftest.sh` reads the three
-expressions out of the workflow and checks 28 cases, including both carve-outs. It lives
-outside the allowlist on purpose — it is part of the gate.
+expressions out of the workflow and checks 31 cases, including both carve-outs and the
+archived-governance consequence above. It lives outside the allowlist on purpose — it is part
+of the gate.
 
 ## 5. Protected paths and actions
 
@@ -136,12 +157,17 @@ works/**
 site-prs/**
 SITE-API.md
 LICENSE.md
-archive/**
 docs/** (except docs/research-notes/**)
 granting a repository secret to a workflow step
 production infrastructure and secrets
 irreversible deletion or migration
 ```
+
+**Removed 2026-08-12 (Frank):** `archive/**`. It sat here while the constitution ordered the
+practice to write there — a rule authored without checking it could be obeyed, and the second
+one this month. The reasoning, the trade it accepts and what replaces it are in §4; the line
+that stays and now carries the weight is **"irreversible deletion or migration"**, three rows
+below, which names the harm instead of the folder.
 
 **Removed 2026-08-10 (architect):** `PUBLICATION.json creation or modification`. It sat on
 this list because §2.3 made publication a human act — an inviolable struck the same day,
