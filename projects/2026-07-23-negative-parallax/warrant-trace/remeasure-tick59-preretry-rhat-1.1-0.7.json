@@ -1,0 +1,3578 @@
+{
+ "report": {
+  "instrument": "warrant-trace 0.7 (2026-08-11)",
+  "profile": {
+   "id": "rhat-1.1",
+   "path": "rhat-1.1.json",
+   "sha256": "227788a5dec212a2e0c24ff0c3e62309f322f4e8630ac6ea904680cd632dd194",
+   "statistic": "R-hat, the potential scale reduction factor \u2014 the between/within-chain convergence diagnostic of an iterative simulation, published under three names in the same literature (R-hat, PSRF, the Gelman-Rubin statistic)",
+   "deriving_document": "Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A. & Rubin, D. B., 'Bayesian Data Analysis', 3rd ed. (2013), section 11.5 'Stopping the simulations', read at source 2026-08-05 in the authors' free electronic edition: 'We recommend computing the potential scale reduction for all scalar estimands of interest; if R-hat is not near 1 for all of them, continue the simulation runs (perhaps altering the simulation algorithm itself to make the simulations more efficient, as described in the next section). The condition of R-hat being \u2018near\u2019 1 depends on the problem at hand, but we generally have been satisfied with setting 1.1 as a threshold.' The number is a reading stated inside a textbook section and hedged in the same sentence; the same book applies it as a criterion in its own worked examples ('R-hat < 1.1 for all parameters')."
+  },
+  "comments_stripped": false,
+  "frame": 230,
+  "papers": 221,
+  "papers_no_source": 9,
+  "no_source_ids": [
+   "2607.06805v1",
+   "2607.04976v1",
+   "2607.02000v1",
+   "2606.28251v1",
+   "2606.01489v1",
+   "2605.30623v1",
+   "2605.29196v1",
+   "2605.24847v2",
+   "2605.18728v1"
+  ],
+  "papers_mentioning": 49,
+  "papers_with_site": 27,
+  "sites": 87,
+  "distinct_values": 21,
+  "distinct_values_numeric": 19,
+  "value_counts": {
+   "1.05": 17,
+   "1.01": 31,
+   "1": 6,
+   "1.07": 1,
+   "1.04": 1,
+   "2.49": 1,
+   "5.53": 1,
+   "1.36": 1,
+   "1.13": 1,
+   "1.90": 1,
+   "1.02": 1,
+   "1.1": 10,
+   "1.049": 1,
+   "1.3": 1,
+   "1.10": 2,
+   "0.05": 4,
+   "1.003": 2,
+   "1.29": 1,
+   "1.00": 1,
+   "1.002": 2,
+   "2.46": 1
+  },
+  "flag_site_counts": {
+   "cite_software": 6,
+   "as_rhat": 85,
+   "cite_vehtari": 17,
+   "name_gr": 12,
+   "as_eponym": 6,
+   "cite_bda": 3,
+   "hedge": 4,
+   "prov": 7,
+   "as_psrf": 4,
+   "cite_gr1992": 6
+  },
+  "target_site_counts": {
+   "software": 5,
+   "other": 5,
+   "vehtari_2021": 16,
+   "none": 44,
+   "gelman_rubin_1992": 14,
+   "bda": 3
+  },
+  "focus": {
+   "value": "1.1",
+   "equivalents": [],
+   "sites": 12,
+   "papers": 7,
+   "written_forms": [
+    "1.1",
+    "1.10"
+   ],
+   "sites_numeric_match_0_3": 12,
+   "sites_string_match_0_2": 10,
+   "paper_ids": [
+    "2510.20947v1",
+    "2603.04003v1",
+    "2605.20400v1",
+    "2605.29180v1",
+    "2606.15525v1",
+    "2606.23146v1",
+    "2607.13185v1"
+   ],
+   "flag_site_counts": {
+    "prov": 4,
+    "as_rhat": 12,
+    "as_psrf": 2,
+    "cite_gr1992": 3,
+    "name_gr": 4,
+    "cite_vehtari": 2,
+    "as_eponym": 2,
+    "cite_bda": 1
+   },
+   "target_site_counts": {
+    "gelman_rubin_1992": 3,
+    "none": 4,
+    "vehtari_2021": 2,
+    "bda": 1,
+    "other": 2
+   }
+  }
+ },
+ "rows": [
+  {
+   "arxiv": "2607.24378v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 104987,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.24055v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 57582,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.22989v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 125793,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.22449v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 47155,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.18030v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 57885,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.15499v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 69466,
+   "sites": [
+    {
+     "match": "hat R > 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": "he median over all independent runs, with thick lines and thin lines denoting the 50% and 90% intervals, respectively. \\label fig:banana CAM \\end figure Figure \\ref fig:banana ESS benchmarks this CAM configuration against existing methods. For the MTM baseline, M=10000 yielded the best relative performance. Both MH and MTM exhibited particularly poor efficiency compared to CAM and Stan. MTM failed to converge ( \\hat R > 1.05 ) for the severe B=10^ -1 setting, resulting in no valid data for that coordinate. These failures reinforce the observation that standard component-wise random walk struggles in highly non-Gaussian spaces unless assisted by global auxiliary jumps. While NUTS achieved the highest ESS per iteration for milder geometries (lower B ), its performance degraded sharply as the target curvature became more extreme. CAM howev",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": true,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "software"
+     ],
+     "target": "software"
+    },
+    {
+     "match": "hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "gelman2011BDA",
+     "window": "bal mean \\mu and global standard deviation \\tau . The target posterior distribution is defined by the following hierarchy <<CITE:gelman2011BDA>> : \\begin align* \\mu &\\sim \\mathcal N(0,5^2), & \\tau &\\sim \\text Cauchy _+(0,5), \\\\ \\theta_i &\\sim \\mathcal N(\\mu,\\tau^2), & y_i &\\sim \\mathcal N(\\theta_i, sigma _i^2). \\end align* After discarding runs that failed to converge (i.e., retaining only those with an average \\hat R < 1.05 ), we computed the ESS per iteration for each of the ten model parameters. The ESS per iteration for the internal CAM configurations is presented in Figure \\ref fig:ES CAM . Across all parameters, component-wise proposals performed uniformly worse than full-block proposals. Within the full-block architectures, sampling efficiency generally increased as the number of candidates M' increased, demonstrating relatively",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "other"
+    }
+   ]
+  },
+  {
+   "arxiv": "2607.11631v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 135360,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.07188v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 120503,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.05579v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 49663,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.30018v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 70266,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.29205v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 78801,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.25983v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 107866,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.25603v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 185785,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.24427v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 157998,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.22615v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 158035,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.19540v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 112003,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.15725v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 65873,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.07981v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 107686,
+   "sites": [
+    {
+     "match": "widehat R , PPP-RB yields \\widehat R (\\mu)=1.01",
+     "value": "1.01",
+     "cite_keys": "vehtari2021rank vehtari2021rank",
+     "window": "ose obtained from the MH algorithm. We also used the convergence diagnostic measure \\widehat R ^* proposed in <<CITE:vehtari2021rank>> . This measure modifies the \\widehat R statistic by applying rank normalization and folding to the posterior draws <<CITE:vehtari2021rank>> . In terms of these two measures, both PPP-RB and PP-RB show good agreement with MH algorithm, with PPP-RB performing better. Specifically, for \\widehat R , PPP-RB yields \\widehat R (\\mu)=1.01, \\widehat R (\\eta)=\\widehat R (\\beta)=1 , where \\widehat R (\\mu) , \\widehat R (\\eta) , and \\widehat R (\\beta) denote the \\widehat R values for each parameter, whereas PP-RB yields \\widehat R (\\mu)=1.07 , \\widehat R (\\eta)=1.01 , and \\widehat R (\\beta)=1.04 . PPP-RB is also slightly superior to PP-RB in terms of \\widehat R ^* , with \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1 for PPP-RB, whereas \\wi",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "widehat R (\\eta)=\\widehat R (\\beta)=1",
+     "value": "1",
+     "cite_keys": "vehtari2021rank vehtari2021rank",
+     "window": "he convergence diagnostic measure \\widehat R ^* proposed in <<CITE:vehtari2021rank>> . This measure modifies the \\widehat R statistic by applying rank normalization and folding to the posterior draws <<CITE:vehtari2021rank>> . In terms of these two measures, both PPP-RB and PP-RB show good agreement with MH algorithm, with PPP-RB performing better. Specifically, for \\widehat R , PPP-RB yields \\widehat R (\\mu)=1.01, \\widehat R (\\eta)=\\widehat R (\\beta)=1 , where \\widehat R (\\mu) , \\widehat R (\\eta) , and \\widehat R (\\beta) denote the \\widehat R values for each parameter, whereas PP-RB yields \\widehat R (\\mu)=1.07 , \\widehat R (\\eta)=1.01 , and \\widehat R (\\beta)=1.04 . PPP-RB is also slightly superior to PP-RB in terms of \\widehat R ^* , with \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1 for PPP-RB, whereas \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\wid",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "widehat R (\\beta) denote the \\widehat R values for each parameter, whereas PP-RB yields \\widehat R (\\mu)=1.07",
+     "value": "1.07",
+     "cite_keys": "vehtari2021rank",
+     "window": "s measure modifies the \\widehat R statistic by applying rank normalization and folding to the posterior draws <<CITE:vehtari2021rank>> . In terms of these two measures, both PPP-RB and PP-RB show good agreement with MH algorithm, with PPP-RB performing better. Specifically, for \\widehat R , PPP-RB yields \\widehat R (\\mu)=1.01, \\widehat R (\\eta)=\\widehat R (\\beta)=1 , where \\widehat R (\\mu) , \\widehat R (\\eta) , and \\widehat R (\\beta) denote the \\widehat R values for each parameter, whereas PP-RB yields \\widehat R (\\mu)=1.07 , \\widehat R (\\eta)=1.01 , and \\widehat R (\\beta)=1.04 . PPP-RB is also slightly superior to PP-RB in terms of \\widehat R ^* , with \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1 for PPP-RB, whereas \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1.01 for PP-RB. Posterior summaries for each algorithm are presented in Figure \\ref fig_hawkes . \\begin comment \\begin table [t] \\centering \\be",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "widehat R (\\eta)=1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "ITE:vehtari2021rank>> . In terms of these two measures, both PPP-RB and PP-RB show good agreement with MH algorithm, with PPP-RB performing better. Specifically, for \\widehat R , PPP-RB yields \\widehat R (\\mu)=1.01, \\widehat R (\\eta)=\\widehat R (\\beta)=1 , where \\widehat R (\\mu) , \\widehat R (\\eta) , and \\widehat R (\\beta) denote the \\widehat R values for each parameter, whereas PP-RB yields \\widehat R (\\mu)=1.07 , \\widehat R (\\eta)=1.01 , and \\widehat R (\\beta)=1.04 . PPP-RB is also slightly superior to PP-RB in terms of \\widehat R ^* , with \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1 for PPP-RB, whereas \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1.01 for PP-RB. Posterior summaries for each algorithm are presented in Figure \\ref fig_hawkes . \\begin comment \\begin table [t] \\centering \\begin adjustbox width=\\text",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "widehat R (\\beta)=1.04",
+     "value": "1.04",
+     "cite_keys": "",
+     "window": "rms of these two measures, both PPP-RB and PP-RB show good agreement with MH algorithm, with PPP-RB performing better. Specifically, for \\widehat R , PPP-RB yields \\widehat R (\\mu)=1.01, \\widehat R (\\eta)=\\widehat R (\\beta)=1 , where \\widehat R (\\mu) , \\widehat R (\\eta) , and \\widehat R (\\beta) denote the \\widehat R values for each parameter, whereas PP-RB yields \\widehat R (\\mu)=1.07 , \\widehat R (\\eta)=1.01 , and \\widehat R (\\beta)=1.04 . PPP-RB is also slightly superior to PP-RB in terms of \\widehat R ^* , with \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1 for PPP-RB, whereas \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1.01 for PP-RB. Posterior summaries for each algorithm are presented in Figure \\ref fig_hawkes . \\begin comment \\begin table [t] \\centering \\begin adjustbox width=\\textwidth \\begin tabular cccccccc",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R ^* , with \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1",
+     "value": "1",
+     "cite_keys": "",
+     "window": "orithm, with PPP-RB performing better. Specifically, for \\widehat R , PPP-RB yields \\widehat R (\\mu)=1.01, \\widehat R (\\eta)=\\widehat R (\\beta)=1 , where \\widehat R (\\mu) , \\widehat R (\\eta) , and \\widehat R (\\beta) denote the \\widehat R values for each parameter, whereas PP-RB yields \\widehat R (\\mu)=1.07 , \\widehat R (\\eta)=1.01 , and \\widehat R (\\beta)=1.04 . PPP-RB is also slightly superior to PP-RB in terms of \\widehat R ^* , with \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1 for PPP-RB, whereas \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1.01 for PP-RB. Posterior summaries for each algorithm are presented in Figure \\ref fig_hawkes . \\begin comment \\begin table [t] \\centering \\begin adjustbox width=\\textwidth \\begin tabular ccccccccccccc \\hline \\multirow 2 * Algorithm & & \\multicolumn 3 c \\mu & & \\multicolumn 3 c \\eta & & \\multicolumn 3 c \\beta \\\\ \\cline 3-5 \\cline 7-",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "01, \\widehat R (\\eta)=\\widehat R (\\beta)=1 , where \\widehat R (\\mu) , \\widehat R (\\eta) , and \\widehat R (\\beta) denote the \\widehat R values for each parameter, whereas PP-RB yields \\widehat R (\\mu)=1.07 , \\widehat R (\\eta)=1.01 , and \\widehat R (\\beta)=1.04 . PPP-RB is also slightly superior to PP-RB in terms of \\widehat R ^* , with \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1 for PPP-RB, whereas \\widehat R ^*(\\mu)=\\widehat R ^*(\\eta)=\\widehat R ^*(\\beta)=1.01 for PP-RB. Posterior summaries for each algorithm are presented in Figure \\ref fig_hawkes . \\begin comment \\begin table [t] \\centering \\begin adjustbox width=\\textwidth \\begin tabular ccccccccccccc \\hline \\multirow 2 * Algorithm & & \\multicolumn 3 c \\mu & & \\multicolumn 3 c \\eta & & \\multicolumn 3 c \\beta \\\\ \\cline 3-5 \\cline 7-9 \\cline 11-13 & & ESS & ET & ESS/ET & & ESS & ET & ESS/ET & & ESS & ET & ESS/ET \\\\",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R (\\log(\\phi)) = \\widehat R (\\log( sigma _s^2)) = 1",
+     "value": "1",
+     "cite_keys": "",
+     "window": " as burn-in for each algorithm. For PPP-RB, we obtained L=10 chains in parallel with temperatures set as T_1 = 1 and T_\\ell = \\exp(s_\\ell) for \\ell = 2,\\dots,10 , where s_\\ell are evenly spaced over the interval [0,3] . The acceptance ratios range from 0.2 and 0.4. The posterior distribution from PPP-RB shows strong agreement with those from the MH algorithm in terms of \\widehat R and \\widehat R ^* . Specifically, \\widehat R (\\log(\\phi)) = \\widehat R (\\log( sigma _s^2)) = 1 , \\widehat R (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R (\\log( sigma _n^2)) = 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "ains in parallel with temperatures set as T_1 = 1 and T_\\ell = \\exp(s_\\ell) for \\ell = 2,\\dots,10 , where s_\\ell are evenly spaced over the interval [0,3] . The acceptance ratios range from 0.2 and 0.4. The posterior distribution from PPP-RB shows strong agreement with those from the MH algorithm in terms of \\widehat R and \\widehat R ^* . Specifically, \\widehat R (\\log(\\phi)) = \\widehat R (\\log( sigma _s^2)) = 1 , \\widehat R (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2)) = 1.13 , \\widehat R ^*(\\log( sigma _n",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1",
+     "value": "1",
+     "cite_keys": "",
+     "window": "1 = 1 and T_\\ell = \\exp(s_\\ell) for \\ell = 2,\\dots,10 , where s_\\ell are evenly spaced over the interval [0,3] . The acceptance ratios range from 0.2 and 0.4. The posterior distribution from PPP-RB shows strong agreement with those from the MH algorithm in terms of \\widehat R and \\widehat R ^* . Specifically, \\widehat R (\\log(\\phi)) = \\widehat R (\\log( sigma _s^2)) = 1 , \\widehat R (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2)) = 1.13 , \\widehat R ^*(\\log( sigma _n^2)) = 1.90 . The Top right and bottom panels in Figure \\ref fig_gp sho",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R ^*(\\log( sigma _n^2)) = 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "l are evenly spaced over the interval [0,3] . The acceptance ratios range from 0.2 and 0.4. The posterior distribution from PPP-RB shows strong agreement with those from the MH algorithm in terms of \\widehat R and \\widehat R ^* . Specifically, \\widehat R (\\log(\\phi)) = \\widehat R (\\log( sigma _s^2)) = 1 , \\widehat R (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2)) = 1.13 , \\widehat R ^*(\\log( sigma _n^2)) = 1.90 . The Top right and bottom panels in Figure \\ref fig_gp show the posterior summaries for each algorit",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R (\\log(\\phi)) = 2.49",
+     "value": "2.49",
+     "cite_keys": "",
+     "window": " PPP-RB shows strong agreement with those from the MH algorithm in terms of \\widehat R and \\widehat R ^* . Specifically, \\widehat R (\\log(\\phi)) = \\widehat R (\\log( sigma _s^2)) = 1 , \\widehat R (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2)) = 1.13 , \\widehat R ^*(\\log( sigma _n^2)) = 1.90 . The Top right and bottom panels in Figure \\ref fig_gp show the posterior summaries for each algorithm. Notably, the posterior summaries from MH algorithm differ markedly from those of the first stage of PP-RB and P",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R (\\log( sigma _n^2)) = 5.53",
+     "value": "5.53",
+     "cite_keys": "",
+     "window": "of \\widehat R and \\widehat R ^* . Specifically, \\widehat R (\\log(\\phi)) = \\widehat R (\\log( sigma _s^2)) = 1 , \\widehat R (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2)) = 1.13 , \\widehat R ^*(\\log( sigma _n^2)) = 1.90 . The Top right and bottom panels in Figure \\ref fig_gp show the posterior summaries for each algorithm. Notably, the posterior summaries from MH algorithm differ markedly from those of the first stage of PP-RB and PPP-RB. As a result of this discrepancy, PP-RB fails to adequately capture the po",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R ^*(\\log(\\phi)) = 1.36",
+     "value": "1.36",
+     "cite_keys": "",
+     "window": "ly, \\widehat R (\\log(\\phi)) = \\widehat R (\\log( sigma _s^2)) = 1 , \\widehat R (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2)) = 1.13 , \\widehat R ^*(\\log( sigma _n^2)) = 1.90 . The Top right and bottom panels in Figure \\ref fig_gp show the posterior summaries for each algorithm. Notably, the posterior summaries from MH algorithm differ markedly from those of the first stage of PP-RB and PPP-RB. As a result of this discrepancy, PP-RB fails to adequately capture the posterior summary obtained from MH algori",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R ^*(\\log( sigma _s^2)) = 1.13",
+     "value": "1.13",
+     "cite_keys": "",
+     "window": "hat R (\\log( sigma _s^2)) = 1 , \\widehat R (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2)) = 1.13 , \\widehat R ^*(\\log( sigma _n^2)) = 1.90 . The Top right and bottom panels in Figure \\ref fig_gp show the posterior summaries for each algorithm. Notably, the posterior summaries from MH algorithm differ markedly from those of the first stage of PP-RB and PPP-RB. As a result of this discrepancy, PP-RB fails to adequately capture the posterior summary obtained from MH algorithm. In contrast, PPP-RB was able to captu",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R ^*(\\log( sigma _n^2)) = 1.90",
+     "value": "1.90",
+     "cite_keys": "",
+     "window": " (\\log( sigma _n^2)) = 1.01 , and \\widehat R ^*(\\log(\\phi)) = \\widehat R ^*(\\log( sigma _s^2)) = 1 , \\widehat R ^*(\\log( sigma _n^2)) = 1.01 . In contrast, PP-RB yields posterior distributions that differ substantially, with \\widehat R (\\log(\\phi)) = 2.49 , \\widehat R (\\log( sigma _s^2)) = 1.07 , \\widehat R (\\log( sigma _n^2)) = 5.53 , and \\widehat R ^*(\\log(\\phi)) = 1.36 , \\widehat R ^*(\\log( sigma _s^2)) = 1.13 , \\widehat R ^*(\\log( sigma _n^2)) = 1.90 . The Top right and bottom panels in Figure \\ref fig_gp show the posterior summaries for each algorithm. Notably, the posterior summaries from MH algorithm differ markedly from those of the first stage of PP-RB and PPP-RB. As a result of this discrepancy, PP-RB fails to adequately capture the posterior summary obtained from MH algorithm. In contrast, PPP-RB was able to capture the posterior summaries accurately, dem",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R , PPP-RB and the MH algorithm have converged, with \\widehat R = 1.02",
+     "value": "1.02",
+     "cite_keys": "",
+     "window": "thm. \\begin comment Although PPPRB is computationally more expensive and is less efficient than PP-RB in terms of \\frac \\text ET \\text ESS (Table \\ref table2 ), it nevertheless yields accurate inference, whereas PP-RB fails to do so. Also, compared to a standard MH algorithm, PPPRB achieves a significantly lower \\frac \\text ET \\text ESS , indicating improved computational efficiency. \\textcolor red add Based on \\widehat R , PPP-RB and the MH algorithm have converged, with \\widehat R = 1.02 for log( sigma _s^2 ), 1.00 for log( sigma _n^2 ), and 1.04 for log( \\phi ). In comparing the posterior predictive distributions produced by each algorithm, our goal is not to assess predictive accuracy against the true data. Rather, we aim to evaluate how well the posterior predictive distributions by PP-RB and PPPRB align with those obtained from a standard MH algorithm. To check this, for each algorithm we draw",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2606.14743v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 58191,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.03033v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 121597,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.02874v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 84122,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.00783v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 97072,
+   "sites": [
+    {
+     "match": "Gelman\u2013Rubin statistics % ( \\hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": " L (\\boldsymbol \\theta ') p(\\boldsymbol \\theta ') \\mathcal L (\\boldsymbol \\theta _i) p(\\boldsymbol \\theta _i) right ); % \\] % Accept \\boldsymbol \\theta ' with probability q , otherwise retain \\boldsymbol \\theta _i . % % % Discard burn-in samples and flatten remaining chains to obtain \\ \\boldsymbol \\theta _i^ (k) \\ . % \\end algorithm % Convergence was confirmed visually through trace plots and quantitatively via Gelman\u2013Rubin statistics % ( \\hat R < 1.05 ) and effective sample sizes exceeding 500 per parameter. % Posterior summaries (means, standard deviations, and 95% credible intervals) were extracted for all parameters. %% 3.2.1 \\subsubsection Bayesian inference using the affine-invariant ensemble sampler \\label subsec:inference Posterior inference was conducted using the affine--invariant ensemble Markov Chain Monte Carlo (MCMC) sampler introduced by <<CIT",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": true
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "gelman2013bayesian,vehtari2021rank",
+     "window": "y q , otherwise retain \\boldsymbol \\theta _i . Discard burn-in samples and flatten remaining chains to obtain \\ \\boldsymbol \\theta _i^ (k) \\ . \\end algorithm Convergence was assessed using multiple complementary diagnostics. Visual inspection of trace plots and marginal posterior densities was used to detect non-stationarity or multimodality, while quantitative diagnostics included Gelman--Rubin statistics ( \\hat R < 1.05 ) and effective sample sizes exceeding 500 per parameter, consistent with recommended best practices for Bayesian computation <<CITE:gelman2013bayesian,vehtari2021rank>> . Posterior summaries (means, standard deviations, and 95% credible intervals) were extracted for all parameters. %% % ========================================================== \\subsubsection Model evaluation metrics \\label subsec:model_eval ",
+     "flags": {
+      "cite_bda": true,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": true,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "bda",
+      "vehtari_2021",
+      "gelman_rubin_1992"
+     ],
+     "target": "bda"
+    }
+   ]
+  },
+  {
+   "arxiv": "2605.30722v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 66863,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.30674v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 53852,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.30532v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 67895,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.29180v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 75785,
+   "sites": [
+    {
+     "match": "potential scale reduction factors \\hat R <1.1",
+     "value": "1.1",
+     "cite_keys": "gelman1992inference,brooks1998general",
+     "window": "individuals were selected at random and each was proposed to either become infected at a uniformly drawn time step or to revert to the uninfected state, with acceptance based on the resulting likelihood ratio and the prior odds under \\rho . Convergence was assessed using the Gelman--Rubin--Brooks diagnostic <<CITE:gelman1992inference,brooks1998general>> , with convergence defined as all monitored parameters having potential scale reduction factors \\hat R <1.1 . This criterion was satisfied for all 100 epidemics in Full, for 68 out of 100 epidemics in Stoch.\\ removal, and for 70 out of 100 epidemics in Partial. The convergence failures in Stoch.\\ removal and Partial indicate the difficulty that data-augmented MCMC faces when latent variables must be sampled alongside the model parameters. The comparison below is restricted to these converged MCMC runs, with the correspond",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": true,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": true,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "hat R <1.1",
+     "value": "1.1",
+     "cite_keys": "",
+     "window": "ational advantage that scales linearly with the number of inference targets. \\begin table [h!] \\centering \\caption Comparison of CNN-NPE, GNN-NPE, and MCMC on the converged MCMC subset. MAE is the mean absolute error of the posterior median. Width denotes the mean width of the 95% credible interval. Coverage denotes empirical 95% credible interval coverage. Only epidemics for which all MCMC parameters satisfied \\hat R <1.1 are included. \\label tab:npe_mcmc_simulation \\begin tabular lllccc \\toprule Scenario & Method & Parameter & MAE & Width & Coverage \\\\ \\midrule Full & CNN-NPE & \\alpha & 0.741 & 2.818 & 0.940 \\\\ & & \\beta & 0.354 & 1.781 & 0.940 \\\\ & GNN-NPE & \\alpha & 0.474 & 2.430 & 0.980 \\\\ & & \\beta & 0.191 & 0.985 & 0.980 \\\\ & MCMC & \\alpha & 0.277 & 0.665 & 0.890 \\\\ & & \\beta & 0.074 & 0.351 & 0.920 \\\\ \\midrule Stoch.\\",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": true,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R <1.1",
+     "value": "1.1",
+     "cite_keys": "",
+     "window": " & \\epsilon & 0.00053 & 0.0033 & 0.95 \\\\ & \\gamma_E & 0.051 & 0.209 & 0.90 \\\\ MCMC & \\alpha & 0.0023 & 0.003 & 0.55 \\\\ & \\beta & 0.100 & 0.361 & 0.80 \\\\ & \\epsilon & 0.00048 & 0.001 & 0.80 \\\\ & \\gamma_E & 0.087 & 0.139 & 0.30 \\\\ \\bottomrule \\end tabular \\end table Table \\ref tab:fmd_npe_mcmc compares CNN-NPE, GNN-NPE, and data-augmented MCMC on the subset of 20 synthetic epidemics. All 20 MCMC runs satisfied \\hat R <1.1 for every parameter. MCMC achieved the lowest MAE for \\alpha (0.0023), \\beta (0.100), and \\epsilon (0.00048), while GNN-NPE remained close for the two spatial transmission parameters, with MAE values of 0.0025 for \\alpha and 0.175 for \\beta . For \\gamma_E , MCMC was less accurate, with an MAE of 0.087, compared with 0.048 for CNN-NPE and 0.051 for GNN-NPE. The clearer difference was in uncertainty quantification.",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": true,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2605.25079v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 50624,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.23631v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 38890,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.21782v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 64078,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.18476v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 139224,
+   "sites": [
+    {
+     "match": "hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": "sent reference samplers, where available. ESS and running time are plotted on \\log_ 10 x-scales. \\label fig:s1 \\end figure Results are shown in Figure \\ref fig:s1 , which presents model-level summaries by category. Detailed results are provided in Supplementary Materials S5. All of the 136 benchmark models produced validated samplers that passed system validation within five attempts, achieving a median maximum \\hat R < 1.05 , and 131 further achieved \\hat R < 1.01 , indicating strong posterior agreement with reference implementations. The mean coverage of 95% credible intervals was also close to nominal for most models. These results demonstrate that AI4BayesCode can implement a wide range of Bayesian models from natural-language descriptions alone. Lower minimum bulk ESS in some cases likely reflects the fact that the sampling strateg",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": " ESS and running time are plotted on \\log_ 10 x-scales. \\label fig:s1 \\end figure Results are shown in Figure \\ref fig:s1 , which presents model-level summaries by category. Detailed results are provided in Supplementary Materials S5. All of the 136 benchmark models produced validated samplers that passed system validation within five attempts, achieving a median maximum \\hat R < 1.05 , and 131 further achieved \\hat R < 1.01 , indicating strong posterior agreement with reference implementations. The mean coverage of 95% credible intervals was also close to nominal for most models. These results demonstrate that AI4BayesCode can implement a wide range of Bayesian models from natural-language descriptions alone. Lower minimum bulk ESS in some cases likely reflects the fact that the sampling strategy and implementation in AI4BayesCode are ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "5 for texttt Dirac_Spike_Laplace and sampler 3 for texttt GLMM1_model . For each successful sampler within each model, Figure \\ref fig:s2 reports the median (over 20 replicates) of the maximum rank-normalized \\(\\hat R\\), the minimum bulk ESS, and runtime. For simpler models, such as texttt dogs_log and texttt wells_daae_c_model , the five generated samplers produced nearly identical results, with all median maximum \\hat R < 1.01 . In contrast, more complex models exhibited greater variability. For example, texttt irt_2pl showed substantial variability in \\hat R , while texttt poisson_k_changepoint showed large variability in running time despite all median maximum \\hat R < 1.01 . %Results also suggest two potential ways to reduce generation variability. First, expanding the library of built-in blocks can improve generation stability. Th",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "For simpler models, such as texttt dogs_log and texttt wells_daae_c_model , the five generated samplers produced nearly identical results, with all median maximum \\hat R < 1.01 . In contrast, more complex models exhibited greater variability. For example, texttt irt_2pl showed substantial variability in \\hat R , while texttt poisson_k_changepoint showed large variability in running time despite all median maximum \\hat R < 1.01 . %Results also suggest two potential ways to reduce generation variability. First, expanding the library of built-in blocks can improve generation stability. The experiment shows that models aligning well with built-in blocks, such as BART models, texttt one_comp_mm_elim_abs , and most HMM samplers, exhibit more stable behavior across repeated generations. In contrast, when no dedicated block is available, the AI",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R values lower than 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "res a dynamic programming algorithm not supported by the current system. Results (not shown) also suggest that specifying preferred sampling blocks in model descriptions may also reduce implementation variability. %; for example, different generated samplers for texttt garch11 used different blocks, resulting in large runtime variability. %Most models except texttt DPM_Gaussian and texttt irt_2pl exhibit maximum \\hat R values lower than 1.01 with modest variability across independently generated samplers, suggesting stable performance of AI4BayesCode under repeated code generations. The results on minimum bulk ESS and runtime suggest that sampler generation is generally stable for simpler models including texttt normal_mixture and texttt dogs_log , for which generated samplers show similar bulk ESS and runtime metrics. More challenging models such as te",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "widehat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": "0 MCMC steps and checks (i) every parameter is finite, (ii) texttt predict_at() does not mutate the current MCMC state, and (iii) prediction DAG matches the model. \\\\ 2 & Multi-chain \\widehat R convergence & Runs two parallel chains with 4 , 000 burn-in iterations and 4 , 000 posterior draws, extended to 20 , 000 burn-in iterations and 20 , 000 posterior draws if the check fails. Validation requires rank-normalized \\widehat R < 1.05 for every parameter. \\\\ 3 & Effective-sample-size diagnostic & Reports the ESS ratio r = \\min( mathrm ESS _ mathrm bulk , mathrm ESS _ mathrm tail ) / n_ mathrm draw from the two chains; warns when 0.005 < r < 0.01 and triggers a hard failure when r < 0.005 (legitimately slow-mixing targets are allowed). \\\\ 4 & Posterior predictive check & First computes summary statistics of the observed data: mean, sd, min, max, q",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "hat R values of 1.049",
+     "value": "1.049",
+     "cite_keys": "",
+     "window": "Gaussian and texttt hmm_drive_0 , the direct prompting samplers achieved convergent posteriors aligned with the reference implementation. However, performance became less stable for models with stronger posterior dependence. For moderately difficult models such as texttt hierarchical_gp and texttt accel_gp , the direct prompting samplers had noticeably worse mixing than the corresponding AI4BayesCode samplers, with \\hat R values of 1.049 and 1.036 compared with 1.002 and 1.005, respectively. The gap was more pronounced for graphical models: except for the standard hidden Markov model texttt hmm_drive_0 , all graphical models in this comparison failed to yield validated posteriors under direct prompting, with \\hat R values larger than 1.3 for texttt bym2_offset_only , texttt pois_hmm_k3_0 , and texttt water_bif . In terms of efficiency, direct prom",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R values larger than 1.3",
+     "value": "1.3",
+     "cite_keys": "",
+     "window": "accel_gp , the direct prompting samplers had noticeably worse mixing than the corresponding AI4BayesCode samplers, with \\hat R values of 1.049 and 1.036 compared with 1.002 and 1.005, respectively. The gap was more pronounced for graphical models: except for the standard hidden Markov model texttt hmm_drive_0 , all graphical models in this comparison failed to yield validated posteriors under direct prompting, with \\hat R values larger than 1.3 for texttt bym2_offset_only , texttt pois_hmm_k3_0 , and texttt water_bif . In terms of efficiency, direct prompting showed both substantial advantages and limitations. When the LLM identified conjugacy and implemented appropriate Gibbs updates, the resulting samplers were often much faster than both AI4BayesCode and the reference implementation. For nonconjugate models, direct prompting often used simple Metropol",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": true,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2605.15847v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 79643,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.13397v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 295634,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.12807v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 146664,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.10914v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 115789,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.09880v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 87536,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.09506v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 71907,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.03266v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 66894,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.01603v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 111291,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.01198v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 91413,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.27603v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 73122,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.25410v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 66228,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.21009v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 57260,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.20052v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 68268,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.10863v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 158100,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.09832v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 112453,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.02304v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 141960,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.02116v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 97408,
+   "sites": []
+  },
+  {
+   "arxiv": "2604.00671v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 136287,
+   "sites": []
+  },
+  {
+   "arxiv": "2603.27276v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 87559,
+   "sites": []
+  },
+  {
+   "arxiv": "2603.12299v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 212376,
+   "sites": []
+  },
+  {
+   "arxiv": "2603.07247v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 71062,
+   "sites": []
+  },
+  {
+   "arxiv": "2603.05817v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 104475,
+   "sites": []
+  },
+  {
+   "arxiv": "2603.04003v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 68681,
+   "sites": [
+    {
+     "match": "hat R over all parameters below 1.10",
+     "value": "1.10",
+     "cite_keys": "vehtariRankNormalizationFoldingLocalization2021 Gelmanetal2003 vatsRevisitingGelmanRubin2021 vehtariRankNormalizationFoldingLocalization2021",
+     "window": "ns) and the tail-ESS defined as the minimum ESS for 5% and 95% percentiles for diagnosing the sampling efficiency in the tails of the posterior (e.g., for estimating posterior intervals). The potential scale reduction factor \\hat R was also computed using the method proposed by <<CITE:vehtariRankNormalizationFoldingLocalization2021>> for all algorithms. While <<CITE:Gelmanetal2003>> suggested that maximum values of \\hat R over all parameters below 1.10 are acceptable, <<CITE:vatsRevisitingGelmanRubin2021>> have argued that ``a cutoff of \\hat R < 1.1 is much too high to yield reasonable estimates of target quantities'', and an \\hat R < 1.01 threshold has instead been suggested <<CITE:vehtariRankNormalizationFoldingLocalization2021>> . All simulations were run with \\textsc R version 4.4.2 on the Fox computing cluster hosted by the University of Oslo. All simulation",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": true,
+      "name_gr": true,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021",
+      "gelman_rubin_1992"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "GelmanRubin2021>> have argued that ``a cutoff of \\hat R < 1.1",
+     "value": "1.1",
+     "cite_keys": "vehtariRankNormalizationFoldingLocalization2021 Gelmanetal2003 vatsRevisitingGelmanRubin2021 vehtariRankNormalizationFoldingLocalization2021",
+     "window": " for diagnosing the sampling efficiency in the tails of the posterior (e.g., for estimating posterior intervals). The potential scale reduction factor \\hat R was also computed using the method proposed by <<CITE:vehtariRankNormalizationFoldingLocalization2021>> for all algorithms. While <<CITE:Gelmanetal2003>> suggested that maximum values of \\hat R over all parameters below 1.10 are acceptable, <<CITE:vatsRevisitingGelmanRubin2021>> have argued that ``a cutoff of \\hat R < 1.1 is much too high to yield reasonable estimates of target quantities'', and an \\hat R < 1.01 threshold has instead been suggested <<CITE:vehtariRankNormalizationFoldingLocalization2021>> . All simulations were run with \\textsc R version 4.4.2 on the Fox computing cluster hosted by the University of Oslo. All simulation results can be reproduced using code openly available in our OSF repository: \\url https://osf.io/p",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": true,
+      "name_gr": true,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": true
+     },
+     "targets": [
+      "vehtari_2021",
+      "gelman_rubin_1992"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "vehtariRankNormalizationFoldingLocalization2021 Gelmanetal2003 vatsRevisitingGelmanRubin2021 vehtariRankNormalizationFoldingLocalization2021",
+     "window": "on factor \\hat R was also computed using the method proposed by <<CITE:vehtariRankNormalizationFoldingLocalization2021>> for all algorithms. While <<CITE:Gelmanetal2003>> suggested that maximum values of \\hat R over all parameters below 1.10 are acceptable, <<CITE:vatsRevisitingGelmanRubin2021>> have argued that ``a cutoff of \\hat R < 1.1 is much too high to yield reasonable estimates of target quantities'', and an \\hat R < 1.01 threshold has instead been suggested <<CITE:vehtariRankNormalizationFoldingLocalization2021>> . All simulations were run with \\textsc R version 4.4.2 on the Fox computing cluster hosted by the University of Oslo. All simulation results can be reproduced using code openly available in our OSF repository: \\url https://osf.io/p754m . The code used for these simulation experiments was developed with the assistance of G",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": true,
+      "name_gr": true,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021",
+      "gelman_rubin_1992"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "hat R <1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "=200 ), the median wall time for the two NUTS implementations was around 40 minutes while for Metropolis-within-Gibbs it was around 50 minutes. The eight population level parameters in \\bm \\alpha _ 2 and \\bm \\Psi _ 2 were considered the parameters of interest, and for each run of an algorithm bulk-ESS and tail-ESS were computed as the minimum over these, whereas \\hat R was computed as the maximum. According to the \\hat R <1.01 threshold, NUTS-Kalman succeeded for almost 100% of the samples, whereas NUTS-Joint and Metropolis-within-Gibbs failed in almost all samples. Loosening the threshold to \\hat R <1.05 , Metropolis-within-Gibbs succeeded in about 80% of the samples. Details are given in Figure S2 of Online Resource 1. Figure \\ref fig:eg1-univariate-latent-ar1-efficiency shows the efficiency of the three algorithms, measured in terms o",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R <1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": " in \\bm \\alpha _ 2 and \\bm \\Psi _ 2 were considered the parameters of interest, and for each run of an algorithm bulk-ESS and tail-ESS were computed as the minimum over these, whereas \\hat R was computed as the maximum. According to the \\hat R <1.01 threshold, NUTS-Kalman succeeded for almost 100% of the samples, whereas NUTS-Joint and Metropolis-within-Gibbs failed in almost all samples. Loosening the threshold to \\hat R <1.05 , Metropolis-within-Gibbs succeeded in about 80% of the samples. Details are given in Figure S2 of Online Resource 1. Figure \\ref fig:eg1-univariate-latent-ar1-efficiency shows the efficiency of the three algorithms, measured in terms of bulk-ESS per minute. In all six cases considered, NUTS-Kalman was between 8 and 19 times more efficient than Metropolis-within-Gibbs. NUTS-Kalman was also between 10 and 18 times m",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R <1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "many participants as there were timepoints per participant, N=100 and T=50 , and one with the opposite, N=50 and T=100 . NUTS-Kalman had maximum treedepth 12 and target acceptance 0.95 and was run for 5,000 iterations in each of four chains, discarding the first 2,500 as warm-up, yielding 10,000 posterior samples. Metropolis-within-Gibbs was run exactly as in Section \\ref sec:LatentScalarAR1 . Both algorithms had \\hat R <1.01 for all parameters of interest and median wall times per Monte Carlo sample between 20 and 30 minutes. Figure \\ref fig:eg2-three-indicator-ar1-effiency shows the efficiency as measured by bulk-ESS per minute for all 12 parameters of interest. We see that the algorithms are comparable for many of the parameters, and that there are small differences between data dimensions. However, NUTS-Kalman outperforms Metropolis-",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R values below the 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "th=\\linewidth] figures/eg4-latent-arp-efficiency.png \\caption The left box plot shows efficiency plotted against lag, and the right plot shows \\hat R plotted against lag for the AR(p) model \\label fig:eg4-latent-arp-efficiency \\end figure Table \\ref tab:eg4-rhat shows diagnostics based on the maximum \\hat R over the parameters of interest. Only between 39 and 59% of the Metropolis-within-Gibbs algorithms had \\hat R values below the 1.01 threshold. However, the more lenient 1.05 threshold was almost always satisfied. As can also be seen from Table \\ref tab:eg4-rhat , NUTS-Kalman had excellent \\hat R values. \\begin table \\caption \\label tab:eg4-rhat Percentage of Converged Chains ( \\hat R Thresholds) \\centering \\begin tabular [t] llrr \\toprule Lag & Threshold & Gibbs (%) & NUTS-Kalman (%) \\\\ \\midrule & 1.01 & 52 & 98 \\\\ \\multirow -2 * \\r",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": true,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R values below 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "lding 180,000 post-burn-in samples. The median wall time was 5.3 hours for NUTS-Kalman and 6.1 hours for Metropolis-within-Gibbs. As in Section \\ref sec:TrivariateAR1 we provided NUTS-Kalman with reasonable initial values to avoid divergence during warm-up, whereas Metropolis-within-Gibbs was started by sampling from the priors. Details are provided in Section S5.2 of Online Resource 2. Both algorithms had maximum \\hat R values below 1.01 in the majority of samples. Figure \\ref fig:eg5-efficiency plots the efficiency of the two algorithms against each other for each simulated dataset. The solid diagonal line represents equal efficiency; the fact that most points fall above this line demonstrates that NUTS-Kalman dominates Metropolis-within-Gibbs at the individual dataset level, being 1.50 times more bulk-efficient and 1.62 times more tail-efficient. ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2603.02467v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 78677,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.22358v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 77222,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.20448v3",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 98161,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.14692v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 162588,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.14616v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 190613,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.11325v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 161817,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.10714v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 148006,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.06568v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 66136,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.04554v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 44206,
+   "sites": []
+  },
+  {
+   "arxiv": "2602.00512v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 95221,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.22999v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 199301,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.22911v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 122068,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.21765v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 83952,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.19722v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 103946,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.16696v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 82604,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.16585v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 135381,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.12515v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 227578,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.11066v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 70178,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.09007v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 164155,
+   "sites": []
+  },
+  {
+   "arxiv": "2601.05859v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 71683,
+   "sites": [
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "hoffman2011_NUTS Gelman1992",
+     "window": "pler (NUTS) <<CITE:hoffman2011_NUTS>> , an efficient Hamiltonian Monte Carlo algorithm, to perform the sampling. For each of the 10,000 simulated datasets, we ran four independent MCMC chains for 5,000 iterations each, discarding the first 1,000 iterations as burn-in. We assessed convergence using the Gelman-Rubin statistic (\\hat R ) <<CITE:Gelman1992>> . We considered chains to have successfully converged only if \\hat R < 1.01 for all model parameters. \\subsection Point estimate accuracy To make a fair comparison of all three methods, we first select a single point estimate for each. We use the posterior median, as it is a robust estimate for potentially skewed posteriors and is directly output by the NBE. Our primary focus is the ability for the model to recover the true hidden population size, therefore for each of the test datasets",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": true,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "Gelman-Rubin (GR) statistic < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": " a stationary distribution exhibited significantly larger absolute percentage errors. \\begin figure \\centering \\includegraphics[width=0.7\\linewidth] figures/mcmc_convergence_ape.png \\caption A scatter plot showing the true hidden population size against the log APE computed from posterior samples obtained via MCMC where each sample is (blue) converged or (red) not converged, where convergence is defined as the Gelman-Rubin (GR) statistic < 1.01 . \\label fig:mcmc_ape_convergence \\end figure Upon inspection, MCMC failures were concentrated in atypical datasets, particularly those simulations generating unusually large list counts (Figure \\ref fig:nbe_mcmc_convergence ). \\begin figure \\centering \\includegraphics[width=0.7\\linewidth] figures/convergence_comparison.png \\caption Densities of the log average count on each of the five main lists for c",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": false,
+      "as_psrf": false,
+      "as_eponym": true
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "Gelman-Rubin (GR) statistic < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "cal datasets, particularly those simulations generating unusually large list counts (Figure \\ref fig:nbe_mcmc_convergence ). \\begin figure \\centering \\includegraphics[width=0.7\\linewidth] figures/convergence_comparison.png \\caption Densities of the log average count on each of the five main lists for chains that have converged (blue) overlaid with those not converged (red), where convergence is defined as the Gelman-Rubin (GR) statistic < 1.01 . \\label fig:nbe_mcmc_convergence \\end figure These data likely induce complex posterior geometries that proved difficult for the NUTS sampler which often manifested as an inability for the sampler to find correct tuning parameters during the warm-up phase. While it might be possible to remedy these failures with expert implementation and careful, case-by-case tuning, this highlights that the MCMC solution does",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": false,
+      "as_psrf": false,
+      "as_eponym": true
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    }
+   ]
+  },
+  {
+   "arxiv": "2601.03532v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 109672,
+   "sites": []
+  },
+  {
+   "arxiv": "2512.18255v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 263451,
+   "sites": []
+  },
+  {
+   "arxiv": "2512.17868v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 115705,
+   "sites": []
+  },
+  {
+   "arxiv": "2512.12748v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 260339,
+   "sites": []
+  },
+  {
+   "arxiv": "2512.11475v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 60789,
+   "sites": []
+  },
+  {
+   "arxiv": "2512.08173v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 107103,
+   "sites": []
+  },
+  {
+   "arxiv": "2512.00895v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 182158,
+   "sites": []
+  },
+  {
+   "arxiv": "2512.00220v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 161199,
+   "sites": []
+  },
+  {
+   "arxiv": "2511.21563v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 170699,
+   "sites": []
+  },
+  {
+   "arxiv": "2511.21553v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 62223,
+   "sites": [
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "at each of the 10,000 grid locations, enabling comprehensive uncertainty quantification for the spatial predictions. \\subsection Results and Spatial Patterns The Bayesian spatially varying coefficients model with latent-free Vecchia approximation successfully converged after 10,000 MCMC iterations across 4 parallel chains. All parameters exhibited satisfactory mixing properties and convergence diagnostics (all \\hat R < 1.01 ). Figure \\ref fig:spatial_analysis presents four complementary perspectives on the spatial analysis of hydrocarbon contamination. \\\\ Panel A displays the posterior mean predictions of log-transformed hydrocarbon concentrations (C10-C40) across the study area. The spatial pattern reveals substantial heterogeneity in contamination levels, with higher concentrations observed in the vicinity of Toulouse Airport and ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2511.19628v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 284394,
+   "sites": [
+    {
+     "match": "hat R _ detection < R_ crash = 0.05",
+     "value": "0.05",
+     "cite_keys": "",
+     "window": "ccess distributions, where the number of successes are defined as k left (\\boldsymbol \\hat \\theta ^ \\text GA _ \\nu right ) , as well as displaying \\hat R _ detection which is subsumed in \\boldsymbol \\hat \\theta ^ \\text GA _ \\nu . \\\\ With respect to \\overset (\\text I ) \\mathbf model , Table \\ref tab: success dist indicates that improved out-of-sample performance is achieved when the optimization procedure estimates \\hat R _ detection < R_ crash = 0.05 (see \\ref app: nav specs for additional specifications). This suggests that only the second case of Equation \\ref eq: rdetection is necessary to govern the behavior of non-terminal drones in order to enhance out-of-sample performance. In contrast, for \\overset (\\text II ) \\mathbf model , Table \\ref tab: success dist suggests that improved out-of-sample performance is attained when the estimated detection radius sati",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R _ detection is estimated to be greater or less than the crash radius R_ crash = 0.05",
+     "value": "0.05",
+     "cite_keys": "",
+     "window": "erformance is attained when the estimated detection radius satisfies \\hat R _ detection \\approx 0.07 . These notions are further supported by the results in Table \\ref tab: success dist large . \\\\ Furthermore, no consistent pattern in drone success rates on the out-of-sample set is observed as \\nu varies, as illustrated in Figure \\ref fig: failure dist . Instead, performance appears to depend primarily on whether \\hat R _ detection is estimated to be greater or less than the crash radius R_ crash = 0.05 under \\overset (\\text I ) \\mathbf model , or whether \\hat R _ detection \\approx 0.07 under \\overset (\\text II ) \\mathbf model . The results suggest that there are many plausible solutions that yield high objective values on the in-sample set, although only a subset of these generalize well to the out-of-sample set. \\begin table [H] \\centering \\resizebox \\textwidth ! % \\begin tabular ccccccccc & \\multicolumn 4 c ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": true,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R _ detection , against varying \\nu for T = 100 and R_ crash =0.05",
+     "value": "0.05",
+     "cite_keys": "",
+     "window": "7.00 & \\mathbf 79.34 & \\mathbf 0.0724 \\\\ 9 &98 & 32.00 & 36.51 & 0.1249 &100 & 80.00 & 69.20 & 0.1161 \\\\ \\bottomrule \\end tabular \\captionsetup justification=centering \\caption Number of successes k left (\\boldsymbol \\hat \\theta ^ \\text GA _ \\nu right ) for the in-sample initialization, median ( \\tilde k ) and mean ( \\bar k ) for the distributions of successes on the 1000 test initializations and estimated \\hat R _ detection , against varying \\nu for T = 100 and R_ crash =0.05 using both \\overset (\\text I ) \\mathbf model and \\overset (\\text II ) \\mathbf model . \\label tab: success dist \\end table \\begin figure [H] \\centering \\begin subfigure [t] 0.48\\linewidth \\centering \\includegraphics[width=\\linewidth] boxplot_model1.png \\caption* \\overset (\\text I ) \\mathbf model \\end subfigure \\hfill \\begin subfigure [t] 0.48\\linewidth \\centering \\includegraphics[width=\\linewidt",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R _ detection , against varying \\nu for T = 100 and R_ crash =0.05",
+     "value": "0.05",
+     "cite_keys": "",
+     "window": " 0.4640 & 73 & 18.14 & 0.4550 & 8 & 18.62 & 0.1608 \\\\ 1 &8 & 12.15 & 0.4403 & 49 & 13.57 & 0.5855 & 70 & 18.68 & 0.1757 \\\\ \\bottomrule \\end tabular \\captionsetup justification=centering \\caption Number of successes k left (\\boldsymbol \\hat \\theta ^ \\text GA _ \\nu right ) for the in-sample initialization, mean ( \\bar k ) for the distributions of successes on the 1000 test initializations (OOS) and estimated \\hat R _ detection , against varying \\nu for T = 100 and R_ crash =0.05 using both \\overset (\\text I ) \\mathbf model and \\overset (\\text II ) \\mathbf model . \\label tab: success dist large \\end table \\paragraph Response curves To further evaluate the role of regularization and to examine how the control vector integrates drone state information and environmental elements to output drone evasive manoeuvres, we analyze the response curves shown in Figure \\ref fig: response drone . F",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2511.17117v5",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 48096,
+   "sites": []
+  },
+  {
+   "arxiv": "2511.08124v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 99664,
+   "sites": []
+  },
+  {
+   "arxiv": "2511.07736v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 313057,
+   "sites": []
+  },
+  {
+   "arxiv": "2511.06967v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 89554,
+   "sites": []
+  },
+  {
+   "arxiv": "2511.04975v4",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 75310,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.22252v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 94921,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.20947v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 126685,
+   "sites": [
+    {
+     "match": "hat R is larger than 1",
+     "value": "1",
+     "cite_keys": "vehtari_rank-normalization_2021 vehtari_rank-normalization_2021",
+     "window": "vergence even if there are mirrored trends in the chains. The split- \\hat R is only defined if the marginal posteriors have a finite mean and variance, to alleviate this assumption the original draws can be replaces by the rank normalized values <<CITE:vehtari_rank-normalization_2021>> . In this paper we will use the rank-normalized split- \\hat R , and from this point this will be referred to as the \\hat R . If the \\hat R is larger than 1 one might be concerned; a common threshold for approximate convergence is \\hat R <1.01 <<CITE:vehtari_rank-normalization_2021>> . \\begin figure [H] \\centering \\includegraphics[width=0.95\\linewidth] Figures/rhat.png \\caption Assessing the convergence of two chains (after burn-in) based on the sample values from the chains (left) and the marginal distributions (right); example based on Figure 1 from <<CITE:lamber",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "hat R <1.01",
+     "value": "1.01",
+     "cite_keys": "vehtari_rank-normalization_2021 vehtari_rank-normalization_2021 lambert_r_2022 vehtari_rank-normalization_2021",
+     "window": " marginal posteriors have a finite mean and variance, to alleviate this assumption the original draws can be replaces by the rank normalized values <<CITE:vehtari_rank-normalization_2021>> . In this paper we will use the rank-normalized split- \\hat R , and from this point this will be referred to as the \\hat R . If the \\hat R is larger than 1 one might be concerned; a common threshold for approximate convergence is \\hat R <1.01 <<CITE:vehtari_rank-normalization_2021>> . \\begin figure [H] \\centering \\includegraphics[width=0.95\\linewidth] Figures/rhat.png \\caption Assessing the convergence of two chains (after burn-in) based on the sample values from the chains (left) and the marginal distributions (right); example based on Figure 1 from <<CITE:lambert_r_2022>> and Figure 1 from <<CITE:vehtari_rank-normalization_2021>> . Plot textbf A s",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": "of 0.7 is recommended, so if Pareto \\hat k values exceed 0.7, we label them as \u201cquestionable\u201d. However, since it is known that \\hat k values can increase as the dimensions increase, we further investigate a more lenient cutoff of 5 and label \\hat k values exceeding 5 as \u201cbad\u201d. \\begin table [] \\centering \\begin tabular |l|l|l|l| \\hline Quality & Good & Questionable & Bad \\\\ \\hline MCMC & \\begin tabular [c] @ l@ \\hat R < 1.05 \\\\ \\text ESS /N > 0.5 \\\\ N_ \\text div /N < 0.1 \\end tabular & \\begin tabular [c] @ l@ 1.05 < \\hat R < 1.1 \\\\ 0.1 < \\text ESS /N < 0.5 \\\\ N_ \\text div /N < 0.1 \\end tabular & \\begin tabular [c] @ l@ \\hat R > 1.1 \\\\ \\text ESS /N < 0.1 \\\\ N_ \\text div /N > 0.1 \\end tabular \\\\ \\hline non-MCMC & \\hat k < 0.7 & 0.7 < \\hat k < 5 & \\hat k > 5 \\\\ \\hline \\end tabular \\caption Quality measures for m",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": true,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R < 1.1",
+     "value": "1.1",
+     "cite_keys": "",
+     "window": " known that \\hat k values can increase as the dimensions increase, we further investigate a more lenient cutoff of 5 and label \\hat k values exceeding 5 as \u201cbad\u201d. \\begin table [] \\centering \\begin tabular |l|l|l|l| \\hline Quality & Good & Questionable & Bad \\\\ \\hline MCMC & \\begin tabular [c] @ l@ \\hat R < 1.05 \\\\ \\text ESS /N > 0.5 \\\\ N_ \\text div /N < 0.1 \\end tabular & \\begin tabular [c] @ l@ 1.05 < \\hat R < 1.1 \\\\ 0.1 < \\text ESS /N < 0.5 \\\\ N_ \\text div /N < 0.1 \\end tabular & \\begin tabular [c] @ l@ \\hat R > 1.1 \\\\ \\text ESS /N < 0.1 \\\\ N_ \\text div /N > 0.1 \\end tabular \\\\ \\hline non-MCMC & \\hat k < 0.7 & 0.7 < \\hat k < 5 & \\hat k > 5 \\\\ \\hline \\end tabular \\caption Quality measures for models. The overall quality of a model corresponds to the lowest category among its individual diagnostic metrics. ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R > 1.1",
+     "value": "1.1",
+     "cite_keys": "",
+     "window": "f 5 and label \\hat k values exceeding 5 as \u201cbad\u201d. \\begin table [] \\centering \\begin tabular |l|l|l|l| \\hline Quality & Good & Questionable & Bad \\\\ \\hline MCMC & \\begin tabular [c] @ l@ \\hat R < 1.05 \\\\ \\text ESS /N > 0.5 \\\\ N_ \\text div /N < 0.1 \\end tabular & \\begin tabular [c] @ l@ 1.05 < \\hat R < 1.1 \\\\ 0.1 < \\text ESS /N < 0.5 \\\\ N_ \\text div /N < 0.1 \\end tabular & \\begin tabular [c] @ l@ \\hat R > 1.1 \\\\ \\text ESS /N < 0.1 \\\\ N_ \\text div /N > 0.1 \\end tabular \\\\ \\hline non-MCMC & \\hat k < 0.7 & 0.7 < \\hat k < 5 & \\hat k > 5 \\\\ \\hline \\end tabular \\caption Quality measures for models. The overall quality of a model corresponds to the lowest category among its individual diagnostic metrics. \\label tab:quality \\end table Simulation results will be used if the quality was not Bad (Table \\ref tab:qual",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2510.19133v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 83386,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.13233v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 164334,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.12917v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 34602,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.10034v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 32184,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.07559v3",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 119322,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.03587v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 80066,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.03226v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 103720,
+   "sites": []
+  },
+  {
+   "arxiv": "2510.01016v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 90916,
+   "sites": [
+    {
+     "match": "hat R <1.05",
+     "value": "1.05",
+     "cite_keys": "Hastings1970 Gelman2013 Ching2007,Venkatraman2025 Gelman2013",
+     "window": "o sample from the tempered target distribution <<CITE:Hastings1970>> . This annealed sequence stabilizes mixing and improves exploration of the posterior relative to a single-stage random-walk sampler. We ran 8 independent runs (chains) for between-run diagnostics. Convergence was assessed with the split Gelman-Rubin statistic \\hat R and the effective sample size (ESS) <<CITE:Gelman2013>> . All runs achieved split- \\hat R <1.05 (most <1.02 ), and the minimum ESS per parameter exceeded 6500. For additional details of the T-MCMC implementation, the reader is referred to prior publications <<CITE:Ching2007,Venkatraman2025>> . Maximum a posteriori (MAP) estimates and 95% highest posterior density (HPD) intervals <<CITE:Gelman2013>> are extracted from the sampled posteriors and reported in this work. The MAP represents the most probable parame",
+     "flags": {
+      "cite_bda": true,
+      "cite_gr1992": false,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "bda",
+      "gelman_rubin_1992"
+     ],
+     "target": "bda"
+    }
+   ]
+  },
+  {
+   "arxiv": "2509.26385v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 119601,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.24820v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 131358,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.17980v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 50845,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.16062v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 145845,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.15164v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 95774,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.11781v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 141373,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.08102v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 126789,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.08020v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 55249,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.02772v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 110784,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.00941v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 162675,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.00753v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 181511,
+   "sites": []
+  },
+  {
+   "arxiv": "2509.00562v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 223708,
+   "sites": []
+  },
+  {
+   "arxiv": "2508.18413v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 123213,
+   "sites": []
+  },
+  {
+   "arxiv": "2508.16556v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 82076,
+   "sites": []
+  },
+  {
+   "arxiv": "2508.15069v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 181570,
+   "sites": []
+  },
+  {
+   "arxiv": "2508.11982v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 21773,
+   "sites": []
+  },
+  {
+   "arxiv": "2508.09758v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 64156,
+   "sites": []
+  },
+  {
+   "arxiv": "2507.18404v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 45413,
+   "sites": []
+  },
+  {
+   "arxiv": "2507.17065v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 67291,
+   "sites": []
+  },
+  {
+   "arxiv": "2608.03775v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 37648,
+   "sites": []
+  },
+  {
+   "arxiv": "2608.03566v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 92157,
+   "sites": [
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "stan vehtari2021improved",
+     "window": "row reports the consensus estimate obtained from the relevant shards. \\label pairwise \\end table Posterior sampling with MCMC was performed in the R texttt Stan <<CITE:stan>> . We initially ran the analysis using four chains, each with 1000 warm-up (adaptation) iterations followed by 1000 sampling iterations, yielding 4,000 valid samples in total. For datasets that did not meet the convergence criteria (i.e., \\hat R < 1.01 and effective sample size N_ \\text eff > 400) <<CITE:vehtari2021improved>> , we removed the fits for that dataset and ran the analysis again with same settings. All datasets for both full and the pairwise models satisfied the convergence criteria. \\subsection* Accuracy, uncertainty, and computational time assessments After posterior sampling, we obtained the consensus posterior via Equation \\ref eq:consensus , a",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": true,
+      "prov": true,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021",
+      "software"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "hat R > 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "rocessors) and took an average of 85 ms for each pair. The fitting involved aggregating information across 1056 pairs of estimation, and for each participant the fitting takes around 90s. For each pairwise fitting, we ran four parallel MCMC chains with 1000 warm-up iterations followed by 1000 sampling iterations, resulting in 4000 valid posterior samples per pair. For fits that did not meet convergence criteria ( \\hat R > 1.01 or N_ \\text eff < 400), we ran the model again until there were no warnings and convergence criteria were achieved. The average runtime per pairwise fit was approximately 0.47 seconds. The total numbers of pairwise fits were 369, 357, and 407 for the three subjects, respectively, resulting in total sampling times of 2.69, 2.68, and 3.46 minutes. \\begin figure [!ht] \\centering \\includegraphics[width=1\\linewidth] fig",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2608.02923v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 73386,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.29093v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 25639,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.28585v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 39388,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.28500v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 85213,
+   "sites": [
+    {
+     "match": "hat R < 1.003",
+     "value": "1.003",
+     "cite_keys": "carpenter2017stan",
+     "window": "\\text Exponential (5). \\] \\subsection Model Fit \\label sec:model_fit We fit the model using Hamiltonian Monte Carlo in Stan <<CITE:carpenter2017stan>> . We ran 4 parallel chains with 4,000 iterations each, discarding the first 2,000 iterations of each chain as warmup and retaining 2,000 post-warmup draws per chain (8,000 total). Convergence diagnostics indicated stable sampling, with the Gelman--Rubin diagnostic \\hat R < 1.003 for all parameters and effective sample sizes exceeding 2500 for all parameters. We assess model fit through posterior predictive checks on the spatial dispersion of serve landing locations and the frequency of net-contact (censored) serves. For each player--serve--region combination, we formed the 90% highest-density region (HDR) of the posterior predictive distribution of serve landing location and computed the p",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": true,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992",
+      "software"
+     ],
+     "target": "gelman_rubin_1992"
+    }
+   ]
+  },
+  {
+   "arxiv": "2607.27678v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 69898,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.26949v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 156384,
+   "sites": [
+    {
+     "match": "widehat R>1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "tion has eight independently generated data sets, each fitted from two dispersed initializations. A chain has 4,000 iterations with 1,200 burn-in iterations; each iteration makes five assessor and two item split--merge proposals using data-informed anchors and exact one-pass restricted allocation. Before producing a data-set-level summary, we screen the two chains using rank-normalized \\widehat R : a data set with \\widehat R>1.01 is reported as not meeting the common-budget screen, rather than having its chains pooled. Qualifying chains are then pooled to compute posterior similarity matrices, point partitions, and occupied-count probabilities. This makes the distinction between data-set recovery and the finite-budget MCMC check visible. In weak-signal conditions, posterior mass may genuinely be spread across several partitions and occupied ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "widehat R>1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "table % END INLINED GENERATED CONTENT: generated/appendix_simulation/table_heterogeneity_robustness.tex % BEGIN INLINED GENERATED CONTENT: generated/appendix_simulation/table_structured_diagnostics.tex \\begin table [htbp] \\centering \\caption Sampler diagnostics across all data sets in the structured recovery and sensitivity study under the common 4,000-iteration budget. A data set is flagged when rank-normalized \\widehat R>1.01 , which is why only qualifying pairs are pooled in the recovery summaries. Acceptance is the median split--merge acceptance proportion; chain ARI compares the two chain-specific VI partitions and PSM MAD is their mean absolute posterior-similarity difference. \\label tab:appendix-structured-diagnostics \\resizebox \\textwidth ! % \\begin tabular lrrrrrr \\toprule Partition & Data sets & \\widehat R>1.01 & Median b",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "widehat R>1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "ormalized \\widehat R>1.01 , which is why only qualifying pairs are pooled in the recovery summaries. Acceptance is the median split--merge acceptance proportion; chain ARI compares the two chain-specific VI partitions and PSM MAD is their mean absolute posterior-similarity difference. \\label tab:appendix-structured-diagnostics \\resizebox \\textwidth ! % \\begin tabular lrrrrrr \\toprule Partition & Data sets & \\widehat R>1.01 & Median bulk ESS & Median acceptance & Median chain ARI & Median PSM MAD \\\\ \\midrule Assessors & 128 & 14 & 2033 & 0.018 & 1.000 & 0.000 \\\\ Items & 128 & 34 & 457 & 0.154 & 0.956 & 0.003 \\\\ \\bottomrule \\end tabular \\end table % END INLINED GENERATED CONTENT: generated/appendix_simulation/table_structured_diagnostics.tex \\paragraph Recovery under the fitted model. Table \\ref tab:appendix-information-recov",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2607.26297v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 146475,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.26185v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 22266,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.25382v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 91918,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.25257v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 25135,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.24084v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 68087,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.23294v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 57858,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.21847v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 119206,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.21114v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 86267,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.21044v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 82311,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.19734v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 44662,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.19498v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 175977,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.19493v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 69546,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.18009v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 106943,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.17908v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 124794,
+   "sites": [
+    {
+     "match": "hat R \\) (target \\(< 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "Bayesian inference is performed via Hamiltonian Monte Carlo (HMC) using the No-U-Turn Sampler (NUTS) as implemented in Stan 2.38, accessed through the CmdStanR interface in R. Four parallel chains are run for each model fit, with 150 warmup iterations (warm-started from previously adapted inverse mass matrices) and 500 sampling iterations per chain, yielding 2000 posterior draws. Convergence is assessed via split-\\(\\hat R \\) (target \\(< 1.01\\)), bulk and tail effective sample size (ESS), and the absence of divergent transitions after warmup. The non-centred parameterisation used throughout the hierarchy is essential for efficient sampling of the weakly-identified patient-level parameters. Computational scalability is achieved through three strategies: the Gaussian process baselines are evaluated on a coarse knot grid (8-week spacing, \\textasciitilde25 k",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": true,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "software"
+     ],
+     "target": "software"
+    }
+   ]
+  },
+  {
+   "arxiv": "2607.16081v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 48242,
+   "sites": [
+    {
+     "match": "hat R less than 1.003",
+     "value": "1.003",
+     "cite_keys": "holbrook2021scalable rstan,coda",
+     "window": "of times faster than an analogous implementation in R <<CITE:holbrook2021scalable>> . We use four GPU nodes, each containing eight AMD Radeon Instinct MI50 GPUs, to generate 31 adaptive MH chains, with two GPUs assigned to each of the 16 chains run simultaneously. Individual chains require 4.11 hours on average to complete, and the entire batch of chains less than 10 hours. Across model parameters, we see a maximum \\hat R less than 1.003, minimum bulk- and tail-ESSs above 10,000 and 15,000, respectively, and minimum single-chain ESS above 300 <<CITE:rstan,coda>> . Table \\ref tab:medians presents the empirical posterior medians and 95% credible intervals (CrI) for each of the model parameters. We are particularly interested in the posterior distributions of \\xi_0 , \\omega_x and \\omega_t . Because the temporal and spatial kernels used within the trig",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": true,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "software"
+     ],
+     "target": "software"
+    }
+   ]
+  },
+  {
+   "arxiv": "2607.14860v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 80376,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.13185v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 100815,
+   "sites": [
+    {
+     "match": "hat R <1.1",
+     "value": "1.1",
+     "cite_keys": "gelman1992inference",
+     "window": "sterior predictions, we also evaluated estimation of key parameters by visually examining the posterior means and 95% credible intervals compared to the true values across simulations. Relevant figures are provided in Section S2.3 of the Supplement. We used the Gelman-Rubin statistic ( \\hat R ) based on four chains to evaluate convergence <<CITE:gelman1992inference>> . Convergence was defined as all parameters with \\hat R <1.1 . \\subsection Simulation Results Convergence rates varied across scenarios. When the standard deviation parameter in the prior for \\alpha_0 was 0.1, 0.5, or 1, convergence rates were generally high, ranging from 88% to over 99%. Unsurprisingly, convergence rates worsened as the prior on \\alpha_0 became less informative. Given the low number of surveilled hospitals, the posterior is likely to be highly diffuse wit",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "hat R <1.29",
+     "value": "1.29",
+     "cite_keys": "",
+     "window": " (after adjusting for mean capture probability and prior standard deviation in a logistic regression model) were lower numbers of passively captured cases, lower number of passively and actively captured cases, and lower number of positive tests among patients tested by active surveillance. The resulting lack of information caused slow mixing but not catastrophic failure. If the threshold for convergence was set to \\hat R <1.29 , convergence rates would be 100%. The lowest convergence rate of 77% was observed for the scenario in which the mean capture probability was 0.75 with the largest prior standard deviation on \\alpha_0 of 1.5. A high passive surveillance capture probability implies a lower true disease incidence. Since the active surveillance capture probability, pi ^A , was held constant across scenarios, the low incidence setting ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2607.11558v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 59173,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.07917v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 56337,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.07609v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 83226,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.06905v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 47483,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.06805v1",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.06284v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 35472,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.05887v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 179931,
+   "sites": [
+    {
+     "match": "widehat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": "gnostics. The observation model matches each dataset's noise---Poisson or negative binomial---and for the real surveillance data we additionally retain EpiNow2's day-of-week reporting effect. MCMC uses 4 chains (2 for the real data); warmup, texttt adapt_delta , and texttt max_treedepth are all raised above EpiNow2's defaults, scenario by scenario, until each fit was free of divergent transitions and well mixed ( \\widehat R < 1.05 ). We fix a single setting per dataset rather than tuning per replicate, accepting some over-provisioning to keep the comparison fair. This makes EpiNow2 by a wide margin the slowest method evaluated---tens of minutes to over two hours per single fit, against roughly a second for ConvRt---so the inflated sampling budgets compound an already steep runtime cost. The generation-time and reporting-delay distributions ma",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2607.04976v1",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.04205v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 205445,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.02786v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 87770,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.02000v1",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.01476v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 92092,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.00907v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 47503,
+   "sites": []
+  },
+  {
+   "arxiv": "2607.00722v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 119504,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.31964v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 58131,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.31022v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 86630,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.30999v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 30155,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.30992v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 33757,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.29448v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 99368,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.29402v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 26542,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.28522v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 48359,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.28251v1",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.24652v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 193426,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.24367v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 84178,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.23358v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 150760,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.23326v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 99471,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.23146v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 73460,
+   "sites": [
+    {
+     "match": "Gelman\u2013Rubin diagnostic <<CITE:gelamn>> confirmed that the potential scale reduction factor ( R ) for all para",
+     "value": "1.1",
+     "cite_keys": "gelamn",
+     "window": "d \\Sigma_ rs = \\rho_ rs sigma _r sigma _s for r,s = 1,\\dots,4 , r < s . In this application, the same treatment variable is included in both \\bm w _i and \\bm x _i . \\\\ \\noindent We use the slope-corrected two-stage (SC2S) approach to estimate this joint model. Estimation required approximately 9 minutes. Trace plots revealed no discernible trends in the MCMC chains, indicating adequate convergence. Furthermore, the Gelman\u2013Rubin diagnostic <<CITE:gelamn>> confirmed that the potential scale reduction factor ( R ) for all parameters remained below 1.1. \\subsection Results overview Estimated parameters for the latent and survival processes are reported in Table \\ref tab4 . The results for the GRM parameters and for the covariance matrix are presented in Tables S5 and S6 in Supplementary Section S4.\\\\ \\begin table \\sf\\centering \\caption Estimation results for latent processes and survival submodel parameters : Posterior means and 95% credible intervals (CI)",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": true,
+      "as_eponym": true
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    }
+   ]
+  },
+  {
+   "arxiv": "2606.22601v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 84088,
+   "sites": [
+    {
+     "match": "potential scale reduction factors ( \\hat R ) strictly less than 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": "ider predictive variance---visible as a broader dispersion of the purple scatter---the core density of the VAE surrogate remains robustly centered along the identity line. Furthermore, the use of alpha-blending (transparency) in both panels visually confirms that the vast majority of the posterior density remains aligned with the baseline. Finally, while convergence was successfully achieved in all cases---yielding potential scale reduction factors ( \\hat R ) strictly less than 1.05 and an effective sample size (ESS) greater than 2000---the VAE+HMM framework demonstrated a large improvement in computational cost. \\begin table [b!] \\centering \\caption Comparison of computational inference time (in seconds) between the exact textit Celerite +HMM framework and the proposed VAE+HMM surrogate model when applied to the empirical TESS light curves. The speedup factor highlights the substantial acce",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": true,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2606.20341v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 102068,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.19044v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 43762,
+   "sites": [
+    {
+     "match": "widehat R = 1.00",
+     "value": "1.00",
+     "cite_keys": "",
+     "window": "or the calibration and recovery studies. \\paragraph Mixing. On a representative random change-point problem (low-prior-fraction regime: J = 20 balanced groups, modest between-group variance sigma _ mathrm re , four chains), the sampler mixes efficiently across the hierarchical timing parameters (Table \\ref tab:mixing ). The subject-level locations \\omega_j reach a mean bulk effective sample size (ESS) of 1768 with \\widehat R = 1.00 , the population change-point \\omega an ESS of 256, and the between-group standard deviation sigma _ mathrm re an ESS of 2970, with no divergent transitions in the subject or \\omega blocks. The population change-point is the slowest-mixing of these (an order of magnitude below sigma _ mathrm re ), because it is strongly correlated with the baseline level; an ESS of 256 from 16 , 000 draws is ample for the posterior ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2606.18809v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 50945,
+   "sites": [
+    {
+     "match": "Rhat is the potential scale reduction factor on split chains (at convergence, Rhat=1",
+     "value": "1",
+     "cite_keys": "dyck2025bpgw",
+     "window": "malprior. 4 chains, each with iter=11000; warmup=1000; thin=1; post-warmup draws per chain=10000, total post-warmup draws=40000. mean se_mean sd n_eff Rhat theta 60.16 0.19 26.68 19269 1 nu 1.26 0.00 0.36 18022 1 gamma 121.32 0.32 41.12 16443 1 lp__ -235.15 0.01 1.25 14496 1 Samples were drawn using NUTS(diag_e) at Thu Mar 26 16:59:35 2026. For each parameter, n_eff is a crude measure of effective sample size, and Rhat is the potential scale reduction factor on split chains (at convergence, Rhat=1). bwsp_test(mod.output = mod2, # BWSP test cred.level = 0.8, ci.type = \"HDI\", sensitivity.option = 2) bwsp_pgw_ll_0.8_HDI_2 1 \\end codesnippet leads to a signal. \\subsubsection Test tuning The recommended test specification presented in <<CITE:dyck2025bpgw>> sufficiently represents the sample size at hand, but the AE rate and relative SD observed in the data are considerably lower than those in the simulati",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": true,
+      "as_rhat": true,
+      "as_psrf": true,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "other"
+    }
+   ]
+  },
+  {
+   "arxiv": "2606.18806v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 57019,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.18567v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 87593,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.17790v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 71482,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.17717v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 97219,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.17343v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 91080,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.17267v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 165237,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.16677v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 82472,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.16224v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 40886,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.15525v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 108096,
+   "sites": [
+    {
+     "match": "hat R < 1.10",
+     "value": "1.10",
+     "cite_keys": "Gelman1992 Gelman2013 Plummer2006",
+     "window": "000 total MCMC iterations, with the first 10,000 discarded as burn-in and the remaining 30,000 thinned by a factor of 10, yielding R = 3,000 posterior draws per parameter. Convergence is guaranteed via traceplots. % \\paragraph Convergence diagnostics. % Three complementary criteria were applied: % \\begin enumerate % it em textit Potential Scale Reduction Factor (PSRF, % \\hat R ; <<CITE:Gelman1992>> ): % values \\hat R < 1.10 for all monitored scalar % parameters were required for convergence to be declared.In the empirical application, all parameters satisfied % this criterion after the specified burn-in. % it em textit Effective Sample Size (ESS; % <<CITE:Gelman2013>> ): % ESS was computed using the texttt coda package % <<CITE:Plummer2006>> . % Minimum acceptable ESS was set to 100 for all % parameters; parameters of primary scientif",
+     "flags": {
+      "cite_bda": true,
+      "cite_gr1992": true,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": true,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "bda",
+      "gelman_rubin_1992",
+      "software"
+     ],
+     "target": "bda"
+    },
+    {
+     "match": "hat R values were nonetheless below 1.05",
+     "value": "1.05",
+     "cite_keys": "Plummer2006",
+     "window": "tit Note. % ESS computed from a single chain of R = 3 , 000 % post-thinning draws using the texttt effectiveSize % function in texttt coda <<CITE:Plummer2006>> . % Thinning interval = 10; total post-burn-in draws = % 30 , 000. it em[a] The relatively low ESS for \\theta_ m,1 % reflects the small cluster size ( n_1 = 18 ,9% % of the sample) and the consequent high posterior % uncertainty for this parameter. % All \\hat R values were nonetheless below 1.05. % Substantive conclusions pertaining to K1 are drawn % with appropriate caution; see % Section \\ref sec:discussion . % \\end tablenotes % \\end threeparttable % \\end table %--------------------------------------------------------------------- \\subsection Label Switching Correction via ECR \\label subsec:ecr Mixture posteriors are invariant under permutations of the cluster labels, producing a multimodal MCMC ou",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "software"
+     ],
+     "target": "software"
+    },
+    {
+     "match": "hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": " and priors as specified in % Equations \\eqref eq:prior_sdb --\\eqref eq:full_hyper_prior . % MCMC was run for 40 , 000 iterations per chain (three % chains), with a burn-in of 10 , 000 and a thinning interval % of 10, yielding R = 3 , 000 posterior draws per chain % (9 , 000 total before aggregation). % ECR relabeling was applied to the pooled output % (Section \\ref subsec:ecr ), and convergence was confirmed % via \\hat R < 1.05 for all parameters and the ESS values % reported in Table \\ref tab:ess . % The overall model fit was mathrm WAIC = 28 , 285.71 % (Table \\ref tab:waic_comparison ). %--------------------------------------------------------------------- \\subsection Results \\label subsec:results \\subsubsection Cluster Enumeration and Learner Profiles. \\label subsubsec:k_result The estimated number of clusters is \\hat K =4 with ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2606.14902v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 86433,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.13305v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 113459,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.13019v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 80832,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.11405v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 118361,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.10772v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 72990,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.10256v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 91703,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.09307v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 64199,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.08660v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 55053,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.08642v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 117953,
+   "sites": [
+    {
+     "match": "hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": "ly non-informative, placing minimal constraint on the scale of unexplained variability. Prior selection followed a systematic comparison of five candidates spanning a wide range of informativeness: mathrm IG (100,1) , mathrm IG (3, 0.20) , mathrm IG (2, 0.15) , mathrm IG (1,1) , and mathrm IG (0.01, 0.01) . All five candidates achieved satisfactory convergence in the point estimates of the Gelman--Rubin statistic ( \\hat R < 1.05 for all parameters). The mathrm IG (0.01, 0.01) prior is selected as the primary specification because it is the most diffuse candidate and imposes the least informative constraint on sigma ^2 ; its full per-parameter convergence diagnostics are reported in Table \\ref tab:convergence . \\subsection Primary Results \\label sec:primary-results The Bayesian longitudinal model in equations \\eqref eq:XEN-obs --\\eqref ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "hat R point estimates are at or below 1.002",
+     "value": "1.002",
+     "cite_keys": "",
+     "window": " MCMC chains; each chain discarded 10 , 000 run-in iterations and then retained 100 , 000 post-run-in draws after thinning by a factor of five, giving 200 , 000 posterior draws in total. MCMC convergence was assessed using trace plots, the Gelman--Rubin \\hat R statistic, and effective sampling draw calculations; full per-parameter diagnostics for the primary analysis are reported in Table \\ref tab:convergence . All \\hat R point estimates are at or below 1.002 with upper confidence bounds at or below 1.010, and every monitored parameter has an effective sampling draw above 1 , 500. All R code and simulated datasets are publicly available at %https://github.com/[uername]/[repo-name]. https://github.com/gux9/ect-sensitivity-framework. \\section Disclosure Statement \\label disclosure-statement This research received no funding from any public, commercial, or not-for-profi",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "hat R statistic <<CITE:GelmanRubin1992>> compares within-chain and between-chain variance ( \\hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "GelmanRubin1992",
+     "window": "retation for ethnic comparability: For each \\Delta parameter, a posterior mean near zero with a 95% CrI that covers zero indicates the data are consistent with no ethnic difference. A narrow CrI centered on zero provides strong evidence for comparability; a wide CrI covering zero indicates insufficient precision to distinguish the ethnic difference from zero. \\subsection Convergence Diagnostics The Gelman--Rubin \\hat R statistic <<CITE:GelmanRubin1992>> compares within-chain and between-chain variance ( \\hat R < 1.05 indicates convergence). The effective sampling draw (ESD) accounts for autocorrelation within chains; values above 100 per chain generally ensure reliable posterior summaries. Table \\ref tab:convergence reports the Gelman--Rubin \\hat R statistics and MCMC effective sampling draws for the primary analysis ( mathrm InvGamma (0.01, 0.01) prior). All \\hat R point estimates are at or below 1.002 and all upper confidence",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": true,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": true
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "hat R point estimates are at or below 1.002",
+     "value": "1.002",
+     "cite_keys": "",
+     "window": "2>> compares within-chain and between-chain variance ( \\hat R < 1.05 indicates convergence). The effective sampling draw (ESD) accounts for autocorrelation within chains; values above 100 per chain generally ensure reliable posterior summaries. Table \\ref tab:convergence reports the Gelman--Rubin \\hat R statistics and MCMC effective sampling draws for the primary analysis ( mathrm InvGamma (0.01, 0.01) prior). All \\hat R point estimates are at or below 1.002 and all upper confidence bounds are at or below 1.010, well within the \\hat R < 1.05 convergence threshold. Effective sampling draws range from 1 , 589 (for \\Delta E_ \\max ) up to 201 , 186 (for the fast-mixing variance parameters a and sigma ^2 ), and every monitored parameter exceeds the 200 sample reliability threshold for two chains. To attain these effective sampling draws for the more slowly mixing Emax-block ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "",
+     "window": "draw (ESD) accounts for autocorrelation within chains; values above 100 per chain generally ensure reliable posterior summaries. Table \\ref tab:convergence reports the Gelman--Rubin \\hat R statistics and MCMC effective sampling draws for the primary analysis ( mathrm InvGamma (0.01, 0.01) prior). All \\hat R point estimates are at or below 1.002 and all upper confidence bounds are at or below 1.010, well within the \\hat R < 1.05 convergence threshold. Effective sampling draws range from 1 , 589 (for \\Delta E_ \\max ) up to 201 , 186 (for the fast-mixing variance parameters a and sigma ^2 ), and every monitored parameter exceeds the 200 sample reliability threshold for two chains. To attain these effective sampling draws for the more slowly mixing Emax-block and ethnic-difference parameters, the primary analysis employed a block sampler targe",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    }
+   ]
+  },
+  {
+   "arxiv": "2606.07947v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 83807,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.07677v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 111708,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.06173v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 26631,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.03961v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 82361,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.02410v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 157801,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.02017v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 91894,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.01489v1",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2606.01428v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 148420,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.31511v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 57283,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.31394v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 82119,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.30775v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 60005,
+   "sites": [
+    {
+     "match": "widehat R values were below 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "opted four independent NUTS chains, with 2,000 warm-up iterations and 1,000 retained posterior draws per chain. Convergence was evaluated using rank-normalized split \\widehat R , bulk and tail effective sample sizes (ESS), divergent transitions, and representative trace and rank plots. For the key covariance and scale parameters and representative values of the latent ERP functions and split-and-merge weights, all \\widehat R values were below 1.01. The minimum bulk and tail ESS values were 859.7 and 900.9, respectively, and no divergent transitions were observed. Detailed diagnostic results are provided in Section S4. \\subsection Results \\subsubsection Parameter Estimation To assess the parameter estimation performance in the real data analysis for K178 within the BCI scenario, we examined the estimated ERP components ( \\bm \\beta _ 1 , \\bm \\beta _ 0 ) acr",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    }
+   ]
+  },
+  {
+   "arxiv": "2605.30623v1",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.29196v1",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.29193v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 55622,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.28212v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 66883,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.27889v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 47400,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.27720v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 80727,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.27184v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 61571,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.26843v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 99429,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.25043v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 97036,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.24847v2",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.23858v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 64521,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.23692v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 150421,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.23048v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 80037,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.20692v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 183825,
+   "sites": [
+    {
+     "match": "hat R up to 2.46",
+     "value": "2.46",
+     "cite_keys": "neal2003slice,betancourt2016diagnosing",
+     "window": "iliopoulos2007general>> , in which standard normal auxiliary variables \\mathbf z _i are sampled and then scaled by the relevant standard deviations in the transformed parameters block. This eliminates the funnel geometries that arise from centered parameterizations of hierarchical models <<CITE:neal2003slice,betancourt2016diagnosing>> and that, in preliminary runs, led to severe convergence failures (E-BFMI < 0.07, \\hat R up to 2.46). For the correlated RNA random effects, the NCP is extended via the Cholesky factorization of the correlation matrix (Section \\ref sec:model ), which parameterizes the correlation structure through its lower-triangular factor \\mathbf L and avoids direct sampling of the positive-definite matrix \\boldsymbol \\Omega . Second, the smooth trajectory function (Section \\ref sec:model ) provides continuously differentiable ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "other"
+    },
+    {
+     "match": "hat R statistic <<CITE:vehtari2021rank>> , with all parameters required to satisfy \\hat R < 1.05",
+     "value": "1.05",
+     "cite_keys": "vehtari2021rank betancourt2016diagnosing gabry2019visualization",
+     "window": " log scale with prior mean and coefficient of variation supplied as data, which standardizes the posterior geometry and reduces sensitivity to the prior scale. %Fourth, PFU individual random effects are restricted to the N_ \\text pfu = 275 individuals who contribute at least one viral culture observation, avoiding the estimation of thousands of poorly identified parameters. Convergence is assessed using the split- \\hat R statistic <<CITE:vehtari2021rank>> , with all parameters required to satisfy \\hat R < 1.05 , and effective sample sizes (both bulk and tail ESS) required to exceed 100 per parameter. We additionally monitor the number of divergent transitions, the energy Bayesian fraction of missing information (E-BFMI) <<CITE:betancourt2016diagnosing>> , and inspect trace plots for key parameters <<CITE:gabry2019visualization>> . Model comparison is performed using Pareto-smoothed importance sampling leave-one-out cross-",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": true,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "vehtari_2021"
+     ],
+     "target": "vehtari_2021"
+    },
+    {
+     "match": "hat R > 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "ions (0 of 64 , 000 transitions) and without maximum tree depth exceedances. The energy Bayesian fraction of missing information (E-BFMI) ranged from 0.68 to 0.70 across chains, well above the 0.3 threshold that would suggest problematic posterior geometry. The maximum split- \\hat R across all parameters was 1.03 (for the RNA correlation matrix element L_ \\Omega,\\text rna [4,3] ), with only 17 parameters exhibiting \\hat R > 1.01 , all of which are elements of the RNA individual-effect correlation matrix. No PFU-related parameters showed convergence concerns. The minimum bulk effective sample size was 183 ( L_ \\Omega,\\text rna [4,1] ) and the minimum tail ESS was 328 ( L_ \\Omega,\\text rna [4,3] ), both adequate for reliable posterior inference. Trace plots for key parameters are shown in Figure \\ref fig:trace . \\subsection Posterior predict",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2605.20400v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 76829,
+   "sites": [
+    {
+     "match": "hat R statistic for all parameters (require \\hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "STATE Adapt step size \\epsilon_t to achieve acceptance rate \\approx \\delta_ \\text target \\STATE Draw sample \\theta^ (t) using NUTS with current \\epsilon_t \\ENDFOR \\FOR t = N_ \\text tune + 1 to N_ \\text tune + N_ \\text draws \\STATE Draw sample \\theta^ (t) using NUTS with fixed \\epsilon \\STATE Store \\theta^ (t) in posterior samples \\ENDFOR \\ENDFOR \\STATE textbf Convergence Diagnostics: \\STATE \\quad Compute \\hat R statistic for all parameters (require \\hat R < 1.01 ) \\STATE \\quad Compute ESS for all parameters (require ESS > 400 per chain) \\STATE textbf Extract Random Effects: \\FOR i = 1 to N_ \\text pumps \\STATE \\bar u _i left arrow \\frac 1 S \\sum_ s=1 ^ S u_i^ (s) \\quad \\COMMENT Posterior mean \\STATE Compute 95% HDI: [\\bar u _i^ \\text low , \\bar u _i^ \\text high ] \\ENDFOR \\RETURN \\ \\bar u _i\\ _ i=1 ^ N_ \\text pumps , posterior samples \\ \\theta^ (s) \\ _ s=1 ^ S \\end alg",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    },
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "ion it em textbf Chains : N_ \\text chains = 8 independent chains for convergence assessment it em textbf Target acceptance : \\delta_ \\text target = 0.95 (higher than default 0.8 to avoid divergences in hierarchical models) \\end itemize We assess convergence using two standard diagnostics: \\begin enumerate it em textbf Gelman-Rubin statistic \\hat R : Compares within-chain and between-chain variance. We require \\hat R < 1.01 for all parameters. it em textbf Effective Sample Size (ESS) : Accounts for autocorrelation in MCMC chains. We require ESS > 400 per chain (total ESS > 3200 ). \\end enumerate \\subsubsection Random Effect Extraction For each pump i , we extract the posterior mean of the random effect: \\begin equation \\bar u _i = \\mathbb E [u_i \\mid \\mathcal D ] \\approx \\frac 1 S \\sum_ s=1 ^ S u_i^ (s) \\label eq:u_posterior_mea",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": true,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "gelman_rubin_1992"
+     ],
+     "target": "gelman_rubin_1992"
+    },
+    {
+     "match": "hat R > 1.1",
+     "value": "1.1",
+     "cite_keys": "heckerman1995learning",
+     "window": "2008nonlinear>> can capture more complex relationships, our validation experiments (see Section \\ref sec:alternative_methods ) demonstrated that textbf linear relationships dominate in both groups ( \\rho_ \\text Spearman > 0.92 for top-5 effects). Bayesian causal discovery methods <<CITE:heckerman1995learning>> offer principled uncertainty quantification but suffered from convergence failures in the Negative group ( \\hat R > 1.1 ) due to small sample size ( n = 6120 ) and high-dimensional posterior geometry. DirectLiNGAM was selected based on three key advantages: (1) textbf computational efficiency ---completing causal discovery in 10--30 seconds per group compared to hours for Bayesian MCMC sampling; (2) textbf convergence reliability ---no sampling failures across more than 100 runs with different random initializations; and (3) textbf ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "other"
+    },
+    {
+     "match": "hat R > 1.1",
+     "value": "1.1",
+     "cite_keys": "hoyer2008nonlinear",
+     "window": ", \\mu_i, sigma ), \\quad \\mu_i = \\alpha + \\sum_ j=1 ^ 22 \\beta_j f_ ij \\label eq:bayesian_causal \\end equation where \\nu is the degrees of freedom (estimated), \\beta_j represents the causal effect of feature j , and weakly informative priors \\beta_j \\sim \\mathcal N (0, 10^2) were used. textbf Challenge : NUTS sampling failed to converge for the Negative group ( |\\mathcal G _-| = 50 , n_ \\text obs = 6120 ), with \\hat R > 1.1 for multiple parameters even after 10,000 tuning iterations. We attribute this to the small sample size and strong multicollinearity among features, which creates a high-dimensional, poorly conditioned posterior geometry. \\subsubsection Nonlinear LiNGAM To test whether linear assumptions (Eq. \\eqref eq:lingam_sem ) are appropriate, we applied NonlinearLiNGAM <<CITE:hoyer2008nonlinear>> using Gaussian process regr",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "other"
+    },
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": " 8 chains. \\label tab:gpu_speedup \\begin tabular lccc \\toprule textbf Backend & textbf Time (min) & textbf Speedup & textbf Memory (GB) \\\\ \\midrule CPU (8 cores, PyMC) & 90--120 & 1.0\u00d7 & 4--6 \\\\ GPU (NumPyro + JAX) & 18--30 & 3.5\u00d7 & 8--12 \\\\ \\bottomrule \\end tabular \\end table* As shown in Table \\ref tab:gpu_speedup , GPU acceleration achieves a 3--5\u00d7 speedup while maintaining identical posterior estimates ( \\hat R < 1.01 , ESS > 400 per chain for all parameters). The speedup is particularly beneficial for sensitivity analyses requiring multiple model runs. \\subsubsection Reproducibility Note GPU-accelerated NUTS is available on Linux/WSL2 only; native Windows and macOS users must use CPU sampling. Full setup instructions are provided in our repository: \\url https://github.com/tk-yasuno/hazard_effect_lingam . We verified that CPU ",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": true,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [
+      "software"
+     ],
+     "target": "software"
+    },
+    {
+     "match": "hat R < 1.01",
+     "value": "1.01",
+     "cite_keys": "",
+     "window": "oss 92,861 observations, 2,847 health state transitions (3.1% transition rate) were recorded. The low transition rate reflects the gradual nature of pump deterioration. \\subsection Bayesian Hierarchical Model Results \\subsubsection NUTS Sampling Performance Using GPU acceleration (NVIDIA RTX 4060 Ti, 16GB), NUTS sampling completed in 22 minutes with the following convergence diagnostics: \\begin itemize it em \\hat R < 1.01 for all 8 baseline hazards ( \\log \\lambda_ 0k ), random effect variance sigma _u , and all 112 random effects u_i it em ESS: 467--832 per chain for sigma _u , 113--223 per chain for individual u_i (lower due to hierarchical structure) it em Zero divergences across 16,000 posterior samples (8 chains times 2000 draws) \\end itemize These diagnostics confirm reliable posterior estimation. While ESS for individual u",
+     "flags": {
+      "cite_bda": false,
+      "cite_gr1992": false,
+      "name_gr": false,
+      "cite_vehtari": false,
+      "cite_software": false,
+      "prov": false,
+      "hedge": false,
+      "as_rhat": true,
+      "as_psrf": false,
+      "as_eponym": false
+     },
+     "targets": [],
+     "target": "none"
+    }
+   ]
+  },
+  {
+   "arxiv": "2605.20143v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 108477,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.18728v1",
+   "state": "no_source",
+   "mentioned": null,
+   "chars": 0,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.17518v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 96763,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.16804v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 162781,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.15291v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 55556,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.14565v2",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 99644,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.13660v2",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 63961,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.12901v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 53294,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.09064v1",
+   "state": "measured",
+   "mentioned": true,
+   "chars": 47413,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.07300v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 76535,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.06742v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 180078,
+   "sites": []
+  },
+  {
+   "arxiv": "2605.06333v1",
+   "state": "measured",
+   "mentioned": false,
+   "chars": 53275,
+   "sites": []
+  }
+ ]
+}

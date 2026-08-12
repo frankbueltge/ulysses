@@ -422,8 +422,80 @@ among the sighted — unchanged from 0.6, which had already emptied the demonstr
 So this repair takes nothing further from the work. The landed `repair-consequence-tick55.json`
 was restored byte-identical after the run (`d6f2dd00…`); the check is re-runnable by anyone.
 
-### Still open at this point
+### The re-measure: seven forecasts, seven held
 
-The re-measure over three frames, the hand reading of every site 0.8 adds, and the scoring of
-the seven forecasts. Until those are in the next section, this tick has produced a repair and
-no finding.
+Both versions over one freshly fetched corpus, 1,085 e-prints, so every difference is the
+instrument. The 0.7 side ran from the instrument exactly as committed at tick 58
+(`ref_sha256: a547b55d…`, recorded in the output).
+
+| frame · profile | sites 0.7 | sites 0.8 | added | removed | candidates | rate |
+|---|---|---|---|---|---|---|
+| gaia · ruwe-1.4 | 896 | **897** | +1 | 0 | 41 → 41 | 12.8 → 12.8 % |
+| gaia · uwe-1.25 | 937 | **938** | +1 | 0 | 41 → 41 | 12.8 → 12.8 % |
+| mcmc · rhat-1.1 | 88 | **88** | +0 | 0 | 22 → 22 | 44.0 → 44.0 % |
+| cv · iou-0.5 | 280 | **285** | +5 | 0 | 99 → 99 | 48.3 → 48.3 % |
+
+**P1** (gains +1/+1/+0/+5), **P2** (nothing removed anywhere), **P4** (no paper cleared, none
+gained, every candidate count and every rate unchanged), **P6** (`2506.22399` 3→4 in both gaia
+profiles, `2608.05356v1` 4→8, `2604.20395v2` 7→8, and no fourth paper) and **P5** (the corrected
+computer vision rate **35.2 %**, moved by **0.0**, still two papers from the hand census's
+33.8 %) all hold at their point predictions, not merely inside their bands.
+
+**P3, the closed population: 7 of 7, all strict.** Every site 0.8 adds is one 0.7 removed, under
+the strict key — the same matched string, not merely the same paper and value. Neither escape
+reaches outside what the previous repair took.
+
+**P7, the hand reading: 7 of 7**, against a forecast of at least 6 and a floor of 5
+(`handread-added-tick59.csv`; no sample, no seed, the population read whole). `RUWE_c < 1.4` is
+the control-sample condition of `2506.22399`, stated as a rule at this line's own focus value —
+its subscript names *which star's* RUWE. The four `IoU_3D` sites of `2608.05356v1` are matching
+and change-detection criteria. `IoU\\ > 0.50` is a table column head set across a row break in
+`2604.20395v2`, whose caption states the same threshold again — which is why 0.7 cleared no
+paper there even while removing the site.
+
+### The one control that fired, and what it caught
+
+**D11 failed on two frames, and it was right to.** On the first reading, gaia reproduced 895
+sites where tick 58 landed 896, mcmc 87 where it landed 88, and the rates came out **12.9 %** and
+**44.9 %** instead of 12.8 and 44.0. Cause, named paper by paper: `2206.04458` and
+`2607.06805v1`, readable at tick 58 and not today — an SSL EOF and an `IncompleteRead` on an
+81 MB e-print. **Transport failures, not withdrawals.**
+
+They were retried into a **separate** `fetch-manifest-retry.jsonl`, never merged into the main
+one, which is the instrument's own declared path for exactly this. Both recovered; the frames
+then reproduced the landed 0.7 table field for field, and drift went silent at **599/599,
+229/229, 256/256 byte-identical**. Both readings are landed — `remeasure-tick59-preretry*`
+alongside `remeasure-tick59*` — because the retry was decided **after** seeing D11 fire, and a
+reading discarded after the fact is a reading a reader cannot check.
+
+Two things this does not license. The pre-registration says a frame failing D11 is **void**, and
+by its own words gaia and mcmc were void on the first reading; that stands as written, and the
+observation that the clause is blunter than the design warrants — the *diff* was identical in
+both readings, +1/+1/+0/+5 with nothing removed — is a refinement for the **next** registration,
+not a softening of this one. And D11 is the only instrument that did any work tonight: without
+it this tick would have published a rate that moved 0.9 points because two downloads failed.
+
+### Recorded against the finding
+
+Seven of seven is a weak result, and §5 of the registration said so **before** the run: P1, P4
+and P6 are arithmetic over a landed file, and a forecast that cannot plausibly fail buys
+nothing. What was genuinely at risk was P3, P2 and P7, and those three are what this tick
+earned. The adversarial read also capped P7's weight in advance — five of its seven sites come
+from one paper — and that cap stands.
+
+**Five topoi: not used**, logged as unused; nothing was judged. **Pre-opening check** ran: no
+work opening was owed or available, and the one packet stays `prepared` and awaits the
+architect. **Inward counter: 0 in the last 4** (56–59).
+
+### Named remainder, and the next operation
+
+**N1, N2, N3 stay red**, unrepaired and unchanged: the genitive `of`, the reported value read as
+a rule, the criterion absorbed into `AP_50`. The last needs a second detector and would change
+what the instrument measures — its own operation, not a repair.
+
+What this tick makes available and did not take: the sieve and the hand census of the computer
+vision frame now stand **two papers apart** with no correction between them, and the exposition
+question tick 58 left open — which of 35.2 % and 33.8 % the work should carry — is still open
+and is a question for the work, not for the sieve. **The next operation is that question**, in
+`the-gap`, not another version of the instrument. Four repairs in five ticks have moved the
+headline by 0.0 points; the instrument is not where the work is.
