@@ -1,0 +1,52 @@
+{
+ "tick": 59,
+ "reads": "tick 58's landed diff",
+ "removed_records": 108,
+ "added_records": 11,
+ "same_site_pairs": 4,
+ "distinct_sites_affected": 4,
+ "corrected_removed": 104,
+ "corrected_added": 7,
+ "pairs": [
+  {
+   "corpus": "cv",
+   "profile": "iou-0.5",
+   "arxiv": "2604.17920v1",
+   "value": "0.5",
+   "count": 1,
+   "removed_match": "IoU =t , \\end equation where T is the set of IoU thresholds from 0.5",
+   "added_match": "IoU thresholds from 0.5",
+   "added_is_suffix_of_removed": true
+  },
+  {
+   "corpus": "cv",
+   "profile": "iou-0.5",
+   "arxiv": "2607.25239v1",
+   "value": "0.02",
+   "count": 1,
+   "removed_match": "overlap \\\\ Candidate pairs with IoU evidence & 374 & Frame-level candidate evidence collected with IoU > 0.02",
+   "added_match": "IoU evidence & 374 & Frame-level candidate evidence collected with IoU > 0.02",
+   "added_is_suffix_of_removed": true
+  },
+  {
+   "corpus": "gaia",
+   "profile": "ruwe-1.4",
+   "arxiv": "2207.02925",
+   "value": "1.2",
+   "count": 1,
+   "removed_match": "RUWE 0.8 plx 0.76 00374 - 3904 & WHI 1 & 0\\farcs3 Sp 1987 & 2021, R \\\\ % RUWE=1.2",
+   "added_match": "RUWE=1.2",
+   "added_is_suffix_of_removed": true
+  },
+  {
+   "corpus": "gaia",
+   "profile": "uwe-1.25",
+   "arxiv": "2207.02925",
+   "value": "1.2",
+   "count": 1,
+   "removed_match": "RUWE 0.8 plx 0.76 00374 - 3904 & WHI 1 & 0\\farcs3 Sp 1987 & 2021, R \\\\ % RUWE=1.2",
+   "added_match": "RUWE=1.2",
+   "added_is_suffix_of_removed": true
+  }
+ ]
+}
