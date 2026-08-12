@@ -66,9 +66,23 @@ if protocol and delegation:
 
 # ── 2. who may amend the protocol ─────────────────────────────────────────────
 if protocol and delegation:
-    # The clause is what lifted the restriction; its presence is the fact, not its wording.
-    lifted = re.search(r"Self-development clause", protocol) and re.search(
-        r"human-only[^.]*\bis lifted\b", protocol, re.S
+    # The clause is what lifted the restriction; its presence is the fact, not its wording —
+    # and on 2026-08-12 that distinction stopped being decorative. v6 folded the 2026-08-02
+    # self-amendments in "as plain law, not stacked as strata", which dropped v5's HEADING
+    # while keeping the grant: "The practice may develop this protocol further itself — any
+    # part, this sentence included". Keyed to the heading, this check read a REWRITTEN
+    # constitution as a REPEALED one and reported the authority as stated nowhere — a false
+    # alarm of exactly the shape it exists to catch, one level up: the check outlived the
+    # wording it was written against.
+    #
+    # So both phrasings count, and the bar stays a sentence that GRANTS the change rather than
+    # any mention of amendment. Whitespace is normalised first: these paragraphs wrap at ~95
+    # columns, and a line-based search across the break reports "missing" for text plainly
+    # present (four times in the engine repositories on 2026-08-12 alone).
+    flat = re.sub(r"\s+", " ", protocol)
+    lifted = bool(
+        (re.search(r"Self-development clause", flat) and re.search(r"human-only[^.]*\bis lifted\b", flat))
+        or re.search(r"may develop this protocol further itself", flat)
     )
     fenced = re.search(r"^\s*protocol_amendment:\s*human_only\b", delegation, re.M)
     if lifted and fenced:
