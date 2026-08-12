@@ -10,7 +10,8 @@ protocol_version: 6
 standing_delegation_version: 2
 mandate_check: PASS
 created: 2026-07-23
-compacted: ticks 58, 60 (PR #16, unmerged) and 62; TRACE at 4,844/6,000 at tick 62
+compacted: ticks 58, 60, 62 and 64; TRACE at 4,766/6,000 at tick 64 (tick 58 rotated out,
+  landing directly — PRs #15 and #16 are merged and `archive/**` is eligible since 2026-08-12)
 work_line:
   work_intention: >
     A work holding the three-level displacement of error together — error lodged not in the
@@ -23,8 +24,8 @@ work_line:
     (599 papers), R-hat 1.1 (230), IoU 0.5 (256).
   horizon: >
     **Bounded, and past the bound.** §4 (architect, 2026-08-12): twelve worked sessions,
-    renewable once. This line has spent 63. Corrected here rather than left reading "open
-    (months)"; the disposition is the monthly review's under the symmetry rule, not a tick's.
+    renewable once. This line has spent 64. The disposition is the monthly review's under the
+    symmetry rule, not a tick's.
   research_programme: >
     Error is relational — a value against its own claimed precision. Named 2026-07-31. Instances:
     astrometry, metrology (JCGM 100:2008), cryptography (where the transfer cost the line a
@@ -33,14 +34,13 @@ work_line:
     **The gap**, subject changed at tick 62 (`DECISION.md`): the visitor moves **a rule of the
     reader** — which words count as a comparison — with the committed instrument judging every
     state. `THE-SECOND-WORK-2026-08-10.md`; `the-gap/sketch-v1.html` stands as drawn and is no
-    longer the form the work heads for. Tick 63 confirmed the axis and removed the forecast edge;
-    the candidate edge is now the direction-blindness (TRACE tick 63).
+    longer the form. Tick 63 confirmed the axis and removed the forecast edge; tick 64 removed
+    the candidate edge. The work has an axis and no edge.
   pre_registered_clause: >
-    Standing since tick 19, required by §4: every measuring tick fixes numbered forecasts with
-    bands before the corpus is read, and scores them afterwards whatever they say. Failed
-    forecasts: ticks 52, 55, 57, 58, 60, 61, **63 (C1, C2)**. Held: 62 (C1, C2), **63 (C3)**.
-    **Live and awaiting its test: `PREREGISTRATION-tick64.md`**, adversarially read at the close
-    of tick 63 — direction-blindness as a share of the frame's 292 landed sites, band 5–20 %.
+    Standing since tick 19, required by §4. Failed forecasts: ticks 52, 55, 57, 58, 60, 61,
+    63 (C1, C2), **64 (C1)**. Held: 62 (C1, C2), 63 (C3), **64 (C2, C3)**. **None live** — tick
+    64 executed the last and wrote no successor, so under §8 the line does not hold the next
+    session by right.
   refrain_aspect: territory
 disposition: PUBLISH
 publication_approved_by: Frank Bültge
@@ -49,18 +49,19 @@ publication_approved_at: 2026-08-01T08:20:00Z
 
 # Project score — Negative parallax (living map)
 
-*Compacted at ticks 58, 60, 62 and 63; nothing rewritten or deleted — what each compaction lifted
-out stands in `TRACE.md` and `DECISION.md`. The v4 score and ticks 1–57 of the trace are in
-`archive/trace/`, **live on main since PRs #15 and #16 merged**.*
+*Compacted at ticks 58–64; nothing rewritten or deleted. The v4 score and ticks 1–58 of the
+trace are in `archive/trace/`, live on main.*
 
 ## Where the line is
 
 **Shipped** (2026-08-01): the negative-parallax work and *The Operative Ruler*. **Prepared,
 awaiting the architect**: the "Episode 6" packet, receiver named (§10). **In hand**:
-`warrant-trace` 0.8, four threshold literatures read with it. **Under work**: the second work —
-axis confirmed at tick 63, forecast edge removed, next edge under test at tick 64.
+`warrant-trace` 0.8, four threshold literatures read with it. **Under work, and without an
+edge**: the second work — axis confirmed at tick 63, forecast edge removed there, candidate edge
+removed at tick 64.
 
-**Open, not resolved by a tick:** the twelve-session bound (see `horizon`).
+**Open, not resolved by a tick:** the twelve-session bound (see `horizon`), on a line at 64
+sessions with no clause awaiting test. The monthly review's call.
 
 ## The question the instrument answers
 
@@ -76,10 +77,8 @@ or nothing.
 | mcmc, R-hat 1.1 | 50 | 28 | 22 | 44.0 % |
 | cv, IoU 0.5 | 205 | 106 | 99 | 48.3 % |
 
-Unchanged by 0.8. The computer-vision figure is the one under work: the work carries **33.8 %**
-(48/142), the sieve's **35.2 %** (50/142) is not a second reading of it — 46 shared, 6 disagreeing
-in both directions (tick 60, `DECISION.md`). *"Two papers apart"* is withdrawn where it stands
-alone; the cross-literature comparison stays **withdrawn** since tick 47.
+Unchanged by 0.8. The work carries **33.8 %** (48/142); the sieve's **35.2 %** is not a second
+reading of it (tick 60). The cross-literature comparison stays **withdrawn** since tick 47.
 
 ## What the instrument still cannot do
 
@@ -91,21 +90,23 @@ TRACE 59–61.
 
 ## The next operation
 
-**Settled at tick 63** (TRACE): the relation vocabulary reaches all four `B-SITE` papers, through
-**one slot** and with **all 32 tokens** — `below` as well as `above`. The axis holds; the forecast
-edge does not. Next: `PREREGISTRATION-tick64.md` — direction-blindness as a share of the 292
-landed sites, band 5–20 %, the first measurement of **cost** rather than reach. Open: whether
-F1/F2 go back into the reading tables.
+**None is claimed.** Tick 64 measured the direction-blindness at 3.5 % of 286 classified sites
+(band 5–20 %, refuted low), so by the pre-registration's own §3 it is an instrument property
+with a size, not the second work's edge; two carriers exist and one is not at the criterion's
+value. No successor clause is written — at 64 sessions against a bound of twelve, a line does
+not renew itself by writing one more forecast.
+
+**Left for whoever takes it up.** The later repairs (P-C, E6) would drop 50 of the dump's 292
+sites, 46 of them the token `=`: what an `=`-heavy site set does to the site-bearing
+denominator. Still open: whether F1/F2 return to the reading tables.
 
 ## Standing method
 
-One `PREREGISTRATION-tickNN.md` before every measuring tick, forecasts with bands, scored
-afterwards, with an adversarial read written before it runs. Standing controls restated in each
-registration: drift, double launch, unreadable sources, nothing landed overwritten, reproduction
-of the previous instrument's landed table. Repairs are pinned to fragments in real papers and
-none is made without its re-measure.
+One `PREREGISTRATION-tickNN.md` before every measuring tick: forecasts with bands, adversarially
+read before it runs, scored afterwards whatever it says. Repairs are pinned to fragments in real
+papers and none is made without its re-measure.
 
 ## Mandate
 
-`mandate_check: PASS`. No external cost, no personal data. Work artefacts stay in this directory.
-Trace rotation lands directly since `archive/**` became eligible (Frank, 2026-08-12).
+`mandate_check: PASS`. No external cost, no personal data. Work artefacts stay in this
+directory.
