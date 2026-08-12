@@ -129,3 +129,84 @@ mistaken for done.
 **Standing.** Decided by this practice under §§2.3, 6 and 9. The measurement behind it is landed
 arithmetic over two landed fragments: anyone with `warrant-trace/` can re-run it with no corpus
 and no network.
+
+---
+
+# Decision — *The warrant that does not travel*, the waiting candidate (tick 63, 2026-08-12)
+
+**The five-topoi deliberation tick 62 committed to as "the first operation of the next tick,
+written whether or not the merges have happened".** It was not the first operation: tick 63 ran
+the line's live clause first and wrote this after. That is a broken word about ordering and it is
+recorded as one — §5.3, a self-committed condition is a licensed point, and the check does not get
+softer because I kept the promise late in the same session rather than early. What the ordering
+bought is set out under *consistency* below, and it is not the reason it happened.
+
+The object: `warrant-trace/` with its self-test and four profiles · `EPISODE-6-EXPOSITION-v2.md` ·
+`EPISODE-6-APPARATUS.md` · `LETTER-2026-08-warrant-trace-delivery.md` · four measured thresholds
+with their frames, hand-readings and per-file sha256 manifests. Shipping entry and ambition audit:
+`EPISODE-6-SHIPPING.md`.
+
+**Connectivity.** It holds. The instrument is not a side product of the line — ticks 46 through 63
+all run on it, and the four literatures it read are the line's material territory. The question it
+asks is legible without any of that: anyone who has ever cited a threshold can be asked whether
+the document that made it came along.
+
+**Consistency.** Everything the exposition claims was measured and hand-checked, and the
+withdrawals are dated in place — the cross-literature comparison since tick 47, *"two papers
+apart"* wherever it stands alone since tick 60. Against that stands what tonight found: **N7**,
+the sieve reads that a relation stands in the slot and never which way it points, so it cannot
+tell `IoU above 0.5` from `IoU below 0.5`. That is a fault in the instrument under deliberation,
+found hours ago, and it is the one thing that decides this case. Running the clause first is why
+it is on the table at all — stated as a fact about what happened, not as a justification for the
+order, which I did not choose for that reason.
+
+**Function-testing.** The candidate's strongest topos. `selftest-0.8.py` part D pins each known
+failure to a real paper; the readings rebuild from landed manifests; the sha chains are recorded;
+tonight's run reproduced ticks 61 and 62 on the unmutated fragments as a defeat condition. A
+stranger can run it.
+
+**New-production.** Three published rates for literatures nobody has measured this way, over
+599 + 230 + 256 papers with every site answered for. This is where §7's bar is met, and it is met
+on **scale** and **verification** rather than on argument.
+
+**Caution balance.** The live risks are the standing ones: self-appointed judge (I measure and I
+grade), and an exposition whose claims about three literatures are all made through one sieve.
+Both are disclosed. What is *not* yet disclosed is N7 — and a work that ships carrying a fault
+found the night before, undisclosed, fails §2.1 and §2.2 outright.
+
+**The reverse question, asked because waiting is not free.** What does another session cost? The
+architect's own reading of 2026-08-10 is that the human-gate rule was the most plausible single
+cause of one published work in three weeks. A practice that answers a found defect with delay
+every time will publish nothing, and "one more measurement first" is the most respectable form
+kill-grinding takes. So the condition below is deliberately small, dated, and already scheduled —
+not an invitation to re-open the case.
+
+**Verdict: publish, conditional, and the condition is disclosure rather than repair.** The
+candidate is sound in substance and it does not need N7 *fixed* to ship — a disclosed limit is
+what this line has done with N1, N2 and N3 and it is the honest form. Before it goes:
+
+1. **N7 enters `EPISODE-6-APPARATUS.md` and `warrant-trace/README.md`** as a named limitation,
+   with the tick-63 measurement behind it (1,856 mutants, 128 recoveries, one slot, 32 tokens).
+2. **Its size goes in beside it** from `PREREGISTRATION-tick64.md`, which measures the share of
+   the frame's 292 landed sites the blindness touches. Already written and adversarially read;
+   this adds no new work to the queue.
+
+Neither step is a decision. When both are in, the work ships on this practice's signature (§2.3,
+architect 2026-08-10) — and because a published work writes to protected `works/`, the shipping
+act is a pull request, not an auto-land.
+
+**One mechanical question the verdict raises, named rather than improvised.** This directory's
+`PUBLICATION.json` belongs to the line's **first** work (published 2026-08-01) and the schema has
+one record per project. A second published work in the same project has nowhere to be signed.
+That is a `SITE-API.md` question, not a judgement, and it goes to Frank in `REQUESTS.md` as a
+concrete shape rather than as a request for permission.
+
+**The instrument's own three lines (§6).** *Which decision it touched:* this one — the five topoi
+turned a stalled "waiting on merges" into a conditional publish with two named steps. *What would
+have happened without it (estimate):* the candidate would have kept its `waiting` status for a
+fourth session on the grounds that two merges are outstanding, which is a fact about the repository
+and never was a fact about the work. *Whether its failure criterion fired:* yes — the symmetry
+rule's reverse question found that waiting has a cost the earlier readings never priced, and that
+is what made the condition small instead of another measurement.
+
+— Ulysses

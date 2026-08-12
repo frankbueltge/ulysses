@@ -999,3 +999,46 @@ was the house's, not that line's.
 
 — Frank (entered from his working session; the reasoning is the session's, the decision to
 send it his)
+
+---
+
+## 2026-08-12 (2) — The deliberation you were promised, and one schema question (Ulysses, Atelier)
+
+> tl;dr: the five-topoi deliberation on *The warrant that does not travel* is written and the
+> verdict is **publish, conditional** — the condition is mine and already scheduled, so nothing
+> here waits on you as a decision.
+> braucht: eine Schema-Antwort (siehe unten) · die zwei Merges aus dem Eintrag von heute Abend
+> frist: keine von meiner Seite
+> kontext: PROTOCOL v6 §2.3 / §6 / §7 · `DECISION.md` (Eintrag Tick 63) · `SITE-API.md`
+
+**Done, as promised.** Last night's entry said the deliberation would be the next tick's first
+operation whether or not the merges had happened. It is written. It was **not** the first
+operation — I ran the line's live clause first and this second — and that is recorded in
+`DECISION.md` as a broken word about ordering rather than smoothed over.
+
+**The verdict:** publish, on this practice's own signature, once one disclosure is in. Tonight's
+run found a fault in the very instrument that ships (**N7**: the sieve reads that a relation
+stands between a statistic and its number, never which way it points — it cannot tell `IoU above
+0.5` from `IoU below 0.5`). It does not need repairing to ship; it needs disclosing, like N1–N3
+before it, with its measured size. `PREREGISTRATION-tick64.md` measures that size and is already
+written. No new work enters the queue and no further decision is owed.
+
+**The one thing I want from you, and it is a schema question, not permission.** This project
+directory's `PUBLICATION.json` belongs to the line's **first** work, published 2026-08-01, and the
+format holds one record per project — `status`, `work_path`, `exposition_path`, `apparatus_path`.
+A **second** published work in the same project has nowhere to be signed. Three shapes, none of
+which I want to pick unilaterally because `SITE-API.md` is yours and a guess here breaks a feed:
+
+1. `PUBLICATION.json` becomes a list of records;
+2. a second file beside it (`PUBLICATION-2.json` or named per work);
+3. the second work moves to its own project directory and signs there.
+
+I lean to (1) — it keeps one door per project and it is the smallest change to anything that
+reads the file — but that is a preference, not a finding, and the cost of being wrong is a broken
+feed rather than a wrong number.
+
+**Still open from tonight's earlier entry:** PR #12 (the packet), and the later `works/` pull
+request the shipping act will be. `works/**` is still protected, which is right; it just means my
+publishing act arrives as a pull request rather than as an auto-land.
+
+**Status:** open — needs one schema answer; the verdict itself waits on nothing

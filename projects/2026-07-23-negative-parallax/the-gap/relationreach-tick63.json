@@ -1,0 +1,4472 @@
+{
+ "tick": 63,
+ "date": "2026-08-12",
+ "question": "over the whole B-SITE class, how far does the profile's OWN declared relation vocabulary reach when the enumeration is exhaustive rather than chosen by hand?",
+ "instrument": "warrant-trace 0.8 (2026-08-12)",
+ "instrument_modified": false,
+ "run_void": false,
+ "defeat_conditions_fired": [],
+ "inputs_sha256": {
+  "profiles/iou-0.5.json": "61170f41a431034acb676641da19a64fbb6023c1340ed83eb0c817d4968f920e",
+  "handread-tick56.csv": "fd26ce5127ffa78e6ede090b1ee61024a387d4a670fac8e5371bd18bdcf661a1",
+  "numerator-sets-tick60-B.json": "6aec36ba6fcbb843ff4b0d8f2fba2a6396e164cabcc518f90273d623bcec33c9",
+  "warrant_trace.py": "6bf5b9fdaa661eba3a4ffba93d77dee982c513422ef6391761dfdde1f60cbf41"
+ },
+ "class": {
+  "definition": "B-SITE in numerator-sets-tick60-B.json (landed tick 60)",
+  "members": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ]
+ },
+ "vocabulary": {
+  "source": "profiles/iou-0.5.json `rel`, expanded by this script",
+  "tokens": [
+   "<",
+   ">",
+   "=",
+   "at least",
+   "no less than",
+   "greater than",
+   "larger than",
+   "higher than",
+   "above",
+   "below",
+   "less than",
+   "smaller than",
+   "lower than",
+   "exceeding",
+   "exceeds",
+   "exceed",
+   "thresholds of",
+   "thresholds at",
+   "thresholds is",
+   "thresholds was",
+   "thresholds set to",
+   "threshold of",
+   "threshold at",
+   "threshold is",
+   "threshold was",
+   "threshold set to",
+   "set to",
+   "fixed at",
+   "of at least",
+   "ranging from",
+   "from",
+   "of"
+  ],
+  "count": 32,
+  "preregistration_parenthetical": [
+   "<",
+   ">",
+   "=",
+   "at least",
+   "no less than",
+   "greater than",
+   "larger than",
+   "higher than",
+   "above",
+   "below",
+   "less than",
+   "smaller than",
+   "lower than",
+   "exceeding",
+   "exceeds",
+   "exceed",
+   "set to",
+   "fixed at",
+   "of at least",
+   "ranging from",
+   "from",
+   "of"
+  ],
+  "in_profile_not_in_parenthetical": [
+   "threshold at",
+   "threshold is",
+   "threshold of",
+   "threshold set to",
+   "threshold was",
+   "thresholds at",
+   "thresholds is",
+   "thresholds of",
+   "thresholds set to",
+   "thresholds was"
+  ],
+  "in_parenthetical_not_in_profile": [],
+  "deviation_note": "§2's parenthetical lists 22 tokens and omits the `thresholds? (of|at|is|was|set to)` family the profile also declares. §2's operative sentence is `every relation alternative already listed in the rel field`, read by the script, so the derived set is executed. The direction is stated because it matters here and did not at tick 62: a LARGER token set can only push C1's count UP, so — unlike tick 62's superset — it could make a point-band clause hold that the narrower set would refute. Both counts are therefore reported below, and C1 is scored on the parenthetical's own 22 tokens, the set a reader of the pre-registration would check against."
+ },
+ "insertion_grammar": {
+  "positions": "every inter-word position (start offset of each whitespace-delimited token, plus end of string)",
+  "padding": "` TOKEN `",
+  "no_word_joined_or_split": "guaranteed by construction; see positions() docstring",
+  "excluded": "nothing is deleted, no digit or existing word is altered, no token is invented"
+ },
+ "clauses": {
+  "C1": {
+   "clause": "over the four B-SITE fragments the enumeration recovers the printed threshold in exactly 3 of 4",
+   "scored_on": "the 22 tokens of §2's parenthetical",
+   "band": 3,
+   "observed": 4,
+   "held": false,
+   "recovered": [
+    "2607.00129v1",
+    "2607.10575v1",
+    "2608.02980v1",
+    "2608.03136v1"
+   ],
+   "not_recovered": [],
+   "observed_with_full_profile_vocabulary": 4,
+   "recovered_with_full_profile_vocabulary": [
+    "2607.00129v1",
+    "2607.10575v1",
+    "2608.02980v1",
+    "2608.03136v1"
+   ],
+   "the_two_sets_agree": true
+  },
+  "C2": {
+   "clause": "the paper not recovered is 2608.02980v1",
+   "observed_not_recovered": [],
+   "held": false
+  },
+  "C3": {
+   "clause": "for every fragment recovered, at least one recovering insertion places the token between the statistic's name and the printed number",
+   "per_paper": {
+    "2607.00129v1": true,
+    "2607.10575v1": true,
+    "2608.02980v1": true,
+    "2608.03136v1": true
+   },
+   "held": true
+  }
+ },
+ "recoveries_by_token_across_class": {
+  "<": 4,
+  ">": 4,
+  "=": 4,
+  "at least": 4,
+  "no less than": 4,
+  "greater than": 4,
+  "larger than": 4,
+  "higher than": 4,
+  "above": 4,
+  "below": 4,
+  "less than": 4,
+  "smaller than": 4,
+  "lower than": 4,
+  "exceeding": 4,
+  "exceeds": 4,
+  "exceed": 4,
+  "thresholds of": 4,
+  "thresholds at": 4,
+  "thresholds is": 4,
+  "thresholds was": 4,
+  "thresholds set to": 4,
+  "threshold of": 4,
+  "threshold at": 4,
+  "threshold is": 4,
+  "threshold was": 4,
+  "threshold set to": 4,
+  "set to": 4,
+  "fixed at": 4,
+  "of at least": 4,
+  "ranging from": 4,
+  "from": 4,
+  "of": 4
+ },
+ "papers_by_token": {
+  "<": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  ">": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "=": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "at least": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "no less than": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "greater than": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "larger than": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "higher than": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "above": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "below": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "less than": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "smaller than": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "lower than": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "exceeding": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "exceeds": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "exceed": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "thresholds of": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "thresholds at": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "thresholds is": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "thresholds was": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "thresholds set to": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "threshold of": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "threshold at": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "threshold is": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "threshold was": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "threshold set to": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "set to": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "fixed at": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "of at least": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "ranging from": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "from": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ],
+  "of": [
+   "2607.00129v1",
+   "2607.10575v1",
+   "2608.02980v1",
+   "2608.03136v1"
+  ]
+ },
+ "results": [
+  {
+   "arxiv": "2607.00129v1",
+   "fragment": "mAP, following COCO protocol across IoU thresholds 0.5-0.95",
+   "normalise_is_identity": true,
+   "printed_threshold": "0.5",
+   "printed_threshold_offset": 51,
+   "statistic_name": "IoU",
+   "name_span": [
+    36,
+    39
+   ],
+   "shipped_on_fragment": [],
+   "inter_word_positions": 9,
+   "mutants_generated": 288,
+   "mutants_returning_any_site": 32,
+   "mutants_recovering_printed_value": 32,
+   "recovered": true,
+   "recovered_with_full_profile_vocabulary": true,
+   "recoveries_preregistered_tokens": 22,
+   "recoveries_by_token": {
+    "<": 1,
+    ">": 1,
+    "=": 1,
+    "at least": 1,
+    "no less than": 1,
+    "greater than": 1,
+    "larger than": 1,
+    "higher than": 1,
+    "above": 1,
+    "below": 1,
+    "less than": 1,
+    "smaller than": 1,
+    "lower than": 1,
+    "exceeding": 1,
+    "exceeds": 1,
+    "exceed": 1,
+    "thresholds of": 1,
+    "thresholds at": 1,
+    "thresholds is": 1,
+    "thresholds was": 1,
+    "thresholds set to": 1,
+    "threshold of": 1,
+    "threshold at": 1,
+    "threshold is": 1,
+    "threshold was": 1,
+    "threshold set to": 1,
+    "set to": 1,
+    "fixed at": 1,
+    "of at least": 1,
+    "ranging from": 1,
+    "from": 1,
+    "of": 1
+   },
+   "recovery_positions_distinct": [
+    51
+   ],
+   "preregistered_recoveries_in_name_number_span": 22,
+   "all_recoveries_in_name_number_span": 32,
+   "c3_satisfied": true,
+   "recoveries": [
+    {
+     "token": "<",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  < 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds < 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds < 0.5"
+      }
+     ]
+    },
+    {
+     "token": ">",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  > 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds > 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds > 0.5"
+      }
+     ]
+    },
+    {
+     "token": "=",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  = 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds = 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds = 0.5"
+      }
+     ]
+    },
+    {
+     "token": "at least",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  at least 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds at least 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "no less than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  no less than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds no less than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds no less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "greater than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  greater than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds greater than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds greater than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "larger than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  larger than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds larger than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds larger than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "higher than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  higher than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds higher than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds higher than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "above",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  above 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds above 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds above 0.5"
+      }
+     ]
+    },
+    {
+     "token": "below",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  below 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds below 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds below 0.5"
+      }
+     ]
+    },
+    {
+     "token": "less than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  less than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds less than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "smaller than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  smaller than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds smaller than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds smaller than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "lower than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  lower than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds lower than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds lower than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeding",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  exceeding 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceeding 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceeding 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeds",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  exceeds 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceeds 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceeds 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceed",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  exceed 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceed 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceed 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds of",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds of 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds at",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds at 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds is",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds is 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds is 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds was",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds was 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds was 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds set to",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds set to 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold of",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold of 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold at",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold at 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold is",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold is 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold is 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold was",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold was 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold was 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold set to",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold set to 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "set to",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  set to 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "fixed at",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  fixed at 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds fixed at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds fixed at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of at least",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  of at least 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds of at least 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds of at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "ranging from",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  ranging from 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds ranging from 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds ranging from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "from",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  from 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds from 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  of 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds of 0.5"
+      }
+     ]
+    }
+   ],
+   "sites_found": [
+    {
+     "token": "<",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  < 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds < 0.5"
+      }
+     ]
+    },
+    {
+     "token": ">",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  > 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds > 0.5"
+      }
+     ]
+    },
+    {
+     "token": "=",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  = 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds = 0.5"
+      }
+     ]
+    },
+    {
+     "token": "at least",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  at least 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "no less than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  no less than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds no less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "greater than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  greater than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds greater than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "larger than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  larger than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds larger than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "higher than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  higher than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds higher than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "above",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  above 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds above 0.5"
+      }
+     ]
+    },
+    {
+     "token": "below",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  below 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds below 0.5"
+      }
+     ]
+    },
+    {
+     "token": "less than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  less than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "smaller than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  smaller than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds smaller than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "lower than",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  lower than 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds lower than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeding",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  exceeding 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceeding 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeds",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  exceeds 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceeds 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceed",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  exceed 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds exceed 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds of",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds of 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds at",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds at 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds is",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds is 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds was",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds was 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds set to",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  thresholds set to 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds thresholds set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold of",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold of 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold at",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold at 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold is",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold is 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold was",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold was 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold set to",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  threshold set to 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds threshold set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "set to",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  set to 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "fixed at",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  fixed at 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds fixed at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of at least",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  of at least 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds of at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "ranging from",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  ranging from 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds ranging from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "from",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  from 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of",
+     "position": 51,
+     "in_name_number_span": true,
+     "mutant": "mAP, following COCO protocol across IoU thresholds  of 0.5-0.95",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU thresholds of 0.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "arxiv": "2607.10575v1",
+   "fragment": "considered newly added if they do not match an original annotation at IoU threshold 0.5",
+   "normalise_is_identity": true,
+   "printed_threshold": "0.5",
+   "printed_threshold_offset": 84,
+   "statistic_name": "IoU",
+   "name_span": [
+    70,
+    73
+   ],
+   "shipped_on_fragment": [],
+   "inter_word_positions": 16,
+   "mutants_generated": 512,
+   "mutants_returning_any_site": 32,
+   "mutants_recovering_printed_value": 32,
+   "recovered": true,
+   "recovered_with_full_profile_vocabulary": true,
+   "recoveries_preregistered_tokens": 22,
+   "recoveries_by_token": {
+    "<": 1,
+    ">": 1,
+    "=": 1,
+    "at least": 1,
+    "no less than": 1,
+    "greater than": 1,
+    "larger than": 1,
+    "higher than": 1,
+    "above": 1,
+    "below": 1,
+    "less than": 1,
+    "smaller than": 1,
+    "lower than": 1,
+    "exceeding": 1,
+    "exceeds": 1,
+    "exceed": 1,
+    "thresholds of": 1,
+    "thresholds at": 1,
+    "thresholds is": 1,
+    "thresholds was": 1,
+    "thresholds set to": 1,
+    "threshold of": 1,
+    "threshold at": 1,
+    "threshold is": 1,
+    "threshold was": 1,
+    "threshold set to": 1,
+    "set to": 1,
+    "fixed at": 1,
+    "of at least": 1,
+    "ranging from": 1,
+    "from": 1,
+    "of": 1
+   },
+   "recovery_positions_distinct": [
+    84
+   ],
+   "preregistered_recoveries_in_name_number_span": 22,
+   "all_recoveries_in_name_number_span": 32,
+   "c3_satisfied": true,
+   "recoveries": [
+    {
+     "token": "<",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  < 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold < 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold < 0.5"
+      }
+     ]
+    },
+    {
+     "token": ">",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  > 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold > 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold > 0.5"
+      }
+     ]
+    },
+    {
+     "token": "=",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  = 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold = 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold = 0.5"
+      }
+     ]
+    },
+    {
+     "token": "at least",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  at least 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold at least 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "no less than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  no less than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold no less than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold no less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "greater than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  greater than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold greater than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold greater than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "larger than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  larger than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold larger than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold larger than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "higher than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  higher than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold higher than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold higher than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "above",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  above 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold above 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold above 0.5"
+      }
+     ]
+    },
+    {
+     "token": "below",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  below 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold below 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold below 0.5"
+      }
+     ]
+    },
+    {
+     "token": "less than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  less than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold less than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "smaller than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  smaller than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold smaller than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold smaller than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "lower than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  lower than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold lower than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold lower than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeding",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  exceeding 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceeding 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceeding 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeds",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  exceeds 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceeds 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceeds 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceed",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  exceed 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceed 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceed 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds of",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds of 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds at",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds at 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds is",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds is 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds is 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds was",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds was 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds was 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds set to",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds set to 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold of",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold of 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold at",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold at 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold is",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold is 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold is 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold was",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold was 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold was 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold set to",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold set to 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "set to",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  set to 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "fixed at",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  fixed at 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold fixed at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold fixed at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of at least",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  of at least 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold of at least 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold of at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "ranging from",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  ranging from 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold ranging from 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold ranging from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "from",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  from 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold from 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  of 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold of 0.5"
+      }
+     ]
+    }
+   ],
+   "sites_found": [
+    {
+     "token": "<",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  < 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold < 0.5"
+      }
+     ]
+    },
+    {
+     "token": ">",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  > 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold > 0.5"
+      }
+     ]
+    },
+    {
+     "token": "=",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  = 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold = 0.5"
+      }
+     ]
+    },
+    {
+     "token": "at least",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  at least 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "no less than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  no less than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold no less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "greater than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  greater than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold greater than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "larger than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  larger than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold larger than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "higher than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  higher than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold higher than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "above",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  above 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold above 0.5"
+      }
+     ]
+    },
+    {
+     "token": "below",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  below 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold below 0.5"
+      }
+     ]
+    },
+    {
+     "token": "less than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  less than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "smaller than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  smaller than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold smaller than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "lower than",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  lower than 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold lower than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeding",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  exceeding 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceeding 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeds",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  exceeds 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceeds 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceed",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  exceed 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold exceed 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds of",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds of 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds at",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds at 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds is",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds is 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds was",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds was 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds set to",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  thresholds set to 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold thresholds set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold of",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold of 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold at",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold at 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold is",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold is 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold was",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold was 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold set to",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  threshold set to 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold threshold set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "set to",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  set to 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "fixed at",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  fixed at 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold fixed at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of at least",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  of at least 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold of at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "ranging from",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  ranging from 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold ranging from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "from",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  from 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of",
+     "position": 84,
+     "in_name_number_span": true,
+     "mutant": "considered newly added if they do not match an original annotation at IoU threshold  of 0.5",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU threshold of 0.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "arxiv": "2608.02980v1",
+   "fragment": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25, 0.5)",
+   "normalise_is_identity": true,
+   "printed_threshold": "0.5",
+   "printed_threshold_offset": 93,
+   "statistic_name": "IoU",
+   "name_span": [
+    37,
+    40
+   ],
+   "shipped_on_fragment": [],
+   "inter_word_positions": 16,
+   "mutants_generated": 512,
+   "mutants_returning_any_site": 32,
+   "mutants_recovering_printed_value": 32,
+   "recovered": true,
+   "recovered_with_full_profile_vocabulary": true,
+   "recoveries_preregistered_tokens": 22,
+   "recoveries_by_token": {
+    "<": 1,
+    ">": 1,
+    "=": 1,
+    "at least": 1,
+    "no less than": 1,
+    "greater than": 1,
+    "larger than": 1,
+    "higher than": 1,
+    "above": 1,
+    "below": 1,
+    "less than": 1,
+    "smaller than": 1,
+    "lower than": 1,
+    "exceeding": 1,
+    "exceeds": 1,
+    "exceed": 1,
+    "thresholds of": 1,
+    "thresholds at": 1,
+    "thresholds is": 1,
+    "thresholds was": 1,
+    "thresholds set to": 1,
+    "threshold of": 1,
+    "threshold at": 1,
+    "threshold is": 1,
+    "threshold was": 1,
+    "threshold set to": 1,
+    "set to": 1,
+    "fixed at": 1,
+    "of at least": 1,
+    "ranging from": 1,
+    "from": 1,
+    "of": 1
+   },
+   "recovery_positions_distinct": [
+    93
+   ],
+   "preregistered_recoveries_in_name_number_span": 22,
+   "all_recoveries_in_name_number_span": 32,
+   "c3_satisfied": true,
+   "recoveries": [
+    {
+     "token": "<",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  < 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, < 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, < 0.5"
+      }
+     ]
+    },
+    {
+     "token": ">",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  > 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, > 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, > 0.5"
+      }
+     ]
+    },
+    {
+     "token": "=",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  = 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, = 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, = 0.5"
+      }
+     ]
+    },
+    {
+     "token": "at least",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  at least 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, at least 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "no less than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  no less than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, no less than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, no less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "greater than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  greater than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, greater than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, greater than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "larger than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  larger than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, larger than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, larger than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "higher than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  higher than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, higher than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, higher than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "above",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  above 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, above 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, above 0.5"
+      }
+     ]
+    },
+    {
+     "token": "below",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  below 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, below 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, below 0.5"
+      }
+     ]
+    },
+    {
+     "token": "less than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  less than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, less than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "smaller than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  smaller than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, smaller than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, smaller than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "lower than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  lower than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, lower than 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, lower than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeding",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  exceeding 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceeding 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceeding 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeds",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  exceeds 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceeds 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceeds 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceed",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  exceed 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceed 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceed 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds of",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds of 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds at",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds at 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds is",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds is 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds is 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds was",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds was 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds was 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds set to",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds set to 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold of",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold of 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold at",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold at 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold is",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold is 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold is 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold was",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold was 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold was 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold set to",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold set to 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "set to",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  set to 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, set to 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "fixed at",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  fixed at 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, fixed at 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, fixed at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of at least",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  of at least 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, of at least 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, of at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "ranging from",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  ranging from 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, ranging from 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, ranging from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "from",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  from 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, from 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  of 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, of 0.5"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, of 0.5"
+      }
+     ]
+    }
+   ],
+   "sites_found": [
+    {
+     "token": "<",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  < 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, < 0.5"
+      }
+     ]
+    },
+    {
+     "token": ">",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  > 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, > 0.5"
+      }
+     ]
+    },
+    {
+     "token": "=",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  = 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, = 0.5"
+      }
+     ]
+    },
+    {
+     "token": "at least",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  at least 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "no less than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  no less than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, no less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "greater than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  greater than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, greater than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "larger than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  larger than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, larger than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "higher than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  higher than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, higher than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "above",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  above 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, above 0.5"
+      }
+     ]
+    },
+    {
+     "token": "below",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  below 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, below 0.5"
+      }
+     ]
+    },
+    {
+     "token": "less than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  less than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, less than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "smaller than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  smaller than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, smaller than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "lower than",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  lower than 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, lower than 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeding",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  exceeding 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceeding 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceeds",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  exceeds 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceeds 0.5"
+      }
+     ]
+    },
+    {
+     "token": "exceed",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  exceed 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, exceed 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds of",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds of 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds at",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds at 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds is",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds is 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds was",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds was 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "thresholds set to",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  thresholds set to 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, thresholds set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold of",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold of 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold of 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold at",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold at 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold is",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold is 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold is 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold was",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold was 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold was 0.5"
+      }
+     ]
+    },
+    {
+     "token": "threshold set to",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  threshold set to 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, threshold set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "set to",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  set to 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, set to 0.5"
+      }
+     ]
+    },
+    {
+     "token": "fixed at",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  fixed at 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, fixed at 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of at least",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  of at least 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, of at least 0.5"
+      }
+     ]
+    },
+    {
+     "token": "ranging from",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  ranging from 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, ranging from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "from",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  from 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, from 0.5"
+      }
+     ]
+    },
+    {
+     "token": "of",
+     "position": 93,
+     "in_name_number_span": true,
+     "mutant": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25,  of 0.5)",
+     "sites": [
+      {
+       "value": "0.5",
+       "match": "IoU) with the ground-truth box above a threshold (0.25, of 0.5"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "arxiv": "2608.03136v1",
+   "fragment": "a single COCO-style AP (IoU 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+   "normalise_is_identity": true,
+   "printed_threshold": "0.50",
+   "printed_threshold_offset": 28,
+   "statistic_name": "IoU",
+   "name_span": [
+    24,
+    27
+   ],
+   "shipped_on_fragment": [],
+   "inter_word_positions": 17,
+   "mutants_generated": 544,
+   "mutants_returning_any_site": 32,
+   "mutants_recovering_printed_value": 32,
+   "recovered": true,
+   "recovered_with_full_profile_vocabulary": true,
+   "recoveries_preregistered_tokens": 22,
+   "recoveries_by_token": {
+    "<": 1,
+    ">": 1,
+    "=": 1,
+    "at least": 1,
+    "no less than": 1,
+    "greater than": 1,
+    "larger than": 1,
+    "higher than": 1,
+    "above": 1,
+    "below": 1,
+    "less than": 1,
+    "smaller than": 1,
+    "lower than": 1,
+    "exceeding": 1,
+    "exceeds": 1,
+    "exceed": 1,
+    "thresholds of": 1,
+    "thresholds at": 1,
+    "thresholds is": 1,
+    "thresholds was": 1,
+    "thresholds set to": 1,
+    "threshold of": 1,
+    "threshold at": 1,
+    "threshold is": 1,
+    "threshold was": 1,
+    "threshold set to": 1,
+    "set to": 1,
+    "fixed at": 1,
+    "of at least": 1,
+    "ranging from": 1,
+    "from": 1,
+    "of": 1
+   },
+   "recovery_positions_distinct": [
+    28
+   ],
+   "preregistered_recoveries_in_name_number_span": 22,
+   "all_recoveries_in_name_number_span": 32,
+   "c3_satisfied": true,
+   "recoveries": [
+    {
+     "token": "<",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  < 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU < 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU < 0.50"
+      }
+     ]
+    },
+    {
+     "token": ">",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  > 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU > 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU > 0.50"
+      }
+     ]
+    },
+    {
+     "token": "=",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  = 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU = 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU = 0.50"
+      }
+     ]
+    },
+    {
+     "token": "at least",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  at least 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU at least 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU at least 0.50"
+      }
+     ]
+    },
+    {
+     "token": "no less than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  no less than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU no less than 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU no less than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "greater than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  greater than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU greater than 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU greater than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "larger than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  larger than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU larger than 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU larger than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "higher than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  higher than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU higher than 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU higher than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "above",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  above 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU above 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU above 0.50"
+      }
+     ]
+    },
+    {
+     "token": "below",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  below 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU below 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU below 0.50"
+      }
+     ]
+    },
+    {
+     "token": "less than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  less than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU less than 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU less than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "smaller than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  smaller than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU smaller than 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU smaller than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "lower than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  lower than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU lower than 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU lower than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "exceeding",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  exceeding 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU exceeding 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU exceeding 0.50"
+      }
+     ]
+    },
+    {
+     "token": "exceeds",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  exceeds 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU exceeds 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU exceeds 0.50"
+      }
+     ]
+    },
+    {
+     "token": "exceed",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  exceed 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU exceed 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU exceed 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds of",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds of 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds of 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds of 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds at",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds at 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds at 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds at 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds is",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds is 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds is 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds is 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds was",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds was 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds was 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds was 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds set to",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds set to 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds set to 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds set to 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold of",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold of 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold of 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold of 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold at",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold at 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold at 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold at 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold is",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold is 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold is 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold is 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold was",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold was 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold was 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold was 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold set to",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold set to 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold set to 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold set to 0.50"
+      }
+     ]
+    },
+    {
+     "token": "set to",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  set to 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU set to 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU set to 0.50"
+      }
+     ]
+    },
+    {
+     "token": "fixed at",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  fixed at 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU fixed at 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU fixed at 0.50"
+      }
+     ]
+    },
+    {
+     "token": "of at least",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  of at least 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU of at least 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU of at least 0.50"
+      }
+     ]
+    },
+    {
+     "token": "ranging from",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  ranging from 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU ranging from 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU ranging from 0.50"
+      }
+     ]
+    },
+    {
+     "token": "from",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  from 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU from 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU from 0.50"
+      }
+     ]
+    },
+    {
+     "token": "of",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  of 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU of 0.50"
+      }
+     ],
+     "on_target": [
+      {
+       "value": "0.50",
+       "match": "IoU of 0.50"
+      }
+     ]
+    }
+   ],
+   "sites_found": [
+    {
+     "token": "<",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  < 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU < 0.50"
+      }
+     ]
+    },
+    {
+     "token": ">",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  > 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU > 0.50"
+      }
+     ]
+    },
+    {
+     "token": "=",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  = 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU = 0.50"
+      }
+     ]
+    },
+    {
+     "token": "at least",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  at least 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU at least 0.50"
+      }
+     ]
+    },
+    {
+     "token": "no less than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  no less than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU no less than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "greater than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  greater than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU greater than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "larger than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  larger than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU larger than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "higher than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  higher than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU higher than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "above",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  above 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU above 0.50"
+      }
+     ]
+    },
+    {
+     "token": "below",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  below 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU below 0.50"
+      }
+     ]
+    },
+    {
+     "token": "less than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  less than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU less than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "smaller than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  smaller than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU smaller than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "lower than",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  lower than 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU lower than 0.50"
+      }
+     ]
+    },
+    {
+     "token": "exceeding",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  exceeding 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU exceeding 0.50"
+      }
+     ]
+    },
+    {
+     "token": "exceeds",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  exceeds 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU exceeds 0.50"
+      }
+     ]
+    },
+    {
+     "token": "exceed",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  exceed 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU exceed 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds of",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds of 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds of 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds at",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds at 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds at 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds is",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds is 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds is 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds was",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds was 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds was 0.50"
+      }
+     ]
+    },
+    {
+     "token": "thresholds set to",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  thresholds set to 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU thresholds set to 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold of",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold of 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold of 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold at",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold at 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold at 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold is",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold is 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold is 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold was",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold was 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold was 0.50"
+      }
+     ]
+    },
+    {
+     "token": "threshold set to",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  threshold set to 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU threshold set to 0.50"
+      }
+     ]
+    },
+    {
+     "token": "set to",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  set to 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU set to 0.50"
+      }
+     ]
+    },
+    {
+     "token": "fixed at",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  fixed at 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU fixed at 0.50"
+      }
+     ]
+    },
+    {
+     "token": "of at least",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  of at least 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU of at least 0.50"
+      }
+     ]
+    },
+    {
+     "token": "ranging from",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  ranging from 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU ranging from 0.50"
+      }
+     ]
+    },
+    {
+     "token": "from",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  from 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU from 0.50"
+      }
+     ]
+    },
+    {
+     "token": "of",
+     "position": 28,
+     "in_name_number_span": true,
+     "mutant": "a single COCO-style AP (IoU  of 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+     "sites": [
+      {
+       "value": "0.50",
+       "match": "IoU of 0.50"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "what_this_decides": "The vocabulary reaches the whole class, the parenthesis case is not special, and the work's edge is somewhere I have not looked. Cleaner than forecast, and it costs me the interesting boundary."
+}
