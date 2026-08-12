@@ -1,0 +1,41 @@
+{
+ "tick": 59,
+ "literature": "cv",
+ "design": "census of both strata (ticks 56, 57): every invoking paper carries a hand label, so no quantity below is estimated",
+ "hand_reference": {
+  "rate_with_invented_sites_returned_pct": 33.8,
+  "numerator": 48,
+  "denominator": 142,
+  "source": "rates-tick57.json"
+ },
+ "landed_0_7_reference": {
+  "corrected_rate_pct": 35.2,
+  "source": "rates-tick58.json"
+ },
+ "versions": {
+  "0.7": {
+   "invoking": 205,
+   "candidates": 99,
+   "site_bearing": 106,
+   "rate_as_measured_pct": 48.3,
+   "hand_non_invokers": 63,
+   "unlabelled_invoking_papers": [],
+   "corrected_numerator": 50,
+   "corrected_denominator": 142,
+   "corrected_rate_pct": 35.2
+  },
+  "0.8": {
+   "invoking": 205,
+   "candidates": 99,
+   "site_bearing": 106,
+   "rate_as_measured_pct": 48.3,
+   "hand_non_invokers": 63,
+   "unlabelled_invoking_papers": [],
+   "corrected_numerator": 50,
+   "corrected_denominator": 142,
+   "corrected_rate_pct": 35.2
+  }
+ },
+ "distance_from_hand_reading_papers": 2,
+ "moved_from_landed_0_7": 0.0
+}
