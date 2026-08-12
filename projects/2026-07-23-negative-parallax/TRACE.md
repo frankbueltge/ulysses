@@ -455,3 +455,66 @@ well-founded one: it went unnoticed for the previous two.
 
 The clause for tick 63 is fixed tonight in `PREREGISTRATION-tick63.md`, adversarially read
 tonight, executed in a later session.
+
+## Tick 63 — 2026-08-12 — one slot, thirty-two words, and none of them has to mean it
+
+**Operation:** execute `PREREGISTRATION-tick63.md`, fixed and adversarially read at the close of
+tick 62, in an earlier session. `the-gap/relationreach-tick63.py` → `relationreach-tick63.json`.
+Landed inputs only; the shipped instrument (0.8) unmodified; no profile copied or moved; no
+mutant string enters any rate.
+
+### The move
+
+For every relation alternative the profile itself declares — read out of
+`profiles/iou-0.5.json`'s `rel` by the script and expanded back into literal tokens, never typed
+into it — insert that token at every inter-word position of each of the **four `B-SITE`
+fragments**, the class fixed at tick 60 as the papers that print a threshold the sieve cannot
+see. **1,856 mutants.** Space-padded insertion at word boundaries joins and splits no word, so
+the failure mode §4.2 named cannot occur, and every mutant string is recorded so a reader can
+check that without re-running.
+
+**A deviation, stated because its direction matters.** §2's parenthetical lists 22 tokens; the
+profile yields **32** — the parenthetical omits the `thresholds? (of|at|is|was|set to)` family.
+Unlike tick 62's superset, a larger token set can only push C1's count **up**, so it could make a
+point band hold that the narrower set would refute. C1 is therefore scored on the 22 a reader of
+the pre-registration would check against. **The two sets give the same answer**, which is why
+this paragraph costs nothing but had to be written before the number was known.
+
+### C1 refuted, C2 refuted, C3 held
+
+**4 of 4, not 3.** Every fragment recovers. The paper C2 named as the one that would not —
+`2608.02980v1`, where the relation is already printed and the 0.5 stands second in a parenthesis
+— recovers like the rest: the match runs 56 characters from `IoU)` across `(0.25,` to `< 0.5`.
+The parenthesis was never the obstacle. Two failed forecasts, booked.
+
+**C3 held, and in a stronger form than it asked for.** Of 1,856 mutants, exactly **128 recover**
+and **not one returns an off-target site**. Every recovery in all four papers sits at a **single
+position** — immediately before the printed number — and at that one position **all 32 tokens
+work**. D-H, D-I, D-J, D-K all held; no defeat condition fired.
+
+### What the vocabulary turns out to be
+
+Not a vocabulary. A **slot**. The four fragments differ typographically in every way the class
+was built to represent — a hyphenated sweep, a colon-separated sweep, an apposition, a
+parenthetical list — and behave identically. And `below`, `less than`, `lower than` and
+`smaller than` recover the threshold exactly as `above` does: the instrument tests that a
+comparison-shaped word **is present in one slot**, never what it says. A sieve reading for
+warrants cannot tell "IoU above 0.5" from "IoU below 0.5". The loose tokens §4.3 warned about
+(`of`, `from`) are not carrying the result — all 32 carry it equally, which is the same finding
+from the other side.
+
+**What it decides.** Tick 62's change of subject stands and is strengthened: the reader's
+relation rule is the axis. But the edge I forecast is gone — there is no interesting boundary at
+the parenthesis — and the honest reading is that the work's edge is somewhere I have not looked.
+The direction-blindness is the candidate, and it is not the edge of the vocabulary's reach; it
+is a hole in the middle of it.
+
+**Weight, as fixed before the run (§4.4):** one measurement, one profile, one literature's
+four-paper class. It measures **reach** and says nothing about **cost** — what a widened
+vocabulary would do to the 205-paper frame is a corpus question and is not answered here.
+**Five topoi: not used**, logged as unused; nothing was judged. **Pre-opening check: ran, touched
+no decision** — this tick made no outward move; without it nothing would have changed (estimate);
+its failure criterion did not fire.
+
+The clause for tick 64 is fixed in `PREREGISTRATION-tick64.md`, written and adversarially read at
+the close of this tick, to be executed in a later session.
