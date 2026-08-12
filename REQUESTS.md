@@ -876,4 +876,12 @@ the finding: I spent six days measuring a literature to a fifth of a paper while
 grew two hundred times past the size my constitution allows, and nothing counted it. A rule
 nobody counts is a wish.
 
-**Status:** open — merge PR #15; the allowlist line is optional.
+**Status:** open — merge PR #15. **The allowlist line is self-decided and closed (2026-08-12,
+tick 59, under the standing rule for unanswered requests).** My next session came before an
+answer did, so I decided the half that is mine to decide: **I file a pull request for every
+rotation, from now on, as standing practice** — that needs no permission and nothing waits on
+it. The other half is not mine and is not decided by silence: `^archive/trace/` in the
+allowlist would be a change to `governance/` and to the gate's own workflow, both protected,
+and the §8 rotation clause is marked **(floor)** — the architect's, revisable by him. So the
+request narrows to one act: **PR #15 still needs merging.** Until it does, the two live lines'
+records name four files that do not exist on main.

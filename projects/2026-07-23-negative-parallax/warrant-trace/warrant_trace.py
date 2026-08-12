@@ -92,6 +92,21 @@ a regex can hold, and the sieve's job is to make hand-reading finite rather than
 it. What is repaired is the one form with a mechanical property, in the profile (P-C, the
 mean). Also declined: the criterion that lives wholly in a metric name (`AP_50`, `mAP@50`),
 which needs a second detector and would change what the instrument measures.
+
+0.8 (tick 59, 2026-08-12) repairs the two faults 0.7 CAUSED, and nothing else. They were
+found by 0.7's own hand sample of the sites it removed, recorded red in `selftest-0.7.py`
+part D with the papers they were found in, and left for this tick for the reason the line
+has kept since tick 56: a tick that repairs the instrument it is measuring leaves no version
+in which the measurement holds. E8, the statistic's own subscript — E6 read the `c` of
+`RUWE _ \\mathrm c < 1.4` and the `D` of `IoU _ 3 \\mathrm D > 0.20` as foreign variables and
+removed five real sites in two papers. E9, the one row break that is not a boundary — E7's
+`\\` stop falls between a table's column head and the cell carrying that head's threshold,
+where the sign is the first thing after the break.
+
+Its direction is the reverse of 0.7's and the same as 0.5's and 0.6's: it adds sites, which
+moves this line's headline figure DOWN, back towards the number the hand census computed. So
+it is checked the way an adding repair is checked here — by hand-reading every site it adds,
+not a sample of them, since the population it can reach is bounded by 0.7's own removals.
 """
 import argparse
 import csv
@@ -105,7 +120,7 @@ import tarfile
 import time
 import urllib.request
 
-VERSION = "warrant-trace 0.7 (2026-08-11)"
+VERSION = "warrant-trace 0.8 (2026-08-12)"
 
 # 0.5, the repair of the seven faults pinned at tick 47 by hand-reading 36 papers the
 # sieve had filed as "invokes the statistic, states no threshold" — 8 of which state one.
@@ -155,7 +170,19 @@ VERSION = "warrant-trace 0.7 (2026-08-11)"
 # index is not a threshold, and the row of a table is not the sentence of the row above it.
 # The guard runs at every step of the repetition, so the bound of 100 is unchanged and no
 # match that never reaches a formula behaves differently than it did under 0.6.
-STOP = r"\\\\|\\(?:frac|sum|prod|int|multicolumn|hline|midrule|toprule|bottomrule|begin|end)\b"
+# 0.8, E9 — the one row break that is not a sentence boundary. E7 made `\\` a stop because a
+# table's next row is not the sentence of the row above it, and that is right wherever the next
+# row begins with a word. It is wrong in one shape, pinned by the tick-58 hand sample to
+# `Recall @ IoU\\ > 0.50 & 54.3` (2604.20395v2): the break falls between a column head and the
+# cell that carries the head's own threshold, and the relation sign is the first thing after it.
+# So the stop is lifted for exactly that — a row break followed, across whitespace and cell
+# separators, by a comparison sign. Everything else stays a stop, including every one of the
+# other row breaks among the 108 sites 0.7 removed, each of which is followed by a word, a
+# comment or another table macro. The cost this buys is named and measured, not asserted: a
+# table whose rows each begin with a bare comparison can now be read as one sentence, and the
+# sites that arrive by this route are hand-read at this tick like any others.
+STOP = (r"\\\\(?![\s&]*[<>=])"
+        r"|\\(?:frac|sum|prod|int|multicolumn|hline|midrule|toprule|bottomrule|begin|end)\b")
 GAP = r"(?:(?!" + STOP + r")(?:<<[^<>\n]*>>|\n(?![ \t]*\n)|[^.;:\n]|\.(?=\d))){0,100}?"
 
 # 0.7, E6, and the vocabulary its two escapes are made of. A sign relation binds to the token
@@ -426,6 +453,42 @@ class Profile:
 VGAP_TAIL = re.compile(r"[\s&]*(?:\b(?:the|an?)\s+)?[\s&]*$", re.I)
 TRAILING_ID = re.compile(r"([A-Za-z][A-Za-z0-9]*)$")
 
+# 0.8, E8 — the statistic's own subscript, and why E6 could not see it.
+#
+# E6 asks whose comparison a sign is by looking at the token immediately to its left, and it
+# calls a short token a symbol: `conf=0.5`, `i=1`, `x=10`. That reading is right until the
+# short token is the tail of the statistic's OWN subscript. `RUWE _ \mathrm c < 1.4`
+# (2506.22399, at this line's focus value) and `IoU _ 3 \mathrm D > 0.20` (2608.05356v1) are
+# threshold statements about the statistic; E6 read `c` and `D` as foreign variables and
+# removed five sites in two papers. Both were found by the tick-58 hand sample, and 0.7 caused
+# them — they are the price of its own repair, paid back here.
+#
+# The rule is deliberately not "ignore subscripts". It asks one question: read backwards from
+# the sign, is everything between it and the statistic's name a subscript OF that name? A
+# subscript is `_` followed only by subscript material — a font macro, a digit, an identifier
+# no wider than the symbol bound E6 already uses — and the stem it hangs on must END with the
+# statistic's term. `\lambda_ \text cons =0.1` has a stem of `\lambda`, `\max_ j=1` a stem of
+# `\max`, `RUWE_normal_mass=100_mjup_sma=1` a stem ending in `mjup`: none is the statistic, and
+# all three stay removed. What this grants the subscripted form is exactly what the bare form
+# already had, no more: `IoU_3D = 0.85` becomes a site on the same terms `IoU = 0.85` is one,
+# with the same exposure to a reported value being read as a rule (N2, still red).
+SUB_WORD = (r"mathrm|mathbf|mathcal|mathsf|mathit|textrm|texttt|textit|textbf|text|"
+            r"rm|it|bf|sf")
+SUBSCRIPT_TAIL = re.compile(
+    r"_[\s,]*(?:(?:\\?(?:" + SUB_WORD + r")\b|[A-Za-z0-9]{1,"
+    + str(SYMBOL_WIDTH) + r"}\b)[\s,]*)*$")
+
+
+def own_subscript(head, prof):
+    """Is the token before the sign the tail of a subscript on the statistic's own name?"""
+    for i, ch in enumerate(head):
+        if ch != "_" or not SUBSCRIPT_TAIL.match(head, i):
+            continue
+        stem = head[:i].rstrip()
+        if any(mm.end() == len(stem) for mm in prof.term_re.finditer(stem)):
+            return True
+    return False
+
 
 def bound_elsewhere(m, prof):
     """0.7, E6 — does the sign that carries this value belong to some other token?
@@ -434,11 +497,12 @@ def bound_elsewhere(m, prof):
     own group is the term, the gap and the relation. If that text ends in `=`, `<` or `>`,
     the sign has a token immediately to its left, and the question is whose comparison it is.
 
-    Four ways it is the statistic's, and they are checked in this order: the token is the
-    statistic (`RUWE < 1.4`); the token is a relation word of this literature (`a limit of >
-    1.4`, the fragment 0.5 was repaired to admit and which must not be lost here); the token
-    stands for the statistic's value (`the RUWE cut < 1.4`); or the criterion is named
-    somewhere in the matched string (`IoU thresholds % \\tau=0.50`). Anything else and the
+    Five ways it is the statistic's, and they are checked in this order: the token is the
+    statistic (`RUWE < 1.4`); the token is the tail of a subscript on the statistic's own name
+    (`RUWE _ \\mathrm c < 1.4`, added at 0.8 as E8); the token is a relation word of this
+    literature (`a limit of > 1.4`, the fragment 0.5 was repaired to admit and which must not
+    be lost here); the token stands for the statistic's value (`the RUWE cut < 1.4`); or the
+    criterion is named somewhere in the matched string (`IoU thresholds % \\tau=0.50`). Anything else and the
     number belongs to `conf`, to a summation index, to a plot option or to a table column.
 
     Returns True when the site should be dropped. It errs towards KEEPING: no sign, no
@@ -462,6 +526,8 @@ def bound_elsewhere(m, prof):
     if not symbolic(tok, attached):
         return False
     if any(mm.end() == len(head) for mm in prof.term_re.finditer(head)):
+        return False
+    if own_subscript(head, prof):                                            # 0.8, E8
         return False
     if prof.rel_re and any(mm.end() == len(head) for mm in prof.rel_re.finditer(head)):
         return False

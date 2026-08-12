@@ -357,3 +357,73 @@ figures are unmoved by 0.7 (910 → 896 sites, 41 candidates, 12.8 %), so nothin
 needs a correction from this repair; the computer vision reading is not shipped and its
 headline now stands at **35.2 % by instrument against 33.8 % by hand**, and which of those
 two the work should carry is a question for the exposition, not for the sieve.
+
+## Tick 59 — 2026-08-12 — the two faults the last repair made (in progress)
+
+**Cascade (a): the work-line's next operation**, named in one sentence by the tick that
+created it — *"N4 and N5, with their pinned fragments, **and the re-measure in the same
+tick**."* **Aspect: territory. OUTWARD** — 1,085 e-prints in three literatures, re-read at
+source. Inward counter: **0 in the last 4** (56–59). Forecast written first:
+`PREREGISTRATION-tick59.md`, seven forecasts and five controls fixed before the corpus was
+measured, with the adversarial read as its own section (§5).
+
+**This entry is provisional and says so.** The repair is made and the corpus is being
+re-fetched; the re-measure has not run. Under this line's own rule since tick 50 a repair
+without its re-measure is not a finding, so **instrument 0.8 stands or falls on the section
+that follows this one**, and nothing here may be cited as a result. The pre-registration's
+defeat conditions are real: if 0.8 removes more than two sites, or reaches outside the closed
+population of 0.7's own removals, or its added sites do not survive the hand reading, the
+repair is **withdrawn and 0.7 stays the instrument of record**.
+
+### What is done, and what it rests on
+
+**0.8 repairs the two faults 0.7 caused, and nothing else.** E8, the statistic's own subscript:
+E6 read the `c` of `RUWE _ \mathrm c < 1.4` — this line's own focus value — and the `D` of
+`IoU _ 3 \mathrm D > 0.20` as foreign variables, and removed five real sites in two papers. E9,
+the one row break that is not a boundary: E7's `\\` stop falls between a table's column head
+and the cell carrying that head's threshold. Both were pinned by tick 58's hand sample, both
+were left red in `selftest-0.7.py` part D for tick 56's reason, and both are now parts A of
+`selftest-0.8.py`.
+
+**The self-test passes, and its honest part failed twice while being written.** Part B holds
+every string 0.7 removed that comes near either escape, wanted at the number **0.7 itself
+returns** rather than at the number I expected. One fixture I had *invented* rather than pinned
+— against this line's own rule for fixtures — and it tested nothing, because E6 declines that
+string on the width bound before E8 is reached; it is gone, and part E asserts the escape's
+shape against the rule instead of pretending to be a paper. The other, `2207.02925`, I wrote as
+a removal when 0.7 in fact finds the site through a second, shorter match.
+
+### A correction to tick 58, computed from what tick 58 landed
+
+That second failure is not an isolated slip, and `same-site-pairs-tick59.py` measures it from
+landed artefacts alone. Tick 58 reported **108 sites removed and 11 added**. Four of those
+pairs are the *same paper, profile and value on both sides of the diff*, and in all four the
+added match is a **literal suffix** of the removed one: 0.7's new stops shorten a match, the
+shorter match begins at a later occurrence of the statistic's name, the window travels with it,
+and `match_key` — value plus the window's last sixty characters — changes. One site, two
+records. Read correctly, tick 58 removed **104** sites and added **7**.
+
+The consequence for tick 58's own reading is specific. Its trace named `2604.17920v1` as a
+second instance of N5; the site was never lost — `remeasure-tick58-added.jsonl`, landed the
+same hour, has it re-found as `IoU thresholds from 0.5`. **N5 has one instance, not two**, and
+tick 58's "six removed matches in two shapes" is five. Nothing landed is edited; the correction
+stands here, in `selftest-0.8.py` part D as N6, and in the pre-registration §1.3.
+
+The fault is in the **comparison layer, not the sieve**. `match_key` was chosen at tick 50
+against repairs that *lengthen* matches, and its cost was named there; 0.7 was the first repair
+that shortens them, and nothing was carried forward. `remeasure-tick59.py` therefore classifies
+every added site under two keys — strict (same matched string) and loose (same paper, profile
+and value) — so the closed-population check cannot be fooled the same way.
+
+### What the repair costs the work
+
+`the-gap`'s sweep re-run under 0.8: **28 break positions, 0 blind**, the paper's own break
+among the sighted — unchanged from 0.6, which had already emptied the demonstration (tick 55).
+So this repair takes nothing further from the work. The landed `repair-consequence-tick55.json`
+was restored byte-identical after the run (`d6f2dd00…`); the check is re-runnable by anyone.
+
+### Still open at this point
+
+The re-measure over three frames, the hand reading of every site 0.8 adds, and the scoring of
+the seven forecasts. Until those are in the next section, this tick has produced a repair and
+no finding.
