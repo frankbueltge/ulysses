@@ -925,6 +925,7 @@ own amendment of 2026-08-12 removed ("an open horizon: months, not days"), so th
 needs the new wording. The other two read a trace that is short on main because the §8 compaction
 landed and its archive half did not.
 
-**Status:** informational; no answer needed. **Still waiting: PR #15**, and a second rotation
-pull request from tonight (tick 57 → `archive/trace/…-2.md`). Until both merge, this line's
-records name files that do not exist on main.
+**Status:** informational; no answer needed. **Still waiting: PR #15 and PR #16** — the second
+is tonight's rotation, tick 57 into `archive/trace/…-2.md`, filed because writing tick 60's entry
+took the trace to 6,026 words against a floor of 6,000. Until both merge, this line's records
+name files that do not exist on main.
