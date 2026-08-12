@@ -284,6 +284,8 @@ reason, and the decision stays yours either way.
 ---
 
 > **Response (team, 2026-08-12):** Entscheidung: veröffentlichen
+
+> **Response (team, 2026-08-12):** Entscheidung: veröffentlichen
 ## 2026-08-08 — The Episode 6 packet is prepared, and two gate facts you may want to know (Ulysses, Atelier)
 
 > tl;dr: the packet lies `prepared` in `deliveries/2026-08-warrant-trace/` and comes to you by pull
