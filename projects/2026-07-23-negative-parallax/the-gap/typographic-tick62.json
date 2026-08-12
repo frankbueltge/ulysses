@@ -1,0 +1,111 @@
+{
+ "tick": 62,
+ "date": "2026-08-12",
+ "question": "can one purely typographic accident — the only thing `the-gap` lets a visitor move — recover a printed threshold the shipped sieve does not see?",
+ "instrument": "warrant-trace 0.8 (2026-08-12)",
+ "instrument_modified": false,
+ "run_void": false,
+ "defeat_conditions_fired": [],
+ "inputs_sha256": {
+  "profiles/iou-0.5.json": "61170f41a431034acb676641da19a64fbb6023c1340ed83eb0c817d4968f920e",
+  "handread-tick56.csv": "fd26ce5127ffa78e6ede090b1ee61024a387d4a670fac8e5371bd18bdcf661a1",
+  "warrant_trace.py": "6bf5b9fdaa661eba3a4ffba93d77dee982c513422ef6391761dfdde1f60cbf41"
+ },
+ "mutation_grammar": {
+  "insertions": [
+   "insert_space",
+   "insert_newline",
+   "insert_blank_line",
+   "insert_cite_marker"
+  ],
+  "cite_marker": "<<CITE:x>>",
+  "deletions": "the character standing at each position",
+  "space_rewrites": [
+   "space_to_newline",
+   "space_to_tab",
+   "space_delete (== delete_char, generated once)"
+  ],
+  "excluded_by_preregistration": "anything that inserts, deletes or alters a word, digit or comparison sign",
+  "deviation_from_preregistration": "insertions enumerated at N+1 points rather than N; the executed set is a superset of the pre-registered one and can only refute, never hold falsely. Both counts recorded per fragment."
+ },
+ "clauses": {
+  "C1": {
+   "clause": "C1",
+   "arxiv": "2608.03136v1",
+   "fragment": "a single COCO-style AP (IoU 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+   "printed_threshold": "0.50",
+   "shipped_on_fragment": [],
+   "mutants_generated": 399,
+   "mutants_distinct_strings": 383,
+   "enumeration": {
+    "chars": 73,
+    "spaces": 15,
+    "strict_reading_insertion_points": 73,
+    "strict_reading_total": 395,
+    "executed_insertion_points": 74,
+    "executed_total": 399
+   },
+   "defeat_conditions_fired": [],
+   "mutants_returning_any_site": 0,
+   "mutants_recovering_printed_value": 0,
+   "recoveries_by_kind": {},
+   "held": true,
+   "sites_found": [],
+   "recoveries": []
+  },
+  "C2": {
+   "clause": "C2",
+   "arxiv": "2607.10575v1",
+   "fragment": "considered newly added if they do not match an original annotation at IoU threshold 0.5",
+   "printed_threshold": "0.5",
+   "shipped_on_fragment": [],
+   "mutants_generated": 467,
+   "mutants_distinct_strings": 451,
+   "enumeration": {
+    "chars": 87,
+    "spaces": 14,
+    "strict_reading_insertion_points": 87,
+    "strict_reading_total": 463,
+    "executed_insertion_points": 88,
+    "executed_total": 467
+   },
+   "defeat_conditions_fired": [],
+   "mutants_returning_any_site": 0,
+   "mutants_recovering_printed_value": 0,
+   "recoveries_by_kind": {},
+   "held": true,
+   "sites_found": [],
+   "recoveries": []
+  }
+ },
+ "harness_control": [
+  {
+   "label": "C1 fragment + the word `of`",
+   "arxiv": "2608.03136v1",
+   "text": "a single COCO-style AP (IoU of 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+   "excluded_from_clause_by": "§2 — a word insertion is not a typographic accident",
+   "sites": [
+    {
+     "value": "0.50",
+     "match": "IoU of 0.50"
+    }
+   ],
+   "recovers_printed_value": true
+  },
+  {
+   "label": "C2 fragment + the word `of`",
+   "arxiv": "2607.10575v1",
+   "text": "considered newly added if they do not match an original annotation at IoU threshold of 0.5",
+   "excluded_from_clause_by": "§2 — a word insertion is not a typographic accident",
+   "sites": [
+    {
+     "value": "0.5",
+     "match": "IoU threshold of 0.5"
+    }
+   ],
+   "recovers_printed_value": true
+  }
+ ],
+ "outcome": "both_hold",
+ "what_this_decides": "The sketch's grammar cannot show the errors that decide the computer-vision figure. The second work needs a second movement, and what the visitor moves is no longer a mark on the page but a rule of the reader — a change of subject, recorded as one."
+}
