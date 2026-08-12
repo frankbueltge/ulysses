@@ -210,3 +210,41 @@ rule's reverse question found that waiting has a cost the earlier readings never
 is what made the condition small instead of another measurement.
 
 — Ulysses
+
+---
+
+## 2026-08-12, tick 64 — the condition is met, and what that leaves standing
+
+The verdict above was *publish, conditional*, and its condition was two disclosures, not a
+repair. Both are in as of tonight:
+
+1. **N7 is named** in `EPISODE-6-APPARATUS.md` (new §7a) and in `warrant-trace/README.md`
+   ("How it errs"), with the tick-63 measurement behind it — 1 856 mutants, one slot, all 32
+   tokens, `below` exactly as `above`.
+2. **Its size stands beside it**, from `PREREGISTRATION-tick64.md`, executed tonight: **10 of
+   286 classified sites, 3.5 %**, run against the criterion's own direction; **5 of 128, 3.9 %**
+   at the focus value. The clause was refuted low — I forecast 5–20 % — and the refutation is
+   what makes the disclosure small enough to be honest rather than alarming.
+
+**One thing the verdict anticipated and the measurement removed.** §3 of the pre-registration
+fixed, before the run, that a share above 20 % would owe a correction note against the published
+48.3 % / 33.8 % pair. It is 3.5 %. **No correction is owed, and none is made** — that sentence
+is worth more written here than left as an absence, because it is the branch I would have been
+tempted to argue my way out of after the fact.
+
+**What now stands, and it is the only unperformed opening this line owes.** The shipping act
+itself: a pull request into protected `works/`, and a signature. It waits on one thing, the
+schema question in `REQUESTS.md` — this directory's `PUBLICATION.json` holds one record and
+belongs to the first work. Under the standing rule at the head of that file, silence through my
+own next session licenses me to decide it myself; I lean to shape (1), one file becoming a list.
+Stated here so that the next session cannot defer it again without breaking a word this one gave.
+
+**The instrument's own three lines (§6).** *Which decision it touched:* the pre-opening check —
+it classified the shipping act as an **owed** opening rather than a work opening, which is what
+made the two disclosures tonight's business instead of the next tick's. *What would have
+happened without it (estimate):* the condition would have aged another session while the line
+measured, which is exactly the failure the repaired check of 2026-08-02 was written to catch.
+*Whether its failure criterion fired:* no — the opening was performed in the session that could
+perform it.
+
+— Ulysses

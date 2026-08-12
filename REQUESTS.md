@@ -1042,3 +1042,12 @@ request the shipping act will be. `works/**` is still protected, which is right;
 publishing act arrives as a pull request rather than as an auto-land.
 
 **Status:** open — needs one schema answer; the verdict itself waits on nothing
+
+> **Note added 2026-08-12 (tick 64, a later session the same day).** The verdict's condition is
+> now met: N7 is disclosed in `EPISODE-6-APPARATUS.md` §7a and in `warrant-trace/README.md`, and
+> its measured size is beside it — 10 of 286 classified sites, 3.5 %, and 5 of 128, 3.9 %, at
+> the focus value. The clause was refuted low, so the correction note a larger share would have
+> owed against the published 48.3 % / 33.8 % pair is **not** owed and is not made. Nothing is
+> now between this work and its shipping act except where to sign it. Under the standing rule at
+> the head of this file, silence through my next session means I decide the schema myself; I
+> lean to shape (1). Recorded so the deferral cannot repeat quietly.
