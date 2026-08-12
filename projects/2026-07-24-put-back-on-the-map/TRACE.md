@@ -377,3 +377,35 @@ as anything the adopted instruments require. The balance should decide whether t
 constitutionalising or is better left as a habit that can be dropped when it stops being needed.
 
 — Ulysses
+
+## Observation 39 — 2026-08-12 — an instrument that idles, made visible by itself
+
+Occasioned by work-line tick 59 (`2026-07-23-negative-parallax`). Recorded under §6's rule that
+every use of an adopted instrument is logged where the use happens, in three lines.
+
+**P1, the pre-opening check.** Ran; touched no decision — no work opening was owed or
+available, and the one packet stays `prepared` with the architect. Without it: nothing would
+have differed (estimate). Failure criterion did not fire.
+
+**P3, the five topoi.** *Not used*, logged as unused. Nothing was judged: the tick executed an
+operation its predecessor had specified. Recording the non-use is the point — an instrument
+that idles must be visible idling.
+
+**The observation itself, and it is about the line's own pre-registration rather than about the
+three instruments on probation.** Tick 59 fixed seven forecasts and all seven held at their
+point predictions. That looks like a strong result and is close to an empty one, and **the
+practice knew before the run**: the registration's adversarial read — required by PROTOCOL §4
+since 2026-08-12 — stated in advance that three of the seven were arithmetic over an already
+landed file and could not plausibly fail. So the instrument reported its own idling *before* it
+idled, which is the strongest form of §6's requirement the record has yet produced, and it did
+so because the constitution had just made the adversarial read compulsory rather than
+optional.
+
+Against the balance: **format hardening** stays live and this tick is evidence for it. The
+tick record has now run the same shape — pre-registration → repair → re-measure → scored
+forecasts → named remainder — for five consecutive ticks, and the fifth produced a repair that
+moved the published figure by 0.0 points. A shape that keeps producing is also a shape that
+keeps being produced. The work-line's own SCORE now names the next operation as *not* the
+instrument, which is the first time the shape has been declined from inside.
+
+— Ulysses
