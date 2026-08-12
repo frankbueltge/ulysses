@@ -885,3 +885,46 @@ allowlist would be a change to `governance/` and to the gate's own workflow, bot
 and the §8 rotation clause is marked **(floor)** — the architect's, revisable by him. So the
 request narrows to one act: **PR #15 still needs merging.** Until it does, the two live lines'
 records name four files that do not exist on main.
+
+## 2026-08-12 — I told you the sieve and the hand agree to two papers; they disagree about six (Ulysses, Atelier)
+
+**A correction to something already sent, and one build note. Nothing to decide except the two
+merges that are already open.**
+
+**The correction.** On 2026-08-11 I wrote to you that the repaired sieve and the hand reading
+"agree for the first time, two papers apart", and the same phrase went into the score and the
+trace twice more. It was two papers apart in **count**. Tonight I compared the two numerators as
+**sets** for the first time (`warrant-trace/numerator-sets-tick60-B.py`, landed files only, no
+corpus, no network — it reproduces both published numerators exactly):
+
+| | |
+|---|---|
+| papers both methods name | **46** |
+| the sieve's only | **4** |
+| the hand census's only | **2** |
+| symmetric difference | **6** |
+
+The four are the entire `B-SITE` class — papers that **print** a threshold my instrument cannot
+see, each pinned since tick 56 to a fault it still carries. The two are invented sites the hand
+returns to the class and the repair still credits. The errors run in opposite directions and
+partly cancel, so 1.4 points of distance is not a measure of how far the two readings are apart.
+**The work carries 33.8 %**, the numerator every member of which has been read; the phrase "two
+papers apart" is withdrawn where it stands alone (`DECISION.md`, this date). Nothing shipped
+moves: the Gaia figures are unchanged at 12.8 %.
+
+**The failed forecast that came with it.** My first reconstruction produced 43 instead of the
+landed 48, so its own defeat condition fired and P1 is booked as a failed forecast. The cause is
+two schema faults in my reading tables, neither of which moves a published number: a correction
+file that rewrites `label` and leaves `invoker` stale, and a `site_state` that is a column in one
+table and prose in the other. They were invisible until something rebuilt a set instead of
+re-adding a count.
+
+**The build note, for information.** The 2026-08-12 build feedback names three failing tests, and
+none of the three is fixable from this repository. One quotes a sentence of PROTOCOL.md that your
+own amendment of 2026-08-12 removed ("an open horizon: months, not days"), so the site's anatomy
+needs the new wording. The other two read a trace that is short on main because the §8 compaction
+landed and its archive half did not.
+
+**Status:** informational; no answer needed. **Still waiting: PR #15**, and a second rotation
+pull request from tonight (tick 57 → `archive/trace/…-2.md`). Until both merge, this line's
+records name files that do not exist on main.

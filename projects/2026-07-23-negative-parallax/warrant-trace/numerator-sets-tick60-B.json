@@ -1,0 +1,132 @@
+{
+ "tick": 60,
+ "run": "B (after D2)",
+ "literature": "cv",
+ "question": "do the instrument's numerator (50) and the hand census's numerator (48) name the same papers, or do their disagreements cancel?",
+ "repairs": {
+  "F1_stale_invoker_column": [
+   {
+    "arxiv": "2607.27585v1",
+    "invoker_column": "0",
+    "corrected_label": "I-NAME"
+   },
+   {
+    "arxiv": "2606.22439v1",
+    "invoker_column": "0",
+    "corrected_label": "I-NAME"
+   }
+  ],
+  "F2_site_state_in_prose": "tick 56 stratum-B rows parsed from note prefix"
+ },
+ "inputs_sha256_mismatch": {},
+ "sizes": {
+  "invoking": 205,
+  "candidates_at_0.8": 99,
+  "I": 50,
+  "H": 48,
+  "H_strict": 41,
+  "H_returned": 7,
+  "intersection": 46,
+  "symmetric_difference": 6,
+  "only_I": 4,
+  "only_H": 2
+ },
+ "rates_pct": {
+  "I": 35.2,
+  "H": 33.8
+ },
+ "unlabelled_in_either_set": [],
+ "stratum_B_rows_with_no_readable_site_state": [],
+ "only_I": [
+  {
+   "arxiv": "2607.00129v1",
+   "stratum": "A",
+   "label": "B-SITE",
+   "site_state": null,
+   "states_threshold": "no",
+   "sites_at_0.7": "0",
+   "sites_at_0.8": "0",
+   "note": "the hyphenated sweep - the fault tick 50 named and left unrepaired"
+  },
+  {
+   "arxiv": "2607.10575v1",
+   "stratum": "A",
+   "label": "B-SITE",
+   "site_state": null,
+   "states_threshold": "no",
+   "sites_at_0.7": "0",
+   "sites_at_0.8": "0",
+   "note": "apposition: term, the word threshold, the number - no relation token"
+  },
+  {
+   "arxiv": "2608.02980v1",
+   "stratum": "A",
+   "label": "B-SITE",
+   "site_state": null,
+   "states_threshold": "no",
+   "sites_at_0.7": "0",
+   "sites_at_0.8": "0",
+   "note": "relation present; the number sits second in a parenthetical list"
+  },
+  {
+   "arxiv": "2608.03136v1",
+   "stratum": "A",
+   "label": "B-SITE",
+   "site_state": null,
+   "states_threshold": "no",
+   "sites_at_0.7": "0",
+   "sites_at_0.8": "0",
+   "note": "the sweep again, colon-separated this time"
+  }
+ ],
+ "only_H": [
+  {
+   "arxiv": "2604.01907v2",
+   "stratum": "B",
+   "label": "I-NAME",
+   "site_state": "site_real=NO",
+   "states_threshold": "no",
+   "sites_at_0.7": "1",
+   "sites_at_0.8": "1",
+   "note": "site_real=NO - `overlap of 50 frames` between clips. The paper NEVER writes IoU and reports AP_25/AP_50 tables: the criterion is wholly absorbed into the name. Corrected from a first reading of X-ENGL"
+  },
+  {
+   "arxiv": "2607.27585v1",
+   "stratum": "B",
+   "label": "I-NAME",
+   "site_state": "site_real=NO",
+   "states_threshold": "no",
+   "sites_at_0.7": "1",
+   "sites_at_0.8": "1",
+   "note": "site_real=NO - the site is a reported inter-annotator agreement"
+  }
+ ],
+ "b_site_papers": [
+  "2607.00129v1",
+  "2607.10575v1",
+  "2607.23981v1",
+  "2608.02980v1",
+  "2608.03136v1"
+ ],
+ "b_site_papers_in_only_I": [
+  "2607.00129v1",
+  "2607.10575v1",
+  "2608.02980v1",
+  "2608.03136v1"
+ ],
+ "invented_site_invokers_the_sieve_still_credits": [
+  "2604.01907v2",
+  "2607.27585v1"
+ ],
+ "withheld_paper_2607.05311v1_in_only_I": false,
+ "reconstruction_reproduces_landed": true,
+ "forecasts_VOID_scored_for_the_record_only": {
+  "P1_reconstruction_I_50_H_48": true,
+  "P2_symdiff_ge_6": true,
+  "P3_symdiff_le_12": true,
+  "P4_only_I_in_4_7_and_gt_only_H": true,
+  "P5_exactly_4_b_site_in_only_I": true,
+  "P6_repair_left_an_invented_site_invoker": true,
+  "P7_withheld_paper_in_only_I": false
+ }
+}
