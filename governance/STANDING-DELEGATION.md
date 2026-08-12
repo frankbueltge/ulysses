@@ -5,7 +5,7 @@ act); monthly cost cap set by him: 10 €/month (2026-07-19). Version 1 (2026-07
 at `archive/governance/STANDING-DELEGATION-v1-2026-07-18.md`.
 **Mandate version:** 2
 **Responsible human:** Frank Bültge
-**Protocol:** Ulysses Research Protocol v5 (`PROTOCOL.md`)
+**Protocol:** Ulysses Research Protocol v6 (`PROTOCOL.md`)
 
 ## 1. Purpose
 
@@ -101,6 +101,16 @@ produced the proposal-instead-of-amendment in `REQUESTS.md` 2026-08-01. The clau
 condition travels with the path: every change is documented in the journal, with a rationale.
 The MANDATE below stays protected — Frank grants it, so changing what he grants is not the
 same act as developing the research protocol he granted it under.
+
+**Still true under v6** (checked 2026-08-12, Frank: *„ja natürlich, das gehört zum Konzept"*).
+v6 did not repeal the clause; it folded it in as plain law — *"The practice may develop this
+protocol further itself — any part, this sentence included — documenting each change in the
+journal with a rationale"* — and dropped v5's heading, which is why the consistency check read
+a rewritten constitution as a repealed one for four days. One thing v6 adds that v5 did not
+have: **rules marked (floor) are the architect's, revisable by him.** That limit lives in the
+constitution, not in this allowlist: the path stays granted whole, and a session that rewrites
+a floor rule has broken its own law rather than slipped past a gate. Stated here so the two
+documents cannot be read as disagreeing.
 
 `tools/**` and `.github/workflows/**` (2026-08-02, Frank) put the practice's own instruments
 and its own automation in its own hands. The reason is the request record: most of what
