@@ -1,0 +1,294 @@
+{
+ "tick": 61,
+ "date": "2026-08-12",
+ "question": "which part of the committed sieve decides the six papers the two readings disagree about — and does the second work's subject cover them?",
+ "instrument": "warrant-trace 0.8 (2026-08-12)",
+ "run_void": false,
+ "defeat_conditions_fired": [],
+ "ablations": {
+  "a_gap400": {
+   "what": "GAP bound 100 -> 400, nothing else",
+   "adopted": false,
+   "written_to_disk": false
+  },
+  "b_bare_threshold": {
+   "what": "profile rel admits a bare `thresholds?`",
+   "rel_used": "(?:<|>|=|at\\s+least|no\\s+less\\s+than|greater\\s+than|larger\\s+than|higher\\s+than|above|below|less\\s+than|smaller\\s+than|lower\\s+than|exceed(?:ing|s)?|thresholds?\\s+(?:of|at|is|was|set\\s+to)|set\\s+to|fixed\\s+at|of\\s+at\\s+least|ranging\\s+from|from|of|thresholds?)",
+   "adopted": false,
+   "written_to_disk": false
+  }
+ },
+ "inputs_sha256": {
+  "profiles/iou-0.5.json": "61170f41a431034acb676641da19a64fbb6023c1340ed83eb0c817d4968f920e",
+  "remeasure-tick59-iou-0.5-0.8.csv": "01d150b8dc7abd5d119287b2a964bc411d2235051127e4de58e90908cef09240",
+  "numerator-sets-tick60-B.json": "6aec36ba6fcbb843ff4b0d8f2fba2a6396e164cabcc518f90273d623bcec33c9",
+  "handread-tick56.csv": "fd26ce5127ffa78e6ede090b1ee61024a387d4a670fac8e5371bd18bdcf661a1",
+  "warrant_trace.py": "6bf5b9fdaa661eba3a4ffba93d77dee982c513422ef6391761dfdde1f60cbf41",
+  "windows-tick56-A.json": "ffb2c48c9f9796eb0373dfc44f2afef4e7d54f97ad18974465024f91ea667261",
+  "windows-tick56-B.json": "e947443175f478bcca9e161c9327fb18a5cdb6cba412a841c1f370c6b1f838c6",
+  "windows-tick57.json": "73c257ae0ca41de57da2607268dfa6591bcf8d27663957657e57030bd35f69e1"
+ },
+ "papers": [
+  {
+   "arxiv": "2607.00129v1",
+   "side": "only_I (B-SITE)",
+   "window_source": "windows-tick56-A.json",
+   "term_matches_in_paper": 2,
+   "windows_landed": 2,
+   "window_coverage_complete": true,
+   "landed_sites_0.8": 0,
+   "sites_over_windows": 0,
+   "matches_over_windows": [],
+   "hand_note": "the hyphenated sweep - the fault tick 50 named and left unrepaired",
+   "hand_label": "B-SITE",
+   "fragment": "mAP, following COCO protocol across IoU thresholds 0.5-0.95",
+   "printed_threshold": "0.5",
+   "shipped_on_fragment": [],
+   "ablation_a_gap400": {
+    "sites": [],
+    "recovers": false,
+    "on_target": []
+   },
+   "ablation_b_bare_threshold": {
+    "sites": [
+     {
+      "value": "0.5",
+      "match": "IoU thresholds 0.5"
+     }
+    ],
+    "recovers": true,
+    "on_target": [
+     {
+      "value": "0.5",
+      "match": "IoU thresholds 0.5"
+     }
+    ]
+   },
+   "recovered_by": "b_relation_vocabulary",
+   "reach": {
+    "measured": true,
+    "printed_value": "0.5",
+    "term": "IoU",
+    "between": " thresholds ",
+    "within_reach": true,
+    "crossable": true,
+    "units": 12,
+    "blocked_by": null,
+    "chars": 12
+   }
+  },
+  {
+   "arxiv": "2607.10575v1",
+   "side": "only_I (B-SITE)",
+   "window_source": "windows-tick56-A.json",
+   "term_matches_in_paper": 6,
+   "windows_landed": 3,
+   "window_coverage_complete": false,
+   "landed_sites_0.8": 0,
+   "sites_over_windows": 0,
+   "matches_over_windows": [],
+   "hand_note": "apposition: term, the word threshold, the number - no relation token",
+   "hand_label": "B-SITE",
+   "fragment": "considered newly added if they do not match an original annotation at IoU threshold 0.5",
+   "printed_threshold": "0.5",
+   "shipped_on_fragment": [],
+   "ablation_a_gap400": {
+    "sites": [],
+    "recovers": false,
+    "on_target": []
+   },
+   "ablation_b_bare_threshold": {
+    "sites": [
+     {
+      "value": "0.5",
+      "match": "IoU threshold 0.5"
+     }
+    ],
+    "recovers": true,
+    "on_target": [
+     {
+      "value": "0.5",
+      "match": "IoU threshold 0.5"
+     }
+    ]
+   },
+   "recovered_by": "b_relation_vocabulary",
+   "reach": {
+    "measured": true,
+    "printed_value": "0.5",
+    "term": "IoU",
+    "between": " threshold ",
+    "within_reach": true,
+    "crossable": true,
+    "units": 11,
+    "blocked_by": null,
+    "chars": 11
+   }
+  },
+  {
+   "arxiv": "2608.02980v1",
+   "side": "only_I (B-SITE)",
+   "window_source": "windows-tick56-A.json",
+   "term_matches_in_paper": 1,
+   "windows_landed": 1,
+   "window_coverage_complete": true,
+   "landed_sites_0.8": 0,
+   "sites_over_windows": 0,
+   "matches_over_windows": [],
+   "hand_note": "relation present; the number sits second in a parenthetical list",
+   "hand_label": "B-SITE",
+   "fragment": "achieves an Intersection over Union (IoU) with the ground-truth box above a threshold (0.25, 0.5)",
+   "printed_threshold": "0.5",
+   "shipped_on_fragment": [],
+   "ablation_a_gap400": {
+    "sites": [],
+    "recovers": false,
+    "on_target": []
+   },
+   "ablation_b_bare_threshold": {
+    "sites": [],
+    "recovers": false,
+    "on_target": []
+   },
+   "recovered_by": "neither",
+   "reach": {
+    "measured": true,
+    "printed_value": "0.5",
+    "term": "IoU",
+    "between": ") with the ground-truth box above a threshold (0.25, ",
+    "within_reach": true,
+    "crossable": true,
+    "units": 53,
+    "blocked_by": null,
+    "chars": 53
+   }
+  },
+  {
+   "arxiv": "2608.03136v1",
+   "side": "only_I (B-SITE)",
+   "window_source": "windows-tick56-A.json",
+   "term_matches_in_paper": 4,
+   "windows_landed": 3,
+   "window_coverage_complete": false,
+   "landed_sites_0.8": 0,
+   "sites_over_windows": 0,
+   "matches_over_windows": [],
+   "hand_note": "the sweep again, colon-separated this time",
+   "hand_label": "B-SITE",
+   "fragment": "a single COCO-style AP (IoU 0.50 : 0.05 : 0.95 , maxDets = 100 per image)",
+   "printed_threshold": "0.50",
+   "shipped_on_fragment": [],
+   "ablation_a_gap400": {
+    "sites": [],
+    "recovers": false,
+    "on_target": []
+   },
+   "ablation_b_bare_threshold": {
+    "sites": [],
+    "recovers": false,
+    "on_target": []
+   },
+   "recovered_by": "neither",
+   "reach": {
+    "measured": true,
+    "printed_value": "0.50",
+    "term": "IoU",
+    "between": " ",
+    "within_reach": true,
+    "crossable": true,
+    "units": 1,
+    "blocked_by": null,
+    "chars": 1
+   }
+  },
+  {
+   "arxiv": "2604.01907v2",
+   "side": "only_H (invented site)",
+   "window_source": "windows-tick57.json",
+   "term_matches_in_paper": 1,
+   "windows_landed": 1,
+   "window_coverage_complete": true,
+   "landed_sites_0.8": 1,
+   "sites_over_windows": 1,
+   "matches_over_windows": [
+    {
+     "value": "50",
+     "match": "overlap of 50"
+    }
+   ],
+   "hand_note": null,
+   "hand_label": null
+  },
+  {
+   "arxiv": "2607.27585v1",
+   "side": "only_H (invented site)",
+   "window_source": "windows-tick56-B.json",
+   "term_matches_in_paper": 3,
+   "windows_landed": 3,
+   "window_coverage_complete": true,
+   "landed_sites_0.8": 1,
+   "sites_over_windows": 1,
+   "matches_over_windows": [
+    {
+     "value": "0.9008",
+     "match": "IoU of 0.9008"
+    }
+   ],
+   "hand_note": "site_real=NO - the site is a reported inter-annotator agreement",
+   "hand_label": "X-SCORE"
+  }
+ ],
+ "forecasts": {
+  "P1": {
+   "claim": "0 sites over windows for all four B-SITE papers",
+   "observed": {
+    "2607.00129v1": 0,
+    "2607.10575v1": 0,
+    "2608.02980v1": 0,
+    "2608.03136v1": 0
+   },
+   "held": true,
+   "weight": "none — restates landed arithmetic (adversarial read §5.1)"
+  },
+  "P2": {
+   "claim": "exactly 1 site over windows for each invented-site paper",
+   "observed": {
+    "2604.01907v2": 1,
+    "2607.27585v1": 1
+   },
+   "held": true,
+   "weight": "none — restates landed arithmetic (adversarial read §5.1)"
+  },
+  "P3": {
+   "claim": "ablation (b), the relation vocabulary, recovers >= 3 of the 4",
+   "band": "3 or 4",
+   "observed_recovered_by_b": [
+    "2607.00129v1",
+    "2607.10575v1"
+   ],
+   "distinct_fault_classes": [
+    "apposition: term, the word threshold, the number - no relation token",
+    "the hyphenated sweep - the fault tick 50 named and left unrepaired"
+   ],
+   "held": false,
+   "weight_cap": "held only if the recoveries span >= 2 distinct fault classes (pre-registration §5.2)"
+  },
+  "P4": {
+   "claim": "ablation (a), gap width alone, recovers at most 1 of the 4",
+   "band": "0 or 1",
+   "observed_recovered_by_a_only": [],
+   "held": true
+  },
+  "P5": {
+   "claim": "in all four, the printed number stands within the shipped gap's reach",
+   "observed_within_reach": [
+    "2607.00129v1",
+    "2607.10575v1",
+    "2608.02980v1",
+    "2608.03136v1"
+   ],
+   "held": true,
+   "consequence_if_held": "the gap expression decides none of the four, and the sketch as drawn cannot show them"
+  }
+ }
+}
