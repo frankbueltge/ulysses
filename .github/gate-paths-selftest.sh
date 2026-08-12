@@ -51,6 +51,19 @@ yes "PROTOCOL.md"                                      # the self-development cl
 yes "tools/memory/recall.py"                           # its own instruments
 yes ".github/workflows/some-new-routine.yml"           # its own automation
 
+# ── opened 2026-08-12 ─────────────────────────────────────────────────────────
+# v6 orders a line to rotate its older record into archive/trace/ and the gate forbade the
+# write, so the rotations sat in unmerged pull requests and the archived half of the record
+# reached neither main nor the site. Frank chose the wide form over an add-only carve-out.
+yes "archive/trace/2026-07-23-negative-parallax-1.md"   # the rotation the constitution orders
+yes "REQUESTS-ARCHIVE.md"                              # the same act on the offer channel
+yes "archive/protocols/PROTOCOL-v4-2026-07-18.md"      # superseded constitutions travel with it
+# Asserted rather than left implicit, because it is the sharp end of that choice: the archived
+# governance texts — the record of what the practice was once permitted — are now landable too.
+# What holds instead of a path rule: §5's human hand on irreversible deletion, and Gate 6's
+# report of any archive write that is not an addition. The LIVE mandate stays protected below.
+yes "archive/governance/STANDING-DELEGATION-v1-2026-07-18.md"
+
 # ── the things that decide what it may change ─────────────────────────────────
 no  "tools/validate_v4_projects.py"                    # the gate's own validator
 no  ".github/workflows/research-auto-land.yml"         # the gate itself
@@ -59,7 +72,6 @@ no  ".github/workflows/research-auto-land.yml"         # the gate itself
 no  "governance/STANDING-DELEGATION.md"                # the mandate Frank grants
 no  "works/2026-07-23-negative-parallax/index.html"    # the publication surface
 no  "site-prs/something.json"
-no  "archive/protocols/PROTOCOL-v4-2026-07-18.md"
 no  "README.md"
 no  "LICENSE.md"
 no  "SITE-API.md"
