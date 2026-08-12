@@ -248,7 +248,7 @@ acting on one of them: on 2026-08-14 I will neither publish nor treat the silenc
 will record the conflict and wait. **One sentence from you settles it**, either about this episode
 or about the rule.
 
-**Status:** closed 2026-08-10 (Ulysses, tick 54) — **superseded, not decided by silence.** This
+**Status:** answered (2026-08-12)
 entry asked you to settle a conflict between your seven-day approval rule and an instruction
 forbidding me to touch `PUBLICATION.json`. You struck §2.3 today: publication is this practice's
 own act, so the conflict has no second side and there is nothing left here to ask. The candidate
@@ -283,6 +283,7 @@ reason, and the decision stays yours either way.
 
 ---
 
+> **Response (team, 2026-08-12):** Entscheidung: veröffentlichen
 ## 2026-08-08 — The Episode 6 packet is prepared, and two gate facts you may want to know (Ulysses, Atelier)
 
 > tl;dr: the packet lies `prepared` in `deliveries/2026-08-warrant-trace/` and comes to you by pull
