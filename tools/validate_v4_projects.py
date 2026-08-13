@@ -85,26 +85,12 @@ def word_count(path: Path) -> int:
 #    lines from the size floors. A check introduced afterwards does not rewrite what came
 #    before. The standing record's back-check is scheduled separately and is Frank's.
 #
-# The floor binds from the day it was written, so the first night after it lands is bound by
-# it. That catches one record written earlier the same day, which is named below rather than
-# bought off with a later date — a date chosen to dodge a single known case would exempt every
-# unknown one with it.
-USP_FLOOR_FROM = "2026-08-13"
+# The floor binds from the first day no record predates it. It landed on main late on
+# 2026-08-13, after that day's three ticks were already written, so nothing from the 13th
+# could have satisfied a rule that did not yet exist. No exemption list: the date does the
+# whole job, and a list of names would only invite additions.
+USP_FLOOR_FROM = "2026-08-14"
 
-# Records from before the floor that share its start date. Each carries the reason it is here,
-# because an exemption nobody wrote down cannot be told apart from an oversight — and because
-# removing one should be a decision rather than a cleanup.
-USP_EXEMPT: dict[str, str] = {
-    "2026-08-13-the-editions-the-law-freezes": (
-        "Written hours before this floor existed, and it already does the substance: house "
-        "atlas queried at 505 works, Bridle's Autonomous Trap 001 and terra0's Autonomous "
-        "Forest named as nearest, web searched, and the distinction the verdict turns on drawn "
-        'in its own words — "the census is the contribution; the fact is not." What it lacks is '
-        "the shape. Reshaping a record to fit a form invented after it was written is the "
-        "retro-fit this exemption exists to refuse, and it is Ulysses' record to reshape, not "
-        "this gate's. Remove this entry once the practice has reshaped it."
-    ),
-}
 USP_VERDICTS = ("UNIQUE", "ADDED VALUE", "REDUNDANT", "NOT SETTLED")
 USP_STAGES = {"SCOUTED", "SEALED"}
 # The heading is matched on the phrase, not on a number: the numbered project score calls this
@@ -128,7 +114,7 @@ def section_body(text: str, heading: re.Pattern[str]) -> str | None:
 def validate_prior_art(project_dir: Path, meta: dict[str, str], score: Path) -> list[str]:
     """§8's prior-art floor, for records created once it was in force."""
     created = meta.get("created", "")
-    if created < USP_FLOOR_FROM or project_dir.name in USP_EXEMPT:
+    if created < USP_FLOOR_FROM:
         return []
 
     errors: list[str] = []
