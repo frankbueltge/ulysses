@@ -1,0 +1,833 @@
+{
+ "source_sha256": "5b172dac1efc70dcf840c1a3b5a602240cebfbb10f7215126bba1e5daa280b92",
+ "entries": [
+  {
+   "text": "(1) Threshold Limit Values of Airborne Contaminants for 1970, 1970, IBR approved for \u00a7 1926.55(a) and appendix A of \u00a7 1926.55.",
+   "org_header": "(d) The following material is available for purchase from the American Conference of Governmental Industrial Hygienists ",
+   "edition_year": 1970,
+   "edition_token": "1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(1) ANSI A10.3-1970, Safety Requirements for Explosive-Actuated Fastening Tools, IBR approved for \u00a7 1926.302(e).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1970,
+   "edition_token": "A10.3-1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(2) ANSI A10.4-1963, Safety Requirements for Workmen's Hoists, IBR approved for \u00a7 1926.552(c).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1963,
+   "edition_token": "A10.4-1963",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 63
+  },
+  {
+   "text": "(3) ANSI A10.5-1969, Safety Requirements for Material Hoists, IBR approved for \u00a7 1926.552(b).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1969,
+   "edition_token": "A10.5-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(4) ANSI A11.1-1965 (R1970), Practice for Industrial Lighting, IBR approved for \u00a7 1926.56(b).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1965,
+   "edition_token": "A11.1-1965",
+   "reaffirmations": [
+    "1970"
+   ],
+   "urls": [],
+   "age": 61
+  },
+  {
+   "text": "(5) ANSI A17.1-1965, Elevators, Dumbwaiters, Escalators, and Moving Walks, IBR approved for \u00a7 1926.552(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1965,
+   "edition_token": "A17.1-1965",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 61
+  },
+  {
+   "text": "(6) ANSI A17.1a-1967, Elevators, Dumbwaiters, Escalators, and Moving Walks Supplement, IBR approved for \u00a7 1926.552(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1967,
+   "edition_token": "A17.1a-1967",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 59
+  },
+  {
+   "text": "(7) ANSI A17.1b-1968, Elevators, Dumbwaiters, Escalators, and Moving Walks Supplement, IBR approved for \u00a7 1926.552(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1968,
+   "edition_token": "A17.1b-1968",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(8) ANSI A17.1c-1969, Elevators, Dumbwaiters, Escalators, and Moving Walks Supplement, IBR approved for \u00a7 1926.552(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1969,
+   "edition_token": "A17.1c-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(9) ANSI A17.1d-1970, Elevators, Dumbwaiters, Escalators, and Moving Walks Supplement, IBR approved for \u00a7 1926.552(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1970,
+   "edition_token": "A17.1d-1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(10) ANSI A17.2-1960, Practice for the Inspection of Elevators (Inspector's Manual), IBR approved for \u00a7 1926.552(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1960,
+   "edition_token": "A17.2-1960",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 66
+  },
+  {
+   "text": "(11) ANSI A17.2a-1965, Practice for the Inspection of Elevators (Inspector's Manual) Supplement, IBR approved for \u00a7 1926.552(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1965,
+   "edition_token": "A17.2a-1965",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 61
+  },
+  {
+   "text": "(12) ANSI A17.2b-1967, Practice for the Inspection of Elevators (Inspector's Manual) Supplement, IBR approved for \u00a7 1926.552(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1967,
+   "edition_token": "A17.2b-1967",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 59
+  },
+  {
+   "text": "(13) ANSI A92.2-1969, Vehicle Mounted Elevating and Rotating Work Platforms, IBR approved for \u00a7\u00a7 1926.453(a) and 1926.453(b).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1969,
+   "edition_token": "A92.2-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(14) ANSI B7.1-1970, Safety Code for the Use, Care, and Protection of Abrasive Wheels, IBR approved for \u00a7\u00a7 1926.57(g), 1926.303(b), 1926.303(c), and 1926.303(d).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1970,
+   "edition_token": "B7.1-1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(15) ANSI B20.1-1957, Safety Code for Conveyors, Cableways, and Related Equipment, IBR approved for \u00a7 1926.555(a).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1957,
+   "edition_token": "B20.1-1957",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 69
+  },
+  {
+   "text": "(16) ANSI B56.1-1969, Safety Standards for Powered Industrial Trucks, IBR approved for \u00a7 1926.602(c).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1969,
+   "edition_token": "B56.1-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(23) ANSI O1.1-1961, Safety Code for Woodworking Machinery, IBR approved for \u00a7 1926.304(f).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1961,
+   "edition_token": "O1.1-1961",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 65
+  },
+  {
+   "text": "(24) ANSI Z35.1-1968, Specifications for Accident Prevention Signs; IBR approved for \u00a7 1926.200(b), (c), and 1 (i). Copies available for purchase from the IHS Standards Store, 15 Inverness Way East, Englewood, CO 80112; telephone: 1-877-413-5184; Web site: www.global.ihs.com.",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1968,
+   "edition_token": "Z35.1-1968",
+   "reaffirmations": [],
+   "urls": [
+    "www.global.ihs.com."
+   ],
+   "age": 58
+  },
+  {
+   "text": "(25) ANSI Z35.2-1968, Specifications for Accident Prevention Tags, IBR approved for \u00a7 1926.200(i).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1968,
+   "edition_token": "Z35.2-1968",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(26) ANSI Z49.1-1967, Safety in Welding and Cutting, IBR approved for \u00a7 1926.350(j).",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1967,
+   "edition_token": "Z49.1-1967",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 59
+  },
+  {
+   "text": "(27) USA Z53.1-1967 (also referred to as ANSI Z53.1-1967), Safety Color Code for Marking Physical Hazards, ANSI approved October 9, 1967; IBR approved for \u00a7 1926.200(c). Copies available for purchase from the IHS Standards Store, 15 Inverness Way East, Englewood, CO 80112; telephone: 1-877-413-5184; Web site: www.global.ihs.com.",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 1967,
+   "edition_token": "Z53.1-1967",
+   "reaffirmations": [],
+   "urls": [
+    "www.global.ihs.com."
+   ],
+   "age": 59
+  },
+  {
+   "text": "(28) ANSI Z535.1-2006 (R2011), Safety Colors, reaffirmed July 19, 2011; IBR approved for \u00a7 1926.200(c). Copies available for purchase from the:",
+   "org_header": "(e) The following material is available for purchase from the American National Standards Institute (ANSI), 25 West 43rd",
+   "edition_year": 2006,
+   "edition_token": "Z535.1-2006",
+   "reaffirmations": [
+    "2011"
+   ],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(29) ANSI Z535.2-2011, Environmental and Facility Safety Signs, published September 15, 2011; IBR approved for \u00a7 1926.200(b), (c), and (i). Copies available for purchase from the:",
+   "org_header": "(i) American National Standards Institute's e-Standards Store, 25 W 43rd Street, 4th Floor, New York, NY 10036; telephon",
+   "edition_year": 2011,
+   "edition_token": "Z535.2-2011",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(30) ANSI Z535.5-2011, Safety Tags and Barricade Tapes (for Temporary Hazards), published September 15, 2011, including Errata, November 14, 2011; IBR approved for \u00a7 1926.200(h) and (i). Copies available for purchase from the:",
+   "org_header": "(i) American National Standards Institute's e-Standards Store, 25 W 43rd Street, 4th Floor, New York, NY 10036; telephon",
+   "edition_year": 2011,
+   "edition_token": "Z535.5-2011",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(31) ANSI/ISEA Z87.1-2010, Occupational and Educational Personal Eye and Face Protection Devices, Approved April 3, 2010; IBR approved for \u00a7 1926.102(b). Copies are available for purchase from:",
+   "org_header": "(i) American National Standards Institute's e-Standards Store, 25 W 43rd Street, 4th Floor, New York, NY 10036; telephon",
+   "edition_year": 2010,
+   "edition_token": "Z87.1-2010",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 16
+  },
+  {
+   "text": "(32) ANSI Z87.1-2003, Occupational and Educational Personal Eye and Face Protection Devices, Approved June 19, 2003; IBR approved for \u00a7 1926.102(b). Copies available for purchase from the:",
+   "org_header": "(i) American National Standards Institute's e-Standards Store, 25 W 43rd Street, 4th Floor, New York, NY 10036; telephon",
+   "edition_year": 2003,
+   "edition_token": "Z87.1-2003",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(33) ANSI Z87.1-1989 (R-1998), Practice for Occupational and Educational Eye and Face Protection, Reaffirmation approved January 4, 1999; IBR approved for \u00a7 1926.102(b). Copies are available for purchase from:",
+   "org_header": "(i) American National Standards Institute's e-Standards Store, 25 W 43rd Street, 4th Floor, New York, NY 10036; telephon",
+   "edition_year": 1989,
+   "edition_token": "Z87.1-1989",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 37
+  },
+  {
+   "text": "(34) American National Standards Institute (ANSI) Z89.1-2009, American National Standard for Industrial Head Protection, approved January 26, 2009; IBR approved for \u00a7 1926.100(b)(1)(i). Copies of ANSI Z89.1-2009 are available for purchase only from the International Safety Equipment Association, 1901 North Moore Street, Arlington, VA 22209-1762; telephone: 703-525-1695; fax: 703-528-2148; Web site: www.safetyequipment.org.",
+   "org_header": "(i) American National Standards Institute's e-Standards Store, 25 W 43rd Street, 4th Floor, New York, NY 10036; telephon",
+   "edition_year": 2009,
+   "edition_token": "Z89.1-2009",
+   "reaffirmations": [],
+   "urls": [
+    "www.safetyequipment.org."
+   ],
+   "age": 17
+  },
+  {
+   "text": "(35) American National Standards Institute (ANSI) Z89.1-2003, American National Standard for Industrial Head Protection; IBR approved for \u00a7 1926.100(b)(1)(ii). Copies of ANSI Z89.1-2003 are available for purchase only from the International Safety Equipment Association, 1901 North Moore Street, Arlington, VA 22209-1762; telephone: 703-525-1695; fax: 703-528-2148; Web site: www.safetyequipment.org.",
+   "org_header": "(i) American National Standards Institute's e-Standards Store, 25 W 43rd Street, 4th Floor, New York, NY 10036; telephon",
+   "edition_year": 2003,
+   "edition_token": "Z89.1-2003",
+   "reaffirmations": [],
+   "urls": [
+    "www.safetyequipment.org."
+   ],
+   "age": 23
+  },
+  {
+   "text": "(36) American National Standards Institute (ANSI) Z89.1-1997, American National Standard for Personnel Protection\u2014Protective Headwear for Industrial Workers\u2014Requirements; IBR approved for \u00a7 1926.100(b)(1)(iii). Copies of ANSI Z89.1-1997 are available for purchase only from the International Safety Equipment Association, 1901 North Moore Street, Arlington, VA 22209-1762; telephone: 703-525-1695; fax: 703-528-2148; Web site: www.safetyequipment.org.",
+   "org_header": "(i) American National Standards Institute's e-Standards Store, 25 W 43rd Street, 4th Floor, New York, NY 10036; telephon",
+   "edition_year": 1997,
+   "edition_token": "Z89.1-1997",
+   "reaffirmations": [],
+   "urls": [
+    "www.safetyequipment.org."
+   ],
+   "age": 29
+  },
+  {
+   "text": "(1) ANSI B15.1-1953 (R1958), Safety Code for Mechanical Power-Transmission Apparatus, revised 1958, IBR approved for \u00a7 1926.300(b)(2).",
+   "org_header": "(f) The following material is available for purchase from standards resellers such as the Document Center Inc., 111 Indu",
+   "edition_year": 1953,
+   "edition_token": "B15.1-1953",
+   "reaffirmations": [
+    "1958"
+   ],
+   "urls": [],
+   "age": 73
+  },
+  {
+   "text": "(2) ANSI B30.5-1968, Crawler, Locomotive, and Truck Cranes, approved Dec. 16, 1968, IBR approved for \u00a7 1926.1433(a).",
+   "org_header": "(f) The following material is available for purchase from standards resellers such as the Document Center Inc., 111 Indu",
+   "edition_year": 1968,
+   "edition_token": "B30.5-1968",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(1) ASTM A370-1968, Methods and Definitions for Mechanical Testing and Steel Products, IBR approved for \u00a7 1926.1001(f).",
+   "org_header": "(g) The following material is available for purchase from the American Society for Testing and Materials (ASTM), ASTM In",
+   "edition_year": 1968,
+   "edition_token": "A370-1968",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(3) ASTM D56-1969, Standard Method of Test for Flash Point by the Tag Closed Tester, IBR approved for \u00a7 1926.155(i).",
+   "org_header": "(g) The following material is available for purchase from the American Society for Testing and Materials (ASTM), ASTM In",
+   "edition_year": 1969,
+   "edition_token": "D56-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(4) ASTM D93-1969, Standard Method of Test for Flash Point by the Pensky Martens Closed Tester, IBR approved for \u00a7 1926.155(i).",
+   "org_header": "(g) The following material is available for purchase from the American Society for Testing and Materials (ASTM), ASTM In",
+   "edition_year": 1969,
+   "edition_token": "D93-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(5) ASTM D323-1958 (R1968), Standard Method of Test for Vapor Pressure of Petroleum Products (Reid Method), IBR approved for \u00a7 1926.155(m).",
+   "org_header": "(g) The following material is available for purchase from the American Society for Testing and Materials (ASTM), ASTM In",
+   "edition_year": 1958,
+   "edition_token": "D323-1958",
+   "reaffirmations": [
+    "1968"
+   ],
+   "urls": [],
+   "age": 68
+  },
+  {
+   "text": "(1) ASME B30.2-2005, Overhead and Gantry Cranes (Top Running Bridge, Single or Multiple Girder, Top Running Trolley Hoist), issued Dec. 30, 2005 (\u201cASME B30.2-2005\u201d), IBR approved for \u00a7 1926.1438(b).",
+   "org_header": "(h) The following material is available for purchase from the American Society of Mechanical Engineers (ASME), Three Par",
+   "edition_year": 2005,
+   "edition_token": "B30.2-2005",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 21
+  },
+  {
+   "text": "(2) ASME B30.5-2004, Mobile and Locomotive Cranes, issued Sept. 27, 2004 (\u201cASME B30.5-2004\u201d), IBR approved for \u00a7\u00a7 1926.1414(b); 1926.1414(e); 1926.1433(b).",
+   "org_header": "(h) The following material is available for purchase from the American Society of Mechanical Engineers (ASME), Three Par",
+   "edition_year": 2004,
+   "edition_token": "B30.5-2004",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 22
+  },
+  {
+   "text": "(3) ASME B30.7-2001, Base-Mounted Drum Hoists, issued Jan. 21, 2002 (\u201cASME B30.7-2001\u201d), IBR approved for \u00a7 1926.1436(e).",
+   "org_header": "(h) The following material is available for purchase from the American Society of Mechanical Engineers (ASME), Three Par",
+   "edition_year": 2001,
+   "edition_token": "B30.7-2001",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 25
+  },
+  {
+   "text": "(4) ASME B30.14-2004, Side Boom Tractors, issued Sept. 20, 2004 (\u201cASME B30.14-2004\u201d), IBR approved for \u00a7 1926.1440(c).",
+   "org_header": "(h) The following material is available for purchase from the American Society of Mechanical Engineers (ASME), Three Par",
+   "edition_year": 2004,
+   "edition_token": "B30.14-2004",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 22
+  },
+  {
+   "text": "(5) ASME Boiler and Pressure Vessel Code, Section VIII, 1968, IBR approved for \u00a7\u00a7 1926.152(i), 1926.306(a), and 1926.603(a).",
+   "org_header": "(h) The following material is available for purchase from the American Society of Mechanical Engineers (ASME), Three Par",
+   "edition_year": 1968,
+   "edition_token": "1968",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(6) ASME Power Boilers, Section I, 1968, IBR approved for \u00a7 1926.603(a).",
+   "org_header": "(h) The following material is available for purchase from the American Society of Mechanical Engineers (ASME), Three Par",
+   "edition_year": 1968,
+   "edition_token": "1968",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(1) ASAE R313.1-1971, Soil Cone Penetrometer, reaffirmed 1975, IBR approved for \u00a7 1926.1002(e).",
+   "org_header": "(i) The following material is available for purchase from the American Society of Agricultural and Biological Engineers ",
+   "edition_year": 1971,
+   "edition_token": "R313.1-1971",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(1) AWS D1.1/D1.1M:2002, Structural Welding Code\u2014Steel, 18th ed., ANSI approved Aug. 31, 2001 (\u201cAWS D1.1/D1.1M:2002\u201d), IBR approved for \u00a7 1926.1436(c).",
+   "org_header": "(j) The following material is available for purchase from the American Welding Society (AWS), 550 N.W. LeJeune Road, Mia",
+   "edition_year": 2002,
+   "edition_token": "D1.1M:2002",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(2) ANSI/AWS D14.3-94, Specification for Welding Earthmoving and Construction Equipment, ANSI approved Jun. 11, 1993 (\u201cANSI/AWS D14.3-94\u201d), IBR approved for \u00a7 1926.1436(c).",
+   "org_header": "(j) The following material is available for purchase from the American Welding Society (AWS), 550 N.W. LeJeune Road, Mia",
+   "edition_year": 1994,
+   "edition_token": "D14.3-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(1) BS EN 13000:2004, Cranes\u2014Mobile Cranes, published Jan. 4, 2006 (\u201cBS EN 13000:2004\u201d), IBR approved for \u00a7 1926.1433(c).",
+   "org_header": "(k) The following material is available for purchase from the British Standards Institution (BSI), 389 Chiswick High Roa",
+   "edition_year": 2004,
+   "edition_token": "EN 13000:2004",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 22
+  },
+  {
+   "text": "(2) BS EN 14439:2006, Cranes\u2014Safety\u2014Tower Cranes, published Jan. 31, 2007 (\u201cBS EN 14439:2006\u201d), IBR approved for \u00a7 1926.1433(c).",
+   "org_header": "(k) The following material is available for purchase from the British Standards Institution (BSI), 389 Chiswick High Roa",
+   "edition_year": 2006,
+   "edition_token": "EN 14439:2006",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(1) Safety and Health Regulations for Construction, Part II, Sept. 1971, IBR approved for \u00a7 1926.1000(f).",
+   "org_header": "(l) The following material is available for purchase from the Bureau of Reclamation, United States Department of the Int",
+   "edition_year": 1971,
+   "edition_token": "1971",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(1) Construction Safety Orders, IBR approved for \u00a7 1926.1000(f).",
+   "org_header": "(m) The following material is available for purchase from the California Department of Industrial Relations, 455 Golden ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(1) Manual on Uniform Traffic Control Devices for Streets and Highways, 2009 Edition, December 2009 (including Revision 1 dated May 2012 and Revision 2 dated May 2012), (\u201cMUTCD\u201d) IBR approved for \u00a7\u00a7 1926.200(g) and 1926.201(a).",
+   "org_header": "(n) The following material is available from the Federal Highway Administration, United States Department of Transportat",
+   "edition_year": 2012,
+   "edition_token": "(including Revision 1 dated May 2012 and Revision 2 dated May 2012)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 14
+  },
+  {
+   "text": "(1) QQ-P-416, Federal Specification Plating Cadmium (Electrodeposited), IBR approved for \u00a7 1926.104(e).",
+   "org_header": "(o) The following material is available for purchase from the General Services Administration (GSA), 1800 F Street, NW.,",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(1) IME Pub. No. 2, American Table of Distances for Storage of Explosives, Jun. 5, 1964, IBR approved for \u00a7 1926.914(a).",
+   "org_header": "(p) The following material is available for purchase from the Institute of Makers of Explosives (IME), 1120 19th Street,",
+   "edition_year": 1964,
+   "edition_token": "1964",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 62
+  },
+  {
+   "text": "(2) IME Pub. No. 20, Radio Frequency Energy\u2014A Potential Hazard in the Use of Electric Blasting Caps, Mar. 1968, IBR approved for \u00a7 1926.900(k).",
+   "org_header": "(p) The following material is available for purchase from the Institute of Makers of Explosives (IME), 1120 19th Street,",
+   "edition_year": 1968,
+   "edition_token": "1968",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(1) Guidelines for the Use of the ILO International Classification of Radiographs of Pneumoconioses, Revised Edition 2011, Occupational safety and health series; 22 (Rev.2011), IBR approved for \u00a7 1926.1101.",
+   "org_header": "(q) The following material is available from the International Labour Organization (ILO), 4 route des Morillons, CH-1211",
+   "edition_year": 2011,
+   "edition_token": "(Rev.2011)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(1) ISO 3471:2008(E), Earth-moving machinery\u2014Roll-over protective structures\u2014Laboratory tests and performance requirements, Fourth Edition, Aug. 8, 2008 (\u201cISO 3471:2008\u201d), IBR approved for \u00a7\u00a7 1926.1001(c) and 1926.1002(c).",
+   "org_header": "(r) The following material is available for purchase from the International Organization for Standardization (ISO), 1, c",
+   "edition_year": 2008,
+   "edition_token": "ISO 3471:2008",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(2) ISO 5700:2013(E), Tractors for agriculture and forestry\u2014Roll-over protective structures\u2014Static test method and acceptance conditions, Fifth Edition, May 1, 2013 (\u201cISO 5700:2013\u201d), IBR approved for \u00a7 1926.1002(c).",
+   "org_header": "(r) The following material is available for purchase from the International Organization for Standardization (ISO), 1, c",
+   "edition_year": 2013,
+   "edition_token": "ISO 5700:2013",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 13
+  },
+  {
+   "text": "(3) ISO 27850:2013(E), Tractors for agriculture and forestry\u2014Falling object protective structures\u2014Test procedures and performance requirements, First Edition, May.01, 2013 (\u201cISO 27850:2013\u201d), IBR approved for \u00a7 1926.1003(c).",
+   "org_header": "(r) The following material is available for purchase from the International Organization for Standardization (ISO), 1, c",
+   "edition_year": 2013,
+   "edition_token": "ISO 27850:2013",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 13
+  },
+  {
+   "text": "(4) ISO 11660-1:2008(E), Cranes\u2014Access, guards and restraints\u2014Part 1: General, 2d ed., Feb. 15, 2008 (\u201cISO 11660-1:2008(E)\u201d), IBR approved for \u00a7 1926.1423(c).",
+   "org_header": "(r) The following material is available for purchase from the International Organization for Standardization (ISO), 1, c",
+   "edition_year": 2008,
+   "edition_token": "2008",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(5) ISO 11660-2:1994(E), Cranes\u2014Access, guards and restraints\u2014Part 2: Mobile cranes, 1994 (\u201cISO 11660-2:1994(E)\u201d), IBR approved for \u00a7 1926.1423(c).",
+   "org_header": "(r) The following material is available for purchase from the International Organization for Standardization (ISO), 1, c",
+   "edition_year": 1994,
+   "edition_token": "1994",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(6) ISO 11660-3:2008(E), Cranes\u2014Access, guards and restraints\u2014Part 3: Tower cranes, 2d ed., Feb. 15, 2008 (\u201cISO 11660-3:2008(E)\u201d), IBR approved for \u00a7 1926.1423(c).",
+   "org_header": "(r) The following material is available for purchase from the International Organization for Standardization (ISO), 1, c",
+   "edition_year": 2008,
+   "edition_token": "2008",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(1) NFPA 10A-1970, Maintenance and Use of Portable Fire Extinguishers, IBR approved for \u00a7 1926.150(c).",
+   "org_header": "(s) The following material is available for purchase from the National Fire Protection Association (NFPA), 1 Batterymarc",
+   "edition_year": 1970,
+   "edition_token": "NFPA 10A-1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(2) NFPA 13-1969, Standard for the Installation of Sprinkler Systems, IBR approved for \u00a7 1926.152(d).",
+   "org_header": "(s) The following material is available for purchase from the National Fire Protection Association (NFPA), 1 Batterymarc",
+   "edition_year": 1969,
+   "edition_token": "NFPA 13-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(3) NFPA 30-1969, The Flammable and Combustible Liquids Code, IBR approved for \u00a7 1926.152(c).",
+   "org_header": "(s) The following material is available for purchase from the National Fire Protection Association (NFPA), 1 Batterymarc",
+   "edition_year": 1969,
+   "edition_token": "NFPA 30-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(4) NFPA 80-1970, Standard for Fire Doors and Windows, Class E or F Openings, IBR approved for \u00a7 1926.152(b).",
+   "org_header": "(s) The following material is available for purchase from the National Fire Protection Association (NFPA), 1 Batterymarc",
+   "edition_year": 1970,
+   "edition_token": "NFPA 80-1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(5) NFPA 251-1969, Standard Methods of Fire Test of Building Construction and Material, IBR approved for \u00a7\u00a7 1926.152(b) and 1926.155(f).",
+   "org_header": "(s) The following material is available for purchase from the National Fire Protection Association (NFPA), 1 Batterymarc",
+   "edition_year": 1969,
+   "edition_token": "NFPA 251-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(6) NFPA 385-1966, Standard for Tank Vehicles for Flammable and Combustible Liquids, IBR approved for \u00a7 1926.152(g).",
+   "org_header": "(s) The following material is available for purchase from the National Fire Protection Association (NFPA), 1 Batterymarc",
+   "edition_year": 1966,
+   "edition_token": "NFPA 385-1966",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 60
+  },
+  {
+   "text": "(1) PCSA Std. No. 1, Mobile Crane and Excavator Standards, 1968, IBR approved for \u00a7 1926.602(b).",
+   "org_header": "(t) The following material is available for purchase from the Power Crane and Shovel Association (PCSA), 6737 W. Washing",
+   "edition_year": 1968,
+   "edition_token": "1968",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(2) PCSA Std. No. 2, Mobile Hydraulic Crane Standards, 1968 (\u201cPCSA Std. No. 2 (1968)\u201d), IBR approved for \u00a7\u00a7 1926.602(b) and 1926.1433(a).",
+   "org_header": "(t) The following material is available for purchase from the Power Crane and Shovel Association (PCSA), 6737 W. Washing",
+   "edition_year": 1968,
+   "edition_token": "(1968)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(3) PCSA Std. No. 3, Mobile Hydraulic Excavator Standards, 1969, IBR approved for \u00a7 1926.602(b).",
+   "org_header": "(t) The following material is available for purchase from the Power Crane and Shovel Association (PCSA), 6737 W. Washing",
+   "edition_year": 1969,
+   "edition_token": "1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(1) SAE 1970 Handbook, IBR approved for \u00a7 1926.602(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(2) SAE J166-1971, Trucks and Wagons, IBR approved for \u00a7 1926.602(a).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1971,
+   "edition_token": "J166-1971",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(3) SAE J167, Protective Frame with Overhead Protection-Test Procedures and Performance Requirements, approved July 1970, IBR approved for \u00a7 1926.1003(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(4) SAE J168, Protective Enclosures-Test Procedures and Performance Requirements, approved July 1970, IBR approved for \u00a7 1926.1002(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(5) SAE J185 (reaf. May 2003), Access Systems for Off-Road Machines, reaffirmed May 2003 (\u201cSAE J185 (May 1993)\u201d), IBR approved for \u00a7 1926.1423(c).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 2003,
+   "edition_token": "(reaf. May 2003)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(6) SAE J236-1971, Self-Propelled Graders, IBR approved for \u00a7 1926.602(a).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1971,
+   "edition_token": "J236-1971",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(7) SAE J237-1971, Front End Loaders and Dozers, IBR approved for \u00a7 1926.602(a).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1971,
+   "edition_token": "J237-1971",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(8) SAE J319b-1971, Self-Propelled Scrapers, IBR approved for \u00a7 1926.602(a).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1971,
+   "edition_token": "J319b-1971",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(9) SAE J320a, Minimum Performance Criteria for Roll-Over Protective Structure for Rubber-Tired, Self-Propelled Scrapers, revised July 1969 (editorial change July 1970), IBR approved for \u00a7 1926.1001(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "(editorial change July 1970)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(10) SAE J321a-1970, Fenders for Pneumatic-Tired Earthmoving Haulage Equipment, IBR approved for \u00a7 1926.602(a).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "J321a-1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(11) SAE J333a-1970, Operator Protection for Agricultural and Light Industrial Tractors, IBR approved for \u00a7 1926.602(a).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "J333a-1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(12) SAE J334a, Protective Frame Test Procedures and Performance Requirements, revised July 1970, IBR approved for \u00a7 1926.1002(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(13) SAE J386-1969, Seat Belts for Construction Equipment, IBR approved for \u00a7 1926.602(a).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1969,
+   "edition_token": "J386-1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(14) SAE J394, Minimum Performance Criteria for Roll-Over Protective Structure for Rubber-Tired Front End Loaders and Rubber-Tired Dozers, approved July 1969 (editorial change July 1970), IBR approved for \u00a7 1926.1001(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "(editorial change July 1970)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(15) SAE J395, Minimum Performance Criteria for Roll-Over Protective Structure for Crawler Tractors and Crawler-Type Loaders, approved July 1969 (editorial change July 1970), IBR approved for \u00a7 1926.1001(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "(editorial change July 1970)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(16) SAE J396, Minimum Performance Criteria for Roll-Over Protective Structure for Motor Graders, approved July 1969 (editorial change July 1970), IBR approved for \u00a7 1926.1001(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1970,
+   "edition_token": "(editorial change July 1970)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(17) SAE J397, Critical Zone Characteristics and Dimensions for Operators of Construction and Industrial Machinery, approved July 1969, IBR approved for \u00a7 1926.1001(b).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1969,
+   "edition_token": "1969",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(18) SAE J987 (rev. Jun. 2003), Lattice Boom Cranes\u2014Method of Test, revised Jun. 2003 (\u201cSAE J987 (Jun. 2003)\u201d), IBR approved for \u00a7 1926.1433(c).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 2003,
+   "edition_token": "(rev. Jun. 2003)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(19) SAE J1063 (rev. Nov. 1993), Cantilevered Boom Crane Structures\u2014Method of Test, revised Nov. 1993 (\u201cSAE J1063 (Nov. 1993)\u201d), IBR approved for \u00a7 1926.1433(c).",
+   "org_header": "(u) The following material is available from the Society of Automotive Engineers (SAE), 400 Commonwealth Drive, Warrenda",
+   "edition_year": 1993,
+   "edition_token": "(rev. Nov. 1993)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(1) EM-385-1-1, General Safety Requirements, Mar. 1967, IBR approved for \u00a7 1926.1000(f).",
+   "org_header": "(v) The following material is available for purchase from the United States Army Corps of Engineers, 441 G Street, NW., ",
+   "edition_year": 1967,
+   "edition_token": "1967",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 59
+  }
+ ]
+}

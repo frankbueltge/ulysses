@@ -1,0 +1,518 @@
+{
+ "source_sha256": "16b5c7febf4bf57bf712f877343c8d13fa99d6be7e64ff4e8b2328d2c919d6fe",
+ "entries": [
+  {
+   "text": "(1) ANSI S1.11-2004, \u201cSpecification for Octave-Band and Fractional-Octave-Band Analog and Digital Filters,\u201d approved February 19, 2004, into \u00a7 571.141.",
+   "org_header": "(c) American National Standards Institute (ANSI), 1899 L St., NW., 11th floor, Washington, DC 20036. Telephone: (202) 29",
+   "edition_year": 2004,
+   "edition_token": "S1.11-2004",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 22
+  },
+  {
+   "text": "(2) ANSI/SAE Z26.1-1996, \u201cAmerican National Standard for Safety Glazing Materials for Glazing Motor Vehicles and Motor Vehicle Equipment Operating on Land Highways-Safety Standard,\u201d approved August 11, 1997, into \u00a7 571.205.",
+   "org_header": "(c) American National Standards Institute (ANSI), 1899 L St., NW., 11th floor, Washington, DC 20036. Telephone: (202) 29",
+   "edition_year": 1996,
+   "edition_token": "Z26.1-1996",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(2) ASTM B117-64, \u201cStandard Method of Salt Spray (Fog) Testing,\u201d revised 1964, into \u00a7 571.125.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1964,
+   "edition_token": "B117-64",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 62
+  },
+  {
+   "text": "(3) ASTM B117-73 (Reapproved 1979), \u201cStandard Method of Salt Spray (Fog) Testing,\u201d approved March 29, 1973, into \u00a7\u00a7 571.108; 571.209.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1973,
+   "edition_token": "B117-73",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 53
+  },
+  {
+   "text": "(4) ASTM B117-97, \u201cStandard Practice for Operating Salt Spray (Fog) Apparatus,\u201d approved April 10, 1997, into \u00a7 571.403.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1997,
+   "edition_token": "B117-97",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(5) ASTM B117-03, \u201cStandard Practice for Operating Salt Spray (Fog) Apparatus,\u201d approved October 1, 2003, into \u00a7\u00a7 571.106; 571.111.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 2003,
+   "edition_token": "B117-03",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(6) ASTM B456-79, \u201cStandard Specification for Electrodeposited Coatings of Copper Plus Nickel Plus Chromium and Nickel Plus Chromium,\u201d approved January 26, 1979, into \u00a7 571.209.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1979,
+   "edition_token": "B456-79",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 47
+  },
+  {
+   "text": "(7) ASTM B456-95, \u201cStandard Specification for Electrodeposited Coatings of Copper Plus Nickel Plus Chromium and Nickel Plus Chromium,\u201d approved October 10, 1995, into \u00a7 571.403.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1995,
+   "edition_token": "B456-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(8) ASTM C150-56, \u201cStandard Specification for Portland Cement,\u201d approved 1956, into \u00a7 571.108.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1956,
+   "edition_token": "C150-56",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 70
+  },
+  {
+   "text": "(9) ASTM C150-77, \u201cStandard Specification for Portland Cement,\u201d approved February 26, 1977, into \u00a7 571.108.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1977,
+   "edition_token": "C150-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(10) ASTM D362-84, \u201cStandard Specification for Industrial Grade Toluene,\u201d approved March 30, 1984, into \u00a7 571.108.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1984,
+   "edition_token": "D362-84",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 42
+  },
+  {
+   "text": "(11) ASTM D445-65, \u201cStandard Method of Test for Viscosity of Transparent and Opaque Liquids (Kinematic and Dynamic Viscosities),\u201d approved August 31, 1965, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1965,
+   "edition_token": "D445-65",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 61
+  },
+  {
+   "text": "(12) ASTM D471-98, \u201cStandard Test Method for Rubber Property\u2014Effect of Liquids,\u201d approved November 10, 1998, into \u00a7 571.106.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1998,
+   "edition_token": "D471-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(13) ASTM D484-71, \u201cStandard Specification for Hydrocarbon Drycleaning Solvents,\u201d effective September 15, 1971, into \u00a7 571.301.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1971,
+   "edition_token": "D484-71",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(14) ASTM D756-78, \u201cStandard Practice for Determination of Weight and Shape Changes of Plastics under Accelerated Service Conditions,\u201d approved July 28, 1978, into \u00a7 571.209.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1978,
+   "edition_token": "D756-78",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 48
+  },
+  {
+   "text": "(15) ASTM D1003-92, \u201cStandard Test Method for Haze and Luminous Transmittance of Transparent Plastics,\u201d approved October 15, 1992, into \u00a7 571.108.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1992,
+   "edition_token": "D1003-92",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 34
+  },
+  {
+   "text": "(16) ASTM D1056-07, Standard Specification for Flexible Cellular Materials-Sponge or Expanded Rubber, approved March 1, 2007; into \u00a7\u00a7 571.213; 571.213b.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 2007,
+   "edition_token": "D1056-07",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 19
+  },
+  {
+   "text": "(17) ASTM D1121-67, \u201cStandard Method of Test for Reserve Alkalinity of Engine Antifreezes and Antirusts,\u201d accepted June 12, 1967, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1967,
+   "edition_token": "D1121-67",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 59
+  },
+  {
+   "text": "(18) ASTM D1123-59, \u201cStandard Method of Test for Water in Concentrated Engine Antifreezes by the Iodine Reagent Method,\u201d revised 1959, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1959,
+   "edition_token": "D1123-59",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 67
+  },
+  {
+   "text": "(19) ASTM D1193-70, \u201cStandard Specification for Reagent Water,\u201d effective October 2, 1970, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1970,
+   "edition_token": "D1193-70",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(20) ASTM D1193-06 (Reapproved 2018), Standard Specification for Reagent Water, approved March 15, 2018, into \u00a7 571.308.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 2006,
+   "edition_token": "D1193-06",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(21) ASTM D1415-68, \u201cStandard Method of Test for International Hardness of Vulcanized Natural and Synthetic Rubbers,\u201d accepted February 14, 1968, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1968,
+   "edition_token": "D1415-68",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(22) ASTM D2515-66, \u201cStandard Specification for Kinematic Glass Viscometers,\u201d adopted 1966, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1966,
+   "edition_token": "D2515-66",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 60
+  },
+  {
+   "text": "(23) ASTM D3574-11, Standard Test Methods for Flexible Cellular Materials\u2014Slab, Bonded, and Molded Urethane Foams, approved December 1, 2011; into \u00a7 571.213b.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 2011,
+   "edition_token": "D3574-11",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(24) ASTM D4329-99, \u201cStandard Practice for Fluorescent UV Exposure of Plastics,\u201d approved January 10, 1999, into \u00a7 571.106.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1999,
+   "edition_token": "D4329-99",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 27
+  },
+  {
+   "text": "(25) ASTM D4956-90, \u201cStandard Specification for Retroreflective Sheeting for Traffic Control,\u201d approved October 26, 1990, into \u00a7 571.108.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1990,
+   "edition_token": "D4956-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(26) ASTM E1-68, \u201cStandard Specifications for ASTM Thermometers\u201d (including tentative revisions), accepted September 13, 1968, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1968,
+   "edition_token": "E1-68",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(27) ASTM E4-79, \u201cStandard Methods of Load Verification of Testing Machines,\u201d approved June 11, 1979, into \u00a7 571.209.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1979,
+   "edition_token": "E4-79",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 47
+  },
+  {
+   "text": "(28) ASTM E4-03, \u201cStandard Practices for Force Verification of Testing Machines,\u201d approved August 10, 2003, into \u00a7 571.106.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 2003,
+   "edition_token": "E4-03",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(29) ASTM E8-89, \u201cStandard Test Methods of Tension Testing of Metallic Materials,\u201d approved May 15, 1989, into \u00a7 571.221.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1989,
+   "edition_token": "E8-89",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 37
+  },
+  {
+   "text": "(30) ASTM E77-66, \u201cStandard Method for Inspection, Test, and Standardization of Etched-Stem Liquid-in-Glass Thermometers,\u201d revised 1966, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1966,
+   "edition_token": "E77-66",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 60
+  },
+  {
+   "text": "(31) ASTM E274-65T, \u201cTentative Method of Test for Skid Resistance of Pavements Using a Two-Wheel Trailer,\u201d issued 1965, into \u00a7\u00a7 571.208; 571.301.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1965,
+   "edition_token": "1965",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 61
+  },
+  {
+   "text": "(32) ASTM E274-70, \u201cStandard Method of Test for Skid Resistance of Paved Surfaces Using a Full-Scale Tire,\u201d revised July 1974, into \u00a7\u00a7 571.105; 571.122a.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1970,
+   "edition_token": "E274-70",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(33) ASTM E298-68, \u201cStandard Methods for Assay of Organic Peroxides,\u201d effective September 13, 1968, into \u00a7 571.116.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1968,
+   "edition_token": "E298-68",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(34) ASTM E308-66, \u201cStandard Practice for Spectrophotometry and Description of Color in CIE 1931 System,\u201d reapproved 1981, into \u00a7 571.108.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1966,
+   "edition_token": "E308-66",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 60
+  },
+  {
+   "text": "(35) ASTM E1337-19, \u201cStandard Test Method for Determining Longitudinal Peak Braking Coefficient (PBC) of Paved Surfaces Using Standard Reference Test Tire,\u201d approved December 1, 2019, into \u00a7\u00a7 571.105; 571.121; 571.122; 571.126; 571.127; 571.135; 571.136; 571.500.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 2019,
+   "edition_token": "E1337-19",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 7
+  },
+  {
+   "text": "(36) ASTM F1805-20, \u201cStandard Test Method for Single Wheel Driving Traction in a Straight Line on Snow- and Ice-Covered Surfaces,\u201d approved May 1, 2020; into \u00a7 571.139.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 2020,
+   "edition_token": "F1805-20",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 6
+  },
+  {
+   "text": "(37) ASTM G23-81, \u201cStandard Practice for Generating Light-Exposure Apparatus (Carbon-Arc Type) With and Without Water for Exposure of Nonmetallic Materials,\u201d approved March 26, 1981, into \u00a7 571.209.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1981,
+   "edition_token": "G23-81",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 45
+  },
+  {
+   "text": "(38) ASTM G151-97, \u201cStandard Practice for Exposing Nonmetallic Materials in Accelerated Test Devices that Use Laboratory Light Sources,\u201d approved July 10, 1997, into \u00a7 571.106.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 1997,
+   "edition_token": "G151-97",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(39) ASTM G154-00, \u201cStandard Practice for Operating Fluorescent Light Apparatus for UV Exposure of Nonmetallic Materials,\u201d approved February 10, 2000, into \u00a7 571.106.",
+   "org_header": "(d) ASTM International, 100 Barr Harbor Drive, PO Box C700, West Conshohocken, PA 19428-2959. Telephone: (610) 832-9500;",
+   "edition_year": 2000,
+   "edition_token": "G154-00",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 26
+  },
+  {
+   "text": "(1) IES LM 45, \u201cIES Approved Method for Electrical and Photometric Measurements of General Service Incandescent Filament Lamps,\u201d approved April 1980, into \u00a7 571.108.",
+   "org_header": "(g) Illuminating Engineering Society of North America (IES), 120 Wall St., 7th Floor, New York, NY 10005-4001. Telephone",
+   "edition_year": 1980,
+   "edition_token": "1980",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 46
+  },
+  {
+   "text": "(1) CIE 1931 Chromaticity Diagram, developed 1931, into \u00a7 571.108.",
+   "org_header": "(h) International Commission on Illumination (CIE), CIE Central Bureau, Kegelgasse 27, A-1030 Vienna, Austria. https://w",
+   "edition_year": 1931,
+   "edition_token": "1931",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 95
+  },
+  {
+   "text": "(1) ISO 6270-2:2017(E), Paints and Varnishes\u2014Determination of Resistance to Humidity\u2014Part 2: Condensation (In-Cabinet Exposure with Heated Water Reservoir), Second edition, November 2017, into \u00a7 571.308.",
+   "org_header": "(i) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, CP 56, CH-1211 Geneva 20, Switzerlan",
+   "edition_year": 2017,
+   "edition_token": "2017",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 9
+  },
+  {
+   "text": "(2) ISO 7117:1995(E), \u201cMotorcycles\u2014Measurement of maximum speed,\u201d Second edition, March 1, 1995, into \u00a7 571.122.",
+   "org_header": "(i) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, CP 56, CH-1211 Geneva 20, Switzerlan",
+   "edition_year": 1995,
+   "edition_token": "ISO 7117:1995",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(3) ISO 10844:1994(E) \u201cAcoustics\u2014Test Surface for Road Vehicle Noise Measurements,\u201d First edition, 1994-09-01, into \u00a7 571.141.",
+   "org_header": "(i) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, CP 56, CH-1211 Geneva 20, Switzerlan",
+   "edition_year": 1994,
+   "edition_token": "ISO 10844:1994",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(4) ISO 10844: 2011(E) \u201cAcoustics\u2014Specification of test tracks for measuring noise emitted by road vehicles and their tyres,\u201d Second edition, 2011-02-01 into \u00a7 571.141.",
+   "org_header": "(i) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, CP 56, CH-1211 Geneva 20, Switzerlan",
+   "edition_year": 2011,
+   "edition_token": "2011",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(5) ISO 10844: 2014(E) \u201cAcoustics\u2014Specification of test tracks for measuring noise emitted by road vehicles and their tyres,\u201d Third edition, 2014-05-15 into \u00a7 571.141.",
+   "org_header": "(i) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, CP 56, CH-1211 Geneva 20, Switzerlan",
+   "edition_year": 2014,
+   "edition_token": "2014",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 12
+  },
+  {
+   "text": "(1) Drawing Package, \u201cNHTSA Standard Seat Assembly; FMVSS No. 213, No. NHTSA-213-2003,\u201d (consisting of drawings and a bill of materials), June 3, 2003, into \u00a7 571.213.",
+   "org_header": "(k) National Highway Traffic Safety Administration (NHTSA), 1200 New Jersey Ave. SE., Washington, DC 20590. Web site: ht",
+   "edition_year": 2003,
+   "edition_token": "2003",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(2) Drawing Package, SAS-100-1000, Standard Seat Belt Assembly with Addendum A, Seat Base Weldment (consisting of drawings and a bill of materials), October 23, 1998, into \u00a7 571.213.",
+   "org_header": "(k) National Highway Traffic Safety Administration (NHTSA), 1200 New Jersey Ave. SE., Washington, DC 20590. Web site: ht",
+   "edition_year": 1998,
+   "edition_token": "1998",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(5) \u201cParts List and Drawings, NHTSA Standard Seat Assembly; FMVSS No. 213a\u2014Side impact No. NHTSA-213a-2021, CHILD SIDE IMPACT SLED\u201d dated December 2021; into \u00a7 571.213a.",
+   "org_header": "(k) National Highway Traffic Safety Administration (NHTSA), 1200 New Jersey Ave. SE., Washington, DC 20590. Web site: ht",
+   "edition_year": 2021,
+   "edition_token": "2021",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 5
+  },
+  {
+   "text": "(6) NHTSA Standard Seat Assembly; FMVSS No. 213, No. NHTSA-213-2021, Parts List and Drawings, NHTSA Standard Seat Assembly; FMVSS No. 213, No. NHTSA-213-2021, Child Frontal Impact Sled, March 2023; into \u00a7 571.213b.",
+   "org_header": "(k) National Highway Traffic Safety Administration (NHTSA), 1200 New Jersey Ave. SE., Washington, DC 20590. Web site: ht",
+   "edition_year": 2021,
+   "edition_token": "2021",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 5
+  },
+  {
+   "text": "(7) Drawing No. 210-5000-1 (L), -2(R), Leg Assembly, Parts List and Drawings, Subpart P Hybrid III 3-year-old child crash test dummy, (H-III3C, Alpha version), September 2001, Drawing No. 210-5000-1(L), -2(R), Leg Assembly; into \u00a7 571.213b.",
+   "org_header": "(k) National Highway Traffic Safety Administration (NHTSA), 1200 New Jersey Ave. SE., Washington, DC 20590. Web site: ht",
+   "edition_year": 2001,
+   "edition_token": "2001",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 25
+  },
+  {
+   "text": "(10) Drawing Package, Anchorage Depth Tool, dated April 2020; approved for \u00a7 571.225.",
+   "org_header": "(k) National Highway Traffic Safety Administration (NHTSA), 1200 New Jersey Ave. SE., Washington, DC 20590. Web site: ht",
+   "edition_year": 2020,
+   "edition_token": "2020",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 6
+  },
+  {
+   "text": "(11) Drawing Package, Clearance Angle Tool, dated April 2020; approved for \u00a7 571.225.",
+   "org_header": "(k) National Highway Traffic Safety Administration (NHTSA), 1200 New Jersey Ave. SE., Washington, DC 20590. Web site: ht",
+   "edition_year": 2020,
+   "edition_token": "2020",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 6
+  },
+  {
+   "text": "(46) SAE RM-66-04, \u201cCompatibility Fluid,\u201d Appendix B to SAE Standard J1703 JAN95, \u201cMotor Vehicle Brake Fluid,\u201d revised January 1995, into \u00a7\u00a7 571.106; 571.116.",
+   "org_header": "(l) SAE International, 400 Commonwealth Drive, Warrendale, PA 15096. Telephone: (724) 776-4841; Web site: https://www.sa",
+   "edition_year": 1995,
+   "edition_token": "1995",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(1) UNECE Regulation 17 \u201cUniform Provisions Concerning the Approval of Vehicles with Regard to the Seats, their Anchorages and Any Head Restraints\u201d: ECE 17 Rev. 1/Add. 16/Rev. 4 (July 31, 2002), into \u00a7 571.202.",
+   "org_header": "(m) United Nations Economic Commission for Europe (UNECE), United Nations, Conference Services Division, Distribution an",
+   "edition_year": 2002,
+   "edition_token": "(July 31, 2002)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(2) UNECE Regulation 48 \u201cUniform Provisions Concerning the Approval of Vehicles With Regard to the Installation of Lighting and Light-Signaling Devices,\u201d E/ECE/324-E/ECE/TRANS/505, Rev.1/Add.47/Rev.1/Corr.2 (February 26, 1996), into \u00a7 571.108.",
+   "org_header": "(m) United Nations Economic Commission for Europe (UNECE), United Nations, Conference Services Division, Distribution an",
+   "edition_year": 1996,
+   "edition_token": "(February 26, 1996)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  }
+ ]
+}

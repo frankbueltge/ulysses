@@ -1,0 +1,2641 @@
+{
+ "source_sha256": "448267450b6251d560633ab2e65ce07d9944c173215ef2e5b496de0391ef3cd6",
+ "entries": [
+  {
+   "text": "(1) American Gas Association Report No. 3: Orifice Metering for Natural Gas and Other Related Hydrocarbon Fluids, Part 1: General Equations and Uncertainty Guidelines (1990), IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(b) American Gas Association, available through ILI Infodisk, 610 Winters Avenue, Paramus, New Jersey 07652:",
+   "edition_year": 1990,
+   "edition_token": "(1990)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(2) American Gas Association Report No. 3: Orifice Metering for Natural Gas and Other Related Hydrocarbon Fluids, Part 2: Specification and Installation Requirements (2000), IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(b) American Gas Association, available through ILI Infodisk, 610 Winters Avenue, Paramus, New Jersey 07652:",
+   "edition_year": 2000,
+   "edition_token": "(2000)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 26
+  },
+  {
+   "text": "(3) American Gas Association Report No. 11: Measurement of Natural Gas by Coriolis Meter (2003), IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(b) American Gas Association, available through ILI Infodisk, 610 Winters Avenue, Paramus, New Jersey 07652:",
+   "edition_year": 2003,
+   "edition_token": "(2003)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(4) American Gas Association Transmission Measurement Committee Report No. 7: Measurement of Gas by Turbine Meters (Revised February 2006), IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(b) American Gas Association, available through ILI Infodisk, 610 Winters Avenue, Paramus, New Jersey 07652:",
+   "edition_year": 2006,
+   "edition_token": "(Revised February 2006)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(1) An Ounce of Prevention: Waste Reduction Strategies for Health Care Facilities. American Society for Health Care Environmental Services of the American Hospital Association. Chicago, Illinois. 1993. AHA Catalog No. 057007. ISBN 0-87258-673-5. IBR approved for \u00a7\u00a7 60.35e and 60.55c.",
+   "org_header": "(c) American Hospital Association (AHA) Service, Inc., Post Office Box 92683, Chicago, Illinois 60675-2683.",
+   "edition_year": 1993,
+   "edition_token": "1993",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(1) ANSI No. C12.20-2010 American National Standard for Electricity Meters\u20140.2 and 0.5 Accuracy Classes (Approved August 31, 2010); IBR approved for \u00a7\u00a7 60.5535(d); 60.5535a(d); 60.5860b(a).",
+   "org_header": "(d) American National Standards Institute (ANSI), 25 West 43rd Street, Fourth Floor, New York, NY 10036-7417; phone: (21",
+   "edition_year": 2010,
+   "edition_token": "C12.20-2010",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 16
+  },
+  {
+   "text": "(1) API Publication 2517, Evaporation Loss from External Floating Roof Tanks, Second Edition, February 1980, IBR approved for \u00a7\u00a7 60.111(i), 60.111a(f), and 60.116b(e).",
+   "org_header": "(e) American Petroleum Institute (API), 200 Massachusetts Ave. NW, Suite 1100, Washington, DC 20001; phone: (202) 682-80",
+   "edition_year": 1980,
+   "edition_token": "1980",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 46
+  },
+  {
+   "text": "(2) API Manual of Petroleum Measurement Standards, Chapter 14\u2014Natural Gas Fluids Measurement, Section 1\u2014Collecting and Handling of Natural Gas Samples for Custody Transfer, 7th Edition, May 2016, IBR approved for \u00a7 60.4415(a).",
+   "org_header": "(e) American Petroleum Institute (API), 200 Massachusetts Ave. NW, Suite 1100, Washington, DC 20001; phone: (202) 682-80",
+   "edition_year": 2016,
+   "edition_token": "2016",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 10
+  },
+  {
+   "text": "(3) API Manual of Petroleum Measurement Standards, Chapter 22\u2014Testing Protocol, Section 2\u2014Differential Pressure Flow Measurement Devices, First Edition, August 2005, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(e) American Petroleum Institute (API), 200 Massachusetts Ave. NW, Suite 1100, Washington, DC 20001; phone: (202) 682-80",
+   "edition_year": 2005,
+   "edition_token": "2005",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 21
+  },
+  {
+   "text": "(2) 2540 G. Total, Fixed, and Volatile Solids in Solid and Semisolid Samples, in Standard Methods for the Examination of Water and Wastewater, 20th Edition, 1998, IBR approved for \u00a7 60.154(b).",
+   "org_header": "(f) American Public Health Association, 1015 18th Street NW., Washington, DC 20036.",
+   "edition_year": 1998,
+   "edition_token": "1998",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(1) ASME Interim Supplement 19.5 on Instruments and Apparatus: Application, Part II of Fluid Meters, 6th Edition (1971), IBR approved for \u00a7\u00a7 60.58a(h), 60.58b(i), 60.1320(a), 60.1810(a), 60.5995(a), and 60.6550(a).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 1971,
+   "edition_token": "(1971)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(2) ASME MFC-3M-2004, Measurement of Fluid Flow in Pipes Using Orifice, Nozzle, and Venturi, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2004,
+   "edition_token": "2004",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 22
+  },
+  {
+   "text": "(3) ASME/ANSI MFC-4M-1986 (Reaffirmed 2008), Measurement of Gas Flow by Turbine Meters, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2008,
+   "edition_token": "(Reaffirmed 2008)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(4) ASME/ANSI MFC-5M-1985 (Reaffirmed 2006), Measurement of Liquid Flow in Closed Conduits Using Transit-Time Ultrasonic Flowmeters, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2006,
+   "edition_token": "(Reaffirmed 2006)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(5) ASME MFC-6M-1998 (Reaffirmed 2005), Measurement of Fluid Flow in Pipes Using Vortex Flowmeters, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2005,
+   "edition_token": "(Reaffirmed 2005)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 21
+  },
+  {
+   "text": "(6) ASME/ANSI MFC-7M-1987 (Reaffirmed 2006), Measurement of Gas Flow by Means of Critical Flow Venturi Nozzles, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2006,
+   "edition_token": "(Reaffirmed 2006)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(7) ASME/ANSI MFC-9M-1988 (Reaffirmed 2006), Measurement of Liquid Flow in Closed Conduits by Weighing Method, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2006,
+   "edition_token": "(Reaffirmed 2006)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(8) ASME MFC-11M-2006, Measurement of Fluid Flow by Means of Coriolis Mass Flowmeters, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2006,
+   "edition_token": "2006",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(9) ASME MFC-14M-2003, Measurement of Fluid Flow Using Small Bore Precision Orifice Meters, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2003,
+   "edition_token": "2003",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(10) ASME MFC-16-2007, Measurement of Liquid Flow in Closed Conduits with Electromagnetic Flowmeters, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2007,
+   "edition_token": "2007",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 19
+  },
+  {
+   "text": "(11) ASME MFC-18M-2001, Measurement of Fluid Flow Using Variable Area Meters, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2001,
+   "edition_token": "2001",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 25
+  },
+  {
+   "text": "(12) ASME MFC-22-2007, Measurement of Liquid by Turbine Flowmeters, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2007,
+   "edition_token": "2007",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 19
+  },
+  {
+   "text": "(13) ASME PTC 4.1-1964 (Reaffirmed 1991), Power Test Codes: Test Code for Steam Generating Units (with 1968 and 1969 Addenda), IBR approved for \u00a7\u00a7 60.46b, 60.58a(h), 60.58b(i), 60.1320(a), 60.1810(a), 60.5995(a), and 60.6550(a).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 1964,
+   "edition_token": "PTC 4.1-1964",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 62
+  },
+  {
+   "text": "(14) ASME/ANSI PTC 19.10-1981, Flue and Exhaust Gas Analyses [Part 10, Instruments and Apparatus], Issued August 31, 1981; IBR approved for \u00a7\u00a7 60.56c(b); 60.63(f); 60.106(e); 60.104a(d), (h), (i), and (j); 60.105a(b), (d), (f), and (g); 60.106a(a); 60.107a(a), (c), and (d); 60.275(e); 60.275a(e); 60.275b(e); Tables 1 and 3 to subpart EEEE; Tables 2 and 4 to subpart FFFF; Table 2 to subpart JJJJ; \u00a7\u00a7 60.285a(f); 60.396(a); 60.614a(b); 60.664a(b); 60.704(b); 60.704a(b); 60.2145(s) and (t); 60.2710(s) and (t); 60.2730(q); 60.4415(a); 60.4415a(b); 60.4900(b); 60.5220(b); Tables 1 and 2 to subpart LLLL; Tables 2 and 3 to subpart MMMM; \u00a7\u00a7 60.5406(c); 60.5406a(c); 60.5406b(c); 60.5407a(g); 60.5407b(g); 60.5413(b); 60.5413a(b) and (d); 60.5413b(b) and (d); 60.5413c(b) and (d); 60.5930(a); Tables 3 and 4 to subpart VVVV; 60.6485(a); Tables 4 and 5 to subpart WWWW.",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 1981,
+   "edition_token": "PTC 19.10-1981",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 45
+  },
+  {
+   "text": "(15) ASME PTC 22-2014, Gas Turbines: Performance Test Codes, (Issued December 31, 2014); IBR approved for \u00a7\u00a7 60.5580; 60.5580a.",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2014,
+   "edition_token": "PTC 22-2014",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 12
+  },
+  {
+   "text": "(16) ASME PTC 46-1996, Performance Test Code on Overall Plant Performance, (Issued October 15,1997); IBR approved for \u00a7\u00a7 60.5580; 60.5580a.",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 1996,
+   "edition_token": "PTC 46-1996",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(17) ASME QRO-1-1994, Standard for the Qualification and Certification of Resource Recovery Facility Operators, IBR approved for \u00a7\u00a7 60.54b(a) and (b), 60.56a, 60.1185(a) and (c), and 60.1675(a) and (c).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 1994,
+   "edition_token": "1994",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(18) ASME QRO-1-2005 (R2015), Standard for the Qualification and Certification of Resource Recovery Facility Operators; IBR approved for \u00a7\u00a7 60.54b(a) and (b); 60.5865(a) and (c); 60.6420(a) and (c).",
+   "org_header": "(g) American Society of Mechanical Engineers (ASME), Two Park Avenue, New York, NY 10016-5990; phone: (800) 843-2763; em",
+   "edition_year": 2005,
+   "edition_token": "2005",
+   "reaffirmations": [
+    "2015"
+   ],
+   "urls": [],
+   "age": 21
+  },
+  {
+   "text": "(1) ASTM A99-76, Standard Specification for Ferromanganese; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1976,
+   "edition_token": "A99-76",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 50
+  },
+  {
+   "text": "(2) ASTM A99-82 (Reapproved 1987), Standard Specification for Ferromanganese; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1982,
+   "edition_token": "A99-82",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 44
+  },
+  {
+   "text": "(3) ASTM A100-69, Standard Specification for Ferrosilicon; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1969,
+   "edition_token": "A100-69",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 57
+  },
+  {
+   "text": "(4) ASTM A100-74, Standard Specification for Ferrosilicon; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1974,
+   "edition_token": "A100-74",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 52
+  },
+  {
+   "text": "(5) ASTM A100-93, Standard Specification for Ferrosilicon; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1993,
+   "edition_token": "A100-93",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(6) ASTM A101-73, Standard Specification for Ferrochromium; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1973,
+   "edition_token": "A101-73",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 53
+  },
+  {
+   "text": "(7) ASTM A101-93, Standard Specification for Ferrochromium; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1993,
+   "edition_token": "A101-93",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(8) ASTM A482-76, Standard Specification for Ferrochromesilicon; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1976,
+   "edition_token": "A482-76",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 50
+  },
+  {
+   "text": "(9) ASTM A482-93, Standard Specification for Ferrochromesilicon; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1993,
+   "edition_token": "A482-93",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(10) ASTM A483-64, Standard Specification for Silicomanganese; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1964,
+   "edition_token": "A483-64",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 62
+  },
+  {
+   "text": "(11) ASTM A483-74 (Reapproved 1988), Standard Specification for Silicomanganese; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1974,
+   "edition_token": "A483-74",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 52
+  },
+  {
+   "text": "(12) ASTM A495-76, Standard Specification for Calcium-Silicon and Calcium Manganese-Silicon; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1976,
+   "edition_token": "A495-76",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 50
+  },
+  {
+   "text": "(13) ASTM A495-94, Standard Specification for Calcium-Silicon and Calcium Manganese-Silicon; IBR approved for \u00a7 60.261.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "A495-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(14) ASTM D86-78, Distillation of Petroleum Products; IBR approved for \u00a7\u00a7 60.562-2(d); 60.593(d); 60.593a(d); 60.633(h).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1978,
+   "edition_token": "D86-78",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 48
+  },
+  {
+   "text": "(15) ASTM D86-82, Distillation of Petroleum Products; IBR approved for \u00a7\u00a7 60.562-2(d); 60.593(d); 60.593a(d); 60.633(h).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1982,
+   "edition_token": "D86-82",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 44
+  },
+  {
+   "text": "(16) ASTM D86-90, Distillation of Petroleum Products; IBR approved for \u00a7\u00a7 60.562-2(d); 60.593(d); 60.593a(d); 60.633(h).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D86-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(17) ASTM D86-93, Distillation of Petroleum Products; IBR approved for \u00a7 60.593a(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1993,
+   "edition_token": "D86-93",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(18) ASTM D86-95, Distillation of Petroleum Products; IBR approved for \u00a7\u00a7 60.562-2(d); 60.593(d); 60.593a(d); 60.633(h).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D86-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(19) ASTM D86-96, Distillation of Petroleum Products, approved April 10, 1996; IBR approved for \u00a7\u00a7 60.562-2(d); 60.593(d); 60.593a(d); 60.633(h); 60.5401(f); 60.5401a(f); 60.5402b(d); 60.5402c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D86-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(20) ASTM D129-64, Standard Test Method for Sulfur in Petroleum Products (General Bomb Method); IBR approved for \u00a7 60.106(j) and appendix A-7 to part 60: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1964,
+   "edition_token": "D129-64",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 62
+  },
+  {
+   "text": "(21) ASTM D129-78, Standard Test Method for Sulfur in Petroleum Products (General Bomb Method); IBR approved for \u00a7 60.106(j) and appendix A-7 to part 60: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1978,
+   "edition_token": "D129-78",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 48
+  },
+  {
+   "text": "(22) ASTM D129-95, Standard Test Method for Sulfur in Petroleum Products (General Bomb Method); IBR approved for \u00a7 60.106(j) and appendix A-7 to part 60: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D129-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(23) ASTM D129-00, Standard Test Method for Sulfur in Petroleum Products (General Bomb Method); IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2000,
+   "edition_token": "D129-00",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 26
+  },
+  {
+   "text": "(24) ASTM D129-00 (Reapproved 2005), Standard Test Method for Sulfur in Petroleum Products (General Bomb Method); IBR Approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2000,
+   "edition_token": "D129-00",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 26
+  },
+  {
+   "text": "(25) ASTM D240-76, Standard Test Method for Heat of Combustion of Liquid Hydrocarbon Fuels by Bomb Calorimeter; IBR approved for \u00a7\u00a7 60.46(c); 60.296(b); and appendix A-7 to part 60: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1976,
+   "edition_token": "D240-76",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 50
+  },
+  {
+   "text": "(26) ASTM D240-92, Standard Test Method for Heat of Combustion of Liquid Hydrocarbon Fuels by Bomb Calorimeter; IBR approved for \u00a7\u00a7 60.46(c); 60.296(b); and appendix A-7: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1992,
+   "edition_token": "D240-92",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 34
+  },
+  {
+   "text": "(27) ASTM D240-02 (Reapproved 2007), Standard Test Method for Heat of Combustion of Liquid Hydrocarbon Fuels by Bomb Calorimeter, approved May 1, 2007; IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2002,
+   "edition_token": "D240-02",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(28) ASTM D240-19, Standard Test Method for Heat of Combustion of Liquid Hydrocarbon Fuels by Bomb Calorimeter, approved November 1, 2019; IBR approved for \u00a7\u00a7 60.485b(g) and 60.4360a(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2019,
+   "edition_token": "D240-19",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 7
+  },
+  {
+   "text": "(29) ASTM D270-65, Standard Method of Sampling Petroleum and Petroleum Products; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.2.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1965,
+   "edition_token": "D270-65",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 61
+  },
+  {
+   "text": "(30) ASTM D270-75, Standard Method of Sampling Petroleum and Petroleum Products; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.2.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1975,
+   "edition_token": "D270-75",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 51
+  },
+  {
+   "text": "(31) ASTM D323-82, Test Method for Vapor Pressure of Petroleum Products (Reid Method); IBR approved for \u00a7\u00a7 60.111(l); 60.111a(g); 60.111b; 60.116b(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1982,
+   "edition_token": "D323-82",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 44
+  },
+  {
+   "text": "(32) ASTM D323-94, Test Method for Vapor Pressure of Petroleum Products (Reid Method); IBR approved for \u00a7\u00a7 60.111(l); 60.111a(g); 60.111b; 60.116b(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "D323-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(33) ASTM D388-77, Standard Specification for Classification of Coals by Rank; IBR approved for \u00a7\u00a7 60.41; 60.45(f); 60.41Da; 60.41b; 60.41c; 60.251.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1977,
+   "edition_token": "D388-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(34) ASTM D388-90, Standard Specification for Classification of Coals by Rank; IBR approved for \u00a7\u00a7 60.41; 60.45(f); 60.41Da; 60.41b; 60.41c; 60.251.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D388-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(35) ASTM D388-91, Standard Specification for Classification of Coals by Rank; IBR approved for \u00a7\u00a7 60.41; 60.45(f); 60.41Da; 60.41b; 60.41c; 60.251.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D388-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(36) ASTM D388-95, Standard Specification for Classification of Coals by Rank; IBR approved for \u00a7\u00a7 60.41; 60.45(f); 60.41Da; 60.41b; 60.41c; 60.251.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D388-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(37) ASTM D388-98a, Standard Specification for Classification of Coals by Rank; IBR approved for \u00a7\u00a7 60.41; 60.45(f); 60.41Da; 60.41b; 60.41c; 60.251.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(38) ASTM D388-99 (Reapproved 2004) 1(ASTM D388-99R04), Standard Classification of Coals by Rank, approved June 1, 2004; IBR approved for \u00a7\u00a7 60.41; 60.45(f); 60.41Da; 60.41b; 60.41c; 60.251; 60.5580; 60.5580a.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1999,
+   "edition_token": "D388-99",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 27
+  },
+  {
+   "text": "(39) ASTM D396-78, Standard Specification for Fuel Oils; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.111(b); 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1978,
+   "edition_token": "D396-78",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 48
+  },
+  {
+   "text": "(40) ASTM D396-89, Standard Specification for Fuel Oils; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.111(b); 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1989,
+   "edition_token": "D396-89",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 37
+  },
+  {
+   "text": "(41) ASTM D396-90, Standard Specification for Fuel Oils; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.111(b); 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D396-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(42) ASTM D396-92, Standard Specification for Fuel Oils; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.111(b); 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1992,
+   "edition_token": "D396-92",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 34
+  },
+  {
+   "text": "(43) ASTM D396-98, Standard Specification for Fuel Oils, approved April 10, 1998; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.111(b); 60.111a(b); 60.4420a; 60.5580; 60.5580a.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D396-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(44) ASTM D975-78, Standard Specification for Diesel Fuel Oils; IBR approved for \u00a7\u00a7 60.111(b) and 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1978,
+   "edition_token": "D975-78",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 48
+  },
+  {
+   "text": "(45) ASTM D975-96, Standard Specification for Diesel Fuel Oils; IBR approved for \u00a7\u00a7 60.111(b) and 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D975-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(46) ASTM D975-98a, Standard Specification for Diesel Fuel Oils; IBR approved for \u00a7\u00a7 60.111(b) and 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(47) ASTM D975-08a, Standard Specification for Diesel Fuel Oils, approved October 1, 2008; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.4420a; 60.5580; 60.5580a.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2008,
+   "edition_token": "2008",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(48) ASTM D1072-80, Standard Test Method for Total Sulfur in Fuel Gases; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1980,
+   "edition_token": "D1072-80",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 46
+  },
+  {
+   "text": "(49) ASTM D1072-90 (Reapproved 1994), Standard Test Method for Total Sulfur in Fuel Gases; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D1072-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(50) ASTM D1072-90 (Reapproved 1999), Standard Test Method for Total Sulfur in Fuel Gases; IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D1072-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(51) ASTM D1137-53, Standard Method for Analysis of Natural Gases and Related Types of Gaseous Mixtures by the Mass Spectrometer; IBR approved for \u00a7 60.45(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1953,
+   "edition_token": "D1137-53",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 73
+  },
+  {
+   "text": "(52) ASTM D1137-75, Standard Method for Analysis of Natural Gases and Related Types of Gaseous Mixtures by the Mass Spectrometer; IBR approved for \u00a7 60.45(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1975,
+   "edition_token": "D1137-75",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 51
+  },
+  {
+   "text": "(53) ASTM D1193-77, Standard Specification for Reagent Water; IBR approved for appendix A-3 to part 60: Method 5, Section 7.1.3; Method 5E, Section 7.2.1; Method 5F, Section 7.2.1; appendix A-4 to part 60: Method 6, Section 7.1.1; Method 7, Section 7.1.1; Method 7C, Section 7.1.1; Method 7D, Section 7.1.1; Method 10A, Section 7.1.1; appendix A-5 to part 60: Method 11, Section 7.1.3; Method 12, Section 7.1.3; Method 13A, Section 7.1.2; appendix A-8 to part 60: Method 26, Section 7.1.2; Method 26A, Section 7.1.2; Method 29, Section 7.2.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1977,
+   "edition_token": "D1193-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(54) ASTM D1193-91, Standard Specification for Reagent Water; IBR approved for appendix A-3 to part 60: Method 5, Section 7.1.3; Method 5E, Section 7.2.1; Method 5F, Section 7.2.1; appendix A-4 to part 60: Method 6, Section 7.1.1; Method 7, Section 7.1.1; Method 7C, Section 7.1.1; Method 7D, Section 7.1.1; Method 10A, Section 7.1.1; appendix A-5 to part 60: Method 11, Section 7.1.3; Method 12, Section 7.1.3; Method 13A, Section 7.1.2; appendix A-8 to part 60: Method 26, Section 7.1.2; Method 26A, Section 7.1.2; Method 29, Section 7.2.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D1193-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(55) ASTM D1266-87, Standard Test Method for Sulfur in Petroleum Products (Lamp Method); IBR approved for \u00a7 60.106(j).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1987,
+   "edition_token": "D1266-87",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 39
+  },
+  {
+   "text": "(56) ASTM D1266-91, Standard Test Method for Sulfur in Petroleum Products (Lamp Method); IBR approved for \u00a7 60.106(j).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D1266-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(57) ASTM D1266-98, Standard Test Method for Sulfur in Petroleum Products (Lamp Method); IBR approved for \u00a7\u00a7 60.106(j) and 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D1266-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(58) ASTM D1266-98 (Reapproved 2003) \u03b5, 1 Standard Test Method for Sulfur in Petroleum Products (Lamp Method); IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D1266-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(59) ASTM D1475-60 (Reapproved 1980), Standard Test Method for Density of Paint, Varnish Lacquer, and Related Products; IBR approved for \u00a7 60.435(d), appendix A-7 to part 60: Method 24, Sections 6.1 and 11.3.3; Method 24A, Sections 6.5,7.1, 11.2, 11.3, and 16.0.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1960,
+   "edition_token": "D1475-60",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 66
+  },
+  {
+   "text": "(60) ASTM D1475-90, Standard Test Method for Density of Paint, Varnish Lacquer, and Related Products; IBR approved for \u00a7 60.435(d); appendix A-7 to part 60: Method 24, Sections 6.1 and 11.3.3; Method 24A, Sections 6.5, 7.1, 11.2, 11.3, and 16.0.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D1475-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(61) ASTM D1475-13, Standard Test Method for Density of Liquid Coatings, Inks, and Related Products, approved November 1, 2013; IBR approved for \u00a7 60.393a(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2013,
+   "edition_token": "D1475-13",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 13
+  },
+  {
+   "text": "(62) ASTM D1552-83, Standard Test Method for Sulfur in Petroleum Products (High-Temperature Method); IBR approved for \u00a7 60.106(j) and appendix A-7 to part 60: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1983,
+   "edition_token": "D1552-83",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 43
+  },
+  {
+   "text": "(63) ASTM D1552-95, Standard Test Method for Sulfur in Petroleum Products (High-Temperature Method); IBR approved for \u00a7 60.106(j) and appendix A-7 to part 60: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D1552-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(64) ASTM D1552-01, Standard Test Method for Sulfur in Petroleum Products (High-Temperature Method; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2001,
+   "edition_token": "D1552-01",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 25
+  },
+  {
+   "text": "(65) ASTM D1552-03, Standard Test Method for Sulfur in Petroleum Products (High-Temperature Method); IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2003,
+   "edition_token": "D1552-03",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(66) ASTM D1826-77, Standard Test Method for Calorific Value of Gases in Natural Gas Range by Continuous Recording Calorimeter; IBR approved for \u00a7\u00a7 60.45(f); 60.46(c); 60.296(b); appendix A-7 to part 60: Method 19, Section 12.3.2.4.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1977,
+   "edition_token": "D1826-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(67) ASTM D1826-94, Standard Test Method for Calorific Value of Gases in Natural Gas Range by Continuous Recording Calorimeter; IBR approved for \u00a7\u00a7 60.45(f); 60.46(c); 60.296(b); appendix A-7 to part 60: Method 19, Section 12.3.2.4.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "D1826-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(68) ASTM D1826-94 (Reapproved 2003), Standard Test Method for Calorific (Heating) Value of Gases in Natural Gas Range by Continuous Recording Calorimeter, approved May 10, 2003; IBR approved for \u00a7\u00a7 60.107a(d) and 60.4360a(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "D1826-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(69) ASTM D1835-87, Standard Specification for Liquefied Petroleum (LP) Gases; IBR approved for \u00a7\u00a7 60.41b; 60.41c.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1987,
+   "edition_token": "D1835-87",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 39
+  },
+  {
+   "text": "(70) ASTM D1835-91, Standard Specification for Liquefied Petroleum (LP) Gases; IBR approved for \u00a7\u00a7 60.41Da; 60.41b; 60.41c.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D1835-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(71) ASTM D1835-97, Standard Specification for Liquefied Petroleum (LP) Gases; IBR approved for \u00a7\u00a7 60.41Da; 60.41b; 60.41c.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1997,
+   "edition_token": "D1835-97",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(72) ASTM D1835-03a, Standard Specification for Liquefied Petroleum (LP) Gases; IBR approved for \u00a7\u00a7 60.41Da; 60.41b; 60.41c; 60.4420a.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(73) ASTM D1945-64, Standard Method for Analysis of Natural Gas by Gas Chromatography; IBR approved for \u00a7 60.45(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1964,
+   "edition_token": "D1945-64",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 62
+  },
+  {
+   "text": "(74) ASTM D1945-76, Standard Method for Analysis of Natural Gas by Gas Chromatography; IBR approved for \u00a7 60.45(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1976,
+   "edition_token": "D1945-76",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 50
+  },
+  {
+   "text": "(75) ASTM D1945-91, Standard Method for Analysis of Natural Gas by Gas Chromatography; IBR approved for \u00a7 60.45(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D1945-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(76) ASTM D1945-96, Standard Method for Analysis of Natural Gas by Gas Chromatography; IBR approved for \u00a7 60.45(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D1945-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(77) ASTM D1945-03 (Reapproved 2010), Standard Method for Analysis of Natural Gas by Gas Chromatography, approved January 1, 2010; IBR approved for \u00a7\u00a7 60.107a(d); 60.5413(d); 60.5413a(d); 60.5413b(d); 60.5413c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2003,
+   "edition_token": "D1945-03",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(78) ASTM D1945-14 (Reapproved 2019), Standard Test Method for Analysis of Natural Gas by Gas Chromatography, approved December 1, 2019; IBR approved for \u00a7\u00a7 60.485b(g); 60.5417b(d); 60.5417c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2014,
+   "edition_token": "D1945-14",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 12
+  },
+  {
+   "text": "(79) ASTM D1946-77, Standard Method for Analysis of Reformed Gas by Gas Chromatography; IBR approved for \u00a7\u00a7 60.18(f); 60.45(f); 60.564(f); 60.614(e); 60.664(e); 60.704(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1977,
+   "edition_token": "D1946-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(80) ASTM D1946-90 (Reapproved 1994), Standard Method for Analysis of Reformed Gas by Gas Chromatography; IBR approved for \u00a7\u00a7 60.18(f); 60.45(f); 60.564(f); 60.614(e); 60.664(e); 60.704(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D1946-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(81) ASTM D1946-90 (Reapproved 2006), Standard Method for Analysis of Reformed Gas by Gas Chromatography, approved June 1, 2006; IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D1946-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(82) ASTM D2013-72, Standard Method of Preparing Coal Samples for Analysis; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1972,
+   "edition_token": "D2013-72",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 54
+  },
+  {
+   "text": "(83) ASTM D2013-86, Standard Method of Preparing Coal Samples for Analysis; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1986,
+   "edition_token": "D2013-86",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 40
+  },
+  {
+   "text": "(84) ASTM D2015-77 (Reapproved 1978), Standard Test Method for Gross Calorific Value of Solid Fuel by the Adiabatic Bomb Calorimeter; IBR approved for \u00a7\u00a7 60.45(f); 60.46(c); and appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1977,
+   "edition_token": "D2015-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(85) ASTM D2015-96, Standard Test Method for Gross Calorific Value of Solid Fuel by the Adiabatic Bomb Calorimeter; IBR approved for \u00a7\u00a7 60.45(f); 60.46(c); and appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D2015-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(86) ASTM D2016-74, Standard Test Methods for Moisture Content of Wood; IBR approved for appendix A-8 to part 60: Method 28, Section 16.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1974,
+   "edition_token": "D2016-74",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 52
+  },
+  {
+   "text": "(87) ASTM D2016-83, Standard Test Methods for Moisture Content of Wood; IBR approved for appendix A-8 to part 60: Method 28, Section 16.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1983,
+   "edition_token": "D2016-83",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 43
+  },
+  {
+   "text": "(88) ASTM D2234-76, Standard Methods for Collection of a Gross Sample of Coal; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1976,
+   "edition_token": "D2234-76",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 50
+  },
+  {
+   "text": "(89) ASTM D2234-96, Standard Methods for Collection of a Gross Sample of Coal; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D2234-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(90) ASTM D2234-97a, Standard Methods for Collection of a Gross Sample of Coal; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(91) ASTM D2234-98, Standard Methods for Collection of a Gross Sample of Coal; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D2234-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(92) ASTM D2369-81, Standard Test Method for Volatile Content of Coatings; IBR approved for appendix A-7 to part 60: Method 24, Section 6.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1981,
+   "edition_token": "D2369-81",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 45
+  },
+  {
+   "text": "(93) ASTM D2369-87, Standard Test Method for Volatile Content of Coatings; IBR approved for appendix A-7 to part 60: Method 24, Section 6.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1987,
+   "edition_token": "D2369-87",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 39
+  },
+  {
+   "text": "(94) ASTM D2369-90, Standard Test Method for Volatile Content of Coatings; IBR approved for appendix A-7 to part 60: Method 24, Section 6.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D2369-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(95) ASTM D2369-92, Standard Test Method for Volatile Content of Coatings; IBR approved for appendix A-7 to part 60: Method 24, Section 6.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1992,
+   "edition_token": "D2369-92",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 34
+  },
+  {
+   "text": "(96) ASTM D2369-93, Standard Test Method for Volatile Content of Coatings; IBR approved for appendix A-7 to part 60: Method 24, Section 6.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1993,
+   "edition_token": "D2369-93",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(97) ASTM D2369-95, Standard Test Method for Volatile Content of Coatings; IBR approved for appendix A-7 to part 60: Method 24, Section 6.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D2369-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(98) ASTM D2369-10 (Reapproved 2015)e1, Standard Test Method for Volatile Content of Coatings, approved June 1, 2015; IBR approved for appendix A-7 to part 60: Method 24, Section 6.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2010,
+   "edition_token": "D2369-10",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 16
+  },
+  {
+   "text": "(99) ASTM D2369-20, Standard Test Method for Volatile Content of Coatings, approved June 1, 2020; IBR approved for \u00a7\u00a7 60.393a(f); 60.723(b); 60.724(a); 60.725(b); 60.723a(b); 60.724a(a); 60.725a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2020,
+   "edition_token": "D2369-20",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 6
+  },
+  {
+   "text": "(100) ASTM D2382-76, Heat of Combustion of Hydrocarbon Fuels by Bomb Calorimeter (High-Precision Method); IBR approved for \u00a7\u00a7 60.18(f); 60.485(g); 60.485a(g); 60.564(f); 60.664(e); 60.704(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1976,
+   "edition_token": "D2382-76",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 50
+  },
+  {
+   "text": "(101) ASTM D2382-88, Heat of Combustion of Hydrocarbon Fuels by Bomb Calorimeter (High-Precision Method); IBR approved for \u00a7\u00a7 60.18(f); 60.485(g); 60.485a(g); 60.564(f); 60.704(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1988,
+   "edition_token": "D2382-88",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 38
+  },
+  {
+   "text": "(102) ASTM D2504-67, Noncondensable Gases in C3 and Lighter Hydrocarbon Products by Gas Chromatography; IBR approved for \u00a7\u00a7 60.485(g) and 60.485a(g).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1967,
+   "edition_token": "D2504-67",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 59
+  },
+  {
+   "text": "(103) ASTM D2504-77, Noncondensable Gases in C3 and Lighter Hydrocarbon Products by Gas Chromatography; IBR approved for \u00a7\u00a7 60.485(g) and 60.485a(g).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1977,
+   "edition_token": "D2504-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(104) ASTM D2504-88 (Reapproved 1993), Noncondensable Gases in C3 and Lighter Hydrocarbon Products by Gas Chromatography; IBR approved for \u00a7\u00a7 60.485(g) and 60.485a(g).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1988,
+   "edition_token": "D2504-88",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 38
+  },
+  {
+   "text": "(105) ASTM D2584-68 (Reapproved 1985), Standard Test Method for Ignition Loss of Cured Reinforced Resins; IBR approved for \u00a7 60.685(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1968,
+   "edition_token": "D2584-68",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 58
+  },
+  {
+   "text": "(106) ASTM D2584-94, Standard Test Method for Ignition Loss of Cured Reinforced Resins; IBR approved for \u00a7 60.685(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "D2584-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(107) ASTM D2597-94 (Reapproved 1999), Standard Test Method for Analysis of Demethanized Hydrocarbon Liquid Mixtures Containing Nitrogen and Carbon Dioxide by Gas Chromatography; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "D2597-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(108) ASTM D2622-87, Standard Test Method for Sulfur in Petroleum Products by Wavelength Dispersive X-Ray Fluorescence Spectrometry; IBR approved for \u00a7 60.106(j).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1987,
+   "edition_token": "D2622-87",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 39
+  },
+  {
+   "text": "(109) ASTM D2622-94, Standard Test Method for Sulfur in Petroleum Products by Wavelength Dispersive X-Ray Fluorescence Spectrometry; IBR approved for \u00a7 60.106(j).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "D2622-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(110) ASTM D2622-98, Standard Test Method for Sulfur in Petroleum Products by Wavelength Dispersive X-Ray Fluorescence Spectrometry; IBR approved for \u00a7\u00a7 60.106(j) and 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D2622-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(111) ASTM D2622-05, Standard Test Method for Sulfur in Petroleum Products by Wavelength Dispersive X-Ray Fluorescence Spectrometry; IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2005,
+   "edition_token": "D2622-05",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 21
+  },
+  {
+   "text": "(112) ASTM D2697-22, Standard Test Method for Volume Nonvolatile Matter in Clear or Pigmented Coatings, approved July 1, 2022; IBR approved for \u00a7\u00a7 60.393a(g); 60.723(b); 60.724(a); 60.725(b); 60.723a(b); 60.724a(a); 60.725a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2022,
+   "edition_token": "D2697-22",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 4
+  },
+  {
+   "text": "(113) ASTM D2879-83, Test Method for Vapor Pressure-Temperature Relationship and Initial Decomposition Temperature of Liquids by Isoteniscope, approved 1983; IBR approved for \u00a7\u00a7 60.111b; 60.116b(e) and (f); 60.485(e); 60.485a(e); 60.5403b(d); 60.5406c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1983,
+   "edition_token": "D2879-83",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 43
+  },
+  {
+   "text": "(114) ASTM D2879-96, Test Method for Vapor Pressure-Temperature Relationship and Initial Decomposition Temperature of Liquids by Isoteniscope, approved 1996; IBR approved for \u00a7\u00a7 60.111b; 60.116b(e) and (f); 60.485(e); 60.485a(e); 60.5403b(d); 60.5406c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D2879-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(115) ASTM D2879-97, Test Method for Vapor Pressure-Temperature Relationship and Initial Decomposition Temperature of Liquids by Isoteniscope, approved 1997; IBR approved for \u00a7\u00a7 60.111b; 60.116b(e) and (f); 60.485(e); 60.485a(e); 60.5403b(d); 60.5406c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1997,
+   "edition_token": "D2879-97",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(116) ASTM D2879-23, Standard Test Method for Vapor Pressure-Temperature Relationship and Initial Decomposition Temperature of Liquids by Isoteniscope, approved December 1, 2019; IBR approved for \u00a7 60.485b(e).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2023,
+   "edition_token": "D2879-23",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 3
+  },
+  {
+   "text": "(117) ASTM D2880-78, Standard Specification for Gas Turbine Fuel Oils; IBR approved for \u00a7\u00a7 60.111(b) and 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1978,
+   "edition_token": "D2880-78",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 48
+  },
+  {
+   "text": "(118) ASTM D2880-96, Standard Specification for Gas Turbine Fuel Oils; IBR Approved for \u00a7\u00a7 60.111(b) and 60.111a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D2880-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(119) ASTM D2908-74, Standard Practice for Measuring Volatile Organic Matter in Water by Aqueous-Injection Gas Chromatography; IBR approved for \u00a7 60.564(j).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1974,
+   "edition_token": "D2908-74",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 52
+  },
+  {
+   "text": "(120) ASTM D2908-91, Standard Practice for Measuring Volatile Organic Matter in Water by Aqueous-Injection Gas Chromatography; IBR approved for \u00a7 60.564(j).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D2908-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(121) ASTM D2986-71, Standard Method for Evaluation of Air, Assay Media by the Monodisperse DOP (Dioctyl Phthalate) Smoke Test; IBR approved for appendix A-3 to part 60: Method 5, Section 7.1.1; appendix A-5 to part 60: Method 12, Section 7.1.1; and Method 13A, Section 7.1.1.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1971,
+   "edition_token": "D2986-71",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 55
+  },
+  {
+   "text": "(122) ASTM D2986-78, Standard Method for Evaluation of Air, Assay Media by the Monodisperse DOP (Dioctyl Phthalate) Smoke Test; IBR approved for appendix A-3 to part 60: Method 5, Section 7.1.1; appendix A-5 to part 60: Method 12, Section 7.1.1; and Method 13A, Section 7.1.1.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1978,
+   "edition_token": "D2986-78",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 48
+  },
+  {
+   "text": "(123) ASTM D2986-95a, Standard Method for Evaluation of Air, Assay Media by the Monodisperse DOP (Dioctyl Phthalate) Smoke Test; IBR approved for appendix A-3 to part 60: Method 5, Section 7.1.1; appendix A-5 to part 60: Method 12, Section 7.1.1; and Method 13A, Section 7.1.1.2.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(124) ASTM D3173-73, Standard Test Method for Moisture in the Analysis Sample of Coal and Coke; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1973,
+   "edition_token": "D3173-73",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 53
+  },
+  {
+   "text": "(125) ASTM D3173-87, Standard Test Method for Moisture in the Analysis Sample of Coal and Coke; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1987,
+   "edition_token": "D3173-87",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 39
+  },
+  {
+   "text": "(126) ASTM D3176-74, Standard Method for Ultimate Analysis of Coal and Coke; IBR approved for \u00a7 60.45(f) and appendix A-7 to part 60: Method 19, Section 12.3.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1974,
+   "edition_token": "D3176-74",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 52
+  },
+  {
+   "text": "(127) ASTM D3176-89, Standard Method for Ultimate Analysis of Coal and Coke; IBR approved for \u00a7 60.45(f) and appendix A-7 to part 60: Method 19, Section 12.3.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1989,
+   "edition_token": "D3176-89",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 37
+  },
+  {
+   "text": "(128) ASTM D3177-75, Standard Test Method for Total Sulfur in the Analysis Sample of Coal and Coke; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1975,
+   "edition_token": "D3177-75",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 51
+  },
+  {
+   "text": "(129) ASTM D3177-89, Standard Test Method for Total Sulfur in the Analysis Sample of Coal and Coke; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1989,
+   "edition_token": "D3177-89",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 37
+  },
+  {
+   "text": "(130) ASTM D3178-73 (Reapproved 1979), Standard Test Methods for Carbon and Hydrogen in the Analysis Sample of Coal and Coke; IBR approved for \u00a7 60.45(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1973,
+   "edition_token": "D3178-73",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 53
+  },
+  {
+   "text": "(131) ASTM D3178-89, Standard Test Methods for Carbon and Hydrogen in the Analysis Sample of Coal and Coke; IBR approved for \u00a7 60.45(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1989,
+   "edition_token": "D3178-89",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 37
+  },
+  {
+   "text": "(132) ASTM D3246-81, Standard Test Method for Sulfur in Petroleum Gas by Oxidative Microcoulometry; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1981,
+   "edition_token": "D3246-81",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 45
+  },
+  {
+   "text": "(133) ASTM D3246-92, Standard Test Method for Sulfur in Petroleum Gas by Oxidative Microcoulometry; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1992,
+   "edition_token": "D3246-92",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 34
+  },
+  {
+   "text": "(134) ASTM D3246-96, Standard Test Method for Sulfur in Petroleum Gas by Oxidative Microcoulometry; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D3246-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(135) ASTM D3246-05, Standard Test Method for Sulfur in Petroleum Gas by Oxidative Microcoulometry; IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2005,
+   "edition_token": "D3246-05",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 21
+  },
+  {
+   "text": "(136) ASTM D3270-73T, Standard Test Methods for Analysis for Fluoride Content of the Atmosphere and Plant Tissues (Semiautomated Method); IBR approved for appendix A-5 to part 60: Method 13A, Section 16.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(137) ASTM D3270-80, Standard Test Methods for Analysis for Fluoride Content of the Atmosphere and Plant Tissues (Semiautomated Method); IBR approved for appendix A-5 to part 60: Method 13A, Section 16.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1980,
+   "edition_token": "D3270-80",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 46
+  },
+  {
+   "text": "(138) ASTM D3270-91, Standard Test Methods for Analysis for Fluoride Content of the Atmosphere and Plant Tissues (Semiautomated Method); IBR approved for appendix A-5 to part 60: Method 13A, Section 16.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D3270-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(139) ASTM D3270-95, Standard Test Methods for Analysis for Fluoride Content of the Atmosphere and Plant Tissues (Semiautomated Method); IBR approved for appendix A-5 to part 60: Method 13A, Section 16.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D3270-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(140) ASTM D3286-85, Standard Test Method for Gross Calorific Value of Coal and Coke by the Isoperibol Bomb Calorimeter; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1985,
+   "edition_token": "D3286-85",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 41
+  },
+  {
+   "text": "(141) ASTM D3286-96, Standard Test Method for Gross Calorific Value of Coal and Coke by the Isoperibol Bomb Calorimeter; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "D3286-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(142) ASTM D3370-76, Standard Practices for Sampling Water; IBR approved for \u00a7 60.564(j).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1976,
+   "edition_token": "D3370-76",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 50
+  },
+  {
+   "text": "(143) ASTM D3370-95a, Standard Practices for Sampling Water; IBR approved for \u00a7 60.564(j).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(144) ASTM D3588-98 (Reapproved 2003), Standard Practice for Calculating Heat Value, Compressibility Factor, and Relative Density of Gaseous Fuels, approved May 10, 2003; IBR approved for \u00a7\u00a7 60.107a(d); 60.4360a(c); 60.5413(d); 60.5413a(d); 60.5413b(d); 60.5413c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D3588-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(145) ASTM D3699-08, Standard Specification for Kerosine, including Appendix X1, approved September 1, 2008; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.4420a; 60.5580; 60.5580a.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2008,
+   "edition_token": "D3699-08",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(146) ASTM D3792-79, Standard Test Method for Water Content of Water-Reducible Paints by Direct Injection into a Gas Chromatograph; IBR approved for appendix A-7 to part 60: Method 24, Section 6.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1979,
+   "edition_token": "D3792-79",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 47
+  },
+  {
+   "text": "(147) ASTM D3792-91, Standard Test Method for Water Content of Water-Reducible Paints by Direct Injection into a Gas Chromatograph; IBR approved for appendix A-7 to part 60: Method 24, Section 6.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D3792-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(148) ASTM D4017-81, Standard Test Method for Water in Paints and Paint Materials by the Karl Fischer Titration Method; IBR approved for appendix A-7 to part 60: Method 24, Section 6.4.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1981,
+   "edition_token": "D4017-81",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 45
+  },
+  {
+   "text": "(149) ASTM D4017-90, Standard Test Method for Water in Paints and Paint Materials by the Karl Fischer Titration Method; IBR approved for appendix A-7 to part 60: Method 24, Section 6.4.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1990,
+   "edition_token": "D4017-90",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 36
+  },
+  {
+   "text": "(150) ASTM D4017-96a, Standard Test Method for Water in Paints and Paint Materials by the Karl Fischer Titration Method; IBR approved for appendix A-7 to part 60: Method 24, Section 6.4.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [],
+   "age": null
+  },
+  {
+   "text": "(151) ASTM D4057-81, Standard Practice for Manual Sampling of Petroleum and Petroleum Products; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1981,
+   "edition_token": "D4057-81",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 45
+  },
+  {
+   "text": "(152) ASTM D4057-95, Standard Practice for Manual Sampling of Petroleum and Petroleum Products; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.2.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D4057-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(153) ASTM D4057-95 (Reapproved 2000), Standard Practice for Manual Sampling of Petroleum and Petroleum Products; IBR approved for \u00a7\u00a7 60.4360a(b) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D4057-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(154) ASTM D4084-82, Standard Test Method for Analysis of Hydrogen Sulfide in Gaseous Fuels (Lead Acetate Reaction Rate Method); IBR approved for \u00a7 60.334(h).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1982,
+   "edition_token": "D4084-82",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 44
+  },
+  {
+   "text": "(155) ASTM D4084-94, Standard Test Method for Analysis of Hydrogen Sulfide in Gaseous Fuels (Lead Acetate Reaction Rate Method); IBR approved for \u00a7 60.334(h).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "D4084-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(156) ASTM D4084-05, Standard Test Method for Analysis of Hydrogen Sulfide in Gaseous Fuels (Lead Acetate Reaction Rate Method); IBR approved for \u00a7\u00a7 60.4360; 60.4360a(c); 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2005,
+   "edition_token": "D4084-05",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 21
+  },
+  {
+   "text": "(157) ASTM D4177-95, Standard Practice for Automatic Sampling of Petroleum and Petroleum Products; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.2.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D4177-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(158) ASTM D4177-95 (Reapproved 2000), Standard Practice for Automatic Sampling of Petroleum and Petroleum Products; IBR approved for \u00a7\u00a7 60.4360a(b) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D4177-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(159) ASTM D4239-85, Standard Test Methods for Sulfur in the Analysis Sample of Coal and Coke Using High Temperature Tube Furnace Combustion Methods; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1985,
+   "edition_token": "D4239-85",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 41
+  },
+  {
+   "text": "(160) ASTM D4239-94, Standard Test Methods for Sulfur in the Analysis Sample of Coal and Coke Using High Temperature Tube Furnace Combustion Methods; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1994,
+   "edition_token": "D4239-94",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 32
+  },
+  {
+   "text": "(161) ASTM D4239-97, Standard Test Methods for Sulfur in the Analysis Sample of Coal and Coke Using High Temperature Tube Furnace Combustion Methods; IBR approved for appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1997,
+   "edition_token": "D4239-97",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(162) ASTM D4294-02, Standard Test Method for Sulfur in Petroleum and Petroleum Products by Energy-Dispersive X-Ray Fluorescence Spectrometry; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2002,
+   "edition_token": "D4294-02",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(163) ASTM D4294-03, Standard Test Method for Sulfur in Petroleum and Petroleum Products by Energy-Dispersive X-Ray Fluorescence Spectrometry; IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2003,
+   "edition_token": "D4294-03",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(164) ASTM D4442-84, Standard Test Methods for Direct Moisture Content Measurement in Wood and Wood-base Materials; IBR approved for appendix A-8 to part 60: Method 28, Section 16.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1984,
+   "edition_token": "D4442-84",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 42
+  },
+  {
+   "text": "(165) ASTM D4442-92, Standard Test Methods for Direct Moisture Content Measurement in Wood and Wood-base Materials; IBR approved for appendix A-8 to part 60: Method 28, Section 16.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1992,
+   "edition_token": "D4442-92",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 34
+  },
+  {
+   "text": "(166) ASTM D4444-92, Standard Test Methods for Use and Calibration of Hand-Held Moisture Meters; IBR approved for appendix A-8 to part 60: Method 28, Section 16.1.1.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1992,
+   "edition_token": "D4444-92",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 34
+  },
+  {
+   "text": "(167) ASTM D4457-85 (Reapproved 1991), Test Method for Determination of Dichloromethane and 1,1,1-Trichloroethane in Paints and Coatings by Direct Injection into a Gas Chromatograph; IBR approved for appendix A-7 to part 60: Method 24, Section 6.5.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1985,
+   "edition_token": "D4457-85",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 41
+  },
+  {
+   "text": "(168) ASTM D4468-85 (Reapproved 2000), Standard Test Method for Total Sulfur in Gaseous Fuels by Hydrogenolysis and Rateometric Colorimetry; IBR approved for \u00a7\u00a7 60.335(b); 60.4360a(c); 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1985,
+   "edition_token": "D4468-85",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 41
+  },
+  {
+   "text": "(169) ASTM D4468-85 (Reapproved 2006), Standard Test Method for Total Sulfur in Gaseous Fuels by Hydrogenolysis and Rateometric Colorimetry, approved June 1, 2006; IBR approved for \u00a7 60.107a(e).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1985,
+   "edition_token": "D4468-85",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 41
+  },
+  {
+   "text": "(170) ASTM D4629-02, Standard Test Method for Trace Nitrogen in Liquid Petroleum Hydrocarbons by Syringe/Inlet Oxidative Combustion and Chemiluminescence Detection; IBR approved for \u00a7\u00a7 60.49b(e) and 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2002,
+   "edition_token": "D4629-02",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(171) ASTM D4809-95, Standard Test Method for Heat of Combustion of Liquid Hydrocarbon Fuels by Bomb Calorimeter (Precision Method); IBR approved for \u00a7\u00a7 60.18(f); 60.485(g); 60.485a(g); 60.564(f); 60.704(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1995,
+   "edition_token": "D4809-95",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 31
+  },
+  {
+   "text": "(172) ASTM D4809-06, Standard Test Method for Heat of Combustion of Liquid Hydrocarbon Fuels by Bomb Calorimeter (Precision Method), approved December 1, 2006; IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2006,
+   "edition_token": "D4809-06",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 20
+  },
+  {
+   "text": "(173) ASTM D4809-18, Standard Test Method for Heat of Combustion of Liquid Hydrocarbon Fuels by Bomb Calorimeter (Precision Method), approved July 1, 2018; IBR approved for \u00a7\u00a7 60.485b(g) and 60.4360a(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2018,
+   "edition_token": "D4809-18",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 8
+  },
+  {
+   "text": "(174) ASTM D4810-88 (Reapproved 1999), Standard Test Method for Hydrogen Sulfide in Natural Gas Using Length of Stain Detector Tubes; IBR approved for \u00a7\u00a7 60.4360; 60.4360a(c); 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1988,
+   "edition_token": "D4810-88",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 38
+  },
+  {
+   "text": "(175) ASTM D4840-99(2018)e1, Standard Guide for Sample Chain-of-Custody Procedures, approved August 2018; IBR approved for Appendix A-7: Method 23, Section 8.2.12.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1999,
+   "edition_token": "D4840-99",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 27
+  },
+  {
+   "text": "(176) ASTM D4891-89 (Reapproved 2006), Standard Test Method for Heating Value of Gases in Natural Gas Range by Stoichiometric Combustion, approved June 1, 2006; IBR approved for \u00a7\u00a7 60.107a(d); 60.4360a(c); 60.5413(d); 60.5413a(d); 60.5413b(d); 60.5413c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1989,
+   "edition_token": "D4891-89",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 37
+  },
+  {
+   "text": "(177) ASTM D5066-91 (Reapproved 2017), Standard Test Method for Determination of the Transfer Efficiency Under Production Conditions for Spray Application of Automotive Paints\u2014Weight Basis, approved June 1, 2017; IBR approved for \u00a7 60.393a(h).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "D5066-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(178) ASTM D5087-02 (Reapproved 2021), Standard Test Method for Determining Amount of Volatile Organic Compound (VOC) Released from Solventborne Automotive Coatings and Available for Removal in a VOC Control Device (Abatement), approved February 1, 2021; IBR approved for \u00a7 60.397a(e) and appendix A to subpart MMa.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2002,
+   "edition_token": "D5087-02",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(179) ASTM D5287-97 (Reapproved 2002), Standard Practice for Automatic Sampling of Gaseous Fuels; IBR approved for \u00a7\u00a7 60.4360a(b) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1997,
+   "edition_token": "D5287-97",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(180) ASTM D5403-93, Standard Test Methods for Volatile Content of Radiation Curable Materials; IBR approved for appendix A-7 to part 60: Method 24, Section 6.6.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1993,
+   "edition_token": "D5403-93",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(181) ASTM D5453-00, Standard Test Method for Determination of Total Sulfur in Light Hydrocarbons, Motor Fuels and Oils by Ultraviolet Fluorescence; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2000,
+   "edition_token": "D5453-00",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 26
+  },
+  {
+   "text": "(182) ASTM D5453-05, Standard Test Method for Determination of Total Sulfur in Light Hydrocarbons, Motor Fuels and Oils by Ultraviolet Fluorescence; IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2005,
+   "edition_token": "D5453-05",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 21
+  },
+  {
+   "text": "(183) ASTM D5504-01, Standard Test Method for Determination of Sulfur Compounds in Natural Gas and Gaseous Fuels by Gas Chromatography and Chemiluminescence; IBR approved for \u00a7\u00a7 60.334(h) and 60.4360.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2001,
+   "edition_token": "D5504-01",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 25
+  },
+  {
+   "text": "(184) ASTM D5504-08, Standard Test Method for Determination of Sulfur Compounds in Natural Gas and Gaseous Fuels by Gas Chromatography and Chemiluminescence, approved June 15, 2008; IBR approved for \u00a7 60.107a(e).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2008,
+   "edition_token": "D5504-08",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(185) ASTM D5504-20, Standard Test Method for Determination of Sulfur Compounds in Natural Gas and Gaseous Fuels by Gas Chromatography and Chemiluminescence, approved November 1, 2020; IBR approved for \u00a7 60.4360a(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2020,
+   "edition_token": "D5504-20",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 6
+  },
+  {
+   "text": "(186) ASTM D5623-19, Standard Test Method for Sulfur Compounds in Light Petroleum Liquids by Gas Chromatography and Sulfur Selective Detection, approved July 1, 2019; IBR approved for \u00a7 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2019,
+   "edition_token": "D5623-19",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 7
+  },
+  {
+   "text": "(187) ASTM D5623-24, Standard Test Method for Sulfur Compounds in Light Petroleum Liquids by Gas Chromatography and Sulfur Selective Detection, approved March 1, 2024; IBR approved for \u00a7 60.4360a(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2024,
+   "edition_token": "D5623-24",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 2
+  },
+  {
+   "text": "(188) ASTM D5762-02, Standard Test Method for Nitrogen in Petroleum and Petroleum Products by Boat-Inlet Chemiluminescence; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2002,
+   "edition_token": "D5762-02",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(189) ASTM D5865-98, Standard Test Method for Gross Calorific Value of Coal and Coke; IBR approved for \u00a7\u00a7 60.45(f); 60.46(c); and appendix A-7 to part 60: Method 19, Section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D5865-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(190) ASTM D5865-10, Standard Test Method for Gross Calorific Value of Coal and Coke, approved January 1, 2010; IBR approved for \u00a7\u00a7 60.45(f); 60.46(c); and appendix A-7 to part 60: Method 19, section 12.5.2.1.3.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2010,
+   "edition_token": "D5865-10",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 16
+  },
+  {
+   "text": "(191) ASTM D5965-02 (Reapproved 2013), Standard Test Methods for Specific Gravity of Coating Powders, approved June 1, 2013; IBR approved for \u00a7 60.393a(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2002,
+   "edition_token": "D5965-02",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(192) ASTM D6093-97 (Reapproved 2016), Standard Test Method for Percent Volume Nonvolatile Matter in Clear or Pigmented Coatings Using a Helium Gas Pycnometer, approved December 1, 2016; IBR approved for \u00a7\u00a7 60.393a(g); 60.723(b); 60.724(a); 60.725(b); 60.723a(b); 60.724a(a); 60.725a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1997,
+   "edition_token": "D6093-97",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(193) ASTM D6216-20, Standard Practice for Opacity Monitor Manufacturers to Certify Conformance with Design and Performance Specifications, approved September 1, 2020; IBR approved for appendix B to part 60.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2020,
+   "edition_token": "D6216-20",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 6
+  },
+  {
+   "text": "(194) ASTM D6228-98, Standard Test Method for Determination of Sulfur Compounds in Natural Gas and Gaseous Fuels by Gas Chromatography and Flame Photometric Detection; IBR approved for \u00a7 60.334(h).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D6228-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(195) ASTM D6228-98 (Reapproved 2003), Standard Test Method for Determination of Sulfur Compounds in Natural Gas and Gaseous Fuels by Gas Chromatography and Flame Photometric Detection; IBR approved for \u00a7\u00a7 60.4360; 60.4360a(c); 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1998,
+   "edition_token": "D6228-98",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 28
+  },
+  {
+   "text": "(196) ASTM D6266-00a (Reapproved 2017), Standard Test Method for Determining the Amount of Volatile Organic Compound (VOC) Released from Waterborne Automotive Coatings and Available for Removal in a VOC Control Device (Abatement), approved July 1, 2017; IBR approved for \u00a7 60.397a(e).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2017,
+   "edition_token": "(Reapproved 2017)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 9
+  },
+  {
+   "text": "(197) ASTM D6348-03, Standard Test Method for Determination of Gaseous Compounds by Extractive Direct Interface Fourier Transform Infrared (FTIR) Spectroscopy, approved October 1, 2003; IBR approved for \u00a7 60.73a(b); table 7 to subpart IIII; table 2 to subpart JJJJ; \u00a7 60.4245(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2003,
+   "edition_token": "D6348-03",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 23
+  },
+  {
+   "text": "(198) ASTM D6348-12e1, Standard Test Method for Determination of Gaseous Compounds by Extractive Direct Interface Fourier Transform Infrared (FTIR) Spectroscopy, approved February 1, 2012; IBR approved for \u00a7 60.5413c(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2012,
+   "edition_token": "2012",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 14
+  },
+  {
+   "text": "(199) ASTM D6348-12 (Reapproved 2020), Standard Test Method for Determination of Gaseous Compounds by Extractive Direct Interface Fourier Transform Infrared (FTIR) Spectroscopy, approved December 1, 2020; IBR approved for \u00a7\u00a7 60.4400(a) and 60.4400a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2012,
+   "edition_token": "D6348-12",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 14
+  },
+  {
+   "text": "(200) ASTM D6366-99, Standard Test Method for Total Trace Nitrogen and Its Derivatives in Liquid Aromatic Hydrocarbons by Oxidative Combustion and Electrochemical Detection; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1999,
+   "edition_token": "D6366-99",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 27
+  },
+  {
+   "text": "(201) ASTM D6377-20, Standard Test Method for Determination of Vapor Pressure of Crude Oil: VPCRX (Expansion Method), approved June 1, 2020; IBR approved for \u00a7 60.113c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2020,
+   "edition_token": "D6377-20",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 6
+  },
+  {
+   "text": "(202) ASTM D6378-22, Standard Test Method for Determination of Vapor Pressure (VPX) of Petroleum Products, Hydrocarbons, and Hydrocarbon-Oxygenate Mixtures (Triple Expansion Method), approved July 1, 2022; IBR approved for \u00a7 60.113c(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2022,
+   "edition_token": "D6378-22",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 4
+  },
+  {
+   "text": "(203) ASTM D6420-99 (Reapproved 2004), Standard Test Method for Determination of Gaseous Organic Compounds by Direct Interface Gas Chromatography-Mass Spectrometry, approved October 1, 2004; IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1999,
+   "edition_token": "D6420-99",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 27
+  },
+  {
+   "text": "(204) ASTM D6420-18, Standard Test Method for Determination of Gaseous Organic Compounds by Direct Interface Gas Chromatography-Mass Spectrometry, approved November 1, 2018; IBR approved for \u00a7\u00a7 60.485(g); 60.485a(g); 60.485b(g); 60.611a; 60.614(b) and (e); 60.614a(b) and (e), 60.664(b) and (e); 60.664a(b) and (f); 60.700(c); 60.704(b) (d), and (h); 60.705(l); 60.704a(b) and (f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2018,
+   "edition_token": "D6420-18",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 8
+  },
+  {
+   "text": "(205) ASTM D6522-00, Standard Test Method for Determination of Nitrogen Oxides, Carbon Monoxide, and Oxygen Concentrations in Emissions from Natural Gas-Fired Reciprocating Engines, Combustion Turbines, Boilers, and Process Heaters Using Portable Analyzers; IBR approved for \u00a7\u00a7 60.335(a) and (b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2000,
+   "edition_token": "D6522-00",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 26
+  },
+  {
+   "text": "(206) ASTM D6522-00 (Reapproved 2005), Standard Test Method for Determination of Nitrogen Oxides, Carbon Monoxide, and Oxygen Concentrations in Emissions from Natural Gas-Fired Reciprocating Engines, Combustion Turbines, Boilers, and Process Heaters Using Portable Analyzers, approved October 1, 2005; IBR approved for table 2 to subpart JJJJ, \u00a7\u00a7 60.5413(b); 60.5413a(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2000,
+   "edition_token": "D6522-00",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 26
+  },
+  {
+   "text": "(207) ASTM D6522-11 Standard Test Method for Determination of Nitrogen Oxides, Carbon Monoxide, and Oxygen Concentrations in Emissions from Natural Gas-Fired Reciprocating Engines, Combustion Turbines, Boilers, and Process Heaters Using Portable Analyzers, approved December 1, 2011; IBR approved for \u00a7\u00a7 60.37f(a) and 60.766(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2011,
+   "edition_token": "D6522-11",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(208) ASTM D6522-20, Standard Test Method for Determination of Nitrogen Oxides, Carbon Monoxide, and Oxygen Concentrations in Emissions from Natural Gas-Fired Reciprocating Engines, Combustion Turbines, Boilers, and Process Heaters Using Portable Analyzers, approved June 1, 2020; IBR approved for \u00a7\u00a7 60.4400(a); 60.4400a(b); 60.5413b(b); 60.5413c(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2020,
+   "edition_token": "D6522-20",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 6
+  },
+  {
+   "text": "(209) ASTM D6667-01, Standard Test Method for Determination of Total Volatile Sulfur in Gaseous Hydrocarbons and Liquefied Petroleum Gases by Ultraviolet Fluorescence; IBR approved for \u00a7 60.335(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2001,
+   "edition_token": "D6667-01",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 25
+  },
+  {
+   "text": "(210) ASTM D6667-04, Standard Test Method for Determination of Total Volatile Sulfur in Gaseous Hydrocarbons and Liquefied Petroleum Gases by Ultraviolet Fluorescence; IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2004,
+   "edition_token": "D6667-04",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 22
+  },
+  {
+   "text": "(211) ASTM D6751-11b, Standard Specification for Biodiesel Fuel Blend Stock (B100) for Middle Distillate Fuels, including Appendices X1 through X3, approved July 15, 2011; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.4420a; 60.5580; 60.5580a.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2011,
+   "edition_token": "2011",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(212) ASTM D6784-02, Standard Test Method for Elemental, Oxidized, Particle-Bound and Total Mercury in Flue Gas Generated from Coal-Fired Stationary Sources (Ontario Hydro Method); IBR approved for \u00a7 60.56c(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2002,
+   "edition_token": "D6784-02",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(213) ASTM D6784-02 (Reapproved 2008), Standard Test Method for Elemental, Oxidized, Particle-Bound and Total Mercury in Flue Gas Generated from Coal-Fired Stationary Sources (Ontario Hydro Method), approved April 1, 2008; IBR approved for \u00a7 60.56c(b).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2002,
+   "edition_token": "D6784-02",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 24
+  },
+  {
+   "text": "(214) ASTM D6784-16, Standard Test Method for Elemental, Oxidized, Particle-Bound and Total Mercury in Flue Gas Generated from Coal-Fired Stationary Sources (Ontario Hydro Method), approved March 1, 2016; IBR approved for appendix B to part 60.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2016,
+   "edition_token": "D6784-16",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 10
+  },
+  {
+   "text": "(215) ASTM D6784-24, Standard Test Method for Elemental, Oxidized, Particle-Bound and Total Mercury in Flue Gas Generated from Coal-Fired Stationary Sources (Ontario Hydro Method), approved March 1, 2024; IBR approved for Table 4 to subpart VVVV; Table 5 to subpart WWWW.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2024,
+   "edition_token": "D6784-24",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 2
+  },
+  {
+   "text": "(216) ASTM D6911-15 Standard Guide for Packaging and Shipping Environmental Samples for Laboratory Analysis, approved January 15, 2015; IBR approved for Appendix A-7: Method 23, Section 8.2.11; Appendix A-8: Method 30B, Section 8.3.3.8.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2015,
+   "edition_token": "D6911-15",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 11
+  },
+  {
+   "text": "(217) ASTM D7039-15a, Standard Test Method for Sulfur in Gasoline, Diesel Fuel, Jet Fuel, Kerosine, Biodiesel, Biodiesel Blends, and Gasoline-Ethanol Blends by Monochromatic Wavelength Dispersive X-ray Fluorescence Spectrometry, approved July 1, 2015; IBR approved for \u00a7 60.4415(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2015,
+   "edition_token": "2015",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 11
+  },
+  {
+   "text": "(218) ASTM D7039-24, Standard Test Method for Sulfur in Gasoline, Diesel Fuel, Jet Fuel, Kerosine, Biodiesel, Biodiesel Blends, and Gasoline-Ethanol Blends by Monochromatic Wavelength Dispersive X-ray Fluorescence Spectrometry, approved December 1, 2024; IBR approved for \u00a7 60.4360a(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2024,
+   "edition_token": "D7039-24",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 2
+  },
+  {
+   "text": "(219) ASTM D7467-10, Standard Specification for Diesel Fuel Oil, Biodiesel Blend (B6 to B20), including Appendices X1 through X3, approved August 1, 2010; IBR approved for \u00a7\u00a7 60.41b; 60.41c; 60.4420a; 60.5580; 60.5580a.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2010,
+   "edition_token": "D7467-10",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 16
+  },
+  {
+   "text": "(220) ASTM D7520-16, Standard Test Method for Determining the Opacity of a Plume in the Outdoor Ambient Atmosphere, approved April 1, 2016; IBR approved for \u00a7\u00a7 60.123(c); 60.123a(c); 60.271(k); 60.272(a) and (b); 60.273(c) and (d); 60.274(i); 60.275(e); 60.276(c); 60.271a; 60.272a(a) and (b); 60.273a(c) and (d); 60.274a(h); 60.275a(e); 60.276a(f); 60.271b; 60.272b(a) and (b); 60.273b(c) and (d); 60.274b(h); 60.275b(e); 60.276b(f); 60.374a(d); 60.2972(a); Tables 1, 1a, and 1b to subpart EEEE; 60.3067(a); Tables 2 and 2a to subpart FFFF; 60.6145; Table 4 to subpart VVVV; 60.6685; and Table 5 to subpart WWWW.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2016,
+   "edition_token": "D7520-16",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 10
+  },
+  {
+   "text": "(221) ASTM E168-67, General Techniques of Infrared Quantitative Analysis; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1967,
+   "edition_token": "E168-67",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 59
+  },
+  {
+   "text": "(222) ASTM E168-77, General Techniques of Infrared Quantitative Analysis; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1977,
+   "edition_token": "E168-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(223) ASTM E168-92, General Techniques of Infrared Quantitative Analysis; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f); 60.5400; 60.5400a(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1992,
+   "edition_token": "E168-92",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 34
+  },
+  {
+   "text": "(224) ASTM E168-16 (Reapproved 2023), Standard Practices for General Techniques of Infrared Quantitative Analysis, approved January 1, 2023; IBR approved for \u00a7\u00a7 60.485b(d); 60.5400b(a); 60.5400c(a); 60.5401c(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2016,
+   "edition_token": "E168-16",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 10
+  },
+  {
+   "text": "(225) ASTM E169-63, General Techniques of Ultraviolet Quantitative Analysis; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1963,
+   "edition_token": "E169-63",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 63
+  },
+  {
+   "text": "(226) ASTM E169-77, General Techniques of Ultraviolet Quantitative Analysis; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1977,
+   "edition_token": "E169-77",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 49
+  },
+  {
+   "text": "(227) ASTM E169-93, General Techniques of Ultraviolet Quantitative Analysis, approved May 15, 1993; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f); 60.5400(f); 60.5400a(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1993,
+   "edition_token": "E169-93",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 33
+  },
+  {
+   "text": "(228) ASTM E169-16 (Reapproved 2022), Standard Practices for General Techniques of Ultraviolet-Visible Quantitative Analysis, approved November 1, 2022; IBR approved for \u00a7 60.485b(d), 60.5400b(a); 60.5401b(a); 60.5400c(a); 60.5401c(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2016,
+   "edition_token": "E169-16",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 10
+  },
+  {
+   "text": "(229) ASTM E260-73, General Gas Chromatography Procedures; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1973,
+   "edition_token": "E260-73",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 53
+  },
+  {
+   "text": "(230) ASTM E260-91, General Gas Chromatography Procedures; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1991,
+   "edition_token": "E260-91",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 35
+  },
+  {
+   "text": "(231) ASTM E260-96, General Gas Chromatography Procedures, approved April 10, 1996; IBR approved for \u00a7\u00a7 60.485a(d); 60.593(b); 60.593a(b); 60.632(f); 60.5400(f); 60.5400a(f); 60.5406(b); 60.5406a(b)(3); 60.5400b(a)(2); 60.5401b(a)(2); 60.5406b(b)(3); 60.5400c(a); 60.5401c(a).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "E260-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(232) ASTM E260-96 (Reapproved 2019), Standard Practice for Packed Column Gas Chromatography, approved September 1, 2019; IBR approved for \u00a7 60.485b(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1996,
+   "edition_token": "E260-96",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(233) ASTM E617-13, Standard Specification for Laboratory Weights and Precision Mass Standards, approved May 1, 2013; IBR approved for appendix A-3: Methods 4, 5, 5H, 5I, and appendix A-8: Method 29.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2013,
+   "edition_token": "E617-13",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 13
+  },
+  {
+   "text": "(234) ASTM E871-82 (Reapproved 2013), Standard Test Method for Moisture Analysis of Particulate Wood Fuels, approved August 15, 2013; IBR approved for appendix A-8: Method 28R.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1982,
+   "edition_token": "E871-82",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 44
+  },
+  {
+   "text": "(235) ASTM E1584-11, Standard Test Method for Assay of Nitric Acid, approved August 1, 2011; IBR approved for \u00a7 60.73a(c).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2011,
+   "edition_token": "E1584-11",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(236) ASTM E2515-11, Standard Test Method for Determination of Particulate Matter Emissions Collected by a Dilution Tunnel, approved November 1, 2011; IBR approved for \u00a7\u00a7 60.534(c) and (d); 60.5476(f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2011,
+   "edition_token": "E2515-11",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(237) ASTM E2618-13 Standard Test Method for Measurement of Particulate Matter Emissions and Heating Efficiency of Outdoor Solid Fuel-Fired Hydronic Heating Appliances, approved September 1, 2013; IBR approved for \u00a7 60.5476(g).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2013,
+   "edition_token": "E2618-13",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 13
+  },
+  {
+   "text": "(238) ASTM E2779-10, Standard Test Method for Determining Particulate Matter Emissions from Pellet Heaters, approved October 1, 2010; IBR approved for \u00a7 60.534(a) and (f).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2010,
+   "edition_token": "E2779-10",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 16
+  },
+  {
+   "text": "(239) ASTM E2780-10, Standard Test Method for Determining Particulate Matter Emissions from Wood Heaters, approved October 1, 2010; IBR approved for appendix A: Method 28R.",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 2010,
+   "edition_token": "E2780-10",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 16
+  },
+  {
+   "text": "(240) ASTM UOP539-97, Refinery Gas Analysis by Gas Chromatography, (Copyright 1997); IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(h) ASTM International, 100 Barr Harbor Drive, P.O. Box CB700, West Conshohocken, Pennsylvania 19428-2959; phone: (800) ",
+   "edition_year": 1997,
+   "edition_token": "UOP539-97",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(1) AOAC Method 9, Official Methods of Analysis of the Association of Official Analytical Chemists (AOAC), 11th edition, 1970, pp. 11-12, IBR approved for \u00a7\u00a7 60.204(b), 60.214(b), 60.224(b), and 60.234(b).",
+   "org_header": "(i) Association of Official Analytical Chemists, 1111 North 19th Street, Suite 210, Arlington, VA 22209; phone: (301) 92",
+   "edition_year": 1970,
+   "edition_token": "1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(1) CSA B415.1-10, Performance Testing of Solid-fuel-burning Heating Appliances, (March 2010), IBR approved for \u00a7\u00a7 60.534; 60.5476.",
+   "org_header": "(j) CSA Group (CSA) (formerly Canadian Standards Association), 178 Rexdale Boulevard, Toronto, Ontario, Canada; phone: (",
+   "edition_year": 2010,
+   "edition_token": "B415.1-10",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 16
+  },
+  {
+   "text": "(1) EPA-453/R-08-002, Protocol for Determining the Daily Volatile Organic Compound Emission Rate of Automobile and Light-Duty Truck Primer-Surfacer and Topcoat Operations, September 2008, Office of Air Quality Planning and Standards (OAQPS); IBR approved for \u00a7\u00a7 60.393a(e) and (h); 60.395a(k); 60.397a(e); appendix A to subpart MMa.",
+   "org_header": "(k) U.S. Environmental Protection Agency (EPA), 1200 Pennsylvania Avenue NW, Washington, DC 20460; phone: (202) 272-0167",
+   "edition_year": 2008,
+   "edition_token": "2008",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(2) EPA-454/B-08-002, Quality Assurance Handbook for Air Pollution Measurement Systems; Volume IV: Meteorological Measurements, Version 2.0 (Final), March 2008; IBR approved for appendix K to this part.",
+   "org_header": "(k) U.S. Environmental Protection Agency (EPA), 1200 Pennsylvania Avenue NW, Washington, DC 20460; phone: (202) 272-0167",
+   "edition_year": 2008,
+   "edition_token": "2008",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 18
+  },
+  {
+   "text": "(3) EPA-454/R-98-015, Office of Air Quality Planning and Standards (OAQPS), Fabric Filter Bag Leak Detection Guidance, September 1997; IBR approved for \u00a7\u00a7 60.124(f); 60.124a(f); 60.273(e); 60.273a(e); 60.273b(e); 60.373a(b); 60.2145(r); 60.2710(r); 60.2944(c), 60.3043(c), 60.4880(b); 60.5200(b). (Available from: https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=2000D5T6.pdf).",
+   "org_header": "(k) U.S. Environmental Protection Agency (EPA), 1200 Pennsylvania Avenue NW, Washington, DC 20460; phone: (202) 272-0167",
+   "edition_year": 1997,
+   "edition_token": "1997",
+   "reaffirmations": [],
+   "urls": [
+    "https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=2000D5T6.pdf)."
+   ],
+   "age": 29
+  },
+  {
+   "text": "(4) EPA-600/R-12/531, EPA Traceability Protocol for Assay and Certification of Gaseous Calibration Standards, May 2012; IBR approved for \u00a7\u00a7 60.5413(d); 60.5413a(d); 60.5413b(d); 60.5413c(d).",
+   "org_header": "(k) U.S. Environmental Protection Agency (EPA), 1200 Pennsylvania Avenue NW, Washington, DC 20460; phone: (202) 272-0167",
+   "edition_year": 2012,
+   "edition_token": "2012",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 14
+  },
+  {
+   "text": "(5) In EPA Publication No. SW-846, Test Methods for Evaluating Solid Waste, Physical/Chemical Methods (Available from: www.epa.gov/hw-sw846/sw-846-compendium):",
+   "org_header": "(k) U.S. Environmental Protection Agency (EPA), 1200 Pennsylvania Avenue NW, Washington, DC 20460; phone: (202) 272-0167",
+   "edition_year": null,
+   "edition_token": null,
+   "reaffirmations": [],
+   "urls": [
+    "www.epa.gov/hw-sw846/sw-846-compendium):"
+   ],
+   "age": null
+  },
+  {
+   "text": "(1) DIN EN 303-5:2012E (EN 303-5), Heating boilers\u2014Part 5: Heating boilers for solid fuels, manually and automatically stoked, nominal heat output of up to 500 kW\u2014Terminology, requirements, testing and marking, (October 2012), IBR approved for \u00a7 60.5476.",
+   "org_header": "(l) European Standards (EN), European Committee for Standardization, Management Centre, Avenue Marnix 17, B-1000 Brussel",
+   "edition_year": 2012,
+   "edition_token": "(October 2012)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 14
+  },
+  {
+   "text": "(1) GPA Midstream Standard 2140-17 (GPA 2140-17), Liquified Petroleum Gas Specifications and Test Methods (Revised 2017); IBR approved for \u00a7\u00a7 60.4360a(c) and 60.4415(a).",
+   "org_header": "(m) GPA Midstream Association, 6060 American Plaza, Suite 700, Tulsa, OK 74135; phone: (918) 493-3872; website: www.gpam",
+   "edition_year": 2017,
+   "edition_token": "Standard 2140-17",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 9
+  },
+  {
+   "text": "(2) GPA Midstream Standard 2166-17 (GPA 2166-17), Obtaining Natural Gas Samples for Analysis by Gas Chromatography, (Reaffirmed 2017); IBR approved for \u00a7\u00a7 60.4360a(b) and 60.4415(a).",
+   "org_header": "(m) GPA Midstream Association, 6060 American Plaza, Suite 700, Tulsa, OK 74135; phone: (918) 493-3872; website: www.gpam",
+   "edition_year": 2017,
+   "edition_token": "Standard 2166-17",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 9
+  },
+  {
+   "text": "(3) GPA Standard 2172-09 (GPA 2172-09), Calculation of Gross Heating Value, Relative Density, Compressibility and Theoretical Hydrocarbon Liquid Content for Natural Gas Mixtures for Custody Transfer (2009); IBR approved for \u00a7\u00a7 60.107a(d) and 60.4360a(c).",
+   "org_header": "(m) GPA Midstream Association, 6060 American Plaza, Suite 700, Tulsa, OK 74135; phone: (918) 493-3872; website: www.gpam",
+   "edition_year": 2009,
+   "edition_token": "Standard 2172-09",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 17
+  },
+  {
+   "text": "(4) GPA Standard 2174-14 (GPA 2174-14), Obtaining Liquid Hydrocarbon Samples for Analysis by Gas Chromatography, (Revised 2014); IBR",
+   "org_header": "(m) GPA Midstream Association, 6060 American Plaza, Suite 700, Tulsa, OK 74135; phone: (918) 493-3872; website: www.gpam",
+   "edition_year": 2014,
+   "edition_token": "Standard 2174-14",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 12
+  },
+  {
+   "text": "(5) GPA Standard 2261-19 (GPA 2261-19), Analysis for Natural Gas and Similar Gaseous Mixtures by Gas Chromatography, (Revised 2019), IBR approved for \u00a7\u00a7 60.4415(a); 60.5417b(d); 60.5417c(d).",
+   "org_header": "(m) GPA Midstream Association, 6060 American Plaza, Suite 700, Tulsa, OK 74135; phone: (918) 493-3872; website: www.gpam",
+   "edition_year": 2019,
+   "edition_token": "Standard 2261-19",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 7
+  },
+  {
+   "text": "(6) GPA Standard 2377-86 (GPA 2377-84), Test for Hydrogen Sulfide and Carbon Dioxide in Natural Gas Using Length of Stain Tubes, 1986 Revision; IBR approved for \u00a7\u00a7 60.105(b); 60.107a(b); 60.334(h); 60.4360; 60.4360a(c); and 60.4415(a).",
+   "org_header": "(m) GPA Midstream Association, 6060 American Plaza, Suite 700, Tulsa, OK 74135; phone: (918) 493-3872; website: www.gpam",
+   "edition_year": 1986,
+   "edition_token": "Standard 2377-86",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 40
+  },
+  {
+   "text": "(1) ISO 8178-4: 1996(E), Reciprocating Internal Combustion Engines\u2014Exhaust Emission Measurement\u2014part 4: Test Cycles for Different Engine Applications, IBR approved for \u00a7 60.4241(b).",
+   "org_header": "(n) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, Case postale 56, CH-1211 Geneva 20, ",
+   "edition_year": 1996,
+   "edition_token": "1996",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 30
+  },
+  {
+   "text": "(2) ISO 2314:2009(E), Gas turbines-Acceptance tests, Third edition (December 15, 2009), IBR approved for \u00a7\u00a7 60.5580; 60.5580a.",
+   "org_header": "(n) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, Case postale 56, CH-1211 Geneva 20, ",
+   "edition_year": 2009,
+   "edition_token": "ISO 2314:2009",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 17
+  },
+  {
+   "text": "(3) ISO 8316: Measurement of Liquid Flow in Closed Conduits\u2014Method by Collection of the Liquid in a Volumetric Tank (1987-10-01)\u2014First Edition, IBR approved for \u00a7 60.107a(d).",
+   "org_header": "(n) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, Case postale 56, CH-1211 Geneva 20, ",
+   "edition_year": 1987,
+   "edition_token": "(1987-10-01)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 39
+  },
+  {
+   "text": "(4) ISO 10715:1997(E), Natural gas\u2014Sampling guidelines, (First Edition, June 1, 1997), IBR approved for \u00a7 60.4415(a).",
+   "org_header": "(n) International Organization for Standardization (ISO), 1, ch. de la Voie-Creuse, Case postale 56, CH-1211 Geneva 20, ",
+   "edition_year": 1997,
+   "edition_token": "ISO 10715:1997",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 29
+  },
+  {
+   "text": "(1) OMB Bulletin No. 93-17: Revised Statistical Definitions for Metropolitan Areas. Office of Management and Budget, June 30, 1993. NTIS No. PB 93-192-664. IBR approved for \u00a7 60.31e.",
+   "org_header": "(o) National Technical Information Services (NTIS), 5285 Port Royal Road, Springfield, Virginia 22161.",
+   "edition_year": 2017,
+   "edition_token": "No. 93-17",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 9
+  },
+  {
+   "text": "(1) North American Electric Reliability Corporation Reliability Standard EOP-002-3, Capacity and Energy Emergencies, updated November 19, 2012, IBR approved for \u00a7\u00a7 60.4211(f) and 60.4243(d). Also available online: http://www.nerc.com/files/EOP-002-3__1.pdf.",
+   "org_header": "(p) North American Electric Reliability Corporation, 1325 G Street NW., Suite 600, Washington, DC 20005-3801, http://www",
+   "edition_year": 2012,
+   "edition_token": "2012",
+   "reaffirmations": [],
+   "urls": [
+    "http://www.nerc.com/files/EOP-002-3__1.pdf."
+   ],
+   "age": 14
+  },
+  {
+   "text": "(1) West Coast Lumber Standard Grading Rules No. 16, pages 5-21, 90 and 91, September 3, 1970, revised 1984, IBR approved for appendix A-8 to part 60.",
+   "org_header": "(q) Pacific Lumber Inspection Bureau (formerly West Coast Lumber Inspection Bureau), 1010 South 336th Street #210, Feder",
+   "edition_year": 1970,
+   "edition_token": "1970",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 56
+  },
+  {
+   "text": "(1) TAPPI Method T 624 cm-11, (Copyright 2011), IBR approved, for \u00a7\u00a7 60.285(d) and 60.285a(d).",
+   "org_header": "(r) Technical Association of the Pulp and Paper Industry (TAPPI), 15 Technology Parkway South, Suite 115, Peachtree Corn",
+   "edition_year": 2011,
+   "edition_token": "(Copyright 2011)",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 15
+  },
+  {
+   "text": "(1) UL 103, Sixth Edition revised as of September 3, 1986, Standard for Chimneys, Factory-built, Residential Type and Building Heating Appliance, IBR approved for appendix A-8 to part 60.",
+   "org_header": "(s) Underwriter's Laboratories, Inc. (UL), 333 Pfingsten Road, Northbrook, IL 60062.",
+   "edition_year": 1986,
+   "edition_token": "1986",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 40
+  },
+  {
+   "text": "(1) Method 209A, Total Residue Dried at 103-105 \u00b0C, in Standard Methods for the Examination of Water and Wastewater, 15th Edition, 1980, IBR approved for \u00a7 60.683(b).",
+   "org_header": "(t) Water Pollution Control Federation (WPCF), 2626 Pennsylvania Avenue NW., Washington, DC 20037.",
+   "edition_year": 1980,
+   "edition_token": "1980",
+   "reaffirmations": [],
+   "urls": [],
+   "age": 46
+  }
+ ]
+}
