@@ -144,3 +144,27 @@ def test_scouted_is_a_legitimate_stage(tmp_path: Path) -> None:
     # The scouting night's record is complete on its own terms — it just has not been sealed
     # against a finding yet, because there is no finding yet.
     assert run(tmp_path, stage="SCOUTED") == []
+
+
+def test_the_named_exemption_carries_a_reason(tmp_path: Path) -> None:
+    # Named rather than bought off with a later start date: a date chosen to dodge one known
+    # record would have exempted every unknown one alongside it.
+    from validate_v4_projects import USP_EXEMPT
+
+    assert USP_EXEMPT, "an empty exemption map should be deleted, not kept"
+    for project_id, why in USP_EXEMPT.items():
+        assert len(why.split()) >= 20, f"{project_id} is exempt without a stated reason"
+
+
+def test_an_exempt_record_is_not_checked(tmp_path: Path) -> None:
+    from validate_v4_projects import USP_EXEMPT
+
+    exempt_id = next(iter(USP_EXEMPT))
+    project = tmp_path / exempt_id
+    project.mkdir()
+    score = project / "SCORE.md"
+    score.write_text(
+        f"---\nproject_id: {exempt_id}\ncreated: 2026-08-13\n---\n\n# Project score\n",
+        encoding="utf-8",
+    )
+    assert validate_prior_art(project, frontmatter(score), score) == []
