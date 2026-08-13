@@ -11,7 +11,11 @@ on:
       - 'governance/**'
       - 'PROTOCOL.md'
       - 'README.md'
-      - 'tools/validate_v4_projects.py'
+      # Was 'tools/validate_v4_projects.py' alone until 2026-08-13 — the whole directory now,
+      # because the tests below live here too and a test that cannot trigger its own workflow
+      # is a test nobody runs.
+      - 'tools/**'
+      - 'docs/foundation/**'
       - '.github/workflows/**'
   workflow_dispatch: {}
 
@@ -32,6 +36,14 @@ jobs:
           python-version: '3.12'
       - name: Validate Protocol v4 project records
         run: python tools/validate_v4_projects.py
+      # Added 2026-08-13. Until today this repository ran pytest NOWHERE: test_constitution_refs.py
+      # was written on 2026-08-12 to make dead protocol pointers loud, and had never once run in
+      # CI — a guard against silent failure, failing silently. Found while wiring §8's prior-art
+      # floor, whose own tests would have joined it in never running.
+      - name: Install test dependencies
+        run: python -m pip install --quiet pytest
+      - name: Run the repository's tests
+        run: python -m pytest tools/ -q
       - name: State governance boundary
         run: |
           echo 'Structural validation passed.'
