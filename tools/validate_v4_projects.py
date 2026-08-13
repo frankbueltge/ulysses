@@ -67,6 +67,126 @@ def word_count(path: Path) -> int:
     return len(path.read_text(encoding="utf-8").split())
 
 
+# ————————————————————————————————————————————————— §8 prior art and daylight ——
+# Added 2026-08-13 (Frank). §8 has asked since v4 that theory ship only when demonstrably new,
+# with a documented prior-art search and the nearest prior work named. That is the right bar,
+# scoped to the one case that needed it least. It now covers every work, answered twice —
+# SCOUTED before anything is built, SEALED with the finding in hand.
+#
+# What this check can and cannot see, stated so the limit is visible rather than assumed:
+#
+#  · It cannot tell whether a search was actually run. It reads what the record claims. A
+#    fabricated neighbour list passes here and fails in front of a reader, which is the only
+#    place it could ever have failed.
+#  · It therefore checks SHAPE: that a verdict exists and is one of the four, that daylight is
+#    stated, and that a verdict which asserts novelty has named something to be novel against.
+#
+#  · **Records created before the floor are exempt** — the same reasoning that exempts CLOSED
+#    lines from the size floors. A check introduced afterwards does not rewrite what came
+#    before. The standing record's back-check is scheduled separately and is Frank's.
+#
+# The floor binds from the day it was written, so the first night after it lands is bound by
+# it. That catches one record written earlier the same day, which is named below rather than
+# bought off with a later date — a date chosen to dodge a single known case would exempt every
+# unknown one with it.
+USP_FLOOR_FROM = "2026-08-13"
+
+# Records from before the floor that share its start date. Each carries the reason it is here,
+# because an exemption nobody wrote down cannot be told apart from an oversight — and because
+# removing one should be a decision rather than a cleanup.
+USP_EXEMPT: dict[str, str] = {
+    "2026-08-13-the-editions-the-law-freezes": (
+        "Written hours before this floor existed, and it already does the substance: house "
+        "atlas queried at 505 works, Bridle's Autonomous Trap 001 and terra0's Autonomous "
+        "Forest named as nearest, web searched, and the distinction the verdict turns on drawn "
+        'in its own words — "the census is the contribution; the fact is not." What it lacks is '
+        "the shape. Reshaping a record to fit a form invented after it was written is the "
+        "retro-fit this exemption exists to refuse, and it is Ulysses' record to reshape, not "
+        "this gate's. Remove this entry once the practice has reshaped it."
+    ),
+}
+USP_VERDICTS = ("UNIQUE", "ADDED VALUE", "REDUNDANT", "NOT SETTLED")
+USP_STAGES = {"SCOUTED", "SEALED"}
+# The heading is matched on the phrase, not on a number: the numbered project score calls this
+# §3a, the one-night study shape has no numbers at all, and a night writes its own headings.
+PRIOR_ART_HEADING = re.compile(r"^##[ \t]+.*\bprior art\b.*$", re.IGNORECASE | re.MULTILINE)
+VERDICT_LINE = re.compile(r"\*\*\(c\)\s*Verdict:\s*([A-Z][A-Z ]*[A-Z])\b", re.IGNORECASE)
+DAYLIGHT_LINE = re.compile(r"\*\*\(d\)\s*Daylight\.?\*\*\s*(.+)", re.IGNORECASE)
+# A named neighbour is a markdown link or a bare URL — something a reader can go and check.
+NEIGHBOUR_REF = re.compile(r"\[[^\]]+\]\((https?://[^)]+)\)|(?<![(\w])https?://\S+")
+
+
+def section_body(text: str, heading: re.Pattern[str]) -> str | None:
+    """The text under the first heading `heading` matches, up to the next `## `."""
+    match = heading.search(text)
+    if not match:
+        return None
+    rest = text[match.end():]
+    return re.split(r"^##[ \t]", rest, maxsplit=1, flags=re.MULTILINE)[0]
+
+
+def validate_prior_art(project_dir: Path, meta: dict[str, str], score: Path) -> list[str]:
+    """§8's prior-art floor, for records created once it was in force."""
+    created = meta.get("created", "")
+    if created < USP_FLOOR_FROM or project_dir.name in USP_EXEMPT:
+        return []
+
+    errors: list[str] = []
+    stage = meta.get("usp_stage", "")
+    require(
+        stage in USP_STAGES,
+        f"{project_dir.name}: usp_stage must be SCOUTED or SEALED (§8: the neighbourhood is "
+        f"mapped before anything is built, and the verdict re-read once the finding is in hand)",
+        errors,
+    )
+
+    text = score.read_text(encoding="utf-8")
+    body = section_body(text, PRIOR_ART_HEADING)
+    if body is None:
+        errors.append(
+            f"{project_dir.name}/SCORE.md: no prior-art section. §8: every work answers "
+            f'"has the world already done this?" — a `## ` heading naming prior art, carrying '
+            f"(a) claim, (b) nearest neighbours, (c) verdict, (d) daylight."
+        )
+        return errors
+
+    verdict_match = VERDICT_LINE.search(body)
+    if not verdict_match:
+        errors.append(f"{project_dir.name}/SCORE.md: prior-art section states no **(c) Verdict:**")
+    else:
+        verdict = " ".join(verdict_match.group(1).split()).upper()
+        require(
+            verdict in USP_VERDICTS,
+            f"{project_dir.name}/SCORE.md: verdict {verdict!r} is not one of "
+            f"{', '.join(USP_VERDICTS)}",
+            errors,
+        )
+        # A verdict that asserts novelty owes something to be novel AGAINST. NOT SETTLED is
+        # exempt by definition: it is the verdict for a search that could not reach far enough,
+        # and demanding a neighbour from it would turn the one honest way out into a reason to
+        # invent one.
+        if verdict in ("UNIQUE", "ADDED VALUE", "REDUNDANT"):
+            require(
+                bool(NEIGHBOUR_REF.search(body)),
+                f"{project_dir.name}/SCORE.md: verdict {verdict} names no neighbour a reader "
+                f"can check. §8: there is always a nearest one — name it even when it is far, "
+                f"or record NOT SETTLED and say the search was too weak.",
+                errors,
+            )
+
+    daylight_match = DAYLIGHT_LINE.search(body)
+    if not daylight_match:
+        errors.append(f"{project_dir.name}/SCORE.md: prior-art section states no **(d) Daylight.**")
+    else:
+        require(
+            len(daylight_match.group(1).split()) >= 6,
+            f"{project_dir.name}/SCORE.md: the daylight is too short to carry its own weight — "
+            f"it is the sentence the house quotes when it puts the work on a page.",
+            errors,
+        )
+    return errors
+
+
 def validate_floors(project_dir: Path, status: str) -> list[str]:
     """Size floors, for lines that are still live. Closed records are archive."""
     if status == "CLOSED":
@@ -147,6 +267,7 @@ def validate_project(project_dir: Path) -> list[str]:
         require(status == "QUARANTINED" or disposition == "ESCALATE", f"{project_dir.name}: mandate escalation must be quarantined or have ESCALATE disposition", errors)
 
     errors.extend(validate_floors(project_dir, status))
+    errors.extend(validate_prior_art(project_dir, meta, score))
 
     return errors
 
