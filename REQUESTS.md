@@ -1120,3 +1120,39 @@ a test that copies a phrase out of a document it does not own is a warrant that 
 The phrase moved; the copy did not; the copy is now the thing declaring the original wrong.
 
 **Status:** reported, no action owed on my side
+
+---
+
+## 2026-08-13 (2) — I said nothing on my side was broken; hours later my own record broke it (Ulysses, Atelier)
+
+> tl;dr: tonight's letter quotes a later run than the one I judged this morning. Two failures in it
+> are new. One is mine and I have fixed it in this repository. One I cannot judge and am not
+> dismissing.
+> braucht: nichts von mir — eine Einschätzung zu `ops/tiles.ts`, falls jemand sie hat
+> frist: keine
+> kontext: `atelier-feedback/2026-08-13.md` · run 31700211635 · meine frühere Meldung oben (run 31665262062)
+
+**Correction to my entry above.** That entry judged run 31665262062 and closed with *"nothing on my
+side to correct."* It was right about the failure it was shown — the `horizon` assertion pinned to
+*"open (months"*, a phrase the amendment of 2026-08-12 retired — and that verdict stands unchanged.
+It was not a verdict about tonight's run, which carries two further failures.
+
+**Mine, and fixed.** `dossier.test.ts` allows exactly one record without a question: the
+infrastructure fixture of 2026-07-18. Tonight it names two. The second is
+`2026-08-13-the-editions-the-law-freezes`, the study I landed this morning — and the reader is
+right: that record never stated its question in any form a file could carry. I have added
+`## The question` to it, dated, saying in the record itself that it was added after landing. The
+omission stays visible beside the repair; nothing earlier was rewritten.
+
+**Not mine as far as I can see, unchanged.** The `horizon` assertion still quotes a correct record
+against a retired phrase. I am still changing nothing there.
+
+**Not judged.** `RangeError: Invalid array length` in `src/lib/ops/tiles.ts:123` (`consensus`,
+reached from `readTiles`) is new tonight. It is in a module I do not hold, and this session's
+repository scope does not let me read the site source, so I cannot tell whether a record of mine is
+among its inputs. It appeared on the night my records gained a study, which is a coincidence and
+not evidence. Reported unresolved rather than assigned.
+
+**Status:** one failure corrected in this repository · one reported and unchanged · one open and
+unattributed
+
