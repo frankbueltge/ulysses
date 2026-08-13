@@ -1051,3 +1051,72 @@ publishing act arrives as a pull request rather than as an auto-land.
 > now between this work and its shipping act except where to sign it. Under the standing rule at
 > the head of this file, silence through my next session means I decide the schema myself; I
 > lean to shape (1). Recorded so the deferral cannot repeat quietly.
+
+> **Note added 2026-08-13.** That session has now happened and the rule fired: the schema is
+> decided — shape (1), with an execution binding — in the entry of 2026-08-13 below. This entry's
+> schema question is closed; its two merges are not.
+
+---
+
+## 2026-08-13 — The schema question came due tonight, and I decided it (Ulysses, Atelier)
+
+> tl;dr: the standing rule made the signing-slot decision mine at this session. I decide
+> **shape (1)** — `PUBLICATION.json` becomes a list of records — with one binding that the
+> evening's evidence forced: the change lands **in the same commit as the second work it signs**,
+> never before.
+> braucht: nichts als Entscheidung · weiterhin die zwei Merges (PR #12, ein späterer `works/`-PR)
+> frist: keine
+> kontext: Eintrag „2026-08-12 (2)" oben · `SITE-API.md` · `projects/2026-07-23-negative-parallax/PUBLICATION.json`
+
+Yesterday's entry said: *silence through my next session means I decide the schema myself; I lean
+to shape (1).* This is that session, so deciding is what the rule asks for and deferring again is
+the thing it forbids.
+
+**Decision: shape (1)** — one door per project, `PUBLICATION.json` carrying a list of records
+instead of a single one. The reasons are the ones I already gave: it keeps one file per project and
+it is the smallest change to anything that reads it.
+
+**One thing I checked tonight that I had not checked when I wrote the lean.** `SITE-API.md` does
+not document `PUBLICATION.json` at all — I searched it. So the file has a consumer I cannot see and
+a contract that is written nowhere I can read. That does not change the shape I picked; it changes
+when it may be executed. A single-to-list change to an undocumented file that something builds from
+is exactly the case where being wrong costs a feed rather than a number, and the site build is
+already red tonight for an unrelated reason.
+
+**So the decision travels with a binding:** the shape change is made **in the same commit as the
+second work's record**, so the list never exists with one member and no second work, and the
+pull-request body names the change so you see it before you merge rather than after. If that is
+wrong, one line from you and I use shape (2) instead — but I am not holding the decision open for
+it.
+
+**Unchanged and still yours:** PR #12 (the packet, open since 2026-08-08 — the seven-day bind runs
+from its merge, not from its opening), and the later `works/` pull request my publishing act will
+be. Nothing on my side now waits on a decision.
+
+**Status:** decided by me under the standing rule · execution still needs the two merges
+
+---
+
+## 2026-08-13 — The red build gate quotes my file, and my file is right (Ulysses, Atelier)
+
+> tl;dr: tonight's `atelier-feedback/2026-08-13.md` reports the site build red. The failing
+> assertion quotes my `SCORE.md` and expects a string your own amendment retired. Nothing on my
+> side to correct — reported because the letter asks me to judge, not because I want a fix.
+> braucht: nichts von mir · eine Zeile in eurem Test, wenn ihr wollt
+> frist: keine
+> kontext: `atelier-feedback/2026-08-13.md` · run 31665262062 · `src/lib/atelier/dossier.test.ts:116`
+
+The failing test asserts that the running line's `horizon` frontmatter contains **"open (months"**.
+It does not, and it should not: the amendment of 2026-08-12 replaced the open horizon with the
+twelve-session bound, and `projects/2026-07-23-negative-parallax/SCORE.md` now reads *"Bounded, and
+past the bound."* — which is the text the log quotes back as the failure.
+
+So the assertion is pinned to a wording your own floor retired the day before, and the record it
+reads is correct. **I am changing nothing.** I could make the test green in one edit by putting the
+old sentence back, and that is precisely the move §8 forbids.
+
+Worth one line beyond the bookkeeping, because it is this line's own subject at the house's expense:
+a test that copies a phrase out of a document it does not own is a warrant that stopped travelling.
+The phrase moved; the copy did not; the copy is now the thing declaring the original wrong.
+
+**Status:** reported, no action owed on my side
