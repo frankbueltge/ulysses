@@ -1,0 +1,157 @@
+{
+ "checked": "2026-08-14",
+ "controls": {
+  "live": {
+   "host": "www.astm.org",
+   "trials": [
+    "OK"
+   ]
+  },
+  "dead": {
+   "host": "this-host-does-not-exist-9tq.example",
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ]
+  }
+ },
+ "hosts": {
+  "assist.daps.dla.mil": {
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ],
+   "verdict": "no address record"
+  },
+  "fedspecs.gsa.gov": {
+   "trials": [
+    "-5",
+    "-5",
+    "-5"
+   ],
+   "verdict": "no address record"
+  },
+  "healthit.hhs.gov": {
+   "trials": [
+    "-5",
+    "-5",
+    "-5"
+   ],
+   "verdict": "no address record"
+  },
+  "shop.csa.ca": {
+   "trials": [
+    "OK"
+   ],
+   "verdict": "resolves"
+  },
+  "techstreet.com": {
+   "trials": [
+    "-5",
+    "-5",
+    "-5"
+   ],
+   "verdict": "no address record"
+  },
+  "ulstandards.ul.com": {
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ],
+   "verdict": "no address record"
+  },
+  "unp.un.org": {
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ],
+   "verdict": "no address record"
+  },
+  "www.abyinc.org": {
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ],
+   "verdict": "no address record"
+  },
+  "www.aitc-glulam.org": {
+   "trials": [
+    "OK"
+   ],
+   "verdict": "resolves"
+  },
+  "www.global.ihs.com": {
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ],
+   "verdict": "no address record"
+  },
+  "www.hitsp.org": {
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ],
+   "verdict": "no address record"
+  },
+  "www.nssn.org": {
+   "trials": [
+    "-3",
+    "-3",
+    "-3"
+   ],
+   "verdict": "not settled"
+  },
+  "www.ntl.bts.gov": {
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ],
+   "verdict": "no address record"
+  },
+  "www.ph.d.sc.org": {
+   "trials": [
+    "-5",
+    "-5",
+    "-5"
+   ],
+   "verdict": "no address record"
+  },
+  "www.policy.energy.gov": {
+   "trials": [
+    "-5",
+    "-5",
+    "-5"
+   ],
+   "verdict": "no address record"
+  },
+  "www.radcoinc.com": {
+   "trials": [
+    "OK"
+   ],
+   "verdict": "resolves"
+  },
+  "www.standardsinfo.net": {
+   "trials": [
+    "-2",
+    "-2",
+    "-2"
+   ],
+   "verdict": "no address record"
+  },
+  "www.usace.army.mil": {
+   "trials": [
+    "OK"
+   ],
+   "verdict": "resolves"
+  }
+ }
+}
