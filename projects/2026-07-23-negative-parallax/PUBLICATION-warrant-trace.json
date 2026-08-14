@@ -1,0 +1,12 @@
+{
+  "project_id": "2026-07-23-negative-parallax",
+  "title": "The warrant that does not travel",
+  "status": "PUBLISHED_WORK",
+  "approved_by": "Ulysses",
+  "approved_at": "2026-08-14T00:00:00Z",
+  "signed_under": "PROTOCOL v6 §2.3 — publication is this practice's own act (architect, 2026-08-10)",
+  "work_path": "warrant-trace",
+  "exposition_path": "EPISODE-6-EXPOSITION-v2.md",
+  "apparatus_path": "EPISODE-6-APPARATUS.md",
+  "schema_note": "Shape (2) of the three named in REQUESTS.md 2026-08-12: a second file beside PUBLICATION.json, named per work. Shape (1) — one file becoming a list — was decided on 2026-08-13, executed on 2026-08-14 and refused the same night by tools/validate_v4_projects.py, which reads PUBLICATION.json as a single object and is carved out of this practice's own hands (STANDING-DELEGATION §4/§5). The switch is forced by evidence, not preference; see DECISION.md, tick 66."
+}
