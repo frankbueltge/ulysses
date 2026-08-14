@@ -1,0 +1,1747 @@
+{
+ "issue_date": "2026-08-11",
+ "titles_failed": [],
+ "count": 290,
+ "sections": [
+  {
+   "title": 6,
+   "section": "37.4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 7,
+   "section": "205.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 7,
+   "section": "1728.97",
+   "heading": "Incorporation by reference of electric standards and specifications.",
+   "reserved": false
+  },
+  {
+   "title": 9,
+   "section": "92.7",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 10,
+   "section": "300.13",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 12,
+   "section": "233.1",
+   "heading": "Authority, purpose, collection of information, and incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "36.6",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "38.7",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "65.23",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "91.1721",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "151.72",
+   "heading": "Incorporation by reference of technical guidelines in Advisory Circulars.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "152.11",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "194.109",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "201.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "211.14",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "253.4",
+   "heading": "Incorporation by reference in the contract of carriage.",
+   "reserved": false
+  },
+  {
+   "title": 14,
+   "section": "1206.203",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 15,
+   "section": "200.115",
+   "heading": "Description of services and list of fees, incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 15,
+   "section": "230.7",
+   "heading": "Description of services and list of fees, incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 15,
+   "section": "285.16",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 15,
+   "section": "995.2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "306.13",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "1211.40",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "1241.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "1242.8",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "1243.8",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "1250.10",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "1450.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "1461.4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 16,
+   "section": "1640.6",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 17,
+   "section": "230.411",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 17,
+   "section": "232.303",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 17,
+   "section": "240.12b-23",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 17,
+   "section": "260.7a-31",
+   "heading": "Incorporation by reference of contested material.",
+   "reserved": false
+  },
+  {
+   "title": 17,
+   "section": "260.7a-32",
+   "heading": "Incorporation by reference rendering document incomplete, unclear, or confusing.",
+   "reserved": false
+  },
+  {
+   "title": 17,
+   "section": "270.0-4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 17,
+   "section": "275.0-6",
+   "heading": "Incorporation by reference in applications.",
+   "reserved": false
+  },
+  {
+   "title": 18,
+   "section": "38.1",
+   "heading": "Incorporation by reference of North American Energy Standards Board Wholesale Electric Quadrant standards.",
+   "reserved": false
+  },
+  {
+   "title": 21,
+   "section": "106.160",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 21,
+   "section": "820.7",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 21,
+   "section": "830.10",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 21,
+   "section": "1141.5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 21,
+   "section": "1311.08",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 23,
+   "section": "490.111",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 23,
+   "section": "630.1018",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 23,
+   "section": "650.317",
+   "heading": "Incorporation by reference .",
+   "reserved": false
+  },
+  {
+   "title": 23,
+   "section": "650.517",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 24,
+   "section": "100.201a",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 24,
+   "section": "200.927",
+   "heading": "Incorporation by reference of minimum property standards.",
+   "reserved": false
+  },
+  {
+   "title": 24,
+   "section": "247.8",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 24,
+   "section": "905.110",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 24,
+   "section": "3280.4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 24,
+   "section": "3282.16",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 24,
+   "section": "3285.4",
+   "heading": "Incorporation by reference (IBR).",
+   "reserved": false
+  },
+  {
+   "title": 28,
+   "section": "5.207",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 29,
+   "section": "1910.6",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 29,
+   "section": "1910.509",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 29,
+   "section": "1915.5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 29,
+   "section": "1917.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 29,
+   "section": "1918.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 29,
+   "section": "1926.6",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 30,
+   "section": "75.1107-17",
+   "heading": "Incorporation by reference; availability of publications.",
+   "reserved": false
+  },
+  {
+   "title": 30,
+   "section": "77.403-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 31,
+   "section": "29.501",
+   "heading": "Purpose; incorporation by reference; scope.",
+   "reserved": false
+  },
+  {
+   "title": 31,
+   "section": "132.1",
+   "heading": "Authority, purpose, collection of information, and incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 32,
+   "section": "170.2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 32,
+   "section": "2002.2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "96.130",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "97.110",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "101.115",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "118.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "126.5",
+   "heading": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "127.003",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "140.7",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "149.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "154.106",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "155.140",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "156.111",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "157.02",
+   "heading": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "159.4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "164.03",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "169.15",
+   "heading": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "183.5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 33,
+   "section": "183.607",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 34,
+   "section": "77.2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 37,
+   "section": "1.57",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 37,
+   "section": "1.839",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 38,
+   "section": "17.1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 38,
+   "section": "36.4219",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 38,
+   "section": "36.4517",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 39,
+   "section": "20.1",
+   "heading": "Incorporation by reference; Mailing Standards of the United States Postal Service, International Mail Manual.",
+   "reserved": false
+  },
+  {
+   "title": 39,
+   "section": "111.1",
+   "heading": "Incorporation by reference; Mailing Standards of the United States Postal Service, Domestic Mail Manual.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "52.742",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "62.1490",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "62.8700",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "62.10353",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "65.13",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "72.13",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "75.6",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "76.4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "80.12",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "82.27",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "82.31",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "84.37",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "86.1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "260.11",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "272.2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "282.2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "432.5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "600.011",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "745.67",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "761.19",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "770.99",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1030.110",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1031.210",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1036.810",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1037.810",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1042.910",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1043.100",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1065.1010",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1066.1010",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1068.95",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 40,
+   "section": "1090.95",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 43,
+   "section": "11.18",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 43,
+   "section": "3174.3",
+   "heading": "Incorporation by reference (IBR).",
+   "reserved": false
+  },
+  {
+   "title": 43,
+   "section": "3175.30",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 43,
+   "section": "3176.11",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 43,
+   "section": "10010.33",
+   "heading": "Incorporation by reference of material into NEPA documents.",
+   "reserved": false
+  },
+  {
+   "title": 45,
+   "section": "170.299",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 45,
+   "section": "170.599",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 45,
+   "section": "502.4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "2.45-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "8.110",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "10.103",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "11.102",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "12.103",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "13.103",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "15.103",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "25.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "27.102",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "28.40",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "30.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "31.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "32.01-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "34.01-15",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "35.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "38.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "39.1005",
+   "heading": "Incorporation by reference\u2014TB/ALL.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "52.01-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "53.01-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "54.01-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "56.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "57.02-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "58.03-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "59.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "61.03-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "62.05-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "63.05-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "64.2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "67.13",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "71.25-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "72.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "76.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "77.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "78.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "91.25-7",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "92.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "95.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "96.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "97.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "98.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "105.3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "107.115",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "108.101",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "109.105",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "110.10-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "114.600",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "125.180",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "136.112",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "147.7",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "148.8",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "151.01-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "153.4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "154.1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "159.001-4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.010-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.021-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.022-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.023-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.024-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.031-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.036-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.037-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.040-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.045-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.046-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.049-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.050-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.051-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.055-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.057-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.060-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.064-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.076-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.115-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.132-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.133-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.135-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.151-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.156-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.170-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.171-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.174-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.176-4",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.255-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.264-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "160.276-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "161.002-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "161.010-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "162.017-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "162.027-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "162.028-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "162.039-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "162.050-4",
+   "heading": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "162.060-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "162.161-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "162.163-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.013-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.105-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.106-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.107-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.108-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.109-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.110-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.111-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.112-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.117-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.136-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.137-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.138-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.139-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.141-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.142-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.144-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.146-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.201-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "164.207-2",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "169.115",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "170.015",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "171.012",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "172.020",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "174.007",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "175.600",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "179.15",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "188.01-5",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "193.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "195.01-3",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "197.510",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "199.05",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 46,
+   "section": "503.13",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "2.910",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "8.201",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "15.38",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "25.108",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "26.305",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "73.8000",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "74.35",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "76.602",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "79.100",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "80.7",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "88.117",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "90.384",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 47,
+   "section": "300.1",
+   "heading": "Incorporation by reference of the Manual of Regulations and Procedures for Federal Radio Frequency Management.",
+   "reserved": false
+  },
+  {
+   "title": 48,
+   "section": "652.102-1",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "227.219",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "299.17",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "537.10",
+   "heading": "Incorporation by reference by manufacturers.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "562.11",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.70",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.90",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.120",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.130",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.140",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.150",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.160",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.170",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "572.210",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 49,
+   "section": "587.12",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 50,
+   "section": "23.9",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  },
+  {
+   "title": 50,
+   "section": "622.19",
+   "heading": "Incorporation by reference.",
+   "reserved": false
+  }
+ ]
+}

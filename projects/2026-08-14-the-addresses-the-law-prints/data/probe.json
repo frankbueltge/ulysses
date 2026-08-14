@@ -1,0 +1,6988 @@
+{
+ "probed": "2026-08-14",
+ "user_agent": "Mozilla/5.0 (compatible; Ulysses-IBR-census/1.0; artistic research; one request per address; +https://frankbueltge.de/atelier/)",
+ "source_sha256_note": "data/urls.json as hashed in MEASUREMENT.md",
+ "results": [
+  {
+   "url": "http://asq.org",
+   "host": "asq.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 136.112"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://asq.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://bookstore.gpo.gov",
+   "host": "bookstore.gpo.gov",
+   "host_class": "federal",
+   "sections": [
+    "30 CFR 77.403-2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://bookstore.gpo.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://bookstore.gpo.gov/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://csrc.nist.gov",
+   "host": "csrc.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "21 CFR 1311.08"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://csrc.nist.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://csrc.nist.gov/groups/STM/cmvp/standards.html",
+   "host": "csrc.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://csrc.nist.gov/projects/cryptographic-module-validation-program"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://everyspec.com",
+   "host": "everyspec.com",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://everyspec.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://global.ihs.com",
+   "host": "global.ihs.com",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 1728.97",
+    "29 CFR 1910.6",
+    "29 CFR 1917.3",
+    "29 CFR 1918.3",
+    "29 CFR 1926.6",
+    "47 CFR 76.602",
+    "47 CFR 79.100"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://store.accuristech.com/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://store.accuristech.com/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://healthit.hhs.gov",
+   "host": "healthit.hhs.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: healthit.hhs.gov",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: healthit.hhs.gov",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://healthit.hhs.gov/portal/server.pt/community/healthit_hhs_gov__direct_project/3338",
+   "host": "healthit.hhs.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: healthit.hhs.gov",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: healthit.hhs.gov",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://ies.ed.gov/ncee/wwc/Handbooks",
+   "host": "ies.ed.gov",
+   "host_class": "federal",
+   "sections": [
+    "34 CFR 77.2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://ies.ed.gov/ncee/wwc/Handbooks"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://infostore.saiglobal.com/store/",
+   "host": "infostore.saiglobal.com",
+   "host_class": "other",
+   "sections": [
+    "43 CFR 3174.3",
+    "43 CFR 3175.30"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.intertekinform.com/store/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.intertekinform.com/store/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://nacha.org",
+   "host": "nacha.org",
+   "host_class": "other",
+   "sections": [
+    "12 CFR 233.1",
+    "31 CFR 132.1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.nacha.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://nfpa.org",
+   "host": "nfpa.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 76.01-2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.nfpa.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://nist.gov/publication-portal.cfm",
+   "host": "nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "32 CFR 2002.2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://www.nist.gov/publications"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://openid.net",
+   "host": "openid.net",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://openid.net/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://publications.api.org",
+   "host": "publications.api.org",
+   "host_class": "other",
+   "sections": [
+    "43 CFR 3174.3",
+    "43 CFR 3175.30"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://publications.api.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://quicksearch.dla.mil",
+   "host": "quicksearch.dla.mil",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 169.115",
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://quicksearch.dla.mil/"
+   },
+   "second": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://quicksearch.dla.mil/"
+   },
+   "outcome": "5xx"
+  },
+  {
+   "url": "http://rtca.org",
+   "host": "rtca.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 88.117"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.rtca.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://store.sae.org/dlabout.htm",
+   "host": "store.sae.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 82.31"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://legacy.sae.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://techstreet.com",
+   "host": "techstreet.com",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6",
+    "29 CFR 1917.3",
+    "29 CFR 1918.3",
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: techstreet.com",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: techstreet.com",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://ulstandards.ul.com",
+   "host": "ulstandards.ul.com",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1211.40"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: ulstandards.ul.com",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: ulstandards.ul.com",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://unp.un.org",
+   "host": "unp.un.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 148.8"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: unp.un.org",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: unp.un.org",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://webstore.ansi.org",
+   "host": "webstore.ansi.org",
+   "host_class": "other",
+   "sections": [
+    "21 CFR 830.10",
+    "29 CFR 1910.6",
+    "29 CFR 1917.3",
+    "29 CFR 1918.3",
+    "29 CFR 1926.6",
+    "47 CFR 76.602"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://webstore.ansi.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://webstore.ansi.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://ww2.eagle.org",
+   "host": "ww2.eagle.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 114.600",
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://ww2.eagle.org/en.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.3-a.org",
+   "host": "www.3-a.org",
+   "host_class": "other",
+   "sections": [
+    "21 CFR 106.160"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.3-a.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.abycinc.org",
+   "host": "www.abycinc.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 25.01-3",
+    "46 CFR 114.600",
+    "46 CFR 125.180",
+    "46 CFR 136.112",
+    "46 CFR 169.115",
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://abycinc.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.acgih.org",
+   "host": "www.acgih.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.acgih.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.aem.org/CBC/ProdSpec/PCSA/",
+   "host": "www.aem.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.aem.org/not-found"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.ansi.org",
+   "host": "www.ansi.org",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 1728.97",
+    "29 CFR 1910.509",
+    "29 CFR 1917.3",
+    "29 CFR 1926.6",
+    "33 CFR 155.140",
+    "46 CFR 114.600",
+    "46 CFR 125.180",
+    "46 CFR 153.4",
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ansi.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ansi.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.api.org",
+   "host": "www.api.org",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 127.003"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.api.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.apsp.org",
+   "host": "www.apsp.org",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1450.3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.phta.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.arb.ca.gov",
+   "host": "www.arb.ca.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 1065.1010"
+   ],
+   "first": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.arb.ca.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.arb.ca.gov/"
+   },
+   "outcome": "5xx"
+  },
+  {
+   "url": "http://www.archives.gov/federal-register/cfr/ibr-locations.html",
+   "host": "www.archives.gov",
+   "host_class": "federal",
+   "sections": [
+    "16 CFR 306.13",
+    "24 CFR 3282.16",
+    "24 CFR 3285.4",
+    "46 CFR 67.13",
+    "49 CFR 572.170"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.archives.gov/federal-register/cfr/ibr-locations.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locations.html",
+   "host": "www.archives.gov",
+   "host_class": "federal",
+   "sections": [
+    "7 CFR 205.3",
+    "9 CFR 92.7",
+    "10 CFR 300.13",
+    "12 CFR 233.1",
+    "14 CFR 36.6",
+    "14 CFR 91.1721",
+    "15 CFR 995.2",
+    "16 CFR 1211.40",
+    "21 CFR 106.160",
+    "21 CFR 830.10",
+    "21 CFR 1311.08",
+    "23 CFR 490.111",
+    "23 CFR 650.517",
+    "24 CFR 905.110",
+    "29 CFR 1917.3",
+    "29 CFR 1918.3",
+    "31 CFR 132.1",
+    "32 CFR 2002.2",
+    "33 CFR 96.130",
+    "33 CFR 101.115",
+    "33 CFR 118.3",
+    "33 CFR 126.5",
+    "33 CFR 140.7",
+    "33 CFR 149.3",
+    "33 CFR 154.106",
+    "33 CFR 155.140",
+    "33 CFR 156.111",
+    "33 CFR 157.02",
+    "33 CFR 159.4",
+    "33 CFR 169.15",
+    "33 CFR 183.5",
+    "33 CFR 183.607",
+    "38 CFR 17.1",
+    "40 CFR 65.13",
+    "40 CFR 72.13",
+    "40 CFR 75.6",
+    "40 CFR 76.4",
+    "40 CFR 1042.910",
+    "40 CFR 1043.100",
+    "40 CFR 1068.95",
+    "43 CFR 11.18",
+    "43 CFR 3174.3",
+    "43 CFR 3175.30",
+    "45 CFR 170.599",
+    "46 CFR 2.45-5",
+    "46 CFR 8.110",
+    "46 CFR 25.01-3",
+    "46 CFR 27.102",
+    "46 CFR 28.40",
+    "46 CFR 30.01-3",
+    "46 CFR 31.01-2",
+    "46 CFR 32.01-1",
+    "46 CFR 34.01-15",
+    "46 CFR 38.01-3",
+    "46 CFR 71.25-3",
+    "46 CFR 72.01-2",
+    "46 CFR 76.01-2",
+    "46 CFR 78.01-2",
+    "46 CFR 91.25-7",
+    "46 CFR 92.01-2",
+    "46 CFR 95.01-2",
+    "46 CFR 97.01-2",
+    "46 CFR 98.01-3",
+    "46 CFR 105.3",
+    "46 CFR 108.101",
+    "46 CFR 109.105",
+    "46 CFR 114.600",
+    "46 CFR 125.180",
+    "46 CFR 136.112",
+    "46 CFR 147.7",
+    "46 CFR 148.8",
+    "46 CFR 151.01-2",
+    "46 CFR 153.4",
+    "46 CFR 154.1",
+    "46 CFR 159.001-4",
+    "46 CFR 160.010-1",
+    "46 CFR 161.002-1",
+    "46 CFR 161.010-1",
+    "46 CFR 162.027-2",
+    "46 CFR 162.028-1",
+    "46 CFR 162.039-1",
+    "46 CFR 162.050-4",
+    "46 CFR 162.161-2",
+    "46 CFR 162.163-2",
+    "46 CFR 164.013-2",
+    "46 CFR 164.105-2",
+    "46 CFR 164.106-2",
+    "46 CFR 164.107-2",
+    "46 CFR 164.108-2",
+    "46 CFR 164.109-2",
+    "46 CFR 164.110-2",
+    "46 CFR 164.111-2",
+    "46 CFR 164.112-2",
+    "46 CFR 164.117-2",
+    "46 CFR 164.136-2",
+    "46 CFR 164.137-2",
+    "46 CFR 164.141-2",
+    "46 CFR 164.142-2",
+    "46 CFR 164.144-2",
+    "46 CFR 164.146-2",
+    "46 CFR 164.201-2",
+    "46 CFR 164.207-2",
+    "46 CFR 170.015",
+    "46 CFR 171.012",
+    "46 CFR 172.020",
+    "46 CFR 174.007",
+    "46 CFR 175.600",
+    "46 CFR 179.15",
+    "46 CFR 188.01-5",
+    "46 CFR 193.01-3",
+    "46 CFR 197.510",
+    "49 CFR 562.11",
+    "49 CFR 572.70",
+    "49 CFR 572.90",
+    "49 CFR 572.120",
+    "49 CFR 572.140",
+    "49 CFR 572.150",
+    "49 CFR 572.160",
+    "49 CFR 587.12"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.archives.gov/federal-register/cfr/ibr-locations.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_zlocations.html",
+   "host": "www.archives.gov",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 162.060-5"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.archives.gov/federal_register/code_of_federal_regulations/ibr_zlocations"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.archives.gov/federal_register/code_of_federal_regulations/ibr_zlocations"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "http://www.asabe.org",
+   "host": "www.asabe.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://asabe.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.asabe.org/publications/publications/standards.aspx",
+   "host": "www.asabe.org",
+   "host_class": "other",
+   "sections": [
+    "49 CFR 562.11"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://asabe.org/publications-standards/publications/standards"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.ashrae.org/standards-research-technology/standards-guidelines",
+   "host": "www.ashrae.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 905.110"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ashrae.org/standards-research-technology/standards-guidelines"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ashrae.org/standards-research-technology/standards-guidelines"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "http://www.asistdocs.com",
+   "host": "www.asistdocs.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 160.176-4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://cgwcows.ru.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.asme.org",
+   "host": "www.asme.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6",
+    "46 CFR 125.180"
+   ],
+   "first": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.asme.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.asme.org/"
+   },
+   "outcome": "5xx"
+  },
+  {
+   "url": "http://www.astm.org",
+   "host": "www.astm.org",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 205.3",
+    "16 CFR 306.13",
+    "29 CFR 1917.3",
+    "29 CFR 1918.3",
+    "29 CFR 1926.6",
+    "33 CFR 126.5",
+    "33 CFR 155.140",
+    "40 CFR 1065.1010",
+    "45 CFR 170.299",
+    "46 CFR 30.01-3",
+    "46 CFR 32.01-1",
+    "46 CFR 34.01-15",
+    "46 CFR 76.01-2",
+    "46 CFR 95.01-2",
+    "46 CFR 105.3",
+    "46 CFR 108.101",
+    "46 CFR 114.600",
+    "46 CFR 125.180",
+    "46 CFR 153.4",
+    "46 CFR 160.176-4",
+    "46 CFR 162.027-2",
+    "46 CFR 175.600",
+    "46 CFR 193.01-3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.astm.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.astm.org/DIGITAL_LIBRARY/index.shtml",
+   "host": "www.astm.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 72.13",
+    "40 CFR 75.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://store.astm.org/index.shtml.html"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://store.astm.org/index.shtml.html"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "http://www.atsc.org/standards.html",
+   "host": "www.atsc.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 76.602"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.atsc.org/documents/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.aws.org",
+   "host": "www.aws.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.aws.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.bsigroup.com",
+   "host": "www.bsigroup.com",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.bsigroup.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.cdc.gov/growthcharts/who_charts.htm",
+   "host": "www.cdc.gov",
+   "host_class": "federal",
+   "sections": [
+    "21 CFR 106.160"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.cdc.gov/growthcharts/who_charts.htm"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.cganet.com",
+   "host": "www.cganet.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 147.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.cganet.com/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.cganet.com/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.dasma.com/dasma-pages/D-AS-standards.asp",
+   "host": "www.dasma.com",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1211.40"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.dasma.com/dasma-standards/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.dir.ca.gov",
+   "host": "www.dir.ca.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.dir.ca.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.document-center.com",
+   "host": "www.document-center.com",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://standards.nimonik.com:443/?isDcRedirect=true"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.eagle.org",
+   "host": "www.eagle.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 32.01-1",
+    "46 CFR 125.180",
+    "46 CFR 136.112"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://ww2.eagle.org/en.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.energyinst.org",
+   "host": "www.energyinst.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 1065.1010"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.energyinst.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.energyinst.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.epa.gov/ttn/emc/news.html",
+   "host": "www.epa.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 72.13",
+    "40 CFR 75.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.epa.gov/ttn/emc/news.html"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.epa.gov/ttn/emc/news.html"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "http://www.etsi.org",
+   "host": "www.etsi.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 25.108"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.etsi.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.faa.gov/aircraft/air_cert/design",
+   "host": "www.faa.gov",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 160.176-4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.faa.gov/aircraft/air_cert/design"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.faa.gov/aircraft/air_cert/design"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.fhwa.dot.gov/bridge/inspection/tunnel/",
+   "host": "www.fhwa.dot.gov",
+   "host_class": "federal",
+   "sections": [
+    "23 CFR 650.517"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.fhwa.dot.gov/bridge/inspection/tunnel/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.flrules.org",
+   "host": "www.flrules.org",
+   "host_class": "other",
+   "sections": [
+    "50 CFR 622.19"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://flrules.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.fmglobal.com",
+   "host": "www.fmglobal.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 136.112",
+    "46 CFR 161.002-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.fmglobal.com/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.fm.com/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.gpo.gov",
+   "host": "www.gpo.gov",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 147.7",
+    "46 CFR 160.176-4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.gpo.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.gsa.gov",
+   "host": "www.gsa.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.gsa.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.healthit.gov/sites/default/files/implementationguidefordirectedgeprotocolsv1_1.pdf",
+   "host": "www.healthit.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://healthit.gov/wp-content/uploads/2025/03/implementationguidefordirectedgeprotocolsv1_1.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.hitsp.org",
+   "host": "www.hitsp.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: www.hitsp.org",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: www.hitsp.org",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://www.icao.int/publications/Pages/default.aspx",
+   "host": "www.icao.int",
+   "host_class": "other",
+   "sections": [
+    "14 CFR 36.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.icao.int/publications"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.iccsafe.org/e/category.html",
+   "host": "www.iccsafe.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 100.201a"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.iccsafe.org/e/category.html"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.iccsafe.org/e/category.html"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "http://www.icgb.com",
+   "host": "www.icgb.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 107.115"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.icgb.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.iec.ch",
+   "host": "www.iec.ch",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 164.03",
+    "46 CFR 161.002-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 202,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.iec.ch/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.iec.ch/standardsdev/publications/?ref=menu",
+   "host": "www.iec.ch",
+   "host_class": "other",
+   "sections": [
+    "14 CFR 36.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 202,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.iec.ch/standardsdev/publications/?ref=menu"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.ieee.org",
+   "host": "www.ieee.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 114.600",
+    "46 CFR 125.180",
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 202,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.ieee.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.ietf.org/rfc.html",
+   "host": "www.ietf.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://www.rfc-editor.org/rfc/"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://www.rfc-editor.org/rfc/"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "http://www.ihe.net",
+   "host": "www.ihe.net",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ihe.net/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.ime.org",
+   "host": "www.ime.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.ime.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.ime.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.imo.org",
+   "host": "www.imo.org",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 97.110",
+    "33 CFR 140.7",
+    "33 CFR 155.140",
+    "33 CFR 156.111",
+    "46 CFR 2.45-5",
+    "46 CFR 32.01-1",
+    "46 CFR 72.01-2",
+    "46 CFR 76.01-2",
+    "46 CFR 92.01-2",
+    "46 CFR 95.01-2",
+    "46 CFR 108.101",
+    "46 CFR 114.600",
+    "46 CFR 125.180",
+    "46 CFR 136.112",
+    "46 CFR 148.8",
+    "46 CFR 159.001-4",
+    "46 CFR 160.010-1",
+    "46 CFR 160.051-5",
+    "46 CFR 160.115-5",
+    "46 CFR 160.132-5",
+    "46 CFR 160.133-5",
+    "46 CFR 160.135-5",
+    "46 CFR 160.151-5",
+    "46 CFR 160.156-5",
+    "46 CFR 160.170-5",
+    "46 CFR 161.002-1",
+    "46 CFR 164.105-2",
+    "46 CFR 164.106-2",
+    "46 CFR 164.107-2",
+    "46 CFR 164.108-2",
+    "46 CFR 164.109-2",
+    "46 CFR 164.110-2",
+    "46 CFR 164.111-2",
+    "46 CFR 164.112-2",
+    "46 CFR 164.117-2",
+    "46 CFR 164.136-2",
+    "46 CFR 164.137-2",
+    "46 CFR 164.141-2",
+    "46 CFR 164.142-2",
+    "46 CFR 164.144-2",
+    "46 CFR 164.146-2",
+    "46 CFR 164.201-2",
+    "46 CFR 164.207-2",
+    "46 CFR 170.015",
+    "46 CFR 171.012",
+    "46 CFR 172.020",
+    "46 CFR 174.007",
+    "46 CFR 175.600",
+    "46 CFR 179.15",
+    "47 CFR 80.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.imo.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.iso.org",
+   "host": "www.iso.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1926.6",
+    "40 CFR 1065.1010",
+    "45 CFR 170.599",
+    "46 CFR 136.112",
+    "46 CFR 159.001-4",
+    "46 CFR 162.050-4",
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.iso.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.iso.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.itu.int/en/pages/default.aspx",
+   "host": "www.itu.int",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.itu.int/en/pages/default.aspx"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.itu.int/pub/R-REG-RR-2012",
+   "host": "www.itu.int",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 25.108"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.itu.int/en/publications/pages/notfound.aspx"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.itu.int/pub/R-REG-RR-2016",
+   "host": "www.itu.int",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 25.108"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.itu.int/pub/R-REG-RR-2016"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.leg.state.fl.us/statutes/",
+   "host": "www.leg.state.fl.us",
+   "host_class": "other",
+   "sections": [
+    "50 CFR 622.19"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.leg.state.fl.us/statutes/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.lr.org",
+   "host": "www.lr.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.lr.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.marisec.org",
+   "host": "www.marisec.org",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 156.111"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://cocoll88.click/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://cocoll88.click/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.nfpa.org",
+   "host": "www.nfpa.org",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1211.40",
+    "24 CFR 3282.16",
+    "29 CFR 1910.6",
+    "29 CFR 1926.6",
+    "30 CFR 75.1107-17",
+    "33 CFR 140.7",
+    "33 CFR 149.3",
+    "33 CFR 155.140",
+    "46 CFR 25.01-3",
+    "46 CFR 31.01-2",
+    "46 CFR 34.01-15",
+    "46 CFR 71.25-3",
+    "46 CFR 91.25-7",
+    "46 CFR 95.01-2",
+    "46 CFR 108.101",
+    "46 CFR 114.600",
+    "46 CFR 125.180",
+    "46 CFR 136.112",
+    "46 CFR 147.7",
+    "46 CFR 161.002-1",
+    "46 CFR 162.027-2",
+    "46 CFR 162.028-1",
+    "46 CFR 162.039-1",
+    "46 CFR 162.161-2",
+    "46 CFR 169.115",
+    "46 CFR 175.600",
+    "46 CFR 188.01-5",
+    "46 CFR 193.01-3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.nfpa.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.nsc.org",
+   "host": "www.nsc.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6",
+    "29 CFR 1917.3",
+    "29 CFR 1918.3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.nsc.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.nsc.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.nutrition.org",
+   "host": "www.nutrition.org",
+   "host_class": "other",
+   "sections": [
+    "21 CFR 106.160"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.nutrition.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.ocimf.com",
+   "host": "www.ocimf.com",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 155.140",
+    "33 CFR 156.111"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ocimf.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.oie.int/eng/normes/Mcode/en_sommaire.htm",
+   "host": "www.oie.int",
+   "host_class": "other",
+   "sections": [
+    "9 CFR 92.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.woah.org/eng/normes/Mcode/en_sommaire.htm"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.woah.org/eng/normes/Mcode/en_sommaire.htm"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "http://www.policy.energy.gov/enhancingGHGregistry/technicalguidelines/",
+   "host": "www.policy.energy.gov",
+   "host_class": "federal",
+   "sections": [
+    "10 CFR 300.13"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: www.policy.energy.gov",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: www.policy.energy.gov",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://www.regulations.gov",
+   "host": "www.regulations.gov",
+   "host_class": "federal",
+   "sections": [
+    "49 CFR 572.120",
+    "49 CFR 572.160"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.regulations.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.rvia.org",
+   "host": "www.rvia.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3282.16"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.rvia.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.sae.org",
+   "host": "www.sae.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 1065.1010",
+    "40 CFR 1068.95",
+    "46 CFR 25.01-3",
+    "46 CFR 136.112",
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.sae.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.sae.org/pubs/",
+   "host": "www.sae.org",
+   "host_class": "other",
+   "sections": [
+    "14 CFR 36.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.sae.org/pubs/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.scte.org/standards/Standards_Available.aspx",
+   "host": "www.scte.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 76.602"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.scte.org/standards/Standards_Available.aspx"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.scte.org/standards/Standards_Available.aspx"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "http://www.smpte.org/standards/",
+   "host": "www.smpte.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 79.100"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.smpte.org/standards/overview"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.spib.org",
+   "host": "www.spib.org",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 1728.97"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.spib.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.standardsinfo.net",
+   "host": "www.standardsinfo.net",
+   "host_class": "other",
+   "sections": [
+    "21 CFR 830.10"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: www.standardsinfo.net",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: www.standardsinfo.net",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://www.ul.com",
+   "host": "www.ul.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 25.01-3",
+    "46 CFR 76.01-2",
+    "46 CFR 95.01-2",
+    "46 CFR 105.3",
+    "46 CFR 114.600",
+    "46 CFR 125.180",
+    "46 CFR 136.112",
+    "46 CFR 147.7",
+    "46 CFR 160.176-4",
+    "46 CFR 161.002-1",
+    "46 CFR 162.028-1",
+    "46 CFR 162.039-1",
+    "46 CFR 162.163-2",
+    "46 CFR 169.115",
+    "46 CFR 175.600"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ul.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.usace.army.mil",
+   "host": "www.usace.army.mil",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: www.usace.army.mil",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (6) Could not resolve host: www.usace.army.mil",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "http://www.usbr.gov",
+   "host": "www.usbr.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.usbr.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.usbr.gov/"
+   },
+   "outcome": "5xx"
+  },
+  {
+   "url": "http://www.w3.org/standards/",
+   "host": "www.w3.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.w3.org/standards/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "http://www.wclib.org",
+   "host": "www.wclib.org",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 1728.97"
+   ],
+   "first": {
+    "ok": true,
+    "status": 503,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "http://www.wclib.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://plib.org/"
+   },
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://aamva.org/getmedia/b801da7b-5584-466c-8aeb-f230cef6dda5/mDL-Implementation-Guidelines-Version-1-2_final.pdf",
+   "host": "aamva.org",
+   "host_class": "other",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://aamva.org/page-not-found"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://accuristech.com",
+   "host": "accuristech.com",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 82.27",
+    "47 CFR 15.38"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://accuristech.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://assist.daps.dla.mil/quicksearch/",
+   "host": "assist.daps.dla.mil",
+   "host_class": "federal",
+   "sections": [
+    "33 CFR 183.5",
+    "46 CFR 160.010-1",
+    "46 CFR 160.023-1",
+    "46 CFR 160.031-1",
+    "46 CFR 160.040-1",
+    "46 CFR 160.135-5",
+    "46 CFR 160.151-5",
+    "46 CFR 160.156-5",
+    "46 CFR 170.015"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://bhgs.dca.ca.gov/about_us/tb117_2013.pdf",
+   "host": "bhgs.dca.ca.gov",
+   "host_class": "federal",
+   "sections": [
+    "16 CFR 1640.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://bhgs.dca.ca.gov/about_us/tb117_2013.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://bookstore.gpo.gov",
+   "host": "bookstore.gpo.gov",
+   "host_class": "federal",
+   "sections": [
+    "47 CFR 300.1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://bookstore.gpo.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://bookstore.gpo.gov/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://bookstore.transportation.org",
+   "host": "bookstore.transportation.org",
+   "host_class": "other",
+   "sections": [
+    "23 CFR 650.517"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.transportation.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://cabforum.org/wp-content/uploads/CA-Browser-Forum-BR-1.8.6.pdf",
+   "host": "cabforum.org",
+   "host_class": "other",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://cabforum.org/wp-content/uploads/CA-Browser-Forum-BR-1.8.6.pdf"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://cabforum.org/wp-content/uploads/CA-Browser-Forum-BR-1.8.6.pdf"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "https://cabforum.org/wp-content/uploads/CA-Browser-Forum-Network-Security-Guidelines-v1.7.pdf",
+   "host": "cabforum.org",
+   "host_class": "other",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://cabforum.org/wp-content/uploads/CA-Browser-Forum-Network-Security-Guidelines-v1.7.pdf"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://cabforum.org/wp-content/uploads/CA-Browser-Forum-Network-Security-Guidelines-v1.7.pdf"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "https://cites.org/eng/resources/transport/index.php",
+   "host": "cites.org",
+   "host_class": "other",
+   "sections": [
+    "50 CFR 23.9"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://cites.org/eng/resources/transport/index.php"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://cites.org/eng/resources/transport/index.php"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://csrc.nist.gov/publications/",
+   "host": "csrc.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "32 CFR 170.2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://csrc.nist.gov/publications/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://din.de/en/about-standards/buy-standard",
+   "host": "din.de",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.din.de/en/about-standards/buy-standard"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.din.de/en/about-standards/buy-standard"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "https://dodcio.defense.gov/CMMC/",
+   "host": "dodcio.defense.gov",
+   "host_class": "federal",
+   "sections": [
+    "32 CFR 170.2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://dodcio.defense.gov/CMMC/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://dodcio.defense.gov/CMMC/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://fedspecs.gsa.gov/s/federal-specifications",
+   "host": "fedspecs.gsa.gov",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 160.171-3",
+    "46 CFR 160.174-3"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://global.ihs.com",
+   "host": "global.ihs.com",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1915.5"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.accuristech.com/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.accuristech.com/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://healthit.gov",
+   "host": "healthit.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://healthit.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://ibr.ansi.org",
+   "host": "ibr.ansi.org",
+   "host_class": "other",
+   "sections": [
+    "32 CFR 170.2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://ibr.ansi.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://ibr.ansi.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://ibr.ansi.org/Standards/nema.aspx",
+   "host": "ibr.ansi.org",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1242.8",
+    "16 CFR 1243.8"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://ibr.ansi.org/Standards/nema.aspx"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://ibr.ansi.org/Standards/nema.aspx"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://legis.nd.gov/agency-rules/north-dakota-administrative-code",
+   "host": "legis.nd.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 62.8700"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://ndlegis.gov/prod/agency-rules/north-dakota-administrative-code/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://loinc.org",
+   "host": "loinc.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://loinc.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://loinc.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://ntia.gov/publications/redbook-manual",
+   "host": "ntia.gov",
+   "host_class": "federal",
+   "sections": [
+    "47 CFR 300.1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://redbook.ntia.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.198-1.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.198-1.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication440.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 160.171-3",
+    "46 CFR 160.174-3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication440.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57Pt3r1.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57Pt3r1.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt2r1.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt2r1.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.150-2020.pdf",
+   "host": "nvlpubs.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "15 CFR 285.16"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.150-2020.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://oal.ca.gov/publications/ccr/",
+   "host": "oal.ca.gov",
+   "host_class": "federal",
+   "sections": [
+    "16 CFR 1640.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://oal.ca.gov/publications/ccr/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://pe.usps.gov",
+   "host": "pe.usps.gov",
+   "host_class": "federal",
+   "sections": [
+    "39 CFR 20.1",
+    "39 CFR 111.1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://pe.usps.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://quicksearch.dla.mil/qsSearch.aspx",
+   "host": "quicksearch.dla.mil",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://quicksearch.dla.mil/qsSearch.aspx"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://rules.sd.gov",
+   "host": "rules.sd.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 62.10353"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://rules.sd.gov/default"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://shop.csa.ca",
+   "host": "shop.csa.ca",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 63.05-1"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://shop.un.org",
+   "host": "shop.un.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://shop.un.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://standards.globalspec.com",
+   "host": "standards.globalspec.com",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "29 CFR 1910.6",
+    "40 CFR 82.27",
+    "47 CFR 15.38"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://standards.globalspec.com/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://standards.globalspec.com/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://store.accuristech.com",
+   "host": "store.accuristech.com",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "29 CFR 1910.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://store.accuristech.com/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://store.accuristech.com/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://store.icao.int",
+   "host": "store.icao.int",
+   "host_class": "other",
+   "sections": [
+    "14 CFR 38.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://store.icao.int/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://store.transportation.org",
+   "host": "store.transportation.org",
+   "host_class": "other",
+   "sections": [
+    "23 CFR 650.317"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://store.transportation.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://ucum.org/ucum",
+   "host": "ucum.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://ucum.org/ucum"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://webstore.ansi.org",
+   "host": "webstore.ansi.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 100.201a",
+    "29 CFR 1915.5",
+    "47 CFR 2.910",
+    "47 CFR 15.38"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://webstore.ansi.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://webstore.ansi.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.aamva.org",
+   "host": "www.aamva.org",
+   "host_class": "other",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.aamva.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.abycinc.org",
+   "host": "www.abycinc.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 58.03-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://abycinc.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.abyinc.org",
+   "host": "www.abyinc.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 147.7"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://www.acgih.org/publications/",
+   "host": "www.acgih.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1915.5"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.acgih.org/publications/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.afandpa.org",
+   "host": "www.afandpa.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.afandpa.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.aga.org",
+   "host": "www.aga.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "40 CFR 80.12"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.aga.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ahrinet.org",
+   "host": "www.ahrinet.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "40 CFR 84.37"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ahrinet.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.aicpa-cima.org",
+   "host": "www.aicpa-cima.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 1090.95"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.aicpa-cima.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.aisc.org",
+   "host": "www.aisc.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.aisc.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.aitc-glulam.org/index.asp",
+   "host": "www.aitc-glulam.org",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 1728.97"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.aitc-glulam.org:443",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.aitc-glulam.org:443",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://www.aluminum.org",
+   "host": "www.aluminum.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.aluminum.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ampp.org",
+   "host": "www.ampp.org",
+   "host_class": "other",
+   "sections": [
+    "43 CFR 3176.11"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ampp.org/home"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ansi.org",
+   "host": "www.ansi.org",
+   "host_class": "other",
+   "sections": [
+    "6 CFR 37.4",
+    "16 CFR 1242.8",
+    "16 CFR 1243.8",
+    "24 CFR 3280.4",
+    "29 CFR 1910.6",
+    "29 CFR 1915.5",
+    "33 CFR 140.7",
+    "40 CFR 80.12",
+    "40 CFR 82.27",
+    "40 CFR 86.1",
+    "43 CFR 3176.11",
+    "46 CFR 63.05-1",
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ansi.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ansi.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.apawood.org",
+   "host": "www.apawood.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "40 CFR 770.99"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.apawood.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.api.org",
+   "host": "www.api.org",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 164.03",
+    "40 CFR 80.12",
+    "40 CFR 260.11",
+    "43 CFR 3176.11",
+    "46 CFR 56.01-2",
+    "46 CFR 58.03-1",
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.api.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.arb.ca.gov",
+   "host": "www.arb.ca.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 86.1",
+    "40 CFR 1066.1010"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://ww2.arb.ca.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.archives.gov/federal-register/cfr/ibr-locations",
+   "host": "www.archives.gov",
+   "host_class": "federal",
+   "sections": [
+    "14 CFR 65.23",
+    "16 CFR 1241.3",
+    "16 CFR 1242.8",
+    "16 CFR 1243.8",
+    "16 CFR 1250.10",
+    "16 CFR 1461.4",
+    "18 CFR 38.1",
+    "21 CFR 820.7",
+    "23 CFR 630.1018",
+    "24 CFR 3280.4",
+    "29 CFR 1910.6",
+    "32 CFR 170.2",
+    "33 CFR 97.110",
+    "34 CFR 77.2",
+    "39 CFR 20.1",
+    "39 CFR 111.1",
+    "40 CFR 80.12",
+    "40 CFR 82.27",
+    "40 CFR 745.67",
+    "40 CFR 1090.95",
+    "45 CFR 170.299",
+    "46 CFR 10.103",
+    "46 CFR 11.102",
+    "46 CFR 12.103",
+    "46 CFR 13.103",
+    "46 CFR 15.103",
+    "46 CFR 35.01-3",
+    "46 CFR 52.01-1",
+    "46 CFR 53.01-1",
+    "46 CFR 54.01-1",
+    "46 CFR 56.01-2",
+    "46 CFR 57.02-1",
+    "46 CFR 58.03-1",
+    "46 CFR 59.01-2",
+    "46 CFR 61.03-1",
+    "46 CFR 62.05-1",
+    "46 CFR 63.05-1",
+    "46 CFR 64.2",
+    "46 CFR 160.045-5",
+    "46 CFR 160.055-5",
+    "46 CFR 160.060-5",
+    "46 CFR 160.064-5",
+    "46 CFR 160.076-5",
+    "46 CFR 160.255-5",
+    "46 CFR 160.264-5",
+    "46 CFR 160.276-5",
+    "47 CFR 8.201",
+    "47 CFR 15.38",
+    "47 CFR 26.305",
+    "47 CFR 73.8000",
+    "47 CFR 74.35",
+    "47 CFR 88.117",
+    "47 CFR 300.1",
+    "49 CFR 227.219",
+    "49 CFR 572.130"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.archives.gov/federal-register/cfr/ibr-locations.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.archives.gov/federal-register/cfr/ibr-locations.html",
+   "host": "www.archives.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4",
+    "7 CFR 1728.97",
+    "14 CFR 38.7",
+    "14 CFR 194.109",
+    "15 CFR 285.16",
+    "16 CFR 1640.6",
+    "21 CFR 1141.5",
+    "23 CFR 650.317",
+    "24 CFR 100.201a",
+    "29 CFR 1910.509",
+    "29 CFR 1915.5",
+    "29 CFR 1926.6",
+    "33 CFR 127.003",
+    "33 CFR 164.03",
+    "37 CFR 1.839",
+    "40 CFR 62.1490",
+    "40 CFR 62.8700",
+    "40 CFR 62.10353",
+    "40 CFR 82.31",
+    "40 CFR 84.37",
+    "40 CFR 86.1",
+    "40 CFR 260.11",
+    "40 CFR 272.2",
+    "40 CFR 600.011",
+    "40 CFR 761.19",
+    "40 CFR 770.99",
+    "40 CFR 1030.110",
+    "40 CFR 1031.210",
+    "40 CFR 1036.810",
+    "40 CFR 1037.810",
+    "40 CFR 1065.1010",
+    "40 CFR 1066.1010",
+    "43 CFR 3176.11",
+    "46 CFR 39.1005",
+    "46 CFR 110.10-1",
+    "46 CFR 160.046-3",
+    "46 CFR 160.051-5",
+    "46 CFR 160.115-5",
+    "46 CFR 160.132-5",
+    "46 CFR 160.133-5",
+    "46 CFR 160.135-5",
+    "46 CFR 160.151-5",
+    "46 CFR 160.156-5",
+    "46 CFR 160.170-5",
+    "46 CFR 160.171-3",
+    "46 CFR 160.174-3",
+    "46 CFR 160.176-4",
+    "46 CFR 162.017-1",
+    "46 CFR 164.138-2",
+    "46 CFR 164.139-2",
+    "46 CFR 169.115",
+    "46 CFR 199.05",
+    "47 CFR 2.910",
+    "47 CFR 25.108",
+    "47 CFR 76.602",
+    "47 CFR 79.100",
+    "47 CFR 80.7",
+    "49 CFR 299.17",
+    "49 CFR 572.210",
+    "50 CFR 23.9",
+    "50 CFR 622.19"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.archives.gov/federal-register/cfr/ibr-locations.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.archives.gov/federal-register/cfr/ibrlocations.html",
+   "host": "www.archives.gov",
+   "host_class": "federal",
+   "sections": [
+    "47 CFR 90.384"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.archives.gov/federal-register/cfr/ibrlocations"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.archives.gov/federal-register/cfr/ibrlocations"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "https://www.archives.gov/federal-register/crf/ibr-locations",
+   "host": "www.archives.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 282.2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.archives.gov/federal-register/crf/ibr-locations"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.archives.gov/federal-register/crf/ibr-locations"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "https://www.archives.gov/federal-regster/cfr/ibr-locations.html",
+   "host": "www.archives.gov",
+   "host_class": "federal",
+   "sections": [
+    "16 CFR 1450.3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.archives.gov/federal-regster/cfr/ibr-locations"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.archives.gov/federal-regster/cfr/ibr-locations"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "https://www.asce.org",
+   "host": "www.asce.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.asce.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ashrae.org",
+   "host": "www.ashrae.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 147.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ashrae.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ashrae.org/home/",
+   "host": "www.ashrae.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ashrae.org/home"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.asme.org",
+   "host": "www.asme.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "33 CFR 127.003",
+    "40 CFR 80.12",
+    "40 CFR 82.27",
+    "46 CFR 52.01-1",
+    "46 CFR 53.01-1",
+    "46 CFR 54.01-1",
+    "46 CFR 56.01-2",
+    "46 CFR 57.02-1",
+    "46 CFR 58.03-1",
+    "46 CFR 59.01-2",
+    "46 CFR 63.05-1",
+    "46 CFR 64.2",
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.asme.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.asme.org/codes-standards",
+   "host": "www.asme.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1915.5"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.asme.org/codes-standards"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.asse-plumbing.org",
+   "host": "www.asse-plumbing.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://asse-plumbing.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.astm.org",
+   "host": "www.astm.org",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 1728.97",
+    "16 CFR 1242.8",
+    "16 CFR 1243.8",
+    "16 CFR 1250.10",
+    "16 CFR 1461.4",
+    "24 CFR 3280.4",
+    "29 CFR 1910.6",
+    "29 CFR 1915.5",
+    "33 CFR 127.003",
+    "33 CFR 164.03",
+    "40 CFR 80.12",
+    "40 CFR 82.27",
+    "40 CFR 84.37",
+    "40 CFR 86.1",
+    "40 CFR 260.11",
+    "40 CFR 600.011",
+    "40 CFR 745.67",
+    "40 CFR 761.19",
+    "40 CFR 770.99",
+    "40 CFR 1036.810",
+    "40 CFR 1090.95",
+    "46 CFR 54.01-1",
+    "46 CFR 56.01-2",
+    "46 CFR 58.03-1",
+    "46 CFR 61.03-1",
+    "46 CFR 63.05-1",
+    "46 CFR 110.10-1",
+    "46 CFR 160.171-3",
+    "46 CFR 160.174-3",
+    "46 CFR 199.05",
+    "49 CFR 299.17"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.astm.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.astm.org/READINGLIBRARY/",
+   "host": "www.astm.org",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1241.3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 4,
+    "final": "https://www.astm.org/standards-and-solutions/standards-and-publications/reading-room"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.astm.org/contact",
+   "host": "www.astm.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 35.01-3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.astm.org/help/contact"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.atsc.org/standards.html",
+   "host": "www.atsc.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 73.8000"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.atsc.org/documents/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.atsjournals.org",
+   "host": "www.atsjournals.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://academic.oup.com/atsjournals"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://academic.oup.com/atsjournals"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.awc.org",
+   "host": "www.awc.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://awc.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.awpa.com",
+   "host": "www.awpa.com",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 1728.97"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://awpa.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.blm.gov/programs/energy-and-minerals/oil-and-gas",
+   "host": "www.blm.gov",
+   "host_class": "federal",
+   "sections": [
+    "43 CFR 3176.11"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.blm.gov/programs/energy-and-minerals/oil-and-gas"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.bsigroup.com",
+   "host": "www.bsigroup.com",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 770.99"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.bsigroup.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cabforum.org",
+   "host": "www.cabforum.org",
+   "host_class": "other",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://cabforum.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cablelabs.com",
+   "host": "www.cablelabs.com",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 15.38"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cablelabs.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cdc.gov",
+   "host": "www.cdc.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1910.509"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cdc.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cdc.gov/cdc-info/index.html",
+   "host": "www.cdc.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cdc.gov/cdc-info/index.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cdc.gov/coronavirus/2019-ncov/communication/guidance.html",
+   "host": "www.cdc.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1910.509"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.cdc.gov/covid/index.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cdc.gov/infectioncontrol/guidelines/",
+   "host": "www.cdc.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1910.509"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.cdc.gov/infection-control/hcp/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cen.eu",
+   "host": "www.cen.eu",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 205.3",
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://www.cencenelec.eu/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cencenelec.eu",
+   "host": "www.cencenelec.eu",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 80.12"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cencenelec.eu/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cganet.com",
+   "host": "www.cganet.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 54.01-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cganet.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cisa.gov",
+   "host": "www.cisa.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cisa.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cisa.gov/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.cisa.gov/sites/default/files/publications/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf",
+   "host": "www.cisa.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cisa.gov/sites/default/files/publications/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cisa.gov/sites/default/files/publications/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.cisa.gov/uscert/sites/default/files/ncirp/National_Cyber_Incident_Response_Plan.pdf",
+   "host": "www.cisa.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cisa.gov/uscert/sites/default/files/ncirp/National_Cyber_Incident_Response_Plan.pdf"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cisa.gov/uscert/sites/default/files/ncirp/National_Cyber_Incident_Response_Plan.pdf"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.cispi.org",
+   "host": "www.cispi.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cispi.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.cites.org",
+   "host": "www.cites.org",
+   "host_class": "other",
+   "sections": [
+    "50 CFR 23.9"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cites.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cites.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.cms.gov",
+   "host": "www.cms.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cms.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.compositepanel.org",
+   "host": "www.compositepanel.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 770.99"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.compositepanel.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.csagroup.org",
+   "host": "www.csagroup.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.csagroup.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.csagroup.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.cste.org",
+   "host": "www.cste.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cste.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cste.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.cta.tech",
+   "host": "www.cta.tech",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 15.38"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.cta.tech/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.dco.uscg.mil/CG-ENG-4/",
+   "host": "www.dco.uscg.mil",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 39.1005",
+    "46 CFR 160.046-3",
+    "46 CFR 160.051-5",
+    "46 CFR 160.115-5",
+    "46 CFR 160.132-5",
+    "46 CFR 160.133-5",
+    "46 CFR 160.135-5",
+    "46 CFR 160.151-5",
+    "46 CFR 160.156-5",
+    "46 CFR 160.170-5",
+    "46 CFR 160.171-3",
+    "46 CFR 160.174-3",
+    "46 CFR 160.176-4",
+    "46 CFR 162.017-1",
+    "46 CFR 164.138-2",
+    "46 CFR 164.139-2",
+    "46 CFR 169.115",
+    "46 CFR 199.05"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dco.uscg.mil/CG-ENG-4/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dco.uscg.mil/CG-ENG-4/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.dco.uscg.mil/CG-ENG/",
+   "host": "www.dco.uscg.mil",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dco.uscg.mil/CG-ENG/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dco.uscg.mil/CG-ENG/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.dco.uscg.mil/nmc/merchant_mariner_credential/",
+   "host": "www.dco.uscg.mil",
+   "host_class": "federal",
+   "sections": [
+    "46 CFR 10.103",
+    "46 CFR 11.102",
+    "46 CFR 12.103",
+    "46 CFR 13.103",
+    "46 CFR 15.103",
+    "46 CFR 35.01-3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dco.uscg.mil/nmc/merchant_mariner_credential/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dco.uscg.mil/nmc/merchant_mariner_credential/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.decorativehardwoods.org",
+   "host": "www.decorativehardwoods.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "40 CFR 770.99"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.decorativehardwoods.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.dhs.gov",
+   "host": "www.dhs.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dhs.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dhs.gov/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.dnv.com",
+   "host": "www.dnv.com",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 127.003"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dnv.com/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dnv.com/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.document-center.com",
+   "host": "www.document-center.com",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "29 CFR 1910.6",
+    "40 CFR 82.27",
+    "47 CFR 15.38"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://standards.nimonik.com:443/?isDcRedirect=true"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.dsp.dla.mil",
+   "host": "www.dsp.dla.mil",
+   "host_class": "federal",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dsp.dla.mil/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.dsp.dla.mil/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.ejma.org",
+   "host": "www.ejma.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 56.01-2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ejma.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.epa.gov",
+   "host": "www.epa.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1910.509",
+    "40 CFR 80.12",
+    "40 CFR 82.27",
+    "40 CFR 1036.810",
+    "40 CFR 1037.810"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.epa.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.epa.gov/dockets",
+   "host": "www.epa.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 86.1",
+    "40 CFR 600.011",
+    "40 CFR 761.19",
+    "40 CFR 1030.110",
+    "40 CFR 1031.210",
+    "40 CFR 1036.810",
+    "40 CFR 1037.810",
+    "40 CFR 1042.910",
+    "40 CFR 1043.100",
+    "40 CFR 1065.1010",
+    "40 CFR 1066.1010"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.epa.gov/dockets"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.epa.gov/hw-sw846",
+   "host": "www.epa.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 260.11",
+    "40 CFR 761.19"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.epa.gov/hw-sw846"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.epa.gov/nscep",
+   "host": "www.epa.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 260.11"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.epa.gov/nscep"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.etsi.org",
+   "host": "www.etsi.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 15.38",
+    "47 CFR 74.35"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.etsi.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.etsi.org/deliver/etsi_en/300400_300499/30042201/02.02.01_60/en_30042201v020201p.pdf",
+   "host": "www.etsi.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 15.38",
+    "47 CFR 74.35"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.etsi.org/deliver/etsi_en/300400_300499/30042201/02.02.01_60/en_30042201v020201p.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.faa.gov/aircraft/air_cert/design_approvals/tso/",
+   "host": "www.faa.gov",
+   "host_class": "federal",
+   "sections": [
+    "14 CFR 194.109"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.faa.gov/aircraft/air_cert/design_approvals/tso/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.faa.gov/aircraft/air_cert/design_approvals/tso/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.faa.gov/training_testing",
+   "host": "www.faa.gov",
+   "host_class": "federal",
+   "sections": [
+    "14 CFR 65.23"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.faa.gov/training_testing"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.faa.gov/training_testing"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.fcc.gov/oet/info/documents/bulletins/",
+   "host": "www.fcc.gov",
+   "host_class": "federal",
+   "sections": [
+    "47 CFR 73.8000"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fcc.gov/oet/info/documents/bulletins/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fcc.gov/oet/info/documents/bulletins/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.fda.gov/cigarette-warning-files",
+   "host": "www.fda.gov",
+   "host_class": "federal",
+   "sections": [
+    "21 CFR 1141.5"
+   ],
+   "first": {
+    "ok": true,
+    "status": 401,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fda.gov/cigarette-warning-files"
+   },
+   "second": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.fda.gov/tobacco-products/labeling-and-warning-statements-tobacco-products/cigarette-health-warning-design-files-and-technical-specifications"
+   },
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ferc.gov",
+   "host": "www.ferc.gov",
+   "host_class": "federal",
+   "sections": [
+    "18 CFR 38.1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ferc.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ferc.gov/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.fgiaonline.org",
+   "host": "www.fgiaonline.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://fgiaonline.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.fhwa.dot.gov",
+   "host": "www.fhwa.dot.gov",
+   "host_class": "federal",
+   "sections": [
+    "23 CFR 490.111",
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://highways.dot.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://highways.dot.gov/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.fhwa.dot.gov/bridge/nbi.cfm",
+   "host": "www.fhwa.dot.gov",
+   "host_class": "federal",
+   "sections": [
+    "23 CFR 650.317"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fhwa.dot.gov/bridge/nbi.cfm"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.fisheries.noaa.gov/about/office-sustainable-fisheries",
+   "host": "www.fisheries.noaa.gov",
+   "host_class": "federal",
+   "sections": [
+    "50 CFR 622.19"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fisheries.noaa.gov/about/office-sustainable-fisheries"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.fluidcontrolsinstitute.org",
+   "host": "www.fluidcontrolsinstitute.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 56.01-2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fluidcontrolsinstitute.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.fmapprovals.com",
+   "host": "www.fmapprovals.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fmapprovals.com/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fmapprovals.com/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.fmglobal.com/report-contact-page/general-contact-form",
+   "host": "www.fmglobal.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.fm.com/report-contact-page/general-contact-form"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.fm.com/report-contact-page/general-contact-form"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.fws.gov/international/travel-and-trade/live-animal-transport.html",
+   "host": "www.fws.gov",
+   "host_class": "federal",
+   "sections": [
+    "50 CFR 23.9"
+   ],
+   "first": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fws.gov/international/travel-and-trade/live-animal-transport.html"
+   },
+   "second": {
+    "ok": true,
+    "status": 404,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.fws.gov/international/travel-and-trade/live-animal-transport.html"
+   },
+   "outcome": "4xx"
+  },
+  {
+   "url": "https://www.global.ihs.com",
+   "host": "www.global.ihs.com",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6",
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://www.govinfo.gov",
+   "host": "www.govinfo.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1910.6",
+    "33 CFR 118.3",
+    "46 CFR 32.01-1",
+    "46 CFR 107.115"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.govinfo.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.gp.com",
+   "host": "www.gp.com",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 770.99"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.gp.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.healthit.gov/USCDI",
+   "host": "www.healthit.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://healthit.gov/resources/uscdi_-taskforce_audio_2-28-2018-mp3-uscdi_-taskforce_audio_2-28-2018/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.hl7.org",
+   "host": "www.hl7.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.hl7.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.huduser.gov",
+   "host": "www.huduser.gov",
+   "host_class": "federal",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.huduser.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.iapmo.org",
+   "host": "www.iapmo.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://iapmo.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.iata.org",
+   "host": "www.iata.org",
+   "host_class": "other",
+   "sections": [
+    "50 CFR 23.9"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iata.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.icao.int",
+   "host": "www.icao.int",
+   "host_class": "other",
+   "sections": [
+    "6 CFR 37.4",
+    "40 CFR 1030.110",
+    "40 CFR 1031.210"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.icao.int/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.icc-es.org",
+   "host": "www.icc-es.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://icc-es.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.iec.ch",
+   "host": "www.iec.ch",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6",
+    "33 CFR 127.003",
+    "46 CFR 110.10-1",
+    "47 CFR 2.910",
+    "47 CFR 8.201",
+    "47 CFR 80.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 202,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iec.ch/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.iec.ch/contact?id=40499",
+   "host": "www.iec.ch",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 202,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iec.ch/contact?id=40499"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ieee.org",
+   "host": "www.ieee.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 110.10-1",
+    "47 CFR 2.910",
+    "47 CFR 15.38"
+   ],
+   "first": {
+    "ok": true,
+    "status": 202,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ieee.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ihs.com",
+   "host": "www.ihs.com",
+   "host_class": "other",
+   "sections": [
+    "43 CFR 3174.3",
+    "43 CFR 3175.30"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.spglobal.com/en"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 2,
+    "final": "https://www.spglobal.com/en"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.iitri.org",
+   "host": "www.iitri.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://iitri.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ilo.org",
+   "host": "www.ilo.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6",
+    "29 CFR 1915.5"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ilo.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.imo.org",
+   "host": "www.imo.org",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 164.03",
+    "40 CFR 1042.910",
+    "40 CFR 1043.100",
+    "46 CFR 10.103",
+    "46 CFR 11.102",
+    "46 CFR 12.103",
+    "46 CFR 13.103",
+    "46 CFR 15.103",
+    "46 CFR 35.01-3",
+    "46 CFR 56.01-2",
+    "46 CFR 58.03-1",
+    "46 CFR 63.05-1",
+    "46 CFR 110.10-1",
+    "46 CFR 162.161-2",
+    "46 CFR 164.138-2",
+    "46 CFR 164.139-2",
+    "46 CFR 199.05"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.imo.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.iso.org",
+   "host": "www.iso.org",
+   "host_class": "other",
+   "sections": [
+    "7 CFR 205.3",
+    "24 CFR 3280.4",
+    "33 CFR 127.003",
+    "40 CFR 80.12",
+    "40 CFR 84.37",
+    "40 CFR 86.1",
+    "40 CFR 600.011",
+    "40 CFR 770.99",
+    "40 CFR 1037.810",
+    "46 CFR 56.01-2",
+    "46 CFR 63.05-1",
+    "46 CFR 110.10-1",
+    "46 CFR 160.046-3",
+    "46 CFR 199.05",
+    "47 CFR 2.910",
+    "47 CFR 8.201",
+    "47 CFR 80.7",
+    "49 CFR 227.219"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iso.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iso.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.iso.org/contact-iso.html",
+   "host": "www.iso.org",
+   "host_class": "other",
+   "sections": [
+    "6 CFR 37.4",
+    "46 CFR 39.1005",
+    "46 CFR 162.017-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iso.org/contact-iso.html"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iso.org/contact-iso.html"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.iso.org/popular-standards.html",
+   "host": "www.iso.org",
+   "host_class": "other",
+   "sections": [
+    "32 CFR 170.2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iso.org/popular-standards.html"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iso.org/popular-standards.html"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.iso.org/store.html",
+   "host": "www.iso.org",
+   "host_class": "other",
+   "sections": [
+    "21 CFR 820.7",
+    "29 CFR 1910.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iso.org/store.html"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.iso.org/store.html"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.itu.int",
+   "host": "www.itu.int",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 25.108",
+    "47 CFR 80.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://www.itu.int/en/Pages/default.aspx"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.jsa.or.jp",
+   "host": "www.jsa.or.jp",
+   "host_class": "other",
+   "sections": [
+    "49 CFR 299.17"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://webdesk.jsa.or.jp/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.jsa.or.jp/en",
+   "host": "www.jsa.or.jp",
+   "host_class": "other",
+   "sections": [
+    "49 CFR 299.17"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://webdesk.jsa.or.jp/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.jsa.or.jp/en/",
+   "host": "www.jsa.or.jp",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 770.99"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://webdesk.jsa.or.jp/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.lr.org/en/type-approval-test-specifications",
+   "host": "www.lr.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 3,
+    "final": "https://www.lr.org/en/knowledge/lloyds-register-rules/type-approval-test-specifications2/type-approval-test-specifications/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.msshq.org",
+   "host": "www.msshq.org",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 54.01-1",
+    "46 CFR 56.01-2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.msshq.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.msshq.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.naesb.org",
+   "host": "www.naesb.org",
+   "host_class": "other",
+   "sections": [
+    "18 CFR 38.1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.naesb.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ncpdp.org",
+   "host": "www.ncpdp.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ncpdp.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nema.org",
+   "host": "www.nema.org",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1242.8",
+    "16 CFR 1243.8",
+    "16 CFR 1250.10",
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nema.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nema.org/Pages/default.aspx",
+   "host": "www.nema.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.nema.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nfpa.org",
+   "host": "www.nfpa.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "33 CFR 127.003",
+    "40 CFR 260.11",
+    "46 CFR 58.03-1",
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nfpa.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nfpa.org/Codes-and-Standards",
+   "host": "www.nfpa.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1915.5"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.nfpa.org/for-professionals/codes-and-standards"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nfrc.org",
+   "host": "www.nfrc.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://nfrc.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nhtsa.gov",
+   "host": "www.nhtsa.gov",
+   "host_class": "federal",
+   "sections": [
+    "49 CFR 572.130"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nhtsa.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nhtsa.gov/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.nhtsa.gov/about-nhtsa/electronic-reading-room",
+   "host": "www.nhtsa.gov",
+   "host_class": "federal",
+   "sections": [
+    "49 CFR 572.130"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nhtsa.gov/about-nhtsa/electronic-reading-room"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nhtsa.gov/about-nhtsa/electronic-reading-room"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.nist.gov",
+   "host": "www.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4",
+    "24 CFR 3280.4",
+    "40 CFR 86.1",
+    "40 CFR 770.99",
+    "40 CFR 1036.810",
+    "40 CFR 1037.810",
+    "40 CFR 1065.1010",
+    "40 CFR 1066.1010",
+    "40 CFR 1090.95",
+    "46 CFR 160.171-3",
+    "46 CFR 160.174-3"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nist.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nist.gov/publications/",
+   "host": "www.nist.gov",
+   "host_class": "federal",
+   "sections": [
+    "15 CFR 285.16"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.nist.gov/publications"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nlm.nih.gov",
+   "host": "www.nlm.nih.gov",
+   "host_class": "federal",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nlm.nih.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nmea.org",
+   "host": "www.nmea.org",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 164.03"
+   ],
+   "first": {
+    "ok": true,
+    "status": 429,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nmea.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nmea.org/"
+   },
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.nsc.org",
+   "host": "www.nsc.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1915.5"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nsc.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nsc.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.nsf.org",
+   "host": "www.nsf.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nsf.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.nsf.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.nssn.org",
+   "host": "www.nssn.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 8.201",
+    "47 CFR 80.7"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://www.ntia.gov/office/office-spectrum-management-osm",
+   "host": "www.ntia.gov",
+   "host_class": "federal",
+   "sections": [
+    "47 CFR 26.305"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ntia.gov/office/office-spectrum-management-osm"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ntia.gov/sites/default/files/2023-11/j_2021_edition_rev_2023.pdf",
+   "host": "www.ntia.gov",
+   "host_class": "federal",
+   "sections": [
+    "47 CFR 26.305"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ntia.gov/sites/default/files/2023-11/j_2021_edition_rev_2023.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ntia.gov/sites/default/files/2023-11/m_2021_edition_rev_2023.pdf",
+   "host": "www.ntia.gov",
+   "host_class": "federal",
+   "sections": [
+    "47 CFR 26.305"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ntia.gov/sites/default/files/2023-11/m_2021_edition_rev_2023.pdf"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ntl.bts.gov/ntl",
+   "host": "www.ntl.bts.gov",
+   "host_class": "federal",
+   "sections": [
+    "23 CFR 650.317"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://www.oal.ca.gov/publications/ccr",
+   "host": "www.oal.ca.gov",
+   "host_class": "federal",
+   "sections": [
+    "40 CFR 1036.810"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://oal.ca.gov/publications/ccr/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.oecd-ilibrary.org",
+   "host": "www.oecd-ilibrary.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 260.11"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.oecd-ilibrary.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.oecd-ilibrary.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.osha.gov/coronavirus/ets/ibr",
+   "host": "www.osha.gov",
+   "host_class": "federal",
+   "sections": [
+    "29 CFR 1910.509"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.osha.gov/coronavirus/ets/ibr"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ph.d.sc.org",
+   "host": "www.ph.d.sc.org",
+   "host_class": "other",
+   "sections": [
+    "45 CFR 170.299"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://www.phta.org",
+   "host": "www.phta.org",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1250.10"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.phta.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.radcoinc.com",
+   "host": "www.radcoinc.com",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (35) Recv failure: Connection reset by peer",
+    "final": null,
+    "redirects": null
+   },
+   "second": {
+    "ok": false,
+    "status": null,
+    "curl_error": "curl: (35) Recv failure: Connection reset by peer",
+    "final": null,
+    "redirects": null
+   },
+   "outcome": "network"
+  },
+  {
+   "url": "https://www.rd.usda.gov/publications/regulations-guidelines/bulletins",
+   "host": "www.rd.usda.gov",
+   "host_class": "federal",
+   "sections": [
+    "7 CFR 1728.97"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.rd.usda.gov/publications/regulations-guidelines/bulletins"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.rd.usda.gov/publications/regulations-guidelines/bulletins"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.regulations.gov",
+   "host": "www.regulations.gov",
+   "host_class": "federal",
+   "sections": [
+    "49 CFR 572.120",
+    "49 CFR 572.170"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.regulations.gov/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.regulations.gov/document/FDA-2013-S-0610-0003",
+   "host": "www.regulations.gov",
+   "host_class": "federal",
+   "sections": [
+    "21 CFR 820.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.regulations.gov/document/FDA-2013-S-0610-0003"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.rtca.org/products",
+   "host": "www.rtca.org",
+   "host_class": "other",
+   "sections": [
+    "14 CFR 194.109"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.rtca.org/products/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.rtcm.org",
+   "host": "www.rtcm.org",
+   "host_class": "other",
+   "sections": [
+    "33 CFR 164.03",
+    "47 CFR 25.108",
+    "47 CFR 80.7"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.rtcm.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.sae.org",
+   "host": "www.sae.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4",
+    "29 CFR 1926.6",
+    "40 CFR 86.1",
+    "40 CFR 600.011",
+    "40 CFR 1036.810",
+    "40 CFR 1037.810",
+    "40 CFR 1066.1010",
+    "46 CFR 56.01-2",
+    "46 CFR 58.03-1",
+    "49 CFR 572.130",
+    "49 CFR 572.210"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.sae.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.safetyequipment.org",
+   "host": "www.safetyequipment.org",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6",
+    "29 CFR 1910.509",
+    "29 CFR 1915.5",
+    "29 CFR 1917.3",
+    "29 CFR 1918.3",
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://safetyequipment.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.scte.org",
+   "host": "www.scte.org",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 15.38"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.scte.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.shopulstandards.com",
+   "host": "www.shopulstandards.com",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1461.4",
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.shopulstandards.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.sos.state.co.us/CCR/NumericalDeptList.do",
+   "host": "www.sos.state.co.us",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 62.1490"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.sos.state.co.us/CCR/NumericalDeptList.do"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.standardmethods.org",
+   "host": "www.standardmethods.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 80.12"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.standardmethods.org/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.standardmethods.org/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.steel.org",
+   "host": "www.steel.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.steel.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.steeljoist.org",
+   "host": "www.steeljoist.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://steeljoist.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.techstreet.com",
+   "host": "www.techstreet.com",
+   "host_class": "other",
+   "sections": [
+    "29 CFR 1910.6",
+    "29 CFR 1915.5",
+    "29 CFR 1926.6"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.accuristech.com:443/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.accuristech.com:443/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.techstreet.com/api/apigate.html",
+   "host": "www.techstreet.com",
+   "host_class": "other",
+   "sections": [
+    "43 CFR 3174.3",
+    "43 CFR 3175.30"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.accuristech.com:443/api/apigate.html"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.accuristech.com:443/api/apigate.html"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.techstreet.com/ieee",
+   "host": "www.techstreet.com",
+   "host_class": "other",
+   "sections": [
+    "47 CFR 90.384"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.accuristech.com:443/ieee"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://store.accuristech.com:443/ieee"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.theiia.org",
+   "host": "www.theiia.org",
+   "host_class": "other",
+   "sections": [
+    "40 CFR 1090.95"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.theiia.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.tpinst.org",
+   "host": "www.tpinst.org",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.tpinst.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.transportation.org",
+   "host": "www.transportation.org",
+   "host_class": "other",
+   "sections": [
+    "23 CFR 490.111"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://transportation.org/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.tsa.gov",
+   "host": "www.tsa.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.tsa.gov/"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.tsa.gov/"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.tsa.gov/REAL-ID/mDL",
+   "host": "www.tsa.gov",
+   "host_class": "federal",
+   "sections": [
+    "6 CFR 37.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.tsa.gov/REAL-ID/mDL"
+   },
+   "second": {
+    "ok": true,
+    "status": 403,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.tsa.gov/REAL-ID/mDL"
+   },
+   "outcome": "blocked"
+  },
+  {
+   "url": "https://www.ul.com",
+   "host": "www.ul.com",
+   "host_class": "other",
+   "sections": [
+    "16 CFR 1250.10",
+    "24 CFR 3280.4",
+    "46 CFR 53.01-1",
+    "46 CFR 63.05-1",
+    "46 CFR 160.045-5",
+    "46 CFR 160.055-5",
+    "46 CFR 160.060-5",
+    "46 CFR 160.064-5",
+    "46 CFR 160.076-5",
+    "46 CFR 160.171-3",
+    "46 CFR 160.255-5",
+    "46 CFR 160.264-5",
+    "46 CFR 160.276-5",
+    "46 CFR 162.161-2"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.ul.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ul.com/canada/eng/pages/",
+   "host": "www.ul.com",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://canada.ul.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.ul.com/customer-service",
+   "host": "www.ul.com",
+   "host_class": "other",
+   "sections": [
+    "46 CFR 110.10-1"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.ul.com/contact-us"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.wdma.com",
+   "host": "www.wdma.com",
+   "host_class": "other",
+   "sections": [
+    "24 CFR 3280.4"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 0,
+    "final": "https://www.wdma.com/"
+   },
+   "second": null,
+   "outcome": "2xx"
+  },
+  {
+   "url": "https://www.wipo.int",
+   "host": "www.wipo.int",
+   "host_class": "other",
+   "sections": [
+    "37 CFR 1.839"
+   ],
+   "first": {
+    "ok": true,
+    "status": 200,
+    "curl_error": null,
+    "redirects": 1,
+    "final": "https://www.wipo.int/portal/en/index.html"
+   },
+   "second": null,
+   "outcome": "2xx"
+  }
+ ],
+ "host_roots": {
+  "https://bookstore.gpo.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://bookstore.gpo.gov/"
+  },
+  "https://global.ihs.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 1,
+   "final": "https://store.accuristech.com/"
+  },
+  "https://healthit.hhs.gov/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://infostore.saiglobal.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 2,
+   "final": "https://www.intertekinform.com/"
+  },
+  "https://quicksearch.dla.mil/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 1,
+   "final": "https://quicksearch.dla.mil/qsSearch.aspx"
+  },
+  "https://techstreet.com/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://ulstandards.ul.com/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://unp.un.org/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://webstore.ansi.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://webstore.ansi.org/"
+  },
+  "https://www.ansi.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.ansi.org/"
+  },
+  "https://www.arb.ca.gov/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 2,
+   "final": "https://ww2.arb.ca.gov/"
+  },
+  "https://www.archives.gov/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.archives.gov/"
+  },
+  "https://www.ashrae.org/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.ashrae.org/"
+  },
+  "https://www.asme.org/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.asme.org/"
+  },
+  "https://www.astm.org/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.astm.org/"
+  },
+  "https://www.cganet.com/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.cganet.com/"
+  },
+  "https://www.energyinst.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.energyinst.org/"
+  },
+  "https://www.epa.gov/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.epa.gov/"
+  },
+  "https://www.faa.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.faa.gov/"
+  },
+  "https://www.fmglobal.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 1,
+   "final": "https://www.fm.com/"
+  },
+  "https://www.hitsp.org/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.iccsafe.org/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.iccsafe.org/"
+  },
+  "https://www.ietf.org/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.ietf.org/"
+  },
+  "https://www.ime.org/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 1,
+   "final": "https://www.ime.org/aws/IME/pt/sp/home_page"
+  },
+  "https://www.iso.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.iso.org/"
+  },
+  "https://www.marisec.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 1,
+   "final": "https://cocoll88.click/"
+  },
+  "https://www.nsc.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.nsc.org/"
+  },
+  "https://www.oie.int/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.oie.int/"
+  },
+  "https://www.policy.energy.gov/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.scte.org/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.scte.org/"
+  },
+  "https://www.standardsinfo.net/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.usace.army.mil/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.usace.army.mil/"
+  },
+  "https://www.usbr.gov/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.usbr.gov/"
+  },
+  "https://assist.daps.dla.mil/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://cabforum.org/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://cabforum.org/"
+  },
+  "https://cites.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://cites.org/"
+  },
+  "https://din.de/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 2,
+   "final": "https://www.din.de/de"
+  },
+  "https://dodcio.defense.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://dodcio.defense.gov/"
+  },
+  "https://fedspecs.gsa.gov/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://ibr.ansi.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://ibr.ansi.org/"
+  },
+  "https://loinc.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://loinc.org/"
+  },
+  "https://shop.csa.ca/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (60) SSL certificate problem: unable to get local issuer certificate\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could",
+   "final": null,
+   "redirects": null
+  },
+  "https://standards.globalspec.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://standards.globalspec.com/"
+  },
+  "https://store.accuristech.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://store.accuristech.com/"
+  },
+  "https://www.abyinc.org/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.aitc-glulam.org/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.aitc-glulam.org:443",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.atsjournals.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 1,
+   "final": "https://academic.oup.com/atsjournals"
+  },
+  "https://www.cisa.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.cisa.gov/"
+  },
+  "https://www.cites.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.cites.org/"
+  },
+  "https://www.csagroup.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.csagroup.org/"
+  },
+  "https://www.cste.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.cste.org/"
+  },
+  "https://www.dco.uscg.mil/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.dco.uscg.mil/"
+  },
+  "https://www.dhs.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.dhs.gov/"
+  },
+  "https://www.dnv.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.dnv.com/"
+  },
+  "https://www.dsp.dla.mil/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.dsp.dla.mil/"
+  },
+  "https://www.fcc.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.fcc.gov/"
+  },
+  "https://www.ferc.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.ferc.gov/"
+  },
+  "https://www.fhwa.dot.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 1,
+   "final": "https://highways.dot.gov/"
+  },
+  "https://www.fmapprovals.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.fmapprovals.com/"
+  },
+  "https://www.fws.gov/": {
+   "ok": true,
+   "status": 200,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.fws.gov/"
+  },
+  "https://www.global.ihs.com/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.ihs.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 2,
+   "final": "https://www.spglobal.com/en"
+  },
+  "https://www.msshq.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.msshq.org/"
+  },
+  "https://www.nhtsa.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.nhtsa.gov/"
+  },
+  "https://www.nsf.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.nsf.org/"
+  },
+  "https://www.nssn.org/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.ntl.bts.gov/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.oecd-ilibrary.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.oecd-ilibrary.org/"
+  },
+  "https://www.ph.d.sc.org/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (56) CONNECT tunnel failed, response 502",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.radcoinc.com/": {
+   "ok": false,
+   "status": null,
+   "curl_error": "curl: (35) Recv failure: Connection reset by peer",
+   "final": null,
+   "redirects": null
+  },
+  "https://www.rd.usda.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.rd.usda.gov/"
+  },
+  "https://www.standardmethods.org/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.standardmethods.org/"
+  },
+  "https://www.techstreet.com/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 1,
+   "final": "https://store.accuristech.com:443/"
+  },
+  "https://www.tsa.gov/": {
+   "ok": true,
+   "status": 403,
+   "curl_error": null,
+   "redirects": 0,
+   "final": "https://www.tsa.gov/"
+  }
+ }
+}
