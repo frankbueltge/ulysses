@@ -102,7 +102,7 @@ condition travels with the path: every change is documented in the journal, with
 The MANDATE below stays protected — Frank grants it, so changing what he grants is not the
 same act as developing the research protocol he granted it under.
 
-**Still true under v6** (checked 2026-08-12, Frank: *„[Wortlaut privat]"*).
+**Still true under v6** (checked 2026-08-12; confirmed by Frank, wording private).
 v6 did not repeal the clause; it folded it in as plain law — *"The practice may develop this
 protocol further itself — any part, this sentence included — documenting each change in the
 journal with a rationale"* — and dropped v5's heading, which is why the consistency check read
