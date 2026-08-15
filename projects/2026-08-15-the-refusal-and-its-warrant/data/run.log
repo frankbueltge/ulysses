@@ -1,0 +1,174 @@
+arm A (refusing) 42 hosts · arm B (control) 129 hosts
+[  1/171] A bookstore.gpo.gov                      403 robots_blocked
+[  2/171] A cites.org                              200 served ai:amazonbot,applebot-extended,bytespider,ccbot,claudebot,google-extended,gptbot,meta-externalagent
+[  3/171] A dodcio.defense.gov                     403 robots_blocked
+[  4/171] A global.ihs.com                         403 robots_blocked
+[  5/171] A ibr.ansi.org                           403 robots_blocked
+[  6/171] A infostore.saiglobal.com                200 served
+[  7/171] A loinc.org                              200 served ai:amazonbot,applebot-extended,bytespider,ccbot,claudebot,google-extended,gptbot,meta-externalagent
+[  8/171] A standards.globalspec.com               200 served ai:gptbot
+[  9/171] A store.accuristech.com                  200 served ai:amazonbot,applebot-extended,bytespider,ccbot,claudebot,google-extended,gptbot,meta-externalagent
+[ 10/171] A webstore.ansi.org                      403 robots_blocked
+[ 11/171] A www.ansi.org                           403 robots_blocked
+[ 12/171] A www.atsjournals.org                    200 served
+[ 13/171] A www.cganet.com                         200 served
+[ 14/171] A www.cisa.gov                           403 robots_blocked
+[ 15/171] A www.cites.org                          200 served ai:amazonbot,applebot-extended,bytespider,ccbot,claudebot,google-extended,gptbot,meta-externalagent
+[ 16/171] A www.csagroup.org                       403 robots_blocked
+[ 17/171] A www.cste.org                           403 robots_blocked
+[ 18/171] A www.dco.uscg.mil                       403 robots_blocked
+[ 19/171] A www.dhs.gov                            403 robots_blocked
+[ 20/171] A www.dnv.com                            403 robots_blocked
+[ 21/171] A www.dsp.dla.mil                        403 robots_blocked
+[ 22/171] A www.energyinst.org                     403 robots_blocked
+[ 23/171] A www.faa.gov                            403 robots_blocked
+[ 24/171] A www.fcc.gov                            403 robots_blocked
+[ 25/171] A www.ferc.gov                           200 served
+[ 26/171] A www.fhwa.dot.gov                       200 served
+[ 27/171] A www.fmapprovals.com                    200 served
+[ 28/171] A www.fmglobal.com                       200 served ai:gptbot
+[ 29/171] A www.ihs.com                            403 robots_blocked
+[ 30/171] A www.ime.org                            200 served
+[ 31/171] A www.iso.org                            403 robots_blocked
+[ 32/171] A www.marisec.org                        403 robots_blocked
+[ 33/171] A www.msshq.org                          403 robots_blocked
+[ 34/171] A www.nhtsa.gov                          403 robots_blocked
+[ 35/171] A www.nsc.org                            200 served
+[ 36/171] A www.nsf.org                            200 served
+[ 37/171] A www.oecd-ilibrary.org                  403 robots_blocked
+[ 38/171] A www.rd.usda.gov                        403 robots_blocked
+[ 39/171] A www.scte.org                           200 served
+[ 40/171] A www.standardmethods.org                200 served ai:gptbot
+[ 41/171] A www.techstreet.com                     200 served ai:amazonbot,applebot-extended,bytespider,ccbot,claudebot,google-extended,gptbot,meta-externalagent
+[ 42/171] A www.tsa.gov                            403 robots_blocked
+[ 43/171] B aamva.org                              200 served
+[ 44/171] B accuristech.com                        200 served
+[ 45/171] B asq.org                                200 served
+[ 46/171] B bhgs.dca.ca.gov                        200 served
+[ 47/171] B bookstore.transportation.org           200 no_directives
+[ 48/171] B csrc.nist.gov                          200 no_directives
+[ 49/171] B everyspec.com                          200 served
+[ 50/171] B healthit.gov                           200 served
+[ 51/171] B ies.ed.gov                             200 served
+[ 52/171] B legis.nd.gov                           200 served
+[ 53/171] B nacha.org                              200 served
+[ 54/171] B nfpa.org                               200 served
+[ 55/171] B nist.gov                               200 served
+[ 56/171] B ntia.gov                               200 served
+[ 57/171] B nvlpubs.nist.gov                       404 absent
+[ 58/171] B oal.ca.gov                             200 served
+[ 59/171] B openid.net                             200 served
+[ 60/171] B pe.usps.gov                            200 no_directives
+[ 61/171] B publications.api.org                   404 absent
+[ 62/171] B rtca.org                               200 served
+[ 63/171] B rules.sd.gov                           404 absent
+[ 64/171] B shop.un.org                            200 served
+[ 65/171] B store.icao.int                         200 served
+[ 66/171] B store.sae.org                          200 no_directives
+[ 67/171] B store.transportation.org               404 absent
+[ 68/171] B ucum.org                               200 served
+[ 69/171] B ww2.eagle.org                          200 served
+[ 70/171] B www.3-a.org                            200 no_directives
+[ 71/171] B www.aamva.org                          200 served
+[ 72/171] B www.abycinc.org                        200 served
+[ 73/171] B www.acgih.org                          200 served
+[ 74/171] B www.aem.org                            200 no_directives
+[ 75/171] B www.afandpa.org                        200 served
+[ 76/171] B www.aga.org                            200 served
+[ 77/171] B www.ahrinet.org                        200 served ai:amazonbot,applebot-extended,bytespider,ccbot,claudebot,google-extended,gptbot,meta-externalagent
+[ 78/171] B www.aicpa-cima.org                     200 served
+[ 79/171] B www.aisc.org                           403 robots_blocked
+[ 80/171] B www.aluminum.org                       200 served
+[ 81/171] B www.ampp.org                           200 served
+[ 82/171] B www.apawood.org                        200 served
+[ 83/171] B www.api.org                            200 served ai:amazonbot,applebot-extended,bytespider,ccbot,claudebot,google-extended,gptbot,perplexitybot
+[ 84/171] B www.apsp.org                           404 absent
+[ 85/171] B www.asabe.org                          200 served
+[ 86/171] B www.asce.org                           200 served
+[ 87/171] B www.asistdocs.com                      200 served
+[ 88/171] B www.asse-plumbing.org                  200 served
+[ 89/171] B www.atsc.org                           200 served ai:amazonbot,anthropic-ai,applebot-extended,bytespider,ccbot,claudebot,cohere-ai,diffbot,google-extended,gptbot,imagesiftbot,meta-externalagent,omgili,perplexitybot,timpibot,youbot
+[ 90/171] B www.awc.org                            200 served ai:bytespider,ccbot,claudebot,cohere-ai,diffbot,gptbot,meta-externalagent,perplexitybot,timpibot,youbot
+[ 91/171] B www.awpa.com                           200 served
+[ 92/171] B www.aws.org                            200 served ai:perplexitybot,youbot
+[ 93/171] B www.blm.gov                            200 served
+[ 94/171] B www.bsigroup.com                       200 served ai:google-extended
+[ 95/171] B www.cabforum.org                       200 served
+[ 96/171] B www.cablelabs.com                      200 served
+[ 97/171] B www.cdc.gov                            200 served
+[ 98/171] B www.cen.eu                             200 no_directives
+[ 99/171] B www.cencenelec.eu                      200 no_directives
+[100/171] B www.cispi.org                          200 served
+[101/171] B www.cms.gov                            200 served
+[102/171] B www.compositepanel.org                 200 served
+[103/171] B www.cta.tech                           200 served
+[104/171] B www.dasma.com                          200 served
+[105/171] B www.decorativehardwoods.org            200 served
+[106/171] B www.dir.ca.gov                         200 served
+[107/171] B www.document-center.com                200 served
+[108/171] B www.eagle.org                          404 absent
+[109/171] B www.ejma.org                           200 served
+[110/171] B www.etsi.org                           200 served
+[111/171] B www.fda.gov                            401 other_4xx
+[112/171] B www.fgiaonline.org                     200 served
+[113/171] B www.fisheries.noaa.gov                 200 served
+[114/171] B www.flrules.org                        200 served
+[115/171] B www.fluidcontrolsinstitute.org         404 absent
+[116/171] B www.govinfo.gov                        200 served
+[117/171] B www.gp.com                             200 served
+[118/171] B www.gpo.gov                            200 served
+[119/171] B www.gsa.gov                            200 served
+[120/171] B www.healthit.gov                       200 served
+[121/171] B www.hl7.org                            200 served ai:claudebot
+[122/171] B www.huduser.gov                        200 served
+[123/171] B www.iapmo.org                          200 served
+[124/171] B www.iata.org                           200 served
+[125/171] B www.icao.int                           200 served
+[126/171] B www.icc-es.org                         200 served ai:amazonbot
+[127/171] B www.icgb.com                           200 served
+[128/171] B www.iec.ch                             202 no_directives
+[129/171] B www.ieee.org                           202 no_directives
+[130/171] B www.ihe.net                            200 served
+[131/171] B www.iitri.org                          200 served
+[132/171] B www.ilo.org                            200 served
+[133/171] B www.imo.org                            301 other
+[134/171] B www.itu.int                            200 served
+[135/171] B www.jsa.or.jp                          200 no_directives
+[136/171] B www.leg.state.fl.us                    200 served
+[137/171] B www.lr.org                             200 served
+[138/171] B www.naesb.org                          404 absent
+[139/171] B www.ncpdp.org                          404 absent
+[140/171] B www.nema.org                           0 network
+[141/171] B www.nfpa.org                           200 served
+[142/171] B www.nfrc.org                           200 served
+[143/171] B www.nist.gov                           200 served
+[144/171] B www.nlm.nih.gov                        200 served
+[145/171] B www.nmea.org                           200 served
+[146/171] B www.ntia.gov                           200 served
+[147/171] B www.nutrition.org                      200 served
+[148/171] B www.oal.ca.gov                         200 served
+[149/171] B www.ocimf.com                          200 served
+[150/171] B www.osha.gov                           200 served
+[151/171] B www.phta.org                           200 served ai:anthropic-ai,ccbot,claudebot,google-extended,gptbot,perplexitybot
+[152/171] B www.regulations.gov                    200 served
+[153/171] B www.rtca.org                           200 served
+[154/171] B www.rtcm.org                           200 served
+[155/171] B www.rvia.org                           200 served
+[156/171] B www.sae.org                            200 served ai:bytespider,claudebot
+[157/171] B www.safetyequipment.org                200 served
+[158/171] B www.shopulstandards.com                404 absent
+[159/171] B www.smpte.org                          200 served
+[160/171] B www.sos.state.co.us                    200 served ai:amazonbot,applebot-extended,bytespider,ccbot,claudebot,google-extended,gptbot,meta-externalagent
+[161/171] B www.spib.org                           200 served
+[162/171] B www.steel.org                          200 served
+[163/171] B www.steeljoist.org                     200 served
+[164/171] B www.theiia.org                         200 served
+[165/171] B www.tpinst.org                         200 served ai:amazonbot,anthropic-ai,applebot-extended,bytespider,ccbot,claudebot,cohere-ai,google-extended,gptbot,meta-externalagent,omgili,youbot
+[166/171] B www.transportation.org                 200 served
+[167/171] B www.ul.com                             200 served
+[168/171] B www.w3.org                             200 served
+[169/171] B www.wclib.org                          0 network
+[170/171] B www.wdma.com                           200 served
+[171/171] B www.wipo.int                           200 served
+
+wrote data/robots.json: 171 hosts, 63 blocked addresses
