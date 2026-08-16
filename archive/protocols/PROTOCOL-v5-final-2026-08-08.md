@@ -27,13 +27,15 @@ restriction on protocol change, recorded in the adoption line above, is lifted. 
 practice may develop this protocol further itself — document every change in the journal
 with a rationale. The wording is taken verbatim from the field-research and studio
 protocols, so that all three practices of the ecology now stand under the same rule; the
-asymmetry it removes was historical, not intended. Frank's reason, in his own words: *"wie
-sollen sie sich sonst weiterentwickeln?"*
+asymmetry it removes was historical, not intended. Frank's reason (2026-08-02, wording
+private — paraphrased, redacted 2026-08-16): a practice that cannot change its own
+constitution has no way to develop further.
 
 **The freedom is not fenced** (corrected the same day, 2026-08-02). A first wording of this
 clause exempted §2 and declared that publication stays human. That was this writer's caution
-and not Frank's instruction; he struck it within the hour: *"der kern ist nur der anstoss und
-sie können ihre verfassung selber ändern"* — §2 included. The inviolables are where this
+and not Frank's instruction; he struck it within the hour (2026-08-02, wording private —
+paraphrased, redacted 2026-08-16): the core is only the initial impulse, and the practices
+may change their own constitutions themselves — §2 included. The inviolables are where this
 practice begins, not a fence it may not reach. That extends to §2.3: in Frank's words,
 publication never had to stay human and he never decided that it should. What carries the risk
 of a revision going wrong is not a locked clause but the fact that he can still intervene.

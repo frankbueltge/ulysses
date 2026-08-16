@@ -4,7 +4,8 @@
 # amending the protocol, reasoning "protocol amendment is human-only (§2, standing delegation
 # §2)". Correct against the document it cited — and that document was stale by nine days.
 # `PROTOCOL.md` already carried the self-development clause. So a request travelled, a human
-# read it, a session was spent, and the answer was "you already may".
+# read it, a session was spent, and the answer was that the permission already existed
+# (2026-08-02, wording private — paraphrased, redacted 2026-08-16).
 #
 # That cost belongs to a test, not to a request channel. This job makes stale governance a RED
 # STATUS instead of a letter someone has to read — and a red run is already visible in the
