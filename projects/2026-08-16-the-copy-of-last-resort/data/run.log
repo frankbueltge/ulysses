@@ -1,0 +1,204 @@
+  5/306 D 2xx      200:20260801011007 http://everyspec.com
+  3/306 D 2xx      200:20260815091902 http://csrc.nist.gov
+  8/306 A network  200:20130111165821 http://healthit.hhs.gov/portal/server.pt/community/healthit_hhs_gov__direct_project/3338
+  9/306 C 2xx      200:20260705182139 http://ies.ed.gov/ncee/wwc/Handbooks
+  6/306 B blocked  200:20240324115729 http://global.ihs.com
+  4/306 C 2xx      200:20170902025217 http://csrc.nist.gov/groups/STM/cmvp/standards.html
+  7/306 B network  200:20101211182656 http://healthit.hhs.gov
+  2/306 B blocked  200:20260814162752 http://bookstore.gpo.gov
+ 13/306 C 2xx      200:20160903021225 http://nist.gov/publication-portal.cfm
+ 14/306 D 2xx      200:20260814190853 http://openid.net
+ 10/306 A blocked  200:20210605104939 http://infostore.saiglobal.com/store/
+ 12/306 D 2xx      200:20260815045815 http://nfpa.org
+ 16/306 B 5xx      200:20231110150418 http://quicksearch.dla.mil
+ 17/306 D 2xx      200:20260808005216 http://rtca.org
+ 11/306 D 2xx      200:20260807100456 http://nacha.org
+  1/306 D 2xx      ERR              http://asq.org
+ 15/306 D 2xx      200:20260729222202 http://publications.api.org
+ 21/306 B network  200:20160719073140 http://unp.un.org
+ 20/306 B network  200:20240122032256 http://ulstandards.ul.com
+306 addresses · arms A+B+C queried · 0 already on disk · 182 to go
+  8/182 C 2xx      200:20160903021225 http://nist.gov/publication-portal.cfm
+  1/182 B blocked  200:20260814162752 http://bookstore.gpo.gov
+  6/182 C 2xx      200:20260705182139 http://ies.ed.gov/ncee/wwc/Handbooks
+  9/182 B 5xx      200:20231110150418 http://quicksearch.dla.mil
+  7/182 A blocked  200:20210605104939 http://infostore.saiglobal.com/store/
+ 13/182 B network  200:20160719073140 http://unp.un.org
+ 12/182 B network  200:20240122032256 http://ulstandards.ul.com
+  2/182 C 2xx      200:20170902025217 http://csrc.nist.gov/groups/STM/cmvp/standards.html
+ 14/182 B blocked  200:20260813112002 http://webstore.ansi.org
+ 15/182 C 2xx      200:20081205011323 http://www.aem.org/CBC/ProdSpec/PCSA/
+  4/182 B network  200:20101211182656 http://healthit.hhs.gov
+ 16/182 B blocked  200:20260813014814 http://www.ansi.org
+ 19/182 C 2xx      200:20080907080423 http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_locations.html
+ 25/182 C 2xx      200:20150328054942 http://www.atsc.org/standards.html
+ 17/182 B 5xx      200:20200114190335 http://www.arb.ca.gov
+ 18/182 C 2xx      200:20260814215117 http://www.archives.gov/federal-register/cfr/ibr-locations.html
+ 23/182 B 5xx      200:20260814172047 http://www.asme.org
+ 10/182 C 2xx      200:20201017184600 http://store.sae.org/dlabout.htm
+ 11/182 B network  200:20240323180719 http://techstreet.com
+  5/182 A network  200:20130111165821 http://healthit.hhs.gov/portal/server.pt/community/healthit_hhs_gov__direct_project/3338
+ 29/182 B blocked  200:20260608225315 http://www.energyinst.org
+ 28/182 C 2xx      200:20200816221041 http://www.dasma.com/dasma-pages/D-AS-standards.asp
+  3/182 B blocked  200:20240324115729 http://global.ihs.com
+ 31/182 A blocked  ERR              http://www.faa.gov/aircraft/air_cert/design
+ 24/182 A 4xx      200:20130812161019 http://www.astm.org/DIGITAL_LIBRARY/index.shtml
+ 33/182 B blocked  200:20240708235325 http://www.fmglobal.com
+ 26/182 C 2xx      200:20260808102151 http://www.cdc.gov/growthcharts/who_charts.htm
+ 30/182 A 4xx      200:20160514162437 http://www.epa.gov/ttn/emc/news.html
+ 34/182 C 2xx      200:20250207134436 http://www.healthit.gov/sites/default/files/implementationguidefordirectedgeprotocolsv1_1.pdf
+ 36/182 C 2xx      200:20251113060612 http://www.icao.int/publications/Pages/default.aspx
+ 40/182 B blocked  200:20230423034941 http://www.ime.org
+ 27/182 B blocked  200:20260609181852 http://www.cganet.com
+ 37/182 A 4xx      200:20160810164359 http://www.iccsafe.org/e/category.html
+ 39/182 A 4xx      200:20240318052941 http://www.ietf.org/rfc.html
+ 42/182 C 2xx      200:20260814005042 http://www.itu.int/en/pages/default.aspx
+ 20/182 A 4xx      any:20250208231751 http://www.archives.gov/federal_register/code_of_federal_regulations/ibr_zlocations.html
+ 43/182 C 2xx      200:20201208193134 http://www.itu.int/pub/R-REG-RR-2012
+ 44/182 C 2xx      200:20260213105540 http://www.itu.int/pub/R-REG-RR-2016
+ 46/182 B blocked  200:20221120155018 http://www.marisec.org
+ 38/182 C 2xx      200:20200909042248 http://www.iec.ch/standardsdev/publications/?ref=menu
+ 45/182 C 2xx      200:20260813100925 http://www.leg.state.fl.us/statutes/
+ 32/182 C 2xx      200:20260725045406 http://www.fhwa.dot.gov/bridge/inspection/tunnel/
+ 52/182 C 2xx      200:20200927191524 http://www.smpte.org/standards/
+ 41/182 B blocked  200:20220127072251 http://www.iso.org
+ 48/182 A 4xx      200:20210426101715 http://www.oie.int/eng/normes/Mcode/en_sommaire.htm
+ 50/182 C 2xx      200:20180112233840 http://www.sae.org/pubs/
+ 56/182 C 2xx      200:20260815094224 http://www.w3.org/standards/
+ 54/182 B network  200:20260814200412 http://www.usace.army.mil
+ 21/182 C 2xx      200:20150519055731 http://www.asabe.org/publications/publications/standards.aspx
+ 51/182 A blocked  200:20150321073717 http://www.scte.org/standards/Standards_Available.aspx
+ 60/182 B blocked  200:20260814162752 https://bookstore.gpo.gov
+ 61/182 A 4xx      200:20240105061508 https://cabforum.org/wp-content/uploads/CA-Browser-Forum-BR-1.8.6.pdf
+ 63/182 A blocked  200:20220423213906 https://cites.org/eng/resources/transport/index.php
+ 49/182 A network  any:20171203145401 http://www.policy.energy.gov/enhancingGHGregistry/technicalguidelines/
+ 64/182 C 2xx      200:20260815051748 https://csrc.nist.gov/publications/
+ 35/182 B network  200:20211219163625 http://www.hitsp.org
+ 58/182 A network  200:20120603103958 https://assist.daps.dla.mil/quicksearch/
+ 68/182 B blocked  200:20240324115729 https://global.ihs.com
+ 57/182 C 2xx      200:20240224065720 https://aamva.org/getmedia/b801da7b-5584-466c-8aeb-f230cef6dda5/mDL-Implementation-Guidelines-Version-1-2_final.pdf
+ 69/182 B blocked  200:20260719192446 https://ibr.ansi.org
+ 55/182 B 5xx      200:20260815092017 http://www.usbr.gov
+ 62/182 A 4xx      200:20240112151728 https://cabforum.org/wp-content/uploads/CA-Browser-Forum-Network-Security-Guidelines-v1.7.pdf
+ 72/182 B blocked  200:20260813085036 https://loinc.org
+ 71/182 C 2xx      200:20220206075513 https://legis.nd.gov/agency-rules/north-dakota-administrative-code
+ 65/182 A 4xx      any:20260220092640 https://din.de/en/about-standards/buy-standard
+ 77/182 C 2xx      200:20260813073638 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf
+ 73/182 C 2xx      200:20260217030634 https://ntia.gov/publications/redbook-manual
+ 22/182 A 4xx      any:20250408171135 http://www.ashrae.org/standards-research-technology/standards-guidelines
+ 75/182 C 2xx      200:20260809210350 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.140-3.pdf
+ 47/182 B blocked  200:20260813104732 http://www.nsc.org
+ 70/182 A blocked  200:20260813204753 https://ibr.ansi.org/Standards/nema.aspx
+ 82/182 C 2xx      200:20260815051648 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf
+ 67/182 A network  200:20251210232618 https://fedspecs.gsa.gov/s/federal-specifications
+ 66/182 A blocked  200:20260716052729 https://dodcio.defense.gov/CMMC/
+ 81/182 C 2xx      200:20260813233244 https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication440.pdf
+ 87/182 C 2xx      200:20260802091127 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63b.pdf
+ 59/182 C 2xx      200:20260806071751 https://bhgs.dca.ca.gov/about_us/tb117_2013.pdf
+ 88/182 C 2xx      200:20260726152409 https://nvlpubs.nist.gov/nistpubs/hb/2020/NIST.HB.150-2020.pdf
+ 78/182 C 2xx      200:20260810111102 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf
+ 53/182 B network  any:20250224230322 http://www.standardsinfo.net
+ 74/182 C 2xx      200:20260811205331 https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf
+ 91/182 B network  200:20180610084255 https://shop.csa.ca
+ 89/182 C 2xx      200:20260728205007 https://oal.ca.gov/publications/ccr/
+ 86/182 C 2xx      200:20260812043932 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63-3.pdf
+ 93/182 B blocked  200:20260815074124 https://store.accuristech.com
+ 84/182 C 2xx      200:20260804204846 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf
+ 97/182 C 2xx      200:20260216032630 https://www.acgih.org/publications/
+ 99/182 B blocked  200:20260813014814 https://www.ansi.org
+ 98/182 A network  200:20190502043831 https://www.aitc-glulam.org/index.asp
+ 96/182 B network  200:20231101023252 https://www.abyinc.org
+ 85/182 C 2xx      200:20260801172155 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt2r1.pdf
+ 92/182 B blocked  200:20260617223426 https://standards.globalspec.com
+101/182 C 2xx      200:20260814215117 https://www.archives.gov/federal-register/cfr/ibr-locations.html
+102/182 A 4xx      any:20260729140026 https://www.archives.gov/federal-register/cfr/ibrlocations.html
+ 94/182 C 2xx      200:20260813110504 https://ucum.org/ucum
+107/182 C 2xx      200:20211023224808 https://www.astm.org/READINGLIBRARY/
+ 83/182 C 2xx      200:20260801172155 https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57Pt3r1.pdf
+106/182 C 2xx      200:20260810181857 https://www.asme.org/codes-standards
+110/182 B blocked  200:20260327160047 https://www.atsjournals.org
+109/182 C 2xx      200:20150328054942 https://www.atsc.org/standards.html
+108/182 C 2xx      200:20250307174132 https://www.astm.org/contact
+103/182 A 4xx      any:20250819162109 https://www.archives.gov/federal-register/crf/ibr-locations
+105/182 C 2xx      200:20260716001848 https://www.ashrae.org/home/
+111/182 C 2xx      200:20260729222202 https://www.blm.gov/programs/energy-and-minerals/oil-and-gas
+112/182 C 2xx      200:20260815020622 https://www.cdc.gov/cdc-info/index.html
+ 76/182 C 2xx      200:20260813073638 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf
+116/182 A blocked  200:20240303064822 https://www.cisa.gov/sites/default/files/publications/Federal_Government_Cybersecurity_Incident_and_Vulnerability_Response_Playbooks_508C.pdf
+ 80/182 C 2xx      200:20260802173535 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf
+120/182 B blocked  200:20260318034620 https://www.cste.org
+119/182 B blocked  200:20260813130700 https://www.csagroup.org
+122/182 A blocked  200:20260410231836 https://www.dco.uscg.mil/CG-ENG/
+117/182 A blocked  200:20230212052551 https://www.cisa.gov/uscert/sites/default/files/ncirp/National_Cyber_Incident_Response_Plan.pdf
+100/182 C 2xx      any:20260721132148 https://www.archives.gov/federal-register/cfr/ibr-locations
+121/182 A blocked  200:20260217021715 https://www.dco.uscg.mil/CG-ENG-4/
+113/182 C 2xx      200:20240301012119 https://www.cdc.gov/coronavirus/2019-ncov/communication/guidance.html
+ 79/182 C 2xx      200:20260726235650 https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.198-1.pdf
+118/182 B blocked  200:20201008081059 https://www.cites.org
+124/182 B blocked  200:20260815091836 https://www.dhs.gov
+128/182 C 2xx      200:20260815005232 https://www.epa.gov/hw-sw846
+130/182 C 2xx      200:20260813222340 https://www.etsi.org/deliver/etsi_en/300400_300499/30042201/02.02.01_60/en_30042201v020201p.pdf
+127/182 C 2xx      200:20260814182151 https://www.epa.gov/dockets
+115/182 B blocked  200:20260815211934 https://www.cisa.gov
+ 90/182 C 2xx      200:20260813233948 https://quicksearch.dla.mil/qsSearch.aspx
+133/182 A blocked  200:20110423203430 https://www.fcc.gov/oet/info/documents/bulletins/
+123/182 A blocked  200:20260317004338 https://www.dco.uscg.mil/nmc/merchant_mariner_credential/
+132/182 A blocked  200:20260727104357 https://www.faa.gov/training_testing
+137/182 C 2xx      200:20260815015420 https://www.fhwa.dot.gov/bridge/nbi.cfm
+ 95/182 B blocked  200:20260813112002 https://webstore.ansi.org
+125/182 B blocked  200:20260813204758 https://www.dnv.com
+141/182 A 4xx      200:20220222152245 https://www.fws.gov/international/travel-and-trade/live-animal-transport.html
+138/182 C 2xx      200:20260812150026 https://www.fisheries.noaa.gov/about/office-sustainable-fisheries
+142/182 B network  200:20240324115729 https://www.global.ihs.com
+135/182 B blocked  200:20260812155016 https://www.ferc.gov
+144/182 C 2xx      200:20250107113418 https://www.iec.ch/contact?id=40499
+143/182 C 2xx      any:20260326065506 https://www.healthit.gov/USCDI
+104/182 A 4xx      any:20250212025715 https://www.archives.gov/federal-regster/cfr/ibr-locations.html
+126/182 B blocked  200:20260218094607 https://www.dsp.dla.mil
+149/182 A blocked  200:20260815064427 https://www.iso.org/store.html
+148/182 A blocked  200:20260802181842 https://www.iso.org/popular-standards.html
+114/182 C 2xx      200:20240508224634 https://www.cdc.gov/infectioncontrol/guidelines/
+151/182 C 2xx      200:20250303143044 https://www.jsa.or.jp/en/
+146/182 B blocked  200:20220127072251 https://www.iso.org
+134/182 C 2xx      any:20250224204751 https://www.fda.gov/cigarette-warning-files
+150/182 C 2xx      200:20250303143044 https://www.jsa.or.jp/en
+129/182 C 2xx      200:20260815013802 https://www.epa.gov/nscep
+145/182 B blocked  200:20150827201211 https://www.ihs.com
+136/182 B blocked  200:20191208002201 https://www.fhwa.dot.gov
+154/182 C 2xx      200:20200716233211 https://www.nema.org/Pages/default.aspx
+159/182 B blocked  200:20260813104732 https://www.nsc.org
+156/182 B blocked  200:20260815091836 https://www.nhtsa.gov
+153/182 B blocked  200:20250530063003 https://www.msshq.org
+155/182 C 2xx      200:20231101131751 https://www.nfpa.org/Codes-and-Standards
+158/182 C 2xx      200:20260815091844 https://www.nist.gov/publications/
+157/182 A blocked  200:20260808204502 https://www.nhtsa.gov/about-nhtsa/electronic-reading-room
+166/182 C 2xx      200:20260728205007 https://www.oal.ca.gov/publications/ccr
+152/182 C 2xx      200:20230323235402 https://www.lr.org/en/type-approval-test-specifications
+165/182 A network  200:20260814180502 https://www.ntl.bts.gov/ntl
+161/182 B network  200:20210922232011 https://www.nssn.org
+160/182 B blocked  200:20260719195936 https://www.nsf.org
+139/182 B blocked  200:20260720062740 https://www.fmapprovals.com
+170/182 B network  200:20240522015721 https://www.radcoinc.com
+163/182 C 2xx      200:20250313180459 https://www.ntia.gov/sites/default/files/2023-11/j_2021_edition_rev_2023.pdf
+174/182 C 2xx      200:20260811050625 https://www.sos.state.co.us/CCR/NumericalDeptList.do
+140/182 A blocked  200:20240707081729 https://www.fmglobal.com/report-contact-page/general-contact-form
+162/182 C 2xx      200:20260813120049 https://www.ntia.gov/office/office-spectrum-management-osm
+168/182 C 2xx      200:20260211174449 https://www.osha.gov/coronavirus/ets/ibr
+169/182 B network  NONE             https://www.ph.d.sc.org
+172/182 C 2xx      200:20250717131143 https://www.regulations.gov/document/FDA-2013-S-0610-0003
+147/182 A blocked  200:20260814152232 https://www.iso.org/contact-iso.html
+178/182 A blocked  200:20230712101938 https://www.techstreet.com/ieee
+164/182 C 2xx      200:20250315073107 https://www.ntia.gov/sites/default/files/2023-11/m_2021_edition_rev_2023.pdf
+181/182 C 2xx      200:20140702200339 https://www.ul.com/canada/eng/pages/
+180/182 A blocked  any:20250527131537 https://www.tsa.gov/REAL-ID/mDL
+167/182 B blocked  200:20241219212618 https://www.oecd-ilibrary.org
+177/182 A blocked  200:20220119044448 https://www.techstreet.com/api/apigate.html
+131/182 A blocked  200:20260121095806 https://www.faa.gov/aircraft/air_cert/design_approvals/tso/
+173/182 C 2xx      200:20251002131410 https://www.rtca.org/products
+171/182 A blocked  200:20170703182436 https://www.rd.usda.gov/publications/regulations-guidelines/bulletins
+176/182 B blocked  200:20240323180719 https://www.techstreet.com
+175/182 B blocked  200:20250919104342 https://www.standardmethods.org
+179/182 B blocked  200:20260814160002 https://www.tsa.gov
+182/182 C 2xx      ERR              https://www.ul.com/customer-service
+
+wrote /home/user/ulysses/projects/2026-08-16-the-copy-of-last-resort/data/cdx.json — 182 addresses queried, 124 in arm D not queried, 2 query errors (1.1%; kill fires above 20 %)
