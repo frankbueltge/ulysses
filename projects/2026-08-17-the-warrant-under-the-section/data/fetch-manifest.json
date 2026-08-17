@@ -1,0 +1,2909 @@
+{
+ "issue_date": "2026-08-11",
+ "source_list": "projects/2026-08-14-the-addresses-the-law-prints/sections.json",
+ "count": 290,
+ "user_agent": "Ulysses research (artistic research practice; contact via frankbueltge.de)",
+ "files": [
+  {
+   "title": 6,
+   "section": "37.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-6.xml?section=37.4",
+   "http": "200",
+   "bytes": 8665,
+   "sha256": "5dbfa7ce0297b920b4becd9c9d1802aafde079bcd87ddfc883711eb43bd944ea",
+   "file": "6-37.4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 7,
+   "section": "205.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-7.xml?section=205.3",
+   "http": "200",
+   "bytes": 3447,
+   "sha256": "f7de65862bb2c7062e62a22bf73e51667a0d0af6df87cd81ec141d36e8b77e35",
+   "file": "7-205.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 7,
+   "section": "1728.97",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-7.xml?section=1728.97",
+   "http": "200",
+   "bytes": 13580,
+   "sha256": "c639fd0836940a1d6370777821a8c633f33c154e4b07ad376ce3ef664c711eff",
+   "file": "7-1728.97.xml",
+   "heading": "Incorporation by reference of electric standards and specifications."
+  },
+  {
+   "title": 9,
+   "section": "92.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-9.xml?section=92.7",
+   "http": "200",
+   "bytes": 1696,
+   "sha256": "a3209eab584f414915462ed370d0ecf42478f6b51b124a84ed1ae7d959bb3d74",
+   "file": "9-92.7.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 10,
+   "section": "300.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-10.xml?section=300.13",
+   "http": "200",
+   "bytes": 1305,
+   "sha256": "d458d8a081bffe2f87bbfd8e001b4fb274778456db0755130519c4d70fec9767",
+   "file": "10-300.13.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 12,
+   "section": "233.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-12.xml?section=233.1",
+   "http": "200",
+   "bytes": 4443,
+   "sha256": "c94952d3847cc40dc01cb5a0a3856559b895f94e72e84c0c85b295d4a627d881",
+   "file": "12-233.1.xml",
+   "heading": "Authority, purpose, collection of information, and incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "36.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=36.6",
+   "http": "200",
+   "bytes": 5188,
+   "sha256": "06ae36cbf41457cda27d7246e79367781addf308a297487a55e0f59be633a17b",
+   "file": "14-36.6.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "38.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=38.7",
+   "http": "200",
+   "bytes": 1274,
+   "sha256": "ed617dfd4a9f66742f5ac6d4e98b72ae01ea92cc7a1d75f718328aa4fa9f1ab6",
+   "file": "14-38.7.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "65.23",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=65.23",
+   "http": "200",
+   "bytes": 1811,
+   "sha256": "72fe5bd0621d48c63c6467582a6c9316b39c47ea033b61f00fe64b1c0645eb60",
+   "file": "14-65.23.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "91.1721",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=91.1721",
+   "http": "200",
+   "bytes": 3340,
+   "sha256": "20167909550dc9ad82e541c6a9c17e0cf3d7a56ed51001d00077610ffd7179ef",
+   "file": "14-91.1721.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "151.72",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=151.72",
+   "http": "200",
+   "bytes": 1881,
+   "sha256": "01556c4595ff5a5ff2fa25dfa838cf34d7910caeccaf449c15a604b481c3d70e",
+   "file": "14-151.72.xml",
+   "heading": "Incorporation by reference of technical guidelines in Advisory Circulars."
+  },
+  {
+   "title": 14,
+   "section": "152.11",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=152.11",
+   "http": "200",
+   "bytes": 2267,
+   "sha256": "e4be192002b6fe2672bab1060924ea84076d15915d11e262485c11583f673c82",
+   "file": "14-152.11.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "194.109",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=194.109",
+   "http": "200",
+   "bytes": 1876,
+   "sha256": "f179ab01dbb850aef5c0655bb89af243919e5a0e4f3c5fd7d54a831cfea25a58",
+   "file": "14-194.109.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "201.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=201.3",
+   "http": "200",
+   "bytes": 620,
+   "sha256": "7f658d5ae4ed535723b58c647e72dbc67b40d1263e32c595b9fba8c47a7bdf7f",
+   "file": "14-201.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "211.14",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=211.14",
+   "http": "200",
+   "bytes": 1081,
+   "sha256": "5b278526640d047f525227e2e05d6d97dce3655f28e55d5ab8e4501d1f441433",
+   "file": "14-211.14.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 14,
+   "section": "253.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=253.4",
+   "http": "200",
+   "bytes": 1831,
+   "sha256": "18cc36dd470307bb29a8ba6d9a8fa0c97d112c772bbf14d6452047cd0ddd4692",
+   "file": "14-253.4.xml",
+   "heading": "Incorporation by reference in the contract of carriage."
+  },
+  {
+   "title": 14,
+   "section": "1206.203",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-14.xml?section=1206.203",
+   "http": "200",
+   "bytes": 685,
+   "sha256": "bdd13bd2735159f6aea5c86dd49b815a1959bf61c1fd46cd6e16fdee1434542b",
+   "file": "14-1206.203.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 15,
+   "section": "200.115",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-15.xml?section=200.115",
+   "http": "200",
+   "bytes": 1863,
+   "sha256": "4b770bc4986f1bffbfa508b5e1ef167c8c4c50d2f6c2b30093fb7bfb5d9a57bd",
+   "file": "15-200.115.xml",
+   "heading": "Description of services and list of fees, incorporation by reference."
+  },
+  {
+   "title": 15,
+   "section": "230.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-15.xml?section=230.7",
+   "http": "200",
+   "bytes": 1306,
+   "sha256": "7041be7c9838fafa85e0ca7df6346f896188c80ee7c128cf2a8fdbdf198470c9",
+   "file": "15-230.7.xml",
+   "heading": "Description of services and list of fees, incorporation by reference."
+  },
+  {
+   "title": 15,
+   "section": "285.16",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-15.xml?section=285.16",
+   "http": "200",
+   "bytes": 1884,
+   "sha256": "86f8bc9eddddd07e99afab234e8fdfa6d4fcf063f59f418d42e77515cb1707ae",
+   "file": "15-285.16.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 15,
+   "section": "995.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-15.xml?section=995.2",
+   "http": "200",
+   "bytes": 1586,
+   "sha256": "97fb0c54ae9999c20f6d7f850b793027c2511994f99a721d428df08566a8f6c2",
+   "file": "15-995.2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "306.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=306.13",
+   "http": "200",
+   "bytes": 2201,
+   "sha256": "7f6caaecb327276909d69d0db868b8d91d66cc6db4997cc92189fe4016d9af7b",
+   "file": "16-306.13.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "1211.40",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=1211.40",
+   "http": "200",
+   "bytes": 2663,
+   "sha256": "9ea68c458467f8d9a4df448b9385d115f298a5cd06a9eac48e9818da78f184bb",
+   "file": "16-1211.40.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "1241.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=1241.3",
+   "http": "200",
+   "bytes": 1687,
+   "sha256": "22e832c2a450fef9096a1418f1f72797987e2f2682df14eb991b73487a5d2419",
+   "file": "16-1241.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "1242.8",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=1242.8",
+   "http": "200",
+   "bytes": 2177,
+   "sha256": "f2f70091f349c6f42c7d3ecc52822a06032e7742fb4a9138aec0634ded2a8946",
+   "file": "16-1242.8.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "1243.8",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=1243.8",
+   "http": "200",
+   "bytes": 2210,
+   "sha256": "f9f566e1add96d93c57f186f2d15ed14fcc97354688ea299567a2e3f5acf717b",
+   "file": "16-1243.8.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "1250.10",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=1250.10",
+   "http": "200",
+   "bytes": 2837,
+   "sha256": "1586b0b346ab9424f98dc2b3daa31d69d18652cfb0dfc35497dc3ca5cc9783e4",
+   "file": "16-1250.10.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "1450.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=1450.3",
+   "http": "200",
+   "bytes": 1971,
+   "sha256": "5f3cdd3c7d81502514361394b7e4092a6e8c76bb822ca571229f41d6684be726",
+   "file": "16-1450.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "1461.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=1461.4",
+   "http": "200",
+   "bytes": 2048,
+   "sha256": "5f0d5ef93077bf2e6a8029440ed4828b946e0a4ec3b242c3cb6cf8dc2c3a1389",
+   "file": "16-1461.4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 16,
+   "section": "1640.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-16.xml?section=1640.6",
+   "http": "200",
+   "bytes": 2143,
+   "sha256": "a4abf10d0b4a0284735bf22377a222d059e016102d71aa008bc511effd9ac1cb",
+   "file": "16-1640.6.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 17,
+   "section": "230.411",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-17.xml?section=230.411",
+   "http": "200",
+   "bytes": 4207,
+   "sha256": "320c48a5b8334fe9d24df7c0175c14b8f664a03a284b9f92e58f043210d63d3c",
+   "file": "17-230.411.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 17,
+   "section": "232.303",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-17.xml?section=232.303",
+   "http": "200",
+   "bytes": 1988,
+   "sha256": "a5032a5b158d94d42a7247090807ae836e91495a29a9f83d09330a90b7264808",
+   "file": "17-232.303.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 17,
+   "section": "240.12b-23",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-17.xml?section=240.12b-23",
+   "http": "200",
+   "bytes": 3304,
+   "sha256": "8505df86785c8683a3ccf43206638a66ecc1c1dad41e5eda5916a2def10a69e0",
+   "file": "17-240.12b-23.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 17,
+   "section": "260.7a-31",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-17.xml?section=260.7a-31",
+   "http": "200",
+   "bytes": 775,
+   "sha256": "10a5cff30f8b19f242026aef74995ba41ab441922ace6c06594502bb54c8e3cc",
+   "file": "17-260.7a-31.xml",
+   "heading": "Incorporation by reference of contested material."
+  },
+  {
+   "title": 17,
+   "section": "260.7a-32",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-17.xml?section=260.7a-32",
+   "http": "200",
+   "bytes": 624,
+   "sha256": "6680e8597c218b5962984a24467d53e9a7ee298427ba358fd1fd6e7fc4170fd6",
+   "file": "17-260.7a-32.xml",
+   "heading": "Incorporation by reference rendering document incomplete, unclear, or confusing."
+  },
+  {
+   "title": 17,
+   "section": "270.0-4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-17.xml?section=270.0-4",
+   "http": "200",
+   "bytes": 3377,
+   "sha256": "94084683f35248be05e8bc7fffbc161a27a51e8cb256acee9332ed13c3337f1a",
+   "file": "17-270.0-4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 17,
+   "section": "275.0-6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-17.xml?section=275.0-6",
+   "http": "200",
+   "bytes": 1919,
+   "sha256": "14f1d4da923a6735c853f2b069437fd2cd09cb2157df02f5ae44cd8a7dc1d198",
+   "file": "17-275.0-6.xml",
+   "heading": "Incorporation by reference in applications."
+  },
+  {
+   "title": 18,
+   "section": "38.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-18.xml?section=38.1",
+   "http": "200",
+   "bytes": 3923,
+   "sha256": "4956636b84d0cceac7d15052b98c821fe7e2df58ad1d1afb869a4c51f65e00ec",
+   "file": "18-38.1.xml",
+   "heading": "Incorporation by reference of North American Energy Standards Board Wholesale Electric Quadrant standards."
+  },
+  {
+   "title": 21,
+   "section": "106.160",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-21.xml?section=106.160",
+   "http": "200",
+   "bytes": 3417,
+   "sha256": "e0dda304344052023a1b5ad98a8f2ac5562c95354d0946d44aecb1c9398a96d7",
+   "file": "21-106.160.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 21,
+   "section": "820.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-21.xml?section=820.7",
+   "http": "200",
+   "bytes": 1663,
+   "sha256": "40aa737ed595f8a0d19bd02f66224421430aa015e610318378b5b9f82e3d5410",
+   "file": "21-820.7.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 21,
+   "section": "830.10",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-21.xml?section=830.10",
+   "http": "200",
+   "bytes": 2674,
+   "sha256": "a96640393892e335e05daed43472886456a711828ae7af4dc84e2ceab8957a23",
+   "file": "21-830.10.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 21,
+   "section": "1141.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-21.xml?section=1141.5",
+   "http": "200",
+   "bytes": 1299,
+   "sha256": "ce081f8b053593e71f85ff452b32a13bfde84a1556405397884dc5a0922c27fb",
+   "file": "21-1141.5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 21,
+   "section": "1311.08",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-21.xml?section=1311.08",
+   "http": "200",
+   "bytes": 3668,
+   "sha256": "ef1fa97321453372d70022d17112749dad3a8b126f287bc1439b498409059800",
+   "file": "21-1311.08.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 23,
+   "section": "490.111",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-23.xml?section=490.111",
+   "http": "200",
+   "bytes": 3030,
+   "sha256": "5737442632ded8a656908527d6c4a80b5fb97e0523ce9ad8ae70bdfcb05d83ee",
+   "file": "23-490.111.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 23,
+   "section": "630.1018",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-23.xml?section=630.1018",
+   "http": "200",
+   "bytes": 1401,
+   "sha256": "81688087571a532b38bc8b025b7214e9ff8bf343e7f3225897288bd5cdf87338",
+   "file": "23-630.1018.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 23,
+   "section": "650.317",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-23.xml?section=650.317",
+   "http": "200",
+   "bytes": 2061,
+   "sha256": "a95b8ac136b065202b2dec07b38546a8215dc836a02edf67086d3ff3103a070f",
+   "file": "23-650.317.xml",
+   "heading": "Incorporation by reference ."
+  },
+  {
+   "title": 23,
+   "section": "650.517",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-23.xml?section=650.517",
+   "http": "200",
+   "bytes": 3197,
+   "sha256": "042777c62003b4e982935f374674916205213858d7d5733c2df60c48c50c3639",
+   "file": "23-650.517.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 24,
+   "section": "100.201a",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-24.xml?section=100.201a",
+   "http": "200",
+   "bytes": 2381,
+   "sha256": "3cb310559fde439fa54b470be0ea6e7dfc35500b9e57c3bac9aa84dc3239c6f8",
+   "file": "24-100.201a.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 24,
+   "section": "200.927",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-24.xml?section=200.927",
+   "http": "200",
+   "bytes": 590,
+   "sha256": "74261da403d7194f76863b259d088a462665936b285facf9c8640168033a7279",
+   "file": "24-200.927.xml",
+   "heading": "Incorporation by reference of minimum property standards."
+  },
+  {
+   "title": 24,
+   "section": "247.8",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-24.xml?section=247.8",
+   "http": "200",
+   "bytes": 494,
+   "sha256": "bd733aa161f2042f803c66ea3f278f84f87fc0c55c4827e8ff274f906b9e1711",
+   "file": "24-247.8.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 24,
+   "section": "905.110",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-24.xml?section=905.110",
+   "http": "200",
+   "bytes": 1941,
+   "sha256": "fad82507e901911d71ef963274442c76530352dcda6012bff3028b2f125cc3af",
+   "file": "24-905.110.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 24,
+   "section": "3280.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-24.xml?section=3280.4",
+   "http": "200",
+   "bytes": 45282,
+   "sha256": "4e7b5054b431827e3fea5bb001cd3d0fc05eaac95e5f14fb2911dc2fa21bfd50",
+   "file": "24-3280.4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 24,
+   "section": "3282.16",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-24.xml?section=3282.16",
+   "http": "200",
+   "bytes": 2096,
+   "sha256": "be1181acf273a29b234ad80de7272edf76eb91b7e85778a9654aca45e6c1d959",
+   "file": "24-3282.16.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 24,
+   "section": "3285.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-24.xml?section=3285.4",
+   "http": "200",
+   "bytes": 5271,
+   "sha256": "138bdb62aedfd870bf71f244589ae6de840538a4816d716b177930f03c5cd1f9",
+   "file": "24-3285.4.xml",
+   "heading": "Incorporation by reference (IBR)."
+  },
+  {
+   "title": 28,
+   "section": "5.207",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-28.xml?section=5.207",
+   "http": "200",
+   "bytes": 768,
+   "sha256": "122a031fa2ff52541ddcf12ca24e913875878826b71966c6ea397740fe7a5173",
+   "file": "28-5.207.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 29,
+   "section": "1910.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-29.xml?section=1910.6",
+   "http": "200",
+   "bytes": 43992,
+   "sha256": "6e7dc52148b411df1ee6fa53b86dd82a3043b9b667885ffb07249a3c8908f768",
+   "file": "29-1910.6.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 29,
+   "section": "1910.509",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-29.xml?section=1910.509",
+   "http": "200",
+   "bytes": 4549,
+   "sha256": "428a4cf84f0b6c44034403172fc501b74a07ff2e866d138102890307be804d10",
+   "file": "29-1910.509.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 29,
+   "section": "1915.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-29.xml?section=1915.5",
+   "http": "200",
+   "bytes": 11597,
+   "sha256": "f9bf3f0e4e9b4270b44ae578de8ad037e4a552ab0dd97e9cb158075f2757ccff",
+   "file": "29-1915.5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 29,
+   "section": "1917.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-29.xml?section=1917.3",
+   "http": "200",
+   "bytes": 7960,
+   "sha256": "03c848c8012f01f55d9d6db3ee357c95c7f49d3e4abc44e8651288bca907617d",
+   "file": "29-1917.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 29,
+   "section": "1918.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-29.xml?section=1918.3",
+   "http": "200",
+   "bytes": 7795,
+   "sha256": "6802fe67949d548137d983d81d0862a98b5e540c08ae93bcb868b83f0b5fa7fc",
+   "file": "29-1918.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 29,
+   "section": "1926.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-29.xml?section=1926.6",
+   "http": "200",
+   "bytes": 24438,
+   "sha256": "5b172dac1efc70dcf840c1a3b5a602240cebfbb10f7215126bba1e5daa280b92",
+   "file": "29-1926.6.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 30,
+   "section": "75.1107-17",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-30.xml?section=75.1107-17",
+   "http": "200",
+   "bytes": 1031,
+   "sha256": "ebd373576679b2b8ef801fe342ed28388b0ccaa3cb43750e67e43b307a3c09a0",
+   "file": "30-75.1107-17.xml",
+   "heading": "Incorporation by reference; availability of publications."
+  },
+  {
+   "title": 30,
+   "section": "77.403-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-30.xml?section=77.403-2",
+   "http": "200",
+   "bytes": 1887,
+   "sha256": "b986ac67d9799767a22b3ceee643dfe840c6406a6cde837aa45cbdd9b6462a47",
+   "file": "30-77.403-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 31,
+   "section": "29.501",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-31.xml?section=29.501",
+   "http": "200",
+   "bytes": 2671,
+   "sha256": "c827b02526f62422708ee64bd1fa3609eca39684bde0c2dfa81275436ce2e789",
+   "file": "31-29.501.xml",
+   "heading": "Purpose; incorporation by reference; scope."
+  },
+  {
+   "title": 31,
+   "section": "132.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-31.xml?section=132.1",
+   "http": "200",
+   "bytes": 4443,
+   "sha256": "3ad092341979c7939d624b0d9193b7b28ee5b530447232cbe9f2e4532f04ca24",
+   "file": "31-132.1.xml",
+   "heading": "Authority, purpose, collection of information, and incorporation by reference."
+  },
+  {
+   "title": 32,
+   "section": "170.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-32.xml?section=170.2",
+   "http": "200",
+   "bytes": 4803,
+   "sha256": "36b5382a143826e9f19b6eadbe2904022fb4190d49efe037e121ce777d4b9460",
+   "file": "32-170.2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 32,
+   "section": "2002.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-32.xml?section=2002.2",
+   "http": "200",
+   "bytes": 2763,
+   "sha256": "3e2e4ce4ac99e15ba6afd48b24dbeefbe627668daffa7641b497d946681b95f0",
+   "file": "32-2002.2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "96.130",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=96.130",
+   "http": "200",
+   "bytes": 2362,
+   "sha256": "c372a07ca08da99117c1a619d94f04035b7a8acee63b4e41b6720e913ec54d66",
+   "file": "33-96.130.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "97.110",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=97.110",
+   "http": "200",
+   "bytes": 1914,
+   "sha256": "1d8af5acc0e73a30c8f8fb9f03a7d60bd106741abfc852b52c833f9d331bf0fc",
+   "file": "33-97.110.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "101.115",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=101.115",
+   "http": "200",
+   "bytes": 2505,
+   "sha256": "799c1aed4a0a3a4482e789ea6941660ad59f8454a3385286d4e0c033e7279dda",
+   "file": "33-101.115.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "118.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=118.3",
+   "http": "200",
+   "bytes": 2564,
+   "sha256": "258dd417bb0c37e1b634014b34ee28a3123ff3c9276cdaef4a1379e4a9a8bc22",
+   "file": "33-118.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "126.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=126.5",
+   "http": "200",
+   "bytes": 3660,
+   "sha256": "d08155c9dd22ab20ddf36e63248fb5d6acadf890970d372f8a59ad19336a9ab2",
+   "file": "33-126.5.xml",
+   "heading": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?"
+  },
+  {
+   "title": 33,
+   "section": "127.003",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=127.003",
+   "http": "200",
+   "bytes": 4877,
+   "sha256": "c98be7f3add3a59219bfdb10e9c86c95f724ec6de6e50b3f3b6ec24df9a1529c",
+   "file": "33-127.003.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "140.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=140.7",
+   "http": "200",
+   "bytes": 2618,
+   "sha256": "b5739d9d217e5935ef9b20ca854d62a2ee26ab64719ba7fa27a96702b491b10c",
+   "file": "33-140.7.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "149.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=149.3",
+   "http": "200",
+   "bytes": 1577,
+   "sha256": "dd3f3d9dfb79b45ac0b3bbeecc64fb58d350b23d66e08b575cbf68ca847bf7bf",
+   "file": "33-149.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "154.106",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=154.106",
+   "http": "200",
+   "bytes": 5874,
+   "sha256": "e87c8406ebc8eec5d99b343b1c554266a0ecb2b2861fa3d13954d6ba665098f3",
+   "file": "33-154.106.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "155.140",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=155.140",
+   "http": "200",
+   "bytes": 6078,
+   "sha256": "d00ce857ac4c79c150aec68e078746cc45c568e0f4e97f310987308ed2c27e0f",
+   "file": "33-155.140.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "156.111",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=156.111",
+   "http": "200",
+   "bytes": 2243,
+   "sha256": "fa0f8eea7754821885cc8bf17fb47977c1952cdfaeb9dc5d621f48a7b7270424",
+   "file": "33-156.111.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "157.02",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=157.02",
+   "http": "200",
+   "bytes": 4932,
+   "sha256": "d8ef1a147aac868afed10b8ede35eae95bf2bfaa399cbcff7fd088ef88690f37",
+   "file": "33-157.02.xml",
+   "heading": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?"
+  },
+  {
+   "title": 33,
+   "section": "159.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=159.4",
+   "http": "200",
+   "bytes": 1925,
+   "sha256": "fe272d68502118a4f8482a34ba599f170d6a9b552c982c5964d279145d7274f8",
+   "file": "33-159.4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "164.03",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=164.03",
+   "http": "200",
+   "bytes": 5427,
+   "sha256": "e03dbc9bc54a1947ebb47903fc2e052eb6b5fb1203dfec1cb072e21cdacd9065",
+   "file": "33-164.03.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "169.15",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=169.15",
+   "http": "200",
+   "bytes": 3176,
+   "sha256": "f8a2bd91f04453a0811517a25d0a90f399641515652c8441e60d78f2290a385b",
+   "file": "33-169.15.xml",
+   "heading": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?"
+  },
+  {
+   "title": 33,
+   "section": "183.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=183.5",
+   "http": "200",
+   "bytes": 6014,
+   "sha256": "df33f9c922695bb8113b889e66778c1fa53d801db496533f6017088d15244c3c",
+   "file": "33-183.5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 33,
+   "section": "183.607",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-33.xml?section=183.607",
+   "http": "200",
+   "bytes": 1800,
+   "sha256": "9fa03a1e1c56d40330f914fa8a8a5f6224f6738a46943a73c20af28fa1b61d57",
+   "file": "33-183.607.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 34,
+   "section": "77.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-34.xml?section=77.2",
+   "http": "200",
+   "bytes": 2133,
+   "sha256": "9d3726f8712ebcfdf28723638d0239628fb45fb402ec3f1a791ac913a09645c2",
+   "file": "34-77.2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 37,
+   "section": "1.57",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-37.xml?section=1.57",
+   "http": "200",
+   "bytes": 9929,
+   "sha256": "189a166a333b5ea5447c52338fc662a7ef36dbba3e8581c5c90bd38ffdf3f365",
+   "file": "37-1.57.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 37,
+   "section": "1.839",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-37.xml?section=1.839",
+   "http": "200",
+   "bytes": 1566,
+   "sha256": "19344e1e9860bece364d8957a72de58d8dfc227d130853e30a5fea9679567653",
+   "file": "37-1.839.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 38,
+   "section": "17.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-38.xml?section=17.1",
+   "http": "200",
+   "bytes": 2819,
+   "sha256": "743efa776a232962af32bafe5743da6e387f73db44a68819f6c156bd3f928e2a",
+   "file": "38-17.1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 38,
+   "section": "36.4219",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-38.xml?section=36.4219",
+   "http": "200",
+   "bytes": 680,
+   "sha256": "ef19e2b03a004686eac2bb6c075abe10fde93c1ba35cbee3a5ba21f465e48424",
+   "file": "38-36.4219.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 38,
+   "section": "36.4517",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-38.xml?section=36.4517",
+   "http": "200",
+   "bytes": 718,
+   "sha256": "5492cd868fdfd7c56193881ad7e27bec7fa7999fa0a35845bef3d8fca815c7d9",
+   "file": "38-36.4517.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 39,
+   "section": "20.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-39.xml?section=20.1",
+   "http": "200",
+   "bytes": 1903,
+   "sha256": "ce2e7bc753b8bac7078bb7da16abbb8f27217e0dfb74aac78eabe81773f28dd6",
+   "file": "39-20.1.xml",
+   "heading": "Incorporation by reference; Mailing Standards of the United States Postal Service, International Mail Manual."
+  },
+  {
+   "title": 39,
+   "section": "111.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-39.xml?section=111.1",
+   "http": "200",
+   "bytes": 1991,
+   "sha256": "0fadfa3377ea9c356b6356d53cb932d365dd13a9426ff53116cd0ecb9756bcfb",
+   "file": "39-111.1.xml",
+   "heading": "Incorporation by reference; Mailing Standards of the United States Postal Service, Domestic Mail Manual."
+  },
+  {
+   "title": 40,
+   "section": "52.742",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=52.742",
+   "http": "200",
+   "bytes": 4300,
+   "sha256": "49cbc569c6bb834722f9a8cadf6e1e88650f597237e6630460e70bb650671320",
+   "file": "40-52.742.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "62.1490",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=62.1490",
+   "http": "200",
+   "bytes": 1693,
+   "sha256": "e651f3d223d67474a324fad22c631078d24f3365bf203f8bc16c899eb5cf5a9e",
+   "file": "40-62.1490.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "62.8700",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=62.8700",
+   "http": "200",
+   "bytes": 2019,
+   "sha256": "8ddf06d7bac3ad035ab25f7cc47ee915093c1c7e670b6c5a83f833024299cb7b",
+   "file": "40-62.8700.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "62.10353",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=62.10353",
+   "http": "200",
+   "bytes": 1608,
+   "sha256": "f9d19a65100f582652c75d523e194f76e5cceeafebe75cb04e26f9bcc0d1c657",
+   "file": "40-62.10353.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "65.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=65.13",
+   "http": "200",
+   "bytes": 2092,
+   "sha256": "8454276e103b8a9eb5f1717911fcd11c0508db1fafd01d87bf0dcc49dcbedd53",
+   "file": "40-65.13.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "72.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=72.13",
+   "http": "200",
+   "bytes": 2651,
+   "sha256": "e1cacd426b40408b13f8c179c524928ebda72300c7443dc944f4c67dfdfb7e51",
+   "file": "40-72.13.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "75.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=75.6",
+   "http": "200",
+   "bytes": 14529,
+   "sha256": "f2200b7ce4d59a9f57eb36af56ed316a7bc5bd7ccd56edd50af464480ff52529",
+   "file": "40-75.6.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "76.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=76.4",
+   "http": "200",
+   "bytes": 2538,
+   "sha256": "fac74af1b4dc74720ebdb47df9b0fc6ff0dc3a0da111ab549ab530d84c9e6aee",
+   "file": "40-76.4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "80.12",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=80.12",
+   "http": "200",
+   "bytes": 15745,
+   "sha256": "f6be4f16355d3a6bd46974352072435c58469fad3737ef2637bfddf6bbe05992",
+   "file": "40-80.12.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "82.27",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=82.27",
+   "http": "200",
+   "bytes": 5167,
+   "sha256": "910a6ee0c873835ef2a57878380e2e818363809f2717f45c44729e306b852239",
+   "file": "40-82.27.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "82.31",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=82.31",
+   "http": "200",
+   "bytes": 1921,
+   "sha256": "73696415e17bfdfcac8465a4ba410e48821d8f05908dab624a69d3454d13467d",
+   "file": "40-82.31.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "84.37",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=84.37",
+   "http": "200",
+   "bytes": 3038,
+   "sha256": "8af8038783f8f69be75a277028824eab8fabc63412080ec46b70c4d4bde03c72",
+   "file": "40-84.37.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "86.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=86.1",
+   "http": "200",
+   "bytes": 13832,
+   "sha256": "358b7fbdb4ff1c799d6fbafdc07a5d2cc97b81d288ee8494e479215cbf7cf906",
+   "file": "40-86.1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "260.11",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=260.11",
+   "http": "200",
+   "bytes": 11272,
+   "sha256": "1368167f602d3c80715c6a23ca05f8f01a9a676ec43301586e3a02628bc7f155",
+   "file": "40-260.11.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "272.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=272.2",
+   "http": "200",
+   "bytes": 3282,
+   "sha256": "d07b4ea08bb8e17c9659a87e22dd0c82e9874f99fb003541c25e9fcc4fbed371",
+   "file": "40-272.2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "282.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=282.2",
+   "http": "200",
+   "bytes": 3444,
+   "sha256": "ac01ff47ade028071ce7857aa713d2d8001d2b09335e3163966ef7b4c46cb27e",
+   "file": "40-282.2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "432.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=432.5",
+   "http": "200",
+   "bytes": 1578,
+   "sha256": "6a167327e90c73c645922595c426f55dfab1f832896f90854602e9de1f9c2f50",
+   "file": "40-432.5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "600.011",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=600.011",
+   "http": "200",
+   "bytes": 5127,
+   "sha256": "b45c51fbc275189f819b7016f062673b41d317e1d7b29f2ebab8b5df9df35e6d",
+   "file": "40-600.011.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "745.67",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=745.67",
+   "http": "200",
+   "bytes": 1914,
+   "sha256": "8d724f08bd9f2872dc9efa895b35607f32fa55e1f5cc59c62d3e9736da59605e",
+   "file": "40-745.67.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "761.19",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=761.19",
+   "http": "200",
+   "bytes": 6141,
+   "sha256": "efb5a4ce735489fd712e6ef7c54d1f987c13c2e50c92e5d5822c0a1de55af9e2",
+   "file": "40-761.19.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "770.99",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=770.99",
+   "http": "200",
+   "bytes": 7727,
+   "sha256": "60f7420b378cf62818b7a2733c71e6576385f8a3a1af7cb3b745f8d3003c37bf",
+   "file": "40-770.99.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1030.110",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1030.110",
+   "http": "200",
+   "bytes": 1771,
+   "sha256": "9dc34e49fbc7b84e751fcfe310265235e8b910fb779590239b8818d3123c961f",
+   "file": "40-1030.110.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1031.210",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1031.210",
+   "http": "200",
+   "bytes": 1605,
+   "sha256": "f2d65895f63e38ce1566f1cddea1aebec4bcb065e2eb2624515696770de426a8",
+   "file": "40-1031.210.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1036.810",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1036.810",
+   "http": "200",
+   "bytes": 5185,
+   "sha256": "b1d94325219858468e40c567679082d00bbf3c68a72a73877047725cb2edc1ba",
+   "file": "40-1036.810.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1037.810",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1037.810",
+   "http": "200",
+   "bytes": 4865,
+   "sha256": "9980436eb9e96b00eba8445ecf623b9a953b586cf270700c1fe4502b923aadf0",
+   "file": "40-1037.810.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1042.910",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1042.910",
+   "http": "200",
+   "bytes": 2056,
+   "sha256": "2929f6b5dab8ca2f31a46e35be63e1db71c98e58e45846bde345129829157d02",
+   "file": "40-1042.910.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1043.100",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1043.100",
+   "http": "200",
+   "bytes": 2095,
+   "sha256": "5dc8c4748cfbc74dc98681b4f5ca188029834cd2660a8640e69b89e2e8fe7688",
+   "file": "40-1043.100.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1065.1010",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1065.1010",
+   "http": "200",
+   "bytes": 16926,
+   "sha256": "2b49d1789e550b52013febcbd829f662277dd5abb9f5bd035de2ac5d06ba702d",
+   "file": "40-1065.1010.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1066.1010",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1066.1010",
+   "http": "200",
+   "bytes": 4208,
+   "sha256": "2ed59d6c1d3cdd7d0b3f2b29a2c7fe7fab85e0df0430836e5dd444ff5134c354",
+   "file": "40-1066.1010.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1068.95",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1068.95",
+   "http": "200",
+   "bytes": 1920,
+   "sha256": "cc9fd76f91554f53c5b44534e97214f2991b3a91d462931ca91892d91778b2e4",
+   "file": "40-1068.95.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 40,
+   "section": "1090.95",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-40.xml?section=1090.95",
+   "http": "200",
+   "bytes": 12011,
+   "sha256": "cd3cabf3667bf52a11193f32d77e84d5df26fe4188a5872df6e7e0a896ba3e1c",
+   "file": "40-1090.95.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 43,
+   "section": "11.18",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-43.xml?section=11.18",
+   "http": "200",
+   "bytes": 4293,
+   "sha256": "32fa271e851f87404341e64796621bec248a60068ab86e1ea311046b477cd5a8",
+   "file": "43-11.18.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 43,
+   "section": "3174.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-43.xml?section=3174.3",
+   "http": "200",
+   "bytes": 10869,
+   "sha256": "6a30c67ad4f6d71fba22acdca65da0b986a34e46ffeb62fcf0a2a2661f1d256b",
+   "file": "43-3174.3.xml",
+   "heading": "Incorporation by reference (IBR)."
+  },
+  {
+   "title": 43,
+   "section": "3175.30",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-43.xml?section=3175.30",
+   "http": "200",
+   "bytes": 6366,
+   "sha256": "d31281df1caca8ed90818fb7d2c385ccfc68391440578d7b7445bd5a3215bda0",
+   "file": "43-3175.30.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 43,
+   "section": "3176.11",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-43.xml?section=3176.11",
+   "http": "200",
+   "bytes": 2728,
+   "sha256": "d6ed4ac4015ee992ee5acc743aaa40f4d7dfeb93945aa3fb019b4a9d8346a007",
+   "file": "43-3176.11.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 43,
+   "section": "10010.33",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-43.xml?section=10010.33",
+   "http": "200",
+   "bytes": 456,
+   "sha256": "9c76f7348918eb0049518e92f78bc420ed347852dfa96febe7cc93eab74fa1bf",
+   "file": "43-10010.33.xml",
+   "heading": "Incorporation by reference of material into NEPA documents."
+  },
+  {
+   "title": 45,
+   "section": "170.299",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-45.xml?section=170.299",
+   "http": "200",
+   "bytes": 23397,
+   "sha256": "675e497c48041c79c2c856f0465ccaf857575da136d82c3351d51b871ffa948e",
+   "file": "45-170.299.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 45,
+   "section": "170.599",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-45.xml?section=170.599",
+   "http": "200",
+   "bytes": 2583,
+   "sha256": "56fa5e76aeef2b39a16c8761758820c9091216b6d6ca4fe54333b8707eaea909",
+   "file": "45-170.599.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 45,
+   "section": "502.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-45.xml?section=502.4",
+   "http": "200",
+   "bytes": 546,
+   "sha256": "bbf67eeae50715a708908da46995e4e4243b2887c657b3bbb8d624b54ba834eb",
+   "file": "45-502.4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "2.45-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=2.45-5",
+   "http": "200",
+   "bytes": 1612,
+   "sha256": "cd14db1f0facdd9c7f6fbfed906d2260c2bd8d0cfb42830f04cbbbe39f01e861",
+   "file": "46-2.45-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "8.110",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=8.110",
+   "http": "200",
+   "bytes": 3048,
+   "sha256": "87397a0a089b3eb8b2f82541eb14ff3c99f14aa6fabf9fe52c97594b03461c2f",
+   "file": "46-8.110.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "10.103",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=10.103",
+   "http": "200",
+   "bytes": 1995,
+   "sha256": "a937cd1115420486cb1bfb18bf8a71ea24167f5150e80d0173ca186368c19dc3",
+   "file": "46-10.103.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "11.102",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=11.102",
+   "http": "200",
+   "bytes": 2255,
+   "sha256": "9beccaa6d6dd69654f09f2c207d708d10289551d14a7c9be9320be455c5fc69c",
+   "file": "46-11.102.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "12.103",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=12.103",
+   "http": "200",
+   "bytes": 1704,
+   "sha256": "992e859f17ca14ee888c814f4365c55caf4718c2dd16560330b555e2e2aba873",
+   "file": "46-12.103.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "13.103",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=13.103",
+   "http": "200",
+   "bytes": 1632,
+   "sha256": "19d7e0606e884f2236738c63e2ceb48c064c854c2560cd74725a0d5741b4a4c1",
+   "file": "46-13.103.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "15.103",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=15.103",
+   "http": "200",
+   "bytes": 1906,
+   "sha256": "3c3d46986006aca48f2375fc1b2c463b34c34541ecb7b183c00948c784229354",
+   "file": "46-15.103.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "25.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=25.01-3",
+   "http": "200",
+   "bytes": 2699,
+   "sha256": "fff8419b0dd901f470651465963e997b6428a533566aea1aa2dc62da9b2a0b3d",
+   "file": "46-25.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "27.102",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=27.102",
+   "http": "200",
+   "bytes": 3283,
+   "sha256": "454fd4efea9a8e4a2710978578a3f122bd5c38335ba6bec1619ea4df8f082fb0",
+   "file": "46-27.102.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "28.40",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=28.40",
+   "http": "200",
+   "bytes": 6073,
+   "sha256": "a515acc98c4dd922b0d3f37c66aa6e5fb3cf7d726b069942896e0547ad017016",
+   "file": "46-28.40.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "30.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=30.01-3",
+   "http": "200",
+   "bytes": 1716,
+   "sha256": "4ae1ba8e537daf195dbd32ee4477e539fd826496730f32e34783da4a32e4793c",
+   "file": "46-30.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "31.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=31.01-2",
+   "http": "200",
+   "bytes": 1353,
+   "sha256": "dac62143ef393a425fc39b897615affabcbf73cd8fd3950bcd222702725fd65a",
+   "file": "46-31.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "32.01-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=32.01-1",
+   "http": "200",
+   "bytes": 2748,
+   "sha256": "7bb97c492ef4b7e15006a15f0711c328033801146b690065fad22fecce15229e",
+   "file": "46-32.01-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "34.01-15",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=34.01-15",
+   "http": "200",
+   "bytes": 2326,
+   "sha256": "2bfac7083258e2af20ef294675e00c2ea7d6d51112b82324031bf0d6d6141908",
+   "file": "46-34.01-15.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "35.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=35.01-3",
+   "http": "200",
+   "bytes": 1994,
+   "sha256": "3013bcedb6529ee7821c5526f1ee9a4204459071bf558a95c2a6a5cdd4923f16",
+   "file": "46-35.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "38.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=38.01-3",
+   "http": "200",
+   "bytes": 2242,
+   "sha256": "0aebd9ec7fc76431e9e565f52576a054060f106240705844079e5ffd9b2b4590",
+   "file": "46-38.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "39.1005",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=39.1005",
+   "http": "200",
+   "bytes": 4520,
+   "sha256": "009073e308b8f2645d451279025341d9a1a0186be403cc7434e725abed99b1c7",
+   "file": "46-39.1005.xml",
+   "heading": "Incorporation by reference\u2014TB/ALL."
+  },
+  {
+   "title": 46,
+   "section": "52.01-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=52.01-1",
+   "http": "200",
+   "bytes": 2256,
+   "sha256": "47ef4f9844cd540098aa757e3d4a0105376dfed2c1516da759d50a31181eb9c9",
+   "file": "46-52.01-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "53.01-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=53.01-1",
+   "http": "200",
+   "bytes": 2822,
+   "sha256": "7cb2a640d682d78467294e625b7a02212dacd63b55853a9ba2a0d288010fb874",
+   "file": "46-53.01-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "54.01-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=54.01-1",
+   "http": "200",
+   "bytes": 4291,
+   "sha256": "da119b09e45066c986fc5b3464d8e000a551222bce96c6ac87ebf15235aaaca9",
+   "file": "46-54.01-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "56.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=56.01-2",
+   "http": "200",
+   "bytes": 25221,
+   "sha256": "824b9c224a62f00bfcde8718ad79f46f6b37c985ccbdd5a7486834bc28434ee2",
+   "file": "46-56.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "57.02-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=57.02-1",
+   "http": "200",
+   "bytes": 2195,
+   "sha256": "9199193ab6942593ccd3eb2ed03f74ee443bb0a849a70620851edbd7a2019081",
+   "file": "46-57.02-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "58.03-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=58.03-1",
+   "http": "200",
+   "bytes": 7375,
+   "sha256": "ce391f0b322732f7daf5222ff94cacae15495cfe389719f52f049c9a602f5928",
+   "file": "46-58.03-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "59.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=59.01-2",
+   "http": "200",
+   "bytes": 2747,
+   "sha256": "a9409e1102e6e9770ebd8829137d06e6cead350bc14fbf82e348122228b63be1",
+   "file": "46-59.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "61.03-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=61.03-1",
+   "http": "200",
+   "bytes": 2032,
+   "sha256": "1834bf407f96b51e13a12d139ca69f2f3e123fed67b6859d077de05e22cc1132",
+   "file": "46-61.03-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "62.05-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=62.05-1",
+   "http": "200",
+   "bytes": 1930,
+   "sha256": "d51c8eb138b82939315bbb6c3cb777171db184ad5f3d483441b83ff688e99134",
+   "file": "46-62.05-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "63.05-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=63.05-1",
+   "http": "200",
+   "bytes": 5236,
+   "sha256": "4c7d80576103f801a1202c26e42f41e41a663725bf0485581ab01384f23c2719",
+   "file": "46-63.05-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "64.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=64.2",
+   "http": "200",
+   "bytes": 1766,
+   "sha256": "fcd75aba78680917e79dcf47ddfb35ee9cc85e1160b556a3b47721eac05581ba",
+   "file": "46-64.2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "67.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=67.13",
+   "http": "200",
+   "bytes": 1806,
+   "sha256": "ba423f044af49a1d190faf1635fff1f1c39f9c221bb7431b7c8314da5fa47173",
+   "file": "46-67.13.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "71.25-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=71.25-3",
+   "http": "200",
+   "bytes": 1367,
+   "sha256": "437667758e875b510d9a353fa8def8b5fc6f963519d12f23d83e80cecb16ae0d",
+   "file": "46-71.25-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "72.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=72.01-2",
+   "http": "200",
+   "bytes": 1411,
+   "sha256": "15a6d7420e061b90fc7a51873ddb153539f0052565d257956351a5530b8218e1",
+   "file": "46-72.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "76.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=76.01-2",
+   "http": "200",
+   "bytes": 3466,
+   "sha256": "f49c3b069add514f6616be8cbb771773f7863179ea59b388206ce186d8f9f1a6",
+   "file": "46-76.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "77.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=77.01-3",
+   "http": "200",
+   "bytes": 1758,
+   "sha256": "3f1599d587719bbfd09d5f497be28561aed4fc4f9b4898863605efe8a5f556a3",
+   "file": "46-77.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "78.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=78.01-2",
+   "http": "200",
+   "bytes": 2191,
+   "sha256": "2c9fecc599884d7b4258c9ac9c0f336cdfb712a94f26a8ad8f20f31cdba3c1db",
+   "file": "46-78.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "91.25-7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=91.25-7",
+   "http": "200",
+   "bytes": 1357,
+   "sha256": "4cae8e66ce34fa0a37b8374a3a952e25f01d71255be16eb3c66a3b8317010b2f",
+   "file": "46-91.25-7.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "92.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=92.01-2",
+   "http": "200",
+   "bytes": 1864,
+   "sha256": "f978d691ae8106d070fde1a7c05bee6fa26c974f9066387b4916214a0889c19c",
+   "file": "46-92.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "95.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=95.01-2",
+   "http": "200",
+   "bytes": 2938,
+   "sha256": "de9f058a7e060cc0b0a6b81b07d007d84337cdb85d2e20bc973fb18add1120af",
+   "file": "46-95.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "96.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=96.01-3",
+   "http": "200",
+   "bytes": 1864,
+   "sha256": "01c61e0a5a181275cd20b1fc954c7399f8630e9b203d0b85d0f3887952e87431",
+   "file": "46-96.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "97.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=97.01-2",
+   "http": "200",
+   "bytes": 2380,
+   "sha256": "df9e94904aa547412fae5dcfc7b614ec5b1c8f6bb3b613927d8418f489ec1019",
+   "file": "46-97.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "98.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=98.01-3",
+   "http": "200",
+   "bytes": 1893,
+   "sha256": "c72873880c3e3389bd38c38e45cb7e1f2383d548cc46d2b54bb878bcd2147212",
+   "file": "46-98.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "105.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=105.3",
+   "http": "200",
+   "bytes": 1926,
+   "sha256": "6b002a107f35334ea98bcb95e3f200ab76b4a138e47a44a71b8aef5ba9078fb6",
+   "file": "46-105.3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "107.115",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=107.115",
+   "http": "200",
+   "bytes": 1700,
+   "sha256": "50ca50ed5c791fdf6dfb1e07d8633cdd9e7207ede354a9a63f3612efe9d77d40",
+   "file": "46-107.115.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "108.101",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=108.101",
+   "http": "200",
+   "bytes": 2893,
+   "sha256": "ff37f21af44f0713bb839e347bb250ad4c8c5250cdec33d6bcdddbda29a4c733",
+   "file": "46-108.101.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "109.105",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=109.105",
+   "http": "200",
+   "bytes": 2210,
+   "sha256": "d5ed269581fc4300569fada1b2bb6ed88eb821a934c6388f883c8f983ed413c9",
+   "file": "46-109.105.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "110.10-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=110.10-1",
+   "http": "200",
+   "bytes": 34613,
+   "sha256": "cf578e020c6af44c894b0cf74a518ef20210e1d322362ed88e694dfd8853237b",
+   "file": "46-110.10-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "114.600",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=114.600",
+   "http": "200",
+   "bytes": 10821,
+   "sha256": "81ce2b3bfd9c70929b15b481ff8ea8d59b7ceba3b86429eef28baef528c1967c",
+   "file": "46-114.600.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "125.180",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=125.180",
+   "http": "200",
+   "bytes": 8206,
+   "sha256": "61398f81b644cc7d7056afe60ce43c523fd7488fa9708b198c2bd3c5caa3d631",
+   "file": "46-125.180.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "136.112",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=136.112",
+   "http": "200",
+   "bytes": 8469,
+   "sha256": "2821c3653d78d097c30c2d71dc8d964478707bddb77e5422687b7a6affacc1e6",
+   "file": "46-136.112.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "147.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=147.7",
+   "http": "200",
+   "bytes": 4010,
+   "sha256": "fcf91051af31d3efe9ae78c94b83ebb014348c164359635209e6aec4af89c7e3",
+   "file": "46-147.7.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "148.8",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=148.8",
+   "http": "200",
+   "bytes": 2269,
+   "sha256": "2208afc6f3642df0110739cf3a88ef810cb3dabcc48b9ac6c5b263b2acc9c878",
+   "file": "46-148.8.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "151.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=151.01-2",
+   "http": "200",
+   "bytes": 2382,
+   "sha256": "082d6f448aa1f30ea4322e911aa997c262348c516a26c81e91e6a2d4203ce2ff",
+   "file": "46-151.01-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "153.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=153.4",
+   "http": "200",
+   "bytes": 2601,
+   "sha256": "e5af1e14e1baab13df4a89774077e7a623d1cd64ec631419507e5e467d0b4821",
+   "file": "46-153.4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "154.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=154.1",
+   "http": "200",
+   "bytes": 3423,
+   "sha256": "a99586fc9772148974d8e9313100ed35e198ebbf82bdc7a50713ec8f55ef136d",
+   "file": "46-154.1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "159.001-4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=159.001-4",
+   "http": "200",
+   "bytes": 1876,
+   "sha256": "f072d17f033016ccad33207dda19b7fdc7a7113791297bf4dc17c0e8112efcdb",
+   "file": "46-159.001-4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.010-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.010-1",
+   "http": "200",
+   "bytes": 3264,
+   "sha256": "e6eece084193881af61c84a980f5d55f83cb60e37591ce2f41495fb05c503854",
+   "file": "46-160.010-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.021-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.021-1",
+   "http": "200",
+   "bytes": 995,
+   "sha256": "91e563d1c6fcc89bb07f800984ac163cc9cc47223a53785d8ae3e44d48da6547",
+   "file": "46-160.021-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.022-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.022-1",
+   "http": "200",
+   "bytes": 1708,
+   "sha256": "10b0069f76e70ce2c786d871aad75a4ddc00394828e1801d4bda9f758eaf99eb",
+   "file": "46-160.022-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.023-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.023-1",
+   "http": "200",
+   "bytes": 1095,
+   "sha256": "9588c9d6fe1fc3ccc0467cdacbd8ec0f742cb0723ab3aea075556273a037f4ec",
+   "file": "46-160.023-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.024-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.024-1",
+   "http": "200",
+   "bytes": 997,
+   "sha256": "da3166e46183fc7ff41260544aa30f56a021c1794b1d6342d06959332a5d1694",
+   "file": "46-160.024-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.031-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.031-1",
+   "http": "200",
+   "bytes": 1096,
+   "sha256": "fdde1826f877b5da744a4c75b72aed2474e4f288ad73caf3a8ee1f7173bd55da",
+   "file": "46-160.031-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.036-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.036-1",
+   "http": "200",
+   "bytes": 989,
+   "sha256": "2881f1dafba9033cf67e2aad1df5ae7012247214505e2c64e2f9a2c4a37a81cb",
+   "file": "46-160.036-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.037-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.037-1",
+   "http": "200",
+   "bytes": 1707,
+   "sha256": "26510daffd73ce637e331082b339968c34a86b02c011b6adb290cb58de624ce4",
+   "file": "46-160.037-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.040-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.040-1",
+   "http": "200",
+   "bytes": 1227,
+   "sha256": "04b47e03d4a1a85d901afdd24ae05a6300208541a04b7dc8bcdde761e30026b9",
+   "file": "46-160.040-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.045-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.045-5",
+   "http": "200",
+   "bytes": 1759,
+   "sha256": "36eb9198e6d20cf3fcca1b8824cfdcf3a07e9a480dcc8e44ca577b0821eb2b57",
+   "file": "46-160.045-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.046-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.046-3",
+   "http": "200",
+   "bytes": 1589,
+   "sha256": "b1dc19cf83de3da4292130a11ed272aa2d006c022af790ce58efec957b5c71d8",
+   "file": "46-160.046-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.049-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.049-1",
+   "http": "200",
+   "bytes": 2214,
+   "sha256": "0befb112455d0bffef1ea71b5efac41ba0f1e1e225ad032e8625cf78294e950e",
+   "file": "46-160.049-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.050-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.050-1",
+   "http": "200",
+   "bytes": 625,
+   "sha256": "ee20dc2eb9698b5537a3c46914f41544a901ec2baedbb94f510401450123b070",
+   "file": "46-160.050-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.051-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.051-5",
+   "http": "200",
+   "bytes": 1886,
+   "sha256": "a47d872b6eb53cc28dcb01b4f25e475309023ab2b466b4640ed2bfc5bd1f8681",
+   "file": "46-160.051-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.055-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.055-5",
+   "http": "200",
+   "bytes": 1453,
+   "sha256": "d7bc8296a040738a3da33edb3d355be91d28c73010c67d406cdbcc5068b783ad",
+   "file": "46-160.055-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.057-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.057-1",
+   "http": "200",
+   "bytes": 1677,
+   "sha256": "894d4b980dcb1ff052d5c026764af86b27151311102125ad8d086efe4e8254f2",
+   "file": "46-160.057-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.060-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.060-5",
+   "http": "200",
+   "bytes": 1454,
+   "sha256": "1287123e25df70355bf662d6669e7ca4c43ae867cc1c96e138308b11594a03f0",
+   "file": "46-160.060-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.064-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.064-5",
+   "http": "200",
+   "bytes": 1454,
+   "sha256": "64e0ef598c2a1b3bc96446b762e3f19e460a3ed1e1420c14f929afa92b2dcd96",
+   "file": "46-160.064-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.076-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.076-5",
+   "http": "200",
+   "bytes": 1455,
+   "sha256": "929097bb209eff3a3c895059fd668e567b32923cfeb557287771b31eaa522268",
+   "file": "46-160.076-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.115-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.115-5",
+   "http": "200",
+   "bytes": 2435,
+   "sha256": "d806262aef521bea2d7dc0990ecfa3b558da625170d34848ca77c5603940f51b",
+   "file": "46-160.115-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.132-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.132-5",
+   "http": "200",
+   "bytes": 2981,
+   "sha256": "c66cfc357211a7cfa5531cc2d76b4fbb3859783a085783af768b5340fae75668",
+   "file": "46-160.132-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.133-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.133-5",
+   "http": "200",
+   "bytes": 4067,
+   "sha256": "fa785a1e9bfec8b5070d9986d8b3fd30e2edbf4924833a2e5411f83b28bfb818",
+   "file": "46-160.133-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.135-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.135-5",
+   "http": "200",
+   "bytes": 7448,
+   "sha256": "56a461de45eb1aaba3d36bbffbd41ae0988400327ef6a1738231f79cbc97c2b2",
+   "file": "46-160.135-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.151-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.151-5",
+   "http": "200",
+   "bytes": 4954,
+   "sha256": "ac4661c54b3fcb7f6058ca120f5b725e767ff8573c715b7ad0adb190a9e689e0",
+   "file": "46-160.151-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.156-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.156-5",
+   "http": "200",
+   "bytes": 7968,
+   "sha256": "7386d35bf9e1de49e80bc1b45f8393bf998afffe11440edde9215d1353cb36d9",
+   "file": "46-160.156-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.170-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.170-5",
+   "http": "200",
+   "bytes": 3735,
+   "sha256": "bb18ca23ab50faaf6d60f07ae50fc364180e0caae48cd954bae1861b9c07a8cd",
+   "file": "46-160.170-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.171-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.171-3",
+   "http": "200",
+   "bytes": 3844,
+   "sha256": "7f4bf379a3c9fe23820e2c56285ca0795d75c60ab438d1de9cf91ff3a31ee385",
+   "file": "46-160.171-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.174-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.174-3",
+   "http": "200",
+   "bytes": 3302,
+   "sha256": "34b8630607c2558bbbbd20f51db11a0abcd02a5b3364e7e3169cd1e2e8854c02",
+   "file": "46-160.174-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.176-4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.176-4",
+   "http": "200",
+   "bytes": 4475,
+   "sha256": "6f0ee74ed99b31c3b00238df624acd84617911a409fafdf148f32f3ed3788a53",
+   "file": "46-160.176-4.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.255-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.255-5",
+   "http": "200",
+   "bytes": 1675,
+   "sha256": "065b3eba9f4636f7f2e4b08220b5e0b5ace8d608cc39d529f8a40b813a1437de",
+   "file": "46-160.255-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.264-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.264-5",
+   "http": "200",
+   "bytes": 1725,
+   "sha256": "fb48a37e9343e870d51a9c85b556e2cf5bd9c1437dde8a5f45a51bcf8157a84d",
+   "file": "46-160.264-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "160.276-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=160.276-5",
+   "http": "200",
+   "bytes": 1733,
+   "sha256": "b058cf9dac45f0affa8ab2ece01666380654209ad3a7e116d2f3703f55eb674a",
+   "file": "46-160.276-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "161.002-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=161.002-1",
+   "http": "200",
+   "bytes": 4047,
+   "sha256": "1350dc1a37b48dcd31fcb71c4307540bd65ac1f1a754936fb7e2600d78c6da2a",
+   "file": "46-161.002-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "161.010-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=161.010-1",
+   "http": "200",
+   "bytes": 1928,
+   "sha256": "a27d7823ad8a1475eaf9fd682d86d9a0b0be724d245e86887ee8b3a92f8a101e",
+   "file": "46-161.010-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "162.017-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=162.017-1",
+   "http": "200",
+   "bytes": 1594,
+   "sha256": "c93718ac7023e9a90eab4534c50806e0d3f14d8d2507a19d7c303bd85ce2ad81",
+   "file": "46-162.017-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "162.027-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=162.027-2",
+   "http": "200",
+   "bytes": 1967,
+   "sha256": "870a2817f4b2956dc627276e8aae4349e13ccabb44883f535b092f9796394399",
+   "file": "46-162.027-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "162.028-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=162.028-1",
+   "http": "200",
+   "bytes": 2847,
+   "sha256": "0c8e54ebb60f8c2c4d69a8f9c41e822b4d8c13b21b174b242aa99e99da6141f3",
+   "file": "46-162.028-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "162.039-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=162.039-1",
+   "http": "200",
+   "bytes": 2849,
+   "sha256": "479207a6723dc4ab685aca320d4017e0bfeaa459432837c3f8dd0cbfae7f00a1",
+   "file": "46-162.039-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "162.050-4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=162.050-4",
+   "http": "200",
+   "bytes": 2853,
+   "sha256": "9abba5625ce5361c7c3ea79963bcbdb3082009a5452c2c997b43508f972216e4",
+   "file": "46-162.050-4.xml",
+   "heading": "Incorporation by reference: Where can I get a copy of the publications mentioned in this part?"
+  },
+  {
+   "title": 46,
+   "section": "162.060-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=162.060-5",
+   "http": "200",
+   "bytes": 2814,
+   "sha256": "04f31c0768d6bc17f58682d7cc43ac92b9e650a29b358313d47d6869c26597f9",
+   "file": "46-162.060-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "162.161-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=162.161-2",
+   "http": "200",
+   "bytes": 3029,
+   "sha256": "0a211898badfdbf879a85fbe4c1b11c1a575eb03b50e513631126cf0525dd6c1",
+   "file": "46-162.161-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "162.163-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=162.163-2",
+   "http": "200",
+   "bytes": 1615,
+   "sha256": "f5b2ee90189d4123c13db040654c93bb65407f6077ad9ada15d992f7ac35cbe4",
+   "file": "46-162.163-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.013-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.013-2",
+   "http": "200",
+   "bytes": 2091,
+   "sha256": "3428065593b51389f57a00db628150230eaa7c66d59168c76ebad5c2c1dd0362",
+   "file": "46-164.013-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.105-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.105-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "20088e92c79e2b54e4858cddc6f4347dbe5684f0ba6c9cb97b2e5229ab8ee016",
+   "file": "46-164.105-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.106-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.106-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "e1d237e47897a75b022265f7ced4e0ede31ba32582eb86fe0012a70ecee1af30",
+   "file": "46-164.106-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.107-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.107-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "190a9f02f2e0ccd7de2a3e4defdb6d215db4d729417f3839d98759df1d6365ce",
+   "file": "46-164.107-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.108-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.108-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "62bc41e2c8c80c124ce0606161c88eddf25d9e89ec98597c7e63db866d091f39",
+   "file": "46-164.108-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.109-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.109-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "d5011d29b6b1653518529cf4950dd4f82a6dbe40e178e3e485d462585bdc1a70",
+   "file": "46-164.109-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.110-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.110-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "9295b3637382f9fb9d8c66e2c461e2ac845158129cd4080f3b999653183c155f",
+   "file": "46-164.110-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.111-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.111-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "25214548bccd62102a6b345b834fd529a6587f3bc689e3e580c85e9c59e5e193",
+   "file": "46-164.111-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.112-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.112-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "be43d078b0d999240e8a01d6fc227638cb7631f0b6c5f7874406b9fec2dda32d",
+   "file": "46-164.112-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.117-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.117-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "449fc83e74713cfaa0780dd0a76b3e62f80a8d7ef4c6eded274e7008d377dd14",
+   "file": "46-164.117-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.136-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.136-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "010d4d5e834575247a530de6e3874a6b87e32723c5bee1c6c4af8e2b0e8f4a2b",
+   "file": "46-164.136-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.137-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.137-2",
+   "http": "200",
+   "bytes": 1495,
+   "sha256": "62a37bfc48bfd14329152af401e786b19c9ec8c68b5dd2c882491a725c310585",
+   "file": "46-164.137-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.138-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.138-2",
+   "http": "200",
+   "bytes": 1471,
+   "sha256": "62adc8919ce2d4d400201488943ca11cea0cd68bd1ecf9c39dee63920bea6d3b",
+   "file": "46-164.138-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.139-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.139-2",
+   "http": "200",
+   "bytes": 1476,
+   "sha256": "31d7bef04692e2fa69b05fe7ee531cf8a321794314fb01bd7029720497b2e04b",
+   "file": "46-164.139-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.141-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.141-2",
+   "http": "200",
+   "bytes": 2002,
+   "sha256": "e9a290dedb8a17f2c5a5cde1524a98d6058fd08d5ae8ef9d78beda9ccca2603a",
+   "file": "46-164.141-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.142-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.142-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "b8ba992adea6d9688562f51bfc513118cefffd54859a6afee73f9884548fe9a9",
+   "file": "46-164.142-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.144-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.144-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "31b096586eb5d33d1c3a3e13f18e5a083c628b418104c757d2391ae09729b2e1",
+   "file": "46-164.144-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.146-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.146-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "fad303bb696c76280d0a136eede079ba54cc1586349f2287fec00771befab27d",
+   "file": "46-164.146-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.201-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.201-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "364b147f47a06f483dcf2f5390f8219ab3842bdb3f1e97c1055893b834bab30d",
+   "file": "46-164.201-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "164.207-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=164.207-2",
+   "http": "200",
+   "bytes": 1368,
+   "sha256": "345a777e2434514c9afda81b59b411b2c8f3aaf4ed9c8f77ff6e054b93336517",
+   "file": "46-164.207-2.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "169.115",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=169.115",
+   "http": "200",
+   "bytes": 3610,
+   "sha256": "e8efbdb77af7c49403e91bab87ecbb44848381a721226ca646697779ff1debba",
+   "file": "46-169.115.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "170.015",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=170.015",
+   "http": "200",
+   "bytes": 2806,
+   "sha256": "a197a03da74cefb2bc1c35d5b6b0caf714c71e7d151883d87330c7fde52b2561",
+   "file": "46-170.015.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "171.012",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=171.012",
+   "http": "200",
+   "bytes": 2034,
+   "sha256": "798e839775e3779565853a0e929089a19ffa95f6d2cd97d9376117cce19f222b",
+   "file": "46-171.012.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "172.020",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=172.020",
+   "http": "200",
+   "bytes": 2176,
+   "sha256": "ccc17ad3f59107d5ead5437ed70f761964f007cbca91dab98fc41bfcdc8b3e17",
+   "file": "46-172.020.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "174.007",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=174.007",
+   "http": "200",
+   "bytes": 2255,
+   "sha256": "e8ef5dec629cbcdbc1ceae9b0d3c5372c8f48df2d1017ee89b06401429c31349",
+   "file": "46-174.007.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "175.600",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=175.600",
+   "http": "200",
+   "bytes": 13450,
+   "sha256": "c15eef9d262faebce963904a77fd5e50a21a0c0b876e5c8f44da281aced76d52",
+   "file": "46-175.600.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "179.15",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=179.15",
+   "http": "200",
+   "bytes": 1850,
+   "sha256": "8fe64d54f8cb0430efff2db3812de79c682be66a03944ba41056038c5187e124",
+   "file": "46-179.15.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "188.01-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=188.01-5",
+   "http": "200",
+   "bytes": 1362,
+   "sha256": "7b93ec67bf468a8a07f60a9439bce656df8049aeeb1e008ac40f2b53e8144e83",
+   "file": "46-188.01-5.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "193.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=193.01-3",
+   "http": "200",
+   "bytes": 1932,
+   "sha256": "823dc52d54b70455534e8a8db64959025705b4f42b75a01a3da58282e8935150",
+   "file": "46-193.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "195.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=195.01-3",
+   "http": "200",
+   "bytes": 1720,
+   "sha256": "2bb794c4ad50d5a51cd31cc864ad5b5fab40d16f96c37dd24f8d789313ae93a4",
+   "file": "46-195.01-3.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "197.510",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=197.510",
+   "http": "200",
+   "bytes": 1994,
+   "sha256": "56aef275c77d5cc69e2670c80883ee50c0bf567ddc979c22a06cbb2125dbd38a",
+   "file": "46-197.510.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "199.05",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=199.05",
+   "http": "200",
+   "bytes": 4389,
+   "sha256": "4bef7ac57fa1c9be0af933f755bfce97d0b572de0334e314e7a7d4c7f8eebf24",
+   "file": "46-199.05.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 46,
+   "section": "503.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-46.xml?section=503.13",
+   "http": "200",
+   "bytes": 645,
+   "sha256": "a1e539a05a67d8c9762b7c359db522f2ed78b84353f5336f7eb58c1720f10844",
+   "file": "46-503.13.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "2.910",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=2.910",
+   "http": "200",
+   "bytes": 4557,
+   "sha256": "fdc951a7b41e82a8aec2257a5fce899faa410d6bbc318b722969f13c319d5d05",
+   "file": "47-2.910.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "8.201",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=8.201",
+   "http": "200",
+   "bytes": 2350,
+   "sha256": "8b2bde094f5e39f83f953a62f7818d3a25025f88a45163035d9635615734c099",
+   "file": "47-8.201.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "15.38",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=15.38",
+   "http": "200",
+   "bytes": 7012,
+   "sha256": "b935abfe43413862eaa25372f942d7f430be976ec0e98e8fb652317f46bf77f8",
+   "file": "47-15.38.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "25.108",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=25.108",
+   "http": "200",
+   "bytes": 6346,
+   "sha256": "6fd81b689ed9a563b2d5932f7a9b69c46bbde9ce974fe01e97f2e34311098d4e",
+   "file": "47-25.108.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "26.305",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=26.305",
+   "http": "200",
+   "bytes": 1923,
+   "sha256": "c0bb55633bae1ca61955e7709a17bc228a476bd78a3145e03232b35e648ebcb6",
+   "file": "47-26.305.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "73.8000",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=73.8000",
+   "http": "200",
+   "bytes": 3591,
+   "sha256": "413f0eb47ea88dd890dd96a6e942a13450b9b4a8d0ae1cbb9544a8240c4d2c81",
+   "file": "47-73.8000.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "74.35",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=74.35",
+   "http": "200",
+   "bytes": 1760,
+   "sha256": "a3d8e8ea089a018c07aac75fdf54eb48dc2ddea1c0f38c9ea08231bceddbf57a",
+   "file": "47-74.35.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "76.602",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=76.602",
+   "http": "200",
+   "bytes": 4118,
+   "sha256": "ba9fd0fcf59d340d9b2d6d337cbb50b48844df475e04477a4bb5a0e6a1f96694",
+   "file": "47-76.602.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "79.100",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=79.100",
+   "http": "200",
+   "bytes": 1880,
+   "sha256": "f20fc99bd756e15717e584eee87b91b4ee5939ea077a52635bd49dc8ce1bc8fe",
+   "file": "47-79.100.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "80.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=80.7",
+   "http": "200",
+   "bytes": 20933,
+   "sha256": "6eb2655da4016f24d78de0d138b1842cbd39b73b32c2a5c3e76463ebfb3441c6",
+   "file": "47-80.7.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "88.117",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=88.117",
+   "http": "200",
+   "bytes": 1289,
+   "sha256": "a431c9f93c8af389c0131e589473ba07d4794f63549df170920aa64a8413987d",
+   "file": "47-88.117.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "90.384",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=90.384",
+   "http": "200",
+   "bytes": 1729,
+   "sha256": "9bfb896e66f827af4860b8b7e3769a4fe02c35f02a3635bb8da5cdb9b93f8536",
+   "file": "47-90.384.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 47,
+   "section": "300.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-47.xml?section=300.1",
+   "http": "200",
+   "bytes": 2401,
+   "sha256": "54935cdaf0520a3f7d17648c0dd3e0c6736b6b16f460de30b4162d22919fcc3a",
+   "file": "47-300.1.xml",
+   "heading": "Incorporation by reference of the Manual of Regulations and Procedures for Federal Radio Frequency Management."
+  },
+  {
+   "title": 48,
+   "section": "652.102-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-48.xml?section=652.102-1",
+   "http": "200",
+   "bytes": 599,
+   "sha256": "3b9a5e073c8016ff76681965533f01ef06523ae85a0af6c5d8132ce3eec7dee5",
+   "file": "48-652.102-1.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "227.219",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=227.219",
+   "http": "200",
+   "bytes": 2030,
+   "sha256": "eb92fa8fa3131c3f03b4b30be484605cfc76cb26d8a67825b56e06020c069464",
+   "file": "49-227.219.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "299.17",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=299.17",
+   "http": "200",
+   "bytes": 3055,
+   "sha256": "ec15d800d8cf5c091554da3138c25873d24e63135235144d69c7e22bd7abd655",
+   "file": "49-299.17.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "537.10",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=537.10",
+   "http": "200",
+   "bytes": 1059,
+   "sha256": "9f55e2a2ee9618dd3329b490c2546554213025fa5646391f516d98bc8cb3de2e",
+   "file": "49-537.10.xml",
+   "heading": "Incorporation by reference by manufacturers."
+  },
+  {
+   "title": 49,
+   "section": "562.11",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=562.11",
+   "http": "200",
+   "bytes": 1347,
+   "sha256": "2b3f4ce48285b281edf0dd39bb150159e80d79d68c88801f988a04e0d6d6103c",
+   "file": "49-562.11.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.70",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.70",
+   "http": "200",
+   "bytes": 1812,
+   "sha256": "df8c8b50a2960b6e1886ef2a2bf7e52a93aadbb4773186a801f2e422786ba560",
+   "file": "49-572.70.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.90",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.90",
+   "http": "200",
+   "bytes": 1504,
+   "sha256": "0f4312ebd8807bd1798af85b2a11428dd43700932bd1a621fd3dbda2c49dec4d",
+   "file": "49-572.90.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.120",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.120",
+   "http": "200",
+   "bytes": 3488,
+   "sha256": "2bac78f898f79c38b53f896f274c5d761e21fb7b05d0a951ae257abc67fe7225",
+   "file": "49-572.120.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.130",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.130",
+   "http": "200",
+   "bytes": 2613,
+   "sha256": "a96881f6b718813e2931954b33b3002be48ddb7f26e8cdfc0a7a967473b479a2",
+   "file": "49-572.130.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.140",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.140",
+   "http": "200",
+   "bytes": 3328,
+   "sha256": "d0ff1834b24f0c0213bdb003428e645508dc284023e37ed81151154d228a53eb",
+   "file": "49-572.140.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.150",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.150",
+   "http": "200",
+   "bytes": 3009,
+   "sha256": "bad817f70c147d19dd9d54576f5acced64fd45ca3011505cc46b687b89daa740",
+   "file": "49-572.150.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.160",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.160",
+   "http": "200",
+   "bytes": 3084,
+   "sha256": "bb7c5b07d5b0755d844d5be05e9597646d00a8b75199731ffb5f9f76467b695d",
+   "file": "49-572.160.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.170",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.170",
+   "http": "200",
+   "bytes": 3504,
+   "sha256": "714cb10dfaeaed5d1d64256713ed70c08e8a0c3a058c5ebfa2521e2a68e4b71b",
+   "file": "49-572.170.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "572.210",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=572.210",
+   "http": "200",
+   "bytes": 2648,
+   "sha256": "f07776b0b2f23f816277629aa9e4069b202702d615c513bc8f2cc444f1513131",
+   "file": "49-572.210.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 49,
+   "section": "587.12",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-49.xml?section=587.12",
+   "http": "200",
+   "bytes": 1019,
+   "sha256": "fb27ff5e2b68e5cf694e1cb821ac82f5577f661bbe3ada68ec1d28cd8f1607d9",
+   "file": "49-587.12.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 50,
+   "section": "23.9",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-50.xml?section=23.9",
+   "http": "200",
+   "bytes": 1953,
+   "sha256": "efb9b4868469bd0c325412f2b3bb97518fc192ef785497d0a0ef5a24d7ef6acb",
+   "file": "50-23.9.xml",
+   "heading": "Incorporation by reference."
+  },
+  {
+   "title": 50,
+   "section": "622.19",
+   "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-50.xml?section=622.19",
+   "http": "200",
+   "bytes": 3489,
+   "sha256": "f1986e3a5bb78ff4b500a51a53e0cd76ea3d90da72955ee99147cae7a28a6887",
+   "file": "50-622.19.xml",
+   "heading": "Incorporation by reference."
+  }
+ ],
+ "ok": 290
+}

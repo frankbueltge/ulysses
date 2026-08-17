@@ -1,0 +1,769 @@
+{
+ "n_sections_without_cita": 76,
+ "n_distinct_parts": 50,
+ "n_with_part_source": 76,
+ "n_with_part_source_year": 76,
+ "n_hedged": 76,
+ "records": [
+  {
+   "title": 12,
+   "part": "233",
+   "section": "233.1",
+   "has_part_source": true,
+   "source_text": "Source:Reg. GG, 73 FR 69405, Nov. 18, 2008, unless otherwise noted.",
+   "part_source_year": 2008,
+   "hedged": true,
+   "part_bytes": 45487
+  },
+  {
+   "title": 14,
+   "part": "1206",
+   "section": "1206.203",
+   "has_part_source": true,
+   "source_text": "Source:79 FR 46678, Aug. 11, 2014, unless otherwise noted.",
+   "part_source_year": 2014,
+   "hedged": true,
+   "part_bytes": 108905
+  },
+  {
+   "title": 14,
+   "part": "152",
+   "section": "152.11",
+   "has_part_source": true,
+   "source_text": "Source:Docket 19430, 45 FR 34784, May 22, 1980, unless otherwise noted.",
+   "part_source_year": 1980,
+   "hedged": true,
+   "part_bytes": 180786
+  },
+  {
+   "title": 14,
+   "part": "194",
+   "section": "194.109",
+   "has_part_source": true,
+   "source_text": "Source:Docket FAA-2023-1275, Amdt. 194-1, 89 FR 92489, Nov. 21, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 219558
+  },
+  {
+   "title": 14,
+   "part": "201",
+   "section": "201.3",
+   "has_part_source": true,
+   "source_text": "Source:Docket No. 47582, 57 FR 38765, Aug. 27, 1992, unless otherwise noted.",
+   "part_source_year": 1992,
+   "hedged": true,
+   "part_bytes": 11192
+  },
+  {
+   "title": 14,
+   "part": "38",
+   "section": "38.7",
+   "has_part_source": true,
+   "source_text": "Source:Docket No. FAA-2022-0241, Amdt. No. 21-107, 89 FR 12654, Feb. 16, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 44544
+  },
+  {
+   "title": 15,
+   "part": "200",
+   "section": "200.115",
+   "has_part_source": true,
+   "source_text": "Source:45 FR 55166, Aug. 19, 1980, unless otherwise noted.",
+   "part_source_year": 1980,
+   "hedged": true,
+   "part_bytes": 41003
+  },
+  {
+   "title": 15,
+   "part": "995",
+   "section": "995.2",
+   "has_part_source": true,
+   "source_text": "Source:70 FR 52909, Sept. 6, 2005, unless otherwise noted.",
+   "part_source_year": 2005,
+   "hedged": true,
+   "part_bytes": 58132
+  },
+  {
+   "title": 16,
+   "part": "1242",
+   "section": "1242.8",
+   "has_part_source": true,
+   "source_text": "Source:89 FR 85414, Oct. 25, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 28370
+  },
+  {
+   "title": 16,
+   "part": "1243",
+   "section": "1243.8",
+   "has_part_source": true,
+   "source_text": "Source:89 FR 87487, Nov. 4, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 32157
+  },
+  {
+   "title": 16,
+   "part": "1640",
+   "section": "1640.6",
+   "has_part_source": true,
+   "source_text": "Source:86 FR 18443, Apr. 9, 2021, unless otherwise noted.",
+   "part_source_year": 2021,
+   "hedged": true,
+   "part_bytes": 10002
+  },
+  {
+   "title": 17,
+   "part": "260",
+   "section": "260.7a-31",
+   "has_part_source": true,
+   "source_text": "Source:5 FR 293, Jan. 25, 1940, unless otherwise noted.",
+   "part_source_year": 1940,
+   "hedged": true,
+   "part_bytes": 86186
+  },
+  {
+   "title": 17,
+   "part": "260",
+   "section": "260.7a-32",
+   "has_part_source": true,
+   "source_text": "Source:5 FR 293, Jan. 25, 1940, unless otherwise noted.",
+   "part_source_year": 1940,
+   "hedged": true,
+   "part_bytes": 86186
+  },
+  {
+   "title": 21,
+   "part": "106",
+   "section": "106.160",
+   "has_part_source": true,
+   "source_text": "Source:79 FR 8059, Feb. 10, 2014, unless otherwise noted.",
+   "part_source_year": 2014,
+   "hedged": true,
+   "part_bytes": 120451
+  },
+  {
+   "title": 21,
+   "part": "1141",
+   "section": "1141.5",
+   "has_part_source": true,
+   "source_text": "Source:85 FR 15708, Mar. 18, 2020, unless otherwise noted.",
+   "part_source_year": 2020,
+   "hedged": true,
+   "part_bytes": 16291
+  },
+  {
+   "title": 21,
+   "part": "820",
+   "section": "820.7",
+   "has_part_source": true,
+   "source_text": "Source:89 FR 7523, Feb. 2, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 21523
+  },
+  {
+   "title": 23,
+   "part": "490",
+   "section": "490.111",
+   "has_part_source": true,
+   "source_text": "Source:82 FR 6031, Jan. 18, 2017, unless otherwise noted.",
+   "part_source_year": 2017,
+   "hedged": true,
+   "part_bytes": 208246
+  },
+  {
+   "title": 23,
+   "part": "630",
+   "section": "630.1018",
+   "has_part_source": true,
+   "source_text": "Source:89 FR 87293, Nov. 1, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 69875
+  },
+  {
+   "title": 23,
+   "part": "650",
+   "section": "650.317",
+   "has_part_source": true,
+   "source_text": "Source:87 FR 27429, May 6, 2022, unless otherwise noted.",
+   "part_source_year": 2022,
+   "hedged": true,
+   "part_bytes": 129300
+  },
+  {
+   "title": 23,
+   "part": "650",
+   "section": "650.517",
+   "has_part_source": true,
+   "source_text": "Source:80 FR 41368, July 14, 2015, unless otherwise noted.",
+   "part_source_year": 2015,
+   "hedged": true,
+   "part_bytes": 129300
+  },
+  {
+   "title": 24,
+   "part": "247",
+   "section": "247.8",
+   "has_part_source": true,
+   "source_text": "Source:41 FR 43330, Sept. 30, 1976, unless otherwise noted. Redesignated at 49 FR 6713, Feb. 23, 1984.",
+   "part_source_year": 1984,
+   "hedged": true,
+   "part_bytes": 18300
+  },
+  {
+   "title": 24,
+   "part": "3285",
+   "section": "3285.4",
+   "has_part_source": true,
+   "source_text": "Source:72 FR 59362, Oct. 19, 2007, unless otherwise noted.",
+   "part_source_year": 2007,
+   "hedged": true,
+   "part_bytes": 197821
+  },
+  {
+   "title": 24,
+   "part": "905",
+   "section": "905.110",
+   "has_part_source": true,
+   "source_text": "Source:78 FR 63770, Oct. 24, 2013, unless otherwise noted.",
+   "part_source_year": 2013,
+   "hedged": true,
+   "part_bytes": 212034
+  },
+  {
+   "title": 28,
+   "part": "5",
+   "section": "5.207",
+   "has_part_source": true,
+   "source_text": "Source:Order No. 376-67, 32 FR 6362, Apr. 22, 1967, unless otherwise noted.",
+   "part_source_year": 1967,
+   "hedged": true,
+   "part_bytes": 50753
+  },
+  {
+   "title": 31,
+   "part": "132",
+   "section": "132.1",
+   "has_part_source": true,
+   "source_text": "Source:73 FR 69405, Nov. 18, 2008, unless otherwise noted.",
+   "part_source_year": 2008,
+   "hedged": true,
+   "part_bytes": 45463
+  },
+  {
+   "title": 32,
+   "part": "170",
+   "section": "170.2",
+   "has_part_source": true,
+   "source_text": "Source:89 FR 83214, Oct. 15, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 178061
+  },
+  {
+   "title": 32,
+   "part": "2002",
+   "section": "2002.2",
+   "has_part_source": true,
+   "source_text": "Source:81 FR 63336, Sept. 14, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 89692
+  },
+  {
+   "title": 38,
+   "part": "36",
+   "section": "36.4219",
+   "has_part_source": true,
+   "source_text": "Source:Sections 36.4201 through 36.4287 appear at 36 FR 1253, Jan. 27, 1971, unless otherwise noted.",
+   "part_source_year": 1971,
+   "hedged": true,
+   "part_bytes": 870728
+  },
+  {
+   "title": 40,
+   "part": "1030",
+   "section": "1030.110",
+   "has_part_source": true,
+   "source_text": "Source:86 FR 2171, Jan. 11, 2021, unless otherwise noted.",
+   "part_source_year": 2021,
+   "hedged": true,
+   "part_bytes": 22167
+  },
+  {
+   "title": 40,
+   "part": "1031",
+   "section": "1031.210",
+   "has_part_source": true,
+   "source_text": "Source:87 FR 72351, Nov. 23, 2022, unless otherwise noted.",
+   "part_source_year": 2022,
+   "hedged": true,
+   "part_bytes": 57821
+  },
+  {
+   "title": 40,
+   "part": "432",
+   "section": "432.5",
+   "has_part_source": true,
+   "source_text": "Source:69 FR 54541, Sept. 8, 2004, unless otherwise noted.",
+   "part_source_year": 2004,
+   "hedged": true,
+   "part_bytes": 152306
+  },
+  {
+   "title": 40,
+   "part": "76",
+   "section": "76.4",
+   "has_part_source": true,
+   "source_text": "Source:60 FR 18761, Apr. 13, 1995, unless otherwise noted.",
+   "part_source_year": 1995,
+   "hedged": true,
+   "part_bytes": 141165
+  },
+  {
+   "title": 43,
+   "part": "10010",
+   "section": "10010.33",
+   "has_part_source": true,
+   "source_text": "Source:61 FR 16721, Apr. 17, 1996, unless otherwise noted.",
+   "part_source_year": 1996,
+   "hedged": true,
+   "part_bytes": 63642
+  },
+  {
+   "title": 43,
+   "part": "3170",
+   "section": "3174.3",
+   "has_part_source": true,
+   "source_text": "Source:81 FR 81504, Nov. 17, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 691264
+  },
+  {
+   "title": 43,
+   "part": "3170",
+   "section": "3175.30",
+   "has_part_source": true,
+   "source_text": "Source:81 FR 81609, Nov. 17, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 691264
+  },
+  {
+   "title": 43,
+   "part": "3170",
+   "section": "3176.11",
+   "has_part_source": true,
+   "source_text": "Source:88 FR 39540, June 16, 2023, unless otherwise noted.",
+   "part_source_year": 2023,
+   "hedged": true,
+   "part_bytes": 691264
+  },
+  {
+   "title": 45,
+   "part": "502",
+   "section": "502.4",
+   "has_part_source": true,
+   "source_text": "Source:66 FR 49844, Oct. 1, 2001, unless otherwise noted.",
+   "part_source_year": 2001,
+   "hedged": true,
+   "part_bytes": 26937
+  },
+  {
+   "title": 46,
+   "part": "105",
+   "section": "105.3",
+   "has_part_source": true,
+   "source_text": "Source:81 FR 13283, Mar. 14, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 25627
+  },
+  {
+   "title": 46,
+   "part": "110",
+   "section": "110.10-1",
+   "has_part_source": true,
+   "source_text": "Source:CGD 74-125A, 47 FR 15232, Apr. 8, 1982, unless otherwise noted.",
+   "part_source_year": 1982,
+   "hedged": true,
+   "part_bytes": 63442
+  },
+  {
+   "title": 46,
+   "part": "160",
+   "section": "160.021-1",
+   "has_part_source": true,
+   "source_text": "Source:CGD 76-048a and 76-048b, 44 FR 73060, Dec. 17, 1979, unless otherwise noted.",
+   "part_source_year": 1979,
+   "hedged": true,
+   "part_bytes": 1098558
+  },
+  {
+   "title": 46,
+   "part": "160",
+   "section": "160.024-1",
+   "has_part_source": true,
+   "source_text": "Source:CGD 76-048a, CGD 76-048b, 44 FR 73071, Dec. 17, 1979, unless otherwise noted.",
+   "part_source_year": 1979,
+   "hedged": true,
+   "part_bytes": 1098558
+  },
+  {
+   "title": 46,
+   "part": "160",
+   "section": "160.036-1",
+   "has_part_source": true,
+   "source_text": "Source:CGD 76-048a, CGD 76-048b, 44 FR 73081, Dec. 17, 1979, unless otherwise noted.",
+   "part_source_year": 1979,
+   "hedged": true,
+   "part_bytes": 1098558
+  },
+  {
+   "title": 46,
+   "part": "160",
+   "section": "160.045-5",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2022-0120, 89 FR 97388, Dec. 6, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 1098558
+  },
+  {
+   "title": 46,
+   "part": "160",
+   "section": "160.046-3",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2020-0107, 87 FR 68304, Nov. 14, 2022, unless otherwise noted.",
+   "part_source_year": 2022,
+   "hedged": true,
+   "part_bytes": 1098558
+  },
+  {
+   "title": 46,
+   "part": "160",
+   "section": "160.255-5",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2022-0120, 89 FR 97395, Dec. 6, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 1098558
+  },
+  {
+   "title": 46,
+   "part": "160",
+   "section": "160.264-5",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2022-0120, 89 FR 97398, Dec. 6, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 1098558
+  },
+  {
+   "title": 46,
+   "part": "160",
+   "section": "160.276-5",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2022-0120, 89 FR 97399, Dec. 6, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 1098558
+  },
+  {
+   "title": 46,
+   "part": "162",
+   "section": "162.163-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48279, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 213075
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.105-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48280, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.106-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48281, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.107-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48282, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.108-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48282, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.109-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48283, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.110-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48284, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.111-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48284, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.112-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48285, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.117-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48286, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.136-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48286, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.141-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48289, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.142-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48291, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.144-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48291, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.146-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48292, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.201-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48293, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "164",
+   "section": "164.207-2",
+   "has_part_source": true,
+   "source_text": "Source:USCG-2012-0196, 81 FR 48293, July 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 304278
+  },
+  {
+   "title": 46,
+   "part": "2",
+   "section": "2.45-5",
+   "has_part_source": true,
+   "source_text": "Source:77 FR 47551, Aug. 9, 2012, unless otherwise noted.",
+   "part_source_year": 2012,
+   "hedged": true,
+   "part_bytes": 150018
+  },
+  {
+   "title": 47,
+   "part": "26",
+   "section": "26.305",
+   "has_part_source": true,
+   "source_text": "Source:89 FR 63321, Aug. 5, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 26235
+  },
+  {
+   "title": 47,
+   "part": "8",
+   "section": "8.201",
+   "has_part_source": true,
+   "source_text": "Source:89 FR 61272, July 30, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 63091
+  },
+  {
+   "title": 47,
+   "part": "88",
+   "section": "88.117",
+   "has_part_source": true,
+   "source_text": "Source:90 FR 1395, Jan. 8, 2025, unless otherwise noted.",
+   "part_source_year": 2025,
+   "hedged": true,
+   "part_bytes": 38999
+  },
+  {
+   "title": 48,
+   "part": "652",
+   "section": "652.102-1",
+   "has_part_source": true,
+   "source_text": "Source:53 FR 26177, July 11, 1988, unless otherwise noted.",
+   "part_source_year": 1988,
+   "hedged": true,
+   "part_bytes": 139714
+  },
+  {
+   "title": 49,
+   "part": "227",
+   "section": "227.219",
+   "has_part_source": true,
+   "source_text": "Source:89 FR 5132, Jan. 26, 2024, unless otherwise noted.",
+   "part_source_year": 2024,
+   "hedged": true,
+   "part_bytes": 148435
+  },
+  {
+   "title": 49,
+   "part": "299",
+   "section": "299.17",
+   "has_part_source": true,
+   "source_text": "Source:85 FR 69731, Nov. 3, 2020, unless otherwise noted.",
+   "part_source_year": 2020,
+   "hedged": true,
+   "part_bytes": 327270
+  },
+  {
+   "title": 49,
+   "part": "537",
+   "section": "537.10",
+   "has_part_source": true,
+   "source_text": "Source:87 FR 26087, May 2, 2022, unless otherwise noted.",
+   "part_source_year": 2022,
+   "hedged": true,
+   "part_bytes": 38902
+  },
+  {
+   "title": 49,
+   "part": "562",
+   "section": "562.11",
+   "has_part_source": true,
+   "source_text": "Source:81 FR 40533, June 22, 2016, unless otherwise noted.",
+   "part_source_year": 2016,
+   "hedged": true,
+   "part_bytes": 4801
+  },
+  {
+   "title": 49,
+   "part": "572",
+   "section": "572.90",
+   "has_part_source": true,
+   "source_text": "Source:58 FR 3232, Jan. 8, 1993, unless otherwise noted.",
+   "part_source_year": 1993,
+   "hedged": true,
+   "part_bytes": 466722
+  },
+  {
+   "title": 49,
+   "part": "587",
+   "section": "587.12",
+   "has_part_source": true,
+   "source_text": "Source:65 FR 17199, Mar. 31, 2000, unless otherwise noted.",
+   "part_source_year": 2000,
+   "hedged": true,
+   "part_bytes": 24853
+  },
+  {
+   "title": 9,
+   "part": "92",
+   "section": "92.7",
+   "has_part_source": true,
+   "source_text": "Source:78 FR 72994, Dec. 4, 2013, unless otherwise noted.",
+   "part_source_year": 2013,
+   "hedged": true,
+   "part_bytes": 35743
+  }
+ ]
+}
