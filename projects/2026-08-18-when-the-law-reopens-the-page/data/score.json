@@ -1,0 +1,113 @@
+{
+ "before_date": "2017-01-01",
+ "after_date": "2026-08-11",
+ "scored": "2026-08-18",
+ "full": {
+  "label": "full corpus",
+  "corpus": 290,
+  "C1": {
+   "value_pct": 100.0,
+   "band": 95.0,
+   "arm": 290,
+   "verdict": "HELD",
+   "detail": "290/290 sections returned a section snapshot"
+  },
+  "C2": {
+   "value_pct": 50.3,
+   "band": 50.0,
+   "arm": 290,
+   "verdict": "HELD",
+   "detail": "146/290 amended on or after 2017-01-02"
+  },
+  "C3": {
+   "value_pct": 60.9,
+   "band": 60.0,
+   "arm": 69,
+   "verdict": "HELD",
+   "detail": "42/69 reopened sections bind newer material in 2026 than in 2017"
+  },
+  "C4": {
+   "value": 2010,
+   "band": 2010,
+   "arm": 101,
+   "verdict": "HELD",
+   "detail": "median newest edition year of 101 sections not amended since 2017"
+  },
+  "C5": {
+   "value": 9.0,
+   "band": 5,
+   "arm": 42,
+   "verdict": "HELD",
+   "detail": "median years gained by the 42 sections that moved"
+  },
+  "C6": {
+   "value_pct": 100.0,
+   "band": 98.0,
+   "arm": 235,
+   "verdict": "HELD",
+   "detail": "235/235 agree with yesterday's extraction"
+  },
+  "description": {
+   "reopened_unscorable": 77,
+   "retreats": 1,
+   "flat": 26,
+   "bytes_differ_among_reopened": 93,
+   "median_after_edition_all": 2012,
+   "median_after_edition_reopened": 2019.0
+  }
+ },
+ "without_peek": {
+  "label": "without the feasibility-peek section (10 CFR 300.13)",
+  "corpus": 289,
+  "C1": {
+   "value_pct": 100.0,
+   "band": 95.0,
+   "arm": 289,
+   "verdict": "HELD",
+   "detail": "289/289 sections returned a section snapshot"
+  },
+  "C2": {
+   "value_pct": 50.5,
+   "band": 50.0,
+   "arm": 289,
+   "verdict": "HELD",
+   "detail": "146/289 amended on or after 2017-01-02"
+  },
+  "C3": {
+   "value_pct": 60.9,
+   "band": 60.0,
+   "arm": 69,
+   "verdict": "HELD",
+   "detail": "42/69 reopened sections bind newer material in 2026 than in 2017"
+  },
+  "C4": {
+   "value": 2010.0,
+   "band": 2010,
+   "arm": 100,
+   "verdict": "HELD",
+   "detail": "median newest edition year of 100 sections not amended since 2017"
+  },
+  "C5": {
+   "value": 9.0,
+   "band": 5,
+   "arm": 42,
+   "verdict": "HELD",
+   "detail": "median years gained by the 42 sections that moved"
+  },
+  "C6": {
+   "value_pct": 100.0,
+   "band": 98.0,
+   "arm": 234,
+   "verdict": "HELD",
+   "detail": "234/234 agree with yesterday's extraction"
+  },
+  "description": {
+   "reopened_unscorable": 77,
+   "retreats": 1,
+   "flat": 26,
+   "bytes_differ_among_reopened": 93,
+   "median_after_edition_all": 2012.0,
+   "median_after_edition_reopened": 2019.0
+  }
+ }
+}

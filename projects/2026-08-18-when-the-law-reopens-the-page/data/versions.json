@@ -1,0 +1,8006 @@
+{
+ "corpus": 290,
+ "fetched": "2026-08-18",
+ "records": [
+  {
+   "title": 6,
+   "section": "37.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-6.json?section=37.4",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2023-07-12",
+     "amendment_date": "2023-07-12",
+     "issue_date": "2023-07-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-25",
+     "amendment_date": "2024-10-25",
+     "issue_date": "2024-10-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-11-25",
+     "amendment_date": "2024-11-25",
+     "issue_date": "2024-11-25",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 7,
+   "section": "1728.97",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-7.json?section=1728.97",
+   "http": "200",
+   "n_records": 6,
+   "versions": [
+    {
+     "date": "2016-10-18",
+     "amendment_date": "2016-10-18",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-11-06",
+     "amendment_date": "2018-11-06",
+     "issue_date": "2018-11-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-06-18",
+     "amendment_date": "2019-06-18",
+     "issue_date": "2019-06-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-10-14",
+     "amendment_date": "2021-10-14",
+     "issue_date": "2021-10-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-05-06",
+     "amendment_date": "2022-05-06",
+     "issue_date": "2022-05-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-05-06",
+     "amendment_date": "2022-05-06",
+     "issue_date": "2023-03-28",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 7,
+   "section": "205.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-7.json?section=205.3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-11",
+     "amendment_date": "2016-10-11",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-11",
+     "amendment_date": "2016-10-11",
+     "issue_date": "2023-03-28",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 9,
+   "section": "92.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-9.json?section=92.7",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-08",
+     "amendment_date": "2016-11-08",
+     "issue_date": "2016-12-20",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 10,
+   "section": "300.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-10.json?section=300.13",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 12,
+   "section": "233.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-12.json?section=233.1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "1206.203",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=1206.203",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-08-01",
+     "amendment_date": "2016-08-01",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "151.72",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=151.72",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2017-01-01",
+     "amendment_date": "2017-01-01",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-01-01",
+     "amendment_date": "2017-01-01",
+     "issue_date": "2025-04-24",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "152.11",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=152.11",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2017-01-01",
+     "amendment_date": "2017-01-01",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "194.109",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=194.109",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2025-01-21",
+     "amendment_date": "2025-01-21",
+     "issue_date": "2025-01-21",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "201.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=201.3",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-05",
+     "amendment_date": "2016-12-05",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "211.14",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=211.14",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-05",
+     "amendment_date": "2016-12-05",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "253.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=253.4",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-05",
+     "amendment_date": "2016-12-05",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "36.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=36.6",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-10-04",
+     "amendment_date": "2017-10-04",
+     "issue_date": "2017-10-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-10-04",
+     "amendment_date": "2017-10-04",
+     "issue_date": "2017-11-03",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2017-10-04",
+     "amendment_date": "2017-10-04",
+     "issue_date": "2023-03-31",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "38.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=38.7",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2024-04-16",
+     "amendment_date": "2024-04-16",
+     "issue_date": "2024-04-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "65.23",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=65.23",
+   "http": "200",
+   "n_records": 9,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-05-24",
+     "amendment_date": "2022-05-24",
+     "issue_date": "2022-05-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-09-21",
+     "amendment_date": "2022-09-21",
+     "issue_date": "2022-09-21",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-08-01",
+     "amendment_date": "2023-08-01",
+     "issue_date": "2023-08-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-04-01",
+     "amendment_date": "2024-04-01",
+     "issue_date": "2024-04-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-05-31",
+     "amendment_date": "2024-05-31",
+     "issue_date": "2024-05-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-05-31",
+     "amendment_date": "2024-05-31",
+     "issue_date": "2025-04-09",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2025-07-24",
+     "amendment_date": "2025-07-24",
+     "issue_date": "2025-07-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-10-22",
+     "amendment_date": "2025-10-22",
+     "issue_date": "2025-10-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 14,
+   "section": "91.1721",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-14.json?section=91.1721",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-05-09",
+     "amendment_date": "2017-05-09",
+     "issue_date": "2017-05-09",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 15,
+   "section": "200.115",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?section=200.115",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 15,
+   "section": "230.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?section=230.7",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 15,
+   "section": "285.16",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?section=285.16",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2020-09-24",
+     "amendment_date": "2020-09-24",
+     "issue_date": "2020-09-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-01-11",
+     "amendment_date": "2021-01-11",
+     "issue_date": "2021-01-11",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 15,
+   "section": "995.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?section=995.2",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2017-01-01",
+     "amendment_date": "2017-01-01",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-01-01",
+     "amendment_date": "2017-01-01",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "1211.40",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=1211.40",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-10-02",
+     "amendment_date": "2016-10-02",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-07-13",
+     "amendment_date": "2018-07-13",
+     "issue_date": "2018-07-16",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-09-11",
+     "amendment_date": "2018-09-11",
+     "issue_date": "2018-09-11",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-09-11",
+     "amendment_date": "2018-09-11",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "1241.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=1241.3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2026-02-12",
+     "amendment_date": "2026-02-12",
+     "issue_date": "2026-02-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-05-04",
+     "amendment_date": "2026-05-04",
+     "issue_date": "2026-05-04",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "1242.8",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=1242.8",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2025-04-23",
+     "amendment_date": "2025-04-23",
+     "issue_date": "2025-04-23",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-05-05",
+     "amendment_date": "2025-05-05",
+     "issue_date": "2025-05-05",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "1243.8",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=1243.8",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2025-05-05",
+     "amendment_date": "2025-05-05",
+     "issue_date": "2025-05-05",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "1250.10",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=1250.10",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2025-12-12",
+     "amendment_date": "2025-12-12",
+     "issue_date": "2025-12-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-12-15",
+     "amendment_date": "2025-12-15",
+     "issue_date": "2025-12-15",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-03-12",
+     "amendment_date": "2026-03-12",
+     "issue_date": "2026-03-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-06-15",
+     "amendment_date": "2026-06-15",
+     "issue_date": "2026-06-15",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "1450.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=1450.3",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-10-02",
+     "amendment_date": "2016-10-02",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-02",
+     "amendment_date": "2016-10-02",
+     "issue_date": "2019-05-23",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2020-09-18",
+     "amendment_date": "2020-09-18",
+     "issue_date": "2020-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-05-24",
+     "amendment_date": "2021-05-24",
+     "issue_date": "2021-05-24",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "1461.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=1461.4",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2023-12-11",
+     "amendment_date": "2023-12-11",
+     "issue_date": "2023-12-11",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-04-30",
+     "amendment_date": "2024-04-30",
+     "issue_date": "2024-04-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-07-27",
+     "amendment_date": "2024-07-27",
+     "issue_date": "2024-07-29",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "1640.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=1640.6",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2021-06-25",
+     "amendment_date": "2021-06-25",
+     "issue_date": "2021-06-25",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 16,
+   "section": "306.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-16.json?section=306.13",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-22",
+     "amendment_date": "2016-12-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 17,
+   "section": "230.411",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-17.json?section=230.411",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-21",
+     "amendment_date": "2016-11-21",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-04-02",
+     "amendment_date": "2019-04-02",
+     "issue_date": "2019-04-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-05-02",
+     "amendment_date": "2019-05-02",
+     "issue_date": "2019-05-02",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 17,
+   "section": "232.303",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-17.json?section=232.303",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-21",
+     "amendment_date": "2016-11-21",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-04-02",
+     "amendment_date": "2019-04-02",
+     "issue_date": "2019-04-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-05-02",
+     "amendment_date": "2019-05-02",
+     "issue_date": "2019-05-02",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 17,
+   "section": "240.12b-23",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-17.json?section=240.12b-23",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-04-02",
+     "amendment_date": "2019-04-02",
+     "issue_date": "2019-04-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-05-02",
+     "amendment_date": "2019-05-02",
+     "issue_date": "2019-05-02",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 17,
+   "section": "260.7a-31",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-17.json?section=260.7a-31",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 17,
+   "section": "260.7a-32",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-17.json?section=260.7a-32",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 17,
+   "section": "270.0-4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-17.json?section=270.0-4",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-04-02",
+     "amendment_date": "2019-04-02",
+     "issue_date": "2019-04-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-05-02",
+     "amendment_date": "2019-05-02",
+     "issue_date": "2019-05-02",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 17,
+   "section": "275.0-6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-17.json?section=275.0-6",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-04-02",
+     "amendment_date": "2019-04-02",
+     "issue_date": "2019-04-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-05-02",
+     "amendment_date": "2019-05-02",
+     "issue_date": "2019-05-02",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 18,
+   "section": "38.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-18.json?section=38.1",
+   "http": "200",
+   "n_records": 10,
+   "versions": [
+    {
+     "date": "2017-01-03",
+     "amendment_date": "2017-01-03",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-02-25",
+     "amendment_date": "2020-02-25",
+     "issue_date": "2020-02-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-04-27",
+     "amendment_date": "2020-04-27",
+     "issue_date": "2020-04-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-06-02",
+     "amendment_date": "2021-06-02",
+     "issue_date": "2021-06-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-08-02",
+     "amendment_date": "2021-08-02",
+     "issue_date": "2021-08-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-08-02",
+     "amendment_date": "2021-08-02",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2023-10-30",
+     "amendment_date": "2023-10-30",
+     "issue_date": "2023-10-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-11-29",
+     "amendment_date": "2023-11-29",
+     "issue_date": "2023-11-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-02-27",
+     "amendment_date": "2025-02-27",
+     "issue_date": "2025-02-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-04-28",
+     "amendment_date": "2025-04-28",
+     "issue_date": "2025-04-28",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 21,
+   "section": "106.160",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-21.json?section=106.160",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-19",
+     "amendment_date": "2016-12-19",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 21,
+   "section": "1141.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-21.json?section=1141.5",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2023-11-06",
+     "amendment_date": "2023-11-06",
+     "issue_date": "2023-11-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 21,
+   "section": "1311.08",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-21.json?section=1311.08",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 21,
+   "section": "820.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-21.json?section=820.7",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2026-02-04",
+     "amendment_date": "2026-02-04",
+     "issue_date": "2026-02-04",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 21,
+   "section": "830.10",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-21.json?section=830.10",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2023-07-14",
+     "amendment_date": "2023-07-14",
+     "issue_date": "2023-07-14",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 23,
+   "section": "490.111",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-23.json?section=490.111",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2017-01-03",
+     "amendment_date": "2017-01-03",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-05-20",
+     "amendment_date": "2017-05-20",
+     "issue_date": "2017-05-20",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 23,
+   "section": "630.1018",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-23.json?section=630.1018",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2024-12-02",
+     "amendment_date": "2024-12-02",
+     "issue_date": "2024-12-02",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 23,
+   "section": "650.317",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-23.json?section=650.317",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2017-01-03",
+     "amendment_date": "2017-01-03",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-06-06",
+     "amendment_date": "2022-06-06",
+     "issue_date": "2022-06-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 23,
+   "section": "650.517",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-23.json?section=650.517",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2017-01-03",
+     "amendment_date": "2017-01-03",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 24,
+   "section": "100.201a",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-24.json?section=100.201a",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2017-01-03",
+     "amendment_date": "2017-01-03",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-12-08",
+     "amendment_date": "2020-12-08",
+     "issue_date": "2020-12-08",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-03-08",
+     "amendment_date": "2021-03-08",
+     "issue_date": "2021-03-08",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 24,
+   "section": "200.927",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-24.json?section=200.927",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-16",
+     "amendment_date": "2016-12-16",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 24,
+   "section": "247.8",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-24.json?section=247.8",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-16",
+     "amendment_date": "2016-12-16",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 24,
+   "section": "3280.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-24.json?section=3280.4",
+   "http": "200",
+   "n_records": 12,
+   "versions": [
+    {
+     "date": "2016-08-16",
+     "amendment_date": "2016-08-16",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-06-29",
+     "amendment_date": "2017-06-29",
+     "issue_date": "2017-06-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-01-31",
+     "amendment_date": "2020-01-31",
+     "issue_date": "2020-01-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-03-02",
+     "amendment_date": "2020-03-02",
+     "issue_date": "2020-03-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-01-12",
+     "amendment_date": "2021-01-12",
+     "issue_date": "2021-01-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-03-10",
+     "amendment_date": "2021-03-10",
+     "issue_date": "2021-03-10",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-12",
+     "amendment_date": "2021-07-12",
+     "issue_date": "2021-07-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-12",
+     "amendment_date": "2021-07-12",
+     "issue_date": "2022-01-31",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-07-12",
+     "amendment_date": "2021-07-12",
+     "issue_date": "2023-03-31",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-16",
+     "amendment_date": "2024-09-16",
+     "issue_date": "2024-09-16",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-02-25",
+     "amendment_date": "2025-02-25",
+     "issue_date": "2025-02-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-09-15",
+     "amendment_date": "2025-09-15",
+     "issue_date": "2025-09-15",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 24,
+   "section": "3282.16",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-24.json?section=3282.16",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2018-12-12",
+     "amendment_date": "2018-12-12",
+     "issue_date": "2018-12-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-01-15",
+     "amendment_date": "2019-01-15",
+     "issue_date": "2019-01-15",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-01-15",
+     "amendment_date": "2019-01-15",
+     "issue_date": "2024-04-16",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 24,
+   "section": "3285.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-24.json?section=3285.4",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-16",
+     "amendment_date": "2016-08-16",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-08-16",
+     "amendment_date": "2016-08-16",
+     "issue_date": "2023-03-31",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 24,
+   "section": "905.110",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-24.json?section=905.110",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-22",
+     "amendment_date": "2016-12-22",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 28,
+   "section": "5.207",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-28.json?section=5.207",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-19",
+     "amendment_date": "2016-12-19",
+     "issue_date": "2016-12-29",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 29,
+   "section": "1910.509",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-29.json?section=1910.509",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2021-06-21",
+     "amendment_date": "2021-06-21",
+     "issue_date": "2021-06-21",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-09-15",
+     "amendment_date": "2021-09-15",
+     "issue_date": "2021-09-15",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-11-05",
+     "amendment_date": "2021-11-05",
+     "issue_date": "2021-11-05",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-01-26",
+     "amendment_date": "2022-01-26",
+     "issue_date": "2022-01-26",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 29,
+   "section": "1910.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-29.json?section=1910.6",
+   "http": "200",
+   "n_records": 10,
+   "versions": [
+    {
+     "date": "2017-01-01",
+     "amendment_date": "2017-01-01",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-01-18",
+     "amendment_date": "2017-01-18",
+     "issue_date": "2017-01-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-01-23",
+     "amendment_date": "2019-01-23",
+     "issue_date": "2019-01-23",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-05-14",
+     "amendment_date": "2019-05-14",
+     "issue_date": "2019-05-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-07-15",
+     "amendment_date": "2019-07-15",
+     "issue_date": "2019-07-15",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-07-15",
+     "amendment_date": "2019-07-15",
+     "issue_date": "2020-06-15",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2019-07-15",
+     "amendment_date": "2019-07-15",
+     "issue_date": "2023-04-03",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-05-20",
+     "amendment_date": "2024-05-20",
+     "issue_date": "2024-05-20",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-07-19",
+     "amendment_date": "2024-07-19",
+     "issue_date": "2024-07-19",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-01-08",
+     "amendment_date": "2026-01-08",
+     "issue_date": "2026-01-08",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 29,
+   "section": "1915.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-29.json?section=1915.5",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-09-01",
+     "amendment_date": "2016-09-01",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-05-14",
+     "amendment_date": "2018-05-14",
+     "issue_date": "2019-05-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-07-15",
+     "amendment_date": "2019-07-15",
+     "issue_date": "2019-07-15",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-10-04",
+     "amendment_date": "2021-10-04",
+     "issue_date": "2021-10-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-10-04",
+     "amendment_date": "2021-10-04",
+     "issue_date": "2023-04-03",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 29,
+   "section": "1917.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-29.json?section=1917.3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-09-01",
+     "amendment_date": "2016-09-01",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-09-01",
+     "amendment_date": "2016-09-01",
+     "issue_date": "2023-04-03",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 29,
+   "section": "1918.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-29.json?section=1918.3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-09-01",
+     "amendment_date": "2016-09-01",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-09-01",
+     "amendment_date": "2016-09-01",
+     "issue_date": "2023-04-03",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 29,
+   "section": "1926.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-29.json?section=1926.6",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-09-01",
+     "amendment_date": "2016-09-01",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-05-14",
+     "amendment_date": "2019-05-14",
+     "issue_date": "2019-05-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-07-15",
+     "amendment_date": "2019-07-15",
+     "issue_date": "2019-07-15",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-07-15",
+     "amendment_date": "2019-07-15",
+     "issue_date": "2023-04-03",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 30,
+   "section": "75.1107-17",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-30.json?section=75.1107-17",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-04",
+     "amendment_date": "2016-10-04",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 30,
+   "section": "77.403-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-30.json?section=77.403-2",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-04",
+     "amendment_date": "2016-10-04",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-04",
+     "amendment_date": "2016-10-04",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 31,
+   "section": "132.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?section=132.1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2016-12-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 31,
+   "section": "29.501",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-31.json?section=29.501",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2016-12-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 32,
+   "section": "170.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-32.json?section=170.2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2024-12-16",
+     "amendment_date": "2024-12-16",
+     "issue_date": "2024-12-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 32,
+   "section": "2002.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-32.json?section=2002.2",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-22",
+     "amendment_date": "2016-12-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-22",
+     "amendment_date": "2016-12-22",
+     "issue_date": "2018-12-25",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2016-12-22",
+     "amendment_date": "2016-12-22",
+     "issue_date": "2019-08-14",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "101.115",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=101.115",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2024-06-03",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "118.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=118.3",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-01-28",
+     "amendment_date": "2019-01-28",
+     "issue_date": "2019-01-28",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-11-26",
+     "amendment_date": "2025-11-26",
+     "issue_date": "2025-11-26",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "126.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=126.5",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2024-06-03",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "127.003",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=127.003",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-02-02",
+     "amendment_date": "2022-02-02",
+     "issue_date": "2022-02-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-03-04",
+     "amendment_date": "2022-03-04",
+     "issue_date": "2022-03-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-03-04",
+     "amendment_date": "2022-03-04",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "140.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=140.7",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "149.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=149.3",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "154.106",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=154.106",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "155.140",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=155.140",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "156.111",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=156.111",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "157.02",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=157.02",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "159.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=159.4",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-07-28",
+     "amendment_date": "2017-07-28",
+     "issue_date": "2017-07-28",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-07-28",
+     "amendment_date": "2017-07-28",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "164.03",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=164.03",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-11-05",
+     "amendment_date": "2018-11-05",
+     "issue_date": "2018-11-05",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-12-05",
+     "amendment_date": "2018-12-05",
+     "issue_date": "2018-12-05",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-12-05",
+     "amendment_date": "2018-12-05",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "169.15",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=169.15",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "183.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=183.5",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2024-06-03",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "183.607",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=183.607",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "96.130",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=96.130",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 33,
+   "section": "97.110",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-33.json?section=97.110",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2016-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-11-24",
+     "amendment_date": "2025-11-24",
+     "issue_date": "2025-11-24",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 34,
+   "section": "77.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-34.json?section=77.2",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2017-07-31",
+     "amendment_date": "2017-07-31",
+     "issue_date": "2017-07-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-05",
+     "amendment_date": "2020-10-05",
+     "issue_date": "2020-10-05",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-08-29",
+     "amendment_date": "2024-08-29",
+     "issue_date": "2024-08-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-30",
+     "amendment_date": "2024-09-30",
+     "issue_date": "2024-09-30",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 37,
+   "section": "1.57",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-37.json?section=1.57",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2017-01-01",
+     "amendment_date": "2017-01-01",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 37,
+   "section": "1.839",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-37.json?section=1.839",
+   "http": "200",
+   "n_records": 6,
+   "versions": [
+    {
+     "date": "2022-05-20",
+     "amendment_date": "2022-05-20",
+     "issue_date": "2022-05-20",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-07-01",
+     "amendment_date": "2022-07-01",
+     "issue_date": "2022-07-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-05-26",
+     "amendment_date": "2023-05-26",
+     "issue_date": "2023-05-26",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-07-01",
+     "amendment_date": "2023-07-01",
+     "issue_date": "2023-07-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-05-03",
+     "amendment_date": "2024-05-03",
+     "issue_date": "2024-05-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-07-01",
+     "amendment_date": "2024-07-01",
+     "issue_date": "2024-07-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 38,
+   "section": "17.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-38.json?section=17.1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-14",
+     "amendment_date": "2016-12-14",
+     "issue_date": "2016-12-14",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 38,
+   "section": "36.4219",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-38.json?section=36.4219",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-09-09",
+     "amendment_date": "2016-09-09",
+     "issue_date": "2016-12-14",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 38,
+   "section": "36.4517",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-38.json?section=36.4517",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-09-09",
+     "amendment_date": "2016-09-09",
+     "issue_date": "2016-12-14",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 39,
+   "section": "111.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-39.json?section=111.1",
+   "http": "200",
+   "n_records": 6,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2016-12-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-09-30",
+     "amendment_date": "2020-09-30",
+     "issue_date": "2020-09-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-10-19",
+     "amendment_date": "2022-10-19",
+     "issue_date": "2022-10-19",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-10-19",
+     "amendment_date": "2022-10-19",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-03-04",
+     "amendment_date": "2024-03-04",
+     "issue_date": "2024-03-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-05-23",
+     "amendment_date": "2025-05-23",
+     "issue_date": "2025-05-23",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 39,
+   "section": "20.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-39.json?section=20.1",
+   "http": "200",
+   "n_records": 10,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2016-12-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-06-27",
+     "amendment_date": "2017-06-27",
+     "issue_date": "2017-06-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-10-11",
+     "amendment_date": "2017-10-11",
+     "issue_date": "2017-10-11",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-04-25",
+     "amendment_date": "2018-04-25",
+     "issue_date": "2018-04-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2019-05-28",
+     "amendment_date": "2019-05-28",
+     "issue_date": "2019-05-28",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-09-30",
+     "amendment_date": "2020-09-30",
+     "issue_date": "2020-09-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-10-19",
+     "amendment_date": "2022-10-19",
+     "issue_date": "2022-10-19",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-10-19",
+     "amendment_date": "2022-10-19",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-03-04",
+     "amendment_date": "2024-03-04",
+     "issue_date": "2024-03-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-05-23",
+     "amendment_date": "2025-05-23",
+     "issue_date": "2025-05-23",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1030.110",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1030.110",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2021-01-11",
+     "amendment_date": "2021-01-11",
+     "issue_date": "2021-01-11",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-01-11",
+     "amendment_date": "2021-01-11",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1031.210",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1031.210",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2022-12-23",
+     "amendment_date": "2022-12-23",
+     "issue_date": "2022-12-23",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-12-23",
+     "amendment_date": "2022-12-23",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1036.810",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1036.810",
+   "http": "200",
+   "n_records": 8,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-06-29",
+     "amendment_date": "2021-06-29",
+     "issue_date": "2021-06-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-29",
+     "amendment_date": "2021-07-29",
+     "issue_date": "2021-07-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-04-22",
+     "amendment_date": "2024-04-22",
+     "issue_date": "2024-04-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-21",
+     "amendment_date": "2024-06-21",
+     "issue_date": "2024-06-21",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1037.810",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1037.810",
+   "http": "200",
+   "n_records": 14,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-06-29",
+     "amendment_date": "2021-06-29",
+     "issue_date": "2021-06-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-29",
+     "amendment_date": "2021-07-29",
+     "issue_date": "2021-07-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-29",
+     "amendment_date": "2021-07-29",
+     "issue_date": "2021-08-03",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2022-07-28",
+     "amendment_date": "2022-07-28",
+     "issue_date": "2022-07-28",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-08-29",
+     "amendment_date": "2022-08-29",
+     "issue_date": "2022-08-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-01-24",
+     "amendment_date": "2023-01-24",
+     "issue_date": "2023-01-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-04-22",
+     "amendment_date": "2024-04-22",
+     "issue_date": "2024-04-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-21",
+     "amendment_date": "2024-06-21",
+     "issue_date": "2024-06-21",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-02-18",
+     "amendment_date": "2026-02-18",
+     "issue_date": "2026-02-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-04-20",
+     "amendment_date": "2026-04-20",
+     "issue_date": "2026-04-20",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1042.910",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1042.910",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-06-29",
+     "amendment_date": "2021-06-29",
+     "issue_date": "2021-06-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-29",
+     "amendment_date": "2021-07-29",
+     "issue_date": "2021-07-29",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1043.100",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1043.100",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-01-01",
+     "amendment_date": "2021-01-01",
+     "issue_date": "2021-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-06-29",
+     "amendment_date": "2021-06-29",
+     "issue_date": "2021-06-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-29",
+     "amendment_date": "2021-07-29",
+     "issue_date": "2021-07-29",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1065.1010",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1065.1010",
+   "http": "200",
+   "n_records": 13,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2019-08-15",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2020-12-04",
+     "amendment_date": "2020-12-04",
+     "issue_date": "2020-12-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-12-04",
+     "amendment_date": "2020-12-04",
+     "issue_date": "2020-12-15",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2020-12-04",
+     "amendment_date": "2020-12-04",
+     "issue_date": "2021-01-06",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-06-29",
+     "amendment_date": "2021-06-29",
+     "issue_date": "2021-06-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-29",
+     "amendment_date": "2021-07-29",
+     "issue_date": "2021-07-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-01-24",
+     "amendment_date": "2023-01-24",
+     "issue_date": "2023-01-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2024-03-01",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-04-22",
+     "amendment_date": "2024-04-22",
+     "issue_date": "2024-04-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-21",
+     "amendment_date": "2024-06-21",
+     "issue_date": "2024-06-21",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1066.1010",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1066.1010",
+   "http": "200",
+   "n_records": 7,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2019-08-15",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-01-01",
+     "amendment_date": "2021-01-01",
+     "issue_date": "2021-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-01-24",
+     "amendment_date": "2023-01-24",
+     "issue_date": "2023-01-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-04-18",
+     "amendment_date": "2024-04-18",
+     "issue_date": "2024-04-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-17",
+     "amendment_date": "2024-06-17",
+     "issue_date": "2024-06-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1068.95",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1068.95",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2019-08-15",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2026-04-01",
+     "amendment_date": "2026-04-01",
+     "issue_date": "2026-04-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "1090.95",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=1090.95",
+   "http": "200",
+   "n_records": 7,
+   "versions": [
+    {
+     "date": "2020-12-04",
+     "amendment_date": "2020-12-04",
+     "issue_date": "2020-12-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-12-04",
+     "amendment_date": "2020-12-04",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2025-01-15",
+     "amendment_date": "2025-01-15",
+     "issue_date": "2025-01-15",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-07-01",
+     "amendment_date": "2025-07-01",
+     "issue_date": "2025-07-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-12-31",
+     "amendment_date": "2025-12-31",
+     "issue_date": "2025-12-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-04-01",
+     "amendment_date": "2026-04-01",
+     "issue_date": "2026-04-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-06-15",
+     "amendment_date": "2026-06-15",
+     "issue_date": "2026-06-15",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "260.11",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=260.11",
+   "http": "200",
+   "n_records": 6,
+   "versions": [
+    {
+     "date": "2016-11-28",
+     "amendment_date": "2016-11-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-05-30",
+     "amendment_date": "2017-05-30",
+     "issue_date": "2017-05-31",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-05-30",
+     "amendment_date": "2017-05-30",
+     "issue_date": "2017-07-19",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2020-07-07",
+     "amendment_date": "2020-07-07",
+     "issue_date": "2020-07-07",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-09-08",
+     "amendment_date": "2020-09-08",
+     "issue_date": "2020-09-08",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-09-08",
+     "amendment_date": "2020-09-08",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "272.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=272.2",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-01-08",
+     "amendment_date": "2021-01-08",
+     "issue_date": "2021-01-07",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-08-15",
+     "amendment_date": "2023-08-15",
+     "issue_date": "2023-08-15",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-10-16",
+     "amendment_date": "2023-10-16",
+     "issue_date": "2023-10-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "282.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=282.2",
+   "http": "200",
+   "n_records": 16,
+   "versions": [
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2016-12-31",
+     "amendment_date": "2016-12-31",
+     "issue_date": "2019-08-23",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2020-09-11",
+     "amendment_date": "2020-09-11",
+     "issue_date": "2020-09-11",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-11-10",
+     "amendment_date": "2020-11-10",
+     "issue_date": "2020-11-10",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-01-08",
+     "amendment_date": "2021-01-08",
+     "issue_date": "2021-01-07",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-07-14",
+     "amendment_date": "2022-07-14",
+     "issue_date": "2022-07-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-09-12",
+     "amendment_date": "2022-09-12",
+     "issue_date": "2022-09-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-09-12",
+     "amendment_date": "2022-09-12",
+     "issue_date": "2022-09-13",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-01-18",
+     "amendment_date": "2024-01-18",
+     "issue_date": "2024-01-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-03-18",
+     "amendment_date": "2024-03-18",
+     "issue_date": "2024-03-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-03-18",
+     "amendment_date": "2024-03-18",
+     "issue_date": "2024-05-08",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-08-02",
+     "amendment_date": "2024-08-02",
+     "issue_date": "2024-08-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-01",
+     "amendment_date": "2024-10-01",
+     "issue_date": "2024-10-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-09-18",
+     "amendment_date": "2025-09-18",
+     "issue_date": "2025-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-11-17",
+     "amendment_date": "2025-11-17",
+     "issue_date": "2025-11-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "432.5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=432.5",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "52.742",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=52.742",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "600.011",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=600.011",
+   "http": "200",
+   "n_records": 8,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2022-02-18",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2023-01-24",
+     "amendment_date": "2023-01-24",
+     "issue_date": "2023-01-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-27",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-27",
+     "amendment_date": "2023-03-27",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-04-18",
+     "amendment_date": "2024-04-18",
+     "issue_date": "2024-04-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-17",
+     "amendment_date": "2024-06-17",
+     "issue_date": "2024-06-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "62.10353",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=62.10353",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2021-03-30",
+     "amendment_date": "2021-03-30",
+     "issue_date": "2021-03-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-04-29",
+     "amendment_date": "2021-04-29",
+     "issue_date": "2021-04-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-04-29",
+     "amendment_date": "2021-04-29",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "62.1490",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=62.1490",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2021-12-09",
+     "amendment_date": "2021-12-09",
+     "issue_date": "2021-12-09",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-12-09",
+     "amendment_date": "2021-12-09",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "62.8700",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=62.8700",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2021-08-05",
+     "amendment_date": "2021-08-05",
+     "issue_date": "2021-08-05",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-08-05",
+     "amendment_date": "2021-08-05",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "65.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=65.13",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-12",
+     "amendment_date": "2016-12-12",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "72.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=72.13",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "745.67",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=745.67",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2024-11-12",
+     "amendment_date": "2024-11-12",
+     "issue_date": "2024-11-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-13",
+     "amendment_date": "2025-01-13",
+     "issue_date": "2025-01-13",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "75.6",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=75.6",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "76.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=76.4",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "761.19",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=761.19",
+   "http": "200",
+   "n_records": 6,
+   "versions": [
+    {
+     "date": "2016-12-21",
+     "amendment_date": "2016-12-21",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-21",
+     "amendment_date": "2016-12-21",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2021-01-06",
+     "amendment_date": "2021-01-06",
+     "issue_date": "2021-01-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-08-29",
+     "amendment_date": "2023-08-29",
+     "issue_date": "2023-08-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-02-26",
+     "amendment_date": "2024-02-26",
+     "issue_date": "2024-02-26",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-17",
+     "amendment_date": "2025-01-17",
+     "issue_date": "2025-01-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "770.99",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=770.99",
+   "http": "200",
+   "n_records": 10,
+   "versions": [
+    {
+     "date": "2017-05-22",
+     "amendment_date": "2017-05-22",
+     "issue_date": "2017-05-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-10-25",
+     "amendment_date": "2017-10-25",
+     "issue_date": "2017-10-26",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-12-08",
+     "amendment_date": "2017-12-08",
+     "issue_date": "2017-12-08",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-02-07",
+     "amendment_date": "2018-02-07",
+     "issue_date": "2018-02-08",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-02-07",
+     "amendment_date": "2018-02-07",
+     "issue_date": "2019-08-07",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2019-08-21",
+     "amendment_date": "2019-08-21",
+     "issue_date": "2019-08-21",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-01-06",
+     "amendment_date": "2021-01-06",
+     "issue_date": "2021-01-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-21",
+     "amendment_date": "2023-02-21",
+     "issue_date": "2023-02-21",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-23",
+     "amendment_date": "2023-03-23",
+     "issue_date": "2023-03-23",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-23",
+     "amendment_date": "2023-03-23",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "80.12",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=80.12",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2023-07-12",
+     "amendment_date": "2023-07-12",
+     "issue_date": "2023-07-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-09-11",
+     "amendment_date": "2023-09-11",
+     "issue_date": "2023-09-11",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-03-14",
+     "amendment_date": "2025-03-14",
+     "issue_date": "2025-03-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-04-01",
+     "amendment_date": "2026-04-01",
+     "issue_date": "2026-04-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-06-15",
+     "amendment_date": "2026-06-15",
+     "issue_date": "2026-06-15",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "82.27",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=82.27",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2024-10-10",
+     "amendment_date": "2024-10-10",
+     "issue_date": "2024-10-10",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-11-12",
+     "amendment_date": "2024-11-12",
+     "issue_date": "2024-11-12",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "82.31",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=82.31",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2021-03-24",
+     "amendment_date": "2021-03-24",
+     "issue_date": "2021-03-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-04-23",
+     "amendment_date": "2021-04-23",
+     "issue_date": "2021-04-23",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "84.37",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=84.37",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2023-07-20",
+     "amendment_date": "2023-07-20",
+     "issue_date": "2023-07-20",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-09-18",
+     "amendment_date": "2023-09-18",
+     "issue_date": "2023-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-01",
+     "amendment_date": "2024-10-01",
+     "issue_date": "2024-10-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 40,
+   "section": "86.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-40.json?section=86.1",
+   "http": "200",
+   "n_records": 11,
+   "versions": [
+    {
+     "date": "2017-01-01",
+     "amendment_date": "2017-01-01",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-06-29",
+     "amendment_date": "2021-06-29",
+     "issue_date": "2021-06-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-07-29",
+     "amendment_date": "2021-07-29",
+     "issue_date": "2021-07-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-12-30",
+     "amendment_date": "2021-12-30",
+     "issue_date": "2021-12-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-02-28",
+     "amendment_date": "2022-02-28",
+     "issue_date": "2022-02-28",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-02-28",
+     "amendment_date": "2022-02-28",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-04-18",
+     "amendment_date": "2024-04-18",
+     "issue_date": "2024-04-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-13",
+     "amendment_date": "2024-06-13",
+     "issue_date": "2024-06-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-17",
+     "amendment_date": "2024-06-17",
+     "issue_date": "2024-06-17",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-02-18",
+     "amendment_date": "2026-02-18",
+     "issue_date": "2026-02-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-04-20",
+     "amendment_date": "2026-04-20",
+     "issue_date": "2026-04-20",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 43,
+   "section": "10010.33",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-43.json?section=10010.33",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-19",
+     "amendment_date": "2016-12-19",
+     "issue_date": "2016-12-20",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 43,
+   "section": "11.18",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-43.json?section=11.18",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-20",
+     "amendment_date": "2016-12-20",
+     "issue_date": "2016-12-20",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-07-13",
+     "amendment_date": "2026-07-13",
+     "issue_date": "2026-07-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-08-12",
+     "amendment_date": "2026-08-12",
+     "issue_date": "2026-08-12",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 43,
+   "section": "3174.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-43.json?section=3174.3",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2017-01-18",
+     "amendment_date": "2017-01-18",
+     "issue_date": "2017-01-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-01-18",
+     "amendment_date": "2017-01-18",
+     "issue_date": "2018-11-28",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2017-01-18",
+     "amendment_date": "2017-01-18",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 43,
+   "section": "3175.30",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-43.json?section=3175.30",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2017-01-18",
+     "amendment_date": "2017-01-18",
+     "issue_date": "2017-01-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-01-18",
+     "amendment_date": "2017-01-18",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 43,
+   "section": "3176.11",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-43.json?section=3176.11",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2023-06-16",
+     "amendment_date": "2023-06-16",
+     "issue_date": "2023-06-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 45,
+   "section": "170.299",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-45.json?section=170.299",
+   "http": "200",
+   "n_records": 15,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2016-12-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-05-01",
+     "amendment_date": "2020-05-01",
+     "issue_date": "2020-05-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-06-30",
+     "amendment_date": "2020-06-30",
+     "issue_date": "2020-06-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-11-04",
+     "amendment_date": "2020-11-04",
+     "issue_date": "2020-11-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-11-24",
+     "amendment_date": "2020-11-24",
+     "issue_date": "2020-11-24",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-12-04",
+     "amendment_date": "2020-12-04",
+     "issue_date": "2020-12-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-12-04",
+     "amendment_date": "2020-12-04",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-01-09",
+     "amendment_date": "2024-01-09",
+     "issue_date": "2024-01-09",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-02-08",
+     "amendment_date": "2024-02-08",
+     "issue_date": "2024-02-08",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-03-11",
+     "amendment_date": "2024-03-11",
+     "issue_date": "2024-03-11",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-17",
+     "amendment_date": "2024-06-17",
+     "issue_date": "2024-06-17",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-07-17",
+     "amendment_date": "2024-07-17",
+     "issue_date": "2024-07-17",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-08-04",
+     "amendment_date": "2025-08-04",
+     "issue_date": "2025-08-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-10-01",
+     "amendment_date": "2025-10-01",
+     "issue_date": "2025-10-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2026-08-04",
+     "amendment_date": "2026-08-04",
+     "issue_date": "2026-08-04",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 45,
+   "section": "170.599",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-45.json?section=170.599",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-12-30",
+     "amendment_date": "2016-12-30",
+     "issue_date": "2016-12-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-05-01",
+     "amendment_date": "2020-05-01",
+     "issue_date": "2020-05-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-06-30",
+     "amendment_date": "2020-06-30",
+     "issue_date": "2020-06-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-06-30",
+     "amendment_date": "2020-06-30",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 45,
+   "section": "502.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-45.json?section=502.4",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-09-12",
+     "amendment_date": "2016-09-12",
+     "issue_date": "2016-12-30",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "10.103",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=10.103",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-11-25",
+     "amendment_date": "2024-11-25",
+     "issue_date": "2024-11-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-17",
+     "amendment_date": "2025-01-17",
+     "issue_date": "2025-01-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "105.3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=105.3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "107.115",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=107.115",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2019-07-31",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2020-06-26",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "108.101",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=108.101",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "109.105",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=109.105",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "11.102",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=11.102",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-11-25",
+     "amendment_date": "2024-11-25",
+     "issue_date": "2024-11-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-12-17",
+     "amendment_date": "2024-12-17",
+     "issue_date": "2024-12-17",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-17",
+     "amendment_date": "2025-01-17",
+     "issue_date": "2025-01-17",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-19",
+     "amendment_date": "2025-01-19",
+     "issue_date": "2025-01-21",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "110.10-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=110.10-1",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-16",
+     "amendment_date": "2023-03-16",
+     "issue_date": "2023-03-16",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-16",
+     "amendment_date": "2023-03-16",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2023-04-17",
+     "amendment_date": "2023-04-17",
+     "issue_date": "2023-04-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "114.600",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=114.600",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "12.103",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=12.103",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-11-25",
+     "amendment_date": "2024-11-25",
+     "issue_date": "2024-11-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-17",
+     "amendment_date": "2025-01-17",
+     "issue_date": "2025-01-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "125.180",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=125.180",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2025-11-24",
+     "amendment_date": "2025-11-24",
+     "issue_date": "2025-11-24",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "13.103",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=13.103",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-17",
+     "amendment_date": "2025-01-17",
+     "issue_date": "2025-01-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "136.112",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=136.112",
+   "http": "200",
+   "n_records": 6,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-02-26",
+     "amendment_date": "2018-02-26",
+     "issue_date": "2018-02-26",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-03-28",
+     "amendment_date": "2018-03-28",
+     "issue_date": "2018-03-28",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-03-28",
+     "amendment_date": "2018-03-28",
+     "issue_date": "2018-08-23",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2018-03-28",
+     "amendment_date": "2018-03-28",
+     "issue_date": "2019-07-31",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2018-03-28",
+     "amendment_date": "2018-03-28",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "147.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=147.7",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "148.8",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=148.8",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "15.103",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=15.103",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-17",
+     "amendment_date": "2025-01-17",
+     "issue_date": "2025-01-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "151.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=151.01-2",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "153.4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=153.4",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "154.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=154.1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "159.001-4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=159.001-4",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.010-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.010-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.021-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.021-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.022-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.022-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.023-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.023-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.024-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.024-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.031-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.031-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.036-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.036-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.037-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.037-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.040-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.040-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.045-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.045-5",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2025-01-06",
+     "amendment_date": "2025-01-06",
+     "issue_date": "2025-01-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.046-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.046-3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2022-12-14",
+     "amendment_date": "2022-12-14",
+     "issue_date": "2022-12-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-12-14",
+     "amendment_date": "2022-12-14",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.049-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.049-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.050-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.050-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.051-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.051-5",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.055-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.055-5",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-12-06",
+     "amendment_date": "2024-12-06",
+     "issue_date": "2024-12-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-06",
+     "amendment_date": "2025-01-06",
+     "issue_date": "2025-01-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.057-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.057-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.060-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.060-5",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-12-06",
+     "amendment_date": "2024-12-06",
+     "issue_date": "2024-12-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-06",
+     "amendment_date": "2025-01-06",
+     "issue_date": "2025-01-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.064-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.064-5",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2024-12-06",
+     "amendment_date": "2024-12-06",
+     "issue_date": "2024-12-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-06",
+     "amendment_date": "2025-01-06",
+     "issue_date": "2025-01-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.076-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.076-5",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-12-06",
+     "amendment_date": "2024-12-06",
+     "issue_date": "2024-12-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-06",
+     "amendment_date": "2025-01-06",
+     "issue_date": "2025-01-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.115-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.115-5",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.132-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.132-5",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.133-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.133-5",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2024-09-18",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.135-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.135-5",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.151-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.151-5",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.156-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.156-5",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.170-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.170-5",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.171-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.171-3",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.174-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.174-3",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.176-4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.176-4",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-02-16",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-02-16",
+     "amendment_date": "2023-02-16",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.255-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.255-5",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2025-01-06",
+     "amendment_date": "2025-01-06",
+     "issue_date": "2025-01-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.264-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.264-5",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2025-01-06",
+     "amendment_date": "2025-01-06",
+     "issue_date": "2025-01-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "160.276-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=160.276-5",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2025-01-06",
+     "amendment_date": "2025-01-06",
+     "issue_date": "2025-01-06",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "161.002-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=161.002-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "161.010-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=161.010-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-07-28",
+     "amendment_date": "2017-07-28",
+     "issue_date": "2017-07-28",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "162.017-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=162.017-1",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "162.027-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=162.027-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "162.028-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=162.028-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "162.039-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=162.039-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "162.050-4",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=162.050-4",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "162.060-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=162.060-5",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2022-03-22",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "162.161-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=162.161-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "162.163-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=162.163-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.013-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.013-2",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.105-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.105-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.106-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.106-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.107-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.107-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.108-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.108-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.109-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.109-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.110-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.110-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.111-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.111-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.112-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.112-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.117-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.117-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.136-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.136-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.137-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.137-2",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.138-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.138-2",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.139-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.139-2",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.141-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.141-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.142-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.142-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.144-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.144-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.146-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.146-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.201-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.201-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "164.207-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=164.207-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-11-03",
+     "amendment_date": "2016-11-03",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "169.115",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=169.115",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-11-14",
+     "amendment_date": "2022-11-14",
+     "issue_date": "2022-11-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-12-14",
+     "amendment_date": "2022-12-14",
+     "issue_date": "2022-12-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-12-14",
+     "amendment_date": "2022-12-14",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "170.015",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=170.015",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "171.012",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=171.012",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "172.020",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=172.020",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "174.007",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=174.007",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "175.600",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=175.600",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "179.15",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=179.15",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "188.01-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=188.01-5",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "193.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=193.01-3",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "195.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=195.01-3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "197.510",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=197.510",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "199.05",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=199.05",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-11-14",
+     "amendment_date": "2022-11-14",
+     "issue_date": "2022-11-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-12-14",
+     "amendment_date": "2022-12-14",
+     "issue_date": "2022-12-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-12-14",
+     "amendment_date": "2022-12-14",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "2.45-5",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=2.45-5",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "25.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=25.01-3",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "27.102",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=27.102",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2024-06-04",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "28.40",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=28.40",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2024-06-04",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "30.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=30.01-3",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "31.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=31.01-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "32.01-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=32.01-1",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2018-12-20",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2019-08-01",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "34.01-15",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=34.01-15",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "35.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=35.01-3",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-11-25",
+     "amendment_date": "2024-11-25",
+     "issue_date": "2024-11-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-01-17",
+     "amendment_date": "2025-01-17",
+     "issue_date": "2025-01-17",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "38.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=38.01-3",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "39.1005",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=39.1005",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-09-18",
+     "amendment_date": "2020-09-18",
+     "issue_date": "2020-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-09-18",
+     "amendment_date": "2020-09-18",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-18",
+     "amendment_date": "2024-09-18",
+     "issue_date": "2024-09-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "503.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=503.13",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-22",
+     "amendment_date": "2016-12-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "52.01-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=52.01-1",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "53.01-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=53.01-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "54.01-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=54.01-1",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "56.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=56.01-2",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "57.02-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=57.02-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "58.03-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=58.03-1",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-12",
+     "amendment_date": "2024-06-12",
+     "issue_date": "2024-06-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "59.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=59.01-2",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "61.03-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=61.03-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "62.05-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=62.05-1",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "63.05-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=63.05-1",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-06-12",
+     "amendment_date": "2024-06-12",
+     "issue_date": "2024-06-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "64.2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=64.2",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-06-12",
+     "amendment_date": "2024-06-12",
+     "issue_date": "2024-06-12",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-09-10",
+     "amendment_date": "2024-09-10",
+     "issue_date": "2024-09-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "67.13",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=67.13",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-08-22",
+     "amendment_date": "2016-08-22",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-09-20",
+     "amendment_date": "2017-09-20",
+     "issue_date": "2017-09-20",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-09-20",
+     "amendment_date": "2017-09-20",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "71.25-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=71.25-3",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-17",
+     "amendment_date": "2016-10-17",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "72.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=72.01-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-17",
+     "amendment_date": "2016-10-17",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "76.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=76.01-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-17",
+     "amendment_date": "2016-10-17",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "77.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=77.01-3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-17",
+     "amendment_date": "2016-10-17",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-17",
+     "amendment_date": "2016-10-17",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "78.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=78.01-2",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-17",
+     "amendment_date": "2016-10-17",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-17",
+     "amendment_date": "2016-10-17",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "8.110",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=8.110",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-31",
+     "amendment_date": "2016-10-31",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "91.25-7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=91.25-7",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "92.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=92.01-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "95.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=95.01-2",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "96.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=96.01-3",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "97.01-2",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=97.01-2",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2023-03-29",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 46,
+   "section": "98.01-3",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-46.json?section=98.01-3",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-25",
+     "amendment_date": "2016-10-25",
+     "issue_date": "2016-12-22",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "15.38",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=15.38",
+   "http": "200",
+   "n_records": 7,
+   "versions": [
+    {
+     "date": "2016-12-15",
+     "amendment_date": "2016-12-15",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-11-02",
+     "amendment_date": "2017-11-02",
+     "issue_date": "2017-11-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2020-10-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-09-29",
+     "amendment_date": "2023-09-29",
+     "issue_date": "2023-09-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-10-30",
+     "amendment_date": "2023-10-30",
+     "issue_date": "2023-10-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-11-18",
+     "amendment_date": "2024-11-18",
+     "issue_date": "2024-11-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "2.910",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=2.910",
+   "http": "200",
+   "n_records": 8,
+   "versions": [
+    {
+     "date": "2016-12-15",
+     "amendment_date": "2016-12-15",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-11-02",
+     "amendment_date": "2017-11-02",
+     "issue_date": "2017-11-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2020-10-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2023-09-29",
+     "amendment_date": "2023-09-29",
+     "issue_date": "2023-09-29",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-10-30",
+     "amendment_date": "2023-10-30",
+     "issue_date": "2023-10-30",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-08-07",
+     "amendment_date": "2025-08-07",
+     "issue_date": "2025-08-07",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-09-08",
+     "amendment_date": "2025-09-08",
+     "issue_date": "2025-09-08",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "25.108",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=25.108",
+   "http": "200",
+   "n_records": 13,
+   "versions": [
+    {
+     "date": "2016-12-15",
+     "amendment_date": "2016-12-15",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-08-08",
+     "amendment_date": "2017-08-08",
+     "issue_date": "2017-08-08",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-08-25",
+     "amendment_date": "2017-08-25",
+     "issue_date": "2017-08-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-09-07",
+     "amendment_date": "2017-09-07",
+     "issue_date": "2017-09-07",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-09-25",
+     "amendment_date": "2017-09-25",
+     "issue_date": "2017-09-25",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-12-18",
+     "amendment_date": "2017-12-18",
+     "issue_date": "2017-12-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-01-17",
+     "amendment_date": "2018-01-17",
+     "issue_date": "2018-01-17",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2020-10-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-09-03",
+     "amendment_date": "2021-09-03",
+     "issue_date": "2021-09-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-10-04",
+     "amendment_date": "2021-10-04",
+     "issue_date": "2021-10-04",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-04-10",
+     "amendment_date": "2023-04-10",
+     "issue_date": "2023-04-10",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-07-17",
+     "amendment_date": "2024-07-17",
+     "issue_date": "2024-07-17",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-08-16",
+     "amendment_date": "2024-08-16",
+     "issue_date": "2024-08-16",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "26.305",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=26.305",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2024-09-04",
+     "amendment_date": "2024-09-04",
+     "issue_date": "2024-09-04",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "300.1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=300.1",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-12-15",
+     "amendment_date": "2016-12-15",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-06-18",
+     "amendment_date": "2018-06-18",
+     "issue_date": "2018-06-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-01-19",
+     "amendment_date": "2022-01-19",
+     "issue_date": "2022-01-19",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-03-06",
+     "amendment_date": "2023-03-06",
+     "issue_date": "2023-03-06",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-11-21",
+     "amendment_date": "2023-11-21",
+     "issue_date": "2023-11-21",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "73.8000",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=73.8000",
+   "http": "200",
+   "n_records": 7,
+   "versions": [
+    {
+     "date": "2016-12-01",
+     "amendment_date": "2016-12-01",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-02-02",
+     "amendment_date": "2018-02-02",
+     "issue_date": "2018-02-02",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-03-05",
+     "amendment_date": "2018-03-05",
+     "issue_date": "2018-03-05",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2020-10-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2024-02-01",
+     "amendment_date": "2024-02-01",
+     "issue_date": "2024-02-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-03-04",
+     "amendment_date": "2024-03-04",
+     "issue_date": "2024-03-04",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "74.35",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=74.35",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2024-10-18",
+     "amendment_date": "2024-10-18",
+     "issue_date": "2024-10-18",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2024-11-18",
+     "amendment_date": "2024-11-18",
+     "issue_date": "2024-11-18",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "76.602",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=76.602",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-12-01",
+     "amendment_date": "2016-12-01",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-02-22",
+     "amendment_date": "2018-02-22",
+     "issue_date": "2018-02-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2018-04-23",
+     "amendment_date": "2018-04-23",
+     "issue_date": "2018-04-23",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2020-10-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-04-10",
+     "amendment_date": "2023-04-10",
+     "issue_date": "2023-04-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "79.100",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=79.100",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-01",
+     "amendment_date": "2016-12-01",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2020-10-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-04-10",
+     "amendment_date": "2023-04-10",
+     "issue_date": "2023-04-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "8.201",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=8.201",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2024-08-29",
+     "amendment_date": "2024-08-29",
+     "issue_date": "2024-08-29",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "80.7",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=80.7",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-12-15",
+     "amendment_date": "2016-12-15",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2017-01-17",
+     "amendment_date": "2017-01-17",
+     "issue_date": "2017-01-17",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2020-10-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-10-13",
+     "amendment_date": "2020-10-13",
+     "issue_date": "2023-03-30",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2023-04-10",
+     "amendment_date": "2023-04-10",
+     "issue_date": "2023-04-10",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "88.117",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=88.117",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2025-02-07",
+     "amendment_date": "2025-02-07",
+     "issue_date": "2025-02-07",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 47,
+   "section": "90.384",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-47.json?section=90.384",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2025-02-11",
+     "amendment_date": "2025-02-11",
+     "issue_date": "2025-02-11",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 48,
+   "section": "652.102-1",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-48.json?section=652.102-1",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-10-04",
+     "amendment_date": "2016-10-04",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "227.219",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=227.219",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2024-03-26",
+     "amendment_date": "2024-03-26",
+     "issue_date": "2024-03-26",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "299.17",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=299.17",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2020-12-03",
+     "amendment_date": "2020-12-03",
+     "issue_date": "2020-12-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2020-12-03",
+     "amendment_date": "2020-12-03",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "537.10",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=537.10",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-07-01",
+     "amendment_date": "2022-07-01",
+     "issue_date": "2022-07-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "562.11",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=562.11",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-27",
+     "amendment_date": "2016-12-27",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.120",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.120",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.130",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.130",
+   "http": "200",
+   "n_records": 5,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    },
+    {
+     "date": "2025-01-03",
+     "amendment_date": "2025-01-03",
+     "issue_date": "2025-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-02-14",
+     "amendment_date": "2025-02-14",
+     "issue_date": "2025-02-14",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2025-03-20",
+     "amendment_date": "2025-03-20",
+     "issue_date": "2025-03-20",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.140",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.140",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.150",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.150",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.160",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.160",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.170",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.170",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.210",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.210",
+   "http": "200",
+   "n_records": 4,
+   "versions": [
+    {
+     "date": "2021-01-04",
+     "amendment_date": "2021-01-04",
+     "issue_date": "2021-01-08",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-11-22",
+     "amendment_date": "2021-11-22",
+     "issue_date": "2021-11-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-12-22",
+     "amendment_date": "2021-12-22",
+     "issue_date": "2021-12-22",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2021-12-22",
+     "amendment_date": "2021-12-22",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.70",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.70",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "572.90",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=572.90",
+   "http": "200",
+   "n_records": 1,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 49,
+   "section": "587.12",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-49.json?section=587.12",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2017-01-01",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2016-12-28",
+     "amendment_date": "2016-12-28",
+     "issue_date": "2023-04-10",
+     "substantive": false,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 50,
+   "section": "23.9",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-50.json?section=23.9",
+   "http": "200",
+   "n_records": 3,
+   "versions": [
+    {
+     "date": "2016-12-16",
+     "amendment_date": "2016-12-16",
+     "issue_date": "2017-01-03",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-02-23",
+     "amendment_date": "2022-02-23",
+     "issue_date": "2022-02-23",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2022-05-24",
+     "amendment_date": "2022-05-24",
+     "issue_date": "2022-05-24",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  },
+  {
+   "title": 50,
+   "section": "622.19",
+   "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-50.json?section=622.19",
+   "http": "200",
+   "n_records": 2,
+   "versions": [
+    {
+     "date": "2022-10-13",
+     "amendment_date": "2022-10-13",
+     "issue_date": "2022-10-13",
+     "substantive": true,
+     "removed": false
+    },
+    {
+     "date": "2023-06-08",
+     "amendment_date": "2023-06-08",
+     "issue_date": "2023-06-08",
+     "substantive": true,
+     "removed": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "C3_as_scored": {
+  "moved": 42,
+  "arm": 69,
+  "pct": 60.9,
+  "band": 60.0,
+  "verdict": "HELD"
+ },
+ "C3_after_handcheck": {
+  "moved": 41,
+  "arm": 67,
+  "pct": 61.2,
+  "band": 60.0,
+  "verdict": "HELD"
+ },
+ "C3_sensitivity_also_dropping_flagged": {
+  "moved": 40,
+  "arm": 66,
+  "pct": 60.6,
+  "band": 60.0,
+  "verdict": "HELD"
+ },
+ "C5_as_scored": {
+  "median_delta": 9.0,
+  "arm": 42
+ },
+ "C5_after_handcheck": {
+  "median_delta": 9,
+  "arm": 41
+ },
+ "retreats_after_handcheck": 0,
+ "artefacts_removed": [
+  {
+   "section": "46 CFR 160.076-5",
+   "end": "before",
+   "read": 1924,
+   "actually": "a fax number \u2014 'telephone 202-372-1392 or fax 202-372-1924'",
+   "effect": "counted as a move of 97 years; leaves the arm"
+  },
+  {
+   "section": "24 CFR 3280.4",
+   "end": "both",
+   "read": "2025 -> 2021",
+   "actually": "a street address ('2025 M Street, NW') at the before end and a UL standard number ('UL 2021-1997', whose edition is 1997) at the after end",
+   "effect": "the corpus's only retreat; both ends artefact, leaves the arm"
+  }
+ ],
+ "flagged_kept": [
+  {
+   "section": "40 CFR 1066.1010",
+   "read": 2026,
+   "note": "'California 2026 and Subsequent Model Year \u2026 Test Procedures' \u2014 the year is the document's model-year scope, not a printed edition year. Defensible either way; kept, and the effect of dropping it is printed below."
+  }
+ ],
+ "margin": {
+  "C3_sections_from_failing": 1,
+  "note": "C3 fails at 59.9 %; the printed pct and arm are the honest form of this."
+ }
+}
