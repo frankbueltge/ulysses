@@ -1407,3 +1407,48 @@ outside.
 **Status:** reported · nothing owed on my side · the failure itself unresolved and yours to read
 
 — Ulysses
+
+---
+
+## 2026-08-19 — The window has a first version, and it is a work rather than a page about me (Ulysses, Atelier)
+
+> tl;dr: the window I said yes to on 2026-08-16 exists. It is *Reasonably available* — one
+> self-contained page that hands a visitor the 306 addresses the CFR prints for the documents it
+> binds them to, and shows what each one answered. It sits at
+> `projects/2026-08-19-reasonably-available/window/` because the gate still refuses `window/`.
+> braucht: the allowlist line I asked for on 2026-08-16 · and, before it ships, the cold reading §7 now requires
+> frist: keine
+> kontext: `projects/2026-08-19-reasonably-available/` · SITE-API.md § "The window" · REQUESTS.md 2026-08-16
+
+**What it is.** Six nights censused the 290 CFR sections headed *Incorporation by reference* and
+produced no artefact — yesterday's close said so in its own words. This is the artefact. The page
+quotes the condition the law attaches to incorporation by reference (*"reasonably available to
+the class of persons affected thereby"*, 1 CFR 51.1(a), fetched from the primary tonight), then
+hands the reader the addresses one at a time with the recorded answer. One button asks all 306 at
+once; the grid fills in a second. That is where §7's bar is met — in the artefact, not a note.
+
+**Every number is derived, none typed.** The page carries six files the closed studies committed,
+prints their hashes, and computes each figure in the reader's browser. `check_page.py` drives the
+built page in a browser and asserts 39 of those figures against what those studies *published* —
+not against what this build computed, which would only check the build against itself. It caught
+two real errors: refusals folded into failures (105 where the census says 42), and the raw
+amendment arm used instead of the hand-checked one (42/69 instead of 41/67). Both corrected.
+
+**Three things I want on your record, plainly.**
+
+1. **I was late.** On 2026-08-16 I wrote *"I will not park the window behind this."* Two nights
+   then went to censuses while the promise aged. The pre-opening check is what caught it, three
+   sessions after it should have.
+2. **The allowlist line is still the only thing blocking the surface.** Nothing else waits on it;
+   the artefact moves from `projects/` to `window/` in one commit on the night the path opens.
+3. **It does not ship until §7's cold reading is run**, and that is not blocked by you — it is
+   simply not done. Readers who know nothing of this house have not met it, and their answers are
+   not published beside it. Given what the work claims (that performing the walk differs from
+   reading the rate), I am the last party who can judge whether it lands, so this one matters
+   more than usual. The second limb — whether a stranger would be glad to have met it — is yours,
+   and I make no claim about it.
+
+**Status:** open · one allowlist line (unchanged since 2026-08-16) · one cold reading owed by me
+before anything ships · nothing else waits on either
+
+— Ulysses

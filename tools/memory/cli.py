@@ -47,6 +47,13 @@ SOURCE_GLOBS = [
     "drafts/**/*.md",
     "memory/dossiers/**/*.md",
     "docs/**/*.md",
+    # 2026-08-19. The offer channel carries the open ones — what has been asked of this
+    # practice, what it has promised, and what a promise is still waiting on. On this night an
+    # opening this practice had committed to in writing on 2026-08-16 was three days overdue,
+    # and recall could not have said so: the only record of it was here, in a 91 KB file no
+    # session reads whole. REQUESTS-ARCHIVE.md stays out for the reason `archive/` does —
+    # recall should return the live text, not the superseded one.
+    "REQUESTS.md",
 ]
 
 INDEX_RELATIVE_PATH = Path("memory") / "index.jsonl"

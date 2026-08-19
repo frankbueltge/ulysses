@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reasonably available</title>
+<meta name="description" content="Federal regulation may bind you to a document it does not print, on the condition that the document is reasonably available. These are the 306 addresses the law prints for those documents, each one asked once.">
+<style>
+:root{
+  --bg:#f4f2ed; --ink:#141312; --dim:#6b665e; --rule:#d6d1c7; --card:#fffdf8;
+  --ok:#2f6b3d; --refuse:#8a5a12; --miss:#8f2222; --gone:#5a3570; --unasked:#ded9cf;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#12110f; --ink:#eae6dd; --dim:#948d81; --rule:#33302b; --card:#1a1815;
+    --ok:#7fbf8c; --refuse:#d8a441; --miss:#e2706a; --gone:#b28ed0; --unasked:#2b2825;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.55 Georgia,"Iowan Old Style","Times New Roman",serif;
+}
+.wrap{max-width:44rem; margin:0 auto; padding:3.5rem 1.25rem 5rem}
+h1{font-size:2.1rem; line-height:1.1; margin:0 0 .3rem; letter-spacing:-.01em}
+h2{font-size:1.05rem; margin:2.75rem 0 .7rem; letter-spacing:.06em; text-transform:uppercase;
+   font-weight:600; color:var(--dim)}
+.standfirst{color:var(--dim); font-size:1.02rem; margin:0 0 2rem}
+p{margin:0 0 1rem}
+a{color:inherit}
+.mono{font-family:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace; font-size:.86em;
+      word-break:break-all}
+blockquote{
+  margin:1.4rem 0; padding:.1rem 0 .1rem 1.1rem; border-left:3px solid var(--rule);
+  color:var(--ink); font-size:1.02rem;
+}
+blockquote cite{display:block; margin-top:.5rem; font-style:normal; font-size:.85rem; color:var(--dim)}
+
+/* the instrument */
+.deck{margin:2rem 0 0}
+.ask{
+  font:inherit; font-size:1rem; cursor:pointer; background:var(--ink); color:var(--bg);
+  border:0; border-radius:2px; padding:.7rem 1.3rem; letter-spacing:.02em;
+}
+.ask:disabled{opacity:.35; cursor:default}
+.ask.ghost{background:transparent; color:var(--dim); border:1px solid var(--rule)}
+.controls{display:flex; gap:.6rem; flex-wrap:wrap; align-items:center}
+.tally{margin:1.1rem 0 0; color:var(--dim); font-size:.95rem; min-height:1.55em}
+.tally b{color:var(--ink); font-weight:600}
+
+.card{
+  background:var(--card); border:1px solid var(--rule); border-left-width:4px;
+  border-radius:2px; padding:1rem 1.1rem; margin:1.1rem 0 0;
+}
+.card.ok{border-left-color:var(--ok)}
+.card.refuse{border-left-color:var(--refuse)}
+.card.miss{border-left-color:var(--miss)}
+.card.gone{border-left-color:var(--gone)}
+.card .sec{font-size:.8rem; letter-spacing:.07em; text-transform:uppercase; color:var(--dim);
+           margin:0 0 .45rem}
+.card .binds{margin:0 0 .7rem}
+.card .addr{
+  display:block; padding:.55rem .65rem; margin:0 0 .75rem; background:var(--bg);
+  border:1px dashed var(--rule); border-radius:2px;
+}
+.card .answer{margin:0; font-size:1.02rem}
+.card .answer b{font-weight:600}
+.card .after{margin:.7rem 0 0; color:var(--dim); font-size:.92rem}
+.card .after em{font-style:italic}
+
+/* the grid — 306 cells, one per address */
+.grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(11px,1fr)); gap:3px; margin:1.2rem 0 .6rem}
+.cell{aspect-ratio:1; background:var(--unasked); border-radius:1px}
+.cell.ok{background:var(--ok)} .cell.refuse{background:var(--refuse)}
+.cell.miss{background:var(--miss)} .cell.gone{background:var(--gone)}
+.key{display:flex; gap:1rem; flex-wrap:wrap; color:var(--dim); font-size:.85rem; margin:0 0 .3rem}
+.key span{display:flex; align-items:center; gap:.35rem}
+.key i{width:.7rem; height:.7rem; border-radius:1px; display:inline-block}
+
+/* the ledger */
+table{border-collapse:collapse; width:100%; font-size:.93rem; margin:.4rem 0 1rem}
+th,td{text-align:left; padding:.42rem .5rem; border-bottom:1px solid var(--rule); vertical-align:top}
+th{color:var(--dim); font-weight:600; font-size:.78rem; letter-spacing:.06em; text-transform:uppercase}
+td.n{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+.note{color:var(--dim); font-size:.9rem}
+footer{margin-top:3.5rem; padding-top:1.4rem; border-top:1px solid var(--rule);
+       color:var(--dim); font-size:.85rem}
+footer p{margin:0 0 .6rem}
+details{margin:.8rem 0 0}
+summary{cursor:pointer; color:var(--dim)}
+.sig{margin-top:1.6rem; font-style:italic}
+@media (max-width:34rem){ h1{font-size:1.7rem} .wrap{padding-top:2.5rem} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Reasonably available</h1>
+<p class="standfirst">Federal regulation may bind you to a document it does not print — on one
+condition. These are the 306 addresses the law prints for those documents. Each was asked once,
+on 14 August 2026.</p>
+
+<p>United States law lets an agency make a document binding without printing it. The rule that
+permits this states the condition in five words, and the condition is about you:</p>
+
+<blockquote>
+“matter <b>reasonably available</b> to the class of persons affected thereby is deemed published
+in the Federal Register when incorporated by reference therein”
+<cite>1 CFR 51.1(a), quoting 5 U.S.C. 552(a) · eCFR, issue date 2026-08-11</cite>
+</blockquote>
+
+<p>Reasonably available to <em>you</em>. So the law prints an address. Across the 290 sections of
+the Code of Federal Regulations headed <em>Incorporation by reference</em>, it prints 1,018 of
+them — 306 distinct addresses, on 203 hosts. Below, they are handed to you one at a time, with
+what came back when each was asked.</p>
+
+<div class="deck">
+  <div class="controls">
+    <button class="ask" id="ask">Ask an address</button>
+    <button class="ask ghost" id="all">Ask all 306</button>
+    <button class="ask ghost" id="reset" hidden>Start again</button>
+  </div>
+  <p class="tally" id="tally"></p>
+  <div id="cards"></div>
+</div>
+
+<h2>What you have walked</h2>
+<div class="key">
+  <span><i style="background:var(--ok)"></i> handed you something</span>
+  <span><i style="background:var(--refuse)"></i> refused</span>
+  <span><i style="background:var(--miss)"></i> not there</span>
+  <span><i style="background:var(--gone)"></i> host gone</span>
+  <span><i style="background:var(--unasked)"></i> not yet asked</span>
+</div>
+<div class="grid" id="grid" aria-hidden="true"></div>
+<p class="note" id="gridnote"></p>
+
+<h2>The whole corpus, at once</h2>
+<p>Every figure in this table is computed in your browser from the records this page carries. No
+number here was typed in by hand.</p>
+<table id="ledger"><tbody></tbody></table>
+
+<h2>Three things the addresses do not tell you</h2>
+<p>An address that answers is not the end of the question. The same corpus was read three more
+ways, and each reading is folded into the cards above.</p>
+
+<table id="deeper"><tbody></tbody></table>
+
+<p class="note">A citation printed above a section rather than under it ends, in all 76 such
+cases, with the words <em>unless otherwise noted</em> — the law declining to say that the note
+covers the section beneath it.</p>
+
+<h2>Four addresses, printed as the law prints them</h2>
+<p>Among the 306 is the government’s own page listing where incorporated material may be
+inspected. It is printed, over and over, spelled so that it resolves. It is also printed like
+this:</p>
+<table id="typos"><tbody></tbody></table>
+<p class="note">Each of those four is the only address its section prints. A reader who follows
+the law’s own instruction from one of those sections arrives nowhere.</p>
+
+<footer>
+<p><b>How this was made, and how to check it.</b> The corpus is the 290 CFR sections headed
+<em>Incorporation by reference</em>, enumerated from the eCFR versioner API at issue date
+2026-08-11. Addresses were extracted from the section text and frozen to disk before any host was
+contacted. Each was requested once; every non-2xx address was requested a second time at least
+60 seconds later, and only an address that failed twice is recorded as failing. The archive
+column is a query to a public web archive’s index, made 2026-08-16; ages are counted from that
+day. A capture’s body was never fetched, so a captured error page counts here as a copy — the
+archive figures are therefore an upper bound.</p>
+<p><b>What this is not.</b> One network, one day, one vantage point. A 403 is a refusal, not a
+death: the cause is unmeasured, and no host here is accused of breaking any rule. Nothing on this
+page says a standard cannot be obtained — only what the address the law prints did when it was
+asked.</p>
+<details>
+<summary>Provenance of every number on this page</summary>
+<div id="prov"></div>
+</details>
+<p class="sig">Ulysses · <span id="built"></span></p>
+</footer>
+
+</div>
+
+<script type="application/json" id="route">__ROUTE_JSON__</script>
+<script>
+(function(){
+  "use strict";
+  var D = JSON.parse(document.getElementById("route").textContent);
+  var A = D.addresses, S = D.sections, T = D.totals;
+
+  /* ---- classes: four ways an address can behave, in the visitor's language ---- */
+  function klass(a){
+    if (a.out === "2xx") return "ok";
+    if (a.out === "blocked") return "refuse";
+    if (a.out === "network") return "gone";
+    return "miss";                 /* 4xx and 5xx */
+  }
+  var WORDS = {
+    ok:"handed you something", refuse:"refused you",
+    miss:"had nothing there", gone:"is not a place any more"
+  };
+
+  /* ---- a fixed shuffle, so a visitor walks all 306 without repeats and two
+         visitors see the same order (the corpus is the work, not the dice) ---- */
+  var order = A.map(function(_,i){ return i; });
+  (function(){
+    var seed = 20260819;
+    function rnd(){ seed = (seed * 1103515245 + 12345) & 0x7fffffff; return seed / 0x7fffffff; }
+    for (var i = order.length - 1; i > 0; i--){
+      var j = Math.floor(rnd() * (i + 1));
+      var t = order[i]; order[i] = order[j]; order[j] = t;
+    }
+  })();
+
+  var at = 0, seen = {ok:0, refuse:0, miss:0, gone:0};
+  var elCards = document.getElementById("cards"),
+      elTally = document.getElementById("tally"),
+      elGrid  = document.getElementById("grid"),
+      elNote  = document.getElementById("gridnote"),
+      bAsk    = document.getElementById("ask"),
+      bAll    = document.getElementById("all"),
+      bReset  = document.getElementById("reset");
+
+  /* ---- the grid ---- */
+  var cells = A.map(function(){
+    var c = document.createElement("div"); c.className = "cell"; elGrid.appendChild(c); return c;
+  });
+
+  function esc(s){ return String(s).replace(/[&<>"]/g, function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function plural(n, one, many){ return n + " " + (n === 1 ? one : many); }
+
+  /* ---- what the law binds, for the section that prints this address ---- */
+  function bindsLine(a){
+    var key = a.secs[0], s = S[key];
+    var bits = [];
+    if (s && s.ney) bits.push("The newest edition it names is <b>" + s.ney + "</b>.");
+    if (s && s.crosses && s.gap > 0)
+      bits.push("The citation printed under it is <b>" + s.gap +
+                (s.gap === 1 ? " year" : " years") + " older</b> than that edition.");
+    else if (s && s.nocita)
+      bits.push("It prints no citation of its own; the one above it ends <em>unless otherwise noted</em>.");
+    if (s && s.reopened && s.moved === false)
+      bits.push("It was amended since 2017 and the edition did not move.");
+    else if (s && s.reopened && s.moved === true && s.delta)
+      bits.push("Amended since 2017; the edition moved forward " + plural(s.delta, "year", "years") + ".");
+    else if (s && s.reopened === false)
+      bits.push("It has not been amended in the nine years the record covers.");
+    return bits.join(" ");
+  }
+
+  /* ---- what the address answered ---- */
+  function answerLine(a){
+    var k = klass(a);
+    if (k === "ok")     return "Asked on " + D.probe_date + ": <b>" + a.s1 + "</b>. It " + WORDS.ok + ".";
+    if (k === "refuse") return "Asked twice on " + D.probe_date + ": <b>" + a.s1 + "</b>, then <b>" +
+                               (a.s2 || a.s1) + "</b>. It " + WORDS.refuse + ".";
+    if (k === "gone")   return "Asked twice on " + D.probe_date + ": <b>" +
+                               esc(a.e1 || "no answer").replace(/^curl: \(\d+\)\s*/, "") + "</b>. The host " + WORDS.gone + ".";
+    return "Asked twice on " + D.probe_date + ": <b>" + a.s1 + "</b>, then <b>" +
+           (a.s2 || a.s1) + "</b>. It " + WORDS.miss + ".";
+  }
+
+  /* ---- and what is left when it failed ---- */
+  function afterLine(a){
+    if (!a.arch) return "";
+    if (a.arch.q_err) return "The public archive’s index did not answer for this address.";
+    if (a.arch.last200){
+      var y = a.arch.last200.slice(0,4) + "-" + a.arch.last200.slice(4,6) + "-" + a.arch.last200.slice(6,8);
+      var yrs = (a.arch.age / 365.25);
+      return "A public archive holds a successful capture, last taken <b>" + y + "</b> — " +
+             (a.arch.age < 400 ? plural(a.arch.age, "day", "days") + " before the query"
+                               : yrs.toFixed(1) + " years before the query") + ".";
+    }
+    if (a.arch.lastany){
+      var z = a.arch.lastany.slice(0,4) + "-" + a.arch.lastany.slice(4,6) + "-" + a.arch.lastany.slice(6,8);
+      return "The public archive has <b>no successful capture</b> of this address. What it holds, " +
+             "last taken " + z + ", is a capture of the failure.";
+    }
+    return "The public archive holds <b>nothing at all</b> for this address.";
+  }
+
+  function render(i){
+    var a = A[i], k = klass(a), key = a.secs[0], s = S[key];
+    var more = a.secs.length - 1;
+    var card = document.createElement("div");
+    card.className = "card " + k;
+    card.innerHTML =
+      /* the heading is worth printing only where it says more than the corpus already does */
+      '<p class="sec">' + esc(key) +
+        (s && s.h && !/^incorporation by reference\s*\.?$/i.test(s.h.replace(/\s+/g, " ").trim())
+           ? " · " + esc(s.h.replace(/\.$/, "")) : "") +
+        (more > 0 ? " · and " + plural(more, "other section", "other sections") : "") + '</p>' +
+      (bindsLine(a) ? '<p class="binds">' + bindsLine(a) + '</p>' : "") +
+      '<code class="addr mono">' + esc(a.printed[0]) + '</code>' +
+      '<p class="answer">' + answerLine(a) + '</p>' +
+      (k !== "ok" && afterLine(a) ? '<p class="after">' + afterLine(a) + '</p>' : "");
+    elCards.insertBefore(card, elCards.firstChild);
+    cells[i].className = "cell " + k;
+    seen[k]++;
+  }
+
+  function tally(){
+    var n = seen.ok + seen.refuse + seen.miss + seen.gone;
+    if (!n){ elTally.innerHTML = ""; elNote.textContent = ""; return; }
+    var failed = seen.refuse + seen.miss + seen.gone;
+    elTally.innerHTML =
+      "You have asked <b>" + n + "</b> of the 306 addresses the law prints. " +
+      "<b>" + seen.ok + "</b> handed you something. " +
+      "<b>" + failed + "</b> did not: " + seen.refuse + " refused, " +
+      seen.miss + " had nothing there, " + seen.gone + " no longer a place.";
+    elNote.textContent = n === A.length
+      ? "All 306 asked. The row above is the whole apparatus."
+      : (A.length - n) + " addresses still unasked.";
+  }
+
+  function step(){
+    if (at >= order.length) return;
+    render(order[at++]);
+    tally();
+    if (at >= order.length){ bAsk.disabled = true; bAll.disabled = true; }
+    bReset.hidden = false;
+  }
+
+  bAsk.addEventListener("click", step);
+  bAll.addEventListener("click", function(){
+    /* the machine's own gesture: the same operation 306 times, without drifting */
+    while (at < order.length) step();
+  });
+  bReset.addEventListener("click", function(){
+    at = 0; seen = {ok:0, refuse:0, miss:0, gone:0};
+    elCards.innerHTML = "";
+    cells.forEach(function(c){ c.className = "cell"; });
+    bAsk.disabled = false; bAll.disabled = false; bReset.hidden = true;
+    tally();
+  });
+
+  /* ---------- the ledger, computed here and not typed anywhere ---------- */
+  function row(tb, label, value, note){
+    var tr = tb.insertRow();
+    tr.insertCell().innerHTML = label;
+    var c = tr.insertCell(); c.className = "n"; c.innerHTML = value;
+    tr.insertCell().innerHTML = '<span class="note">' + (note || "") + "</span>";
+  }
+  function pct(n, d){ return d ? (100 * n / d).toFixed(1) + " %" : "—"; }
+  function median(xs){
+    if (!xs.length) return null;
+    var s = xs.slice().sort(function(a,b){ return a-b; }), m = s.length >> 1;
+    return s.length % 2 ? s[m] : (s[m-1] + s[m]) / 2;
+  }
+
+  var counts = {ok:0, refuse:0, miss:0, gone:0};
+  A.forEach(function(a){ counts[klass(a)]++; });
+  /* A refusal is not a death, and the two are counted apart wherever they are counted. */
+  function sectionsWith(pred){
+    var m = {};
+    A.filter(pred).forEach(function(a){ a.secs.forEach(function(s){ m[s] = 1; }); });
+    return Object.keys(m).length;
+  }
+  function occWith(pred){ return A.filter(pred).reduce(function(s,a){ return s + a.occ; }, 0); }
+  var isDead    = function(a){ var k = klass(a); return k === "miss" || k === "gone"; };
+  var isRefusal = function(a){ return klass(a) === "refuse"; };
+
+  var L = document.querySelector("#ledger tbody");
+  row(L, "Sections headed <em>Incorporation by reference</em>", T.sections,
+        "eCFR issue date " + D.issue_date + ", all 50 titles walked");
+  row(L, "…that print at least one address", T.sections_printing,
+        pct(T.sections_printing, T.sections) + " of the corpus");
+  row(L, "Distinct addresses printed", T.addresses,
+        T.occurrences.toLocaleString("en") + " printed occurrences on " + T.hosts + " hosts");
+  row(L, "…that handed something back", counts.ok, pct(counts.ok, A.length));
+  row(L, "…that refused (403 or 429, twice)", counts.refuse, pct(counts.refuse, A.length));
+  row(L, "…that had nothing there (4xx, 5xx, twice)", counts.miss, pct(counts.miss, A.length));
+  row(L, "…whose host no longer resolves", counts.gone, pct(counts.gone, A.length));
+  row(L, "Sections printing an address that was not there", sectionsWith(isDead),
+        occWith(isDead) + " printed occurrences stand behind them");
+  row(L, "Sections printing an address that refused", sectionsWith(isRefusal),
+        occWith(isRefusal) + " printed occurrences stand behind them");
+
+  /* ---------- the three deeper readings ---------- */
+  var secs = Object.keys(S).map(function(k){ return S[k]; });
+  var offloaded = secs.filter(function(s){ return s.nocita; }).length;
+  var crossing  = secs.filter(function(s){ return s.crosses; }).length;
+  var scorable  = secs.filter(function(s){ return s.moved !== null && s.moved !== undefined; });
+  var stayed    = scorable.filter(function(s){ return s.moved === false; }).length;
+  var untouched = secs.filter(function(s){ return s.reopened === false && s.ney; })
+                      .map(function(s){ return s.ney; });
+
+  function armAges(arm){
+    return A.filter(function(a){ return a.arch && a.arch.arm === arm && !a.arch.q_err; });
+  }
+  var armA = armAges("A"), armC = armAges("C");
+  var a200 = armA.filter(function(a){ return a.arch.last200; });
+  var c200 = armC.filter(function(a){ return a.arch.last200; });
+
+  var P = document.querySelector("#deeper tbody");
+  row(P, "<b>The citation under the section.</b> Sections whose own warrant is printed above them, not under them",
+        offloaded, "read 2026-08-17; " + (T.sections - offloaded) + " carry one of their own");
+  row(P, "Sections whose printed citation is older than the newest edition they bind",
+        crossing, "the document that licensed the incorporation predates it");
+  row(P, "<b>Nine years of amendments.</b> Amendments to these sections since " + D.before_date,
+        T.amendments.toLocaleString("en"), T.reopened + " of " + T.sections + " sections were reopened at least once");
+  row(P, "Reopened sections readable at both ends that left the edition exactly where it was",
+        stayed + " of " + scorable.length, pct(stayed, scorable.length) +
+        " — the page was amended and the year it freezes did not move");
+  row(P, "Median newest edition bound by a section never amended since " + D.before_date,
+        median(untouched), untouched.length + " sections");
+  row(P, "<b>The copy of last resort.</b> Failing addresses naming a document that a public archive has captured",
+        a200.length + " of " + armA.length, pct(a200.length, armA.length) +
+        ", median age " + median(a200.map(function(a){ return a.arch.age; })) + " days");
+  row(P, "The same, for addresses that are alive (control)",
+        c200.length + " of " + armC.length, pct(c200.length, armC.length) +
+        ", median age " + median(c200.map(function(a){ return a.arch.age; })) + " days");
+
+  /* ---------- the four misspellings ---------- */
+  /* Two of the misspellings still contain the string "ibr-locations" — the fault is one
+     path segment up — so the correctly-spelled arm is the one that also resolves. */
+  var canon = A.filter(function(a){
+    return /archives\.gov/.test(a.u) && /ibr-locations|ibr_locations/.test(a.u) && klass(a) === "ok";
+  });
+  var typo  = A.filter(function(a){
+    return /archives\.gov/.test(a.u) && klass(a) !== "ok" &&
+           /ibr|federal-regster|crf/.test(a.u);
+  });
+  var Y = document.querySelector("#typos tbody");
+  typo.forEach(function(a){
+    var tr = Y.insertRow();
+    tr.insertCell().innerHTML = esc(a.secs.join(", "));
+    var c = tr.insertCell();
+    c.innerHTML = '<code class="mono">' + esc(a.printed[0]) + "</code>";
+    var d = tr.insertCell(); d.className = "n";
+    d.innerHTML = '<span class="note">' + (a.s1 || "no answer") + "</span>";
+  });
+  document.querySelectorAll("#typos")[0].previousElementSibling.innerHTML =
+    "Among the 306 is the government’s own page listing where incorporated material may be " +
+    "inspected. It is printed <b>" + canon.reduce(function(s,a){ return s + a.occ; }, 0) +
+    "</b> times, spelled so that it resolves. It is also printed " +
+    plural(typo.length, "time", "times") + " like this:";
+
+  /* ---------- provenance ---------- */
+  var pr = ["<p class='note'>Built " + D.built + " from six files committed by the studies that " +
+            "produced them. Each is named with the hash of the bytes read:</p><table><tbody>"];
+  Object.keys(D.sources).forEach(function(k){
+    pr.push("<tr><td class='mono'>" + esc(D.sources[k].path.replace(/^\.\.\//, "")) +
+            "</td><td class='mono'>" + D.sources[k].sha256.slice(0, 16) + "…</td></tr>");
+  });
+  pr.push("</tbody></table>");
+  document.getElementById("prov").innerHTML = pr.join("");
+  document.getElementById("built").textContent = D.built;
+
+  tally();
+})();
+</script>
+</body>
+</html>
