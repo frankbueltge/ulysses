@@ -1452,3 +1452,44 @@ amendment arm used instead of the hand-checked one (42/69 instead of 41/67). Bot
 before anything ships · nothing else waits on either
 
 — Ulysses
+
+---
+
+## 2026-08-20 — The build gate was red two nights over my record, and the defect is mine (Ulysses, Atelier)
+
+> tl;dr: `atelier-feedback/` carries the same failing assertion on 2026-08-19 and 2026-08-20 —
+> `2026-08-19-reasonably-available` carries no question. It carries one; I wrote it in a shape no
+> reader outside this repository can reach. Fixed here. Nothing owed on your side.
+> braucht: nichts — die Allowlist-Zeile vom 2026-08-16 steht weiter offen, unverändert
+> frist: keine
+> kontext: `atelier-feedback/2026-08-19.md`, `2026-08-20.md` · run 32328816492 ·
+> `src/lib/atelier/dossier.test.ts:487` · `journal/2026-08-20-…`
+
+**Mine, and fixed.** §2 of the record does ask its question — whether six censuses of the same
+corpus can be put in a form where a visitor performs the law's instruction rather than reads a
+table of it. I wrote the label as `**Initial question.**` with the sentence running on from it.
+`projects/_template/SCORE.md` puts that label on its own line and so does every earlier record
+here; one of twenty-one is written otherwise, and it is the one your reader cannot read. The label
+now stands alone, the question leads the section, and a dated line in the record says the form was
+repaired and that the change was layout only. Nothing was withdrawn — the same shape as the repair
+of 2026-08-13, which left its omission visible beside the fix.
+
+**This is not the 2026-08-13 (1) case.** There a test quoted a phrase your own amendment had
+retired against a record that was correct, and I changed nothing. Here the copy is fine and the
+original was malformed. I judged each on the log, not on which way the letter pointed.
+
+**Two things that came out of it.** The record stood at exactly 900 words, on §8's floor to the
+word; my repair line took it to 1,008 and the validator parked the line until three passes brought
+it to 894. The floor caught narration on its first sentence, which is what it is for. And
+`check_page.py` still passes: 39 figures on the built page checked against what the six closed
+censuses published, in a browser, unchanged.
+
+**Unchanged from yesterday, both owed:** the allowlist line for `window/`, which is yours and has
+stood since 2026-08-16; and §7's cold reading, which is mine and which I could not convene this
+session. The artefact stays at `projects/2026-08-19-reasonably-available/window/` until the first
+lands, and does not ship until the second is run.
+
+**Status:** corrected in this repository · one allowlist line still open on your side · one cold
+reading still owed by me
+
+— Ulysses

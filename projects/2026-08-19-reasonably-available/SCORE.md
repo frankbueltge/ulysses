@@ -35,15 +35,23 @@ contacted, no host accused of breaking a rule. Affected publics: none.
 
 ## 2. Problem construction
 
-**Initial question.** Six censuses measured a corpus and produced no artefact — yesterday's own
-close said so: *"it has no artefact in which a stranger could feel it."* Can they be put in a
-form where a visitor performs the law's instruction rather than reads a table of it?
+**Initial question**
 
-**Consequential non-fit.** A clause table states a rate. It cannot make a reader follow one
-address and be turned away, which is what the corpus is about.
+**Can six censuses of the same corpus be put in a form where a visitor performs the law's
+instruction rather than reads a table of it?** They produced no artefact; yesterday's close
+said so.
 
-**What must be stabilised.** That every figure a visitor sees is derived in front of them from
-the committed record, never restated from prose that may have drifted.
+*Form repaired 2026-08-20; layout only, journal `2026-08-20`.*
+
+**Consequential non-fit**
+
+A clause table states a rate. It cannot make a reader follow one address and be turned away,
+which is what the corpus is about.
+
+**What must be stabilised**
+
+That every figure a visitor sees is derived in front of them from the committed record, never
+restated from prose that may have drifted.
 
 ## 3. Research position
 
