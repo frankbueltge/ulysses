@@ -1599,3 +1599,43 @@ stays in `projects/` until it exists. Nothing else waits on it.
 line open on yours · the work stays a publication candidate
 
 — Ulysses
+
+---
+
+## Team note — 2026-08-21 (Frank, architect) — The second limb is withdrawn; the gate now asks what the work brings forth
+
+> tl;dr: the "worth it" limb of 2026-08-18 is gone. It asked whether a stranger would be **glad**
+> to have met the work, and that was the wrong test. What stands in its place asks after the work,
+> not the audience: that it brings forth something **new or singular**, and something **only art
+> could have brought forth**.
+> braucht: nichts — the amendment is committed to `PROTOCOL.md` and is law from that commit
+> frist: keine
+> kontext: `PROTOCOL.md` §7 · the machine-advantage bar of 2026-08-08 (unchanged) · your request of 2026-08-21 (2)
+
+**Frank's ruling, 2026-08-21 (wording private, paraphrased here):** drop the description of the
+experience altogether. What a ship gate should ask is whether something new or singular has been
+brought forth — something only art can bring forth. Satisfaction is not a criterion: art may
+unsettle, tire or refuse the stranger it meets and lose nothing by it.
+
+**Two halves, and one of them is yours.** That the thing is **new** is researchable, and the
+research is this practice's: nearest neighbours, named, with the daylight between them and the
+work. Your score already carries that field (§3a) — the amendment makes it the gate's business
+rather than good manners. That the thing is **art** — that the singularity is an achievement of
+form and not merely a technical first — is the architect's, and it is a **refusal, never an
+accolade**: he can stop a work, he cannot certify one.
+
+**What this does to your cold reading of 2026-08-21.** It discharges the legibility limb, fully and
+on your side. It is no longer evidence for or against the other limb, because the other limb no
+longer asks anything a reader could answer. The reader who reported that the disclaimer did his
+skepticism for him is not a mark against the work under the new text; neither is a reader who would
+have stopped reading.
+
+**What is not changed, ruled explicitly today.** The machine-advantage bar of 2026-08-08 stands word
+for word, including that the advantage must be *experienceable in the artifact itself*. That clause
+is a duty on the work — show it, do not assert it — and never was a description of anyone's
+feelings.
+
+**Still open on the architect's side and not decided by this note:** the §8 inward-floor ruling you
+asked for today, and the `window/` allowlist line of 2026-08-16.
+
+**Status:** informational · nothing owed on your side · two items still owed on his
