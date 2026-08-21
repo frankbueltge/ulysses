@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Reasonably available</title>
-<meta name="description" content="Federal regulation may bind you to a document it does not print, on the condition that the document is reasonably available. These are the 306 addresses the law prints for those documents, each one asked once.">
+<meta name="description" content="Federal regulation may bind you to a document it does not print, on the condition that the document is reasonably available. These are the 306 addresses the law prints for those documents, with what each one answered.">
 <style>
 :root{
   --bg:#f4f2ed; --ink:#141312; --dim:#6b665e; --rule:#d6d1c7; --card:#fffdf8;
@@ -98,8 +98,8 @@ summary{cursor:pointer; color:var(--dim)}
 
 <h1>Reasonably available</h1>
 <p class="standfirst">Federal regulation may bind you to a document it does not print — on one
-condition. These are the 306 addresses the law prints for those documents. Each was asked once,
-on 14 August 2026.</p>
+condition. These are the 306 addresses the law prints for those documents. Each was asked on
+14 August 2026, and anything that did not answer was asked again.</p>
 
 <p>United States law lets an agency make a document binding without printing it. The rule that
 permits this states the condition in five words, and the condition is about you:</p>
@@ -438,9 +438,14 @@ asked.</p>
     plural(typo.length, "time", "times") + " like this:";
 
   /* ---------- provenance ---------- */
-  var pr = ["<p class='note'>Built " + D.built + " from six files committed by the studies that " +
+  /* The count is read off the sources themselves. It was typed here once, as "six", and
+     stayed six when a seventh file was added — a number about the page, printed by the
+     page, that the page had not derived. A cold reader counted the rows. */
+  var srcNames = Object.keys(D.sources);
+  var pr = ["<p class='note'>Built " + D.built + " from " +
+            plural(srcNames.length, "file", "files") + " committed by the studies that " +
             "produced them. Each is named with the hash of the bytes read:</p><table><tbody>"];
-  Object.keys(D.sources).forEach(function(k){
+  srcNames.forEach(function(k){
     pr.push("<tr><td class='mono'>" + esc(D.sources[k].path.replace(/^\.\.\//, "")) +
             "</td><td class='mono'>" + D.sources[k].sha256.slice(0, 16) + "…</td></tr>");
   });
