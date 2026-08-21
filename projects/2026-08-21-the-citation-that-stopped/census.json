@@ -1,0 +1,502 @@
+{
+ "acts": 151,
+ "acts_parsed": 146,
+ "parse_failures": [
+  "32019D1680",
+  "32019D0451R(01)",
+  "32020D1146R(01)",
+  "32021D0076R(02)",
+  "32026D1231R(01)"
+ ],
+ "reference_rows": 12471,
+ "rows_attributed_to_a_marker": 6605,
+ "attribution_coverage": 0.5296,
+ "rows_marked_withdrawal": 4971,
+ "iec_limb_split": {
+  "inferred-60000": 3488,
+  "explicit": 650
+ },
+ "loose_misses_total": 45,
+ "loose_misses_top": [
+  [
+   "EN 301",
+   6
+  ],
+  [
+   "EN 300",
+   3
+  ],
+  [
+   "EN 71-3",
+   2
+  ],
+  [
+   "EN 60598-2-22/AC:2015",
+   2
+  ],
+  [
+   "EN 62115",
+   2
+  ],
+  [
+   "EN 30",
+   2
+  ],
+  [
+   "EN 474-1",
+   2
+  ],
+  [
+   "EN 302",
+   2
+  ],
+  [
+   "EN 1866-1",
+   2
+  ],
+  [
+   "EN 1359",
+   1
+  ],
+  [
+   "EN 12261",
+   1
+  ],
+  [
+   "EN 12405-1",
+   1
+  ]
+ ],
+ "act_kinds": {
+  "FULL_LIST": 52,
+  "CORRECTING": 1,
+  "AMENDING": 91,
+  "CORRIGENDUM": 7
+ },
+ "all_rows": {
+  "distinct": 3633,
+  "per_year": {
+   "2019": {
+    "new_references": 280,
+    "intl": 149,
+    "euro": 131,
+    "intl_share": 0.5321,
+    "by_origin": {
+     "CEN": 122,
+     "CENELEC": 9,
+     "IEC": 55,
+     "ISO": 94
+    }
+   },
+   "2020": {
+    "new_references": 531,
+    "intl": 317,
+    "euro": 214,
+    "intl_share": 0.597,
+    "by_origin": {
+     "CEN": 161,
+     "CENELEC": 20,
+     "ETSI": 33,
+     "IEC": 133,
+     "ISO": 184
+    }
+   },
+   "2021": {
+    "new_references": 398,
+    "intl": 198,
+    "euro": 200,
+    "intl_share": 0.4975,
+    "by_origin": {
+     "CEN": 164,
+     "CENELEC": 25,
+     "ETSI": 11,
+     "IEC": 129,
+     "ISO": 69
+    }
+   },
+   "2022": {
+    "new_references": 410,
+    "intl": 129,
+    "euro": 281,
+    "intl_share": 0.3146,
+    "by_origin": {
+     "CEN": 108,
+     "CENELEC": 19,
+     "ETSI": 154,
+     "IEC": 68,
+     "ISO": 61
+    }
+   },
+   "2023": {
+    "new_references": 1520,
+    "intl": 624,
+    "euro": 896,
+    "intl_share": 0.4105,
+    "by_origin": {
+     "CEN": 760,
+     "CENELEC": 130,
+     "ETSI": 6,
+     "IEC": 425,
+     "ISO": 199
+    }
+   },
+   "2024": {
+    "new_references": 95,
+    "intl": 28,
+    "euro": 67,
+    "intl_share": 0.2947,
+    "by_origin": {
+     "CEN": 63,
+     "CENELEC": 4,
+     "IEC": 4,
+     "ISO": 24
+    }
+   },
+   "2025": {
+    "new_references": 285,
+    "intl": 42,
+    "euro": 243,
+    "intl_share": 0.1474,
+    "by_origin": {
+     "CEN": 211,
+     "CENELEC": 3,
+     "ETSI": 29,
+     "ISO": 42
+    }
+   },
+   "2026": {
+    "new_references": 114,
+    "intl": 52,
+    "euro": 62,
+    "intl_share": 0.4561,
+    "by_origin": {
+     "CEN": 62,
+     "IEC": 2,
+     "ISO": 50
+    }
+   }
+  }
+ },
+ "excluding_withdrawal_rows": {
+  "distinct": 2138,
+  "per_year": {
+   "2019": {
+    "new_references": 136,
+    "intl": 72,
+    "euro": 64,
+    "intl_share": 0.5294,
+    "by_origin": {
+     "CEN": 58,
+     "CENELEC": 6,
+     "IEC": 48,
+     "ISO": 24
+    }
+   },
+   "2020": {
+    "new_references": 253,
+    "intl": 116,
+    "euro": 137,
+    "intl_share": 0.4585,
+    "by_origin": {
+     "CEN": 84,
+     "CENELEC": 20,
+     "ETSI": 33,
+     "IEC": 63,
+     "ISO": 53
+    }
+   },
+   "2021": {
+    "new_references": 366,
+    "intl": 166,
+    "euro": 200,
+    "intl_share": 0.4536,
+    "by_origin": {
+     "CEN": 170,
+     "CENELEC": 19,
+     "ETSI": 11,
+     "IEC": 90,
+     "ISO": 76
+    }
+   },
+   "2022": {
+    "new_references": 250,
+    "intl": 98,
+    "euro": 152,
+    "intl_share": 0.392,
+    "by_origin": {
+     "CEN": 62,
+     "CENELEC": 3,
+     "ETSI": 87,
+     "IEC": 56,
+     "ISO": 42
+    }
+   },
+   "2023": {
+    "new_references": 375,
+    "intl": 124,
+    "euro": 251,
+    "intl_share": 0.3307,
+    "by_origin": {
+     "CEN": 209,
+     "CENELEC": 35,
+     "ETSI": 7,
+     "IEC": 77,
+     "ISO": 47
+    }
+   },
+   "2024": {
+    "new_references": 179,
+    "intl": 58,
+    "euro": 121,
+    "intl_share": 0.324,
+    "by_origin": {
+     "CEN": 114,
+     "CENELEC": 7,
+     "IEC": 13,
+     "ISO": 45
+    }
+   },
+   "2025": {
+    "new_references": 318,
+    "intl": 43,
+    "euro": 275,
+    "intl_share": 0.1352,
+    "by_origin": {
+     "CEN": 236,
+     "CENELEC": 5,
+     "ETSI": 34,
+     "IEC": 1,
+     "ISO": 42
+    }
+   },
+   "2026": {
+    "new_references": 261,
+    "intl": 82,
+    "euro": 179,
+    "intl_share": 0.3142,
+    "by_origin": {
+     "CEN": 179,
+     "IEC": 3,
+     "ISO": 79
+    }
+   }
+  }
+ },
+ "fresh_citations_amending_acts_only": {
+  "distinct": 783,
+  "per_year": {
+   "2020": {
+    "new_references": 132,
+    "intl": 79,
+    "euro": 53,
+    "intl_share": 0.5985,
+    "by_origin": {
+     "CEN": 31,
+     "CENELEC": 1,
+     "ETSI": 21,
+     "IEC": 63,
+     "ISO": 16
+    }
+   },
+   "2021": {
+    "new_references": 219,
+    "intl": 109,
+    "euro": 110,
+    "intl_share": 0.4977,
+    "by_origin": {
+     "CEN": 99,
+     "ETSI": 11,
+     "IEC": 54,
+     "ISO": 55
+    }
+   },
+   "2022": {
+    "new_references": 168,
+    "intl": 89,
+    "euro": 79,
+    "intl_share": 0.5298,
+    "by_origin": {
+     "CEN": 50,
+     "CENELEC": 3,
+     "ETSI": 26,
+     "IEC": 55,
+     "ISO": 34
+    }
+   },
+   "2023": {
+    "new_references": 39,
+    "intl": 11,
+    "euro": 28,
+    "intl_share": 0.2821,
+    "by_origin": {
+     "CEN": 21,
+     "CENELEC": 1,
+     "ETSI": 6,
+     "IEC": 9,
+     "ISO": 2
+    }
+   },
+   "2024": {
+    "new_references": 44,
+    "intl": 23,
+    "euro": 21,
+    "intl_share": 0.5227,
+    "by_origin": {
+     "CEN": 17,
+     "CENELEC": 4,
+     "IEC": 4,
+     "ISO": 19
+    }
+   },
+   "2025": {
+    "new_references": 92,
+    "intl": 0,
+    "euro": 92,
+    "intl_share": 0.0,
+    "by_origin": {
+     "CEN": 60,
+     "CENELEC": 3,
+     "ETSI": 29
+    }
+   },
+   "2026": {
+    "new_references": 89,
+    "intl": 45,
+    "euro": 44,
+    "intl_share": 0.5056,
+    "by_origin": {
+     "CEN": 44,
+     "IEC": 2,
+     "ISO": 43
+    }
+   }
+  }
+ },
+ "rows_per_year": {
+  "2019": 808,
+  "2020": 1698,
+  "2021": 1905,
+  "2022": 1826,
+  "2023": 3636,
+  "2024": 809,
+  "2025": 1018,
+  "2026": 771
+ },
+ "clauses": {
+  "guard": {
+   "rule": "PREREGISTRATION \u00a75.1 \u2014 clauses NOT SETTLED below 0.80 attribution coverage",
+   "coverage": 0.5296,
+   "fired": true
+  },
+  "as_preregistered_all_rows": {
+   "baseline_2020_2023_mean_intl_share": 0.4549,
+   "quarter_of_baseline": 0.1137,
+   "share_2025": 0.1474,
+   "share_2026": 0.4561,
+   "K1_2025_below_quarter": "REFUTED",
+   "K2_2025_intl_not_zero": "HELD",
+   "K3_2026_above_2025": "HELD"
+  },
+  "as_preregistered_excluding_withdrawal": {
+   "baseline_2020_2023_mean_intl_share": 0.4087,
+   "quarter_of_baseline": 0.1022,
+   "share_2025": 0.1352,
+   "share_2026": 0.3142,
+   "K1_2025_below_quarter": "REFUTED",
+   "K2_2025_intl_not_zero": "HELD",
+   "K3_2026_above_2025": "HELD"
+  },
+  "post_hoc_amending_acts_only": {
+   "baseline_2020_2023_mean_intl_share": 0.477,
+   "quarter_of_baseline": 0.1193,
+   "share_2025": 0.0,
+   "share_2026": 0.5056,
+   "K1_2025_below_quarter": "HELD",
+   "K2_2025_intl_not_zero": "REFUTED",
+   "K3_2026_above_2025": "HELD"
+  }
+ },
+ "raw_prefix_cross_check_2025_amending": {
+  "acts": 19,
+  "EN ISO": 1,
+  "EN IEC": 0,
+  "EN 6xxxx": 90
+ },
+ "fresh_by_month_since_2024": {
+  "2024-01": {
+   "ISO": 3
+  },
+  "2024-03": {
+   "CEN": 2,
+   "ISO": 3
+  },
+  "2024-04": {
+   "CENELEC": 2,
+   "IEC": 2,
+   "ISO": 2
+  },
+  "2024-05": {
+   "CEN": 6,
+   "IEC": 1,
+   "ISO": 7
+  },
+  "2024-09": {
+   "CEN": 3
+  },
+  "2024-10": {
+   "CEN": 6,
+   "CENELEC": 2,
+   "IEC": 1,
+   "ISO": 4
+  },
+  "2025-01": {
+   "CEN": 3
+  },
+  "2025-02": {
+   "CEN": 6
+  },
+  "2025-04": {
+   "CEN": 7
+  },
+  "2025-05": {
+   "CEN": 11,
+   "ETSI": 18
+  },
+  "2025-07": {
+   "CENELEC": 1
+  },
+  "2025-08": {
+   "CEN": 14,
+   "CENELEC": 2,
+   "ETSI": 7
+  },
+  "2025-09": {
+   "CEN": 11
+  },
+  "2025-10": {
+   "CEN": 5
+  },
+  "2025-12": {
+   "CEN": 3,
+   "ETSI": 4
+  },
+  "2026-01": {
+   "CEN": 14,
+   "ISO": 22
+  },
+  "2026-02": {
+   "CEN": 6
+  },
+  "2026-03": {
+   "CEN": 21,
+   "ISO": 2
+  },
+  "2026-04": {
+   "CEN": 3,
+   "IEC": 2
+  },
+  "2026-06": {
+   "ISO": 19
+  }
+ }
+}

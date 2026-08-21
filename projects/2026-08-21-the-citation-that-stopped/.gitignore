@@ -1,0 +1,4 @@
+# The 151 fetched acts are committed as corpus.tar.gz, not as 151 loose files.
+# fetch_acts.py rebuilds corpus/ from EUR-Lex; manifest.json carries each act's sha256,
+# so a rebuild that drifts from the night's reading is detectable rather than silent.
+corpus/

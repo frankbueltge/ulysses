@@ -1,0 +1,1218 @@
+{
+ "fetched_utc": "2026-08-21T04:20:30Z",
+ "sparql_endpoint": "https://publications.europa.eu/webapi/rdf/sparql",
+ "query": "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\nSELECT ?celex ?date ?title WHERE {\n  ?work cdm:resource_legal_id_celex ?celex .\n  ?work cdm:work_date_document ?date .\n  ?exp cdm:expression_belongs_to_work ?work ;\n       cdm:expression_uses_language <http://publications.europa.eu/resource/authority/language/ENG> ;\n       cdm:expression_title ?title .\n  FILTER(STRSTARTS(STR(?celex),\"3\"))\n  FILTER(?date >= \"2018-01-01\"^^<http://www.w3.org/2001/XMLSchema#date>)\n  FILTER(CONTAINS(LCASE(STR(?title)), \"harmonised standards\"))\n}\nORDER BY ?date",
+ "eurlex_pattern": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:<celex>",
+ "act_count": 151,
+ "failed": [],
+ "acts": [
+  {
+   "celex": "32019D0436",
+   "date": "2019-03-18",
+   "title": "Commission Implementing Decision (EU) 2019/436 of 18 March 2019 on the harmonised standards for machinery drafted in support of Directive 2006/42/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 90961,
+   "sha256": "92b3ecea5b72c4bd1a45f1bd40b56217d63a62182ff5a1058944c898c4ea283c"
+  },
+  {
+   "celex": "32019D0451",
+   "date": "2019-03-19",
+   "title": "Commission Implementing Decision (EU) 2019/451 of 19 March 2019 on the harmonised standards for construction products drafted in support of Regulation (EU) No 305/2011 of the European Parliament and of the Council (Text with EEA relevance.)",
+   "http_status": 200,
+   "bytes": 24853,
+   "sha256": "f83ac2f4b54a4a318362011738aab5729d4bf362c2088ae577852c8e3db10015"
+  },
+  {
+   "celex": "32019D0919",
+   "date": "2019-06-04",
+   "title": "Commission Implementing Decision (EU) 2019/919 of 4 June 2019 on the harmonised standards for recreational craft and personal watercraft drafted in support of Directive 2013/53/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 66623,
+   "sha256": "9097f945b7d19599a1d0e6b18cf4f25d5af505526405b0c80fbe039c35513450"
+  },
+  {
+   "celex": "32019D1202",
+   "date": "2019-07-12",
+   "title": "Commission Implementing Decision (EU) 2019/1202 of 12 July 2019 on the harmonised standards for equipment and protective systems intended for use in potentially explosive atmospheres drafted in support of Directive 2014/34/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 16040,
+   "sha256": "afceb8214491b9ebe524dab60e3f90048592131adf4471178ba7bb53c9852f12"
+  },
+  {
+   "celex": "32019D1217",
+   "date": "2019-07-17",
+   "title": "Commission Implementing Decision (EU) 2019/1217 of 17 July 2019 on the harmonised standards for personal flotation devices \u2014 lifejackets drafted in support of Council Directive 89/686/EEC (Text with EEA relevance.)",
+   "http_status": 200,
+   "bytes": 29575,
+   "sha256": "6819a490de1107dc1ca4d32481bc11f668eb2a65dcf4f53ee727c5e570346b64"
+  },
+  {
+   "celex": "32019D1254",
+   "date": "2019-07-22",
+   "title": "Commission Implementing Decision (EU) 2019/1254 of 22 July 2019 on harmonised standards on the safety of toys drafted in support of Directive 2009/48/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 17889,
+   "sha256": "b29d88ea6fbd2206b3bba322abd06eaa47c5a6d76b185641e7c803011057f39f"
+  },
+  {
+   "celex": "32019D1326",
+   "date": "2019-08-05",
+   "title": "Commission Implementing Decision (EU) 2019/1326 of 5 August 2019 on the harmonised standards for electromagnetic compatibility drafted in support of Directive 2014/30/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 23046,
+   "sha256": "cab08ac8449635a000ce7567aa8fa6be427f0b2718006797682964593a789a35"
+  },
+  {
+   "celex": "32019D1616",
+   "date": "2019-09-27",
+   "title": "Commission Implementing Decision (EU) 2019/1616 of 27 September 2019 on the harmonised standards for pressure equipment drafted in support of Directive 2014/68/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 33396,
+   "sha256": "6586f7f752fc5b9d9108600aa3ece4d097f9fe732859f71e060439abb9f362bb"
+  },
+  {
+   "celex": "32019D1680",
+   "date": "2019-10-07",
+   "title": "Commission Implementing Decision (EU) 2019/1680 of 7 October 2019 correcting the Czech language version of Implementing Decision (EU) 2019/436 on the harmonised standards for machinery drafted in support of Directive 2006/42/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 9511,
+   "sha256": "f4946392605fc946d8d0e356f4a30259dbe0cc6a591042280ddccb6ecde71c6e"
+  },
+  {
+   "celex": "32019D1728",
+   "date": "2019-10-15",
+   "title": "Commission Implementing Decision (EU) 2019/1728 of 15 October 2019 on harmonised standards for toys drafted in support of Directive 2009/48/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 26040,
+   "sha256": "a035fe788fc116aa725508d78d136bdbae73c221586ccc6ca4723cf1b5d8d97e"
+  },
+  {
+   "celex": "32019D1863",
+   "date": "2019-11-06",
+   "title": "Commission Implementing Decision (EU) 2019/1863 of 6 November 2019 amending and correcting Implementing Decision (EU) 2019/436 as regards the withdrawal of references of harmonised standards for machinery from the Official Journal of the European Union (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 53110,
+   "sha256": "0a0d4fe6ac90f138371d641e583ac60f073f4ceb1fb681fee4c39efd0f7aaf41"
+  },
+  {
+   "celex": "32019D1923",
+   "date": "2019-11-18",
+   "title": "Commission Implementing Decision (EU) 2019/1923 of 18 November 2019 on the harmonised standards for cableway installations drafted in support of Regulation (EU) 2016/424 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 23830,
+   "sha256": "1398a2f0db93b1b681c8ceda8ca86948b158a23c3438c6fe706116b33f7d1356"
+  },
+  {
+   "celex": "32019D1956",
+   "date": "2019-11-26",
+   "title": "Commission Implementing Decision (EU) 2019/1956 of 26 November 2019 on the harmonised standards for electrical equipment designed for use within certain voltage limits and drafted in support of Directive 2014/35/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 62905,
+   "sha256": "7a1ac2342db955763ac5d1a05ac7b73bb6723c2e1ce5bc41bf25f6475f59c019"
+  },
+  {
+   "celex": "32019D0451R(01)",
+   "date": "2019-12-10",
+   "title": "Corrigendum to Commission Implementing Decision (EU) 2019/451 of 19 March 2019 on the harmonised standards for construction products drafted in support of Regulation (EU) No 305/2011 of the European Parliament and of the Council (Official Journal of the European Union L 77 of 20 March 2019)",
+   "http_status": 200,
+   "bytes": 4813,
+   "sha256": "6f6102d567f16b8b0f4cdfce067ca3570623ca65bf38160ec29c763de200652d"
+  },
+  {
+   "celex": "32020D0050",
+   "date": "2020-01-21",
+   "title": "Commission Implementing Decision (EU) 2020/50 of 21 January 2020 amending Implementing Decision (EU) 2019/919 on the harmonised standards for recreational craft and personal watercraft drafted in support of Directive 2013/53/EU of the European Parliament and of the Council as regards small craft identification, coding system, hull construction and scantlings for monohulls",
+   "http_status": 200,
+   "bytes": 28178,
+   "sha256": "785b49d575bc8db14ff82c29acf8911f21b6f738a4588fcedd8361fee2324501"
+  },
+  {
+   "celex": "32020D0167",
+   "date": "2020-02-05",
+   "title": "Commission Implementing Decision (EU) 2020/167 of 5 February 2020 on the harmonised standards for radio equipment drafted in support of Directive 2014/53/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 39127,
+   "sha256": "f1dc9595844cffbbe1fa2d171ad902e8a87bb82e673cba5cc7a71035d7bad0fe"
+  },
+  {
+   "celex": "32020D0438",
+   "date": "2020-03-24",
+   "title": "Commission Implementing Decision (EU) 2020/438 of 24 March 2020 on the harmonised standards for active implantable medical devices drafted in support of Council Directive 90/385/EEC",
+   "http_status": 200,
+   "bytes": 54803,
+   "sha256": "04cc12f5f785e6cd40e060ddab66c74d53228bfeea8ab542e2c32cb64d13d840"
+  },
+  {
+   "celex": "32020D0439",
+   "date": "2020-03-24",
+   "title": "Commission Implementing Decision (EU) 2020/439 of 24 March 2020 on the harmonised standards for in vitro diagnostic medical devices drafted in support of Directive 98/79/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 46706,
+   "sha256": "0b5c0f842df36545cf2e1d539172b112b681a1fddb2716b8f40ea67648cd40f6"
+  },
+  {
+   "celex": "32020D0437",
+   "date": "2020-03-24",
+   "title": "Commission Implementing Decision (EU) 2020/437 of 24 March 2020 on the harmonised standards for medical devices drafted in support of Council Directive 93/42/EEC",
+   "http_status": 200,
+   "bytes": 188242,
+   "sha256": "830216d11cab2f13f0406f56e7a4d7554e40cb177ffd6be54b00ebe1b2422eab"
+  },
+  {
+   "celex": "32020D0453",
+   "date": "2020-03-27",
+   "title": "Commission Implementing Decision (EU) 2020/453 of 27 March 2020 on the harmonised standards for railway products drafted in support of Directive 2008/57/EC of the European Parliament and of the Council on the interoperability of the rail system within the Community",
+   "http_status": 200,
+   "bytes": 40902,
+   "sha256": "d1b667aa5bb73598a5cc30fe7380c6a125dd2766a3d4845e5c681de97aff81cf"
+  },
+  {
+   "celex": "32020D0480",
+   "date": "2020-04-01",
+   "title": "Commission Implementing Decision (EU) 2020/480 of 1 April 2020 amending Implementing Decision (EU) 2019/436 on harmonised standards for machinery drafted in support of Directive 2006/42/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 66262,
+   "sha256": "06f2b192d73adf897e37740e4225614159e6e729c3bc7de019953a13d8abee24"
+  },
+  {
+   "celex": "32020D0553",
+   "date": "2020-04-21",
+   "title": "Commission Implementing Decision (EU) 2020/553 of 21 April 2020 amending Implementing Decision (EU) 2020/167 as regards harmonised standards for certain international mobile telecommunications cellular networks equipment",
+   "http_status": 200,
+   "bytes": 25765,
+   "sha256": "ba5394b048bc2ea8caee6551b5c667b915af97bfb5f007af43a6ac7b908a4534"
+  },
+  {
+   "celex": "32020D0668",
+   "date": "2020-05-18",
+   "title": "Commission Implementing Decision (EU) 2020/668 of 18 May 2020 on the harmonised standards for personal protective equipment drafted in support of Regulation (EU) 2016/425 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 41938,
+   "sha256": "80029be3c58a679ecd18a1ec6454981338e327938d66b4af905d376c9af154c5"
+  },
+  {
+   "celex": "32020D1146",
+   "date": "2020-07-31",
+   "title": "Commission Implementing Decision (EU) 2020/1146 of 31 July 2020 amending Implementing Decision (EU) 2019/1956 as regards harmonised standards for certain household appliances, thermal-links, equipment in cable networks for television signals, sound signals and interactive services, circuit breakers, arc quenching and welding, installation couplers intended for permanent connection in fixed installations, transformers, reactors, power supply units and combinations, electric vehicle conductive charging system, cable ties and management, control circuit devices, switching elements, emergency lighting, electronic circuits used with luminaires and discharge lamps",
+   "http_status": 200,
+   "bytes": 94030,
+   "sha256": "3a8a30e916f63421c4aa3575db12047e312b9f55e7e51c07bdd2fce32dc2a9fa"
+  },
+  {
+   "celex": "32020D1146R(01)",
+   "date": "2020-08-06",
+   "title": "Corrigendum to Commission Implementing Decision (EU) 2020/1146 of 31 July 2020 amending Implementing Decision (EU) 2019/1956 as regards harmonised standards for certain household appliances, thermal-links, equipment in cable networks for television signals, sound signals and interactive services, circuit breakers, arc quenching and welding, installation couplers intended for permanent connection in fixed installations, transformers, reactors, power supply units and combinations, electric vehicle conductive charging system, cable ties and management, control circuit devices, switching elements, emergency lighting, electronic circuits used with luminaires and discharge lamps (Official Journal of the European Union L 250 of 3 August 2020)",
+   "http_status": 200,
+   "bytes": 4863,
+   "sha256": "31f20b6149dd62ad89c93c86ca6c4d88ae5f892a21d17179083833f1a4245d7f"
+  },
+  {
+   "celex": "32020D1562",
+   "date": "2020-10-26",
+   "title": "Commission Implementing Decision (EU) 2020/1562 of 26 October 2020 amending Implementing Decision (EU) 2020/167 as regards harmonised standards for certain radio equipment concerning advanced surface movement guidance and control systems, primary surveillance radars, broadcast sound receivers, international mobile telecommunications equipment and fixed radio systems",
+   "http_status": 200,
+   "bytes": 42287,
+   "sha256": "1cffed2ee56fd14f95f7bfa7cf9a62014a11be36228b2bf56a56eeb7c0bcecdf"
+  },
+  {
+   "celex": "32020D1779",
+   "date": "2020-11-27",
+   "title": "Commission Implementing Decision (EU) 2020/1779 of 27 November 2020 amending Implementing Decision (EU) 2019/1956 as regards harmonised standards for certain household and similar appliances, electrical supply track systems for luminaires, luminaires for emergency lighting, switches for household and similar fixed electrical installations, circuit breakers, proximity switches, arc welding power sources and electrical equipment for measurement, control and laboratory use",
+   "http_status": 200,
+   "bytes": 43893,
+   "sha256": "0f93139851f361c29e451074cae1a60be76da67a76e06a4d3b44eb963e704946"
+  },
+  {
+   "celex": "32020D1835",
+   "date": "2020-12-03",
+   "title": "Commission Implementing Decision (EU) 2020/1835 of 3 December 2020 on the harmonised standards for accreditation and conformity assessment (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 34495,
+   "sha256": "ea216c8058a0b167b89c5ab3f2e12f3b51afa6ed1c83b1209ebaa4baea53c840"
+  },
+  {
+   "celex": "32021D0076",
+   "date": "2021-01-26",
+   "title": "Commission Implementing Decision (EU) 2021/76 of 26 January 2021 on harmonised standards for lifts and safety components for lifts drafted in support of Directive 2014/33/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 29631,
+   "sha256": "b6178641c254dc570ab880ba3bb2928043e59ae54e73c40dc392b72a6c686d1c"
+  },
+  {
+   "celex": "32021D0117",
+   "date": "2021-02-01",
+   "title": "Commission Implementing Decision (EU) 2021/117 of 1 February 2021 amending Implementing Decision (EU) 2019/919 as regards harmonised standards for small craft, regarding ventilation of petrol engine and/or petrol tank compartments and electric fans",
+   "http_status": 200,
+   "bytes": 29364,
+   "sha256": "61bbc1394a9453ac1c4bf132a0f6ac246091412353f91fea833f6df12c7f3668"
+  },
+  {
+   "celex": "32021D0377",
+   "date": "2021-03-02",
+   "title": "Commission Implementing Decision (EU) 2021/377 of 2\u00a0March 2021 amending Implementing Decision (EU) 2019/436 on harmonised standards for machinery drafted in support of Directive 2006/42/EC of the European Parliament and of the Council (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 70537,
+   "sha256": "8469b7d52042212c33872be82bfbaecef4998ea39b2f6db54e60239249ad7276"
+  },
+  {
+   "celex": "32021D0395",
+   "date": "2021-03-04",
+   "title": "Commission Implementing Decision (EU) 2021/395 of 4\u00a0March 2021 amending Implementing Decision (EU) 2020/668 as regards harmonised standards on electrostatic properties of protective clothing, protective clothing for firefighters and motorcycle riders, protective clothing for use in snowboarding and worn by operators applying pesticides and for re-entry workers, enhanced visibility equipment for medium risk situations, mountaineering equipment and protective clothing against the thermal hazards of an electric arc",
+   "http_status": 200,
+   "bytes": 39263,
+   "sha256": "52c04c0e6a73f3961404dcb4db2f638698602fb76161ddcaaf7cb2492c4a7c1d"
+  },
+  {
+   "celex": "32021D0455",
+   "date": "2021-03-15",
+   "title": "Commission Implementing Decision (EU) 2021/455 of 15\u00a0March 2021 amending Implementing Decision (EU) 2019/1326 as regards harmonised standards for electromagnetic compatibility of control circuit devices and switching elements, and multimedia equipment",
+   "http_status": 200,
+   "bytes": 33351,
+   "sha256": "0d5cf953ed4fa6c217eb779e210afd0049a19c7b6d8bbab1115dd62c1ce7a318"
+  },
+  {
+   "celex": "32021D0610",
+   "date": "2021-04-14",
+   "title": "Commission Implementing Decision (EU) 2021/610 of 14\u00a0April 2021 amending Implementing Decision (EU) 2020/437 as regards harmonised standards on medical vehicles and their equipment, anaesthetic and respiratory equipment, biological evaluation of medical devices, packaging for terminally sterilised medical devices, sterilisation of health care products, clinical investigation of medical devices for human subjects, non-active surgical implants, medical devices utilising animal tissues and their derivatives, electroacoustics and medical electrical equipment",
+   "http_status": 200,
+   "bytes": 48063,
+   "sha256": "51a220978602b6859d1302952d026553bc7131af660b5e1eff9267f5e273e695"
+  },
+  {
+   "celex": "32021D0611",
+   "date": "2021-04-14",
+   "title": "Commission Implementing Decision (EU) 2021/611 of 14\u00a0April 2021 amending Implementing Decision (EU) 2020/438 as regards harmonised standards on biological evaluation of medical devices, packaging for terminally sterilised medical devices, sterilisation of health care products and clinical investigation of medical devices for human subjects",
+   "http_status": 200,
+   "bytes": 29634,
+   "sha256": "4ad96449ecef20a00ddfcdef3309543959977f1de805811d8008a293b3c86e8f"
+  },
+  {
+   "celex": "32021D0609",
+   "date": "2021-04-14",
+   "title": "Commission Implementing Decision (EU) 2021/609 of 14\u00a0April 2021 amending Implementing Decision (EU) 2020/439 as regards harmonised standards on packaging for terminally sterilised medical devices and sterilisation of health care products",
+   "http_status": 200,
+   "bytes": 21134,
+   "sha256": "7648d71bf4db83c410f61e22871829116d88209bec30d69699eba07c267786b5"
+  },
+  {
+   "celex": "32021D0867",
+   "date": "2021-05-28",
+   "title": "Commission Implementing Decision (EU) 2021/867 of 28\u00a0May 2021 on harmonised standards for toys drafted in support of Directive 2009/48/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 38957,
+   "sha256": "8c5b5a7f893699eb457ac402618b02d0a290f13ca3b9418b3aed49377a9f9c9e"
+  },
+  {
+   "celex": "32021D0913",
+   "date": "2021-06-03",
+   "title": "Commission Implementing Decision (EU) 2021/913 of 3\u00a0June 2021 on the harmonised standards for household dishwashers drafted in support of Regulation (EU) 2019/2022 and Delegated Regulation (EU) 2019/2017",
+   "http_status": 200,
+   "bytes": 38421,
+   "sha256": "d7002de7a33ffc10edd8680f4eafc10321ab05cc3c9a8e8e689edcca47763f2c"
+  },
+  {
+   "celex": "32021D0936",
+   "date": "2021-06-03",
+   "title": "Commission Implementing Decision (EU) 2021/936 of 3\u00a0June 2021 on the harmonised standards for household washing machines and household washer-dryers drafted in support of Regulation (EU) 2019/2023 and Delegated Regulation (EU) 2019/2014",
+   "http_status": 200,
+   "bytes": 33419,
+   "sha256": "fbdb1f99c6944aef1f15086aaf19dd7576e1a6a26a512f2a1896a6989788a656"
+  },
+  {
+   "celex": "32021D1015",
+   "date": "2021-06-17",
+   "title": "Commission Implementing Decision (EU) 2021/1015 of 17\u00a0June 2021 amending Implementing Decision (EU) 2019/1956 as regards harmonised standards for refrigerating, ice-cream and ice makers appliances, laboratory equipment for the heating of materials, automatic and semi-automatic laboratory equipment for analysis and other purposes, electrical equipment with ratings related to electrical supply, appliances for skin exposure to ultraviolet and infrared radiation, room heaters, electric irons, stationary cooking ranges, hobs, ovens and similar appliances, fabric steamers, electromechanical control circuit devices, blankets, pads, clothing and similar flexible heating appliances and certain other electrical equipment designed for use within certain voltage limits",
+   "http_status": 200,
+   "bytes": 102479,
+   "sha256": "4327ccba1010d8b4925e6e488dafd19aad37b177ce0cd467a6a49594fe88c79d"
+  },
+  {
+   "celex": "32021D1182",
+   "date": "2021-07-16",
+   "title": "Commission Implementing Decision (EU) 2021/1182 of 16\u00a0July 2021 on the harmonised standards for medical devices drafted in support of Regulation (EU) 2017/745 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 19785,
+   "sha256": "e796b6da4f36a7a79123232a95cabee94b4e09e13317fe2e33b1eea32ec23e46"
+  },
+  {
+   "celex": "32021D1201",
+   "date": "2021-07-16",
+   "title": "Commission Implementing Decision (EU) 2021/1201 of 16\u00a0July 2021 amending Implementing Decision (EU) 2020/668 as regards harmonised standards on hearing protectors",
+   "http_status": 200,
+   "bytes": 44343,
+   "sha256": "dcee49359ddf8bdbca2cc5a5d455025a602c7c3d4e96aea71dabbf82626e7cce"
+  },
+  {
+   "celex": "32021D1196",
+   "date": "2021-07-19",
+   "title": "Commission Implementing Decision (EU) 2021/1196 of 19\u00a0July 2021 amending Implementing Decision (EU) 2020/167 as regards harmonised standards for certain radio equipment concerning ground- and wall-probing radio determination devices, radio frequency identification equipment, radio equipment for Euroloop railway systems, networked short range devices, wireless industrial applications and broadband communication radiolink for ships and off-shore installations",
+   "http_status": 200,
+   "bytes": 40721,
+   "sha256": "aef74f6c636179ae3b8522d982bb4bf476239a94df1f3c4e1a99f5b5883bc8a8"
+  },
+  {
+   "celex": "32021D1195",
+   "date": "2021-07-19",
+   "title": "Commission Implementing Decision (EU) 2021/1195 of 19\u00a0July 2021 on the harmonised standards for in vitro diagnostic medical devices drafted in support of Regulation (EU) 2017/746 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 17680,
+   "sha256": "fbc6350ff73bc7ea270dbba98d26a61d438b28cec099fe7bc1c072aa92710f6c"
+  },
+  {
+   "celex": "32021D1220",
+   "date": "2021-07-26",
+   "title": "Commission Implementing Decision (EU) 2021/1220 of 26\u00a0July 2021 amending Implementing Decision (EU) 2021/76 as regards harmonised standards on safety rules for the construction and installation of firefighters lifts and behaviour of lifts in the event of fire (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 21474,
+   "sha256": "5afd90ca40faa05bd2db14cf2cba47ca7f0a31c15ac95abcd49b7dc4fed3ec56"
+  },
+  {
+   "celex": "32021D1403",
+   "date": "2021-08-25",
+   "title": "Commission Implementing Decision (EU) 2021/1403 of 25\u00a0August 2021 amending Implementing Decision (EU) 2019/1202 as regards harmonised standards for light offshore cranes",
+   "http_status": 200,
+   "bytes": 19917,
+   "sha256": "8e52d3d851ad2d8d99b773f8aaa24cdbb3ddc14fe2cf9f1b9398089b39f80d48"
+  },
+  {
+   "celex": "32021D1402",
+   "date": "2021-08-25",
+   "title": "Commission Implementing Decision (EU) 2021/1402 of 25\u00a0August 2021 on harmonised standards for gas meters and other measuring instruments drafted in support of Directive 2014/32/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 83657,
+   "sha256": "c35aa63ea1c2c7cde7aa2b66fc7a8da29e677889d0f6c27028d3c7587a575198"
+  },
+  {
+   "celex": "32021D1407",
+   "date": "2021-08-26",
+   "title": "Commission Implementing Decision (EU) 2021/1407 of 26\u00a0August 2021 amending Implementing Decision (EU) 2019/919 as regards harmonised standards for fire-resistant fuel hoses, non-fire-resistant fuel hoses, seacocks and through-hull fittings, engine-mounted fuel, oil and electrical components on inboard diesel engines, and steering wheels",
+   "http_status": 200,
+   "bytes": 39065,
+   "sha256": "a43738df01cef16543a1651ef515036d16d5d79a6611bc92ff03bb63ed1c9d6c"
+  },
+  {
+   "celex": "32021D1801",
+   "date": "2021-10-11",
+   "title": "Commission Implementing Decision (EU) 2021/1801 of 11\u00a0October 2021 amending Implementing Decision (EU) 2019/1616 as regards harmonised standards for metallic industrial piping, bolting of flanges and their joints and stainless steel steam boilers",
+   "http_status": 200,
+   "bytes": 27967,
+   "sha256": "99fb6d1aa4858e595b52a26921810e28ec5515fea947db1fdf65dd384aca2345"
+  },
+  {
+   "celex": "32021D1813",
+   "date": "2021-10-14",
+   "title": "Commission Implementing Decision (EU) 2021/1813 of 14\u00a0October 2021 amending Implementing Decision (EU) 2019/436 as regards harmonised standards for aircraft ground support equipment, cranes, mining tools, and other machinery drafted in support of Directive 2006/42/EC of the European Parliament and of the Council and repealing Commission Implementing Decision (EU) 2015/27 (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 90370,
+   "sha256": "dcd2aa82bbf6af170624a0ec50fb5b721996696d0591e3668a01689b24d5e386"
+  },
+  {
+   "celex": "32021D1992",
+   "date": "2021-11-15",
+   "title": "Commission Implementing Decision (EU) 2021/1992 of 15\u00a0November 2021 on harmonised standards for toys drafted in support of Directive 2009/48/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 41667,
+   "sha256": "5f56799262cf564a007e3f5fbc40f8f447adbb5f1c861c0905f0a5063aadaa83"
+  },
+  {
+   "celex": "32021D2173",
+   "date": "2021-12-08",
+   "title": "Commission Implementing Decision (EU) 2021/2173 of 8\u00a0December 2021 amending Implementing Decision (EU) 2019/919 as regards harmonised standards for sewage treatment systems, electrically operated bilge pumps, builder\u2019s plate and maximum load capacity of small crafts (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 34463,
+   "sha256": "2dbd91ca532e9c789da4545cf25351ce35fddf18208a54e5ce52ba53f98c311c"
+  },
+  {
+   "celex": "32021D2273",
+   "date": "2021-12-20",
+   "title": "Commission Implementing Decision (EU) 2021/2273 of 20\u00a0December 2021 amending Implementing Decision (EU) 2019/1956 as regards harmonised standards for laser products, adjustable speed electrical power drive systems, power electronic converter systems and equipment, luminaires, low-voltage switchgear and control gear, uninterruptible power systems (UPS) and certain other electrical equipment designed for use within certain voltage limits (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 69137,
+   "sha256": "dcad843c41c065a7187be8d588a8a9bf51378ffc7ca7b3dc12f9338e8db06366"
+  },
+  {
+   "celex": "32021D2272",
+   "date": "2021-12-20",
+   "title": "Commission Implementing Decision (EU) 2021/2272 of 20\u00a0December 2021 amending Implementing Decision (EU) 2019/1616 as regards harmonised standards for seamless and welded stainless steel tubes, steel forgings for pressure purposes at high temperature and with high proof strength, unfired pressure vessels and vehicle fuelling appliances for natural gas vehicles (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 42061,
+   "sha256": "3e0f3cbbb86743aab44ed8d5c365e8c43c9d93ed113f92b3f19a77eb949c9a36"
+  },
+  {
+   "celex": "32022D0006",
+   "date": "2022-01-04",
+   "title": "Commission Implementing Decision (EU) 2022/6 of 4\u00a0January 2022 amending Implementing Decision (EU) 2021/1182 as regards harmonised standards for biological evaluation of medical devices, sterilisation of health care products, aseptic processing of health care products, quality management systems, symbols to be used with information to be supplied by the manufacturer, processing of health care products and home light therapy equipment",
+   "http_status": 200,
+   "bytes": 24947,
+   "sha256": "6d6ed098efe3f06b848c67fad2b3804f789e9a67bd7125583d28ff4bc6b6eb13"
+  },
+  {
+   "celex": "32022D0015",
+   "date": "2022-01-06",
+   "title": "Commission Implementing Decision (EU) 2022/15 of 6\u00a0January 2022 amending Implementing Decision (EU) 2021/1195 as regards harmonised standards for sterilisation of health care products, aseptic processing of health care products, quality management systems, symbols to be used with information to be supplied by the manufacturer and requirements for establishing metrological traceability of values assigned to calibrators, trueness control materials and human samples",
+   "http_status": 200,
+   "bytes": 21778,
+   "sha256": "50571ea10132b89ba1b2d949000d25749bcafa645fa688f1f9733f2b12b61d90"
+  },
+  {
+   "celex": "32022D0406",
+   "date": "2022-03-03",
+   "title": "Commission Implementing Decision (EU) 2022/406 of 3\u00a0March 2022 amending Implementing Decision (EU) 2019/1202 as regards harmonised standards for automatic nozzles for use on fuel dispensers, metering pumps, dispensers and remote pumping units, safe breaks for use on metering pumps and dispensers, shear valves and swivels for use on metering pumps and dispensers, that are used in petrol filling stations (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 30645,
+   "sha256": "a8edf5bd3d49aaae9c1d66b6742a0023d64209c4d8fcef247d95c3012be026fa"
+  },
+  {
+   "celex": "32022D0404",
+   "date": "2022-03-03",
+   "title": "Commission Implementing Decision (EU) 2022/404 of 3\u00a0March 2022 amending Implementing Decision (EU) 2019/919 as regards harmonised standards for steering gear \u2013 cable over pulley systems (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 26391,
+   "sha256": "8961d6c00b00036d43af6745aa697acb8978c24e184800744acbdc3031e6d02d"
+  },
+  {
+   "celex": "32022D0405",
+   "date": "2022-03-03",
+   "title": "Commission Implementing Decision (EU) 2022/405 of 3\u00a0March 2022 amending Implementing Decision (EU) 2019/1956 as regards harmonised standards for cover plates and cover tapes, luminaires, electrical accessories, powertrack systems, circuit breakers, electrical equipment for measurement, control, and laboratory use, and resistance welding equipment (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 41408,
+   "sha256": "cdad2580257fc74c44f269e3844615c223f11814d83eeada9129160e2e03d97c"
+  },
+  {
+   "celex": "32022D0498",
+   "date": "2022-03-22",
+   "title": "Commission Implementing Decision (EU) 2022/498 of 22\u00a0March 2022 amending Implementing Decision (EU) 2020/167 as regards harmonised standards for avalanche beacons, satellite earth stations and systems, land mobile earth stations, maritime mobile earth stations, IMT cellular networks equipment, fixed radio systems, digital terrestrial TV transmitters, mobile communication on board aircraft systems, multi Gbps radio equipment, broadcast sound receivers, audio frequency induction loop drivers, primary surveillance radars and TETRA radio equipment (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 71392,
+   "sha256": "3629f111ad3d7d95cadb5254ed2c17dddb269c254a50887aad2f53ea922a5d70"
+  },
+  {
+   "celex": "32022D0621",
+   "date": "2022-04-07",
+   "title": "Commission Implementing Decision (EU) 2022/621 of 7\u00a0April 2022 amending Implementing Decision (EU) 2019/436 as regards harmonised standards for truck mixers, cranes and other machinery drafted in support of Directive 2006/42/EC of the European Parliament and of the Council (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 74751,
+   "sha256": "590dcb1b176b7a181670c7883f3f98c4c8e99472908be5bba2864b895f447da6"
+  },
+  {
+   "celex": "32022D0622",
+   "date": "2022-04-07",
+   "title": "Commission Implementing Decision (EU) 2022/622 of 7\u00a0April 2022 amending Implementing Decision (EU) 2019/1326 as regards the harmonised standards for electromagnetic compatibility of electricity metering equipment and circuit breakers for household and similar uses (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 30328,
+   "sha256": "dfcfde9a5672d274ac3b877fc1fc8a667d2d7ac7bed99f5a17c945b65adeea80"
+  },
+  {
+   "celex": "32022D0713",
+   "date": "2022-05-04",
+   "title": "Commission Implementing Decision (EU) 2022/713 of 4\u00a0May 2022 amending Implementing Decision (EU) 2019/1956 as regards harmonised standards for appliances for heating liquids, battery chargers, instantaneous water heaters, thermal-storage room heaters, toilets, multifunctional shower cabinets, skin exposure to ultraviolet and infrared radiation, and other electrical equipment designed for use within certain voltage limits (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 66903,
+   "sha256": "17ed06ffa538a72c4087e0d3decf9caae6776ffbd697c419d0bd5590b6019fca"
+  },
+  {
+   "celex": "32022D0729",
+   "date": "2022-05-11",
+   "title": "Commission Implementing Decision (EU) 2022/729 of 11\u00a0May 2022 amending Implementing Decision (EU) 2021/1195 as regards harmonised standards for quality management systems and for application of risk management to medical devices",
+   "http_status": 200,
+   "bytes": 23633,
+   "sha256": "d1eaaa32dbe98cb9651b171b92e1d0db00fdf9a71868ecac2e8e7e521f699c69"
+  },
+  {
+   "celex": "32022D0757",
+   "date": "2022-05-11",
+   "title": "Commission Implementing Decision (EU) 2022/757 of 11\u00a0May 2022 amending Implementing Decision (EU) 2021/1182 as regards harmonised standards for quality management systems, sterilisation and application of risk management to medical devices",
+   "http_status": 200,
+   "bytes": 24827,
+   "sha256": "d67a3b351148c5a605cf4e93ab231120f65e88770093bb6947d6739d67e478bd"
+  },
+  {
+   "celex": "32022D0784",
+   "date": "2022-05-17",
+   "title": "Commission Implementing Decision (EU) 2022/784 of 17\u00a0May 2022 amending Implementing Decision (EU) 2019/1202 as regards harmonised standards for nozzle, test requirements and dimensions used for the automotive LPG filling system for light and heavy duty vehicles, and for explosion suppression systems (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 25440,
+   "sha256": "c31af6f6536496bea4572e56435d460c3324f569055073d743843ea20df4dad9"
+  },
+  {
+   "celex": "32022D0910",
+   "date": "2022-06-09",
+   "title": "Commission Implementing Decision (EU) 2022/910 of 9\u00a0June 2022 amending Implementing Decision (EU) 2019/1326 as regards the harmonised standards for electromagnetic compatibility of low-voltage switches, disconnectors, switch-disconnectors and fuse-combination units, and for external power supply for mobile phones (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 26827,
+   "sha256": "aa44df76cf553e55cf96960ca9c2bb9d289c850316cd2f153764094c386efd0f"
+  },
+  {
+   "celex": "32022D1029",
+   "date": "2022-06-28",
+   "title": "Commission Implementing Decision (EU) 2022/1029 of 28\u00a0June 2022 amending Implementing Decision (EU) 2019/919 as regards harmonised standards for principal data for small craft, liquefied petroleum gas propulsion systems for boats, yachts and other watercraft, and determination of maximum propulsion power rating using manoeuvring speed for craft with a length of hull between 8 m and\u00a024 m (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 30757,
+   "sha256": "e9ed8784ff8178d9c752ddf8550ae68cc09373ba4a406d9fb6f97382230454ed"
+  },
+  {
+   "celex": "32022D1199",
+   "date": "2022-07-11",
+   "title": "Commission Implementing Decision (EU) 2022/1199 of 11\u00a0July 2022 amending Implementing Decision (EU) 2021/76 as regards harmonised standards for lifts with inclined travel path and correcting that Decision as regards harmonised standards for steel wire ropes (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 22850,
+   "sha256": "5a4cdd143412118f547850c2d58f72ffd317f8d21f1ad75e735cfc92de9bd73c"
+  },
+  {
+   "celex": "32022D1668",
+   "date": "2022-09-28",
+   "title": "Commission Implementing Decision (EU) 2022/1668 of 28\u00a0September 2022 on harmonised standards for equipment and protective systems intended for use in potentially explosive atmospheres drafted in support of Directive 2014/34/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 74349,
+   "sha256": "ac56ac6bbd92cc81e47800d8365d7b9c9eb7b1159529a6ec880414ec619f1868"
+  },
+  {
+   "celex": "32022D1844",
+   "date": "2022-09-28",
+   "title": "Commission Implementing Decision (EU) 2022/1844 of 28\u00a0September 2022 amending Implementing Decision (EU) 2019/1616 as regards harmonised standards for metallic industrial piping, portable fire extinguishers, non-destructive testing, pipe fittings, industrial valves, water-tube boilers, GRP tanks and vessels, expansion joints and valves for the refrigerating systems and heat pumps (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 44038,
+   "sha256": "5c696d78c546ad693d95e61d24ebf7e0a40865168d2846257ecf54533b3049e5"
+  },
+  {
+   "celex": "32022D1914",
+   "date": "2022-10-06",
+   "title": "Commission Implementing Decision (EU) 2022/1914 of 6\u00a0October 2022 amending Implementing Decision (EU) 2020/668 as regards harmonised standards on personal flotation devices \u2013 buoyancy aids, lifejackets and accessories (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 40110,
+   "sha256": "06895bf13c8e5eb46ca489f5466a001dfaf07872a3c95074e422fd9d98aebc95"
+  },
+  {
+   "celex": "32022D1954",
+   "date": "2022-10-12",
+   "title": "Commission Implementing Decision (EU) 2022/1954 of 12\u00a0October 2022 on harmonised standards for recreational craft and personal watercraft drafted in support of Directive 2013/53/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 58488,
+   "sha256": "30a25c3f3924561bb100a2235444399a0ce9ae9217a4cee794f4405e8aca54df"
+  },
+  {
+   "celex": "32022D2191",
+   "date": "2022-11-08",
+   "title": "Commission Implementing Decision (EU) 2022/2191 of 8\u00a0November 2022 on the harmonised standards for radio equipment drafted in support of Directive 2014/53/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 173407,
+   "sha256": "cdf8ee1031c798bdb40a27278727733f239977b11809eaada6dfba981741689b"
+  },
+  {
+   "celex": "32022D2414",
+   "date": "2022-12-06",
+   "title": "Commission Implementing Decision (EU) 2022/2414 of 6\u00a0December 2022 amending Implementing Decision (EU) 2020/668 as regards harmonised standards on requirements, testing and marking of particle filters for respiratory protective devices, general requirements for protective clothing, requirements for eye protectors for squash and eye protectors for racquetball and squash 57 and requirements and test methods for footwear protecting against risks in foundries and during welding and allied processes (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 42775,
+   "sha256": "6d3868492915bd09c7524ac53cb11ec9ff132a0535689454d654e5c98df59f77"
+  },
+  {
+   "celex": "32023D0098",
+   "date": "2023-01-09",
+   "title": "Commission Implementing Decision 2023/98 of 9\u00a0January 2023 amending Implementing Decision (EU) 2019/1956 as regards harmonised standards for lamp controlgear, luminaires, climatic and environmental testing and other temperature conditioning equipment and power metering and monitoring devices (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 33332,
+   "sha256": "845d669a6b894c76c53e5de0da5a0d8052d958dad4204bc39bcd8578fd72dba3"
+  },
+  {
+   "celex": "32023D0601",
+   "date": "2023-03-13",
+   "title": "Commission Implementing Decision (EU) 2023/601 of 13\u00a0March 2023 amending Implementing Decision (EU)\u00a02022/1668 as regards harmonised standards for design and testing of vacuum cleaners for use in potentially explosive atmospheres and performance requirements of detectors for flammable gases (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 22786,
+   "sha256": "b48565ef8aa71c4fa658327d72b40aa7ebca4513187ca5f90006448f0680c186"
+  },
+  {
+   "celex": "32023D0600",
+   "date": "2023-03-13",
+   "title": "Commission Implementing Decision (EU) 2023/600 of 13\u00a0March 2023 amending Implementing Decision (EU)\u00a02019/1956 as regards harmonised standards for room heaters, aquarium luminaires, circuit-breakers and tumble dryers (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 32050,
+   "sha256": "934d98e64b21e4c20c8ca426694b1e3a7df939d96cb93e548c79849d16cd050e"
+  },
+  {
+   "celex": "32023D0740",
+   "date": "2023-04-04",
+   "title": "Commission Implementing Decision (EU) 2023/740 of 4\u00a0April 2023 on harmonised standards for toys drafted in support of Directive\u00a02009/48/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 27477,
+   "sha256": "a4f77ed98bd7cd3bb80ab4e47efd7da25745b0fce14eacef406f82771f2225eb"
+  },
+  {
+   "celex": "32023D0941",
+   "date": "2023-05-02",
+   "title": "Commission Implementing Decision (EU) 2023/941 of 2\u00a0May 2023 on harmonised standards for personal protective equipment drafted in support of Regulation (EU)\u00a02016/425 of the European Parliament and of the Council (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 136264,
+   "sha256": "53aefd6271b1a4ca9be41acb0f841bdf5769d910ce12d224c068a90546354a16"
+  },
+  {
+   "celex": "32023D1410",
+   "date": "2023-07-04",
+   "title": "Commission Implementing Decision (EU) 2023/1410 of 4\u00a0July 2023 amending Implementing Decision (EU)\u00a02021/1182 as regards harmonised standards for sterilization of health care products and biological evaluation of medical devices",
+   "http_status": 200,
+   "bytes": 22683,
+   "sha256": "5aa763791ab2820e93c1603a886f19f25341f348cc0a17438994bc46e6168d04"
+  },
+  {
+   "celex": "32023D1586",
+   "date": "2023-07-26",
+   "title": "Commission Implementing Decision (EU) 2023/1586 of 26\u00a0July 2023 on harmonised standards for machinery drafted in support of Directive\u00a02006/42/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 523921,
+   "sha256": "794230f501888e43a7cc99c980ca6e8a5bcc28021e6f9a506a8073ea34f0bc78"
+  },
+  {
+   "celex": "32023D1587",
+   "date": "2023-08-01",
+   "title": "Commission Implementing Decision (EU) 2023/1587 of 1\u00a0August 2023 amending Implementing Decision (EU)\u00a02022/1668 as regards harmonised standards on performance requirements and test methods for electrical equipment for the detection and measurement of oxygen (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 21172,
+   "sha256": "2aebce1d8f6b9d22eb3e682e4d1cda265b7643ecebbe237e1cbc755a1bd738e3"
+  },
+  {
+   "celex": "32023D1646",
+   "date": "2023-08-17",
+   "title": "Commission Implementing Decision (EU) 2023/1646 of 17\u00a0August 2023 amending Implementing Decision (EU)\u00a02021/76 as regards harmonised standards on safety rules for the construction and installation of lifts (Text with EEA relevance)",
+   "http_status": 200,
+   "bytes": 28861,
+   "sha256": "a3a6d21ebbff2db2bf3e4b2eb3d698f5d06e0dc8d335143129242d4b8087a3fa"
+  },
+  {
+   "celex": "32023D1759",
+   "date": "2023-09-11",
+   "title": "Commission Implementing Decision (EU) 2023/1759 of 11\u00a0September 2023 on the harmonised standards for household dishwashers drafted in support of Regulation (EU)\u00a02019/2022 and Delegated Regulation (EU)\u00a02019/2017",
+   "http_status": 200,
+   "bytes": 27529,
+   "sha256": "8092fc3307ed1eebf0737ba748a2ee98ae287baa06f7629df036c0019b2fe3d1"
+  },
+  {
+   "celex": "32023D2392",
+   "date": "2023-10-03",
+   "title": "Commission Implementing Decision (EU) 2023/2392 of 3\u00a0October 2023 amending Implementing Decision (EU)\u00a02022/2191 as regards harmonised standards for international mobile telecommunications cellular network equipment, transmitting equipment for digital audio broadcasting and digital radio mondiale services, very high frequency maritime survivor locating devices, and satellite earth stations and systems",
+   "http_status": 200,
+   "bytes": 24771,
+   "sha256": "3da7bfd0ef89829dab0b69fa857606c9bd849e03971fdadfb4fbe510c4676ca4"
+  },
+  {
+   "celex": "32023D2461",
+   "date": "2023-11-07",
+   "title": "Commission Implementing Decision (EU) 2023/2461 of 7\u00a0November 2023 amending Implementing Decision (EU)\u00a02019/451 on the harmonised standards for construction products drafted in support of Regulation (EU) No\u00a0305/2011 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 26996,
+   "sha256": "e0577575fb3517bd1a7f7cd1cc7dd4482356c5563da6109fbcb04d08ca878e34"
+  },
+  {
+   "celex": "32023D2584",
+   "date": "2023-11-15",
+   "title": "Commission Implementing Decision (EU) 2023/2584 of 15\u00a0November 2023 on harmonised standards for the interoperability of the rail systems drafted in support of Directive (EU)\u00a02016/797 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 139639,
+   "sha256": "d9d926bb20288393a60ac9f0433e275336b69fa07a96b7e686abedfd37bd2614"
+  },
+  {
+   "celex": "32023D2669",
+   "date": "2023-11-27",
+   "title": "Commission Implementing Decision (EU) 2023/2669 of 27\u00a0November 2023 amending Implementing Decision (EU)\u00a02022/2191 as regards harmonised standards for wireless communication devices used next to the ear or in close proximity to the human body",
+   "http_status": 200,
+   "bytes": 21402,
+   "sha256": "e9401bbfa3f786e08db63ebec392e5048f360e9043ae1134f291e45287154ea1"
+  },
+  {
+   "celex": "32023D2723",
+   "date": "2023-12-06",
+   "title": "Commission Implementing Decision (EU) 2023/2723 of 6\u00a0December 2023 on harmonised standards for electrical equipment drafted in support of Directive\u00a02014/35/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 411664,
+   "sha256": "4521f64ce38b3db97b3e440b0840b59681d83a48fffd3dea564c93fad6594669"
+  },
+  {
+   "celex": "32023D2752",
+   "date": "2023-12-07",
+   "title": "Commission Implementing Decision (EU) 2023/2752 of 7\u00a0December 2023 amending Implementing Decision (EU)\u00a02023/941 as regards harmonised standards for mountaineering equipment, helmets for equestrian activities and gloves drafted in support of Regulation (EU)\u00a02016/425 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 28567,
+   "sha256": "2bba4a6e9e7139d17b3caf53f27f9b1600704ea7ea4a45cdf4d93e05e79b7774"
+  },
+  {
+   "celex": "32024D0224",
+   "date": "2024-01-10",
+   "title": "Commission Implementing Decision (EU) 2024/224 of 10\u00a0January 2024 on the harmonised standards for appliances burning gaseous fuels drafted in support of Regulation (EU)\u00a02016/426 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 30417,
+   "sha256": "340a11af0c7ef4f4e0e695be5a8d2310acbd09e71471d334b4b46f743b64315b"
+  },
+  {
+   "celex": "32024D0201",
+   "date": "2024-01-10",
+   "title": "Commission Implementing Decision (EU) 2024/201 of 10\u00a0January 2024 amending Implementing Decision (EU)\u00a02022/1954 as regards harmonised standards for remote mechanical steering systems, permanently installed fuel systems and remote hydraulic steering systems",
+   "http_status": 200,
+   "bytes": 23910,
+   "sha256": "3c01dff341f9c57e00ba48637b3932d98d8e9d81196c4a865e95c9e037918e33"
+  },
+  {
+   "celex": "32024D0354",
+   "date": "2024-01-19",
+   "title": "Commission Implementing Decision (EU) 2024/354 of 19\u00a0January 2024 on harmonised standards for cableway installations drafted in support of Regulation (EU)\u00a02016/424 of the European Parliament and the Council",
+   "http_status": 200,
+   "bytes": 32815,
+   "sha256": "3e7ea9faaef4f18177e0246b3ac7cba6c54ad481e6286f3558aa2f3db72536d9"
+  },
+  {
+   "celex": "32024D0373",
+   "date": "2024-01-24",
+   "title": "Commission Implementing Decision (EU) 2024/373 of 24\u00a0January 2024 on the harmonised standards for inspection of pesticide application equipment in use drafted in support of Directive\u00a02009/128/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 18453,
+   "sha256": "b246d555af4a12acf79182fc1eb32be0136b82ad92a09156f00a9e0f1ac564c0"
+  },
+  {
+   "celex": "32024D0564",
+   "date": "2024-02-14",
+   "title": "Commission Implementing Decision (EU) 2024/564 of 14\u00a0February 2024 on harmonised standards for solid fuel boilers and packages of a solid fuel boiler, supplementary heaters, temperature controls and solar devices drafted in support of Delegated Regulation (EU)\u00a02015/1187 and Regulation (EU)\u00a02015/1189",
+   "http_status": 200,
+   "bytes": 25042,
+   "sha256": "d02dd85db16efa3ccbe252cc1e497649f8606d1968200a58c7739bd492db42e2"
+  },
+  {
+   "celex": "32024D0817",
+   "date": "2024-03-06",
+   "title": "Commission Implementing Decision (EU) 2024/817 of 6\u00a0March 2024 amending Implementing Decision (EU)\u00a02021/1195 as regards harmonised standards for sterilisation of health care products and packaging for terminally sterilised medical devices",
+   "http_status": 200,
+   "bytes": 21437,
+   "sha256": "31aa3e2204b2e2db7e90697fab890bdecf692f9e88d972a5889eabc1faac1607"
+  },
+  {
+   "celex": "32024D0815",
+   "date": "2024-03-06",
+   "title": "Commission Implementing Decision (EU) 2024/815 of 6\u00a0March 2024 amending Implementing Decision (EU)\u00a02021/1182 as regards harmonised standards for medical gloves for single use, biological evaluation of medical devices, sterilization of health care products, packaging for terminally sterilized medical devices and processing of health care products",
+   "http_status": 200,
+   "bytes": 25263,
+   "sha256": "eb9d1e2e0629343ad68693e10c7afae981d98c5f3174fa108ee9a35fa93ad294"
+  },
+  {
+   "celex": "32024D1198",
+   "date": "2024-04-19",
+   "title": "Commission Implementing Decision (EU) 2024/1198 of 19\u00a0April 2024 amending Implementing Decision (EU)\u00a02023/2723 as regards harmonised standards for boxes and enclosures for electrical accessories, conduit systems buried underground and low-voltage switchgear and controlgear",
+   "http_status": 200,
+   "bytes": 29328,
+   "sha256": "f1970d2139f9acc3475536526b4007c968f8a287b74b316b211b2e3cb873e430"
+  },
+  {
+   "celex": "32024D1197",
+   "date": "2024-04-23",
+   "title": "Commission Implementing Decision (EU) 2024/1197 of 23\u00a0April 2024 amending Implementing Decision (EU)\u00a02022/1954 as regards harmonised standards for electrical systems \u2013 alternating and direct current installations, and bilge-pumping systems",
+   "http_status": 200,
+   "bytes": 24666,
+   "sha256": "9f306217976345634703ef6ec01d62d5793ef69c41f1f51c82985fd37f5fe915"
+  },
+  {
+   "celex": "32024D1256",
+   "date": "2024-04-26",
+   "title": "Commission Implementing Decision (EU) 2024/1256 of 26\u00a0April 2024 amending and correcting Implementing Decision (EU)\u00a02023/1586 as regards harmonised standards for front loader agricultural machinery, all terrain vehicle quads, as well as electric motor-operated hand-held tools",
+   "http_status": 200,
+   "bytes": 54329,
+   "sha256": "2e63c304055981b020102c1555e26cefc83bd7f924064c18a0955613b6d40f57"
+  },
+  {
+   "celex": "32024D1329",
+   "date": "2024-05-13",
+   "title": "Commission Implementing Decision (EU) 2024/1329 of 13\u00a0May 2024 amending and correcting Implementing Decision (EU)\u00a02023/1586 as regards harmonised standards for explosion prevention and protection in explosive atmospheres, laser related equipment, safety-related parts of control systems, plastics and rubber machines, refuse collection vehicles, aircraft ground support equipment, driverless industrial trucks and their systems, electrically power assisted cycles, conveyor belts for winter sport or tourist use, pedestrian-propelled trucks, tenoning and profiling woodworking machines, tractors and machinery for agriculture and forestry, commercial vacuum packaging appliances, commercial refrigerating appliances and ice-makers, grass shears and motor-operated pedestrian controlled walk-behind garden machinery",
+   "http_status": 200,
+   "bytes": 56236,
+   "sha256": "87697eb60e6349d92cacfb62c52eecb3425b7fd5ee51ec05fba6edf7a3e492ac"
+  },
+  {
+   "celex": "32024D1589",
+   "date": "2024-06-04",
+   "title": "Commission Implementing Decision (EU) 2024/1589 of 4\u00a0June 2024 on the harmonised standards for condensing units for refrigeration drafted in support of Commission Regulation (EU)\u00a02015/1095",
+   "http_status": 200,
+   "bytes": 18962,
+   "sha256": "bc498768078e40a944072d585c35cf58c1b7b963935f06ed2839f06edb09ca5d"
+  },
+  {
+   "celex": "32024D2387",
+   "date": "2024-09-09",
+   "title": "Commission Implementing Decision (EU) 2024/2387 of 9\u00a0September 2024 on the harmonised standards for EU fertilising products drafted in support of Regulation (EU)\u00a02019/1009 of the European Parliament and the Council",
+   "http_status": 200,
+   "bytes": 15762,
+   "sha256": "a7b0dc522520528240647fda6ebc5df94c1c0914aa80af02ccd7df6c7da39b6f"
+  },
+  {
+   "celex": "32024D2408",
+   "date": "2024-09-13",
+   "title": "Commission Implementing Decision (EU) 2024/2408 of 13\u00a0September 2024 amending Implementing Decision (EU)\u00a02023/1586 as regards harmonised standards for lifting tables, earth-moving machinery, cranes and power operated pedestrian doorsets",
+   "http_status": 200,
+   "bytes": 23747,
+   "sha256": "532b9473820559db32d14fb7e0d949ad2686d12895f93cef521791483ec59c3a"
+  },
+  {
+   "celex": "32024D2599",
+   "date": "2024-10-04",
+   "title": "Commission Implementing Decision (EU) 2024/2599 of 4\u00a0October 2024 amending Commission Implementing Decision (EU)\u00a02023/941 as regards the harmonised standards for personal fall protection equipment, powered filtering respiratory protective devices, footwear, electrically insulating helmets and eye and face protection for occupational use drafted in support of Regulation (EU)\u00a02016/425 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 39747,
+   "sha256": "2c1fd3056e14bd51fbc17b3ebbaf8747b57fee01a415cccc297c1d5a1404d6e6"
+  },
+  {
+   "celex": "32024D2625",
+   "date": "2024-10-08",
+   "title": "Commission Implementing Decision (EU) 2024/2625 of 8\u00a0October 2024 amending Implementing Decision (EU)\u00a02021/1195 as regards harmonised standards for aseptic processing of health care products and clinical performance studies using specimens from human subjects",
+   "http_status": 200,
+   "bytes": 23769,
+   "sha256": "08746a615a95044f91e2f8f53a7924f1fe3bea34db467dec199a873ae3e9e273"
+  },
+  {
+   "celex": "32024D2638",
+   "date": "2024-10-09",
+   "title": "Commission Implementing Decision (EU) 2024/2638 of 9\u00a0October 2024 on the harmonised standards drafted in support of Regulation (EU)\u00a02016/2281 laying down ecodesign requirements for air heating products, cooling products, high temperature process chillers and fan coil units",
+   "http_status": 200,
+   "bytes": 16835,
+   "sha256": "edd4a4769ffdd5afdee2ee22bddac6070c5720be966dec04e7452e27f4704043"
+  },
+  {
+   "celex": "32024D2764",
+   "date": "2024-10-30",
+   "title": "Commission Implementing Decision (EU) 2024/2764 of 30\u00a0October 2024 amending Implementing Decision (EU)\u00a02023/2723 as regards harmonised standards for Edison screw lampholders, boxes and enclosures for electrical accessories, stationary circulation pumps, toilet appliances and electric vehicle conductive charging system",
+   "http_status": 200,
+   "bytes": 28832,
+   "sha256": "ba7190935f65b9bc12d082bd574b12c68bd55f1a67feef044e76c56d08d85367"
+  },
+  {
+   "celex": "32024D2599R(01)",
+   "date": "2024-11-08",
+   "title": "Corrigendum to Commission Implementing Decision (EU)\u00a02024/2599 of 4\u00a0October 2024 amending Commission Implementing Decision (EU)\u00a02023/941 as regards the harmonised standards for personal fall protection equipment, powered filtering respiratory protective devices, footwear, electrically insulating helmets and eye and face protection for occupational use drafted in support of Regulation (EU)\u00a02016/425 of the European Parliament and of the Council (OJ\u00a0L, 2024/2599, 8.10.2024)",
+   "http_status": 200,
+   "bytes": 9558,
+   "sha256": "f4d5deb0f29d236eb4b203ca54aeb43bf907ce6086a6cc80b977a3311301352a"
+  },
+  {
+   "celex": "32024D2909",
+   "date": "2024-11-22",
+   "title": "Commission Implementing Decision (EU) 2024/2909 of 22\u00a0November 2024 on the harmonised standards for gas boilers drafted in support of Regulation (EU) No\u00a0813/2013 and of Delegated Regulation (EU) No\u00a0811/2013",
+   "http_status": 200,
+   "bytes": 21026,
+   "sha256": "704373fa31ae959fc5f2300a52c4c8645d52e521d0e85baded6d5f9b1ffb1757"
+  },
+  {
+   "celex": "32024D2944",
+   "date": "2024-11-28",
+   "title": "Commission Implementing Decision (EU) 2024/2944 of 28\u00a0November 2024 on the harmonised standards for appliances burning gaseous fuels drafted in support of Regulation (EU)\u00a02016/426 of the European Parliament and of the Council and repealing Commission Implementing Decision (EU)\u00a02024/224",
+   "http_status": 200,
+   "bytes": 28613,
+   "sha256": "9b4228f1dff13b14a2911c9c00be5ba0b53dbb08f573540d3b35014d173b6807"
+  },
+  {
+   "celex": "32025D0072",
+   "date": "2025-01-15",
+   "title": "Commission Implementing Decision (EU) 2025/72 of 15\u00a0January 2025 amending Implementing Decision (EU)\u00a02021/936 as regards harmonised standards for household washing machines and household washer-dryers",
+   "http_status": 200,
+   "bytes": 31172,
+   "sha256": "01e00ea04879ee34a21eb5edc782e81a5fecb9a1a2d1fd0e9c71c226031ad4a2"
+  },
+  {
+   "celex": "32025D0138",
+   "date": "2025-01-28",
+   "title": "Commission Implementing Decision (EU) 2025/138 of 28\u00a0January 2025 amending Implementing Decision (EU)\u00a02022/2191 as regards harmonised standards in support of the essential requirements of Directive\u00a02014/53/EU of the European Parliament and of the Council that relate to cybersecurity, for the categories and classes of radio equipment specified in Delegated Regulation (EU)\u00a02022/30",
+   "http_status": 200,
+   "bytes": 27922,
+   "sha256": "583fcb943d4ab22c15dc736c168532885d20b010164c2253ea11160a14a79c25"
+  },
+  {
+   "celex": "32025D0165",
+   "date": "2025-01-30",
+   "title": "Commission Implementing Decision (EU) 2025/165 of 30\u00a0January 2025 on the harmonised standards for pressure equipment drafted in support of Directive\u00a02014/68/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 127542,
+   "sha256": "fe8bdf053b42c430f82a0a8f2e138a0d99f998c92993b57655f0b1dad19fd2e8"
+  },
+  {
+   "celex": "32025D0286",
+   "date": "2025-02-13",
+   "title": "Commission Implementing Decision (EU) 2025/286 of 13\u00a0February 2025 amending Implementing Decision (EU)\u00a02023/941 as regards the harmonised standards for hearing protectors, personal fall protection equipment and eye and face protection equipment, drafted in support of Regulation (EU)\u00a02016/425 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 27303,
+   "sha256": "54c776a69f332c091af476340fe9b4ae529347b976c0fccd95897e8be7d54fe5"
+  },
+  {
+   "celex": "32025D0337",
+   "date": "2025-02-20",
+   "title": "Commission Implementing Decision (EU) 2025/337 of 20\u00a0February 2025 on the harmonised standards for pyrotechnic articles drafted in support of Directive\u00a02013/29/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 36400,
+   "sha256": "980bce3e6402bd357d2e6e78bb9bc66909069b0c542e68da18cf0dfa6439e5b7"
+  },
+  {
+   "celex": "32025D0375",
+   "date": "2025-02-26",
+   "title": "Commission Implementing Decision (EU) 2025/375 of 26\u00a0February 2025 amending Implementing Decision (EU)\u00a02021/1402 as regards harmonised standards for gas meters and gas volume conversion devices drafted in support of Directive\u00a02014/32/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 21669,
+   "sha256": "0cacda871551be3f8c53408da80a92e554423df786a09a35ec27a53bdb9c2ff8"
+  },
+  {
+   "celex": "32025D0681",
+   "date": "2025-04-08",
+   "title": "Commission Implementing Decision (EU) 2025/681 of 8\u00a0April 2025 amending Implementing Decision (EU)\u00a02021/1182 as regards harmonised standards for medical gloves for single use, sterilization of medical devices and patient handling equipment used in ambulances",
+   "http_status": 200,
+   "bytes": 25904,
+   "sha256": "4ba26946225e48cad97ef0d7d69318521eac9aed4def16f5f2683694872e94d6"
+  },
+  {
+   "celex": "32025D0679",
+   "date": "2025-04-08",
+   "title": "Commission Implementing Decision (EU) 2025/679 of 8\u00a0April 2025 amending Implementing Decision (EU)\u00a02021/1195 as regards harmonised standards for sterilization of medical devices",
+   "http_status": 200,
+   "bytes": 23207,
+   "sha256": "52308a48cffbc2dd7b509bb8ac16b417943437d4ea43e05e2efca8b2fb7c2838"
+  },
+  {
+   "celex": "32025D0895",
+   "date": "2025-05-14",
+   "title": "Commission Implementing Decision (EU) 2025/895 of 14\u00a0May 2025 amending Implementing Decision (EU)\u00a02023/941 as regards the harmonised standards for hearing protectors, personal fall protection equipment, mountaineering equipment, knee protectors, protective clothing against tick bites and electrically insulating helmets, drafted in support of Regulation (EU)\u00a02016/425 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 34687,
+   "sha256": "4237bafb197267f9927183365a3e8005f04f26643baa1d41211fa6f378dfdd5c"
+  },
+  {
+   "celex": "32025D0893",
+   "date": "2025-05-14",
+   "title": "Commission Implementing Decision (EU) 2025/893 of 14\u00a0May 2025 amending Implementing Decision (EU)\u00a02022/2191 as regards harmonised standards for digital enhanced cordless telecommunications devices, short range devices, satellite systems, broadband and wideband data transmission systems, international mobile telecommunication systems, aeronautical and meteorological radars, 5 and\u00a06\u00a0GHz\u00a0WAS/RLAN equipment, wireless digital video links, and advanced surface movement guidance and control systems",
+   "http_status": 200,
+   "bytes": 56169,
+   "sha256": "0ca3fde3abac02c43393a2107c1086956c99dade788bbbb890ec198a23d559f4"
+  },
+  {
+   "celex": "32025D1457",
+   "date": "2025-07-16",
+   "title": "Commission Implementing Decision (EU) 2025/1457 of 16\u00a0July 2025 amending Implementing Decision (EU)\u00a02023/2723 as regards the withdrawal of the reference to harmonised standard EN 60335-2-60:2003 on particular requirements for whirlpool baths and whirlpool spas, and as regards the publication with restriction of the reference to harmonised standards EN 60335-1:2012 on general requirements for household and similar electrical appliances, as well as EN 60335-2-27:2013 on particular requirements for appliances for skin exposure to ultraviolet and infrared radiation",
+   "http_status": 200,
+   "bytes": 34040,
+   "sha256": "100a7a45bb08d96e52a65eb97001ba793798e7f339040963a9e075288c607484"
+  },
+  {
+   "celex": "32025D1488",
+   "date": "2025-07-22",
+   "title": "Commission Implementing Decision (EU) 2025/1488 of 22\u00a0July 2025 amending Implementing Decision (EU)\u00a02023/2723 as regards harmonised standards for flat flexible cables and charging cables for electric vehicles",
+   "http_status": 200,
+   "bytes": 22229,
+   "sha256": "ea04cc2574cc4c9c0482d9f1e481a19bceb5b49a801f70b87f7bfccbe3aab229"
+  },
+  {
+   "celex": "32025D1741",
+   "date": "2025-08-13",
+   "title": "Commission Implementing Decision (EU) 2025/1741 of 13\u00a0August 2025 amending Implementing Decision (EU)\u00a02022/2191 as regards harmonised standards for wireless digital video links, satellite earth stations and systems, base stations and short range devices",
+   "http_status": 200,
+   "bytes": 28922,
+   "sha256": "057f2b9579a26e4c0f2ca9e8018e25cb2bbe3d59266a730d7226453e260e95a6"
+  },
+  {
+   "celex": "32025D1740",
+   "date": "2025-08-13",
+   "title": "Commission Implementing Decision (EU) 2025/1740 of 13\u00a0August 2025 amending Implementing Decision (EU)\u00a02023/1586 as regards harmonised standards for lifts, firefighting and rescue service vehicles, application equipment for coating materials, cranes, hoists, aircraft ground support equipment, supply and circulation equipment for liquid coating materials, power operated doors and gates, garden equipment, food processing equipment and welding equipment",
+   "http_status": 200,
+   "bytes": 32979,
+   "sha256": "116d795abc5398255848eb5ec0f0cc43dcb3ad58db70ed18773ca86381c0e1c8"
+  },
+  {
+   "celex": "32025D1785",
+   "date": "2025-09-09",
+   "title": "Commission Implementing Decision (EU) 2025/1785 of 9\u00a0September 2025 amending Implementing Decision (EU)\u00a02023/740 as regards the harmonised standards for certain ride-on toys (wave rollers) drafted in support of Directive\u00a02009/48/EC of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 26881,
+   "sha256": "9fa1f578812173cedaa638e054c38d50b312237daf0605b7fe7bf2bc9012eeca"
+  },
+  {
+   "celex": "32025D1793",
+   "date": "2025-09-10",
+   "title": "Commission Implementing Decision (EU) 2025/1793 of 10\u00a0September 2025 amending Implementing Decision (EU)\u00a02024/2944 as regards harmonised standards for domestic cooking appliances burning gas, safety and control devices for gas burners and gas burning appliances, thermoelectric flame supervision devices, gas-fired central heating boilers and automatic vent valves for gas burners and gas burning appliances",
+   "http_status": 200,
+   "bytes": 27048,
+   "sha256": "7da2ddd220f365ce92985b77fca6a55783f4bb9661fcd1fcde6591f102cc6a78"
+  },
+  {
+   "celex": "32025D1810",
+   "date": "2025-09-11",
+   "title": "Commission Implementing Decision (EU) 2025/1810 of 11\u00a0September 2025 amending Implementing Decision (EU)\u00a02022/1668 as regards harmonised standards on application equipment for coating materials, machinery for supply and circulation of liquid coating materials, explosion suppression systems and automatic electrostatic application systems for ignitable liquid coating materials",
+   "http_status": 200,
+   "bytes": 26347,
+   "sha256": "a8787aa412122e7798396965374678b83cc28cc5986151beb470d45faf6aa582"
+  },
+  {
+   "celex": "32025D1939",
+   "date": "2025-09-24",
+   "title": "Commission Implementing Decision (EU) 2025/1939 of 24\u00a0September 2025 amending Implementing Decision (EU)\u00a02021/1402 as regards harmonised standards for thermal energy meters drafted in support of Directive\u00a02014/32/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 25784,
+   "sha256": "472c2a0fa6601c9c3a70e2a6668121e8a39e02a019021e3d3806fec7476b53e9"
+  },
+  {
+   "celex": "32025D2078",
+   "date": "2025-10-17",
+   "title": "Commission Implementing Decision (EU) 2025/2078 of 17\u00a0October 2025 amending Implementing Decision (EU)\u00a02021/1182 as regards harmonised standards for surgical clothing and drapes, medical face masks and sterilizers for medical purposes",
+   "http_status": 200,
+   "bytes": 24880,
+   "sha256": "cfaf837daad295c66bc6ab85d6d5f1563a1e400db2a1eeb91d349b6ef2d6e4a0"
+  },
+  {
+   "celex": "32025D2499",
+   "date": "2025-12-09",
+   "title": "Commission Implementing Decision (EU) 2025/2499 of 9\u00a0December 2025 amending Implementing Decision (EU)\u00a02022/2191 as regards harmonised standards for short range devices and mobile communication on board aircraft systems",
+   "http_status": 200,
+   "bytes": 26093,
+   "sha256": "85715de83945831c3f8c76cab05a81d8b7ab75150310575de1e7ba8c94b104ab"
+  },
+  {
+   "celex": "32025D2519",
+   "date": "2025-12-15",
+   "title": "Commission Implementing Decision (EU) 2025/2519 of 15\u00a0December 2025 amending Implementing Decision (EU)\u00a02023/740 as regards harmonised standards for olfactory board games, cosmetic kits and gustative games and on migration of certain elements from toys",
+   "http_status": 200,
+   "bytes": 21680,
+   "sha256": "4369bb5cc200c98b18439c54ba716049895e9a3fc2237f644741b89d06654545"
+  },
+  {
+   "celex": "32026D0079",
+   "date": "2026-01-12",
+   "title": "Commission Implementing Decision (EU) 2026/79 of 12\u00a0January 2026 amending Commission Implementing Decision (EU)\u00a02025/165 as regards harmonised standards for seamless steel tubes, butt-welding pipe fittings, copper and copper alloys, unfired pressure vessels, flanges and their joints, industrial valves, and safety devices for protection against excessive pressure, drafted in support of Directive\u00a02014/68/EU of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 38255,
+   "sha256": "403715b36235fb5d1290f0ebde913aabe189c0c83daeb120b4fd83be5ec4a7eb"
+  },
+  {
+   "celex": "32026D0153",
+   "date": "2026-01-23",
+   "title": "Commission Implementing Decision (EU) 2026/153 of 23\u00a0January 2026 on the harmonised standards for welding equipment drafted in support of Commission Regulation (EU)\u00a02019/1784",
+   "http_status": 200,
+   "bytes": 15817,
+   "sha256": "a1df190bfc203d3b58a385a963888fa4843b3fbc65dc9128e3038f86ecc12f4c"
+  },
+  {
+   "celex": "32026D0193",
+   "date": "2026-01-28",
+   "title": "Commission Implementing Decision (EU) 2026/193 of 28\u00a0January 2026 amending Implementing Decision (EU)\u00a02021/1182 as regards harmonised standards for neurosurgical implants, biological evaluation of medical devices, clinical investigation of medical devices for human subjects, non-active surgical implants, sterilization of health care products, biocompatibility evaluation of breathing gas pathways in healthcare applications and small-bore connectors for liquids and gases in healthcare applications",
+   "http_status": 200,
+   "bytes": 28416,
+   "sha256": "c32cdae11d00d919db80d47cab4c4b08665f7204146a120b75f1428ab56d7709"
+  },
+  {
+   "celex": "32026D0197",
+   "date": "2026-01-28",
+   "title": "Commission Implementing Decision (EU) 2026/197 of 28\u00a0January 2026 amending Implementing Decision (EU)\u00a02021/1195 as regards harmonised standards for sterilization of health care products and information supplied by the manufacturer (labelling)",
+   "http_status": 200,
+   "bytes": 23778,
+   "sha256": "f1074af8347a7c1bbec4cf49746e608011490bc59b1931aa10ca0c634243361e"
+  },
+  {
+   "celex": "32026D0284",
+   "date": "2026-02-06",
+   "title": "Commission Implementing Decision (EU) 2026/284 of 6\u00a0February 2026 amending Implementing Decision (EU)\u00a02019/451 on the harmonised standards for construction products drafted in support of Regulation (EU) No\u00a0305/2011 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 32835,
+   "sha256": "6e1f50cb743db5828a3c43b78286c4adece9b7b07a65e150fa33119be9796748"
+  },
+  {
+   "celex": "32026D0375",
+   "date": "2026-02-20",
+   "title": "Commission Implementing Decision (EU) 2026/375 of 20\u00a0February 2026 on harmonised standards drafted in support of Regulation (EC) No\u00a0765/2008 of the European Parliament and of the Council setting out the requirements for accreditation",
+   "http_status": 200,
+   "bytes": 15211,
+   "sha256": "a6f4e70854aa77b1f5eb20cc375fdc37e564e7fbad469a06208fb622d9e85f07"
+  },
+  {
+   "celex": "32025D1810R(01)",
+   "date": "2026-03-03",
+   "title": "Corrigendum to Commission Implementing Decision (EU)\u00a02025/1810 of 11\u00a0September 2025 amending Implementing Decision (EU)\u00a02022/1668 as regards harmonised standards on application equipment for coating materials, machinery for supply and circulation of liquid coating materials, explosion suppression systems and automatic electrostatic application systems for ignitable liquid coating materials (OJ\u00a0L, 2025/1810, 12.9.2025)",
+   "http_status": 200,
+   "bytes": 5234,
+   "sha256": "d8b8f78b4e86a4ac40b41d2c7f48c7951c1b4fbd3ca5c3259e53d1a30c8d2800"
+  },
+  {
+   "celex": "32021D0076R(02)",
+   "date": "2026-03-05",
+   "title": "Corrigendum to Commission Implementing Decision (EU)\u00a02021/76 of 26\u00a0January 2021 on harmonised standards for lifts and safety components for lifts drafted in support of Directive\u00a02014/33/EU of the European Parliament and of the Council (OJ\u00a0L\u00a027, 27.1.2021)",
+   "http_status": 200,
+   "bytes": 5023,
+   "sha256": "37e32bbc7654d0483015a791201e1cb750593e6cb61da09d4bcd2119fbf2a0a9"
+  },
+  {
+   "celex": "32026D0546",
+   "date": "2026-03-12",
+   "title": "Commission Implementing Decision (EU) 2026/546 of 12\u00a0March 2026 amending Implementing Decision (EU)\u00a02023/1586 as regards harmonised standards for packaging machines, rough-terrain trucks, food processing machinery, cranes, cableway installations, agricultural and forestry machinery, lifts, rescue tools, hand-held tools, equipment in railway applications, aircraft ground support equipment, earth-moving machinery and refuse collection vehicles and correcting that Decision",
+   "http_status": 200,
+   "bytes": 49226,
+   "sha256": "2eeabcc8b7ac0933d0e2375b1149c1fcebc68998beec4849019ed5a989579697"
+  },
+  {
+   "celex": "32026D0550",
+   "date": "2026-03-12",
+   "title": "Commission Implementing Decision (EU) 2026/550 of 12\u00a0March 2026 amending Implementing Decision (EU)\u00a02022/1954 as regards harmonised standards on power measurements and declarations for electric marine propulsion and on protection from falling overboard and means of reboarding",
+   "http_status": 200,
+   "bytes": 24070,
+   "sha256": "229acf4f6eef75efafe9469dcc7d966e5cda104cc53773339736b98bea9eba2e"
+  },
+  {
+   "celex": "32025D2519R(01)",
+   "date": "2026-03-13",
+   "title": "Corrigendum to Commission Implementing Decision (EU)\u00a02025/2519 of 15\u00a0December 2025 amending Implementing Decision (EU)\u00a02023/740 as regards harmonised standards for olfactory board games, cosmetic kits and gustative games and on migration of certain elements from toys (OJ\u00a0L, 2025/2519, 16.12.2025)",
+   "http_status": 200,
+   "bytes": 5125,
+   "sha256": "264e1a4cac4e7fd9b09c4836fb9866ae9792fd03241434b29a3a597e7797debe"
+  },
+  {
+   "celex": "32026D0760",
+   "date": "2026-04-01",
+   "title": "Commission Implementing Decision (EU) 2026/760 of 1\u00a0April 2026 amending Implementing Decision (EU)\u00a02021/1182 as regards harmonised standards for sterilizers for medical purposes \u2013 small steam sterilizers, stainless steel steam boilers and electroacoustics \u2013 hearing aids",
+   "http_status": 200,
+   "bytes": 19615,
+   "sha256": "4f76040c54ceea5a909e44487aef49f07c5602f138497c441113620a2661d098"
+  },
+  {
+   "celex": "32026D1231",
+   "date": "2026-06-11",
+   "title": "Commission Implementing Decision (EU) 2026/1231 of 11\u00a0June 2026 amending Implementing Decision (EU)\u00a02021/1182 as regards harmonised standards for biological evaluation of medical devices, symbols to be used with information to be supplied by the manufacturer, medical electrical equipment, transfusion equipment for medical use, ophthalmic optics, non-active surgical implants, washer-disinfectors, prosthetics and sharps injury protection",
+   "http_status": 200,
+   "bytes": 44962,
+   "sha256": "b2e87375a72e7a69bfe859f14447985618bae781ea3a37de311a5c267160e629"
+  },
+  {
+   "celex": "32026D1279",
+   "date": "2026-06-12",
+   "title": "Commission Implementing Decision (EU) 2026/1279 of 12\u00a0June 2026 on harmonised standards for personal protective equipment drafted in support of Regulation (EU)\u00a02016/425 of the European Parliament and of the Council and repealing Commission Implementing Decision (EU)\u00a02023/941",
+   "http_status": 200,
+   "bytes": 144723,
+   "sha256": "9d2d20be802fd41859bc731940ad521711d287b7d78cb3dc74ecb66789ff981a"
+  },
+  {
+   "celex": "32026D1231R(01)",
+   "date": "2026-06-22",
+   "title": "Corrigendum to Commission Implementing Decision (EU)\u00a02026/1231 of 11\u00a0June 2026 amending Implementing Decision (EU)\u00a02021/1182 as regards harmonised standards for biological evaluation of medical devices, symbols to be used with information to be supplied by the manufacturer, medical electrical equipment, transfusion equipment for medical use, ophthalmic optics, non-active surgical implants, washer-disinfectors, prosthetics and sharps injury protection (OJ\u00a0L, 2026/1231, 17.6.2026)",
+   "http_status": 200,
+   "bytes": 5228,
+   "sha256": "ea384c8ad70600fdcfd7f257389d20eede83d9d629058dc8a4b112181408c357"
+  },
+  {
+   "celex": "32026D1736",
+   "date": "2026-07-14",
+   "title": "Commission Implementing Decision (EU) 2026/1736 of 14\u00a0July 2026 on harmonised standards for digital product passports drafted in support of Regulation (EU)\u00a02024/1781 of the European Parliament and of the Council",
+   "http_status": 200,
+   "bytes": 18007,
+   "sha256": "c3bae856b94439a01b3f2868bd8b86c13005165dd9d5591c21ed1d753e1bb1fd"
+  },
+  {
+   "celex": "32026D1750",
+   "date": "2026-07-20",
+   "title": "Commission Implementing Decision (EU) 2026/1750 of 20\u00a0July 2026 on harmonised standards EN\u00a017476:2021 on LPG vapour pressure appliances incorporating a horizontal cartridge in the chassis and EN\u00a0497:2022 on multi purpose boiling burners for outdoor use drafted in support of Regulation (EU)\u00a02016/426 of the European Parliament and the Council",
+   "http_status": 200,
+   "bytes": 21001,
+   "sha256": "4abc02be34391e2c104b8f1bde1e803b0a6598260dede86c468e4910991bc67f"
+  },
+  {
+   "celex": "32026D1717",
+   "date": "2026-07-20",
+   "title": "Commission Implementing Decision (EU) 2026/1717 of 20\u00a0July 2026 on the harmonised standards for gas water heaters drafted in support of Regulation (EU)\u00a0No\u00a0814/2013 and of Delegated Regulation (EU)\u00a0No\u00a0812/2013",
+   "http_status": 200,
+   "bytes": 18529,
+   "sha256": "2cbf46db5c265dc3eb911a9ee7e3fc0657a646a0fd266c8cb76255693333f2a8"
+  }
+ ]
+}
