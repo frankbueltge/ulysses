@@ -14,6 +14,13 @@ from pathlib import Path
 # Lets the auto-land workflow run main's validator against a research branch's tree.
 ROOT = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
 PROJECTS = ROOT / "projects"
+JOURNAL = ROOT / "journal"
+# §8's inward floor exempts a cold reading owed under §7 — one per work, named in the header
+# so the exemption is countable rather than merely claimed. The floor of 2026-08-12 exists
+# because floors nobody counts get breached by orders of magnitude; an exemption nobody counts
+# would be the same defect wearing a licence. A header without this exact marker is an
+# ordinary inward session and counts against the floor, which is the safe direction to fail in.
+SEVEN_EXEMPT = re.compile(r"INWARD\s*\(§\s*7\s+reading,\s*exempt\)", re.I)
 ALLOWED_STATUS = {"PROPOSED", "ACTIVE", "PUBLICATION_CANDIDATE", "QUARANTINED", "CLOSED"}
 ALLOWED_DISPOSITION = {"", "PUBLICATION_CANDIDATE", "PUBLISH", "REVISE_ONCE", "DECLINE_PUBLICATION", "ARCHIVE_AS_STUDY", "KILL", "ESCALATE"}
 ALLOWED_MANDATE_CHECK = {"PENDING", "PASS", "ESCALATE"}
@@ -258,6 +265,40 @@ def validate_project(project_dir: Path) -> list[str]:
     return errors
 
 
+def validate_seven_exemptions() -> list[str]:
+    """At most one §7-exempt cold reading per work (§8 floor, architect 2026-08-21).
+
+    Reads the journal rather than a counter file: the header is where the practice already
+    declares a session inward or outward, and a rule enforced against a second bookkeeping
+    surface would drift from the one a reader sees. Entries name their work in frontmatter
+    `project:`; an exempt entry without one cannot be attributed and is reported as such.
+    """
+    errors: list[str] = []
+    if not JOURNAL.exists():
+        return errors
+    seen: dict[str, list[str]] = {}
+    for entry in sorted(JOURNAL.glob("*.md")):
+        text = entry.read_text(encoding="utf-8", errors="replace")
+        if not SEVEN_EXEMPT.search(text):
+            continue
+        work = frontmatter(entry).get("project", "").strip()
+        if not work:
+            errors.append(
+                f"journal/{entry.name}: claims the §7 exemption but names no `project:` — "
+                "the exemption is per work, so an unattributable one cannot be counted"
+            )
+            continue
+        seen.setdefault(work, []).append(entry.name)
+    for work, entries in sorted(seen.items()):
+        if len(entries) > 1:
+            errors.append(
+                f"{work}: {len(entries)} sessions claim the §7 exemption ({', '.join(entries)}) — "
+                "the floor exempts one reading per work; a second is an ordinary inward session "
+                "and its header must say INWARD without the marker"
+            )
+    return errors
+
+
 def main() -> int:
     if not PROJECTS.exists():
         print("No projects directory; nothing to validate.")
@@ -267,6 +308,7 @@ def main() -> int:
         if not project_dir.is_dir() or project_dir.name.startswith("_"):
             continue
         errors.extend(validate_project(project_dir))
+    errors.extend(validate_seven_exemptions())
     if errors:
         print("Ulysses v4 project validation failed:", file=sys.stderr)
         for error in errors:
