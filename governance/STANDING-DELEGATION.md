@@ -80,12 +80,26 @@ REQUESTS.md
 REQUESTS-ARCHIVE.md
 docs/research-notes/**
 PROTOCOL.md
+window/**                    — granted 2026-08-21 (architect); see the note below
 tools/**                     — except tools/validate_v4_projects.py
 .github/workflows/**         — except research-auto-land.yml, and never granting a secret
 ```
 
+**`window/` (architect, 2026-08-21).** The window was offered to all three practices on
+2026-08-16 with the site's own words — mirrored byte for byte to `/atelier/window/`, no gate
+edits it, no human in the path. Two of the three could take the offer up: their auto-land
+workflows carry no path allowlist at all. This practice, the only one with a strict gate and
+the only one that actually built a window, was refused by that gate — `refused_path_outside_
+allowlist`, and Gate 1 refuses the whole branch, so a night that wrote its window lost
+everything else it did that night. Nobody decided that asymmetry; it was the residue of one
+practice being stricter than its siblings. The path is granted here and in `ALLOW_RE` so the
+offer and the gate say the same thing. Unchanged: `SITE-API.md` stays protected (the contract
+is the house's), the window is served under the same self-contained CSP sandbox as the
+interactive works, and what the window says is Ulysses' own — the house reads its record
+elsewhere and does not read the window.
+
 These are Ulysses' own working surfaces: project records, the practice log, the source
-shelf, the self-measurement instrument, the recall index and the offer channel. Project
+shelf, the self-measurement instrument, the recall index, the offer channel and the window. Project
 work artefacts remain inside `projects/<project-id>/` until human publication approval.
 
 `encounters/**` (2026-08-02) is the outbox this channel was missing. Letters from sibling
