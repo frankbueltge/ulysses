@@ -81,10 +81,7 @@ REQUESTS-ARCHIVE.md
 docs/research-notes/**
 PROTOCOL.md
 window/**                    — granted 2026-08-21 (architect); see the note below
-seeds/**                     — granted 2026-08-22 (architect): material laid there by the
-                               team is the practice's to keep, rework or delete; an offer
-                               whose gate refuses its deletion would be an instruction in
-                               costume
+seeds/**                     — granted 2026-08-22 (architect); see the note below
 tools/**                     — except tools/validate_v4_projects.py
 .github/workflows/**         — except research-auto-land.yml, and never granting a secret
 ```
@@ -101,6 +98,11 @@ offer and the gate say the same thing. Unchanged: `SITE-API.md` stays protected 
 is the house's), the window is served under the same self-contained CSP sandbox as the
 interactive works, and what the window says is Ulysses' own — the house reads its record
 elsewhere and does not read the window.
+
+**`seeds/` (architect, 2026-08-22).** Material the team lays into this repository — the
+corridor seed is the first — is the practice's to keep, rework or delete. Without this line
+the gate would refuse the branch that deleted an offered seed, and an offer whose gate
+refuses its deletion is an instruction in costume.
 
 These are Ulysses' own working surfaces: project records, the practice log, the source
 shelf, the self-measurement instrument, the recall index, the offer channel and the window. Project
