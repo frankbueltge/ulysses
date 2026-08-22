@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>306 Doors — the corridor</title>
+<style>
+  :root {
+    --paper: #f3ead8; --ink: #14100c; --dead: #c0392b; --turned: #c98d2a; --silent: #7c8db0; --opened: #9aa287;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --serif: Georgia, "Times New Roman", serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #0e0c09; color: var(--paper); font: 15px/1.55 var(--serif); }
+  canvas#c { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+
+  /* ── intro: the entrance, one sentence a human can hold ── */
+  #intro {
+    position: fixed; inset: 0; display: grid; place-items: center; text-align: center;
+    background: radial-gradient(ellipse at 50% 42%, rgba(14,12,9,.28), rgba(14,12,9,.93) 74%);
+    transition: opacity .9s ease; z-index: 30; padding: 24px;
+  }
+  #intro.gone { opacity: 0; pointer-events: none; }
+  #intro .kicker { font-family: var(--mono); font-size: 11px; letter-spacing: .3em; text-transform: uppercase; opacity: .6; margin: 0 0 18px; }
+  #intro h1 { font-weight: 400; font-size: clamp(30px, 5vw, 56px); line-height: 1.12; margin: 0 0 18px; max-width: 17em; }
+  #intro h1 b { font-weight: 700; }
+  #intro p.sub { max-width: 42em; margin: 0 auto 10px; opacity: .82; font-size: clamp(15px, 1.7vw, 18px); }
+  #intro p.cite { font-family: var(--mono); font-size: 11px; opacity: .5; margin: 14px 0 30px; }
+  #enter {
+    font-family: var(--mono); font-size: 14px; font-weight: 700; letter-spacing: .06em;
+    background: var(--paper); color: var(--ink); border: 0; border-radius: 999px; padding: 14px 30px; cursor: pointer;
+  }
+  #enter:hover { opacity: .9; }
+  #intro .hint { font-family: var(--mono); font-size: 11px; opacity: .45; margin-top: 16px; }
+
+  /* ── HUD ── */
+  .hud {
+    position: fixed; top: 18px; left: 18px; z-index: 20;
+    background: rgba(14,12,9,.72); border: 1px solid rgba(243,234,216,.16); border-radius: 10px;
+    padding: 12px 15px; min-width: 190px; backdrop-filter: blur(6px);
+  }
+  .hud h2 { font-family: var(--mono); font-size: 10px; letter-spacing: .22em; text-transform: uppercase; opacity: .55; margin: 0 0 6px; font-weight: 600; }
+  .hud .big { font-family: var(--mono); font-size: 26px; font-weight: 700; }
+  .hud .of { font-family: var(--mono); font-size: 11px; opacity: .5; }
+  .hud-row { display: flex; align-items: baseline; gap: 8px; font-size: 12.5px; padding-top: 4px; }
+  .hud-k { flex: 1; opacity: .8; }
+  .hud-n { font-family: var(--mono); font-weight: 700; }
+  .hud-dot { width: 9px; height: 9px; border-radius: 2px; }
+  .hud-dot.opened { background: var(--opened); } .hud-dot.broken { background: var(--dead); }
+  .hud-dot.turned { background: var(--turned); } .hud-dot.silent { background: var(--silent); }
+  #hud-note { font-size: 11px; opacity: .55; max-width: 200px; margin: 8px 0 0; }
+
+  .actions { position: fixed; top: 18px; right: 18px; z-index: 20; display: flex; gap: 8px; }
+  .actions button {
+    font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: .04em;
+    background: rgba(14,12,9,.72); color: var(--paper); border: 1px solid rgba(243,234,216,.25);
+    border-radius: 999px; padding: 9px 16px; cursor: pointer; backdrop-filter: blur(6px);
+  }
+  .actions button:hover { border-color: var(--paper); }
+  .actions button:disabled { opacity: .4; cursor: default; }
+
+  /* ── the door card ── */
+  .card {
+    position: fixed; left: 50%; bottom: 26px; transform: translateX(-50%); z-index: 25;
+    width: min(660px, calc(100vw - 32px));
+    background: rgba(20,16,12,.92); border: 1px solid rgba(243,234,216,.2); border-left: 4px solid rgba(243,234,216,.3);
+    border-radius: 12px; padding: 18px 22px 16px; backdrop-filter: blur(8px);
+  }
+  .card[hidden] { display: none; }
+  .card.is-broken { border-left-color: var(--dead); }
+  .card.is-turned { border-left-color: var(--turned); }
+  .card.is-silent { border-left-color: var(--silent); }
+  .card.is-opened { border-left-color: var(--opened); }
+  .card-no { font-family: var(--mono); font-size: 10px; letter-spacing: .18em; opacity: .55; margin: 0 0 8px; }
+  .card-binds { margin: 0 0 2px; font-size: 14.5px; }
+  .card-cita { font-family: var(--mono); font-size: 10.5px; opacity: .5; margin: 0 0 10px; }
+  .card-url { font-family: var(--mono); font-size: 13px; overflow-wrap: anywhere; background: rgba(243,234,216,.07); border: 1px dashed rgba(243,234,216,.2); border-radius: 6px; padding: 7px 10px; margin: 0 0 10px; }
+  .card-answer { font-size: 17px; margin: 0 0 6px; }
+  .is-broken .card-answer { color: #e4695a; } .is-turned .card-answer { color: #e0ad55; }
+  .is-silent .card-answer { color: #a4b4d6; }
+  .card-after { font-size: 13px; opacity: .75; margin: 0; }
+  .card-x { position: absolute; top: 10px; right: 12px; background: none; border: 0; color: var(--paper); opacity: .5; font: 12px var(--mono); cursor: pointer; }
+  .card-x:hover { opacity: 1; }
+
+  .prov { position: fixed; bottom: 10px; left: 18px; z-index: 15; font-family: var(--mono); font-size: 9.5px; opacity: .38; max-width: 46em; }
+  @media (max-width: 720px) { .prov { display: none; } .hud { min-width: 150px; } }
+</style>
+</head>
+<body>
+<script type="application/json" id="census">__DATA__</script>
+
+<canvas id="c" aria-label="A hall of 306 doors, one per address the law prints"></canvas>
+
+<div id="intro">
+  <div>
+    <p class="kicker">306 doors · the corridor</p>
+    <h1>The law binds you to documents it does not print.<br /><b>It gives you an address instead.</b></h1>
+    <p class="sub">Every web address printed in binding US federal regulation, as a hall — one door per
+    address. Ahead of you, under the light: the four doors where the law misspells the way to its own
+    reading room. On 14&nbsp;August&nbsp;2026, someone knocked on all 306. <b>One hundred did not open.</b></p>
+    <p class="cite">“matter reasonably available to the class of persons affected thereby …” — 1 CFR 51.1(a)</p>
+    <button id="enter">Enter the hall</button>
+    <p class="hint">scroll to walk · click a door to knock · esc closes the record</p>
+  </div>
+</div>
+
+<div class="hud" role="status">
+  <h2>Your walk</h2>
+  <div><span class="big" id="hud-walked">0</span> <span class="of">of 306 doors</span></div>
+  <div id="hud-rows"></div>
+  <p id="hud-note"></p>
+</div>
+
+<div class="actions">
+  <button id="one">Knock on a door</button>
+  <button id="all">Knock on all 306</button>
+</div>
+
+<article class="card" id="card" hidden aria-live="polite"></article>
+
+<p class="prov">A restaging demonstration. Data, figures and claims: Ulysses,
+projects/2026-08-19-reasonably-available (censuses 2026-08-11 → 2026-08-19, sha256 per source,
+probed 2026-08-14, failures asked twice). All 306 answers are embedded; the page fetches nothing.</p>
+
+<script>__APP__</script>
+</body>
+</html>
