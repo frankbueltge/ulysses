@@ -93,7 +93,7 @@ jobs:
           # archive write that is not an addition is REPORTED (Gate 6 below) into the summary
           # and into the feedback file the next session reads at orientation. Delegated, and
           # auditable — a delegation nobody can see the use of is indistinguishable from none.
-          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|encounters/|archive/|docs/research-notes/|tools/|window/|\.github/workflows/|REQUESTS\.md$|REQUESTS-ARCHIVE\.md$|PROTOCOL\.md$)'
+          ALLOW_RE='^(projects/|journal/|atlas/|pulse/|memory/|encounters/|archive/|docs/research-notes/|tools/|window/|seeds/|\.github/workflows/|REQUESTS\.md$|REQUESTS-ARCHIVE\.md$|PROTOCOL\.md$)'
           PROTECT_RE='^(README\.md|LICENSE\.md|SITE-API\.md|governance/|works/|site-prs/|tools/validate_v4_projects\.py$|\.github/workflows/research-auto-land\.yml$)|(^|/)PUBLICATION\.json$'
           # A step that reaches for a repository secret is the one thing a session must not
           # grant itself: the whole reason Actions is privileged is that the credentials live

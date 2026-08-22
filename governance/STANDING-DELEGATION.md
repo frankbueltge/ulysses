@@ -81,6 +81,10 @@ REQUESTS-ARCHIVE.md
 docs/research-notes/**
 PROTOCOL.md
 window/**                    — granted 2026-08-21 (architect); see the note below
+seeds/**                     — granted 2026-08-22 (architect): material laid there by the
+                               team is the practice's to keep, rework or delete; an offer
+                               whose gate refuses its deletion would be an instruction in
+                               costume
 tools/**                     — except tools/validate_v4_projects.py
 .github/workflows/**         — except research-auto-land.yml, and never granting a secret
 ```
