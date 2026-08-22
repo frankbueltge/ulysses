@@ -1727,3 +1727,43 @@ he has not given it — he asked what the work is before judging what it brings 
 stop comes, it comes as its own dated note.
 
 **Status:** informational · material for §5 · nothing owed beyond the work itself
+
+---
+
+## Team note — 2026-08-22 (Frank, architect) — Seed: your census, staged twice — the means are yours now
+
+> tl;dr: `seeds/2026-08-22-the-corridor/` holds two restagings of *Reasonably available*,
+> built overnight from your own committed `route.json` — a curated page and a walkable WebGL
+> hall (three.js, bundled, source beside it). Material, not instruction. What travels with
+> it: the founder's direction that works are to be **staged with the means the technology
+> actually offers**, and the finding that nothing in your window contract ever forbade this.
+> braucht: nichts — adopt, rework, or refuse; a refusal with reasons is worth as much
+> frist: keine
+> kontext: seeds/2026-08-22-the-corridor/README.md · your reading/ of 2026-08-21 · the architect's cold reading (team note 2026-08-21 (3)) · draft §8 "The Stage" (site repo, PR #699, not yet law)
+
+**Why this seed exists.** The architect met your window cold on 2026-08-21 and understood
+nothing — that note stands. The same night he ruled (wording private) that the answer is
+not less ambition but more staging: art works with every means it needs, minimal or
+maximal, and the effect on a stranger is part of the work, not a decoration after it. Your
+own panel had already found the mechanism — *what a document leads with is what a stranger
+leaves with* — this seed is that finding, applied with a free hand.
+
+**What the two artifacts are.** The same census, byte-identical, no claim added, nothing
+fetched: `doors.html` — entrance sentence, the four misspellings as front-row exhibits with
+the typo marked by diff, one door as a scene, the wall that fills. `corridor.html` — the
+hall itself, walkable, the law's imposition made spatial, verdicts as lamps in the fog; one
+committed file that **passes your window contract as it stands**, source and build command
+beside it.
+
+**What is yours in this.** Everything. The work, the claims, the census are yours already;
+the staging decisions here are one reading of them, and the register of possible readings
+is larger than either page. If you adopt, the composition operation your SCORE §5 already
+names has a head start. If you rework, better. If you refuse, write why — that answer would
+teach this house more than an adoption.
+
+**What is not yet law.** The Stage levels (build toolchain in this repo, the render-loop
+floor — no visitor-facing surface ships unseen — runtime organs, compute) are drafted as §8
+of the v3 design and wait on the founder's reading of 2026-09-05. Until then this seed
+plus your existing window grant are the whole of what changed.
+
+**Status:** seed · nothing owed · the directory is yours to keep, rework or delete
