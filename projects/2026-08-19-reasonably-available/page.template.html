@@ -26,7 +26,32 @@ body{
 h1{font-size:2.1rem; line-height:1.1; margin:0 0 .3rem; letter-spacing:-.01em}
 h2{font-size:1.05rem; margin:2.75rem 0 .7rem; letter-spacing:.06em; text-transform:uppercase;
    font-weight:600; color:var(--dim)}
-.standfirst{color:var(--dim); font-size:1.02rem; margin:0 0 2rem}
+h3{font-size:1.12rem; margin:2rem 0 .5rem; font-weight:600; line-height:1.3}
+.kicker{margin:0 0 .5rem; color:var(--dim); font-size:.8rem; letter-spacing:.1em;
+        text-transform:uppercase}
+.lead{font-size:1.16rem; line-height:1.45; margin:0 0 .9rem}
+.lead:last-of-type{margin-bottom:0}
+
+/* the exhibit: the four misspellings, met before the apparatus */
+#exhibit{margin:2.6rem 0 0; padding:1.4rem 1.3rem .4rem; background:var(--card);
+         border:1px solid var(--rule); border-radius:2px}
+#exhibit h2{margin-top:0}
+.typo{margin:0 0 1.15rem; padding:0 0 1.15rem; border-bottom:1px solid var(--rule)}
+.typo:last-child{border-bottom:0; padding-bottom:.2rem}
+.typo .where{font-size:.8rem; letter-spacing:.07em; text-transform:uppercase; color:var(--dim);
+             margin:0 0 .4rem}
+.typo .line{margin:0 0 .3rem; display:flex; gap:.6rem; align-items:baseline}
+.typo .verdict{font-size:.8rem; letter-spacing:.06em; color:var(--miss); white-space:nowrap;
+               font-family:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace}
+.typo .verdict.good{color:var(--ok)}
+.typo .u{flex:1}
+mark{background:transparent; color:var(--miss); font-weight:700; padding:0 .06em;
+     box-shadow:inset 0 -.45em 0 color-mix(in srgb, var(--miss) 16%, transparent)}
+mark.good{color:var(--ok); box-shadow:inset 0 -.45em 0 color-mix(in srgb, var(--ok) 16%, transparent)}
+/* Where the difference is a character that is absent, there is nothing to colour — the mark
+   is a bar standing in the gap, and it takes the colour of the line it stands in. */
+mark.gap{box-shadow:none; border-left:2px solid var(--miss); margin-left:-1px; padding:0}
+mark.gap.good{border-left-color:var(--ok)}
 p{margin:0 0 1rem}
 a{color:inherit}
 .mono{font-family:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace; font-size:.86em;
@@ -96,13 +121,25 @@ summary{cursor:pointer; color:var(--dim)}
 <body>
 <div class="wrap">
 
+<p class="kicker">306 addresses · asked on 14 August 2026</p>
 <h1>Reasonably available</h1>
-<p class="standfirst">Federal regulation may bind you to a document it does not print — on one
-condition. These are the 306 addresses the law prints for those documents. Each was asked on
-14 August 2026, and anything that did not answer was asked again.</p>
+<p class="lead">A federal agency can make a document legally binding on you without printing it.
+The condition is that the document be <em>reasonably available</em> to you. What the law prints,
+instead of the document, is an address.</p>
+<p class="lead">This page is those addresses — all 306 of them — and what each one said when it
+was asked.</p>
 
-<p>United States law lets an agency make a document binding without printing it. The rule that
-permits this states the condition in five words, and the condition is about you:</p>
+<section id="exhibit">
+<h2>Four of them are misspelled</h2>
+<p id="canon-lead"></p>
+<div id="typos"></div>
+<p class="note" id="typo-note"></p>
+</section>
+
+<h2>The condition</h2>
+
+<p>The rule that permits an agency to bind you to a document it does not print states the
+condition in five words, and the condition is about you:</p>
 
 <blockquote>
 “matter <b>reasonably available</b> to the class of persons affected thereby is deemed published
@@ -112,8 +149,10 @@ in the Federal Register when incorporated by reference therein”
 
 <p>Reasonably available to <em>you</em>. So the law prints an address. Across the 290 sections of
 the Code of Federal Regulations headed <em>Incorporation by reference</em>, it prints 1,018 of
-them — 306 distinct addresses, on 203 hosts. Below, they are handed to you one at a time, with
-what came back when each was asked.</p>
+them — 306 distinct addresses, on 203 hosts. The four above are among them. Below, the rest are
+handed to you one at a time, with what came back when each was asked.</p>
+
+<h2>Ask them yourself</h2>
 
 <div class="deck">
   <div class="controls">
@@ -141,23 +180,50 @@ what came back when each was asked.</p>
 number here was typed in by hand.</p>
 <table id="ledger"><tbody></tbody></table>
 
-<h2>Three things the addresses do not tell you</h2>
-<p>An address that answers is not the end of the question. The same corpus was read three more
-ways, and each reading is folded into the cards above.</p>
+<h2>Three things an address cannot tell you</h2>
+<p>An address that answers is not the end of the question. The same 290 sections were read three
+more ways, each by its own census, and each reading is folded into the cards above. They are
+three separate investigations and they are set out here one at a time.</p>
 
-<table id="deeper"><tbody></tbody></table>
+<h3>One. Where the section’s own warrant is printed</h3>
+<p>A section that incorporates a document should say, underneath itself, which Federal Register
+document authorised it. That citation is the paper trail: it is how you find out who decided to
+bind you, and when. Some sections do not print one.</p>
+<table id="deep1"><tbody></tbody></table>
+<p class="note">Where the citation is printed above the section rather than under it, it ends —
+in all 76 cases — with the words <em>unless otherwise noted</em>. That is the law declining to
+say that the note covers the section beneath it. <b>What it means:</b> for roughly a quarter of
+the corpus, the document that licensed the incorporation is not named where a reader of the
+section would look for it.</p>
 
-<p class="note">A citation printed above a section rather than under it ends, in all 76 such
-cases, with the words <em>unless otherwise noted</em> — the law declining to say that the note
-covers the section beneath it.</p>
+<h3>Two. Whether reopening a section moves the edition it freezes</h3>
+<p>An incorporation freezes a document at one edition. If the agency later amends the section —
+for any reason — it has the page open in front of it. This census asked what happened to the
+frozen year on those occasions.</p>
+<table id="deep2"><tbody></tbody></table>
+<p class="note"><b>What it means:</b> being amended is not the same as being brought up to date.
+In two of every five sections that were reopened and can be read at both ends, the agency
+touched the page and left the edition where it was.</p>
 
-<h2>Four addresses, printed as the law prints them</h2>
-<p>Among the 306 is the government’s own page listing where incorporated material may be
-inspected. It is printed, over and over, spelled so that it resolves. It is also printed like
-this:</p>
-<table id="typos"><tbody></tbody></table>
-<p class="note">Each of those four is the only address its section prints. A reader who follows
-the law’s own instruction from one of those sections arrives nowhere.</p>
+<h3>Three. Whether a public archive holds what a failing address points at</h3>
+<p>If the law’s address does not answer, the obvious next question is whether a copy survives
+anywhere. A public web archive was asked, for the addresses that failed and — as a control — for
+the addresses that did not.</p>
+<table id="deep3"><tbody></tbody></table>
+<p class="note"><b>What it means:</b> the archive usually holds something, and what it holds for
+a failing address is old. The control is the comparison that makes that legible: for addresses
+that still answer, the newest capture is weeks old; for addresses that have failed, it is years.
+A capture’s body was never fetched, so a captured error page counts here as a copy — these
+figures are an upper bound. Whatever else those 950 days measure, they measure time
+passing.</p>
+
+<h2>Is anyone obliged to notice?</h2>
+<p>That is the question this page could not answer when it was first read by strangers, and it
+is the right one. An address in the Code of Federal Regulations goes dead. Who has to know?</p>
+<p id="p51-lead"></p>
+<blockquote id="p51-removal"></blockquote>
+<p id="p51-close"></p>
+<p class="note" id="p51-note"></p>
 
 <footer>
 <p><b>How this was made, and how to check it.</b> The corpus is the 290 CFR sections headed
@@ -167,7 +233,9 @@ contacted. Each was requested once; every non-2xx address was requested a second
 60 seconds later, and only an address that failed twice is recorded as failing. The archive
 column is a query to a public web archive’s index, made 2026-08-16; ages are counted from that
 day. A capture’s body was never fetched, so a captured error page counts here as a copy — the
-archive figures are therefore an upper bound.</p>
+archive figures are therefore an upper bound. The reading of 1 CFR part 51 is the one thing here
+no census produced: the part was fetched once from the same API at the same issue date, committed
+whole beside this page, and counted; its hash is below with the rest.</p>
 <p><b>What this is not.</b> One network, one day, one vantage point. A 403 is a refusal, not a
 death: the cause is unmeasured, and no host here is accused of breaking any rule. Nothing on this
 page says a standard cannot be obtained — only what the address the law prints did when it was
@@ -393,22 +461,29 @@ asked.</p>
   var a200 = armA.filter(function(a){ return a.arch.last200; });
   var c200 = armC.filter(function(a){ return a.arch.last200; });
 
-  var P = document.querySelector("#deeper tbody");
-  row(P, "<b>The citation under the section.</b> Sections whose own warrant is printed above them, not under them",
+  /* Three investigations, three tables. They were one table until 2026-08-22, and three
+     cold readers in three lost their footing at exactly that point: "three separate
+     investigations compressed into a table, and each one wants a paragraph it doesn't get." */
+  var P1 = document.querySelector("#deep1 tbody");
+  row(P1, "Sections whose own warrant is printed above them, not under them",
         offloaded, "read 2026-08-17; " + (T.sections - offloaded) + " carry one of their own");
-  row(P, "Sections whose printed citation is older than the newest edition they bind",
+  row(P1, "Sections whose printed citation is older than the newest edition they bind",
         crossing, "the document that licensed the incorporation predates it");
-  row(P, "<b>Nine years of amendments.</b> Amendments to these sections since " + D.before_date,
+
+  var P2 = document.querySelector("#deep2 tbody");
+  row(P2, "Amendments to these sections since " + D.before_date,
         T.amendments.toLocaleString("en"), T.reopened + " of " + T.sections + " sections were reopened at least once");
-  row(P, "Reopened sections readable at both ends that left the edition exactly where it was",
+  row(P2, "Reopened sections readable at both ends that left the edition exactly where it was",
         stayed + " of " + scorable.length, pct(stayed, scorable.length) +
         " — the page was amended and the year it freezes did not move");
-  row(P, "Median newest edition bound by a section never amended since " + D.before_date,
+  row(P2, "Median newest edition bound by a section never amended since " + D.before_date,
         median(untouched), untouched.length + " sections");
-  row(P, "<b>The copy of last resort.</b> Failing addresses naming a document that a public archive has captured",
+
+  var P3 = document.querySelector("#deep3 tbody");
+  row(P3, "Failing addresses naming a document that a public archive has captured",
         a200.length + " of " + armA.length, pct(a200.length, armA.length) +
         ", median age " + median(a200.map(function(a){ return a.arch.age; })) + " days");
-  row(P, "The same, for addresses that are alive (control)",
+  row(P3, "The same, for addresses that are alive (control)",
         c200.length + " of " + armC.length, pct(c200.length, armC.length) +
         ", median age " + median(c200.map(function(a){ return a.arch.age; })) + " days");
 
@@ -422,20 +497,102 @@ asked.</p>
     return /archives\.gov/.test(a.u) && klass(a) !== "ok" &&
            /ibr|federal-regster|crf/.test(a.u);
   });
-  var Y = document.querySelector("#typos tbody");
+  /* Where a misspelling differs from the address it was meant to be. Computed by common
+     prefix and suffix over the two strings, so the marked span is derived from the corpus
+     and not chosen by hand — the same rule as every other figure here. */
+  function diff(bad, good){
+    var i = 0, n = Math.min(bad.length, good.length);
+    while (i < n && bad[i] === good[i]) i++;
+    var j = 0;
+    while (j < n - i && bad[bad.length - 1 - j] === good[good.length - 1 - j]) j++;
+    return {pre: bad.slice(0, i), bad: bad.slice(i, bad.length - j),
+            good: good.slice(i, good.length - j), post: bad.slice(bad.length - j)};
+  }
+  /* The correctly-spelled form a misspelling is nearest to, by that same measure — over the
+     printed forms, not the addresses. The law prints the same page with and without a scheme;
+     comparing form to form keeps the marked span the spelling and nothing else. */
+  function nearest(a){
+    var b = a.printed[0], best = null, bestFar = Infinity;
+    canon.forEach(function(c){
+      c.printed.forEach(function(form){
+        var d = diff(b, form), far = d.bad.length + d.good.length;
+        if (far < bestFar){ bestFar = far; best = {form: form, s1: c.s1}; }
+      });
+    });
+    return best;
+  }
+  function marked(pre, mid, post, cls){
+    return '<code class="mono">' + esc(pre) +
+      (mid ? '<mark class="' + cls + '">' + esc(mid) + "</mark>"
+           : '<mark class="gap ' + cls + '"></mark>') + esc(post) + "</code>";
+  }
+
+  var Y = document.getElementById("typos");
   typo.forEach(function(a){
-    var tr = Y.insertRow();
-    tr.insertCell().innerHTML = esc(a.secs.join(", "));
-    var c = tr.insertCell();
-    c.innerHTML = '<code class="mono">' + esc(a.printed[0]) + "</code>";
-    var d = tr.insertCell(); d.className = "n";
-    d.innerHTML = '<span class="note">' + (a.s1 || "no answer") + "</span>";
+    var good = nearest(a), d = diff(a.printed[0], good.form);
+    var el = document.createElement("div");
+    el.className = "typo";
+    el.innerHTML =
+      '<p class="where">' + esc(a.secs.join(", ")) +
+        (a.secs.length === 1 ? " — the only address the section prints" : "") + "</p>" +
+      '<p class="line"><span class="u">' + marked(d.pre, d.bad, d.post, "") +
+        '</span><span class="verdict">' + (a.s1 || "no answer") + "</span></p>" +
+      '<p class="line"><span class="u">' + marked(d.pre, d.good, d.post, "good") +
+        '</span><span class="verdict good">' + (good.s1 || "") + "</span></p>";
+    Y.appendChild(el);
   });
-  document.querySelectorAll("#typos")[0].previousElementSibling.innerHTML =
+  document.getElementById("canon-lead").innerHTML =
     "Among the 306 is the government’s own page listing where incorporated material may be " +
-    "inspected. It is printed <b>" + canon.reduce(function(s,a){ return s + a.occ; }, 0) +
+    "inspected — the reading room the law sends you to when the document is not online. It is " +
+    "printed <b>" + canon.reduce(function(s, a){ return s + a.occ; }, 0) +
     "</b> times, spelled so that it resolves. It is also printed " +
-    plural(typo.length, "time", "times") + " like this:";
+    plural(typo.length, "time", "times") + " like this. Beneath each, in green, the address it " +
+    "was meant to be:";
+  var onlyAddr = typo.filter(function(a){ return a.secs.length === 1 && a.occ === 1; }).length;
+  document.getElementById("typo-note").innerHTML =
+    "Each of those " + typo.length + " is the only address its section prints — " + onlyAddr +
+    " of " + typo.length + " appear once in the whole corpus. A reader who follows the law’s " +
+    "own instruction from one of those sections arrives nowhere. Nothing else on this page is " +
+    "as small as a missing letter.";
+
+  /* ---------- is anyone obliged to notice? ---------- */
+  /* The only reading here that no closed census produced. 1 CFR part 51 is the part that
+     governs incorporation by reference and sets the condition quoted at the top. It was
+     fetched once, committed, and counted; the counts below are read off that file. */
+  var L51 = D.part51, terms = L51.terms;
+  var silent = Object.keys(terms).filter(function(t){ return terms[t] === 0; });
+  document.getElementById("p51-lead").innerHTML =
+    "The part of the Code of Federal Regulations that governs incorporation by reference is " +
+    "<b>1 CFR part 51</b> — " + L51.sections.length + " sections, " +
+    L51.words.toLocaleString("en") + " words, the part whose first section is quoted at the top " +
+    "of this page. It was read on " + L51.fetched + ", at the same eCFR issue date the corpus was " +
+    "enumerated from. In " +
+    "all of it, the word <b>address</b> does not occur. Neither does <em>URL</em>, " +
+    "<em>internet</em>, <em>website</em>, <em>online</em> or <em>link</em>: " +
+    terms_total_phrase(L51.terms_total, silent.length) +
+    " It does set a clock, once an incorporation is in force:";
+  document.getElementById("p51-removal").innerHTML =
+    esc(L51.removal_clause) + "<cite>1 CFR 51.11(b) · eCFR, issue date " + L51.issue_date + "</cite>";
+  document.getElementById("p51-close").innerHTML =
+    "Five working days, in writing, to the Director of the Federal Register — when the " +
+    "<em>regulation</em> goes. The address is not the subject of any clock in this part, " +
+    "because the part does not know that there is one. The single duty it lays on an agency " +
+    "about getting hold of the material at all falls at the moment of incorporation, on the " +
+    "preamble of the final rule: <em>“" + esc(L51.obtain_clause.replace(/^\(\d+\)\s*/, "")
+      .replace(/;$/, "")) + "”</em> (1 CFR 51.5(b)(2)). It is discharged once, at the front, " +
+    "and nothing in part 51 asks again.";
+  document.getElementById("p51-note").innerHTML =
+    "<b>The limit of that reading.</b> It is a reading of one part, at one issue date — not a " +
+    "claim that no duty exists anywhere in United States law. What it establishes is narrower " +
+    "and checkable in a single request: the part that sets the condition, and that says what an " +
+    "agency must do to satisfy it, never mentions the thing its sections actually print. " +
+    "The file it was read from is listed with the others below, with its hash.";
+
+  function terms_total_phrase(total, zeros){
+    return total === 0
+      ? "none of the " + zeros + " terms searched for appears anywhere in the part."
+      : "the " + zeros + " terms searched for appear " + total + " times between them.";
+  }
 
   /* ---------- provenance ---------- */
   /* The count is read off the sources themselves. It was typed here once, as "six", and

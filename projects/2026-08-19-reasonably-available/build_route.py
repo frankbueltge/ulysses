@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Join five landed censuses into one route file for the window page.
+"""Join the landed censuses — and one reading of the governing part — into one route file.
 
-Nothing here fetches anything. Every input is a file already committed by a closed
-study, and every input's sha256 is written into the output so a reader can check
-that the page was built from the record and not from a retelling of it.
+Nothing here fetches anything. Seven inputs are files already committed by a closed
+study; the eighth, `data/part51.json`, is this project's own reading of 1 CFR part 51,
+committed with the raw bytes it was read from. Every input's sha256 is written into the
+output so a reader can check that the page was built from the record and not from a
+retelling of it.
 
     python3 build_route.py
 
@@ -15,6 +17,7 @@ Inputs (all relative to this file):
   ../2026-08-17-the-warrant-under-the-section/data/warrants.json the citation under each section
   ../2026-08-18-when-the-law-reopens-the-page/data/moves.json    nine years of amendments
   ../2026-08-18-when-the-law-reopens-the-page/data/rescore.json  the hand-check that corrected them
+  data/part51.json                                               1 CFR part 51, read 2026-08-22
 
 Output: window/route.json
 
@@ -47,6 +50,10 @@ SOURCES = {
     "warrants": "../2026-08-17-the-warrant-under-the-section/data/warrants.json",
     "moves": "../2026-08-18-when-the-law-reopens-the-page/data/moves.json",
     "rescore": "../2026-08-18-when-the-law-reopens-the-page/data/rescore.json",
+    # The one input no closed study produced: 1 CFR part 51 read on 2026-08-22 by
+    # `read_part51.py`, to answer what the six censuses could not. Committed with the raw
+    # bytes beside it and hashed here like every other source.
+    "part51": "data/part51.json",
 }
 
 
@@ -187,6 +194,9 @@ def main() -> None:
         },
         "sections": sections,
         "addresses": addresses,
+        # The part that governs all of the above, read as a document rather than as a rule:
+        # what it says about the thing its sections print, and the two clocks it does set.
+        "part51": data["part51"],
     }
 
     dest = HERE / "window" / "route.json"

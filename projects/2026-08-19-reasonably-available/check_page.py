@@ -45,6 +45,15 @@ EXPECT = {
     "archC_n": 81, "archC_200": 78, "archC_age": 21.5,
     "typos": 4,
     "canon_occ": 240,   # 5 + 119 + 55 + 61 correctly-spelled printings that resolve
+    # 1 CFR part 51, read 2026-08-22 by `read_part51.py` — the one input on this page that
+    # no closed census produced. Checked against the committed reading, and the quotation
+    # against the part itself.
+    "p51_words": 1344,
+    "p51_terms": 11,
+    "p51_removal": (
+        "If a regulation containing an incorporation by reference fails to become effective "
+        "or is removed from the Code of Federal Regulations, the agency must notify the "
+        "Director of the Federal Register in writing of that fact within 5 working days"),
 }
 
 failures: list[str] = []
@@ -93,26 +102,66 @@ def main() -> None:
         check("ledger occurrences in note", f"{EXPECT['occurrences']:,}" in ledger[2][2], True)
         check("ledger hosts in note", f"{EXPECT['hosts']} hosts" in ledger[2][2], True)
 
-        # --- the three deeper readings ---
-        deeper = page.eval_on_selector_all(
-            "#deeper tr", "rows => rows.map(r => [...r.cells].map(c => c.innerText.trim()))")
-        check("warrants offloaded", int(deeper[0][1]), EXPECT["offloaded"])
-        check("amendments", int(deeper[2][1].replace(",", "")), EXPECT["amendments"])
-        check("reopened in note", f"{EXPECT['reopened']} of 290" in deeper[2][2], True)
-        check("stayed", deeper[3][1], f"{EXPECT['stayed']} of {EXPECT['scorable']}")
-        check("archive arm A", deeper[5][1], f"{EXPECT['archA_200']} of {EXPECT['archA_n']}")
-        check("archive arm A age", f"{EXPECT['archA_age']} days" in deeper[5][2], True)
-        check("archive control", deeper[6][1], f"{EXPECT['archC_200']} of {EXPECT['archC_n']}")
-        check("archive control age", f"{EXPECT['archC_age']} days" in deeper[6][2], True)
+        # --- the three deeper readings, one table each since 2026-08-22 ---
+        def rows(sel):
+            return page.eval_on_selector_all(
+                f"{sel} tr", "rows => rows.map(r => [...r.cells].map(c => c.innerText.trim()))")
 
-        # --- the four misspellings ---
-        check("misspelled routes", page.eval_on_selector_all("#typos tr", "r => r.length"),
+        d1, d2, d3 = rows("#deep1"), rows("#deep2"), rows("#deep3")
+        check("warrants offloaded", int(d1[0][1]), EXPECT["offloaded"])
+        check("amendments", int(d2[0][1].replace(",", "")), EXPECT["amendments"])
+        check("reopened in note", f"{EXPECT['reopened']} of 290" in d2[0][2], True)
+        check("stayed", d2[1][1], f"{EXPECT['stayed']} of {EXPECT['scorable']}")
+        check("archive arm A", d3[0][1], f"{EXPECT['archA_200']} of {EXPECT['archA_n']}")
+        check("archive arm A age", f"{EXPECT['archA_age']} days" in d3[0][2], True)
+        check("archive control", d3[1][1], f"{EXPECT['archC_200']} of {EXPECT['archC_n']}")
+        check("archive control age", f"{EXPECT['archC_age']} days" in d3[1][2], True)
+        # Each investigation says what it means, or it is a table again.
+        for sel in ("#deep1", "#deep2", "#deep3"):
+            meaning = page.eval_on_selector(sel, "e => e.nextElementSibling.innerText")
+            check(f"{sel} states what it means", "What it means:" in meaning, True)
+
+        # --- the four misspellings: the exhibit, not the appendix ---
+        check("misspelled routes", page.eval_on_selector_all("#typos .typo", "r => r.length"),
               EXPECT["typos"])
-        lead = page.eval_on_selector("#typos", "e => e.previousElementSibling.innerText")
+        lead = page.inner_text("#canon-lead")
         check("correctly-spelled printings", f"printed {EXPECT['canon_occ']} times" in lead, True)
         check("every misspelling is a 404",
-              page.eval_on_selector_all("#typos tr td.n", "c => c.map(x => x.innerText.trim())"),
+              page.eval_on_selector_all("#typos .typo .verdict:not(.good)",
+                                        "c => c.map(x => x.innerText.trim())"),
               ["404"] * EXPECT["typos"])
+        check("every misspelling is shown against a 200",
+              page.eval_on_selector_all("#typos .typo .verdict.good",
+                                        "c => c.map(x => x.innerText.trim())"),
+              ["200"] * EXPECT["typos"])
+        # The marked span is the difference and nothing else: strip the marks from the bad
+        # line and from the good line and the two must become the same string.
+        pairs = page.eval_on_selector_all("#typos .typo", """els => els.map(e => {
+            const [bad, good] = [...e.querySelectorAll('code')];
+            const strip = c => [...c.childNodes]
+                .filter(n => n.nodeName !== 'MARK').map(n => n.textContent).join('');
+            return [strip(bad), strip(good), bad.innerText, good.innerText]; })""")
+        check("the mark isolates the difference", [p[0] == p[1] for p in pairs],
+              [True] * EXPECT["typos"])
+        check("and the two lines are not identical", [p[2] != p[3] for p in pairs],
+              [True] * EXPECT["typos"])
+
+        # --- the exhibit is met before the apparatus ---
+        order = page.evaluate("""() => {
+            const y = s => document.querySelector(s).getBoundingClientRect().top + scrollY;
+            return {exhibit: y('#exhibit'), deck: y('.deck'), ledger: y('#ledger')}; }""")
+        check("misspellings before the walk", order["exhibit"] < order["deck"], True)
+        check("the walk before the ledger", order["deck"] < order["ledger"], True)
+
+        # --- the reading of the governing part ---
+        p51 = page.inner_text("#p51-lead") + " " + page.inner_text("#p51-close")
+        check("part 51 word count", f"{EXPECT['p51_words']:,} words" in p51, True)
+        check("part 51 says nothing of addresses",
+              f"none of the {EXPECT['p51_terms']} terms searched for" in p51, True)
+        check("the five-day clock is quoted verbatim",
+              EXPECT["p51_removal"] in page.inner_text("#p51-removal"), True)
+        check("and its limit is stated", "not a claim that no duty exists anywhere"
+              in page.inner_text("#p51-note"), True)
         # The bare heading sits on 263 of the 290 sections and a card that repeats it says
         # nothing; the 27 headings that differ do say something and are kept.
         page.click("#all")

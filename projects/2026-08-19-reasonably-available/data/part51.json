@@ -1,0 +1,35 @@
+{
+ "part": "1 CFR part 51",
+ "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-11/title-1.xml?part=51",
+ "issue_date": "2026-08-11",
+ "fetched": "2026-08-22",
+ "sha256": "7234190a05bb3ae9a6eb59e8cf806f9fcd6bf9eef4cfa9585cc988df083656b0",
+ "bytes": 10611,
+ "words": 1344,
+ "sections": [
+  "51.1",
+  "51.11",
+  "51.3",
+  "51.5",
+  "51.7",
+  "51.9"
+ ],
+ "terms": {
+  "address": 0,
+  "URL": 0,
+  "uniform resource": 0,
+  "internet": 0,
+  "website": 0,
+  "web site": 0,
+  "online": 0,
+  "hyperlink": 0,
+  "link": 0,
+  "web page": 0,
+  "webpage": 0
+ },
+ "terms_total": 0,
+ "removal_clause": "(b) If a regulation containing an incorporation by reference fails to become effective or is removed from the Code of Federal Regulations, the agency must notify the Director of the Federal Register in writing of that fact within 5 working days of the occurrence.",
+ "change_clause": "(a) An agency that seeks approval for a change to a publication that is approved for incorporation by reference must—",
+ "condition_clause": "(a) Section 552(a) of title 5, United States Code, provides, in part, that “matter reasonably available to the class of persons affected thereby is deemed published in the Federal Register when incorporated by reference therein with the approval of the Director of the Federal Register.”",
+ "obtain_clause": "(2) Discuss, in the preamble of the final rule, the ways that the materials it incorporates by reference are reasonably available to interested parties and how interested parties can obtain the materials;"
+}
