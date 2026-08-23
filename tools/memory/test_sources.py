@@ -40,6 +40,9 @@ NOT_RECORDS = {
     "governance": "delegation documents, read directly and rarely",
     "memory": "the index itself, plus dossiers which are indexed",
     "pulse": "derived activity data, not prose",
+    "seeds": "material offered to the practice from outside, not a record it wrote; each seed's "
+             "README says the directory may be deleted freely, and REQUESTS.md holds the durable "
+             "note that it was offered",
     "tools": "code",
 }
 
