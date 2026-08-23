@@ -1,0 +1,201 @@
+{
+  "probe": "recovery of a deleted row from the base act as published",
+  "sample_rule": "first 6 number-only deletions in held-out document order whose base act is present in the corpus",
+  "n_instructions": 6,
+  "rows_looked_up": 6,
+  "rows_found_in_base_as_published": 4,
+  "results": [
+    {
+      "deleting_act": "32020D1779",
+      "date": "2020-11-27",
+      "instruction": "row 14 is deleted;",
+      "base_act": "32019D1956",
+      "base_published": "2019-11-26",
+      "rows_deleted": [
+        "14"
+      ],
+      "resolved_in_base_as_published": {
+        "14": "EN 60598-2-22:2014 Luminaires - Part 2-22: Particular requirements - Luminaires for emergency"
+      },
+      "found": 1,
+      "of": 1,
+      "intervening_amending_acts_in_corpus": [
+        "32020D1146",
+        "32020D1146R(01)"
+      ],
+      "intervening_count": 2
+    },
+    {
+      "deleting_act": "32020D1779",
+      "date": "2020-11-27",
+      "instruction": "row 17 is deleted;",
+      "base_act": "32019D1956",
+      "base_published": "2019-11-26",
+      "rows_deleted": [
+        "17"
+      ],
+      "resolved_in_base_as_published": {
+        "17": "EN 60947-2:2017 Low-voltage switchgear and controlgear - Part 2: Circuit-breakers IEC 60947-2:"
+      },
+      "found": 1,
+      "of": 1,
+      "intervening_amending_acts_in_corpus": [
+        "32020D1146",
+        "32020D1146R(01)"
+      ],
+      "intervening_count": 2
+    },
+    {
+      "deleting_act": "32020D1779",
+      "date": "2020-11-27",
+      "instruction": "row 44 is deleted;",
+      "base_act": "32019D1956",
+      "base_published": "2019-11-26",
+      "rows_deleted": [
+        "44"
+      ],
+      "resolved_in_base_as_published": {
+        "44": "NOT FOUND"
+      },
+      "found": 0,
+      "of": 1,
+      "intervening_amending_acts_in_corpus": [
+        "32020D1146",
+        "32020D1146R(01)"
+      ],
+      "intervening_count": 2
+    },
+    {
+      "deleting_act": "32021D1015",
+      "date": "2021-06-17",
+      "instruction": "row 11 is deleted;",
+      "base_act": "32019D1956",
+      "base_published": "2019-11-26",
+      "rows_deleted": [
+        "11"
+      ],
+      "resolved_in_base_as_published": {
+        "11": "EN 60335-2-85:2003 Household and similar electrical appliances - Safety - Part 2-85: Particula"
+      },
+      "found": 1,
+      "of": 1,
+      "intervening_amending_acts_in_corpus": [
+        "32020D1146",
+        "32020D1146R(01)",
+        "32020D1779"
+      ],
+      "intervening_count": 3
+    },
+    {
+      "deleting_act": "32021D1015",
+      "date": "2021-06-17",
+      "instruction": "row 18 is deleted;",
+      "base_act": "32019D1956",
+      "base_published": "2019-11-26",
+      "rows_deleted": [
+        "18"
+      ],
+      "resolved_in_base_as_published": {
+        "18": "EN 60947-5-1:2017 Low-voltage switchgear and controlgear - Part 5-1: Control circuit devices a"
+      },
+      "found": 1,
+      "of": 1,
+      "intervening_amending_acts_in_corpus": [
+        "32020D1146",
+        "32020D1146R(01)",
+        "32020D1779"
+      ],
+      "intervening_count": 3
+    },
+    {
+      "deleting_act": "32021D1015",
+      "date": "2021-06-17",
+      "instruction": "row 33 is deleted;",
+      "base_act": "32019D1956",
+      "base_published": "2019-11-26",
+      "rows_deleted": [
+        "33"
+      ],
+      "resolved_in_base_as_published": {
+        "33": "NOT FOUND"
+      },
+      "found": 0,
+      "of": 1,
+      "intervening_amending_acts_in_corpus": [
+        "32020D1146",
+        "32020D1146R(01)",
+        "32020D1779"
+      ],
+      "intervening_count": 3
+    }
+  ],
+  "out_of_range_post_hoc": {
+    "note": "POST-HOC, not pre-registered. Conservative: counts only row numbers larger than every row the base act printed.",
+    "deletion_instructions": 62,
+    "instructions_with_an_unresolvable_row": 6,
+    "row_numbers": 155,
+    "row_numbers_beyond_the_base_act_as_published": 11,
+    "share_of_rows_unresolvable": 0.07096774193548387,
+    "cases": [
+      {
+        "deleting_act": "32020D1779",
+        "date": "2020-11-27",
+        "base_act": "32019D1956",
+        "base_max_row_as_published": 28,
+        "rows_beyond": [
+          "44"
+        ]
+      },
+      {
+        "deleting_act": "32021D1015",
+        "date": "2021-06-17",
+        "base_act": "32019D1956",
+        "base_max_row_as_published": 28,
+        "rows_beyond": [
+          "33"
+        ]
+      },
+      {
+        "deleting_act": "32022D0621",
+        "date": "2022-04-07",
+        "base_act": "32019D0436",
+        "base_max_row_as_published": 42,
+        "rows_beyond": [
+          "90"
+        ]
+      },
+      {
+        "deleting_act": "32022D0713",
+        "date": "2022-05-04",
+        "base_act": "32019D1956",
+        "base_max_row_as_published": 28,
+        "rows_beyond": [
+          "34",
+          "39",
+          "41",
+          "68",
+          "76",
+          "96"
+        ]
+      },
+      {
+        "deleting_act": "32022D0713",
+        "date": "2022-05-04",
+        "base_act": "32019D1956",
+        "base_max_row_as_published": 28,
+        "rows_beyond": [
+          "30"
+        ]
+      },
+      {
+        "deleting_act": "32023D0098",
+        "date": "2023-01-09",
+        "base_act": "32019D1956",
+        "base_max_row_as_published": 28,
+        "rows_beyond": [
+          "54"
+        ]
+      }
+    ]
+  }
+}

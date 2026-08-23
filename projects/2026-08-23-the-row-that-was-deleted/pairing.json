@@ -1,0 +1,70 @@
+{
+  "note": "POST-HOC. A deletion is PAIRED when the same act inserts a row with the same number plus a letter suffix (row 14 deleted, row 14a inserted) — an edition update, in which the standard is named by the incoming row.",
+  "row_numbers_deleted": 155,
+  "paired_edition_update": 131,
+  "unpaired_removal": 24,
+  "share_unpaired": 0.15483870967741936,
+  "acts_with_an_unpaired_removal": 12,
+  "examples": [
+    {
+      "act": "32022D0498",
+      "date": "2022-03-22",
+      "row": "5"
+    },
+    {
+      "act": "32022D0713",
+      "date": "2022-05-04",
+      "row": "30"
+    },
+    {
+      "act": "32022D1029",
+      "date": "2022-06-28",
+      "row": "7"
+    },
+    {
+      "act": "32022D1199",
+      "date": "2022-07-11",
+      "row": "13"
+    },
+    {
+      "act": "32022D1199",
+      "date": "2022-07-11",
+      "row": "14"
+    },
+    {
+      "act": "32022D1199",
+      "date": "2022-07-11",
+      "row": "16"
+    },
+    {
+      "act": "32023D2392",
+      "date": "2023-10-03",
+      "row": "66"
+    },
+    {
+      "act": "32023D2669",
+      "date": "2023-11-27",
+      "row": "1"
+    },
+    {
+      "act": "32024D1198",
+      "date": "2024-04-19",
+      "row": "359"
+    },
+    {
+      "act": "32024D1198",
+      "date": "2024-04-19",
+      "row": "461"
+    },
+    {
+      "act": "32024D1329",
+      "date": "2024-05-13",
+      "row": "89"
+    },
+    {
+      "act": "32024D1329",
+      "date": "2024-05-13",
+      "row": "90"
+    }
+  ]
+}
