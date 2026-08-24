@@ -1,0 +1,62 @@
+{
+ "note": "The guard fixed in PREREGISTRATION.md \u00a74: every 10th resolved held-out row, read by hand against the stored HTML of the printing act and of the deleting act. Precision floor 0.90.",
+ "read_on": "2026-08-24",
+ "cases": [
+  {
+   "printed_by": "32019D0919",
+   "annex": "I",
+   "row": "5",
+   "reference": "EN ISO 7840:2018",
+   "cell_read": ">5. EN ISO 7840:2018",
+   "deleted_by": "32021D1407",
+   "instruction_read": "entries No 5, 6, 9 and 10 are deleted",
+   "correct": true
+  },
+  {
+   "printed_by": "32019D0919",
+   "annex": "I",
+   "row": "7",
+   "reference": "EN ISO 8666:2018",
+   "cell_read": ">7. EN ISO 8666:2018",
+   "deleted_by": "32022D1029",
+   "instruction_read": "entry 7 is deleted",
+   "correct": true
+  },
+  {
+   "printed_by": "32020D0553",
+   "annex": "I",
+   "row": "7",
+   "reference": "EN 301 908-18 V13.1.1",
+   "cell_read": ">7. EN 301 908-18 V13.1.1 IMT cellular networks; Harmonised Standard for access to radio spectrum; Part 18",
+   "deleted_by": "32022D0498",
+   "instruction_read": "entry 7 is deleted",
+   "correct": true
+  },
+  {
+   "printed_by": "32023D1586",
+   "annex": "I",
+   "row": "104",
+   "reference": "EN IEC 62061:2021",
+   "cell_read": ">104. EN IEC 62061:2021 Safety of machinery - Functional safety of safety-related control systems",
+   "deleted_by": "32024D1329",
+   "instruction_read": "rows 103, 104, 106, 112, 125, 173, 502, 542, 550 and 551 are deleted",
+   "correct": true
+  },
+  {
+   "printed_by": "32023D0941",
+   "annex": "I",
+   "row": "35",
+   "reference": "EN 360:2002",
+   "cell_read": ">35. EN 360:2002 Personal protective equipment against falls from a height",
+   "deleted_by": "32024D2599",
+   "instruction_read": "rows 35, 54, 108, 139, 182, 183 and 184 are deleted",
+   "correct": true
+  }
+ ],
+ "sample_slots": 6,
+ "distinct_cases": 5,
+ "correct": 5,
+ "precision": 1.0,
+ "floor": 0.9,
+ "verdict": "PASS"
+}
