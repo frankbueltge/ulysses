@@ -1,0 +1,5854 @@
+{
+ "source_manifest_fetched_utc": "2026-08-25T04:32:46Z",
+ "corrigenda_parsed": 2569,
+ "corrigenda_with_no_for_read_pair": 675,
+ "no_pair_celex": [
+  "32004R0729R(01)",
+  "32004D0363R(01)",
+  "32004D0364R(01)",
+  "32004D0387R(01)",
+  "32004D0425R(01)",
+  "32004L0040R(01)",
+  "32004R0811R(01)",
+  "32004R0812R(01)",
+  "32004R0813R(01)",
+  "31994D0438R(01)",
+  "32004D0426R(01)",
+  "32004D0427R(01)",
+  "32004D0428R(01)",
+  "32004D0429R(01)",
+  "32004D0430R(01)",
+  "32004D0431R(01)",
+  "32004D0432R(01)",
+  "32004D0433R(01)",
+  "32004D0434R(01)",
+  "32004D0435R(01)",
+  "32004D0436R(01)",
+  "32004D0437R(01)",
+  "32004D0438R(01)",
+  "32004D0439R(01)",
+  "32004D0440R(01)",
+  "32004R0882R(01)",
+  "32004D0446R(01)",
+  "32004D0447R(01)",
+  "32004D0448R(01)",
+  "32004D0449R(01)",
+  "32004D0450R(01)",
+  "32004D0451R(01)",
+  "32004D0465R(01)",
+  "32004D0466R(01)",
+  "32004D0845R(01)",
+  "32004D0846R(01)",
+  "32004D0848R(01)",
+  "32004L0041R(01)",
+  "32004L0048R(01)",
+  "32004L0074R(01)",
+  "32004L0075R(01)",
+  "32004L0076R(01)",
+  "32004R0847R(01)",
+  "32004D0379R(01)",
+  "32004D0380R(01)",
+  "32004D0381R(01)",
+  "32004D0382R(01)",
+  "32004D0385R(01)",
+  "32004D0386R(01)",
+  "32004D0452R(01)",
+  "32004D0453R(01)",
+  "32004D0454R(01)",
+  "32004D0455R(01)",
+  "32004D0456R(01)",
+  "32004D0457R(01)",
+  "32004D0458R(01)",
+  "32004D0459R(01)",
+  "32004D0460R(01)",
+  "32004D0461R(01)",
+  "32004D0462R(01)",
+  "32004D0463R(01)",
+  "32004D0464R(01)",
+  "32004D0884R(01)",
+  "32004H0383R(01)",
+  "32004H0384R(01)",
+  "32004H0394R(01)",
+  "32004L0052R(01)",
+  "32004L0054R(01)",
+  "32004R0883R(01)",
+  "32004R0656R(01)",
+  "32004R0855R(01)",
+  "32004R0856R(01)",
+  "32004R0857R(01)",
+  "32004R0858R(01)",
+  "32004R0859R(01)",
+  "32004R0860R(01)",
+  "32004R0861R(01)",
+  "32004R0862R(01)",
+  "32004R0863R(01)",
+  "32004R0864R(01)",
+  "32004R0865R(01)",
+  "32004R0866R(01)",
+  "32004R0867R(01)",
+  "32004D0407(01)R(01)",
+  "32004D0408R(01)",
+  "32004D0409R(01)",
+  "32004D0410R(01)",
+  "32004D0411R(01)",
+  "32004D0412R(01)",
+  "32004D0413R(01)",
+  "32004D0414R(01)",
+  "32004D0415R(01)",
+  "32004D0416R(01)",
+  "32004D0417R(01)",
+  "32004D0418R(01)",
+  "32004D0467R(01)",
+  "32004D0468R(01)",
+  "32004D0469R(01)",
+  "32004D0470R(01)",
+  "32004D0471R(01)",
+  "32004D0472R(01)",
+  "32004D0473R(01)",
+  "32004D0474R(01)",
+  "32004D0475R(01)",
+  "32004D0476R(01)",
+  "32004D0477R(01)",
+  "32004D0478R(01)",
+  "32004D0479R(01)",
+  "32004D0481R(01)",
+  "32004D0482R(01)",
+  "32004D0483R(01)",
+  "32004L0073R(01)",
+  "32004R0809R(01)",
+  "32004R0810R(01)",
+  "32004L0049R(01)",
+  "32004L0050R(01)",
+  "32004L0051R(01)",
+  "32004R0881R(01)",
+  "32004L0026R(01)",
+  "32004L0068R(01)",
+  "32004R0852R(01)",
+  "32004R0853R(01)",
+  "32004R0854R(01)",
+  "32004L0037R(01)",
+  "32004L0038R(01)",
+  "32004R0849R(01)",
+  "32004R0850R(01)",
+  "32004L0078R(01)",
+  "32004R0814R(01)",
+  "32004R0815R(01)",
+  "32004R0816R(01)",
+  "32004R0817R(01)",
+  "32004R0818R(01)",
+  "32004R0819R(01)",
+  "32004R0820R(01)",
+  "32004R1153R(01)",
+  "32004D0344R(01)",
+  "32004D0555R(01)",
+  "32004R1447R(01)",
+  "32004R1458R(01)",
+  "32004B0132R(02)",
+  "32004D0344R(02)",
+  "32004R0379R(01)",
+  "32004R1735R(01)",
+  "32004R1761R(01)",
+  "32004R1101R(01)",
+  "32004R0746R(01)",
+  "32004R2020R(01)",
+  "32003D0452R(01)",
+  "32004B0377R(01)",
+  "32004R2187R(01)",
+  "32004E0848R(01)",
+  "32004R2258R(01)",
+  "32004R2259R(01)",
+  "32005D0078R(01)",
+  "32005D0087R(01)",
+  "32004R1973R(01)",
+  "32004R1937R(01)",
+  "32005D0174R(01)",
+  "32004R2168R(01)",
+  "32004D0436R(02)",
+  "32004D0438R(02)",
+  "32004D0450R(02)",
+  "32004D0454R(02)",
+  "32004B0874R(01)",
+  "32000L0003R(01)",
+  "32005R0645R(01)",
+  "32005R0663R(01)",
+  "32004R1590R(02)",
+  "32005R0718R(01)",
+  "32005Q0520(01)R(01)",
+  "32000L0029R(04)",
+  "32005R0834R(01)",
+  "32005D0465R(01)",
+  "32005R1355R(01)",
+  "32005R1533R(01)",
+  "32005D0722R(01)",
+  "32005R1259R(02)",
+  "32005R1724R(01)",
+  "32005D0759R(01)",
+  "32005R0692R(01)",
+  "32005R1872R(01)",
+  "32005D0629R(01)",
+  "32005R1952R(01)",
+  "32005R1986R(01)",
+  "32005R1719R(01)",
+  "32005B0896R(01)",
+  "32005R1048R(01)",
+  "32005L0035R(02)",
+  "32004R0668R(01)",
+  "32005R0083R(02)",
+  "32006R1040R(01)",
+  "32006D0477R(01)",
+  "32006D0456R(01)",
+  "32006R1083R(01)",
+  "32005R1512R(01)",
+  "32006D0441R(01)",
+  "32006R0742R(01)",
+  "31979L0923R(06)",
+  "32005B0273R(01)",
+  "32006R1924R(01)",
+  "32006R1896R(01)",
+  "32006D1006R(01)",
+  "32006D1007R(01)",
+  "32006R1988R(01)",
+  "32006R1989R(01)",
+  "32006R1990R(01)",
+  "32006R1991R(01)",
+  "32002R1774R(01)",
+  "32006E0998R(01)",
+  "32006R1931R(01)",
+  "32006R1932R(01)",
+  "32006R1933R(01)",
+  "32006R1934R(01)",
+  "32006D1718R(01)",
+  "32006Q1219(02)R(01)",
+  "32006R1984R(03)",
+  "32006R1985R(01)",
+  "32006E1002R(01)",
+  "32006R1966R(01)",
+  "32006R1967R(01)",
+  "32006R1968R(01)",
+  "32006D1004R(01)",
+  "32006R1828R(01)",
+  "32006R1935R(01)",
+  "32006R1936R(01)",
+  "32006R1937R(01)",
+  "32006R1938R(01)",
+  "32006R1939R(01)",
+  "32006R1940R(01)",
+  "32006R1463R(01)",
+  "32006R1961R(01)",
+  "32006R1962R(01)",
+  "32006R1963R(01)",
+  "32006R1964R(01)",
+  "32006R1965R(01)",
+  "32006R1997R(01)",
+  "32006R1993R(01)",
+  "32006R1994R(01)",
+  "32007R0135R(01)",
+  "32006D1903R(01)",
+  "32006R1928R(01)",
+  "32007R0134R(01)",
+  "32006D0970R(01)",
+  "32006D0971R(01)",
+  "32006D0972R(01)",
+  "32006D0973R(01)",
+  "32006D0974R(01)",
+  "32006D0975R(01)",
+  "32006D0976R(01)",
+  "32006D0977R(01)",
+  "32006R1908R(01)",
+  "32007R0041R(02)",
+  "32006D0969R(01)",
+  "32007R0175R(01)",
+  "32007R0041R(03)",
+  "32007R0041R(04)",
+  "32007L0019R(02)",
+  "32007R0372R(01)",
+  "32006D0609R(01)",
+  "32006D0930R(01)",
+  "32006D0963R(01)",
+  "32006L0121R(01)",
+  "32006R1907R(01)",
+  "32006E0998R(02)",
+  "32007D0252R(01)",
+  "32007R0054R(01)",
+  "32007R0613R(01)",
+  "32007R0208R(01)",
+  "32007R0209R(01)",
+  "32007R0743R(01)",
+  "32007B0143R(01)",
+  "32007G0714(01)R(01)",
+  "32007R1086R(01)",
+  "31962R0031(01)R(01)",
+  "32005R1890R(01)",
+  "32007L0054R(01)",
+  "32005L0036R(02)",
+  "32007D0670R(01)",
+  "32007R1303R(01)",
+  "32007R1347R(01)",
+  "32007D0775R(01)",
+  "32007D0787R(01)",
+  "32007L0053R(01)",
+  "32008L0004R(01)",
+  "32006R1927R(01)",
+  "32006R1995R(01)",
+  "32007O0009R(01)",
+  "32008R0283R(01)",
+  "32008B0015R(01)",
+  "32008R0553R(01)",
+  "32008D0269R(01)",
+  "32008D0582(01)R(01)",
+  "32008E0314R(01)",
+  "32008D0474R(01)",
+  "32008R0594R(01)",
+  "32008R0149R(03)",
+  "32008R0971R(01)",
+  "32008R1072R(01)",
+  "32007R1379R(01)",
+  "31995L0045R(02)",
+  "32001R0807R(02)",
+  "31995L0045R(03)",
+  "32008B0238R(01)",
+  "32008B0245R(01)",
+  "31995L0045R(05)",
+  "32008R1285R(01)",
+  "32009R0085R(01)",
+  "32008R0003R(01)",
+  "32009R0142R(01)",
+  "32009R0053R(01)",
+  "32009E0137R(01)",
+  "32009R0271R(01)",
+  "32009L0036R(01)",
+  "32009R0423R(01)",
+  "32009R0407R(01)",
+  "32008R1276R(03)",
+  "32009B0165R(01)",
+  "32009R0428R(03)",
+  "32009R0680R(01)",
+  "32009A1013(01)R(01)",
+  "32009A1013(02)R(01)",
+  "32009A1013(03)R(01)",
+  "32009D0767R(01)",
+  "32009R1112R(01)",
+  "32009D0442R(01)",
+  "32009D0908R(01)",
+  "32010D0075R(01)",
+  "32009R1194R(02)",
+  "32009R0822R(01)",
+  "32010B0117R(01)",
+  "32010R0066R(02)",
+  "32010L0017R(01)",
+  "32008R0555R(03)",
+  "32010R0206R(01)",
+  "32010B0022R(01)",
+  "32010B0331(08)R(01)",
+  "32010R0637R(01)",
+  "32010D0399R(01)",
+  "32010B0117R(02)",
+  "32009R0072R(04)",
+  "32010D0571R(01)",
+  "32010R0665R(01)",
+  "32010R0950R(01)",
+  "32010D0651R(01)",
+  "32010B1222(08)R(01)",
+  "32011R0036R(01)",
+  "32011R0143R(01)",
+  "32009D0870R(01)",
+  "32011R0351R(01)",
+  "32011D0028R(01)",
+  "32011D0033R(01)",
+  "32011D0299R(01)",
+  "32011D0302R(01)",
+  "32011R0503R(01)",
+  "32011R0504R(01)",
+  "32011B0125R(01)",
+  "32011D0323R(01)",
+  "32009R0631R(01)",
+  "32011D0513R(01)",
+  "32008L0048R(05)",
+  "32011D0502R(01)",
+  "32011R0878R(01)",
+  "32010R1061R(03)",
+  "32011R0909R(01)",
+  "32011R1006R(01)",
+  "32010R1061R(04)",
+  "32011B0331(07)R(01)",
+  "32011B0930(01)R(01)",
+  "32011R0540R(03)",
+  "32011R1006R(03)",
+  "32012B0070R(01)",
+  "32009R0560R(03)",
+  "32009R0596R(01)",
+  "32011D0878R(01)",
+  "32011B0930(05)R(01)",
+  "32012B0209(14)R(01)",
+  "32012D0234R(01)",
+  "32012R0351R(01)",
+  "32011B1222(01)R(01)",
+  "32012B0330(06)R(01)",
+  "32012B0330(14)R(01)",
+  "32012B0330(32)R(01)",
+  "32012B0330(34)R(01)",
+  "32012B0330(40)R(01)",
+  "32012B0070R(02)",
+  "32011D0762R(01)",
+  "32012D0424R(01)",
+  "32012R0673R(01)",
+  "32012R0793R(01)",
+  "32012R0794R(01)",
+  "32012R0799R(01)",
+  "32012D0925(02)R(01)",
+  "32012R0771R(01)",
+  "32012R0792R(01)",
+  "32012R1095R(01)",
+  "32012D0119R(01)",
+  "32012R1183R(01)",
+  "32012D1214(01)R(01)",
+  "32013R0051R(01)",
+  "32012D1122(01)R(01)",
+  "32013L0010R(01)",
+  "32013R0349R(01)",
+  "32013D0185R(02)",
+  "32013R0363R(03)",
+  "32013B0102R(01)",
+  "32013R0344R(01)",
+  "32013R0469R(01)",
+  "32012D0830R(01)",
+  "32013B0222(10)R(01)",
+  "32013H0626(01)R(01)",
+  "32013H0626(02)R(01)",
+  "32013R1071R(01)",
+  "32013R1073R(01)",
+  "32013R1074R(01)",
+  "32013R1075R(01)",
+  "32013R0575R(02)",
+  "32013R1363R(01)",
+  "32012D0830R(02)",
+  "32012R0267R(05)",
+  "32012R1081R(01)",
+  "32013R1001R(01)",
+  "32014B0067R(02)",
+  "32014B0328(13)R(01)",
+  "32014B0328(25)R(01)",
+  "32014D0705(02)R(01)",
+  "32014D0705(03)R(01)",
+  "32014R0774R(01)",
+  "32014R0788R(01)",
+  "32014R0866R(01)",
+  "32014R0469R(01)",
+  "32014B0067R(03)",
+  "32014R0540R(02)",
+  "32014R0065R(03)",
+  "32014D0738R(01)",
+  "32014B1217(18)R(01)",
+  "32014B1217(19)R(01)",
+  "32015B0339R(01)",
+  "32015B0331(40)R(01)",
+  "32015B0367R(01)",
+  "32014R0361R(02)",
+  "32012R0978R(02)",
+  "32015R2222R(01)",
+  "32015D1835R(01)",
+  "32015B0331(33)R(01)",
+  "32016B0150R(01)",
+  "32016B0070R(01)",
+  "32015R2446R(01)",
+  "32015R2447R(01)",
+  "32016D0478R(01)",
+  "32016R0466R(01)",
+  "32016R0341R(01)",
+  "32015R2424R(02)",
+  "32016R0071R(01)",
+  "32016D0827R(01)",
+  "32016R0799R(01)",
+  "32015B0519(04)R(01)",
+  "32016H0629(01)R(01)",
+  "32016R1078R(01)",
+  "32016R1075R(01)",
+  "32016D1177R(01)",
+  "32016R0466R(02)",
+  "32016D0478R(02)",
+  "32016R0466R(03)",
+  "32001D0470R(02)",
+  "32016D1970R(01)",
+  "32014R0519R(01)",
+  "32016R1825R(01)",
+  "32017R0128R(01)",
+  "32016G1129(01)R(01)",
+  "32017B0292R(01)",
+  "32017B0317(51)R(01)",
+  "32017R0754R(01)",
+  "32017R0653R(01)",
+  "32016B0624(02)R(01)",
+  "32017R1434R(01)",
+  "32017R1522R(01)",
+  "32016B0624(02)R(02)",
+  "32017B0317(15)R(01)",
+  "32017R2330R(01)",
+  "32017C1229(01)R(01)",
+  "32017B0919(02)R(01)",
+  "32018B0124(01)R(01)",
+  "32018R0303R(01)",
+  "32012R0652R(01)",
+  "32018R0673R(01)",
+  "32018D0706R(01)",
+  "32018R0705R(01)",
+  "32018D0778R(01)",
+  "32018R0774R(01)",
+  "32018R0978R(01)",
+  "32017L2455R(04)",
+  "32018R0659R(01)",
+  "32018R0659R(02)",
+  "32018R0832R(01)",
+  "32017R0227R(01)",
+  "32018R0848R(03)",
+  "32018L1695R(01)",
+  "32016R0044R(01)",
+  "32019R0073R(01)",
+  "32018D0813R(01)",
+  "32018R1922R(01)",
+  "32018R1263R(01)",
+  "32019R0897R(01)",
+  "32014L0045R(04)",
+  "32019Q0425(02)R(01)",
+  "32019R1148R(03)",
+  "32019R1383R(01)",
+  "32019R1726R(01)",
+  "32019R1870R(01)",
+  "32019R1715R(01)",
+  "32018R0848R(05)",
+  "32019R1982R(01)",
+  "32019R1966R(01)",
+  "32019R2117R(02)",
+  "32019D2193R(01)",
+  "32019R2243R(01)",
+  "32019R1776R(08)",
+  "32019D2196R(01)",
+  "32019R2013R(01)",
+  "32019R2014R(01)",
+  "32019R2016R(01)",
+  "32019R2020R(01)",
+  "32019R2021R(01)",
+  "32019R2197R(03)",
+  "32019R2199R(01)",
+  "32020R0217R(01)",
+  "32019R2199R(02)",
+  "32019R1966R(02)",
+  "32020L0362R(01)",
+  "32020B0227R(01)",
+  "32020R0171R(01)",
+  "32020R0706R(01)",
+  "32019R1746R(03)",
+  "32020R1276R(01)",
+  "32020R1683R(01)",
+  "32020R1769R(01)",
+  "32020D1410R(01)",
+  "32020D1532R(01)",
+  "32020D1815R(01)",
+  "32020D1410R(02)",
+  "32020D1410R(03)",
+  "32020D1532R(02)",
+  "32020D1532R(03)",
+  "32020B1126(01)R(01)",
+  "32020C1229(01)R(01)",
+  "32020Y1229(01)R(01)",
+  "32019R1939R(01)",
+  "32020R1749R(02)",
+  "32021R0453R(01)",
+  "32021R0451R(01)",
+  "32021B0417R(01)",
+  "32021R0810R(01)",
+  "32021R0850R(01)",
+  "32019R2018R(05)",
+  "32019R0876R(10)",
+  "32021R1832R(01)",
+  "32021B0331(40)R(01)",
+  "32021B0331(43)R(01)",
+  "32021B1198R(01)",
+  "32021B2038R(01)",
+  "32021R1832R(04)",
+  "32021R2306R(01)",
+  "32022R0001R(01)",
+  "32021D0958R(01)",
+  "32022D0505R(01)",
+  "32022R0558R(01)",
+  "32021R2268R(02)",
+  "32022B0182R(01)",
+  "32021H2279R(01)",
+  "32022Q0519(01)R(01)",
+  "32019R1009R(09)",
+  "32022R0913R(01)",
+  "32022R1159R(02)",
+  "32022B1432R(01)",
+  "32022D1994R(01)",
+  "32022R1439R(01)",
+  "32022R1440R(01)",
+  "32022R1441R(01)",
+  "32022R1288R(01)",
+  "32022R1104R(01)",
+  "32023R0174R(01)",
+  "32022R1193R(01)",
+  "32023D0670R(01)",
+  "32023D0432R(03)",
+  "32023R0429R(02)",
+  "32021R0404R(01)",
+  "32023R0573R(01)",
+  "32023D0701R(01)",
+  "32023D0702R(01)",
+  "32023D0992R(01)",
+  "32022R0250R(01)",
+  "32023R1110R(01)",
+  "32023R1298R(01)",
+  "32023D0432R(04)",
+  "32023R0429R(03)",
+  "32022R1862R(01)",
+  "32019R1009R(13)",
+  "32023D2433R(01)",
+  "32023R0945R(01)",
+  "32023D2621R(01)",
+  "32024R0286R(02)",
+  "32024R0344R(01)",
+  "32024R0567R(01)",
+  "32023B0131(09)R(02)",
+  "32024D01904R(01)",
+  "32023B01369R(01)",
+  "32023R2465R(01)",
+  "32024R1261R(01)",
+  "32024R1321R(01)",
+  "32024R1321R(02)",
+  "32024R1103R(01)",
+  "32024R1488R(01)",
+  "32022R2104R(06)",
+  "32024H1112R(01)",
+  "32024B1430R(01)",
+  "32024D1729R(01)",
+  "32024R1724R(01)",
+  "32023R2675R(01)",
+  "32024D04883R(01)",
+  "32024R1781R(01)",
+  "32024R1618R(01)",
+  "32021R0479R(02)",
+  "32024R1745R(05)",
+  "32024R0267R(01)",
+  "32024B1509R(01)",
+  "32022R1925R(02)",
+  "32023L2413R(02)",
+  "32025R0014R(01)",
+  "32024D1967R(01)",
+  "32024R1960R(01)",
+  "32024R3153R(01)",
+  "32024R1745R(06)",
+  "32025R0037R(01)",
+  "32025R0038R(01)",
+  "32024D3096R(01)",
+  "32024D3097R(01)",
+  "32024D03111R(01)",
+  "32024R1735R(01)",
+  "32024D2456R(01)",
+  "32024R2455R(01)",
+  "32024R3177R(01)",
+  "32024D1744R(04)",
+  "32024D2581R(01)",
+  "32024L2831R(01)",
+  "32024R2809R(01)",
+  "32025R0612R(01)",
+  "32024B06851R(02)",
+  "32025B00868R(01)",
+  "32025D0646R(01)",
+  "32025B01169R(01)",
+  "32024R2632R(01)",
+  "32024R1103R(04)",
+  "32025R1476R(01)",
+  "32025R1737R(01)",
+  "32025R1328R(01)",
+  "32023R1803R(05)",
+  "32025R1511R(01)",
+  "32025R0281R(01)",
+  "32026R0175R(01)",
+  "32025D2637R(01)",
+  "32025R2638R(01)",
+  "32026D0075R(01)",
+  "32026R0759R(01)",
+  "32025D1296R(01)",
+  "32024L1262R(01)",
+  "32026D1072R(01)",
+  "32026R1055R(01)",
+  "32026D1224R(01)",
+  "32026D1231R(01)",
+  "32026C03440R(01)",
+  "32026D1425R(01)",
+  "32023R2674R(01)",
+  "32026D1425R(02)",
+  "32026D1849R(01)"
+ ],
+ "pair_total": 4145,
+ "reference_correction_pairs": 138,
+ "reference_correction_corrigenda": 98,
+ "note": "Only the pairs the selection step marked as reference corrections are carried here. The full pairs.json (4,145 pairs, 3.2 MB of quoted Journal text) is derived: `python3 fetch_corrigenda.py && python3 parse_pairs.py` rebuilds it byte for byte from the hashes in manifest.json. The record carries the evidence, not the corpus.",
+ "records": [
+  {
+   "celex": "32004R0745R(01)",
+   "date": "2004-05-06",
+   "corrects": [
+    "32004R0745"
+   ],
+   "sha256": "4fe02816b5ece6c3d0cca25e3224949a320e6753028b59a5c0fd2ab179cfe07b",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ozen beef intended for processing may be accepted ( Official Journal of the European Union L 116 of 22 April 2004 ) In the contents and on page 28 in the title:",
+     "for": "Commission Regulation (EC) No 745/2004 ...",
+     "read": "Commission Regulation No 943/2004 ...",
+     "for_len": 42,
+     "read_len": 37,
+     "for_tokens": [
+      [
+       "2004",
+       "745"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "745"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004R0745R(02)",
+   "date": "2004-05-12",
+   "corrects": [
+    "32004R0745"
+   ],
+   "sha256": "24ed5261860f1be84e653e0609fa7eb6a962021074a74a69fc53ba89f95b15ee",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ozen beef intended for processing may be accepted ( Official Journal of the European Union L 116 of 22 April 2004 ) In the contents and on page 28 in the title:",
+     "for": "Commission Regulation (EC) No 745/2004 ...",
+     "read": "Commission Regulation No 942/2004 ...",
+     "for_len": 42,
+     "read_len": 37,
+     "for_tokens": [
+      [
+       "2004",
+       "745"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "745"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32002R2369R(01)",
+   "date": "2004-07-10",
+   "corrects": [
+    "32002R2369"
+   ],
+   "sha256": "9eea9659ae421564a37e50848c8bf62166dcf13741c736165832254bbcf01fdc",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ities L 358 of 31 December 2002 ) On page 50, in Article 1(3)(a) (as regards the end of the first subparagraph of Article 3(1) of Regulation (EC) No 2792/1999):",
+     "for": "Regulation (EC) No 2370/2002",
+     "read": "Regulation (EC) No 2371/2002",
+     "for_len": 28,
+     "read_len": 28,
+     "for_tokens": [
+      [
+       "2002",
+       "2370"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2002",
+       "2371"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2002",
+       "2370"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004R0795R(01)",
+   "date": "2004-09-14",
+   "corrects": [
+    "32004R0795"
+   ],
+   "sha256": "8dee0d56a44fe6a08ff4cae9e7d2a8efac6a21bfd4e8def917a161d0a4738da8",
+   "pair_count": 3,
+   "pairs": [
+    {
+     "locus": "icultural policy and establishing certain support schemes for farmers ( Official Journal of the European Union L 141 of 30 April 2004 ) On page 4, Article 2(b):",
+     "for": "(b) “arable land” shall mean “arable land” within the meaning of Article 2 point (1) of Commission Regulation (EC) No 795/2004 ( 1 )",
+     "read": "(b) “arable land” shall mean “arable land” within the meaning of Article 2(1) of Commission Regulation (EC) No 796/2004 ( 1 )",
+     "for_len": 132,
+     "read_len": 125,
+     "for_tokens": [
+      [
+       "2004",
+       "795"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "796"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "795"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 4, Article 2(e):",
+     "for": "(e) “permanent pasture” shall mean “permanent pasture” within the meaning of Article 2 point (2) of Commission Regulation (EC) No 795/2004",
+     "read": "(e) “permanent pasture” shall mean “permanent pasture” within the meaning of Article 2(2) of Regulation (EC) No 796/2004",
+     "for_len": 138,
+     "read_len": 120,
+     "for_tokens": [
+      [
+       "2004",
+       "795"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "796"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "795"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004R2187R(02)",
+   "date": "2004-12-23",
+   "corrects": [
+    "32004R2187"
+   ],
+   "sha256": "dffb831015a06d6b38582204e80ecac289efcde6c191d3d0605c68bb06eb44c4",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "f Cambodia regarding certain exports of textiles to the Community ( Official Journal of the European Union L 374 of 22 December 2004 ) On page 76, in Article 1:",
+     "for": "Regulation (EC) No 1615/2000 is amended as follows:",
+     "read": "Regulation (EC) No 1614/2000 is amended as follows:",
+     "for_len": 51,
+     "read_len": 51,
+     "for_tokens": [
+      [
+       "2000",
+       "1615"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2000",
+       "1614"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2000",
+       "1615"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004D0407(01)R(02)",
+   "date": "2004-12-31",
+   "corrects": [
+    "32004D0407(01)"
+   ],
+   "sha256": "bf07c329d58d59dccccbbccbe978beb015dc2ed386da9fd1ecbec208ad5b93f2",
+   "pair_count": 3,
+   "pairs": [
+    {
+     "locus": "on page 10 in footnote 2:",
+     "for": "( 2 ) OJ L 182, 16.7.1999, p. 1 ; Directive as last amended by Regulation (EC) No 882/2003 of the European Parliament and of the Council ( OJ L 284, 31.10.2003, p. 1 ).",
+     "read": "( 2 ) OJ L 182, 16.7.1999, p. 1 . Directive as last amended by Regulation (EC) No 1882/2003 of the European Parliament and of the Council ( OJ L 284, 31.10.2003, p. 1 ).’; on page 15 in the form ‘Health certificate",
+     "for_len": 168,
+     "read_len": 214,
+     "for_tokens": [
+      [
+       "2003",
+       "882"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2003",
+       "1882"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2003",
+       "882"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004L0038R(04)",
+   "date": "2005-02-03",
+   "corrects": [
+    "32004L0038",
+    "32004L0038R(01)"
+   ],
+   "sha256": "71218b0c828200b508ae5f8aa0e2be4938656dc5944159cd0cf5dfd0a3314e90",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "64/EEC, 90/365/EEC and 93/96/EEC ( Official Journal of the European Union L 229 of 29 June 2004 ) On the cover page in the Contents and on page 35 in the title:",
+     "for": "Directive 2004/58/EC of the European Parliament and of the Council of 29 April 2004 on the right of citizens of the Union and their family members to move and reside freely within the territory of the Member States amending Regulation (EEC) No 1612/68 and repealing Directives 64/221/EEC, 68/360/EEC, 72/194/EEC, 73/148/EEC, 75/34/EEC, 75/35/EEC, 90/364/EEC, 90/365/EEC and 93/96/EEC",
+     "read": "Directive 2004/38/EC of the European Parliament and of the Council of 29 April 2004 on the right of citizens of the Union and their family members to move and reside freely within the territory of the Member States amending Regulation (EEC) No 1612/68 and repealing Directives 64/221/EEC, 68/360/EEC, 72/194/EEC, 73/148/EEC, 75/34/EEC, 75/35/EEC, 90/364/EEC, 90/365/EEC and 93/96/EEC",
+     "for_len": 383,
+     "read_len": 383,
+     "for_tokens": [
+      [
+       "1964",
+       "221"
+      ],
+      [
+       "1968",
+       "1612"
+      ],
+      [
+       "1968",
+       "360"
+      ],
+      [
+       "1972",
+       "194"
+      ],
+      [
+       "1973",
+       "148"
+      ],
+      [
+       "1975",
+       "34"
+      ],
+      [
+       "1975",
+       "35"
+      ],
+      [
+       "1990",
+       "364"
+      ],
+      [
+       "1990",
+       "365"
+      ],
+      [
+       "1993",
+       "96"
+      ],
+      [
+       "2004",
+       "58"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1964",
+       "221"
+      ],
+      [
+       "1968",
+       "1612"
+      ],
+      [
+       "1968",
+       "360"
+      ],
+      [
+       "1972",
+       "194"
+      ],
+      [
+       "1973",
+       "148"
+      ],
+      [
+       "1975",
+       "34"
+      ],
+      [
+       "1975",
+       "35"
+      ],
+      [
+       "1990",
+       "364"
+      ],
+      [
+       "1990",
+       "365"
+      ],
+      [
+       "1993",
+       "96"
+      ],
+      [
+       "2004",
+       "38"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "58"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004R0796R(03)",
+   "date": "2005-02-10",
+   "corrects": [
+    "32004R0796"
+   ],
+   "sha256": "c75802c69083a91135c5cb59f0f01c2171cd9380c453d8fc2b4280c6c758b966",
+   "pair_count": 17,
+   "pairs": [
+    {
+     "locus": "tablishing certain support schemes for farmers ( Official Journal of the European Union L 141 of 30 April 2004 ) On page 26, first subparagraph of Article 3(1):",
+     "for": "Without prejudice to the exceptions provided for in the third subparagraph of Article 5(2) of Regulation (EC) No 1782/2003, the Member States shall, pursuant to the first paragraph thereof, ensure the maintenance of the ratio of the land under permanent pasture in relation to the total agricultural area as defined in Article 2 point (a) of Regulation (EC) No 796/2004. That obligation shall apply a",
+     "read": "Without prejudice to the exceptions provided for in the third subparagraph of Article 5(2) of Regulation (EC) No 1782/2003, the Member States shall, pursuant to the first paragraph thereof, ensure the maintenance of the ratio of the land under permanent pasture in relation to the total agricultural area as defined in Article 2(a) of Commission Regulation (EC) No 795/2004 ( *1 ) . That obligation s",
+     "for_len": 429,
+     "read_len": 441,
+     "for_tokens": [
+      [
+       "2003",
+       "1782"
+      ],
+      [
+       "2004",
+       "796"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2003",
+       "1782"
+      ],
+      [
+       "2004",
+       "795"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "796"
+      ]
+     ]
+    },
+    {
+     "locus": "ticle 73 of the this Regulation.’, read: ‘… according to Article 73 of this Regulation.’ On page 29, first sentence of the second subparagraph of Article 11(1):",
+     "for": "A farmer who does not apply for aid under any of the area-related aid schemes but applies for aid under another aid scheme listed in Annex I of Regulation (EC) No 1782/2003, shall submit a single application form if he has agricultural area as defined in Article 2, point (a) of Regulation (EC) No 796/2004 at his disposal in which he shall list these areas in accordance with Article 14.",
+     "read": "A farmer who does not apply for aid under any of the area-related aid schemes but applies for aid under another aid scheme listed in Annex I of Regulation (EC) No 1782/2003, shall submit a single application form if he has agricultural area as defined in Article 2(a) of Regulation (EC) No 795/2004 at his disposal in which he shall list these areas in accordance with Article 14 of this Regulation.",
+     "for_len": 388,
+     "read_len": 399,
+     "for_tokens": [
+      [
+       "2003",
+       "1782"
+      ],
+      [
+       "2004",
+       "796"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2003",
+       "1782"
+      ],
+      [
+       "2004",
+       "795"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "796"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004R2256R(01)",
+   "date": "2005-02-19",
+   "corrects": [
+    "32004R2256"
+   ],
+   "sha256": "0f396e58db60b755ade2a72123b4cab41d9597421d4a8c5cf0db826cd98b5820",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "s for certain products originating in Malta and in Cyprus ( Official Journal of the European Union L 385 of 29 December 2004 ) On page 24, in the first recital,",
+     "for": "… Decision 2004/664/EC ( 3 ) …",
+     "read": "… Decision 2005/89/EC ( 3 ) …",
+     "for_len": 30,
+     "read_len": 29,
+     "for_tokens": [
+      [
+       "2004",
+       "664"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2005",
+       "89"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "664"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004L0104R(01)",
+   "date": "2005-03-02",
+   "corrects": [
+    "32004L0104"
+   ],
+   "sha256": "417a8e0bb260062df5e6adbd408d54211ae98efc6722a42c04e6a79b51f0e3ab",
+   "pair_count": 5,
+   "pairs": [
+    {
+     "locus": "On page 35, in Annex II A, in the title:",
+     "for": "Commission Directive 2004/78/EC",
+     "read": "Directive 2004/104/EC",
+     "for_len": 31,
+     "read_len": 21,
+     "for_tokens": [
+      [
+       "2004",
+       "78"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "104"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "78"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 38, in Annex II B, in the title:",
+     "for": "Commission Directive 95/54/EC",
+     "read": "Directive 2004/104/EC",
+     "for_len": 29,
+     "read_len": 21,
+     "for_tokens": [
+      [
+       "1995",
+       "54"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "104"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1995",
+       "54"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 40, in Annex III A, in the title:",
+     "for": "Commission Directive 95/54/EC",
+     "read": "Directive 2004/104/EC",
+     "for_len": 29,
+     "read_len": 21,
+     "for_tokens": [
+      [
+       "1995",
+       "54"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "104"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1995",
+       "54"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 42, in Annex III B, in the title:",
+     "for": "Commission Directive 95/54/EC",
+     "read": "Directive 2004/104/EC",
+     "for_len": 29,
+     "read_len": 21,
+     "for_tokens": [
+      [
+       "1995",
+       "54"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "104"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1995",
+       "54"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32005D0363R(01)",
+   "date": "2005-05-12",
+   "corrects": [
+    "32005D0363"
+   ],
+   "sha256": "b1a4066369a083063de045a5c695992743932320783e03d7b58ef3f7e271c454",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "protection measures against African swine fever in Sardinia, Italy ( Official Journal of the European Union L 118 of 2 May 2005 ) On page 46, title of Annex IV:",
+     "for": "ANNEX IV to Commission Decision 2005/000/EC",
+     "read": "ANNEX IV to Commission Decision 2005/363/EC",
+     "for_len": 43,
+     "read_len": 43,
+     "for_tokens": [
+      [
+       "2005",
+       "0"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2005",
+       "363"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2005",
+       "0"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004L0038R(02)",
+   "date": "2005-07-28",
+   "corrects": [
+    "32004L0038",
+    "32004L0038R(01)"
+   ],
+   "sha256": "9fc58903884292178760ffec13f573e9c6b28d6602978d0656b2197a7a27ac99",
+   "pair_count": 3,
+   "pairs": [
+    {
+     "locus": "8/EEC, 75/34/EEC, 75/35/EEC, 90/364/EEC, 90/365/EEC and 93/96/EEC ( Official Journal of the European Union L 229 of 29 June 2004 ) In the Contents on the cover:",
+     "for": "Corrigendum to Directive 2004/58/EC …",
+     "read": "Corrigendum to Directive 2004/38/EC …",
+     "for_len": 37,
+     "read_len": 37,
+     "for_tokens": [
+      [
+       "2004",
+       "58"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "38"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "58"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 35 in the title, in the introductory phrase to the corrected version and in the title of the corrected version:",
+     "for": "Directive 2004/58/EC",
+     "read": "Directive 2004/38/EC",
+     "for_len": 20,
+     "read_len": 20,
+     "for_tokens": [
+      [
+       "2004",
+       "58"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "38"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "58"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32005R1279R(01)",
+   "date": "2005-08-06",
+   "corrects": [
+    "32005R1279"
+   ],
+   "sha256": "b0cbf1c67789eb7959c8a8f8f414d7bfc3ba0e2c33b65f224a9144ab213a1454",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "cereals sector applicable from 3 August 2005 ( Official Journal of the European Union L 202 of 3 August 2005 ) On page 36, in recitals 1 and 2 and in Article 1:",
+     "for": "(EC) No 1150/2005",
+     "read": "(EC) No 1256/2005",
+     "for_len": 17,
+     "read_len": 17,
+     "for_tokens": [
+      [
+       "2005",
+       "1150"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2005",
+       "1256"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2005",
+       "1150"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32005R1519R(01)",
+   "date": "2005-09-24",
+   "corrects": [
+    "32005R1519"
+   ],
+   "sha256": "6fc950c1d49997df85040ed4b6c9ff4cfd62a1fc4b5f3a58f0b9386b380fb5d9",
+   "pair_count": 4,
+   "pairs": [
+    {
+     "locus": "the United States of America in 2006 under certain GATT quotas ( Official Journal of the European Union L 244 of 20 September 2005 ) On page 15, Annex I, title:",
+     "for": "(Article 20 of Regulation (EC) No 174/1999 and Regulation (EC) No 1513/2005)",
+     "read": "(Article 20 of Regulation (EC) No 174/1999 and Regulation (EC) No 1519/2005)",
+     "for_len": 76,
+     "read_len": 76,
+     "for_tokens": [
+      [
+       "1999",
+       "174"
+      ],
+      [
+       "2005",
+       "1513"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1999",
+       "174"
+      ],
+      [
+       "2005",
+       "1519"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2005",
+       "1513"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 16, Annex II, first and second lines:",
+     "for": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1513/2005: Name of group indicated in column 2 of Annex I to Regulation (EC) No 1513/2005 …",
+     "read": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1519/2005: Name of group indicated in column 2 of Annex I to Regulation (EC) No 1519/2005: …",
+     "for_len": 182,
+     "read_len": 183,
+     "for_tokens": [
+      [
+       "2005",
+       "1513"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2005",
+       "1519"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2005",
+       "1513"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 17, Annex III, first and second lines:",
+     "for": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1513/2005: Name of group indicated in column 2 of Annex I to Regulation (EC) No 1513/2005 …",
+     "read": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1519/2005: Name of group indicated in column 2 of Annex I to Regulation (EC) No 1519/2005: …",
+     "for_len": 182,
+     "read_len": 183,
+     "for_tokens": [
+      [
+       "2005",
+       "1513"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2005",
+       "1519"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2005",
+       "1513"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 18, Annex IV, in the heading of the first column:",
+     "for": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1513/2005",
+     "read": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1519/2005",
+     "for_len": 100,
+     "read_len": 100,
+     "for_tokens": [
+      [
+       "2005",
+       "1513"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2005",
+       "1519"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2005",
+       "1513"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004R2028R(01)",
+   "date": "2006-04-13",
+   "corrects": [
+    "32004R2028"
+   ],
+   "sha256": "656735358dcbcf854754a6c24adf9b82699a8b941d50a98c77e3f113208476cd",
+   "pair_count": 3,
+   "pairs": [
+    {
+     "locus": "On page 7, in point 16,",
+     "for": "Article 21a The rate provided for in Article 11 of this Regulation shall continue to apply for the calculation of interest for late payment where the due date falls before the end of the month in which Council Regulation (EC) 2028/2004 of 16 November 2004 amending Regulation (EC, Euratom) No 1150/2000 implementing Decision 94/728/EC, Euratom on the system of the Communities",
+     "read": "Article 21a The rate provided for in Article 11 of this Regulation in its version before the entry into force of Council Regulation (EC, Euratom) No 2028/2004 of 16 November 2004 amending Regulation (EC, Euratom) No 1150/2000 implementing Decision 94/728/EC, Euratom on the system of the Communities’ own resources ( *2 ) shall continue to apply for the calculation of interest for late payment where",
+     "for_len": 376,
+     "read_len": 596,
+     "for_tokens": [
+      [
+       "1994",
+       "728"
+      ],
+      [
+       "2000",
+       "1150"
+      ],
+      [
+       "2028",
+       "2004"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1994",
+       "728"
+      ],
+      [
+       "2000",
+       "1150"
+      ],
+      [
+       "2004",
+       "2028"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2028",
+       "2004"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32006D0473R(01)",
+   "date": "2006-07-18",
+   "corrects": [
+    "32006D0473"
+   ],
+   "sha256": "b0e79a1130f66380ff357f6a8600a8fae9e25b0ce3a7fe9ed857b6052ef6c9d8",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "des and Guignardia citricarpa Kiely (all strains pathogenic to Citrus) ( Official Journal of the European Union L 187 of 8 July 2006 ) On page 35, in the title,",
+     "for": "(2006/000/EC)",
+     "read": "(2006/473/EC)",
+     "for_len": 13,
+     "read_len": 13,
+     "for_tokens": [
+      [
+       "2006",
+       "0"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "473"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "0"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32006R1285R(01)",
+   "date": "2006-08-31",
+   "corrects": [
+    "32006R1285"
+   ],
+   "sha256": "19cf170d877b5bf6547f26def106df370c73862b36d1fd2a447b2ff90359d70c",
+   "pair_count": 5,
+   "pairs": [
+    {
+     "locus": "ited States of America in 2007 under certain GATT quotas ( Official Journal of the European Union L 235 of 30 August 2006 ) On page 11, in Annex II, first line:",
+     "for": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1282/2006:",
+     "read": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1285/2006:",
+     "for_len": 101,
+     "read_len": 101,
+     "for_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "1285"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ]
+    },
+    {
+     "locus": "ulation (EC) No 1282/2006:’, read: ‘Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1285/2006:’, and the second line:",
+     "for": "Name of group indicated in column 2 of Annex I to Regulation (EC) No 1282/2006:",
+     "read": "Name of group indicated in column 2 of Annex I to Regulation (EC) No 1285/2006:",
+     "for_len": 79,
+     "read_len": 79,
+     "for_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "1285"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 12, in Annex III, first line:",
+     "for": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1282/2006:",
+     "read": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1285/2006:",
+     "for_len": 101,
+     "read_len": 101,
+     "for_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "1285"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ]
+    },
+    {
+     "locus": "ulation (EC) No 1282/2006:’, read: ‘Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1285/2006:’, and the second line:",
+     "for": "Name of group indicated in column 2 of Annex I to Regulation (EC) No 1282/2006:",
+     "read": "Name of group indicated in column 2 of Annex I to Regulation (EC) No 1285/2006:",
+     "for_len": 79,
+     "read_len": 79,
+     "for_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "1285"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 13, in Annex IV, heading of first column:",
+     "for": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1282/2006:",
+     "read": "Identification of group and quota referred to in column 3 of Annex I to Regulation (EC) No 1285/2006:",
+     "for_len": 101,
+     "read_len": 101,
+     "for_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "1285"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "1282"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32006D1719R(01)",
+   "date": "2006-12-05",
+   "corrects": [
+    "32006D1719"
+   ],
+   "sha256": "80509a8cc007cbbf5ad5ebe210ceebf2a95439dc0c55086eae3cd3e93f500f42",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "on’ programme for the period 2007 to 2013 ( Official Journal of the European Union L 327 of 24 November 2006 ) On the first page of the cover in the ‘Contents’:",
+     "for": "Decision No 1714/2006/EC …",
+     "read": "Decision No 1719/2006/EC …",
+     "for_len": 26,
+     "read_len": 26,
+     "for_tokens": [
+      [
+       "1714",
+       "2006"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1719",
+       "2006"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1714",
+       "2006"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32006D0217R(01)",
+   "date": "2006-12-23",
+   "corrects": [
+    "32006D0217"
+   ],
+   "sha256": "a2c15d013505c447f5f2aa49e931d3c054267a1811b90d1f7866d4e2469912d8",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "y 2004 on measures implemented by Denmark for TV2/Danmark ( Official Journal of the European Union L 85 of 23 March 2006 ) In the Contents page and on page one:",
+     "for": "(2005/217/EC)",
+     "read": "(2006/217/EC)",
+     "for_len": 13,
+     "read_len": 13,
+     "for_tokens": [
+      [
+       "2005",
+       "217"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "217"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2005",
+       "217"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32007R0041R(01)",
+   "date": "2007-01-25",
+   "corrects": [
+    "32007R0041"
+   ],
+   "sha256": "9eff2eeacdb7161bed2fc132eeb85c5fa166692986fb0e0f230987bce2554dc1",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": ", in waters where catch limitations are required ( Official Journal of the European Union L 15 of 20 January 2007 ) In the contents and in the title, on page 1:",
+     "for": "… (EC) No 41/2006 …",
+     "read": "… (EC) No 41/2007 …",
+     "for_len": 19,
+     "read_len": 19,
+     "for_tokens": [
+      [
+       "2006",
+       "41"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2007",
+       "41"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "41"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32006R2013R(01)",
+   "date": "2007-03-10",
+   "corrects": [
+    "32006R2013"
+   ],
+   "sha256": "e440ac1989c8827bf7c37dd1f9df9ab45c3c32825077ccf13886c3b35dba3188",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "al Journal of the European Union L 384 of 29 December 2006 ) On page 17, in Article 3 (Amendments to Regulation (EC) No 247/2006), in point 2 (new Article 24a):",
+     "for": "1. By 15 March 2007, Member States shall submit to the Commission the draft amendments to their overall programme to reflect the changes introduced by Regulation (EC) No 2011/2006 ( *1 )",
+     "read": "1. By 15 March 2007, Member States shall submit to the Commission the draft amendments to their overall programme to reflect the changes introduced by Regulation (EC) No 2013/2006 ( *2 ) . ( *1 ) See page 1 of this Official Journal.’ ( *2 ) OJ L 384, 29.12.2006, p. 13 .",
+     "for_len": 186,
+     "read_len": 270,
+     "for_tokens": [
+      [
+       "2006",
+       "2011"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "2013"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "2011"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32006L0105R(01)",
+   "date": "2007-03-21",
+   "corrects": [
+    "32006L0105"
+   ],
+   "sha256": "25e81f97d451f5c5e93eb511cfc0e9902e0b669ff0ed5e5be21c8ca41bdf2763",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ield of environment, by reason of the accession of Bulgaria and Romania ( Official Journal of the European Union L 363 of 20 December 2006 ) On page 368, title:",
+     "for": "Council Directive 2006/105/EC of 20 November 2006 adapting Directives 73/239/EEC, 74/557/EEC and 2002/83/EC in the field of environment, by reason of the accession of Bulgaria and Romania",
+     "read": "Council Directive 2006/105/EC of 20 November 2006 adapting Directives 79/409/EEC, 92/43/EEC, 97/68/EC, 2001/80/EC and 2001/81/EC in the field of environment, by reason of the accession of Bulgaria and Romania",
+     "for_len": 187,
+     "read_len": 208,
+     "for_tokens": [
+      [
+       "1973",
+       "239"
+      ],
+      [
+       "1974",
+       "557"
+      ],
+      [
+       "2002",
+       "83"
+      ],
+      [
+       "2006",
+       "105"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1979",
+       "409"
+      ],
+      [
+       "1992",
+       "43"
+      ],
+      [
+       "1997",
+       "68"
+      ],
+      [
+       "2001",
+       "80"
+      ],
+      [
+       "2001",
+       "81"
+      ],
+      [
+       "2006",
+       "105"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1973",
+       "239"
+      ],
+      [
+       "1974",
+       "557"
+      ],
+      [
+       "2002",
+       "83"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32007R1459R(01)",
+   "date": "2007-12-13",
+   "corrects": [
+    "32007R1459"
+   ],
+   "sha256": "96b9cbbe9c4ad0974123fe3ca52b4c4114a2d9367e90afdeeedead5533483d62",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "of steel ropes and cables originating, inter alia , in South Africa ( Official Journal of the European Union L 326 of 12 December 2007 ) On page 19, recital 14:",
+     "for": "Commission Decision 2007/1459/EC …",
+     "read": "Commission Decision 2007/814/EC …",
+     "for_len": 34,
+     "read_len": 33,
+     "for_tokens": [
+      [
+       "2007",
+       "1459"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2007",
+       "814"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2007",
+       "1459"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32006L0112R(01)",
+   "date": "2007-12-20",
+   "corrects": [
+    "32006L0112"
+   ],
+   "sha256": "75a9fc0310a45c20452e1cb832872fc471a706b5c48566e4c1c2ff2142002c81",
+   "pair_count": 5,
+   "pairs": [
+    {
+     "locus": "129 ).’, footnote 2:",
+     "for": "( 2 ) OJ 71, 14.4.1967, p. 1301 . Directive as last amended by Directive 69/463/EEC ( OJ L 320, 20.12.1969, p. 34 ).",
+     "read": "( 2 ) OJ 71, 14.4.1967, p. 1301 . Directive as last amended by Directive 77/388/EEC.",
+     "for_len": 116,
+     "read_len": 84,
+     "for_tokens": [
+      [
+       "1969",
+       "463"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1977",
+       "388"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1969",
+       "463"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32008R0071R(01)",
+   "date": "2008-02-07",
+   "corrects": [
+    "32008R0071"
+   ],
+   "sha256": "1c9af7ef35d40cc9b8d7260d5d0011b87584c28e72bda825e7eebe1eba23d09c",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ndertaking ( Official Journal of the European Union L 30 of 4 February 2008 ) In the contents on the cover page and on page 1, the title should read as follows:",
+     "for": "Council Regulation (EC) No 71/2007 of 20 December 2007 setting up the Clean Sky Joint Undertaking",
+     "read": "Council Regulation (EC) No 71/2008 of 20 December 2007 setting up the Clean Sky Joint Undertaking",
+     "for_len": 97,
+     "read_len": 97,
+     "for_tokens": [
+      [
+       "2007",
+       "71"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2008",
+       "71"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2007",
+       "71"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32008D0262R(01)",
+   "date": "2008-04-22",
+   "corrects": [
+    "32008D0262"
+   ],
+   "sha256": "1eb15d172670744a1623f0c25c1ed73946295298818be6039796f8d60f91b177",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": " the implementation, application and development of the Schengen acquis ( Official Journal of the European Union L 83, 26 March 2008 ) On cover page and page 5:",
+     "for": "2008/262/EC",
+     "read": "2008/262/JHA",
+     "for_len": 11,
+     "read_len": 12,
+     "for_tokens": [
+      [
+       "2008",
+       "262"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2008",
+       "262"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "31977R2237R(01)",
+   "date": "2008-04-25",
+   "corrects": [
+    "31977R2237"
+   ],
+   "sha256": "94b69ba9d10a32046ba3e9a2dde83f7dcae10a8ce577f12b964ae16e3223866a",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "1 ) In the Contents on the cover and on page 1 in the title:",
+     "for": "Commission Regulation (EEC) No 2237/77 of 23 September 1977 amending Regulation No 118/66/EEC on the form of farm return to be used for the purpose of determining incomes of agricultural holdings",
+     "read": "Commission Regulation (EEC) No 2237/77 of 23 September 1977 on the form of farm return to be used for the purpose of determining incomes of agricultural holdings",
+     "for_len": 195,
+     "read_len": 161,
+     "for_tokens": [
+      [
+       "118",
+       "66"
+      ],
+      [
+       "1977",
+       "2237"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1977",
+       "2237"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "118",
+       "66"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32008R0071R(02)",
+   "date": "2008-08-15",
+   "corrects": [
+    "32008R0071"
+   ],
+   "sha256": "39ee67e5cd0d47672b71076ea61886f0f0e80c077b330d4a84b90b592d1e384e",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": " Clean Sky Joint Undertaking ( Official Journal of the European Union L 30 of 4 February 2008 ) In the title of the Regulation, both on the cover and on page 1:",
+     "for": "Council Regulation (EC) No 71/2007 of 20 December 2007 …",
+     "read": "Council Regulation (EC) No 71/2008 of 20 December 2007 …",
+     "for_len": 56,
+     "read_len": 56,
+     "for_tokens": [
+      [
+       "2007",
+       "71"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2008",
+       "71"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2007",
+       "71"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32007D0155R(01)",
+   "date": "2008-09-20",
+   "corrects": [
+    "32007D0155"
+   ],
+   "sha256": "3617b44839e4b7927d44c79dafcb1b3c9d85a16a6004cf2a644896731e3371de",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "communication infrastructure for the Schengen environment (‘Sisnet’) ( Official Journal of the European Union L 68 of 8 March 2007 ) On page 6, Article 1(5)(a):",
+     "for": "2. All such contracts for which the estimated value equals or exceeds the thresholds set out in Directive 2004/2018/EC …",
+     "read": "2. All such contracts for which the estimated value equals or exceeds the thresholds set out in Directive 2004/18/EC …",
+     "for_len": 120,
+     "read_len": 118,
+     "for_tokens": [
+      [
+       "2004",
+       "2018"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "18"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "2018"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32008D0936R(01)",
+   "date": "2008-12-23",
+   "corrects": [
+    "32008D0936"
+   ],
+   "sha256": "d8d3e856d38b376f09447802e6748e626aa18386350205f03b428ef1eb2148d9",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ument number C(2007) 5636 ) ( Official Journal of the European Union L 334 of 12 December 2008 ) In the title of the Decision, both on the cover and on page 62:",
+     "for": "2008/936/EC",
+     "read": "2008/964/EC",
+     "for_len": 11,
+     "read_len": 11,
+     "for_tokens": [
+      [
+       "2008",
+       "936"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2008",
+       "964"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2008",
+       "936"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32008D0173R(01)",
+   "date": "2009-01-28",
+   "corrects": [
+    "32008D0173"
+   ],
+   "sha256": "efd57a270e80051b23a83e2cd8f21f480b259ce7c35b49ebe8cab1c24464907d",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "d Schengen Information System (SIS II) ( Official Journal of the European Union L 57 of 1 March 2008 ) In the contents on the cover and in the title on page 14:",
+     "for": "2008/173/EC",
+     "read": "2008/173/JHA",
+     "for_len": 11,
+     "read_len": 12,
+     "for_tokens": [
+      [
+       "2008",
+       "173"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2008",
+       "173"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32008D0421R(01)",
+   "date": "2009-03-05",
+   "corrects": [
+    "32008D0421"
+   ],
+   "sha256": "33e0e38a900a510806bcad240360d0c810cbd22ea82d343a4d0161ef0c77300d",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "nformation System in the Swiss Confederation ( Official Journal of the European Union L 149 of 7 June 2008 ) On page 76, Annex I, second sentence of footnote 7:",
+     "for": "The manual was amended by Commission Decisions 2008/333/EC ( OJ L 123, 8.5.2008, p. 1 ) and 2008/334/JHA ( OJ L 123, 8.5.2008, p. 39 ).",
+     "read": "The manual was amended by Commission Decisions 2006/757/EC ( OJ L 317, 16.11.2006, p. 1 ) and 2006/758/EC ( OJ L 317, 16.11.2006, p. 41 ).",
+     "for_len": 135,
+     "read_len": 138,
+     "for_tokens": [
+      [
+       "2008",
+       "333"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "757"
+      ],
+      [
+       "2006",
+       "758"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2008",
+       "333"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32007R0951R(01)",
+   "date": "2009-08-25",
+   "corrects": [
+    "32007R0951"
+   ],
+   "sha256": "6cffdb8bfb52036953dc5164e440597c76705343506c4a4c9f047dcf1163b966",
+   "pair_count": 5,
+   "pairs": [
+    {
+     "locus": "On page 10, recital 4 of the preamble:",
+     "for": "Regulation (EC) No 1628/2006",
+     "read": "Regulation (EC) No 1638/2006",
+     "for_len": 28,
+     "read_len": 28,
+     "for_tokens": [
+      [
+       "2006",
+       "1628"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "1638"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2006",
+       "1628"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32010R0053R(01)",
+   "date": "2010-01-28",
+   "corrects": [
+    "32010R0053"
+   ],
+   "sha256": "dead658733d7106dbbbcaf06476434e79847c31ea895bb1000edb05050a417ad",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "09 and (EC) No 1287/2009 ( Official Journal of the European Union L 21 of 26 January 2010 ) On the cover page and on page 1, the Regulation number in the title:",
+     "for": "Council Regulation (EU) No 23/2010 …",
+     "read": "Council Regulation (EU) No 53/2010 …",
+     "for_len": 36,
+     "read_len": 36,
+     "for_tokens": [
+      [
+       "2010",
+       "23"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2010",
+       "53"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "23"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32010R0158R(01)",
+   "date": "2010-04-16",
+   "corrects": [
+    "32010R0158"
+   ],
+   "sha256": "bf390307e189951dc273c7639b23b337edc565a830dd6ffba8b9996fe7878597",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "or 2010 the amount of aid in advance for private storage of butter ( Official Journal of the European Union L 49 of 26 February 2010 ) On page 15, Article 6(2):",
+     "for": "2. Member States may waive the requirements referred to in Article 22(1)(e) of Regulation (EC) No 862/2008 to mark the contract number provided the store manager undertakes to enter the contract number in the register referred to in Annex I point III of that Regulation.",
+     "read": "2. Member States may waive the requirements referred to in Article 22(1)(e) of Regulation (EC) No 826/2008 to mark the contract number provided the store manager undertakes to enter the contract number in the register referred to in Annex I point III of that Regulation.",
+     "for_len": 270,
+     "read_len": 270,
+     "for_tokens": [
+      [
+       "2008",
+       "862"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2008",
+       "826"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2008",
+       "862"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32010R0319R(01)",
+   "date": "2010-04-20",
+   "corrects": [
+    "32010R0319"
+   ],
+   "sha256": "317e0b08c2ffcc2cae73410702a9343c127ba142b822d35bdeee72cb53f26602",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "f certain fruit and vegetables ( Official Journal of the European Union L 97 of 17 April 2010 ) On page 12, in the title, the official number of the Regulation:",
+     "for": "(EU) No 318/2010",
+     "read": "(EU) No 319/2010.",
+     "for_len": 16,
+     "read_len": 17,
+     "for_tokens": [
+      [
+       "2010",
+       "318"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2010",
+       "319"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "318"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32010R0490R(01)",
+   "date": "2010-06-05",
+   "corrects": [
+    "32010R0490"
+   ],
+   "sha256": "6cf0488d0f35bd13928c302f7758415b533d5b1267e37768603b166afe9c721e",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ocedure opened by Regulation (EU) No 477/2010 ( Official Journal of the European Union L 138 of 4 June 2010 ) On page 10, in the title, recital 1 and Article 1:",
+     "for": "Regulation (EU) No 477/2010",
+     "read": "Regulation (EU) No 447/2010",
+     "for_len": 27,
+     "read_len": 27,
+     "for_tokens": [
+      [
+       "2010",
+       "477"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2010",
+       "447"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "477"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32010L0044R(01)",
+   "date": "2010-07-14",
+   "corrects": [
+    "32010L0044"
+   ],
+   "sha256": "7581c2b0a8ed2e0f7f2d5f3c27b418ec1d13834e11337e5844d6fea7f44250dc",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "and notification procedure ( Official Journal of the European Union L 176 of 10 July 2010 ) On the cover page and on page 28, the Directive number in the title:",
+     "for": "Commission Directive 2010/42/EU …",
+     "read": "Commission Directive 2010/44/EU …",
+     "for_len": 33,
+     "read_len": 33,
+     "for_tokens": [
+      [
+       "2010",
+       "42"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2010",
+       "44"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "42"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32010D0388R(01)",
+   "date": "2010-07-22",
+   "corrects": [
+    "32010D0388"
+   ],
+   "sha256": "fba9203b8a71ed055c9b4dff2ad4c32f67a597c6f950590a6f15a19660047b82",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "rofinancial assistance to Ukraine ( Official Journal of the European Union L 179 of 14 July 2010 ) On the cover and on page 1, the Decision number in the title:",
+     "for": "Decision No 388/2010/EU of the European Parliament and of the Council …",
+     "read": "Decision No 646/2010/EU of the European Parliament and of the Council …",
+     "for_len": 71,
+     "read_len": 71,
+     "for_tokens": [
+      [
+       "388",
+       "2010"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "646",
+       "2010"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "388",
+       "2010"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32010D0459R(01)",
+   "date": "2010-09-01",
+   "corrects": [
+    "32010D0459"
+   ],
+   "sha256": "aa5cbaf49141fbb0207614659b5c2cb31964a4da23b48d2a0fda4cbf832b3fb3",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "07 (ex NN 71/07) — Greece Olympic Airways Services/Olympic Airlines ( Official Journal of the European Union L 222 of 24 August 2010 ) On page 62, in the title:",
+     "for": "2010/7777/EC",
+     "read": "2010/459/EC",
+     "for_len": 12,
+     "read_len": 11,
+     "for_tokens": [
+      [
+       "2010",
+       "7777"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2010",
+       "459"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "7777"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32010L0053R(01)",
+   "date": "2010-09-16",
+   "corrects": [
+    "32010L0053"
+   ],
+   "sha256": "4c14520e1b76b45f13715a6cd0b530115f838e49f998ccc2424b6d33ce3cb8c6",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "of quality and safety of human organs intended for transplantation ( Official Journal of the European Union L 207 of 6 August 2010 ) On the cover, in the title:",
+     "for": "Directive 2010/45/EU of the European Parliament and of the Council of 7 July 2010 …",
+     "read": "Directive 2010/53/EU of the European Parliament and of the Council of 7 July 2010 …",
+     "for_len": 83,
+     "read_len": 83,
+     "for_tokens": [
+      [
+       "2010",
+       "45"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2010",
+       "53"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "45"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 14, in the title of the Directive:",
+     "for": "DIRECTIVE 2010/45/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 7 July 2010 …",
+     "read": "DIRECTIVE 2010/53/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 7 July 2010 …",
+     "for_len": 83,
+     "read_len": 83,
+     "for_tokens": [
+      [
+       "2010",
+       "45"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2010",
+       "53"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "45"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32009R1272R(04)",
+   "date": "2010-09-23",
+   "corrects": [
+    "32009R1272"
+   ],
+   "sha256": "5be777ded9d0fe0371941f48588ea4ee110e678dc92d06311c86ab9a9e7ed3c4",
+   "pair_count": 15,
+   "pairs": [
+    {
+     "locus": "The certificate shall contain the number of the label.’, — on page 61, in Annex IV, Part IV, second paragraph:",
+     "for": "The reference methods to be applied shall be those laid down in Regulation (EC) No 213/2001 ( OJ L 37, 7.2.2001, p. 1 ) and (EC) No 273/2008 ( OJ L 88, 29.3.2008, p. 1 ).",
+     "read": "The reference methods to be applied shall be those laid down in Regulation (EC) No 273/2008 ( OJ L 88, 29.3.2008, p. 1 ).",
+     "for_len": 170,
+     "read_len": 121,
+     "for_tokens": [
+      [
+       "2001",
+       "213"
+      ],
+      [
+       "2008",
+       "273"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2008",
+       "273"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2001",
+       "213"
+      ]
+     ]
+    },
+    {
+     "locus": "1 ).’, — on page 62, in Annex IV, Part V, point 2, second paragraph:",
+     "for": "Each sample must be assessed individually in accordance with Annex IV to Regulation (EC) No 278/2008. No resampling or re-evaluation is allowed.",
+     "read": "Each sample must be assessed individually in accordance with Annex IV to Regulation (EC) No 273/2008. No resampling or re-evaluation is allowed.",
+     "for_len": 144,
+     "read_len": 144,
+     "for_tokens": [
+      [
+       "2008",
+       "278"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2008",
+       "273"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2008",
+       "278"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32009R0004R(01)",
+   "date": "2011-05-18",
+   "corrects": [
+    "32009R0004"
+   ],
+   "sha256": "38758036f2600203bf2a0f358a7638f3ccfca656502a4414a6bd9647d8aff342",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": " and cooperation in matters relating to maintenance obligations ( Official Journal of the European Union L 7 of 10 January 2009 ) On page 20, Article 71, title:",
+     "for": "Information on contact details and languages (modelled on Article 25 of Regulation (EC) No 861/2007)",
+     "read": "Information on contact details and languages",
+     "for_len": 100,
+     "read_len": 44,
+     "for_tokens": [
+      [
+       "2007",
+       "861"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2007",
+       "861"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32011D0333R(01)",
+   "date": "2011-06-21",
+   "corrects": [
+    "32011D0333"
+   ],
+   "sha256": "252ec4b9b891b0d508772fbdf6ec22a3143ba2fc6eed4addb8a8ac3cb43a01b0",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "d of the EU Ecolabel for copying and graphic paper ( Official Journal of the European Union L 149 of 8 June 2011 ) On page 12, the title should read as follows:",
+     "for": "Commission Decision of 7 June 2011 on establishing the ecological criteria for the award of the EU Ecolabel for copying and graphic paper (notified under document C(2011) 3751) (Text with EEA relevance) (2011/332/EU)",
+     "read": "Commission Decision of 7 June 2011 on establishing the ecological criteria for the award of the EU Ecolabel for copying and graphic paper (notified under document C(2011) 3751) (Text with EEA relevance) (2011/333/EU)",
+     "for_len": 216,
+     "read_len": 216,
+     "for_tokens": [
+      [
+       "2011",
+       "332"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2011",
+       "333"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2011",
+       "332"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32011L0093R(01)",
+   "date": "2012-01-21",
+   "corrects": [
+    "32011L0093"
+   ],
+   "sha256": "b4d66a78909cabdf30e0d9da3510890ecab47993cc8bc4339babc4ef743e6c6c",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "placing Council Framework Decision 2004/68/JHA ( Official Journal of the European Union L 335 of 17 December 2011 ) In the contents and in the title, on page 1:",
+     "for": "2011/92/EU",
+     "read": "2011/93/EU",
+     "for_len": 10,
+     "read_len": 10,
+     "for_tokens": [
+      [
+       "2011",
+       "92"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2011",
+       "93"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2011",
+       "92"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32012R0684R(01)",
+   "date": "2012-07-27",
+   "corrects": [
+    "32012R0684"
+   ],
+   "sha256": "940c14005a41973d242e2f2bb6bc5945d7b8e783022addc94d9ec1df3777496c",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ruit and vegetables ( Official Journal of the European Union L 199 of 26 July 2012 ) In the title of the Regulation, in the contents on the cover and on page 4:",
+     "for": "(EU) No 648/2012",
+     "read": "(EU) No 684/2012",
+     "for_len": 16,
+     "read_len": 16,
+     "for_tokens": [
+      [
+       "2012",
+       "648"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2012",
+       "684"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2012",
+       "648"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32012R0972R(01)",
+   "date": "2012-10-24",
+   "corrects": [
+    "32012R0972"
+   ],
+   "sha256": "0fb7565e6ee4d1db03f3d642209eebc50e93866d7e52258908afb11c9e81487f",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "d, on the other hand ( Official Journal of the European Union L 293 of 23 October 2012 ) In the title of the Regulation, in the table of contents and on page 1:",
+     "for": "Council Regulation (EU) No 927/2012 of 16 July 2012 …",
+     "read": "Council Regulation (EU) No 972/2012 of 16 July 2012 …",
+     "for_len": 53,
+     "read_len": 53,
+     "for_tokens": [
+      [
+       "2012",
+       "927"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2012",
+       "972"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2012",
+       "927"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32013D0185R(01)",
+   "date": "2013-05-04",
+   "corrects": [
+    "32013D0185"
+   ],
+   "sha256": "523cbd5d8b63ccb3d8994d99d36c78baa0f3aa687ed36f0d9002b48f4c3d47a0",
+   "pair_count": 3,
+   "pairs": [
+    {
+     "locus": "il Decision 2012/739/CFSP concerning restrictive measures against Syria ( Official Journal of the European Union L 111 of 23 April 2013 ) On page 77, recital 2:",
+     "for": "(2) The Council considers that a person should be removed from the list of persons and entities subject to restrictive measures as set out in Annex I to Decision 2011/782/CFSP.",
+     "read": "(2) The Council considers that a person should be removed from the list of persons and entities subject to restrictive measures as set out in Annex I to Decision 2012/739/CFSP.’; on page 81, Annex, entry 36, column ‘Name",
+     "for_len": 176,
+     "read_len": 220,
+     "for_tokens": [
+      [
+       "2011",
+       "782"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2012",
+       "739"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2011",
+       "782"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32013D1210(02)R(01)",
+   "date": "2014-04-05",
+   "corrects": [
+    "32013D1210(02)"
+   ],
+   "sha256": "d69ce1aa358119104af5fbd6ee185b580ab8b5b9ff85d144bffb1eabc82e34cb",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "December 2013 ) (2014/C 101/10) On the cover, in the table of contents, and on page 13, in the title, in recitals 1, 2, 4 and 5, in Article 1 and in footnote 2:",
+     "for": "Decision 2010/206/EU",
+     "read": "Decision 2010/C 262/03",
+     "for_len": 20,
+     "read_len": 22,
+     "for_tokens": [
+      [
+       "2010",
+       "206"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "206"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32014R0387R(01)",
+   "date": "2014-04-25",
+   "corrects": [
+    "32014R0387"
+   ],
+   "sha256": "109b9f315207b01625060c05b8b14b3c9a539fdf35c2b8c94d9fb7122586cbce",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": " flag of the Netherlands ( Official Journal of the European Union L 115 of 17 April 2014 ) On the cover, in the table of contents, and on page 20, in the title:",
+     "for": "(EU) No 394/2014",
+     "read": "(EU) No 393/2014",
+     "for_len": 16,
+     "read_len": 16,
+     "for_tokens": [
+      [
+       "2014",
+       "394"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2014",
+       "393"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2014",
+       "394"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32014R0394R(01)",
+   "date": "2014-04-25",
+   "corrects": [
+    "32014R0394"
+   ],
+   "sha256": "a97351448fde6db1663be122ce8acafe387f9e58bcd52f0cc465d1c5be4033c2",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ain fruit and vegetables ( Official Journal of the European Union L 115 of 17 April 2014 ) On the cover, in the table of contents, and on page 22, in the title:",
+     "for": "(EU) No 395/2014",
+     "read": "(EU) No 394/2014",
+     "for_len": 16,
+     "read_len": 16,
+     "for_tokens": [
+      [
+       "2014",
+       "395"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2014",
+       "394"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2014",
+       "395"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32014R0395R(01)",
+   "date": "2014-04-25",
+   "corrects": [
+    "32014R0395"
+   ],
+   "sha256": "4f853b8470e9f4d62298d16d9d0b7f399eb58fed06a25555c257e6c7cd87bf5a",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ltrymeat and egg sectors ( Official Journal of the European Union L 115 of 17 April 2014 ) On the cover, in the table of contents, and on page 24, in the title:",
+     "for": "(EU) No 396/2014",
+     "read": "(EU) No 395/2014",
+     "for_len": 16,
+     "read_len": 16,
+     "for_tokens": [
+      [
+       "2014",
+       "396"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2014",
+       "395"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2014",
+       "396"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32013D0743R(02)",
+   "date": "2015-04-21",
+   "corrects": [
+    "32013D0743"
+   ],
+   "sha256": "e598ade5e6f9314c5b7beca50164346c3244e458229dcb18bc1f83e75d800cbb",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "PRIORITY ‘SOCIETAL CHALLENGES’, last sentence:",
+     "for": "Moreover, for each of the challenges, progress shall be assessed against the contribution to the specific objectives which are detailed in Annex I to Regulation (EU) No 104/2013.",
+     "read": "Moreover, for each of the challenges, progress shall be assessed against the contribution to the specific objectives which are detailed in Annex I to Regulation (EU) No 1291/2013.",
+     "for_len": 178,
+     "read_len": 179,
+     "for_tokens": [
+      [
+       "2013",
+       "104"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "1291"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "104"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32008L0006R(03)",
+   "date": "2015-08-28",
+   "corrects": [
+    "32008L0006"
+   ],
+   "sha256": "10ea9e59021e150f9678b5b1e7165de4b0d05aa2592693689ccb9c0da8b2e2d1",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "the internal market of Community postal services ( Official Journal of the European Union L 52 of 27 February 2008 ) On page 13, Article 1(8), new Article 7(2):",
+     "for": "2. Member States may ensure the provision of universal services by procuring such services in accordance with applicable public procurement rules and regulations, including, as provided for in Directive 2004/17/EC of the European Parliament and of the Council of 31 March 2004 coordinating the procurement procedures of entities operating in the water, energy, transport and postal services ( *1 ) , ",
+     "read": "2. Member States may ensure the provision of universal services by procuring such services in accordance with applicable public procurement rules and regulations, including, as provided for in Directive 2004/18/EC of the European Parliament and of the Council of 31 March 2004 on the coordination of procedures for the award of public works contracts, public supply contracts and public service contr",
+     "for_len": 499,
+     "read_len": 679,
+     "for_tokens": [
+      [
+       "2004",
+       "17"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2004",
+       "18"
+      ],
+      [
+       "2006",
+       "97"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2004",
+       "17"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32015R1754R(01)",
+   "date": "2015-11-04",
+   "corrects": [
+    "32015R1754"
+   ],
+   "sha256": "ff54c5ddfc69c643832880a62d3ac9555168d79d85754798a0fb92fb19a67ddd",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": " the tariff and statistical nomenclature and on the Common Customs Tariff ( Official Journal of the European Union L 285 of 30 October 2015 ) On the cover page:",
+     "for": "Commission Implementing Regulation (EU) No 1101/2014 of 16 October 2014 …",
+     "read": "Commission Implementing Regulation (EU) 2015/1754 of 6 October 2015 …",
+     "for_len": 73,
+     "read_len": 69,
+     "for_tokens": [
+      [
+       "2014",
+       "1101"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2015",
+       "1754"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2014",
+       "1101"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "31997L0055R(03)",
+   "date": "2015-12-03",
+   "corrects": [
+    "31997L0055"
+   ],
+   "sha256": "8e15a78274587b1bfe81135a36ee35e1e241a83d5dd69aeca5e06cae98bad6dc",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "rtising so as to include comparative advertising ( Official Journal of the European Union L 290 of 23 October 1997 ) On page 20, Article 1, introductory phrase:",
+     "for": "Directive 94/450/EEC is hereby amended as follows:",
+     "read": "Directive 84/450/EEC is hereby amended as follows:",
+     "for_len": 50,
+     "read_len": 50,
+     "for_tokens": [
+      [
+       "1994",
+       "450"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1984",
+       "450"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1994",
+       "450"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32016R0012R(01)",
+   "date": "2016-02-02",
+   "corrects": [
+    "32016R0012"
+   ],
+   "sha256": "1ff94c95ced54c94d6042b16d188ec1ccb5bf1cb15c2cc2692cfef643d6c68d0",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ells) originating in or consigned from the People's Republic of China ( Official Journal of the European Union L 4 of 7 January 2016 ) On page 8, in recital 64:",
+     "for": "This Regulation is in accordance with the opinion of the Committee established by Article 15(1) of Regulation (EC) No 1225/2009 and by Article 25(1) of Regulation (EC) No 597/2009,",
+     "read": "The Committee established by Article 15(1) of the basic anti-dumping Regulation and by Article 25(1) of the basic anti-subsidy Regulation did not deliver an opinion,",
+     "for_len": 180,
+     "read_len": 165,
+     "for_tokens": [
+      [
+       "2009",
+       "1225"
+      ],
+      [
+       "2009",
+       "597"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2009",
+       "1225"
+      ],
+      [
+       "2009",
+       "597"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32013R1305R(01)",
+   "date": "2016-05-19",
+   "corrects": [
+    "32013R1305"
+   ],
+   "sha256": "ea673448bcc6177803b319914e221e69a8feafcca217824e5907ab0938af76ec",
+   "pair_count": 26,
+   "pairs": [
+    {
+     "locus": "on page 505, Article 15(4), last subparagraph:",
+     "for": "Advice may also cover other issues and in particular the information related to climate change mitigation and adaptation, biodiversity and the protection of water as laid down in Annex I to Regulation (EU) No 1307/2013 or issues linked to the economic and environmental performance of the agricultural holding, including competitiveness aspects. …",
+     "read": "Advice may also cover other issues and in particular the information related to climate change mitigation and adaptation, biodiversity and the protection of water as laid down in Annex I to Regulation (EU) No 1306/2013 or issues linked to the economic and environmental performance of the agricultural holding, including competitiveness aspects. …",
+     "for_len": 347,
+     "read_len": 347,
+     "for_tokens": [
+      [
+       "2013",
+       "1307"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "1307"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 509, Article 21(2):",
+     "for": "2. Limitations on ownership of forests provided for in Articles 22 to 26 shall not apply to the tropical or subtropical forests and to the wooded areas of the territories of the Azores, Madeira, the Canary islands, the smaller Aegean islands within the meaning of Council Regulation (EEC) No 2019/93 ( 1 ) and the French overseas departments. …",
+     "read": "2. Limitations on ownership of forests provided for in Articles 22 to 26 shall not apply to the tropical or subtropical forests and to the wooded areas of the territories of the Azores, Madeira, the Canary islands, the smaller Aegean islands within the meaning of Regulation (EU) No 229/2013 of the European Parliament and of the Council ( 2 ) , and the French outermost regions. … on page 510, Artic",
+     "for_len": 344,
+     "read_len": 409,
+     "for_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "229"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ]
+    },
+    {
+     "locus": "… on page 510, Article 26(1):",
+     "for": "1. Support under point (e) of Article 21(1) shall be granted to private forest- holders, municipalities and their associations and to SMEs for investments enhancing forestry potential or relating to processing, mobilising and marketing adding value to forest products. In the territories of the Azores, Madeira, the Canary islands, the smaller Aegean islands within the meaning of Regulation (EEC) No",
+     "read": "1. Support under point (e) of Article 21(1) shall be granted to private forest- holders, municipalities and their associations and to SMEs for investments enhancing forestry potential or relating to processing, mobilising and marketing adding value to forest products. In the territories of the Azores, Madeira, the Canary islands, the smaller Aegean islands within the meaning of Regulation (EU) No ",
+     "for_len": 506,
+     "read_len": 504,
+     "for_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "229"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 512, Article 28(6), second subparagraph:",
+     "for": "When calculating the payments referred to in the first sub-paragraph, Member States shall deduct the amount necessary in order to exclude double funding of the practices referred to in Article 43 of Regulation (EU) No 1306/2013.",
+     "read": "When calculating the payments referred to in the first subparagraph, Member States shall deduct the amount necessary in order to exclude double funding of the practices referred to in Article 43 of Regulation (EU) No 1307/2013.",
+     "for_len": 228,
+     "read_len": 227,
+     "for_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "1307"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 512, Article 28(11):",
+     "for": "11. In order to ensure that double funding, as referred to in the second subparagraph of paragraph 6 is excluded, the Commission shall be empowered to adopt delegated acts in accordance with Article 83 laying down the calculation method to be used, including in the case of equivalent measures under Article 43 of Regulation (EU) No 1306/2013.",
+     "read": "11. In order to ensure that double funding, as referred to in the second subparagraph of paragraph 6 is excluded, the Commission shall be empowered to adopt delegated acts in accordance with Article 83 laying down the calculation method to be used, including in the case of equivalent measures under Article 43 of Regulation (EU) No 1307/2013.",
+     "for_len": 343,
+     "read_len": 343,
+     "for_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "1307"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 526, Article 58(5):",
+     "for": "5. Funds transferred by a Member State under Article 14(2) of Regulation (EU) No 1306/2013 shall be subtracted from the amounts allocated to that Member State in accordance with paragraph 4.",
+     "read": "5. Funds transferred by a Member State under Article 14(2) of Regulation (EU) No 1307/2013 shall be subtracted from the amounts allocated to that Member State in accordance with paragraph 4.",
+     "for_len": 190,
+     "read_len": 190,
+     "for_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "1307"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 527, Article 59(3), first subparagraph:",
+     "for": "3. The rural development programmes shall establish a single EAFRD contribution rate applicable to all measures. Where applicable, a separate EAFRD contribution rate shall be established for less-developed regions, for outermost regions and for the smaller Aegean islands within the meaning of Regulation (EEC) No 2019/93, as well as for transition regions. …",
+     "read": "3. The rural development programmes shall establish a single EAFRD contribution rate applicable to all measures. Where applicable, a separate EAFRD contribution rate shall be established for less-developed regions, for outermost regions and for the smaller Aegean islands within the meaning of Regulation (EU) No 229/2013, as well as for transition regions. …",
+     "for_len": 359,
+     "read_len": 359,
+     "for_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "229"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 527, point (a) of Article 59(3):",
+     "for": "(a) 85 % of the eligible public expenditure in the less developed regions, in the outermost regions and in the smaller Aegean islands within the meaning of Regulation (EEC) No 2019/93;",
+     "read": "(a) 85 % of the eligible public expenditure in the less developed regions, in the outermost regions and in the smaller Aegean islands within the meaning of Regulation (EU) No 229/2013;",
+     "for_len": 184,
+     "read_len": 184,
+     "for_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "229"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 527, point (a) of Article 59(4):",
+     "for": "… That rate may be increased to a maximum of 90 % for the programmes of less developed, the outermost regions, of the smaller Aegean islands within the meaning of Regulation (EEC) No 2019/93 and of transition regions referred to in points (b) and (c) of paragraph 3;",
+     "read": "… That rate may be increased to a maximum of 90 % for the programmes of less developed regions, of the outermost regions, of the smaller Aegean islands within the meaning of Regulation (EU) No 229/2013, and of transition regions referred to in points (b) and (c) of paragraph 3;",
+     "for_len": 266,
+     "read_len": 278,
+     "for_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "229"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1993",
+       "2019"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 527, point (e) of Article 59(4):",
+     "for": "(e) 100 % for operations receiving funding from funds transferred to the EAFRD in application of Article 7(2) and Article 14(1) of Regulation (EU) No 1306/2013.",
+     "read": "(e) 100 % for operations receiving funding from funds transferred to the EAFRD in application of Article 136a(1) of Regulation (EC) No 73/2009 and Article 7(2) and Article 14(1) of Regulation (EU) No 1307/2013.",
+     "for_len": 160,
+     "read_len": 210,
+     "for_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2009",
+       "73"
+      ],
+      [
+       "2013",
+       "1307"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "1306"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "31991L0692R(03)",
+   "date": "2016-05-26",
+   "corrects": [
+    "31991L0692"
+   ],
+   "sha256": "b06904388446ec62cc5e4429540d0914503012a3a0de3f4a6ddc112de6b64964",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "on of certain Directives relating to the environment ( Official Journal of the European Communities L 377 of 31 December 1991 ) On page 54, Annex VI, point (a):",
+     "for": "(a) Article 18 of Council Directive 74/439/EEC of 16 June 1975 on the disposal of waste oils ( 1 ), as amended by Directive 87/101/EEC ( 2 ).",
+     "read": "(a) Article 18 of Council Directive 75/439/EEC of 16 June 1975 on the disposal of waste oils ( 1 ), as amended by Directive 87/101/EEC ( 2 ).",
+     "for_len": 141,
+     "read_len": 141,
+     "for_tokens": [
+      [
+       "1974",
+       "439"
+      ],
+      [
+       "1987",
+       "101"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1975",
+       "439"
+      ],
+      [
+       "1987",
+       "101"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1974",
+       "439"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32014R0596R(03)",
+   "date": "2016-10-21",
+   "corrects": [
+    "32014R0596"
+   ],
+   "sha256": "1d528fed25f5921c0cfa19de0395535bf645ddacd3043fbb9c222841683e2131",
+   "pair_count": 3,
+   "pairs": [
+    {
+     "locus": "uncil and Commission Directives 2003/124/EC, 2003/125/EC and 2004/72/EC ( Official Journal of the European Union L 173 of 12 June 2014 ) On page 14, recital 76:",
+     "for": "… market practices existing before the entry into force of this Regulation and accepted by competent authorities in accordance with Commission Regulation (EC) No 2273/2003 ( 1 ) for the purpose of applying point 2(a) of Article 1 of Directive 2003/6/EC, may remain applicable …",
+     "read": "… market practices existing before the entry into force of this Regulation and accepted by competent authorities in accordance with Commission Directive 2004/72/EC ( 2 ) for the purpose of applying point 2(a) of Article 1 of Directive 2003/6/EC, may remain applicable … on page 19, Article 3(1)(26)(d):",
+     "for_len": 277,
+     "read_len": 302,
+     "for_tokens": [
+      [
+       "2003",
+       "2273"
+      ],
+      [
+       "2003",
+       "6"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2003",
+       "6"
+      ],
+      [
+       "2004",
+       "72"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2003",
+       "2273"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32014R0909R(04)",
+   "date": "2016-12-21",
+   "corrects": [
+    "32014R0909"
+   ],
+   "sha256": "26e38dbc124bc737ab4268f9933eaf29a79a2888aad1dc714f90e6dcebc44d0a",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "and 2014/65/EU and Regulation (EU) No 236/2012 ( Official Journal of the European Union L 257 of 28 August 2014 ) On page 56, Article 54(8), third subparagraph:",
+     "for": "Power is delegated to the Commission to adopt the regulatory technical standards referred to in the first subparagraph in accordance with Articles 10 to 14 of Regulation (EU) No 1095/2010.",
+     "read": "Power is delegated to the Commission to adopt the regulatory technical standards referred to in the first subparagraph in accordance with Articles 10 to 14 of Regulation (EU) No 1093/2010.",
+     "for_len": 188,
+     "read_len": 188,
+     "for_tokens": [
+      [
+       "2010",
+       "1095"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2010",
+       "1093"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2010",
+       "1095"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32014R0508R(07)",
+   "date": "2017-03-31",
+   "corrects": [
+    "32014R0508"
+   ],
+   "sha256": "77ffbbe97660a42dc1efbf1b8182bbc245cee65d6afe4034fb9659c5b63b37bf",
+   "pair_count": 18,
+   "pairs": [
+    {
+     "locus": "Page 33, point (b) of Article 49(2) and related footnote:",
+     "for": "(b) environmental impact assessment as referred to in Directive 2001/42/EC of the European Parliament and of the Council ( 1 ) and Directive 92/43/EEC",
+     "read": "(b) environmental impact assessment as referred to in Directive 2011/92/EU of the European Parliament and of the Council ( 2 ) and Directive 92/43/EEC; 8. Page 36, point (a) of Article 56(1) and related footnote:",
+     "for_len": 150,
+     "read_len": 212,
+     "for_tokens": [
+      [
+       "1992",
+       "43"
+      ],
+      [
+       "2001",
+       "42"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1992",
+       "43"
+      ],
+      [
+       "2011",
+       "92"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2001",
+       "42"
+      ]
+     ]
+    },
+    {
+     "locus": "Page 36, point (a) of Article 56(1) and related footnote:",
+     "for": "(a) the costs of control and eradication of diseases in aquaculture in accordance with Council Decision 2009/470/EC ( 3 ) , including the operational costs necessary to fulfil the obligations in an eradication plan",
+     "read": "(a) the costs of control and eradication of diseases in aquaculture in accordance with Regulation (EU) No 652/2014 of the European Parliament and of the Council ( 4 ) , including the operational costs necessary to fulfil the obligations in an eradication plan; 9. Page 38, Article 61(4):",
+     "for_len": 214,
+     "read_len": 287,
+     "for_tokens": [
+      [
+       "2009",
+       "470"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2014",
+       "652"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2009",
+       "470"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32013R0098R(01)",
+   "date": "2017-11-30",
+   "corrects": [
+    "32013R0098"
+   ],
+   "sha256": "34cb2401b53c750d7a9027af12fee3f0c4d71ff3f7c35a65e1059a21c1113c59",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "ting and use of explosives precursors ( Official Journal of the European Union L 39 of 9 February 2013 ) On page 10, Annex I, the table, footnote reference (1):",
+     "for": "( 1 ) Commission Regulation (EC) No 948/2009 ( OJ L 287, 31.10.2009, p. 1 ).",
+     "read": "( 1 ) Council Regulation (EEC) No 2658/87 of 23 July 1987 on the tariff and statistical nomenclature and on the Common Customs Tariff ( OJ L 256, 7.9.1987, p. 1 ).",
+     "for_len": 76,
+     "read_len": 163,
+     "for_tokens": [
+      [
+       "2009",
+       "948"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1987",
+       "2658"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2009",
+       "948"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 11, Annex II, the table, footnote reference (1):",
+     "for": "( 1 ) Regulation (EC) No 948/2009.",
+     "read": "( 1 ) Regulation (EEC) No 2658/87.",
+     "for_len": 34,
+     "read_len": 34,
+     "for_tokens": [
+      [
+       "2009",
+       "948"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1987",
+       "2658"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2009",
+       "948"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32017O0009R(01)",
+   "date": "2018-03-02",
+   "corrects": [
+    "32017O0009"
+   ],
+   "sha256": "bc897054060bf2a1c39669f0b3ca8fa98f85a2a58ad1498ec3cdb3b5d8f2502f",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": " authorities in relation to less significant institutions (ECB/2017/9) ( Official Journal of the European Union L 101 of 13 April 2017 ) On page 157, recital 7:",
+     "for": "(7) Options and discretions in relation to the exemption of exposures from the application of the large exposure limits set out in Article 395(1) of Regulation (EU) No 575/2013 should be consistently applied to both significant institutions and less significant institutions to establish a level playing field for credit institutions in the participating Member States, limit concentration risks aris",
+     "read": "(7) Options and discretions in relation to the exemption of exposures from the application of the large exposure limits set out in Article 395(1) of Regulation (EU) No 575/2013 should be consistently applied to both significant institutions and less significant institutions to establish a level playing field for credit institutions in the participating Member States, limit concentration risks aris",
+     "for_len": 2229,
+     "read_len": 1905,
+     "for_tokens": [
+      [
+       "2013",
+       "575"
+      ],
+      [
+       "2016",
+       "445"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "575"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2016",
+       "445"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32018D1921R(01)",
+   "date": "2018-12-27",
+   "corrects": [
+    "32018D1921"
+   ],
+   "sha256": "a3d063664a5b48ba4b1f34170c523bf949fe412d7a0d56af5ae10eff87c45f70",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "he common system of value added tax ( Official Journal of the European Union L 311 of 7 December 2018 ) The title on the contents page and the title on page 36:",
+     "for": "Council Implementing Decision (EU) 2018/1921 of 4 December 2018 amending Implementing Decision 2013/191/EU authorising Latvia to introduce a special measure derogating from point (a) of Article 26(1) and Articles 168 and 168a of Directive 2006/112/EC on the common system of value added tax",
+     "read": "Council Implementing Decision (EU) 2018/1921 of 4 December 2018 amending Implementing Decision (EU) 2015/2429 authorising Latvia to introduce a special measure derogating from point (a) of Article 26(1) and Articles 168 and 168a of Directive 2006/112/EC on the common system of value added tax",
+     "for_len": 290,
+     "read_len": 293,
+     "for_tokens": [
+      [
+       "2006",
+       "112"
+      ],
+      [
+       "2013",
+       "191"
+      ],
+      [
+       "2018",
+       "1921"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2006",
+       "112"
+      ],
+      [
+       "2015",
+       "2429"
+      ],
+      [
+       "2018",
+       "1921"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "191"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32018D1921R(02)",
+   "date": "2019-01-10",
+   "corrects": [
+    "32018D1921"
+   ],
+   "sha256": "68031b772b05e5cfa11a0b6712eb69296597968e6ed322de16c8955a16a03107",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "168a of Directive 2006/112/EC on the common system of value added tax ( Official Journal of the European Union L 311 of 7 December 2018 ) On page 36, recital 9:",
+     "for": "Implementing Decision 2013/191/EU should therefore be amended accordingly,",
+     "read": "Implementing Decision (EU) 2015/2429 should therefore be amended accordingly,",
+     "for_len": 74,
+     "read_len": 77,
+     "for_tokens": [
+      [
+       "2013",
+       "191"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2015",
+       "2429"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "191"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 37, Article 1:",
+     "for": "Article 6 of Implementing Decision 2013/191/EU is replaced by the following: …",
+     "read": "Article 6 of Implementing Decision (EU) 2015/2429 is replaced by the following: …",
+     "for_len": 78,
+     "read_len": 81,
+     "for_tokens": [
+      [
+       "2013",
+       "191"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2015",
+       "2429"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "191"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "31979L0796R(01)",
+   "date": "2019-01-11",
+   "corrects": [
+    "31979L0796"
+   ],
+   "sha256": "b5ca3d6662c5dc3571b7cb15d10127f29b10d7f4a842e5c8ded04ca274d2eca3",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": " for human consumption ( Official Journal of the European Communities L 239 of 22 September 1979 ) On page 24 and on the cover page, the title of the Directive:",
+     "for": "FIRST COMMISSION DIRECTIVE of 26 July 1979 Laying down Community methods of analysis for testing certain sugars intended for human consumption (79/786/EEC)",
+     "read": "FIRST COMMISSION DIRECTIVE of 26 July 1979 laying down Community methods of analysis for testing certain sugars intended for human consumption (79/796/EEC)",
+     "for_len": 155,
+     "read_len": 155,
+     "for_tokens": [
+      [
+       "1979",
+       "786"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1979",
+       "796"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1979",
+       "786"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "31990L0270R(03)",
+   "date": "2019-04-24",
+   "corrects": [
+    "31990L0270"
+   ],
+   "sha256": "5ba36b718bbbadf1de180edb4034deeb78ad77e52755bfd757e977d37bd0bd10",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "thin the meaning of Article 16 (1) of Directive 87/391/EEC) ( Official Journal of the European Union L 156 of 21 June 1990 ) On page 14, title of the Directive:",
+     "for": "Council Directive 90/270/EEC of 29 May 1990 on the minimum safety and health requirements for work with display screen equipment (fifth individual Directive within the meaning of Article 16(1) of Directive 87/391/EEC)",
+     "read": "Council Directive 90/270/EEC of 29 May 1990 on the minimum safety and health requirements for work with display screen equipment (fifth individual Directive within the meaning of Article 16(1) of Directive 89/391/EEC)",
+     "for_len": 217,
+     "read_len": 217,
+     "for_tokens": [
+      [
+       "1987",
+       "391"
+      ],
+      [
+       "1990",
+       "270"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1989",
+       "391"
+      ],
+      [
+       "1990",
+       "270"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1987",
+       "391"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32019R0815R(01)",
+   "date": "2019-06-04",
+   "corrects": [
+    "32019R0815"
+   ],
+   "sha256": "20c6f5bf98b5ee3952872fd40c83db60c6074e5e6ff20e19d16128eb13ccc063",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": " a single electronic reporting format ( Official Journal of the European Union L 143, 29 May 2019 ) On the contents page and on page 1, in the title of the act:",
+     "for": "(EU) 2018/815",
+     "read": "(EU) 2019/815",
+     "for_len": 13,
+     "read_len": 13,
+     "for_tokens": [
+      [
+       "2018",
+       "815"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2019",
+       "815"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2018",
+       "815"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32019R1295R(01)",
+   "date": "2019-10-14",
+   "corrects": [
+    "32019R1295"
+   ],
+   "sha256": "c3f1199b869f875f1521ea951ffbf15a46982610d40efd5e562547ef669a2e4c",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "nterim review pursuant to Article 11(3) of Regulation (EU) 2016/1036 ( Official Journal of the European Union L 204 of 2 August 2019 ) On page 27, in Article 1:",
+     "for": "The entry concerning LLC Interpipe Niko Tube and OJSC Interpipe Nizhnedneprovsky Tube Rolling Plant (Interpipe NTRP) in the table of Article 1(2) of Implementing Regulation (EU) No 585/2012 shall be replaced by the following:",
+     "read": "The entry concerning LLC Interpipe Niko Tube and OJSC Interpipe Nizhnedneprovsky Tube Rolling Plant (Interpipe NTRP) in the table of Article 1(2) of Implementing Regulation (EU) 2018/1469 shall be replaced by the following:",
+     "for_len": 225,
+     "read_len": 223,
+     "for_tokens": [
+      [
+       "2012",
+       "585"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2018",
+       "1469"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2012",
+       "585"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32020D0753R(01)",
+   "date": "2020-07-06",
+   "corrects": [
+    "32020D0753"
+   ],
+   "sha256": "9d5f3085ec8be68143fc3eef8f9091b4a60fa287cdcf4864797a46f8687f02b2",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "cialist Republic of Viet Nam ( Official Journal of the European Union L 186 of 12 June 2020 ) On the cover page and on page 1, the Decision number in the title:",
+     "for": "Council Decision (EU) 2019/753 …",
+     "read": "Council Decision (EU) 2020/753 …",
+     "for_len": 32,
+     "read_len": 32,
+     "for_tokens": [
+      [
+       "2019",
+       "753"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2020",
+       "753"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2019",
+       "753"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32020D1146R(01)",
+   "date": "2020-08-06",
+   "corrects": [
+    "32020D1146"
+   ],
+   "sha256": "67e95ed185aca3f21029d50666812f10635aa098a58d87eea5d351d5669d7ac0",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "g, electronic circuits used with luminaires and discharge lamps ( Official Journal of the European Union L 250 of 3 August 2020 ) On page 124, Articles 1 and 2:",
+     "for": "Implementing Decision (EU) 2020/1956",
+     "read": "Implementing Decision (EU) 2019/1956",
+     "for_len": 36,
+     "read_len": 36,
+     "for_tokens": [
+      [
+       "2020",
+       "1956"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2019",
+       "1956"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2020",
+       "1956"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32021R0048R(01)",
+   "date": "2021-02-08",
+   "corrects": [
+    "32021R0048"
+   ],
+   "sha256": "263b15e40cfe2ebff22fcfac28a2854ef01d5bfa3097b899a3a5d1b9a11b8e5a",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": " (EC) No 147/2003 concerning restrictive measures in respect of Somalia ( Official Journal of the European Union L 23 of 25 January 2021 ) On page 1, recital 3:",
+     "for": "On 22 January 2021, Council Decision (CFSP) 2021/48 …",
+     "read": "On 22 January 2021, Council Decision (CFSP) 2021/54 …",
+     "for_len": 53,
+     "read_len": 53,
+     "for_tokens": [
+      [
+       "2021",
+       "48"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2021",
+       "54"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2021",
+       "48"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32021R1060R(01)",
+   "date": "2021-07-22",
+   "corrects": [
+    "32021R1060"
+   ],
+   "sha256": "338fca084251c6b5b219507574e974b546119a73f3c6cb79a6b20a6e79570c31",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "e Instrument for Financial Support for Border Management and Visa Policy ( Official Journal of the European Union L 231, 30 June 2021 ) On page 163, recital 27:",
+     "for": "… Regulation (EU) 2021/1060 of the European Parliament and of the Council ( 1 ) (the “Interreg Regulation",
+     "read": "… Regulation (EU) 2021/1059 of the European Parliament and of the Council ( 2 ) (the “Interreg Regulation",
+     "for_len": 105,
+     "read_len": 105,
+     "for_tokens": [
+      [
+       "2021",
+       "1060"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2021",
+       "1059"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2021",
+       "1060"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32021R1239R(01)",
+   "date": "2021-08-17",
+   "corrects": [
+    "32021R1239"
+   ],
+   "sha256": "2881e2e45bae8e7e9d45c7654fb497727a3ca262bb98fc274be3a9e2db6b8706",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "ing opportunities for 2021 in Union and non-Union waters ( Official Journal of the European Union L 276 of 31 July 2021 ) On page 5, recital 24, first sentence:",
+     "for": "(24) The catch limits provided for in Regulations (EU) 2019/1919 and (EU) 2021/91 apply as from 1 January 2021. (…)",
+     "read": "(24) The catch limits provided for in Regulations (EU) 2021/91 and (EU) 2021/92 apply as from 1 January 2021. (…)",
+     "for_len": 115,
+     "read_len": 113,
+     "for_tokens": [
+      [
+       "2019",
+       "1919"
+      ],
+      [
+       "2021",
+       "91"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2021",
+       "91"
+      ],
+      [
+       "2021",
+       "92"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2019",
+       "1919"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32021R2116R(01)",
+   "date": "2022-02-10",
+   "corrects": [
+    "32021R2116"
+   ],
+   "sha256": "0260d6aefbdf02fa79aad7e301b7990cae5b0c529f42e0c7dbe922ee397d40a4",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "On page 256, Article 104(1), second subparagraph, point (a)(iii):",
+     "for": "(iii) for the aid schemes referred to in Article 5(6), first subparagraph, point (c), and Article 5(7) of Regulation (EU) 2021/2115 of the European Parliament and of the Council ( 36 ) in relation to expenditure incurred and payments made for operations implemented pursuant to Regulation (EU) No 1308/2013 after 31 December 2022 and until the end of those aid schemes; and",
+     "read": "(iii) for the aid schemes referred to in Article 5(6), first subparagraph, point (c), and Article 5(7) of Regulation (EU) 2021/2117 of the European Parliament and of the Council ( 36 ) in relation to expenditure incurred and payments made for operations implemented pursuant to Regulation (EU) No 1308/2013 after 31 December 2022 and until the end of those aid schemes; and",
+     "for_len": 373,
+     "read_len": 373,
+     "for_tokens": [
+      [
+       "2013",
+       "1308"
+      ],
+      [
+       "2021",
+       "2115"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "1308"
+      ],
+      [
+       "2021",
+       "2117"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2021",
+       "2115"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 256, footnote 36:",
+     "for": "( 36 ) Regulation (EU) 2021/2115 of the European Parliament and of the Council of 2 December 2021 amending Regulations (EU) No 1308/2013 establishing a common organisation of the markets in agricultural products, (EU) No 1151/2012 on quality schemes for agricultural products and foodstuffs, (EU) No 251/2014 on the definition, description, presentation, labelling and the protection of geographical ",
+     "read": "( 36 ) Regulation (EU) 2021/2117 of the European Parliament and of the Council of 2 December 2021 amending Regulations (EU) No 1308/2013 establishing a common organisation of the markets in agricultural products, (EU) No 1151/2012 on quality schemes for agricultural products and foodstuffs, (EU) No 251/2014 on the definition, description, presentation, labelling and the protection of geographical ",
+     "for_len": 583,
+     "read_len": 585,
+     "for_tokens": [
+      [
+       "2012",
+       "1151"
+      ],
+      [
+       "2013",
+       "1308"
+      ],
+      [
+       "2013",
+       "228"
+      ],
+      [
+       "2014",
+       "251"
+      ],
+      [
+       "2021",
+       "2115"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2012",
+       "1151"
+      ],
+      [
+       "2013",
+       "1308"
+      ],
+      [
+       "2013",
+       "228"
+      ],
+      [
+       "2014",
+       "251"
+      ],
+      [
+       "2021",
+       "2117"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2021",
+       "2115"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022H0108R(01)",
+   "date": "2022-02-10",
+   "corrects": [
+    "32022H0108"
+   ],
+   "sha256": "13edfa0edcb4fade7f0e339e91ce5d012b98f59bceaa42727108b71deff01781",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "On pages 124 and 125, recitals 6 and 7:",
+     "for": "(6) In order to take account of developments in the evolution of the COVID-19 pandemic since the adoption of Recommendation (EU) 2020/1475, the Council has, on the basis of a proposal by the Commission, replaced that Recommendation with Recommendation (EU) 2022/108. (7) In order to ensure that the common criteria, thresholds and framework of measures applied by Member States to facilitate safe tra",
+     "read": "(6) In order to take account of developments in the evolution of the COVID-19 pandemic since the adoption of Recommendation (EU) 2020/1475, the Council has, on the basis of a proposal by the Commission, replaced that Recommendation with Recommendation (EU) 2022/107. (7) In order to ensure that the common criteria, thresholds and framework of measures applied by Member States to facilitate safe tra",
+     "for_len": 794,
+     "read_len": 794,
+     "for_tokens": [
+      [
+       "2020",
+       "1475"
+      ],
+      [
+       "2020",
+       "1632"
+      ],
+      [
+       "2022",
+       "108"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2020",
+       "1475"
+      ],
+      [
+       "2020",
+       "1632"
+      ],
+      [
+       "2022",
+       "107"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2022",
+       "108"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 126:",
+     "for": "In the sole recommendation, “Council Recommendation (EU) 2020/1475” is replaced by “Council Recommendation (EU) 2022/108”.",
+     "read": "In the sole recommendation, “Council Recommendation (EU) 2020/1475” is replaced by “Council Recommendation (EU) 2022/107”.",
+     "for_len": 122,
+     "read_len": 122,
+     "for_tokens": [
+      [
+       "2020",
+       "1475"
+      ],
+      [
+       "2022",
+       "108"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2020",
+       "1475"
+      ],
+      [
+       "2022",
+       "107"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2022",
+       "108"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022O0989R(01)",
+   "date": "2022-08-25",
+   "corrects": [
+    "32022O0989"
+   ],
+   "sha256": "615863cb515d97e282925bc35c9545413ef7722d661a3fd7cfc58a89940b05dd",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "B/2014/31) (ECB/2022/19) ( Official Journal of the European Union L 167 of 24 June 2022 ) On the cover, in the table of contents, and on page 135, in the title:",
+     "for": "Guideline (EU) 2022/989 of the European Central Bank of 2 May 2022 amending Guideline (EU) 2021/975 on additional temporary measures relating to Eurosystem refinancing operations and eligibility of collateral (ECB/2014/31) (ECB/2022/19)",
+     "read": "Guideline (EU) 2022/989 of the European Central Bank of 2 May 2022 amending Guideline ECB/2014/31 on additional temporary measures relating to Eurosystem refinancing operations and eligibility of collateral (ECB/2022/19)",
+     "for_len": 236,
+     "read_len": 220,
+     "for_tokens": [
+      [
+       "2021",
+       "975"
+      ],
+      [
+       "2022",
+       "989"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "989"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2021",
+       "975"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022R1299R(01)",
+   "date": "2022-10-27",
+   "corrects": [
+    "32022R1299"
+   ],
+   "sha256": "c6437340755c522812770cc3b98d31caecbd08658d2dc3a0213aa092ffb6b45a",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "On page 2, footnote 4:",
+     "for": "Commission Delegated Regulation (EU) 2022/1301 of 31 March 2022 amending the regulatory technical standards laid down in Delegated Regulation (EU) 2020/1226 as regards the information to be provided in accordance with the STS notification requirements for on-balance-sheet synthetic securitisations (OJ L 197, xx.xx.2022, p. 10).",
+     "read": "Commission Delegated Regulation (EU) 2022/1302 of 20 April 2022 supplementing Directive 2014/65/EU of the European Parliament and of the Council with regard to regulatory technical standards for the application of position limits to commodity derivatives and procedures for applying for exemption from position limits ( OJ L 197, 26.7.2022, p. 52 ).",
+     "for_len": 329,
+     "read_len": 349,
+     "for_tokens": [
+      [
+       "2020",
+       "1226"
+      ],
+      [
+       "2022",
+       "1301"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2014",
+       "65"
+      ],
+      [
+       "2022",
+       "1302"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2020",
+       "1226"
+      ],
+      [
+       "2022",
+       "1301"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022R2236R(01)",
+   "date": "2022-11-24",
+   "corrects": [
+    "32022R2236"
+   ],
+   "sha256": "778c4533fa65acd22f99fb6fda403bb4e53a87cfe889f513a7a1d4ec3d76af1d",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": " and as regards software update ( Official Journal of the European Union L 296 of 16 November 2022 ) In Table 2 in Annex II, column 7, row item A6 (on page 43):",
+     "for": "… Implementing Regulation (EU) 2022/1362",
+     "read": "… Commission Implementing Regulation (EU) 2022/1426 ( 1 ) in Table 2 in Annex II, column 7, row items E5, E6, E7 and E9 (on page 57):",
+     "for_len": 40,
+     "read_len": 133,
+     "for_tokens": [
+      [
+       "2022",
+       "1362"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "1426"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2022",
+       "1362"
+      ]
+     ]
+    },
+    {
+     "locus": "on (EU) 2022/1362’, read: ‘… Commission Implementing Regulation (EU) 2022/1426 ( 1 ) in Table 2 in Annex II, column 7, row items E5, E6, E7 and E9 (on page 57):",
+     "for": "… Implementing Regulation (EU) 2022/1362",
+     "read": "… Implementing Regulation (EU) 2022/1426’. ( 1 ) Commission Implementing Regulation (EU) 2022/1426 of 5 August 2022 laying down rules for the application of Regulation (EU) 2019/2144 of the European Parliament and of the Council as regards uniform procedures and technical specifications for the type-approval of the automated driving system (ADS) of fully automated vehicles ( OJ L 221, 26.8.2022, p",
+     "for_len": 40,
+     "read_len": 406,
+     "for_tokens": [
+      [
+       "2022",
+       "1362"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2019",
+       "2144"
+      ],
+      [
+       "2022",
+       "1426"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2022",
+       "1362"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32019R0818R(04)",
+   "date": "2022-12-29",
+   "corrects": [
+    "32019R0818"
+   ],
+   "sha256": "c9f6ffd44d2d2321aded139b590d7c0a867f554b844188e353cfa7a860287fd7",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "On page 100, Article 7(3):",
+     "for": "3. The Member State authorities referred to in paragraph 1 may use the ESP to search data related to persons or their travel documents in the Central-SIS referred to in Regulations (EU) 2018/1860 and (EU) 2018/1861.",
+     "read": "3. The Member State authorities referred to in paragraph 1 may use the ESP to search data related to persons or their travel documents in the Central-SIS referred to in Regulation (EU) 2018/1862.",
+     "for_len": 215,
+     "read_len": 195,
+     "for_tokens": [
+      [
+       "2018",
+       "1860"
+      ],
+      [
+       "2018",
+       "1861"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2018",
+       "1862"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2018",
+       "1860"
+      ],
+      [
+       "2018",
+       "1861"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32023R0262R(01)",
+   "date": "2023-03-02",
+   "corrects": [
+    "32023R0262"
+   ],
+   "sha256": "92aa24e2f65403f14b0425c3a2ab8fa19f2fc7dcdb7968fa296065eee40cc841",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "e field of officially supported export credits ( Official Journal of the European Union L 38 of 8 February 2023 ) On the cover page and in the title, on page 1:",
+     "for": "Commission Delegated Regulation (EU) 2022/262 of 7 September 2022 amending Annex II to Regulation (EU) No 1233/2011 of the European Parliament and of the Council on the application of certain guidelines in the field of officially supported export credits",
+     "read": "Commission Delegated Regulation (EU) 2023/262 of 7 September 2022 amending Annex II to Regulation (EU) No 1233/2011 of the European Parliament and of the Council on the application of certain guidelines in the field of officially supported export credits",
+     "for_len": 254,
+     "read_len": 254,
+     "for_tokens": [
+      [
+       "2011",
+       "1233"
+      ],
+      [
+       "2022",
+       "262"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2011",
+       "1233"
+      ],
+      [
+       "2023",
+       "262"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2022",
+       "262"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32023R0860R(01)",
+   "date": "2023-06-15",
+   "corrects": [
+    "32023R0860"
+   ],
+   "sha256": "650d1f3c9a6397dfec9a79edd9238611d70a148a3975bd04f15785811f63e1de",
+   "pair_count": 4,
+   "pairs": [
+    {
+     "locus": "On page 28, in the Annex, in the correction to Annex VIII to Implementing Regulation (EU) 2022/128, in footnote 3 of Annex VIII:",
+     "for": "( 3 ) The information on the end date of the types of interventions in the form of direct payments, the types of intervention for rural development interventions with regard to natural or other area-specific constraints and to area-specific disadvantages resulting from certain mandatory requirements as well as of the measures under Regulations (EU) No 228/2013 and (EU) No 229/2013 is not relevant ",
+     "read": "( 3 ) The information on the end date of the types of interventions in the form of direct payments, the types of intervention for rural development interventions with regard to natural or other area-specific constraints and to area-specific disadvantages resulting from certain mandatory requirements as well as of the measures under Regulations (EU) No 228/2013 and (EU) No 229/2013 is not relevant ",
+     "for_len": 1452,
+     "read_len": 1653,
+     "for_tokens": [
+      [
+       "2013",
+       "1305"
+      ],
+      [
+       "2013",
+       "1306"
+      ],
+      [
+       "2013",
+       "1307"
+      ],
+      [
+       "2013",
+       "1308"
+      ],
+      [
+       "2013",
+       "228"
+      ],
+      [
+       "2013",
+       "229"
+      ],
+      [
+       "2014",
+       "1144"
+      ],
+      [
+       "2021",
+       "2115"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "1305"
+      ],
+      [
+       "2013",
+       "1306"
+      ],
+      [
+       "2013",
+       "1307"
+      ],
+      [
+       "2013",
+       "1308"
+      ],
+      [
+       "2013",
+       "228"
+      ],
+      [
+       "2013",
+       "229"
+      ],
+      [
+       "2014",
+       "1144"
+      ],
+      [
+       "2021",
+       "2117"
+      ],
+      [
+       "2022",
+       "128"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2021",
+       "2115"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022D0911R(01)",
+   "date": "2023-08-03",
+   "corrects": [
+    "32022D0911"
+   ],
+   "sha256": "163140ce7dfc03c1648ea549a9242f8035120069c28ee91c1e63731257f92060",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "CB and repealing Decision 2007/610/EC (ECB/2007/7) (ECB/2022/22) ( Official Journal of the European Union L 163, 17 June 2022 ) On the cover page, in the title:",
+     "for": "Decision (EU) 2022/911 of the European Central Bank of 19 April 2022 concerning the terms and conditions of TARGET-ECB and repealing Decision 2007/610/EC (ECB/2007/7) (ECB/2022/22)",
+     "read": "Decision (EU) 2022/911 of the European Central Bank of 19 April 2022 concerning the terms and conditions of TARGET-ECB and repealing Decision ECB/2007/7 (ECB/2022/22)",
+     "for_len": 180,
+     "read_len": 166,
+     "for_tokens": [
+      [
+       "2007",
+       "610"
+      ],
+      [
+       "2022",
+       "911"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "911"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2007",
+       "610"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 1, in the title:",
+     "for": "DECISION (EU) 2022/911 OF THE EUROPEAN CENTRAL BANK of 19 April 2022 concerning the terms and conditions of TARGET-ECB and repealing Decision 2007/610/EC (ECB/2007/7) (ECB/2022/22)",
+     "read": "DECISION (EU) 2022/911 OF THE EUROPEAN CENTRAL BANK of 19 April 2022 concerning the terms and conditions of TARGET-ECB and repealing Decision ECB/2007/7 (ECB/2022/22)",
+     "for_len": 180,
+     "read_len": 166,
+     "for_tokens": [
+      [
+       "2007",
+       "610"
+      ],
+      [
+       "2022",
+       "911"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "911"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2007",
+       "610"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022O0747R(01)",
+   "date": "2023-08-03",
+   "corrects": [
+    "32022O0747"
+   ],
+   "sha256": "08bdb190bc8e3e42f196a1e5e26773ff69b42e46dd1691c35cfafac05859b4dc",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "field of external statistics (ECB/2011/23) (ECB/2022/23) ( Official Journal of the European Union L 137 of 16 May 2022 ) On the second cover page, in the title:",
+     "for": "Guideline (EU) 2022/747 of the European Central Bank of 5 May 2022 amending Guideline 2012/120/EU on the statistical reporting requirements of the European Central Bank in the field of external statistics (ECB/2011/23) (ECB/2022/23)",
+     "read": "Guideline (EU) 2022/747 of the European Central Bank of 5 May 2022 amending Guideline ECB/2011/23 on the statistical reporting requirements of the European Central Bank in the field of external statistics (ECB/2022/23)",
+     "for_len": 232,
+     "read_len": 218,
+     "for_tokens": [
+      [
+       "2012",
+       "120"
+      ],
+      [
+       "2022",
+       "747"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "747"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2012",
+       "120"
+      ]
+     ]
+    },
+    {
+     "locus": "on page 177, in the title:",
+     "for": "GUIDELINE (EU) 2022/747 OF THE EUROPEAN CENTRAL BANK of 5 May 2022 amending Guideline 2012/120/EU on the statistical reporting requirements of the European Central Bank in the field of external statistics (ECB/2011/23) (ECB/2022/23)",
+     "read": "GUIDELINE (EU) 2022/747 OF THE EUROPEAN CENTRAL BANK of 5 May 2022 amending Guideline ECB/2011/23 on the statistical reporting requirements of the European Central Bank in the field of external statistics (ECB/2022/23)",
+     "for_len": 232,
+     "read_len": 218,
+     "for_tokens": [
+      [
+       "2012",
+       "120"
+      ],
+      [
+       "2022",
+       "747"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "747"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2012",
+       "120"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022O0912R(01)",
+   "date": "2023-08-03",
+   "corrects": [
+    "32022O0912"
+   ],
+   "sha256": "e04cb7da5c130fb24bc9dd74e29443a33a556601e0f20bb02a2341438d1d8e03",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "T) and repealing Guideline 2013/47/EU (ECB/2012/27) (ECB/2022/8) ( Official Journal of the European Union L 163, 17 June 2022 ) On the cover page, in the title:",
+     "for": "Guideline (EU) 2022/912 of the European Central Bank of 24 February 2022 on a new-generation Trans-European Automated Real-time Gross Settlement Express Transfer system (TARGET) and repealing Guideline 2013/47/EU (ECB/2012/27) (ECB/2022/8)",
+     "read": "Guideline (EU) 2022/912 of the European Central Bank of 24 February 2022 on a new-generation Trans-European Automated Real-time Gross Settlement Express Transfer system (TARGET) and repealing Guideline ECB/2012/27 (ECB/2022/8)",
+     "for_len": 239,
+     "read_len": 226,
+     "for_tokens": [
+      [
+       "2013",
+       "47"
+      ],
+      [
+       "2022",
+       "912"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "912"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "47"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 84, in the title:",
+     "for": "GUIDELINE (EU) 2022/912 OF THE EUROPEAN CENTRAL BANK of 24 February 2022 on a new-generation Trans-European Automated Real-time Gross Settlement Express Transfer system (TARGET) and repealing Guideline 2013/47/EU (ECB/2012/27) (ECB/2022/8)",
+     "read": "GUIDELINE (EU) 2022/912 OF THE EUROPEAN CENTRAL BANK of 24 February 2022 on a new-generation Trans-European Automated Real-time Gross Settlement Express Transfer system (TARGET) and repealing Guideline ECB/2012/27 (ECB/2022/8)",
+     "for_len": 239,
+     "read_len": 226,
+     "for_tokens": [
+      [
+       "2013",
+       "47"
+      ],
+      [
+       "2022",
+       "912"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "912"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "47"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022O0971R(01)",
+   "date": "2023-08-03",
+   "corrects": [
+    "32022O0971"
+   ],
+   "sha256": "f5ae685eb4967eea151d5401c552e689101090581e5a79a71cc4dc29a4901551",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": ") and Guideline (EU) 2021/834 (ECB/2021/15) (ECB/2022/25) ( Official Journal of the European Union L 166, 22 June 2022 ) On the second cover page, in the title:",
+     "for": "Guideline (EU) 2022/971 of the European Central Bank of 19 May 2022 on the Centralised Securities Database and the production of securities issues statistics and repealing Guideline 2012/689/EU (ECB/2012/21) and Guideline (EU) 2021/834 (ECB/2021/15) (ECB/2022/25)",
+     "read": "Guideline (EU) 2022/971 of the European Central Bank of 19 May 2022 on the Centralised Securities Database and the production of securities issues statistics and repealing Guideline ECB/2012/21 and Guideline (EU) 2021/834 (ECB/2022/25)",
+     "for_len": 263,
+     "read_len": 235,
+     "for_tokens": [
+      [
+       "2012",
+       "689"
+      ],
+      [
+       "2021",
+       "834"
+      ],
+      [
+       "2022",
+       "971"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2021",
+       "834"
+      ],
+      [
+       "2022",
+       "971"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2012",
+       "689"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 147, in the title:",
+     "for": "GUIDELINE (EU) 2022/971 OF THE EUROPEAN CENTRAL BANK of 19 May 2022 on the Centralised Securities Database and the production of securities issues statistics and repealing Guideline 2012/689/EU (ECB/2012/21) and Guideline (EU) 2021/834 (ECB/2021/15) (ECB/2022/25)",
+     "read": "GUIDELINE (EU) 2022/971 OF THE EUROPEAN CENTRAL BANK of 19 May 2022 on the Centralised Securities Database and the production of securities issues statistics and repealing Guideline ECB/2012/21 and Guideline (EU) 2021/834 (ECB/2022/25)",
+     "for_len": 263,
+     "read_len": 235,
+     "for_tokens": [
+      [
+       "2012",
+       "689"
+      ],
+      [
+       "2021",
+       "834"
+      ],
+      [
+       "2022",
+       "971"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2021",
+       "834"
+      ],
+      [
+       "2022",
+       "971"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2012",
+       "689"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32022O1378R(01)",
+   "date": "2023-08-03",
+   "corrects": [
+    "32022O1378"
+   ],
+   "sha256": "a85b35b80be446d8735ec685787bc97806c38c2dc639eefa3a898a805cd157a8",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "for operations involving such assets (ECB/2008/5) (ECB/2022/28) ( Official Journal of the European Union L 206, 8 August 2022 ) On the cover page, in the title:",
+     "for": "Guideline (EU) 2022/1378 of the European Central Bank of 28 July 2022 amending Guideline 2008/596/EC on the management of the foreign reserve assets of the European Central Bank by the national central banks and the legal documentation for operations involving such assets (ECB/2008/5) (ECB/2022/28)",
+     "read": "Guideline (EU) 2022/1378 of the European Central Bank of 28 July 2022 amending Guideline ECB/2008/5 on the management of the foreign reserve assets of the European Central Bank by the national central banks and the legal documentation for operations involving such assets (ECB/2022/28)",
+     "for_len": 299,
+     "read_len": 285,
+     "for_tokens": [
+      [
+       "2008",
+       "596"
+      ],
+      [
+       "2022",
+       "1378"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "1378"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2008",
+       "596"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 55, in the title:",
+     "for": "GUIDELINE (EU) 2022/1378 OF THE EUROPEAN CENTRAL BANK of 28 July 2022 amending Guideline 2008/596/EC on the management of the foreign reserve assets of the European Central Bank by the national central banks and the legal documentation for operations involving such assets (ECB/2008/5) (ECB/2022/28)",
+     "read": "GUIDELINE (EU) 2022/1378 OF THE EUROPEAN CENTRAL BANK of 28 July 2022 amending Guideline ECB/2008/5 on the management of the foreign reserve assets of the European Central Bank by the national central banks and the legal documentation for operations involving such assets (ECB/2022/28)",
+     "for_len": 299,
+     "read_len": 285,
+     "for_tokens": [
+      [
+       "2008",
+       "596"
+      ],
+      [
+       "2022",
+       "1378"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2022",
+       "1378"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2008",
+       "596"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32004R1480R(01)",
+   "date": "2023-08-31",
+   "corrects": [
+    "32004R1480"
+   ],
+   "sha256": "6e084fbfb2772596993dc894c44685356d85242d3b91fea629a9e3d9c6f1a2f7",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "trol ( Official Journal of the European Union L 272 of 20 August 2004 ) On page 7, in Annex I, title ‘Certification of the Turkish Cypriot Chamber of Commerce’:",
+     "for": "Council Regulation (EEC) No 2913/93",
+     "read": "Council Regulation (EEC) No 2913/92’. On page 8, in Annex II, title ‘Declaration by the producer",
+     "for_len": 35,
+     "read_len": 96,
+     "for_tokens": [
+      [
+       "1993",
+       "2913"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1992",
+       "2913"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1993",
+       "2913"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 8, in Annex II, title ‘Declaration by the producer’:",
+     "for": "Council Regulation (EEC) No 2913/93",
+     "read": "Council Regulation (EEC) No 2913/92",
+     "for_len": 35,
+     "read_len": 35,
+     "for_tokens": [
+      [
+       "1993",
+       "2913"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "1992",
+       "2913"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1993",
+       "2913"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32023R2832R(01)",
+   "date": "2024-05-30",
+   "corrects": [
+    "32023R2832"
+   ],
+   "sha256": "7ee461c5b97020bacf0475d1ed86b9d3a1cb845af8480b06762de2f8daf5f822",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "dertakings providing services of general economic interest ( Official Journal of the European Union L, 2023/2832, 15 December 2023 ) On page 11, in footnote 23:",
+     "for": "( 23 ) Commission Regulations (EU) No 1407/2013 of 18 December 2013 on the application of Articles 107 and 108 of the Treaty on the Functioning of the European Union to de minimis aid in the agriculture sector ( OJ L 352, 24.12.2013, p. 9 ) and (EU) No 717/2014 of 27 June 2014 on the application of Articles 107 and 108 of the Treaty on the Functioning of the European Union to de minimis aid in the",
+     "read": "( 23 ) Commission Regulation (EU) No 1408/2013 of 18 December 2013 on the application of Articles 107 and 108 of the Treaty on the Functioning of the European Union to de minimis aid in the agriculture sector ( OJ L 352, 24.12.2013, p. 9 ), Commission Regulation (EU) No 717/2014 of 27 June 2014 on the application of Articles 107 and 108 of the Treaty on the Functioning of the European Union to de ",
+     "for_len": 494,
+     "read_len": 511,
+     "for_tokens": [
+      [
+       "2013",
+       "1407"
+      ],
+      [
+       "2014",
+       "717"
+      ],
+      [
+       "2023",
+       "2831"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "1408"
+      ],
+      [
+       "2014",
+       "717"
+      ],
+      [
+       "2023",
+       "2831"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2013",
+       "1407"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32024R2847R(01)",
+   "date": "2024-12-05",
+   "corrects": [
+    "32024R2847"
+   ],
+   "sha256": "c1bbbc0e2734c7f39b6a1b8d8ea4b44b070d349732a7b89ca349b164e49027ff",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": " 2019/1020 and Directive (EU) 2020/1828 (Cyber Resilience Act) ( Official Journal of the European Union L, 2024/2847, 23 October 2024 ) On page 1, in the title:",
+     "for": "Regulation (EU) 2024/2847 of the European Parliament and of the Council of 23 October 2024 on horizontal cybersecurity requirements for products with digital elements and amending Regulations (EU) No 168/2013 and (EU) No 2019/1020 and Directive (EU) 2020/1828 (Cyber Resilience Act)",
+     "read": "Regulation (EU) 2024/2847 of the European Parliament and of the Council of 23 October 2024 on horizontal cybersecurity requirements for products with digital elements and amending Regulations (EU) No 168/2013 and (EU) 2019/1020 and Directive (EU) 2020/1828 (Cyber Resilience Act)",
+     "for_len": 282,
+     "read_len": 279,
+     "for_tokens": [
+      [
+       "1020",
+       "2019"
+      ],
+      [
+       "2013",
+       "168"
+      ],
+      [
+       "2020",
+       "1828"
+      ],
+      [
+       "2024",
+       "2847"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2013",
+       "168"
+      ],
+      [
+       "2019",
+       "1020"
+      ],
+      [
+       "2020",
+       "1828"
+      ],
+      [
+       "2024",
+       "2847"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "1020",
+       "2019"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32024D3161R(01)",
+   "date": "2024-12-30",
+   "corrects": [
+    "32024D3161"
+   ],
+   "sha256": "10af0aa15e0985d3d43f0a09efb561dc9c8cbc0855a31f211213c2f0769ff452",
+   "pair_count": 1,
+   "pairs": [
+    {
+     "locus": "uropean Prosecutor of the European Public Prosecutor’s Office ( Official Journal of the European Union L, 2024/3161, 18 December 2024 ) On page 1, in the title:",
+     "for": "Council Decision (EU) 2024/3112 of 12 December 2024 appointing a European Prosecutor of the European Public Prosecutor’s Office",
+     "read": "Council Decision (EU) 2024/3161 of 12 December 2024 appointing a European Prosecutor of the European Public Prosecutor’s Office",
+     "for_len": 127,
+     "read_len": 127,
+     "for_tokens": [
+      [
+       "2024",
+       "3112"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2024",
+       "3161"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2024",
+       "3112"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32024R2746R(02)",
+   "date": "2025-06-05",
+   "corrects": [
+    "32024R2746"
+   ],
+   "sha256": "4495fc1ccd2d76648955b47cd0ee0cd48bf8adcfde408f2efa1a7701f1fd62c1",
+   "pair_count": 88,
+   "pairs": [
+    {
+     "locus": "Organic farming and integrated pest management (IPM) ’:",
+     "for": "Organic farming is an agricultural method that aims to produce food using natural substances and processes. Integrated pest management measures to optimise and limit the use of plant protection products, following the principles established by Directive 128/2009/EC.",
+     "read": "Organic farming is an agricultural method that aims to produce food using natural substances and processes. Integrated pest management measures to optimise and limit the use of plant protection products, following the principles established by Directive 2009/128/EC.’. On page 151, in Annex VIII, in Table GR, under ‘GR.GR.100.Y. Year when the holder took over",
+     "for_len": 266,
+     "read_len": 360,
+     "for_tokens": [
+      [
+       "128",
+       "2009"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2009",
+       "128"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "128",
+       "2009"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32025R1707R(01)",
+   "date": "2025-10-13",
+   "corrects": [
+    "32025R1707"
+   ],
+   "sha256": "a0281398f7560f4b189414f3d3dc2d05bc8e6275c894ab54e929f55abec80d92",
+   "pair_count": 2,
+   "pairs": [
+    {
+     "locus": "ication of EVP data of motor vehicles of categories M 1 and N 1 ( Official Journal of the European Union L, 2025/1707, 5 September 2025 ) On page 7, Article 12:",
+     "for": "Article 12 Requirements for emission type-approval 1. The manufacturer applying for an emission type-approval under Regulation (EU) 2024/1257 shall provide the granting type-approval authority with a declaration of compliance with this Regulation using the format set out in Appendix 1 to Annex III. The declaration shall be submitted to the granting type-approval authority that receives the type-ap",
+     "read": "Article 12 Requirements for emission type-approval 1. The manufacturer applying for an emission type-approval under Regulation (EU) 2024/1257 shall provide the granting type-approval authority with a declaration of compliance with this Regulation using the format set out in Appendix 1 to Annex III. The declaration shall be submitted to the granting type-approval authority that receives the type-ap",
+     "for_len": 1834,
+     "read_len": 1834,
+     "for_tokens": [
+      [
+       "2018",
+       "858"
+      ],
+      [
+       "2024",
+       "1257"
+      ],
+      [
+       "2505",
+       "1706"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2018",
+       "858"
+      ],
+      [
+       "2024",
+       "1257"
+      ],
+      [
+       "2025",
+       "1706"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2505",
+       "1706"
+      ]
+     ]
+    },
+    {
+     "locus": "On page 7, Article 14:",
+     "for": "Article 14 OBM monitoring status and eligibility of vehicles for in-service conformity checks 1. Vehicles with at least one OBM monitoring status referred to in Article 5 set to “Error” shall not be eligible for in-service conformity testing of exhaust emissions in accordance with Article 10 of Implementing Regulation (EU) 2505/1706. Exhaust emissions in-service conformity tests where at least one",
+     "read": "Article 14 OBM monitoring status and eligibility of vehicles for in-service conformity checks 1. Vehicles with at least one OBM monitoring status referred to in Article 5 set to “Error” shall not be eligible for in-service conformity testing of exhaust emissions in accordance with Article 10 of Implementing Regulation (EU) 2025/1706. Exhaust emissions in-service conformity tests where at least one",
+     "for_len": 1757,
+     "read_len": 1757,
+     "for_tokens": [
+      [
+       "2505",
+       "1706"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2025",
+       "1706"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2505",
+       "1706"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32024R1351R(02)",
+   "date": "2025-11-25",
+   "corrects": [
+    "32024R1351"
+   ],
+   "sha256": "746a161c3cdc5ee4bbbb8c62db3fea8373515ea919e21b7c284861720f9bdc2f",
+   "pair_count": 10,
+   "pairs": [
+    {
+     "locus": "On page 20, Article 7(4):",
+     "for": "4. Financial and operational support by the Union, including operational support from its bodies, offices and agencies, for the fulfilment of the obligations shall be provided in accordance with Regulations (EU) 2019/1986, (EU) 2021/1147, (EU) 2021/2303 and, where relevant, (EU) 2021/1148.",
+     "read": "4. Financial and operational support by the Union, including operational support from its bodies, offices and agencies, for the fulfilment of the obligations shall be provided in accordance with Regulations (EU) 2019/1896, (EU) 2021/1147, (EU) 2021/2303 and, where relevant, (EU) 2021/1148.",
+     "for_len": 290,
+     "read_len": 290,
+     "for_tokens": [
+      [
+       "2019",
+       "1986"
+      ],
+      [
+       "2021",
+       "1147"
+      ],
+      [
+       "2021",
+       "1148"
+      ],
+      [
+       "2021",
+       "2303"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2019",
+       "1896"
+      ],
+      [
+       "2021",
+       "1147"
+      ],
+      [
+       "2021",
+       "1148"
+      ],
+      [
+       "2021",
+       "2303"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2019",
+       "1986"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32024R1358R(01)",
+   "date": "2025-11-25",
+   "corrects": [
+    "32024R1358"
+   ],
+   "sha256": "7a4019c690ef04ee162acde0e3277796937537063c54335d361c85ce3a670348",
+   "pair_count": 17,
+   "pairs": [
+    {
+     "locus": "On page 30, Article 18, paragraph 1, first sentence:",
+     "for": "1. Each Member State shall take and transmit to Eurodac the biometric data of every person of at least six years of age registered for the purpose of conducting an admission procedure under the Union Resettlement and Humanitarian Admission Framework as soon as possible following the registration referred to in Article 9(3) of Regulation (EU) 2024/1356, and at the latest before reaching the conclus",
+     "read": "1. Each Member State shall take and transmit to Eurodac the biometric data of every person of at least six years of age registered for the purpose of conducting an admission procedure under the Union Resettlement and Humanitarian Admission Framework as soon as possible following the registration referred to in Article 9(3) of Regulation (EU) 2024/1350, and at the latest before reaching the conclus",
+     "for_len": 464,
+     "read_len": 464,
+     "for_tokens": [
+      [
+       "2024",
+       "1356"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2024",
+       "1350"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2024",
+       "1356"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32023L2226R(01)",
+   "date": "2025-11-26",
+   "corrects": [
+    "32023L2226"
+   ],
+   "sha256": "66a70307364639008f8c449f05fc5e665099037add6bb5f7d0b8eeecf1ab6277",
+   "pair_count": 4,
+   "pairs": [
+    {
+     "locus": "Page 12, Article 1, point (6), concerning Article 8ad(3), point (c)(ix), of Directive 2011/16/EU",
+     "for": "(ix) the aggregate fair market value, as well as the aggregate number of units of Transfers effectuated by the Reporting Crypto-Asset Service Provider to distributed ledger addresses referred to in Regulation (EU) 2023/1114 not known to be associated with a virtual asset service provider or financial institution.",
+     "read": "(ix) the aggregate fair market value, as well as the aggregate number of units of Transfers effectuated by the Reporting Crypto-Asset Service Provider to distributed ledger addresses, as defined in Article 3, point (18), of Regulation (EU) 2023/1113, not known to be associated with a virtual asset service provider or financial institution.",
+     "for_len": 314,
+     "read_len": 341,
+     "for_tokens": [
+      [
+       "2023",
+       "1114"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2023",
+       "1113"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2023",
+       "1114"
+      ]
+     ]
+    },
+    {
+     "locus": "Page 21, Annex I, point (4)(b), concerning Annex I, Section VIII, paragraph A, subparagraphs (9) to (14), of Directive 2011/16/EU",
+     "for": "… 12. The term “Crypto-Asset” means crypto-asset as defined in Article 3(1), point (5), of Regulation (EU) 2023/1114. …",
+     "read": "… 12. The term “Crypto-Asset",
+     "for_len": 119,
+     "read_len": 28,
+     "for_tokens": [
+      [
+       "2023",
+       "1114"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2023",
+       "1114"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "celex": "32023R1543R(02)",
+   "date": "2026-07-13",
+   "corrects": [
+    "32023R1543"
+   ],
+   "sha256": "9262cfdac76dd05d0b4da84cc0665d3b8ec69e722bf40892c37ffdafc9c92e01",
+   "pair_count": 5,
+   "pairs": [
+    {
+     "locus": "Page 126, in recital 50, the second sentence",
+     "for": "Exceptionally, in emergency cases as defined in this Regulation, where the designated establishment or the legal representative of a service provider does not react to the accompanying European Production Order Certificate (EPOC) or European Preservation Order Certificate (EPOC-PR) within the deadlines or has not been designated or appointed within the deadlines set out in Directive (EU) 2023/1544",
+     "read": "Exceptionally, in emergency cases as defined in this Regulation, where the designated establishment or the legal representative of a service provider does not react to the accompanying European Production Order Certificate (EPOC) or European Preservation Order Certificate (EPOC-PR) within the deadlines, it should be possible to address …",
+     "for_len": 435,
+     "read_len": 339,
+     "for_tokens": [
+      [
+       "2023",
+       "1544"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2023",
+       "1544"
+      ]
+     ]
+    },
+    {
+     "locus": "Page 154, Annex I, Section B (‘Addressee’), the third tick-box",
+     "for": "This order is issued in an emergency case to the specified addressee because the designated establishment or the legal representative of a service provider did not react to the EPOC within the deadlines set out in Article 10 of Regulation (EU) 2023/1543 or has not been designated or appointed within the deadlines set out in Directive (EU) 2023/1544 of the European Parliament and of the Council ( 2",
+     "read": "This order is issued in an emergency case to the specified addressee because the designated establishment or the legal representative of a service provider did not react to the EPOC within the deadlines set out in Article 10 of Regulation (EU) 2023/1543’. 4. Page 165, Annex II, Section B (‘Addressee",
+     "for_len": 402,
+     "read_len": 300,
+     "for_tokens": [
+      [
+       "2023",
+       "1543"
+      ],
+      [
+       "2023",
+       "1544"
+      ]
+     ],
+     "read_tokens": [
+      [
+       "2023",
+       "1543"
+      ]
+     ],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2023",
+       "1544"
+      ]
+     ]
+    },
+    {
+     "locus": "Page 165, Annex II, Section B (‘Addressee’), the third tick-box",
+     "for": "This order is issued in an emergency case to the specified addressee because the designated establishment or the legal representative of a service provider did not react to the EPOC-PR within the deadlines or has not been designated or appointed within the deadlines set out in Directive (EU) 2023/1544 of the European Parliament and of the Council ( 2 )",
+     "read": "This order is issued in an emergency case to the specified addressee because the designated establishment or the legal representative of a service provider did not react to the EPOC-PR within the deadlines",
+     "for_len": 354,
+     "read_len": 205,
+     "for_tokens": [
+      [
+       "2023",
+       "1544"
+      ]
+     ],
+     "read_tokens": [],
+     "reference_correction": true,
+     "erroneous_tokens": [
+      [
+       "2023",
+       "1544"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
