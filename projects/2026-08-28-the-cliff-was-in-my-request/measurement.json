@@ -1,0 +1,2711 @@
+{
+ "measured_utc": "2026-08-28T04:26:04Z",
+ "sparql_endpoint": "https://publications.europa.eu/webapi/rdf/sparql",
+ "document_route": "http://publications.europa.eu/resource/celex/<celex>  (Accept: application/xhtml+xml, then text/html)",
+ "population": "the 1,559 corrigenda served only by the second route",
+ "selected_reference_corrections": 98,
+ "distinct_erroneous_numbers": 84,
+ "rows": [
+  {
+   "corrigendum": "31990R2618R(02)",
+   "date": "1990-10-02",
+   "corrects": [
+    "31990R2618"
+   ],
+   "locus": " storage contracts for table wine for the 1989/90 year (Official Journal of the European Communities No L 249 of 12 September 1990) On page 7, Article 3: 1.2 //",
+   "for": ". . . Regulation (EEC) No 2484/89 . . .",
+   "read": ". . . Regulation (EEC) No 2270/90 . . .",
+   "wrong_number": "1989/2484",
+   "wrong_resolves_to": [
+    "31989R2484"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31990R2618",
+     "readable": true,
+     "sha256": "fa29626a40548de3fb4512480e3dde60c3427e309ae561c32e91505bf2647efa",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31990R2618R(02)",
+   "date": "1990-10-02",
+   "corrects": [
+    "31990R2618"
+   ],
+   "locus": " storage contracts for table wine for the 1989/90 year (Official Journal of the European Communities No L 249 of 12 September 1990) On page 7, Article 3: 1.2 //",
+   "for": ". . . Regulation (EEC) No 2484/89 . . .",
+   "read": ". . . Regulation (EEC) No 2270/90 . . .",
+   "wrong_number": "1989/2484",
+   "wrong_resolves_to": [
+    "31989R2484"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31990R2618",
+     "readable": true,
+     "sha256": "fa29626a40548de3fb4512480e3dde60c3427e309ae561c32e91505bf2647efa",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31992R3807R(01)",
+   "date": "1993-01-20",
+   "corrects": [
+    "31992R3807"
+   ],
+   "locus": "f Regulation (EEC) No 569/88 by Regulation (EEC) No 3002/92 (Official Journal of the European Communities No L 384 of 30 December 1992) On page 33 in Article 3:",
+   "for": "Regulation (EEC) No 2182/87 is hereby amended as follows:`",
+   "read": "Regulation (EEC) No 2182/77 is hereby amended as follows:`",
+   "wrong_number": "1987/2182",
+   "wrong_resolves_to": [
+    "31987R2182"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31992R3807",
+     "readable": true,
+     "sha256": "e24516239ee5b049af26be7100b0a26c0dc966f6b9475085d679871271c9648e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31992L0114R(01)",
+   "date": "1993-03-19",
+   "corrects": [
+    "31992L0114"
+   ],
+   "locus": "On page 29, Annex IV, first paragraph, sixth line:",
+   "for": ". . . Directice 92/104/EEC relating to the external projections forward of the cat",
+   "read": ". . . Directive 92/114/EEC relating to the external projections forward of the cab",
+   "wrong_number": "1992/104",
+   "wrong_resolves_to": [
+    "31992R0104",
+    "31992L0104",
+    "31992D0104",
+    "31992L0104R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31992L0114",
+     "readable": true,
+     "sha256": "c3dd1813a9b77caeade937f2bbdcdcd8565fface2cf767a86ad0f509ef0a57b5",
+     "route": "application/xhtml+xml",
+     "still_names_wrong": false,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31993R1144R(01)",
+   "date": "1993-05-25",
+   "corrects": [
+    "31993R1144"
+   ],
+   "locus": "etermine levies and/or refunds on exports of white sugar (Official Journal of the European Communities No L 116 of 12 May 1993) On page 5, in the first recital:",
+   "for": "Article 14 of Regulation (EEC) No 3819/92`",
+   "read": "Article 20 of Regulation (EEC) No 1068/93`; footnote (4) should",
+   "wrong_number": "1992/3819",
+   "wrong_resolves_to": [
+    "31992R3819",
+    "31992R3819R(02)",
+    "31992R3819R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31993R1144",
+     "readable": true,
+     "sha256": "62119727cb49435f7b3d6385931944f72ffdf7450b88d70e62b84f0d6528f279",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31993R1144R(01)",
+   "date": "1993-05-25",
+   "corrects": [
+    "31993R1144"
+   ],
+   "locus": "in the fifth recital:",
+   "for": "Article 8 (1) of Regulation (EEC) No 3819/92`",
+   "read": "Article 13 (1) of Regulation (EEC) No 1068/93`. On page 9 in Article 14:",
+   "wrong_number": "1992/3819",
+   "wrong_resolves_to": [
+    "31992R3819",
+    "31992R3819R(02)",
+    "31992R3819R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31993R1144",
+     "readable": true,
+     "sha256": "62119727cb49435f7b3d6385931944f72ffdf7450b88d70e62b84f0d6528f279",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31993R1144R(01)",
+   "date": "1993-05-25",
+   "corrects": [
+    "31993R1144"
+   ],
+   "locus": "On page 9 in Article 14:",
+   "for": "Article 8 (1) of Regulation (EEC) No 3819/92`",
+   "read": "Article 13 (1) of Regulation (EEC) No 1068/93`",
+   "wrong_number": "1992/3819",
+   "wrong_resolves_to": [
+    "31992R3819",
+    "31992R3819R(02)",
+    "31992R3819R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31993R1144",
+     "readable": true,
+     "sha256": "62119727cb49435f7b3d6385931944f72ffdf7450b88d70e62b84f0d6528f279",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31993D0323R(01)",
+   "date": "1993-06-22",
+   "corrects": [
+    "21993A0520(02)",
+    "31993D0323"
+   ],
+   "locus": "on page 3 in the Memorandum of Understanding, in Article 3 (1), lines 4 and 5:",
+   "for": ". . . of Directive 92/131/EEC`",
+   "read": ". . . of Directive 92/13/EEC.`, in Article 6, second indent, lines 2 and 5:",
+   "wrong_number": "1992/131",
+   "wrong_resolves_to": [
+    "31992R0131",
+    "31992H0131"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "21993A0520(02)",
+     "readable": true,
+     "sha256": "06582ee8972efc0616f557dd12bd4db26166cfd49c73cb531355c17a162261b5",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    },
+    {
+     "act": "31993D0323",
+     "readable": true,
+     "sha256": "3f1dd7b1e7bae314d5cf2b5b06f51ff15c3dfea1951ff6466491f3a8517cba4f",
+     "route": "text/html",
+     "still_names_wrong": false,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994D0201R(01)",
+   "date": "1994-04-23",
+   "corrects": [
+    "31994D0201"
+   ],
+   "locus": "ing importations of fishery and aquaculture products from Ecuador (Official Journal of the European Communities No L 93 of 12 April 1994) Page 40, in the title:",
+   "for": "92/356/EEC`",
+   "read": "91/281/EEC`",
+   "wrong_number": "1992/356",
+   "wrong_resolves_to": [
+    "31992D0356",
+    "31992R0356R(01)",
+    "31992R0356"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31994D0201",
+     "readable": true,
+     "sha256": "966ef6eae162b6ce16eb3fa2bc9958345e0eaa8f9a275aef2dfa74df2f4c23a5",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31993L0037R(01)",
+   "date": "1994-04-30",
+   "corrects": [
+    "31993L0037"
+   ],
+   "locus": "edures for the award of public works contracts (Official Journal of the European Communities No L 199 of 9 August 1993) On page 54 in footnote (4), second line:",
+   "for": ". . . Directive 90/531/EEC (OJ No L 297, 29. 10. 1990, p. 1).`",
+   "read": ". . . Directive 93/4/EEC (OJ No L 38, 16. 2. 1993, p. 31).`",
+   "wrong_number": "1990/531",
+   "wrong_resolves_to": [
+    "31990Y0531(03)",
+    "31990L0531",
+    "31990Y0531(02)",
+    "31990R0531",
+    "31990Y0531(05)",
+    "31990Y0531(04)",
+    "31990L0531R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31993L0037",
+     "readable": true,
+     "sha256": "344af601cf0c6c091530699877a9de836623aaa5106570882c7fa20874688b47",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994R1405R(01)",
+   "date": "1994-07-13",
+   "corrects": [
+    "31994R1405"
+   ],
+   "locus": "ction of the environment and the maintenance of the countryside (Official Journal of the European Communities No L 154 of 21 June 1994) On page 12 in Article 3:",
+   "for": "Regulation (EEC) No 2061/93 is hereby repealed.`",
+   "read": "Regulation (EEC) No 2062/93 is hereby repealed.`",
+   "wrong_number": "1993/2061",
+   "wrong_resolves_to": [
+    "31993R2061"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31994R1405",
+     "readable": true,
+     "sha256": "13140e1fca38c13d1284a4c4480026af6efb36624ab835f2bb1958df3be9ac6e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994R1446R(01)",
+   "date": "1994-07-15",
+   "corrects": [
+    "31994R1446"
+   ],
+   "locus": " flax (Official Journal of the European Communities No L 157 of 24 June 1994) On page 9 in the Title, in the third paragraph and in the first line of Article 1:",
+   "for": ". . . Regulation (EEC) No 1748/93 . . .`",
+   "read": ". . . Regulation (EEC) No 1784/93 . . .`",
+   "wrong_number": "1993/1748",
+   "wrong_resolves_to": [
+    "31993R1748"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31994R1446",
+     "readable": true,
+     "sha256": "ecacfacc74e7205bb389b74cefda5fbf7245f32bc4626d611f09aba141c37726",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994R2475R(01)",
+   "date": "1994-12-17",
+   "corrects": [
+    "31994R2475"
+   ],
+   "locus": "n certain industrial products (in the chemical and allied sectors) (Official Journal of the European Communities No L 318 of 12 December 1994) Cover and page 1:",
+   "for": "Council Regulation (EC) No 2475/94 . . .`",
+   "read": "Council Regulation (EC) No 2975/94 . . .`",
+   "wrong_number": "1994/2475",
+   "wrong_resolves_to": [
+    "31994R2475R(01)",
+    "31994R2475"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31994R2475",
+     "readable": true,
+     "sha256": "908559d26b35cbaa85a77d69a31ff9cc9fa58e5c0c1bcedc4a0767e96572c32a",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994R2476R(01)",
+   "date": "1994-12-17",
+   "corrects": [
+    "31994R2476"
+   ],
+   "locus": " industrial products (in the microelectronics and related sectors) (Official Journal of the European Communities No L 318 of 12 December 1994) Cover and page 7:",
+   "for": "Council Regulation (EC) No 2476/94 . . .`",
+   "read": "Council Regulation (EC) No 2976/94 . . .`",
+   "wrong_number": "1994/2476",
+   "wrong_resolves_to": [
+    "31994R2476R(01)",
+    "31994R2476"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31994R2476",
+     "readable": true,
+     "sha256": "ce174eefb204cc08a39d9dc0e244c50b6a0141d6d0735bb4d34d960d223bd7ee",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994R2381R(01)",
+   "date": "1995-01-28",
+   "corrects": [
+    "31994R2381"
+   ],
+   "locus": "On page 86, in the Annex, 17th indent in the column: 'Description, compositional requirements, conditions for use`:",
+   "for": ". . . 89/248/EEC . . .`",
+   "read": ". . . 89/284/EEC . . .`",
+   "wrong_number": "1989/248",
+   "wrong_resolves_to": [
+    "31989D0248",
+    "31989R0248"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31994R2381",
+     "readable": true,
+     "sha256": "cc3fa447f27310dcaba407b825ee9a789e0b2e6a59837a52a32a1e5a2fffe85b",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994R0518R(01)",
+   "date": "1995-04-06",
+   "corrects": [
+    "31994R0518"
+   ],
+   "locus": "mon rules for imports and repealing Regulation (EEC) No 288/82 (Official Journal of the European Communities No L 67 of 10 March 1994) On page 78, last recital:",
+   "for": "Whereas Regulation (EEC) No 288/92 . . . `",
+   "read": "Whereas Regulation (EEC) No 288/82 . . . `",
+   "wrong_number": "1992/288",
+   "wrong_resolves_to": [
+    "31992D0288",
+    "31992R0288"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31994R0518",
+     "readable": true,
+     "sha256": "460bd25d5ac21a709ad8edde6687878a8b1bb3456f89827a51866bf3ef859557",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31995R0693R(01)",
+   "date": "1995-04-28",
+   "corrects": [
+    "31995R0693"
+   ],
+   "locus": "e applicable to milk and milk products (Official Journal of the European Communities No L 71 of 31 March 1995) Page 52, Article 1, point 2, column 'Regulation`:",
+   "for": "1. (EC) No 455/95`",
+   "read": "1. (EEC) No 2191/81`. Page 53, Article 1, point 3, column",
+   "wrong_number": "1995/455",
+   "wrong_resolves_to": [
+    "31995R0455R(02)",
+    "31995R0455",
+    "31995D0455",
+    "31995R0455R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31995R0693",
+     "readable": true,
+     "sha256": "06c6aab253fd3ef982cfcbd82048023e54a0d7f87ede33a9a206e903ebd59e37",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31995R0693R(01)",
+   "date": "1995-04-28",
+   "corrects": [
+    "31995R0693"
+   ],
+   "locus": "Page 53, Article 1, point 3, column 'Regulation`:",
+   "for": "2. (EC) No 628/95`",
+   "read": "2. (EC) No 454/95`",
+   "wrong_number": "1995/628",
+   "wrong_resolves_to": [
+    "31995M0628",
+    "31995R0628",
+    "31995R0628R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31995R0693",
+     "readable": true,
+     "sha256": "06c6aab253fd3ef982cfcbd82048023e54a0d7f87ede33a9a206e903ebd59e37",
+     "route": "text/html",
+     "still_names_wrong": false,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31995R1664R(01)",
+   "date": "1995-08-04",
+   "corrects": [
+    "31995R1664"
+   ],
+   "locus": "on of the corrective factor in agricultural conversion rates (Official Journal of the European Communities No L 158 of 8 July 1995) On page 14 in Article 2 (7):",
+   "for": ". . . Regulation (EEC) No 1765/92 . . .`",
+   "read": ". . . Regulation (EEC) No 1766/92 . . .`",
+   "wrong_number": "1992/1765",
+   "wrong_resolves_to": [
+    "31992R1765",
+    "31992R1765R(01)",
+    "31992R1765R(02)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31995R1664",
+     "readable": false,
+     "http_status": 404
+    }
+   ]
+  },
+  {
+   "corrigendum": "31995D0519R(01)",
+   "date": "1995-12-15",
+   "corrects": [
+    "31995D0519"
+   ],
+   "locus": " grant aid to the coal industry for 1995 (Official Journal of the European Communities No L 299 of 12 December 1995) In 'Contents` and on page 18, in the title:",
+   "for": "95/519/EC`",
+   "read": "95/519/ECSC`",
+   "wrong_number": "1995/519",
+   "wrong_resolves_to": [
+    "31995R0519",
+    "31995D0519R(01)",
+    "31995D0519"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31995D0519",
+     "readable": true,
+     "sha256": "e136e19f4b213548cd07b60d752cfa84513bb35441a043c13908a35343b5f0f3",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31995D0527R(01)",
+   "date": "1995-12-15",
+   "corrects": [
+    "31995D0527"
+   ],
+   "locus": "ries policy (Official Journal of the European Communities No L 301 of 14 December 1995) In the table of contents above the title and on page 30 under the title:",
+   "for": "95/523/EC`",
+   "read": "95/527/EC`",
+   "wrong_number": "1995/523",
+   "wrong_resolves_to": [
+    "31995D0523",
+    "31995R0523",
+    "31995M0523"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31995D0527",
+     "readable": true,
+     "sha256": "0dc6f2f07e1bcce250b3eb998b9d2c30b0f7321808bb2e72341cfae82724ed01",
+     "route": "text/html",
+     "still_names_wrong": false,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31995D0528R(01)",
+   "date": "1995-12-15",
+   "corrects": [
+    "31995D0528"
+   ],
+   "locus": "lementation (Official Journal of the European Communities No L 301 of 14 December 1995) In the table of contents above the title and on page 35 under the title:",
+   "for": "95/524/EC`",
+   "read": "95/528/EC`",
+   "wrong_number": "1995/524",
+   "wrong_resolves_to": [
+    "31995R0524",
+    "31995D0524"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31995D0528",
+     "readable": true,
+     "sha256": "66cce20c4dd714d44d677dce1aee6075d1a74f9e4071f53f4fd33892afb864d0",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31996R0039R(01)",
+   "date": "1996-01-25",
+   "corrects": [
+    "31996R0039"
+   ],
+   "locus": "d 300 kilograms originating in certain third countries (Official Journal of the European Communities No L 10 of 13 January 1996) On page 2 in the first recital:",
+   "for": "Whereas Commission Regulation (EC) No 2465/95 . . .`",
+   "read": "Whereas Regulation (EC) No 3066/95 . . .`; and in Article 1:",
+   "wrong_number": "1995/2465",
+   "wrong_resolves_to": [
+    "31995R2465"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31996R0039",
+     "readable": true,
+     "sha256": "bd0c93746977b3fda3bada647ec19191c0981d60c695f1c54965b2708dccbd33",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31996R0039R(01)",
+   "date": "1996-01-25",
+   "corrects": [
+    "31996R0039"
+   ],
+   "locus": "and in Article 1:",
+   "for": ". . . Regulation (EC) No 2465/95 . . .`",
+   "read": ". . . Regulation (EC) No 3066/95 . . .`",
+   "wrong_number": "1995/2465",
+   "wrong_resolves_to": [
+    "31995R2465"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31996R0039",
+     "readable": true,
+     "sha256": "bd0c93746977b3fda3bada647ec19191c0981d60c695f1c54965b2708dccbd33",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31995L0012R(01)",
+   "date": "1996-02-24",
+   "corrects": [
+    "31995L0012"
+   ],
+   "locus": "nergy labelling of household washing machines (Official Journal of the European Communities No L 136 of 21 June 1995) On page 2 in Article 1 (2), last sentence:",
+   "for": "This information, where required, shall be measured in accordance with Directive 83/189/EEC.`",
+   "read": "This information shall be measured in accordance with that Directive.`; after Article 1 (2) insert:",
+   "wrong_number": "1983/189",
+   "wrong_resolves_to": [
+    "31983L0189",
+    "31983L0189R(02)",
+    "31983R0189",
+    "31983L0189R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31995L0012",
+     "readable": true,
+     "sha256": "875d633033a9b9a36508a3de88579e02d4aa9558cd6e8e5f4d5c6edd85b0c8ce",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31992R0658R(01)",
+   "date": "1996-03-29",
+   "corrects": [
+    "31992R0658"
+   ],
+   "locus": "standards for certain fresh fruit and vegetables (Official Journal of the European Communities No L 70 of 17 March 1992) On page 15, in Article 1, seventh line:",
+   "for": ". . . Regulation (EEC) No 1703/87,`",
+   "read": ".. . . Regulation (EEC) No 1730/87,`",
+   "wrong_number": "1987/1703",
+   "wrong_resolves_to": [
+    "31987R1703"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31992R0658",
+     "readable": true,
+     "sha256": "5ddaaa0102081c0ca29eee9d3073bd366d29436584399502f129a0b8be23514f",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994R3036R(03)",
+   "date": "1996-06-06",
+   "corrects": [
+    "31994R3036"
+   ],
+   "locus": "ing in certain third countries (Official Journal of the European Communities No L 322 of 15 December 1994) On page 2 in Article 1 (4) (c), first indent, line 3:",
+   "for": ". . . Regulation (EEC) No 1224/80 (1)`",
+   "read": ". . . Council Regulation (EC) No 2913/92 of 12 October 1992 establishing the Community Customs Code (1) and by its implementing Regulations,`. On page 2, footnote 1 is replaced as follows:",
+   "wrong_number": "1980/1224",
+   "wrong_resolves_to": [
+    "31980R1224",
+    "31980R1224R(03)",
+    "31980D1224",
+    "31980R1224R(04)",
+    "31980R1224R(01)",
+    "31980Y1224(02)",
+    "31980R1224R(02)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31994R3036",
+     "readable": true,
+     "sha256": "305cf1fc30c48410d2aec522d6d3b7740dc90e66084f93b5f74de4c7f1a825b9",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31996R1157R(01)",
+   "date": "1996-07-04",
+   "corrects": [
+    "31996R1157"
+   ],
+   "locus": "of export licences in the egg sector (Official Journal of the European Communities No L 153 of 27 June 1996) On page 19 in Article 1 (2), first to 11th indents:",
+   "for": ". . . Regulation (EC) No 1372/95 . . .`",
+   "read": ". . . Regulation (EC) No 1371/95 . . .`",
+   "wrong_number": "1995/1372",
+   "wrong_resolves_to": [
+    "31995R1372",
+    "31995R1372R(02)",
+    "31995R1372R(01)",
+    "31995R1372R(03)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31996R1157",
+     "readable": true,
+     "sha256": "20bb7c5455269adcf789f55398866a391c031b273f348deb54e4787961b8dde9",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31996R1464R(01)",
+   "date": "1996-08-21",
+   "corrects": [
+    "31996R1464"
+   ],
+   "locus": "er to determine levies and/or refunds on exports of white sugar (Official Journal of the European Communities No L 187 of 26 July 1996) Page 46: Article 15 (5):",
+   "for": "Regulation (EC) No 1813/95`",
+   "read": "Regulation (EC) No 1464/96`",
+   "wrong_number": "1995/1813",
+   "wrong_resolves_to": [
+    "31995R1813"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31996R1464",
+     "readable": true,
+     "sha256": "f8de165c5e8df49329aafae6dd5f7ee644286714bc5cd5eba49c082f067c20f8",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31996R1577R(01)",
+   "date": "1997-03-13",
+   "corrects": [
+    "31996R1577"
+   ],
+   "locus": "pect of certain grain legumes (Official Journal of the European Communities No L 206 of 16 August 1996) On page 5 in the quoted matter concluding Article 4 (2):",
+   "for": ". . . Regulation (EC) No 1575/96 (*); (*) OJ No L 206, 16. 8. 1996, p. 1.`",
+   "read": ". . . Regulation (EC) No 1577/96 (*); (*) OJ No L 206, 16. 8. 1996, p. 4.`",
+   "wrong_number": "1996/1575",
+   "wrong_resolves_to": [
+    "31996R1575"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31996R1577",
+     "readable": true,
+     "sha256": "aaab55137f01f063da891ea051644543b57c4ebaf9433e2a8c29fdbb5494b209",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31997R0661R(01)",
+   "date": "1997-05-15",
+   "corrects": [
+    "31997R0661"
+   ],
+   "locus": "1/96 as regards the system of quotas for processed tomato products (Official Journal of the European Communities No L 100 of 17 April 1997) Page 43, Article 11:",
+   "for": "Regulation (EEC) No 1749/93 . . .`",
+   "read": "Regulation (EEC) No 1794/93 . . .`",
+   "wrong_number": "1993/1749",
+   "wrong_resolves_to": [
+    "31993R1749"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31997R0661",
+     "readable": true,
+     "sha256": "f9b2d76980bc59fd0d548bc9e8fc8dca8953c42daaee7f38b4b7f4ebf649d9b8",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31997R1044R(01)",
+   "date": "1997-06-12",
+   "corrects": [
+    "31997R1044"
+   ],
+   "locus": "oatmeat sector (Official Journal of the European Communities No L 152 of 11 June 1997) On page 8 and in the table of contents, the title is modified as follows:",
+   "for": "Commission Regulation (EC) No 1044/97 of 10 June 1997 amending Regulation (EC) No 2498/96 establishing Community tariff quotas for 1997 for sheep, goats, sheepmeat and goatmeat falling within CN codes 0104 10 30, 0104 10 80, 0104 20 90 and 0204 and derogating from Regulation (EC) No 1439/95 laying d",
+   "read": "Commission Regulation (EC) No 1044/97 of 10 June 1997 amending Regulation (EC) No 2498/96 establishing Community tariff quotas for 1997 for sheep, goats, sheepmeat and goatmeat falling within CN codes 0104 10 30, 0104 10 80, 0104 20 90 and 0204`",
+   "wrong_number": "1989/3013",
+   "wrong_resolves_to": [
+    "31989R3013",
+    "31989R3013R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31997R1044",
+     "readable": true,
+     "sha256": "25ae03f1444ac86866c0f30318e670e4aedb651c795d676026c876399d24baaf",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31997R1044R(01)",
+   "date": "1997-06-12",
+   "corrects": [
+    "31997R1044"
+   ],
+   "locus": "oatmeat sector (Official Journal of the European Communities No L 152 of 11 June 1997) On page 8 and in the table of contents, the title is modified as follows:",
+   "for": "Commission Regulation (EC) No 1044/97 of 10 June 1997 amending Regulation (EC) No 2498/96 establishing Community tariff quotas for 1997 for sheep, goats, sheepmeat and goatmeat falling within CN codes 0104 10 30, 0104 10 80, 0104 20 90 and 0204 and derogating from Regulation (EC) No 1439/95 laying d",
+   "read": "Commission Regulation (EC) No 1044/97 of 10 June 1997 amending Regulation (EC) No 2498/96 establishing Community tariff quotas for 1997 for sheep, goats, sheepmeat and goatmeat falling within CN codes 0104 10 30, 0104 10 80, 0104 20 90 and 0204`",
+   "wrong_number": "1995/1439",
+   "wrong_resolves_to": [
+    "31995R1439",
+    "31995R1439R(01)",
+    "31995R1439R(02)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31997R1044",
+     "readable": true,
+     "sha256": "25ae03f1444ac86866c0f30318e670e4aedb651c795d676026c876399d24baaf",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31997R2616R(02)",
+   "date": "1998-02-21",
+   "corrects": [
+    "31997R2616"
+   ],
+   "locus": "and in Article 1(2)(2), third indent:",
+   "for": "(Regulation (EC) No 2616/97)`",
+   "read": "(Regulation (EC) No )`",
+   "wrong_number": "1997/2616",
+   "wrong_resolves_to": [
+    "31997R2616R(01)",
+    "31997R2616R(02)",
+    "31997R2616",
+    "31997R2616R(03)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31997R2616",
+     "readable": true,
+     "sha256": "f8a8d67a40cb0badc0281e77f982573ca374f4fe1ca5111c6d1e5b74400f362c",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31997D0221R(01)",
+   "date": "1998-02-24",
+   "corrects": [
+    "31997D0221"
+   ],
+   "locus": "on 91/449/EEC (Official Journal of the European Communities L 89 of 4 April 1997) On page 37, in the Annex, point IV(2)(a), first and third indents, last lines:",
+   "for": ". . . Decision 97/222/EC . . .`",
+   "read": ". . . Decision . . ./. . ./EC . . .`",
+   "wrong_number": "1997/222",
+   "wrong_resolves_to": [
+    "31997R0222",
+    "31997D0222",
+    "31997D0222R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31997D0221",
+     "readable": true,
+     "sha256": "0cf1a5e0359b4bffd3a9601687df74a14d8d8217b37144d902424a63e8831ccd",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31992R3887R(01)",
+   "date": "1998-08-18",
+   "corrects": [
+    "31992R3887"
+   ],
+   "locus": "ation and control system for certain Community aid schemes (Official Journal of the European Communities L 391 of 31 December 1992) On page 37, in Article 2(2):",
+   "for": ". . . Regulation (EEC) No 3058/92 . . .`",
+   "read": ". . . Regulation (EEC) No 3508/92 . . .`. On page 39, in Article 6(3), second indent:",
+   "wrong_number": "1992/3058",
+   "wrong_resolves_to": [
+    "31992R3058"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31992R3887",
+     "readable": true,
+     "sha256": "b9fdc85ac8e5175a3319d566d68141a8629f36b6b59e02376f75a0341317f2e4",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31998R2678R(01)",
+   "date": "1999-01-28",
+   "corrects": [
+    "31998R2678"
+   ],
+   "locus": "ies on imports of farmed Atlantic salmon originating in Norway (Official Journal of the European Communities L 337 of 12 December 1998) On page 3, in Article 2:",
+   "for": "The amounts secured by way of provisional anti-dumping and countervailing duties imposed by Regulation (EC) No 1126/98 . . .`",
+   "read": "The amounts secured by way of provisional anti-dumping and countervailing duties imposed by Regulation (EC) No 1789/98 . . .`",
+   "wrong_number": "1998/1126",
+   "wrong_resolves_to": [
+    "31998R1126",
+    "31998M1126"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31998R2678",
+     "readable": true,
+     "sha256": "22fd4579cb66c5b75e09799ec5618508787593e8c18b2da00fa1320fe3f1f074",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R0377R(01)",
+   "date": "1999-03-10",
+   "corrects": [
+    "31999R0377"
+   ],
+   "locus": "areas of the Community for the 1998 marketing year (Official Journal of the European Communities L 46 of 20 February 1999) On page 12, in Article 4, ninth line:",
+   "for": ". . . Regulation (EC) No 1027/97 . . .`",
+   "read": ". . . Regulation (EC) No 1213/98 . . .`",
+   "wrong_number": "1997/1027",
+   "wrong_resolves_to": [
+    "31997R1027"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R0377",
+     "readable": true,
+     "sha256": "959782a248b3956c7e2b160e0cf166446aae9c3b267759d2727d7097cad9bd71",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1664R(01)",
+   "date": "1999-08-21",
+   "corrects": [
+    "31999R1664"
+   ],
+   "locus": "ons for the taking over of cereals by intervention agencies (Official Journal of the European Communities L 197 of 29 July 1999) Page 28, Article 1, first line:",
+   "for": "Regulation (EEC) No 682/92 is amended as follows:",
+   "read": "Regulation (EEC) No 689/92 is amended as follows:",
+   "wrong_number": "1992/682",
+   "wrong_resolves_to": [
+    "31992R0682"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1664",
+     "readable": true,
+     "sha256": "b19e4a9017b2cea8fd167a11d9b7c9407ee0e253b11bda195a90cb7dcc7c879a",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1268R(01)",
+   "date": "1999-09-16",
+   "corrects": [
+    "31999R1268"
+   ],
+   "locus": "ies of central and eastern Europe in the pre-accession period (Official Journal of the European Communities L 161 of 26 June 1999) On page 92, in Article 12(2):",
+   "for": "2. The Commission shall adopt the detailed financial rules in accordance with the procedure laid down in Article 13 of Regulation (EC) No 1260/1999. They shall relate, in particular, to appropriate provisions to ensure compliance with budgetary discipline.",
+   "read": "2. The Commission shall adopt the detailed financial rules in accordance with the procedure laid down in Article 13 of Regulation (EC) No 1258/1999. They shall relate, in particular, to appropriate provisions to ensure compliance with budgetary discipline.",
+   "wrong_number": "1999/1260",
+   "wrong_resolves_to": [
+    "31999R1260",
+    "31999R1260R(03)",
+    "31999R1260R(01)",
+    "31999R1260R(02)",
+    "31999R1260R(04)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1268",
+     "readable": true,
+     "sha256": "6e29b5a9fca819e8c98b29247293e856157a6ad87effb2488dc7506d55c195e1",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1537R(01)",
+   "date": "1999-12-02",
+   "corrects": [
+    "31999R1537"
+   ],
+   "locus": "os regarding certain exports of textiles to the Community (Official Journal of the European Communities L 178 of 14 July 1999) On page 27, Article 5, last line:",
+   "for": "... Regulation (EC) No 000/1999",
+   "read": "... Regulation (EC) No 1537/1999",
+   "wrong_number": "1999/0",
+   "wrong_resolves_to": [],
+   "wrong_pointer_is_live": false,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1537",
+     "readable": true,
+     "sha256": "d9f2d33e144a016840b433fe02870417290f137a189faff8e6b8bdaee477b753",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1750R(01)",
+   "date": "1999-12-30",
+   "corrects": [
+    "31999R1750"
+   ],
+   "locus": "On page 36 in Article 36, last two lines",
+   "for": "Council Regulations (EC) No 1261/1999 (1) and (EC) No 1262/1999 (2).",
+   "read": "Council Regulations (EC) No 1783/1999 (1) and (EC) No 1784/1999 (2).",
+   "wrong_number": "1999/1261",
+   "wrong_resolves_to": [
+    "31999R1261R(01)",
+    "31999R1261"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1750",
+     "readable": true,
+     "sha256": "1f5d6cfb5dc3340e38a94ed2db48c518abd3766bd36817ebda139114d136eaff",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1750R(01)",
+   "date": "1999-12-30",
+   "corrects": [
+    "31999R1750"
+   ],
+   "locus": "On page 36 in Article 36, last two lines",
+   "for": "Council Regulations (EC) No 1261/1999 (1) and (EC) No 1262/1999 (2).",
+   "read": "Council Regulations (EC) No 1783/1999 (1) and (EC) No 1784/1999 (2).",
+   "wrong_number": "1999/1262",
+   "wrong_resolves_to": [
+    "31999R1262",
+    "31999R1262R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1750",
+     "readable": true,
+     "sha256": "1f5d6cfb5dc3340e38a94ed2db48c518abd3766bd36817ebda139114d136eaff",
+     "route": "text/html",
+     "still_names_wrong": false,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1255R(02)",
+   "date": "2000-01-05",
+   "corrects": [
+    "31999R1255"
+   ],
+   "locus": "n of the market in milk and milk products (Official Journal of the European Communities L 160 of 26 June 1999) On page 59 in Article 25, fourth and fifth lines:",
+   "for": "... Regulation (EC) No 1254/1999",
+   "read": "... Regulation (EC) No 1257/1999",
+   "wrong_number": "1999/1254",
+   "wrong_resolves_to": [
+    "31999R1254",
+    "31999R1254R(01)",
+    "31999R1254R(02)",
+    "31999R1254R(03)",
+    "31999R1254R(04)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1255",
+     "readable": true,
+     "sha256": "88540eba01c6ac768f4dae63526d91d45498e3fd1b5fdc47529d3a471a4ad60d",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1255R(02)",
+   "date": "2000-01-05",
+   "corrects": [
+    "31999R1255"
+   ],
+   "locus": "and on page 65 in Article 45, first line:",
+   "for": "Regulation (EC) No 1254/1999 ...",
+   "read": "Regulation (EC) No 1258/2000 ...",
+   "wrong_number": "1999/1254",
+   "wrong_resolves_to": [
+    "31999R1254",
+    "31999R1254R(01)",
+    "31999R1254R(02)",
+    "31999R1254R(03)",
+    "31999R1254R(04)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1255",
+     "readable": true,
+     "sha256": "88540eba01c6ac768f4dae63526d91d45498e3fd1b5fdc47529d3a471a4ad60d",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31994L0025R(03)",
+   "date": "2000-02-15",
+   "corrects": [
+    "31994L0025"
+   ],
+   "locus": "the Member States relating to recreational craft (Official Journal of the European Communities L 164 of 30 June 1994) On page 16, in Chapter 1, Article 1(3)(h):",
+   "for": "... Directive 82/716/EEC of 4 October 1982 ...",
+   "read": "... Council Directive 82/714/EEC of 4 October 1982 ...",
+   "wrong_number": "1982/716",
+   "wrong_resolves_to": [
+    "31982R0716"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31994L0025",
+     "readable": true,
+     "sha256": "535c10daa50b040657051939c70cca4bd6b6797fc288c75348e0db865a4f3c6c",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32000R0050R(01)",
+   "date": "2000-02-19",
+   "corrects": [
+    "32000R0050"
+   ],
+   "locus": "dified or have been produced from genetically modified organisms (Official Journal of the European Communities L 6 of 11 January 2000) On page 15:- second visa:",
+   "for": "Having regard to Council Directive 99/112/EEC ...",
+   "read": "Having regard to Council Directive 79/112/EEC ...",
+   "wrong_number": "1999/112",
+   "wrong_resolves_to": [
+    "31999R0112"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32000R0050",
+     "readable": true,
+     "sha256": "17f3d3804b583d791010f30c36aad2b7e17a40a1a1f21887feb8b7d430dc52b3",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32000R0050R(01)",
+   "date": "2000-02-19",
+   "corrects": [
+    "32000R0050"
+   ],
+   "locus": "- in Article 4(1), second subparagraph, second and third lines:",
+   "for": "... Directive 791/112/EEC, ...",
+   "read": "... Directive 79/112/EEC, ...",
+   "wrong_number": "791/112",
+   "wrong_resolves_to": [],
+   "wrong_pointer_is_live": false,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "32000R0050",
+     "readable": true,
+     "sha256": "17f3d3804b583d791010f30c36aad2b7e17a40a1a1f21887feb8b7d430dc52b3",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R2592R(01)",
+   "date": "2000-02-26",
+   "corrects": [
+    "31999R2592"
+   ],
+   "locus": "ountervailing duties on imports of such salmon (Official Journal of the European Communities L 315 of 9 December 1999) On page 20:- in Article 1(3), third line:",
+   "for": "... Regulation (EC) No 929/1999 (1)...",
+   "read": "... Regulation (EC) No 1826/1999...",
+   "wrong_number": "1999/929",
+   "wrong_resolves_to": [
+    "31999R0929",
+    "31999Y0929(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R2592",
+     "readable": true,
+     "sha256": "d19ed24f1390d3fc08a624f5760d62c9506dfb6dd8c9c2c452366d38d026f70d",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32000R0563R(01)",
+   "date": "2000-03-22",
+   "corrects": [
+    "32000R0563"
+   ],
+   "locus": "ce quantities for certain products originating in Morocco (Official Journal of the European Communities L 68 of 16 March 2000) On page 46: - in the second visa:",
+   "for": "as last amended by Commission Regulation (EC) No 2530/1999 (2)",
+   "read": "as last amended by Commission Regulation (EC) No 650/98 (2)",
+   "wrong_number": "1999/2530",
+   "wrong_resolves_to": [
+    "31999R2530"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32000R0563",
+     "readable": true,
+     "sha256": "964e9fc75f2163af75a8967b2a495a572487bdb296942f1d3cb28e76aadba92d",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R2795R(02)",
+   "date": "2000-05-04",
+   "corrects": [
+    "31999R2795"
+   ],
+   "locus": "the classification of certain goods in the Combined Nomenclature (Official Journal of the European Communities L 337 of 30 December 1999) On page 36, recital 4:",
+   "for": "(4) Whereas it is appropriate that binding tariff information issued by the customs authorities of Member States in respect of the classification of goods in the Combined Nomenclature and which do not conform to the rights established by this Regulation, can continue to be invoked under the provisio",
+   "read": "(4) It is appropriate that binding tariff information issued by the customs authorities of Member States in respect of the classification of goods in the Combined Nomenclature and which does not conform to the provisions of this Regulation, can continue to be invoked, under the provisions in Article",
+   "wrong_number": "1990/1715",
+   "wrong_resolves_to": [
+    "31990R1715",
+    "31990R1715R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31999R2795",
+     "readable": true,
+     "sha256": "005aa0c95c7d2681aeb0b0c6fd01a4a6d258efa20a665c16fd9afb786a560dc7",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R2795R(02)",
+   "date": "2000-05-04",
+   "corrects": [
+    "31999R2795"
+   ],
+   "locus": "the classification of certain goods in the Combined Nomenclature (Official Journal of the European Communities L 337 of 30 December 1999) On page 36, recital 4:",
+   "for": "(4) Whereas it is appropriate that binding tariff information issued by the customs authorities of Member States in respect of the classification of goods in the Combined Nomenclature and which do not conform to the rights established by this Regulation, can continue to be invoked under the provisio",
+   "read": "(4) It is appropriate that binding tariff information issued by the customs authorities of Member States in respect of the classification of goods in the Combined Nomenclature and which does not conform to the provisions of this Regulation, can continue to be invoked, under the provisions in Article",
+   "wrong_number": "1990/3796",
+   "wrong_resolves_to": [
+    "31990R3796"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31999R2795",
+     "readable": true,
+     "sha256": "005aa0c95c7d2681aeb0b0c6fd01a4a6d258efa20a665c16fd9afb786a560dc7",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R2795R(02)",
+   "date": "2000-05-04",
+   "corrects": [
+    "31999R2795"
+   ],
+   "locus": "the classification of certain goods in the Combined Nomenclature (Official Journal of the European Communities L 337 of 30 December 1999) On page 36, recital 4:",
+   "for": "(4) Whereas it is appropriate that binding tariff information issued by the customs authorities of Member States in respect of the classification of goods in the Combined Nomenclature and which do not conform to the rights established by this Regulation, can continue to be invoked under the provisio",
+   "read": "(4) It is appropriate that binding tariff information issued by the customs authorities of Member States in respect of the classification of goods in the Combined Nomenclature and which does not conform to the provisions of this Regulation, can continue to be invoked, under the provisions in Article",
+   "wrong_number": "1992/2674",
+   "wrong_resolves_to": [
+    "31992R2674",
+    "31992R2674R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31999R2795",
+     "readable": true,
+     "sha256": "005aa0c95c7d2681aeb0b0c6fd01a4a6d258efa20a665c16fd9afb786a560dc7",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R2795R(02)",
+   "date": "2000-05-04",
+   "corrects": [
+    "31999R2795"
+   ],
+   "locus": "On page 36, Article 2:",
+   "for": "Article 2 Binding tariff information issued by the customs authorities of Member States which do not conform to the rights established by this Regulation can continue to be invoked under the provisions of Article 6 of Regulation (EEC) No 3796/90 for a period of three months by the holder if a bindin",
+   "read": "Article 2 Binding tariff information issued by the customs authorities of Member States which does not conform to the provisions of this Regulation can continue to be invoked under the provisions of Article 12(6) of Regulation (EEC) No 2913/92 for a period of three months. On page 36, in the footnot",
+   "wrong_number": "1990/1715",
+   "wrong_resolves_to": [
+    "31990R1715",
+    "31990R1715R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R2795",
+     "readable": true,
+     "sha256": "005aa0c95c7d2681aeb0b0c6fd01a4a6d258efa20a665c16fd9afb786a560dc7",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R2795R(02)",
+   "date": "2000-05-04",
+   "corrects": [
+    "31999R2795"
+   ],
+   "locus": "On page 36, Article 2:",
+   "for": "Article 2 Binding tariff information issued by the customs authorities of Member States which do not conform to the rights established by this Regulation can continue to be invoked under the provisions of Article 6 of Regulation (EEC) No 3796/90 for a period of three months by the holder if a bindin",
+   "read": "Article 2 Binding tariff information issued by the customs authorities of Member States which does not conform to the provisions of this Regulation can continue to be invoked under the provisions of Article 12(6) of Regulation (EEC) No 2913/92 for a period of three months. On page 36, in the footnot",
+   "wrong_number": "1990/3796",
+   "wrong_resolves_to": [
+    "31990R3796"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R2795",
+     "readable": true,
+     "sha256": "005aa0c95c7d2681aeb0b0c6fd01a4a6d258efa20a665c16fd9afb786a560dc7",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32000R1889R(01)",
+   "date": "2000-09-08",
+   "corrects": [
+    "32000R1889"
+   ],
+   "locus": "eptember 2000 amending the import duties in the cereals sector (Official Journal of the European Communities L 227 of 7 September 2000) On page 16 in Article 1:",
+   "for": "... Regulation (EC) No 1870/2000 ...",
+   "read": "... Regulation (EC) No 1861/2000 ...",
+   "wrong_number": "2000/1870",
+   "wrong_resolves_to": [
+    "32000M1870",
+    "32000R1870"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "32000R1889",
+     "readable": false,
+     "http_status": 404
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1254R(03)",
+   "date": "2000-10-18",
+   "corrects": [
+    "31999R1254"
+   ],
+   "locus": " organisation of the market in beef and veal (Official Journal of the European Communities L 160 of 26 June 1999) On page 29, Article 6(5), second subparagraph:",
+   "for": "(EC) No 1251/1999... (2)",
+   "read": "(EC) No 1260/1999... (2)\". The corresponding footnote shall read as follows: \"(2) OJ L 161, 26.6.1999, p. 1.",
+   "wrong_number": "1999/1251",
+   "wrong_resolves_to": [
+    "31999R1251R(02)",
+    "31999R1251",
+    "31999R1251R(03)",
+    "31999R1251R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1254",
+     "readable": true,
+     "sha256": "6617192ebb4f1a5ec3d32bc847e548b1add769caeb36720c0f6919b3e53dd7c2",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32000R2263R(01)",
+   "date": "2000-10-28",
+   "corrects": [
+    "32000R2263"
+   ],
+   "locus": " Common Customs Tariff (Official Journal of the European Communities L 264 of 18 October 2000) In the table of contents on the cover and in the title on page 1:",
+   "for": "Commission Regulation (EC) No 2263/2000",
+   "read": "Commission Regulation (EC) No 2388/2000",
+   "wrong_number": "2000/2263",
+   "wrong_resolves_to": [
+    "32000R2263R(01)",
+    "32000R2263"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32000R2263",
+     "readable": true,
+     "sha256": "065427cb177ed28bc90ecc58a53049d7d1d23630fc8780c204d3a9fa95ef7f34",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1257R(01)",
+   "date": "2000-12-01",
+   "corrects": [
+    "31999R1257"
+   ],
+   "locus": "e Fund (EAGGF) and amending and repealing certain Regulations (Official Journal of the European Communities L 160 of 26 June 1999) On page 94, in Article 36(2):",
+   "for": "... Regulation (EC) No 1260/1999(1)...",
+   "read": "... Regulation (EC) No 1258/1999(1)...",
+   "wrong_number": "1999/1260",
+   "wrong_resolves_to": [
+    "31999R1260",
+    "31999R1260R(03)",
+    "31999R1260R(01)",
+    "31999R1260R(02)",
+    "31999R1260R(04)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1257",
+     "readable": true,
+     "sha256": "d41aced88844cc82865c7f0f12b65efd9547a2fdd547b7b07f36365dad9e068e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1257R(01)",
+   "date": "2000-12-01",
+   "corrects": [
+    "31999R1257"
+   ],
+   "locus": "The footnote remains unchanged.On page 97, in particle 45(1):",
+   "for": "... Regulations (EC) No 1262/1999(1), (EC) No 1261/1999(2) and...",
+   "read": "... Regulations (EC) No 1783/1999(1), (EC) No 1784/1999(2) and...",
+   "wrong_number": "1999/1261",
+   "wrong_resolves_to": [
+    "31999R1261R(01)",
+    "31999R1261"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31999R1257",
+     "readable": true,
+     "sha256": "d41aced88844cc82865c7f0f12b65efd9547a2fdd547b7b07f36365dad9e068e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1257R(01)",
+   "date": "2000-12-01",
+   "corrects": [
+    "31999R1257"
+   ],
+   "locus": "The footnote remains unchanged.On page 97, in particle 45(1):",
+   "for": "... Regulations (EC) No 1262/1999(1), (EC) No 1261/1999(2) and...",
+   "read": "... Regulations (EC) No 1783/1999(1), (EC) No 1784/1999(2) and...",
+   "wrong_number": "1999/1262",
+   "wrong_resolves_to": [
+    "31999R1262",
+    "31999R1262R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31999R1257",
+     "readable": true,
+     "sha256": "d41aced88844cc82865c7f0f12b65efd9547a2fdd547b7b07f36365dad9e068e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1257R(01)",
+   "date": "2000-12-01",
+   "corrects": [
+    "31999R1257"
+   ],
+   "locus": "On page 100, in Article 54(3)(b) (replacement of Article 52 of Regulation (EC) No 2200/96): in new Article 52(1):",
+   "for": "... Regulation (EC) No 1257/1999 (*)",
+   "read": "... Regulation (EC) No 1258/1999 (*)",
+   "wrong_number": "1999/1257",
+   "wrong_resolves_to": [
+    "31999R1257",
+    "31999R1257R(01)",
+    "31999R1257R(03)",
+    "31999R1257R(02)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1257",
+     "readable": true,
+     "sha256": "d41aced88844cc82865c7f0f12b65efd9547a2fdd547b7b07f36365dad9e068e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999R1257R(01)",
+   "date": "2000-12-01",
+   "corrects": [
+    "31999R1257"
+   ],
+   "locus": "in new Article 52(2):",
+   "for": "... Regulation (EC) No 1257/1999",
+   "read": "... Regulation (EC) No 1258/1999",
+   "wrong_number": "1999/1257",
+   "wrong_resolves_to": [
+    "31999R1257",
+    "31999R1257R(01)",
+    "31999R1257R(03)",
+    "31999R1257R(02)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31999R1257",
+     "readable": true,
+     "sha256": "d41aced88844cc82865c7f0f12b65efd9547a2fdd547b7b07f36365dad9e068e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001L0004R(01)",
+   "date": "2001-01-27",
+   "corrects": [
+    "32001L0004"
+   ],
+   "locus": "e applied (Official Journal of the European Communities L 22 of 24 January 2001) In the contents, on the second page of the cover, and on page 17, in the title:",
+   "for": "2001/41/EC",
+   "read": "2001/4/EC",
+   "wrong_number": "2001/41",
+   "wrong_resolves_to": [
+    "32001R0041",
+    "32001D0041",
+    "32001L0041"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32001L0004",
+     "readable": true,
+     "sha256": "eefbdf875c8eb2ebd97b75ad689428dbb0696288cf93a457779367e865fe65a9",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32000L0008R(01)",
+   "date": "2001-03-06",
+   "corrects": [
+    "32000L0008"
+   ],
+   "locus": "tanks and rear underrun protection of motor vehicles and their trailers (Official Journal of the European Communities L 106 of 3 May 2000) On page 7, recital 7:",
+   "for": "... granted under Directive 74/60/EEC (6) ...",
+   "read": "... granted under Directive 70/221/EEC ...",
+   "wrong_number": "1974/60",
+   "wrong_resolves_to": [
+    "31974L0060R(02)",
+    "31974L0060R(03)",
+    "31974L0060R(01)",
+    "31974R0060",
+    "31974L0060"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32000L0008",
+     "readable": true,
+     "sha256": "e9ac3b44bde42d1922ab62cb1e62363cf566488beee3216d0a012f48c6884e46",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001L0050R(01)",
+   "date": "2001-08-11",
+   "corrects": [
+    "32001L0050"
+   ],
+   "locus": "in the second recital, first line:",
+   "for": "Commission Directive 94/45/EC",
+   "read": "Commission Directive 95/45/EC",
+   "wrong_number": "1994/45",
+   "wrong_resolves_to": [
+    "31994L0045",
+    "31994L0045R(02)",
+    "31994R0045",
+    "31994D0045",
+    "31994L0045R(01)",
+    "31994L0045R(03)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32001L0050",
+     "readable": true,
+     "sha256": "d43d16c5d32329384fba2e1a60de7136d18eab13bea1b68535299340744405d3",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32000R1291R(01)",
+   "date": "2001-09-22",
+   "corrects": [
+    "32000R1291"
+   ],
+   "locus": "on page 20, in Article 44(2), last line:",
+   "for": "... Regulation (EEC) No 3454/93",
+   "read": "... Regulation (EEC) No 2454/93",
+   "wrong_number": "1993/3454",
+   "wrong_resolves_to": [
+    "31993R3454"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "32000R1291",
+     "readable": true,
+     "sha256": "ed283f6665c24fbe1b0e95ebf9c2980711a94d3e6220851de29c21efd3736ca0",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001R1920R(01)",
+   "date": "2001-11-13",
+   "corrects": [
+    "32001R1920"
+   ],
+   "locus": "f consumer prices and amending Regulation (EC) No 2214/96 (Official Journal of the European Communities L 261 of 29 September 2001) On page 46, second citation:",
+   "for": "Having regard to Council Regulation (EC) No 2494/95 of 23 October 1995 concerning harmonised indices of consumer prices (1), as last amended by Commission Regulation (EC) No 1617/1999 (2), and in particular Article 4 and Article 5(3) thereof",
+   "read": "Having regard to Council Regulation (EC) No 2494/95 of 23 October 1995 concerning harmonised indices of consumer prices (1), and in particular Article 4 and Article 5(3) thereof,. On the same page, footnote (2) should be deleted. Footnote references and footnotes numbers (3), (4), (5), (6), (7), (8)",
+   "wrong_number": "1999/1617",
+   "wrong_resolves_to": [
+    "31999R1617",
+    "31999M1617",
+    "31999R1617R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32001R1920",
+     "readable": true,
+     "sha256": "bf0158a31652d8a58eaaf67fc2036e89618d97172ebaeaab9f1429dc0797c4cb",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001R1921R(01)",
+   "date": "2001-11-13",
+   "corrects": [
+    "32001R1921"
+   ],
+   "locus": "consumer prices and amending Regulation (EC) No 2602/2000 (Official Journal of the European Communities L 261 of 29 September 2001) On page 49, second citation:",
+   "for": "Having regard to Council Regulation (EC) No 2494/95 of 23 October 1995 concerning harmonised indices of consumer prices (1), as last amended by Commission Regulation (EC) No 1617/1999 (1), and in particular Article 4 and Article 5(3) thereof",
+   "read": "Having regard to Council Regulation (EC) No 2494/95 of 23 October 1995 concerning harmonised indices of consumer prices (1), and in particular Article 4 and Article 5(3) thereof,. On the same page, footnote (2) should be deleted. Footnote references and footnotes numbers (3), (4) and (5) should be r",
+   "wrong_number": "1999/1617",
+   "wrong_resolves_to": [
+    "31999R1617",
+    "31999M1617",
+    "31999R1617R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32001R1921",
+     "readable": true,
+     "sha256": "bf64bd9bf552fdfc950e7ea139c267173de6b2d788e85766724443385d3cfccb",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001D0182R(02)",
+   "date": "2001-12-06",
+   "corrects": [
+    "32001D0182"
+   ],
+   "locus": "hods, sampling plans and maximum limits for mercury in fishery products (Official Journal of the European Communities L 77 of 16 March 2001) Page 22, recital 1:",
+   "for": "... (EC) No 466/2000 ...",
+   "read": "... (EC) No 466/2001 ...",
+   "wrong_number": "2000/466",
+   "wrong_resolves_to": [
+    "32000D0466",
+    "32000R0466"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32001D0182",
+     "readable": true,
+     "sha256": "2fcc86116ebb96f271cad71a9f9cab0d55ff808e9d0997e061b8dcb7af413c7c",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31998L0079R(04)",
+   "date": "2002-01-10",
+   "corrects": [
+    "31998L0079"
+   ],
+   "locus": "er 1998 on in vitro diagnostic medical devices (Official Journal of the European Communities L 331 of 7 December 1998) On page 13, in Article 21(1), first line:",
+   "for": "1. In Directive 89/392/EEC",
+   "read": "1. In Directive 98/37/EC",
+   "wrong_number": "1989/392",
+   "wrong_resolves_to": [
+    "31989L0392",
+    "31989R0392",
+    "31989L0392R(01)",
+    "31989L0392R(02)",
+    "31989L0392R(03)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "31998L0079",
+     "readable": true,
+     "sha256": "e8e276e8f0b8237da8f39d0fe809ab16f13b766d7b1091c4909889c695e966f1",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0038R(01)",
+   "date": "2002-01-15",
+   "corrects": [
+    "32002R0038"
+   ],
+   "locus": "g the export refunds on milk and milk products (Official Journal of the European Communities L 7 of 11 January 2002) In the Contents and on page 5 in the title:",
+   "for": "... Regulation (EC) No 38/2001 ...",
+   "read": "... Regulation (EC) No 38/2002 ...",
+   "wrong_number": "2001/38",
+   "wrong_resolves_to": [
+    "32001L0038",
+    "32001R0038",
+    "32001D0038"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R0038",
+     "readable": true,
+     "sha256": "1d970447459c07050f47c1a8f6a2e1a7daecfa19173e4bd1d7c25e6216bc9370",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "31999L0042R(01)",
+   "date": "2002-01-25",
+   "corrects": [
+    "31999L0042"
+   ],
+   "locus": "lementing the general systems for the recognition of qualifications (Official Journal of the European Communities L 201 of 31 July 1999) On page 86, List V (a):",
+   "for": "(liberalisation Directive 64/224/EEC)",
+   "read": "0. activities of self-employed persons in wholesale trade, with the exception of wholesale trade in medicinal and pharmaceutical products, in toxic products and pathogens and in coal (ex Group 611);",
+   "wrong_number": "1964/224",
+   "wrong_resolves_to": [
+    "31964L0224",
+    "31964L0224R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "31999L0042",
+     "readable": true,
+     "sha256": "9a16e8a36536a00aa2d48a218ea19718b54578958d2b69496e0cc45535cdd08e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001D0488R(01)",
+   "date": "2002-01-25",
+   "corrects": [
+    "32001D0488"
+   ],
+   "locus": "ls of susceptible species with regard to foot-and-mouth disease (Official Journal of the European Communities L 176 of 29 June 2001) On page 76, paragraph 1(f):",
+   "for": "... Directive 91/628/EEC ...",
+   "read": "... Directive 91/68/EEC ...",
+   "wrong_number": "1991/628",
+   "wrong_resolves_to": [
+    "31991L0628"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32001D0488",
+     "readable": true,
+     "sha256": "f8db0ece63f0a410c103d3855f974b945e8d3fdfeb488353c3f525ee4408068e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001R2569R(01)",
+   "date": "2002-01-30",
+   "corrects": [
+    "32001R2569"
+   ],
+   "locus": "On page 42, in the second recital:",
+   "for": "Commission Regulation (EEC) No 1501/83 of 9 June 1983",
+   "read": "Commission Regulation (EC) No 2493/2001 of 19 December 2001\". On page 42, in the footnotes: - footnote 2 shall be removed, - footnote 3 shall be replaced by the following: \"(2) OJ L 337, 20.12.2001, p. 20.",
+   "wrong_number": "1983/1501",
+   "wrong_resolves_to": [
+    "31983R1501"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32001R2569",
+     "readable": true,
+     "sha256": "2a0097d144409d40b9b200b2f88d8c69bc037b89a68559dc405c60e39f42ace5",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0430R(01)",
+   "date": "2002-03-09",
+   "corrects": [
+    "32002R0430"
+   ],
+   "locus": "f barley issued in Regulation (EC) No 1558/2001 (Official Journal of the European Communities L 66 of 8 March 2002) In the contents and on page 14 in the title:",
+   "for": "Commission Regulation (EC) No 430/2001 ...",
+   "read": "Commission Regulation (EC) No 430/2002 ...",
+   "wrong_number": "2001/430",
+   "wrong_resolves_to": [
+    "32001D0430",
+    "32001R0430"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R0430",
+     "readable": true,
+     "sha256": "20c839479dc37e93d5614f598126fe38e80dd3c464802951f02245dfd40918ae",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0472R(01)",
+   "date": "2002-03-23",
+   "corrects": [
+    "32002R0472"
+   ],
+   "locus": "n foodstuffs (Official Journal of the European Communities L 75 of 16 March 2002) On page 20, in the Annex, in the second part of the table, in columns 3 and 4:",
+   "for": "Directive 2002/27/EC",
+   "read": "Directive 2002/26/EC",
+   "wrong_number": "2002/27",
+   "wrong_resolves_to": [
+    "32002R0027",
+    "32002D0027",
+    "32002L0027"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R0472",
+     "readable": true,
+     "sha256": "b1f844e9a0a47cc08b1918be261ded2feb4ff5c3fee8b34e7aa9f16b18a53401",
+     "route": "text/html",
+     "still_names_wrong": false,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0993R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R0993"
+   ],
+   "locus": "he entry price of certain fruit and vegetables (Official Journal of the European Communities L 152 of 12 June 2002) In the Contents, and in the title on page 1:",
+   "for": "... Regulation (EC) No 993/2002 ...",
+   "read": "... Regulation (EC) No 994/2002 ...",
+   "wrong_number": "2002/993",
+   "wrong_resolves_to": [
+    "32002R0993(01)",
+    "32002R0993R(01)",
+    "32002D0993",
+    "32002R0993"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R0993",
+     "readable": true,
+     "sha256": "db34c1b47fed5f795a531cc2b17b8ef6f5b2029438ff4644bcfad4924d02c83e",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0994R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R0994"
+   ],
+   "locus": "l Journal of the European Communities L 152 of 12 June 2002) In the Contents, in the title on page 3, and on page 5 in Article 5(1)(c), and in Annexes I and II:",
+   "for": "... Regulation (EC) No 994/2002 ...",
+   "read": "... Regulation (EC) No 995/2002 ...",
+   "wrong_number": "2002/994",
+   "wrong_resolves_to": [
+    "32002R0994R(01)",
+    "32002D0994",
+    "32002R0994"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "32002R0994",
+     "readable": true,
+     "sha256": "c77eef0d3a813eb35c001ce38414fcae5601be8747ddd42f13f7450d158d2383",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0995R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R0995"
+   ],
+   "locus": "iginating in certain western Balkan countries (Official Journal of the European Communities L 152 of 12 June 2002) In the Contents, and in the title on page 11:",
+   "for": "... Regulation (EC) No 995/2002 ...",
+   "read": "... Regulation (EC) No 996/2002 ...",
+   "wrong_number": "2002/995",
+   "wrong_resolves_to": [
+    "32002D0995",
+    "32002R0995",
+    "32002R0995R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R0995",
+     "readable": true,
+     "sha256": "42254824dcaebd1c431f0a78a0ea704183e2be833f2c2d247761e8d64bcba49d",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0996R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R0996"
+   ],
+   "locus": "nd veal sector for the smaller Aegean islands (Official Journal of the European Communities L 152 of 12 June 2002) In the Contents, and in the title on page 14:",
+   "for": "... Regulation (EC) No 996/2002 ...",
+   "read": "... Regulation (EC) No 997/2002 ...",
+   "wrong_number": "2002/996",
+   "wrong_resolves_to": [
+    "32002D0996",
+    "32002R0996",
+    "32002R0996R(01)",
+    "32002R0996R(02)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R0996",
+     "readable": true,
+     "sha256": "c31d87a7f54b72ad6ae9bf2ce27767aa0954986c04e2d2ce704867db09a01b21",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0997R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R0997"
+   ],
+   "locus": "nd plant products coming from third countries (Official Journal of the European Communities L 152 of 12 June 2002) In the Contents, and in the title on page 16:",
+   "for": "... Regulation (EC) No 997/2002 ...",
+   "read": "... Regulation (EC) No 998/2002 ...",
+   "wrong_number": "2002/997",
+   "wrong_resolves_to": [
+    "32002R0997",
+    "32002R0997R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R0997",
+     "readable": true,
+     "sha256": "2d4478d9f446e95698a8a92350f34314d85b67be6925cb8c5b82259d747ad256",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R0999R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R0999"
+   ],
+   "locus": "umin, and amending Regulation (EC) No 1484/95 (Official Journal of the European Communities L 152 of 12 June 2002) In the Contents, and in the title on page 21:",
+   "for": "... Regulation (EC) No 999/2002 ...",
+   "read": "... Regulation (EC) No 1000/2002 ...",
+   "wrong_number": "2002/999",
+   "wrong_resolves_to": [
+    "32002D0999",
+    "32002R0999R(01)",
+    "32002R0999"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R0999",
+     "readable": true,
+     "sha256": "cb2aa5593c57d04bbad051be5e80a6ca487ae8e711f3a44f5d01a6f5321d270b",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R1000R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R1000"
+   ],
+   "locus": "1 June 2002 fixing the export refunds on eggs (Official Journal of the European Communities L 152 of 12 June 2002) In the Contents, and in the title on page 23:",
+   "for": "... Regulation (EC) No 1000/2002 ...",
+   "read": "... Regulation (EC) No 1001/2002 ...",
+   "wrong_number": "2002/1000",
+   "wrong_resolves_to": [
+    "32002R1000R(01)",
+    "32002D1000",
+    "32002R1000"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R1000",
+     "readable": true,
+     "sha256": "c38484b56045de59aa9a0cca68fe5909a7563512db686ff77c35ee53e49b6e7b",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R1001R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R1001"
+   ],
+   "locus": "2002 fixing the export refunds on poultrymeat (Official Journal of the European Communities L 152 of 12 June 2002) In the Contents, and in the title on page 25:",
+   "for": "... Regulation (EC) No 1001/2002 ...",
+   "read": "... Regulation (EC) No 1002/2002 ...",
+   "wrong_number": "2002/1001",
+   "wrong_resolves_to": [
+    "32002D1001",
+    "32002R1001R(01)",
+    "32002R1001"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R1001",
+     "readable": true,
+     "sha256": "39777756315ba9a3ae56553d94b89418799895bc1d141bd9a4c6b81b80f6a2de",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R1002R(01)",
+   "date": "2002-06-13",
+   "corrects": [
+    "32002R1002"
+   ],
+   "locus": "mport of certain products in the sugar sector (Official Journal of the European Communities L 152 of 12 June 2002) In the Contents, and in the title on page 27:",
+   "for": "... Regulation (EC) No 1002/2002 ...",
+   "read": "... Regulation (EC) No 1003/2002 ...",
+   "wrong_number": "2002/1002",
+   "wrong_resolves_to": [
+    "32002R1002R(01)",
+    "32002R1002",
+    "32002D1002"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R1002",
+     "readable": true,
+     "sha256": "ef9382f7e8f1a02ba15720cc6bbc77f1a93004bc750c5ff7690257e0e2ee41b6",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002R1176R(01)",
+   "date": "2002-07-20",
+   "corrects": [
+    "32002R1176"
+   ],
+   "locus": "to Estonia and amending Regulations (EC) Nos 1961/2001 and 1429/95 (Official Journal of the European Communities L 170 of 29 June 2002) On page 69 in recital 2:",
+   "for": "Council Regulation (EC) No 1148/2002 ...",
+   "read": "Council Regulation (EC) No 1151/2002 ...",
+   "wrong_number": "2002/1148",
+   "wrong_resolves_to": [
+    "32002R1148",
+    "32002R1148R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002R1176",
+     "readable": true,
+     "sha256": "fb6967391cc055cfd4481bc404caceca5fa9bdfa81b8c1d89e4b1b305f2357a1",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001R2550R(01)",
+   "date": "2002-09-13",
+   "corrects": [
+    "32001R2550"
+   ],
+   "locus": "chemes and amending Regulation (EC) No 2419/2001 (Official Journal of the European Communities L 341 of 22 December 2001) On page 107, in recital 21, last line:",
+   "for": "... Regulation (EC) No 2529/2001.",
+   "read": "... Regulation (EC) No 2419/2001.",
+   "wrong_number": "2001/2529",
+   "wrong_resolves_to": [
+    "32001R2529",
+    "32001M2529"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32001R2550",
+     "readable": true,
+     "sha256": "7354ca7c293d13bec9fccfa2f42f6339dd6a76e06f131b1a7d7fb1648b014f68",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001R2550R(01)",
+   "date": "2002-09-13",
+   "corrects": [
+    "32001R2550"
+   ],
+   "locus": "in Article 2(1), third line:",
+   "for": "... and (EC) No 2529/2001,",
+   "read": "... and (EC) No 2419/2001.",
+   "wrong_number": "2001/2529",
+   "wrong_resolves_to": [
+    "32001R2529",
+    "32001M2529"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "32001R2550",
+     "readable": true,
+     "sha256": "7354ca7c293d13bec9fccfa2f42f6339dd6a76e06f131b1a7d7fb1648b014f68",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32001R2550R(01)",
+   "date": "2002-09-13",
+   "corrects": [
+    "32001R2550"
+   ],
+   "locus": "in Article 4(1)(a), fourth line:",
+   "for": "... Regulation (EC) No 2529/2001 ...",
+   "read": "... Regulation (EC) No 2419/2001 ...",
+   "wrong_number": "2001/2529",
+   "wrong_resolves_to": [
+    "32001R2529",
+    "32001M2529"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "32001R2550",
+     "readable": true,
+     "sha256": "7354ca7c293d13bec9fccfa2f42f6339dd6a76e06f131b1a7d7fb1648b014f68",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002D0758(01)R(01)",
+   "date": "2002-09-26",
+   "corrects": [
+    "32002D0758(01)"
+   ],
+   "locus": "36.264 - Mercedes-Benz) (Official Journal of the European Communities L 257 of 25 September 2002) In the contents and under the title of the Decision on page 1:",
+   "for": "2002/758/EC",
+   "read": "2002/760/EC",
+   "wrong_number": "2002/758",
+   "wrong_resolves_to": [
+    "32002D0758",
+    "32002R0758",
+    "32002D0758(01)",
+    "32002D0758(01)R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002D0758(01)",
+     "readable": true,
+     "sha256": "be147c9009ba3f58e8452511b036d7dc204b1a659199dd3c5f01dde124cba4df",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32002L0093R(01)",
+   "date": "2003-01-23",
+   "corrects": [
+    "32002L0093"
+   ],
+   "locus": "tain labour-intensive services (Official Journal of the European Communities L 331 of 7 December 2002) In the contents on the cover and in the title on page 27:",
+   "for": "Council Directive 2002/92/EC",
+   "read": "Council Directive 2002/93/EC",
+   "wrong_number": "2002/92",
+   "wrong_resolves_to": [
+    "32002L0092",
+    "32002R0092",
+    "32002D0092",
+    "32002R0092R(01)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32002L0093",
+     "readable": true,
+     "sha256": "f7d4ad757af62340620ed0a1ebcf407c3d88e90f716523e5e339a2f04e9b62f3",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": true
+    }
+   ]
+  },
+  {
+   "corrigendum": "32003L0008R(01)",
+   "date": "2003-02-07",
+   "corrects": [
+    "32003L0008"
+   ],
+   "locus": " to legal aid for such disputes (Official Journal of the European Communities L 26 of 31 January 2003) In the contents on the cover and on page 41 in the title,",
+   "for": "Council Directive 2002/8/EC",
+   "read": "Council Directive 2003/8/EC",
+   "wrong_number": "2002/8",
+   "wrong_resolves_to": [
+    "32002L0008",
+    "32002R0008",
+    "32002D0008"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32003L0008",
+     "readable": true,
+     "sha256": "3c0d8de56b32d8d6e5a113ce782f730d8707a16c3ab07f26b756a2918c0ebad3",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32003R1458R(01)",
+   "date": "2003-08-27",
+   "corrects": [
+    "32003R1458"
+   ],
+   "locus": " the administration of a tariff quota in the pigmeat sector (Official Journal of the European Union L 208 of 19 August 2003) On page 4, in Article 4(d) and (e):",
+   "for": "- Reglamento (CE) n° 1458/2003 - Forordning (EF) nr. 1458/2003 - Verordnung (EG) Nr. 1458/2003 - Κανονισμός (ΕΚ) αριθ. 1458/2003 - Regulation (EC) No 1458/2003 - Règlement (CE) n° 1458/2003 - Regolamento (CE) n. 1458/2003 - Verordening (EG) nr. 1458/2003 - Regulamento (CE) n.o 1458/2003 - Asetus (EY",
+   "read": "- Reglamento (CE) n° ... - Forordning (EF) nr. ... - Verordnung (EG) Nr. ... - Κανονισμός (ΕΚ) αριθ. ... - Regulation (EC) No ... - Règlement (CE) n° ... - Regolamento (CE) n. ... - Verordening (EG) nr. ... - Regulamento (CE) n.o ... - Asetus (EY) N:o ... - Förordning (EG) nr",
+   "wrong_number": "2003/1458",
+   "wrong_resolves_to": [
+    "32003R1458R(01)",
+    "32003R1458",
+    "32003R1458R(02)"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": true,
+   "corrected_act": [
+    {
+     "act": "32003R1458",
+     "readable": true,
+     "sha256": "af2823e138d9203d4a316596917af31d662f83334736a1f659592676ec99e13c",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32003D0756R(01)",
+   "date": "2003-11-01",
+   "corrects": [
+    "32003D0756"
+   ],
+   "locus": "EEA Agreement (Case COMP/M.2650 - Haniel/Cementbouw/JV (CVK)) (Official Journal of the European Union L 282 of 30 October 2003) On the cover page and on page 1:",
+   "for": "2003/754/EC",
+   "read": "2003/756/EC",
+   "wrong_number": "2003/754",
+   "wrong_resolves_to": [
+    "32003B0754",
+    "32003R0754"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32003D0756",
+     "readable": true,
+     "sha256": "ebca6490839d85e179a6369219bcbf72e2951962659e82086e29a1c327d5d125",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32003D0757R(01)",
+   "date": "2003-11-01",
+   "corrects": [
+    "32003D0757"
+   ],
+   "locus": "d by Belgium for coordination centres established in Belgium (Official Journal of the European Union L 282 of 30 October 2003) On the cover page and on page 25:",
+   "for": "2003/755/EC",
+   "read": "2003/757/EC",
+   "wrong_number": "2003/755",
+   "wrong_resolves_to": [
+    "32003R0755",
+    "32003B0755"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32003D0757",
+     "readable": true,
+     "sha256": "1598d20150319c88c742f2dd10460feb0d4bf9aaa51de71c279082df686dd7ea",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32004D0161R(01)",
+   "date": "2004-03-30",
+   "corrects": [
+    "32004D0161"
+   ],
+   "locus": " 28(6) of Directive 77/388/EEC (Official Journal of the European Union L 52 of 21 February 2004) In the title of the Decision, both on the cover and on page 62:",
+   "for": "Council Decision 2004/161/EC",
+   "read": "Council Decision 2004/189/EC",
+   "wrong_number": "2004/161",
+   "wrong_resolves_to": [
+    "32004D0161R(01)",
+    "32004E0161",
+    "32004R0161",
+    "32004D0161"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32004D0161",
+     "readable": true,
+     "sha256": "87ae7f992c8d4799d20e34f51efed6e3a5d997c9b6e79308c3278cc919fb127c",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  },
+  {
+   "corrigendum": "32004R0692R(01)",
+   "date": "2004-04-23",
+   "corrects": [
+    "32004R0692"
+   ],
+   "locus": "B export licences in the fruit and vegetables sector (tomatoes) (Official Journal of the European Union L 108 of 16 April 2004) On page 3, in the first recital:",
+   "for": "Commission Regulation (EC) No 2214/2003",
+   "read": "Commission Regulation (EC) No 265/2004",
+   "wrong_number": "2003/2214",
+   "wrong_resolves_to": [
+    "32003R2214"
+   ],
+   "wrong_pointer_is_live": true,
+   "in_enacting_terms": false,
+   "corrected_act": [
+    {
+     "act": "32004R0692",
+     "readable": true,
+     "sha256": "5964ab012a3d9ecb0f0b3502f131f6cb69ec1bf8991713f24e1b200b05559e28",
+     "route": "text/html",
+     "still_names_wrong": true,
+     "names_corrected": false
+    }
+   ]
+  }
+ ]
+}

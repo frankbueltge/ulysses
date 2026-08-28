@@ -1,0 +1,6 @@
+__pycache__/
+corpus/
+acts/
+sample_xhtml/
+pairs.json
+*.log
