@@ -1,0 +1,6758 @@
+{
+ "measured_utc": "2026-08-29T04:17:12Z",
+ "endpoint": "https://publications.europa.eu/webapi/rdf/sparql",
+ "population_size": 196,
+ "works_with_no_binding": [],
+ "listings": {
+  "31971R1408R(13)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31971R1411R(06)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31972R0574R(14)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31976L0895R(01)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31979L0409R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31980L0778R(04)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31985R2137R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31985R2220R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31987R0535R(03)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31988L0298R(01)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31988L0299R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31988L0378R(03)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31988L0380R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31988R4252R(03)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31989L0646R(07)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31989L0667R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31989L0677R(02)": {
+   "DAN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31989R0986R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [],
+   "SPA": []
+  },
+  "31989R0986R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31989R3540R(01)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31989R4047R(03)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31990L0220R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31990R0388R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ]
+  },
+  "31990R0762R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31990R1048R(02)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31990R1953R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31990R2025R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31990R2562R(04)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31990R3944R(01)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [],
+   "FRA": [],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": []
+  },
+  "31990S1796R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31991L0663R(03)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31991R1517R(03)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31991R1811R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31991R2741R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31991R3378R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992B0041R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ]
+  },
+  "31992D0091R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992D0230R(02)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31992L0014R(05)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992L0043R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992L0049R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31992L0049R(03)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992L0053R(05)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992L0061R(03)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31992L0096R(03)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31992L0096R(04)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992L0098R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992R0887R(03)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992R1492R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ]
+  },
+  "31992R2164R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992R2913R(05)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992R3615R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31992R3827R(03)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FRA": [],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31992R3953R(02)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31993D0387R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993D0662R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993L0038R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993L0057R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993L0088R(02)": {
+   "DAN": [
+    "pdf",
+    "print"
+   ],
+   "DEU": [
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "pdf",
+    "print"
+   ],
+   "POR": [
+    "pdf",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdf",
+    "print"
+   ]
+  },
+  "31993R0259R(05)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993R1282R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31993R1442R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993R1813R(03)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993R1848R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31993R2037R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31993R2552R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993R2700R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31993R2887R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31993R2891R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31993R3393R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31993R3699R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994D0023R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994D0086R(01)": {
+   "DAN": [
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994D0173R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994D0173R(03)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994D0197R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994D0197R(02)": {
+   "DAN": [
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994D0197R(03)": {
+   "DAN": [
+    "html",
+    "pdfa1b"
+   ],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html",
+    "pdfa1b"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994D0571R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994D0650R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994L0029R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994L0036R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994L0060R(03)": {
+   "DAN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994R0212R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31994R0227R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ]
+  },
+  "31994R0517R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994R0658R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31994R0824R(02)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31994R1001R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": []
+  },
+  "31994R1362R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994R1362R(03)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994R1362R(04)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994R1362R(05)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994R1503R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31994R1722R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "31994R1960R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ]
+  },
+  "31994R2437R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ]
+  },
+  "31994R3036R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31994R3290R(05)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31994Y1231(06)R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31995D0284R(03)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31995L0027R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31995L0056R(01)": {
+   "DAN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdf",
+    "print"
+   ]
+  },
+  "31995Q0228(02)R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31995R0558R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31995R1199R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31995R1464R(03)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31995R1518R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31995R1527R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31995R1999R(01)": {
+   "DAN": [
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31995R2899R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31995R3050R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31995Y0704(02)R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31996D0613R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996D0646(01)R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31996D0646R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31996E0635R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996F1009(01)R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31996L0001R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31996L0033R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996L0037R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31996L0061R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996L0067R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R0039R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R0284R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R0412R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R0478R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R1000R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31996R1528R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R1897R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R2018R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R2133R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31996R2160R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R2193R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "pdfa1b",
+    "print"
+   ],
+   "ITA": [
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R2238R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R2350R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "pdfa1b",
+    "print"
+   ]
+  },
+  "31996R2350R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R2412R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996R2427R(02)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31996R2488R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31996Y0110(02)R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31997D0333R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997D0333R(03)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997L0023R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997L0024R(02)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [
+    "html"
+   ],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31997R0007R(02)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997R0659R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997R0703R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html",
+    "pdfa1b"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b"
+   ],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31997R0766R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31997R1053R(02)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997R1053R(03)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997R1490R(04)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997R1780R(01)": {
+   "DAN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31997R2087R(02)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31997R2631R(02)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998D0536R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [],
+   "SPA": [],
+   "SWE": []
+  },
+  "31998L0001R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdf",
+    "print"
+   ]
+  },
+  "31998L0032R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [
+    "html"
+   ],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0047R(01)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0047R(02)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0050R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0050R(02)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0053R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0054R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [
+    "html"
+   ],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0055R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0058R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0062R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0062R(02)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0851R(02)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R0851R(03)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R1008R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [
+    "html"
+   ],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R1009R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [
+    "html"
+   ],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R1149R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdf",
+    "print"
+   ]
+  },
+  "31998R1607R(02)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R1647R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31998R2138R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [
+    "html"
+   ],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R2532R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31998R2806R(01)": {
+   "DAN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31998R2814R(01)": {
+   "DAN": [
+    "html"
+   ],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998R2863R(02)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31998Y1112(01)R(01)": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31999D0066R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31999E0034R(02)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31999L0001R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31999Q0529R(01)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [
+    "html"
+   ],
+   "POR": [],
+   "SPA": [],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31999R1294R(01)": {
+   "DAN": [],
+   "DEU": [
+    "html"
+   ],
+   "ELL": [
+    "html"
+   ],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [],
+   "POR": [
+    "html"
+   ],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31999R1369R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "NLD": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "POR": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdf",
+    "print"
+   ]
+  },
+  "31999R1539R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31999R1729R(01)": {
+   "DAN": [
+    "pdf",
+    "print"
+   ],
+   "DEU": [
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "pdf",
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "SWE": [
+    "html",
+    "pdf",
+    "print"
+   ]
+  },
+  "31999R1729R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31999R2792R(01)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [
+    "html"
+   ],
+   "NLD": [
+    "html"
+   ],
+   "POR": [],
+   "SPA": [],
+   "SWE": [
+    "html"
+   ]
+  },
+  "31999Y0618(02)R(01)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "31999Y0618(02)R(02)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [
+    "html"
+   ],
+   "FRA": [],
+   "ITA": [],
+   "NLD": [],
+   "POR": [],
+   "SPA": [],
+   "SWE": []
+  },
+  "32000D0139R(02)": {
+   "DAN": [
+    "print"
+   ],
+   "DEU": [
+    "print"
+   ],
+   "ELL": [
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FIN": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "FRA": [
+    "html",
+    "pdf",
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ],
+   "SWE": [
+    "print"
+   ]
+  },
+  "32000R0104R(02)": {
+   "DAN": [],
+   "DEU": [],
+   "ELL": [],
+   "ENG": [],
+   "FIN": [],
+   "FRA": [
+    "html"
+   ],
+   "ITA": [],
+   "NLD": [],
+   "POR": [],
+   "SPA": [
+    "html"
+   ],
+   "SWE": [
+    "html"
+   ]
+  },
+  "32009R0407R(02)": {
+   "BUL": [],
+   "CES": [],
+   "DEU": [
+    "fmx4",
+    "pdfa1a",
+    "print",
+    "xhtml"
+   ],
+   "ENG": [],
+   "EST": [],
+   "FIN": [],
+   "FRA": [],
+   "ITA": [],
+   "LIT": [],
+   "MLT": [],
+   "NLD": [],
+   "POL": [],
+   "POR": [],
+   "RON": [],
+   "SLK": []
+  }
+ }
+}

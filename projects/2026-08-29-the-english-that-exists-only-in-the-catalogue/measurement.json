@@ -1,0 +1,161 @@
+{
+ "population": 196,
+ "manifestation_types_seen": {
+  "print": 1436,
+  "html": 694,
+  "pdfa1b": 279,
+  "pdf": 66,
+  "fmx4": 1,
+  "pdfa1a": 1,
+  "xhtml": 1
+ },
+ "types_outside_declared_sets": [],
+ "cross_check_eng_digital_now": [],
+ "works_without_eng_expression": [],
+ "works_with_a_binding": 196,
+ "L1": {
+  "floor": ">= 60 %",
+  "n": 196,
+  "of": 196,
+  "pct": 100.0,
+  "verdict": "HELD"
+ },
+ "collision": {
+  "served_non_english_responses": 694,
+  "sharing_a_sha256_with_another_language": 0,
+  "pct": 0.0,
+  "voids_L2_L4_above": "20 %"
+ },
+ "L2": {
+  "floor": ">= 85 %",
+  "n": 194,
+  "of": 196,
+  "pct": 99.0,
+  "verdict": "HELD"
+ },
+ "L3": {
+  "floor": "<= 10 %",
+  "n": 0,
+  "of": 196,
+  "pct": 0.0,
+  "works": [],
+  "verdict": "HELD"
+ },
+ "L4": {
+  "floor": ">= 40 %",
+  "n": 97,
+  "of": 193,
+  "pct": 50.3,
+  "verdict": "HELD"
+ },
+ "L5": {
+  "floor": "<= 5 %",
+  "n": 0,
+  "of": 1340,
+  "pct": 0.0,
+  "examples": [],
+  "verdict": "HELD"
+ },
+ "http_status_distribution": {
+  "404": 1408,
+  "200": 694
+ },
+ "served_pairs": 694,
+ "languages_served_per_work": {
+  "median": 3,
+  "works_with_zero_served": 2
+ },
+ "served_by_language": {
+  "DEU": 149,
+  "DAN": 92,
+  "POR": 82,
+  "SPA": 81,
+  "FIN": 69,
+  "SWE": 64,
+  "FRA": 41,
+  "ITA": 41,
+  "ELL": 38,
+  "NLD": 37
+ },
+ "catalogue_digital_by_language": {
+  "DEU": 152,
+  "DAN": 97,
+  "SPA": 92,
+  "POR": 85,
+  "FIN": 75,
+  "SWE": 70,
+  "ITA": 55,
+  "FRA": 49,
+  "ELL": 47,
+  "NLD": 40
+ },
+ "post_hoc": {
+  "note": "descriptive; not pre-registered, not scored",
+  "pairs_listing_html_or_xhtml": 695,
+  "pairs_served": 694,
+  "served_but_not_listed_html": [],
+  "listed_html_but_not_served": [
+   "32009R0407R(02)/DEU"
+  ],
+  "works_with_a_founding_four_digital": 170,
+  "works_with_a_post_english_accession_digital": 151,
+  "eng_listing_shapes": {
+   "print_only": 133,
+   "empty": 63
+  }
+ },
+ "known_answer": {
+  "celex": "31989R3540R(01)",
+  "catalogue": {
+   "DAN": [
+    "html",
+    "print"
+   ],
+   "DEU": [
+    "html",
+    "print"
+   ],
+   "ELL": [
+    "html",
+    "pdfa1b",
+    "print"
+   ],
+   "ENG": [
+    "print"
+   ],
+   "FRA": [
+    "print"
+   ],
+   "ITA": [
+    "print"
+   ],
+   "NLD": [
+    "print"
+   ],
+   "POR": [
+    "print"
+   ],
+   "SPA": [
+    "print"
+   ]
+  },
+  "eng": {
+   "http_status": 404,
+   "bytes": 0,
+   "sha256": null,
+   "content_type": null
+  },
+  "fra": {
+   "http_status": 404,
+   "bytes": 0,
+   "sha256": null,
+   "content_type": null
+  },
+  "deu": {
+   "http_status": 200,
+   "bytes": 2044,
+   "sha256": "f6ab66164fb8a2704762fe0e95319947d9de683f3cc8e093b0a97d5d8ede1cf4",
+   "content_type": "text/html;charset=UTF-8"
+  }
+ }
+}
