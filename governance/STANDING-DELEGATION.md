@@ -5,7 +5,7 @@ act); monthly cost cap set by him: 10 €/month (2026-07-19). Version 1 (2026-07
 at `archive/governance/STANDING-DELEGATION-v1-2026-07-18.md`.
 **Mandate version:** 2
 **Responsible human:** Frank Bültge
-**Protocol:** Ulysses Research Protocol v6 (`PROTOCOL.md`)
+**Protocol:** Ulysses Research Protocol v7 (`PROTOCOL.md`) — research ecology v3, 2026-08-30
 
 ## 1. Purpose
 
@@ -27,7 +27,7 @@ shared_tool_budgets: proportionate use only (web-research full-text extraction i
 project_self_initiation: allowed
 safe_auto_land: allowed
 curated_publication: human_only
-protocol_amendment: allowed      # self-development clause, PROTOCOL.md amendment 2026-08-02
+protocol_amendment: human_only   # v7 (2026-08-30) is the architect's text; v6's self-development clause did not carry over
 sensitive_personal_data: prohibited_without_exception
 production_secrets: prohibited
 irreversible_actions: prohibited
