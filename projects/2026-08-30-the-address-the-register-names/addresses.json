@@ -1,0 +1,3428 @@
+{
+ "measured_utc": "2026-08-30T04:14:52Z",
+ "endpoint": "https://publications.europa.eu/webapi/rdf/sparql",
+ "population_size": 372,
+ "shape_from_committed_file": {
+  "31989R0725R(01)": "pdfa1b,print",
+  "31989R3540R(01)": "print",
+  "31989R1473R(01)": "pdfa1b,print",
+  "31990R0214R(01)": "pdfa1b,print",
+  "31989R3393R(02)": "pdfa1b,print",
+  "31989R3394R(01)": "pdfa1b,print",
+  "31989R3394R(02)": "pdfa1b,print",
+  "31990B0026R(01)": "pdfa1b,print",
+  "31989R3898R(01)": "pdfa1b,print",
+  "31989R4047R(03)": "print",
+  "31979L0923R(01)": "pdfa1b,print",
+  "31989R4064R(02)": "pdfa1b,print",
+  "31989R3773R(01)": "pdfa1b,print",
+  "31987R0535R(03)": "print",
+  "31985R2137R(02)": "print",
+  "31990R1502R(01)": "pdfa1b,print",
+  "31990R0762R(01)": "print",
+  "31990R1048R(02)": "print",
+  "31990R1680R(01)": "pdfa1b,print",
+  "31990L0270R(01)": "pdfa1b,print",
+  "31990R0731R(02)": "pdfa1b,print",
+  "31989R2537R(02)": "pdfa1b,print",
+  "31990R1953R(01)": "pdfa1b,print",
+  "31990R1953R(02)": "print",
+  "31990S1796R(02)": "print",
+  "31989R0986R(01)": "(none)",
+  "31990R1907R(01)": "pdfa1b,print",
+  "31990R2025R(01)": "print",
+  "31990D0005R(01)": "pdfa1b,print",
+  "31990R1730R(02)": "pdfa1b,print",
+  "31989R0986R(02)": "print",
+  "31990R2618R(01)": "pdfa1b,print",
+  "31989L0398R(01)": "pdfa1b,print",
+  "31990R2689R(01)": "pdfa1b,print",
+  "31990R2768R(01)": "pdfa1b,print",
+  "31990R2768R(02)": "pdfa1b,print",
+  "31990R2929R(01)": "pdfa1b,print",
+  "31990D0525R(01)": "pdfa1b,print",
+  "31990L0220R(01)": "pdfa1b,print",
+  "31990L0220R(02)": "print",
+  "31990R3262R(01)": "pdfa1b,print",
+  "31990R3413R(01)": "pdfa1b,print",
+  "31990R0388R(01)": "(none)",
+  "31990R3819R(02)": "pdfa1b,print",
+  "31990R3921R(03)": "pdfa1b,print",
+  "31990R3926R(01)": "pdfa1b,print",
+  "31990R3926R(02)": "pdfa1b,print",
+  "31988L0378R(03)": "print",
+  "31985R2677R(02)": "pdfa1b,print",
+  "31990R3944R(01)": "(none)",
+  "31991L0060R(01)": "pdfa1b,print",
+  "31990R3833R(01)": "pdfa1b,print",
+  "31980L0778R(04)": "print",
+  "31990D0455R(01)": "pdfa1b,print",
+  "31990R2562R(01)": "pdfa1b,print",
+  "31991B0034R(01)": "pdfa1b,print",
+  "31985L0337R(01)": "pdfa1b,print",
+  "31991R1517R(02)": "pdfa1b,print",
+  "31991R1517R(03)": "print",
+  "31991R1811R(02)": "print",
+  "31991R1565R(01)": "pdfa1b,print",
+  "31991R1910R(01)": "pdfa1b,print",
+  "31991R2050R(01)": "pdfa1b,print",
+  "31991R2741R(01)": "print",
+  "31992B0041R(01)": "(none)",
+  "31992D0091R(02)": "print",
+  "31991R3378R(01)": "print",
+  "31988L0299R(01)": "print",
+  "31992D0228R(02)": "pdfa1b,print",
+  "31992D0229R(01)": "pdfa1b,print",
+  "31992D0230R(02)": "print",
+  "31992R0729R(02)": "pdfa1b,print",
+  "31992B0041R(02)": "pdfa1b,print",
+  "31992L0014R(01)": "pdfa1b,print",
+  "31991L0663R(02)": "pdfa1b,print",
+  "31991L0663R(03)": "print",
+  "31990R2562R(03)": "pdfa1b,print",
+  "31990R2562R(04)": "print",
+  "31992R1896R(02)": "pdfa1b,print",
+  "31992R1907R(01)": "pdfa1b,print",
+  "31992R1492R(01)": "(none)",
+  "31992R2164R(02)": "print",
+  "31992D0315R(01)": "pdfa1b,print",
+  "31992R3006R(01)": "pdfa1b,print",
+  "31992R3827R(02)": "pdfa1b,print",
+  "31992R3827R(03)": "(none)",
+  "31992R2408R(01)": "pdfa1b,print",
+  "31992R3615R(01)": "print",
+  "31988R4250R(01)": "pdfa1b,print",
+  "31992R3761R(02)": "pdfa1b,print",
+  "31992R3953R(01)": "pdfa1b,print",
+  "31992R3953R(02)": "print",
+  "31992R0887R(03)": "print",
+  "31992R3803R(01)": "pdfa1b,print",
+  "31993R1122R(01)": "pdfa1b,print",
+  "31993R1282R(02)": "print",
+  "31988R4252R(03)": "print",
+  "31993R0339R(03)": "pdfa1b,print",
+  "31993R1328R(01)": "pdfa1b,print",
+  "31992R2505R(01)": "pdfa1b,print",
+  "31992L0043R(03)": "pdfa1b,print",
+  "31993R0183R(01)": "pdfa1b,print",
+  "31993R1813R(03)": "print",
+  "31993D0387R(02)": "print",
+  "31980L0778R(05)": "pdfa1b,print",
+  "31990R1967R(01)": "pdfa1b,print",
+  "31993D0136R(01)": "pdfa1b,print",
+  "31993R1756R(02)": "pdfa1b,print",
+  "31993R2176R(02)": "pdfa1b,print",
+  "31993R2552R(01)": "pdfa1b,print",
+  "31993R2552R(02)": "print",
+  "31985R2220R(02)": "print",
+  "31992L0014R(04)": "pdfa1b,print",
+  "31993R1848R(01)": "(none)",
+  "31993R2037R(01)": "(none)",
+  "31994R0227R(01)": "(none)",
+  "31993R0207R(01)": "pdfa1b,print",
+  "31993R2891R(01)": "pdfa1b,print",
+  "31993R3300R(02)": "pdfa1b,print",
+  "31993D0662R(01)": "print",
+  "31993L0038R(02)": "print",
+  "31993R3300R(03)": "pdfa1b,print",
+  "31993R3393R(01)": "(none)",
+  "31994R0517R(01)": "(none)",
+  "31994D0086R(01)": "print",
+  "31994R0212R(01)": "print",
+  "31993R2891R(02)": "print",
+  "31994R0658R(01)": "print",
+  "31994D0173R(01)": "(none)",
+  "31994R1001R(01)": "(none)",
+  "31993L0057R(01)": "pdfa1b,print",
+  "31993L0057R(02)": "print",
+  "31994D0069R(01)": "pdfa1b,print",
+  "31993R2700R(01)": "(none)",
+  "31994D0023R(01)": "(none)",
+  "31994R0824R(02)": "(none)",
+  "31994R1588R(01)": "pdfa1b,print",
+  "31994R1722R(01)": "print",
+  "31993R2887R(01)": "(none)",
+  "31993R3699R(01)": "(none)",
+  "31994R1960R(01)": "(none)",
+  "31994D0571R(01)": "(none)",
+  "31994L0036R(01)": "(none)",
+  "31994R2437R(01)": "(none)",
+  "31994R1362R(01)": "print",
+  "31994R1362R(03)": "print",
+  "31994R1362R(04)": "print",
+  "31994R1362R(05)": "print",
+  "31994R2376R(01)": "pdfa1b,print",
+  "31994R1503R(01)": "print",
+  "31994D0650R(01)": "pdfa1b,print",
+  "31994D0650R(02)": "print",
+  "31976L0895R(01)": "print",
+  "31988L0298R(01)": "print",
+  "31994L0029R(01)": "print",
+  "31994Y1231(06)R(01)": "(none)",
+  "31995R1162R(01)": "pdfa1b,print",
+  "31995R1162R(02)": "pdfa1b,print",
+  "31995R1244R(01)": "pdfa1b,print",
+  "31994R3282R(02)": "pdfa1b,print",
+  "31995R1199R(01)": "pdfa1b,print",
+  "31995R1199R(02)": "print",
+  "31993L0043R(02)": "pdfa1b,print",
+  "31994R3379R(01)": "pdfa1b,print",
+  "31995R1416R(01)": "pdfa1b,print",
+  "31994D0173R(03)": "print",
+  "31995Q0228(02)R(01)": "(none)",
+  "31995D0284R(03)": "print",
+  "31995R1600R(03)": "pdfa1b,print",
+  "31995Y1011(02)R(01)": "pdfa1b,print",
+  "31994B0921R(01)": "pdfa1b,print",
+  "31995R2907R(01)": "pdfa1b,print",
+  "31995R3022R(01)": "pdfa1b,print",
+  "31995R2899R(01)": "print",
+  "31995R1999R(01)": "print",
+  "31995R0558R(02)": "print",
+  "31996R0039R(02)": "print",
+  "31995R2989R(01)": "pdfa1b,print",
+  "31995R2688R(01)": "pdfa1b,print",
+  "31995R2689R(01)": "pdfa1b,print",
+  "31996R0122R(01)": "pdfa1b,print",
+  "31996Y0110(02)R(01)": "(none)",
+  "31993R0259R(04)": "pdfa1b,print",
+  "31995R1600R(04)": "pdfa1b,print",
+  "31995R2963R(01)": "pdfa1b,print",
+  "31995R3021R(01)": "pdfa1b,print",
+  "31995R3022R(02)": "pdfa1b,print",
+  "31994D0942R(01)": "pdfa1b,print",
+  "31971R1411R(06)": "print",
+  "31979L0409R(01)": "print",
+  "31992L0014R(05)": "print",
+  "31992L0043R(01)": "print",
+  "31993R0259R(05)": "print",
+  "31993R1442R(02)": "print",
+  "31994R3036R(01)": "print",
+  "31994R3036R(02)": "pdfa1b,print",
+  "31994R3094R(01)": "pdfa1b,print",
+  "31994R3281R(04)": "pdfa1b,print",
+  "31995R1527R(01)": "print",
+  "31995R1808R(02)": "pdfa1b,print",
+  "31996R0412R(01)": "print",
+  "31995D0467R(01)": "pdfa1b,print",
+  "31993D0197R(02)": "pdfa1b,print",
+  "31991L0334R(01)": "pdfa1b,print",
+  "31994R0520R(01)": "pdfa1b,print",
+  "31995R1600R(05)": "pdfa1b,print",
+  "31996R0194R(01)": "pdfa1b,print",
+  "31996R0385R(01)": "pdfa1b,print",
+  "31995Y0704(02)R(01)": "(none)",
+  "31992L0053R(02)": "pdfa1b,print",
+  "31995R1863R(01)": "pdfa1b,print",
+  "31996R0478R(01)": "print",
+  "31988L0388R(02)": "pdfa1b,print",
+  "31992R2913R(03)": "pdfa1b,print",
+  "31994R2991R(02)": "pdfa1b,print",
+  "31994R3295R(01)": "pdfa1b,print",
+  "31995L0027R(02)": "print",
+  "31995R3050R(02)": "print",
+  "31996R0284R(01)": "print",
+  "31994D0187R(01)": "pdfa1b,print",
+  "31995D0585R(01)": "pdfa1b,print",
+  "31992L0012R(05)": "pdfa1b,print",
+  "31996L0001R(01)": "print",
+  "31996L0037R(01)": "print",
+  "31995R1518R(02)": "print",
+  "31996R1000R(01)": "pdfa1b,print",
+  "31996R1488R(01)": "pdfa1b,print",
+  "31994L0009R(01)": "pdfa1b,print",
+  "31996L0032R(01)": "pdfa1b,print",
+  "31996L0033R(02)": "pdfa1b,print",
+  "31995R1501R(01)": "pdfa1b,print",
+  "31996L0037R(03)": "pdfa1b,print",
+  "31996L0038R(01)": "pdfa1b,print",
+  "31996R1798R(01)": "pdfa1b,print",
+  "31996R1897R(01)": "print",
+  "31996R1000R(02)": "print",
+  "31996L0032R(02)": "pdfa1b,print",
+  "31996L0033R(01)": "print",
+  "31996R1999R(01)": "pdfa1b,print",
+  "31996R2123R(01)": "pdfa1b,print",
+  "31996R1355R(02)": "pdfa1b,print",
+  "31996R1263R(02)": "pdfa1b,print",
+  "31996D0613R(01)": "print",
+  "31996L0061R(01)": "print",
+  "31996L0067R(01)": "print",
+  "31996R2160R(02)": "print",
+  "31996R2193R(01)": "print",
+  "31996R2133R(01)": "print",
+  "31996E0635R(01)": "print",
+  "31996R1676R(01)": "pdfa1b,print",
+  "31996R2153R(01)": "pdfa1b,print",
+  "31996R2238R(01)": "print",
+  "31994L0013R(02)": "pdfa1b,print",
+  "31996R2230R(01)": "pdfa1b,print",
+  "31992R2913R(05)": "print",
+  "31996R2018R(01)": "print",
+  "31971R1408R(13)": "print",
+  "31972R0574R(14)": "print",
+  "31994R3290R(05)": "print",
+  "31995R1464R(03)": "print",
+  "31996D0646(01)R(01)": "print",
+  "31996D0646R(01)": "(none)",
+  "31996R2412R(01)": "print",
+  "31994R2991R(03)": "pdfa1b,print",
+  "31996F1009(01)R(01)": "print",
+  "31996R1528R(02)": "print",
+  "31997R0007R(02)": "print",
+  "31996R2431R(01)": "pdfa1b,print",
+  "31989R0887R(01)": "pdfa1b,print",
+  "31997R0071R(01)": "pdfa1b,print",
+  "31994D0197R(01)": "(none)",
+  "31994D0197R(02)": "print",
+  "31994D0197R(03)": "(none)",
+  "31996R2427R(02)": "(none)",
+  "31996R2488R(02)": "print",
+  "31997R0659R(01)": "pdfa1b,print",
+  "31997R0659R(02)": "print",
+  "31994R3281R(06)": "pdfa1b,print",
+  "31996R2350R(01)": "print",
+  "31996R2350R(02)": "print",
+  "31997D0333R(02)": "print",
+  "31997D0333R(03)": "print",
+  "31997R1053R(02)": "print",
+  "31997R1053R(03)": "print",
+  "31997L0034R(01)": "pdfa1b,print",
+  "31997R0703R(01)": "(none)",
+  "31997R1394R(01)": "pdfa1b,print",
+  "31997R1221R(01)": "pdfa1b,print",
+  "31971L0162R(05)": "pdfa1b,print",
+  "31997R1303R(01)": "pdfa1b,print",
+  "31997R1490R(03)": "pdfa1b,print",
+  "31997R1490R(04)": "print",
+  "31988L0380R(02)": "print",
+  "31997R1780R(01)": "print",
+  "31989L0646R(07)": "print",
+  "31992L0049R(02)": "print",
+  "31992L0049R(03)": "print",
+  "31992L0096R(03)": "print",
+  "31992L0096R(04)": "print",
+  "31997R1310R(03)": "pdf,print",
+  "31995L0056R(01)": "print",
+  "31997R2087R(02)": "(none)",
+  "31997L0024R(02)": "(none)",
+  "31997R2631R(02)": "(none)",
+  "31993L0088R(02)": "print",
+  "31992L0053R(05)": "print",
+  "31998R0047R(01)": "(none)",
+  "31998R0047R(02)": "(none)",
+  "31998R0050R(01)": "(none)",
+  "31998R0050R(02)": "(none)",
+  "31998R0053R(01)": "(none)",
+  "31998R0054R(01)": "(none)",
+  "31998R0055R(01)": "(none)",
+  "31998R0058R(01)": "(none)",
+  "31998R0062R(01)": "(none)",
+  "31998R0062R(02)": "(none)",
+  "31998R0851R(02)": "(none)",
+  "31998R0851R(03)": "(none)",
+  "31997R2493R(02)": "pdf,print",
+  "31998R1149R(02)": "print",
+  "31998R1008R(01)": "(none)",
+  "31998R1009R(01)": "(none)",
+  "31998R1647R(01)": "print",
+  "31998R2138R(01)": "(none)",
+  "31998Y1112(01)R(01)": "print",
+  "31997R0766R(01)": "(none)",
+  "31998L0081R(01)": "pdf,print",
+  "31998R2806R(01)": "print",
+  "31998D0536R(01)": "(none)",
+  "31998R2863R(02)": "(none)",
+  "31999R0257R(01)": "pdf,print",
+  "31998R2814R(01)": "(none)",
+  "31999E0034R(02)": "(none)",
+  "31995R0455R(02)": "pdf,print",
+  "31999R0682R(01)": "pdf,print",
+  "31999L0001R(02)": "print",
+  "31992L0061R(03)": "(none)",
+  "31998R1607R(02)": "(none)",
+  "31998L0001R(02)": "print",
+  "31999R1369R(01)": "print",
+  "31990R1907R(02)": "pdfa1b,print",
+  "31999R1729R(01)": "print",
+  "31999R1729R(02)": "print",
+  "31989L0667R(01)": "print",
+  "31999D0066R(01)": "print",
+  "31992L0098R(01)": "print",
+  "31998R2532R(01)": "print",
+  "31999Q0529R(01)": "(none)",
+  "31989L0677R(02)": "print",
+  "31994L0060R(03)": "print",
+  "31997L0023R(02)": "print",
+  "31998L0032R(01)": "(none)",
+  "31997R2155R(02)": "pdf,print",
+  "31999Y0618(02)R(01)": "print",
+  "31999R1294R(01)": "(none)",
+  "31999Y0618(02)R(02)": "(none)",
+  "31999R1538R(02)": "pdf,print",
+  "31999R1539R(02)": "print",
+  "31999R2792R(01)": "(none)",
+  "32000D0139R(02)": "print",
+  "32000R0104R(02)": "(none)",
+  "31995L0050R(01)": "pdf,print",
+  "32000D0204R(01)": "pdf,print",
+  "32000C0630R(01)": "pdf,print",
+  "32000O0001R(01)": "pdf,print",
+  "32000R2891R(01)": "pdf,print",
+  "32001R0007R(02)": "pdf,print",
+  "32000R2828R(01)": "pdf,print",
+  "32001R0241R(01)": "pdf,print",
+  "32002R0998R(01)": "pdf,print",
+  "32009R0407R(02)": "(none)",
+  "32021R1255R(01)": "fmx4,pdfa2a,xhtml"
+ },
+ "works_with_no_binding": [
+  "31989R0986R(01)",
+  "31990R0388R(01)",
+  "31990R3944R(01)",
+  "31992B0041R(01)",
+  "31992L0061R(03)",
+  "31992R1492R(01)",
+  "31992R3827R(03)",
+  "31993R1848R(01)",
+  "31993R2037R(01)",
+  "31993R2700R(01)",
+  "31993R2887R(01)",
+  "31993R3393R(01)",
+  "31993R3699R(01)",
+  "31994D0023R(01)",
+  "31994D0173R(01)",
+  "31994D0197R(01)",
+  "31994D0197R(03)",
+  "31994D0571R(01)",
+  "31994L0036R(01)",
+  "31994R0227R(01)",
+  "31994R0517R(01)",
+  "31994R0824R(02)",
+  "31994R1001R(01)",
+  "31994R1960R(01)",
+  "31994R2437R(01)",
+  "31994Y1231(06)R(01)",
+  "31995Q0228(02)R(01)",
+  "31995Y0704(02)R(01)",
+  "31996D0646R(01)",
+  "31996R2427R(02)",
+  "31996Y0110(02)R(01)",
+  "31997L0024R(02)",
+  "31997R0703R(01)",
+  "31997R0766R(01)",
+  "31997R2087R(02)",
+  "31997R2631R(02)",
+  "31998D0536R(01)",
+  "31998L0032R(01)",
+  "31998R0047R(01)",
+  "31998R0047R(02)",
+  "31998R0050R(01)",
+  "31998R0050R(02)",
+  "31998R0053R(01)",
+  "31998R0054R(01)",
+  "31998R0055R(01)",
+  "31998R0058R(01)",
+  "31998R0062R(01)",
+  "31998R0062R(02)",
+  "31998R0851R(02)",
+  "31998R0851R(03)",
+  "31998R1008R(01)",
+  "31998R1009R(01)",
+  "31998R1607R(02)",
+  "31998R2138R(01)",
+  "31998R2814R(01)",
+  "31998R2863R(02)",
+  "31999E0034R(02)",
+  "31999Q0529R(01)",
+  "31999R1294R(01)",
+  "31999R2792R(01)",
+  "31999Y0618(02)R(02)",
+  "32000R0104R(02)",
+  "32009R0407R(02)"
+ ],
+ "manifestations": {
+  "31971L0162R(05)": {
+   "http://publications.europa.eu/resource/cellar/3b72e8e3-6acb-4165-8e24-fe96b6ea916c.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3b72e8e3-6acb-4165-8e24-fe96b6ea916c.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3b72e8e3-6acb-4165-8e24-fe96b6ea916c.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31971R1408R(13)": {
+   "http://publications.europa.eu/resource/cellar/e408d81d-5cf8-4633-a14d-b2a50a3e1a5c.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31971R1411R(06)": {
+   "http://publications.europa.eu/resource/cellar/6927cb91-b984-47db-9bd7-f6f7ef3dbdf8.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31972R0574R(14)": {
+   "http://publications.europa.eu/resource/cellar/c3c6ddfc-3dd5-4673-bde3-f1ad529f3efc.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31976L0895R(01)": {
+   "http://publications.europa.eu/resource/cellar/3344598e-b1f5-4db1-bda4-08008f092b64.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31979L0409R(01)": {
+   "http://publications.europa.eu/resource/cellar/2dcb71c4-5902-44a6-ac76-708ad9e5346c.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31979L0923R(01)": {
+   "http://publications.europa.eu/resource/cellar/6adcf7d6-d19e-45b3-901a-2ca0731c36b6.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/6adcf7d6-d19e-45b3-901a-2ca0731c36b6.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/6adcf7d6-d19e-45b3-901a-2ca0731c36b6.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31980L0778R(04)": {
+   "http://publications.europa.eu/resource/cellar/f31e3876-9d4a-43bd-9607-6bc9a8be0732.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31980L0778R(05)": {
+   "http://publications.europa.eu/resource/cellar/d736259c-2343-402b-a93c-12f3d90d81e4.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d736259c-2343-402b-a93c-12f3d90d81e4.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d736259c-2343-402b-a93c-12f3d90d81e4.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31985L0337R(01)": {
+   "http://publications.europa.eu/resource/cellar/0d78207a-9aed-4e8b-8a06-34001ca6ca45.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/0d78207a-9aed-4e8b-8a06-34001ca6ca45.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/0d78207a-9aed-4e8b-8a06-34001ca6ca45.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31985R2137R(02)": {
+   "http://publications.europa.eu/resource/cellar/151935de-4066-4dca-b028-300a833bb7f3.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31985R2220R(02)": {
+   "http://publications.europa.eu/resource/cellar/7eca4d04-6813-4f3c-be1e-64fe5b439138.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31985R2677R(02)": {
+   "http://publications.europa.eu/resource/cellar/6e7765f7-0459-4ba3-959d-ef0223c7e334.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/6e7765f7-0459-4ba3-959d-ef0223c7e334.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/6e7765f7-0459-4ba3-959d-ef0223c7e334.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31987R0535R(03)": {
+   "http://publications.europa.eu/resource/cellar/0cb2fba5-77cc-46b2-984b-1eb0337ce243.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31988L0298R(01)": {
+   "http://publications.europa.eu/resource/cellar/61f4dda3-2c4c-45ea-b04b-9169287f2643.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31988L0299R(01)": {
+   "http://publications.europa.eu/resource/cellar/68dbf083-6a89-4ff0-bc79-0b75ccce1f6d.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31988L0378R(03)": {
+   "http://publications.europa.eu/resource/cellar/522a43a1-e62c-46c7-a5f7-de0df4f3e090.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31988L0380R(02)": {
+   "http://publications.europa.eu/resource/cellar/e484ff3b-054d-4704-a7b7-0d5891c1412a.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31988L0388R(02)": {
+   "http://publications.europa.eu/resource/cellar/bbd4f853-e8b1-4f92-b8de-5258a7ae38e7.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/bbd4f853-e8b1-4f92-b8de-5258a7ae38e7.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/bbd4f853-e8b1-4f92-b8de-5258a7ae38e7.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31988R4250R(01)": {
+   "http://publications.europa.eu/resource/cellar/29d542b5-eb91-457e-b57c-c1289dc299af.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/29d542b5-eb91-457e-b57c-c1289dc299af.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/29d542b5-eb91-457e-b57c-c1289dc299af.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31988R4252R(03)": {
+   "http://publications.europa.eu/resource/cellar/149ad149-2ffc-4335-ac0c-c47204a44006.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989L0398R(01)": {
+   "http://publications.europa.eu/resource/cellar/c15a5ff8-44b8-4cb8-ab5c-1176c544e149.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/c15a5ff8-44b8-4cb8-ab5c-1176c544e149.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/c15a5ff8-44b8-4cb8-ab5c-1176c544e149.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989L0646R(07)": {
+   "http://publications.europa.eu/resource/cellar/6cdc670f-7ba7-4739-a6ab-9015f1689f51.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989L0667R(01)": {
+   "http://publications.europa.eu/resource/cellar/0e84051d-88ee-4af3-a63d-1a6e644e5d05.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989L0677R(02)": {
+   "http://publications.europa.eu/resource/cellar/7268d861-ef6f-4032-9dee-15875c96ac88.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R0725R(01)": {
+   "http://publications.europa.eu/resource/cellar/450cc4fc-d1bc-41e6-835a-7afe54814860.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/450cc4fc-d1bc-41e6-835a-7afe54814860.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/450cc4fc-d1bc-41e6-835a-7afe54814860.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R0887R(01)": {
+   "http://publications.europa.eu/resource/cellar/e0fc6c87-95dd-4ba5-8fad-3a5765ffa743.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e0fc6c87-95dd-4ba5-8fad-3a5765ffa743.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e0fc6c87-95dd-4ba5-8fad-3a5765ffa743.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R0986R(01)": {},
+  "31989R0986R(02)": {
+   "http://publications.europa.eu/resource/cellar/bf3c7703-bf3b-4a58-bc18-d9df5669e69a.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R1473R(01)": {
+   "http://publications.europa.eu/resource/cellar/a4e7f798-7a49-48ab-a9ef-3adb322e30df.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/a4e7f798-7a49-48ab-a9ef-3adb322e30df.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/a4e7f798-7a49-48ab-a9ef-3adb322e30df.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R2537R(02)": {
+   "http://publications.europa.eu/resource/cellar/dded0325-6e7d-42ce-badf-9c9e10e18e40.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/dded0325-6e7d-42ce-badf-9c9e10e18e40.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/dded0325-6e7d-42ce-badf-9c9e10e18e40.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R3393R(02)": {
+   "http://publications.europa.eu/resource/cellar/57426f32-7ee4-4383-b64b-44cab78a7a1c.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/57426f32-7ee4-4383-b64b-44cab78a7a1c.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/57426f32-7ee4-4383-b64b-44cab78a7a1c.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R3394R(01)": {
+   "http://publications.europa.eu/resource/cellar/d3675d9c-efd0-4db2-a191-c67b47681303.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d3675d9c-efd0-4db2-a191-c67b47681303.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d3675d9c-efd0-4db2-a191-c67b47681303.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R3394R(02)": {
+   "http://publications.europa.eu/resource/cellar/580ca224-5162-4700-8894-276f1b4f713e.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/580ca224-5162-4700-8894-276f1b4f713e.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/580ca224-5162-4700-8894-276f1b4f713e.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R3540R(01)": {
+   "http://publications.europa.eu/resource/cellar/ed408394-1c51-4acb-9606-8379404dc2ae.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R3773R(01)": {
+   "http://publications.europa.eu/resource/cellar/2d07da2e-cef1-4b57-9bca-c1a170ba0a5d.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/2d07da2e-cef1-4b57-9bca-c1a170ba0a5d.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/2d07da2e-cef1-4b57-9bca-c1a170ba0a5d.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R3898R(01)": {
+   "http://publications.europa.eu/resource/cellar/78f87724-e4df-4826-8ab0-642f6cf3ddbd.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/78f87724-e4df-4826-8ab0-642f6cf3ddbd.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/78f87724-e4df-4826-8ab0-642f6cf3ddbd.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R4047R(03)": {
+   "http://publications.europa.eu/resource/cellar/9a5d0c78-ff32-4f8d-afb5-92a41be7ba19.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31989R4064R(02)": {
+   "http://publications.europa.eu/resource/cellar/54a8f922-0062-4da8-bdfa-c6ae52cdb02c.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/54a8f922-0062-4da8-bdfa-c6ae52cdb02c.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/54a8f922-0062-4da8-bdfa-c6ae52cdb02c.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990B0026R(01)": {
+   "http://publications.europa.eu/resource/cellar/34dd48c2-aeb8-4329-a36b-1096a70d7f5e.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/34dd48c2-aeb8-4329-a36b-1096a70d7f5e.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/34dd48c2-aeb8-4329-a36b-1096a70d7f5e.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990D0005R(01)": {
+   "http://publications.europa.eu/resource/cellar/3d9b37c0-133a-4804-8bcb-13dfabea8a31.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3d9b37c0-133a-4804-8bcb-13dfabea8a31.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3d9b37c0-133a-4804-8bcb-13dfabea8a31.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990D0455R(01)": {
+   "http://publications.europa.eu/resource/cellar/6e2b9373-4027-4858-bd66-4ce613a10064.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/6e2b9373-4027-4858-bd66-4ce613a10064.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/6e2b9373-4027-4858-bd66-4ce613a10064.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990D0525R(01)": {
+   "http://publications.europa.eu/resource/cellar/36720524-ca98-4ac1-988e-67dde8758576.0004.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/36720524-ca98-4ac1-988e-67dde8758576.0004.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/36720524-ca98-4ac1-988e-67dde8758576.0004.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990L0220R(01)": {
+   "http://publications.europa.eu/resource/cellar/9b15fc7e-8563-4c37-864f-5fdd591a47a3.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/9b15fc7e-8563-4c37-864f-5fdd591a47a3.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/9b15fc7e-8563-4c37-864f-5fdd591a47a3.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990L0220R(02)": {
+   "http://publications.europa.eu/resource/cellar/da4067d6-399d-40a5-a9b2-aca10d371d66.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990L0270R(01)": {
+   "http://publications.europa.eu/resource/cellar/5294cf0f-6d50-43f5-b33e-bf0a57d151c0.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/5294cf0f-6d50-43f5-b33e-bf0a57d151c0.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/5294cf0f-6d50-43f5-b33e-bf0a57d151c0.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R0214R(01)": {
+   "http://publications.europa.eu/resource/cellar/a73efdc5-f02c-4ea8-a9cc-eddd4cf2efb6.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/a73efdc5-f02c-4ea8-a9cc-eddd4cf2efb6.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/a73efdc5-f02c-4ea8-a9cc-eddd4cf2efb6.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R0388R(01)": {},
+  "31990R0731R(02)": {
+   "http://publications.europa.eu/resource/cellar/7b90c8da-8509-4bfe-94c9-475925cfe4ab.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/7b90c8da-8509-4bfe-94c9-475925cfe4ab.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/7b90c8da-8509-4bfe-94c9-475925cfe4ab.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R0762R(01)": {
+   "http://publications.europa.eu/resource/cellar/f278bf38-8da5-4f7f-bc16-b9cdf4640731.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1048R(02)": {
+   "http://publications.europa.eu/resource/cellar/c9320bd5-8aca-40e0-b2c4-61a907b93b9d.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1502R(01)": {
+   "http://publications.europa.eu/resource/cellar/9dccf211-d505-4eb2-b11e-ba2f8cc15de7.0004.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/9dccf211-d505-4eb2-b11e-ba2f8cc15de7.0004.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/9dccf211-d505-4eb2-b11e-ba2f8cc15de7.0004.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1680R(01)": {
+   "http://publications.europa.eu/resource/cellar/9d0640ee-980b-416e-8c88-6fea0930d16f.0004.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/9d0640ee-980b-416e-8c88-6fea0930d16f.0004.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/9d0640ee-980b-416e-8c88-6fea0930d16f.0004.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1730R(02)": {
+   "http://publications.europa.eu/resource/cellar/b4c9dfb4-edfc-4de5-84fc-828dc3e91385.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/b4c9dfb4-edfc-4de5-84fc-828dc3e91385.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/b4c9dfb4-edfc-4de5-84fc-828dc3e91385.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1907R(01)": {
+   "http://publications.europa.eu/resource/cellar/848cc378-57c7-4692-a4e0-2f56ff38d1b1.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/848cc378-57c7-4692-a4e0-2f56ff38d1b1.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/848cc378-57c7-4692-a4e0-2f56ff38d1b1.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1907R(02)": {
+   "http://publications.europa.eu/resource/cellar/644ff2b6-9db2-4447-b6be-1423e4270472.0006.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/644ff2b6-9db2-4447-b6be-1423e4270472.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/644ff2b6-9db2-4447-b6be-1423e4270472.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1953R(01)": {
+   "http://publications.europa.eu/resource/cellar/b87f9221-d69e-4737-9efa-0d2bf5c975e8.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/b87f9221-d69e-4737-9efa-0d2bf5c975e8.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/b87f9221-d69e-4737-9efa-0d2bf5c975e8.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1953R(02)": {
+   "http://publications.europa.eu/resource/cellar/10861e9e-2868-458f-bfa7-e235a4f329d0.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R1967R(01)": {
+   "http://publications.europa.eu/resource/cellar/c15c3d38-fc7a-424a-8d84-bcac0bd5af58.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/c15c3d38-fc7a-424a-8d84-bcac0bd5af58.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/c15c3d38-fc7a-424a-8d84-bcac0bd5af58.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2025R(01)": {
+   "http://publications.europa.eu/resource/cellar/c422a548-fb1a-47af-aef5-001e7c6c1715.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2562R(01)": {
+   "http://publications.europa.eu/resource/cellar/d5d21b33-a28a-4704-a43b-017f0d1c1336.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d5d21b33-a28a-4704-a43b-017f0d1c1336.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d5d21b33-a28a-4704-a43b-017f0d1c1336.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2562R(03)": {
+   "http://publications.europa.eu/resource/cellar/a866f932-b885-40ee-a565-02c5bc7461c4.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/a866f932-b885-40ee-a565-02c5bc7461c4.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/a866f932-b885-40ee-a565-02c5bc7461c4.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2562R(04)": {
+   "http://publications.europa.eu/resource/cellar/08a6df84-3773-4c08-87c8-1a9870a21a23.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2618R(01)": {
+   "http://publications.europa.eu/resource/cellar/15826809-219f-4c29-b264-86da42205a0a.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/15826809-219f-4c29-b264-86da42205a0a.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/15826809-219f-4c29-b264-86da42205a0a.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2689R(01)": {
+   "http://publications.europa.eu/resource/cellar/789067b4-3366-4d67-b570-9f8221aeefd1.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/789067b4-3366-4d67-b570-9f8221aeefd1.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/789067b4-3366-4d67-b570-9f8221aeefd1.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2768R(01)": {
+   "http://publications.europa.eu/resource/cellar/50bd0305-e755-4ef9-9245-0a77ee8f8328.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/50bd0305-e755-4ef9-9245-0a77ee8f8328.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/50bd0305-e755-4ef9-9245-0a77ee8f8328.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2768R(02)": {
+   "http://publications.europa.eu/resource/cellar/631ba0f7-2fdf-468d-8f8e-e9888a0ecfeb.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/631ba0f7-2fdf-468d-8f8e-e9888a0ecfeb.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/631ba0f7-2fdf-468d-8f8e-e9888a0ecfeb.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R2929R(01)": {
+   "http://publications.europa.eu/resource/cellar/ac714900-21ea-4e90-bf95-1f4b063277e7.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/ac714900-21ea-4e90-bf95-1f4b063277e7.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/ac714900-21ea-4e90-bf95-1f4b063277e7.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R3262R(01)": {
+   "http://publications.europa.eu/resource/cellar/5009feeb-767d-4c70-aa20-00b30fa44970.0004.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/5009feeb-767d-4c70-aa20-00b30fa44970.0004.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/5009feeb-767d-4c70-aa20-00b30fa44970.0004.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R3413R(01)": {
+   "http://publications.europa.eu/resource/cellar/15451116-f8ae-45af-ad4f-55a4566933b8.0003.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/15451116-f8ae-45af-ad4f-55a4566933b8.0003.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/15451116-f8ae-45af-ad4f-55a4566933b8.0003.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R3819R(02)": {
+   "http://publications.europa.eu/resource/cellar/e7ec6c94-3bd4-48d8-87fd-6d1c656ac27a.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e7ec6c94-3bd4-48d8-87fd-6d1c656ac27a.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e7ec6c94-3bd4-48d8-87fd-6d1c656ac27a.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R3833R(01)": {
+   "http://publications.europa.eu/resource/cellar/396dd041-195c-49f4-85b9-403f187b8924.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/396dd041-195c-49f4-85b9-403f187b8924.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/396dd041-195c-49f4-85b9-403f187b8924.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R3921R(03)": {
+   "http://publications.europa.eu/resource/cellar/61566a8b-0057-4540-83b5-4d29746f9a61.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/61566a8b-0057-4540-83b5-4d29746f9a61.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/61566a8b-0057-4540-83b5-4d29746f9a61.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R3926R(01)": {
+   "http://publications.europa.eu/resource/cellar/7394390c-77ba-4ac2-9103-8a382c1dd8f8.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/7394390c-77ba-4ac2-9103-8a382c1dd8f8.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/7394390c-77ba-4ac2-9103-8a382c1dd8f8.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R3926R(02)": {
+   "http://publications.europa.eu/resource/cellar/14db0e33-ad7d-48a6-ab76-3833fd671696.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/14db0e33-ad7d-48a6-ab76-3833fd671696.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/14db0e33-ad7d-48a6-ab76-3833fd671696.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31990R3944R(01)": {},
+  "31990S1796R(02)": {
+   "http://publications.europa.eu/resource/cellar/f36e299a-b444-478a-b96b-acb2cfd88a99.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991B0034R(01)": {
+   "http://publications.europa.eu/resource/cellar/8caea88b-a095-4572-bb9e-c1b28c6f2a69.0004.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/8caea88b-a095-4572-bb9e-c1b28c6f2a69.0004.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/8caea88b-a095-4572-bb9e-c1b28c6f2a69.0004.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991L0060R(01)": {
+   "http://publications.europa.eu/resource/cellar/39f3741d-f454-4ef9-bbba-0cdca7e159bc.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/39f3741d-f454-4ef9-bbba-0cdca7e159bc.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/39f3741d-f454-4ef9-bbba-0cdca7e159bc.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991L0334R(01)": {
+   "http://publications.europa.eu/resource/cellar/39365d0e-35dd-4ac0-8653-5df164644dcc.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/39365d0e-35dd-4ac0-8653-5df164644dcc.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/39365d0e-35dd-4ac0-8653-5df164644dcc.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991L0663R(02)": {
+   "http://publications.europa.eu/resource/cellar/da6413ff-4d17-4c79-ad45-e5b07aa26ba1.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/da6413ff-4d17-4c79-ad45-e5b07aa26ba1.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/da6413ff-4d17-4c79-ad45-e5b07aa26ba1.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991L0663R(03)": {
+   "http://publications.europa.eu/resource/cellar/9831e36a-a6c0-4ee2-b248-92bd589c3943.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991R1517R(02)": {
+   "http://publications.europa.eu/resource/cellar/f703153b-567e-4b0f-9f70-b733c3509989.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/f703153b-567e-4b0f-9f70-b733c3509989.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/f703153b-567e-4b0f-9f70-b733c3509989.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991R1517R(03)": {
+   "http://publications.europa.eu/resource/cellar/12b9cc5b-8d6c-4097-84f3-42d8f54b8121.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991R1565R(01)": {
+   "http://publications.europa.eu/resource/cellar/f81383cd-6851-452b-b98c-a18718508e68.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/f81383cd-6851-452b-b98c-a18718508e68.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/f81383cd-6851-452b-b98c-a18718508e68.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991R1811R(02)": {
+   "http://publications.europa.eu/resource/cellar/b55165dd-d183-4797-8fe6-5beb0f54dfcb.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991R1910R(01)": {
+   "http://publications.europa.eu/resource/cellar/663a00bf-ba3b-4b43-b9c4-19e4bd507e27.0001.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/663a00bf-ba3b-4b43-b9c4-19e4bd507e27.0001.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/663a00bf-ba3b-4b43-b9c4-19e4bd507e27.0001.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991R2050R(01)": {
+   "http://publications.europa.eu/resource/cellar/703fbeb4-d386-4a3a-b15e-e56a59df5c91.0004.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/703fbeb4-d386-4a3a-b15e-e56a59df5c91.0004.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/703fbeb4-d386-4a3a-b15e-e56a59df5c91.0004.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991R2741R(01)": {
+   "http://publications.europa.eu/resource/cellar/02b40eb2-314d-424a-9529-c772deb0c31e.0008.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31991R3378R(01)": {
+   "http://publications.europa.eu/resource/cellar/a685c3c5-fff4-4d5e-bc69-12610d7297fd.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992B0041R(01)": {},
+  "31992B0041R(02)": {
+   "http://publications.europa.eu/resource/cellar/5c94a25f-2534-4c05-a609-36cc09467bc3.0004.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/5c94a25f-2534-4c05-a609-36cc09467bc3.0004.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/5c94a25f-2534-4c05-a609-36cc09467bc3.0004.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992D0091R(02)": {
+   "http://publications.europa.eu/resource/cellar/c50f6237-2a9a-4b6c-baea-a2238516f7ba.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992D0228R(02)": {
+   "http://publications.europa.eu/resource/cellar/9fc5d107-e901-4ff8-8e7d-63e2d580d6f5.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/9fc5d107-e901-4ff8-8e7d-63e2d580d6f5.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/9fc5d107-e901-4ff8-8e7d-63e2d580d6f5.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992D0229R(01)": {
+   "http://publications.europa.eu/resource/cellar/4a895cf1-0b93-47e9-9d2a-10e6f9189473.0006.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/4a895cf1-0b93-47e9-9d2a-10e6f9189473.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/4a895cf1-0b93-47e9-9d2a-10e6f9189473.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992D0230R(02)": {
+   "http://publications.europa.eu/resource/cellar/d84e6807-6bb6-47ef-a24a-d205a0f960e0.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992D0315R(01)": {
+   "http://publications.europa.eu/resource/cellar/f1379119-85fa-47f7-bb14-fc9465e309ed.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/f1379119-85fa-47f7-bb14-fc9465e309ed.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/f1379119-85fa-47f7-bb14-fc9465e309ed.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0012R(05)": {
+   "http://publications.europa.eu/resource/cellar/a688e474-5d1b-4353-b2f2-51f8663988e9.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/a688e474-5d1b-4353-b2f2-51f8663988e9.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/a688e474-5d1b-4353-b2f2-51f8663988e9.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0014R(01)": {
+   "http://publications.europa.eu/resource/cellar/25fbc0d3-5f85-45f6-8395-411c0c0ade2a.0001.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/25fbc0d3-5f85-45f6-8395-411c0c0ade2a.0001.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/25fbc0d3-5f85-45f6-8395-411c0c0ade2a.0001.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0014R(04)": {
+   "http://publications.europa.eu/resource/cellar/d73816ba-c9f3-4ebf-af97-1cf89747fd26.0006.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d73816ba-c9f3-4ebf-af97-1cf89747fd26.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d73816ba-c9f3-4ebf-af97-1cf89747fd26.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0014R(05)": {
+   "http://publications.europa.eu/resource/cellar/8833f242-03bf-4616-88f8-81e84ed5fbfc.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0043R(01)": {
+   "http://publications.europa.eu/resource/cellar/997946d9-27b5-4291-8fcf-bea9b7a43a88.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0043R(03)": {
+   "http://publications.europa.eu/resource/cellar/6f9f8264-e8df-4719-a77f-18587f6ce5b7.0001.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/6f9f8264-e8df-4719-a77f-18587f6ce5b7.0001.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/6f9f8264-e8df-4719-a77f-18587f6ce5b7.0001.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0049R(02)": {
+   "http://publications.europa.eu/resource/cellar/749b2792-6ea3-4252-ac34-0bad748f4552.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0049R(03)": {
+   "http://publications.europa.eu/resource/cellar/4e18c7cc-8929-46ce-84ab-f91a5f178a8c.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0053R(02)": {
+   "http://publications.europa.eu/resource/cellar/c2f676c2-d149-470c-99fa-5ca974e32048.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/c2f676c2-d149-470c-99fa-5ca974e32048.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/c2f676c2-d149-470c-99fa-5ca974e32048.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0053R(05)": {
+   "http://publications.europa.eu/resource/cellar/5b763d18-9f9c-4ce1-b116-4e9e1ed91506.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0061R(03)": {},
+  "31992L0096R(03)": {
+   "http://publications.europa.eu/resource/cellar/a0d150cd-013e-44a8-bcf7-8fe787278de5.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0096R(04)": {
+   "http://publications.europa.eu/resource/cellar/b6c632e3-2c8d-4388-adab-cf21ffad1a65.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992L0098R(01)": {
+   "http://publications.europa.eu/resource/cellar/d43b23f1-569a-45f0-9f5e-1ccf77352e72.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R0729R(02)": {
+   "http://publications.europa.eu/resource/cellar/ec5396ea-94c3-4464-afeb-5a84699bfdd8.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/ec5396ea-94c3-4464-afeb-5a84699bfdd8.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/ec5396ea-94c3-4464-afeb-5a84699bfdd8.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R0887R(03)": {
+   "http://publications.europa.eu/resource/cellar/8024016b-fa31-4537-8146-041b4338b152.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R1492R(01)": {},
+  "31992R1896R(02)": {
+   "http://publications.europa.eu/resource/cellar/6644a2bb-30b9-4b38-9b33-af62089d915d.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/6644a2bb-30b9-4b38-9b33-af62089d915d.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/6644a2bb-30b9-4b38-9b33-af62089d915d.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R1907R(01)": {
+   "http://publications.europa.eu/resource/cellar/03ca6cae-ee77-4ff2-aac1-d5516e182215.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/03ca6cae-ee77-4ff2-aac1-d5516e182215.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/03ca6cae-ee77-4ff2-aac1-d5516e182215.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R2164R(02)": {
+   "http://publications.europa.eu/resource/cellar/8e27b4d1-b88b-4c05-865b-b4c009ca789e.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R2408R(01)": {
+   "http://publications.europa.eu/resource/cellar/dfc034f2-b854-4e0f-9166-2b49260fa6e3.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/dfc034f2-b854-4e0f-9166-2b49260fa6e3.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/dfc034f2-b854-4e0f-9166-2b49260fa6e3.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R2505R(01)": {
+   "http://publications.europa.eu/resource/cellar/4535141e-418d-47ba-85bc-4310aa462181.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/4535141e-418d-47ba-85bc-4310aa462181.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/4535141e-418d-47ba-85bc-4310aa462181.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R2913R(03)": {
+   "http://publications.europa.eu/resource/cellar/3a9b95ee-b309-4641-9d40-db1a2f5193ba.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3a9b95ee-b309-4641-9d40-db1a2f5193ba.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3a9b95ee-b309-4641-9d40-db1a2f5193ba.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R2913R(05)": {
+   "http://publications.europa.eu/resource/cellar/a0321680-4eda-4203-8318-ce2b9be91b84.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R3006R(01)": {
+   "http://publications.europa.eu/resource/cellar/7894d69b-f420-4268-9055-4e3c2116522c.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/7894d69b-f420-4268-9055-4e3c2116522c.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/7894d69b-f420-4268-9055-4e3c2116522c.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R3615R(01)": {
+   "http://publications.europa.eu/resource/cellar/cedf63b7-3e87-436d-a44e-54dd3bdfd7c9.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R3761R(02)": {
+   "http://publications.europa.eu/resource/cellar/a50285ed-4199-4f54-879d-6319fa23a73b.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/a50285ed-4199-4f54-879d-6319fa23a73b.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/a50285ed-4199-4f54-879d-6319fa23a73b.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R3803R(01)": {
+   "http://publications.europa.eu/resource/cellar/c595b3c1-2f50-44da-a4ea-c8ed7226073f.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/c595b3c1-2f50-44da-a4ea-c8ed7226073f.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/c595b3c1-2f50-44da-a4ea-c8ed7226073f.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R3827R(02)": {
+   "http://publications.europa.eu/resource/cellar/8c1b66d4-2003-488a-8d7c-d92be7c6c7c8.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/8c1b66d4-2003-488a-8d7c-d92be7c6c7c8.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/8c1b66d4-2003-488a-8d7c-d92be7c6c7c8.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R3827R(03)": {},
+  "31992R3953R(01)": {
+   "http://publications.europa.eu/resource/cellar/9a385f78-1507-4f95-829f-8631bcfa1662.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/9a385f78-1507-4f95-829f-8631bcfa1662.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/9a385f78-1507-4f95-829f-8631bcfa1662.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31992R3953R(02)": {
+   "http://publications.europa.eu/resource/cellar/f93f4e89-6b5b-4992-b4c6-99d21ad51aff.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993D0136R(01)": {
+   "http://publications.europa.eu/resource/cellar/75a6c45e-4f74-4e91-9511-e5ddd98ab855.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/75a6c45e-4f74-4e91-9511-e5ddd98ab855.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/75a6c45e-4f74-4e91-9511-e5ddd98ab855.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993D0197R(02)": {
+   "http://publications.europa.eu/resource/cellar/7a77dc78-2479-40d5-9f6a-163f8d113520.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/7a77dc78-2479-40d5-9f6a-163f8d113520.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/7a77dc78-2479-40d5-9f6a-163f8d113520.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993D0387R(02)": {
+   "http://publications.europa.eu/resource/cellar/c5686c4d-26a6-490f-a053-ed094b64e8d0.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993D0662R(01)": {
+   "http://publications.europa.eu/resource/cellar/0aeda1f7-4819-43cd-bbc6-ce67a0f69b8b.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993L0038R(02)": {
+   "http://publications.europa.eu/resource/cellar/009e85d7-577f-483e-be69-12f25302b1fc.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993L0043R(02)": {
+   "http://publications.europa.eu/resource/cellar/6ad3b210-083c-45a0-bdd8-bf673f0253c3.0002.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/6ad3b210-083c-45a0-bdd8-bf673f0253c3.0002.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/6ad3b210-083c-45a0-bdd8-bf673f0253c3.0002.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993L0057R(01)": {
+   "http://publications.europa.eu/resource/cellar/ce2b9141-c161-4a45-a766-edcdf428030c.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/ce2b9141-c161-4a45-a766-edcdf428030c.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/ce2b9141-c161-4a45-a766-edcdf428030c.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993L0057R(02)": {
+   "http://publications.europa.eu/resource/cellar/f6b0e4e6-bf87-44df-b460-8d00f9dac6f0.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993L0088R(02)": {
+   "http://publications.europa.eu/resource/cellar/65bb2918-ce71-46c7-866a-a120c4ad6a3b.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R0183R(01)": {
+   "http://publications.europa.eu/resource/cellar/0e7d3d48-1ce7-4908-bd8d-f5dab00caeec.0006.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/0e7d3d48-1ce7-4908-bd8d-f5dab00caeec.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/0e7d3d48-1ce7-4908-bd8d-f5dab00caeec.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R0207R(01)": {
+   "http://publications.europa.eu/resource/cellar/2bc6e281-a62b-4b3a-a63d-3dc99c52c93d.0008.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/2bc6e281-a62b-4b3a-a63d-3dc99c52c93d.0008.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/2bc6e281-a62b-4b3a-a63d-3dc99c52c93d.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R0259R(04)": {
+   "http://publications.europa.eu/resource/cellar/128317d0-07ec-4e66-93a3-a3eb83216d6d.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/128317d0-07ec-4e66-93a3-a3eb83216d6d.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/128317d0-07ec-4e66-93a3-a3eb83216d6d.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R0259R(05)": {
+   "http://publications.europa.eu/resource/cellar/11638646-e14c-4b90-8173-b22025c6c359.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R0339R(03)": {
+   "http://publications.europa.eu/resource/cellar/8754c09a-44d6-4a9b-99bd-21fcf0ab3050.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/8754c09a-44d6-4a9b-99bd-21fcf0ab3050.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/8754c09a-44d6-4a9b-99bd-21fcf0ab3050.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R1122R(01)": {
+   "http://publications.europa.eu/resource/cellar/63fb4869-d132-42f7-88b2-a9f03cbcaac4.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/63fb4869-d132-42f7-88b2-a9f03cbcaac4.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/63fb4869-d132-42f7-88b2-a9f03cbcaac4.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R1282R(02)": {
+   "http://publications.europa.eu/resource/cellar/89114e2e-3c4a-40e4-8abe-9b07455d592b.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R1328R(01)": {
+   "http://publications.europa.eu/resource/cellar/1b686150-3c1a-4247-9fa8-264e91460cc3.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/1b686150-3c1a-4247-9fa8-264e91460cc3.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/1b686150-3c1a-4247-9fa8-264e91460cc3.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R1442R(02)": {
+   "http://publications.europa.eu/resource/cellar/82b1fed6-ab5e-456a-85ae-02ca4df72bd6.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R1756R(02)": {
+   "http://publications.europa.eu/resource/cellar/3b4e1a62-e4ba-4d77-8c98-5af0f32df5af.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3b4e1a62-e4ba-4d77-8c98-5af0f32df5af.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3b4e1a62-e4ba-4d77-8c98-5af0f32df5af.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R1813R(03)": {
+   "http://publications.europa.eu/resource/cellar/67119b4e-d637-4436-8952-74b779796626.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R1848R(01)": {},
+  "31993R2037R(01)": {},
+  "31993R2176R(02)": {
+   "http://publications.europa.eu/resource/cellar/c3123399-2297-4777-a9be-e9a2ecaaea01.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/c3123399-2297-4777-a9be-e9a2ecaaea01.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/c3123399-2297-4777-a9be-e9a2ecaaea01.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R2552R(01)": {
+   "http://publications.europa.eu/resource/cellar/3401b84b-6944-4a96-b9df-b93648f32f1f.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3401b84b-6944-4a96-b9df-b93648f32f1f.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3401b84b-6944-4a96-b9df-b93648f32f1f.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R2552R(02)": {
+   "http://publications.europa.eu/resource/cellar/7941a441-e37a-458c-949c-8d12b61719b0.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R2700R(01)": {},
+  "31993R2887R(01)": {},
+  "31993R2891R(01)": {
+   "http://publications.europa.eu/resource/cellar/fc2108b9-d87b-409c-83c9-c147edbdc906.0008.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/fc2108b9-d87b-409c-83c9-c147edbdc906.0008.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/fc2108b9-d87b-409c-83c9-c147edbdc906.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R2891R(02)": {
+   "http://publications.europa.eu/resource/cellar/8db43668-e0a1-4d9c-b371-f9c05e600623.0008.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R3300R(02)": {
+   "http://publications.europa.eu/resource/cellar/e6a39a5b-582e-41a1-a72c-4c6046ef53fe.0008.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e6a39a5b-582e-41a1-a72c-4c6046ef53fe.0008.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e6a39a5b-582e-41a1-a72c-4c6046ef53fe.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R3300R(03)": {
+   "http://publications.europa.eu/resource/cellar/24fa0c9a-2785-4cfb-9924-e0edc05a8b5f.0008.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/24fa0c9a-2785-4cfb-9924-e0edc05a8b5f.0008.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/24fa0c9a-2785-4cfb-9924-e0edc05a8b5f.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31993R3393R(01)": {},
+  "31993R3699R(01)": {},
+  "31994B0921R(01)": {
+   "http://publications.europa.eu/resource/cellar/373ec330-2999-4872-9d73-693d3309f1ed.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/373ec330-2999-4872-9d73-693d3309f1ed.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/373ec330-2999-4872-9d73-693d3309f1ed.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994D0023R(01)": {},
+  "31994D0069R(01)": {
+   "http://publications.europa.eu/resource/cellar/07c04da5-e081-4539-9949-9540c73ac939.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/07c04da5-e081-4539-9949-9540c73ac939.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/07c04da5-e081-4539-9949-9540c73ac939.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994D0086R(01)": {
+   "http://publications.europa.eu/resource/cellar/beaa4cca-d69b-4535-b24a-dea13cdbda17.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994D0173R(01)": {},
+  "31994D0173R(03)": {
+   "http://publications.europa.eu/resource/cellar/9831960e-a7b5-45f5-ad4d-d4ed6a178fa6.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994D0187R(01)": {
+   "http://publications.europa.eu/resource/cellar/0285bb5a-a6c3-4271-a947-9d3a13d3fe12.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/0285bb5a-a6c3-4271-a947-9d3a13d3fe12.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/0285bb5a-a6c3-4271-a947-9d3a13d3fe12.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994D0197R(01)": {},
+  "31994D0197R(02)": {
+   "http://publications.europa.eu/resource/cellar/03872a74-b539-4feb-8e30-3dbccabc02c5.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994D0197R(03)": {},
+  "31994D0571R(01)": {},
+  "31994D0650R(01)": {
+   "http://publications.europa.eu/resource/cellar/f19be4cb-0717-4de8-972d-0f76252802ef.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/f19be4cb-0717-4de8-972d-0f76252802ef.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/f19be4cb-0717-4de8-972d-0f76252802ef.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994D0650R(02)": {
+   "http://publications.europa.eu/resource/cellar/fc8eee6f-fce6-474d-ac33-230f543ac6f7.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994D0942R(01)": {
+   "http://publications.europa.eu/resource/cellar/3b5b99b5-706f-47d0-9611-e7ef941676bd.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3b5b99b5-706f-47d0-9611-e7ef941676bd.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3b5b99b5-706f-47d0-9611-e7ef941676bd.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994L0009R(01)": {
+   "http://publications.europa.eu/resource/cellar/f838ad08-b1e8-4e7d-b5c8-bb1fea570881.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/f838ad08-b1e8-4e7d-b5c8-bb1fea570881.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/f838ad08-b1e8-4e7d-b5c8-bb1fea570881.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994L0013R(02)": {
+   "http://publications.europa.eu/resource/cellar/339b86b9-0131-420f-87e0-8b984ffb7592.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/339b86b9-0131-420f-87e0-8b984ffb7592.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/339b86b9-0131-420f-87e0-8b984ffb7592.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994L0029R(01)": {
+   "http://publications.europa.eu/resource/cellar/68680921-77dc-4f30-be7d-88a540c10d5b.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994L0036R(01)": {},
+  "31994L0060R(03)": {
+   "http://publications.europa.eu/resource/cellar/7167c9d4-a5e9-4d83-9d1b-def518cc87b1.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R0212R(01)": {
+   "http://publications.europa.eu/resource/cellar/17dae1e4-2768-418b-9646-a94ac096014e.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R0227R(01)": {},
+  "31994R0517R(01)": {},
+  "31994R0520R(01)": {
+   "http://publications.europa.eu/resource/cellar/d16a62b9-530c-455a-a979-bb5343dfc447.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d16a62b9-530c-455a-a979-bb5343dfc447.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d16a62b9-530c-455a-a979-bb5343dfc447.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R0658R(01)": {
+   "http://publications.europa.eu/resource/cellar/ab850562-4686-4e8c-9847-e4c881bb85c7.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R0824R(02)": {},
+  "31994R1001R(01)": {},
+  "31994R1362R(01)": {
+   "http://publications.europa.eu/resource/cellar/3f3d7be4-7f6c-4f37-a6b4-360c7ad2393d.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R1362R(03)": {
+   "http://publications.europa.eu/resource/cellar/bf0b462d-b220-41a5-849f-be17a620e384.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R1362R(04)": {
+   "http://publications.europa.eu/resource/cellar/5af13a65-3081-47ac-a3d6-cbfd96f4ffa8.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R1362R(05)": {
+   "http://publications.europa.eu/resource/cellar/3075cc3e-3c1c-47e5-a708-0c3cfd728918.0008.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R1503R(01)": {
+   "http://publications.europa.eu/resource/cellar/b0607ad3-301e-4886-a254-35883e678c10.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R1588R(01)": {
+   "http://publications.europa.eu/resource/cellar/b8189d14-37d8-4f54-a7dd-c16d3975bad4.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/b8189d14-37d8-4f54-a7dd-c16d3975bad4.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/b8189d14-37d8-4f54-a7dd-c16d3975bad4.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R1722R(01)": {
+   "http://publications.europa.eu/resource/cellar/2edc0d48-908f-45fa-8a34-0f4c0e00cc00.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R1960R(01)": {},
+  "31994R2376R(01)": {
+   "http://publications.europa.eu/resource/cellar/ad153b99-4fb7-4b8b-ab84-ddfa55e1d888.0008.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/ad153b99-4fb7-4b8b-ab84-ddfa55e1d888.0008.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/ad153b99-4fb7-4b8b-ab84-ddfa55e1d888.0008.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R2437R(01)": {},
+  "31994R2991R(02)": {
+   "http://publications.europa.eu/resource/cellar/e3ab5afe-dab2-4838-9103-4ae7708e6d79.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e3ab5afe-dab2-4838-9103-4ae7708e6d79.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e3ab5afe-dab2-4838-9103-4ae7708e6d79.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R2991R(03)": {
+   "http://publications.europa.eu/resource/cellar/85e73449-2c19-423f-823d-fabd7a9eefd5.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/85e73449-2c19-423f-823d-fabd7a9eefd5.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/85e73449-2c19-423f-823d-fabd7a9eefd5.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3036R(01)": {
+   "http://publications.europa.eu/resource/cellar/bac75668-c7a0-4492-b586-11af4b88c2c6.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3036R(02)": {
+   "http://publications.europa.eu/resource/cellar/5348d085-652b-43dc-a50e-8ca3fb2fc065.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/5348d085-652b-43dc-a50e-8ca3fb2fc065.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/5348d085-652b-43dc-a50e-8ca3fb2fc065.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3094R(01)": {
+   "http://publications.europa.eu/resource/cellar/c4c7b31e-8f38-4f6c-a1ec-54a9a18753b1.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/c4c7b31e-8f38-4f6c-a1ec-54a9a18753b1.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/c4c7b31e-8f38-4f6c-a1ec-54a9a18753b1.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3281R(04)": {
+   "http://publications.europa.eu/resource/cellar/ae653a89-20d9-4416-98c0-c79f89e64f48.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/ae653a89-20d9-4416-98c0-c79f89e64f48.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/ae653a89-20d9-4416-98c0-c79f89e64f48.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3281R(06)": {
+   "http://publications.europa.eu/resource/cellar/584655a0-d641-43a3-a33b-39a73d32987c.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/584655a0-d641-43a3-a33b-39a73d32987c.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/584655a0-d641-43a3-a33b-39a73d32987c.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3282R(02)": {
+   "http://publications.europa.eu/resource/cellar/7df797fb-c4e5-4927-888c-4551802eb799.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/7df797fb-c4e5-4927-888c-4551802eb799.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/7df797fb-c4e5-4927-888c-4551802eb799.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3290R(05)": {
+   "http://publications.europa.eu/resource/cellar/25ef6497-5686-417a-8a70-864cb0931d24.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3295R(01)": {
+   "http://publications.europa.eu/resource/cellar/fb8e30f9-7bf0-4f95-82de-90576f57e0c9.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/fb8e30f9-7bf0-4f95-82de-90576f57e0c9.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/fb8e30f9-7bf0-4f95-82de-90576f57e0c9.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994R3379R(01)": {
+   "http://publications.europa.eu/resource/cellar/b04e7b0c-6b09-48d6-b8b3-f864e5540064.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/b04e7b0c-6b09-48d6-b8b3-f864e5540064.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/b04e7b0c-6b09-48d6-b8b3-f864e5540064.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31994Y1231(06)R(01)": {},
+  "31995D0284R(03)": {
+   "http://publications.europa.eu/resource/cellar/009a276d-a009-47b4-b89d-066bb7450e55.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995D0467R(01)": {
+   "http://publications.europa.eu/resource/cellar/eca7cb5e-bd3c-4178-825f-f46baa85605f.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/eca7cb5e-bd3c-4178-825f-f46baa85605f.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/eca7cb5e-bd3c-4178-825f-f46baa85605f.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995D0585R(01)": {
+   "http://publications.europa.eu/resource/cellar/dbbc2d53-9f80-4541-addb-d34943a88f4a.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/dbbc2d53-9f80-4541-addb-d34943a88f4a.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/dbbc2d53-9f80-4541-addb-d34943a88f4a.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995L0027R(02)": {
+   "http://publications.europa.eu/resource/cellar/ce7e53ff-f7c5-497f-a105-d3031d1cba5b.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995L0050R(01)": {
+   "http://publications.europa.eu/resource/cellar/43651e11-945b-4fdb-a81b-f55b67f421c5.0002.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/43651e11-945b-4fdb-a81b-f55b67f421c5.0002.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/43651e11-945b-4fdb-a81b-f55b67f421c5.0002.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995L0056R(01)": {
+   "http://publications.europa.eu/resource/cellar/fcc7845f-7bb2-44df-8080-ba2bf14543b0.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995Q0228(02)R(01)": {},
+  "31995R0455R(02)": {
+   "http://publications.europa.eu/resource/cellar/e331114b-9e63-4c7b-93cb-c88b829a0469.0006.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e331114b-9e63-4c7b-93cb-c88b829a0469.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e331114b-9e63-4c7b-93cb-c88b829a0469.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R0558R(02)": {
+   "http://publications.europa.eu/resource/cellar/b168caee-c4cd-48c1-98b2-f4b9a478758b.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1162R(01)": {
+   "http://publications.europa.eu/resource/cellar/1956f383-744d-4118-ab0f-94484190eaa4.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/1956f383-744d-4118-ab0f-94484190eaa4.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/1956f383-744d-4118-ab0f-94484190eaa4.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1162R(02)": {
+   "http://publications.europa.eu/resource/cellar/787f8b66-ea88-4a82-a2c1-9a01602d4717.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/787f8b66-ea88-4a82-a2c1-9a01602d4717.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/787f8b66-ea88-4a82-a2c1-9a01602d4717.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1199R(01)": {
+   "http://publications.europa.eu/resource/cellar/40d3699a-2c81-4c7e-9f4f-cdd52dafb2db.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/40d3699a-2c81-4c7e-9f4f-cdd52dafb2db.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/40d3699a-2c81-4c7e-9f4f-cdd52dafb2db.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1199R(02)": {
+   "http://publications.europa.eu/resource/cellar/36946c78-6794-4025-a8e7-d9016515e8df.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1244R(01)": {
+   "http://publications.europa.eu/resource/cellar/e91e9376-fa18-475c-adc3-b417f0b9cc61.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e91e9376-fa18-475c-adc3-b417f0b9cc61.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e91e9376-fa18-475c-adc3-b417f0b9cc61.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1416R(01)": {
+   "http://publications.europa.eu/resource/cellar/92648877-6bc9-4d20-afc6-35cbd59b752e.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/92648877-6bc9-4d20-afc6-35cbd59b752e.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/92648877-6bc9-4d20-afc6-35cbd59b752e.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1464R(03)": {
+   "http://publications.europa.eu/resource/cellar/3507bf2a-2aea-4064-b738-32d9714098f5.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1501R(01)": {
+   "http://publications.europa.eu/resource/cellar/e27e116d-f449-41f0-97b2-84e1f344593b.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e27e116d-f449-41f0-97b2-84e1f344593b.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e27e116d-f449-41f0-97b2-84e1f344593b.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1518R(02)": {
+   "http://publications.europa.eu/resource/cellar/f4670d74-2ea1-4a5d-9cac-35b2b54a64d4.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1527R(01)": {
+   "http://publications.europa.eu/resource/cellar/9ed576da-e287-401b-8f0e-9ddc6f4a2685.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1600R(03)": {
+   "http://publications.europa.eu/resource/cellar/b003ba68-0c8f-4f7a-9e53-4359d8e25efe.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/b003ba68-0c8f-4f7a-9e53-4359d8e25efe.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/b003ba68-0c8f-4f7a-9e53-4359d8e25efe.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1600R(04)": {
+   "http://publications.europa.eu/resource/cellar/e1b2d9c8-b348-4d97-8315-5ad54881137a.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e1b2d9c8-b348-4d97-8315-5ad54881137a.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e1b2d9c8-b348-4d97-8315-5ad54881137a.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1600R(05)": {
+   "http://publications.europa.eu/resource/cellar/5b960fde-b781-4aa7-b046-7c3dc99591ad.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/5b960fde-b781-4aa7-b046-7c3dc99591ad.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/5b960fde-b781-4aa7-b046-7c3dc99591ad.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1808R(02)": {
+   "http://publications.europa.eu/resource/cellar/1fe82ba7-d46f-4de5-8839-efbdd7df3d91.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/1fe82ba7-d46f-4de5-8839-efbdd7df3d91.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/1fe82ba7-d46f-4de5-8839-efbdd7df3d91.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1863R(01)": {
+   "http://publications.europa.eu/resource/cellar/604e2946-2b94-4385-a870-71f0927230e1.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/604e2946-2b94-4385-a870-71f0927230e1.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/604e2946-2b94-4385-a870-71f0927230e1.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R1999R(01)": {
+   "http://publications.europa.eu/resource/cellar/e6192ce2-6652-4f1b-a67b-6f92026d74f3.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R2688R(01)": {
+   "http://publications.europa.eu/resource/cellar/c6fe5cd4-479f-428a-b030-74e826bb903f.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/c6fe5cd4-479f-428a-b030-74e826bb903f.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/c6fe5cd4-479f-428a-b030-74e826bb903f.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R2689R(01)": {
+   "http://publications.europa.eu/resource/cellar/857082e6-ef00-4c30-9497-f9820249cf75.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/857082e6-ef00-4c30-9497-f9820249cf75.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/857082e6-ef00-4c30-9497-f9820249cf75.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R2899R(01)": {
+   "http://publications.europa.eu/resource/cellar/af6a2fad-4cd6-44b2-be12-29e8dade8c16.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R2907R(01)": {
+   "http://publications.europa.eu/resource/cellar/07d529c7-5aee-48bb-a8d6-62136166e38f.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/07d529c7-5aee-48bb-a8d6-62136166e38f.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/07d529c7-5aee-48bb-a8d6-62136166e38f.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R2963R(01)": {
+   "http://publications.europa.eu/resource/cellar/646d5989-aa25-4820-ab9d-c4c0a6c7b6e6.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/646d5989-aa25-4820-ab9d-c4c0a6c7b6e6.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/646d5989-aa25-4820-ab9d-c4c0a6c7b6e6.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R2989R(01)": {
+   "http://publications.europa.eu/resource/cellar/d5be4b54-02e8-4ada-a6a8-db54aa7824e0.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d5be4b54-02e8-4ada-a6a8-db54aa7824e0.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d5be4b54-02e8-4ada-a6a8-db54aa7824e0.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R3021R(01)": {
+   "http://publications.europa.eu/resource/cellar/6d468cd5-ba69-4e3b-b6bd-c94caeff664c.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/6d468cd5-ba69-4e3b-b6bd-c94caeff664c.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/6d468cd5-ba69-4e3b-b6bd-c94caeff664c.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R3022R(01)": {
+   "http://publications.europa.eu/resource/cellar/8fa4e52b-d9d7-4420-9132-96661aab2a9a.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/8fa4e52b-d9d7-4420-9132-96661aab2a9a.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/8fa4e52b-d9d7-4420-9132-96661aab2a9a.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R3022R(02)": {
+   "http://publications.europa.eu/resource/cellar/64a51a50-0140-4c1d-9e41-5ab50bc804ef.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/64a51a50-0140-4c1d-9e41-5ab50bc804ef.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/64a51a50-0140-4c1d-9e41-5ab50bc804ef.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995R3050R(02)": {
+   "http://publications.europa.eu/resource/cellar/907040ff-4174-4c59-9510-8f44673efc57.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31995Y0704(02)R(01)": {},
+  "31995Y1011(02)R(01)": {
+   "http://publications.europa.eu/resource/cellar/3342117c-1e6d-4e17-a5cf-f8232b3c0a4c.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3342117c-1e6d-4e17-a5cf-f8232b3c0a4c.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3342117c-1e6d-4e17-a5cf-f8232b3c0a4c.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996D0613R(01)": {
+   "http://publications.europa.eu/resource/cellar/6f878f28-2304-417a-a12b-984e1981e88b.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996D0646(01)R(01)": {
+   "http://publications.europa.eu/resource/cellar/4df8fe8d-7f76-4fe8-8274-b6b5af1aa06c.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996D0646R(01)": {},
+  "31996E0635R(01)": {
+   "http://publications.europa.eu/resource/cellar/e810670b-326e-4537-a06e-656b4656f95b.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996F1009(01)R(01)": {
+   "http://publications.europa.eu/resource/cellar/c4e754e3-a7d0-4d45-8b66-7376831c7a6f.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0001R(01)": {
+   "http://publications.europa.eu/resource/cellar/2027c839-77f3-4422-b611-908e7f0a914f.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0032R(01)": {
+   "http://publications.europa.eu/resource/cellar/4de1447b-95ca-452e-8bb6-a954c5b1e37e.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/4de1447b-95ca-452e-8bb6-a954c5b1e37e.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/4de1447b-95ca-452e-8bb6-a954c5b1e37e.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0032R(02)": {
+   "http://publications.europa.eu/resource/cellar/d9835967-220a-4699-b948-e8195ca597e5.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d9835967-220a-4699-b948-e8195ca597e5.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d9835967-220a-4699-b948-e8195ca597e5.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0033R(01)": {
+   "http://publications.europa.eu/resource/cellar/02294093-e8a1-4182-80f3-66b55684b2ce.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0033R(02)": {
+   "http://publications.europa.eu/resource/cellar/5b8ab8a2-32d0-4be2-a5ff-f79804b651ba.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/5b8ab8a2-32d0-4be2-a5ff-f79804b651ba.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/5b8ab8a2-32d0-4be2-a5ff-f79804b651ba.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0037R(01)": {
+   "http://publications.europa.eu/resource/cellar/52561360-a479-48a4-a7ff-c05a17a38a13.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0037R(03)": {
+   "http://publications.europa.eu/resource/cellar/fd93d61b-2aa3-4077-ada6-ec7fdbac82c6.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/fd93d61b-2aa3-4077-ada6-ec7fdbac82c6.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/fd93d61b-2aa3-4077-ada6-ec7fdbac82c6.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0038R(01)": {
+   "http://publications.europa.eu/resource/cellar/9da33c3d-9d07-4244-8e2e-cd1da4b1a546.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/9da33c3d-9d07-4244-8e2e-cd1da4b1a546.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/9da33c3d-9d07-4244-8e2e-cd1da4b1a546.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0061R(01)": {
+   "http://publications.europa.eu/resource/cellar/b76c6c24-ce33-42ba-a1ba-b905aabbe25f.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996L0067R(01)": {
+   "http://publications.europa.eu/resource/cellar/fbd8417d-d9e5-41d7-a36e-6cf6946eec63.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R0039R(02)": {
+   "http://publications.europa.eu/resource/cellar/fc9cf4d2-1cfc-4c25-bf87-3d0a80c43584.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R0122R(01)": {
+   "http://publications.europa.eu/resource/cellar/e5d5da1d-d6ed-4ffc-8f41-a367df9a1cbf.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e5d5da1d-d6ed-4ffc-8f41-a367df9a1cbf.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e5d5da1d-d6ed-4ffc-8f41-a367df9a1cbf.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R0194R(01)": {
+   "http://publications.europa.eu/resource/cellar/818058a6-65f3-4728-bb0e-5049088b726e.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/818058a6-65f3-4728-bb0e-5049088b726e.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/818058a6-65f3-4728-bb0e-5049088b726e.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R0284R(01)": {
+   "http://publications.europa.eu/resource/cellar/ebd90876-5b8b-42f8-ab01-482c990dd6de.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R0385R(01)": {
+   "http://publications.europa.eu/resource/cellar/8fff1775-0034-46b7-b1e6-402de90eccd4.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/8fff1775-0034-46b7-b1e6-402de90eccd4.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/8fff1775-0034-46b7-b1e6-402de90eccd4.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R0412R(01)": {
+   "http://publications.europa.eu/resource/cellar/e8703f43-d10a-4993-986b-8f7a44bb668a.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R0478R(01)": {
+   "http://publications.europa.eu/resource/cellar/ebac46df-487f-41b8-9816-cefe48d76b1b.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1000R(01)": {
+   "http://publications.europa.eu/resource/cellar/a83c097d-41d1-4d59-8fe4-71bb14784794.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/a83c097d-41d1-4d59-8fe4-71bb14784794.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/a83c097d-41d1-4d59-8fe4-71bb14784794.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1000R(02)": {
+   "http://publications.europa.eu/resource/cellar/32ac99e0-daca-4c9c-b491-d81d0ee9c246.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1263R(02)": {
+   "http://publications.europa.eu/resource/cellar/cae14889-2031-46f0-a7a4-883942f27e63.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/cae14889-2031-46f0-a7a4-883942f27e63.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/cae14889-2031-46f0-a7a4-883942f27e63.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1355R(02)": {
+   "http://publications.europa.eu/resource/cellar/fc05f28e-1b62-4a9c-aef0-15f2cb7c8ba1.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/fc05f28e-1b62-4a9c-aef0-15f2cb7c8ba1.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/fc05f28e-1b62-4a9c-aef0-15f2cb7c8ba1.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1488R(01)": {
+   "http://publications.europa.eu/resource/cellar/ebf9f0ce-3d0c-45c7-b999-7521fc309568.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/ebf9f0ce-3d0c-45c7-b999-7521fc309568.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/ebf9f0ce-3d0c-45c7-b999-7521fc309568.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1528R(02)": {
+   "http://publications.europa.eu/resource/cellar/c6676099-1595-4704-bf4b-d93f9c3dff68.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1676R(01)": {
+   "http://publications.europa.eu/resource/cellar/f44f9e7f-d77b-4588-b1af-e4d57006ca9e.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/f44f9e7f-d77b-4588-b1af-e4d57006ca9e.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/f44f9e7f-d77b-4588-b1af-e4d57006ca9e.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1798R(01)": {
+   "http://publications.europa.eu/resource/cellar/91a5d988-1eff-45a4-94fa-78d00ab0026f.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/91a5d988-1eff-45a4-94fa-78d00ab0026f.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/91a5d988-1eff-45a4-94fa-78d00ab0026f.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1897R(01)": {
+   "http://publications.europa.eu/resource/cellar/084dfe7f-6327-4275-a5ac-825740f1dcfd.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R1999R(01)": {
+   "http://publications.europa.eu/resource/cellar/b1c2bbae-7d82-41c9-9084-b15364cda86e.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/b1c2bbae-7d82-41c9-9084-b15364cda86e.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/b1c2bbae-7d82-41c9-9084-b15364cda86e.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2018R(01)": {
+   "http://publications.europa.eu/resource/cellar/e1d06cf9-1f46-44f6-a81d-aab60dbf56b0.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2123R(01)": {
+   "http://publications.europa.eu/resource/cellar/9d1f16ac-7d02-42d6-b515-a3085b82a26b.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/9d1f16ac-7d02-42d6-b515-a3085b82a26b.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/9d1f16ac-7d02-42d6-b515-a3085b82a26b.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2133R(01)": {
+   "http://publications.europa.eu/resource/cellar/0ce07a99-cb40-4a8d-bd81-62398d4faca5.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2153R(01)": {
+   "http://publications.europa.eu/resource/cellar/fd6dded3-a5f2-4f2f-8957-6ea0e8ad7210.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/fd6dded3-a5f2-4f2f-8957-6ea0e8ad7210.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/fd6dded3-a5f2-4f2f-8957-6ea0e8ad7210.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2160R(02)": {
+   "http://publications.europa.eu/resource/cellar/8a56e6ab-2738-4304-a217-6601e8bfa29d.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2193R(01)": {
+   "http://publications.europa.eu/resource/cellar/9bcdfee3-7ea5-4199-ba47-4465a83b53c3.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2230R(01)": {
+   "http://publications.europa.eu/resource/cellar/943b9c9f-53e3-4601-965d-55c53f7126da.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/943b9c9f-53e3-4601-965d-55c53f7126da.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/943b9c9f-53e3-4601-965d-55c53f7126da.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2238R(01)": {
+   "http://publications.europa.eu/resource/cellar/5c00623b-2977-4dc0-b9db-06137c6d6c5f.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2350R(01)": {
+   "http://publications.europa.eu/resource/cellar/5cdad9ac-7edc-4b12-a420-05f3286d3176.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2350R(02)": {
+   "http://publications.europa.eu/resource/cellar/734e34e3-009e-4c0c-beb5-edfafd9bad38.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2412R(01)": {
+   "http://publications.europa.eu/resource/cellar/670732f4-cb7f-46b3-91e1-c53baa3abbfe.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2427R(02)": {},
+  "31996R2431R(01)": {
+   "http://publications.europa.eu/resource/cellar/25d5ce18-8867-4d60-818b-098fb5544414.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/25d5ce18-8867-4d60-818b-098fb5544414.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/25d5ce18-8867-4d60-818b-098fb5544414.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996R2488R(02)": {
+   "http://publications.europa.eu/resource/cellar/673b34b6-16ed-4270-bf0a-91fc180e4b55.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31996Y0110(02)R(01)": {},
+  "31997D0333R(02)": {
+   "http://publications.europa.eu/resource/cellar/4ecc1849-9ec2-4967-9632-e0ac974fa900.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997D0333R(03)": {
+   "http://publications.europa.eu/resource/cellar/37770f32-9527-418b-9587-225cc550835f.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997L0023R(02)": {
+   "http://publications.europa.eu/resource/cellar/19120e30-e84b-475c-b147-6f4b4e040551.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997L0024R(02)": {},
+  "31997L0034R(01)": {
+   "http://publications.europa.eu/resource/cellar/3e38ce27-4a0c-4506-98f5-985c9ea43fbe.0006.01": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3e38ce27-4a0c-4506-98f5-985c9ea43fbe.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3e38ce27-4a0c-4506-98f5-985c9ea43fbe.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R0007R(02)": {
+   "http://publications.europa.eu/resource/cellar/4e90cb8d-5594-4767-83d8-533d912a1221.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R0071R(01)": {
+   "http://publications.europa.eu/resource/cellar/09775077-bc0e-407c-b1c9-5ba516e91dc1.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/09775077-bc0e-407c-b1c9-5ba516e91dc1.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/09775077-bc0e-407c-b1c9-5ba516e91dc1.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R0659R(01)": {
+   "http://publications.europa.eu/resource/cellar/e825abfd-e2da-4d0d-a31a-0a6bffa236b5.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/e825abfd-e2da-4d0d-a31a-0a6bffa236b5.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/e825abfd-e2da-4d0d-a31a-0a6bffa236b5.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R0659R(02)": {
+   "http://publications.europa.eu/resource/cellar/6776c252-a5c1-44b0-ac05-12cc799ae3d9.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R0703R(01)": {},
+  "31997R0766R(01)": {},
+  "31997R1053R(02)": {
+   "http://publications.europa.eu/resource/cellar/1e8fac3a-a648-4c71-9ac0-f1399309d186.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R1053R(03)": {
+   "http://publications.europa.eu/resource/cellar/18724d30-4e39-44fb-938a-3780bc7953e5.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R1221R(01)": {
+   "http://publications.europa.eu/resource/cellar/0c014c51-8660-43a5-9b47-ba44a264cb87.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/0c014c51-8660-43a5-9b47-ba44a264cb87.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/0c014c51-8660-43a5-9b47-ba44a264cb87.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R1303R(01)": {
+   "http://publications.europa.eu/resource/cellar/3bb06c25-c86e-4451-98de-159172d11f00.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/3bb06c25-c86e-4451-98de-159172d11f00.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/3bb06c25-c86e-4451-98de-159172d11f00.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R1310R(03)": {
+   "http://publications.europa.eu/resource/cellar/135100bf-fae2-4fed-ae87-4cf383b488a8.0006.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/135100bf-fae2-4fed-ae87-4cf383b488a8.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/135100bf-fae2-4fed-ae87-4cf383b488a8.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R1394R(01)": {
+   "http://publications.europa.eu/resource/cellar/43687f82-6150-405e-bf45-149030bd815c.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/43687f82-6150-405e-bf45-149030bd815c.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/43687f82-6150-405e-bf45-149030bd815c.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R1490R(03)": {
+   "http://publications.europa.eu/resource/cellar/48752166-0800-44b1-8431-6e04229f958e.0006.02": {
+    "type": "pdfa1b",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/48752166-0800-44b1-8431-6e04229f958e.0006.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/48752166-0800-44b1-8431-6e04229f958e.0006.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R1490R(04)": {
+   "http://publications.europa.eu/resource/cellar/1327d146-4aa3-4ad6-a70c-5b7cf4fa5c3f.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R1780R(01)": {
+   "http://publications.europa.eu/resource/cellar/485144e1-2756-4868-a9ed-ce7a820f533b.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R2087R(02)": {},
+  "31997R2155R(02)": {
+   "http://publications.europa.eu/resource/cellar/d200ce6c-cf2c-4a85-b03d-5801eb7c9d10.0006.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d200ce6c-cf2c-4a85-b03d-5801eb7c9d10.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d200ce6c-cf2c-4a85-b03d-5801eb7c9d10.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R2493R(02)": {
+   "http://publications.europa.eu/resource/cellar/d1c76ecc-a55a-4696-9b9b-f0dd5dcf6db8.0006.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d1c76ecc-a55a-4696-9b9b-f0dd5dcf6db8.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d1c76ecc-a55a-4696-9b9b-f0dd5dcf6db8.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31997R2631R(02)": {},
+  "31998D0536R(01)": {},
+  "31998L0001R(02)": {
+   "http://publications.europa.eu/resource/cellar/3670d8f5-cdf0-40fe-8e96-ce4e558abdac.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31998L0032R(01)": {},
+  "31998L0081R(01)": {
+   "http://publications.europa.eu/resource/cellar/d6f7d416-c35a-40b8-85f0-a2bd0c1c11bf.0001.02": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/d6f7d416-c35a-40b8-85f0-a2bd0c1c11bf.0001.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/d6f7d416-c35a-40b8-85f0-a2bd0c1c11bf.0001.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31998R0047R(01)": {},
+  "31998R0047R(02)": {},
+  "31998R0050R(01)": {},
+  "31998R0050R(02)": {},
+  "31998R0053R(01)": {},
+  "31998R0054R(01)": {},
+  "31998R0055R(01)": {},
+  "31998R0058R(01)": {},
+  "31998R0062R(01)": {},
+  "31998R0062R(02)": {},
+  "31998R0851R(02)": {},
+  "31998R0851R(03)": {},
+  "31998R1008R(01)": {},
+  "31998R1009R(01)": {},
+  "31998R1149R(02)": {
+   "http://publications.europa.eu/resource/cellar/4ccaa375-da26-4311-970a-8804b2c5c084.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31998R1607R(02)": {},
+  "31998R1647R(01)": {
+   "http://publications.europa.eu/resource/cellar/8bd356cb-3a1a-4d1b-ae86-cf15b61c69db.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31998R2138R(01)": {},
+  "31998R2532R(01)": {
+   "http://publications.europa.eu/resource/cellar/4b165378-7867-4a18-8855-69ff5b1340ed.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31998R2806R(01)": {
+   "http://publications.europa.eu/resource/cellar/e85645fe-cda2-40cf-a808-3745a88323b4.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31998R2814R(01)": {},
+  "31998R2863R(02)": {},
+  "31998Y1112(01)R(01)": {
+   "http://publications.europa.eu/resource/cellar/42d33a30-0e29-4f87-809a-001c4902aa99.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999D0066R(01)": {
+   "http://publications.europa.eu/resource/cellar/6a5bb49a-f320-4d9e-8f52-05e766740c2a.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999E0034R(02)": {},
+  "31999L0001R(02)": {
+   "http://publications.europa.eu/resource/cellar/404d76c7-82d7-4be4-9bbb-9ec52b83b32d.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999Q0529R(01)": {},
+  "31999R0257R(01)": {
+   "http://publications.europa.eu/resource/cellar/7a482e09-e477-466b-9d69-afe1b4f57be1.0006.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/7a482e09-e477-466b-9d69-afe1b4f57be1.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/7a482e09-e477-466b-9d69-afe1b4f57be1.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999R0682R(01)": {
+   "http://publications.europa.eu/resource/cellar/209db29c-43bf-4af1-82eb-a85ab544496d.0006.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/209db29c-43bf-4af1-82eb-a85ab544496d.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/209db29c-43bf-4af1-82eb-a85ab544496d.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999R1294R(01)": {},
+  "31999R1369R(01)": {
+   "http://publications.europa.eu/resource/cellar/eb391927-c484-4bc7-9ced-215fbb9f7752.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999R1538R(02)": {
+   "http://publications.europa.eu/resource/cellar/11670187-e119-4442-a787-155b8bae76be.0006.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/11670187-e119-4442-a787-155b8bae76be.0006.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/11670187-e119-4442-a787-155b8bae76be.0006.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999R1539R(02)": {
+   "http://publications.europa.eu/resource/cellar/5500ddee-4a3f-4e91-873e-08a0c86ea662.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999R1729R(01)": {
+   "http://publications.europa.eu/resource/cellar/7f6f7bc7-0faf-4700-bc66-d2b091ceca66.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999R1729R(02)": {
+   "http://publications.europa.eu/resource/cellar/e933ea5f-9639-4fea-85d4-b83d6966ecaa.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999R2792R(01)": {},
+  "31999Y0618(02)R(01)": {
+   "http://publications.europa.eu/resource/cellar/92c8f04e-af61-4eeb-be2d-889a8c51d919.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "31999Y0618(02)R(02)": {},
+  "32000C0630R(01)": {
+   "http://publications.europa.eu/resource/cellar/589dc30a-844c-4867-892f-70aeaa89ed9f.0004.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/589dc30a-844c-4867-892f-70aeaa89ed9f.0004.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/589dc30a-844c-4867-892f-70aeaa89ed9f.0004.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32000D0139R(02)": {
+   "http://publications.europa.eu/resource/cellar/0a0b538c-4ac3-4624-9f24-737ae721e59f.0006.01": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32000D0204R(01)": {
+   "http://publications.europa.eu/resource/cellar/f0b93d2e-8b89-4b0c-a24f-386b2f98d47d.0004.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/f0b93d2e-8b89-4b0c-a24f-386b2f98d47d.0004.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/f0b93d2e-8b89-4b0c-a24f-386b2f98d47d.0004.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32000O0001R(01)": {
+   "http://publications.europa.eu/resource/cellar/63175817-dd75-4c86-84dd-90762a8530ce.0001.02": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/63175817-dd75-4c86-84dd-90762a8530ce.0001.02/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/63175817-dd75-4c86-84dd-90762a8530ce.0001.03": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32000R0104R(02)": {},
+  "32000R2828R(01)": {
+   "http://publications.europa.eu/resource/cellar/822b1ba1-85ab-403b-80a2-81b64a22a3cc.0003.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/822b1ba1-85ab-403b-80a2-81b64a22a3cc.0003.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/822b1ba1-85ab-403b-80a2-81b64a22a3cc.0003.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32000R2891R(01)": {
+   "http://publications.europa.eu/resource/cellar/a0e1ea38-15a7-4c03-8dce-70ec6fb620c4.0004.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/a0e1ea38-15a7-4c03-8dce-70ec6fb620c4.0004.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/a0e1ea38-15a7-4c03-8dce-70ec6fb620c4.0004.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32001R0007R(02)": {
+   "http://publications.europa.eu/resource/cellar/ec50b235-0f1f-493a-ae8a-d87183cb5e2e.0003.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/ec50b235-0f1f-493a-ae8a-d87183cb5e2e.0003.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/ec50b235-0f1f-493a-ae8a-d87183cb5e2e.0003.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32001R0241R(01)": {
+   "http://publications.europa.eu/resource/cellar/fbf1bf0d-0f64-4636-ab27-661eeb3905dd.0001.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/fbf1bf0d-0f64-4636-ab27-661eeb3905dd.0001.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/fbf1bf0d-0f64-4636-ab27-661eeb3905dd.0001.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32002R0998R(01)": {
+   "http://publications.europa.eu/resource/cellar/b9b56507-ae79-4113-9231-6fa84984291a.0004.01": {
+    "type": "pdf",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/b9b56507-ae79-4113-9231-6fa84984291a.0004.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/b9b56507-ae79-4113-9231-6fa84984291a.0004.02": {
+    "type": "print",
+    "items": []
+   }
+  },
+  "32009R0407R(02)": {},
+  "32021R1255R(01)": {
+   "http://publications.europa.eu/resource/cellar/cff26cb9-1c08-11ec-b4fe-01aa75ed71a1.0003.01": {
+    "type": "pdfa2a",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/cff26cb9-1c08-11ec-b4fe-01aa75ed71a1.0003.01/DOC_1"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/cff26cb9-1c08-11ec-b4fe-01aa75ed71a1.0003.02": {
+    "type": "fmx4",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/cff26cb9-1c08-11ec-b4fe-01aa75ed71a1.0003.02/DOC_1",
+     "http://publications.europa.eu/resource/cellar/cff26cb9-1c08-11ec-b4fe-01aa75ed71a1.0003.02/DOC_2"
+    ]
+   },
+   "http://publications.europa.eu/resource/cellar/cff26cb9-1c08-11ec-b4fe-01aa75ed71a1.0003.03": {
+    "type": "xhtml",
+    "items": [
+     "http://publications.europa.eu/resource/cellar/cff26cb9-1c08-11ec-b4fe-01aa75ed71a1.0003.03/DOC_1"
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,1934 @@
+{
+ "note": "post-hoc; not pre-registered, not scored; a negative is not evidence of absence",
+ "measured_utc": "2026-08-30T04:20:29Z",
+ "items": 179,
+ "distinct_payloads": 137,
+ "items_sharing_a_payload": 71,
+ "largest_group": 5,
+ "act_number_found_in_recovered_text": 23,
+ "median_pages": 1,
+ "median_chars_recovered": 900,
+ "shared_payload_groups": {
+  "0d53fc690a7c35efd7fea24c7f6b80a3f7aa99962b6cf7a9fd19e3cdcada5393": [
+   "31992L0053R(02)",
+   "31995R1863R(01)"
+  ],
+  "1186e2eeda6b046ddc1af804c1bb46dfe20bba9f71fb92994979cec75c9e0df2": [
+   "31993R0259R(04)",
+   "31995R1600R(04)",
+   "31995R2963R(01)",
+   "31995R3021R(01)",
+   "31995R3022R(02)"
+  ],
+  "15e236471b942d4c1f304e95aaa905faa8924e9b8fdf281f74fb135fc5b5b0ea": [
+   "31993R0339R(03)",
+   "31993R1328R(01)"
+  ],
+  "29372e574345fbf185af787df810810dd2f0ddb6b5296849a3ae54fce06a1963": [
+   "31997R1303R(01)",
+   "31997R1490R(03)"
+  ],
+  "2bec576fd92c85fd5068bbe051b709bb1a7ef56afae75853ecfe43a81cc71e31": [
+   "31992R2913R(03)",
+   "31994R2991R(02)",
+   "31994R3295R(01)"
+  ],
+  "2d0ac08b0da978c302ad0c8d7c44507c145d0c4c95c378684ee34db25f8eecd4": [
+   "31990R2689R(01)",
+   "31990R2768R(01)"
+  ],
+  "3d14d5aecbc76ec064af932e7017b73fb376842bd0d7f3ca6eb3d404d6cd917f": [
+   "31994R3379R(01)",
+   "31995R1416R(01)"
+  ],
+  "3e60d4545320a2f6d4490b04ddb000c7fc297fc6fa1166e9907afb766eea7866": [
+   "31992R3803R(01)",
+   "31993R1122R(01)"
+  ],
+  "4f130f1dc595eb5f481066c965803f7b0f5d909005d6151ebae9745b58cceaa2": [
+   "31993R0207R(01)",
+   "31993R2891R(01)",
+   "31993R3300R(02)"
+  ],
+  "5267555a094f94ae02d396715ff241a9afcc9892dcbbc8a7b691e83fd6d6c147": [
+   "31989R3393R(02)",
+   "31989R3394R(01)"
+  ],
+  "5abe487c266d11b6522f93d6d10b565d51268776d04cb80fe4c3870ed33ac34b": [
+   "31992D0228R(02)",
+   "31992R0729R(02)"
+  ],
+  "620467b94082f3b35cf7ff4db963589326254293387f2b4a91f6d7f7f6b5fe3e": [
+   "31990R3921R(03)",
+   "31990R3926R(02)"
+  ],
+  "693a7bebd75f74a972308f7eab0473057117049fe25937d736f26bd64b40e6fd": [
+   "31993L0057R(01)",
+   "31994D0069R(01)"
+  ],
+  "726ecdf1bae27eb0c188fbb95898722b4771907af24774c49178d4ec00cbbf2e": [
+   "31992R1896R(02)",
+   "31992R1907R(01)"
+  ],
+  "7b696f4ff741bef9d3219c82a66dc36d7b0752d88ad6f4a2917f141e3d898293": [
+   "31994L0009R(01)",
+   "31996L0032R(01)"
+  ],
+  "7bbec295a2748c61fafcadda8a58b4adc605a172f14cc58742cc5b15cc8bcefb": [
+   "31996L0032R(02)",
+   "31996R1999R(01)"
+  ],
+  "8004257ab31f3fe2150224e56cafafe0e4119a8ead364b20c1584897e222d779": [
+   "31995R2688R(01)",
+   "31995R2689R(01)",
+   "31996R0122R(01)"
+  ],
+  "8026d66adb959a376a065e348e5f5fc429f19952bc5b786678943679cd9defa0": [
+   "31995R1501R(01)",
+   "31996L0037R(03)",
+   "31996L0038R(01)"
+  ],
+  "9de70ae7ffbd7422307532b760dd97ad79c6fa3b872df3db9ba0e327e8b91fcf": [
+   "31990R3819R(02)",
+   "31990R3926R(01)"
+  ],
+  "a2daab96330b74b6aa4ce79e7301537a1fcd9146b01e1f709a38d50bf8f91676": [
+   "31996R1000R(01)",
+   "31996R1488R(01)"
+  ],
+  "b3bf330577a7dd0cc4530fd3d21a22c1b119ef6c58ee29fa65d4efd244bde26e": [
+   "31991R1910R(01)",
+   "31991R2050R(01)"
+  ],
+  "b7057857f7005572b347fe8c75e8eceeba7daf2355c6012ce72bfbaf287ffda5": [
+   "31994L0013R(02)",
+   "31996R2230R(01)"
+  ],
+  "c101ac072c13dc8a07c76504a6c599bf08e1df3f2f0cb4741a51c0468af79461": [
+   "31992R3761R(02)",
+   "31992R3953R(01)"
+  ],
+  "c88a95ea03f3fa78ec4e0a2247ae8c56c83a82794beb35dd550779a96c755f2c": [
+   "31990R1967R(01)",
+   "31993D0136R(01)",
+   "31993R1756R(02)"
+  ],
+  "d3614251ecc7117e95340ad3a97f2032aa2ba29d5eaa10a1086bd3fb6d4865f7": [
+   "31996R1676R(01)",
+   "31996R2153R(01)"
+  ],
+  "d5888adfcaee955c346318c425f7bef4907671215447dcbaca2f933053139cfb": [
+   "31994R3036R(02)",
+   "31994R3094R(01)",
+   "31994R3281R(04)",
+   "31995R1808R(02)"
+  ],
+  "e5670f185ea283758c357f9e7fcf43d2ddd60a6c67d943e6984eb7a2b7e03787": [
+   "31995R1162R(01)",
+   "31995R1244R(01)"
+  ],
+  "f374ab2092691735e20834773298611e8e673f7eca70a732c5bf4b711315afea": [
+   "31991L0334R(01)",
+   "31994R0520R(01)",
+   "31995R1600R(05)",
+   "31996R0194R(01)",
+   "31996R0385R(01)"
+  ],
+  "f6f29cbaaeb6bfca9f3695a14655910bdffcc354eb0e6126956737db2a96129a": [
+   "31989R0887R(01)",
+   "31997R0071R(01)"
+  ]
+ },
+ "rows": [
+  {
+   "celex": "31971L0162R(05)",
+   "sha256": "d61234376b570aab057f205760fa077ab9d5adf6db213ec772adfff46d02f3f0",
+   "bytes": 73491,
+   "pdf_pages": 1,
+   "chars_recovered": 1097,
+   "act": "162/71",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31979L0923R(01)",
+   "sha256": "1acb5dfbb3679bbc05e2800a26fe8c9ed370dc8596e602e7bc3823c91b1eb735",
+   "bytes": 134449,
+   "pdf_pages": 1,
+   "chars_recovered": 977,
+   "act": "923/79",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31980L0778R(05)",
+   "sha256": "6935d63789b3d1b56cb9cba3a73d7795c9c40caf6460ff07bf8e380b2118f026",
+   "bytes": 88773,
+   "pdf_pages": 1,
+   "chars_recovered": 1514,
+   "act": "778/80",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31985L0337R(01)",
+   "sha256": "b4040c0c2473374f66a2fd3e7bac569485dca8fc732f1e78a95c5503e6b7e390",
+   "bytes": 168366,
+   "pdf_pages": 1,
+   "chars_recovered": 2060,
+   "act": "337/85",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31985R2677R(02)",
+   "sha256": "a613822ab1ab63f2f6538424c9f66c69a9c31d89abe9d20a41eb312a0cd5f339",
+   "bytes": 60902,
+   "pdf_pages": 1,
+   "chars_recovered": 642,
+   "act": "2677/85",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31988L0388R(02)",
+   "sha256": "e3b0b3f8cec7814fbf1d280b2a1a165ced64c90c1606d4069bf2b250164f881e",
+   "bytes": 119624,
+   "pdf_pages": 1,
+   "chars_recovered": 729,
+   "act": "388/88",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31988R4250R(01)",
+   "sha256": "de6dd16afe2fc90e1d4e2df98af99e2ff8898e8efa7d1b821641b88a7ffe35d9",
+   "bytes": 49639,
+   "pdf_pages": 1,
+   "chars_recovered": 313,
+   "act": "4250/88",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31989L0398R(01)",
+   "sha256": "4dc8c8c9602b79837d7af2512e715737191f543cdb8b8b4c16a6fa343bc2d3ff",
+   "bytes": 51641,
+   "pdf_pages": 1,
+   "chars_recovered": 333,
+   "act": "398/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31989R0725R(01)",
+   "sha256": "0802fdad14630b51138a0a9dadbb5e6becadac63258b45d0603d053d6300c870",
+   "bytes": 56500,
+   "pdf_pages": 1,
+   "chars_recovered": 386,
+   "act": "725/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31989R0887R(01)",
+   "sha256": "f6f29cbaaeb6bfca9f3695a14655910bdffcc354eb0e6126956737db2a96129a",
+   "bytes": 59640,
+   "pdf_pages": 1,
+   "chars_recovered": 639,
+   "act": "887/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31989R1473R(01)",
+   "sha256": "853c25c5452233d158e9f5a95c5a32b51190c13780c24e3a3645c30bd23b8581",
+   "bytes": 144947,
+   "pdf_pages": 1,
+   "chars_recovered": 1300,
+   "act": "1473/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31989R2537R(02)",
+   "sha256": "a9948250d674d7d8b6e1ee0045fa50a11b684a4129e2815a44000d93f955f59c",
+   "bytes": 51674,
+   "pdf_pages": 1,
+   "chars_recovered": 330,
+   "act": "2537/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31989R3393R(02)",
+   "sha256": "5267555a094f94ae02d396715ff241a9afcc9892dcbbc8a7b691e83fd6d6c147",
+   "bytes": 157849,
+   "pdf_pages": 1,
+   "chars_recovered": 1768,
+   "act": "3393/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31989R3394R(01)",
+   "sha256": "5267555a094f94ae02d396715ff241a9afcc9892dcbbc8a7b691e83fd6d6c147",
+   "bytes": 157849,
+   "pdf_pages": 1,
+   "chars_recovered": 1768,
+   "act": "3394/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31989R3394R(02)",
+   "sha256": "34b3e7197770e8cb04dc7884f4e4890045f1cf47959f5b0de68b23a3257740d5",
+   "bytes": 147633,
+   "pdf_pages": 1,
+   "chars_recovered": 1439,
+   "act": "3394/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31989R3773R(01)",
+   "sha256": "3c3a4a2fd335e82596f049e22917bf89ed0ec4b2daba0dac618fec21a086e99a",
+   "bytes": 147066,
+   "pdf_pages": 1,
+   "chars_recovered": 1282,
+   "act": "3773/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31989R3898R(01)",
+   "sha256": "481b240f289dbdca9a5eaa69f4529e14d253b8267f00f4104dc2b44d60cbef08",
+   "bytes": 140810,
+   "pdf_pages": 1,
+   "chars_recovered": 1207,
+   "act": "3898/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31989R4064R(02)",
+   "sha256": "9a0e4578738de31ca527b346d517823adfd7a4a5297ff242c3b9c64d149d4a7b",
+   "bytes": 109445,
+   "pdf_pages": 1,
+   "chars_recovered": 423,
+   "act": "4064/89",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990B0026R(01)",
+   "sha256": "b6ba7b75f7519a43f047f8348fede1181f08d1491e7abcffe1a6fcc9bd7abe4e",
+   "bytes": 55912,
+   "pdf_pages": 1,
+   "chars_recovered": 472,
+   "act": "26/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990D0005R(01)",
+   "sha256": "1a7c282196cb1dfceb89e8a5d7cf823353ad3fc888db4e3ac1f71d8252773b66",
+   "bytes": 88544,
+   "pdf_pages": 1,
+   "chars_recovered": 1322,
+   "act": "5/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990D0455R(01)",
+   "sha256": "8552184c1d997b52cec9bfbed7e2c2ae0179316c2819d07e3c7f36ea2dc1bcd1",
+   "bytes": 105103,
+   "pdf_pages": 1,
+   "chars_recovered": 1735,
+   "act": "455/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990D0525R(01)",
+   "sha256": "992b0d3d862ee2aee766da240daa5501de54d5a2a84a8c56fec013b2af4970db",
+   "bytes": 57488,
+   "pdf_pages": 1,
+   "chars_recovered": 432,
+   "act": "525/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990L0220R(01)",
+   "sha256": "4185406bf811225429f4a865c3d60308c59b3dac5231b22a4e08a97fb25d9862",
+   "bytes": 137042,
+   "pdf_pages": 1,
+   "chars_recovered": 1035,
+   "act": "220/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990L0270R(01)",
+   "sha256": "6215aa22ac0349719a9f1e9cfcbd895ce2b6e99f807ebf3075e25c47dd901677",
+   "bytes": 155472,
+   "pdf_pages": 1,
+   "chars_recovered": 1767,
+   "act": "270/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990R0214R(01)",
+   "sha256": "fc6c9cc16326986af5e0716e403836c312bb85004f117277407b9ff2d0d89618",
+   "bytes": 75428,
+   "pdf_pages": 1,
+   "chars_recovered": 1022,
+   "act": "214/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990R0731R(02)",
+   "sha256": "956622f126db05835cf0d7b3b0b2a0aab10487e6432ee2b3064f8167037d9a3a",
+   "bytes": 71827,
+   "pdf_pages": 1,
+   "chars_recovered": 832,
+   "act": "731/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990R1502R(01)",
+   "sha256": "3813a1054d56c43cf27654a3243b1b4b5135014851aa9512631adb709def0a40",
+   "bytes": 78896,
+   "pdf_pages": 1,
+   "chars_recovered": 1100,
+   "act": "1502/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990R1680R(01)",
+   "sha256": "9b0f34fadc12a2b021214402c7bf5e06c6aab7677a6c2d0655830858faccf9ce",
+   "bytes": 140353,
+   "pdf_pages": 1,
+   "chars_recovered": 1173,
+   "act": "1680/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990R1730R(02)",
+   "sha256": "e0bd43e58a4227a662396d9a9e5a88c5de220f9439ddefa08388fdf7a8dc542d",
+   "bytes": 51212,
+   "pdf_pages": 1,
+   "chars_recovered": 338,
+   "act": "1730/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990R1907R(01)",
+   "sha256": "1544e4299165c5fed2adf77f12361864aeef2135efdd264cd7e62d76c1d0eabb",
+   "bytes": 135796,
+   "pdf_pages": 1,
+   "chars_recovered": 1111,
+   "act": "1907/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990R1907R(02)",
+   "sha256": "124545a7ae6a6e206ae3b59ad8910c149575a4e1a1a8854a775cd8d1f2a686c9",
+   "bytes": 126275,
+   "pdf_pages": 1,
+   "chars_recovered": 836,
+   "act": "1907/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990R1953R(01)",
+   "sha256": "c84e76b4b98443fccef6ffcff694b292a3bfda254518009cc40af5fe68e3e588",
+   "bytes": 141602,
+   "pdf_pages": 1,
+   "chars_recovered": 1142,
+   "act": "1953/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990R1967R(01)",
+   "sha256": "c88a95ea03f3fa78ec4e0a2247ae8c56c83a82794beb35dd550779a96c755f2c",
+   "bytes": 90243,
+   "pdf_pages": 1,
+   "chars_recovered": 1459,
+   "act": "1967/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990R2562R(01)",
+   "sha256": "5f430ea8298101d43b7c114ff3c4a66cc4141ad112dfe132be05405e92cb43a0",
+   "bytes": 86313,
+   "pdf_pages": 1,
+   "chars_recovered": 1463,
+   "act": "2562/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990R2562R(03)",
+   "sha256": "73dd516274c15b194db379398df0ec0bffd060d789a38f5835ee9052dc7b4763",
+   "bytes": 53211,
+   "pdf_pages": 1,
+   "chars_recovered": 390,
+   "act": "2562/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990R2618R(01)",
+   "sha256": "2b48ecdb61ba1c044ed8e299f0b777d4a8c824cd6b17481b6344179a92598bb5",
+   "bytes": 82600,
+   "pdf_pages": 1,
+   "chars_recovered": 1192,
+   "act": "2618/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990R2689R(01)",
+   "sha256": "2d0ac08b0da978c302ad0c8d7c44507c145d0c4c95c378684ee34db25f8eecd4",
+   "bytes": 133527,
+   "pdf_pages": 1,
+   "chars_recovered": 1016,
+   "act": "2689/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990R2768R(01)",
+   "sha256": "2d0ac08b0da978c302ad0c8d7c44507c145d0c4c95c378684ee34db25f8eecd4",
+   "bytes": 133527,
+   "pdf_pages": 1,
+   "chars_recovered": 1016,
+   "act": "2768/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990R2768R(02)",
+   "sha256": "1498390e22be6416aca9343e04e080793d38b2bb5ac8051acd604f52631f5348",
+   "bytes": 48407,
+   "pdf_pages": 1,
+   "chars_recovered": 294,
+   "act": "2768/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990R2929R(01)",
+   "sha256": "99cbc2490dd511b1ad3f146fa16942c1d0dcad5c45cd51155698c83173551713",
+   "bytes": 68802,
+   "pdf_pages": 1,
+   "chars_recovered": 729,
+   "act": "2929/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990R3262R(01)",
+   "sha256": "dd0e85512a4f752d8e52cb0cf02f451e6651369daceb6aca139a997fc2fc973c",
+   "bytes": 69599,
+   "pdf_pages": 1,
+   "chars_recovered": 832,
+   "act": "3262/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31990R3413R(01)",
+   "sha256": "eeefe8627cf2965fa8091dfdfbaf3c64cee63d924cc7eade5447f43c228a5047",
+   "bytes": 122784,
+   "pdf_pages": 1,
+   "chars_recovered": 656,
+   "act": "3413/90",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990R3819R(02)",
+   "sha256": "9de70ae7ffbd7422307532b760dd97ad79c6fa3b872df3db9ba0e327e8b91fcf",
+   "bytes": 81237,
+   "pdf_pages": 1,
+   "chars_recovered": 1155,
+   "act": "3819/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990R3833R(01)",
+   "sha256": "aea9ad9707cfa21c3fc5764e467a86f2c5b513fef45fbfd4e2c3fa47b646d75a",
+   "bytes": 141661,
+   "pdf_pages": 1,
+   "chars_recovered": 1343,
+   "act": "3833/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990R3921R(03)",
+   "sha256": "620467b94082f3b35cf7ff4db963589326254293387f2b4a91f6d7f7f6b5fe3e",
+   "bytes": 62166,
+   "pdf_pages": 1,
+   "chars_recovered": 602,
+   "act": "3921/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31990R3926R(01)",
+   "sha256": "9de70ae7ffbd7422307532b760dd97ad79c6fa3b872df3db9ba0e327e8b91fcf",
+   "bytes": 81237,
+   "pdf_pages": 1,
+   "chars_recovered": 1155,
+   "act": "3926/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31990R3926R(02)",
+   "sha256": "620467b94082f3b35cf7ff4db963589326254293387f2b4a91f6d7f7f6b5fe3e",
+   "bytes": 62166,
+   "pdf_pages": 1,
+   "chars_recovered": 602,
+   "act": "3926/90",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31991B0034R(01)",
+   "sha256": "52b3baaf0a13b85a3aa3345222fb2ce662dc7d8834a5549d2d0390a93ca05c1c",
+   "bytes": 223801,
+   "pdf_pages": 2,
+   "chars_recovered": 2956,
+   "act": "34/91",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31991L0060R(01)",
+   "sha256": "ebee56209eabbc1f25dde3abd9a270efa05e123e4f443cf59a23eb5e79f02677",
+   "bytes": 147801,
+   "pdf_pages": 1,
+   "chars_recovered": 1367,
+   "act": "60/91",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31991L0334R(01)",
+   "sha256": "f374ab2092691735e20834773298611e8e673f7eca70a732c5bf4b711315afea",
+   "bytes": 135418,
+   "pdf_pages": 1,
+   "chars_recovered": 1261,
+   "act": "334/91",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31991L0663R(02)",
+   "sha256": "5b293bcaf3352e584673e4a053e3509ccc133f465a195ef1de8fdd860656e097",
+   "bytes": 137715,
+   "pdf_pages": 1,
+   "chars_recovered": 1121,
+   "act": "663/91",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31991R1517R(02)",
+   "sha256": "ef244f62f1de0d3c408c74b2561d4b966d3ce1cd6bcc383dcc0a751bb79541e1",
+   "bytes": 136733,
+   "pdf_pages": 1,
+   "chars_recovered": 1088,
+   "act": "1517/91",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31991R1565R(01)",
+   "sha256": "0da64e6ad30a99758d5aae260a5044ec05773f2377ffb6d15e6b5afe0a2d6b7c",
+   "bytes": 135203,
+   "pdf_pages": 1,
+   "chars_recovered": 974,
+   "act": "1565/91",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31991R1910R(01)",
+   "sha256": "b3bf330577a7dd0cc4530fd3d21a22c1b119ef6c58ee29fa65d4efd244bde26e",
+   "bytes": 67030,
+   "pdf_pages": 1,
+   "chars_recovered": 769,
+   "act": "1910/91",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31991R2050R(01)",
+   "sha256": "b3bf330577a7dd0cc4530fd3d21a22c1b119ef6c58ee29fa65d4efd244bde26e",
+   "bytes": 67030,
+   "pdf_pages": 1,
+   "chars_recovered": 769,
+   "act": "2050/91",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31992B0041R(02)",
+   "sha256": "7e3e0ab2dce05113054ee1aedefcdeab9ef072ba72e84272592248be23fefa8f",
+   "bytes": 243119,
+   "pdf_pages": 5,
+   "chars_recovered": 2582,
+   "act": "41/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992D0228R(02)",
+   "sha256": "5abe487c266d11b6522f93d6d10b565d51268776d04cb80fe4c3870ed33ac34b",
+   "bytes": 75861,
+   "pdf_pages": 1,
+   "chars_recovered": 1061,
+   "act": "228/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31992D0229R(01)",
+   "sha256": "443a9dfbf52bf824aa0a9ccefc1c4fc390824ff71851b543771e17a43e195cfc",
+   "bytes": 85684,
+   "pdf_pages": 1,
+   "chars_recovered": 1345,
+   "act": "229/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31992D0315R(01)",
+   "sha256": "3801d18c918f64598bc834a456b1e132ef9c7998d306b0417b3feae32b3d3c32",
+   "bytes": 145233,
+   "pdf_pages": 1,
+   "chars_recovered": 1406,
+   "act": "315/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31992L0012R(05)",
+   "sha256": "0574dd816d93d9b0667511834f117964d89a93fa3575fb8ffbe5a8b583f19223",
+   "bytes": 51367,
+   "pdf_pages": 1,
+   "chars_recovered": 332,
+   "act": "12/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992L0014R(01)",
+   "sha256": "b71a877f38c2871681284a87de02c5426c1f375ec0d6dca9332c3ade7ca58d7e",
+   "bytes": 60947,
+   "pdf_pages": 1,
+   "chars_recovered": 445,
+   "act": "14/92",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992L0014R(04)",
+   "sha256": "3410591fedb1ac1cdf39556c36395818fe8e9f8574f8d51408c5877186702e35",
+   "bytes": 52661,
+   "pdf_pages": 1,
+   "chars_recovered": 349,
+   "act": "14/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992L0043R(03)",
+   "sha256": "3b629ec075bd1f02377866ec659da41a24e4d6e3fe66708fc9a8be2c7c822da0",
+   "bytes": 110551,
+   "pdf_pages": 2,
+   "chars_recovered": 1993,
+   "act": "43/92",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992L0053R(02)",
+   "sha256": "0d53fc690a7c35efd7fea24c7f6b80a3f7aa99962b6cf7a9fd19e3cdcada5393",
+   "bytes": 71157,
+   "pdf_pages": 1,
+   "chars_recovered": 970,
+   "act": "53/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31992R0729R(02)",
+   "sha256": "5abe487c266d11b6522f93d6d10b565d51268776d04cb80fe4c3870ed33ac34b",
+   "bytes": 75861,
+   "pdf_pages": 1,
+   "chars_recovered": 1061,
+   "act": "729/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31992R1896R(02)",
+   "sha256": "726ecdf1bae27eb0c188fbb95898722b4771907af24774c49178d4ec00cbbf2e",
+   "bytes": 155260,
+   "pdf_pages": 1,
+   "chars_recovered": 1647,
+   "act": "1896/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 4
+  },
+  {
+   "celex": "31992R1907R(01)",
+   "sha256": "726ecdf1bae27eb0c188fbb95898722b4771907af24774c49178d4ec00cbbf2e",
+   "bytes": 155260,
+   "pdf_pages": 1,
+   "chars_recovered": 1647,
+   "act": "1907/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 4
+  },
+  {
+   "celex": "31992R2408R(01)",
+   "sha256": "e7f476f9c7cac76a47930581ac4bcac7197abe5542d8c565b11814335b48e9ee",
+   "bytes": 149885,
+   "pdf_pages": 1,
+   "chars_recovered": 1542,
+   "act": "2408/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31992R2505R(01)",
+   "sha256": "26e43f628e8964a6965573908f1b85b98469f0419846a3975606cf95177e03ea",
+   "bytes": 60459,
+   "pdf_pages": 1,
+   "chars_recovered": 623,
+   "act": "2505/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992R2913R(03)",
+   "sha256": "2bec576fd92c85fd5068bbe051b709bb1a7ef56afae75853ecfe43a81cc71e31",
+   "bytes": 122514,
+   "pdf_pages": 1,
+   "chars_recovered": 859,
+   "act": "2913/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992R3006R(01)",
+   "sha256": "f8ea8cdaea41d62bcebcff3879bf56aa45ae186bf76a846d53d40c9637e310c7",
+   "bytes": 54543,
+   "pdf_pages": 1,
+   "chars_recovered": 433,
+   "act": "3006/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992R3761R(02)",
+   "sha256": "c101ac072c13dc8a07c76504a6c599bf08e1df3f2f0cb4741a51c0468af79461",
+   "bytes": 53942,
+   "pdf_pages": 1,
+   "chars_recovered": 395,
+   "act": "3761/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31992R3803R(01)",
+   "sha256": "3e60d4545320a2f6d4490b04ddb000c7fc297fc6fa1166e9907afb766eea7866",
+   "bytes": 158294,
+   "pdf_pages": 1,
+   "chars_recovered": 1810,
+   "act": "3803/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31992R3827R(02)",
+   "sha256": "7a145b049d855923b12b0268d0d1047d49e55a0703a01554aa02652cc5583c11",
+   "bytes": 120988,
+   "pdf_pages": 1,
+   "chars_recovered": 652,
+   "act": "3827/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31992R3953R(01)",
+   "sha256": "c101ac072c13dc8a07c76504a6c599bf08e1df3f2f0cb4741a51c0468af79461",
+   "bytes": 53942,
+   "pdf_pages": 1,
+   "chars_recovered": 395,
+   "act": "3953/92",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993D0136R(01)",
+   "sha256": "c88a95ea03f3fa78ec4e0a2247ae8c56c83a82794beb35dd550779a96c755f2c",
+   "bytes": 90243,
+   "pdf_pages": 1,
+   "chars_recovered": 1459,
+   "act": "136/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31993D0197R(02)",
+   "sha256": "d58dcf9ce6170f00b41cefcda87b2813234c403f96fedc2803f4e46ccf5afc9d",
+   "bytes": 123375,
+   "pdf_pages": 1,
+   "chars_recovered": 799,
+   "act": "197/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993L0043R(02)",
+   "sha256": "1d798dee7a40fca55698b6ec32c461da23d8a1512bf1dd7f51d82ce7bc28496b",
+   "bytes": 134459,
+   "pdf_pages": 1,
+   "chars_recovered": 1094,
+   "act": "43/93",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31993L0057R(01)",
+   "sha256": "693a7bebd75f74a972308f7eab0473057117049fe25937d736f26bd64b40e6fd",
+   "bytes": 72485,
+   "pdf_pages": 1,
+   "chars_recovered": 936,
+   "act": "57/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993R0183R(01)",
+   "sha256": "4b11183ab0bada5439a15519663be49c63618a5726906b5ba1694384fa3a6da0",
+   "bytes": 124424,
+   "pdf_pages": 1,
+   "chars_recovered": 808,
+   "act": "183/93",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31993R0207R(01)",
+   "sha256": "4f130f1dc595eb5f481066c965803f7b0f5d909005d6151ebae9745b58cceaa2",
+   "bytes": 51619,
+   "pdf_pages": 1,
+   "chars_recovered": 351,
+   "act": "207/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993R0259R(04)",
+   "sha256": "1186e2eeda6b046ddc1af804c1bb46dfe20bba9f71fb92994979cec75c9e0df2",
+   "bytes": 140799,
+   "pdf_pages": 1,
+   "chars_recovered": 1430,
+   "act": "259/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31993R0339R(03)",
+   "sha256": "15e236471b942d4c1f304e95aaa905faa8924e9b8fdf281f74fb135fc5b5b0ea",
+   "bytes": 55155,
+   "pdf_pages": 1,
+   "chars_recovered": 497,
+   "act": "339/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993R1122R(01)",
+   "sha256": "3e60d4545320a2f6d4490b04ddb000c7fc297fc6fa1166e9907afb766eea7866",
+   "bytes": 158294,
+   "pdf_pages": 1,
+   "chars_recovered": 1810,
+   "act": "1122/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31993R1328R(01)",
+   "sha256": "15e236471b942d4c1f304e95aaa905faa8924e9b8fdf281f74fb135fc5b5b0ea",
+   "bytes": 55155,
+   "pdf_pages": 1,
+   "chars_recovered": 497,
+   "act": "1328/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993R1756R(02)",
+   "sha256": "c88a95ea03f3fa78ec4e0a2247ae8c56c83a82794beb35dd550779a96c755f2c",
+   "bytes": 90243,
+   "pdf_pages": 1,
+   "chars_recovered": 1459,
+   "act": "1756/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31993R2176R(02)",
+   "sha256": "6e97c915369ce73b6f65c6c03344caa56fe3153bbaff6fc2a728e0441634ce26",
+   "bytes": 50079,
+   "pdf_pages": 1,
+   "chars_recovered": 409,
+   "act": "2176/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993R2552R(01)",
+   "sha256": "8f474b07bb78ae5c6bb4d7195bfef98e6e73bc931f795257e365308f65e0c081",
+   "bytes": 75096,
+   "pdf_pages": 1,
+   "chars_recovered": 921,
+   "act": "2552/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993R2891R(01)",
+   "sha256": "4f130f1dc595eb5f481066c965803f7b0f5d909005d6151ebae9745b58cceaa2",
+   "bytes": 51619,
+   "pdf_pages": 1,
+   "chars_recovered": 351,
+   "act": "2891/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993R3300R(02)",
+   "sha256": "4f130f1dc595eb5f481066c965803f7b0f5d909005d6151ebae9745b58cceaa2",
+   "bytes": 51619,
+   "pdf_pages": 1,
+   "chars_recovered": 351,
+   "act": "3300/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31993R3300R(03)",
+   "sha256": "8ca2b26d2a7cb06cbf8ae35de9a513f4ba4b9c650354580331e9e3eb126faed1",
+   "bytes": 69431,
+   "pdf_pages": 1,
+   "chars_recovered": 814,
+   "act": "3300/93",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31994B0921R(01)",
+   "sha256": "f1a65dfc2cdf71b506c1aeae268d91acbd35d8fa8312fecb08030c5c290ff9f1",
+   "bytes": 52075,
+   "pdf_pages": 1,
+   "chars_recovered": 366,
+   "act": "921/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994D0069R(01)",
+   "sha256": "693a7bebd75f74a972308f7eab0473057117049fe25937d736f26bd64b40e6fd",
+   "bytes": 72485,
+   "pdf_pages": 1,
+   "chars_recovered": 936,
+   "act": "69/94",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994D0187R(01)",
+   "sha256": "0cdfe821784557ff56c13554dae3131cc1ee4b83875db98bd023e475ef3668cd",
+   "bytes": 125144,
+   "pdf_pages": 1,
+   "chars_recovered": 752,
+   "act": "187/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994D0650R(01)",
+   "sha256": "61033db41c9c9f614f911496065869dc84fd07d9f2f70b80326bf56395a099f9",
+   "bytes": 55266,
+   "pdf_pages": 1,
+   "chars_recovered": 433,
+   "act": "650/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994D0942R(01)",
+   "sha256": "fae32f0e9b16685963a895bfceea8279a6611f3649dc2f0fc7e0b7271ec981f0",
+   "bytes": 75761,
+   "pdf_pages": 1,
+   "chars_recovered": 1402,
+   "act": "942/94",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994L0009R(01)",
+   "sha256": "7b696f4ff741bef9d3219c82a66dc36d7b0752d88ad6f4a2917f141e3d898293",
+   "bytes": 48677,
+   "pdf_pages": 1,
+   "chars_recovered": 333,
+   "act": "9/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994L0013R(02)",
+   "sha256": "b7057857f7005572b347fe8c75e8eceeba7daf2355c6012ce72bfbaf287ffda5",
+   "bytes": 63929,
+   "pdf_pages": 1,
+   "chars_recovered": 887,
+   "act": "13/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994R0520R(01)",
+   "sha256": "f374ab2092691735e20834773298611e8e673f7eca70a732c5bf4b711315afea",
+   "bytes": 135418,
+   "pdf_pages": 1,
+   "chars_recovered": 1261,
+   "act": "520/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31994R1588R(01)",
+   "sha256": "7cf2164d1177d97171483d3422e4b27b7b27bb142652fff3daf13cb077cb9793",
+   "bytes": 129726,
+   "pdf_pages": 1,
+   "chars_recovered": 935,
+   "act": "1588/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31994R2376R(01)",
+   "sha256": "6b2bfd09bfd07c47930781b0ebb924c2b2ef5a7f87382291f077c6cfd008e054",
+   "bytes": 55937,
+   "pdf_pages": 1,
+   "chars_recovered": 453,
+   "act": "2376/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994R2991R(02)",
+   "sha256": "2bec576fd92c85fd5068bbe051b709bb1a7ef56afae75853ecfe43a81cc71e31",
+   "bytes": 122514,
+   "pdf_pages": 1,
+   "chars_recovered": 859,
+   "act": "2991/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994R2991R(03)",
+   "sha256": "8587dc254f0e5c377c55dc2ffb027709b84034a48a4d56d4f53b55efa703fdfa",
+   "bytes": 49126,
+   "pdf_pages": 1,
+   "chars_recovered": 386,
+   "act": "2991/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994R3036R(02)",
+   "sha256": "d5888adfcaee955c346318c425f7bef4907671215447dcbaca2f933053139cfb",
+   "bytes": 123210,
+   "pdf_pages": 1,
+   "chars_recovered": 746,
+   "act": "3036/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31994R3094R(01)",
+   "sha256": "d5888adfcaee955c346318c425f7bef4907671215447dcbaca2f933053139cfb",
+   "bytes": 123210,
+   "pdf_pages": 1,
+   "chars_recovered": 746,
+   "act": "3094/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31994R3281R(04)",
+   "sha256": "d5888adfcaee955c346318c425f7bef4907671215447dcbaca2f933053139cfb",
+   "bytes": 123210,
+   "pdf_pages": 1,
+   "chars_recovered": 746,
+   "act": "3281/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31994R3281R(06)",
+   "sha256": "575446ebe83a9652ccc03e5ae8d95ca45d46b5fb7897dc3f0c6397b79a35f3de",
+   "bytes": 106293,
+   "pdf_pages": 2,
+   "chars_recovered": 2040,
+   "act": "3281/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31994R3282R(02)",
+   "sha256": "12de35474743b6384e06763448802537e49e80fb15a2d2d962792fbfcc26619c",
+   "bytes": 82271,
+   "pdf_pages": 1,
+   "chars_recovered": 1259,
+   "act": "3282/94",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31994R3295R(01)",
+   "sha256": "2bec576fd92c85fd5068bbe051b709bb1a7ef56afae75853ecfe43a81cc71e31",
+   "bytes": 122514,
+   "pdf_pages": 1,
+   "chars_recovered": 859,
+   "act": "3295/94",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31994R3379R(01)",
+   "sha256": "3d14d5aecbc76ec064af932e7017b73fb376842bd0d7f3ca6eb3d404d6cd917f",
+   "bytes": 133652,
+   "pdf_pages": 1,
+   "chars_recovered": 976,
+   "act": "3379/94",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31995D0467R(01)",
+   "sha256": "b237da170fc0785dfb515932e10c96d82b652c0c74f927db71dbb6055a454fb7",
+   "bytes": 60852,
+   "pdf_pages": 1,
+   "chars_recovered": 621,
+   "act": "467/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31995D0585R(01)",
+   "sha256": "f0faec56fed5dad265b50b9ee593bb6137a9b76503b6519e6ac98505834b57ac",
+   "bytes": 110500,
+   "pdf_pages": 1,
+   "chars_recovered": 416,
+   "act": "585/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995L0050R(01)",
+   "sha256": "150e9830ff1e09b977ffa30d4dcdea55fd859730c0c8a28f996310ccb31c25a4",
+   "bytes": 116003,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "50/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31995R0455R(02)",
+   "sha256": "0378d3ec6befcb643be566fd5b36b9fd81ab1c381936a7a9df2ed28d49088a25",
+   "bytes": 31624,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "455/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31995R1162R(01)",
+   "sha256": "e5670f185ea283758c357f9e7fcf43d2ddd60a6c67d943e6984eb7a2b7e03787",
+   "bytes": 82612,
+   "pdf_pages": 1,
+   "chars_recovered": 1413,
+   "act": "1162/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995R1162R(02)",
+   "sha256": "bf93eb8f83a72955276d7e9c147f5daed05c09a7928cda59bbc35ab36f53b824",
+   "bytes": 125777,
+   "pdf_pages": 1,
+   "chars_recovered": 900,
+   "act": "1162/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31995R1199R(01)",
+   "sha256": "8e5dd55b1645ef246eb085cb6689dbf8431b913223d5926cb5119fdc57db3c04",
+   "bytes": 56113,
+   "pdf_pages": 1,
+   "chars_recovered": 463,
+   "act": "1199/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995R1244R(01)",
+   "sha256": "e5670f185ea283758c357f9e7fcf43d2ddd60a6c67d943e6984eb7a2b7e03787",
+   "bytes": 82612,
+   "pdf_pages": 1,
+   "chars_recovered": 1413,
+   "act": "1244/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995R1416R(01)",
+   "sha256": "3d14d5aecbc76ec064af932e7017b73fb376842bd0d7f3ca6eb3d404d6cd917f",
+   "bytes": 133652,
+   "pdf_pages": 1,
+   "chars_recovered": 976,
+   "act": "1416/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31995R1501R(01)",
+   "sha256": "8026d66adb959a376a065e348e5f5fc429f19952bc5b786678943679cd9defa0",
+   "bytes": 61757,
+   "pdf_pages": 1,
+   "chars_recovered": 735,
+   "act": "1501/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31995R1600R(03)",
+   "sha256": "1dca6d341a547a909435eaacbd96a805629ab1dcc2131a7b779a49393f6cd724",
+   "bytes": 51863,
+   "pdf_pages": 1,
+   "chars_recovered": 350,
+   "act": "1600/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995R1600R(04)",
+   "sha256": "1186e2eeda6b046ddc1af804c1bb46dfe20bba9f71fb92994979cec75c9e0df2",
+   "bytes": 140799,
+   "pdf_pages": 1,
+   "chars_recovered": 1430,
+   "act": "1600/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31995R1600R(05)",
+   "sha256": "f374ab2092691735e20834773298611e8e673f7eca70a732c5bf4b711315afea",
+   "bytes": 135418,
+   "pdf_pages": 1,
+   "chars_recovered": 1261,
+   "act": "1600/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31995R1808R(02)",
+   "sha256": "d5888adfcaee955c346318c425f7bef4907671215447dcbaca2f933053139cfb",
+   "bytes": 123210,
+   "pdf_pages": 1,
+   "chars_recovered": 746,
+   "act": "1808/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31995R1863R(01)",
+   "sha256": "0d53fc690a7c35efd7fea24c7f6b80a3f7aa99962b6cf7a9fd19e3cdcada5393",
+   "bytes": 71157,
+   "pdf_pages": 1,
+   "chars_recovered": 970,
+   "act": "1863/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31995R2688R(01)",
+   "sha256": "8004257ab31f3fe2150224e56cafafe0e4119a8ead364b20c1584897e222d779",
+   "bytes": 53828,
+   "pdf_pages": 1,
+   "chars_recovered": 489,
+   "act": "2688/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995R2689R(01)",
+   "sha256": "8004257ab31f3fe2150224e56cafafe0e4119a8ead364b20c1584897e222d779",
+   "bytes": 53828,
+   "pdf_pages": 1,
+   "chars_recovered": 489,
+   "act": "2689/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995R2907R(01)",
+   "sha256": "f96b80d2181afb1debbb94af0fb07889c4ef6443d1ad2bb217f419a6fb34553a",
+   "bytes": 138692,
+   "pdf_pages": 1,
+   "chars_recovered": 1272,
+   "act": "2907/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31995R2963R(01)",
+   "sha256": "1186e2eeda6b046ddc1af804c1bb46dfe20bba9f71fb92994979cec75c9e0df2",
+   "bytes": 140799,
+   "pdf_pages": 1,
+   "chars_recovered": 1430,
+   "act": "2963/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31995R2989R(01)",
+   "sha256": "88fb4fdad609b387939eacdd90aca045b92dc106bd30bf91d61512eea3e9614c",
+   "bytes": 75138,
+   "pdf_pages": 1,
+   "chars_recovered": 1114,
+   "act": "2989/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995R3021R(01)",
+   "sha256": "1186e2eeda6b046ddc1af804c1bb46dfe20bba9f71fb92994979cec75c9e0df2",
+   "bytes": 140799,
+   "pdf_pages": 1,
+   "chars_recovered": 1430,
+   "act": "3021/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31995R3022R(01)",
+   "sha256": "576e580ea363be0557e0190fdbfa6257a6e7fe26f247d0d588c41a891a871425",
+   "bytes": 50709,
+   "pdf_pages": 1,
+   "chars_recovered": 417,
+   "act": "3022/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31995R3022R(02)",
+   "sha256": "1186e2eeda6b046ddc1af804c1bb46dfe20bba9f71fb92994979cec75c9e0df2",
+   "bytes": 140799,
+   "pdf_pages": 1,
+   "chars_recovered": 1430,
+   "act": "3022/95",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31995Y1011(02)R(01)",
+   "sha256": "2e2b86eec690ab638524f79203bf9b29bcf79dfafb67159c22f0af4327ea5de3",
+   "bytes": 151299,
+   "pdf_pages": 2,
+   "chars_recovered": 0,
+   "act": "/",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31996L0032R(01)",
+   "sha256": "7b696f4ff741bef9d3219c82a66dc36d7b0752d88ad6f4a2917f141e3d898293",
+   "bytes": 48677,
+   "pdf_pages": 1,
+   "chars_recovered": 333,
+   "act": "32/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996L0032R(02)",
+   "sha256": "7bbec295a2748c61fafcadda8a58b4adc605a172f14cc58742cc5b15cc8bcefb",
+   "bytes": 74446,
+   "pdf_pages": 1,
+   "chars_recovered": 1142,
+   "act": "32/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31996L0033R(02)",
+   "sha256": "0567d95bbbe8f2e43ca3db16b0773610bfe7b56b2694a4b96ab545d6450d3588",
+   "bytes": 55827,
+   "pdf_pages": 1,
+   "chars_recovered": 559,
+   "act": "33/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996L0037R(03)",
+   "sha256": "8026d66adb959a376a065e348e5f5fc429f19952bc5b786678943679cd9defa0",
+   "bytes": 61757,
+   "pdf_pages": 1,
+   "chars_recovered": 735,
+   "act": "37/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31996L0038R(01)",
+   "sha256": "8026d66adb959a376a065e348e5f5fc429f19952bc5b786678943679cd9defa0",
+   "bytes": 61757,
+   "pdf_pages": 1,
+   "chars_recovered": 735,
+   "act": "38/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31996R0122R(01)",
+   "sha256": "8004257ab31f3fe2150224e56cafafe0e4119a8ead364b20c1584897e222d779",
+   "bytes": 53828,
+   "pdf_pages": 1,
+   "chars_recovered": 489,
+   "act": "122/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996R0194R(01)",
+   "sha256": "f374ab2092691735e20834773298611e8e673f7eca70a732c5bf4b711315afea",
+   "bytes": 135418,
+   "pdf_pages": 1,
+   "chars_recovered": 1261,
+   "act": "194/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31996R0385R(01)",
+   "sha256": "f374ab2092691735e20834773298611e8e673f7eca70a732c5bf4b711315afea",
+   "bytes": 135418,
+   "pdf_pages": 1,
+   "chars_recovered": 1261,
+   "act": "385/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31996R1000R(01)",
+   "sha256": "a2daab96330b74b6aa4ce79e7301537a1fcd9146b01e1f709a38d50bf8f91676",
+   "bytes": 54080,
+   "pdf_pages": 1,
+   "chars_recovered": 497,
+   "act": "1000/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996R1263R(02)",
+   "sha256": "7dd7654024af75718b5f3050458ecf48bb46e290643124150d6dd2bc1cad4000",
+   "bytes": 137827,
+   "pdf_pages": 1,
+   "chars_recovered": 1146,
+   "act": "1263/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996R1355R(02)",
+   "sha256": "bb6826aafeaabbce54b4fc15bcd01f6e296e763991573bbc3256b90d17cabfa6",
+   "bytes": 139869,
+   "pdf_pages": 1,
+   "chars_recovered": 1386,
+   "act": "1355/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996R1488R(01)",
+   "sha256": "a2daab96330b74b6aa4ce79e7301537a1fcd9146b01e1f709a38d50bf8f91676",
+   "bytes": 54080,
+   "pdf_pages": 1,
+   "chars_recovered": 497,
+   "act": "1488/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996R1676R(01)",
+   "sha256": "d3614251ecc7117e95340ad3a97f2032aa2ba29d5eaa10a1086bd3fb6d4865f7",
+   "bytes": 69364,
+   "pdf_pages": 1,
+   "chars_recovered": 963,
+   "act": "1676/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996R1798R(01)",
+   "sha256": "6fa64e0732c5eaefbf34baf894712714e121d64b894fbb78324235406d824c53",
+   "bytes": 64123,
+   "pdf_pages": 1,
+   "chars_recovered": 809,
+   "act": "1798/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31996R1999R(01)",
+   "sha256": "7bbec295a2748c61fafcadda8a58b4adc605a172f14cc58742cc5b15cc8bcefb",
+   "bytes": 74446,
+   "pdf_pages": 1,
+   "chars_recovered": 1142,
+   "act": "1999/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31996R2123R(01)",
+   "sha256": "9ec5184f6add3efce22944d8fcf9d875437c7ca787d8b5eac35b8270ea43564f",
+   "bytes": 135584,
+   "pdf_pages": 1,
+   "chars_recovered": 1134,
+   "act": "2123/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31996R2153R(01)",
+   "sha256": "d3614251ecc7117e95340ad3a97f2032aa2ba29d5eaa10a1086bd3fb6d4865f7",
+   "bytes": 69364,
+   "pdf_pages": 1,
+   "chars_recovered": 963,
+   "act": "2153/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996R2230R(01)",
+   "sha256": "b7057857f7005572b347fe8c75e8eceeba7daf2355c6012ce72bfbaf287ffda5",
+   "bytes": 63929,
+   "pdf_pages": 1,
+   "chars_recovered": 887,
+   "act": "2230/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31996R2431R(01)",
+   "sha256": "160c96c9662654dd28949fd04b352433aba181ab6e296e9962e90e0bf697b773",
+   "bytes": 67878,
+   "pdf_pages": 1,
+   "chars_recovered": 814,
+   "act": "2431/96",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31997L0034R(01)",
+   "sha256": "e714c1934f3c74fcc99d1f1570bfabd55ebf3210927e506b01c8624474e981f7",
+   "bytes": 137173,
+   "pdf_pages": 1,
+   "chars_recovered": 1399,
+   "act": "34/97",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31997R0071R(01)",
+   "sha256": "f6f29cbaaeb6bfca9f3695a14655910bdffcc354eb0e6126956737db2a96129a",
+   "bytes": 59640,
+   "pdf_pages": 1,
+   "chars_recovered": 639,
+   "act": "71/97",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 1
+  },
+  {
+   "celex": "31997R0659R(01)",
+   "sha256": "9d01a9ba5152958b38bbd1dd7dca5df5d8b44c10f5bca285e70dc544e147dd83",
+   "bytes": 130157,
+   "pdf_pages": 1,
+   "chars_recovered": 1087,
+   "act": "659/97",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31997R1221R(01)",
+   "sha256": "82af9df02a83658b9dcb6a70dff552710f31db966e5e92b9f6a650ae093ab7c6",
+   "bytes": 133630,
+   "pdf_pages": 1,
+   "chars_recovered": 1144,
+   "act": "1221/97",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31997R1303R(01)",
+   "sha256": "29372e574345fbf185af787df810810dd2f0ddb6b5296849a3ae54fce06a1963",
+   "bytes": 145903,
+   "pdf_pages": 1,
+   "chars_recovered": 1554,
+   "act": "1303/97",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31997R1310R(03)",
+   "sha256": "fa091b34e6eae4a1a39356d166af5822d84e421bc9b281bd3a1e8f57a96ca4f7",
+   "bytes": 25473,
+   "pdf_pages": 1,
+   "chars_recovered": 930,
+   "act": "1310/97",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31997R1394R(01)",
+   "sha256": "3add87c48d10d6ccb74bb7b420472a0683a6bfab8bc4fa052deb061fc411d54b",
+   "bytes": 61753,
+   "pdf_pages": 1,
+   "chars_recovered": 744,
+   "act": "1394/97",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 2
+  },
+  {
+   "celex": "31997R1490R(03)",
+   "sha256": "29372e574345fbf185af787df810810dd2f0ddb6b5296849a3ae54fce06a1963",
+   "bytes": 145903,
+   "pdf_pages": 1,
+   "chars_recovered": 1554,
+   "act": "1490/97",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 3
+  },
+  {
+   "celex": "31997R2155R(02)",
+   "sha256": "c4db385d97c1ee06a5dee73837ee05ca129e54e6121b89bc3e0111cb420c2612",
+   "bytes": 91816,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "2155/97",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31997R2493R(02)",
+   "sha256": "4f234391f24a0033b9b66ce2e5dadf8e4f8023baae925df2bd29d1cbee22dc9f",
+   "bytes": 26049,
+   "pdf_pages": 1,
+   "chars_recovered": 359,
+   "act": "2493/97",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31998L0081R(01)",
+   "sha256": "e036bb328aa7186602adf54edfacc2cbe0bc4f9a277f47c5126f9a85a57f45b3",
+   "bytes": 29138,
+   "pdf_pages": 1,
+   "chars_recovered": 1606,
+   "act": "81/98",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31999R0257R(01)",
+   "sha256": "ed7411ae2cb08f0ba3caa9b83dfc25da53a8ba176a34dbc5b6b534029efedba9",
+   "bytes": 27421,
+   "pdf_pages": 1,
+   "chars_recovered": 1119,
+   "act": "257/99",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31999R0682R(01)",
+   "sha256": "9903feb9da0c29bc2904739a3b37fa89f0ac338d7e15d20704fa444eea65bda7",
+   "bytes": 32289,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "682/99",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "31999R1538R(02)",
+   "sha256": "1dda17a4ad7b46133c14edd55c94f00ac0fa65807e1f9f6097a2264ff41605f0",
+   "bytes": 89139,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "1538/99",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32000C0630R(01)",
+   "sha256": "9c91dce75f8fc38fde995f2e02e00e5d80f9ada1568bdc7b923da7b8f5bf120d",
+   "bytes": 23220,
+   "pdf_pages": 1,
+   "chars_recovered": 1323,
+   "act": "630/00",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32000D0204R(01)",
+   "sha256": "611d7981222c1a02da82e4045af1be971111760f2e5a3ada3789854c0f1773ee",
+   "bytes": 88892,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "204/00",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32000O0001R(01)",
+   "sha256": "5690d9c585b00e1c2791539b2bbe1b4e2f9385e56f25a1ddbed8d40ab003821e",
+   "bytes": 21650,
+   "pdf_pages": 1,
+   "chars_recovered": 1485,
+   "act": "1/00",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32000R2828R(01)",
+   "sha256": "1ffe9d161a555d695894bef61383421d72678fb858f2061a76d8a6c489e769d6",
+   "bytes": 88602,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "2828/00",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32000R2891R(01)",
+   "sha256": "9111f9f186849e759924e875ff9276bc45fcb3862cf82449385314ac89b02a84",
+   "bytes": 176328,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "2891/00",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32001R0007R(02)",
+   "sha256": "75ebc1125a029b5c54f00673290f0f290f96bde03e8da29deea3982203426ea4",
+   "bytes": 176420,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "7/01",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32001R0241R(01)",
+   "sha256": "8d34de03fa0b7e86e7ac421da12640b9b9c83535b5bbbcab98617a256dde1506",
+   "bytes": 88828,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "241/01",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32002R0998R(01)",
+   "sha256": "c08ec243bbd9af86710bdb2cd2d96aa643da2bd187c5b0721c65a025e589394b",
+   "bytes": 182088,
+   "pdf_pages": 1,
+   "chars_recovered": 0,
+   "act": "998/02",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32021R1255R(01)",
+   "sha256": "4738469e7ce0fbd8acb3fec5de7fa36231f89cfc7bd69f11bf40d021f98b83a9",
+   "bytes": 355335,
+   "pdf_pages": 1,
+   "chars_recovered": 57275,
+   "act": "1255/21",
+   "act_number_in_recovered_text": true,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32021R1255R(01)",
+   "sha256": "8f8af6738be8e921cd8afa5aeaaa31cfc5145a18e070fa21a23dc06219df353d",
+   "bytes": 1748,
+   "pdf_pages": 0,
+   "chars_recovered": 0,
+   "act": "1255/21",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32021R1255R(01)",
+   "sha256": "cc2e7325dd246e0b7652836c0a1b7076840d90ea458b731ba1f6f9739795ed80",
+   "bytes": 3538,
+   "pdf_pages": 0,
+   "chars_recovered": 0,
+   "act": "1255/21",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  },
+  {
+   "celex": "32021R1255R(01)",
+   "sha256": "b776f480179b693e532c4ed186c63ad8ca7a21f1311ea8e9dca290b40dd61e46",
+   "bytes": 4768,
+   "pdf_pages": 0,
+   "chars_recovered": 0,
+   "act": "1255/21",
+   "act_number_in_recovered_text": false,
+   "corrigendum_headings_recovered": 0
+  }
+ ]
+}

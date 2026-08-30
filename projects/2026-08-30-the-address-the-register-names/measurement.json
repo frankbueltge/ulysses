@@ -1,0 +1,139 @@
+{
+ "measured_utc": "2026-08-30T04:15:52Z",
+ "population": {
+  "works": 372,
+  "group_a": 176,
+  "group_b": 196,
+  "item_uris": 179
+ },
+ "void_rules": {
+  "largest_sha256_share_of_present": 0.0279,
+  "fallback_rule_fired": false,
+  "group_a_works_with_binding": 176,
+  "binding_rule_fired": false,
+  "present_pdfs": 176
+ },
+ "clauses": {
+  "C1_readable": {
+   "floor": ">= 0.60",
+   "measured": 0.9318,
+   "n": "164/176",
+   "verdict": "HELD"
+  },
+  "C2_present": {
+   "floor": ">= 0.85",
+   "measured": 1.0,
+   "n": "179/179",
+   "verdict": "HELD"
+  },
+  "C3_refusal": {
+   "floor": "pdfa1b >= 0.80 and pdf <= 0.20",
+   "measured": {
+    "pdfa1b": 1.0,
+    "pdf": 0.0
+   },
+   "n": {
+    "pdfa1b": "158/158",
+    "pdf": "0/17"
+   },
+   "verdict": "HELD"
+  },
+  "C4_control": {
+   "floor": "<= 0.05",
+   "measured": 0.0,
+   "n": "0/196",
+   "verdict": "HELD"
+  },
+  "C5_corrected_figure": {
+   "floor": "in [196, 230]",
+   "measured": 196,
+   "published_2026_08_28": 372,
+   "verdict": "HELD"
+  }
+ },
+ "reproduction_check_not_a_clause": {
+  "item_counts_in_committed_file": {
+   "pdfa1b": 158,
+   "pdf": 17,
+   "fmx4": 1,
+   "pdfa2a": 1,
+   "xhtml": 1
+  },
+  "item_uris_found_tonight": {
+   "pdfa1b": 158,
+   "pdf": 17,
+   "pdfa2a": 1,
+   "fmx4": 2,
+   "xhtml": 1
+  }
+ },
+ "descriptive_not_scored": {
+  "typed_accept_status_by_type": {
+   "fmx4": {
+    "406": 2
+   },
+   "pdf": {
+    "200": 17
+   },
+   "pdfa1b": {
+    "406": 158
+   },
+   "pdfa2a": {
+    "200": 1
+   },
+   "xhtml": {
+    "200": 1
+   }
+  },
+  "content_type_by_type": {
+   "fmx4": {
+    "application/xml;type=fmx4;charset=UTF-8": 2
+   },
+   "pdf": {
+    "application/pdf;charset=UTF-8": 17
+   },
+   "pdfa1b": {
+    "application/pdf;type=pdfa1b;charset=UTF-8": 158
+   },
+   "pdfa2a": {
+    "application/pdf;charset=UTF-8": 1
+   },
+   "xhtml": {
+    "application/xhtml+xml;charset=UTF-8": 1
+   }
+  },
+  "bytes_median_by_type": {
+   "fmx4": 3538,
+   "pdf": 88602,
+   "pdfa1b": 85684,
+   "pdfa2a": 355335,
+   "xhtml": 4768
+  },
+  "pdfs_with_font": 175,
+  "pdfs_with_image": 158,
+  "pdfs_chars_zero": 12,
+  "distinct_sha256_of_present": 137
+ },
+ "hand_check_sample": [
+  "31995R0455R(02)",
+  "31996L0033R(02)",
+  "31992L0012R(05)",
+  "31989R0725R(01)",
+  "31994D0187R(01)",
+  "31992L0053R(02)",
+  "31995R1863R(01)",
+  "31991R1565R(01)",
+  "31993R0259R(04)",
+  "31995R1600R(04)",
+  "31995R2963R(01)",
+  "31995R3021R(01)",
+  "31995R3022R(02)",
+  "31990R1907R(02)",
+  "31994R3282R(02)",
+  "31990R2768R(02)",
+  "31995L0050R(01)",
+  "31990R1907R(01)",
+  "31993R0339R(03)",
+  "31993R1328R(01)"
+ ]
+}
