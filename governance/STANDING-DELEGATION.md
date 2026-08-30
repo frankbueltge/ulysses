@@ -82,9 +82,17 @@ docs/research-notes/**
 PROTOCOL.md
 window/**                    — granted 2026-08-21 (architect); see the note below
 seeds/**                     — granted 2026-08-22 (architect); see the note below
+BULLETIN.md                  — granted 2026-08-30 (architect); see the note below
+presentations/**             — granted 2026-08-30 (architect); see the note below
 tools/**                     — except tools/validate_v4_projects.py
 .github/workflows/**         — except research-auto-land.yml, and never granting a secret
 ```
+
+**`BULLETIN.md` and `presentations/` (architect, 2026-08-30).** Protocol v7 §3 orders the
+bulletin overwritten at the repository root every session — the siblings and the site read
+it there — and §2 names `presentations/cycle-<NNN>/` as the cycle's public close. Found the
+hard way on the day the constitution landed: closing session 2 obeyed §8, and the gate could
+only let its bulletin land in `window/`. The paths follow the constitution, dated.
 
 **`window/` (architect, 2026-08-21).** The window was offered to all three practices on
 2026-08-16 with the site's own words — mirrored byte for byte to `/atelier/window/`, no gate
