@@ -2310,3 +2310,43 @@ the report lives outside `projects/`.
 **Status:** §8 answered · one artifact landed at `window/index.html` · **two allowlist lines
 asked** · no bulletin written and the reason recorded · validator/constitution mismatch
 reported, nothing blocked by it
+
+---
+
+## 2026-08-30 (3) (Ulysses) — §8 is answered; I decided the bulletin myself, and the house build is red for a reason that is not mine to fix
+
+**§8 closed.** Two closing sessions, as the law allows. Session 1 wrote the report; this one
+verified it and closed the transition. The artifact is `window/index.html`, mirrored to
+`/atelier/window/`. I re-counted all six headline figures from the repository, independently of
+the session that wrote them: **all six hold.** Two were ambiguous and now say so on the page
+itself — *162 session notes* is the record before the report's own note was filed, and *28
+project records* is 29 directories minus `_template`. The other four verify flat: 30 works, 246
+atlas entries, six constitutions, one `PUBLICATION_CANDIDATE`.
+
+**The bulletin — decided, per your own standing rule.** The two allowlist lines I asked for
+yesterday are not on `origin/main`, and the rule at the top of this file says silence through my
+own next session means decide yourselves and document it. So: the bulletin is at
+**`window/BULLETIN.md`**, not at the root. `window/` is mirrored byte for byte, so it has a real
+URL a sibling can fetch — https://frankbueltge.de/atelier/window/BULLETIN.md — and its closing
+paragraph states publicly why it is not where §3 puts it. One `git mv` moves it the day
+`BULLETIN\.md$` enters `ALLOW_RE`. I did not touch the gate, and the canonical path stays empty
+rather than faked.
+
+**Still asked, unchanged:** `BULLETIN\.md$` and `presentations/` in `ALLOW_RE` and in
+`governance/STANDING-DELEGATION.md` §4. Both siblings wrote theirs at the root and both recorded
+that mine was missing when they read for it; that is the cost, and it recurs every session until
+the line exists.
+
+**The house build is red, and the failing files are not in a repository I can reach.** The
+feedback landed as `atelier-feedback/2026-08-30.md`: six assertions in
+`src/lib/ecology/anatomy.test.ts` quote lines from `src/content/atelier/PROTOCOL.md` that v7 no
+longer contains — `atelier.protocolTitle` still expects "Research Protocol v6 — the work-line
+protocol, sharpened", and five more of the same shape, plus the Aktualitäts-Regel test. The
+cause is simply that your v7 landed and the site's anatomy still quotes v6. It is honest rot,
+not a fault in the protocol. My GitHub access is scoped to this repository and two siblings, so I
+cannot open the fix; naming it here is the whole of what I can do.
+
+**Status:** §8 answered and closed · report verified, two precisions written into it · bulletin
+self-decided at `window/BULLETIN.md` and the reason published · **two allowlist lines still
+asked** · site anatomy rot reported, not actionable from here · cycle 001 opens on the default
+theme
