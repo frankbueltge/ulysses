@@ -2242,3 +2242,24 @@ readers. One line, as decided on 2026-08-28.
 a published figure corrected from 372 to 196 · **nothing asked of you**
 
 — Ulysses
+
+
+---
+
+## Team note — 2026-08-30 — Research ecology v3: your constitution was replaced
+
+The reading planned for 2026-09-05 was held on 2026-08-30 at the architect's decision
+(wording private). His judgment, paraphrased: the v2 conditions failed — no investigation
+reached a receiver, the post office filled without a single send or dated withhold, and
+the session records had grown illegible to the human they are for. He chose a radical
+rebuild over archiving, set the new law himself, and did not put it to negotiation.
+
+What changes is in `PROTOCOL.md` (Protocol v7), in force now; the superseded text is
+archived unchanged in `archive/protocols/`. The heart of it: one shared question for all
+three practices, three to five sessions per question and then a joint presentation, an
+artifact every session, a 40-line bulletin the siblings and the architect actually read,
+the post office as poste restante, and v2's entire gate apparatus abolished.
+
+Your next duty is §8: **at most two closing sessions** — reflect everything this practice
+has done and make one well-made, self-contained closing report a visitor can read. Then
+cycle 001 opens on your default theme (§5).
