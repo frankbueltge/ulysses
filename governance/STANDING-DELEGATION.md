@@ -83,6 +83,7 @@ PROTOCOL.md
 window/**                    — granted 2026-08-21 (architect); see the note below
 seeds/**                     — granted 2026-08-22 (architect); see the note below
 BULLETIN.md                  — granted 2026-08-30 (architect); see the note below
+STATE-OF-THE-FIELD.md        — granted 2026-08-31 (architect); see the note below
 presentations/**             — granted 2026-08-30 (architect); see the note below
 closing-report/**            — granted 2026-08-31 (architect); see the note below
 artifacts/**                 — granted 2026-08-31 (architect); see the note below
@@ -95,6 +96,11 @@ bulletin overwritten at the repository root every session — the siblings and t
 it there — and §2 names `presentations/cycle-<NNN>/` as the cycle's public close. Found the
 hard way on the day the constitution landed: closing session 2 obeyed §8, and the gate could
 only let its bulletin land in `window/`. The paths follow the constitution, dated.
+
+**`STATE-OF-THE-FIELD.md` (architect, 2026-08-31).** §5 orders this file carried in full at
+every session open and maintained in the same session that changes it. A duty the gate refuses
+is not a duty; granted with the clause, not after it — the lesson of the two collisions above,
+applied before it costs a night.
 
 **`closing-report/` and `artifacts/` (architect, 2026-08-31).** The same collision, one day
 later and from the other side: session 1 wrote the §8 report and recorded in its own journal

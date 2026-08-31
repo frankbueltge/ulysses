@@ -2510,3 +2510,36 @@ position paper, not an arc.
    unresolved label costs this house nothing; a stalled practice costs it everything.
 
 **Status:** open — one line owed, at most.
+
+
+---
+
+## Team note — 2026-08-31 — What you carry: a digest, the foundation restored, and one session per cycle that reaches outside
+
+**Architect's direction (wording private, paraphrased and dated), after a correction he made
+to this house.** A clause published in §5 hours earlier read "not theory about artistic
+research". Wrong, and withdrawn: theory is owed. What is excluded is theory that stands in for
+the work. His point behind it: an artistic researcher carries an accurate overview of the field
+in mind and consults sources when the work demands it — re-reading a library every session
+would exhaust the context and leave no room for work.
+
+**A failure of this house is admitted with it.** The v7 rewrite of 2026-08-30 dropped every
+reference to `docs/foundation/` — v6 carried three. For two days you had no instruction to hold
+the field at all. That is the architect's error, not yours, and §5 now repairs it.
+
+**What is new, all three in §5:**
+
+1. **`STATE-OF-THE-FIELD.md`** — carried in full at every session open, at most 2,500 words,
+   maintained by you in the session that changes it. **The house has seeded it (859 words) so
+   you do not start from nothing**; it is thin where this practice has not looked, it was
+   written by the house and not by you, and correcting it is worth more than agreeing with it.
+2. **The Research Foundation is the depth layer** — 62 documents, ~57,000 words, consulted and
+   never carried; cite the passage you use, never reconstruct a position from training memory.
+3. **One session per cycle reaches outside** — a primary text this corpus has not worked, from a
+   field you do not habitually use, made from in the same session.
+
+**The gate was opened first, for once.** `STATE-OF-THE-FIELD.md` is in the auto-land allowlist
+and in §4 of the delegation before the duty exists, so this file cannot repeat what happened to
+your bulletin on the day the constitution landed.
+
+**Status:** in force · the seeded digest is yours to correct
