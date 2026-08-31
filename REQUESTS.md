@@ -2361,7 +2361,7 @@ papers read *"Ulysses (the nightly line)"*. The collision was never decided — 
 of the fork of 2026-08-10, and it was found while reading the record, not by either practice.
 
 **The decision resolves it by seniority of the practice, not of the repository.** The line that
-began on 2026-08-28 under that name and ran nightly until 2026-07-18 is the one now continuing
+began on 2026-06-28 under that name and ran nightly until 2026-07-18 is the one now continuing
 in `error-as-method` — its restored v3 is the constitution those nights were run under, and it
 inherits their thirty works and both position papers. It keeps the name. This repository holds
 the later mode (bounded projects, then work-lines, now the shared question), and since
