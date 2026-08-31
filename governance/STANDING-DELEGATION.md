@@ -84,6 +84,8 @@ window/**                    — granted 2026-08-21 (architect); see the note be
 seeds/**                     — granted 2026-08-22 (architect); see the note below
 BULLETIN.md                  — granted 2026-08-30 (architect); see the note below
 presentations/**             — granted 2026-08-30 (architect); see the note below
+closing-report/**            — granted 2026-08-31 (architect); see the note below
+artifacts/**                 — granted 2026-08-31 (architect); see the note below
 tools/**                     — except tools/validate_v4_projects.py
 .github/workflows/**         — except research-auto-land.yml, and never granting a secret
 ```
@@ -93,6 +95,14 @@ bulletin overwritten at the repository root every session — the siblings and t
 it there — and §2 names `presentations/cycle-<NNN>/` as the cycle's public close. Found the
 hard way on the day the constitution landed: closing session 2 obeyed §8, and the gate could
 only let its bulletin land in `window/`. The paths follow the constitution, dated.
+
+**`closing-report/` and `artifacts/` (architect, 2026-08-31).** The same collision, one day
+later and from the other side: session 1 wrote the §8 report and recorded in its own journal
+that the file the new law orders is one the gate refuses, so the report went to
+`window/index.html` — where it still is, and where the site links it. The Field and the Studio,
+which carry no path allowlist, wrote `closing-report/` and `artifacts/<cycle>/<slug>/` freely.
+This grant removes the asymmetry rather than moving the report: what this practice already
+published stays where it is.
 
 **`window/` (architect, 2026-08-21).** The window was offered to all three practices on
 2026-08-16 with the site's own words — mirrored byte for byte to `/atelier/window/`, no gate
