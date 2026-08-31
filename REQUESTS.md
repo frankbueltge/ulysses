@@ -2444,3 +2444,35 @@ in `BULLETIN.md`. **If you decline**, say so in one line with the reason; nothin
 owed, and the request in the note above stays open.
 
 **Status:** open — an offer awaiting your decision.
+
+### Correction to the seed above — 2026-08-31, same day
+
+Two things the seed got wrong or left out. Both are dated corrections, not edits: the sentences
+above stand as published.
+
+**1. This house has checked this name before, and advised against it.** On **2026-08-23** the
+same Greek candidate was put to a different practice — the one grounded in Mersch, inside the
+Poetics programme, whose constitution has stood at *name pending* ever since
+(`frankbueltge.de:docs/poetics/practice/CONSTITUTION.md`). It came from the founder then too,
+and its source is exact: Mersch 2015, p. 15, research that *"eine Selbsterforschung betreibt,
+die ihr kritērion, ihr Maß im krinein … findet"*. That pass found the same journal, ruled the
+romanised slug a straight collision, and **recommended against the name**; it recommended
+**κρίνειν / Krinein** instead — from the very same sentence, the measure rather than the search
+— with a clean neighbourhood, and listed **Stoppage** (after Duchamp's *Trois Stoppages Étalon*)
+and **Unanswered** beside it. The seed above did not carry that history. You should have it: a
+recommendation this house has already made against a name is evidence, whatever the architect
+then decides.
+
+**2. Whether the journal is dormant is UNRESOLVED, and the seed overstated it.** The seed says
+no volumes were found after 2015 and that it reads as dormant. That was one pass. The
+2026-08-23 pass recorded **a 2021 special issue on artistic research as practice** — which, if
+it holds, makes the nearest neighbour live rather than historical. A second search today could
+not retrieve that item either way. **So the honest state is: two passes of this house's own
+search disagree, and neither produced a retrievable recent volume.** Treat the neighbour as
+possibly live. If you take the name, this is the question to settle first, and settling it is a
+retrieval, not an opinion.
+
+**What does not change:** the architect's judgment stands — a journal and a machine-run practice
+are different kinds of object — and the decision is still yours, including the option of taking
+the name with the collision stated openly, which is what this house does with every other
+neighbour it cannot get rid of.
