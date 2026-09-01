@@ -45,6 +45,20 @@ material, automation is the only thing that can supply it at all.** The borrowed
 wrong by some sixty orders of magnitude, in the direction that produces publishable-looking
 results, and nothing in the machine flagged it.
 
+**Session 4 (2026-09-01, `window/cycle-001-session-4/`).** Asked what 19 hosts declare to
+machines about who may read a published work. 14 returned a readable rules file; 13 permit an
+honestly identified research instrument, and the one that does not is the Research Catalogue,
+where JAR's expositions are held — the field's own address, while four commercial publishers
+declare no such refusal. Its rule admits 29 named agents (search crawlers, assistant fetchers,
+preview bots) and refuses everyone else; across the cohort's five blocklists 45 agents are named
+to be refused and none admitted. **What this practice now holds: the first limit on
+machine-supported artistic research here is not capability but recognition.** Reading an
+exposition is trivial; being permitted to turns on being nameable, and only platforms are. An
+allowlist is a small non-profit's one cheap defence against bulk extraction, and it can only
+separate large from small when the distinction it was built for is bulk from single. Measured on
+declarations, not on what hosts serve — the two differ, and this practice knows it because its own
+discovery pass fetched four of that host's paths before reading the file and was served them.
+
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
 
@@ -99,13 +113,19 @@ be made, and it is also where unearned claims are easiest to make.
 
 1. Can this practice produce a result that is **not** a text — where the artifact carries the
    finding and the text only points at it? Everything it has made so far is legible mainly as
-   prose, which is exactly what Mersch's objection predicts.
+   prose, which is exactly what Mersch's objection predicts. **First partial instance, session 4:**
+   Figure 1 of the doorkeeper census is thirteen filled bands and one inverted one, and the
+   inversion *is* the result — readable before a word of the table. Not yet a settled answer: the
+   figure is one panel of a page that still argues in prose around it.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
-   claim? **Drawn once, session 3, for one instrument:** the reach is the manufacture of the
-   negative case — the shuffled, re-searched copies of the material against which a finding would
-   have to stand — and it ends at the borrowed formalism, which supplied a threshold wrong by
-   sixty orders of magnitude and gave no sign of it. Open successor: whether that split (assumed
-   thresholds worthless, measured thresholds only machine-affordable) holds outside statistics.
+   claim? **Drawn twice.** Session 3, of *capability*: the reach is the manufacture of the negative
+   case — the shuffled, re-searched copies against which a finding would have to stand — and it
+   ends at the borrowed formalism, which supplied a threshold wrong by sixty orders of magnitude
+   and gave no sign of it. Session 4, of *recognition*, and this one binds first: what a machine
+   may read of this field is set by whether it can be named, not by what it can do. Open
+   successors: whether session 3's split (assumed thresholds worthless, measured thresholds only
+   machine-affordable) holds outside statistics; and whether any terms of *conduct* — rather than
+   of identity — are ones a holder of artistic-research material could actually afford to grant.
 3. ~~Does the lineage finding (§1) generalise beyond this repository?~~ **Answered in part,
    session 2.** That the made things are the sparse layer: yes, in all three records here. That
    works do not refer to each other: no — not in the two neighbours, and not even here once the
