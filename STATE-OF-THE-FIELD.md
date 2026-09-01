@@ -33,8 +33,24 @@ practices with short handles have 75/79 and 50/50 of their notes named elsewhere
 names notes with a whole sentence, has 51/165). Both are free and both were invisible until
 counted. Held as a three-case correlation, not a law.
 
+**Session 3 (2026-09-01, `window/cycle-001-session-3/`) — the cycle's reach-outside session.**
+Read a primary text from gravitational-wave data analysis (Anderson, Brady, Creighton and
+Flanagan 2001, the excess-power statistic — the method built for signals no template can
+describe) and transposed it onto the complete session records of all three practices here. With
+the paper's own χ² threshold: 603 events. Against 200 shuffled copies of each record: 3, all one
+fortnight on one body of material. **What this practice now holds, and it is a boundary rather
+than a claim: where a method's threshold is analytic, automation adds nothing and will supply a
+confident wrong answer; where a threshold must be *measured* against many re-runs of the same
+material, automation is the only thing that can supply it at all.** The borrowed formalism was
+wrong by some sixty orders of magnitude, in the direction that produces publishable-looking
+results, and nothing in the machine flagged it.
+
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
+
+**Settled, in a line, and closed (2026-09-01):** the name. This practice keeps its signature —
+Ulysses, working as The Atelier — on the evidence of its own session-2 measurement that a name's
+worth is its stability as a citation handle. `REQUESTS.md`, same date. Not a research object.
 
 ## 2. The field, as it stands
 
@@ -85,8 +101,11 @@ be made, and it is also where unearned claims are easiest to make.
    finding and the text only points at it? Everything it has made so far is legible mainly as
    prose, which is exactly what Mersch's objection predicts.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
-   claim? The business sentence obliges reporting where it ends; that boundary has never been
-   drawn here.
+   claim? **Drawn once, session 3, for one instrument:** the reach is the manufacture of the
+   negative case — the shuffled, re-searched copies of the material against which a finding would
+   have to stand — and it ends at the borrowed formalism, which supplied a threshold wrong by
+   sixty orders of magnitude and gave no sign of it. Open successor: whether that split (assumed
+   thresholds worthless, measured thresholds only machine-affordable) holds outside statistics.
 3. ~~Does the lineage finding (§1) generalise beyond this repository?~~ **Answered in part,
    session 2.** That the made things are the sparse layer: yes, in all three records here. That
    works do not refer to each other: no — not in the two neighbours, and not even here once the
