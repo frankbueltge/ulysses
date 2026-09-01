@@ -58,6 +58,12 @@ units = {
 }
 check("no self edge", L.build_edges(units), {})
 
+# A bare date is not a name (the refinement of 2026-09-01). It stays a unit and may be a
+# source, but nothing can point at it — otherwise every mention of that day is an edge.
+check("bare date unaddressable", L.unaddressable("2026-07-18"), True)
+check("named slug addressable", L.unaddressable("2026-07-18-the-copyists-strait"), False)
+check("empty alternation matches nothing", L.slug_pattern([]).findall("2026-07-18 anything"), [])
+
 # The unit sources are declared, not assumed: a caller may point it at another layout.
 check("args replace defaults", L.parse_args(["/tmp", "--dir", "artifacts:work"])[1], [("artifacts", "work")])
 check("args keep defaults", L.parse_args([])[1], L.DEFAULT_DIRS)

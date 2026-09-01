@@ -84,6 +84,8 @@ def read_text(path: Path) -> str:
 def slug_pattern(slugs: list[str]) -> re.Pattern:
     """One alternation, longest first, with boundaries that stop a slug matching
     inside a longer slug (METHOD.md § Edges)."""
+    if not slugs:
+        return re.compile(r"(?!)")  # matches nothing, rather than everything
     ordered = sorted(slugs, key=len, reverse=True)
     body = "|".join(re.escape(s) for s in ordered)
     return re.compile(rf"(?<![0-9A-Za-z-])({body})(?![0-9A-Za-z-])")
@@ -115,8 +117,24 @@ def occurrence_class(path: Path, text: str, target: str) -> str:
     return "field" if total and bare >= total else "prose"
 
 
+# ————————————————————————————————————————————— the refinement of 2026-09-01 ——
+# Added after running the instrument on two sibling repositories and reading the raw
+# edges, as METHOD.md § Fixed before running requires. It changes nothing in the
+# 2026-08-31 measurement, whose units all carry long descriptive slugs. It matters
+# only where a unit's whole slug is a bare date — `journal/2026-07-18.md`. Such a slug
+# is not a name: it matches every mention of that day in any sentence, so "sixteen days
+# before this night, 2026-08-14" was being counted as a reference to a note. A unit that
+# cannot be named except by naming a date is unaddressable, and is therefore not a
+# possible target of an edge. It stays a unit and can still be a source.
+BARE_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def unaddressable(slug: str) -> bool:
+    return bool(BARE_DATE_RE.match(slug))
+
+
 def build_edges(units: dict[str, dict]) -> dict[tuple[str, str], str]:
-    pattern = slug_pattern(list(units))
+    pattern = slug_pattern([s for s in units if not unaddressable(s)])
     edges: dict[tuple[str, str], str] = {}
     for slug, unit in units.items():
         for f in unit["files"]:
@@ -187,7 +205,7 @@ def journal_layer(root: Path, units: dict[str, dict]) -> dict:
     jdir = root / "journal"
     if not jdir.is_dir():
         return {"notes": 0, "notes_naming_a_unit": 0, "units_named": 0}
-    pattern = slug_pattern(list(units))
+    pattern = slug_pattern([s for s in units if not unaddressable(s)])
     notes = sorted(p for p in jdir.glob("*.md") if p.is_file())
     named: set[str] = set()
     with_hit = 0
@@ -313,6 +331,7 @@ def main() -> None:
         "method": "tools/lineage/METHOD.md",
         "repository": root.name,
         "unit_sources": {"dirs": dirs, "globs": globs},
+        "unaddressable_units": sorted(s for s in units if unaddressable(s)),
         "all_edges": summarise(units, edges),
         "prose_edges_only": summarise(units, prose_only),
         "journal_layer": journal_layer(root, units),

@@ -88,3 +88,30 @@ not. It is never mixed into the three figures above.
 - The instrument reads only committed files in this repository. No network.
 - If a figure comes out surprising, the first move is to print the raw edges and read
   them, not to adjust the definition.
+
+---
+
+## The refinement of 2026-09-01 — a bare date is not a name
+
+*Written below the original, never over it, as § Fixed before running requires. Added
+after the instrument was run on two sibling repositories and the raw edges were read.*
+
+Pointing the instrument at another practice's session log meant taking files as units
+whose whole slug is a date: `journal/2026-07-18.md`. Such a slug is not a name. It
+matches **every mention of that day in any sentence**, so a line reading "sixteen days
+before this night, 2026-08-14" was being counted as a reference to a note.
+
+**The rule.** A unit whose slug is exactly `YYYY-MM-DD` is *unaddressable*: it stays a
+unit, it may still be the source of an edge, and it is never the target of one. Nothing
+can point at it, because nothing can name it without naming a date instead.
+
+**What it changed.** Nothing in the measurement of 2026-08-31, whose units all carry a
+date *and* a descriptive name — that run reports zero unaddressable units, and no figure
+in `window/cycle-001/` moves. Across three session logs it removes 173 of 256 apparent
+references. The count of unaddressable units is now reported in every run, so a reader
+can see when the rule was doing work.
+
+**What it does not fix.** The instrument still measures only what a record *states*, and
+short slugs are easier to state than long ones. That is a property of the records, not a
+bias to be corrected away — it is reported as a finding in
+`window/cycle-001-session-2/`, not compensated for here.

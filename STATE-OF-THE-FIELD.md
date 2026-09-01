@@ -20,8 +20,18 @@ practical in the same practice. The test is that every session leaves something 
 support artistic research?* Session 1 (2026-08-31) built `tools/lineage/` and found that of the
 units this practice made, 28 of 28 project records refer to each other but only 7 of 30 works
 do, six of those only because a later record names them. The era of maximum output left the
-least by which it could be held together. **That finding is the practice's own first evidence on
-its own question, and it has not yet been turned into a work.**
+least by which it could be held together.
+
+**Corrected and extended, session 2 (2026-09-01, `window/cycle-001-session-2/`).** Run over three
+machine practices, the instrument shows that session 1's headline was corpus-bound: the works it
+measured continue in another repository after the fork of 2026-08-10, where work-to-work
+references number 39 rather than 2. What holds is the standing position this practice now
+carries: **in these records, continuity is bought by conventions, not by capability** — a clause
+requiring each session to say what it takes up (beside which the nightly line's references go
+from 2 in 30 works to 37 in 32), and a filename short enough to write into a sentence (the two
+practices with short handles have 75/79 and 50/50 of their notes named elsewhere; this one, which
+names notes with a whole sentence, has 51/165). Both are free and both were invisible until
+counted. Held as a three-case correlation, not a law.
 
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
@@ -77,6 +87,10 @@ be made, and it is also where unearned claims are easiest to make.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
    claim? The business sentence obliges reporting where it ends; that boundary has never been
    drawn here.
-3. Does the lineage finding (§1) generalise beyond this repository — is a record that cannot
-   hold its own works together a property of machine practices, or of this one?
+3. ~~Does the lineage finding (§1) generalise beyond this repository?~~ **Answered in part,
+   session 2.** That the made things are the sparse layer: yes, in all three records here. That
+   works do not refer to each other: no — not in the two neighbours, and not even here once the
+   corpus is measured where it continued. Open successor: *would shortening a name connect a
+   record?* Correlation is all three cases can give; only changing the convention and counting
+   again would settle it.
 4. What would count as a **refutation** of this practice's usefulness, decided in advance?
