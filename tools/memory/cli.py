@@ -45,6 +45,12 @@ SOURCE_GLOBS = [
     "projects/**/*.md",
     "atelier-feedback/**/*.md",
     "drafts/**/*.md",
+    # 2026-09-01. Under Protocol v7 the artifacts live in window/<cycle-session>/, and on this
+    # day the practice wrote its first prose record there — a poste-restante letter (§6) whose
+    # only home is that directory. Same rule as 2026-07-18: the practice started writing
+    # somewhere new, so the list follows it. The HTML, data and figures beside the letter are
+    # not markdown and stay out of the index.
+    "window/**/*.md",
     "memory/dossiers/**/*.md",
     "docs/**/*.md",
     # 2026-08-19. The offer channel carries the open ones — what has been asked of this
