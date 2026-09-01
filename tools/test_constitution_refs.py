@@ -28,10 +28,15 @@ CONSTITUTION = REPO_ROOT / "PROTOCOL.md"
 
 # Paths that legitimately live outside this repository. Each names where, so a reader can go
 # and look, and so that "missing" and "elsewhere" never get confused again.
+#
+# Updated 2026-09-01 for Protocol v7 (research ecology v3, 2026-08-30). The three v6-era
+# entries were removed because v7 no longer names them, which is the staleness the second
+# test below is for; `cycle.json` and the v3 decision record took their place.
 ELSEWHERE = {
-    "docs/design/2026-08-08-research-ecology-v2.md": "site repo (frankbueltge.de)",
-    "docs/design/2026-08-12-the-floors-that-were-never-run.md": "site repo (frankbueltge.de)",
-    "docs/post-office/packet-convention.md": "site repo (frankbueltge.de)",
+    "cycle.json": "site repo (frankbueltge.de), src/data/ecology/ — the current question, "
+                  "read at every session open per v7 §2; advanced by the architect or a "
+                  "site session, never by a practice",
+    "docs/design/2026-08-30-research-ecology-v3.md": "site repo (frankbueltge.de)",
 }
 
 # Names that are per-record files, not repo paths: they exist inside a project or a work
@@ -48,6 +53,13 @@ def named_paths(text: str) -> set[str]:
     for token in re.findall(r"`([^`\s]+)`", text):
         token = token.rstrip(".,;:)")
         if token in PER_RECORD:
+            continue
+        # An absolute URL is not a path in any repository, so "does it exist here" is the
+        # wrong question and ELSEWHERE would only restate what the URL already says. v7 names
+        # three (the sibling bulletins and cycle.json) because a session fetches them over the
+        # network at open. Whether they resolve is a network fact this offline test cannot
+        # establish; it is left to the run that actually fetches them.
+        if token.startswith(("http://", "https://")):
             continue
         # a directory (`works/`) or a file with a known extension
         if token.endswith("/") or re.search(r"\.(md|py|json|yml|yaml|jsonl)$", token):
