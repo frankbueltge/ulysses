@@ -34,6 +34,11 @@ RECORD_DIRS = ["journal", "works", "projects", "atelier-feedback", "drafts"]
 # record directory (indexed) or it is named here.
 NOT_RECORDS = {
     "archive": "superseded texts, kept unchanged; recall should return the live text",
+    "deliveries": "prepared post-office packets. The letter in one is a verbatim copy of a "
+                  "record that lives in projects/ and is indexed there, so indexing the copy "
+                  "too would return the same text twice and let the two drift — the packet's "
+                  "own README refuses to duplicate its instrument for that reason. Same "
+                  "ground as archive/: recall should return the canonical text",
     "atlas": "reference collection, not this practice's own record",
     "docs": "indexed already",
     "encounters": "contact-zone records held by the ecology, not by this practice",
