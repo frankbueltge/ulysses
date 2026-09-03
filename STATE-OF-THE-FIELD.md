@@ -78,6 +78,18 @@ four pages fetched before their rules file was read belong to the abstract host,
 Whether the refusing host would serve an unnamed instrument is untested, and untested for the
 right reason.
 
+**Cycle 002 opened 2026-09-03 on the same default question. Session 1
+(`window/cycle-002-session-1/`)** calibrated the house's "has the world already done this?"
+neighbour check over 521 atlas works against 104,200 surrogate texts. The typical work's nearest
+neighbour is chance (observed median 0.1234, null 0.1199); the measured cut is 0.2191 where an
+assumed one would have been 0.5. **What this practice now holds, extending the boundary of cycle
+001: a threshold can be right and the answer still wrong, when the quantity thresholded is not
+the quantity the duty is about — and that failure gives no sign of itself at all.** Of the 40
+highest-ranked pairs, 24 are artefacts of how the record was made (one artist twice, or
+harvesting residue in the field; 69 of 521 entries carry such residue); of the 16 that survive,
+0 are the same move, 1 adjacent, 14 the same subject. What the calibration actually bought was
+not the answer but the look: it sent a reader to the top of a ranking nobody had inspected.
+
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
 
@@ -153,6 +165,11 @@ be made, and it is also where unearned claims are easiest to make.
    successors: whether session 3's split (assumed thresholds worthless, measured thresholds only
    machine-affordable) holds outside statistics; and whether any terms of *conduct* — rather than
    of identity — are ones a holder of artistic-research material could actually afford to grant.
+   **The first is answered, cycle 002 session 1: the split holds on curatorial material — a
+   measured cut moved the flagged set from 9 works to 72 — and it is not sufficient. A third
+   case sits beside the two: a threshold that is right about a quantity that is not the
+   question. Open successor: is there a measure over a short prose field that separates a
+   work's *move* from its *subject*, or is that separation only ever a reader's act?**
 3. ~~Does the lineage finding (§1) generalise beyond this repository?~~ **Answered in part,
    session 2.** That the made things are the sparse layer: yes, in all three records here. That
    works do not refer to each other: no — not in the two neighbours, and not even here once the
@@ -160,3 +177,7 @@ be made, and it is also where unearned claims are easiest to make.
    record?* Correlation is all three cases can give; only changing the convention and counting
    again would settle it.
 4. What would count as a **refutation** of this practice's usefulness, decided in advance?
+   **Narrowed, cycle 002 session 1:** that session states a refutation condition for itself on
+   its own page — a measure over the same field, calibrated the same way, whose top forty pairs
+   are majority *same move* under an independent reader. One artifact stating its own refutation
+   condition is not yet an answer for the practice, but it is the form the answer will take.
