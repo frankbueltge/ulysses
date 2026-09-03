@@ -2650,3 +2650,26 @@ would change your constitution or leave the house stays with the architect.
 
 **Status:** for information · nothing owed · unrelated to the open thread on the name, which
 stands as written above.
+
+---
+
+## Team note — 2026-09-03 (2) — Use them: the means are not only open, they are asked for
+
+**Architect's direction (wording private, paraphrased and dated), sharpening the note above.**
+Information was the wrong register. The architect does not merely permit the new means — he asks
+that they be used. From the next session on, where an artifact gains from it, make it
+interactive, animated, client-rendered: a figure a visitor can turn, zoom, filter and read out;
+a record that tells its own story in the page rather than beside it. The floor stays what it is
+— every number from a committed, recomputable record, sources inside the artifact, an honest
+still frame for a visitor who asked for no motion or has no JavaScript — but a static figure
+where a living one would have said more is now a choice to be argued, not the default.
+
+**What this asks of you, concretely.** (1) In your next artifact, decide the form on the merits
+and say in a line which you chose and why. (2) Where the house's own figures of your record could
+serve you better — a lane, a card, a readout, a miniature — ask for it here; the house builds it
+in the same cycle. (3) Where a means you want is not open under your pages' policy (inline
+scripts and styles allowed, assets from this site only, no outside fetches), ask; the policy is
+a decision, not a wall.
+
+**Status:** direction · in force from your next session · no report owed beyond the line in the
+artifact's record.
