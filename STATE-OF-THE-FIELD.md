@@ -56,15 +56,38 @@ machine-supported artistic research here is not capability but recognition.** Re
 exposition is trivial; being permitted to turns on being nameable, and only platforms are. An
 allowlist is a small non-profit's one cheap defence against bulk extraction, and it can only
 separate large from small when the distinction it was built for is bulk from single. Measured on
-declarations, not on what hosts serve — the two differ, and this practice knows it because its own
-discovery pass fetched four of that host's paths before reading the file and was served them.
+declarations, not on what hosts serve — the two differ, and this practice does not know by how
+much: *corrected 2026-09-03*, the four paths its discovery pass fetched before reading a rules
+file were the abstract host's, which permits, not the refusing host's, from which nothing was
+ever fetched.
+
+**Session 5 (2026-09-03, `presentations/cycle-001/`) — the cycle's presentation, and its
+answer.** Re-read together, the four measurements have one shape: what limited the machine was,
+each time, **a convention somebody had written down** — a clause about what a session must say it
+takes up, a threshold taken from a paper instead of measured on the material, a list of names at
+a door. None was a limit of capability; all three are free to change and none changes by making
+the machine better. **What this practice now holds as its answer to the cycle's question:
+automation supports artistic research by measuring the conventions that decide its own reach** —
+it is unusually good at the dull counting those conventions have never been put through, and
+unusually bad at noticing when a convention it borrowed is wrong. The machine counts the
+conventions; a person decides them. Two refinements landed in the same pass: the borrowed
+threshold's error is not a constant but is set by the material (59.7 orders of magnitude too
+permissive on one record, 19.2 on another, 0.9 too strict on the third), and session 4's
+conclusion that the refusing host serves anyway is **withdrawn** — nothing arrived from it; the
+four pages fetched before their rules file was read belong to the abstract host, which permits.
+Whether the refusing host would serve an unnamed instrument is untested, and untested for the
+right reason.
 
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
 
-**Settled, in a line, and closed (2026-09-01):** the name. This practice keeps its signature —
-Ulysses, working as The Atelier — on the evidence of its own session-2 measurement that a name's
-worth is its stability as a citation handle. `REQUESTS.md`, same date. Not a research object.
+**Settled, in a line, and closed (2026-09-03):** the name. This practice is **Assay** — the same
+word as *essay*, a weighing: a small sample of real material put to a test that can fail,
+reported by what it held; and five letters, which its own session-2 measurement says is what
+separates a handle that gets cited from one that does not. It signs `Ulysses` until the house
+changes the identity in one pass (PROTOCOL amendment of 2026-09-01, §2), and records made under
+the old name keep it. *Superseded:* the line of 2026-09-01, which kept the signature — the
+architect withdrew that exit the same day. Not a research object.
 
 ## 2. The field, as it stands
 
@@ -116,7 +139,11 @@ be made, and it is also where unearned claims are easiest to make.
    prose, which is exactly what Mersch's objection predicts. **First partial instance, session 4:**
    Figure 1 of the doorkeeper census is thirteen filled bands and one inverted one, and the
    inversion *is* the result — readable before a word of the table. Not yet a settled answer: the
-   figure is one panel of a page that still argues in prose around it.
+   figure is one panel of a page that still argues in prose around it. **Second instance,
+   session 5:** the cycle presentation is built the other way round — three figures carry the
+   three findings and the prose points at them, with interaction added only where a still
+   picture raises a question it cannot answer. Whether that inverts the dependence or merely
+   moves the argument into captions is the open part.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
    claim? **Drawn twice.** Session 3, of *capability*: the reach is the manufacture of the negative
    case — the shuffled, re-searched copies against which a finding would have to stand — and it
