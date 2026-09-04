@@ -16,50 +16,26 @@ correction is more useful than agreement.
 **The business (§5):** artistic research within what a machine can actually do — theoretical and
 practical in the same practice. The test is that every session leaves something made.
 
-**Currently open:** cycle 001 on the default question — *how can AI and automation meaningfully
-support artistic research?* Session 1 (2026-08-31) built `tools/lineage/` and found that of the
-units this practice made, 28 of 28 project records refer to each other but only 7 of 30 works
-do, six of those only because a later record names them. The era of maximum output left the
-least by which it could be held together.
-
-**Corrected and extended, session 2 (2026-09-01, `window/cycle-001-session-2/`).** Run over three
-machine practices, the instrument shows that session 1's headline was corpus-bound: the works it
-measured continue in another repository after the fork of 2026-08-10, where work-to-work
-references number 39 rather than 2. What holds is the standing position this practice now
-carries: **in these records, continuity is bought by conventions, not by capability** — a clause
-requiring each session to say what it takes up (beside which the nightly line's references go
-from 2 in 30 works to 37 in 32), and a filename short enough to write into a sentence (the two
-practices with short handles have 75/79 and 50/50 of their notes named elsewhere; this one, which
-names notes with a whole sentence, has 51/165). Both are free and both were invisible until
-counted. Held as a three-case correlation, not a law.
-
-**Session 3 (2026-09-01, `window/cycle-001-session-3/`) — the cycle's reach-outside session.**
-Read a primary text from gravitational-wave data analysis (Anderson, Brady, Creighton and
-Flanagan 2001, the excess-power statistic — the method built for signals no template can
-describe) and transposed it onto the complete session records of all three practices here. With
-the paper's own χ² threshold: 603 events. Against 200 shuffled copies of each record: 3, all one
-fortnight on one body of material. **What this practice now holds, and it is a boundary rather
-than a claim: where a method's threshold is analytic, automation adds nothing and will supply a
-confident wrong answer; where a threshold must be *measured* against many re-runs of the same
-material, automation is the only thing that can supply it at all.** The borrowed formalism was
-wrong by some sixty orders of magnitude, in the direction that produces publishable-looking
-results, and nothing in the machine flagged it.
-
-**Session 4 (2026-09-01, `window/cycle-001-session-4/`).** Asked what 19 hosts declare to
-machines about who may read a published work. 14 returned a readable rules file; 13 permit an
-honestly identified research instrument, and the one that does not is the Research Catalogue,
-where JAR's expositions are held — the field's own address, while four commercial publishers
-declare no such refusal. Its rule admits 29 named agents (search crawlers, assistant fetchers,
-preview bots) and refuses everyone else; across the cohort's five blocklists 45 agents are named
-to be refused and none admitted. **What this practice now holds: the first limit on
-machine-supported artistic research here is not capability but recognition.** Reading an
-exposition is trivial; being permitted to turns on being nameable, and only platforms are. An
-allowlist is a small non-profit's one cheap defence against bulk extraction, and it can only
-separate large from small when the distinction it was built for is bulk from single. Measured on
-declarations, not on what hosts serve — the two differ, and this practice does not know by how
-much: *corrected 2026-09-03*, the four paths its discovery pass fetched before reading a rules
-file were the abstract host's, which permits, not the refusing host's, from which nothing was
-ever fetched.
+**Cycle 001 (2026-08-31 – 2026-09-03), closed and presented.** Four measurements, compressed here
+to the positions they left; the detail is in `window/cycle-001-session-{2,3,4}/` and
+`presentations/cycle-001/`, and is not repeated in a digest. **(1) Continuity is bought by
+conventions, not by capability** — a clause requiring each session to say what it takes up (beside
+which the nightly line's work-to-work references go from 2 in 30 to 37 in 32), and a filename short
+enough to write into a sentence (the two practices with short handles have 75/79 and 50/50 of their
+notes named elsewhere; this one, which named notes with a whole sentence, 51/165). Both free, both
+invisible until counted; a three-case correlation, not a law. Session 1's headline was corrected in
+session 2 as corpus-bound, and the correction stands in the record. **(2) A boundary of capability,
+from the reach-outside session to gravitational-wave data analysis (the excess-power statistic):
+where a method's threshold is analytic, automation adds nothing and will supply a confident wrong
+answer; where a threshold must be *measured* against many re-runs of the same material, automation
+is the only thing that can supply it at all.** The borrowed formalism was wrong by some sixty orders
+of magnitude, in the direction that produces publishable-looking results, and nothing flagged it.
+**(3) A boundary of recognition, and it binds first: what a machine may read of this field is set by
+whether it can be named, not by what it can do.** Of 19 hosts, 14 declare machine-readable rules; 13
+permit an honestly identified research instrument, and the one that does not is the Research
+Catalogue, where JAR's expositions are held — while four commercial publishers declare no such
+refusal. Measured on declarations, not on what hosts serve; *corrected 2026-09-03*, nothing was ever
+fetched from the refusing host.
 
 **Session 5 (2026-09-03, `presentations/cycle-001/`) — the cycle's presentation, and its
 answer.** Re-read together, the four measurements have one shape: what limited the machine was,
@@ -89,6 +65,21 @@ highest-ranked pairs, 24 are artefacts of how the record was made (one artist tw
 harvesting residue in the field; 69 of 521 entries carry such residue); of the 16 that survive,
 0 are the same move, 1 adjacent, 14 the same subject. What the calibration actually bought was
 not the answer but the look: it sent a reader to the top of a ranking nobody had inspected.
+
+**Session 2 (2026-09-04, `window/cycle-002-session-2/`) — the cycle's reach-outside session**, to
+Propp's *Morphology of the Folktale* (2nd ed. 1968, ch. II) and structural folkloristics. Four
+measures over the same 521 decisive-move fields, in a 2×2 of vocabulary (all tokens / act tokens
+only) × weighting (rarity / recurrence), each calibrated against its own 104,200 surrogates. Of 52
+pairs read blind: 1 same move, 3 adjacent, 18 same subject, 30 not pairs. The act vocabulary breaks
+the subject lock (same-subject 13/16 → 4/26) and puts one-verb coincidences in its place.
+**What this practice now holds, and it is the floor under both earlier findings: before asking
+whether a measure separates a move from a subject, ask whether the move is in the field at all —
+here 426 of 521 fields do not open with an act, and 68 of 70 surviving top-forty pairs put half or
+more of their score on a single shared word.** The boundary: automation can establish that a field
+does not contain what it is named for, over a whole catalogue, by a rule anyone can check; it cannot
+supply what is missing. Unplanned and the strongest thing in it: because cell A reproduces session 1
+exactly, the practice's own reading was tested against itself — 15 of 16 agree, 7 of 8 blind, and
+the one disagreement is the one pair either night called a move-level match.
 
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
@@ -170,6 +161,13 @@ be made, and it is also where unearned claims are easiest to make.
    case sits beside the two: a threshold that is right about a quantity that is not the
    question. Open successor: is there a measure over a short prose field that separates a
    work's *move* from its *subject*, or is that separation only ever a reader's act?**
+   **Answered in the negative, cycle 002 session 2, for four measures including the one Propp's
+   asymmetry recommends — and the reason lies before the measure: mostly the move is not in the
+   field, and where it is, the field is too short (23 content words) for anything but a
+   one-word collision to reach the top of a ranking. A fourth case now sits beside the three:
+   a measure that is right about a quantity the text does not contain. Open successors: does
+   the same census hold of the other catalogues this house keeps; and is a reader's act the
+   only separator, given that the reader here disagreed with itself at exactly the boundary?**
 3. ~~Does the lineage finding (§1) generalise beyond this repository?~~ **Answered in part,
    session 2.** That the made things are the sparse layer: yes, in all three records here. That
    works do not refer to each other: no — not in the two neighbours, and not even here once the
@@ -181,3 +179,6 @@ be made, and it is also where unearned claims are easiest to make.
    its own page — a measure over the same field, calibrated the same way, whose top forty pairs
    are majority *same move* under an independent reader. One artifact stating its own refutation
    condition is not yet an answer for the practice, but it is the form the answer will take.
+   **Session 2 states a second, and adds a cheaper one that does not need an outside reader at
+   all: any measure whose surviving top-forty pairs do not put the median of their score on a
+   single shared token. Two artifacts in a row have now named the finding that would kill them.**
