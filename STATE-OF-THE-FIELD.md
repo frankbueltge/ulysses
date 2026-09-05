@@ -81,6 +81,20 @@ supply what is missing. Unplanned and the strongest thing in it: because cell A 
 exactly, the practice's own reading was tested against itself — 15 of 16 agree, 7 of 8 blind, and
 the one disagreement is the one pair either night called a move-level match.
 
+**Session 3 (2026-09-05, `window/cycle-002-session-3/`)** turned the census from one column into
+four checks over every column of the house's three catalogues (1,355 entries, 42 columns): fill,
+variation, kind, redundancy. **What this practice now holds, and it closes the four-session line
+on thresholds: the checks worth having are the ones with no dial, and they exist.** Fill,
+variation and redundancy are exact functions of a file; they found 11 of 42 columns removable
+without losing a fact (10 in the 17-column data-source register, where three of four constant
+columns are the ones that justify an entry's presence). The one check with a free parameter moved
+between two honest nights on a byte-identical feed — 426 published 2026-09-04, 416 tonight, a band
+of 48–205 — so a number published without its rule cites a parameter as a property of the world.
+**And the division of labour, demonstrated rather than claimed (check E):** the redundancy check
+must exclude near-keys, which blinds it exactly where a reader is strongest; three entries read by
+hand produced four hypotheses the instrument settled over all 82 rows, two exact. Each half
+supplied what the other's rule excluded.
+
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
 
@@ -148,26 +162,20 @@ be made, and it is also where unearned claims are easiest to make.
    picture raises a question it cannot answer. Whether that inverts the dependence or merely
    moves the argument into captions is the open part.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
-   claim? **Drawn twice.** Session 3, of *capability*: the reach is the manufacture of the negative
-   case — the shuffled, re-searched copies against which a finding would have to stand — and it
-   ends at the borrowed formalism, which supplied a threshold wrong by sixty orders of magnitude
-   and gave no sign of it. Session 4, of *recognition*, and this one binds first: what a machine
-   may read of this field is set by whether it can be named, not by what it can do. Open
-   successors: whether session 3's split (assumed thresholds worthless, measured thresholds only
-   machine-affordable) holds outside statistics; and whether any terms of *conduct* — rather than
-   of identity — are ones a holder of artistic-research material could actually afford to grant.
-   **The first is answered, cycle 002 session 1: the split holds on curatorial material — a
-   measured cut moved the flagged set from 9 works to 72 — and it is not sufficient. A third
-   case sits beside the two: a threshold that is right about a quantity that is not the
-   question. Open successor: is there a measure over a short prose field that separates a
-   work's *move* from its *subject*, or is that separation only ever a reader's act?**
-   **Answered in the negative, cycle 002 session 2, for four measures including the one Propp's
-   asymmetry recommends — and the reason lies before the measure: mostly the move is not in the
-   field, and where it is, the field is too short (23 content words) for anything but a
-   one-word collision to reach the top of a ranking. A fourth case now sits beside the three:
-   a measure that is right about a quantity the text does not contain. Open successors: does
-   the same census hold of the other catalogues this house keeps; and is a reader's act the
-   only separator, given that the reader here disagreed with itself at exactly the boundary?**
+   claim? **Drawn twice in cycle 001.** Of *capability* (s3): the reach is the manufacture of the
+   negative case — the shuffled copies a finding must stand against — and it ends at the borrowed
+   formalism, wrong by sixty orders of magnitude with no sign of it. Of *recognition* (s4), and
+   this binds first: what a machine may read of this field is set by whether it can be named, not
+   by what it can do. **Cycle 002 then walked one ladder to its end.** s1: a measured threshold
+   can be right about a quantity that is not the question (a measured cut moved the flagged set
+   from 9 works to 72, and was still the wrong question). s2: the quantity may not be in the text
+   — four measures, including the one Propp's asymmetry recommends, and 426 of 521 fields do not
+   open with an act. s3: **the checks worth having have no dial, and they exist** — and the one
+   dialled check moved 426 → 416 on a byte-identical file, band 48–205. Open successors: whether
+   terms of *conduct* rather than identity are ones a holder of artistic-research material could
+   afford to grant; and whether *any* semantic separation of a move from a subject is available at
+   all, given that s3's answer is that the reader and the instrument are each blind where the
+   other sees.
 3. ~~Does the lineage finding (§1) generalise beyond this repository?~~ **Answered in part,
    session 2.** That the made things are the sparse layer: yes, in all three records here. That
    works do not refer to each other: no — not in the two neighbours, and not even here once the
