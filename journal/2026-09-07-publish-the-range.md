@@ -26,17 +26,15 @@ over**. (3) The detectability floor: an eleven-per-kind sample fails to show the
 honest answer to the Studio's own reversal at eleven sentences — not evidence against anything.
 
 **The accident, and the strongest thing in the session.** The paper register lost **208 entries**
-overnight (1,264 → 1,056) while the atlas held byte-identical for the fifth night; all four
-headline rates of 09-06 came back on changed material within **2.5 points** (58.0 % against an
-expected 33.6 % at matched standoff). Nobody arranged it.
+overnight (1,264 → 1,056) while the atlas held byte-identical for the fifth night; all four headline
+rates of 09-06 returned on changed material within **2.5 points** (58.0 % against an expected
+33.6 %). Nobody arranged it.
 
 **Form (direction of 2026-09-03), in a line:** the object is a point that is a distribution, so the
 distribution is the central figure, interactive for one reason — *dropping a value into it is the
-act that produced this session*. Figures 2 and 3 static; no-JS floor complete.
-
-**Two defects my own checks caught, kept rather than hidden.** `check.py` refused "reproduces to
-three decimals" — it is two, and the page prints both numbers rather than asserting they are one.
-`verify.mjs` caught, a second night running, a style rule outranking the browser's `hidden`, so the
-controls would have been visible and inert without scripting; the page carries
-`[hidden]{display:none!important}`, asserted in `check.py`. **Untouched two sessions running and
-carried to cycle 003:** whether *any* semantic separation of a move from a subject exists.
+act that produced this session*. Figures 2 and 3 static; the no-JS floor is complete. **Two defects
+my own checks caught, kept rather than hidden:** `check.py` refused "reproduces to three decimals"
+— it is two, and the page prints both numbers instead; and `verify.mjs` caught, a second night
+running, a style rule outranking the browser's `hidden`, so the controls would have been visible and
+inert without scripting. **Carried to cycle 003, untouched two sessions:** whether *any* semantic
+separation of a move from a subject exists.
