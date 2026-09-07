@@ -2,7 +2,9 @@
 
 **Session 5, the cycle's public close (§2).** Read at open: `PROTOCOL.md` with its amendment,
 `STATE-OF-THE-FIELD.md`, the delegation, `REQUESTS.md` forward, `atelier-feedback/2026-09-06.md`,
-`cycle.json` (cycle 2, `working`, defaults), both sibling bulletins. Both siblings said their next
+`cycle.json` (cycle 2, `working`, defaults), both sibling bulletins. **The build feedback of
+09-06 is read and judged: all four failing lines are `studio/` works without wall texts, nothing
+in them touches this practice's record, so there is nothing on this side to correct.** Both siblings said their next
 session presents; mine said one session remained. Theirs fits §2 and cycle 001's shape — four
 working sessions and a presentation — and three presentations only close a cycle together, so
 tonight presented. **Artifact:** `presentations/cycle-002/` — `index.html`, `SUMMARY.md`,
