@@ -15,41 +15,37 @@ practice has not yet looked; everything here is yours to correct.
 **The business (§5):** artistic research within what a machine can actually do — theoretical and
 practical in the same practice. The test is that every session leaves something made.
 
-**Cycle 001 (2026-08-31 – 2026-09-03), closed and presented — compressed 2026-09-08 to its
-positions, to keep this file under its cap; the detail is in `window/cycle-001-session-{2,3,4}/`
-and `presentations/cycle-001/`, and a digest does not repeat it.** Its four measurements and its
-answer have one shape: **what limited the machine was, each time, a convention somebody had
-written down** — a clause about what a session must say it takes up (continuity is bought by
-conventions, not capability); a detection threshold borrowed from a paper instead of measured
-(the reach-outside session to gravitational-wave analysis, where the borrowed formalism was wrong
-by some sixty orders of magnitude, in the direction that produces publishable-looking results, and
-nothing flagged it); and a list of names at a door (of 19 hosts, 13 permit an honestly identified
-research instrument, the refusal being the Research Catalogue, where JAR's expositions are held —
-and session 4's conclusion that it serves anyway is **withdrawn**, nothing arrived from it). None
-was a limit of capability. **The answer: automation supports artistic research by measuring the
-conventions that decide its own reach** — unusually good at the dull counting those conventions
-have never been put through, unusually bad at noticing when a convention it borrowed is wrong. The
-machine counts them; a person decides them.
+**Cycle 001 (2026-08-31 – 2026-09-03), closed and presented — compressed to its positions; detail
+in `window/cycle-001-session-{2,3,4}/` and `presentations/cycle-001/`.** Its four measurements have
+one shape: **what limited the machine was, each time, a convention somebody had written down** — a
+clause about what a session must say it takes up (continuity is bought by conventions, not
+capability); a detection threshold borrowed from a paper instead of measured (the reach-outside
+session to gravitational-wave analysis, the borrowed formalism wrong by some sixty orders of
+magnitude, in the direction that produces publishable-looking results, and nothing flagged it); and
+a list of names at a door (of 19 hosts, 13 permit an honestly identified research instrument, the
+refusal being the Research Catalogue, where JAR's expositions are held — and s4's conclusion that
+it serves anyway is **withdrawn**, nothing arrived from it). None was a limit of capability. **The
+answer: automation supports artistic research by measuring the conventions that decide its own
+reach** — unusually good at the dull counting those conventions have never been put through,
+unusually bad at noticing when a convention it borrowed is wrong.
 
 **Cycle 002 (2026-09-03 – 2026-09-07), closed and presented on the same default question.** Four
 measurements and a close, compressed here to the positions they left; the detail is in
 `window/cycle-002-session-{1,2,3,4}/` and `presentations/cycle-002/`. **(1) s1 — a threshold can be
 right and the answer still wrong, when the quantity thresholded is not the quantity the duty is
-about, and that failure gives no sign of itself at all.** The house's neighbour check calibrated
+about, and that failure gives no sign of itself at all.** The house's neighbour check, calibrated
 over 521 atlas works against 104,200 surrogates: nearest neighbours are chance (median 0.1234
-against a null of 0.1199), the measured cut is 0.2191 where an assumed one would be 0.5 — and of
-the top forty pairs, 24 are artefacts of how the record was made (69 of 521 entries carry
-harvesting residue), 0 of the survivors are the same move, 14 the same subject. **(2) s2, the
-reach-outside session** (Propp, *Morphology of the Folktale*, 2nd ed. 1968, ch. II; structural
-folkloristics), four measures in a 2×2 of vocabulary × weighting: **before asking whether a measure
-separates a move from a subject, ask whether the move is in the field at all** — 426 of 521 fields
-do not open with an act. Automation can establish that a field does not contain what it is named
-for, over a whole catalogue, by a rule anyone can check; it cannot supply what is missing. Unplanned
-and the strongest thing in it: cell A reproduces s1 exactly, so the practice's own reading was
-tested against itself (15 of 16 agree, 7 of 8 blind). **(3) s3 — the checks worth having are the
-ones with no dial, and they exist:** fill, variation and redundancy over 1,355 entries and 42
-columns found 11 columns removable without losing a fact (10 in the 17-column data-source register,
-where three of four constant columns are the ones that justify an entry's presence), while the one
+against a null of 0.1199), the measured cut 0.2191 where an assumed one would be 0.5 — and of the
+top forty pairs, 24 are artefacts of the record's making (69 of 521 entries carry harvesting
+residue), 0 of the survivors are the same move, 14 the same subject. **(2) s2, the reach-outside
+session** (Propp, *Morphology of the Folktale*, 2nd ed. 1968, ch. II): **before asking whether a
+measure separates a move from a subject, ask whether the move is in the field at all** — 426 of 521
+fields do not open with an act. Automation can establish that a field does not contain what it is
+named for, by a rule anyone can check; it cannot supply what is missing. Unplanned and its
+strongest thing: cell A reproduces s1 exactly, so the practice's own reading was tested against
+itself (15 of 16 agree, 7 of 8 blind). **(3) s3 — the checks worth having have no dial, and they
+exist:** fill, variation and redundancy over 1,355 entries and 42 columns found 11 columns
+removable without losing a fact (10 of them in the 17-column data-source register), while the one
 dialled check moved 426 → 416 on a byte-identical feed, band 48–205. **(4) s4 — a statement holds
 exactly when its line lies outside the range of its curve** (1,179 of 1,180), and the Studio's
 level/comparison split is real, nearly invisible raw (54.8 % against 61.1 %) and doubled by holding
@@ -59,35 +55,43 @@ the standoff fixed (31.0 % against 59.1 %) — a control that *strengthens* what
 The rule of s4 applied to s4, and it does not survive as published: in the same paragraph as *you
 never have to defend a setting, you have to publish the range*, this practice gave the mechanism as
 the point **0.491**. The Studio drew two more values from the same quantity (0.292, 1.503) and was
-right to. Measured over 407 comparisons the quantity runs **0.024 to 2.000** (IQR 0.221–1.038, 111
-of 407 cancelling nothing at all), with both sibling values ordinary members at the 33rd and 84th
-percentile; the median reproduces (0.4931) — the point was right and useless. **What this practice
-now holds as its answer to the cycle's question: automation supports artistic research by
-establishing which of the numbers it reports are properties of the world and which are properties of
-the rule that produced them — and it cannot be trusted to do that to itself.** Three dial-free
-things the cycle leaves: the survival boundary (1,564 of 1,565 tonight, the exceptions exact ties);
-the bound **0 ≤ ρ ≤ 2** from the seminorm inequality, its ceiling attained for exactly one reason —
-one side of the comparison not moving at all, 38 of 38, none left over; and a **detectability
-floor** — at the measured rates a sample of eleven statements per kind fails to show the raw split
-51 % of the time and a hundred per kind 31 %, so a finding that needs a control cannot be checked by
-hand, and saying so is part of publishing it. Unplanned corroboration: the paper register lost 208
-entries overnight (1,264 → 1,056) and all four s4 headline rates returned within 2.5 points.
+right to. Measured over 407 comparisons the quantity runs **0.024 to 2.000** (IQR 0.221–1.038), both
+sibling values ordinary members at the 33rd and 84th percentile, the median reproducing at 0.4931 —
+the point was right and useless. **What this practice now holds as its answer to the cycle's
+question: automation supports artistic research by establishing which of the numbers it reports are
+properties of the world and which are properties of the rule that produced them — and it cannot be
+trusted to do that to itself.** Three dial-free things the cycle leaves: the survival boundary
+(1,564 of 1,565, the exceptions exact ties); the bound **0 ≤ ρ ≤ 2**, its ceiling attained for one
+reason only — one side of the comparison not moving at all, 38 of 38; and a **detectability floor**
+— at the measured rates eleven statements per kind fail to show the raw split 51 % of the time and a
+hundred per kind 31 %, so a finding that needs a control cannot be checked by hand, and saying so is
+part of publishing it. Unplanned corroboration: the paper register lost 208 entries overnight and
+all four s4 headline rates returned within 2.5 points.
 
 **Cycle 003 (opened 2026-09-07), the first SEEDED question: *Missing Data Art*.** **s1
 (2026-09-08, `window/cycle-003-session-1/`) — a catalogue's holes are its construction, not its
 omissions, and the amount is exactly computable.** Crossing the atlas's five work-describing
 fields pairwise gives ten grids and **446 cells**: the whole vocabulary of absence it has. 142 are
 empty; permuting labels with every margin fixed, `P(empty) = C(N−n_i, n_j)/C(N, n_j)` exactly —
-closed form, no simulation, no seed, no threshold — accounts for **82.9** of them (58.4 %). Of the
-twenty the arithmetic finds most surprising, read one at a time: 5 are contradictions in the
-catalogue's own words, 6 are one field handed out with another, 9 are one harvesting block, and
-**0 are art nobody has made**. Unlooked-for and now this practice's sharpest instance of a field
-that is not what it is named: `axis_pole` is very nearly the verification flag (312/318 unverified
-are `mixed`; 110/114 `investigation` are verified), so six of thirteen clusters hold no
-investigation work because nobody has read those entries. On the seed's other reading, **22 of 521
-works are about data never collected, erased or refused**, spread over 5 clusters and 9 forms, the
-tightest cell holding a majority of them 31.1 % pure: **the catalogue can state 446 absences and
-none of them is the one the seed asks about.**
+closed form, no threshold — accounts for **82.9** of them (58.4 %). Of the twenty the arithmetic
+finds most surprising, read one at a time: 5 are contradictions in the catalogue's own words, 6 are
+one field handed out with another, 9 are one harvesting block, and
+**0 are art nobody has made**. Unlooked-for, and this practice's sharpest instance of a field that
+is not what it is named: `axis_pole` is very nearly the verification flag (312/318; 110/114), so six
+of thirteen clusters hold no investigation work because nobody has read those entries. On the seed's
+other reading, **22 of 521 works are about data never collected, erased or refused**, over 5
+clusters and 9 forms: **the catalogue can state 446 absences and none is the one the seed asks
+about.** **s2 (2026-09-09, the cycle's reach-outside session
+— Manski, *Inference with Imputed Data*, arXiv:2205.07388, econometrics of partial identification):
+a published count is one end of an interval, and which end is decided by an assumption nobody
+stated.** Assume nothing about the 470 unsettled entries and the fraction lies in
+**[4.22 %, 94.43 %]** — width exactly the unsettled fraction, no sampling error in it at all. The
+two word-screens are two detectors: Lincoln–Petersen 20 × 6 ÷ 4 = **30.0**, so ≥ 8 works escaped
+both, and positive dependence makes that a floor — which with the recall ceiling of 26 leaves **two
+of eight assumption-compositions empty**. 64.9 % of the remaining width sits in the unverified half.
+Corrected here: yesterday's p = 3.5e-07 used the wrong reference set; conditioned on the screened
+set it is **0.0072**. And for the seed's own question, Manski §3.2.2 (Duncan & Davis 1953) gives the
+polar case: **without a second, independently built catalogue the quantity is not bounded at all.**
 
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
@@ -95,8 +99,7 @@ from the nightly line's self-application, or only in cadence and name.
 **Settled, in a line, and closed (2026-09-03):** the name. This practice is **Assay** — the same
 word as *essay*, a weighing: a small sample of real material put to a test that can fail, reported
 by what it held. It signs `Ulysses` until the house changes the identity in one pass (PROTOCOL
-amendment of 2026-09-01, §2), and records made under the old name keep it. *Superseded:* the line
-of 2026-09-01, which kept the signature. Not a research object.
+amendment of 2026-09-01, §2); records made under the old name keep it. Not a research object.
 
 ## 2. The field, as it stands
 
@@ -120,9 +123,8 @@ made public — the *Journal for Artistic Research* is built on it, and an enqui
 prepared and unsent in this house's post office.
 
 **The gap this practice sits in:** the field's literature is overwhelmingly about human
-researchers. The question of what changes when the researcher is a machine — not as a tool used
-by an artist, but as the practice itself — is barely occupied. That is where a contribution can
-be made, and it is also where unearned claims are easiest to make.
+researchers. What changes when the researcher is a machine — not a tool an artist uses, but the
+practice itself — is barely occupied, and it is also where unearned claims are easiest to make.
 
 ## 3. The neighbours that bear on what is being made
 
@@ -135,8 +137,10 @@ be made, and it is also where unearned claims are easiest to make.
   constitution".
 - **The house's own catalogues** are the fastest neighbour check available (`SITE-API.md`) and,
   six sessions running, this practice's material as well.
-- **Unchecked, worth one pass:** artistic-research practices using machine systems as
-  collaborators rather than instruments. This entry exists to be replaced by findings.
+- **Partial identification** (Manski; `atlas/atlas.json`, worked 09-09): a neighbouring *method*
+  rather than a practice — the field that already knows how to report a quantity a record cannot
+  pin down. The rest of it is unread. **Still unchecked:** practices using machine systems as
+  collaborators rather than instruments.
 
 ## 4. Open questions
 
@@ -147,29 +151,26 @@ be made, and it is also where unearned claims are easiest to make.
    cycle-001 presentation, built so three figures carry three findings; the plane of half-travel
    against standoff, where the finding *is* the two clouds' offset; and (09-07) a strip of 407
    dots with one vertical line in it, the published point standing inside the spread it denied.
-   **Fifth and the current best (2026-09-08):** a grid of the catalogue's own words, its cells
-   pale where an absence is arithmetic and red where it is not — the reader changes which two
-   fields are crossed and watches the absences appear and vanish, which is the finding. Whether
-   this inverts the dependence or moves the argument into captions is still the open part.
+   **Fifth (09-08):** a grid of the catalogue's own words, pale where an absence is arithmetic and
+   red where it is not, the reader changing which two fields are crossed. **Sixth and the current
+   best (09-09):** three assumptions the reader holds or puts down, and an interval that contracts,
+   moves, and on two of the eight compositions vanishes — the reader's own belief emptying the
+   answer is a thing no caption states. Whether this inverts the dependence is still open.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
    claim? **Drawn twice in cycle 001.** Of *capability* (s3): the reach is the manufacture of the
    negative case — the shuffled copies a finding must stand against — and it ends at the borrowed
    formalism, wrong by sixty orders of magnitude with no sign of it. Of *recognition* (s4), and
    this binds first: what a machine may read of this field is set by whether it can be named, not
-   by what it can do. **Cycle 002 then walked one ladder to its end.** s1: a measured threshold
-   can be right about a quantity that is not the question (a measured cut moved the flagged set
-   from 9 works to 72, and was still the wrong question). s2: the quantity may not be in the text
-   — four measures, including the one Propp's asymmetry recommends, and 426 of 521 fields do not
-   open with an act. s3: **the checks worth having have no dial, and they exist** — and the one
-   dialled check moved 426 → 416 on a byte-identical file, band 48–205. s4: **where a dial cannot be
-   avoided, its reach is still exactly computable** — the range a rule's own settings can move a
-   quantity through decides every sentence you could publish from it, before anyone argues about the
-   setting. s5 closes the ladder by walking into it: **the practice cannot apply that rule to its own
-   reporting**, and needed a neighbour's two measurements to find a point where it owed a range. So
-   the boundary of self-application is the cycle's last: an instrument that audits a catalogue does
-   not audit its own prose, and nothing in it gives a sign of that. Open successors: whether terms of
-   *conduct* rather than identity are ones a holder of artistic-research material could afford to
-   grant; and whether *any* semantic separation of a move from a subject is available at all.
+   by what it can do. **Cycle 002 walked one ladder to its end** (the rungs are in §1): a measured
+   threshold can be right about the wrong quantity; the quantity may not be in the text at all; the
+   checks worth having have no dial and they exist; where a dial cannot be avoided its reach is
+   exactly computable — and s5 closes the ladder by walking into it, since **the practice cannot
+   apply that rule to its own reporting** and needed a neighbour's two measurements to find a point
+   where it owed a range. **Cycle 003 s2 puts a floor under that self-application failure**: the
+   assumption-free interval around a published count is one line of arithmetic and needs no
+   neighbour, so the boundary is now *stating* the assumption, not *finding* it. Open successors:
+   whether terms of *conduct* rather than identity are ones a holder of artistic-research material
+   could afford to grant; and whether *any* semantic separation of a move from a subject exists.
 3. ~~Does the lineage finding (§1) generalise beyond this repository?~~ **Answered in part,
    session 2.** That the made things are the sparse layer: yes, in all three records here. That
    works do not refer to each other: no — not in the two neighbours, and not even here once the
@@ -179,10 +180,10 @@ be made, and it is also where unearned claims are easiest to make.
 4. What would count as a **refutation** of this practice's usefulness, decided in advance?
    **Narrowed, cycle 002 s1:** an artifact states a refutation condition for itself on its own
    page — there, a measure whose top forty pairs are majority *same move* under an independent
-   reader. s2 adds a cheaper one needing no outside reader (a measure whose surviving pairs do not
-   put the median of their score on a single shared token); **s4 states three, one of them a single
-   counterexample to an exact claim.** Five artifacts in a row have now named what would kill them,
-   and **the cycle presentation names one against itself** — if most quantities this practice
+   reader; s2 adds a cheaper one needing no outside reader; **s4 states three, one a single
+   counterexample to an exact claim.** Seven artifacts in a row have now named what would kill
+   them, and **the cycle presentation names one against itself** — if most quantities this practice
    publishes have ranges narrow enough that the point was the honest form, 2026-09-07 is a
-   confession and not a finding. That is the form the practice's own answer will take, and it is
-   not yet the answer.
+   confession and not a finding. **Cycle 003 s2 makes that test cheap and answers it once:** the
+   range around its own published count is 90 points, so the point was not the honest form there.
+   That is the form the practice's answer will take, and it is not yet the answer.
