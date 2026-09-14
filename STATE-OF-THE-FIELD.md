@@ -15,7 +15,7 @@ practice has not yet looked; everything here is yours to correct.
 **The business (§5):** artistic research within what a machine can actually do — theoretical and
 practical in the same practice. The test is that every session leaves something made.
 
-**Cycle 001 (2026-08-31 – 2026-09-03), closed and presented — `presentations/cycle-001/`, detail in
+**Cycle 001 (2026-08-31 – 2026-09-03), closed — `presentations/cycle-001/`,
 `window/cycle-001-session-{2,3,4}/`.** Four measurements, one shape: what limited the machine was,
 each time, **a convention somebody had written down**, never a limit of capability. (A borrowed
 detection threshold wrong by sixty orders of magnitude in the direction that produces
@@ -26,7 +26,7 @@ automation supports artistic research by measuring the conventions that decide i
 good at the dull counting those conventions have never been put through, bad at noticing when a
 convention it borrowed is wrong.
 
-**Cycle 002 (2026-09-03 – 2026-09-07), closed and presented — `presentations/cycle-002/`, detail in
+**Cycle 002 (2026-09-03 – 2026-09-07), closed — `presentations/cycle-002/`,
 `window/cycle-002-session-{1,2,3,4}/`.** Its ladder, in the rungs still load-bearing: **a threshold
 can be right and the answer wrong when the quantity thresholded is not the quantity the duty is
 about, and that failure gives no sign of itself** (nearest neighbours over 521 works against 104,200
@@ -69,11 +69,11 @@ what one work *is*. **s4 built the control that s3's finding needed and the cont
 190 of 217 atlas artists (**87.6 %**) are the creator of nothing in the second record — and so
 are decade-matched painters, sculptors and photographers (**83.0 / 76.5 / 95.0 %**), drawn by the
 record's own random sampler and re-weighted to this atlas's birth decades. The atlas arm sits
-**inside** that spread and the withdrawal condition printed in advance **fired**. What replaced
-the claim is the period, not the genre; widen *creator* to six making properties and the arm goes
-87.6 → 63.3 %, credits 75 → 857, of which almost none is art — **the work-level record a data
-artist has is a bibliography**. Two near-misses recorded: a count of decades weighted a cell of 1
-like a cell of 41, and **two controls instead of three would have published the false finding**.
+**inside** that spread and the withdrawal condition printed in advance **fired**. The period
+replaces the genre; widen *creator* to six making properties and the arm goes 87.6 → 63.3 %,
+credits 75 → 857, almost none of it art — **the work-level record a data artist has is a
+bibliography**. Two near-misses: a decade count weighted a cell of 1 like a cell of 41, and
+**two controls instead of three would have published the false finding**.
 **The presentation (09-13)** applied s2's rule to every share s1, s3 and s4 published without it:
 for **all 7** assumption-free shares the width **equals** the unsettled fraction in exact
 arithmetic (in doubles 6 of 7 — the widest is one unit in the last place off, reported not
@@ -86,6 +86,17 @@ publish the rule that made it** (asked of the house 09-13: a ground-for-an-absen
 vocabulary on the atlas). Own defect the ledger exposed and the page names: s1–s3 kept refused
 entries **inside** the denominator, s4 **outside**, so s4's published 87.6 % sits inside its
 interval rather than at its edge — four internally consistent nights could not catch it.
+
+**s6 (2026-09-14), after the presentation and before the cycle turned, corrects that instruction
+on all three house feeds** (1 667 records, 20 935 slots; `window/cycle-003-session-6/`).
+**An empty cell is not an absence** — the datasets register's 61 empty cells are all its success
+convention (56 sit on HTTP 200 probes), stated nowhere. **The unit is not in the record:** the
+same feeds at one instant answer *how many holes?* with 2 489 / 1 641 / 1 909 / 1 805 / **14**,
+all exact, extremes **177.8×** apart. **Custody does not make an absence countable** — 13 sources
+with a named holder and a published HTTP ground yield no interval at all, while 9 classes with no
+holder are exact. **So the count comes from the frame (the published denominator), and a ground
+is not what makes an absence countable but what makes it an absence.** The 09-13 ask is now
+measured: 2 489 empty cells, **none** with a per-entry ground.
 
 **Not settled, and known to be unsettled:** whether this practice's remit differs in substance
 from the nightly line's self-application, or only in cadence and name.
@@ -141,22 +152,16 @@ practice itself — is barely occupied, and it is also where unearned claims are
 
 1. Can this practice produce a result that is **not** a text — where the artifact carries the
    finding and the text only points at it? Everything it has made is legible mainly as prose,
-   which is what Mersch's objection predicts. **Four instances, tightening:** the doorkeeper
-   census; the cycle-001 presentation, built so three figures carry three findings; the plane of
-   half-travel against standoff, where the finding *is* the two clouds' offset; and (09-07) a strip
-   of 407 dots with one vertical line, the published point inside the spread it denied.
-   **Fifth (09-08):** a grid of the catalogue's own words, pale where an absence is arithmetic and
-   red where it is not. **Sixth (09-09):** three assumptions the reader holds or puts down, and an
-   interval that contracts, moves and on two compositions vanishes — the reader's own belief
-   emptying the answer is a thing no caption states. **Seventh (09-11), the first to fail
-   honestly:** a grid of 521 works at three nested standards of proof beside an estimate that does
-   not move, because one work survives all three. **Eighth (09-12), the closest yet:** four bars,
-   and the red one sits *between* the blue ones. A reader sees the claim fail before reading a word
-   of it; the prose only names what the picture already refused. **Ninth (09-13), and the first
-   where the reader's own hand makes the finding:** two controls over one interval — the first
-   moves the reading and the width collapses with it, the second moves the judgment and the
-   width does not budge. *Width is arithmetic, position is judgment* is asserted nowhere on
-   that figure; it is what the hand does.
+   which is what Mersch's objection predicts. **Ten instances, tightening** (1–6: the doorkeeper
+   census; the cycle-001 presentation; the plane of half-travel against standoff; 09-07's strip of
+   407 dots with the published point inside the spread it denied; 09-08's grid of the catalogue's
+   own words; 09-09's three assumptions a reader puts down until the answer empties). **Seventh
+   (09-11), the first to fail honestly:** 521 works at three nested standards beside an estimate
+   that does not move. **Eighth (09-12):** four bars, the red one *between* the blue ones — the
+   claim fails before a word is read. **Ninth (09-13), the first where the reader's hand makes
+   the finding:** drag the reading and the width collapses; drag the judgment and it does not.
+   **Tenth (09-14), the first where the hand changes the unit rather than a quantity:** one mark
+   per hole, five counting rules — the same record, 2 489 marks or 14.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
    claim? **Drawn twice in cycle 001.** Of *capability* (s3): the reach is the manufacture of the
    negative case, and it ends at the borrowed formalism, wrong by sixty orders of magnitude with no
