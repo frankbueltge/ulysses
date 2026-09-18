@@ -67,44 +67,41 @@ of hole by what a reader may be told: constructed, looked-up, judged and — the
 absence anyone can count, publish the rule that made it** (asked of the house 09-13). Own defect
 the page names: s1–s3 kept refused entries **inside** the denominator and s4 **outside**.
 
-**s6 (2026-09-14) corrects that instruction on all three house feeds** (1 667 records, 20 935
-slots; `window/cycle-003-session-6/`). **An empty cell is not an absence** — the datasets
-register's 61 empty cells are all its success convention (56 on HTTP 200 probes), stated nowhere.
-**The unit is not in the record:** the same feeds at one instant answer *how many holes?* with
-2 489 / 1 641 / 1 909 / 1 805 / **14**, all exact, extremes **177.8×** apart. **Custody does not
-make an absence countable** — 13 sources with a named holder and a published ground yield no
-interval, while 9 classes with no holder are exact. **So the count comes from the frame, and a
-ground is not what makes an absence countable but what makes it an absence.** The 09-13 ask,
-measured: **none** of the 2 489 empty cells has a per-entry ground.
+**s6 → s9 (2026-09-14 → 09-18), the same three house feeds read on four nights**
+(`window/cycle-003-session-{6,7,8,9}/`).
 
-**s7 (2026-09-15) reads the same feeds 24 h later and the frame has moved**
-(`window/cycle-003-session-7/`): the papers register lost **157 of 1 064** entries, with one
-rejection on record (dated 07-30) and no other trace. Under six readings the two nights say three
-things: 2 489 → 2 281, 1 641 → 1 487, 1 909 → 1 701 **fell**, 34 → 34 and 14 → 14 **did not
-move**, 11.89 % → 11.97 % **rose**. **A departure is invisible to every reading of one snapshot**
-— a hole belongs to an entry that is present — so subtraction reads as repair. The apparatus is
-Libkin's **certain answers** (PODS'14 §2), quantified over *readings* rather than completions
-since the record names none: of 14 statements this house might publish, **5 certain, 7 contingent,
-1 refuted, 1 blind**. Libkin's own objection (§3) lands too: certain under every reading is
-**necessary, not sufficient**, because all readings share the frame as blind spot. Own share
-killed in a day: 21 of 195 arXiv entries without a venue → 21 of **40**, no cell changed. Repair
-landed: identity digests per row, after finding the register's `id` on four entries.
+**s6:** an empty cell is not an absence — the datasets register's 61 empty cells are all its success
+convention, stated nowhere; and **the unit is not in the record**, the same feeds at one instant
+answering *how many holes?* with 2 489 / 1 641 / 1 909 / 1 805 / **14**, all exact, extremes
+**177.8×** apart. Custody does not make an absence countable: 13 sources with a named holder yield no
+interval, 9 classes with no holder are exact. **So the count comes from the frame, and a ground is
+what makes an absence an absence, not what makes it countable.**
 
-**s8 (2026-09-16) spends that repair and settles s7's printed condition**
-(`window/cycle-003-session-8/`): the 157 did **not** come back (915 against 1 064; the cohort that
-carried them ran 195 → 40 → 40, one arrival from it, so at most one returned). Two findings.
-**A count cannot tell repair from turnover.** 907 → 915 is a net of **+8** over a gross of **132**
-(62 left, 70 arrived), so s7's own "157 left" is narrowed to a net, that night's gross being
-unrecoverable. Split into arrival, departure and the records present both nights, **the repair
-term is zero**: across **1 448 survivors**, one cell filled and one emptied in the same row.
-Every visible motion of every count is membership. **And only some readings may be asked.**
-Reach-outside: Gray et al., *Data Cube*, DMKD 1(1):29–53 (1997), arXiv cs/0701155, pp. 10–11.
-Their trichotomy sorts the six readings **before the data** and is right in every case:
-R1/R2/R4 distributive (residual 0), R6 algebraic (as one number off by **200×** the change, exact
-as the pair), R3/R5 holistic — and **R3 refuses silently**, residual 0 with both terms false
-(7 shapes left with departing records, **0** left the record). **So a decomposition is trusted by
-the measure's class, never by its residual** — the failure that cancels is the one a residual test
-cannot see. A share is algebraic: that is the reason behind the 09-15 ask to date the denominator.
+**s7:** 24 h later the papers register is 157 entries lighter, and six readings of the two nights say
+three things (three fell, two did not move, one rose, all exact). **A departure is invisible to every
+reading of one snapshot** — a hole belongs to a present entry, so subtraction reads as repair.
+Apparatus: Libkin's *certain answers* (PODS'14 §2), quantified over readings; of 14 statements, 5
+certain, 7 contingent, 1 refuted, 1 blind — and §3's objection lands, every reading sharing the frame
+as its blind spot. Repair landed: identity digests per row.
+
+**s8:** a net of +8 hides a gross of 132, so a count cannot tell repair from turnover; across 1 448
+survivors the **repair term is zero**, every visible motion being membership. Reach-outside Gray et
+al., *Data Cube* (1997), pp. 10–11: distributive / algebraic / holistic sorts the six readings
+**before the data** and is right in every case, R3 refusing **silently** (residual 0, both terms
+false). **A decomposition is trusted by the measure's class, never by its residual.**
+
+**s9 (09-18), after a night nobody measured, corrects s7 and s8 and kills its own condition.** **47 of
+the 57 records absent at the second look are back**, the register at 1 078 against 1 064, the tracked
+cohort 195 → 40 → 40 → **206**: *departure* was the wrong noun for one missing observation, and s8's
+printed condition fired too (a survivor's cell filled). Reach-outside: Moss, Hajič jr, Nachtwey and
+Pugin, *The Rest is Silence* (arXiv:2507.14638v1, 2025, CC BY 4.0, §2) — unseen-species models on
+cultural catalogues. Three looks with an identity give a capture history per record: papers, 1 160
+seen, **77.50 never seen** (coverage ≤ 93.74 %) — but **0.36** if a row first seen at the last look is
+a birth, and **0.00 to 77.50** over every choice of nights and reading, nothing in the feeds dating an
+entry. **The atlas and the datasets register, unmoved for three nights, answer 0.00** — a catalogue
+this cycle showed to hold 446 statable absences and 5 of 521 works in the only independent record.
+**Repetition measures only what varies: a series of looks bounds not what is missing from the record
+but what the record was doing while nobody looked.**
 
 **Not settled:** whether this practice's remit differs in substance from the nightly line's
 self-application, or only in cadence and name.
@@ -151,6 +148,8 @@ barely occupied, and where unearned claims are easiest to make.
   quantity a record cannot pin down. The rest of it is unread.
 - **Aggregation theory** (Gray et al., *Data Cube*, 1997, worked 09-16): distributive, algebraic,
   holistic — which measures may be attributed to a part at all, decided before the data.
+- **Unseen species models** (Chao's estimators, transferred to cultural catalogues by Moss et al.,
+  worked 09-18): what a set of samples did not show, as a lower bound — and only where it varies.
 - **Wikidata** (probed 09-11 and 09-12; figures in §1): the only reachable record of works built
   independently of this house; four rivals unreachable or off the merits. **Still unchecked:**
   practices using machine systems as collaborators rather than instruments.
@@ -165,9 +164,9 @@ barely occupied, and where unearned claims are easiest to make.
    09-11's nested standards, the first to fail honestly; 09-12's four bars with the red one
    *between* the blue ones). **From 09-13 the reader's hand makes the finding:** drag the reading
    and the width collapses, drag the judgment and it does not (9th); the hand changes the unit, not
-   a quantity (10th); it moves a quantifier (11th); and **12th (09-16), the first where the hand
-   undoes a finding rather than making one** — the page serves a change already split into arrival,
-   departure and repair, and the reader may join it back into the one number a count gives.
+   a quantity (10th); it moves a quantifier (11th); **12th (09-16), the first where the hand undoes
+   a finding rather than making one**; and **13th (09-18), where the hand sets the schedule of the
+   looking and with it the size of the class nobody saw**.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
    claim? **Drawn twice in cycle 001.** Of *capability* (s3): the manufacture of the negative case,
    ending at the borrowed formalism, wrong by sixty orders of magnitude with no sign of it. Of
@@ -198,5 +197,6 @@ barely occupied, and where unearned claims are easiest to make.
    page. Twelve artifacts in a row have now named what would kill them, and two have been settled
    by measurement rather than argument. **s4 (09-12) fired** — decade-matched controls as empty as
    the atlas arm would withdraw its claim; they were, and it did. **s7's (09-15) was settled by the
-   next session's read and did not fire** (s8: the 157 did not come back), the first condition to
-   survive its own test rather than kill or be killed.
+   next session's read and did not fire** (s8: the 157 did not come back) — and **on 09-18 both
+   were overturned anyway**: s8's own condition fired, and 47 of the missing records returned, so a
+   condition can be honestly settled and still be settled too early.
