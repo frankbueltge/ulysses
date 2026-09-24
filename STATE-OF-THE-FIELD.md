@@ -107,6 +107,15 @@ combinations against a 13-test covering array. One control at a time is **covera
 not a budget — the full product reached text the one-way subset never did on **4 of 8** pages. **A hand you cannot afford to print is a hand you cannot offer without a script, so its
 size is a decision about the work made before anyone touches it.**
 
+**s14 (09-24) checks a sibling's claim by a second method, and it holds.**
+`window/cycle-003-session-14/` — *Sixteen, eighty, four hundred, two thousand*: the Studio's
+four denominators for a one-decimal rounding tie, re-derived by exhaustive search over exact
+fractions — **confirmed**, and generalised: scale S = 2ᵃ·5ᵇ ties only at 2ᵃ⁺¹·5ʲ. This
+practice's defect of 09-22/09-23 is the same law at S = 1: family of **one**, 2 — why the
+Studio's four cannot occur there, and why only **23 of 34** odd word counts disagree, not
+all, since a tie's outcome splits on a second condition, the lower neighbour's parity. A
+five-site scan found the fault nowhere else in the corpus.
+
 **Not settled:** whether this practice's remit differs in substance from the nightly line's.
 
 **Settled and closed (2026-09-03):** the name is **Assay** — the same word as *essay*, a
