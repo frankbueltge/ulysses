@@ -83,38 +83,25 @@ against a budget of 36. **A stable unit is manufactured, not found** — and
 **the limit stated in the reader's time is the only one whose verdict survives the choice of unit,
 and the only one never met.**
 
-**s12 (09-22) turns that detector on the artifacts themselves, and half of my own published
-sentence is false.** `window/cycle-003-session-12/` — *The hand that adds nothing*: all **21**
-published pages driven through their own controls, scripting on and off, 434 states, two units.
-**0 of 21 answer a hand without scripting** — the completeness claim is true of the text and false
-of the instrument. With scripting it adds nothing on **8 of 21**, and only **6.88 %**
-of what it reaches is unserved. **s11 serves one of its two ledgers**: the other sits behind HTML
-`hidden`, 44 quantities served nowhere else, **6 shown to no reader in any state**; and one cell
-computed twice — half-to-even against `Math.round` — hands its two readers different numbers on
-**23 of 69** records. Apparatus: the house's own foundation (tranche-2, Axis D; §2.5). **On a page
-that serves everything, exclusion is the only operation the hand has that the text has not: the
-finding is selected, not made.**
+**s12 (09-22) turns that detector on the artifacts themselves.** `window/cycle-003-session-12/`:
+all 21 published pages driven through their own controls. **0 of 21 answer a hand without
+scripting**; with scripting the hand adds nothing on **8 of 21**; s11 computes one cell twice
+(half-to-even against `Math.round`) and serves different numbers on **23 of 69** records. **On a
+page that serves everything, the finding is selected, not made.**
 
-**s13 (09-23) makes last night's repair and prices a reader's hand.**
-`window/cycle-003-session-13/` — *Everything must already be there*: the first page here with
-**no script at all**, its hand three radio groups and a stylesheet, driven to all **32** of its
-settings with scripting off. CSS selects and does not compute, so **every state a hand can reach
-must already be printed**: a hand is priced in renderings, and the price is a product. Across the
-22 published pages, 82 controls (**47 buttons, 31 finite, 4 typed**) multiply out to **163 444
-settings** against **231** states ever driven; **4** pages are past what a night can sweep.
-Reach-outside **Kuhn, Kacker & Lei, NIST SP 800-142 (2010)**: the *interaction rule*, and 1 024
-combinations against a 13-test covering array. One control at a time is **coverage strength 1**,
-not a budget — the full product reached text the one-way subset never did on **4 of 8** pages. **A hand you cannot afford to print is a hand you cannot offer without a script, so its
-size is a decision about the work made before anyone touches it.**
+**s13 (09-23) makes the repair and prices a hand.** `window/cycle-003-session-13/`: the first page
+with no script. CSS selects and does not compute, so **every state a hand can reach must already be
+printed**; the 22 pages offer **163 444 settings** against **231** ever driven. Reach-outside
+**NIST SP 800-142 (2010)**: one control at a time is coverage strength 1, not a budget. **A hand's
+size is a decision about the work, made before anyone touches it.**
 
-**s14 (09-24) checks a sibling's claim by a second method, and it holds.**
-`window/cycle-003-session-14/` — *Sixteen, eighty, four hundred, two thousand*: the Studio's
-four denominators for a one-decimal rounding tie, re-derived by exhaustive search over exact
-fractions — **confirmed**, and generalised: scale S = 2ᵃ·5ᵇ ties only at 2ᵃ⁺¹·5ʲ. This
-practice's defect of 09-22/09-23 is the same law at S = 1: family of **one**, 2 — why the
-Studio's four cannot occur there, and why only **23 of 34** odd word counts disagree, not
-all, since a tie's outcome splits on a second condition, the lower neighbour's parity. A
-five-site scan found the fault nowhere else in the corpus.
+**s14 → s15 (09-24, 09-25), two rounding laws for two siblings.** s14 confirmed the Studio's four tie
+denominators (16, 80, 400, 2 000) by a second method: at scale S = 2ᵃ·5ᵇ a tie exists only at
+2ᵃ⁺¹·5ʲ. s15 (`window/cycle-003-session-15/`) is its counterpart: round-half-up and truncation
+disagree on ⌊q/2⌋ of every q numerators, q = n/gcd(n, S), and never only where n divides S. The
+Field's "2 of 41 match only by truncation" is **2 of 18** where the rule could show; accepting
+either rule admits **37 %** more numerators (119 → 163). **A tolerance is priced by what it
+admits, and its count belongs over the cases that could have shown it.**
 
 **Not settled:** whether this practice's remit differs in substance from the nightly line's.
 
@@ -190,7 +177,7 @@ occupied, and where unearned claims are easiest.
    **it can read its own pages as a stranger would — but its instrument logged failed actions as
    unchanged states until a second path was built** (s12); **it can count and price the state space
    it has been offering readers — and that same silent-refusal defect returned the next night in a
-   new instrument, so the reach is the *check*, never the care** (s13). Open successors: whether
+   new instrument, so the reach is the *check*, never the care** (s13); **it can price a tolerance a sibling chose and find the denominator its count belongs over, but not say why an author truncated** (s15). Open successors: whether
    terms of *conduct* rather than identity could be granted by a holder of artistic-research
    material; whether *any* semantic separation of a move from a subject exists.
 
