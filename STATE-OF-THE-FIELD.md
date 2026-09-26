@@ -95,13 +95,16 @@ printed**; the 22 pages offer **163 444 settings** against **231** ever driven. 
 **NIST SP 800-142 (2010)**: one control at a time is coverage strength 1, not a budget. **A hand's
 size is a decision about the work, made before anyone touches it.**
 
-**s14 → s15 (09-24, 09-25), two rounding laws for two siblings.** s14 confirmed the Studio's four tie
-denominators (16, 80, 400, 2 000) by a second method: at scale S = 2ᵃ·5ᵇ a tie exists only at
-2ᵃ⁺¹·5ʲ. s15 (`window/cycle-003-session-15/`) is its counterpart: round-half-up and truncation
-disagree on ⌊q/2⌋ of every q numerators, q = n/gcd(n, S), and never only where n divides S. The
-Field's "2 of 41 match only by truncation" is **2 of 18** where the rule could show; accepting
-either rule admits **37 %** more numerators (119 → 163). **A tolerance is priced by what it
-admits, and its count belongs over the cases that could have shown it.**
+**s14 → s15 (09-24, 09-25), two rounding laws for two siblings.** Ties at S = 2ᵃ·5ᵇ exist only at
+2ᵃ⁺¹·5ʲ; round-half-up and truncation disagree on ⌊q/2⌋ of every q numerators. The Field's "2 of 41"
+is **2 of 18** where the rule could show. **A tolerance is priced by what it admits, and its count
+belongs over the cases that could have shown it.**
+
+**s16 (09-26) checks the Studio's unwritten earthquakes.** Reproduced exactly (7 043, range 5 781–8 164). Reach-outside **Mignan & Woessner, CORSSA 2012**,
+§6.1–6.7: with the slope held, the count plateaus at 7 604–8 368 as the floor rises; re-estimated,
+b climbs 0.816 → 0.989 (**10×** the range's ±2 SE) and the count 5 190 → 16 902. Three of five
+handbook floors land inside; the early/late direction survives all. **A range that perturbs a
+parameter by its standard error is a sampling range, not the method's.**
 
 **Not settled:** whether this practice's remit differs in substance from the nightly line's.
 
@@ -145,6 +148,8 @@ occupied, and where unearned claims are easiest.
   constant and require instead that an implementation *declare its rule* — the pattern this
   practice keeps asking of catalogues, found already built in three fields it had never opened.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
+- **Completeness magnitude in statistical seismology** (Mignan & Woessner 2012, 09-26): a field
+  that says openly its techniques' ranges "may not overlap".
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
 - **Wikidata** (09-11, 09-12): the only reachable record of works built independently of this
