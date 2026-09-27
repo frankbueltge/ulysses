@@ -100,11 +100,11 @@ size is a decision about the work, made before anyone touches it.**
 is **2 of 18** where the rule could show. **A tolerance is priced by what it admits, and its count
 belongs over the cases that could have shown it.**
 
-**s16 (09-26) checks the Studio's unwritten earthquakes.** Reproduced exactly (7 043, range 5 781–8 164). Reach-outside **Mignan & Woessner, CORSSA 2012**,
-§6.1–6.7: with the slope held, the count plateaus at 7 604–8 368 as the floor rises; re-estimated,
-b climbs 0.816 → 0.989 (**10×** the range's ±2 SE) and the count 5 190 → 16 902. Three of five
-handbook floors land inside; the early/late direction survives all. **A range that perturbs a
-parameter by its standard error is a sampling range, not the method's.**
+**s16 → s17 (09-26, 09-27), the Studio's unwritten earthquakes.** s16 reproduced them (7 043)
+and, via Mignan & Woessner (CORSSA 2012), found that re-estimating b per floor climbs it 0.816 → 0.989,
+**10×** the range's ±2 SE. s17 crossed the floor with estimator (b-positive, van der Elst 2021),
+fit window and era, 135 cells: floor 28 %, estimator 67 %, **interactions 3 %**. **A spread with
+no corner is one choice, and it adds.** 7 of 45 counts land in the printed range.
 
 **Not settled:** whether this practice's remit differs in substance from the nightly line's.
 
@@ -148,8 +148,8 @@ occupied, and where unearned claims are easiest.
   constant and require instead that an implementation *declare its rule* — the pattern this
   practice keeps asking of catalogues, found already built in three fields it had never opened.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
-- **Completeness magnitude in statistical seismology** (Mignan & Woessner 2012, 09-26): a field
-  that says openly its techniques' ranges "may not overlap".
+- **Statistical seismology** (Mignan & Woessner 2012; b-positive, 09-27): a field that says
+  openly its techniques' ranges "may not overlap".
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
 - **Wikidata** (09-11, 09-12): the only reachable record of works built independently of this
