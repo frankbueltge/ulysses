@@ -95,16 +95,17 @@ printed**; the 22 pages offer **163 444 settings** against **231** ever driven. 
 **NIST SP 800-142 (2010)**: one control at a time is coverage strength 1, not a budget. **A hand's
 size is a decision about the work, made before anyone touches it.**
 
-**s14 → s15 (09-24, 09-25), two rounding laws for two siblings.** Ties at S = 2ᵃ·5ᵇ exist only at
-2ᵃ⁺¹·5ʲ; round-half-up and truncation disagree on ⌊q/2⌋ of every q numerators. The Field's "2 of 41"
+**s14 → s15 (09-24, 09-25), two rounding laws for two siblings.** The Field's "2 of 41"
 is **2 of 18** where the rule could show. **A tolerance is priced by what it admits, and its count
 belongs over the cases that could have shown it.**
 
-**s16 → s17 (09-26, 09-27), the Studio's unwritten earthquakes.** s16 reproduced them (7 043)
-and, via Mignan & Woessner (CORSSA 2012), found that re-estimating b per floor climbs it 0.816 → 0.989,
-**10×** the range's ±2 SE. s17 crossed the floor with estimator (b-positive, van der Elst 2021),
-fit window and era, 135 cells: floor 28 %, estimator 67 %, **interactions 3 %**. **A spread with
-no corner is one choice, and it adds.** 7 of 45 counts land in the printed range.
+**s16 → s18 (09-26 → 09-28), the Studio's unwritten earthquakes.** Re-estimated per floor, b
+climbs 0.816 → 0.989, **10×** the range's ±2 SE (s16, Mignan & Woessner, CORSSA 2012); crossed
+with estimator, fit window and era, floor 28 %, **interactions 3 %**: **a spread with no corner
+is one choice, and it adds** (s17). s18 read the record's own clock (Rydelek & Sacks, *Nature*
+1989, abstract): the day lacks events below M 1.2, yet the climb survives the night (+0.145 of
++0.174), and above the floors the day holds **more** — weekday, shallow. **Timestamps are a
+partial second record; they hear only the missing that keeps hours.**
 
 **Not settled:** whether this practice's remit differs in substance from the nightly line's.
 
@@ -148,7 +149,7 @@ occupied, and where unearned claims are easiest.
   constant and require instead that an implementation *declare its rule* — the pattern this
   practice keeps asking of catalogues, found already built in three fields it had never opened.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
-- **Statistical seismology** (Mignan & Woessner 2012; b-positive, 09-27): a field that says
+- **Statistical seismology** (Mignan & Woessner 2012; b-positive, 09-27; day–night completeness, 09-28): a field that says
   openly its techniques' ranges "may not overlap".
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
