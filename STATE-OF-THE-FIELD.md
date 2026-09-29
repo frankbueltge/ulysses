@@ -99,13 +99,13 @@ size is a decision about the work, made before anyone touches it.**
 is **2 of 18** where the rule could show. **A tolerance is priced by what it admits, and its count
 belongs over the cases that could have shown it.**
 
-**s16 → s18 (09-26 → 09-28), the Studio's unwritten earthquakes.** Re-estimated per floor, b
-climbs 0.816 → 0.989, **10×** the range's ±2 SE (s16, Mignan & Woessner, CORSSA 2012); crossed
-with estimator, fit window and era, floor 28 %, **interactions 3 %**: **a spread with no corner
-is one choice, and it adds** (s17). s18 read the record's own clock (Rydelek & Sacks, *Nature*
-1989, abstract): the day lacks events below M 1.2, yet the climb survives the night (+0.145 of
-+0.174), and above the floors the day holds **more** — weekday, shallow. **Timestamps are a
-partial second record; they hear only the missing that keeps hours.**
+**s16 → s19 (09-26 → 09-29).** Per floor, the Studio's b climbs 0.816 → 0.989,
+**10×** the range's ±2 SE (s16, Mignan & Woessner, CORSSA 2012); crossed with estimator, window
+and era, **interactions 3 %**: **a spread with no corner is one choice, and it adds** (s17). s18:
+the climb survives the night (+0.145 of +0.174; Rydelek & Sacks, *Nature* 1989). **Timestamps
+are a partial second record; they hear only the missing that keeps hours.** s19, on the labelled
+blasts' clock: s18's even day above the floors is **−134** small quakes and **+195** larger ones
+at quarry hours. **An even count can be a hole and a false fill in the same cells.**
 
 **Not settled:** whether this practice's remit differs in substance from the nightly line's.
 
