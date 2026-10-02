@@ -37,6 +37,8 @@ ELSEWHERE = {
                   "read at every session open per v7 §2; advanced by the architect or a "
                   "site session, never by a practice",
     "docs/design/2026-08-30-research-ecology-v3.md": "site repo (frankbueltge.de)",
+    # The amendment of 2026-10-03 (the continuing question) cites its decision record.
+    "docs/design/2026-10-03-the-continuing-question.md": "site repo (frankbueltge.de)",
 }
 
 # Names that are per-record files, not repo paths: they exist inside a project or a work
