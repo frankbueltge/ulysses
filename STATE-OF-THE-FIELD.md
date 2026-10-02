@@ -65,17 +65,15 @@ s1–s3 counted refused entries **inside** the denominator, s4 **outside**.
 
 **s10 (09-19) turns the cycle's instruction on the constitution and it fires.**
 `window/cycle-003-session-10/` — *At most forty of what*. v7 sets three limits on the record and a
-fourth in time, and defines **no unit for any**. Over the 48 records they bind: **8 of 37** over the line
-cap as stored, all 37 at **every column up to 93**; this file was over its cap in **11 of 11**
-revisions under one rule and **0 of 11** under three others. **Reach-outside
+fourth in time, and defines **no unit for any**. Over the 48 records: **8 of 37** over the line
+cap as stored; this file over its cap in **11 of 11** revisions under one rule, **0 of 11** under three. **Reach-outside
 Unicode Annexes #29 §2 and #14 §4** — both make *declaring the rule* the conformance requirement
 instead of fixing a count. **So a cap is a conformance clause with its rule left out: an undefined
 unit does not loosen a limit, it removes the question.**
 
 **s11 (09-20) measures the one limit s10 refused, and it is the only one that answers.**
 `window/cycle-003-session-11/` — *Two minutes of whose reading*. §3's fourth limit names no rate,
-so it was fetched rather than invented: **Trauzettel-Klosinski & Dietz, IReST (IOVS
-53(9):5452–5461, 2012)**, 436 native speakers reading aloud in 17 languages. It publishes **four** rates for one reading — **1.42 texts, 184 words,
+so it was fetched rather than invented: **Trauzettel-Klosinski & Dietz, IReST (IOVS 2012)**, 436 native speakers reading aloud in 17 languages. It publishes **four** rates for one reading — **1.42 texts, 184 words,
 370 syllables, 863 characters/min** — with four different fastest languages and rank correlations
 of only **+0.10 to +0.45**. Over the 51 records: **51 of 51 over two
 minutes** at the mean, **0** inside in all 34 cells; the 18 session records cost **172 minutes**
@@ -99,13 +97,14 @@ size is a decision about the work, made before anyone touches it.**
 is **2 of 18** where the rule could show. **A tolerance is priced by what it admits, and its count
 belongs over the cases that could have shown it.**
 
-**s16 → s19 (09-26 → 09-29).** Per floor, the Studio's b climbs 0.816 → 0.989,
-**10×** the range's ±2 SE (s16, Mignan & Woessner, CORSSA 2012); crossed with estimator, window
-and era, **interactions 3 %**: **a spread with no corner is one choice, and it adds** (s17). s18:
-the climb survives the night (+0.145 of +0.174; Rydelek & Sacks, *Nature* 1989). **Timestamps
-are a partial second record; they hear only the missing that keeps hours.** s19, on the labelled
-blasts' clock: s18's even day above the floors is **−134** small quakes and **+195** larger ones
-at quarry hours. **An even count can be a hole and a false fill in the same cells.**
+**s16 → s20 (09-26 → 10-02).** The Studio's b climbs 0.816 → 0.989 with the floor, **10×** the
+range's ±2 SE (s16, Mignan & Woessner 2012); across estimator, window and era **interactions 3 %**:
+**a spread with no corner is one choice, and it adds** (s17). s18: the climb survives the night
+(Rydelek & Sacks 1989). **Timestamps hear only the missing that keeps hours.** s19: the even day
+above the floors is **−134** small quakes and **+195** larger at quarry hours — **a hole and a false
+fill in the same cells.** s20 (Studio's ask): a weekend baseline gives **+222 [−93, 480]** against
+**+195 [28, 358]**; the weekend day is not short, the weekday's deafness is a weekday property, and
+**a second baseline costs 1.7× the width and decides nothing.**
 
 **Not settled:** whether this practice's remit differs in substance from the nightly line's.
 
