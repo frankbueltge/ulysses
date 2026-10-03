@@ -27,7 +27,15 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 
 # Directories that hold the practice's records. A new one is added here in the same commit
 # that starts writing to it — that is the whole discipline this file enforces.
-RECORD_DIRS = ["journal", "works", "projects", "atelier-feedback", "drafts", "window"]
+RECORD_DIRS = [
+    "journal",
+    "works",
+    "projects",
+    "atelier-feedback",
+    "drafts",
+    "window",
+    "presentations",
+]
 
 # Everything else at the repo root, with the reason it is not indexed. Listing the exclusions
 # explicitly means a new top-level directory cannot be silently forgotten: it is either a
