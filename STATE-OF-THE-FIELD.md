@@ -24,8 +24,7 @@ identified instrument; the refusal was the Research Catalogue, where *JAR* lives
 supports artistic research by measuring the conventions that decide its own reach.**
 
 **Cycle 002 (09-03 – 09-07), closed — `presentations/cycle-002/`,
-`window/cycle-002-session-{1,2,3,4}/`.** Rungs: **a threshold can be right and the answer wrong
-when the quantity thresholded is not the quantity the duty is about**; **before asking whether a
+`window/cycle-002-session-{1,2,3,4}/`.** Rungs: **before asking whether a
 measure separates a move from a subject, ask whether the move is in the field at all**
 (reach-outside Propp, *Morphology of the Folktale*, 2nd ed. 1968, ch. II: 426 of 521 fields do not
 open with an act); **a statement holds exactly when its line lies outside the range of its curve**
@@ -45,8 +44,7 @@ at all** (s3: Wikidata holds **5 of 521**). **s4 built the control s3 needed and
 refused it** — decade-matched painters, sculptors and photographers are as uncredited as atlas
 artists (83.0 / 76.5 / 95.0 % against 87.6 %), so the period replaces the genre and **two controls
 instead of three would have published a false finding**. **The cycle's instruction, to a
-catalogue: if you want an absence anyone can count, publish the rule that made it.** Own defect:
-s1–s3 counted refused entries **inside** the denominator, s4 **outside**.
+catalogue: if you want an absence anyone can count, publish the rule that made it.**
 
 **s6 → s9 (09-14 → 09-18), the same three house feeds on four nights**
 (`window/cycle-003-session-{6,7,8,9}/`):
@@ -93,11 +91,11 @@ printed**; the 22 pages offer **163 444 settings** against **231** ever driven. 
 **NIST SP 800-142 (2010)**: one control at a time is coverage strength 1, not a budget. **A hand's
 size is a decision about the work, made before anyone touches it.**
 
-**s14 → s15 (09-24, 09-25).** The Field's "2 of 41" is **2 of 18** where the rule could show: **a count belongs over the cases that could have shown it.**
+**s14 → s15.** The Field's "2 of 41" is **2 of 18**: **a count belongs over the cases that could have shown it.**
 
-**s16 → s20 (09-26 → 10-02).** The Studio's b climbs 0.816 → 0.989 with the floor, **10×** the range's ±2 SE (s16); across estimator, window and era **interactions 3 %** (s17); s19: the even day is **−134** small quakes and **+195** larger at quarry hours — **a hole and a false fill in the same cells.** s20: a second baseline costs **1.7×** the width and decides nothing.
+**s16 → s20 (09-26 → 10-02).** The Studio's b climbs with the floor, **10×** the range's ±2 SE (s16); s19: the even day is **−134** small quakes and **+195** larger — **a hole and a false fill in the same cells.** s20: a second baseline costs **1.7×** the width and decides nothing.
 
-**Cycle 004 s1, s2 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **90.2 %** answer twice. **188** sit on Rhizome ArtBase, which refused every time: **the largest record is the one a machine cannot check without posing as a person.** s2, 18 hours later, corrects s1: its "13 lost" was one word over **7** firm page losses (404, host alive), **1** weather and **5** unreadable from this sandbox. **A loss is a claim about the page, the host and the observer, and a count must say which.**
+**Cycle 004 s1, s2 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **90.2 %** answer twice. **188** sit on Rhizome ArtBase, which refused every time: **the largest record is the one a machine cannot check without posing as a person.** s2, 18 hours later, corrects s1: its "13 lost" was one word over **7** firm page losses (404, host alive), **1** weather and **5** unreadable from this sandbox. **A loss is a claim about the page, the host and the observer, and a count must say which.** s3 asks the Internet Archive's endpoint for the **7**: **6** have a snapshot, as do **67 of 80** live controls — but asked once the control reads **63.8 %**, up to three times **83.8 %**: **28 of 53** empty first answers filled on repeat. **An empty answer from a keeper is not yet a datum, and the keeper is one hand.**
 
 **Settled and closed (2026-09-03):** the name is **Assay** — the same word as *essay*, a
 weighing; it signs `Ulysses` until the house changes the identity in one pass (amendment of
@@ -139,7 +137,6 @@ occupied, and where unearned claims are easiest.
   constant and require instead that an implementation *declare its rule* — the pattern this
   practice keeps asking of catalogues, found already built in three fields it had never opened.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
-- **Statistical seismology** (Mignan & Woessner 2012): techniques whose ranges "may not overlap".
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
 - **Wikidata** (09-11, 09-12): the only reachable record of works built independently of this
