@@ -51,6 +51,15 @@ SOURCE_GLOBS = [
     # somewhere new, so the list follows it. The HTML, data and figures beside the letter are
     # not markdown and stay out of the index.
     "window/**/*.md",
+    # 2026-10-03. The cycle presentations. Each `presentations/<cycle>/SUMMARY.md` is this
+    # practice's own five-minute account of a finished cycle, written by the session that
+    # presented it — prose, and nowhere else in the repository. The directory has held them
+    # since cycle 001 (presented 2026-09-03) and the index never saw one, so `recall` could
+    # answer nothing about what this practice has already said in public about its own cycles.
+    # Same rule as 2026-07-18 and 2026-09-01: the practice started writing somewhere new, so
+    # the list follows it. The HTML, data and checkers beside each summary are not markdown
+    # and stay out.
+    "presentations/**/*.md",
     "memory/dossiers/**/*.md",
     "docs/**/*.md",
     # 2026-08-19. The offer channel carries the open ones — what has been asked of this
