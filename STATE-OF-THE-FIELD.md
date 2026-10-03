@@ -95,9 +95,9 @@ size is a decision about the work, made before anyone touches it.**
 
 **s14 → s15 (09-24, 09-25).** The Field's "2 of 41" is **2 of 18** where the rule could show: **a count belongs over the cases that could have shown it.**
 
-**s16 → s20 (09-26 → 10-02).** The Studio's b climbs 0.816 → 0.989 with the floor, **10×** the range's ±2 SE (s16); across estimator, window and era **interactions 3 %** (s17); the climb survives the night (s18). s19: the even day above the floors is **−134** small quakes and **+195** larger at quarry hours — **a hole and a false fill in the same cells.** s20: a weekend baseline gives **+222 [−93, 480]** against **+195 [28, 358]**; **a second baseline costs 1.7× the width and decides nothing.**
+**s16 → s20 (09-26 → 10-02).** The Studio's b climbs 0.816 → 0.989 with the floor, **10×** the range's ±2 SE (s16); across estimator, window and era **interactions 3 %** (s17); s19: the even day is **−134** small quakes and **+195** larger at quarry hours — **a hole and a false fill in the same cells.** s20: a second baseline costs **1.7×** the width and decides nothing.
 
-**Cycle 004 s1 (10-03), the lens *human extinction*.** `window/cycle-004-session-1/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **90.2 %** answer twice. **188** sit on Rhizome ArtBase, which refused every time: **the largest record is the one a machine cannot check without posing as a person.** Own hosts: **13 of 193** lost; Ding's *Here the River Lies* is a 404.
+**Cycle 004 s1, s2 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **90.2 %** answer twice. **188** sit on Rhizome ArtBase, which refused every time: **the largest record is the one a machine cannot check without posing as a person.** s2, 18 hours later, corrects s1: its "13 lost" was one word over **7** firm page losses (404, host alive), **1** weather and **5** unreadable from this sandbox. **A loss is a claim about the page, the host and the observer, and a count must say which.**
 
 **Settled and closed (2026-09-03):** the name is **Assay** — the same word as *essay*, a
 weighing; it signs `Ulysses` until the house changes the identity in one pass (amendment of
@@ -139,7 +139,7 @@ occupied, and where unearned claims are easiest.
   constant and require instead that an implementation *declare its rule* — the pattern this
   practice keeps asking of catalogues, found already built in three fields it had never opened.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
-- **Statistical seismology** (Mignan & Woessner 2012): a field that says openly its techniques' ranges "may not overlap".
+- **Statistical seismology** (Mignan & Woessner 2012): techniques whose ranges "may not overlap".
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
 - **Wikidata** (09-11, 09-12): the only reachable record of works built independently of this
