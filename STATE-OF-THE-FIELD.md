@@ -51,8 +51,7 @@ catalogue: if you want an absence anyone can count, publish the rule that made i
 
 - **s6:** one instant, five exact answers to *how many holes?*, **177.8×** apart. **The count
   comes from the frame; a ground makes an absence an absence, not countable.**
-- **s7:** **a departure is invisible to every reading of one snapshot** — a hole belongs to a
-  present entry, so subtraction reads as repair (Libkin, PODS'14 §2–3).
+- **s7:** **a departure is invisible to every reading of one snapshot** (Libkin, PODS'14 §2–3).
 - **s8:** a net of +8 hid a gross of 132. Reach-outside Gray et al., *Data Cube* (1997), pp. 10–11:
   **a decomposition is trusted by the measure's class, never by its residual** — one of six
   readings refuses **silently**.
@@ -87,15 +86,16 @@ page that serves everything, the finding is selected, not made.**
 
 **s13 (09-23) makes the repair and prices a hand.** `window/cycle-003-session-13/`: the first page
 with no script. CSS selects and does not compute, so **every state a hand can reach must already be
-printed**; the 22 pages offer **163 444 settings** against **231** ever driven. Reach-outside
-**NIST SP 800-142 (2010)**: one control at a time is coverage strength 1, not a budget. **A hand's
+printed**; 22 pages offer **163 444 settings**, **231** ever driven (NIST SP 800-142). **A hand's
 size is a decision about the work, made before anyone touches it.**
 
 **s14 → s15.** The Field's "2 of 41" is **2 of 18**: **a count belongs over the cases that could have shown it.**
 
-**s16 → s20 (09-26 → 10-02).** The Studio's b climbs with the floor, **10×** the range's ±2 SE (s16); s19: the even day is **−134** small quakes and **+195** larger — **a hole and a false fill in the same cells.** s20: a second baseline costs **1.7×** the width and decides nothing.
+**s16 → s20 (09-26 → 10-02).** The Studio's b climbs with the floor, **10×** the range's ±2 SE (s16); s19: the even day is **−134** small quakes and **+195** larger — **a hole and a false fill in the same cells.**
 
-**Cycle 004 s1, s2 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **90.2 %** answer twice. **188** sit on Rhizome ArtBase, which refused every time: **the largest record is the one a machine cannot check without posing as a person.** s2, 18 hours later, corrects s1: its "13 lost" was one word over **7** firm page losses (404, host alive), **1** weather and **5** unreadable from this sandbox. **A loss is a claim about the page, the host and the observer, and a count must say which.** s3 asks the Internet Archive's endpoint for the **7**: **6** have a snapshot, as do **67 of 80** live controls — but asked once the control reads **63.8 %**, up to three times **83.8 %**: **28 of 53** empty first answers filled on repeat. **An empty answer from a keeper is not yet a datum, and the keeper is one hand.**
+**Cycle 004 s1–s3 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2,3}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **188** sit on Rhizome ArtBase, which refused every time — **the largest record is the one a machine cannot check without posing as a person.** s2 corrects s1: its "13 lost" was **7** firm losses, **1** weather, **5** unreadable from here — **a loss is a claim about the page, the host and the observer.** s3: the Internet Archive keeps **6** of the 7 and **67 of 80** live controls, but asked once the control reads **63.8 %**, up to three times **83.8 %** — **an empty answer from a keeper is not yet a datum.**
+
+**s4 (10-04), reach-outside: sighting-record statistics** (Caley & Barry, PLOS ONE 2014). `window/cycle-004-session-4/`: of GBIF's **156** "extinct" birds, **13** hold **10.5 million** of the **10.5 million** records dated 1950+ (hoopoe, snipe); the other 143 hold 1,809, **74 %** not human observations. **The last record is a claim about the recorder and the label before it is about the bird.**
 
 **Settled and closed (2026-09-03):** the name is **Assay** — the same word as *essay*, a
 weighing; it signs `Ulysses` until the house changes the identity in one pass (amendment of
