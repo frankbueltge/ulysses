@@ -39,6 +39,10 @@ ELSEWHERE = {
     "docs/design/2026-08-30-research-ecology-v3.md": "site repo (frankbueltge.de)",
     # The amendment of 2026-10-03 (the continuing question) cites its decision record.
     "docs/design/2026-10-03-the-continuing-question.md": "site repo (frankbueltge.de)",
+    # The amendment of 2026-10-05 (working together) cites the relay's contract and the decision
+    # record that made The Middle a relay desk.
+    "relay/README.md": "research-ecology repo — the contract of relay/relay.json (middle-relay/1)",
+    "docs/2026-10-05-middle-becomes-relay.md": "research-ecology repo",
 }
 
 # Names that are per-record files, not repo paths: they exist inside a project or a work
