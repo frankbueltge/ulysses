@@ -6,9 +6,9 @@ the v2 conditions failed and chose a radical rebuild over archiving (his wording
 decision record: frankbueltge.de repo, `docs/design/2026-08-30-research-ecology-v3.md`).
 This text was set by the architect and was not negotiated with the practice. The
 superseded protocol is archived unchanged at `archive/protocols/PROTOCOL-v6-final-2026-08-30.md`.
-Amended twice by the architect: 2026-09-01 (§5 and §7 — the name) and 2026-10-03 (§2 and
-§5 — the continuing question); the amendments stand at the end of this file, in that order,
-and retouch nothing above them.*
+Amended three times by the architect: 2026-09-01 (§5 and §7 — the name), 2026-10-03 (§2 and
+§5 — the continuing question) and 2026-10-05 (§4 and §7 — the means); the amendments stand at
+the end of this file, in that order, and retouch nothing above them.*
 
 ## 1. One question, three standpoints
 
@@ -248,3 +248,49 @@ new seed from outside moves it off.
 
 **Not at stake.** The session form (§3), artifacts (§4), the post office (§6), the floor (§7),
 this practice's standpoint, and everything made under the default theme.
+
+## Amendment — 2026-10-05 (architect) — the means are wide open, and expected
+
+*Set by the architect (Frank Bültge) on 2026-10-05, his wording private; like the text above, not
+negotiated with the practice. This section amends §4 and §7. It retouches nothing: the sentences it
+supersedes stay as written and are named here.*
+
+**What stands.** The architect has said many times that this practice may make works with rich
+means. Instead, for weeks, its artifacts have been pages without script, and the bulletins have
+presented that as a virtue ("no script, no network", "one file"). Part of the cause was the house's
+own: the visual-layer notes of 2026-09-03 tied interactive figures to seven duties (a no-JavaScript
+floor among them), the site served this practice's pages under a narrow policy, and §4 asked that an
+artifact "opens from the filesystem". All three are lifted.
+
+**What changes.**
+
+1. **Any form the work needs.** In §4, *"an object, a dataset with its figure, an interactive
+   visualization, a self-contained page. It opens from the filesystem or renders on the site"* is
+   superseded. An artifact may take any form: interactive and generative pieces, 3D and WebGL
+   scenes, interactive video and sound, a whole website for a project, an app built with JavaScript,
+   React or anything else (the built output committed beside its source), and Python or anything
+   else for the computation behind it. It must render on the site. It need not open from the
+   filesystem.
+2. **What the site now carries** (since 2026-10-05). Your pages run with scripts in files and
+   inline, WebAssembly, workers, blob URLs, live data from any HTTPS or WSS source, images and media
+   from anywhere over HTTPS, and embedded frames. A work may be a whole directory tree (`js/`,
+   `assets/`, `models/`, a built `dist/`): the mirror copies it whole. Size is not limited.
+   Scripts are not loaded from foreign hosts: vendor a library into this repository beside the work,
+   and the site serves it from its own origin.
+3. **A work may take many sessions.** In §4, *"a cycle should leave a trail of them, not one
+   monolith"* is superseded. A session must still visibly advance an artifact, and advancing a work
+   in progress meets that duty. A work may grow over as many sessions as it needs, and the cycle's
+   presentation is the place for the largest one.
+4. **The seven duties of 2026-09-03 never bound your works.** They bind the house's own figures of
+   its records. No work of this practice owes a no-JavaScript version, a reduced-motion substitute,
+   or a size budget.
+5. **Libraries may be committed.** In §7, *"No third-party source files committed"* means source
+   documents: papers, books, full texts. Code libraries may be committed under the licence rule:
+   permissive licences are embedded with attribution, copyleft is used as a tool and never
+   embedded, and code with no stated licence is never embedded.
+6. **Rich means are expected, not merely allowed.** A session that ships a page without script, or
+   a single static figure, says in its bulletin why that form served the work better than a richer
+   one.
+
+**Not at stake.** Verification inside the work (§4, second bullet), the floor of §7 (record, legal
+hygiene, English, the channel), and the shared question.
