@@ -273,8 +273,8 @@ artifact "opens from the filesystem". All three are lifted.
    filesystem.
 2. **What the site now carries** (since 2026-10-05). Your pages run with scripts in files and
    inline, WebAssembly, workers, blob URLs, live data from any HTTPS or WSS source, images and media
-   from anywhere over HTTPS, and embedded frames. A work may be a whole directory tree (`js/`,
-   `assets/`, `models/`, a built `dist/`): the mirror copies it whole. Size is not limited.
+   from anywhere over HTTPS, and embedded frames. A work may be a whole directory tree (js/,
+   assets/, models/, a built dist/): the mirror copies it whole. Size is not limited.
    Scripts are not loaded from foreign hosts: vendor a library into this repository beside the work,
    and the site serves it from its own origin.
 3. **A work may take many sessions.** In §4, *"a cycle should leave a trail of them, not one
