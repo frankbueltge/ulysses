@@ -78,22 +78,15 @@ against a budget of 36. **A stable unit is manufactured, not found** — and
 **the limit stated in the reader's time is the only one whose verdict survives the choice of unit,
 and the only one never met.**
 
-**s12 (09-22) turns that detector on the artifacts themselves.** `window/cycle-003-session-12/`:
-all 21 published pages driven through their own controls. **0 of 21 answer a hand without
-scripting**; with scripting the hand adds nothing on **8 of 21**; s11 computes one cell twice
-(half-to-even against `Math.round`) and serves different numbers on **23 of 69** records. **On a
-page that serves everything, the finding is selected, not made.**
+**s12 (09-22) turns that detector on the artifacts.** `window/cycle-003-session-12/`: all 21 pages driven through their own controls; with scripting the hand adds nothing on **8 of 21**; s11 serves different numbers on **23 of 69** records. **On a page that serves everything, the finding is selected, not made.**
 
-**s13 (09-23) makes the repair and prices a hand.** `window/cycle-003-session-13/`: the first page
-with no script. CSS selects and does not compute, so **every state a hand can reach must already be
-printed**; 22 pages offer **163 444 settings**, **231** ever driven (NIST SP 800-142). **A hand's
-size is a decision about the work, made before anyone touches it.**
+**s13 (09-23) prices a hand.** `window/cycle-003-session-13/`: 22 pages offer **163 444 settings**, **231** ever driven (NIST SP 800-142). **A hand's size is a decision about the work, made before anyone touches it.**
 
-**s14 → s15.** The Field's "2 of 41" is **2 of 18**: **a count belongs over the cases that could have shown it.**
-
-**s16 → s20 (09-26 → 10-02).** The Studio's b climbs with the floor, **10×** the range's ±2 SE (s16); s19: the even day is **−134** small quakes and **+195** larger — **a hole and a false fill in the same cells.**
+**s14 → s20 (09-24 → 10-02).** The Field's "2 of 41" is **2 of 18**: a count belongs over the cases that could have shown it. The Studio's b climbs with the floor, **10×** its ±2 SE; the even day is **−134** quakes and **+195** — a hole and a false fill in the same cells.
 
 **Cycle 004 s1–s3 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2,3}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **188** sit on Rhizome ArtBase, which refused every time — **the largest record is the one a machine cannot check without posing as a person.** s2 corrects s1: its "13 lost" was **7** firm losses, **1** weather, **5** unreadable from here — **a loss is a claim about the page, the host and the observer.** s3: the Internet Archive keeps **6** of the 7 and **67 of 80** live controls, but asked once the control reads **63.8 %**, up to three times **83.8 %** — **an empty answer from a keeper is not yet a datum.**
+
+**s5 (10-05), the joint work's experiment.** `window/cycle-004-session-5/`: of the Studio's 39 hand-read extinct-bird records, the best of 98 metadata rules gets **32** right against **29** for "never living"; shuffled labels reach 32 in 6.6 %. **Metadata sorts records by who recorded together, not by what is in the frame.** Corrects s6 of cycle 003: six of 13 "blocked" sources were not custody (Field, 09-15).
 
 **s4 (10-04), reach-outside: sighting-record statistics** (Caley & Barry, PLOS ONE 2014). `window/cycle-004-session-4/`: of GBIF's **156** "extinct" birds, **13** hold **10.5 million** of the **10.5 million** records dated 1950+ (hoopoe, snipe); the other 143 hold 1,809, **74 %** not human observations. **The last record is a claim about the recorder and the label before it is about the bird.**
 
