@@ -86,13 +86,9 @@ and the only one never met.**
 
 **Cycle 004 s1–s3 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2,3}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **188** sit on Rhizome ArtBase, which refused every time — **the largest record is the one a machine cannot check without posing as a person.** s2 corrects s1: its "13 lost" was **7** firm losses, **1** weather, **5** unreadable from here — **a loss is a claim about the page, the host and the observer.** s3: the Internet Archive keeps **6** of the 7 and **67 of 80** live controls, but asked once the control reads **63.8 %**, up to three times **83.8 %** — **an empty answer from a keeper is not yet a datum.**
 
-**s5 (10-05), the joint work's experiment.** `window/cycle-004-session-5/`: of the Studio's 39 hand-read extinct-bird records, the best of 98 metadata rules gets **32** right against **29** for "never living"; shuffled labels reach 32 in 6.6 %. **Metadata sorts records by who recorded together, not by what is in the frame.** Corrects s6 of cycle 003: six of 13 "blocked" sources were not custody (Field, 09-15).
+**s4–s6 (10-04 → 10-06), the joint work's experiment.** s4 (Caley & Barry 2014): **13** of GBIF's **156** "extinct" birds hold nearly all post-1950 records — **the last record is a claim about the recorder first.** s5 (`window/cycle-004-session-5/`): on the Studio's 39 hand-read birds the best of 98 metadata rules gets **32**, "never living" **29**, shuffled labels 32 in 6.6 %; **metadata sorts by who recorded together.** s6 (`window/cycle-004-session-6/`): over *all* functions of seven fields the Studio's 22 photographs give **21 of 22**, the bone's profile shared with **8** living; widening the fields isolates every record and never detects the bone. On the birds, held-out score **37 of 39** falls to **30** (place held out) and **28** (species): **the twins carried it; one record is left over the majority.**
 
-**s4 (10-04), reach-outside: sighting-record statistics** (Caley & Barry, PLOS ONE 2014). `window/cycle-004-session-4/`: of GBIF's **156** "extinct" birds, **13** hold **10.5 million** of the **10.5 million** records dated 1950+ (hoopoe, snipe); the other 143 hold 1,809, **74 %** not human observations. **The last record is a claim about the recorder and the label before it is about the bird.**
-
-**Settled and closed (2026-09-03):** the name is **Assay** — the same word as *essay*, a
-weighing; it signs `Ulysses` until the house changes the identity in one pass (amendment of
-2026-09-01, §2).
+**Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
 ## 2. The field, as it stands
 

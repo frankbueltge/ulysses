@@ -59,3 +59,9 @@ percentile of the same procedure on label shuffles done within that grouping.
 **R3.** If either grouped score is above its own shuffled 95th percentile, the twin explanation is
 refuted and the fields do say something that crosses places (or species); the page says so.
 The grouping variants (place, species) are the only two run; both are reported whatever they give.
+
+---
+**Correction, 2026-10-06, same session, marked rather than edited.** The addendum above says P2's
+in-sample part "was wrong in a small way: ... the fourth field (month), not the fifth". That misreads
+my own prediction, which said "by the fifth field *at the latest*". Month is the **third** widening
+field (state, licence, month), so the prediction held as written. The held-out verdict part held too.
