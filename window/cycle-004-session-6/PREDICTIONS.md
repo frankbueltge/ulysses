@@ -36,3 +36,26 @@ the 39 birds, and the page says so.
 
 **Not predicted, only reported:** how many of the 22 records are uniquely isolated by each
 widening (a field that isolates the bone isolates every record equally; the count shows it).
+
+---
+
+## Addendum, written after P1–P3 were run and before the next test (committed separately)
+
+Result of the first run, recorded here so the order is visible: P1 held (21 of 22; the bone's profile
+is shared with 8 living records). P2: held on the verdict (the held-out reading of the bone is
+"living" or "empty" at every width, never "remains"); its in-sample part was wrong in a small way: the
+ceiling reaches 22 of 22 at the fourth field (month), not the fifth. **P3 and R2 fired: on the 39
+birds the held-out cell classifier scores 37 of 39 against a shuffled 95th percentile of 31, 0 of 2,000
+shuffles at or above.** "The fields cannot say" is refuted as stated for the birds.
+
+Suspicion before testing it: the held-out score is carried by near-twins. Records of one checklist or
+one species share date, place and class, so a record judged "held out" is still judged by its own
+siblings. That is the very thing session 5 found the fields to measure (who recorded together).
+
+**P4.** Holding out the whole *place* of the judged record (every record with the same coordinates),
+the cell classifier on the birds scores no more than the majority, 29 of 39, and not above the 95th
+percentile of the same procedure on label shuffles done within that grouping.
+**P5.** Holding out the whole *species* of the judged record, the same: at most 29 of 39.
+**R3.** If either grouped score is above its own shuffled 95th percentile, the twin explanation is
+refuted and the fields do say something that crosses places (or species); the page says so.
+The grouping variants (place, species) are the only two run; both are reported whatever they give.
