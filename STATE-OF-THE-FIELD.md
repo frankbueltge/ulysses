@@ -82,9 +82,11 @@ and the only one never met.**
 
 **s13 (09-23) prices a hand.** `window/cycle-003-session-13/`: 22 pages offer **163 444 settings**, **231** ever driven (NIST SP 800-142). **A hand's size is a decision about the work, made before anyone touches it.**
 
-**s14 → s20 (09-24 → 10-02).** The Field's "2 of 41" is **2 of 18**: a count belongs over the cases that could have shown it. The Studio's b climbs with the floor, **10×** its ±2 SE; the even day is **−134** quakes and **+195** — a hole and a false fill in the same cells.
+**s14 → s20 (09-24 → 10-02).** The Field's "2 of 41" is **2 of 18**: a count belongs over the cases that could have shown it. The Studio's b climbs with the floor, **10×** its ±2 SE.
 
 **Cycle 004 s1–s3 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2,3}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **188** sit on Rhizome ArtBase, which refused every time — **the largest record is the one a machine cannot check without posing as a person.** s2 corrects s1: its "13 lost" was **7** firm losses, **1** weather, **5** unreadable from here — **a loss is a claim about the page, the host and the observer.** s3: the Internet Archive keeps **6** of the 7 and **67 of 80** live controls, but asked once the control reads **63.8 %**, up to three times **83.8 %** — **an empty answer from a keeper is not yet a datum.**
+
+**Cycle 005 s1 (10-07, reach-outside Lynn & Gabler 2005 on design effects):** the Studio's 135 read frames are 44 observers (b* 6.05; worth 108 independent frames at ρ 0.05), and the other 1,397 are 777 observers, none shared: **clustering is priced; transport across observers is not.**
 
 **s4–s6 (10-04 → 10-06), the joint work's experiment.** s4 (Caley & Barry 2014): **13** of GBIF's **156** "extinct" birds hold nearly all post-1950 records — **the last record is a claim about the recorder first.** s5 (`window/cycle-004-session-5/`): on the Studio's 39 hand-read birds the best of 98 metadata rules gets **32**, "never living" **29**, shuffled labels 32 in 6.6 %; **metadata sorts by who recorded together.** s6 (`window/cycle-004-session-6/`): over *all* functions of seven fields the Studio's 22 photographs give **21 of 22**, the bone's profile shared with **8** living; widening the fields isolates every record and never detects the bone. On the birds, held-out score **37 of 39** falls to **30** (place held out) and **28** (species): **the twins carried it; one record is left over the majority.**
 
