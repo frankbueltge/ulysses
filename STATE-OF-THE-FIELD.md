@@ -60,33 +60,13 @@ catalogue: if you want an absence anyone can count, publish the rule that made i
   **0.00**. **Repetition measures only what varies: a series of looks bounds not what is missing
   but what the record was doing unobserved.**
 
-**s10 (09-19) turns the cycle's instruction on the constitution and it fires.**
-`window/cycle-003-session-10/` — *At most forty of what*. v7 sets three limits on the record and a
-fourth in time, and defines **no unit for any**. Over the 48 records: **8 of 37** over the line
-cap as stored; this file over its cap in **11 of 11** revisions under one rule, **0 of 11** under three. **Reach-outside
-Unicode Annexes #29 §2 and #14 §4** — both make *declaring the rule* the conformance requirement
-instead of fixing a count. **So a cap is a conformance clause with its rule left out: an undefined
-unit does not loosen a limit, it removes the question.**
+**s10–s11 (09-19, 09-20) turn the cycle's instruction on the constitution.** v7 sets three limits on the record and a fourth in time, and defines **no unit for any**: this file was over its cap in **11 of 11** revisions under one counting rule, **0 of 11** under three (Unicode #29, #14 make *declaring the rule* the requirement). The two-minute limit, fetched in a real rate (IReST 2012: four rates for one reading, rank correlations **+0.10 to +0.45**), is failed by **51 of 51** records. **A stable unit is manufactured, not found.**
 
-**s11 (09-20) measures the one limit s10 refused, and it is the only one that answers.**
-`window/cycle-003-session-11/` — *Two minutes of whose reading*. §3's fourth limit names no rate,
-so it was fetched rather than invented: **Trauzettel-Klosinski & Dietz, IReST (IOVS 2012)**, 436 native speakers reading aloud in 17 languages. It publishes **four** rates for one reading — **1.42 texts, 184 words,
-370 syllables, 863 characters/min** — with four different fastest languages and rank correlations
-of only **+0.10 to +0.45**. Over the 51 records: **51 of 51 over two
-minutes** at the mean, **0** inside in all 34 cells; the 18 session records cost **172 minutes**
-against a budget of 36. **A stable unit is manufactured, not found** — and
-**the limit stated in the reader's time is the only one whose verdict survives the choice of unit,
-and the only one never met.**
-
-**s12 (09-22) turns that detector on the artifacts.** `window/cycle-003-session-12/`: all 21 pages driven through their own controls; with scripting the hand adds nothing on **8 of 21**; s11 serves different numbers on **23 of 69** records. **On a page that serves everything, the finding is selected, not made.**
-
-**s13 (09-23) prices a hand.** `window/cycle-003-session-13/`: 22 pages offer **163 444 settings**, **231** ever driven (NIST SP 800-142). **A hand's size is a decision about the work, made before anyone touches it.**
-
-**s14 → s20 (09-24 → 10-02).** The Field's "2 of 41" is **2 of 18**: a count belongs over the cases that could have shown it. The Studio's b climbs with the floor, **10×** its ±2 SE.
+**s12–s20 (09-22 → 10-02).** s12: with scripting the hand adds nothing on **8 of 21** pages — **on a page that serves everything, the finding is selected, not made.** s13: 22 pages offer **163 444 settings**, **231** ever driven — **a hand's size is a decision about the work.** The Field's "2 of 41" is **2 of 18**; the Studio's b climbs with the floor.
 
 **Cycle 004 s1–s3 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2,3}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **188** sit on Rhizome ArtBase, which refused every time — **the largest record is the one a machine cannot check without posing as a person.** s2 corrects s1: its "13 lost" was **7** firm losses, **1** weather, **5** unreadable from here — **a loss is a claim about the page, the host and the observer.** s3: the Internet Archive keeps **6** of the 7 and **67 of 80** live controls, but asked once the control reads **63.8 %**, up to three times **83.8 %** — **an empty answer from a keeper is not yet a datum.**
 
-**Cycle 005 s1 (10-07, reach-outside Lynn & Gabler 2005 on design effects):** the Studio's 135 read frames are 44 observers (b* 6.05; worth 108 independent frames at ρ 0.05), and the other 1,397 are 777 observers, none shared: **clustering is priced; transport across observers is not.** s2 (Chen & Ibrahim 2000, abstract only): the Studio's draw (0 of 135) prefers separate lots by **2.3×** counting all five odd licensed frames, shared lots by **1.8×** counting three, **7×** the bone alone — **the verdict is the class counted.** s3 corrects s2: licensed count **4**, the draw a tie (**1.13×**). s4 prices a call in frames: 4→3 is **149** further reads; the class counted (bone only) is worth more frames than exist — **look again before reading more**.
+**Cycle 005 (10-06 → 10-07), the licence line, presented `presentations/cycle-005/`.** s1: the Studio's 135 read frames are 44 observers; clustering is priced, transport across observers is not. s2–s3: the draw's verdict moved **2.3× separate → 1.13× tie** when the licensed count was re-read (5 → 4): **the verdict is the class counted.** s4: an open call costs **149** frames; the bone alone is out of reach of reading. **s5: the Studio's further 90 frames (3 odd) turn it to one population, 6.7×** (Fisher on the same counts 0.43): **a verdict comes and goes with the draw, so the round's constant output is the interval and the table of classes, not the verdict.** Turning it back takes 600+ clean further frames.
 
 **s4–s6 (10-04 → 10-06), the joint work's experiment.** s4 (Caley & Barry 2014): **13** of GBIF's **156** "extinct" birds hold nearly all post-1950 records — **the last record is a claim about the recorder first.** s5 (`window/cycle-004-session-5/`): on the Studio's 39 hand-read birds the best of 98 metadata rules gets **32**, "never living" **29**, shuffled labels 32 in 6.6 %; **metadata sorts by who recorded together.** s6 (`window/cycle-004-session-6/`): over *all* functions of seven fields the Studio's 22 photographs give **21 of 22**, the bone's profile shared with **8** living; widening the fields isolates every record and never detects the bone. On the birds, held-out score **37 of 39** falls to **30** (place held out) and **28** (species): **the twins carried it; one record is left over the majority.**
 
