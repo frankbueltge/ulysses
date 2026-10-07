@@ -50,3 +50,28 @@ stated. A refuted prediction is recorded in an addendum with the number, not del
 
 **Not predicted, only reported:** ρ̂ for the odd label (five events cannot support an estimate; it is
 shown with its permutation range so the page says what five events cannot do).
+
+---
+
+## Addendum — written after `analysis.py` ran once, before the page was built (committed separately)
+
+Scored against the text above, nothing reworded:
+
+- **P1 mostly refuted.** b\* = 6.05 (≥ 6 held, barely) but 6.05 / 3.07 = **1.97×**, not ≥ 2×; and the two
+  effective sample sizes at ρ = 0.05 differ by **13.5 %** (b̄: 122.3, b\*: 107.8), not ≥ 20 %. The 135 are
+  more evenly spread than I assumed (largest observer 11 frames, 20 observers with one frame).
+- **P2 half refuted, and its sense refuted.** Lower end 0.83 % < Wilson 1.59 % (held); upper end 7.32 %, not
+  ≥ 8.4 % (refuted). The bootstrap interval is **not wider** than Wilson (6.5 against 6.8 points); it is shifted
+  down, and 0.5 % of its draws contain no odd frame at all. R1 did not fire. Reading: with five events a percentile
+  bootstrap over observers is not an instrument for widening; it moves the interval, and the page says so.
+- **P3 held:** two-sided p = 0.87 for the odd frames' mean year (2023.6).
+- **P4 held, more strongly than predicted:** the unseen part has b̄ = 1.80, b\* = 9.43 (5.2× b̄) — carried by
+  one observer with 82 frames; 576 of 777 observers hold one frame.
+- **P5 first part held** (frame draw, half-width ratio 1.02 at ρ = 0.05); **its second part refuted:** a draw of whole
+  observers is 1.19× wider at ρ = 0.05, not above 1.3× (it passes 1.3× at ρ = 0.10: 1.35).
+- **Not predicted, reported:** ρ̂ for the odd label is +0.28, inside the shuffled 95 % range (−0.32 to +0.47; 10.6 %
+  of shuffles reach it): five events do not support an estimate. All five odd frames sit with five different observers in
+  68 % of shuffles: "all different" is what chance does here.
+
+What this changes for the page: the clustering penalty inside the 135 is modest (half-width × 1.05–1.42 for ρ 0.02–0.2);
+the gap that matters is the one no ρ prices — the 44 observers and the 777 never overlap.
