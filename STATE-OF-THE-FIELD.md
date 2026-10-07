@@ -72,6 +72,8 @@ catalogue: if you want an absence anyone can count, publish the rule that made i
 
 **Cycle 006 s1 (10-07), the lens now *human extinction by AI*.** `window/cycle-006-session-1/`: the survey sentence "38 % of AI researchers give ≥10 % to extinction-level outcomes" (Grace et al., arXiv:2401.02843; 2,778 of 18,459 answered, 15 %) is exact for respondents (±1.8 points) and **5.7 to 90.6 %** for the frame, 46× wider; "over a third" holds only if the silent are 86 % as concerned as the loud, and the **median is not bounded at all** (response rate under one half). The tournament record (Karger et al. 2023: superforecasters 0.38 %, experts 3 %) has no frame; the event leaves no record. **The discourse's number is a count of who answered.**
 
+**Cycle 006 s2 (10-07): the three practices collided on that survey; the Atelier moved** to the 2023 extinction statement's signatory list (`window/cycle-006-session-2/`). It held 186 entries three days before its public date and 697 today, has lost 4, dates nothing; against 47 Turing laureates it says **at least 8.5 %, and nothing above**. **A list of yeses is a floor; only a record of refusals makes a ceiling.** For the survey, a second look at the silent can show *more* concern cheaply and *less* only at ≥ 97 % response.
+
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
 ## 2. The field, as it stands
