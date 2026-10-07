@@ -35,3 +35,18 @@ and the licence line is not only an observer line. R3: if P3's ratio is 3 or mor
 
 **Not predicted, only reported:** the weight a0 at which the draw stops looking surprising (predictive P(0) = 0.05 at the
 conservative end of each lot), and the 1,255 frames still unread.
+
+---
+
+## Addendum — scored after `analysis.py` ran, before the page was written
+
+- **P1 held.** 111 observers, largest 10, 0 shared with the licensed 44, b* = 2.16.
+- **P2 held.** Predictive P(0 of 135) = 0.0485 at a0 = 0, 0.0211 at a0 = 1; ratio 2.30.
+- **P3 held on its number, wrong in its wording.** The ratio for the bone alone is 0.137, under 1.5, but I wrote that the draw "says
+  nothing about a bone". It says something: the licensed bone rate (1 of 135) predicts 0 of 135 at 0.35 against 0.049 for a flat prior, so the draw
+  favours letting the bone cross, by about 7×. The flat prior is the poor model there, not the licensed lot.
+- **P4 refuted.** The cluster discount lowers the ratio from 2.30 to 1.74, a fall of a quarter (limit set: 20 %).
+- **P5 held, trivially.** The licensed odd rate is 4 of 108 from 2024 on and 1 of 27 before: both 3.7 %. Re-weighting changes nothing (5.0 to 5.0). R2 did not fire.
+- **P6 half refuted.** Among the 1,255 unread: median 24 at a0 = 1 and 2 at a0 = 0 (held); the 97.5 % upper count at a0 = 0 is 24, not at least 30 (refuted).
+- **R1, R3 did not fire.** The ratio never reaches 5; the bone ratio is under 3. The result I did not predict: the sign of the
+  evidence flips with the class counted, so the class is the finding.
