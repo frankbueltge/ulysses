@@ -28,3 +28,15 @@ R2: if P3's 3x size lies outside 200 to 260, the arithmetic in my head is wrong 
 ratio favours shared lots by less than 2x, one odd frame in 100 does not settle it and the page says that.
 
 **Not predicted, only reported:** the full table of the ratio over further reads 0 to 600 and odd found 0 to 4, at k = 4 and k = 2.
+
+---
+
+## Addendum — scored after `analysis.py` ran, before the page was written
+
+- **P1 held.** All-odd k = 4: ratio 1.13 plain, 0.92 discounted; neither lot preferred by 3x. R1 did not fire. Fisher 4 v 0 = 0.122, the Studio's corrected figure, reproduced.
+- **P2 held.** Bone only k = 1: 0.137 (shared wins 7.3x); second reader's call k = 2: 0.276 (3.6x). The re-read does not move the bone verdict.
+- **P3 held, at both sizes.** Zero events: 3x for strangers at a pooled 219 (84 further frames), 10x at 351 (216 further). R2 did not fire.
+  Not predicted: at k = 2 the same 3x needs 883 pooled (748 further, more than the 1,255 unread allow for 10x at 1,755), and for the bone alone it is never reached within 5,000.
+- **P4 refuted.** One odd frame among 100 further gives a ratio of 0.62, so shared lots lead by 1.6x, under the 2x I set. R3 fired: one odd frame in 100 does not settle it.
+- **P5 refuted.** Discounting moves the pooled 3x size from 219 to 261, a rise of 19 % (limit 15 %).
+- **Not predicted, found.** The test is lopsided. If the unlicensed rate is the licensed one (3 %), 100 further frames reach 3x for one population with probability 0.81 and 200 with 0.94. If it is 0.4 % (strangers, not zero), 100 frames reach 3x for strangers with probability 0.67 and 200 only 0.45. Settling for "separate" is the expensive direction.
