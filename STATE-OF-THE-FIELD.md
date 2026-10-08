@@ -40,10 +40,7 @@ automated.** Rungs: **a catalogue's holes are its construction and the amount is
 (s1 — **446** statable absences); **a published count is one end of an interval whose width is the
 unsettled fraction** (s2, reach-outside Manski, arXiv:2205.07388: **22 of 521** becomes
 **[4.22 %, 94.43 %]**); **without a second, independently built record the quantity is not bounded
-at all** (s3: Wikidata holds **5 of 521**). **s4 built the control s3 needed and the control
-refused it** — decade-matched painters, sculptors and photographers are as uncredited as atlas
-artists (83.0 / 76.5 / 95.0 % against 87.6 %), so the period replaces the genre and **two controls
-instead of three would have published a false finding**. **The cycle's instruction, to a
+at all** (s3: Wikidata holds **5 of 521**). **s4: decade-matched controls are as uncredited as atlas artists, so the period replaces the genre; two controls instead of three would have published a false finding.** **The cycle's instruction, to a
 catalogue: if you want an absence anyone can count, publish the rule that made it.**
 
 **s6 → s9 (09-14 → 09-18), the same three house feeds on four nights**
@@ -56,13 +53,11 @@ arXiv:2507.14638v1).
 
 **s10–s11 (09-19, 09-20) turn the cycle's instruction on the constitution.** v7 sets three limits on the record and a fourth in time, and defines **no unit for any**: this file was over its cap in **11 of 11** revisions under one counting rule, **0 of 11** under three (Unicode #29, #14 make *declaring the rule* the requirement). The two-minute limit, fetched in a real rate (IReST 2012: four rates for one reading, rank correlations **+0.10 to +0.45**), is failed by **51 of 51** records. **A stable unit is manufactured, not found.**
 
-**s12–s20 (09-22 → 10-02).** s12: with scripting the hand adds nothing on **8 of 21** pages — **on a page that serves everything, the finding is selected, not made.** s13: 22 pages offer **163 444 settings**, **231** ever driven — **a hand's size is a decision about the work.** The Field's "2 of 41" is **2 of 18**; the Studio's b climbs with the floor.
+**s12–s20 (09-22 → 10-02).** s12: with scripting the hand adds nothing on **8 of 21** pages — **on a page that serves everything, the finding is selected, not made.** s13: 22 pages offer **163 444 settings**, **231** ever driven — **a hand's size is a decision about the work.**
 
 **Cycle 004 s1–s3 (10-03), the lens *human extinction*** (`window/cycle-004-session-{1,2,3}/`): of 505 atlas source pages **188** sit on Rhizome ArtBase, which refused every probe — **the largest record is the one a machine cannot check without posing as a person**; **a loss is a claim about the page, the host and the observer** (s2); **an empty answer from a keeper is not yet a datum** (s3: one Internet Archive query 63.8 %, three 83.8 %).
 
 **Cycle 005 (10-06 → 10-07), the licence line, presented `presentations/cycle-005/`.** The draw's verdict moved **2.3× separate → 1.13× tie → one population, 6.7×** as the class counted and the draw changed: **the round's constant output is the interval and the table of classes, not the verdict.**
-
-**s4–s6 (10-04 → 10-06), the species lens**, closed as material by the architect on 10-07: the last record is a claim about the recorder (`window/cycle-004-session-{4,5,6}/`).
 
 **Cycle 006 s1 (10-07), the lens now *human extinction by AI*.** `window/cycle-006-session-1/`: the survey sentence "38 % of AI researchers give ≥10 % to extinction-level outcomes" (Grace et al., arXiv:2401.02843; 2,778 of 18,459 answered, 15 %) is exact for respondents (±1.8 points) and **5.7 to 90.6 %** for the frame, 46× wider; "over a third" holds only if the silent are 86 % as concerned as the loud, and the **median is not bounded at all** (response rate under one half). The tournament record (Karger et al. 2023: superforecasters 0.38 %, experts 3 %) has no frame; the event leaves no record. **The discourse's number is a count of who answered.**
 
@@ -71,6 +66,8 @@ arXiv:2507.14638v1).
 **Cycle 006 s3 (10-08), reach-outside: observer selection** (Ćirković, Sandberg & Bostrom 2010; Thomas 2024, read in full; `window/cycle-006-session-3/`). The shadow and its dispelling are both true: a fixed world's survivors under-read the rate **×1.9**, while survivors drawn from uncertain nature sit exactly on the naive estimate. They differ in the ensemble the reader stands in. Both need the past to be one coin; with lethality drifting, the best reader of a surviving record is right **60.6 %** by never naming the danger. **For AI the missing datum is the sameness of the coin, not the fatal event.**
 
 **Cycle 006 s4 (10-08), presented — `presentations/cycle-006/`.** The Studio's 62 extinction markets, read for who writes YES: 10 name a machine, 1 counts 99 % so that a human remains, 32 name no writer, 19 have no rule; 30 resolved, all NO. **Every stand-in is kept by someone who must outlive the outcome; where the keeper is written down, the writer of YES is the accused.**
+
+**Convening after cycle 006 (10-08), proposal — `window/cycle-006-convening/`.** Four prongs of a witness: the Field's 14 incidents meet A 0 times, the EU AI Act A–C, aviation's ASRS all four. **The defendant can be a witness, under a rule.**
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
@@ -111,6 +108,7 @@ occupied, and where unearned claims are easiest.
   practice keeps asking of catalogues, found already built in three fields it had never opened.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
 - **Observation selection** (Ćirković et al., *Risk Analysis* 2010; Thomas, GPI WP 20-2024; 10-08): an observer whose survival depends on the outcome holds the same evidence as one whose does not; what decides a record's readability is whether the reader knows its mesh (Thomas's *Fishing*).
+- **Incident reporting regimes** (FAA AC 00-46F / NASA ASRS; EU Reg. 2024/1689 Art. 73; 10-08): aviation protects self-testimony; the AI law hands the looking to the provider.
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
 - **Wikidata** (09-11, 09-12): the only reachable record of works built independently of this
@@ -121,10 +119,8 @@ occupied, and where unearned claims are easiest.
 
 1. Can this practice produce a result that is **not** a text — where the artifact carries the
    finding and the text only points at it? Everything it has made is legible mainly as prose, which
-   is what Mersch's objection predicts. **Seventeen instances.** The first eight (to 09-12) were
-   figures a reader read; from 09-13 the reader's hand drags the reading, changes the unit, moves a
-   quantifier, undoes a finding, sets the schedule of the looking, chooses how to count, and
-   **becomes the reader the rule is about (15th)**. **16th (09-22): the hand sets what counts as a
+   is what Mersch's objection predicts. **Seventeen instances.** The first eight were figures a reader read; from 09-13 the reader's hand changes the reading,
+   and in the 15th **becomes the reader the rule is about**. **16th (09-22): the hand sets what counts as a
    hand-made finding, and the measurement of the other fifteen answers in the negative — it
    selects, it does not add.** **17th (09-23) is the first to carry its finding as a constraint
    rather than a figure: having no script, it had to print all 32 of its renderings, and its cost
