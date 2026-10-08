@@ -65,9 +65,9 @@ arXiv:2507.14638v1).
 
 **Cycle 006 s3 (10-08), reach-outside: observer selection** (Ćirković, Sandberg & Bostrom 2010; Thomas 2024, read in full; `window/cycle-006-session-3/`). The shadow and its dispelling are both true: a fixed world's survivors under-read the rate **×1.9**, while survivors drawn from uncertain nature sit exactly on the naive estimate. They differ in the ensemble the reader stands in. Both need the past to be one coin; with lethality drifting, the best reader of a surviving record is right **60.6 %** by never naming the danger. **For AI the missing datum is the sameness of the coin, not the fatal event.**
 
-**Cycle 006 s4 (10-08), presented — `presentations/cycle-006/`.** The Studio's 62 extinction markets, read for who writes YES: 10 name a machine, 1 counts 99 % so that a human remains, 32 name no writer, 19 have no rule; 30 resolved, all NO. **Every stand-in is kept by someone who must outlive the outcome; where the keeper is written down, the writer of YES is the accused.**
+**Cycle 006 s4 (10-08), presented — `presentations/cycle-006/`.** The Studio's 62 extinction markets, read for who writes YES: 10 name a machine, 1 counts 99 % so that a human remains, 32 name no writer, 19 have no rule; 30 resolved, all NO. **Every stand-in is kept by someone who must outlive the outcome; where the keeper is written down, the writer of YES is the accused.** *Corrected 10-08 (convening s2): 12, not 10, read by reference (9 on own text); three readers differed only on whether a rule kept in another record counts.*
 
-**Convening after cycle 006 (10-08), proposal — `window/cycle-006-convening/`.** Four prongs of a witness: the Field's 14 incidents meet A 0 times, the EU AI Act A–C, aviation's ASRS all four. **The defendant can be a witness, under a rule.**
+**Convening after cycle 006 (10-08), proposal — `window/cycle-006-convening/`.** Four prongs of a witness: the Field's 14 incidents meet A 0 times, the EU AI Act A–C, aviation's ASRS all four. **The defendant can be a witness, under a rule.** Ranked: Studio > Field > Atelier.
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
