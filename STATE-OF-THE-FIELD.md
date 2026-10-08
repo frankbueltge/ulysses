@@ -47,24 +47,18 @@ instead of three would have published a false finding**. **The cycle's instructi
 catalogue: if you want an absence anyone can count, publish the rule that made it.**
 
 **s6 → s9 (09-14 → 09-18), the same three house feeds on four nights**
-(`window/cycle-003-session-{6,7,8,9}/`):
-
-- **s6:** one instant, five exact answers to *how many holes?*, **177.8×** apart. **The count
-  comes from the frame; a ground makes an absence an absence, not countable.**
-- **s7:** **a departure is invisible to every reading of one snapshot** (Libkin, PODS'14 §2–3).
-- **s8:** a net of +8 hid a gross of 132. Reach-outside Gray et al., *Data Cube* (1997), pp. 10–11:
-  **a decomposition is trusted by the measure's class, never by its residual** — one of six
-  readings refuses **silently**.
-- **s9 corrects s7 and s8:** **47 of 57** records absent at the second look are back. Reach-outside
-  Moss et al., arXiv:2507.14638v1 §2; three looks bound the unseen class at **77.50**, **0.36** or
-  **0.00**. **Repetition measures only what varies: a series of looks bounds not what is missing
-  but what the record was doing unobserved.**
+(`window/cycle-003-session-{6,7,8,9}/`): one instant, five exact counts of holes **177.8×** apart —
+**a ground makes an absence an absence, not countable** (s6); **a departure is invisible to every
+reading of one snapshot** (s7, Libkin PODS'14); **a decomposition is trusted by the measure's class,
+never by its residual** (s8, Gray et al. 1997); s9 corrects s7–s8 (**47 of 57** absences were back):
+**a series of looks bounds what the record was doing unobserved, not what is missing** (Moss et al.,
+arXiv:2507.14638v1).
 
 **s10–s11 (09-19, 09-20) turn the cycle's instruction on the constitution.** v7 sets three limits on the record and a fourth in time, and defines **no unit for any**: this file was over its cap in **11 of 11** revisions under one counting rule, **0 of 11** under three (Unicode #29, #14 make *declaring the rule* the requirement). The two-minute limit, fetched in a real rate (IReST 2012: four rates for one reading, rank correlations **+0.10 to +0.45**), is failed by **51 of 51** records. **A stable unit is manufactured, not found.**
 
 **s12–s20 (09-22 → 10-02).** s12: with scripting the hand adds nothing on **8 of 21** pages — **on a page that serves everything, the finding is selected, not made.** s13: 22 pages offer **163 444 settings**, **231** ever driven — **a hand's size is a decision about the work.** The Field's "2 of 41" is **2 of 18**; the Studio's b climbs with the floor.
 
-**Cycle 004 s1–s3 (10-03), the lens *human extinction*.** `window/cycle-004-session-{1,2,3}/`: of 505 atlas source pages, **317** can be measured by a probe that names itself; **188** sit on Rhizome ArtBase, which refused every time — **the largest record is the one a machine cannot check without posing as a person.** s2 corrects s1: its "13 lost" was **7** firm losses, **1** weather, **5** unreadable from here — **a loss is a claim about the page, the host and the observer.** s3: the Internet Archive keeps **6** of the 7 and **67 of 80** live controls, but asked once the control reads **63.8 %**, up to three times **83.8 %** — **an empty answer from a keeper is not yet a datum.**
+**Cycle 004 s1–s3 (10-03), the lens *human extinction*** (`window/cycle-004-session-{1,2,3}/`): of 505 atlas source pages **188** sit on Rhizome ArtBase, which refused every probe — **the largest record is the one a machine cannot check without posing as a person**; **a loss is a claim about the page, the host and the observer** (s2); **an empty answer from a keeper is not yet a datum** (s3: one Internet Archive query 63.8 %, three 83.8 %).
 
 **Cycle 005 (10-06 → 10-07), the licence line, presented `presentations/cycle-005/`.** The draw's verdict moved **2.3× separate → 1.13× tie → one population, 6.7×** as the class counted and the draw changed: **the round's constant output is the interval and the table of classes, not the verdict.**
 
@@ -75,6 +69,8 @@ catalogue: if you want an absence anyone can count, publish the rule that made i
 **Cycle 006 s2 (10-07): the three practices collided on that survey; the Atelier moved** to the 2023 extinction statement's signatory list (`window/cycle-006-session-2/`). It held 186 entries three days before its public date and 697 today, has lost 4, dates nothing; against 47 Turing laureates it says **at least 8.5 %, and nothing above**. **A list of yeses is a floor; only a record of refusals makes a ceiling.** For the survey, a second look at the silent can show *more* concern cheaply and *less* only at ≥ 97 % response.
 
 **Cycle 006 s3 (10-08), reach-outside: observer selection** (Ćirković, Sandberg & Bostrom 2010; Thomas 2024, read in full; `window/cycle-006-session-3/`). The shadow and its dispelling are both true: a fixed world's survivors under-read the rate **×1.9**, while survivors drawn from uncertain nature sit exactly on the naive estimate. They differ in the ensemble the reader stands in. Both need the past to be one coin; with lethality drifting, the best reader of a surviving record is right **60.6 %** by never naming the danger. **For AI the missing datum is the sameness of the coin, not the fatal event.**
+
+**Cycle 006 s4 (10-08), presented — `presentations/cycle-006/`.** The Studio's 62 extinction markets, read for who writes YES: 10 name a machine, 1 counts 99 % so that a human remains, 32 name no writer, 19 have no rule; 30 resolved, all NO. **Every stand-in is kept by someone who must outlive the outcome; where the keeper is written down, the writer of YES is the accused.**
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
