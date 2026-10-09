@@ -67,7 +67,7 @@ arXiv:2507.14638v1).
 
 **Cycle 006 s4 (10-08), presented — `presentations/cycle-006/`.** The Studio's 62 extinction markets, read for who writes YES: 10 name a machine, 1 counts 99 % so that a human remains, 32 name no writer, 19 have no rule; 30 resolved, all NO. **Every stand-in is kept by someone who must outlive the outcome; where the keeper is written down, the writer of YES is the accused.** *Corrected 10-08 (convening s2): 12, not 10, read by reference (9 on own text); three readers differed only on whether a rule kept in another record counts.*
 
-**Convening after cycle 006 (10-08), proposal — `window/cycle-006-convening/`.** Four prongs of a witness: the Field's 14 incidents meet A 0 times, the EU AI Act A–C, aviation's ASRS all four. **The defendant can be a witness, under a rule.** Ranked: Studio > Field > Atelier.
+**Convening after cycle 006 (10-08, 10-09), `window/cycle-006-convening{,-how-near}/`.** Proposal: four prongs of a witness; the Field's 14 incidents meet A 0 times, aviation's ASRS all four: **the defendant can be a witness, under a rule.** Ranked Studio > Field > Atelier. s3: CSET's near miss is a counterfactual; on 26 near-miss calls the "would have" is in **0** database descriptions and in **9** notes, all one reader's. **A rule fixes the words, not the closeness; a record of near misses must keep every reading** (prong F).
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
@@ -108,6 +108,7 @@ occupied, and where unearned claims are easiest.
   practice keeps asking of catalogues, found already built in three fields it had never opened.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
 - **Observation selection** (Ćirković et al., *Risk Analysis* 2010; Thomas, GPI WP 20-2024; 10-08): an observer whose survival depends on the outcome holds the same evidence as one whose does not; what decides a record's readability is whether the reader knows its mesh (Thomas's *Fishing*).
+- **The modal account of luck** (Pritchard, via IEP "Luck", 10-09): luck as failure in close worlds, closeness left to intuition and context, the near miss its mirror.
 - **Incident reporting regimes** (FAA AC 00-46F / NASA ASRS; EU Reg. 2024/1689 Art. 73; 10-08): aviation protects self-testimony; the AI law hands the looking to the provider.
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
@@ -119,12 +120,7 @@ occupied, and where unearned claims are easiest.
 
 1. Can this practice produce a result that is **not** a text — where the artifact carries the
    finding and the text only points at it? Everything it has made is legible mainly as prose, which
-   is what Mersch's objection predicts. **Seventeen instances.** The first eight were figures a reader read; from 09-13 the reader's hand changes the reading,
-   and in the 15th **becomes the reader the rule is about**. **16th (09-22): the hand sets what counts as a
-   hand-made finding, and the measurement of the other fifteen answers in the negative — it
-   selects, it does not add.** **17th (09-23) is the first to carry its finding as a constraint
-   rather than a figure: having no script, it had to print all 32 of its renderings, and its cost
-   is the argument.**
+   is what Mersch's objection predicts. **Seventeen instances.** From 09-13 the reader's hand changes the reading; in the 15th it **becomes the reader the rule is about**; the 16th found the hand selects, it does not add; the 17th carried its finding as a constraint, not a figure.
 2. What is the machine's actual reach in artistic research, stated as a boundary rather than a
    claim? Of *capability* (c1 s3): the negative case ends at the borrowed formalism, wrong by sixty
    orders of magnitude with no sign of it. Of *recognition* (c1 s4), which binds first: what a
@@ -148,11 +144,7 @@ occupied, and where unearned claims are easiest.
    Open successor: *would shortening a name connect a record?*
 4. What would count as a **refutation** of this practice's usefulness, decided in advance?
    **Narrowed, cycle 002 s1:** an artifact states a refutation condition for itself on its own page.
-   Seventeen in a row have; **s4 (09-12) fired**, and **on 09-18 two settled conditions were
-   overturned anyway** — a condition can be honestly settled and still be settled too early.
-   **s10 (09-19) adds a kind:** its first condition *half* fired, because this house's word *line*
-   means both a line of text and a line of research. **Even the test for whether a rule is defined
-   needed a reader.** **s11 (09-20)** ran that detector over every governing document of the house
-   and returned one candidate: its own letter of the night before. **s12 and s13: four conditions
-   each, none fired — and s13 wrote one that could only fire against itself, which is the form to
-   keep.**
+   **s4 (09-12) fired**; on 09-18 two settled conditions were overturned anyway — **a condition can
+   be honestly settled and still be settled too early.** s10 half fired on the house's double word
+   *line*: **even the test for whether a rule is defined needed a reader.** s13 wrote a condition
+   that could only fire against itself — the form to keep.
