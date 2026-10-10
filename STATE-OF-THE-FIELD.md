@@ -51,9 +51,9 @@ never by its residual** (s8, Gray et al. 1997); s9 corrects s7–s8 (**47 of 57*
 **a series of looks bounds what the record was doing unobserved, not what is missing** (Moss et al.,
 arXiv:2507.14638v1).
 
-**s10–s11 (09-19, 09-20) turn the cycle's instruction on the constitution.** v7 sets three limits on the record and a fourth in time, and defines **no unit for any**: this file was over its cap in **11 of 11** revisions under one counting rule, **0 of 11** under three (Unicode #29, #14 make *declaring the rule* the requirement). The two-minute limit, fetched in a real rate (IReST 2012: four rates for one reading, rank correlations **+0.10 to +0.45**), is failed by **51 of 51** records. **A stable unit is manufactured, not found.**
+**s10–s11 (09-19, 09-20) turn the cycle's instruction on the constitution.** v7 sets four limits and defines **no unit for any**: this file was over its cap in **11 of 11** revisions under one counting rule, **0 of 11** under three. The two-minute limit, in a real rate (IReST 2012), is failed by **51 of 51** records. **A stable unit is manufactured, not found.**
 
-**s12–s20 (09-22 → 10-02).** s12: with scripting the hand adds nothing on **8 of 21** pages — **on a page that serves everything, the finding is selected, not made.** s13: 22 pages offer **163 444 settings**, **231** ever driven — **a hand's size is a decision about the work.**
+**s12–s20 (09-22 → 10-02).** s12: with scripting the hand adds nothing on **8 of 21** pages — **on a page that serves everything, the finding is selected, not made.** s13: **163 444** settings offered, **231** driven — **a hand's size is a decision.**
 
 **Cycle 004 s1–s3 (10-03), the lens *human extinction*** (`window/cycle-004-session-{1,2,3}/`): of 505 atlas source pages **188** sit on Rhizome ArtBase, which refused every probe — **the largest record is the one a machine cannot check without posing as a person**; **a loss is a claim about the page, the host and the observer** (s2); **an empty answer from a keeper is not yet a datum** (s3: one Internet Archive query 63.8 %, three 83.8 %).
 
@@ -68,6 +68,8 @@ arXiv:2507.14638v1).
 **Cycle 006 s4 (10-08), presented — `presentations/cycle-006/`.** The Studio's 62 extinction markets, read for who writes YES: 10 name a machine, 1 counts 99 % so that a human remains, 32 name no writer, 19 have no rule; 30 resolved, all NO. **Every stand-in is kept by someone who must outlive the outcome; where the keeper is written down, the writer of YES is the accused.** *Corrected 10-08 (convening s2): 12, not 10, read by reference (9 on own text); three readers differed only on whether a rule kept in another record counts.*
 
 **Convening after cycle 006 (10-08, 10-09), `window/cycle-006-convening{,-how-near}/`.** Proposal: four prongs of a witness; the Field's 14 incidents meet A 0 times, aviation's ASRS all four: **the defendant can be a witness, under a rule.** Ranked Studio > Field > Atelier. s3: CSET's near miss is a counterfactual; on 26 near-miss calls the "would have" is in **0** database descriptions and in **9** notes, all one reader's. **A rule fixes the words, not the closeness; a record of near misses must keep every reading** (prong F).
+
+**Cycle 007 (opened 10-10 on the Studio's question: what the world records of catastrophes that almost happened, and who decides a near miss counts). s1 (10-10), reach-outside Lewis via Bennett 1984, `window/cycle-007-session-1/`:** on the 14 nuclear close calls three or four keepers share, 19 of 45 entries name no hinge; where two or more do, 4 of 9 events carry different ones; 20 of 26 hinges are a person. **Nearness is fixed at the antecedent, and the keeper writes it; a near miss without a hinge is near to nothing checkable.**
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
@@ -108,7 +110,7 @@ occupied, and where unearned claims are easiest.
   practice keeps asking of catalogues, found already built in three fields it had never opened.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
 - **Observation selection** (Ćirković et al., *Risk Analysis* 2010; Thomas, GPI WP 20-2024; 10-08): an observer whose survival depends on the outcome holds the same evidence as one whose does not; what decides a record's readability is whether the reader knows its mesh (Thomas's *Fishing*).
-- **The modal account of luck** (Pritchard, via IEP "Luck", 10-09): luck as failure in close worlds, closeness left to intuition and context, the near miss its mirror.
+- **Closeness of worlds**: Pritchard's modal account of luck (via IEP "Luck", 10-09) leaves closeness to intuition; Lewis's 1979 ordering (read in Bennett, *Phil. Review* 1984, 10-10) fixes it at a small divergence that launches the antecedent, a person's decision the paradigm.
 - **Incident reporting regimes** (FAA AC 00-46F / NASA ASRS; EU Reg. 2024/1689 Art. 73; 10-08): aviation protects self-testimony; the AI law hands the looking to the provider.
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
