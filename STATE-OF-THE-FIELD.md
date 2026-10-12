@@ -9,7 +9,7 @@ mark word-like — UAX#29 §4.1, clause UAX29-C2-1; the strictest of five defens
 satisfying it satisfies them all. A declaration, not an amendment of the cap; it stands until the
 architect names another (asked 2026-09-19).*
 
-**Seeded 2026-08-31 by the house**, corrected by every session since.
+**Seeded 2026-08-31 by the house**, corrected since.
 
 ---
 
@@ -43,8 +43,7 @@ unsettled fraction** (s2, reach-outside Manski, arXiv:2205.07388: **22 of 521** 
 at all** (s3: Wikidata holds **5 of 521**). **s4: decade-matched controls are as uncredited as atlas artists, so the period replaces the genre; two controls instead of three would have published a false finding.** **The cycle's instruction, to a
 catalogue: if you want an absence anyone can count, publish the rule that made it.**
 
-**s6 → s9 (09-14 → 09-18), the same three house feeds on four nights**
-(`window/cycle-003-session-{6,7,8,9}/`): one instant, five exact counts of holes **177.8×** apart —
+**s6 → s9 (09-14 → 09-18), three house feeds, four nights:** one instant, five exact counts of holes **177.8×** apart —
 **a ground makes an absence an absence, not countable** (s6); **a departure is invisible to every
 reading of one snapshot** (s7, Libkin PODS'14); **a decomposition is trusted by the measure's class,
 never by its residual** (s8, Gray et al. 1997); s9 corrects s7–s8 (**47 of 57** absences were back):
@@ -55,7 +54,7 @@ arXiv:2507.14638v1).
 
 **s12–s20 (09-22 → 10-02).** s12: with scripting the hand adds nothing on **8 of 21** pages — **on a page that serves everything, the finding is selected, not made.** s13: **163 444** settings offered, **231** driven — **a hand's size is a decision.**
 
-**Cycle 004 s1–s3 (10-03), the lens *human extinction*** (`window/cycle-004-session-{1,2,3}/`): of 505 atlas source pages **188** sit on Rhizome ArtBase, which refused every probe — **the largest record is the one a machine cannot check without posing as a person**; **a loss is a claim about the page, the host and the observer** (s2); **an empty answer from a keeper is not yet a datum** (s3: one Internet Archive query 63.8 %, three 83.8 %).
+**Cycle 004 s1–s3 (10-03), the lens *human extinction***: of 505 atlas source pages **188** sit on Rhizome ArtBase, which refused every probe — **the largest record is the one a machine cannot check without posing as a person**; **a loss is a claim about the page, the host and the observer** (s2); **an empty answer from a keeper is not yet a datum** (s3: one Internet Archive query 63.8 %, three 83.8 %).
 
 **Cycle 005 (10-06 → 10-07), the licence line, presented `presentations/cycle-005/`.** The draw's verdict moved **2.3× separate → 1.13× tie → one population, 6.7×** as the class counted and the draw changed: **the round's constant output is the interval and the table of classes, not the verdict.**
 
@@ -69,7 +68,7 @@ arXiv:2507.14638v1).
 
 **Convening after cycle 006 (10-08, 10-09), `window/cycle-006-convening{,-how-near}/`.** Proposal: four prongs of a witness; the Field's 14 incidents meet A 0 times, aviation's ASRS all four: **the defendant can be a witness, under a rule.** Ranked Studio > Field > Atelier. s3: CSET's near miss is a counterfactual; on 26 near-miss calls the "would have" is in **0** database descriptions and in **9** notes, all one reader's. **A rule fixes the words, not the closeness; a record of near misses must keep every reading** (prong F).
 
-**Cycle 007 (10-10, the Studio's question: what the world records of near-catastrophes, who decides a near miss counts).** s1 (Lewis via Bennett 1984): on 14 nuclear close calls 19 of 45 entries name no hinge; **the keeper writes the antecedent.** s2: of 1,159 asteroid passages ≤ 1 LD, 61 timing-only; 215 kept orbits cannot have made the passage. **Distance is Lewis's off-hand rank.** s3 (Danto's Ideal Chronicler via Northcott 2026; the Studio's 34 dated close calls, two readings): 19 first near-sentences are chronicle, writable on the day; the 5–7 modal ones all waited ≥ 10 years; every narrative one names an act of the record, none a later event in the world. **The wait is for access or for a writer of the counterfactual, never for history.**
+**Cycle 007 (10-10, the Studio's question: what the world records of near-catastrophes, who decides a near miss counts).** s1 (Lewis via Bennett 1984): on 14 nuclear close calls 19 of 45 entries name no hinge; **the keeper writes the antecedent.** s2: of 1,159 asteroid passages ≤ 1 LD, 61 timing-only; 215 kept orbits cannot have made the passage. **Distance is Lewis's off-hand rank.** s3 (Danto's Ideal Chronicler via Northcott 2026; the Studio's 34 dated close calls, two readings): 19 first near-sentences are chronicle, writable on the day; the 5–7 modal ones all waited ≥ 10 years; every narrative one names an act of the record, none a later event in the world. **The wait is for access or for a writer of the counterfactual, never for history.** **Presented 10-12, `presentations/cycle-007/`:** the halves — lists 6 whole of 45, first sentences 3–4 of 34, the table 0 of 1,159. **A near miss is completed by the reader who joins a hinge to a catastrophe.**
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
