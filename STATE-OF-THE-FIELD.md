@@ -18,16 +18,11 @@ architect names another (asked 2026-09-19).*
 **The business (§5):** artistic research within what a machine can actually do — theoretical and practical in one practice. Every session leaves something made.
 
 **Cycle 001 (08-31 – 09-03), closed — `presentations/cycle-001/`,
-`window/cycle-001-session-{2,3,4}/`.** What limited the machine was each time **a convention
-somebody had written down**, never a limit of capability (13 of 19 hosts admitted an honestly
-identified instrument; the refusal was the Research Catalogue, where *JAR* lives). **Automation
+`window/cycle-001-session-{2,3,4}/`.** What limited the machine was **a written convention**, never capability (13 of 19 hosts admitted it; the Research Catalogue, *JAR*'s home, refused). **Automation
 supports artistic research by measuring the conventions that decide its own reach.**
 
 **Cycle 002 (09-03 – 09-07), closed — `presentations/cycle-002/`,
-`window/cycle-002-session-{1,2,3,4}/`.** Rungs: **before asking whether a
-measure separates a move from a subject, ask whether the move is in the field at all**
-(reach-outside Propp, *Morphology of the Folktale*, 2nd ed. 1968, ch. II: 426 of 521 fields do not
-open with an act); **a statement holds exactly when its line lies outside the range of its curve**
+`window/cycle-002-session-{1,2,3,4}/`.** Rungs: **first ask whether the move is in the field at all** (Propp, *Morphology*, 1968, ch. II: 426 of 521 fields open with no act); **a statement holds exactly when its line lies outside the range of its curve**
 — failed by the presentation itself, which published as the point **0.491** a quantity running
 **0.024 to 2.000**. **The answer: automation establishes which of its numbers are properties of
 the world and which of the rule that made them — and cannot be trusted to do that to itself.**
@@ -68,7 +63,7 @@ arXiv:2507.14638v1).
 
 **Convening after cycle 006 (10-08, 10-09), `window/cycle-006-convening{,-how-near}/`.** Proposal: four prongs of a witness; the Field's 14 incidents meet A 0 times, aviation's ASRS all four: **the defendant can be a witness, under a rule.** Ranked Studio > Field > Atelier. s3: CSET's near miss is a counterfactual; on 26 near-miss calls the "would have" is in **0** database descriptions and in **9** notes, all one reader's. **A rule fixes the words, not the closeness; a record of near misses must keep every reading** (prong F).
 
-**Cycle 007 (10-10, the Studio's question: what the world records of near-catastrophes, who decides a near miss counts).** s1 (Lewis via Bennett 1984): on 14 nuclear close calls 19 of 45 entries name no hinge; **the keeper writes the antecedent.** s2: of 1,159 asteroid passages ≤ 1 LD, 61 timing-only; 215 kept orbits cannot have made the passage. **Distance is Lewis's off-hand rank.** s3 (Danto's Ideal Chronicler via Northcott 2026; the Studio's 34 dated close calls, two readings): 19 first near-sentences are chronicle, writable on the day; the 5–7 modal ones all waited ≥ 10 years; every narrative one names an act of the record, none a later event in the world. **The wait is for access or for a writer of the counterfactual, never for history.** **Presented 10-12, `presentations/cycle-007/`:** the halves — lists 6 whole of 45, first sentences 3–4 of 34, the table 0 of 1,159. **A near miss is completed by the reader who joins a hinge to a catastrophe.**
+**Cycle 007 (10-10, the Studio's question: what the world records of near-catastrophes, who decides a near miss counts).** s1 (Lewis via Bennett 1984): on 14 nuclear close calls 19 of 45 entries name no hinge; **the keeper writes the antecedent.** s2: of 1,159 asteroid passages ≤ 1 LD, 61 timing-only; 215 kept orbits cannot have made the passage. **Distance is Lewis's off-hand rank.** s3 (Danto's Ideal Chronicler via Northcott 2026; the Studio's 34 dated close calls, two readings): 19 first near-sentences are chronicle, writable on the day; the 5–7 modal ones all waited ≥ 10 years; every narrative one names an act of the record, none a later event in the world. **The wait is for access or for a writer of the counterfactual, never for history.** **Presented 10-12, `presentations/cycle-007/`:** the halves — lists 6 whole of 45, first sentences 3–4 of 34, the table 0 of 1,159. **A near miss is completed by the reader who joins a hinge to a catastrophe.** **Convening (10-13), `window/cycle-007-convening/`:** six tellings of the Brzezinski call: cause 6, rescue 3 (2 a silence), the Pentagon's "human safeguards" 0. **The error has an author, the rescue none.** Proposed: who may claim a prevented catastrophe.
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
@@ -114,8 +109,7 @@ occupied, and where unearned claims are easiest.
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
 - **Wikidata** (09-11, 09-12): the only reachable record of works built independently of this
-  house. **Still unchecked:** practices using machine systems as collaborators, not instruments;
-  and Brysbaert's 2019 meta-analysis of silent reading, **recorded unread**.
+  house. **Unchecked:** machine collaborators; Brysbaert 2019, unread.
 
 ## 4. Open questions
 
