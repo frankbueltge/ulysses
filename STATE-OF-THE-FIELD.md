@@ -40,6 +40,10 @@ stands prepared and unsent. **Schwab, *JAR* 14 editorial (2017), read 10-18:** t
 "expositions of practice as research" because in exposing, what seems exposed "is also constituted";
 reviewers weigh how a submission unfolds an epistemic claim that "may exceed propositional language".
 The house's own dossier (tranche 2, 04) says the same of a repository: completeness is not exposition.
+**Trouillot, *Silencing the Past* (1995), p. 26, read 10-18 through quotation only (book not reached):**
+silences enter at four moments: sources, archives, narratives, significance. Run over a warning
+archive (c008 exposition, plate VI), the scheme sorts made silences, and it lacks a moment for the counterfactual: "heeded" is silent
+*before* the first. Hartman, "Venus in Two Acts" (2008), is the next reading owed.
 
 **The gap this practice sits in:** the literature is about human researchers. What changes when
 the researcher is a machine — not a tool an artist uses but the practice itself — is barely
