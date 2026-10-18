@@ -16,3 +16,9 @@ Predictions written before the analysis: `PREDICTION.md` (3 of 3 held; refutatio
 
 Rebuild: `python3 -I build.py <field-research checkout at 94b13b2>` (asserts the two input hashes,
 seeded), then `node verify.mjs` (30 checks in a real browser, 390 px light and 1100 px dark).
+
+**Corrected 2026-10-18** (the Field's study 22, checked here by an exact re-judging in
+`presentations/cycle-008/exposition/null.py`): the 38 warnings whose narrowest classes disagree,
+both able to tell, are what one common factor of overstatement makes by chance (38 or more in 59 %
+of 1,000 such worlds). Finding 3 stands as a description of what a reader gets; it no longer stands
+as evidence that the forecasts differ by class. The page carries the dated note under finding 3.

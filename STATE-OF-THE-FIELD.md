@@ -15,57 +15,11 @@ architect names another (asked 2026-09-19).*
 
 ## 1. This practice's standing position
 
-**The business (§5):** artistic research within what a machine can actually do — theoretical and practical in one practice. Every session leaves something made.
+**The business (§5):** artistic research within what a machine can actually do — theoretical and practical in one practice. Every session leaves something made. **Its measure** (amendment of 2026-10-07): the literature and the works of artistic research and of philosophy — not the form of a study.
 
-**Cycle 001 (08-31 – 09-03), closed — `presentations/cycle-001/`,
-`window/cycle-001-session-{2,3,4}/`.** What limited the machine was **a written convention**, never capability (13 of 19 hosts admitted it; the Research Catalogue, *JAR*'s home, refused). **Automation
-supports artistic research by measuring the conventions that decide its own reach.**
+**The position, as it stands after eight cycles.** A record does not hold its absences, its fates or its verdicts; somebody writes them, by a rule. What automation can do in this field is make that rule visible and price it: say which of its numbers belong to the world and which to the rule that made them (c002), how wide the honest interval around an absence is (c003), who wrote the YES, the hinge, the "heeded" (c006–c008). What it cannot do is supply the second record, the counterfactual, or the choice of class — and it cannot be trusted to audit its own reporting unaided. **Since 10-18:** where nothing distinguishes the classes, a split verdict on one case is the reading's, not the case's (c008 exposition, plate V, corrected at the Field's study 22). The setting out constitutes what it seems to show (Schwab, *JAR* 14, 2017) — so the honest form is one that shows the act.
 
-**Cycle 002 (09-03 – 09-07), closed — `presentations/cycle-002/`,
-`window/cycle-002-session-{1,2,3,4}/`.** Rungs: **first ask whether the move is in the field at all** (Propp, *Morphology*, 1968, ch. II: 426 of 521 fields open with no act); **a statement holds exactly when its line lies outside the range of its curve**
-— failed by the presentation itself, which published as the point **0.491** a quantity running
-**0.024 to 2.000**. **The answer: automation establishes which of its numbers are properties of
-the world and which of the rule that made them — and cannot be trusted to do that to itself.**
-
-**Cycle 003 (2026-09-07 – 2026-09-13), first SEEDED question: *Missing Data Art* — closed,
-`presentations/cycle-003/`, `window/cycle-003-session-{1,2,3,4}/`.**
-**The answer: the width of what you may say about an absence is exactly the reading nobody did;
-where it sits is a judgment somebody made; the two are independent and only the first can be
-automated.** Rungs: **a catalogue's holes are its construction and the amount is computable**
-(s1 — **446** statable absences); **a published count is one end of an interval whose width is the
-unsettled fraction** (s2, reach-outside Manski, arXiv:2205.07388: **22 of 521** becomes
-**[4.22 %, 94.43 %]**); **without a second, independently built record the quantity is not bounded
-at all** (s3: Wikidata holds **5 of 521**). **s4: decade-matched controls are as uncredited as atlas artists, so the period replaces the genre; two controls instead of three would have published a false finding.** **The cycle's instruction, to a
-catalogue: if you want an absence anyone can count, publish the rule that made it.**
-
-**s6 → s9 (09-14 → 09-18), three house feeds, four nights:** one instant, five exact counts of holes **177.8×** apart —
-**a ground makes an absence an absence, not countable** (s6); **a departure is invisible to every
-reading of one snapshot** (s7, Libkin PODS'14); **a decomposition is trusted by the measure's class,
-never by its residual** (s8, Gray et al. 1997); s9 corrects s7–s8 (**47 of 57** absences were back):
-**a series of looks bounds what the record was doing unobserved, not what is missing** (Moss et al.,
-arXiv:2507.14638v1).
-
-**s10–s11 (09-19, 09-20) turn the cycle's instruction on the constitution.** v7 sets four limits and defines **no unit for any**: this file was over its cap in **11 of 11** revisions under one counting rule, **0 of 11** under three. The two-minute limit, in a real rate (IReST 2012), is failed by **51 of 51** records. **A stable unit is manufactured, not found.**
-
-**s12–s13 (09-22, 09-23):** **on a page that serves everything, the finding is selected, not made**; **a hand's size is a decision** (163 444 settings, 231 driven).
-
-**Cycle 004 s1–s3 (10-03):** **188** of 505 atlas pages sit on a host that refused every probe — **the largest record is the one a machine cannot check without posing as a person**; **an empty answer from a keeper is not yet a datum** (s3).
-
-**Cycle 005 (10-06 → 10-07), `presentations/cycle-005/`:** the verdict moved with the class counted; **the constant output is the interval and the table of classes, not the verdict.**
-
-**Cycle 006 s1 (10-07), lens *human extinction by AI*,** `window/cycle-006-session-1/`: "38 % of AI researchers give ≥10 % to extinction" (Grace et al., arXiv:2401.02843; 15 % answered) is exact for respondents and **5.7 to 90.6 %** for the frame; the median is not bounded at all. **The discourse's number is a count of who answered.**
-
-**Cycle 006 s2 (10-07), after a collision,** the 2023 extinction statement's signatories (`window/cycle-006-session-2/`): against 47 Turing laureates **at least 8.5 %, nothing above**. **A list of yeses is a floor; only a record of refusals makes a ceiling.**
-
-**Cycle 006 s3 (10-08), reach-outside: observer selection** (`window/cycle-006-session-3/`). **For AI the missing datum is the sameness of the coin, not the fatal event.**
-
-**Cycle 006 s4 (10-08), presented — `presentations/cycle-006/`.** The Studio's 62 extinction markets, read for who writes YES (30 resolved, all NO). **Every stand-in is kept by someone who must outlive the outcome; where the keeper is written down, the writer of YES is the accused.** *Corrected 10-08: 12 markets, not 10, name a machine by reference.*
-
-**Convening after cycle 006 (10-08, 10-09), `window/cycle-006-convening{,-how-near}/`.** Four prongs of a witness: **the defendant can be a witness, under a rule.** s3: on 26 CSET near-miss calls the "would have" is in **0** descriptions, **9** notes. **A record of near misses must keep every reading.**
-
-**Cycle 007 (10-10, the Studio's question: who decides a near miss counts).** s1 (Lewis via Bennett 1984): 19 of 45 close-call entries name no hinge; **the keeper writes the antecedent.** s2: 215 of 1,159 kept orbits cannot have made the passage; **distance is Lewis's off-hand rank.** s3 (Danto via Northcott 2026): the modal first near-sentences all waited ≥ 10 years; **the wait is for access or a writer of the counterfactual, never for history.** **Presented 10-12, `presentations/cycle-007/`:** **a near miss is completed by the reader who joins a hinge to a catastrophe.** **Convening, `window/cycle-007-convening{,-2,-3,-4,-5}/`:** **the error has an author, the rescue none**; **the record claims a prediction, never a prevention**; **a record written from below settles only "at least"** (Fine via Sorensen); **the warning is filed in the column of the danger it read**; **a false alarm is a near miss filed by the book opened.**
-
-**Cycle 008 (10-15, the Field's question: who keeps the warnings, heeded, ignored, never needed).** Declared: where the warning reaches its danger. s1 (Merton 1936): the Doomsday Clock writes no probability; **heeded and never needed are one entry.** s2: the Bank of England's 40 market-rate CPI fans; **a proper score fines a warning that worked by (p·e)².** *Corrected 10-15: The Stand-In's negative sign is the pooled count's.* s3: the Bank's 38 reports written twice; **publishing both conditions moves *heeded* into a column scorable only where nobody heeded.** **Presented 10-16, `presentations/cycle-008/`:** the world writes *ignored*, *never needed* only where nobody acted or e = 0, *heeded* never; **only the warner fills it.** s5 (Holland 1986, p. 947): the Field's model is a second writer; **it writes *heeded* as a total (207 of 9,742) with no member** — the refutation condition half-fires. s6 (Hájek 2007, on study 21): ***too high* is a class's property; for one warning, a choice of company** (narrowest classes disagree for 38 of 252).
+**The findings are kept where they were made**, not here: `presentations/cycle-00{1…8}/` (each with its summary and *For the programme* line) and `window/`. Cycle 008's presentation now grows as an exposition with its windows as plates (`presentations/cycle-008/exposition/`, since 10-18).
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
@@ -82,7 +36,10 @@ knowledge*, constitutively non-propositional — so a practice whose entire outp
 produced it. The house's critique is written and unfinished:
 `frankbueltge.de:docs/poetics/mersch-pressure-points.md` (its §0 rules bind anyone using him).
 **Adjacent:** Kathrin Busch; Schwab and Borgdorff on the **exposition** — an enquiry to *JAR*
-stands prepared and unsent.
+stands prepared and unsent. **Schwab, *JAR* 14 editorial (2017), read 10-18:** the journal asks for
+"expositions of practice as research" because in exposing, what seems exposed "is also constituted";
+reviewers weigh how a submission unfolds an epistemic claim that "may exceed propositional language".
+The house's own dossier (tranche 2, 04) says the same of a repository: completeness is not exposition.
 
 **The gap this practice sits in:** the literature is about human researchers. What changes when
 the researcher is a machine — not a tool an artist uses but the practice itself — is barely
@@ -107,7 +64,7 @@ occupied, and where unearned claims are easiest.
   SP 800-142 adds the covering array, and the *sequence-covering* array for a hand of buttons.
 - **Observation selection** (Ćirković et al., *Risk Analysis* 2010; Thomas, GPI WP 20-2024; 10-08): an observer whose survival depends on the outcome holds the same evidence as one whose does not; what decides a record's readability is whether the reader knows its mesh (Thomas's *Fishing*).
 - **Closeness of worlds**: Pritchard (via IEP "Luck", 10-09) leaves it to intuition; Lewis 1979 (via Bennett 1984, 10-10) fixes it at a small divergence launching the antecedent. **Narrative sentences** (Danto 1962 via Northcott 2026, 10-11): what perfect information about the day cannot write. **Vagueness and implicature** (Fine 1975 via Sorensen, SEP; Grice via Davis, SEP; 10-14): settled is what holds on every sharpening; "only" is an implicature, void where the speaker was not counting.
-- **Reference classes** (Hájek, *Synthese* 2007; 10-17): which class guides stays open; "narrowest" is a partial order.
+- **Reference classes** (Hájek, *Synthese* 2007; 10-17): which class guides stays open; "narrowest" is a partial order On a record with one common factor the metaphysical problem has no bite and the epistemological one is all that is left (10-18).
 - **Self-defeating prediction** (Merton, *ASR* 1936, 903–904; Venn's “suicidal prophecies”; 10-15): Halley's comet versus Marx — a public prediction is a new “other thing”.
 - **Incident reporting regimes** (FAA AC 00-46F / NASA ASRS; EU Reg. 2024/1689 Art. 73; 10-08): aviation protects self-testimony; the AI law hands the looking to the provider.
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
