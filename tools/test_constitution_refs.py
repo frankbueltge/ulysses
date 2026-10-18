@@ -43,6 +43,12 @@ ELSEWHERE = {
     # record that made The Middle a relay desk.
     "relay/README.md": "research-ecology repo — the contract of relay/relay.json (middle-relay/1)",
     "docs/2026-10-05-middle-becomes-relay.md": "research-ecology repo",
+    # The amendment of 2026-10-17 (the reception) names the house's file and the workflow that writes
+    # it. The workflow lives in the site repo; the file is written into this repository by it, only
+    # when the reception changed, so it is absent until the first delivery (the amendment says to
+    # read it "if it exists").
+    ".github/workflows/reception-snapshot.yml": "site repo (frankbueltge.de) — writes atelier-feedback/reception.md",
+    "atelier-feedback/reception.md": "written here by the site repo's reception-snapshot.yml; absent until its first delivery",
 }
 
 # Names that are per-record files, not repo paths: they exist inside a project or a work
