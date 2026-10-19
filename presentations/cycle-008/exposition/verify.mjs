@@ -9,6 +9,7 @@ const V = JSON.parse(fs.readFileSync(path.join(here, 'plate7.json')));
 const E = JSON.parse(fs.readFileSync(path.join(here, 'plate8.json')));
 const X = JSON.parse(fs.readFileSync(path.join(here, 'plate9.json')));
 const C = JSON.parse(fs.readFileSync(path.join(here, 'plate10.json')));
+const K = JSON.parse(fs.readFileSync(path.join(here, 'plate11.json')));
 const br = await chromium.launch({ executablePath: process.env.CHROMIUM || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox'] });
 for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
   const pg = await br.newPage({ viewport: { width: wd, height: 900 }, colorScheme: scheme }); const errs = [];
@@ -113,6 +114,30 @@ for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
   ok(await pg.$$eval('#p10axis [data-k^="reach-"]', r => r.length) === 3, `${wd}px: plate X draws three reaches`);
   ok(await pg.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${wd}px: still no horizontal page scroll with plate X`);
   await pg.$eval('#p10axis', e => e.scrollIntoView()); await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-p10-${wd}.png`) });
+  // plate XI (increment 7)
+  const p11 = () => pg.evaluate(() => window.__p11);
+  ok(await pg.$$eval('#p11grid button', b => b.length) === 155 && K.pool === 155, `${wd}px: plate XI draws 155 earthquake messages`);
+  await pg.click('#p11-field'); let q11 = await p11();
+  ok(q11.key === '3.0|100|day' && q11.met === 136 && q11.pl === 28 && q11.met === K.grid['3.0|100|day'].met, `${wd}px: the Field's rule meets 136 and 28 a year earlier, as study 27 says`);
+  ok(K.check_against_field.live.disagree.length === 0 && K.check_against_field.placebo.disagree.length === 0 && K.check_against_field.live_r200.disagree.join() === '5404', `${wd}px: the second fetch reproduces the Field's rule, but for 5404 at 200 km`);
+  let cells = 0;
+  for (let a = 0; a < K.floors.length; a++) for (let r = 0; r < K.radii.length; r++) for (let w = 0; w < 2; w++) {
+    await pg.click('#p11fl-' + a); await pg.click('#p11ra-' + r); await pg.click('#p11wi-' + w); q11 = await p11();
+    const fl = K.floors[a] === 'any' ? 'any' : K.floors[a].toFixed(1), g = K.grid[fl + '|' + K.radii[r] + '|' + K.windows[w]];
+    const shown = await pg.$$eval('#p11grid button', b => ({ m: b.filter(x => x.classList.contains('m')).length, w: b.filter(x => x.classList.contains('w')).length, u: b.filter(x => x.classList.contains('u')).length, p: b.filter(x => x.classList.contains('p')).length }));
+    if (q11.met === g.met && q11.w === g.warranted && q11.u === g.unwarranted && q11.pl === g.placebo && shown.m === g.met && shown.w === g.warranted && shown.u === g.unwarranted && shown.p === g.placebo) cells++;
+    else console.log('  mismatch', fl, K.radii[r], K.windows[w], JSON.stringify(q11), JSON.stringify(g), JSON.stringify(shown)); }
+  ok(cells === 60, `${wd}px: all 60 declared domains recount per square in the browser to plate11.json (${cells})`);
+  await pg.click('#p11-quiet'); q11 = await p11(); ok(q11.w === K.quiet_domains.most[1].warranted && q11.w === 137, `${wd}px: the most closed quiet domain writes 137`);
+  await pg.click('#p11-wide'); q11 = await p11(); ok(q11.w === K.quiet_domains.least[1].warranted && q11.w === 3, `${wd}px: the least closed quiet domain writes 3`);
+  await pg.click('#p11-fine'); await pg.click('#p11grid button[aria-label^="message 1893,"]');
+  ok((await t('p11card')).includes('Drop, Cover') && (await t('p11card')).includes('met by an earthquake'), `${wd}px: at the finest warranted domain, the alert its sender withdrew is met`);
+  await pg.click('#p11mat button[data-f="5"][data-r="0"]'); q11 = await p11(); ok(q11.key === '4.5|25|strict', `${wd}px: a matrix cell declares its domain`);
+  ok(await pg.$$eval('#p11ret li', l => l.length) === 21 && K.retractions.retractions === 21 && (await pg.innerText('#p11ret')).includes('no missile threat'), `${wd}px: 21 retractions listed, the missile among them`);
+  ok((await t('p11f-lo')) === '3' && (await t('p11f-hi')) === '137' && (await t('p11f-swept')) === '117' && (await t('p11f-rob')) === '0', `${wd}px: plate XI counts filled from plate11.json`);
+  ok(await pg.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${wd}px: still no horizontal page scroll with plate XI`);
+  await pg.$eval('#p11read', e => e.scrollIntoView()); await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-p11-${wd}.png`) });
+  await pg.$eval('#p11mat', e => e.scrollIntoView()); await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-p11m-${wd}.png`) });
   ok(errs.length === 0, `${wd}px: no script errors ${errs.join(' | ')}`);
   await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-${wd}.png`), fullPage: false });
 }
