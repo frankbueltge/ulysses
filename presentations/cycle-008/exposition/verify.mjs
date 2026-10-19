@@ -10,6 +10,7 @@ const E = JSON.parse(fs.readFileSync(path.join(here, 'plate8.json')));
 const X = JSON.parse(fs.readFileSync(path.join(here, 'plate9.json')));
 const C = JSON.parse(fs.readFileSync(path.join(here, 'plate10.json')));
 const K = JSON.parse(fs.readFileSync(path.join(here, 'plate11.json')));
+const Z = JSON.parse(fs.readFileSync(path.join(here, 'plate12.json')));
 const br = await chromium.launch({ executablePath: process.env.CHROMIUM || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox'] });
 for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
   const pg = await br.newPage({ viewport: { width: wd, height: 900 }, colorScheme: scheme }); const errs = [];
@@ -138,6 +139,30 @@ for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
   ok(await pg.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${wd}px: still no horizontal page scroll with plate XI`);
   await pg.$eval('#p11read', e => e.scrollIntoView()); await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-p11-${wd}.png`) });
   await pg.$eval('#p11mat', e => e.scrollIntoView()); await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-p11m-${wd}.png`) });
+  // plate XII (increment 8)
+  const p12 = () => pg.evaluate(() => window.__p12); const n3 = (a, b) => Math.abs(a - b) < 0.0015;
+  ok(await pg.$$eval('#p12grid button', b => b.length) === 232, `${wd}px: plate XII draws 232 sequences`);
+  ok(Z.check_field_split.pick_is_not_6h_6h_week === 1.602 && Z.check_field_split.pick_is_6h_6h_week === 0.656, `${wd}px: the Field's split re-added: 1.602 and 0.656`);
+  let hcells = 0;
+  for (const r of ['least', 'most']) { await pg.click('#p12-' + r);
+    for (let k = 0; k < 9; k++) { await pg.click('#p12-H' + k); const j = await p12(), v = Z.deciding_at_H[r][k];
+      const shown = await pg.$$eval('#p12grid button.s', b => b.length);
+      if (j.o === v.observed && n3(j.r, v.ratio) && n3(j.adj, v.clock_adjusted) && j.hind === v.picks_with_hindsight && shown === v.picks_with_hindsight) hcells++;
+      else console.log('  mismatch', r, k, JSON.stringify(j), v.observed, v.ratio, v.clock_adjusted, v.picks_with_hindsight, shown); } }
+  ok(hcells === 18, `${wd}px: all 18 rules decided at an hour recount in the browser to plate12.json (${hcells})`);
+  await pg.click('#p12-least'); await pg.click('#p12-H8'); let z = await p12();
+  ok(n3(z.r, C.blind_on_the_words.stated_least.ratio) && (await t('p12read')).includes('Declared, but not blind'), `${wd}px: plate X's "stated least" at 30 days reads 1.27, declared but not blind`);
+  await pg.click('#p12-H0'); z = await p12(); ok(z.hind === 0 && n3(z.r, C.copy_texts[0].copy_text.ratio), `${wd}px: decided at the first hour, the rule is the first-hour clock`);
+  let dcells = 0;
+  for (let j = 0; j < 6; j++) { await pg.click('#p12-d' + j); const q = await p12(), v = Z.decidable[j];
+    if (q.o === v.observed && n3(q.r, v.ratio) && n3(q.adj, v.clock_adjusted) && q.hind === 0 && (await pg.$eval('#p12-H3', b => b.disabled))) dcells++; }
+  ok(dcells === 6 && (await t('p12read')).includes('decidable'), `${wd}px: six rules decided at the hour of writing recount, none with hindsight (${dcells})`);
+  await pg.click('#p12-least'); await pg.click('#p12-H3'); await pg.click('#p12grid button.s');
+  ok((await t('p12card')).includes('hours of hindsight') && await pg.$$eval('#p12card u', u => u.length) > 0, `${wd}px: a tapped hindsight square underlines the later words it read`);
+  ok((await t('p12f-hit')) === '28 %' && (await t('p12f-none')) === '2 %' && (await t('p12f-to720')) === '4' && Z.predictions.P1 && Z.predictions.P2 && !Z.predictions.P3, `${wd}px: plate XII counts and predictions filled from plate12.json`);
+  ok(await pg.$$eval('#p12axis [data-k]', r => r.length) === 3, `${wd}px: plate XII draws the clocks' band and both readings`);
+  ok(await pg.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${wd}px: still no horizontal page scroll with plate XII`);
+  await pg.$eval('#p12axis', e => e.scrollIntoView()); await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-p12-${wd}.png`) });
   ok(errs.length === 0, `${wd}px: no script errors ${errs.join(' | ')}`);
   await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-${wd}.png`), fullPage: false });
 }
