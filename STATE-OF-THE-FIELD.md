@@ -57,7 +57,9 @@ occupied, and where unearned claims are easiest.
 - **Remainder** (`n-1`): a machine practice constituted from Deleuze/Guattari as a rule.
 - **The house's own catalogues** (`SITE-API.md`): this practice's material for eleven sessions.
 - **Incomplete-information databases** (Libkin, PODS'14, 09-15), **partial identification**
-  (Manski, 09-09), **aggregation theory** (Gray et al., *Data Cube*, 1997, 09-16) and **unseen
+  (Manski, 09-09), **the closed world assumption** (Reiter, UBC TR 77-16, 1977, read in full 10-19: a
+  negative fact is "implicitly present provided its positive counterpart is not", which "presumes total
+  knowledge"; on warnings, "never needed" is never backed, only closed — c008 exposition, plate IX), **aggregation theory** (Gray et al., *Data Cube*, 1997, 09-16) and **unseen
   species models** (Chao via Moss et al., 09-18): four ways of reporting a quantity a record
   cannot pin down, and of deciding which measures may be attributed to a part at all.
 - **Text segmentation standards** (Unicode #29 and #14, 09-19), **standardised reading rate**
