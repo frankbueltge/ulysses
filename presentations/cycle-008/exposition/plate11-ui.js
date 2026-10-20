@@ -19,7 +19,7 @@ mk('p11ra',RA.map(r=>r+' km'),k=>ri=k);
 mk('p11wi',WI.map(w=>w==='strict'?'its own minutes':'a day either side'),k=>wi=k);
 $('p11-field').onclick=()=>{fi=FL.indexOf(3);ri=RA.indexOf(100);wi=WI.indexOf('day');draw()};
 $('p11-quiet').onclick=()=>{const q=P11.quiet_domains.most[0].split('|');fi=FL.findIndex(x=>FK(x)===q[0]);ri=RA.indexOf(+q[1]);wi=WI.indexOf(q[2]);draw()};
-$('p11-wide').onclick=()=>{const q=P11.quiet_domains.least[0].split('|');fi=FL.findIndex(x=>FK(x)===q[0]);ri=RA.indexOf(+q[1]);wi=WI.indexOf(q[2]);draw()};
+$('p11-wide').onclick=()=>{const q=S.least[0].split('|');fi=FL.findIndex(x=>FK(x)===q[0]);ri=RA.indexOf(+q[1]);wi=WI.indexOf(q[2]);draw()};
 $('p11-fine').onclick=()=>{fi=FL.indexOf(1);ri=RA.indexOf(100);wi=WI.indexOf('strict');draw()};
 const VERD=['met by an earthquake the catalogue keeps','never needed, and the catalogue warrants it','never needed only by a closure the catalogue cannot warrant'];
 function card(j){const r=P11R[j],v=r.v[key()],e=r.near_strict,d=r.near_day;
@@ -48,7 +48,8 @@ function draw(){
   window.__p11={key:k,met:g.met,w:g.warranted,u:g.unwarranted,pl:g.placebo,shown:grid.querySelectorAll('button.w').length};
 }
 // the figures in the prose
-const S=P11.quiet_domains, sp=k=>k.split('|');
+// corrected 2026-10-20: the quiet domains decided over 364 year-earlier days (plate11b.py), not one
+const S=Object.assign({},P11.quiet_domains,typeof P11B!=='undefined'?{least:P11B.least,most:P11B.most,n_domains:P11B.quiet_after.length}:{}), sp=k=>k.split('|');
 const put=(id,v)=>{const e=$(id);if(e)e.textContent=v};
 put('p11f-n',N);put('p11f-cl',P11.clusters);put('p11f-qn',S.n_domains);put('p11f-of',S.of);
 put('p11f-lo',S.least[1].warranted);put('p11f-hi',S.most[1].warranted);

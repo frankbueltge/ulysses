@@ -130,12 +130,12 @@ for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
     else console.log('  mismatch', fl, K.radii[r], K.windows[w], JSON.stringify(q11), JSON.stringify(g), JSON.stringify(shown)); }
   ok(cells === 60, `${wd}px: all 60 declared domains recount per square in the browser to plate11.json (${cells})`);
   await pg.click('#p11-quiet'); q11 = await p11(); ok(q11.w === K.quiet_domains.most[1].warranted && q11.w === 137, `${wd}px: the most closed quiet domain writes 137`);
-  await pg.click('#p11-wide'); q11 = await p11(); ok(q11.w === K.quiet_domains.least[1].warranted && q11.w === 3, `${wd}px: the least closed quiet domain writes 3`);
+  await pg.click('#p11-wide'); q11 = await p11(); const KB = JSON.parse(fs.readFileSync(path.join(here, "plate11b.json"), 'utf8')); ok(q11.w === KB.least[1].warranted && q11.w === 5 && KB.agree_with_field === 40 && KB.of === 40, `${wd}px: the least closed quiet domain, corrected over 364 days, writes 5; all 40 re-decided domains agree with the Field`);
   await pg.click('#p11-fine'); await pg.click('#p11grid button[aria-label^="message 1893,"]');
   ok((await t('p11card')).includes('Drop, Cover') && (await t('p11card')).includes('met by an earthquake'), `${wd}px: at the finest warranted domain, the alert its sender withdrew is met`);
   await pg.click('#p11mat button[data-f="5"][data-r="0"]'); q11 = await p11(); ok(q11.key === '4.5|25|strict', `${wd}px: a matrix cell declares its domain`);
   ok(await pg.$$eval('#p11ret li', l => l.length) === 21 && K.retractions.retractions === 21 && (await pg.innerText('#p11ret')).includes('no missile threat'), `${wd}px: 21 retractions listed, the missile among them`);
-  ok((await t('p11f-lo')) === '3' && (await t('p11f-hi')) === '137' && (await t('p11f-swept')) === '117' && (await t('p11f-rob')) === '0', `${wd}px: plate XI counts filled from plate11.json`);
+  ok((await t('p11f-lo')) === '5' && (await t('p11f-hi')) === '137' && (await t('p11f-swept')) === '117' && (await t('p11f-rob')) === '0', `${wd}px: plate XI counts filled from plate11.json`);
   ok(await pg.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${wd}px: still no horizontal page scroll with plate XI`);
   await pg.$eval('#p11read', e => e.scrollIntoView()); await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-p11-${wd}.png`) });
   await pg.$eval('#p11mat', e => e.scrollIntoView()); await pg.screenshot({ path: path.join(process.env.SHOTS || '/tmp', `expo-p11m-${wd}.png`) });

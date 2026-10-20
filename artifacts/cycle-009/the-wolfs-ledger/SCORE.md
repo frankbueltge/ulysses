@@ -32,7 +32,8 @@ with its summary and its *For the programme* line.
    retractions. **Done 2026-10-20.**
 2. *Moral luck*: who is charged. Williams and Nagel read first-hand. A made thing where the same warning
    and the same judgment of the chance face different outcomes, and the ledger books the difference to
-   someone.
+   someone. **Done 2026-10-20 (second session)**, on the Studio's tornado-warning record rather than
+   a made-up warning: Nagel read in full, Williams not reached.
 3. *The stated chance*: the column the fable lacks. A warner who states its chance can be held to that
    chance rather than to the outcome. On cycle 008's own forecasts, which state their chances, what does
    a record of false alarms look like once it is read against what was said?
@@ -47,3 +48,5 @@ the ledger was never the point.
 
 ## Revisions
 - 2026-10-20: written; plate I built the same session.
+- 2026-10-20 (second session): plate II built. Plate III's planned material may move from cycle 008's
+  forecasts to the Weather Service's impact tags, the nearest thing to a stated chance in plate II's record.

@@ -4,6 +4,7 @@ const require = createRequire('/opt/node-tools/node_modules/'); const { chromium
 const here = path.dirname(fileURLToPath(import.meta.url)); let bad = 0;
 const ok = (c, m) => { console.log((c ? 'ok   ' : 'FAIL ') + m); if (!c) bad++; };
 const P = JSON.parse(fs.readFileSync(path.join(here, 'plate1.json')));
+const P2 = JSON.parse(fs.readFileSync(path.join(here, 'plate2.json')));
 const br = await chromium.launch({ executablePath: process.env.CHROMIUM || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox'] });
 for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
   const pg = await br.newPage({ viewport: { width: wd, height: 900 }, colorScheme: scheme }); const errs = [];
@@ -33,6 +34,21 @@ for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
   ok((await t('cread')).includes('BALLISTIC MISSILE') && (await t('cread')).includes('38 minutes'), `${wd}px: the Hawaii retraction shows the warning it takes back`);
   const si = P.archive.rows.findIndex(r => r.r === 1894); await pg.click(`#cards .card[data-i="${si}"]`);
   ok((await t('cread')).includes('speaks to those who acted'), `${wd}px: the ShakeAlert retraction speaks to those who acted`);
+  // plate II
+  ok(await pg.evaluate(() => window.__p2check()), `${wd}px: the browser recounts the runs before every hit in the ${P2.counties_shown} counties it holds, as plate2.py did`);
+  let q = await pg.evaluate(() => window.__p2);
+  ok(q.county === P2.longest_run.county && !q.dealt && (await t('p2-read')).includes('Brevard'), `${wd}px: plate II opens on the longest run, Brevard County`);
+  const rec = q, yr = JSON.stringify(q.perYear);
+  await pg.click('#p2-deal'); q = await pg.evaluate(() => window.__p2);
+  ok(q.dealt && JSON.stringify(q.perYear) === yr && q.met === rec.met && Math.abs(q.rec - rec.charge) < 1e-12, `${wd}px: a deal keeps every year's hits and changes only their order`);
+  let moved = false; for (let i = 0; i < 6 && !moved; i++) { await pg.click('#p2-deal'); q = await pg.evaluate(() => window.__p2); moved = Math.abs(q.charge - rec.charge) > 1e-9; }
+  ok(moved && (await t('p2-read')).includes('Dealt again'), `${wd}px: dealing again moves the charge (${rec.charge.toFixed(3)} -> ${q.charge.toFixed(3)})`);
+  await pg.click('#p2-rec'); q = await pg.evaluate(() => window.__p2); ok(!q.dealt && Math.abs(q.charge - rec.charge) < 1e-12, `${wd}px: the record's order restores the charge`);
+  await pg.click('#p2-any'); q = await pg.evaluate(() => window.__p2); ok(q.n >= 20, `${wd}px: any county draws a county with at least 20 warnings`);
+  await pg.$eval('#p2-h', e => { e.value = 0.9; e.dispatchEvent(new Event('input')); }); ok((await t('p2-hv')) === '0.90', `${wd}px: the habit slider redraws`);
+  ok((await t('p2f-a3')) === '9,427' && (await t('p2f-obs')) === '31.3 %' && (await t('p2f-off')) === (100 * P2.results.between_office_share).toFixed(1) + ' %' && (await t('p2f-luck')) === (100 * P2.results.luck_share).toFixed(1) + ' %', `${wd}px: plate II figures filled from plate2.json`);
+  ok(!P2.predictions.P1 && !P2.predictions.P2 && P2.predictions.P3 && (await t('p2f-r2')) === (100 * P2.results.r2_rate).toFixed(1) + ' %', `${wd}px: the page reports P1 and P2 failed and P3 held, as plate2.json says`);
+  for (const id of ['p2-strip', 'p2-hist']) { const n = await pg.$eval('#' + id, e => { const d = e.getContext('2d').getImageData(0, 0, e.width, e.height).data; let n = 0; for (let i = 3; i < d.length; i += 4) n += d[i] > 0; return n; }); ok(n > 1500, `${wd}px: ${id} is drawn`); }
   ok(await pg.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${wd}px: still no horizontal scroll after use`);
   await pg.screenshot({ path: path.join(here, `shot-${wd}.png`), fullPage: false });
   ok(errs.length === 0, `${wd}px: no script errors ${errs.join(' | ')}`);
