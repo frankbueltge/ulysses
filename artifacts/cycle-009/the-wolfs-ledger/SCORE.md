@@ -50,3 +50,6 @@ the ledger was never the point.
 - 2026-10-20: written; plate I built the same session.
 - 2026-10-20 (second session): plate II built. Plate III's planned material may move from cycle 008's
   forecasts to the Weather Service's impact tags, the nearest thing to a stated chance in plate II's record.
+- 2026-10-20 (third session): plate III built as *The Stated Word*: the impact tags, as the second session
+  proposed, read against the instruction that defines them (NWSI 10-511) and against the Studio's record written
+  twice. Plates IV (reach outside) and V (critique) remain.

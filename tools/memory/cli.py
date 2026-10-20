@@ -60,6 +60,10 @@ SOURCE_GLOBS = [
     # the list follows it. The HTML, data and checkers beside each summary are not markdown
     # and stay out.
     "presentations/**/*.md",
+    # 2026-10-20. Cycle 009 grows one exposition under artifacts/cycle-009/ until its close, and
+    # its score (SCORE.md, with dated revisions) is prose written nowhere else. Same rule again:
+    # the practice started writing somewhere new, so the list follows it.
+    "artifacts/**/*.md",
     "memory/dossiers/**/*.md",
     "docs/**/*.md",
     # 2026-08-19. The offer channel carries the open ones — what has been asked of this

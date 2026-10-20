@@ -5,6 +5,7 @@ const here = path.dirname(fileURLToPath(import.meta.url)); let bad = 0;
 const ok = (c, m) => { console.log((c ? 'ok   ' : 'FAIL ') + m); if (!c) bad++; };
 const P = JSON.parse(fs.readFileSync(path.join(here, 'plate1.json')));
 const P2 = JSON.parse(fs.readFileSync(path.join(here, 'plate2.json')));
+const P3J = JSON.parse(fs.readFileSync(path.join(here, 'plate3.json')));
 const br = await chromium.launch({ executablePath: process.env.CHROMIUM || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--no-sandbox'] });
 for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
   const pg = await br.newPage({ viewport: { width: wd, height: 900 }, colorScheme: scheme }); const errs = [];
@@ -50,6 +51,25 @@ for (const [wd, scheme] of [[390, 'light'], [1100, 'dark']]) {
   ok(!P2.predictions.P1 && !P2.predictions.P2 && P2.predictions.P3 && (await t('p2f-r2')) === (100 * P2.results.r2_rate).toFixed(1) + ' %', `${wd}px: the page reports P1 and P2 failed and P3 held, as plate2.json says`);
   for (const id of ['p2-strip', 'p2-hist']) { const n = await pg.$eval('#' + id, e => { const d = e.getContext('2d').getImageData(0, 0, e.width, e.height).data; let n = 0; for (let i = 3; i < d.length; i += 4) n += d[i] > 0; return n; }); ok(n > 1500, `${wd}px: ${id} is drawn`); }
   ok(await pg.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${wd}px: still no horizontal scroll after use`);
+  // plate III
+  ok(await pg.evaluate(() => window.__p3check()), `${wd}px: the browser recomputes all ${P3J.offices.length} offices' empty shares, word-expected shares and excesses from the sequences, as plate3.py did`);
+  ok(await pg.evaluate(() => window.__p3moves()) === P3J.rank_moves.median, `${wd}px: the median rank move (${P3J.rank_moves.median}) recomputed in the browser`);
+  { const po = await pg.evaluate(() => P3.offices); ok(Object.keys(po).length === P3J.offices.length && P3J.offices.every(o => po[o.wfo] && po[o.wfo].n === o.n && po[o.wfo].far === o.far), `${wd}px: plate3.js holds plate3.json's offices`); }
+  let r = await pg.evaluate(() => window.__p3);
+  ok(r.wfo === 'MAF' && r.mode === 'hour' && (await t('p3-read')).includes("The hour's ledger"), `${wd}px: plate III opens on MAF, read by the hour`);
+  await pg.click('#p3-later'); r = await pg.evaluate(() => window.__p3);
+  ok(r.mode === 'later' && r.flip > 0 && (await t('p3-read')).includes('overturned'), `${wd}px: the later record overturns ${r.flip} of MAF's verdicts`);
+  await pg.click('#p3-said'); r = await pg.evaluate(() => window.__p3);
+  ok(r.mode === 'said' && (await t('p3-read')).includes('do not account for') && Math.abs(r.excess - r.json.excess) < 1e-9, `${wd}px: against what was said, MAF's excess is ${(100 * r.excess).toFixed(1)} %`);
+  await pg.selectOption('#p3-off', 'BMX'); r = await pg.evaluate(() => window.__p3);
+  ok(r.wfo === 'BMX' && r.excess < 0, `${wd}px: BMX reads below what its words predicted`);
+  ok(await pg.$$eval('#p3-tab tbody tr', x => x.length) === 6, `${wd}px: the table holds the six words`);
+  const H = P3J.predictions.P1.hit_hour, f = x => (100 * x).toFixed(1) + ' %';
+  ok((await t('p3f-hR')) === f(H.R) && (await t('p3f-hCAT')) === f(H.CAT) && (await t('p3f-fO')) === f(P3J.predictions.P3.filled_obs) && (await t('p3f-r2')) === f(P3J.predictions.P2.r2), `${wd}px: plate III figures filled from plate3.json`);
+  ok(P3J.predictions.P1.held && !P3J.predictions.P2.held && P3J.predictions.P3.held && (await t('p3f-ratio')) === P3J.predictions.P3.ratio.toFixed(1) + ' times', `${wd}px: the page reports P1 and P3 held and P2 failed, as plate3.json says`);
+  ok(H.R < H.O && H.R < H.RC && H.O < H.OC && H.OC < H.CAT, `${wd}px: P1's order holds in plate3.json`);
+  { const n = await pg.$eval('#p3-strip', e => { const d = e.getContext('2d').getImageData(0, 0, e.width, e.height).data; let n = 0; for (let i = 3; i < d.length; i += 4) n += d[i] > 0; return n; }); ok(n > 1500, `${wd}px: p3-strip is drawn`); }
+  ok(await pg.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${wd}px: still no horizontal page scroll with plate III`);
   await pg.screenshot({ path: path.join(here, `shot-${wd}.png`), fullPage: false });
   ok(errs.length === 0, `${wd}px: no script errors ${errs.join(' | ')}`);
   await pg.close();
