@@ -50,6 +50,8 @@ ELSEWHERE = {
 PER_RECORD = {
     "PUBLICATION.json", "DECISION.md", "SCORE.md", "TRACE.md", "APPARATUS.md",
     "EXPOSITION.md", "meta.json", "packet.json", "data.json", "work.md",
+    # the amendment of 2026-10-22: beside each cycle's work, in its own folder
+    "CRITIQUE.md", "PROCESS.json",
 }
 
 
