@@ -35,6 +35,7 @@ RECORD_DIRS = [
     "drafts",
     "window",
     "presentations",
+    "artifacts",
 ]
 
 # Everything else at the repo root, with the reason it is not indexed. Listing the exclusions
