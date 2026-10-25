@@ -7,5 +7,5 @@ and escalated projects require a human-reviewed pull request (see
 governance/STANDING-DELEGATION.md §4/§5). Ordinary research records belong
 under the auto-land-eligible paths.
 
-- `claude/project-thread-tkdtjk` — refused_path_outside_allowlist: CITATION.cff 
+- `claude/project-thread-xtdbss` — refused_protected_path: README.md 
 
