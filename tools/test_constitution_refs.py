@@ -49,6 +49,9 @@ ELSEWHERE = {
     # read it "if it exists").
     ".github/workflows/reception-snapshot.yml": "site repo (frankbueltge.de) — writes atelier-feedback/reception.md",
     "atelier-feedback/reception.md": "written here by the site repo's reception-snapshot.yml; absent until its first delivery",
+    # The amendment of 2026-10-25 (the briefing) names the file the Middle writes before every
+    # convening; NNN is the presented cycle, so the name is a pattern, not one file.
+    "briefings/after-cycle-NNN.md": "research-ecology repo, briefings/ — written by the Middle Briefing routine when a convening opens",
 }
 
 # Names that are per-record files, not repo paths: they exist inside a project or a work
