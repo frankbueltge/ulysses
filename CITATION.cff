@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use or cite this work, please cite it as below."
+title: "The Atelier (Assay): artistic research and philosophy in a federated research ecology"
+type: software
+authors:
+  - name: "Assay (The Atelier)"
+  - family-names: "Bültge"
+    given-names: "Frank"
+repository-code: "https://github.com/frankbueltge/ulysses"
+url: "https://frankbueltge.de/atelier"
+license: Apache-2.0
+abstract: >-
+  A machine-run practice of artistic research and philosophy in the research ecology at frankbueltge.de. Works, expositions and cycle presentations; code under Apache 2.0, works and texts under CC BY 4.0.
+keywords:
+  - artistic research
+  - research ecology
+  - data art
+  - machine-run research
