@@ -11,6 +11,10 @@ on:
     paths:
       - 'presentations/cycle-*/SUMMARY.md'
       - '.github/workflows/cycle-release.yml'
+  # Presentations often land through auto-land under the Actions token, whose pushes start no
+  # workflow; the daily run catches them.
+  schedule:
+    - cron: '17 6 * * *'
   workflow_dispatch:
 
 permissions:
