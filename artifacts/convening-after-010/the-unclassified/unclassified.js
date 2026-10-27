@@ -7,7 +7,7 @@
     ["inferred", "not measured, inferred"],
     ["none", "no data"],
   ];
-  const state = { g: "fs", o: { food: "above", gam: "above", cdr: "inferred" }, r: "closed" };
+  const state = { g: "fs", o: { food: "above", gam: "above", cdr: "inferred" }, r: "closed", p: "cur", e: "table" };
   let M = null;
 
   const fmt = (n) => n.toLocaleString("en-GB");
@@ -116,6 +116,43 @@
       : `Added up, Phase 5 goes from ${fmt(C.phase5_current_sep2025)} counted in September to ${fmt(p)} projected. The ${fmt(C.unclassified_people)} people in ${C.unclassified_areas} are in this total as nobody.`;
   }
 
+
+  // III. The six areas as the open table holds them, period by period.
+  const PH = ["people", "1", "2", "3", "4", "5"];
+  function renderEnc() {
+    const E = M.encodings, p = state.p, rule = state.e === "rule" && p === "p2";
+    radio(document.querySelector("#h-enc").parentNode, "p", p);
+    radio(document.querySelector("#h-enc").parentNode, "e", state.e);
+    let people = 0, p5 = 0;
+    document.getElementById("encgrid").innerHTML = E.areas.map((a) => {
+      let row = a.rows[p], kept = row[0];
+      if (rule && !kept) kept = a.rows.p1[0];
+      const cells = PH.map((lab, i) => {
+        let v = row[i], cls = "c";
+        if (rule) { v = i === 0 ? kept : null; cls += i === 0 ? (row[0] ? "" : " restored") : " unknown"; }
+        else if (v === null) cls += " absent";
+        else if (v === 0) cls += " zero";
+        if (i === 5) cls += " p5";
+        const txt = rule && i > 0 ? "?" : v === null ? "" : fmt(v);
+        return `<div class="${cls}"><span class="cl">${i === 0 ? "people" : "Phase " + lab}</span><span class="cv">${txt}</span></div>`;
+      }).join("");
+      if (!rule) { people += row[0] || 0; p5 += row[5] || 0; } else people += kept;
+      const gone = p === "p2";
+      const quote = !gone ? "" : a.name === "Dilling" ? E.prose.Dilling : a.encoding === "A" ? E.prose.famine : "";
+      const tag = gone ? `<span class="tag k${a.encoding}">${rule ? "phase unknown" : "written " + a.encoding}</span>` : "";
+      const mood = gone && !rule ? `<p class="mood">${E.kinds[a.encoding].mood}</p>` : "";
+      return `<article class="area${gone ? " gone k" + a.encoding : ""}${rule ? " ruled" : ""}"><h3>${a.name} ${tag}</h3><p class="l1">${a.level1} · in the table: “${a.table_name}”</p><div class="cells">${cells}</div>${mood}${quote ? `<p class="aq">“${quote}”</p>` : ""}</article>`;
+    }).join("");
+    const s = document.getElementById("encsum");
+    if (p !== "p2") s.innerHTML = `Added up, the six hold <b>${fmt(people)}</b> people and <b>${fmt(p5)}</b> in Phase 5, ${fmt(p5)} of the national ${p === "cur" ? "375,389" : "Phase 5 count"}. The rows are complete: every phase has a number.`;
+    else if (!rule) s.innerHTML = `Added up, the six now hold <b>0</b> in Phase 5 and <b>${fmt(people)}</b> people, all in the three localities written C. The three forms give the same zero. The national total keeps none of them: Sudan's analysed population falls from 47,490,883 to 46,649,479, by 841,404, the six areas' whole population.`;
+    else s.innerHTML = `Read as the sentence means them: <b>${fmt(people)}</b> people (the table's own figure where it kept one, the last counted where it dropped it), and Phase 5 <b>unknown</b>, anywhere from 0 to all of them. That is the bound of section II, area by area. The rows the table could not write are the ones a reader needs most.`;
+    document.getElementById("enckinds").innerHTML = p === "p2" && !rule
+      ? Object.entries(E.kinds).map(([k, v]) => `<p><span class="tag k${k}">${k}</span> ${v.table}. ${v.mood}</p>`).join("") +
+        `<p class="aq">The sentence gives one reason for all six: “${E.prose.all}”</p>`
+      : "";
+  }
+
   function renderDoors() {
     const tb = document.querySelector("#doors tbody");
     tb.innerHTML = M.doors.map((d) =>
@@ -127,6 +164,8 @@
     const items = M.rule.sources.map((s) =>
       `<li><a href="${s.url}">${s.cite}</a>${s.read_via ? ", read via " + s.read_via.split(" ")[0].replace(/^(.*)$/, '<a href="$1">a mirror</a>') + " (direct download refused)" : ""}. Quoted: ${s.quotes.map((q) => "“" + q + "”").join(" ")}</li>`);
     items.push(`<li><a href="${M.count.source.url}">${M.count.source.cite}</a>. Quoted: “${M.count.quote}”.</li>`);
+    items.push(`<li><a href="${M.encodings.source.url}">${M.encodings.source.cite}</a>, sha256 <code>${M.encodings.source.sha256.slice(0, 12)}…</code>, fetched ${M.encodings.source.fetched}; the encodings A, B, C after <a href="${M.encodings.field.url}">${M.encodings.field.cite}</a>.</li>`);
+    items.push(`<li><a href="${M.count.source.url}">${M.encodings.prose_source}</a>. Quoted in section III: “${M.encodings.prose.famine}” “${M.encodings.prose.Dilling}”</li>`);
     items.push(`<li><a href="${M.cases[0].source}">FEWS NET, Sudan Food Security Outlook, October 2025</a>, for El Fasher's malnutrition figure and inferred mortality.</li>`);
     ul.innerHTML = items.join("");
   }
@@ -135,6 +174,8 @@
     M = m;
     document.querySelectorAll("button[data-g]").forEach((b) => (b.onclick = () => { state.g = b.dataset.g; renderRule(); }));
     document.querySelectorAll("button[data-r]").forEach((b) => (b.onclick = () => { state.r = b.dataset.r; renderCount(); }));
+    document.querySelectorAll("button[data-p]").forEach((b) => (b.onclick = () => { state.p = b.dataset.p; renderEnc(); }));
+    document.querySelectorAll("button[data-e]").forEach((b) => (b.onclick = () => { state.e = b.dataset.e; if (state.e === "rule") state.p = "p2"; renderEnc(); }));
     const cb = document.getElementById("casebtns");
     M.cases.forEach((c) => {
       const b = document.createElement("button");
@@ -143,7 +184,7 @@
       cb.appendChild(b);
     });
     document.getElementById("countquote").textContent = "“" + M.count.quote + "” — the analysis itself.";
-    renderRule(); renderCount(); renderDoors(); renderSources();
+    renderRule(); renderCount(); renderEnc(); renderDoors(); renderSources();
     loadCase(M.cases[0]);
   });
 })();

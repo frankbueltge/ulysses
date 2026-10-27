@@ -7,57 +7,372 @@
   "probed": "2026-10-26"
  },
  "doors": [
-  {"name": "IPC API (public, no key)", "url": "https://api.ipcinfo.org/country?format=json", "status": 401, "reading": "closed: API key required", "reaches": "the classifications themselves"},
-  {"name": "FEWS NET data portal API", "url": "https://fdw.fews.net/api/ipcphase/?format=json&country_code=SD&limit=1", "status": 200, "reading": "open: JSON served, but the limit parameter was ignored (about 100 MB returned)", "reaches": "phases, as FEWS NET classifies them (a verdict, not the three outcomes)"},
-  {"name": "HDX CKAN API (Sudan IPC search)", "url": "https://data.humdata.org/api/3/action/package_search?q=sudan%20ipc&rows=1", "status": 200, "reading": "open: status 200", "reaches": "a catalogue; what it holds for each outcome was not read"},
-  {"name": "FAOSTAT API (food price domain)", "url": "https://faostatservices.fao.org/api/v1/en/definitions/domain", "status": 401, "reading": "closed: authorization header required", "reaches": "prices (a contributing factor, not an outcome)"},
-  {"name": "FAO Food Price Index CSV page", "url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/", "status": 200, "reading": "open: status 200", "reaches": "world prices (a contributing factor, not an outcome)"},
-  {"name": "OCHA FTS API (Sudan 2025 funding)", "url": "https://api.hpc.tools/v1/public/fts/flow?countryISO3=SDN&year=2025&limit=1", "status": 200, "reading": "open: JSON served (1,069 incoming flows, USD 1,783,752,884 for Sudan 2025 as of the probe)", "reaches": "the money (what the cuts removed), not an outcome"}
+  {
+   "name": "IPC API (public, no key)",
+   "url": "https://api.ipcinfo.org/country?format=json",
+   "status": 401,
+   "reading": "closed: API key required",
+   "reaches": "the classifications themselves"
+  },
+  {
+   "name": "FEWS NET data portal API",
+   "url": "https://fdw.fews.net/api/ipcphase/?format=json&country_code=SD&limit=1",
+   "status": 200,
+   "reading": "open: JSON served, but the limit parameter was ignored (about 100 MB returned)",
+   "reaches": "phases, as FEWS NET classifies them (a verdict, not the three outcomes)"
+  },
+  {
+   "name": "HDX CKAN API (Sudan IPC search)",
+   "url": "https://data.humdata.org/api/3/action/package_search?q=sudan%20ipc&rows=1",
+   "status": 200,
+   "reading": "open: status 200",
+   "reaches": "a catalogue; what it holds for each outcome was not read"
+  },
+  {
+   "name": "FAOSTAT API (food price domain)",
+   "url": "https://faostatservices.fao.org/api/v1/en/definitions/domain",
+   "status": 401,
+   "reading": "closed: authorization header required",
+   "reaches": "prices (a contributing factor, not an outcome)"
+  },
+  {
+   "name": "FAO Food Price Index CSV page",
+   "url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
+   "status": 200,
+   "reading": "open: status 200",
+   "reaches": "world prices (a contributing factor, not an outcome)"
+  },
+  {
+   "name": "OCHA FTS API (Sudan 2025 funding)",
+   "url": "https://api.hpc.tools/v1/public/fts/flow?countryISO3=SDN&year=2025&limit=1",
+   "status": 200,
+   "reading": "open: JSON served (1,069 incoming flows, USD 1,783,752,884 for Sudan 2025 as of the probe)",
+   "reaches": "the money (what the cuts removed), not an outcome"
+  }
  ],
  "rule": {
   "outcomes": [
-   {"key": "food", "label": "Food consumption", "threshold": "at least 20 % of households with extreme food gaps"},
-   {"key": "gam", "label": "Acute malnutrition", "threshold": "at least 30 % of children acutely malnourished (GAM by weight-for-height); for Famine Likely, and in its absence, at least 15 % by MUAC"},
-   {"key": "cdr", "label": "Mortality", "threshold": "at least 2 non-trauma deaths per 10,000 people per day (under-five deaths of 4 per 10,000 children count under conditions)"}
+   {
+    "key": "food",
+    "label": "Food consumption",
+    "threshold": "at least 20 % of households with extreme food gaps"
+   },
+   {
+    "key": "gam",
+    "label": "Acute malnutrition",
+    "threshold": "at least 30 % of children acutely malnourished (GAM by weight-for-height); for Famine Likely, and in its absence, at least 15 % by MUAC"
+   },
+   {
+    "key": "cdr",
+    "label": "Mortality",
+    "threshold": "at least 2 non-trauma deaths per 10,000 people per day (under-five deaths of 4 per 10,000 children count under conditions)"
+   }
   ],
   "sources": [
-   {"id": "manual31", "cite": "IPC Global Partnership, IPC Technical Manual Version 3.1 (2021), Part 1, p. 9", "url": "https://www.ipcinfo.org/ipcinfo-website/resources/ipc-manual/en", "read_via": "https://fscluster.org/sites/default/files/documents/ipc_technical_manual_3_final.pdf (passages extracted 2026-10-26; the direct download was refused, 403)",
+   {
+    "id": "manual31",
+    "cite": "IPC Global Partnership, IPC Technical Manual Version 3.1 (2021), Part 1, p. 9",
+    "url": "https://www.ipcinfo.org/ipcinfo-website/resources/ipc-manual/en",
+    "read_via": "https://fscluster.org/sites/default/files/documents/ipc_technical_manual_3_final.pdf (passages extracted 2026-10-26; the direct download was refused, 403)",
     "quotes": [
      "The IPC only permits the classification of Famine when all regular IPC protocols and special Famine protocols are met.",
      "The IPC permits the classification as Famine Likely when all regular and special protocols are met, except for the existence of reliable evidence for the three outcomes.",
      "When an area is classified as Famine Likely, it should trigger prompt action by decision-makers to address the situation while calling for urgent efforts to collect more evidence."
-    ]},
-   {"id": "factsheet2025", "cite": "IPC, Fact Sheet: the IPC Famine (last update August 2025)", "url": "https://www.un.org/unispal/wp-content/uploads/2025/08/IPC_Famine_Factsheet.pdf",
+    ]
+   },
+   {
+    "id": "factsheet2025",
+    "cite": "IPC, Fact Sheet: the IPC Famine (last update August 2025)",
+    "url": "https://www.un.org/unispal/wp-content/uploads/2025/08/IPC_Famine_Factsheet.pdf",
     "quotes": [
      "An area is classified in Famine with solid evidence if there is clear and compelling evidence of food insecurity (food deprivation and livelihood collapse), acute malnutrition and mortality to support the classification.",
      "An area is classified in Famine with reasonable evidence if there is clear evidence that two of the three thresholds [...] have been reached, and analysts reasonably assess from the broader evidence that the threshold from the third outcome has likely been reached."
-    ]}
+    ]
+   }
   ]
  },
  "cases": [
-  {"id": "elfasher", "name": "El Fasher town, North Darfur", "as_of": "September 2025", "published": "Famine (IPC Phase 5) with reasonable evidence",
-   "states": {"food": "above", "gam": "above", "cdr": "inferred"},
+  {
+   "id": "elfasher",
+   "name": "El Fasher town, North Darfur",
+   "as_of": "September 2025",
+   "published": "Famine (IPC Phase 5) with reasonable evidence",
+   "states": {
+    "food": "above",
+    "gam": "above",
+    "cdr": "inferred"
+   },
    "evidence": "GAM by MUAC of 38 % (inter-cluster Rapid Needs Assessment, March 2025). Mortality: “While mortality data is unavailable, it is inferred” (FEWS NET, Sudan Food Security Outlook, October 2025).",
    "certain": "The classification and the inferred mortality are read in the sources. That food consumption was the other outcome above threshold is this page's reading of “two of the three”, not a sentence in the source.",
-   "source": "https://fews.net/east-africa/sudan/food-security-outlook/october-2025"},
-  {"id": "kadugli", "name": "Kadugli town, South Kordofan", "as_of": "September 2025", "published": "Famine (IPC Phase 5) with reasonable evidence",
+   "source": "https://fews.net/east-africa/sudan/food-security-outlook/october-2025"
+  },
+  {
+   "id": "kadugli",
+   "name": "Kadugli town, South Kordofan",
+   "as_of": "September 2025",
+   "published": "Famine (IPC Phase 5) with reasonable evidence",
    "states": null,
    "evidence": "Classified with reasonable evidence (IPC Special Snapshot, issued November 2025). Which of the three outcomes was the inferred one was not read this session.",
    "certain": "The instrument is left as you set it for this case, on purpose: the source read does not say which outcome was inferred.",
-   "source": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-september-2025-may-2026-issued-november-2025"},
-  {"id": "dilling", "name": "Dilling town, South Kordofan", "as_of": "September 2025", "published": "Not classified",
-   "states": {"food": "none", "gam": "none", "cdr": "none"},
+   "source": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-september-2025-may-2026-issued-november-2025"
+  },
+  {
+   "id": "dilling",
+   "name": "Dilling town, South Kordofan",
+   "as_of": "September 2025",
+   "published": "Not classified",
+   "states": {
+    "food": "none",
+    "gam": "none",
+    "cdr": "none"
+   },
    "evidence": "“Conditions in the besieged town of Dilling (South Kordofan) are estimated to be similar to those in Kadugli town; however, the lack of data prevents IPC classification of this area.” (IPC Special Snapshot, issued November 2025.)",
    "certain": "Set to “no data” on all three outcomes as the plainest reading of “lack of data”; the source does not grade each outcome.",
-   "source": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-september-2025-may-2026-issued-november-2025"}
+   "source": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-september-2025-may-2026-issued-november-2025"
+  }
  ],
  "count": {
-  "source": {"cite": "IPC Global Initiative, Sudan: Acute Food Insecurity Analysis, September 2025 – May 2026, Special Snapshot (issued November 2025)", "url": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-september-2025-may-2026-issued-november-2025"},
+  "source": {
+   "cite": "IPC Global Initiative, Sudan: Acute Food Insecurity Analysis, September 2025 – May 2026, Special Snapshot (issued November 2025)",
+   "url": "https://reliefweb.int/report/sudan/sudan-ipc-acute-food-insecurity-analysis-september-2025-may-2026-issued-november-2025"
+  },
   "phase5_current_sep2025": 375000,
   "phase5_projected_feb_may2026": 146000,
   "unclassified_people": 841000,
   "unclassified_areas": "El Fasher town (with Abu Shouk and Al Salam camps), Kadugli town, and Dilling, As Sunut, Al Lagowa and Habila localities",
   "quote": "This apparent reduction in numbers, compared to the first projection, is primarily due to the inability to classify several high-concern areas—home to approximately 841,000 people",
   "bound_note": "Arithmetic, not an estimate: the projected Phase 5 count lies between the published 146,000 (every unclassified person counted outside Phase 5) and 987,000 (every one counted in it). Neither end is a claim about Sudan; the width is the size of the rule's silence."
+ },
+ "encodings": {
+  "_note": "Added 2026-10-27. The six areas the IPC names as unclassified in its second projection (Feb-May 2026), as HDX's open IPC area table holds them. Rows read at first hand by this practice from the same file the Field used (sha256 matches); the three-way encoding A/B/C is the Field's (session 234), taken up as offered. Row order: all, Phase 1..5; null = no row in the table. The 'mood' column is this page's reading, not the Field's or the IPC's.",
+  "source": {
+   "cite": "HDX, Global: Acute Food Insecurity Country Data, ipc_global_area_long.csv (CC0; source National IPC Technical Working Group; last_modified 2026-10-15), Sudan, analysis Sep 2025",
+   "url": "https://data.humdata.org/dataset/global-acute-food-insecurity-country-data",
+   "sha256": "33ed28dc5cb274770dc3bd4788620faad63d7d0d31d00fa9ef23606dd4554368",
+   "fetched": "2026-10-27"
+  },
+  "field": {
+   "cite": "The Field, session 234, Three ways to write nobody (2026-10-27)",
+   "url": "https://github.com/frankbueltge/field-research/tree/main/notes/convening-after-010/unclassified"
+  },
+  "periods": {
+   "cur": "Current, Sep–Oct 2025",
+   "p1": "First projection, Nov 2025–Jan 2026",
+   "p2": "Second projection, Feb–May 2026"
+  },
+  "kinds": {
+   "A": {
+    "table": "A population of 0 and no phase rows at all",
+    "mood": "The place stays and its people go. Read literally, nobody lives here."
+   },
+   "B": {
+    "table": "A population of 0 and a 0 in every phase",
+    "mood": "Every cell is filled, and every cell says none. Read literally, this is a measurement of an empty place."
+   },
+   "C": {
+    "table": "The population kept, and a 0 in every phase",
+    "mood": "The people are kept and no phase holds them. Read beside the sentence, this is the one form that can mean what the rule says: people, phase unknown."
+   }
+  },
+  "prose": {
+   "all": "…the inability to classify several high-concern areas—home to approximately 841,000 people—including El Fasher town (inclusive of Abu Shouk and Al Salam camps), Kadugli town, as well as Dilling, As Sunut, Al Lagowa, and Habila (South Kordofan) localities, due to the volatility of the situation and resulting uncertainty.",
+   "Dilling": "Conditions in the besieged town of Dilling (South Kordofan) are estimated to be similar to those in Kadugli town; however, the lack of data prevents IPC classification of this area.",
+   "famine": "As of September 2025, El Fasher town (North Darfur) and the besieged town of Kadugli (South Kordofan) were classified in Famine (IPC Phase 5) with reasonable evidence."
+  },
+  "prose_source": "IPC, Sudan Special Snapshot (issued November 2025), via ReliefWeb; fetched directly and read at first hand 2026-10-27",
+  "areas": [
+   {
+    "table_name": "Al Fasher Urban",
+    "name": "El Fasher town",
+    "level1": "North Darfur",
+    "encoding": "A",
+    "rows": {
+     "cur": [
+      300000,
+      0,
+      15000,
+      75000,
+      120000,
+      90000
+     ],
+     "p1": [
+      300000,
+      0,
+      30000,
+      60000,
+      120000,
+      90000
+     ],
+     "p2": [
+      0,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   {
+    "table_name": "Kadugli Urban",
+    "name": "Kadugli town",
+    "level1": "South Kordofan",
+    "encoding": "A",
+    "rows": {
+     "cur": [
+      30000,
+      1500,
+      4500,
+      9000,
+      9000,
+      6000
+     ],
+     "p1": [
+      30000,
+      1500,
+      3000,
+      7500,
+      10500,
+      7500
+     ],
+     "p2": [
+      0,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   },
+   {
+    "table_name": "Dilling Rural",
+    "name": "Dilling",
+    "level1": "South Kordofan",
+    "encoding": "B",
+    "rows": {
+     "cur": [
+      60642,
+      6064,
+      6064,
+      18193,
+      24257,
+      6064
+     ],
+     "p1": [
+      60642,
+      6064,
+      9096,
+      18193,
+      21225,
+      6064
+     ],
+     "p2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "table_name": "As sunut",
+    "name": "As Sunut",
+    "level1": "West Kordofan",
+    "encoding": "C",
+    "rows": {
+     "cur": [
+      264554,
+      79366,
+      66139,
+      66139,
+      52911,
+      0
+     ],
+     "p1": [
+      264554,
+      79366,
+      66139,
+      79366,
+      39683,
+      0
+     ],
+     "p2": [
+      264234,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "table_name": "Al lagowa",
+    "name": "Al Lagowa",
+    "level1": "West Kordofan",
+    "encoding": "C",
+    "rows": {
+     "cur": [
+      151710,
+      15171,
+      37928,
+      53099,
+      37928,
+      7586
+     ],
+     "p1": [
+      151710,
+      22757,
+      45513,
+      45513,
+      30342,
+      7586
+     ],
+     "p2": [
+      151517,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   },
+   {
+    "table_name": "Habila - sk",
+    "name": "Habila",
+    "level1": "South Kordofan",
+    "encoding": "C",
+    "rows": {
+     "cur": [
+      34498,
+      3450,
+      3450,
+      10349,
+      13799,
+      3450
+     ],
+     "p1": [
+      34498,
+      3450,
+      5175,
+      10349,
+      12074,
+      3450
+     ],
+     "p2": [
+      34474,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  ]
  }
 }

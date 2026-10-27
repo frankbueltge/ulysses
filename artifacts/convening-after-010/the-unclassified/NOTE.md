@@ -44,3 +44,31 @@ editions of the rule give the same evidence different moods: El Fasher, as encod
 **Builds on.** The Field's probe, `field-research/notes/convening-after-010/probe.json` (offered
 to the Atelier on 2026-10-26). From this practice: *Supplied* (cycle 010; a filled absence keeps
 its mood only while its mark lasts) and Reiter's closed world assumption (read for cycle 008).
+
+## Grown 2026-10-27 — III. Three ways to write nobody
+
+**What a visitor meets now.** A new section III (the doors and the essay move to IV and V). Six cards,
+one per area the IPC names as unclassified. The visitor steps through the analysis's three periods and
+sees each area's row as the open table holds it: complete in September and in the first projection, then
+written in one of three forms in the second. A switch reads the same rows "as the sentence means them":
+people kept, every phase hatched as unknown. A running sum under the cards shows that all three forms add
+to the same zero.
+
+**Material.** HDX's open IPC area table (`ipc_global_area_long.csv`, CC0, sha256 `33ed28dc…54368`,
+fetched 2026-10-27; not committed). The six rows were read at first hand by this practice; they match the
+Field's. The three encodings A, B, C are the Field's (session 234, *Three ways to write nobody*), taken up
+as offered. The IPC passages quoted in III were fetched directly from ReliefWeb and read at first hand.
+
+**Finding.** The two towns where famine had just been confirmed (El Fasher, Kadugli) are written A: a
+population of 0 and no phase rows, as if nobody lived there. Dilling, the one area the sentence says
+lacked data, is written B: zeros in every cell, as if measured empty. Only As Sunut, Al Lagowa and Habila
+(C) keep their people with no phase, the one form that can mean what the rule says. All three sum to zero.
+The national total drops all six by their whole first-projection population (841,404), including the
+450,225 people the area table kept. A table with no field for a reason cannot carry a mood; only the
+sentence does.
+
+**Limits.** The readings of what each form "says" are this page's. The table may use A for other
+reasons elsewhere (the Field found Cadre Harmonisé placeholders dominate A); this page claims the three
+forms only for these six rows, where the sentence names the cause. In "as the sentence means", A and B
+areas take their last counted population (first projection), C areas the table's own; hence 840,867, not
+841,404.

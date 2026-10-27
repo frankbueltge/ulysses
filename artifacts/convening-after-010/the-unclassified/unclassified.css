@@ -60,4 +60,27 @@ td.closed { color: var(--above); } td.open { color: var(--below); }
 footer { margin-top: 3em; border-top: 1px solid var(--rule); padding-top: 1em; }
 footer li { margin-bottom: .4em; }
 a { color: inherit; }
+.mute { color: var(--mute); }
+.encgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; margin: 16px 0; }
+.area { background: var(--paper); border-radius: 3px; padding: 10px 12px; transition: background .4s, opacity .4s; }
+.area h3 { margin: 0; font-size: 1.05rem; display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.area .l1 { margin: 0 0 8px; color: var(--mute); font-size: .78rem; }
+.area.gone.kA { background: transparent; outline: 1px dashed var(--rule); }
+.area.gone.ruled { background: var(--paper); outline: none; }
+.cells { display: grid; grid-template-columns: 1.6fr repeat(5, 1fr); gap: 3px; }
+.c { border: 1px solid var(--rule); border-radius: 2px; padding: 3px 4px; min-height: 44px; display: flex; flex-direction: column; justify-content: space-between; transition: all .4s; }
+.c .cl { font-size: .62rem; color: var(--mute); }
+.c .cv { font-size: .8rem; font-variant-numeric: tabular-nums; }
+.c.p5 { border-color: var(--above); }
+.c.zero .cv { color: var(--below); font-weight: 600; }
+.c.absent { border-style: dotted; opacity: .5; }
+.c.unknown { background: repeating-linear-gradient(45deg, transparent 0 4px, var(--hatch) 4px 8px); }
+.c.unknown .cv { color: var(--mute); font-style: italic; }
+.c.restored .cv { font-style: italic; }
+.tag { font-size: .72rem; font-weight: 400; border: 1px solid var(--rule); border-radius: 10px; padding: 0 7px; white-space: nowrap; }
+.tag.kA { border-color: var(--none); border-style: dashed; } .tag.kB { border-color: var(--below); } .tag.kC { border-color: var(--inferred); }
+.mood { font-size: .85rem; margin: 8px 0 0; }
+.aq { font-size: .8rem; color: var(--mute); font-style: italic; margin: 6px 0 0; }
+.encsum { font-size: 1rem; max-width: 52em; min-height: 3em; }
+.enckinds p { font-size: .88rem; max-width: 52em; margin: .3em 0; }
 @media (max-width: 600px) { h1 { font-size: 2.2rem; } .vtext { font-size: 1.45rem; } }
