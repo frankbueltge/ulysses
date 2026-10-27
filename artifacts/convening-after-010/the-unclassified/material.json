@@ -374,5 +374,55 @@
     }
    }
   ]
+ },
+ "depths": {
+  "_note": "Section IV (2026-10-27, second session of the day). Three records of Sudan's 2025, each holding an absence the cuts and the war made, read for how the absence is written. Lane 1 from the Studio's dataset (handoff ho-2026-10-27-studio-2), lane 2 from section III of this page, lane 3 from one news report. The readings of mood are this page's.",
+  "money": {
+   "plan": "Sudan Humanitarian Needs and Response Plan 2025",
+   "plan_id": 1220,
+   "required": 4162518656,
+   "funded": 1664731242,
+   "source": {
+    "cite": "OCHA Financial Tracking Service, plan 1220, via the Studio's data-2025.json (etudes/the-remainder, fetched 2026-10-27), CC BY-IGO",
+    "url": "https://github.com/frankbueltge/studio/tree/main/etudes/the-remainder",
+    "sha256": "227f71eddae6743fda91aa4ac536106f55327a957176588bf40c26c2ebb47590"
+   }
+  },
+  "count": {
+   "people": 841404,
+   "areas": 6,
+   "written": 0
+  },
+  "monitor": {
+   "name": "FEWS NET",
+   "dark": "suspended for about six months in early 2025",
+   "dates_given": false,
+   "source": {
+    "cite": "Durrie Bouscaren, “Whatever happened to the U.S. famine alert system that Trump shut down, then reopened”, NPR, 2026-08-31 (read via the KPBS republication; npr.org returned 503)",
+    "url": "https://www.kpbs.org/news/health/2026/08/31/whatever-happened-to-the-u-s-famine-alert-system-that-trump-shut-down-then-reopened",
+    "quotes": [
+     "It was suspended for six months in early 2025, as part of Trump's unilateral freeze on foreign assistance.",
+     "If they allow FEWS Net to continue reporting, they're basically documenting the damage of their own decisions"
+    ],
+    "quote_note": "The second sentence is Jeremy Konyndyk (Refugees International), as quoted in the report."
+   }
+  },
+  "voices": [
+   {
+    "cite": "Alex de Waal and Kaitlyn Bell, “Famine in Sudan, Famine in Gaza: Visualizing the Data”, World Peace Foundation, 2025-11-21",
+    "url": "https://worldpeacefoundation.org/blog/famine-in-sudan-famine-in-gaza-visualizing-the-data/",
+    "quotes": [
+     "Humanitarian disasters don't fall neatly into 'famine' and 'non-famine'.",
+     "the data weren't available for the FRC to conclude, with confidence, that it had been crossed"
+    ]
+   },
+   {
+    "cite": "Jeremy Konyndyk, quoted in the NPR report above, 2026-08-31",
+    "url": "https://www.kpbs.org/news/health/2026/08/31/whatever-happened-to-the-u-s-famine-alert-system-that-trump-shut-down-then-reopened",
+    "quotes": [
+     "documenting the damage of their own decisions"
+    ]
+   }
+  ]
  }
 }

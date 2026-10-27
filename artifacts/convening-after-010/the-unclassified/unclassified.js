@@ -7,7 +7,7 @@
     ["inferred", "not measured, inferred"],
     ["none", "no data"],
   ];
-  const state = { g: "fs", o: { food: "above", gam: "above", cdr: "inferred" }, r: "closed", p: "cur", e: "table" };
+  const state = { g: "fs", o: { food: "above", gam: "above", cdr: "inferred" }, r: "closed", p: "cur", e: "table", d: "written" };
   let M = null;
 
   const fmt = (n) => n.toLocaleString("en-GB");
@@ -153,6 +153,46 @@
       : "";
   }
 
+
+  // IV. Three records, three depths: a remainder with a size, a zero, and no row at all.
+  function renderDepths() {
+    const D = M.depths, is = state.d === "is";
+    radio(document.querySelector("#h-depth").parentNode, "d", state.d);
+    const bn = (n) => "US$ " + (n / 1e9).toFixed(2) + " bn";
+    const m = D.money, gap = m.required - m.funded, fp = (100 * m.funded / m.required).toFixed(1);
+    const lane = (k, title, rec, bar, can, mood, src) =>
+      `<article class="depth d${k}"><p class="dk">${["", "first", "second", "third"][k]} depth</p><h3>${title}</h3><p class="l1">${rec}</p>${bar}<p class="can"><b>What a reader can do with it:</b> ${can}</p><p class="mood">${mood}</p><p class="aq">${src}</p></article>`;
+    const months = "JFMAMJJASOND".split("").map((c, i) => {
+      const dark = i >= 0 && i < 6;
+      if (!dark) return `<span class="mo">${c}</span>`;
+      return is ? `<span class="mo lost">?</span>` : `<span class="mo void"></span>`;
+    }).join("");
+    const one = lane(1, "Money asked and not given", m.plan + ", FTS plan " + m.plan_id,
+      `<div class="bar"><span class="got" style="width:${fp}%">${bn(m.funded)}</span><span class="gap" style="width:${100 - fp}%">${bn(gap)} not given</span></div>`,
+      `subtract. Asked ${bn(m.required)}, given ${bn(m.funded)} (${fp} %). The missing part has a size, a unit and a date.`,
+      is ? "The same as written: this record already holds its absence." : "Written in the indicative, with its size. The record of money cannot fail to write what it lacks, because what it lacks is defined by what was asked.",
+      `Source: <a href="${m.source.url}">${m.source.cite}</a>.`);
+    const c = D.count;
+    const two = lane(2, "People the count could not classify", "IPC, Sudan, second projection (Feb–May 2026); six areas, section III",
+      is ? `<div class="bar"><span class="unk" style="width:100%">${fmt(c.people)} people · phase unknown</span></div>`
+         : `<div class="bar zerobar"><span class="z">0</span></div>`,
+      is ? "nothing exact. The phase lies anywhere from none of them to all of them (the bound of section II)."
+         : `add up, and get the wrong answer: the six areas sum to ${c.written} in every phase, and the national total falls by ${fmt(c.people)}.`,
+      is ? "Restored from the sentence beside the table, not from the table." : "Written as a number, in the wrong mood: a zero reads as measured, and nothing was measured.",
+      "Source: the IPC rows and passages of section III.");
+    const mo = D.monitor;
+    const three = lane(3, "The monitor switched off", mo.name + ", the famine early warning system's own publications",
+      `<div class="months${is ? " shown" : ""}">${months}</div><p class="l1">2025, month by month. Where the dark months fall is this page's estimate.</p>`,
+      is ? "count months only roughly. The source says six, in early 2025, and gives no dates, so the six cells are placed by this page and are an estimate."
+         : "nothing. A monitor that is switched off writes no zero and no gap. Its record has no entry for the months it was suspended.",
+      is ? "Restored from outside the record, by a news report of August 2026." : "Not written at all. Of the three absences, only this one leaves nothing a program could find.",
+      `Source: <a href="${mo.source.url}">${mo.source.cite}</a>: “${mo.source.quotes[0]}”`);
+    document.getElementById("depths").innerHTML = one + two + three;
+    document.getElementById("depthsum").innerHTML = is
+      ? "Read as the absences are, the three records hold one Sudan year: money missing, people unplaced, a monitor dark. But only the first was restored from its own record. The second needed the sentence beside the table, the third a reporter. <b>The deeper the cut, the farther from the record its trace is kept.</b>"
+      : "Read as written, the cut is visible only where it did least to the means of seeing: as money, with a size. Where it reached the count, it reads as zero; where it reached the monitor, it does not read at all.";
+  }
+
   function renderDoors() {
     const tb = document.querySelector("#doors tbody");
     tb.innerHTML = M.doors.map((d) =>
@@ -167,6 +207,9 @@
     items.push(`<li><a href="${M.encodings.source.url}">${M.encodings.source.cite}</a>, sha256 <code>${M.encodings.source.sha256.slice(0, 12)}…</code>, fetched ${M.encodings.source.fetched}; the encodings A, B, C after <a href="${M.encodings.field.url}">${M.encodings.field.cite}</a>.</li>`);
     items.push(`<li><a href="${M.count.source.url}">${M.encodings.prose_source}</a>. Quoted in section III: “${M.encodings.prose.famine}” “${M.encodings.prose.Dilling}”</li>`);
     items.push(`<li><a href="${M.cases[0].source}">FEWS NET, Sudan Food Security Outlook, October 2025</a>, for El Fasher's malnutrition figure and inferred mortality.</li>`);
+    items.push(`<li><a href="${M.depths.money.source.url}">${M.depths.money.source.cite}</a>, sha256 <code>${M.depths.money.source.sha256.slice(0, 12)}…</code>; section IV.</li>`);
+    items.push(`<li><a href="${M.depths.monitor.source.url}">${M.depths.monitor.source.cite}</a>. Quoted: ${M.depths.monitor.source.quotes.map((q) => "“" + q + "”").join(" ")} (${M.depths.monitor.source.quote_note})</li>`);
+    items.push(`<li><a href="${M.depths.voices[0].url}">${M.depths.voices[0].cite}</a>. Quoted: ${M.depths.voices[0].quotes.map((q) => "“" + q + "”").join(" ")}</li>`);
     ul.innerHTML = items.join("");
   }
 
@@ -176,6 +219,7 @@
     document.querySelectorAll("button[data-r]").forEach((b) => (b.onclick = () => { state.r = b.dataset.r; renderCount(); }));
     document.querySelectorAll("button[data-p]").forEach((b) => (b.onclick = () => { state.p = b.dataset.p; renderEnc(); }));
     document.querySelectorAll("button[data-e]").forEach((b) => (b.onclick = () => { state.e = b.dataset.e; if (state.e === "rule") state.p = "p2"; renderEnc(); }));
+    document.querySelectorAll("button[data-d]").forEach((b) => (b.onclick = () => { state.d = b.dataset.d; renderDepths(); }));
     const cb = document.getElementById("casebtns");
     M.cases.forEach((c) => {
       const b = document.createElement("button");
@@ -184,7 +228,7 @@
       cb.appendChild(b);
     });
     document.getElementById("countquote").textContent = "“" + M.count.quote + "” — the analysis itself.";
-    renderRule(); renderCount(); renderEnc(); renderDoors(); renderSources();
+    renderRule(); renderCount(); renderEnc(); renderDepths(); renderDoors(); renderSources();
     loadCase(M.cases[0]);
   });
 })();

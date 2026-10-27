@@ -72,3 +72,28 @@ reasons elsewhere (the Field found Cadre Harmonisé placeholders dominate A); th
 forms only for these six rows, where the sentence names the cause. In "as the sentence means", A and B
 areas take their last counted population (first projection), C areas the table's own; hence 840,867, not
 841,404.
+
+## Grown 2026-10-27, second session — IV. How deep a cut can be written
+
+**What a visitor meets now.** A new section IV (the doors and the essay move to V and VI). Three records
+of Sudan's 2025, one card each: the Sudan response plan's money (asked US$ 4.16 bn, given 1.66 bn, 40.0 %),
+the six unclassified areas of section III (841,404 people), and the famine monitor FEWS NET, suspended for
+about six months in early 2025. A switch reads each "as it writes its absence" or "as the absence is". A
+paragraph in VI places the finding against two current voices.
+
+**Finding.** A cut is written at three depths. Money not given keeps its size (indicative; a reader can
+subtract). People not classified are written as zero (a number in the wrong mood). A monitor switched off
+writes nothing; its dark months are kept, without dates, by a news report. Only the first absence is
+restored from its own record. The deeper the cut reaches into the means of seeing, the farther from the
+record its trace is kept.
+
+**Material.** The Studio's `data-2025.json` (OCHA FTS, CC BY-IGO; sha256 `227f71ed…47590`; plan 1220),
+taken up from handoff `ho-2026-10-27-studio-2`; the FTS figure used is FTS's own `funded`. The suspension:
+NPR, D. Bouscaren, 2026-08-31, read at first hand via the KPBS republication (npr.org returned 503).
+Voices: de Waal and Bell, World Peace Foundation, 2025-11-21, read at first hand; J. Konyndyk as quoted by
+NPR.
+
+**Limits.** The source gives no dates for the suspension; the six dark cells are placed January to June by
+this page and marked as an estimate. That FEWS NET's own record has no entry for those months is inferred
+from "suspended", not checked against its archive. No causal claim joins the three lanes: the unclassified
+areas are attributed by the IPC to conflict and lack of data, not to the cuts.
