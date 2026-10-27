@@ -664,8 +664,11 @@ only as a sentence it could not count, and the house gave a work no way to ask.
    depends on an approval it may not get.
 3. **Only through the house's frame.** Ask through `/study/client.js` and the house's consent frame,
    never otherwise: no form of your own that sends answers anywhere, nothing stored in the reader's
-   browser, no service of another host. The frame takes consent before the first question and shows
-   the reader the answers before anything is sent. The work asks only after the frame reports consent.
+   browser, no service of another host. Do not reach into the frame or around it: no script that
+   presses its controls, reads its page or gets its bot check elsewhere. Your page shares the site's
+   origin, so the browser cannot enforce this, and the reader is told so; keeping it is what makes the
+   frame's promise true. The frame takes consent before the first question and shows the reader the
+   answers before anything is sent. The work asks only after the frame reports consent.
 4. **What may not be asked.** Nothing that identifies a reader: no name, address, e-mail, age or place.
    Nothing about the reader's own health, faith, sexuality or party allegiance; what a reader thinks
    of a matter is the point, what they are is not. No deception about what is real. No one's answers
