@@ -62,9 +62,8 @@ occupied, and where unearned claims are easiest.
   knowledge"; on warnings, "never needed" is never backed, only closed — c008 exposition, plate IX; where a register is near-complete, ComCat, the closure is warranted only over a declared floor, radius and window, and the only positive "not needed" rows are warners' retractions — plate XI), **copy-text** (Greg, *SB* 3, 1950/51, read in full 10-19: the copy-text a "matter of convenience", substantive readings left to judgement against "the tyranny of the copy-text"; on forecast versions, which do not compete for an author's text, the declared copy-text is the safeguard, not the tyranny — plate X), **aggregation theory** (Gray et al., *Data Cube*, 1997, 09-16) and **unseen
   species models** (Chao via Moss et al., 09-18): four ways of reporting a quantity a record
   cannot pin down, and of deciding which measures may be attributed to a part at all.
-- **Text segmentation** (Unicode #29, #14), **reading rate** (IReST 2012) and **combinatorial
-  testing** (NIST SP 800-142; 09-19 to 09-23): each refuses to fix a constant and requires an
-  implementation to *declare its rule*, the pattern this practice asks of catalogues.
+- **Text segmentation** (Unicode #29), **reading rate** (IReST 2012), **combinatorial testing**
+  (NIST SP 800-142; 09-19 to 09-23): each requires an implementation to *declare its rule*.
 - **Observation selection** (Ćirković et al., *Risk Analysis* 2010; Thomas, GPI WP 20-2024; 10-08): an observer whose survival depends on the outcome holds the same evidence as one whose does not; what decides a record's readability is whether the reader knows its mesh (Thomas's *Fishing*).
 - **Closeness of worlds** (Pritchard via IEP, 10-09: intuition; Lewis 1979 via Bennett, 10-10: a small divergence). **Narrative sentences** (Danto 1962 via Northcott 2026, 10-11): what perfect information about the day cannot write (plate XII). **Vagueness and implicature** (Fine via Sorensen; Grice via Davis; SEP, 10-14): settled is what holds on every sharpening; "only" is void where the speaker was not counting.
 - **The Leiden conventions** (agreed at Leiden 1931, published 1932; van Groningen, *Mnemosyne* 59, via the reference article, not yet read in full) and their EpiDoc encoding: a public grammar of absence by kind (lost, omitted, abbreviated, illegible), by stated size or declared unknown size, and by mood (the bracket). In a draw of 677 documentary papyri (10-24), 27.6 % of the edited letters are the editor's, and 73 % of the unfilled losses have no stated size.
@@ -74,11 +73,11 @@ occupied, and where unearned claims are easiest.
 - **The warner's own instruction** (NWSI 10-511, 2023, read in full 10-20): tag lines chosen at the hour and "not editable", no probability anywhere; met rates rank as the words do (24 % radar indicated to 72 % catastrophic), and an empty "observed" is filled by the later record 3.8 times as often as an empty "radar indicated" (c009 plate III).
 - **Negligence and immunity** (law; read in full 10-21): Hand, *Carroll Towing* (1947), duty as P, L and B, the burden the precaution-taker's own; *Brown v. United States* (1st Cir. 1986), a forecast "a prediction of indeterminate reliability", liability only for "an affirmative misstatement of fact". Neither prices an unneeded warning (c009 plate IV).
 - **Agent-regret** (Williams 1981, p. 29, via Sussman; read 10-21): the outcome belongs to the faultless agent in the first person, as regret, not to the onlooker as resentment (c009 plate V).
-- **The IPC famine rule** (Technical Manual 3.1, 2021; fact sheet 2025; read 10-26): three measured outcomes, a mood by evidence (solid, reasonable, likely); missing data yield no classification, never a negative; the open table writes them three ways (famine towns as uninhabited), all summing to zero (10-27). A cut is written at three depths: money keeps its gap (FTS), a count writes zero, a switched-off monitor (FEWS NET, 2025) writes nothing (10-27, s16). De Waal and Bell (2025, read 10-27) refuse the famine/non-famine binary.
+- **The IPC famine rule** (Technical Manual 3.1, 2021; fact sheet 2025; read 10-26): three measured outcomes, a mood by evidence (solid, reasonable, likely); missing data yield no classification, never a negative; the open table writes them three ways (famine towns as uninhabited), all summing to zero (10-27). A cut writes at three depths: money keeps its gap, a count writes zero, a dark monitor (FEWS NET, 2025) nothing (10-27).
 - **Reference classes** (Hájek, *Synthese* 2007; 10-17): which class guides stays open; on a record with one common factor only the epistemological problem is left (10-18).
 - **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour of
   all, and the last one it thought to read.
-- **Unchecked:** machine collaborators; Brysbaert 2019. (Wikidata dropped 10-26.)
+- **Unchecked:** machine collaborators; Brysbaert 2019.
 
 ## 4. Open questions
 
