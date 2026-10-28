@@ -219,7 +219,7 @@
       grid,
       is ? `date the dark by its edges, and only by them. Sudan's analysis stops after the Alert of 31 December 2024 and resumes with the Alert of 5 September 2025: eight dark months, which FEWS NET's release of 24 June 2025 calls “a brief pause”. The price bulletins have one edge only. ${pb.dated_2024} are dated January to October 2024 across all countries, and none since, for Sudan or anywhere; the remote monitoring reports, written for places without staff on the ground, end the same month (${rm.dated_2024} in 2024, none since).`
          : "nothing inside the dark. The archive has no entry for the months it was silent; it holds only the last page before them and the first after, and a reader has to know to look for the gap between.",
-      is ? "Restored from the monitor's own record, but only at its edges. Where a series never came back there is one edge: a start with no end, which a record without a field for “ended” cannot tell from a delay."
+      is ? "Restored from the monitor's own record, but only at its edges. Where a series never came back there is one edge: a start with no end, which a record without a field for “ended” cannot tell from a delay. <span class=\"corr\"><b>Corrected 2026-10-28, nineteenth session:</b> it can, from the day the delay ends, where its entry dates are its first (below, <i>The hour you read it</i>).</span>"
          : "Not written at all. Of the three absences, only this one leaves nothing a program could find inside it.",
       `Source: <a href="${A.url}">FEWS NET's sitemap</a>, ${fmt(A.urls)} pages, read 2026-10-28, and the three pages above, read at first hand; after <a href="${A.field.url}">${A.field.cite}</a>. ${A.price_watch_note} ${A.limits}` +
       `<span class="corr"><b>Corrected 2026-10-28.</b> Until today this card placed six dark months, January to June 2025, from a news report (“${mo.source.quotes[0]}”), and said the archive's silence was inferred, not checked. The Field checked it: for Sudan the dark ran eight months, dated at both ends by FEWS NET itself. This practice re-read the archive and the pages the same day and agrees.</span>`);
@@ -227,6 +227,52 @@
     document.getElementById("depthsum").innerHTML = is
       ? "Read as the absences are, the three records hold one Sudan year: money missing, people unplaced, a monitor dark. Only the first is restored whole from its own record. The second needs the sentence beside the table. The third is restored from its own archive only at its edges, and the price bulletins have only one edge. <b>The deeper the cut, the less of it its own record can close.</b>"
       : "Read as written, the cut is visible only where it did least to the means of seeing: as money, with a size. Where it reached the count, it reads as zero; where it reached the monitor, it does not read at all.";
+  }
+
+  // IV, added 2026-10-28 (nineteenth session): the day you read the warehouse decides whether its dark is an end or a delay.
+  function renderClock() {
+    const C = M.clock, day = C.days[state.t];
+    document.getElementById("clockday").textContent = day;
+    const months = [];
+    for (let y = 2024, mo = 1; y < 2026 || mo <= 9; mo++) { if (mo > 12) { y++; mo = 1; } months.push(y + "-" + String(mo).padStart(2, "0")); }
+    const ended = (m) => { const [y, mo] = m.split("-").map(Number); return new Date(Date.UTC(y, mo, 0)).toISOString().slice(0, 10) <= day; };
+    const head = `<span class="rl"></span>` + months.map((m) => `<span class="mh${m.endsWith("-01") ? " yr" : ""}">${m.endsWith("-01") ? m.slice(2, 4) : "JFMAMJJASOND"[+m.slice(5) - 1]}</span>`).join("");
+    const stat = {};
+    const row = (s) => {
+      const S = C.data.series[s] || {}; let last = null, lastDay = null, back = 0;
+      const cells = months.map((m) => {
+        if (!ended(m)) return `<span class="cc"></span>`;
+        const e = (S[m] || []).filter((x) => x[0] <= day), p = e.reduce((a, x) => a + x[1], 0), n = e.reduce((a, x) => a + x[2], 0);
+        e.forEach((x) => { if (!lastDay || x[0] > lastDay) lastDay = x[0]; });
+        if (p) { last = m; if (m >= "2024-10" && m <= "2026-01" && e.some((x) => x[0] >= "2026-02-01")) back++; }
+        const cls = (p && n ? " mix" : p ? " in" : n ? " nc" : " wait") + (e.some((x) => x[0] === day) ? " now" : "");
+        const sh = p && n ? Math.round(100 * p / (p + n)) : 0;
+        const st = sh ? `background:linear-gradient(to top, var(--below) ${sh}%, transparent ${sh}%), repeating-linear-gradient(45deg, transparent 0 3px, var(--hatch) 3px 6px)` : p ? `opacity:${Math.max(.35, Math.min(1, p / 170)).toFixed(2)}` : "";
+        const tip = `${s}, ${m}: ` + (e.length ? e.map((x) => `${x[1]} prices` + (x[2] ? ` and ${x[2]} “Not Collected”` : "") + ` entered ${x[0]}`).join("; ") : "nothing in the record yet");
+        return `<span class="cc${cls}" style="${st}" title="${tip}"></span>`;
+      }).join("");
+      stat[s] = { last, lastDay, back };
+      return `<span class="rl">${s}${s === "WFP" ? "<br><small>re-dated</small>" : ""}</span>` + cells;
+    };
+    const key = `<p class="clockkey"><i class="cc in"></i>prices entered (paler: fewer)<i class="cc nc"></i>marked “Not Collected” (the blue part: the share with a price)<i class="cc wait"></i>month over, nothing entered yet</p>`;
+    document.getElementById("clockgrid").innerHTML = head + row("WFP") + row("FAMIS") + key;
+    const mn = (m) => m ? new Date(m + "-15").toLocaleString("en-GB", { month: "long", year: "numeric" }) : "none";
+    const w = stat.WFP, f = stat.FAMIS, any = [w.lastDay, f.lastDay].sort().pop();
+    let txt;
+    const nc = Object.values(C.data.series.FAMIS || {}).flat().filter((x) => x[0] <= day).reduce((a, x) => a + x[2], 0);
+    const wfp = day < "2026-06-17"
+      ? ` WFP's row is blank on this day even for January 2024: the warehouse now dates every WFP row 17 June 2026 or later, so it keeps no first hour for that stream.`
+      : ` WFP's whole series, from January 2024 on, now carries the entry date 17 June 2026 (a share of it again 13 October 2026). Whether WFP's dark months were written late or on time, the record no longer says: it has re-dated its own hour.`;
+    if (!f.back) {
+      const gap = Math.round((Date.parse(day) - Date.parse(f.lastDay)) / 864e5);
+      txt = `Read on ${day} by its own entry dates, the record's last FAMIS entry is ${f.lastDay}, ${gap} days ago, and its newest month is ${mn(f.last)}. No row says “ended”, none says “delayed”, and no month after it is marked at all. <b>On this day the record cannot tell an end from a delay: both would look exactly like this.</b>` + wfp;
+    } else {
+      txt = `Read on ${day}, FAMIS's dark is a delay. Its sixteen months, October 2024 to January 2026, were all entered on 3 February 2026: prices for ${f.back} of them, thinning from 76 to 18, and ${fmt(nc)} “Not Collected” marks, the record's own name for its silence. <b>The record could write that its silence was a delay only after the silence was over, and it named the silence only on the day it ended.</b>` +
+        (f.last < "2026-02" && day >= "2026-04-01" ? ` And FAMIS has nothing after ${mn(f.last)}: for that stream the record stands on this day where it stood on 2 February 2026, with one edge and no way to say which.` : "") + wfp;
+    }
+    document.getElementById("clocksum").innerHTML = txt;
+    document.getElementById("clocksrc").innerHTML = `Source: <a href="${C.data.url}">FEWS NET Data Warehouse, market price facts, Sudan</a>, fetched ${C.data.fetched}, ${fmt(C.data.rows)} rows, sha256 <code>${C.data.sha256.slice(0, 12)}…</code> (the same file the Field fetched), reduced by <a href="https://github.com/frankbueltge/ulysses/blob/main/artifacts/convening-after-010/the-unclassified/build_clock.py">build_clock.py</a> into <a href="price-clock.json">price-clock.json</a>. Only rows with a price or marked “Not Collected” are drawn; ${fmt(C.data.left_out["Not Available"])} “Not Available” rows (to September 2024) and ${fmt(C.data.left_out["No Data"])} “No Data” rows (no entry date) are left out. An entry date may mark a re-import rather than a first entry. For FAMIS it does not seem to: its rows for January to September 2024 carry dates ten to thirty days after their month. For WFP it does: its rows for January 2024 carry 17 June 2026, like its rows for 2025. The dark is “sixteen months” as the Field counts it, October 2024 to January 2026.`;
+    document.querySelectorAll("#clockjump button").forEach((b) => b.setAttribute("aria-checked", b.dataset.t === day ? "true" : "false"));
   }
 
   function renderDoors() {
@@ -250,8 +296,18 @@
     ul.innerHTML = items.join("");
   }
 
-  fetch("material.json").then((r) => r.json()).then((m) => {
+  Promise.all([fetch("material.json").then((r) => r.json()), fetch("price-clock.json").then((r) => r.json())]).then(([m, pc]) => {
     M = m;
+    const days = [];
+    for (let t = Date.parse("2024-09-01"); t <= Date.parse(pc.fetched); t += 864e5) days.push(new Date(t).toISOString().slice(0, 10));
+    M.clock = { data: pc, days };
+    state.t = days.indexOf("2025-06-24");
+    const ck = document.getElementById("clock");
+    ck.max = days.length - 1; ck.value = state.t;
+    ck.oninput = () => { state.t = +ck.value; renderClock(); };
+    const jumps = [["2024-09-30", "the last entry before"], ["2025-06-24", "“a brief pause”"], ["2025-09-05", "the analysis returns"], ["2026-02-02", "the day before"], ["2026-02-03", "the first entry after"], ["2026-06-17", "WFP's months"], [pc.fetched, "today"]];
+    const cj = document.getElementById("clockjump");
+    jumps.forEach(([d, l]) => { const b = document.createElement("button"); b.setAttribute("role", "radio"); b.dataset.t = d; b.textContent = l; b.title = d; b.onclick = () => { state.t = days.indexOf(d); ck.value = state.t; renderClock(); }; cj.appendChild(b); });
     document.querySelectorAll("button[data-g]").forEach((b) => (b.onclick = () => { state.g = b.dataset.g; renderRule(); }));
     document.querySelectorAll("button[data-r]").forEach((b) => (b.onclick = () => { state.r = b.dataset.r; renderCount(); }));
     document.querySelectorAll("button[data-p]").forEach((b) => (b.onclick = () => { state.p = b.dataset.p; renderEnc(); }));
@@ -266,7 +322,7 @@
       cb.appendChild(b);
     });
     document.getElementById("countquote").textContent = "“" + M.count.quote + "” — the analysis itself.";
-    renderRule(); renderCount(); renderEnc(); renderWhy(); renderDepths(); renderDoors(); renderSources();
+    renderRule(); renderCount(); renderEnc(); renderWhy(); renderDepths(); renderClock(); renderDoors(); renderSources();
     loadCase(M.cases[0]);
   });
 })();

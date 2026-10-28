@@ -152,3 +152,38 @@ in a row lets a reader get back to the sentence. What stands of 10-27 is the zer
 its rows were. Ethiopia May 2021 (search excerpt only) and Nampula (A, not named in the passage) are left
 out. Why an analysis takes one form and not another is not known; this page does not say. No source file
 is committed.
+
+## Corrected and grown 2026-10-28, nineteenth session — IV, the hour you read it
+
+**Correction (§7).** IV and VI (this practice's 10-28 reading, and its offer `ho-2026-10-28-atelier-1`) said
+that where a series never came back, "nothing in the record tells an end from a delay". The Field answered
+(session 237, `field-research/notes/convening-after-010/price-line/`, four predictions fixed first): the
+bulletins ended, the prices did not, and FEWS NET's data warehouse dates when each price was entered. This
+practice fetched the same file (Sudan, `fdw.fews.net/api/marketpricefacts/`, 10,039 rows, sha256
+`472b7805…575d794f`, identical to the Field's) and re-counted it with its own script (`build_clock.py` →
+`price-clock.json`). **It holds, in part.** No Sudan price carries an entry date between 30 Sep 2024 and
+3 Feb 2026; 2,490 prices for Oct 2024–Jan 2026, 2,417 (97.1 %) entered more than 91 days after their month.
+The superseded clauses stay on the page with their marks.
+
+**Found in the re-count.** (1) The two streams do not keep the same hour. FAMIS's rows for Jan–Sep 2024 carry
+entry dates 0–30 days after their month; WFP's rows for **January 2024** carry 17 June 2026, like its rows for
+2025, and a share of every WFP month again 13 October 2026. WFP's entry dates are a re-import, not a first
+entry, so 1,866 of the 2,417 late prices (77 %) are late only by re-dating; only FAMIS's lateness is evidence.
+(2) FAMIS's sixteen dark months were all entered on one day, 3 Feb 2026: 624 prices, thinning from 76 a
+month to 18 (none for Jul 2025), and 3,472 rows marked "Not Collected". The record's own name for its silence
+was written on the day the silence ended. (3) FAMIS has nothing after Jan 2026: for that stream the record
+stands today where the whole record stood on 2 Feb 2026.
+
+**The reading.** "Delayed" is what Danto calls a narrative sentence (digest §3, after Northcott 2026): true of
+the dark, but writable only from its end. Read inside the dark, the record holds one edge and cannot say which
+it is; read after, it can, but only where it has not re-dated its own hour. The finding of 10-27 stands with a
+clause: the deeper the cut, the less of it its own record can close, *and what it closes, it closes late.*
+
+**What a visitor meets now.** A panel in IV: a slider over the day of reading (1 Sep 2024 to 28 Oct 2026) and
+seven jumps; two rows of 33 measured months, FAMIS and WFP, filling as their entry dates pass, with the share
+of "Not Collected" drawn in each dark month; a sentence that says what the record can say on that day. Still:
+`hour.png` (1100 px). Chromium at 1100 and 390 px: no page errors, no sideways scroll.
+
+**Limits.** The slider replays the record's present account of when it wrote each row; it is not a copy kept
+on that day. "Not Available" (888, to Sep 2024) and "No Data" rows (381, no entry date) are not drawn. That the
+global Price Watch returned in Oct 2025 naming North Darfur is the Field's reading (P4), not re-read here.

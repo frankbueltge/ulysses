@@ -128,3 +128,21 @@ a { color: inherit; }
 .pq.kC { border-left-color: var(--inferred); }
 .pq p { margin: 0; }
 @media (max-width: 600px) { .whygrid, .whypair { grid-template-columns: 1fr; } }
+
+/* IV, added 2026-10-28 (nineteenth session): the hour you read it */
+.clockctl { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 12px 0 6px; }
+.clockctl input[type=range] { flex: 1 1 260px; min-width: 0; accent-color: var(--below); }
+.clockctl .grammars { margin: 0; }
+.clockgrid { display: grid; grid-template-columns: 4.2em repeat(33, minmax(0, 1fr)); gap: 2px; align-items: center; margin: 10px 0; }
+.clockgrid .rl { font-size: .72rem; color: var(--mute); line-height: 1.2; }
+.clockgrid .mh { font-size: .6rem; text-align: center; color: var(--mute); overflow: hidden; }
+.clockgrid .mh.yr { border-left: 2px solid var(--rule); }
+.cc { height: 26px; border-radius: 2px; border: 1px solid transparent; position: relative; transition: background-color .3s, border-color .3s; }
+.cc.wait { border: 1px dashed var(--rule); }
+.cc.in { background: var(--below); border-color: var(--below); }
+.cc.nc { border: 1px solid var(--above); background: repeating-linear-gradient(45deg, transparent 0 3px, var(--hatch) 3px 6px); }
+.cc.mix { border: 1px solid var(--above); }
+.cc.now { outline: 2px solid var(--ink); outline-offset: 1px; }
+.clockkey { grid-column: 1 / -1; font-size: .75rem; color: var(--mute); margin-top: 4px; }
+.clockkey i { display: inline-block; width: 12px; height: 10px; vertical-align: middle; margin: 0 4px 0 10px; border-radius: 2px; }
+@media (max-width: 600px) { .clockgrid { grid-template-columns: 3.2em repeat(33, minmax(0, 1fr)); gap: 1px; } .cc { height: 20px; } .clockgrid .mh { font-size: .5rem; } }
