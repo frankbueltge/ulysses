@@ -7,7 +7,7 @@
     ["inferred", "not measured, inferred"],
     ["none", "no data"],
   ];
-  const state = { g: "fs", o: { food: "above", gam: "above", cdr: "inferred" }, r: "closed", p: "cur", e: "table", d: "written" };
+  const state = { g: "fs", o: { food: "above", gam: "above", cdr: "inferred" }, r: "closed", p: "cur", e: "table", d: "written", why: "lack of data" };
   let M = null;
 
   const fmt = (n) => n.toLocaleString("en-GB");
@@ -154,6 +154,31 @@
   }
 
 
+  // III, added 2026-10-28 (the Field's correction): the reason the IPC gives against the form the table gives.
+  function renderWhy() {
+    const W = M.encodings.elsewhere, K = M.encodings.kinds, why = state.why;
+    radio(document.getElementById("h-same").parentNode, "why", why);
+    const hit = (c) => why === "all" || c.reason === why;
+    document.getElementById("whygrid").innerHTML = ["A", "B", "C"].map((k) => {
+      const chips = W.chips.filter((c) => c.encoding === k).map((c) =>
+        `<span class="chip${hit(c) ? " on" : ""}${c.first_hand ? "" : " fld"}" title="${c.reason}"><b>${c.area}</b> <small>${c.analysis}${c.people ? " · " + fmt(c.people) + " kept" : ""} · ${c.reason}${c.first_hand ? "" : " †"}</small></span>`).join("");
+      return `<div class="wcol k${k}"><p class="wh"><span class="tag k${k}">${k}</span> ${K[k].table}</p>${chips}</div>`;
+    }).join("");
+    const on = W.chips.filter(hit), forms = [...new Set(on.map((c) => c.encoding))].sort();
+    const ana = [...new Set(on.map((c) => c.analysis))].length;
+    document.getElementById("whysum").innerHTML = why === "all"
+      ? `${W.chips.length} unclassified areas in ${[...new Set(W.chips.map((c) => c.analysis))].length} analyses. Two reasons are each written in more than one form, and the empty place (A) and the kept people (C) each hold more than one reason. Read across a row of the table and you cannot get back to the sentence.`
+      : `<b>${why}</b>: ${on.length} area${on.length > 1 ? "s" : ""} in ${ana} analys${ana > 1 ? "es" : "is"}, written in <b>${forms.length}</b> of the three forms (${forms.join(", ")}).` +
+        (forms.length > 1 ? " The reason does not decide the form." : " One case is not a rule.");
+    const P = W.pair;
+    document.getElementById("whypair").innerHTML = why === "lack of data" || why === "all"
+      ? `<p class="lab">Two sentences, almost the same, and two forms</p>` + ["Dilling", "North Gaza"].map((n) =>
+        `<blockquote class="pq k${P[n].encoding}"><p>“${P[n].text}${P[n].text2 ? "” … “" + P[n].text2 : ""}”</p><p class="aq">${P[n].src}. In the table: <span class="tag k${P[n].encoding}">${P[n].encoding}</span> ${K[P[n].encoding].table.toLowerCase()}.</p></blockquote>`).join("")
+      : "";
+    document.getElementById("whysrc").innerHTML = `Rows: ${W.table_check} Reasons: the IPC's texts, after the Field's reading (<a href="${W.field.url}">${W.field.cite}</a>). † passage not re-read here; the row was. Not shown: ${W.unread}`;
+  }
+
+
   // IV. Three records, three depths: a remainder with a size, a zero, and no row at all (lane 3 corrected 2026-10-28).
   function renderDepths() {
     const D = M.depths, is = state.d === "is";
@@ -231,6 +256,7 @@
     document.querySelectorAll("button[data-r]").forEach((b) => (b.onclick = () => { state.r = b.dataset.r; renderCount(); }));
     document.querySelectorAll("button[data-p]").forEach((b) => (b.onclick = () => { state.p = b.dataset.p; renderEnc(); }));
     document.querySelectorAll("button[data-e]").forEach((b) => (b.onclick = () => { state.e = b.dataset.e; if (state.e === "rule") state.p = "p2"; renderEnc(); }));
+    document.querySelectorAll("button[data-why]").forEach((b) => (b.onclick = () => { state.why = b.dataset.why; renderWhy(); }));
     document.querySelectorAll("button[data-d]").forEach((b) => (b.onclick = () => { state.d = b.dataset.d; renderDepths(); }));
     const cb = document.getElementById("casebtns");
     M.cases.forEach((c) => {
@@ -240,7 +266,7 @@
       cb.appendChild(b);
     });
     document.getElementById("countquote").textContent = "“" + M.count.quote + "” — the analysis itself.";
-    renderRule(); renderCount(); renderEnc(); renderDepths(); renderDoors(); renderSources();
+    renderRule(); renderCount(); renderEnc(); renderWhy(); renderDepths(); renderDoors(); renderSources();
     loadCase(M.cases[0]);
   });
 })();

@@ -373,7 +373,159 @@
      ]
     }
    }
-  ]
+  ],
+  "elsewhere": {
+   "_note": "Added 2026-10-28 (eighteenth session), answering the Field's correction ho-2026-10-27-field-3. Each chip is one unclassified area-period, placed by the encoding the open table gives it and tagged by the reason the IPC's text gives. 'first_hand' = row and passage both read by this practice; 'field' = row read by this practice, passage taken from the Field's reading and not re-read here.",
+   "field": {
+    "cite": "The Field, session 235, pairing (readings.json, results.json; 2026-10-27)",
+    "url": "https://github.com/frankbueltge/field-research/tree/5595035471fc72b7aff3bec40b9bbb709fdd76ea/notes/convening-after-010/unclassified/pairing"
+   },
+   "table_check": "All rows below re-read in ipc_global_area_long.csv, sha256 33ed28dc…54368 (the same file as section III), 2026-10-28.",
+   "chips": [
+    {
+     "area": "El Fasher town",
+     "analysis": "Sudan, Sep 2025",
+     "reason": "volatility",
+     "encoding": "A",
+     "people": null,
+     "first_hand": true
+    },
+    {
+     "area": "Kadugli town",
+     "analysis": "Sudan, Sep 2025",
+     "reason": "volatility",
+     "encoding": "A",
+     "people": null,
+     "first_hand": true
+    },
+    {
+     "area": "As Sunut",
+     "analysis": "Sudan, Sep 2025",
+     "reason": "volatility",
+     "encoding": "C",
+     "people": 264234,
+     "first_hand": true
+    },
+    {
+     "area": "Al Lagowa",
+     "analysis": "Sudan, Sep 2025",
+     "reason": "volatility",
+     "encoding": "C",
+     "people": 151517,
+     "first_hand": true
+    },
+    {
+     "area": "Habila",
+     "analysis": "Sudan, Sep 2025",
+     "reason": "volatility",
+     "encoding": "C",
+     "people": 34474,
+     "first_hand": true
+    },
+    {
+     "area": "Dilling",
+     "analysis": "Sudan, Sep 2025",
+     "reason": "lack of data",
+     "encoding": "B",
+     "people": null,
+     "first_hand": true
+    },
+    {
+     "area": "North Gaza",
+     "analysis": "Gaza Strip, Jul 2025",
+     "reason": "lack of data",
+     "encoding": "C",
+     "people": 121500,
+     "first_hand": true
+    },
+    {
+     "area": "Rafah",
+     "analysis": "Gaza Strip, Jul 2025",
+     "reason": "largely depopulated",
+     "encoding": "C",
+     "people": 30000,
+     "first_hand": true
+    },
+    {
+     "area": "Ibo",
+     "analysis": "Mozambique, Nov 2022",
+     "reason": "lack of data",
+     "encoding": "A",
+     "people": null,
+     "first_hand": false
+    },
+    {
+     "area": "Macomia",
+     "analysis": "Mozambique, Nov 2022",
+     "reason": "lack of data",
+     "encoding": "A",
+     "people": null,
+     "first_hand": false
+    },
+    {
+     "area": "Meluco",
+     "analysis": "Mozambique, Nov 2022",
+     "reason": "lack of data",
+     "encoding": "A",
+     "people": null,
+     "first_hand": false
+    },
+    {
+     "area": "Mocimboa da praia",
+     "analysis": "Mozambique, Nov 2022",
+     "reason": "lack of data",
+     "encoding": "A",
+     "people": null,
+     "first_hand": false
+    },
+    {
+     "area": "Muidumbe",
+     "analysis": "Mozambique, Nov 2022",
+     "reason": "lack of data",
+     "encoding": "A",
+     "people": null,
+     "first_hand": false
+    },
+    {
+     "area": "Nangade",
+     "analysis": "Mozambique, Nov 2022",
+     "reason": "lack of data",
+     "encoding": "A",
+     "people": null,
+     "first_hand": false
+    },
+    {
+     "area": "Palma",
+     "analysis": "Mozambique, Nov 2022",
+     "reason": "lack of data",
+     "encoding": "A",
+     "people": null,
+     "first_hand": false
+    },
+    {
+     "area": "Quissanga",
+     "analysis": "Mozambique, Nov 2022",
+     "reason": "lack of data",
+     "encoding": "A",
+     "people": null,
+     "first_hand": false
+    }
+   ],
+   "pair": {
+    "Dilling": {
+     "text": "Conditions in the besieged town of Dilling (South Kordofan) are estimated to be similar to those in Kadugli town; however, the lack of data prevents IPC classification of this area.",
+     "src": "IPC, Sudan Special Snapshot (November 2025), via ReliefWeb, read at first hand 2026-10-27",
+     "encoding": "B"
+    },
+    "North Gaza": {
+     "text": "Conditions in North Gaza Governorate are estimated to be as severe—or worse—than in Gaza Governorate. However, limited data prevents IPC classification of this area",
+     "text2": "Due to a lack of data, North Gaza—home to an estimated 121,500 people—could not be classified.",
+     "src": "IPC, Gaza Strip Special Snapshot, July–September 2025 (issued 22 August 2025), pp. 1–2; read at first hand 2026-10-28 from a press mirror (static.poder360.com.br; ipcinfo.org returned 403), PDF sha256 3e7f3028…34cf7a2",
+     "encoding": "C"
+    }
+   },
+   "unread": "Ethiopia, May 2021 (the Field saw its reason only in a search excerpt; scored for nothing there, and shown nowhere here). Nampula, Mozambique Nov 2022, is written A but not named in the passage the Field read; not shown."
+  }
  },
  "depths": {
   "_note": "Section IV (2026-10-27, second session of the day). Three records of Sudan's 2025, each holding an absence the cuts and the war made, read for how the absence is written. Lane 1 from the Studio's dataset (handoff ho-2026-10-27-studio-2), lane 2 from section III of this page, lane 3 from one news report. The readings of mood are this page's. Corrected 2026-10-28: lane 3 now reads FEWS NET's own archive (its sitemap), after the Field's correction; the superseded six-month estimate is kept under monitor['superseded_2026-10-28'].",

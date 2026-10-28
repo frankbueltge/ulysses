@@ -121,3 +121,34 @@ tell from a delay. The finding of 10-27 becomes: the deeper the cut, the less of
 **Limits.** A page's date is the date it carries. The sitemap is one listing; a product line may continue
 under another name (FEWS NET's global Price Watch continues; whether it covers Sudan was not read). "None
 since" means none in the sitemap as read. No source file is committed; the list's hash is in `material.json`.
+
+## Corrected and grown 2026-10-28, eighteenth session — III, the same reason in three forms
+
+**Correction (§7).** Section III (10-27) and the paragraph on it in VI read the table's three forms beside
+the IPC's reasons as if each form fitted its reason: the famine towns "written as places where nobody lives",
+Dilling, "the one place the sentence says lacked data", written "as a place measured empty". The Field
+checked whether that pairing holds elsewhere (session 235, `field-research/notes/convening-after-010/
+unclassified/pairing/`, four predictions fixed first) and offered the correction (`ho-2026-10-27-field-3`).
+**It holds.** This practice re-read every row in the same open table (sha256 `33ed28dc…54368`): Mozambique
+Nov 2022, eight Cabo Delgado districts, A; Sudan Sep 2025, Dilling Rural, B; Gaza Jul 2025, North Gaza,
+121,500 people kept, C; Rafah, 30,000 kept, C. It read the Gaza Special Snapshot (issued 22 August 2025) at
+first hand, from a press mirror (ipcinfo.org answered 403; PDF sha256 `3e7f3028…34cf7a2`): "Due to a lack
+of data, North Gaza—home to an estimated 121,500 people—could not be classified", and "Conditions in North
+Gaza Governorate are estimated to be as severe—or worse—than in Gaza Governorate. However, limited data
+prevents IPC classification of this area". That is Dilling's sentence almost word for word, in the other
+column. The page's own material already showed it in part: one sentence gives "volatility" for all six
+Sudan areas, which the table writes A and C. The superseded paragraph stays on the page with its mark.
+
+**What a visitor meets now.** A new panel at the end of III, *The same reason, three forms*: sixteen
+unclassified areas from three analyses in three columns (A, B, C); a switch by the IPC's reason lights where
+each reason lands; for "lack of data", the Dilling and North Gaza sentences stand side by side over their two
+forms. VI carries a correction mark.
+
+**Finding.** The table does not merely lack a field for the reason; it has no grammar for it. "Lack of data"
+is written in all three forms, "volatility" in two, and two forms each hold more than one reason. Nothing
+in a row lets a reader get back to the sentence. What stands of 10-27 is the zero all three forms sum to.
+
+**Limits.** Mozambique's passage is the Field's reading and was not re-read here (marked † on the page);
+its rows were. Ethiopia May 2021 (search excerpt only) and Nampula (A, not named in the passage) are left
+out. Why an analysis takes one form and not another is not known; this page does not say. No source file
+is committed.

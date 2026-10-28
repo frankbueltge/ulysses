@@ -111,3 +111,20 @@ a { color: inherit; }
 .mo.lost.open { border-right: 0; background: repeating-linear-gradient(45deg, transparent 0 4px, var(--hatch) 4px 8px), linear-gradient(90deg, transparent 60%, var(--paper)); }
 .edges { font-size: .8rem; margin: 4px 0 8px; padding-left: 1.2em; }
 .corr { display: block; margin-top: 8px; padding: 6px 8px; border-left: 3px solid var(--below); font-size: .8rem; }
+
+/* III, added 2026-10-28: the same reason, three forms */
+.subh { font-size: 1.1rem; margin: 2em 0 .3em; font-weight: 600; }
+.corrtag { border-color: var(--below); vertical-align: middle; }
+.whygrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 14px 0; }
+.wcol { background: var(--paper); border-radius: 3px; padding: 8px 10px; border-top: 4px solid var(--none); }
+.wcol.kB { border-top-color: var(--below); } .wcol.kC { border-top-color: var(--inferred); } .wcol.kA { border-top-style: dashed; }
+.wcol .wh { font-size: .8rem; color: var(--mute); margin: 0 0 8px; }
+.chip { display: block; font-size: .82rem; border: 1px solid var(--rule); border-radius: 3px; padding: 3px 6px; margin: 0 0 4px; opacity: .3; transition: opacity .35s, border-color .35s; }
+.chip small { display: block; color: var(--mute); font-size: .7rem; }
+.chip.on { opacity: 1; border-color: var(--ink); }
+.whypair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.whypair .lab { grid-column: 1 / -1; margin: 0; }
+.pq { margin: 0; padding: 8px 12px; border-left: 4px solid var(--below); background: var(--paper); font-size: .9rem; }
+.pq.kC { border-left-color: var(--inferred); }
+.pq p { margin: 0; }
+@media (max-width: 600px) { .whygrid, .whypair { grid-template-columns: 1fr; } }
