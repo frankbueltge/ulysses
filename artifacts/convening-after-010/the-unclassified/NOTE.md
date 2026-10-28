@@ -97,3 +97,27 @@ NPR.
 this page and marked as an estimate. That FEWS NET's own record has no entry for those months is inferred
 from "suspended", not checked against its archive. No causal claim joins the three lanes: the unclassified
 areas are attributed by the IPC to conflict and lack of data, not to the cuts.
+
+## Corrected and grown 2026-10-28 — IV, the third depth read in the monitor's own archive
+
+**Correction (§7).** The section of 10-27 placed six dark months, January to June 2025, from a news report,
+and said that FEWS NET's own record had no entry for them by inference, not by check. The Field checked it
+(session 236, `field-research/notes/convening-after-010/dark-months/`, prediction D4) and offered the
+correction. This practice re-read the archive at first hand: every `<loc>` of fews.net's sitemap (30 pages,
+26,712 URLs, read 2026-10-28) and the three pages that date the edges. **The correction holds.** For Sudan
+the analysis stops after the Alert of 31 December 2024 and resumes with the Alert of 5 September 2025: eight
+dark months, not six. FEWS NET's release of 24 June 2025 calls it "a brief pause". The superseded text stays
+above, and the superseded fields stay in `material.json` (`monitor["superseded_2026-10-28"]`).
+
+**What a visitor meets now.** The third card shows Sudan from July 2024 to December 2025 as the archive lists
+its pages, in two rows (analysis, price bulletins), with the dated edges as links, and a correction mark.
+
+**Found in the reading.** The monitor came back, but not whole. Price bulletins (356 dated in 2023, 293 in
+January to October 2024, 36 countries) and remote monitoring reports (written for places without staff on
+the ground; 25 in 2024) have no page dated after October 2024, for Sudan or anywhere, as the sitemap stood on
+2026-10-28. Such a series has one edge: a start with no end, which a record with no field for "ended" cannot
+tell from a delay. The finding of 10-27 becomes: the deeper the cut, the less of it its own record can close.
+
+**Limits.** A page's date is the date it carries. The sitemap is one listing; a product line may continue
+under another name (FEWS NET's global Price Watch continues; whether it covers Sudan was not read). "None
+since" means none in the sitemap as read. No source file is committed; the list's hash is in `material.json`.

@@ -154,7 +154,7 @@
   }
 
 
-  // IV. Three records, three depths: a remainder with a size, a zero, and no row at all.
+  // IV. Three records, three depths: a remainder with a size, a zero, and no row at all (lane 3 corrected 2026-10-28).
   function renderDepths() {
     const D = M.depths, is = state.d === "is";
     radio(document.querySelector("#h-depth").parentNode, "d", state.d);
@@ -162,11 +162,6 @@
     const m = D.money, gap = m.required - m.funded, fp = (100 * m.funded / m.required).toFixed(1);
     const lane = (k, title, rec, bar, can, mood, src) =>
       `<article class="depth d${k}"><p class="dk">${["", "first", "second", "third"][k]} depth</p><h3>${title}</h3><p class="l1">${rec}</p>${bar}<p class="can"><b>What a reader can do with it:</b> ${can}</p><p class="mood">${mood}</p><p class="aq">${src}</p></article>`;
-    const months = "JFMAMJJASOND".split("").map((c, i) => {
-      const dark = i >= 0 && i < 6;
-      if (!dark) return `<span class="mo">${c}</span>`;
-      return is ? `<span class="mo lost">?</span>` : `<span class="mo void"></span>`;
-    }).join("");
     const one = lane(1, "Money asked and not given", m.plan + ", FTS plan " + m.plan_id,
       `<div class="bar"><span class="got" style="width:${fp}%">${bn(m.funded)}</span><span class="gap" style="width:${100 - fp}%">${bn(gap)} not given</span></div>`,
       `subtract. Asked ${bn(m.required)}, given ${bn(m.funded)} (${fp} %). The missing part has a size, a unit and a date.`,
@@ -180,16 +175,32 @@
          : `add up, and get the wrong answer: the six areas sum to ${c.written} in every phase, and the national total falls by ${fmt(c.people)}.`,
       is ? "Restored from the sentence beside the table, not from the table." : "Written as a number, in the wrong mood: a zero reads as measured, and nothing was measured.",
       "Source: the IPC rows and passages of section III.");
-    const mo = D.monitor;
-    const three = lane(3, "The monitor switched off", mo.name + ", the famine early warning system's own publications",
-      `<div class="months${is ? " shown" : ""}">${months}</div><p class="l1">2025, month by month. Where the dark months fall is this page's estimate.</p>`,
-      is ? "count months only roughly. The source says six, in early 2025, and gives no dates, so the six cells are placed by this page and are an estimate."
-         : "nothing. A monitor that is switched off writes no zero and no gap. Its record has no entry for the months it was suspended.",
-      is ? "Restored from outside the record, by a news report of August 2026." : "Not written at all. Of the three absences, only this one leaves nothing a program could find.",
-      `Source: <a href="${mo.source.url}">${mo.source.cite}</a>: “${mo.source.quotes[0]}”`);
+    const mo = D.monitor, A = mo.archive, an = new Set(["alert", "key-message-update", "food-security-outlook", "food-security-outlook-update"]);
+    const ini = { "alert": "A", "key-message-update": "K", "food-security-outlook": "O", "food-security-outlook-update": "U", "price-bulletin": "P" };
+    // Sudan, July 2024 to December 2025: one row for analysis, one for price bulletins, as the archive lists them.
+    const row = (label, pick, darkFrom, darkTo, open) => `<span class="rl">${label}</span>` + A.months.map((k, i) => {
+      const got = A.sudan[k].filter(pick);
+      if (got.length) return `<span class="mo got" title="${k}: ${got.join(", ")}">${got.map((t) => ini[t]).join("")}</span>`;
+      const dark = k >= darkFrom && (open || k <= darkTo);
+      if (!dark || !is) return `<span class="mo void" title="${k}: no entry"></span>`;
+      return `<span class="mo lost${open && i === A.months.length - 1 ? " open" : ""}" title="${k}: dark">?</span>`;
+    }).join("");
+    const head = `<span class="rl"></span>` + A.months.map((k) => `<span class="mh${k.endsWith("-01") ? " yr" : ""}">${"JFMAMJJASOND"[+k.slice(5) - 1]}</span>`).join("");
+    const grid = `<div class="months18${is ? " shown" : ""}">${head}${row("Analysis", (t) => an.has(t), "2025-01", "2025-08", false)}${row("Prices", (t) => t === "price-bulletin", "2024-11", null, true)}</div>` +
+      `<p class="l1">Sudan, July 2024 to December 2025, as FEWS NET's own archive lists its pages. A alert, K key message, O outlook, U outlook update, P price bulletin.</p>` +
+      (is ? `<ol class="edges">${A.edges.map((e) => `<li><b>${e.date}</b> <a href="${e.url}">${e.what}</a>: “${e.quote}”</li>`).join("")}</ol>` : "");
+    const pb = A.lines_not_returned["price-bulletin"], rm = A.lines_not_returned["remote-monitoring-report"];
+    const three = lane(3, "The monitor switched off", mo.name + ", the famine early warning system, read in its own archive",
+      grid,
+      is ? `date the dark by its edges, and only by them. Sudan's analysis stops after the Alert of 31 December 2024 and resumes with the Alert of 5 September 2025: eight dark months, which FEWS NET's release of 24 June 2025 calls “a brief pause”. The price bulletins have one edge only. ${pb.dated_2024} are dated January to October 2024 across all countries, and none since, for Sudan or anywhere; the remote monitoring reports, written for places without staff on the ground, end the same month (${rm.dated_2024} in 2024, none since).`
+         : "nothing inside the dark. The archive has no entry for the months it was silent; it holds only the last page before them and the first after, and a reader has to know to look for the gap between.",
+      is ? "Restored from the monitor's own record, but only at its edges. Where a series never came back there is one edge: a start with no end, which a record without a field for “ended” cannot tell from a delay."
+         : "Not written at all. Of the three absences, only this one leaves nothing a program could find inside it.",
+      `Source: <a href="${A.url}">FEWS NET's sitemap</a>, ${fmt(A.urls)} pages, read 2026-10-28, and the three pages above, read at first hand; after <a href="${A.field.url}">${A.field.cite}</a>. ${A.price_watch_note} ${A.limits}` +
+      `<span class="corr"><b>Corrected 2026-10-28.</b> Until today this card placed six dark months, January to June 2025, from a news report (“${mo.source.quotes[0]}”), and said the archive's silence was inferred, not checked. The Field checked it: for Sudan the dark ran eight months, dated at both ends by FEWS NET itself. This practice re-read the archive and the pages the same day and agrees.</span>`);
     document.getElementById("depths").innerHTML = one + two + three;
     document.getElementById("depthsum").innerHTML = is
-      ? "Read as the absences are, the three records hold one Sudan year: money missing, people unplaced, a monitor dark. But only the first was restored from its own record. The second needed the sentence beside the table, the third a reporter. <b>The deeper the cut, the farther from the record its trace is kept.</b>"
+      ? "Read as the absences are, the three records hold one Sudan year: money missing, people unplaced, a monitor dark. Only the first is restored whole from its own record. The second needs the sentence beside the table. The third is restored from its own archive only at its edges, and the price bulletins have only one edge. <b>The deeper the cut, the less of it its own record can close.</b>"
       : "Read as written, the cut is visible only where it did least to the means of seeing: as money, with a size. Where it reached the count, it reads as zero; where it reached the monitor, it does not read at all.";
   }
 
@@ -209,6 +220,7 @@
     items.push(`<li><a href="${M.cases[0].source}">FEWS NET, Sudan Food Security Outlook, October 2025</a>, for El Fasher's malnutrition figure and inferred mortality.</li>`);
     items.push(`<li><a href="${M.depths.money.source.url}">${M.depths.money.source.cite}</a>, sha256 <code>${M.depths.money.source.sha256.slice(0, 12)}…</code>; section IV.</li>`);
     items.push(`<li><a href="${M.depths.monitor.source.url}">${M.depths.monitor.source.cite}</a>. Quoted: ${M.depths.monitor.source.quotes.map((q) => "“" + q + "”").join(" ")} (${M.depths.monitor.source.quote_note})</li>`);
+    items.push(`<li><a href="${M.depths.monitor.archive.url}">FEWS NET, sitemap</a>, read 2026-10-28, sha256 of the sorted list <code>${M.depths.monitor.archive.sha256_of_sorted_url_list.slice(0, 12)}…</code>; ${M.depths.monitor.archive.edges.map((e) => `<a href="${e.url}">${e.what}</a>`).join("; ")}. Section IV, corrected the same day.</li>`);
     items.push(`<li><a href="${M.depths.voices[0].url}">${M.depths.voices[0].cite}</a>. Quoted: ${M.depths.voices[0].quotes.map((q) => "“" + q + "”").join(" ")}</li>`);
     ul.innerHTML = items.join("");
   }

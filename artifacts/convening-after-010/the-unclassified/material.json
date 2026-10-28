@@ -376,7 +376,7 @@
   ]
  },
  "depths": {
-  "_note": "Section IV (2026-10-27, second session of the day). Three records of Sudan's 2025, each holding an absence the cuts and the war made, read for how the absence is written. Lane 1 from the Studio's dataset (handoff ho-2026-10-27-studio-2), lane 2 from section III of this page, lane 3 from one news report. The readings of mood are this page's.",
+  "_note": "Section IV (2026-10-27, second session of the day). Three records of Sudan's 2025, each holding an absence the cuts and the war made, read for how the absence is written. Lane 1 from the Studio's dataset (handoff ho-2026-10-27-studio-2), lane 2 from section III of this page, lane 3 from one news report. The readings of mood are this page's. Corrected 2026-10-28: lane 3 now reads FEWS NET's own archive (its sitemap), after the Field's correction; the superseded six-month estimate is kept under monitor['superseded_2026-10-28'].",
   "money": {
    "plan": "Sudan Humanitarian Needs and Response Plan 2025",
    "plan_id": 1220,
@@ -395,8 +395,6 @@
   },
   "monitor": {
    "name": "FEWS NET",
-   "dark": "suspended for about six months in early 2025",
-   "dates_given": false,
    "source": {
     "cite": "Durrie Bouscaren, “Whatever happened to the U.S. famine alert system that Trump shut down, then reopened”, NPR, 2026-08-31 (read via the KPBS republication; npr.org returned 503)",
     "url": "https://www.kpbs.org/news/health/2026/08/31/whatever-happened-to-the-u-s-famine-alert-system-that-trump-shut-down-then-reopened",
@@ -405,6 +403,127 @@
      "If they allow FEWS Net to continue reporting, they're basically documenting the damage of their own decisions"
     ],
     "quote_note": "The second sentence is Jeremy Konyndyk (Refugees International), as quoted in the report."
+   },
+   "superseded_2026-10-28": {
+    "dark": "suspended for about six months in early 2025",
+    "dates_given": false,
+    "why": "Corrected 2026-10-28 on the Field's offer (session 236, notes/convening-after-010/dark-months/scores.json, D4): for Sudan the analysis dark ran eight months, not six, and FEWS NET's own record dates both edges. Re-read at first hand by this practice the same day."
+   },
+   "archive": {
+    "what": "FEWS NET's own record of what it published: every <loc> of fews.net/sitemap.xml?page=1..30, read 2026-10-28; Sudan's dated product pages per month, July 2024 to December 2025, and the global count of two product lines.",
+    "url": "https://fews.net/sitemap.xml",
+    "urls": 26712,
+    "sha256_of_sorted_url_list": "ff139d68c2e582f3ffcb7fd25122a8b816fcf9c1cbb8d35243b064d6111ccc0a",
+    "months": [
+     "2024-07",
+     "2024-08",
+     "2024-09",
+     "2024-10",
+     "2024-11",
+     "2024-12",
+     "2025-01",
+     "2025-02",
+     "2025-03",
+     "2025-04",
+     "2025-05",
+     "2025-06",
+     "2025-07",
+     "2025-08",
+     "2025-09",
+     "2025-10",
+     "2025-11",
+     "2025-12"
+    ],
+    "sudan": {
+     "2024-07": [
+      "price-bulletin"
+     ],
+     "2024-08": [
+      "alert",
+      "price-bulletin"
+     ],
+     "2024-09": [
+      "alert",
+      "price-bulletin"
+     ],
+     "2024-10": [
+      "alert",
+      "food-security-outlook",
+      "price-bulletin",
+      "seasonal-calendar"
+     ],
+     "2024-11": [
+      "alert"
+     ],
+     "2024-12": [
+      "alert"
+     ],
+     "2025-01": [],
+     "2025-02": [],
+     "2025-03": [],
+     "2025-04": [],
+     "2025-05": [],
+     "2025-06": [],
+     "2025-07": [],
+     "2025-08": [],
+     "2025-09": [
+      "alert",
+      "key-message-update"
+     ],
+     "2025-10": [
+      "food-security-outlook"
+     ],
+     "2025-11": [
+      "key-message-update"
+     ],
+     "2025-12": [
+      "food-security-outlook-update"
+     ]
+    },
+    "lines_not_returned": {
+     "price-bulletin": {
+      "dated_2023": 356,
+      "dated_2024": 293,
+      "last": "2024-10",
+      "dated_after": 0,
+      "countries_ever": 36
+     },
+     "remote-monitoring-report": {
+      "dated_2023": 32,
+      "dated_2024": 25,
+      "last": "2024-10",
+      "dated_after": 0
+     }
+    },
+    "price_watch_note": "FEWS NET's global Price Watch continues (3 pages dated 2025, 9 dated 2026); whether it covers Sudan's markets was not read.",
+    "edges": [
+     {
+      "date": "2024-12-31",
+      "what": "Sudan Alert, December 2024, the last analysis before the dark",
+      "url": "https://fews.net/east-africa/sudan/alert/december-2024",
+      "sha256": "e5ca246ff06ee7fd…",
+      "quote": "Ongoing Famine may spread further within North Darfur in coming months"
+     },
+     {
+      "date": "2025-06-24",
+      "what": "FEWS NET's release on its relaunch (global)",
+      "url": "https://fews.net/fews-net-relaunches-website-resumes-global-food-security-analysis",
+      "sha256": "7121eedc73715b40…",
+      "quote": "Following a brief pause in services during a review of U.S. foreign assistance programs"
+     },
+     {
+      "date": "2025-09-05",
+      "what": "Sudan Alert, September 2025, the first analysis after the dark",
+      "url": "https://fews.net/east-africa/sudan/alert/september-2025",
+      "sha256": "6d5b23838f4ab788…",
+      "quote": "Famine possibly ongoing in Al-Fasher of North Darfur, amid tightening siege"
+     }
+    ],
+    "field": {
+     "cite": "The Field, session 236, The monitor's own dark months (FEWS NET archive, predictions D1–D4)",
+     "url": "https://github.com/frankbueltge/field-research/tree/main/notes/convening-after-010/dark-months"
+    },
+    "limits": "A page's date is the date it carries, not proof of when it was posted. The sitemap is one listing of the site; a product line may continue under another name or path, which this page did not search for. 'None since' means none in the sitemap as read on 2026-10-28."
    }
   },
   "voices": [
