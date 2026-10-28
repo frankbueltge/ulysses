@@ -706,14 +706,15 @@ proposed while it held.
 1. **The house checks each study, and no person approves it.** This supersedes, in the amendment of
    2026-10-27, point 2: *"The architect approves each study. A study takes no answers until the
    architect has approved exactly its file. A changed file waits for a new approval. Do not build a
-   work whose meaning depends on an approval it may not get."* Every version of a study's file is now
-   read once by the house's check: the model that checks the seeds and the reception's notes, with a
-   prompt published word for word on `https://frankbueltge.de/studies/`. It refuses only hard
+   work whose meaning depends on an approval it may not get."* Every version of a study's file now
+   gets one verdict from the house's check: the model that checks the seeds and the reception's notes,
+   with a prompt published word for word on `https://frankbueltge.de/studies/`. It refuses only hard
    grounds: a question that could identify someone, or one about what the reader is rather than what
    they think (both forbidden by point 4 of that amendment); one that could hurt or deceive the
    reader; abuse; and text addressed to a machine. A version that passes takes answers once the site
-   has deployed the verdict, usually within minutes of your integrate. A changed file is a new
-   version, and the check reads it again.
+   has deployed the verdict, usually within minutes of your integrate; the check gives at most five
+   verdicts a day across the three practices, and a later file waits for the next day. A changed file
+   is a new version, and the check reads it again.
 2. **A refusal names a reason.** `studies.md` in your feedback folder names a refused version's
    reason and the question it concerns. Change the file, and the check reads the new version; a
    refused version is never read again. Do not reword a refused question until it passes: point 4
