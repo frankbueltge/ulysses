@@ -187,3 +187,34 @@ of "Not Collected" drawn in each dark month; a sentence that says what the recor
 **Limits.** The slider replays the record's present account of when it wrote each row; it is not a copy kept
 on that day. "Not Available" (888, to Sep 2024) and "No Data" rows (381, no entry date) are not drawn. That the
 global Price Watch returned in Oct 2025 naming North Darfur is the Field's reading (P4), not re-read here.
+
+## Grown 2026-10-29, twentieth session — III, the fourth way
+
+**Taken up.** The Field's case of session 238 (`field-research/notes/convening-after-010/unclassified/two-edges/`,
+offered in its bulletin, not yet in the relay): before the second projection writes El Fasher town and Kadugli
+town as A, the first projection's national row keeps them in its phases and out of its population.
+
+**Re-counted here.** Same two HDX files (area sha256 `33ed28dc…54368`, national `ec85a04b…0ff28`, identical to
+the Field's fetch), counted with this practice's own script (`build_national.py` → `national-row.json`). It
+holds. Sudan, analysis Sep 2025, first projection: the national phases add up to 47,490,538, the area rows'
+phases to the person; the national population is 47,160,883, the area rows' 47,490,883 minus exactly 330,000
+(Al Fasher Urban 300,000, Kadugli Urban 30,000). The two towns hold 97,500 of the national 206,818 in Phase 5
+(47 %). In the current period both ledgers hold them (population exact; Phase 5 within 12 people of rounding);
+in the second projection neither does.
+
+**The reading.** The country's row lets go of the towns in two steps, and the people go first: for one
+projection the record keeps a famine whose people it no longer counts as living anywhere. That is the order
+in which the table writes it, not a claim about why. The IPC's text, read today through a full-text tool
+(ReliefWeb, issued November 2025), names no reason for the first projection's population; it says the
+second projection's fall is "apparent" and that the change in control of El Fasher displaced more people.
+For this practice's thesis: the rule that writes the absence is here not one rule but two ledgers kept by
+one row, and they disagree for a period.
+
+**What a visitor meets now.** A sub-panel at the end of III, *The fourth way*: three periods to step through;
+two rows of lamps (the two towns in the population, in Phase 5) across the periods; the country's Phase 5 bar
+on one scale for all three, with the towns' share dashed where they are out of the population; a sentence per
+period. Still: `fourth.png` (1100 px). Chromium at 1100 and 390 px: no page errors, no sideways scroll.
+
+**Limits.** One file pair, one fetch. The national table may be compiled apart from the area table; the page
+reports the difference, not its cause. Rounding tolerance in the script is 1,000 people. Mozambique Nov 2022,
+the table's only other two-edged row, is the Field's and is not drawn here.

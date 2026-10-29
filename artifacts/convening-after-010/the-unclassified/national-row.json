@@ -1,0 +1,107 @@
+{
+ "_note": "Built by build_national.py from HDX's IPC tables (CC0). 'national' is the country row as written; 'areas' is the sum of the 215 area rows; 'towns' gives each town's own area row and whether the national row's population and Phase 5 hold it (tested by arithmetic within 1,000 people of rounding: national = areas, or national = areas minus the towns).",
+ "source": {
+  "cite": "HDX, Global: Acute Food Insecurity Country Data (CC0; source National IPC Technical Working Group)",
+  "url": "https://data.humdata.org/dataset/global-acute-food-insecurity-country-data",
+  "sha256": {
+   "area": "33ed28dc5cb274770dc3bd4788620faad63d7d0d31d00fa9ef23606dd4554368",
+   "national": "ec85a04b3704379e3a264680f92e8a70019f8e222900fcae4aca394f6f90ff28"
+  },
+  "fetched": "2026-10-29"
+ },
+ "periods": {
+  "cur": {
+   "label": "current",
+   "national": {
+    "all": 47490883,
+    "phases": 47490886,
+    "p5": 375389
+   },
+   "areas": {
+    "all": 47490883,
+    "1": 11293962,
+    "2": 14955698,
+    "3": 14522920,
+    "4": 6342573,
+    "5": 375377
+   },
+   "towns": {
+    "El Fasher town": {
+     "all": 300000,
+     "p5": 90000
+    },
+    "Kadugli town": {
+     "all": 30000,
+     "p5": 6000
+    }
+   },
+   "towns_in_population": true,
+   "towns_left_out_of_population": false,
+   "towns_in_phase5": true,
+   "towns_p5": 96000,
+   "gap": 3
+  },
+  "p1": {
+   "label": "first projection",
+   "national": {
+    "all": 47160883,
+    "phases": 47490538,
+    "p5": 206818
+   },
+   "areas": {
+    "all": 47490883,
+    "1": 12007978,
+    "2": 16276285,
+    "3": 14188504,
+    "4": 4810953,
+    "5": 206818
+   },
+   "towns": {
+    "El Fasher town": {
+     "all": 300000,
+     "p5": 90000
+    },
+    "Kadugli town": {
+     "all": 30000,
+     "p5": 7500
+    }
+   },
+   "towns_in_population": false,
+   "towns_left_out_of_population": true,
+   "towns_in_phase5": true,
+   "towns_p5": 97500,
+   "gap": 329655
+  },
+  "p2": {
+   "label": "second projection",
+   "national": {
+    "all": 46649479,
+    "phases": 46649130,
+    "p5": 145656
+   },
+   "areas": {
+    "all": 47099704,
+    "1": 11688168,
+    "2": 15861862,
+    "3": 14018934,
+    "4": 4934510,
+    "5": 145656
+   },
+   "towns": {
+    "El Fasher town": {
+     "all": 0,
+     "p5": null
+    },
+    "Kadugli town": {
+     "all": 0,
+     "p5": null
+    }
+   },
+   "towns_in_population": false,
+   "towns_left_out_of_population": false,
+   "towns_in_phase5": false,
+   "towns_p5": 0,
+   "gap": -349
+  }
+ }
+}

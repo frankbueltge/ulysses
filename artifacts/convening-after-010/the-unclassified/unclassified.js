@@ -7,7 +7,7 @@
     ["inferred", "not measured, inferred"],
     ["none", "no data"],
   ];
-  const state = { g: "fs", o: { food: "above", gam: "above", cdr: "inferred" }, r: "closed", p: "cur", e: "table", d: "written", why: "lack of data" };
+  const state = { np: "p1", g: "fs", o: { food: "above", gam: "above", cdr: "inferred" }, r: "closed", p: "cur", e: "table", d: "written", why: "lack of data" };
   let M = null;
 
   const fmt = (n) => n.toLocaleString("en-GB");
@@ -154,6 +154,33 @@
   }
 
 
+  // III, added 2026-10-29 (the Field's case of session 238): the two towns in the country's own row, period by period.
+  function renderNat() {
+    const N = M.national.periods, np = state.np, order = ["cur", "p1", "p2"];
+    radio(document.getElementById("h-fourth").parentNode, "np", np);
+    const ledgers = [["in the population", (q) => q.towns_in_population], ["in Phase 5", (q) => q.towns_in_phase5]];
+    document.getElementById("natpath").innerHTML =
+      `<div class="nphead"><span></span>${order.map((k) => `<span class="${k === np ? "sel" : ""}">${N[k].label}</span>`).join("")}</div>` +
+      ledgers.map(([lab, f]) => `<div class="nprow"><span class="nplab">The two towns ${lab}</span>${order.map((k) =>
+        `<span class="lamp ${f(N[k]) ? "on" : "off"}${k === np ? " sel" : ""}">${f(N[k]) ? "counted" : "not counted"}</span>`).join("")}</div>`).join("");
+    const q = N[np], max = N.cur.national.p5, x0 = 150, W = 820, sx = (v) => (v / max) * W;
+    const own = q.national.p5 - q.towns_p5;
+    let s = `<text x="0" y="44" font-size="15">Phase 5,</text><text x="0" y="62" font-size="15">the country</text>`;
+    s += `<rect x="${x0}" y="24" width="${sx(own)}" height="40" fill="var(--above)"/>`;
+    if (q.towns_p5) s += `<rect x="${x0 + sx(own)}" y="24" width="${sx(q.towns_p5)}" height="40" fill="${q.towns_in_population ? "var(--above)" : "none"}" stroke="var(--above)" stroke-dasharray="${q.towns_in_population ? "0" : "5 3"}" opacity="${q.towns_in_population ? 0.55 : 1}"/>`;
+    s += `<text x="${x0}" y="88" font-size="14">${fmt(q.national.p5)}</text>`;
+    if (q.towns_p5) s += `<text x="${x0 + sx(own) + 4}" y="88" font-size="14" class="mute">${fmt(q.towns_p5)} in the two towns${q.towns_in_population ? "" : ", in no population"}</text>`;
+    s += `<text x="0" y="132" font-size="12" class="mute">One scale for all three periods. Dashed: counted in Phase 5, left out of the country's population.</text>`;
+    document.getElementById("natbar").innerHTML = s;
+    const pct = (a, b) => Math.round((100 * a) / b);
+    document.getElementById("natsum").innerHTML = np === "cur"
+      ? `Both ledgers hold the towns. The country's row counts <b>${fmt(q.national.all)}</b> people, and its phases add up to the same within rounding. Of the <b>${fmt(q.national.p5)}</b> in Phase 5, ${fmt(q.towns_p5)} live in the two towns, and they live, by this row, in Sudan.`
+      : np === "p1"
+      ? `The famine is projected to go on, and the row keeps it: its phases add up to <b>${fmt(q.national.phases)}</b>, the two towns included. Its population is <b>${fmt(q.national.all)}</b>, the area table's minus exactly ${fmt(q.towns["El Fasher town"].all + q.towns["Kadugli town"].all)}, the two towns' people. So <b>${fmt(q.towns_p5)}</b> of the ${fmt(q.national.p5)} people in Phase 5, ${pct(q.towns_p5, q.national.p5)} percent, are in Phase 5 in a place where, by the same row, nobody lives.`
+      : `Now the famine goes too. Both towns are written with no people and no phase (form A above), and Phase 5 falls to <b>${fmt(q.national.p5)}</b>. Read in order, the country's row let go of the towns' people one period before it let go of their famine. For one projection the record held the two towns' famine with no one living in it.`;
+  }
+
+
   // III, added 2026-10-28 (the Field's correction): the reason the IPC gives against the form the table gives.
   function renderWhy() {
     const W = M.encodings.elsewhere, K = M.encodings.kinds, why = state.why;
@@ -296,8 +323,9 @@
     ul.innerHTML = items.join("");
   }
 
-  Promise.all([fetch("material.json").then((r) => r.json()), fetch("price-clock.json").then((r) => r.json())]).then(([m, pc]) => {
+  Promise.all([fetch("material.json").then((r) => r.json()), fetch("price-clock.json").then((r) => r.json()), fetch("national-row.json").then((r) => r.json())]).then(([m, pc, nr]) => {
     M = m;
+    M.national = nr;
     const days = [];
     for (let t = Date.parse("2024-09-01"); t <= Date.parse(pc.fetched); t += 864e5) days.push(new Date(t).toISOString().slice(0, 10));
     M.clock = { data: pc, days };
@@ -312,6 +340,7 @@
     document.querySelectorAll("button[data-r]").forEach((b) => (b.onclick = () => { state.r = b.dataset.r; renderCount(); }));
     document.querySelectorAll("button[data-p]").forEach((b) => (b.onclick = () => { state.p = b.dataset.p; renderEnc(); }));
     document.querySelectorAll("button[data-e]").forEach((b) => (b.onclick = () => { state.e = b.dataset.e; if (state.e === "rule") state.p = "p2"; renderEnc(); }));
+    document.querySelectorAll("button[data-np]").forEach((b) => (b.onclick = () => { state.np = b.dataset.np; renderNat(); }));
     document.querySelectorAll("button[data-why]").forEach((b) => (b.onclick = () => { state.why = b.dataset.why; renderWhy(); }));
     document.querySelectorAll("button[data-d]").forEach((b) => (b.onclick = () => { state.d = b.dataset.d; renderDepths(); }));
     const cb = document.getElementById("casebtns");
@@ -322,7 +351,7 @@
       cb.appendChild(b);
     });
     document.getElementById("countquote").textContent = "“" + M.count.quote + "” — the analysis itself.";
-    renderRule(); renderCount(); renderEnc(); renderWhy(); renderDepths(); renderClock(); renderDoors(); renderSources();
+    renderRule(); renderCount(); renderEnc(); renderWhy(); renderNat(); renderDepths(); renderClock(); renderDoors(); renderSources();
     loadCase(M.cases[0]);
   });
 })();

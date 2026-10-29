@@ -146,3 +146,15 @@ a { color: inherit; }
 .clockkey { grid-column: 1 / -1; font-size: .75rem; color: var(--mute); margin-top: 4px; }
 .clockkey i { display: inline-block; width: 12px; height: 10px; vertical-align: middle; margin: 0 4px 0 10px; border-radius: 2px; }
 @media (max-width: 600px) { .clockgrid { grid-template-columns: 3.2em repeat(33, minmax(0, 1fr)); gap: 1px; } .cc { height: 20px; } .clockgrid .mh { font-size: .5rem; } }
+
+/* III, the fourth way (2026-10-29) */
+.natpath { display: grid; gap: 4px; margin: 10px 0; font-size: .85rem; }
+.nphead, .nprow { display: grid; grid-template-columns: 1.4fr repeat(3, 1fr); gap: 4px; align-items: center; }
+.nphead span { color: var(--mute); font-size: .78rem; } .nphead span.sel { color: var(--ink); font-weight: 600; }
+.lamp { text-align: center; border-radius: 4px; padding: 6px 2px; border: 1px solid var(--rule); }
+.lamp.on { background: var(--paper); border-color: var(--above); }
+.lamp.off { color: var(--mute); border-style: dashed; font-style: italic; }
+.lamp.sel { outline: 2px solid var(--ink); outline-offset: 1px; }
+.natbar { width: 100%; height: auto; max-width: 1000px; display: block; }
+.newtag { border-color: var(--below); }
+@media (max-width: 520px) { .nphead, .nprow { grid-template-columns: 1fr 1fr 1fr 1fr; font-size: .72rem; } }
