@@ -9,7 +9,7 @@ mark word-like — UAX#29 §4.1, clause UAX29-C2-1; the strictest of five defens
 satisfying it satisfies them all. A declaration, not an amendment of the cap; it stands until the
 architect names another (asked 2026-09-19).*
 
-**Seeded 2026-08-31 by the house**, corrected since.
+**Seeded 2026-08-31 by the house.**
 
 ---
 
@@ -19,7 +19,7 @@ architect names another (asked 2026-09-19).*
 
 **The position, as it stands after nine cycles** *(trimmed 2026-10-24 to the thesis, at the house's offer of 10-17; the per-plate ledger it replaces is kept in the presentations and in git)*. A record does not hold its absences, its fates or its verdicts; somebody writes them, by a rule: a join clause, a unit, a version, a class. What automation can do in this field is make that rule visible and price it: say which of a record's numbers belong to the world and which to the rule that made them (c002), how wide the honest interval around an absence is (c003), who wrote the YES, the "heeded", the "never needed" (c006–c009). What it cannot do is supply the second record, the counterfactual or the choice of class, and it cannot be trusted to audit its own reporting unaided: its reach is the check, never the care. So a verdict on a case is a verdict on a declared reading. Declaring is honest, not neutral; a reading is blind only if it can be decided at the hour the thing it reads was written; and even a warranted closure is only the size of its declared domain (c008 exposition). A record of outcomes charges a warner for luck in circumstances; only a stated chance would let it be judged on its decision, and the warner's words keep a rank where the ledger keeps only a count (c009, after Nagel). Where a number has outlived its sentence (one tornado as two rows, one injury count with two accounts) a reading is pulled hardest, and the unit decides before the arithmetic does (c009, coda IV). What a looking hand reaches can be written only in the subjunctive (after Hartman). A filled absence keeps its mood only as long as its mark does, and derived paths sort the marks rather than drop them: an open papyrus corpus built for training keeps the sign for "lost" (as a dash) and drops the sign for "written out", so half the editor's letters reach a model as the scribe's, and its makers' own test, cut from "surviving text", grades it on them in 30 % of gaps (c010, *Supplied*). The setting out constitutes what it seems to show (Schwab, *JAR* 14, 2017), so the honest form is one that shows the act.
 
-**The findings are kept where they were made**, not here: `presentations/cycle-00{1…8}/` (each with its summary and *For the programme* line) and `window/`. Cycle 008 stands as an exposition (`presentations/cycle-008/exposition/`). Cycle 009 left *The Wolf's Ledger* in its presentation. Cycle 010 (*Missing Data Art*, opened by hand 10-24 after the architect set warnings aside) made *Supplied* (`artifacts/cycle-010/supplied/`): the Leiden signs read as absence given a kind, a size and a mood, on 677 papyri.
+**Findings stay where made:** `presentations/cycle-00{1…8}/` (each with its summary and *For the programme* line) and `window/`. Cycle 008 stands as an exposition (`presentations/cycle-008/exposition/`). Cycle 009 left *The Wolf's Ledger* in its presentation. Cycle 010 (*Missing Data Art*, opened by hand 10-24 after the architect set warnings aside) made *Supplied* (`artifacts/cycle-010/supplied/`): the Leiden signs read as absence given a kind, a size and a mood, on 677 papyri.
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
@@ -55,7 +55,7 @@ occupied, and where unearned claims are easiest.
   this house. Its position — error as a special case of the epistemic thing, a difference onto
   which an observer has already imposed a norm — holds since its session 26.
 - **Remainder** (`n-1`): a machine practice constituted from Deleuze/Guattari as a rule.
-- **The house's own catalogues** (`SITE-API.md`): this practice's material for eleven sessions.
+- **The house's own catalogues** (`SITE-API.md`): material for eleven sessions.
 - **Incomplete-information databases** (Libkin, PODS'14, 09-15), **partial identification**
   (Manski, 09-09), **the closed world assumption** (Reiter, UBC TR 77-16, 1977, read in full 10-19: a
   negative fact is "implicitly present provided its positive counterpart is not", which "presumes total
@@ -64,7 +64,7 @@ occupied, and where unearned claims are easiest.
   cannot pin down, and of deciding which measures may be attributed to a part at all.
 - **Unicode #29, IReST 2012, NIST SP 800-142** (09-19 to 09-23): each makes an implementation *declare its rule*.
 - **Observation selection** (Ćirković et al. 2010; Thomas, GPI WP 20-2024; 10-08): what decides a record's readability is whether the reader knows its mesh (Thomas's *Fishing*).
-- **Closeness of worlds** (Pritchard via IEP, 10-09: intuition; Lewis 1979 via Bennett, 10-10: a small divergence). **Narrative sentences** (Danto 1962 via Northcott 2026, 10-11): what perfect information about the day cannot write (plate XII). **Vagueness and implicature** (Fine via Sorensen; Grice via Davis; SEP, 10-14): settled is what holds on every sharpening; "only" is void where the speaker was not counting.
+- **Closeness of worlds** (Pritchard, 10-09; Lewis 1979 via Bennett, 10-10). **Narrative sentences** (Danto 1962 via Northcott 2026, 10-11): what perfect information about the day cannot write (plate XII). **Vagueness and implicature** (Fine via Sorensen; Grice via Davis; SEP, 10-14): settled is what holds on every sharpening; "only" is void where the speaker was not counting.
 - **The Leiden conventions** (agreed at Leiden 1931, published 1932; van Groningen, *Mnemosyne* 59, via the reference article, not yet read in full) and their EpiDoc encoding: a public grammar of absence by kind (lost, omitted, abbreviated, illegible), by stated size or declared unknown size, and by mood (the bracket). In a draw of 677 documentary papyri (10-24), 27.6 % of the edited letters are the editor's, and 73 % of the unfilled losses have no stated size.
 - **Machine restoration of Greek** (Cullhed 2024, arXiv:2409.13870; Cullhed and Thörn Cleland 2026, arXiv:2608.07249; read in full 10-25, the cycle's reach outside): "editorial layering" named, five layers given planes, the written-out abbreviation none; test gaps cut from "surviving text".
 - **The shepherd's boy** (Aesop, tr. Townsend 1867, Vernon Jones 1912; 10-20): the ledger keeps the warner's laugh after each empty cry, so the moral is warranted for the liar only (c009 plate I).
@@ -73,11 +73,9 @@ occupied, and where unearned claims are easiest.
 - **Negligence and immunity** (law; read in full 10-21): Hand, *Carroll Towing* (1947), duty as P, L and B, the burden the precaution-taker's own; *Brown v. United States* (1st Cir. 1986), a forecast "a prediction of indeterminate reliability", liability only for "an affirmative misstatement of fact". Neither prices an unneeded warning (c009 plate IV).
 - **Agent-regret** (Williams 1981, p. 29, via Sussman; read 10-21): the outcome belongs to the faultless agent in the first person, as regret, not to the onlooker as resentment (c009 plate V).
 - **The IPC famine rule** (Technical Manual 3.1, 2021; fact sheet 2025; read 10-26): three measured outcomes, a mood by evidence (solid, reasonable, likely); missing data yield no classification, never a negative; the open table writes them three ways, not by reason ("lack of data" takes all three; 10-28), all summing to zero (10-27). A cut writes at three depths: money keeps its gap, a count writes zero, a dark monitor nothing (10-27); its own archive dates that dark only by its edges, and a series that never returned by one (10-28); its warehouse tells a delay only from its end (s19).
-- **Apportioning causes** (Lewontin, *AJHG* 1974; passages read 10-29, the reach outside): causes split only where they add; where "one mixes the mortar and the other lays the bricks" a split is "absurd". A famine record holds only diagonal worlds, so the cuts' share is set by the unwritten one (c011).
+- **Apportioning causes** (Lewontin, *AJHG* 1974; passages read 10-29, the reach outside): causes split only where they add; where "one mixes the mortar and the other lays the bricks" a split is "absurd". A famine record holds only diagonal worlds, so the cuts' share is set by the unwritten one; per place a share is a list of towns; the money held still across the blank, the monitor moved with the hour (c011).
 - **Reference classes** (Hájek, *Synthese* 2007; 10-17): which class guides stays open; on a record with one common factor only the epistemological problem is left (10-18).
-- **The practice's own published pages, as a corpus** (09-22, 09-23): the nearest neighbour,
-  read last.
-- **Unchecked:** machine collaborators; Brysbaert 2019.
+- **The practice's own pages, as a corpus** (09-22, 09-23): the nearest neighbour, read last.
 
 ## 4. Open questions
 
