@@ -1,0 +1,122 @@
+{
+ "what": "Probes of the window rule, Only a Return, second session 2026-11-01. Fetched 2026-11-01. Raw files not committed.",
+ "series_shown": 7089071,
+ "probes": [
+  {
+   "query": "https://fdw.fews.net/api/marketpricefacts/?format=json&country_code=MG&start_date=2024-01-01&end_date=2025-11-30",
+   "sha256": "e26b7d68799016301205dd2eb44fad8b7f9109c5ab22fb95c20184e5480680c6",
+   "rows": 540,
+   "no_data_rows": 90,
+   "series_7089071": {
+    "2024-01": "Aggregated",
+    "2024-02": "Aggregated",
+    "2024-03": "Aggregated",
+    "2024-04": "Aggregated",
+    "2024-05": "Aggregated",
+    "2024-06": "Aggregated",
+    "2024-07": "Aggregated",
+    "2024-08": "Aggregated",
+    "2024-09": "Aggregated",
+    "2024-10": "No Data",
+    "2024-11": "No Data",
+    "2024-12": "Aggregated"
+   }
+  },
+  {
+   "query": "https://fdw.fews.net/api/marketpricefacts/?format=json&country_code=MG&start_date=2024-01-01&end_date=2025-12-31",
+   "sha256": "4f427ebbb3f3cf479b67ed4515d555ff9308827a19265cd41cea10945c27f14a",
+   "rows": 1089,
+   "no_data_rows": 585,
+   "series_7089071": {
+    "2024-01": "Aggregated",
+    "2024-02": "Aggregated",
+    "2024-03": "Aggregated",
+    "2024-04": "Aggregated",
+    "2024-05": "Aggregated",
+    "2024-06": "Aggregated",
+    "2024-07": "Aggregated",
+    "2024-08": "Aggregated",
+    "2024-09": "Aggregated",
+    "2024-10": "No Data",
+    "2024-11": "No Data",
+    "2024-12": "Aggregated",
+    "2025-01": "No Data",
+    "2025-02": "No Data",
+    "2025-03": "No Data",
+    "2025-04": "No Data",
+    "2025-05": "No Data",
+    "2025-06": "No Data",
+    "2025-07": "No Data",
+    "2025-08": "No Data",
+    "2025-09": "No Data",
+    "2025-10": "No Data",
+    "2025-11": "No Data",
+    "2025-12": "Aggregated"
+   }
+  },
+  {
+   "query": "https://fdw.fews.net/api/marketpricefacts/?format=json&country_code=MG&start_date=2024-10-01&end_date=2026-10-31",
+   "sha256": "c30b267e69be6682a5a3b3b65720669393f1bfc7b636cc8869717a129b56b128",
+   "rows": 1089,
+   "no_data_rows": 495,
+   "series_7089071": {
+    "2024-12": "Aggregated",
+    "2025-01": "No Data",
+    "2025-02": "No Data",
+    "2025-03": "No Data",
+    "2025-04": "No Data",
+    "2025-05": "No Data",
+    "2025-06": "No Data",
+    "2025-07": "No Data",
+    "2025-08": "No Data",
+    "2025-09": "No Data",
+    "2025-10": "No Data",
+    "2025-11": "No Data",
+    "2025-12": "Aggregated",
+    "2026-01": "Aggregated",
+    "2026-02": "Aggregated",
+    "2026-03": "Aggregated",
+    "2026-04": "Aggregated",
+    "2026-05": "Aggregated",
+    "2026-06": "Aggregated",
+    "2026-07": "Aggregated",
+    "2026-08": "Aggregated",
+    "2026-09": "Aggregated"
+   }
+  },
+  {
+   "query": "https://fdw.fews.net/api/marketpricefacts/?format=json&country_code=MG&start_date=2024-11-01&end_date=2026-10-31",
+   "sha256": "c30b267e69be6682a5a3b3b65720669393f1bfc7b636cc8869717a129b56b128",
+   "rows": 1089,
+   "no_data_rows": 495,
+   "series_7089071": {
+    "2024-12": "Aggregated",
+    "2025-01": "No Data",
+    "2025-02": "No Data",
+    "2025-03": "No Data",
+    "2025-04": "No Data",
+    "2025-05": "No Data",
+    "2025-06": "No Data",
+    "2025-07": "No Data",
+    "2025-08": "No Data",
+    "2025-09": "No Data",
+    "2025-10": "No Data",
+    "2025-11": "No Data",
+    "2025-12": "Aggregated",
+    "2026-01": "Aggregated",
+    "2026-02": "Aggregated",
+    "2026-03": "Aggregated",
+    "2026-04": "Aggregated",
+    "2026-05": "Aggregated",
+    "2026-06": "Aggregated",
+    "2026-07": "Aggregated",
+    "2026-08": "Aggregated",
+    "2026-09": "Aggregated"
+   }
+  }
+ ],
+ "field_w6": {
+  "source": "https://github.com/frankbueltge/field-research/blob/main/artifacts/2026-11-01-the-written-day/results48.json",
+  "finding": "MG queries ending 2026-10-31 and 2027-06-30 returned identical bytes (sha256 fccb9858...), 585 No Data rows, none after 2026-10."
+ }
+}

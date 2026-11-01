@@ -9,7 +9,9 @@ Kinds of row kept:
   price    a row with a value and status "Collected" (it has an id and a submission)
   absence  a row with no value and status "Not Collected", "Not Available" or
            "Missing Historic Data" (it has an id, a submission and a `created` day)
-  nodata   a row with status "No Data" (no id, no submission, no `created` day)
+  nodata   a row with status "No Data" (no id, no submission, no `created` day). Since the second
+           session of 2026-11-01 each is placed by its edges: the written rows of its own series
+           before and after it, and drawn at the day the later one (the far edge) was written.
 Rows with status "Aggregated" are derived from other series and are left out.
 
 Usage: python3 -I build.py <dir with CC.json files>   (writes data.json beside this file)
@@ -56,7 +58,15 @@ for fn in sorted(os.listdir(SRC)):
             assert r["id"] is not None and r["created"]
             price_days[r["source_organization"]][day(r["created"])] += 1
             sub_has_price[r["datacollection"]] = True
-    groups = collections.Counter()   # (source, kind, month, written day or -1) -> n
+    # The edges of each No Data row (second session, 2026-11-01): the written rows of its own
+    # series before and after it. "Written" = any row with a `created` day, Aggregated included.
+    written = collections.defaultdict(list)    # dataseries -> [(period month, created day)]
+    for r in rows:
+        if r["status"] != "No Data" and r["created"]:
+            written[r["dataseries"]].append((month(r["period_date"]), day(r["created"])))
+    for v in written.values():
+        v.sort()
+    groups = collections.Counter()   # (source, kind, month, written day or -1[, far-edge month]) -> n
     for r in rows:
         st, s = r["status"], r["source_organization"]
         if st == "Aggregated":
@@ -83,13 +93,24 @@ for fn in sorted(os.listdir(SRC)):
         elif st == "No Data":
             assert r["id"] is None and r["created"] is None and r["datacollection"] is None
             assert r["value"] is None
-            groups[(si[s], "nodata", month(r["period_date"]), -1)] += 1
+            m, w = month(r["period_date"]), written[r["dataseries"]]
+            before = [e for e in w if e[0] < m]
+            after = [e for e in w if e[0] > m]
+            if before and after:
+                T["nodata_between_two_written_rows"] += 1
+                far = after[0]                    # the next written row: the gap's far edge
+                groups[(si[s], "nodata", m, far[1], far[0])] += 1
+                T["nodata_months_to_far_edge_sum"] += far[0] - m
+            else:
+                T["nodata_leading" if after else ("nodata_trailing" if before else "nodata_alone")] += 1
+                groups[(si[s], "nodata", m, -1, -1)] += 1
             T["nodata"] += 1
         else:
             T["other:" + st] += 1
     pdays = {si[s]: sorted(c.items()) for s, c in price_days.items()}
     countries.append({"cc": cc, "name": NAMES.get(cc, cc), "sources": sources,
-                      "groups": [[s, k, m, w, n] for (s, k, m, w), n in sorted(groups.items())],
+                      "groups": [[g[0], g[1], g[2], g[3], n] + list(g[4:])
+                                 for g, n in sorted(groups.items())],
                       "price_days": pdays})
 
 # the alone rows, folded
@@ -99,10 +120,12 @@ T["absence_alone"] = len(alone)
 assert files["SD"]["rows"] == 10039 and files["SD"]["sha256"].startswith("472b7805")
 sd = next(c for c in countries if c["cc"] == "SD")
 famis = sd["sources"].index("FAMIS, Sudan")
-nc_feb = sum(n for s, k, m, w, n in sd["groups"]
-             if s == famis and k == "absence" and w == day("2026-02-03"))
+nc_feb = sum(g[4] for g in sd["groups"]
+             if g[0] == famis and g[1] == "absence" and g[3] == day("2026-02-03"))
 assert nc_feb == 3472, nc_feb          # the Studio's count (etudes/the-remainder, movement VII)
 assert T["absence_same_day_as_price"] + T["absence_alone"] == T["absence"]
+# second session: every No Data row lies between two written rows of its own series
+assert T["nodata_between_two_written_rows"] == T["nodata"], dict(T)
 
 out = {"built": dt.date.today().isoformat(), "t0": T0.isoformat(),
        "source": "https://fdw.fews.net/api/marketpricefacts/", "files": files,

@@ -22,3 +22,11 @@ of *Not Collected*, all written on 3 Feb 2026, re-counted at first hand and asse
 
 **Reproduce.** Fetch the 19 country files named in `build.py` into a folder, then run
 `python3 -I build.py <folder>`. The checksums of the files used are in `data.json`.
+
+**Corrected, 2026-11-01, second session.** The morning's reading that *No Data* rows are generated at
+the hour of the query failed the Field's test (check 48, W6), and it stands struck on the page. The
+re-check found the rule. All 30,804 *No Data* rows lie between two written rows of their own series.
+A query holds a blank only if its window holds the written rows on both sides of it (`probes.json`:
+Madagascar, four queries). So the marks now hang from the day the series next wrote, the line at the
+reader's hour is gone, and a slider sets the month the query ends. No one writes a silence that never
+ended, and the schedule does not write it either.
