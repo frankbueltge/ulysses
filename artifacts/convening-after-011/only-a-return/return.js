@@ -1,7 +1,7 @@
 // Only a Return — the plane of writing days, and the ledger of fifteen warehouses.
 (function () {
   "use strict";
-  var D, C = null, srcOn = {}, showPrices = true, take = false, hits = [], E = 33;  // E: the month the query ends
+  var D, C = null, srcOn = {}, showPrices = true, take = false, hits = [], E = 33, R = 1035;  // E: the month the query ends; R: the day it is read
   var cv = document.getElementById("plane"), ctx = cv.getContext("2d");
   var tip = document.getElementById("tip"), readout = document.getElementById("readout");
   var MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
@@ -25,14 +25,22 @@
   // In a query that ends with month E, a dated row exists if its month is in the window; a No Data
   // row exists only if its gap's far edge (the next written row of its series) is in the window too.
   function inWindow(g) { return g[1] === "nodata" ? (g[5] >= 0 && g[5] <= E) : g[2] <= E; }
+  // Read on day R: a row exists only once it was written (its `created` day; for No Data, the day
+  // its far edge was written). Rebuilt from `created`, not from a snapshot of the warehouse.
+  function written(g) { return g[3] <= R; }
+  function visible(g) { return inWindow(g) && written(g); }
+  function monthOf(d) { var x = new Date(t0 + d * 864e5); return (x.getUTCFullYear() - 2024) * 12 + x.getUTCMonth(); }
   function stats(c, all) {
-    var a = 0, same = 0, near1 = 0, nod = 0, pr = 0, lost = 0;
+    var a = 0, same = 0, near1 = 0, nod = 0, pr = 0, lost = 0, notyet = 0;
     c.groups.forEach(function (g) {
-      if (!all && !inWindow(g)) { if (g[1] === "nodata" && g[2] <= E) lost += g[4]; return; }
+      if (!all && !visible(g)) {
+        if (g[1] === "nodata" && g[2] <= E && g[2] <= monthOf(R)) { if (g[5] > E) lost += g[4]; else notyet += g[4]; }
+        return;
+      }
       if (g[1] === "absence") { a += g[4]; var p = priceDay(c, g[0], g[3]); if (p) same += g[4]; else if (nearPrice(c, g[0], g[3]) <= 1) near1 += g[4]; }
       else if (g[1] === "nodata") nod += g[4]; else pr += g[4];
     });
-    return { a: a, same: same, near1: near1, alone: a - same - near1, nod: nod, pr: pr, lost: lost };
+    return { a: a, same: same, near1: near1, alone: a - same - near1, nod: nod, pr: pr, lost: lost, notyet: notyet };
   }
 
   function layout() {
@@ -77,13 +85,21 @@
       ctx.fillStyle = css("--nodata"); ctx.textAlign = xe > L.l + W - 160 ? "right" : "left";
       ctx.fillText("the query ends: " + mLabel(E), xe + (ctx.textAlign === "right" ? -4 : 4), L.t - 10);
     }
+    // the day it is read: above the line, nothing has been written yet
+    if (R < TOP) {
+      var yr = Y(R + 0.5);
+      ctx.fillStyle = css("--unread"); ctx.fillRect(L.l, L.t, W, yr - L.t);
+      ctx.strokeStyle = css("--readl"); ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(L.l, yr); ctx.lineTo(L.l + W, yr); ctx.stroke(); ctx.lineWidth = 1;
+      ctx.fillStyle = css("--readl"); ctx.textAlign = "left"; ctx.fillText("read on " + dLabel(R), L.l + 4, Math.max(L.t + 12, yr - 6));
+      var xr = X(monthOf(R)); ctx.setLineDash([2, 3]); ctx.beginPath(); ctx.moveTo(xr, yr); ctx.lineTo(xr, L.t + H); ctx.stroke(); ctx.setLineDash([]);
+    }
     hits = [];
     var col = { price: css("--price"), absence: css("--absence"), nodata: css("--nodata") };
     var order = ["nodata", "price", "absence"];
     order.forEach(function (kind) {
       if (kind === "price" && !showPrices) return;
       C.groups.forEach(function (g) {
-        if (g[1] !== kind || !srcOn[g[0]] || !inWindow(g)) return;
+        if (g[1] !== kind || !srcOn[g[0]] || !visible(g)) return;
         var withP = kind === "absence" && priceDay(C, g[0], g[3]) > 0;
         if (take && kind === "absence" && (withP || nearPrice(C, g[0], g[3]) <= 1)) return;
         var x = X(g[2]), y = Y(g[3] + 0.5);
@@ -108,8 +124,26 @@
     if (s.near1) t += ", and " + fmtN(s.near1) + " one day from such a day";
     t += ". " + fmtN(s.nod) + " rows say No Data and carry no day; each is drawn at the day the next row of its series was written.";
     if (s.lost) t += " Because the query ends in " + mLabel(E) + ", " + fmtN(s.lost) + " No Data rows for months inside it do not exist: their series writes again only later.";
+    if (s.notyet) t += " Read on " + dLabel(R) + ", " + fmtN(s.notyet) + " No Data rows for months already past did not exist yet: their series had not written again.";
     if (take) t += s.alone ? " With the absences written beside prices taken away, " + fmtN(s.alone) + " are left, circled: these were written apart." : " With the absences written beside prices taken away, none is left. Every absence here was written by someone who came back with prices.";
     readout.textContent = t;
+    silence();
+  }
+
+  // How long had the record been silent on the day it is read? The last written row on or before R
+  // (any kind the page holds; a No Data row's day is the day its far edge was written).
+  function silence() {
+    var el = document.getElementById("silence"), last = -1;
+    C.groups.forEach(function (g) { if (srcOn[g[0]] && g[3] <= R && g[3] > last) last = g[3]; });
+    if (!C.groups.length) { el.textContent = ""; return; }
+    if (last < 0) { el.textContent = "Read on " + dLabel(R) + ", the page holds no row of this warehouse written yet."; return; }
+    var gap = R - last, blanks = 0;
+    if (gap < 45) { el.textContent = "Read on " + dLabel(R) + ": the last row was written " + (gap === 0 ? "that day" : gap + (gap === 1 ? " day" : " days") + " before") + ". Nothing here is silent yet."; return; }
+    C.groups.forEach(function (g) { if (srcOn[g[0]] && g[1] === "nodata" && g[3] > R && g[2] <= monthOf(R)) blanks += g[4]; });
+    var t = "Read on " + dLabel(R) + ": nothing written for " + fmtN(gap) + " days, since " + dLabel(last) + ". The record shows no blank for that silence.";
+    if (blanks) t += " Later, " + fmtN(blanks) + " blanks for months before this day will be written into it, each dated by a return.";
+    else t += " No later row ever writes a blank for it.";
+    el.textContent = t;
   }
 
   function hover(ev) {
@@ -179,5 +213,9 @@
     var sl = document.getElementById("t-end"), so = document.getElementById("t-end-out");
     var setE = function () { E = +sl.value; so.textContent = mLabel(E); draw(); };
     sl.addEventListener("input", setE); setE();
+    var rl = document.getElementById("t-read"), ro = document.getElementById("t-read-out");
+    rl.max = TOP; rl.value = TOP;
+    var setR = function () { R = +rl.value; ro.textContent = R >= TOP ? dLabel(TOP) + " (the fetch)" : dLabel(R); draw(); };
+    rl.addEventListener("input", setR); setR();
   }).catch(function (e) { readout.textContent = "The data file did not load: " + e; });
 })();

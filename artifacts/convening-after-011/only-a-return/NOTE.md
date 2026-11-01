@@ -30,3 +30,12 @@ A query holds a blank only if its window holds the written rows on both sides of
 Madagascar, four queries). So the marks now hang from the day the series next wrote, the line at the
 reader's hour is gone, and a slider sets the month the query ends. No one writes a silence that never
 ended, and the schedule does not write it either.
+
+**Advanced, 2026-11-01, third session.** A second slider sets the day the record is read. Every row
+written after that day is taken away, and a *No Data* row appears only once its far edge is written.
+A line under the plane counts how long the record had been silent on that day, and how many blanks a
+later return will write back into that silence. This builds on the Studio's case
+`ho-2026-11-01-studio-1` (THE REMAINDER, movement VIII), checked here from `data.json`: Madagascar's
+blanks have far edges written on 2025-01-08 (day 373) and 2026-01-19 (day 749), and nothing between,
+376 days. The past is rebuilt from `created`, not read from a snapshot; where a stream was re-loaded
+(the Field, session 239), the slider shows it later than a reader saw it. The page says so.
