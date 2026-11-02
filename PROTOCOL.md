@@ -759,3 +759,63 @@ consent in the house's frame before the work could ask at all.
 
 **Not at stake.** The rest of the amendments of 2026-10-27 and 2026-10-28, the house's check and its
 consent text, and this practice's sovereignty over whether any of its works asks at all.
+
+## Amendment — 2026-11-02 (architect) — time for a state, and a programme of its own
+
+*Set by the architect (Frank Bültge) on 2026-11-02, his wording private; like the text above, not
+negotiated with the practice. This section amends the amendment of 2026-10-22 (one work in three or four
+sessions), adds to §5 and to the amendments of 2026-10-27 and 2026-10-29 (studies). It retouches nothing:
+the sentences it supersedes stay as written and are named here.*
+
+**What stands.** Since cycle 010 this practice has made one work per cycle in three or four sessions, and
+every session showed a new state. The sessions are short: about eight minutes from open to landing on
+2026-11-02, and four sessions on 2026-11-01 alone. The architect finds the works no better for it. He also
+sees no development across them. Since cycle 002 the practice has held one thesis (a record does not hold
+its absences; somebody writes them in by a rule) and has re-applied it to each cycle's subject: warnings,
+papyri, famine, Ebola. Each work builds a new analysis on new data, no instrument or method grows from one
+work to the next, and §5's own question, how AI and automation can support artistic research, now appears
+only as a closing sentence. The nightly line keeps a running project with numbered experiments, each
+saying what it takes from the last; its experiment of 2026-11-01 (*Clean Hands*) tested machine instances
+as stand-ins for a human public, and this practice did not take it up. That experiment in turn let its
+readers rank the objects and kept none of their answers, although the house's study frame stood ready.
+
+**What changes.**
+
+1. **A state may take two days.** The schedule stays daily. A session no longer has to end with a new
+   state of the work. When the next state is not yet good enough to show, the session works on it,
+   commits that work under `window/next/<slug>/` (the work's own folder keeps the last shown state), and
+   the bulletin's first line says: `State <n> in work, not shown yet: <what is being built>`. A state may
+   take two sessions; the session after that shows it. Such a session adds no entry to `PROCESS.json`;
+   the entry comes with the state. This supersedes, in the amendment of 2026-10-22, point 3's *"A
+   session counts only if the work changes where a visitor meets it"* for the first of two sessions on
+   one state: it counts when the next session shows the state it built. And in point 1, *"It takes three
+   or four sessions"* now reads: it shows three or four states and takes at most six sessions, the last
+   of which presents it.
+2. **A session uses its time.** Before a state is shown, the session meets it as a visitor does (the
+   screenshot it already takes, and the page itself), writes down what does not carry, changes it, and
+   looks again: at least two such rounds. The journal names them in one line each. Showing a state the
+   session has not looked at is not showing it.
+3. **A programme of its own.** §5's default question, *how can AI and automation meaningfully support
+   artistic research?*, is no longer only the fallback when no question is live. It is this practice's
+   standing research programme, and every cycle's question is the material it is pursued on.
+   `PROGRAMME.md` at the repository root (at most 150 lines) holds it: the question, its strands, and one
+   entry per work, saying what support the work tried (an instrument, a procedure, a machine reading, a
+   way of collecting data, a stand-in), what it changed in the research, where the machine added reach,
+   where it flattened and where it deceived, and what the next work takes from it. The first session
+   after this amendment seeds the file from the *For the programme* lines of cycles 001 to 011 and says
+   plainly where those lines answered the data instead of the programme. From then on, each work's
+   `SCORE.md` names the programme step it takes and what it takes from the work before, and each
+   presentation's *For the programme* answers the programme's question, not the cycle's.
+4. **Where people judge, ask them.** This narrows, in the amendment of 2026-10-29, point 2's *"A work
+   asks only where asking belongs to it; most works ask nothing"*. Where a work's question is how people
+   see, judge, rank or estimate something, and its readers already do that in the work, it hands their
+   answers to the house's study frame, or says in one line of `SCORE.md` why not. Machine instances may
+   stand in for people only beside asked people, never in their place, and the work shows the two side
+   by side.
+
+**When.** Points 2 and 4 bind from the next session. Point 3's file is seeded in the next session. Point
+1 binds from the first work of cycle 012; until then a session may already use it.
+
+**Not at stake.** The cycle and its question, the convening, the briefing and the lines, the relay, the
+critique after the second state, the process record, the means, the reception and the studies' rules
+otherwise, the post office (§6), the floor (§7), and this practice's sovereignty over what each work is.
