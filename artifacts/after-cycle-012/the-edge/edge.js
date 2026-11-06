@@ -8,14 +8,17 @@
   const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
   const $ = id => document.getElementById(id);
   let rec = "bdbv", edgeT = toD(E.records.bdbv[1]), hole = false, probeDay = null;
+  // off: where a quiet's day 1 falls. 0 = the day after the rise (corrected 2026-11-06, after the Studio's
+  // check in CALL IT); 1 = the rise day itself, as this page counted until then.
+  let off = 0;
 
   const Q = E.quiets.map(q => ({ ...q, f0: toD(q.f) }));
-  function events(r, edge, h) {
+  function events(r, edge, h, o = off) {
     const out = [];
     for (const q of Q) {
       if (q.rec !== r) continue;
-      let through = Math.round((edge - q.f0) / DAY) + 1;
-      if (h && q.f0 <= HOLE && q.f0 + q.L * DAY > HOLE) through = Math.min(through, Math.round((HOLE - q.f0) / DAY) + 1);
+      let through = Math.round((edge - q.f0) / DAY) + o;
+      if (h && q.f0 <= HOLE && q.f0 + q.L * DAY > HOLE) through = Math.min(through, Math.round((HOLE - q.f0) / DAY) + o);
       if (q.b && q.L + 1 <= through) out.push({ t: q.L + 1, e: 1, q });
       else { const t = Math.min(q.L, through); if (t >= 42) out.push({ t, e: 0, q, through }); }
     }
@@ -58,21 +61,21 @@
     }
     const lw = Math.max(1.2, Math.min(5, rh * .6));
     qs.forEach((q, i) => {
-      const y = top + (i + .5) * rh, end = q.f0 + (q.L - 1) * DAY;
+      const y = top + (i + .5) * rh, s0 = q.f0 + (1 - off) * DAY, end = q.f0 + (q.L - off) * DAY;
       // with the hole as an edge, a quiet watched across it is cut on the last report day before it
       const cutT = (rec === "kivu" && hole && q.f0 <= HOLE && end + DAY > HOLE) ? Math.min(edgeT, HOLE) : edgeT;
-      const caseT = q.f0 + q.L * DAY, seen = Math.min(end, cutT);
+      const caseT = q.f0 + (q.L + 1 - off) * DAY, seen = Math.min(end, cutT);
       g.lineWidth = lw; g.lineCap = "butt";
       if (end > cutT) { // what came after the edge
         g.strokeStyle = css("--nb"); g.globalAlpha = .45;
-        g.beginPath(); g.moveTo(X(Math.max(q.f0, cutT)), y); g.lineTo(X(end), y); g.stroke();
+        g.beginPath(); g.moveTo(X(Math.max(s0, cutT)), y); g.lineTo(X(end), y); g.stroke();
         if (q.b) { g.fillStyle = css("--case"); g.beginPath(); g.arc(X(caseT), y, lw * .7 + 1, 0, 7); g.fill(); }
         g.globalAlpha = 1;
       }
       if (q.f0 > cutT) return;
-      const reached = Math.round((cutT - q.f0) / DAY) + 1 >= 42 || (q.b && caseT <= cutT);
+      const reached = Math.round((cutT - q.f0) / DAY) + off >= 42 || (q.b && caseT <= cutT);
       g.strokeStyle = css("--w"); g.globalAlpha = reached ? 1 : .35;
-      g.beginPath(); g.moveTo(X(q.f0), y); g.lineTo(X(seen), y); g.stroke(); g.globalAlpha = 1;
+      g.beginPath(); g.moveTo(X(s0), y); g.lineTo(X(seen), y); g.stroke(); g.globalAlpha = 1;
       if (q.b && caseT <= cutT) { g.fillStyle = css("--case"); g.beginPath(); g.arc(X(caseT), y, lw * .7 + 1.2, 0, 7); g.fill(); }
       else if (reached) { g.strokeStyle = css("--cut"); g.lineWidth = 1.6; g.beginPath(); g.arc(X(seen), y, lw * .7 + 1.5, 0, 7); g.stroke(); }
     });
@@ -138,12 +141,12 @@
   // ---- the rule's own day (second state): for T = 42..120, the chance a quiet that reached T breaks within W days ----
   const W = E.W, T0 = 42, T1 = 120, day = $("day");
   let probeT = null, dgeom = null;
-  function ruleDay(r, edge, h, T) {
+  function ruleDay(r, edge, h, T, o = off) {
     const rows = [];
     for (const q of Q) {
       if (q.rec !== r || q.L < T) continue;
-      let through = Math.round((edge - q.f0) / DAY) + 1;
-      if (h && q.f0 <= HOLE && q.f0 + q.L * DAY > HOLE) through = Math.min(through, Math.round((HOLE - q.f0) / DAY) + 1);
+      let through = Math.round((edge - q.f0) / DAY) + o;
+      if (h && q.f0 <= HOLE && q.f0 + q.L * DAY > HOLE) through = Math.min(through, Math.round((HOLE - q.f0) / DAY) + o);
       if (through < T) continue;
       rows.push(q.b && q.L + 1 <= through ? [q.L + 1, 1] : [Math.min(q.L, through), 0]);
     }
@@ -225,7 +228,7 @@
     drawCal(); drawDay();
     const read = $("read");
     if (!ev.length) {
-      read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read.";
+      read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read."; $("fence").textContent = "";
       const [g, w, h] = size(cur); g.clearRect(0, 0, w, h);
       $("sCarried").textContent = $("sLost").textContent = $("sOut").textContent = ""; return;
     }
@@ -236,6 +239,11 @@
       (realEnd ? "This is the record's own last day: what the cut quiets become, nobody here can know."
         : `Of the ${cut.length} quiets this edge would carry as over, <b>${later}</b> broke later in the record.`);
     const k = st.km;
+    { const ev2 = events(rec, edgeT, rec === "kivu" && hole, 1 - off), cut2 = ev2.filter(x => !x.e), k2 = ev2.length ? km(ev2) : null;
+      const same = ev2.length === ev.length && cut2.length === cut.length && cut2.filter(x => x.q.b).length === later && k2 && k2.tStar === k.tStar;
+      const who = off ? "Counted from the day after the rise, as it should be," : "Counted from the rise day itself, as this page did until 6 November,";
+      $("fence").innerHTML = `${who} the same edge reads ` + (ev2.length ? `<b>${ev2.length}</b> quiets past 42 days, <b>${cut2.length}</b> cut, <b>${cut2.filter(x => x.q.b).length}</b> of them broke later; last cut quiet on day <b>${k2.tStar}</b>. ` : "no quiet past 42 days. ") +
+        (same ? "Here the one day changes nothing a curve shows." : "<b>Here the one day moves the reading.</b>"); }
     $("sCarried").innerHTML = `No quiet the edge cut ever breaks. The curve never falls below <b>${pct(cut.length / ev.length)} in 100</b>, and it runs on for ever.`;
     $("sLost").innerHTML = k.isLoss ? `Each cut quiet counts while it was watched. The last cut one is on day <b>${k.tStar}</b>; there the estimate is <b>${pct(k.pStar)} in 100</b>. Past it: anywhere between 0 and ${pct(k.pStar)}.`
       : `The longest quiet broke, on day ${k.tStar}; the estimate reaches 0 there.`;
@@ -267,6 +275,7 @@
   }
   $("r26").onclick = () => pick("bdbv"); $("rK").onclick = () => pick("kivu");
   $("hole").onchange = e => { hole = e.target.checked; render(); };
+  $("day1").onchange = e => { off = e.target.checked ? 1 : 0; render(); };
   rng.oninput = () => { edgeT = span()[0] + rng.value * DAY; render(); };
   const dragTo = ev => {
     const r = cal.getBoundingClientRect(), [a, b] = span(), pad = 8;
@@ -285,7 +294,7 @@
   cur.addEventListener("pointerleave", () => { probeDay = null; render(); });
   window.addEventListener("resize", render);
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
-  window.__edgeSet = (r, d, h) => { pick(r); hole = !!h; $("hole").checked = hole; edgeT = toD(d); setRange(); render(); return { edge: window.__edgeState, day: window.__dayState }; };
+  window.__edgeSet = (r, d, h, o) => { pick(r); hole = !!h; $("hole").checked = hole; off = o ? 1 : 0; $("day1").checked = !!o; edgeT = toD(d); setRange(); render(); return { edge: window.__edgeState, day: window.__dayState }; };
   { const R = E.facts.ruleDay;
     $("dayFacts").innerHTML = `${pct(R.k42.lost)} in 100 quiets that reached 42 days broke within 90 days, ${pct(R.k63.lost)} in 100 of those that reached day 63, and the share falls below 1 in 10 only for quiets that reached day ${R.kTenth}. Counting the 94 days without a report as an edge raises the first figure to ${pct(R.h42.lost)} (lost) or ${pct(R.h42.out)} (left out).`; }
   facts(); pick("bdbv");

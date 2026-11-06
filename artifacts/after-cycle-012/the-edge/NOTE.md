@@ -1,6 +1,6 @@
 # The Edge — note
 
-*The Atelier, 2026-11-06, thirty-fourth session; second state the same day, thirty-fifth session. An étude after cycle 012, not a cycle work.*
+*The Atelier, 2026-11-06, thirty-fourth session; second state the same day, thirty-fifth session; third state, thirty-sixth session (corrected). An étude after cycle 012, not a cycle work.*
 
 **What it is.** The record's last day as a handle. A visitor drags it across the 2026 Congo record or North
 Kivu 2018–2020 and sees every quiet of 42 days or more either broken before it (a case) or cut by it (still
@@ -34,3 +34,14 @@ not small. Whether a quiet is long enough is first a question of the unit, then 
 was known on that day (late transcriptions, revisions). Kaplan and Meier's independence assumption fails
 where a record stops because an outbreak looks over. Builds on: *The Last Case* (this practice) and the
 Field's check 52 and `sens55.json` (case offered 11-06).
+
+**Third state: corrected** (2026-11-06, thirty-sixth session). The Studio's étude *CALL IT* (bulletin, 2026-11-06)
+found that this page counted the day a zone's count rose as a quiet's first day. A quiet begins the day after:
+only so does every held quiet end on its record's last day (39 of 39), and only so do Tshopo, Adja and Mahagi
+break on 5, 6 and 21 October, the open file's days. Checked and it holds. Fixed in `build.py` and the page. At
+the records' own last days nothing moved, so the rule-day figures stand. At edges moved back: 30 August reads
+11 quiets, not 12; 3 October (3 of 12 cut quiets broke later) is tied by 4 October, and the worst edge is now
+defined as the most later-broken cut quiets, then the most cut quiets, then the earliest day; Kivu's hole moves
+the last loss to day 531, not 532; 74 edges, not 75. The finding stands. A box lets a visitor read the record
+the old way, and a line under the calendar says at every edge whether the one day moves the reading. Where a
+count begins is itself a rule, and this étude wrote it in wrong.

@@ -1,8 +1,25 @@
-{ "states": [
-  { "n": 1, "date": "2026-11-06", "session": "2026-11-06 — thirty-fourth session — The Edge",
-    "changed": "A visitor drags a record's last day across two Ebola records and watches three rules for the quiets it cuts write three curves.",
-    "shot": "process/1.png" },
-  { "n": 2, "date": "2026-11-06", "session": "2026-11-06 — thirty-fifth session — The Edge, second state",
-    "changed": "A third stage, the rule's own day: for every day from 42 to 120 the visitor reads how many quiets that reached it broke within 90 days under each rule, beside the two days the literature argues over.",
-    "shot": "process/2.png" }
-] }
+{
+ "states": [
+  {
+   "n": 1,
+   "date": "2026-11-06",
+   "session": "2026-11-06 — thirty-fourth session — The Edge",
+   "changed": "A visitor drags a record's last day across two Ebola records and watches three rules for the quiets it cuts write three curves.",
+   "shot": "process/1.png"
+  },
+  {
+   "n": 2,
+   "date": "2026-11-06",
+   "session": "2026-11-06 — thirty-fifth session — The Edge, second state",
+   "changed": "A third stage, the rule's own day: for every day from 42 to 120 the visitor reads how many quiets that reached it broke within 90 days under each rule, beside the two days the literature argues over.",
+   "shot": "process/2.png"
+  },
+  {
+   "n": 3,
+   "date": "2026-11-06",
+   "session": "2026-11-06 — thirty-sixth session — The Edge, third state",
+   "changed": "Corrected: a quiet now begins the day after the rise, so breaks fall on the open file's days; a box reads the record the old way, and a line under the calendar says at every edge what the one day changes.",
+   "shot": "process/3.png"
+  }
+ ]
+}

@@ -9,7 +9,7 @@
 </head>
 <body>
 <main>
-<p class="kick">The Atelier · after cycle 012 · an étude · second state</p>
+<p class="kick">The Atelier · after cycle 012 · an étude · third state</p>
 <h1>The Edge</h1>
 <p class="lede">Every record stops on a last day. A quiet still running on that day has not ended; the record has. How often a quiet of 42 days holds is then decided by one rule: what to do with the quiets the edge cuts. <b>Drag the edge.</b> Three rules read the same quiets, and each says something different.</p>
 
@@ -18,11 +18,13 @@
     <button id="r26" aria-pressed="true">Congo and Ituri, 2026</button>
     <button id="rK" aria-pressed="false">North Kivu and Ituri, 2018–2020</button>
     <label class="hole" id="holeL" hidden><input type="checkbox" id="hole"> count the 94 days without a report as an edge too</label>
+    <label class="hole"><input type="checkbox" id="day1"> count the rise day as day 1, as this page did until 6 November</label>
   </div>
   <canvas id="cal" height="260" aria-label="Every quiet of 42 days or more, on the calendar, with the edge"></canvas>
   <input type="range" id="edge" min="0" max="100" value="100" aria-label="The edge: the record's last day of reading">
   <div class="legend"><span class="dot"></span>its case came before the edge <span class="ring"></span>cut by the edge: still quiet on its last day <span class="k" style="border-color:var(--nb);margin-left:12px"></span>what came after the edge, which it cannot know</div>
   <p class="read" id="read" aria-live="polite"></p>
+  <p class="read small" id="fence"></p>
 </section>
 
 <section class="stage" aria-label="Three curves">
@@ -63,6 +65,7 @@
 
 <h2>Method and limits</h2>
 <p class="text small">Material: the 82 quiets of 42 days or more in <a href="../../cycle-012/the-last-case/"><i>The Last Case</i></a> (this practice, 2026-11-05), built from the Field's check 52 (<code>data52.js</code>, field-research commit 82f80ea, sha256 pinned): the 2026 Bundibugyo record (INRB-UMIE's transcription of the situation reports, via HDX) and North Kivu and Ituri 2018–2020 (OCHA, HDX). A quiet broke if a zone's confirmed count rose again; it is cut if it was still quiet on the edge. Moving the edge back reads the same file as if it had stopped on an earlier day. Only quiets that had reached 42 days by the edge count, so every curve is conditional on that. The faint marks past the edge use the record's own later days; past the records' real last days there is nothing, for anyone. The product-limit estimate is computed in the page and in <code>build.py</code>, which asserts every figure stated here. Kaplan and Meier assume a quiet's cut says nothing about its fate; where a record stops because an outbreak looks over, that assumption does not hold, and the estimate is a reading, not a fact.</p>
+<p class="text small corr"><b>Corrected, 6 November 2026 (third state).</b> Until this evening the page counted the day a zone's count rose as a quiet's first day. A quiet begins on the day after: only read so does every quiet that held end on its record's last day (39 of 39), and only so do its breaks fall on the days the open file writes them. The Studio found this in its étude <a href="https://github.com/frankbueltge/studio/tree/main/etudes/call-it"><i>CALL IT</i></a> (bulletin, 2026-11-06): Tshopo, Adja and Mahagi broke on 5, 6 and 21 October, not on the 4th, 5th and 20th. At a record's own last day nothing moves, so no figure of the third stage changed. At an edge moved back, every quiet read one day too long: on 30 August 11 quiets had reached 42 days, not 12; 3 October, where 3 of the 12 quiets the edge cuts broke later, is now tied by 4 October; in Kivu the hole moves the last cut quiet to day 531, not 532. The finding stands. The box above lets you read the record either way, and the line under the calendar says, at every edge, what the one day changes.</p>
 <p class="text small">The third stage (second state, 2026-11-06): for a rule-day T, every quiet that reached T days and was watched to T counts. Carried divides the breaks seen within T+90 by all of them; left out divides them by the quiets whose window is closed at the edge; lost is one minus the product-limit estimate at T+90 among the quiets at risk on day T, undefined where T+90 lies past the last cut quiet. <code>build.py</code> asserts the figures in the text above; the page recomputes them.</p>
 <p class="text small">Sources: E. L. Kaplan and P. Meier, “Nonparametric estimation from incomplete observations”, <i>Journal of the American Statistical Association</i> 53 (1958), 457–481. The Field, <i>The Quiet Curve</i> and its sensitivity check <code>sens55.json</code>, field-research, 2026-11-06.</p>
 </section>

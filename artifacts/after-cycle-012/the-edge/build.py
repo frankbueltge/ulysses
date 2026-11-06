@@ -14,6 +14,13 @@ Three rules for the cut quiets, three curves of the chance a 42-day quiet is sti
            the last loss the estimate is undefined, between 0 and P(t*).
 With the hole: in Kivu no report came from 8 March to 9 June 2020 (94 days). Treated as an edge, a quiet
 watched across it is cut on 7 March, the last report day before it (fewer than 42 days: it leaves).
+
+Corrected 2026-11-06 (thirty-sixth session), after the Studio's check in CALL IT: a quiet's strip k begins
+on the day AFTER the rise f (every held strip ends on its record's last day, 39 of 39). Until then this
+file counted the rise day as day 1 (through = days + 1), so at a moved edge every quiet read a day longer
+and every break came a day early. Days through E are now (E - f).days. What moved: 30 Aug 12 quiets -> 11;
+the worst edge 3 Oct now ties with 4 Oct; Kivu's hole moves the last loss to day 531, not 532; 74 edges, not 75.
+Nothing at a record's own last day moved, so no rule-day figure did.
 """
 import datetime as dt, hashlib, json, os
 
@@ -35,9 +42,9 @@ def events(rec, E, hole=False):
         if q["rec"] != rec:
             continue
         f, L = day(q["f"]), len(q["k"])
-        through = (E - f).days + 1
+        through = (E - f).days
         if hole and f <= HOLE_LAST and f + dt.timedelta(L) > HOLE_LAST:
-            through = min(through, (HOLE_LAST - f).days + 1)
+            through = min(through, (HOLE_LAST - f).days)
         if q["b"] and L + 1 <= through:
             out.append((L + 1, 1, q))
         else:
@@ -81,13 +88,13 @@ assert (F["fullK"]["n"], F["fullK"]["cut"], F["fullK"]["tStar"], round(F["fullK"
 assert F["full26"]["floor"] == 0.5 and F["fullK"]["floor"] == round(28 / 60, 3)
 # the edge moved back a month: the page's first stop for 2026
 F["sep29"] = state("bdbv", day("2026-09-29"))
-assert (F["sep29"]["n"], F["sep29"]["cut"], F["sep29"]["cutLaterBroke"], F["sep29"]["tStar"]) == (17, 10, 3, 125)
+assert (F["sep29"]["n"], F["sep29"]["cut"], F["sep29"]["cutLaterBroke"], F["sep29"]["tStar"]) == (17, 10, 3, 124)
 assert round(F["sep29"]["pStar"], 2) == 0.48
 F["aug30"] = state("bdbv", day("2026-08-30"))
-assert (F["aug30"]["n"], F["aug30"]["cut"], F["aug30"]["tStar"], round(F["aug30"]["pStar"], 2)) == (12, 5, 95, 0.17)
+assert (F["aug30"]["n"], F["aug30"]["cut"], F["aug30"]["tStar"], round(F["aug30"]["pStar"], 2)) == (11, 4, 94, 0.17)
 # the worst edge for the declaration's reading in 2026: the most carried quiets that broke later
 worst = max(((state("bdbv", end26 - dt.timedelta(b)), (end26 - dt.timedelta(b)).isoformat())
-             for b in range(0, (end26 - day(R["bdbv"][0])).days) if events("bdbv", end26 - dt.timedelta(b))), key=lambda x: (x[0]["cutLaterBroke"], x[1]))
+             for b in range(0, (end26 - day(R["bdbv"][0])).days) if events("bdbv", end26 - dt.timedelta(b))), key=lambda x: (x[0]["cutLaterBroke"], x[0]["cut"], -dt.date.fromisoformat(x[1]).toordinal()))
 F["worst26"] = {"date": worst[1], **worst[0]}
 # the hole as an edge, at Kivu's last day
 F["holeK"] = state("kivu", endK, hole=True)
@@ -97,8 +104,11 @@ ps = [(s["pStar"], E.isoformat()) for E, s in
       ((end26 - dt.timedelta(b), state("bdbv", end26 - dt.timedelta(b))) for b in range(0, 200))
       if s and s["n"] >= 10]
 F["pStarRange26"] = {"min": min(ps), "max": max(ps), "edges": len(ps)}
-assert F["holeK"]["n"] == 58 and F["holeK"]["tStar"] == 532 and round(F["holeK"]["pStar"], 2) == 0.19
+assert F["holeK"]["n"] == 58 and F["holeK"]["tStar"] == 531 and round(F["holeK"]["pStar"], 2) == 0.19
 assert F["worst26"]["date"] == "2026-10-03" and F["worst26"]["cutLaterBroke"] == 3 and F["worst26"]["cut"] == 12
+assert F["pStarRange26"]["edges"] == 74 and F["pStarRange26"]["min"][0] == 0.153 and F["pStarRange26"]["max"][0] == 0.52
+# the day after the worst edge ties it: the Studio's CALL IT (2026-11-06) found the same
+assert (lambda s: (s["cut"], s["cutLaterBroke"]))(state("bdbv", day("2026-10-04"))) == (12, 3)
 print("pStarRange26", F["pStarRange26"])
 # ---- second state (session 35): the rule's own day ----
 # For a rule-day T (42..120) and a window of W = 90 days after it (Djaafara et al. 2021's enhanced
@@ -115,9 +125,9 @@ def rule_day(rec, E, T, hole=False):
         if q["rec"] != rec or len(q["k"]) < T:
             continue
         f, L = day(q["f"]), len(q["k"])
-        through = (E - f).days + 1
+        through = (E - f).days
         if hole and f <= HOLE_LAST and f + dt.timedelta(L) > HOLE_LAST:
-            through = min(through, (HOLE_LAST - f).days + 1)
+            through = min(through, (HOLE_LAST - f).days)
         if through < T:
             continue
         rows.append((L + 1, 1) if q["b"] and L + 1 <= through else (min(L, through), 0))
@@ -151,7 +161,7 @@ RD["s42"] = rule_day("bdbv", day("2026-09-29"), 42)
 RD["kTenth"] = next(T for T in range(42, 400) if (r := rule_day("kivu", endK, T)) and r["lost"] is not None and r["lost"] < 0.1)
 assert (RD["k42"]["n"], RD["k42"]["carried"], RD["k42"]["out"], RD["k42"]["lost"]) == (60, 0.467, 0.467, 0.467)
 assert (RD["k63"]["carried"], RD["k63"]["out"], RD["k63"]["lost"]) == (0.38, 0.388, 0.38)
-assert (RD["h42"]["n"], RD["h42"]["carried"], RD["h42"]["out"], RD["h42"]["lost"]) == (58, 0.466, 0.54, 0.509)
+assert (RD["h42"]["n"], RD["h42"]["carried"], RD["h42"]["out"], RD["h42"]["lost"]) == (58, 0.466, 0.54, 0.511)
 assert (RD["b42"]["n"], RD["b42"]["known"], RD["b42"]["carried"], RD["b42"]["out"], RD["b42"]["lost"]) == (22, 12, 0.5, 0.917, 0.568)
 assert (RD["b63"]["carried"], RD["b63"]["out"], RD["b63"]["lost"]) == (0.231, 0.75, 0.314)
 assert RD["b70"]["lost"] is None
