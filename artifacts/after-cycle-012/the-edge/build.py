@@ -100,8 +100,66 @@ F["pStarRange26"] = {"min": min(ps), "max": max(ps), "edges": len(ps)}
 assert F["holeK"]["n"] == 58 and F["holeK"]["tStar"] == 532 and round(F["holeK"]["pStar"], 2) == 0.19
 assert F["worst26"]["date"] == "2026-10-03" and F["worst26"]["cutLaterBroke"] == 3 and F["worst26"]["cut"] == 12
 print("pStarRange26", F["pStarRange26"])
+# ---- second state (session 35): the rule's own day ----
+# For a rule-day T (42..120) and a window of W = 90 days after it (Djaafara et al. 2021's enhanced
+# surveillance), the chance that a quiet which reached T breaks within the window, under the three rules:
+#   carried  breaks seen before the edge, over every quiet that reached T (cut ones held for good);
+#   left out only quiets whose window is closed at the edge speak (the Field's rule, applied to windows);
+#   lost     1 - S(T+W) by Kaplan and Meier among quiets at risk on day T; undefined past the last loss.
+W = 90
+
+
+def rule_day(rec, E, T, hole=False):
+    rows = []
+    for q in Q:
+        if q["rec"] != rec or len(q["k"]) < T:
+            continue
+        f, L = day(q["f"]), len(q["k"])
+        through = (E - f).days + 1
+        if hole and f <= HOLE_LAST and f + dt.timedelta(L) > HOLE_LAST:
+            through = min(through, (HOLE_LAST - f).days + 1)
+        if through < T:
+            continue
+        rows.append((L + 1, 1) if q["b"] and L + 1 <= through else (min(L, through), 0))
+    if not rows:
+        return None
+    n, H = len(rows), T + W
+    inwin = sum(1 for t, e in rows if e and t <= H)
+    known = sum(1 for t, e in rows if (e and t <= H) or t >= H)
+    S, m = 1.0, n
+    for t in sorted({t for t, _ in rows}):
+        if t > H:
+            break
+        d = sum(1 for u, e in rows if u == t and e)
+        if d:
+            S *= 1 - d / m
+        m -= sum(1 for u, _ in rows if u == t)
+    maxt = max(t for t, _ in rows)
+    undefined = H > maxt and any(t == maxt and e == 0 for t, e in rows)
+    return {"n": n, "known": known, "carried": round(inwin / n, 3),
+            "out": round(inwin / known, 3) if known else None,
+            "lost": None if undefined else round(1 - S, 3)}
+
+
+RD = {}
+RD["k42"], RD["k63"] = rule_day("kivu", endK, 42), rule_day("kivu", endK, 63)
+RD["h42"] = rule_day("kivu", endK, 42, hole=True)
+RD["b42"], RD["b63"] = rule_day("bdbv", end26, 42), rule_day("bdbv", end26, 63)
+RD["b70"] = rule_day("bdbv", end26, 70)
+RD["s42"] = rule_day("bdbv", day("2026-09-29"), 42)
+# the first rule-day at which, in Kivu read to its end, fewer than 1 in 10 lost quiets break within 90 days
+RD["kTenth"] = next(T for T in range(42, 400) if (r := rule_day("kivu", endK, T)) and r["lost"] is not None and r["lost"] < 0.1)
+assert (RD["k42"]["n"], RD["k42"]["carried"], RD["k42"]["out"], RD["k42"]["lost"]) == (60, 0.467, 0.467, 0.467)
+assert (RD["k63"]["carried"], RD["k63"]["out"], RD["k63"]["lost"]) == (0.38, 0.388, 0.38)
+assert (RD["h42"]["n"], RD["h42"]["carried"], RD["h42"]["out"], RD["h42"]["lost"]) == (58, 0.466, 0.54, 0.509)
+assert (RD["b42"]["n"], RD["b42"]["known"], RD["b42"]["carried"], RD["b42"]["out"], RD["b42"]["lost"]) == (22, 12, 0.5, 0.917, 0.568)
+assert (RD["b63"]["carried"], RD["b63"]["out"], RD["b63"]["lost"]) == (0.231, 0.75, 0.314)
+assert RD["b70"]["lost"] is None
+assert RD["s42"]["lost"] is None and RD["s42"]["out"] == 1.0
+print("ruleDay", RD)
+F["ruleDay"] = RD
 data = {"source": {"path": "artifacts/cycle-012/the-last-case/quiets.json", "sha256": SHA,
                    "upstream": D["source"]},
-        "records": R, "holeLast": HOLE_LAST.isoformat(), "facts": F,
+        "records": R, "W": W, "holeLast": HOLE_LAST.isoformat(), "facts": F,
         "quiets": [{"rec": q["rec"], "z": q["z"], "f": q["f"], "L": len(q["k"]), "b": q["b"]} for q in Q]}
 open(os.path.join(HERE, "edge-data.js"), "w").write("window.EDGE=" + json.dumps(data, separators=(",", ":")) + ";\n")

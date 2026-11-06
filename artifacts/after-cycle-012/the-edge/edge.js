@@ -134,9 +134,95 @@
   }
 
   const pct = p => Math.round(p * 100);
+
+  // ---- the rule's own day (second state): for T = 42..120, the chance a quiet that reached T breaks within W days ----
+  const W = E.W, T0 = 42, T1 = 120, day = $("day");
+  let probeT = null, dgeom = null;
+  function ruleDay(r, edge, h, T) {
+    const rows = [];
+    for (const q of Q) {
+      if (q.rec !== r || q.L < T) continue;
+      let through = Math.round((edge - q.f0) / DAY) + 1;
+      if (h && q.f0 <= HOLE && q.f0 + q.L * DAY > HOLE) through = Math.min(through, Math.round((HOLE - q.f0) / DAY) + 1);
+      if (through < T) continue;
+      rows.push(q.b && q.L + 1 <= through ? [q.L + 1, 1] : [Math.min(q.L, through), 0]);
+    }
+    if (!rows.length) return null;
+    const n = rows.length, H = T + W;
+    const inwin = rows.filter(([t, e]) => e && t <= H).length;
+    const known = rows.filter(([t, e]) => (e && t <= H) || t >= H).length;
+    let S = 1, m = n;
+    for (const t of [...new Set(rows.map(x => x[0]))].sort((a, b) => a - b)) {
+      if (t > H) break;
+      const d = rows.filter(([u, e]) => u === t && e).length;
+      if (d) S *= 1 - d / m;
+      m -= rows.filter(([u]) => u === t).length;
+    }
+    const maxt = Math.max(...rows.map(x => x[0]));
+    const undef = H > maxt && rows.some(([t, e]) => t === maxt && !e);
+    return { n, known, carried: inwin / n, out: known ? inwin / known : null, lost: undef ? null : 1 - S };
+  }
+  function drawDay() {
+    const h0 = rec === "kivu" && hole, rows = [];
+    for (let T = T0; T <= T1; T++) rows.push([T, ruleDay(rec, edgeT, h0, T)]);
+    const [g, w, h] = size(day), L = 34, R = 70, Tp = 26, B = 30;
+    const X = T => L + (T - T0) / (T1 - T0) * (w - L - R), Y = p => Tp + (1 - p) * (h - Tp - B);
+    dgeom = { L, R, w };
+    g.clearRect(0, 0, w, h);
+    g.strokeStyle = css("--line"); g.lineWidth = 1; g.fillStyle = css("--mute"); g.font = "11px system-ui,sans-serif";
+    for (const p of [0, .25, .5, .75, 1]) { g.beginPath(); g.moveTo(L, Y(p)); g.lineTo(w - R, Y(p)); g.stroke(); g.textAlign = "right"; g.fillText(Math.round(p * 100), L - 5, Y(p) + 4); }
+    g.textAlign = "left"; g.fillText(w < 560 ? `broke within ${W} days, in 100` : `broke within the next ${W} days, in 100 quiets that reached the rule's day`, L, 12);
+    // one in ten
+    g.setLineDash([2, 4]); g.strokeStyle = css("--mute"); g.beginPath(); g.moveTo(L, Y(.1)); g.lineTo(w - R, Y(.1)); g.stroke(); g.setLineDash([]);
+    g.textAlign = "left"; g.fillText("1 in 10", w - R + 6, Y(.1) + 4);
+    g.textAlign = "center";
+    const step = w < 520 ? 20 : 10;
+    for (let T = 50; T <= T1; T += step) g.fillText("day " + T, X(T), h - 10);
+    // the two days of the literature
+    const mark = (T, txt, col) => { g.strokeStyle = col; g.lineWidth = 1.5; g.beginPath(); g.moveTo(X(T), Tp); g.lineTo(X(T), Y(0)); g.stroke(); g.fillStyle = col; g.font = "600 11px system-ui,sans-serif"; g.textAlign = "left"; g.fillText(txt, X(T) + 4, Tp + 10); g.font = "11px system-ui,sans-serif"; };
+    mark(42, "42 · WHO", css("--a")); mark(63, w < 560 ? "63" : "63 · another clock", css("--mute"));
+    const line = (key, col, dash, wd) => {
+      g.strokeStyle = col; g.lineWidth = wd; g.setLineDash(dash); g.beginPath(); let on = false, lastY = null;
+      for (const [T, r] of rows) {
+        const v = r && r[key]; if (v == null) { on = false; continue; }
+        on ? g.lineTo(X(T), Y(v)) : g.moveTo(X(T), Y(v)); on = true; lastY = [T, v];
+      }
+      g.stroke(); g.setLineDash([]); return lastY;
+    };
+    const lc = line("carried", css("--held"), [], 2.2), lo = line("out", css("--case"), [6, 4], 2), ll = line("lost", css("--fg"), [], 2.4);
+    // where lost becomes undefined: hatch from the first undefined day
+    const firstU = rows.find(([, r]) => r && r.lost == null), lastR = rows.filter(([, r]) => r).pop();
+    if (firstU && lastR) {
+      const x0 = X(firstU[0]), x1 = X(lastR[0]);
+      g.save(); g.beginPath(); g.rect(x0, Tp, x1 - x0, Y(0) - Tp); g.clip(); g.strokeStyle = css("--mute"); g.globalAlpha = .3;
+      for (let x = x0 - 300; x < x1 + 300; x += 7) { g.beginPath(); g.moveTo(x, Y(0)); g.lineTo(x + 300, Y(0) - 300); g.stroke(); }
+      g.restore();
+      if (x1 - x0 > 80) { g.fillStyle = css("--mute"); g.font = "italic 13px Georgia,serif"; g.textAlign = "left"; g.fillText("lost: undefined", x0 + 6, Y(.62)); }
+    }
+    const lab = (txt, pt, col, dy) => { if (!pt) return; g.fillStyle = col; g.font = "600 12px system-ui,sans-serif"; g.textAlign = "left"; g.fillText(txt, X(pt[0]) + 6, Y(pt[1]) + 4 + dy); };
+    if (lc && lastR && lc[0] === T1) lab("carried", lc, css("--held"), 0);
+    if (probeT != null) { g.strokeStyle = css("--you"); g.lineWidth = 1; g.setLineDash([2, 3]); g.beginPath(); g.moveTo(X(probeT), Tp); g.lineTo(X(probeT), Y(0)); g.stroke(); g.setLineDash([]); }
+    const at = T => (rows.find(x => x[0] === T) || [])[1];
+    const r42 = at(42), rp = probeT != null ? at(probeT) : null;
+    const f = v => v == null ? "undefined" : pct(v) + " in 100";
+    const tell = (T, r) => r ? `Day <b>${T}</b>: <b>${r.n}</b> quiets had reached it, and the window of ${W} days after it is closed at the edge for <b>${r.known}</b>. Broke within it: carried <b>${f(r.carried)}</b> · lost <b>${f(r.lost)}</b> · left out <b>${r.out == null ? "nothing to say" : f(r.out)}</b>.` : `Day <b>${T}</b>: no quiet had reached it by this edge.`;
+    $("dayRead").innerHTML = rp !== null && probeT != null ? tell(probeT, rp) : (r42 ? tell(42, r42) : "At this edge no quiet has yet reached 42 days.");
+    let spread = 0; for (const [, r] of rows) if (r && r.out != null && r.lost != null) spread = Math.max(spread, r.out - r.carried);
+    const tenth = rows.find(([, r]) => r && r.lost != null && r.lost < .1);
+    $("dayVerdict").innerHTML = (r42 && r42.out != null && r42.out - r42.carried < .05)
+      ? `Here the three rules almost agree: the edge lies far beyond most of the windows. ${tenth ? `The lost curve falls below 1 in 10 from day <b>${tenth[0]}</b>.` : "Up to day 120 it never falls below 1 in 10."}`
+      : `Here the rules part by up to <b>${pct(spread)}</b> points on the same day: the edge cuts the windows, and how long is long enough is decided by the rule for the cut, not by the quiets. ${tenth ? `The lost curve falls below 1 in 10 from day <b>${tenth[0]}</b>.` : "No rule-day up to 120 brings the lost curve below 1 in 10 before it becomes undefined."}`;
+    window.__dayState = r42 ? { n: r42.n, known: r42.known, carried: Math.round(r42.carried * 1000) / 1000, out: r42.out == null ? null : Math.round(r42.out * 1000) / 1000, lost: r42.lost == null ? null : Math.round(r42.lost * 1000) / 1000, tenth: tenth ? tenth[0] : null } : null;
+  }
+  day.addEventListener("pointermove", e => {
+    if (!dgeom) return; const r = day.getBoundingClientRect(), x = e.clientX - r.left;
+    const T = Math.round(T0 + (x - dgeom.L) / (dgeom.w - dgeom.L - dgeom.R) * (T1 - T0));
+    probeT = T >= T0 && T <= T1 ? T : null; drawDay();
+  });
+  day.addEventListener("pointerleave", () => { probeT = null; drawDay(); });
   function render() {
     const ev = events(rec, edgeT, rec === "kivu" && hole);
-    drawCal();
+    drawCal(); drawDay();
     const read = $("read");
     if (!ev.length) {
       read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read.";
@@ -199,6 +285,8 @@
   cur.addEventListener("pointerleave", () => { probeDay = null; render(); });
   window.addEventListener("resize", render);
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
-  window.__edgeSet = (r, d, h) => { pick(r); hole = !!h; $("hole").checked = hole; edgeT = toD(d); setRange(); render(); return window.__edgeState; };
+  window.__edgeSet = (r, d, h) => { pick(r); hole = !!h; $("hole").checked = hole; edgeT = toD(d); setRange(); render(); return { edge: window.__edgeState, day: window.__dayState }; };
+  { const R = E.facts.ruleDay;
+    $("dayFacts").innerHTML = `${pct(R.k42.lost)} in 100 quiets that reached 42 days broke within 90 days, ${pct(R.k63.lost)} in 100 of those that reached day 63, and the share falls below 1 in 10 only for quiets that reached day ${R.kTenth}. Counting the 94 days without a report as an edge raises the first figure to ${pct(R.h42.lost)} (lost) or ${pct(R.h42.out)} (left out).`; }
   facts(); pick("bdbv");
 })();
