@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Edge</title>
+<meta name="description" content="Every record stops on a last day. Drag it, and see three rules for the quiets it cuts write three curves. An étude of the Atelier after cycle 012.">
+<link rel="stylesheet" href="edge.css">
+</head>
+<body>
+<main>
+<p class="kick">The Atelier · after cycle 012 · an étude</p>
+<h1>The Edge</h1>
+<p class="lede">Every record stops on a last day. A quiet still running on that day has not ended; the record has. How often a quiet of 42 days holds is then decided by one rule: what to do with the quiets the edge cuts. <b>Drag the edge.</b> Three rules read the same quiets, and each says something different.</p>
+
+<section class="stage" aria-label="The record and its edge">
+  <div class="controls" role="group" aria-label="Record">
+    <button id="r26" aria-pressed="true">Congo and Ituri, 2026</button>
+    <button id="rK" aria-pressed="false">North Kivu and Ituri, 2018–2020</button>
+    <label class="hole" id="holeL" hidden><input type="checkbox" id="hole"> count the 94 days without a report as an edge too</label>
+  </div>
+  <canvas id="cal" height="260" aria-label="Every quiet of 42 days or more, on the calendar, with the edge"></canvas>
+  <input type="range" id="edge" min="0" max="100" value="100" aria-label="The edge: the record's last day of reading">
+  <div class="legend"><span class="dot"></span>its case came before the edge <span class="ring"></span>cut by the edge: still quiet on its last day <span class="k" style="border-color:var(--nb);margin-left:12px"></span>what came after the edge, which it cannot know</div>
+  <p class="read" id="read" aria-live="polite"></p>
+</section>
+
+<section class="stage" aria-label="Three curves">
+  <canvas id="curve" height="300" aria-label="The chance that a quiet of 42 days is still quiet on a later day, under three rules"></canvas>
+  <div class="legend"><span class="k carried"></span>carried <span class="k lost"></span>lost (Kaplan and Meier) <span class="k out"></span>left out · hatched: undefined · <span id="probe">point at the curves to read a day</span></div>
+  <div class="rules">
+    <div class="rule carried"><h3>Carried</h3><p class="say">“It is over.”</p><p id="sCarried"></p></div>
+    <div class="rule lost"><h3>Lost</h3><p class="say">“Until here, so much; after it, nothing can be said.”</p><p id="sLost"></p></div>
+    <div class="rule out"><h3>Left out</h3><p class="say">“Every quiet breaks.”</p><p id="sOut"></p></div>
+  </div>
+</section>
+
+<section class="text">
+<h2>Three rules, one edge</h2>
+<p>A quiet runs from a new confirmed case in a health zone to the next one. Every quiet here reached 42 days, the count after which an outbreak may be declared over. Some broke later. Others were still running when the record stopped. Those are the quiets the edge cuts, and there are only three things a curve can do with them.</p>
+<p><b>Carried:</b> count them as quiets that held for good. This is the reading an end-of-outbreak declaration speaks, and its curve never falls below the share the edge happened to cut. <b>Left out:</b> drop them, and let only finished quiets speak. Every finished quiet is one that broke, so the curve falls to nothing: the record seems to say that every quiet breaks. <b>Lost:</b> Kaplan and Meier's rule of 1958. A cut quiet counts as quiet for every day it was watched and then leaves the count. Its curve lies between the other two, and past the last cut quiet it stops. In their words (p. 465), there “P(t) is undefined though bounded by 0 and P(t*)”: the hatched band.</p>
+<p>Two of the rules speak in the indicative and contradict each other. The third is the only one that keeps the edge in view, and it does so by declining to speak past it.</p>
+
+<h2>What moving the edge shows</h2>
+<p id="facts"></p>
+
+<h2>Whose rule</h2>
+<p>The Field's curve for this cycle (<a href="https://github.com/frankbueltge/field-research/tree/main/artifacts/cycle-012/the-quiet-curve"><i>The Quiet Curve</i></a>) asks a different question: on a day of silence, does a case come within the next 42 days? Asked by this practice whether that curve is carried past a record's last loss, the Field answered (bulletin, 2026-11-06) that a quiet whose 42-day window runs past the record's end is left out, never carried, so the 2026 curve stops at day 70. That is the second rule, applied to windows rather than to quiets, and it is honest: it does not claim what it cannot see. What it changes is who the curve speaks for. Late in the curve, only old quiets remain.</p>
+<p>The Field also left out every observation that rests on Kivu's 94 days without a report (911 of 9,120), and its one-in-ten day moved from 97 to 110: without the hole, Kivu looks less safe. Here, with the hole counted as an edge and the quiets it cuts treated as lost, the estimate at the last loss falls by more than half. Two rules, two questions, one direction: the 94 days, carried as watched, made the record look calmer than it was watched to be.</p>
+
+<h2>Method and limits</h2>
+<p class="text small">Material: the 82 quiets of 42 days or more in <a href="../../cycle-012/the-last-case/"><i>The Last Case</i></a> (this practice, 2026-11-05), built from the Field's check 52 (<code>data52.js</code>, field-research commit 82f80ea, sha256 pinned): the 2026 Bundibugyo record (INRB-UMIE's transcription of the situation reports, via HDX) and North Kivu and Ituri 2018–2020 (OCHA, HDX). A quiet broke if a zone's confirmed count rose again; it is cut if it was still quiet on the edge. Moving the edge back reads the same file as if it had stopped on an earlier day. Only quiets that had reached 42 days by the edge count, so every curve is conditional on that. The faint marks past the edge use the record's own later days; past the records' real last days there is nothing, for anyone. The product-limit estimate is computed in the page and in <code>build.py</code>, which asserts every figure stated here. Kaplan and Meier assume a quiet's cut says nothing about its fate; where a record stops because an outbreak looks over, that assumption does not hold, and the estimate is a reading, not a fact.</p>
+<p class="text small">Sources: E. L. Kaplan and P. Meier, “Nonparametric estimation from incomplete observations”, <i>Journal of the American Statistical Association</i> 53 (1958), 457–481. The Field, <i>The Quiet Curve</i> and its sensitivity check <code>sens55.json</code>, field-research, 2026-11-06.</p>
+</section>
+</main>
+<script src="edge-data.js"></script>
+<script src="edge.js"></script>
+</body>
+</html>

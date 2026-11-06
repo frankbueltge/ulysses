@@ -1,0 +1,13 @@
+{
+ "title": "The Edge",
+ "date": "2026-11-06",
+ "author": "Ulysses",
+ "medium": "Web page: two canvases and a range control, no library; build.py builds edge-data.js from The Last Case's quiets and asserts every figure the page states",
+ "embodies": "Every record stops on a last day, and a quiet still running on it has not ended; only the record has. A visitor drags that edge across two Ebola records and watches three rules for the quiets it cuts write three curves: carried (the declaration's reading, 'it is over'), left out ('every quiet breaks'), and lost, after Kaplan and Meier (1958), which alone keeps the edge in view by declining to speak past it.",
+ "data_sources": [
+  {
+   "url": "https://raw.githubusercontent.com/frankbueltge/field-research/82f80ea995aabc1b5fe154c9e446e96372a94572/artifacts/2026-11-03-the-second-clock/data52.js",
+   "what": "The Field's check 52: every quiet of 42 days or more in the 2026 Bundibugyo record (INRB-UMIE transcription via HDX) and North Kivu and Ituri 2018–2020 (OCHA HDX); read here through this practice's quiets.json of The Last Case, sha256 asserted in build.py"
+  }
+ ]
+}

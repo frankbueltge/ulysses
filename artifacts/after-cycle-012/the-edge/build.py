@@ -1,0 +1,107 @@
+"""The Edge: build edge-data.js from The Last Case's quiets and assert every figure the page states.
+  python3 -I build.py
+Source: ../../cycle-012/the-last-case/quiets.json (this practice, 2026-11-05), itself built from the
+Field's check 52 (data52.js, commit 82f80ea, sha256 pinned in that work's build.py). A quiet runs from a
+rise in a zone's confirmed count; it broke (b) with a case on day L+1, or it held to the record's end.
+
+An edge E is a last day of reading. At E each quiet that reached 42 days is one of:
+  broke    its case came on or before E: a "death" on day L+1;
+  cut      it was still quiet at E: day t = min(L, days through E).
+Three rules for the cut quiets, three curves of the chance a 42-day quiet is still quiet on day t:
+  carried  every cut quiet is over for good: it never breaks (the declaration's reading);
+  left out the cut quiets are dropped, only finished quiets speak;
+  lost     Kaplan and Meier (JASA 53, 1958): a cut quiet is a loss, at risk until its day t; past
+           the last loss the estimate is undefined, between 0 and P(t*).
+With the hole: in Kivu no report came from 8 March to 9 June 2020 (94 days). Treated as an edge, a quiet
+watched across it is cut on 7 March, the last report day before it (fewer than 42 days: it leaves).
+"""
+import datetime as dt, hashlib, json, os
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.join(HERE, "..", "..", "cycle-012", "the-last-case", "quiets.json")
+raw = open(SRC, "rb").read()
+SHA = hashlib.sha256(raw).hexdigest()
+D = json.loads(raw)
+assert D["source"]["sha256"] == "a97c2dbd6259e287acfef003a7e8fa3a8a4fc64d4b37b0a9c5b9ab685534f567"
+Q, R = D["quiets"], D["records"]
+day = dt.date.fromisoformat
+HOLE_LAST = day("2020-03-07")          # last report day before the 94 days
+assert R["kivuHole"] == ["2020-03-07", "2020-06-10"]
+
+
+def events(rec, E, hole=False):
+    out = []
+    for q in Q:
+        if q["rec"] != rec:
+            continue
+        f, L = day(q["f"]), len(q["k"])
+        through = (E - f).days + 1
+        if hole and f <= HOLE_LAST and f + dt.timedelta(L) > HOLE_LAST:
+            through = min(through, (HOLE_LAST - f).days + 1)
+        if q["b"] and L + 1 <= through:
+            out.append((L + 1, 1, q))
+        else:
+            t = min(L, through)
+            if t >= 42:
+                out.append((t, 0, q))
+    return out
+
+
+def km(ev):
+    S, n, steps = 1.0, len(ev), []
+    for t in sorted({t for t, _, _ in ev}):
+        d = sum(1 for u, e, _ in ev if u == t and e)
+        if d:
+            S *= 1 - d / n
+            steps.append([t, S])
+        n -= sum(1 for u, _, _ in ev if u == t)
+    last = max(ev, key=lambda x: (x[0], -x[1]))
+    return steps, last[0], last[1] == 0, (steps[-1][1] if steps else 1.0)
+
+
+def state(rec, E, hole=False):
+    ev = events(rec, E, hole)
+    if not ev:
+        return None
+    cut = [e for e in ev if not e[1]]
+    steps, tS, isLoss, pS = km(ev)
+    return {"n": len(ev), "broke": len(ev) - len(cut), "cut": len(cut),
+            "cutLaterBroke": sum(1 for e in cut if e[2]["b"]), "tStar": tS, "tStarIsLoss": isLoss,
+            "pStar": round(pS, 3), "floor": round(len(cut) / len(ev), 3)}
+
+
+F = {}
+end26, endK = day(R["bdbv"][1]), day(R["kivu"][1])
+# at the records' own last days the losses movement of The Last Case is reproduced
+F["full26"] = state("bdbv", end26)
+F["fullK"] = state("kivu", endK)
+assert (F["full26"]["n"], F["full26"]["cut"], F["full26"]["tStar"], round(F["full26"]["pStar"], 2)) == (22, 11, 154, 0.43)
+assert (F["fullK"]["n"], F["fullK"]["cut"], F["fullK"]["tStar"], round(F["fullK"]["pStar"], 2)) == (60, 28, 633, 0.43)
+# carried: the floor; left out: falls to nothing
+assert F["full26"]["floor"] == 0.5 and F["fullK"]["floor"] == round(28 / 60, 3)
+# the edge moved back a month: the page's first stop for 2026
+F["sep29"] = state("bdbv", day("2026-09-29"))
+assert (F["sep29"]["n"], F["sep29"]["cut"], F["sep29"]["cutLaterBroke"], F["sep29"]["tStar"]) == (17, 10, 3, 125)
+assert round(F["sep29"]["pStar"], 2) == 0.48
+F["aug30"] = state("bdbv", day("2026-08-30"))
+assert (F["aug30"]["n"], F["aug30"]["cut"], F["aug30"]["tStar"], round(F["aug30"]["pStar"], 2)) == (12, 5, 95, 0.17)
+# the worst edge for the declaration's reading in 2026: the most carried quiets that broke later
+worst = max(((state("bdbv", end26 - dt.timedelta(b)), (end26 - dt.timedelta(b)).isoformat())
+             for b in range(0, (end26 - day(R["bdbv"][0])).days) if events("bdbv", end26 - dt.timedelta(b))), key=lambda x: (x[0]["cutLaterBroke"], x[1]))
+F["worst26"] = {"date": worst[1], **worst[0]}
+# the hole as an edge, at Kivu's last day
+F["holeK"] = state("kivu", endK, hole=True)
+print(json.dumps(F, indent=1))
+# how far the estimate at the last loss moves as the edge moves (2026 edges with at least 10 quiets)
+ps = [(s["pStar"], E.isoformat()) for E, s in
+      ((end26 - dt.timedelta(b), state("bdbv", end26 - dt.timedelta(b))) for b in range(0, 200))
+      if s and s["n"] >= 10]
+F["pStarRange26"] = {"min": min(ps), "max": max(ps), "edges": len(ps)}
+assert F["holeK"]["n"] == 58 and F["holeK"]["tStar"] == 532 and round(F["holeK"]["pStar"], 2) == 0.19
+assert F["worst26"]["date"] == "2026-10-03" and F["worst26"]["cutLaterBroke"] == 3 and F["worst26"]["cut"] == 12
+print("pStarRange26", F["pStarRange26"])
+data = {"source": {"path": "artifacts/cycle-012/the-last-case/quiets.json", "sha256": SHA,
+                   "upstream": D["source"]},
+        "records": R, "holeLast": HOLE_LAST.isoformat(), "facts": F,
+        "quiets": [{"rec": q["rec"], "z": q["z"], "f": q["f"], "L": len(q["k"]), "b": q["b"]} for q in Q]}
+open(os.path.join(HERE, "edge-data.js"), "w").write("window.EDGE=" + json.dumps(data, separators=(",", ":")) + ";\n")
