@@ -57,3 +57,14 @@ ten quiets, the later reading lay nearest carried at 22 and nearest lost at 22, 
 is vindicated: each is a wager on the edge, settled one edge at a time by a record under a rule of its own. Also:
 an opening line defines a quiet and the 42 days; the slider starts where a first quiet reaches 42; the "up to 0
 points" verdict is fixed; the old-count box moved into the method.
+
+**Fifth state: the judge's own rule** (2026-11-06, thirty-eighth session). The fourth state ended on a sentence the
+page could not yet show: the later record settles each wager "under a rule of its own". Now three buttons under the
+amber line read the later record as lost, carried or left out, and a count says at how many edges a month or more
+back (at least ten quiets) each judge finds the edge's rules nearest. Found (`build.py` asserts it): in 2026, over
+44 edges, the carried and lost judges name the same rule at all 44 and part by at most 0.8 points; the later record
+has watched those quiets a month longer and cuts almost none before the day read. The left-out judge finds for left
+out at 44 of 44. In Kivu, over 461 edges, carried and lost judges agree at 446; each leans to itself by a little
+(carried nearest 275 vs 262 times, lost 106 vs 92); the left-out judge finds for left out at 410, the others at 93
+and 94. A rule made the judge of the rules finds for itself: barely where the later record has watched long enough,
+wholly where the rule cannot see a quiet still running. A later record settles a wager only under a rule that can lose.

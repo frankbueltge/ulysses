@@ -11,6 +11,8 @@
   // off: where a quiet's day 1 falls. 0 = the day after the rise (corrected 2026-11-06, after the Studio's
   // check in CALL IT); 1 = the rise day itself, as this page counted until then.
   let off = 0;
+  // judge (fifth state): the rule the later record itself is read under, at the record's real last day
+  let judge = "lost";
 
   const Q = E.quiets.map(q => ({ ...q, f0: toD(q.f) }));
   function events(r, edge, h, o = off) {
@@ -37,6 +39,36 @@
     return { steps, tStar: last.t, isLoss: last.e === 0, pStar: steps.length ? steps[steps.length - 1][1] : 1 };
   }
   const stepAt = (steps, t) => { let s = 1; for (const [u, v] of steps) { if (u <= t) s = v; else break; } return s; };
+  // the later record's steps under a rule: lost (Kaplan and Meier), carried (its cut quiets never break),
+  // left out (only its broken quiets speak, so it falls to 0 on its last break)
+  function judgeSteps(ev2, j) {
+    if (j === "lost") return km(ev2).steps;
+    const d = ev2.filter(x => x.e).map(x => x.t).sort((a, b) => a - b), n = j === "carried" ? ev2.length : d.length;
+    const out = []; let c = 0;
+    for (const t of [...new Set(d)]) { c += d.filter(u => u === t).length; out.push([t, 1 - c / n]); }
+    return out;
+  }
+  // at every edge a month or more back with at least ten quiets: which rule of the edge lies nearest the later
+  // record read under each judge (build.py asserts the counts at the corrected count)
+  const tallyCache = {};
+  function tally(r) {
+    const key = r + off;
+    if (tallyCache[key]) return tallyCache[key];
+    const [a, b] = E.records[r].map(toD), endEv = events(r, b, false);
+    const T = { edges: 0, lost: { carried: 0, lost: 0, "left out": 0 }, carried: { carried: 0, lost: 0, "left out": 0 }, "left out": { carried: 0, lost: 0, "left out": 0 } };
+    for (let e = b - 30 * DAY; e > a; e -= DAY) {
+      const ev = events(r, e, false); if (ev.length < 10) continue;
+      T.edges++;
+      const ids = new Set(ev.map(x => x.q)), ev2 = endEv.filter(x => ids.has(x.q)), k = km(ev), t = k.tStar;
+      const rv = { carried: ev.filter(x => !x.e).length / ev.length, lost: stepAt(k.steps, t), "left out": 0 };
+      for (const j of ["lost", "carried", "left out"]) {
+        const v = stepAt(judgeSteps(ev2, j), t), d = {};
+        for (const q in rv) d[q] = Math.abs(rv[q] - v);
+        T[j][Object.keys(d).reduce((x, y) => d[y] < d[x] ? y : x)]++;
+      }
+    }
+    return (tallyCache[key] = T);
+  }
 
   // ---- the calendar ----
   const cal = $("cal"), cur = $("curve"), rng = $("edge");
@@ -130,11 +162,11 @@
     const lo = stepLine(out, nb ? deaths[nb - 1] : 42, css("--case"), [6, 4], 2); lab("left out", Y(lo) + (Math.abs(Y(lo) - Y(lc)) < 14 ? 14 : 0), css("--case"));
     // what the record later showed (fourth state): the same quiets read again at the record's own last day
     if (st.later) {
-      const lk = st.later, lt = Math.max(...lk.ev.map(x => x.t));
-      g.globalAlpha = .55; const lv = stepLine(lk.km.steps, lt, css("--a"), [1, 3], 5); g.globalAlpha = 1;
-      lab("later", Y(lv) + (Math.abs(Y(lv) - Y(lc)) < 14 ? -14 : 0), css("--a"));
+      const lk = st.later, lt = judge === "carried" ? maxT : Math.max(...lk.ev.filter(x => judge === "lost" || x.e).map(x => x.t).concat([42]));
+      g.globalAlpha = .55; const lv = stepLine(lk.steps, lt, css("--a"), [1, 3], 5); g.globalAlpha = 1;
+      { let y = Y(lv); while (Math.abs(y - Y(lc)) < 14 || Math.abs(y - Y(lo)) < 14) y -= 14; lab("later", y, css("--a")); }
       // the gap between the edge's rules and the later reading, on the last cut quiet's day
-      const x = X(k.tStar), yv = Y(stepAt(lk.km.steps, k.tStar));
+      const x = X(k.tStar), yv = Y(stepAt(lk.steps, k.tStar));
       g.fillStyle = css("--a"); g.beginPath(); g.arc(x, yv, 4.5, 0, 7); g.fill();
     }
     const ll = stepLine(k.steps, k.tStar, css("--fg"), [], 2.4);
@@ -237,7 +269,7 @@
     drawCal(); drawDay();
     const read = $("read");
     if (!ev.length) {
-      read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read."; $("fence").textContent = ""; $("later").textContent = ""; window.__edgeState = null;
+      read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read."; $("fence").textContent = ""; $("later").textContent = ""; $("judgeRead").textContent = ""; window.__edgeState = null;
       const [g, w, h] = size(cur); g.clearRect(0, 0, w, h);
       $("sCarried").textContent = $("sLost").textContent = $("sOut").textContent = ""; return;
     }
@@ -245,7 +277,7 @@
     let lat = null;
     if (!realEnd0) {
       const ids = new Set(ev.map(x => x.q)), ev2 = events(rec, toD(E.records[rec][1]), false).filter(x => ids.has(x.q));
-      lat = { ev: ev2, km: km(ev2) };
+      lat = { ev: ev2, steps: judgeSteps(ev2, judge) };
     }
     const st = { ev, km: km(ev), later: lat }; drawCurve(st);
     const cut = ev.filter(x => !x.e), later = cut.filter(x => x.q.b).length, broke = ev.length - cut.length;
@@ -255,10 +287,14 @@
         : `Of the ${cut.length} quiets this edge would carry as over, <b>${later}</b> broke later in the record.`);
     { const L2 = $("later");
       if (st.later) {
-        const t = st.km.tStar, v = stepAt(st.later.km.steps, t), c = cut.length / ev.length, l = stepAt(st.km.steps, t);
+        const t = st.km.tStar, v = stepAt(st.later.steps, t), c = cut.length / ev.length, l = stepAt(st.km.steps, t);
         const d = { carried: Math.abs(c - v), lost: Math.abs(l - v), "left out": v }, best = Object.keys(d).reduce((a, b) => d[b] < d[a] ? b : a);
-        L2.innerHTML = `<span class="sw"></span><b>What the record later showed.</b> The same ${ev.length} quiets, read again on the record's own last day, ${nice(toD(E.records[rec][1]))}: on day <b>${t}</b>, <b>${pct(v)} in 100</b> still quiet. At this edge carried said <b>${pct(c)}</b>, lost <b>${pct(l)}</b>, left out <b>0</b>. Nearest: <b>${best}</b>. The later reading is cut again by its own edge, so it is a second reading, not the truth.`;
+        const still = st.later.ev.filter(x => !x.e).length;
+        L2.innerHTML = `<span class="sw"></span><b>What the record later showed.</b> The same ${ev.length} quiets, read again on the record's own last day, ${nice(toD(E.records[rec][1]))}, by the rule <b>${judge}</b> (${still} of them are still quiet there, cut again): on day <b>${t}</b>, <b>${pct(v)} in 100</b> still quiet. At this edge carried said <b>${pct(c)}</b>, lost <b>${pct(l)}</b>, left out <b>0</b>. Nearest: <b>${best}</b>.` +
+          (judge === "left out" ? " Made the judge, left out can only find for itself: it reads the later record by dropping every quiet that has not broken." : " The later reading is cut again by its own edge, so it is a second reading under a rule, not the truth.");
       } else L2.innerHTML = `<span class="sw"></span>Move the edge back, and a fourth line shows what the record's later days wrote about the same quiets.`;
+      const T = tally(rec), J = T[judge];
+      $("judgeRead").innerHTML = `Over the <b>${T.edges}</b> edges of this record a month or more back with at least ten quiets, the later record read as <b>${judge}</b> lies nearest carried at <b>${J.carried}</b>, nearest lost at <b>${J.lost}</b>, nearest left out at <b>${J["left out"]}</b>.` + (rec === "kivu" ? " (Here the 94 days without a report are not an edge.)" : "");
     }
     const k = st.km;
     { const ev2 = events(rec, edgeT, rec === "kivu" && hole, 1 - off), cut2 = ev2.filter(x => !x.e), k2 = ev2.length ? km(ev2) : null;
@@ -287,7 +323,9 @@
   }
 
   { const L = E.facts.later;
-    $("laterFacts").innerHTML = `Move the edge back and the record's later days can be set beside the three rules. On 29 September, at the last cut quiet's day (${L.sep29.t}), carried said ${pct(L.sep29.carried)} in 100 still quiet, lost ${pct(L.sep29.lost)}, and the later record ${pct(L.sep29.later)}: carried read too much quiet. On 30 August, at day ${L.aug30.t}, lost said ${pct(L.aug30.lost)}, and the later record ${pct(L.aug30.later)}, as carried had: lost read too little. Over the ${L.near.carried + L.near.lost + L.near["left out"]} edges in 2026 a month or more back with at least ten quiets, the later reading lay nearest carried at ${L.near.carried} and nearest lost at ${L.near.lost}; left out was never nearest. No rule is the right one. Each is a wager on the edge, and the record that comes after settles it one edge at a time, under a rule of its own.`; }
+    $("laterFacts").innerHTML = `Move the edge back and the record's later days can be set beside the three rules. On 29 September, at the last cut quiet's day (${L.sep29.t}), carried said ${pct(L.sep29.carried)} in 100 still quiet, lost ${pct(L.sep29.lost)}, and the later record ${pct(L.sep29.later)}: carried read too much quiet. On 30 August, at day ${L.aug30.t}, lost said ${pct(L.aug30.lost)}, and the later record ${pct(L.aug30.later)}, as carried had: lost read too little. Over the ${L.near.carried + L.near.lost + L.near["left out"]} edges in 2026 a month or more back with at least ten quiets, the later reading lay nearest carried at ${L.near.carried} and nearest lost at ${L.near.lost}; left out was never nearest. No rule is the right one. Each is a wager on the edge, and the record that comes after settles it one edge at a time, under a rule of its own.`;
+    const J = E.facts.judge, B = J.bdbv, K = J.kivu;
+    $("judgeFacts").innerHTML = `That rule of its own can be changed. Read the later record as carried instead of lost, and in 2026 not one verdict moves: at all ${B.edges} edges the two judges name the same rule, and their readings part by at most ${(B.maxGapCarriedLost * 100).toFixed(1)} points, because the later record has watched these quiets a month longer and cuts almost none of them before the day that is read. Read it as left out, and left out is nearest at all ${B.tally["left out"]["left out"]}. In Kivu, over ${K.edges} edges, the carried and lost judges agree at ${K.agreeCarriedLost}; each leans to itself by a little (carried nearest at ${K.tally.carried.carried} under the carried judge and ${K.tally.lost.carried} under lost; lost nearest at ${K.tally.lost.lost} under lost and ${K.tally.carried.lost} under carried); the left-out judge finds for left out at ${K.tally["left out"]["left out"]}, where the other two judges find for it at ${K.tally.lost["left out"]} and ${K.tally.carried["left out"]}. A rule made the judge of the rules finds for itself: barely, where the later record has watched long enough for its own edge not to bite; wholly, where the rule is the one that cannot see a quiet still running. A later record can settle a wager only under a rule that can lose.`; }
   // ---- controls ----
   const first = {};
   for (const r of ["bdbv", "kivu"]) { const a = toD(E.records[r][0]); let d = 0; while (!events(r, a + d * DAY, false, 0).length) d++; first[r] = d; }
@@ -301,6 +339,9 @@
   }
   $("r26").onclick = () => pick("bdbv"); $("rK").onclick = () => pick("kivu");
   $("hole").onchange = e => { hole = e.target.checked; render(); };
+  for (const b of document.querySelectorAll("[data-j]")) b.onclick = () => {
+    judge = b.dataset.j; for (const c of document.querySelectorAll("[data-j]")) c.setAttribute("aria-pressed", c === b); render();
+  };
   $("day1").onchange = e => { off = e.target.checked ? 1 : 0; render(); };
   rng.oninput = () => { edgeT = span()[0] + rng.value * DAY; render(); };
   const dragTo = ev => {
@@ -320,6 +361,7 @@
   cur.addEventListener("pointerleave", () => { probeDay = null; render(); });
   window.addEventListener("resize", render);
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+  window.__edgeJudge = j => { document.querySelector(`[data-j="${j}"]`).click(); return { later: $("later").textContent, tally: tally(rec)[judge], edges: tally(rec).edges }; };
   window.__edgeSet = (r, d, h, o) => { pick(r); hole = !!h; $("hole").checked = hole; off = o ? 1 : 0; $("day1").checked = !!o; edgeT = toD(d); setRange(); render(); return { edge: window.__edgeState, day: window.__dayState }; };
   { const R = E.facts.ruleDay;
     $("dayFacts").innerHTML = `${pct(R.k42.lost)} in 100 quiets that reached 42 days broke within 90 days, ${pct(R.k63.lost)} in 100 of those that reached day 63, and the share falls below 1 in 10 only for quiets that reached day ${R.kTenth}. Counting the 94 days without a report as an edge raises the first figure to ${pct(R.h42.lost)} (lost) or ${pct(R.h42.out)} (left out).`; }

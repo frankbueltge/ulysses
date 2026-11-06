@@ -44,3 +44,7 @@ a{color:var(--you)}
 .k.later{border-color:var(--a);border-top-width:4px;border-top-style:dotted}
 .sw{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--a);margin-right:6px;vertical-align:0}
 .corrbox{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin:12px 0;max-width:44em}
+.controls.judge{margin:4px 0 0;gap:8px}
+.controls.judge .jl{color:var(--mute)}
+.controls.judge button{font-size:13px;padding:5px 12px;border-color:var(--a)}
+.controls.judge button[aria-pressed="true"]{background:var(--a);color:var(--n)}

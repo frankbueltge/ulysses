@@ -215,6 +215,54 @@ assert near == {"carried": 22, "lost": 22, "left out": 0}
 LT["near"] = near
 print("later", LT)
 F["later"] = LT
+# ---- fifth state (session 38): the judge's own rule ----
+# The later reading above is itself read under a rule, at the record's real last day. Read it as carried, lost or
+# left out in turn, and ask again at every edge a month or more back (at least ten quiets) which rule of the edge
+# lies nearest. Left out read as judge sees only quiets that broke, so on the last cut quiet's day it says 0.
+def judge_value(ev2, t, j):
+    if j == "lost":
+        return surv_at(ev2, t)
+    if j == "carried":
+        return 1 - sum(1 for x in ev2 if x[1] and x[0] <= t) / len(ev2)
+    br = [x for x in ev2 if x[1]]
+    return sum(1 for x in br if x[0] > t) / len(br)
+
+
+def judges(rec):
+    end = end26 if rec == "bdbv" else endK
+    tab = {j: {"carried": 0, "lost": 0, "left out": 0} for j in ("lost", "carried", "left out")}
+    n = agree = 0
+    gap = 0.0
+    for b in range(30, (end - day(R[rec][0])).days):
+        E = end - dt.timedelta(b)
+        ev, ev2 = later(rec, E)
+        if len(ev) < 10:
+            continue
+        n += 1
+        t = km(ev)[1]
+        r = {"carried": sum(1 for x in ev if not x[1]) / len(ev), "lost": surv_at(ev, t), "left out": 0.0}
+        win = {}
+        for j in tab:
+            v = judge_value(ev2, t, j)
+            d = {k: abs(x - v) for k, x in r.items()}
+            win[j] = min(d, key=d.get)
+            tab[j][win[j]] += 1
+        agree += win["carried"] == win["lost"]
+        gap = max(gap, abs(judge_value(ev2, t, "carried") - judge_value(ev2, t, "lost")))
+    return {"edges": n, "tally": tab, "agreeCarriedLost": agree, "maxGapCarriedLost": round(gap, 3)}
+
+
+JG = {"bdbv": judges("bdbv"), "kivu": judges("kivu")}
+assert JG["bdbv"]["edges"] == 44 and JG["bdbv"]["tally"]["lost"] == LT["near"]
+assert JG["bdbv"]["tally"]["carried"] == {"carried": 22, "lost": 22, "left out": 0}
+assert JG["bdbv"]["tally"]["left out"] == {"carried": 0, "lost": 0, "left out": 44}
+assert JG["bdbv"]["agreeCarriedLost"] == 44 and JG["bdbv"]["maxGapCarriedLost"] == 0.008
+assert JG["kivu"]["edges"] == 461 and JG["kivu"]["agreeCarriedLost"] == 446
+assert JG["kivu"]["tally"]["lost"] == {"carried": 262, "lost": 106, "left out": 93}
+assert JG["kivu"]["tally"]["carried"] == {"carried": 275, "lost": 92, "left out": 94}
+assert JG["kivu"]["tally"]["left out"] == {"carried": 3, "lost": 48, "left out": 410}
+print("judges", JG)
+F["judge"] = JG
 data = {"source": {"path": "artifacts/cycle-012/the-last-case/quiets.json", "sha256": SHA,
                    "upstream": D["source"]},
         "records": R, "W": W, "holeLast": HOLE_LAST.isoformat(), "facts": F,
