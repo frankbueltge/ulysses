@@ -37,3 +37,5 @@ input[type=range]{width:100%;margin:6px 0 2px;accent-color:var(--cut)}
 .text{max-width:44em}.text.small{font-size:15px;color:var(--mute)}
 a{color:var(--you)}
 @media (max-width:700px){h1{font-size:34px}.lede{font-size:17px}.rules{grid-template-columns:1fr}}
+.stage h2.in{margin:0 0 .4em}
+#day{margin:12px 0 4px;cursor:crosshair}
