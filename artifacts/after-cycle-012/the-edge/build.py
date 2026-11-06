@@ -168,6 +168,53 @@ assert RD["b70"]["lost"] is None
 assert RD["s42"]["lost"] is None and RD["s42"]["out"] == 1.0
 print("ruleDay", RD)
 F["ruleDay"] = RD
+# ---- fourth state (session 37): what the record later showed ----
+# For an edge E moved back, the same quiets (those that had reached 42 days by E) read again at the record's
+# own last day. This is not the truth about them: it is the lost rule with more days, and at the real last day
+# it is cut again. It is what the page can set beside the three rules as the later record's own reading.
+def surv_at(ev, t):
+    S, n = 1.0, len(ev)
+    for u in sorted({x[0] for x in ev}):
+        if u > t:
+            break
+        d = sum(1 for x in ev if x[0] == u and x[1])
+        if d:
+            S *= 1 - d / n
+        n -= sum(1 for x in ev if x[0] == u)
+    return S
+
+
+def later(rec, E, hole=False):
+    ev = events(rec, E, hole)
+    ids = {id(q) for _, _, q in ev}
+    end = end26 if rec == "bdbv" else endK
+    return ev, [x for x in events(rec, end, False) if id(x[2]) in ids]
+
+
+LT = {}
+for key, E in (("aug30", "2026-08-30"), ("sep29", "2026-09-29")):
+    ev, ev2 = later("bdbv", day(E))
+    t = km(ev)[1]
+    LT[key] = {"t": t, "carried": round(sum(1 for x in ev if not x[1]) / len(ev), 3),
+               "lost": round(surv_at(ev, t), 3), "later": round(surv_at(ev2, t), 3)}
+assert LT["aug30"] == {"t": 94, "carried": 0.364, "lost": 0.173, "later": 0.364}
+assert LT["sep29"] == {"t": 124, "carried": 0.588, "lost": 0.483, "later": 0.403}
+# at every 2026 edge a month or more back with at least ten quiets: which rule's value at the last cut quiet
+# lies nearest the later record's reading of the same quiets on the same day (ties to the first named)
+near = {"carried": 0, "lost": 0, "left out": 0}
+for b in range(30, 200):
+    E = end26 - dt.timedelta(b)
+    ev, ev2 = later("bdbv", E)
+    if len(ev) < 10:
+        continue
+    t = km(ev)[1]
+    v = surv_at(ev2, t)
+    d = {"carried": abs(sum(1 for x in ev if not x[1]) / len(ev) - v), "lost": abs(surv_at(ev, t) - v), "left out": v}
+    near[min(d, key=d.get)] += 1
+assert near == {"carried": 22, "lost": 22, "left out": 0}
+LT["near"] = near
+print("later", LT)
+F["later"] = LT
 data = {"source": {"path": "artifacts/cycle-012/the-last-case/quiets.json", "sha256": SHA,
                    "upstream": D["source"]},
         "records": R, "W": W, "holeLast": HOLE_LAST.isoformat(), "facts": F,

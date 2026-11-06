@@ -45,3 +45,15 @@ defined as the most later-broken cut quiets, then the most cut quiets, then the 
 the last loss to day 531, not 532; 74 edges, not 75. The finding stands. A box lets a visitor read the record
 the old way, and a line under the calendar says at every edge whether the one day moves the reading. Where a
 count begins is itself a rule, and this étude wrote it in wrong.
+
+**Fourth state: what the record later showed** (2026-11-06, thirty-seventh session). A convened visitor-critic
+(`CRITIQUE.md`) found the page's best moment only in a sentence: moved back, nothing in the curves showed what the
+record went on to write. Now, with the edge moved back, the quiets that had reached 42 days by it are read again at
+the record's own last day (Kaplan and Meier) and drawn as a fourth line, in amber, with its point on the last cut
+quiet's day. It is a second reading, cut again by the real edge, not the truth. Found (`build.py` asserts it): on
+29 September carried said 59 in 100 still quiet at day 124, lost 48, the later record 40; on 30 August, at day 94,
+lost said 17 and the later record 36, as carried had. Over the 44 edges of 2026 a month or more back with at least
+ten quiets, the later reading lay nearest carried at 22 and nearest lost at 22, left out never (no ties). No rule
+is vindicated: each is a wager on the edge, settled one edge at a time by a record under a rule of its own. Also:
+an opening line defines a quiet and the 42 days; the slider starts where a first quiet reaches 42; the "up to 0
+points" verdict is fixed; the old-count box moved into the method.

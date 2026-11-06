@@ -128,6 +128,15 @@
     for (const t of [...new Set(deaths)]) { dc += deaths.filter(u => u === t).length; carried.push([t, 1 - dc / n]); out.push([t, nb ? 1 - dc / nb : 1]); }
     const lc = stepLine(carried, maxT, css("--held"), [], 2.2); lab("carried", Y(lc), css("--held"));
     const lo = stepLine(out, nb ? deaths[nb - 1] : 42, css("--case"), [6, 4], 2); lab("left out", Y(lo) + (Math.abs(Y(lo) - Y(lc)) < 14 ? 14 : 0), css("--case"));
+    // what the record later showed (fourth state): the same quiets read again at the record's own last day
+    if (st.later) {
+      const lk = st.later, lt = Math.max(...lk.ev.map(x => x.t));
+      g.globalAlpha = .55; const lv = stepLine(lk.km.steps, lt, css("--a"), [1, 3], 5); g.globalAlpha = 1;
+      lab("later", Y(lv) + (Math.abs(Y(lv) - Y(lc)) < 14 ? -14 : 0), css("--a"));
+      // the gap between the edge's rules and the later reading, on the last cut quiet's day
+      const x = X(k.tStar), yv = Y(stepAt(lk.km.steps, k.tStar));
+      g.fillStyle = css("--a"); g.beginPath(); g.arc(x, yv, 4.5, 0, 7); g.fill();
+    }
     const ll = stepLine(k.steps, k.tStar, css("--fg"), [], 2.4);
     g.fillStyle = css("--fg"); g.beginPath(); g.arc(X(k.tStar), Y(ll), 3.5, 0, 7); g.fill();
     if (probeDay != null && probeDay >= 42 && probeDay <= maxT) {
@@ -210,9 +219,9 @@
     const f = v => v == null ? "undefined" : pct(v) + " in 100";
     const tell = (T, r) => r ? `Day <b>${T}</b>: <b>${r.n}</b> quiets had reached it, and the window of ${W} days after it is closed at the edge for <b>${r.known}</b>. Broke within it: carried <b>${f(r.carried)}</b> · lost <b>${f(r.lost)}</b> · left out <b>${r.out == null ? "nothing to say" : f(r.out)}</b>.` : `Day <b>${T}</b>: no quiet had reached it by this edge.`;
     $("dayRead").innerHTML = rp !== null && probeT != null ? tell(probeT, rp) : (r42 ? tell(42, r42) : "At this edge no quiet has yet reached 42 days.");
-    let spread = 0; for (const [, r] of rows) if (r && r.out != null && r.lost != null) spread = Math.max(spread, r.out - r.carried);
+    let spread = 0; for (const [, r] of rows) if (r && r.out != null) spread = Math.max(spread, r.out - r.carried);
     const tenth = rows.find(([, r]) => r && r.lost != null && r.lost < .1);
-    $("dayVerdict").innerHTML = (r42 && r42.out != null && r42.out - r42.carried < .05)
+    $("dayVerdict").innerHTML = !r42 ? "At this edge no quiet has reached 42 days, so no rule has anything to say." : (r42 && r42.out != null && r42.out - r42.carried < .05)
       ? `Here the three rules almost agree: the edge lies far beyond most of the windows. ${tenth ? `The lost curve falls below 1 in 10 from day <b>${tenth[0]}</b>.` : "Up to day 120 it never falls below 1 in 10."}`
       : `Here the rules part by up to <b>${pct(spread)}</b> points on the same day: the edge cuts the windows, and how long is long enough is decided by the rule for the cut, not by the quiets. ${tenth ? `The lost curve falls below 1 in 10 from day <b>${tenth[0]}</b>.` : "No rule-day up to 120 brings the lost curve below 1 in 10 before it becomes undefined."}`;
     window.__dayState = r42 ? { n: r42.n, known: r42.known, carried: Math.round(r42.carried * 1000) / 1000, out: r42.out == null ? null : Math.round(r42.out * 1000) / 1000, lost: r42.lost == null ? null : Math.round(r42.lost * 1000) / 1000, tenth: tenth ? tenth[0] : null } : null;
@@ -228,20 +237,33 @@
     drawCal(); drawDay();
     const read = $("read");
     if (!ev.length) {
-      read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read."; $("fence").textContent = "";
+      read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read."; $("fence").textContent = ""; $("later").textContent = ""; window.__edgeState = null;
       const [g, w, h] = size(cur); g.clearRect(0, 0, w, h);
       $("sCarried").textContent = $("sLost").textContent = $("sOut").textContent = ""; return;
     }
-    const st = { ev, km: km(ev) }; drawCurve(st);
+    const realEnd0 = edgeT >= toD(E.records[rec][1]);
+    let lat = null;
+    if (!realEnd0) {
+      const ids = new Set(ev.map(x => x.q)), ev2 = events(rec, toD(E.records[rec][1]), false).filter(x => ids.has(x.q));
+      lat = { ev: ev2, km: km(ev2) };
+    }
+    const st = { ev, km: km(ev), later: lat }; drawCurve(st);
     const cut = ev.filter(x => !x.e), later = cut.filter(x => x.q.b).length, broke = ev.length - cut.length;
     const realEnd = edgeT >= toD(E.records[rec][1]);
     read.innerHTML = `Edge: <b>${nice(edgeT)}</b>. <b>${ev.length}</b> quiets had reached 42 days: <b>${broke}</b> broke before the edge, <b>${cut.length}</b> are cut by it. ` +
       (realEnd ? "This is the record's own last day: what the cut quiets become, nobody here can know."
         : `Of the ${cut.length} quiets this edge would carry as over, <b>${later}</b> broke later in the record.`);
+    { const L2 = $("later");
+      if (st.later) {
+        const t = st.km.tStar, v = stepAt(st.later.km.steps, t), c = cut.length / ev.length, l = stepAt(st.km.steps, t);
+        const d = { carried: Math.abs(c - v), lost: Math.abs(l - v), "left out": v }, best = Object.keys(d).reduce((a, b) => d[b] < d[a] ? b : a);
+        L2.innerHTML = `<span class="sw"></span><b>What the record later showed.</b> The same ${ev.length} quiets, read again on the record's own last day, ${nice(toD(E.records[rec][1]))}: on day <b>${t}</b>, <b>${pct(v)} in 100</b> still quiet. At this edge carried said <b>${pct(c)}</b>, lost <b>${pct(l)}</b>, left out <b>0</b>. Nearest: <b>${best}</b>. The later reading is cut again by its own edge, so it is a second reading, not the truth.`;
+      } else L2.innerHTML = `<span class="sw"></span>Move the edge back, and a fourth line shows what the record's later days wrote about the same quiets.`;
+    }
     const k = st.km;
     { const ev2 = events(rec, edgeT, rec === "kivu" && hole, 1 - off), cut2 = ev2.filter(x => !x.e), k2 = ev2.length ? km(ev2) : null;
       const same = ev2.length === ev.length && cut2.length === cut.length && cut2.filter(x => x.q.b).length === later && k2 && k2.tStar === k.tStar;
-      const who = off ? "Counted from the day after the rise, as it should be," : "Counted from the rise day itself, as this page did until 6 November,";
+      const who = off ? "With the correct count (from the day after the rise)," : "With the old count (from the rise day itself),";
       $("fence").innerHTML = `${who} the same edge reads ` + (ev2.length ? `<b>${ev2.length}</b> quiets past 42 days, <b>${cut2.length}</b> cut, <b>${cut2.filter(x => x.q.b).length}</b> of them broke later; last cut quiet on day <b>${k2.tStar}</b>. ` : "no quiet past 42 days. ") +
         (same ? "Here the one day changes nothing a curve shows." : "<b>Here the one day moves the reading.</b>"); }
     $("sCarried").innerHTML = `No quiet the edge cut ever breaks. The curve never falls below <b>${pct(cut.length / ev.length)} in 100</b>, and it runs on for ever.`;
@@ -264,9 +286,13 @@
       `In Kivu, counting the 94 days without a report as an edge cuts every quiet watched across them on 7 March 2020: ${F.fullK.n - F.holeK.n} quiets fall below 42 days and leave, and the last cut quiet comes on day ${F.holeK.tStar} instead of ${F.fullK.tStar}, at ${pct(F.holeK.pStar)} in 100 instead of ${pct(F.fullK.pStar)}.`;
   }
 
+  { const L = E.facts.later;
+    $("laterFacts").innerHTML = `Move the edge back and the record's later days can be set beside the three rules. On 29 September, at the last cut quiet's day (${L.sep29.t}), carried said ${pct(L.sep29.carried)} in 100 still quiet, lost ${pct(L.sep29.lost)}, and the later record ${pct(L.sep29.later)}: carried read too much quiet. On 30 August, at day ${L.aug30.t}, lost said ${pct(L.aug30.lost)}, and the later record ${pct(L.aug30.later)}, as carried had: lost read too little. Over the ${L.near.carried + L.near.lost + L.near["left out"]} edges in 2026 a month or more back with at least ten quiets, the later reading lay nearest carried at ${L.near.carried} and nearest lost at ${L.near.lost}; left out was never nearest. No rule is the right one. Each is a wager on the edge, and the record that comes after settles it one edge at a time, under a rule of its own.`; }
   // ---- controls ----
+  const first = {};
+  for (const r of ["bdbv", "kivu"]) { const a = toD(E.records[r][0]); let d = 0; while (!events(r, a + d * DAY, false, 0).length) d++; first[r] = d; }
   function setRange() {
-    const [a, b] = span(); rng.min = 0; rng.max = Math.round((b - a) / DAY); rng.value = Math.round((edgeT - a) / DAY);
+    const [a, b] = span(); rng.min = first[rec]; rng.max = Math.round((b - a) / DAY); rng.value = Math.round((edgeT - a) / DAY);
   }
   function pick(r) {
     rec = r; edgeT = span()[1];
@@ -280,7 +306,7 @@
   const dragTo = ev => {
     const r = cal.getBoundingClientRect(), [a, b] = span(), pad = 8;
     const f = Math.max(0, Math.min(1, (ev.clientX - r.left - pad) / (r.width - 2 * pad)));
-    edgeT = a + Math.round(f * (b - a) / DAY) * DAY; setRange(); render();
+    edgeT = a + Math.max(first[rec], Math.round(f * (b - a) / DAY)) * DAY; setRange(); render();
   };
   let dragging = false;
   cal.addEventListener("pointerdown", e => { dragging = true; cal.setPointerCapture(e.pointerId); dragTo(e); });
