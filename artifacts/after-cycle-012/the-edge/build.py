@@ -231,8 +231,10 @@ def judge_value(ev2, t, j):
 def judges(rec):
     end = end26 if rec == "bdbv" else endK
     tab = {j: {"carried": 0, "lost": 0, "left out": 0} for j in ("lost", "carried", "left out")}
-    n = agree = 0
+    n = agree = apart = 0
     gap = 0.0
+    split = []  # sixth state: the edges at which the carried and lost judges part
+    seq = []    # sixth state: the lost judge's verdict at each edge, in calendar order
     for b in range(30, (end - day(R[rec][0])).days):
         E = end - dt.timedelta(b)
         ev, ev2 = later(rec, E)
@@ -248,8 +250,23 @@ def judges(rec):
             win[j] = min(d, key=d.get)
             tab[j][win[j]] += 1
         agree += win["carried"] == win["lost"]
+        apart += win["left out"] not in (win["carried"], win["lost"])
+        seq.append((E.isoformat(), win["lost"]))
+        if win["carried"] != win["lost"]:
+            split.append(E.isoformat())
         gap = max(gap, abs(judge_value(ev2, t, "carried") - judge_value(ev2, t, "lost")))
-    return {"edges": n, "tally": tab, "agreeCarriedLost": agree, "maxGapCarriedLost": round(gap, 3)}
+    split.sort()
+    seq.sort()
+    runs = []
+    for d, w in seq:
+        if runs and runs[-1][2] == w:
+            runs[-1][1] = d
+        else:
+            runs.append([d, d, w])
+    longest = max(runs, key=lambda x: (day(x[1]) - day(x[0])).days)
+    return {"edges": n, "tally": tab, "agreeCarriedLost": agree, "maxGapCarriedLost": round(gap, 3),
+            "outApart": apart, "split": [split[0], split[-1]] if split else None, "splitN": len(split), "splitDays": split,
+            "lostRuns": len(runs), "lostLongest": longest}
 
 
 JG = {"bdbv": judges("bdbv"), "kivu": judges("kivu")}
@@ -261,6 +278,15 @@ assert JG["kivu"]["edges"] == 461 and JG["kivu"]["agreeCarriedLost"] == 446
 assert JG["kivu"]["tally"]["lost"] == {"carried": 262, "lost": 106, "left out": 93}
 assert JG["kivu"]["tally"]["carried"] == {"carried": 275, "lost": 92, "left out": 94}
 assert JG["kivu"]["tally"]["left out"] == {"carried": 3, "lost": 48, "left out": 410}
+# sixth state: the strip of verdicts. In Kivu the left-out judge names a rule neither other judge names at 331 of
+# 461 edges; the carried and lost judges part at 15: once on 1 August 2019, and at the last 14 edges judged
+# (5 to 18 May 2020), where the later record has watched only a month more, each finding for itself; the lost judge's
+# verdict runs in 11 seasons, the longest 'carried' from 12 September 2019 to 4 May 2020.
+assert JG["bdbv"]["outApart"] == 44 and JG["bdbv"]["splitN"] == 0
+assert JG["kivu"]["splitDays"] == ["2019-08-01"] + ["2020-05-%02d" % d for d in range(5, 19)]
+assert JG["kivu"]["outApart"] == 331 and JG["kivu"]["splitN"] == 15 and JG["kivu"]["split"] == ["2019-08-01", "2020-05-18"]
+assert JG["bdbv"]["lostRuns"] == 4 and JG["bdbv"]["lostLongest"] == ["2026-08-17", "2026-09-06", "carried"]
+assert JG["kivu"]["lostRuns"] == 11 and JG["kivu"]["lostLongest"] == ["2019-09-12", "2020-05-04", "carried"]
 print("judges", JG)
 F["judge"] = JG
 data = {"source": {"path": "artifacts/cycle-012/the-last-case/quiets.json", "sha256": SHA,

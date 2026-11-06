@@ -55,20 +55,68 @@
     const key = r + off;
     if (tallyCache[key]) return tallyCache[key];
     const [a, b] = E.records[r].map(toD), endEv = events(r, b, false);
-    const T = { edges: 0, lost: { carried: 0, lost: 0, "left out": 0 }, carried: { carried: 0, lost: 0, "left out": 0 }, "left out": { carried: 0, lost: 0, "left out": 0 } };
+    const T = { edges: 0, at: [], lost: { carried: 0, lost: 0, "left out": 0 }, carried: { carried: 0, lost: 0, "left out": 0 }, "left out": { carried: 0, lost: 0, "left out": 0 } };
     for (let e = b - 30 * DAY; e > a; e -= DAY) {
       const ev = events(r, e, false); if (ev.length < 10) continue;
       T.edges++;
       const ids = new Set(ev.map(x => x.q)), ev2 = endEv.filter(x => ids.has(x.q)), k = km(ev), t = k.tStar;
       const rv = { carried: ev.filter(x => !x.e).length / ev.length, lost: stepAt(k.steps, t), "left out": 0 };
+      const at = { e };
       for (const j of ["lost", "carried", "left out"]) {
         const v = stepAt(judgeSteps(ev2, j), t), d = {};
         for (const q in rv) d[q] = Math.abs(rv[q] - v);
-        T[j][Object.keys(d).reduce((x, y) => d[y] < d[x] ? y : x)]++;
+        const w = Object.keys(d).reduce((x, y) => d[y] < d[x] ? y : x);
+        T[j][w]++; at[j] = w;
       }
+      T.at.push(at);
     }
     return (tallyCache[key] = T);
   }
+
+  // ---- the verdicts (sixth state): at every counted edge, the rule each judge finds nearest, on the calendar's axis ----
+  const vc = $("verdicts"), JUDGES = ["lost", "carried", "left out"];
+  let vgeom = null, vprobe = null;
+  const ruleCol = r => css(r === "carried" ? "--held" : r === "lost" ? "--fg" : "--case");
+  function drawVerdicts() {
+    const [g, w, h] = size(vc), [a, b] = span(), pad = 8, top = 4, lab = 16, rowH = (h - top - lab - 6) / 3;
+    const X = t => pad + (t - a) / (b - a) * (w - 2 * pad), cw = Math.max(1, (w - 2 * pad) / ((b - a) / DAY));
+    const T = tally(rec);
+    vgeom = { X, a, b, pad, w, T };
+    g.clearRect(0, 0, w, h);
+    JUDGES.forEach((j, i) => {
+      const y = top + i * rowH;
+      g.fillStyle = css("--line"); g.globalAlpha = .5; g.fillRect(pad, y + 1, w - 2 * pad, rowH - 2); g.globalAlpha = 1;
+      for (const at of T.at) { g.fillStyle = ruleCol(at[j]); g.globalAlpha = j === judge ? 1 : .55; g.fillRect(Math.floor(X(at.e) - cw / 2), y + 1, Math.ceil(cw) + 1, rowH - 2); }
+      g.globalAlpha = 1;
+      if (j === judge) { g.strokeStyle = css("--a"); g.lineWidth = 2; g.strokeRect(pad - 1, y, w - 2 * pad + 2, rowH); }
+      g.fillStyle = css("--bg"); g.globalAlpha = .8; g.font = "600 11px system-ui,sans-serif";
+      const t = "judged " + j, tw = g.measureText(t).width; g.fillRect(pad + 3, y + rowH / 2 - 8, tw + 8, 15); g.globalAlpha = 1;
+      g.fillStyle = css("--fg"); g.textAlign = "left"; g.fillText(t, pad + 7, y + rowH / 2 + 4);
+    });
+    const ex = X(edgeT), yb = top + 3 * rowH;
+    g.strokeStyle = css("--cut"); g.lineWidth = 2; g.beginPath(); g.moveTo(ex, top - 2); g.lineTo(ex, yb + 3); g.stroke();
+    if (vprobe != null) { const px = X(vprobe.e); g.strokeStyle = css("--you"); g.lineWidth = 1; g.setLineDash([2, 3]); g.beginPath(); g.moveTo(px, top); g.lineTo(px, yb); g.stroke(); g.setLineDash([]); }
+    g.fillStyle = css("--mute"); g.font = "11px system-ui,sans-serif"; g.textAlign = "left"; g.fillText(nice(a), pad, h - 3);
+    g.textAlign = "right"; g.fillText(nice(b), w - pad, h - 3);
+    const lastCounted = T.at.length ? Math.max(...T.at.map(x => x.e)) : b;
+    if (X(b) - X(lastCounted) > 70) { g.textAlign = "center"; g.fillText("last month: not judged", (X(lastCounted) + X(b)) / 2, top + 1.5 * rowH + 4); }
+    // where the judges part, at the shown edge or the pointed one
+    const all = T.at.filter(x => x["left out"] !== x.lost && x["left out"] !== x.carried).length;
+    const agreeCL = T.at.filter(x => x.lost === x.carried).length;
+    const here = vprobe || T.at.find(x => x.e === edgeT);
+    $("verdictRead").innerHTML = (here ? `<b>${nice(here.e)}</b>: judged lost, <b>${here.lost}</b> is nearest; judged carried, <b>${here.carried}</b>; judged left out, <b>${here["left out"]}</b>. ` : "At this edge no verdict is counted (fewer than ten quiets, or less than a month before the record's last day). ") +
+      `Across the strip the carried and lost rows match at <b>${agreeCL}</b> of <b>${T.edges}</b> edges; the left-out row names a rule neither of them names at <b>${all}</b>. Point at the strip to read an edge; click to move the edge there.`;
+    window.__verdicts = { edges: T.edges, agreeCL, differ: all, rows: Object.fromEntries(JUDGES.map(j => [j, T[j]])) };
+  }
+  const vAt = ev => {
+    if (!vgeom) return null; const r = vc.getBoundingClientRect(), x = ev.clientX - r.left, { a, b, pad, w, T } = vgeom;
+    const t = a + (x - pad) / (w - 2 * pad) * (b - a); let best = null;
+    for (const at of T.at) if (!best || Math.abs(at.e - t) < Math.abs(best.e - t)) best = at;
+    return best && Math.abs(best.e - t) < 6 * DAY ? best : null;
+  };
+  vc.addEventListener("pointermove", e => { vprobe = vAt(e); drawVerdicts(); });
+  vc.addEventListener("pointerleave", () => { vprobe = null; drawVerdicts(); });
+  vc.addEventListener("click", e => { const at = vAt(e); if (!at) return; edgeT = at.e; vprobe = null; setRange(); render(); });
 
   // ---- the calendar ----
   const cal = $("cal"), cur = $("curve"), rng = $("edge");
@@ -266,7 +314,7 @@
   day.addEventListener("pointerleave", () => { probeT = null; drawDay(); });
   function render() {
     const ev = events(rec, edgeT, rec === "kivu" && hole);
-    drawCal(); drawDay();
+    drawCal(); drawDay(); drawVerdicts();
     const read = $("read");
     if (!ev.length) {
       read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read."; $("fence").textContent = ""; $("later").textContent = ""; $("judgeRead").textContent = ""; window.__edgeState = null;
@@ -325,7 +373,9 @@
   { const L = E.facts.later;
     $("laterFacts").innerHTML = `Move the edge back and the record's later days can be set beside the three rules. On 29 September, at the last cut quiet's day (${L.sep29.t}), carried said ${pct(L.sep29.carried)} in 100 still quiet, lost ${pct(L.sep29.lost)}, and the later record ${pct(L.sep29.later)}: carried read too much quiet. On 30 August, at day ${L.aug30.t}, lost said ${pct(L.aug30.lost)}, and the later record ${pct(L.aug30.later)}, as carried had: lost read too little. Over the ${L.near.carried + L.near.lost + L.near["left out"]} edges in 2026 a month or more back with at least ten quiets, the later reading lay nearest carried at ${L.near.carried} and nearest lost at ${L.near.lost}; left out was never nearest. No rule is the right one. Each is a wager on the edge, and the record that comes after settles it one edge at a time, under a rule of its own.`;
     const J = E.facts.judge, B = J.bdbv, K = J.kivu;
-    $("judgeFacts").innerHTML = `That rule of its own can be changed. Read the later record as carried instead of lost, and in 2026 not one verdict moves: at all ${B.edges} edges the two judges name the same rule, and their readings part by at most ${(B.maxGapCarriedLost * 100).toFixed(1)} points, because the later record has watched these quiets a month longer and cuts almost none of them before the day that is read. Read it as left out, and left out is nearest at all ${B.tally["left out"]["left out"]}. In Kivu, over ${K.edges} edges, the carried and lost judges agree at ${K.agreeCarriedLost}; each leans to itself by a little (carried nearest at ${K.tally.carried.carried} under the carried judge and ${K.tally.lost.carried} under lost; lost nearest at ${K.tally.lost.lost} under lost and ${K.tally.carried.lost} under carried); the left-out judge finds for left out at ${K.tally["left out"]["left out"]}, where the other two judges find for it at ${K.tally.lost["left out"]} and ${K.tally.carried["left out"]}. A rule made the judge of the rules finds for itself: barely, where the later record has watched long enough for its own edge not to bite; wholly, where the rule is the one that cannot see a quiet still running. A later record can settle a wager only under a rule that can lose.`; }
+    $("judgeFacts").innerHTML = `That rule of its own can be changed. Read the later record as carried instead of lost, and in 2026 not one verdict moves: at all ${B.edges} edges the two judges name the same rule, and their readings part by at most ${(B.maxGapCarriedLost * 100).toFixed(1)} points, because the later record has watched these quiets a month longer and cuts almost none of them before the day that is read. Read it as left out, and left out is nearest at all ${B.tally["left out"]["left out"]}. In Kivu, over ${K.edges} edges, the carried and lost judges agree at ${K.agreeCarriedLost}; each leans to itself by a little (carried nearest at ${K.tally.carried.carried} under the carried judge and ${K.tally.lost.carried} under lost; lost nearest at ${K.tally.lost.lost} under lost and ${K.tally.carried.lost} under carried); the left-out judge finds for left out at ${K.tally["left out"]["left out"]}, where the other two judges find for it at ${K.tally.lost["left out"]} and ${K.tally.carried["left out"]}. A rule made the judge of the rules finds for itself: barely, where the later record has watched long enough for its own edge not to bite; wholly, where the rule is the one that cannot see a quiet still running. A later record can settle a wager only under a rule that can lose.`;
+    const lr = x => `${nice(toD(x[0]))} to ${nice(toD(x[1]))}`;
+    $("stripFacts").innerHTML = `Set out edge by edge, in the strip under the buttons, the verdicts are not scattered. They come in seasons. In 2026 the lost judge's verdict changes only ${B.lostRuns - 1} times over ${B.edges} edges; its longest run, ${B.lostLongest[2]}, lasts from ${lr(B.lostLongest)}. In Kivu it changes ${K.lostRuns - 1} times over ${K.edges} edges, and one run, ${K.lostLongest[2]}, holds from ${lr(K.lostLongest)}: for nearly eight months of edges, the record that came after sided with the rule that says it is over. The carried and lost judges part at ${K.splitN} edges: once, on ${nice(toD(K.splitDays[0]))}, and then at the last ${K.splitN - 1} edges judged, ${nice(toD(K.splitDays[1]))} to ${nice(toD(K.split[1]))}, where the later record has watched only a month longer and each of the two finds for itself; the left-out judge names a rule neither of the others names at ${K.outApart} of ${K.edges}. Which rule the later record vindicates is a fact about the calendar before it is a fact about the rules: an edge falls in a season, and the season answers.`; }
   // ---- controls ----
   const first = {};
   for (const r of ["bdbv", "kivu"]) { const a = toD(E.records[r][0]); let d = 0; while (!events(r, a + d * DAY, false, 0).length) d++; first[r] = d; }

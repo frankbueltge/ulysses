@@ -48,3 +48,4 @@ a{color:var(--you)}
 .controls.judge .jl{color:var(--mute)}
 .controls.judge button{font-size:13px;padding:5px 12px;border-color:var(--a)}
 .controls.judge button[aria-pressed="true"]{background:var(--a);color:var(--n)}
+#verdicts{margin:10px 0 2px;cursor:pointer}

@@ -68,3 +68,11 @@ out at 44 of 44. In Kivu, over 461 edges, carried and lost judges agree at 446; 
 (carried nearest 275 vs 262 times, lost 106 vs 92); the left-out judge finds for left out at 410, the others at 93
 and 94. A rule made the judge of the rules finds for itself: barely where the later record has watched long enough,
 wholly where the rule cannot see a quiet still running. A later record settles a wager only under a rule that can lose.
+
+**Sixth state (2026-11-06, thirty-ninth session): the strip.** The fifth state's counts are now set out edge by edge
+on the calendar, one row per judge, coloured by the rule each finds nearest; pointing reads an edge, a click moves the
+edge there. Set out so, the verdicts come in seasons: the lost judge's verdict changes 3 times over 2026's 44 edges and
+10 times over Kivu's 461, and one Kivu run, carried, holds from 12 September 2019 to 4 May 2020. The fifth state's
+"each leans to itself by a little" is placed by it: the carried and lost judges part at 15 edges, once on 1 August 2019
+and then at the last 14 judged (5 to 18 May 2020), where the later record has watched only a month longer. The lean is
+not spread over the record; it sits at the judge's own edge. Asserted in `build.py`.
