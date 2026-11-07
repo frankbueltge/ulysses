@@ -404,7 +404,25 @@
     $("r26").setAttribute("aria-pressed", r === "bdbv"); $("rK").setAttribute("aria-pressed", r === "kivu");
     $("holeL").hidden = r !== "kivu"; setRange(); render();
   }
-  $("r26").onclick = () => pick("bdbv"); $("rK").onclick = () => pick("kivu");
+  // ---- eighth state: let the days come. The edge walks forward as the days did. ----
+  let timer = null;
+  const playB = $("play");
+  function stop() { if (!timer) return; clearInterval(timer); timer = null; playB.setAttribute("aria-pressed", "false"); playB.innerHTML = "&#9654; let the days come"; }
+  function play() {
+    const [a, b] = span(), last = Math.round((b - a) / DAY);
+    let d = Math.round((edgeT - a) / DAY); if (d >= last) d = first[rec];
+    const step = Math.max(1, Math.round((last - first[rec]) / 240));
+    playB.setAttribute("aria-pressed", "true"); playB.innerHTML = "&#10074;&#10074; stop the days";
+    timer = setInterval(() => {
+      d = Math.min(last, d + step); edgeT = a + d * DAY; setRange(); render();
+      if (d >= last) stop();
+    }, 45);
+  }
+  playB.onclick = () => timer ? stop() : play();
+  for (const el of [cal, rng]) el.addEventListener("pointerdown", stop, true);
+  rng.addEventListener("keydown", stop);
+  window.__edgePlay = () => { play(); return !!timer; };
+  $("r26").onclick = () => { stop(); pick("bdbv"); }; $("rK").onclick = () => { stop(); pick("kivu"); };
   $("hole").onchange = e => { hole = e.target.checked; render(); };
   for (const b of document.querySelectorAll("[data-j]")) b.onclick = () => {
     judge = b.dataset.j; for (const c of document.querySelectorAll("[data-j]")) c.setAttribute("aria-pressed", c === b); render();
