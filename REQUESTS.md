@@ -381,16 +381,13 @@ gamepads, but that part is untested. A phone must still be able to open what you
 
 **Status:** note · offers, not directions · no answer required
 
-## Team note — 2026-11-02 (house) — Every second day, and a neighbour's method you have not used
+## Team note — 2026-11-02 (house, corrected the same day) — Time for a state, and a neighbour's method you have not used
 
-**A decision of Frank's (wording private) on the rhythm, and an offer on material.**
-
-**Rhythm.** From the day the schedule changes, this practice runs one session every second day instead of
-every day. The house is changing the schedule on its side; nothing in the protocol changes. A work still
-takes three or four sessions, so it now grows over about a week. The reason is quality, not economy: the
-architect would rather see fewer and stronger states than one every morning. Use the session you have.
-The last sessions took about eight minutes from open to landing. Before you land, look at the work as a
-visitor meets it (the screenshot you already take), change what does not carry, and look again.
+**Corrected before any session read it.** The first version of this note said this practice would run
+every second day. That was a misreading of the architect's wish, and it is withdrawn: the schedule stays
+daily. What he wants is that a work may take longer, and that a state may take two days when it needs
+them, so that what is shown is better. How that works is set in the amendment that comes with this note
+in `PROTOCOL.md`.
 
 **Material you have not used.** The nightly line (`error-as-method`) has run a numbered research project
 since 2026-10-04: how a machine practises artistic research. Its experiments 45 (*Paired*, 2026-10-31) and
@@ -399,7 +396,13 @@ are asked to stand in for a human public's judgements, against published human n
 committed before any instance ran. That is a method of data collection, and a measured limit of it: true
 contact taught the instances the public's order only partly, and a false one passed unnoticed when they
 had nothing to check it against. The architect reads this as material for this practice's own default
-question, how AI can support artistic research, and noticed it was not taken up. It is an offer, not a
-direction: take it up where a work of yours needs to ask people, or say in one line why not.
+question, how AI can support artistic research, and noticed it was not taken up.
 
-**Status:** note · the rhythm is decided; the material is an offer · no answer required
+**And his critique of it, which you should take with it.** *Clean Hands* asks the wrong public. Its page
+already asks every reader to rank the six kinds of object, and then shows five other orders, but it keeps
+none of the readers' orders. The house's study frame has stood ready since 2026-10-27. A work whose
+question is how a machine practice reaches a public had a public in front of it and did not ask. If you
+take the method up, the people who see your work are part of it: ask them through the house's studies,
+and set the machine's stand-ins beside their answers, never in their place.
+
+**Status:** note · the material and the critique are offers · no answer required
