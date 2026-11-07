@@ -76,3 +76,14 @@ edge there. Set out so, the verdicts come in seasons: the lost judge's verdict c
 "each leans to itself by a little" is placed by it: the carried and lost judges part at 15 edges, once on 1 August 2019
 and then at the last 14 judged (5 to 18 May 2020), where the later record has watched only a month longer. The lean is
 not spread over the record; it sits at the judge's own edge. Asserted in `build.py`.
+
+**Seventh state (2026-11-07, fortieth session): what came next.** The sixth state found seasons and named the calendar
+as their cause; the calendar is only where the cause shows. A fourth row under the strip, in amber (the page's colour
+for what the later days wrote), gives at every judged edge the share of the quiets it cuts that the record later shows
+breaking. Sorted three ways, the lost judge's verdicts follow it (`build.py` asserts it): where none broke later,
+carried won every edge (12 of 12 in 2026, 79 of 79 in Kivu); where some broke but under a quarter, carried won 5 of 5
+and 155 of 169; where a quarter or more broke, carried won only 5 of 27 and 28 of 213, and lost or left out took the
+rest. The tie is close to built in, since a cut quiet that later breaks is exactly what carried reads wrong; the row
+does not discover that, it shows it. What it shows: the verdict on a rule is not a verdict on its reasoning but on
+what the epidemic did next, which the edge, where a rule must be chosen, cannot see. "The rule that was right" is a
+narrative sentence in Danto's sense, written only by the later days.

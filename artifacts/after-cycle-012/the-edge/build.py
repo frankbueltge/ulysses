@@ -289,6 +289,39 @@ assert JG["bdbv"]["lostRuns"] == 4 and JG["bdbv"]["lostLongest"] == ["2026-08-17
 assert JG["kivu"]["lostRuns"] == 11 and JG["kivu"]["lostLongest"] == ["2019-09-12", "2020-05-04", "carried"]
 print("judges", JG)
 F["judge"] = JG
+# ---- seventh state (session 40): what came next ----
+# The seasons have a cause the edge cannot see. At every judged edge, count the quiets the edge cuts and how many of
+# them the later record shows breaking (a case, at any day up to the record's last). Sort the edges three ways: none
+# of the cut quiets broke later, some but under a quarter, a quarter or more. Then read the lost judge's verdict in
+# each. Where nothing broke later, the later record can only side with carried; where a quarter or more broke, it
+# mostly cannot. The verdict on a rule is written by what the world did after the edge.
+def next_tab(rec):
+    end = end26 if rec == "bdbv" else endK
+    tab = {k: {"carried": 0, "lost": 0, "left out": 0} for k in ("none", "under", "quarter")}
+    for b in range(30, (end - day(R[rec][0])).days):
+        E = end - dt.timedelta(b)
+        ev, ev2 = later(rec, E)
+        if len(ev) < 10:
+            continue
+        t = km(ev)[1]
+        cut = [x for x in ev if not x[1]]
+        lb = sum(1 for x in cut if x[2]["b"])
+        r = {"carried": len(cut) / len(ev), "lost": surv_at(ev, t), "left out": 0.0}
+        v = surv_at(ev2, t)
+        d = {k: abs(x - v) for k, x in r.items()}
+        k = "none" if lb == 0 else ("under" if lb / len(cut) < 0.25 else "quarter")
+        tab[k][min(d, key=d.get)] += 1
+    return tab
+
+
+NX = {"bdbv": next_tab("bdbv"), "kivu": next_tab("kivu")}
+assert NX["bdbv"] == {"none": {"carried": 12, "lost": 0, "left out": 0}, "under": {"carried": 5, "lost": 0, "left out": 0},
+                      "quarter": {"carried": 5, "lost": 22, "left out": 0}}
+assert NX["kivu"] == {"none": {"carried": 79, "lost": 0, "left out": 0}, "under": {"carried": 155, "lost": 14, "left out": 0},
+                      "quarter": {"carried": 28, "lost": 92, "left out": 93}}
+assert sum(sum(v.values()) for v in NX["kivu"].values()) == JG["kivu"]["edges"]
+print("next", NX)
+F["next"] = NX
 data = {"source": {"path": "artifacts/cycle-012/the-last-case/quiets.json", "sha256": SHA,
                    "upstream": D["source"]},
         "records": R, "W": W, "holeLast": HOLE_LAST.isoformat(), "facts": F,
