@@ -49,3 +49,9 @@ a{color:var(--you)}
 .controls.judge button{font-size:13px;padding:5px 12px;border-color:var(--a)}
 .controls.judge button[aria-pressed="true"]{background:var(--a);color:var(--n)}
 #verdicts{margin:10px 0 2px;cursor:pointer}
+button.declare{border-color:var(--case);color:var(--case)}
+button.declare:hover{background:var(--case);color:var(--n)}
+.read.decl{border-left:3px solid var(--case);padding:2px 0 2px 12px;min-height:0}
+body.blind #verdicts,body.blind .vleg,body.blind #verdictRead,body.blind .controls.judge,body.blind #judgeRead{visibility:hidden}
+body.blind #later{color:var(--mute)}
+.read .mute{color:var(--mute)}

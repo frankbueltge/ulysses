@@ -13,6 +13,8 @@
   let off = 0;
   // judge (fifth state): the rule the later record itself is read under, at the record's real last day
   let judge = "lost";
+  // ninth state: standing at the edge hides what came after it; a declaration carries the cut quiets as over
+  let blind = false, decl = null;
 
   const Q = E.quiets.map(q => ({ ...q, f0: toD(q.f) }));
   function events(r, edge, h, o = off) {
@@ -161,7 +163,7 @@
       const cutT = (rec === "kivu" && hole && q.f0 <= HOLE && end + DAY > HOLE) ? Math.min(edgeT, HOLE) : edgeT;
       const caseT = q.f0 + (q.L + 1 - off) * DAY, seen = Math.min(end, cutT);
       g.lineWidth = lw; g.lineCap = "butt";
-      if (end > cutT) { // what came after the edge
+      if (end > cutT && !blind) { // what came after the edge
         g.strokeStyle = css("--nb"); g.globalAlpha = .45;
         g.beginPath(); g.moveTo(X(Math.max(s0, cutT)), y); g.lineTo(X(end), y); g.stroke();
         if (q.b) { g.fillStyle = css("--case"); g.beginPath(); g.arc(X(caseT), y, lw * .7 + 1, 0, 7); g.fill(); }
@@ -174,6 +176,21 @@
       if (q.b && caseT <= cutT) { g.fillStyle = css("--case"); g.beginPath(); g.arc(X(caseT), y, lw * .7 + 1.2, 0, 7); g.fill(); }
       else if (reached) { g.strokeStyle = css("--cut"); g.lineWidth = 1.6; g.beginPath(); g.arc(X(seen), y, lw * .7 + 1.5, 0, 7); g.stroke(); }
     });
+    // the declaration (ninth state): a tick on each declared quiet's row at the day it was declared, and a ring round
+    // every case that has since arrived in one of them
+    if (decl && decl.rec === rec) {
+      const dx = X(decl.edge);
+      g.strokeStyle = css("--case"); g.lineWidth = 1; g.setLineDash([3, 3]);
+      g.beginPath(); g.moveTo(dx, top - 2); g.lineTo(dx, h - bot); g.stroke(); g.setLineDash([]);
+      g.fillStyle = css("--case"); g.font = "600 11px system-ui,sans-serif"; g.textAlign = dx > w - 120 ? "right" : "left";
+      g.fillText("declared over · " + nice(decl.edge), dx + (dx > w - 120 ? -5 : 5), top - 6);
+      qs.forEach((q, i) => {
+        if (!decl.qs.has(q)) return;
+        const y = top + (i + .5) * rh, caseT = q.f0 + (q.L + 1 - decl.off) * DAY;
+        g.strokeStyle = css("--case"); g.lineWidth = 2; g.beginPath(); g.moveTo(dx - 4, y); g.lineTo(dx + 4, y); g.stroke();
+        if (q.b && caseT <= edgeT && caseT > decl.edge) { g.lineWidth = 2; g.beginPath(); g.arc(X(caseT), y, lw * .7 + 4.5, 0, 7); g.stroke(); }
+      });
+    }
     // the edge
     const ex = X(edgeT);
     g.strokeStyle = css("--cut"); g.lineWidth = 2; g.beginPath(); g.moveTo(ex, 4); g.lineTo(ex, h - bot + 4); g.stroke();
@@ -334,11 +351,11 @@
     if (!ev.length) {
       read.innerHTML = "At this edge no quiet has yet reached 42 days. There is nothing to read."; $("fence").textContent = ""; $("later").textContent = ""; $("judgeRead").textContent = ""; window.__edgeState = null;
       const [g, w, h] = size(cur); g.clearRect(0, 0, w, h);
-      $("sCarried").textContent = $("sLost").textContent = $("sOut").textContent = ""; return;
+      $("sCarried").textContent = $("sLost").textContent = $("sOut").textContent = ""; $("declare").hidden = true; declRead(); return;
     }
     const realEnd0 = edgeT >= toD(E.records[rec][1]);
     let lat = null;
-    if (!realEnd0) {
+    if (!realEnd0 && !blind) {
       const ids = new Set(ev.map(x => x.q)), ev2 = events(rec, toD(E.records[rec][1]), false).filter(x => ids.has(x.q));
       lat = { ev: ev2, steps: judgeSteps(ev2, judge) };
     }
@@ -347,7 +364,11 @@
     const realEnd = edgeT >= toD(E.records[rec][1]);
     read.innerHTML = `Edge: <b>${nice(edgeT)}</b>. <b>${ev.length}</b> quiets had reached 42 days: <b>${broke}</b> broke before the edge, <b>${cut.length}</b> are cut by it. ` +
       (realEnd ? "This is the record's own last day: what the cut quiets become, nobody here can know."
+        : blind ? "You stand at the edge: what came after this day is hidden, as it was from the day itself."
         : `Of the ${cut.length} quiets this edge would carry as over, <b>${later}</b> broke later in the record.`);
+    { const dB = $("declare"); dB.hidden = !blind || !cut.length;
+      dB.textContent = cut.length === 1 ? "declare it over" : `declare these ${cut.length} over`; }
+    declRead();
     { const L2 = $("later");
       if (st.later) {
         const t = st.km.tStar, v = stepAt(st.later.steps, t), c = cut.length / ev.length, l = stepAt(st.km.steps, t);
@@ -355,7 +376,8 @@
         const still = st.later.ev.filter(x => !x.e).length;
         L2.innerHTML = `<span class="sw"></span><b>What the record later showed.</b> The same ${ev.length} quiets, read again on the record's own last day, ${nice(toD(E.records[rec][1]))}, by the rule <b>${judge}</b> (${still} of them are still quiet there, cut again): on day <b>${t}</b>, <b>${pct(v)} in 100</b> still quiet. At this edge carried said <b>${pct(c)}</b>, lost <b>${pct(l)}</b>, left out <b>0</b>. Nearest: <b>${best}</b>.` +
           (judge === "left out" ? " Made the judge, left out can only find for itself: it reads the later record by dropping every quiet that has not broken." : " The later reading is cut again by its own edge, so it is a second reading under a rule, not the truth.");
-      } else L2.innerHTML = `<span class="sw"></span>Move the edge back, and a fourth line shows what the record's later days wrote about the same quiets.`;
+      } else if (blind && !realEnd0) L2.innerHTML = `<span class="sw"></span>Hidden: what the record's later days wrote about these quiets. Declare, or walk on.`;
+      else L2.innerHTML = `<span class="sw"></span>Move the edge back, and a fourth line shows what the record's later days wrote about the same quiets.`;
       const T = tally(rec), J = T[judge];
       $("judgeRead").innerHTML = `Over the <b>${T.edges}</b> edges of this record a month or more back with at least ten quiets, the later record read as <b>${judge}</b> lies nearest carried at <b>${J.carried}</b>, nearest lost at <b>${J.lost}</b>, nearest left out at <b>${J["left out"]}</b>.` + (rec === "kivu" ? " (Here the 94 days without a report are not an edge.)" : "");
     }
@@ -376,6 +398,30 @@
     window.__edgeState = { edge: iso(edgeT), n: ev.length, broke, cut: cut.length, cutLaterBroke: later, tStar: k.tStar, pStar: Math.round(k.pStar * 1000) / 1000 };
   }
 
+  // ---- ninth state: the declaration, read as the days come ----
+  function declRead() {
+    const el = $("decl");
+    if (!decl || decl.rec !== rec) { el.hidden = true; window.__decl = null; return; }
+    el.hidden = false;
+    const qs = [...decl.qs], n = qs.length, endT = toD(E.records[rec][1]);
+    const caseT = q => q.f0 + (q.L + 1 - decl.off) * DAY;
+    const broke = qs.filter(q => q.b).sort((p, q) => caseT(p) - caseT(q)), came = broke.filter(q => caseT(q) <= edgeT);
+    const D = E.facts.declare[rec];
+    const head = `On <b>${nice(decl.edge)}</b> you declared <b>${n}</b> ${n === 1 ? "quiet" : "quiets"} over, seeing nothing after that day. `;
+    let body;
+    if (edgeT < decl.edge) body = "The edge now stands before your declaration; walk it forward to meet it again.";
+    else if (decl.edge >= endT) body = "That is the record's own last day. Nothing after it was ever written, so your declaration stays as you made it: no later day here can overtake it, and none can confirm it.";
+    else if (edgeT === decl.edge) body = "Let the days come to see what follows it.";
+    else {
+      const names = came.map(q => `${q.z} on ${nice(caseT(q))} (day ${q.L + 1} of its quiet)`);
+      body = (came.length ? `By <b>${nice(edgeT)}</b>, a case has come in <b>${came.length}</b> of them: ${names.join("; ")}. ` : `By <b>${nice(edgeT)}</b>, no case has come in any of them. `) +
+        (edgeT >= endT ? (broke.length ? `The other ${n - broke.length} were still quiet on the record's last day, which is an edge too: not over, only unwritten.`
+          : `All ${n} were still quiet when the record stopped. Your declaration was never overtaken here, and the record's last day is a declaration of its own.`)
+          : "The days are still coming.");
+    }
+    el.innerHTML = head + body + ` <span class="mute">Of the ${D.days} days on which this record lets a declaration be made, a later case overtakes it on ${D.overtaken}.</span>`;
+    window.__decl = { edge: iso(decl.edge), n, broke: broke.length, came: came.length };
+  }
   // ---- facts stated in prose, from build.py's asserted figures ----
   function facts() {
     const F = E.facts;
@@ -422,6 +468,17 @@
   for (const el of [cal, rng]) el.addEventListener("pointerdown", stop, true);
   rng.addEventListener("keydown", stop);
   window.__edgePlay = () => { play(); return !!timer; };
+  const blindB = $("blind");
+  function setBlind(v) { blind = v; blindB.setAttribute("aria-pressed", v); document.body.classList.toggle("blind", v); render(); }
+  blindB.onclick = () => setBlind(!blind);
+  $("declare").onclick = () => {
+    const cut = events(rec, edgeT, rec === "kivu" && hole).filter(x => !x.e);
+    if (!cut.length) return;
+    stop(); decl = { rec, edge: edgeT, off, qs: new Set(cut.map(x => x.q)) };
+    setBlind(false);
+    if (edgeT < span()[1]) play();
+  };
+  window.__edgeDeclare = d => { stop(); if (d) { edgeT = toD(d); setRange(); } setBlind(true); $("declare").click(); stop(); return window.__decl; };
   $("r26").onclick = () => { stop(); pick("bdbv"); }; $("rK").onclick = () => { stop(); pick("kivu"); };
   $("hole").onchange = e => { hole = e.target.checked; render(); };
   for (const b of document.querySelectorAll("[data-j]")) b.onclick = () => {

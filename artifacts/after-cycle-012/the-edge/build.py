@@ -322,6 +322,37 @@ assert NX["kivu"] == {"none": {"carried": 79, "lost": 0, "left out": 0}, "under"
 assert sum(sum(v.values()) for v in NX["kivu"].values()) == JG["kivu"]["edges"]
 print("next", NX)
 F["next"] = NX
+
+# ---- ninth state (session 42): declare it ----
+# A visitor stands at the edge with what came after hidden, and declares the quiets it cuts over: the carried rule,
+# made by a hand on a day. On every day a declaration can be made (from the first day any quiet reached 42 days to the
+# day before the record's own last, with at least one quiet cut), count the declarations a later case overtakes (at
+# least one declared quiet broke later), and the most declared quiets overtaken on one day.
+def declare_tab(rec):
+    end = end26 if rec == "bdbv" else endK
+    days = over = 0
+    worst = (0, None)
+    for b in range(1, (end - day(R[rec][0])).days):
+        E = end - dt.timedelta(b)
+        ev, _ = later(rec, E)
+        cut = [x for x in ev if not x[1]]
+        if not cut:
+            continue
+        days += 1
+        lb = sum(1 for x in cut if x[2]["b"])
+        if lb:
+            over += 1
+        if lb >= worst[0]:
+            worst = (lb, E.isoformat(), len(cut))
+    return {"days": days, "overtaken": over, "worst": list(worst)}
+
+
+DC_EXPECT = {"bdbv": {"days": 116, "overtaken": 94, "worst": [3, "2026-07-16", 4]},
+             "kivu": {"days": 621, "overtaken": 494, "worst": [8, "2019-03-27", 9]}}
+DC = {"bdbv": declare_tab("bdbv"), "kivu": declare_tab("kivu")}
+print("declare", DC)
+assert DC["bdbv"] == DC_EXPECT["bdbv"] and DC["kivu"] == DC_EXPECT["kivu"]
+F["declare"] = DC
 data = {"source": {"path": "artifacts/cycle-012/the-last-case/quiets.json", "sha256": SHA,
                    "upstream": D["source"]},
         "records": R, "W": W, "holeLast": HOLE_LAST.isoformat(), "facts": F,

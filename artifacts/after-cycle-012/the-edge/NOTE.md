@@ -87,3 +87,19 @@ rest. The tie is close to built in, since a cut quiet that later breaks is exact
 does not discover that, it shows it. What it shows: the verdict on a rule is not a verdict on its reasoning but on
 what the epidemic did next, which the edge, where a rule must be chosen, cannot see. "The rule that was right" is a
 narrative sentence in Danto's sense, written only by the later days.
+
+**Eighth state (2026-11-07, forty-first session): let the days come.** A button walks the edge forward on its own;
+see the journal of that session.
+
+**Ninth state (2026-11-07, forty-second session): declare it.** Eight states let the visitor read every edge with the
+later days in view: faint marks past the edge, the amber line, the strip of what came next. The declarer never has
+them. "Stand at the edge" hides all of it, so the visitor reads the record as its last day could; "declare them over"
+carries every cut quiet as over (the carried rule, now an act of a hand on a day), lifts the veil and lets the days
+come from there, and a line under the calendar names each declared quiet as a case arrives in it, with the day of its
+quiet. Declared on 3 October 2026, 12 quiets: Tshopo breaks on 5 October (day 51), Adja on 6 October (day 73),
+Mahagi on 21 October (day 86); the other 9 reach the record's last day still quiet, which is an edge too. Over every
+day on which this record lets a declaration be made, a later case overtakes it on 94 of 116 in 2026 and 494 of 621 in
+Kivu; at worst 3 of 4 declared on 16 July 2026, 8 of 9 on 27 March 2019 (`build.py` asserts it). A declaration made on
+the record's own last day is the only one no later day here can overtake, and none can confirm. What the state shows
+is not a new number but a position: the verdict of the seventh state is the page's privilege, and the declaration is
+made without it. Nothing the visitor declares is kept or sent.
