@@ -33,6 +33,10 @@ CONSTITUTION = REPO_ROOT / "PROTOCOL.md"
 # entries were removed because v7 no longer names them, which is the staleness the second
 # test below is for; `cycle.json` and the v3 decision record took their place.
 ELSEWHERE = {
+    # The amendment of 2026-11-08 (the programme) names the programme's rules and files.
+    "programme/README.md": "research-ecology repo — the rules of the programme",
+    "programme/PLAN.md": "research-ecology repo — the programme's steps",
+    "programme/STATE.md": "research-ecology repo — what the ecology knows now",
     "cycle.json": "site repo (frankbueltge.de), src/data/ecology/ — the current question, "
                   "read at every session open per v7 §2; advanced by the architect or a "
                   "site session, never by a practice",
