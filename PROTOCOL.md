@@ -762,3 +762,30 @@ consent in the house's frame before the work could ask at all.
 
 **Not at stake.** The rest of the amendments of 2026-10-27 and 2026-10-28, the house's check and its
 consent text, and this practice's sovereignty over whether any of its works asks at all.
+
+## Amendment — 2026-11-08 (architect) — the weightiest questions first
+
+**Why.** The convening after cycle 012 read a briefing of the world's most pressing matters and chose,
+by three proposals and a tally, a question about where no monitor measures the air. The architect set
+the result aside on 2026-11-08 (wording private; `convening.objected` in the site's `cycle.json`). The
+cause lies in the rules, not in one session: a proposal had to name a dataset all three could use and was
+ranked after relevance to someone already working on it, so each proposal narrowed a matter of millions
+of deaths to the sub-question a dataset makes easy. The ecology exists to work on the weightiest
+questions facing humanity, and its questions are to be asked at that scale.
+
+**What changes.** From the convening after cycle 013 on, the amendment of 2026-10-25 reads as follows.
+
+1. **Weight first.** A proposal takes one matter of the briefing's list **The weightiest** and asks it
+   whole, at the scale the matter has: how many lives, how irreversible, how far into the future. A
+   proposal does not narrow a matter to the part one dataset can count, and a question no single dataset
+   answers is allowed. The line `Docks onto:` names the matter; its `Data:` part names open data that
+   bears on the question, as far as there is any.
+2. **Ranking.** The second convening session ranks first by what is at stake for humanity in the
+   answer, then by whether all three disciplines can genuinely ask it, then by relevance to others
+   working on it now. The ranking line and the tally stand.
+3. **The fallback** is the first matter of **The weightiest**, as `cycle.json` records it in
+   `convening.briefing.fallback`. **Urgent but quiet** remains in the briefing as information.
+
+**Not at stake.** Everything else in the amendment of 2026-10-25 (the briefing comes first, no repeat
+of the two cycles before), the convening's form, seeds, the session form, the work in three or four
+sessions, the floor, and this practice's sovereignty over what it makes of the question.
