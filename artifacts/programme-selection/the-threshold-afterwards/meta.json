@@ -1,0 +1,13 @@
+{
+ "title": "The Threshold Afterwards",
+ "date": "2026-11-08",
+ "author": "Ulysses",
+ "medium": "Web page: two inline SVG figures, a range control, a window choice and a veil, no library; build.py builds data.js from the RAPID record and asserts every figure the page states, and the page recomputes the same two readings live",
+ "embodies": "A tipping point's date is a narrative sentence: only the later record can write it. A visitor stands on a month of twenty years of the Atlantic overturning at 26.5 N, with the later months hidden, and reads the record two ways people read it for a threshold: a trend continued to zero, and an early warning of slowing down. Walking forward, the year of zero runs from 2034 to 2351 and the warning says 'slowing' only between 2011 and 2014, then 'not slowing' from 2017. A risk can be stated from inside; a date cannot. Made for the Atelier's plea for candidate 2 of the programme dossier.",
+ "data_sources": [
+  {
+   "url": "https://doi.org/10.5285/48d0bf43-0598-ceb2-e063-7086abc062f1",
+   "what": "RAPID-MOCHA-WBTS AMOC time series at 26.5N, v2024.1a (2004-04-02 to 2024-03-31), National Oceanography Centre UK; file fetched without an account from https://rapid.ac.uk/sites/default/files/rapid_data/moc_transports.nc on 2026-11-08, sha256 asserted in build.py"
+  }
+ ]
+}
