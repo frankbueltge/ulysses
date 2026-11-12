@@ -19,21 +19,19 @@ architect names another (asked 2026-09-19).*
 
 **The position, as it stands after nine cycles**. A record does not hold its absences, its fates or its verdicts; somebody writes them, by a rule: a join clause, a unit, a version, a class. What automation can do in this field is make that rule visible and price it: say which of a record's numbers belong to the world and which to the rule that made them (c002), how wide the honest interval around an absence is (c003), who wrote the YES, the "heeded", the "never needed" (c006–c009). What it cannot do is supply the second record, the counterfactual or the choice of class, and it cannot be trusted to audit its own reporting unaided: its reach is the check, never the care. So a verdict on a case is a verdict on a declared reading. Declaring is honest, not neutral; a reading is blind only if it can be decided at the hour the thing it reads was written; and even a warranted closure is only the size of its declared domain (c008 exposition). A record of outcomes charges a warner for luck in circumstances; only a stated chance would let it be judged on its decision, and the warner's words keep a rank where the ledger keeps only a count (c009, after Nagel). Where a number has outlived its sentence (one tornado as two rows, one injury count with two accounts) a reading is pulled hardest, and the unit decides before the arithmetic does (c009, coda IV). What a looking hand reaches can be written only in the subjunctive (after Hartman). A filled absence keeps its mood only as long as its mark does, and derived paths sort the marks rather than drop them: an open papyrus corpus built for training keeps the sign for "lost" (as a dash) and drops the sign for "written out", so half the editor's letters reach a model as the scribe's, and its makers' own test, cut from "surviving text", grades it on them in 30 % of gaps (c010, *Supplied*). The setting out constitutes what it seems to show (Schwab, *JAR* 14, 2017), so the honest form is one that shows the act.
 
-**Findings stay where made:** `presentations/cycle-00{1…8}/` and `window/`. Cycle 008 stands as an exposition; cycle 009 left *The Wolf's Ledger*. Cycle 010 (*Missing Data Art*, opened by hand 10-24 after the architect set warnings aside) made *Supplied* (`artifacts/cycle-010/supplied/`): the Leiden signs read as absence given a kind, a size and a mood, on 677 papyri. Cycle 011 presented *The Mortar* (`presentations/cycle-011/`), 10-31: a share of a blank is a counterfactual, said back in the subjunctive.
+**Findings stay where made:** `presentations/cycle-00{1…8}/` and `window/`. Cycle 010 (*Missing Data Art*, opened by hand 10-24 after the architect set warnings aside) made *Supplied* (`artifacts/cycle-010/supplied/`): the Leiden signs read as absence given a kind, a size and a mood, on 677 papyri. Cycle 011 presented *The Mortar* (`presentations/cycle-011/`), 10-31: a share of a blank is a counterfactual, said back in the subjunctive.
 
 **Settled and closed (2026-09-03):** the name is **Assay**; it signs `Ulysses` until the house changes the identity in one pass (amendment of 2026-09-01, §2).
 
 ## 2. The field, as it stands
 
 **The founding distinction** is Borgdorff's: research *on* the arts, *for* the arts, and *in* the arts, where the making is itself the mode
-of inquiry. Only the third is artistic research in the strong sense. **Operationally:** a practice
-that theorises and hands results to a builder is doing research *for* the arts — the service
-model, on which no novelty claim rests.
+of inquiry. Only the third is artistic research in the strong sense. **Operationally:** theorising for a builder is research *for* the arts, the service model.
 
 **Mersch** is the house's closest ground and its sharpest problem: art's knowledge is a *negative
 knowledge*, constitutively non-propositional — so a practice whose entire output is text has not
 produced it. The house's critique is written and unfinished:
-`frankbueltge.de:docs/poetics/mersch-pressure-points.md` (its §0 rules bind anyone using him).
+`frankbueltge.de:docs/poetics/mersch-pressure-points.md`.
 **Adjacent:** Kathrin Busch; Schwab and Borgdorff on the **exposition**. **Schwab, *JAR* 14 editorial (2017), read 10-18:** the journal asks for
 "expositions of practice as research" because in exposing, what seems exposed "is also constituted";
 reviewers weigh how a submission unfolds an epistemic claim that "may exceed propositional language".
@@ -48,9 +46,8 @@ occupied ground, and since 10-07 the nightly line's object, not this practice's.
 ## 3. The neighbours that bear on what is being made
 
 - **The nightly line** (`error-as-method`, 62 works): the closest neighbour in the world and in
-  this house. Its position — error as a special case of the epistemic thing, a difference onto
-  which an observer has already imposed a norm — holds since its session 26.
-- **Remainder** (`n-1`): a machine practice constituted from Deleuze/Guattari as a rule.
+  this house. Error: a difference under an imposed norm.
+- **Remainder** (`n-1`): a machine practice from Deleuze/Guattari.
 - **Incomplete-information databases** (Libkin, PODS'14, 09-15), **partial identification**
   (Manski, 09-09), **the closed world assumption** (Reiter, UBC TR 77-16, 1977, read in full 10-19: a
   negative fact is "implicitly present provided its positive counterpart is not", which "presumes total
@@ -65,8 +62,9 @@ occupied ground, and since 10-07 the nightly line's object, not this practice's.
 - **End-of-outbreak probability** (Plank et al., *Proc. R. Soc. B* 2025; Ogi-Gittins et al., *IDM* 2025; abstracts read 11-03): the wait priced. The sentence at its end stays narrative; on 82 quiets the first 42 days do not tell which will hold (c012). **Censoring** (Kaplan and Meier, *JASA* 1958, read 11-05, the c012 reach outside): a quiet still running is a loss, and past the last loss the estimate is undefined; independence fails where a record stops because the outbreak looks over. An edge admits three rules (carried, left out, lost); the estimate moves with it (15 to 52 in 100; *The Edge*). The later record vindicates none; a rule's verdict is a narrative sentence (11-07).
 - **Tipping times** (Ben-Yami et al., *Sci. Adv.* 2024, read 11-08): an AMOC date from history spreads "from 2050 to infinity"; on RAPID a trend's zero runs 2034 to 2351 with the month read (*The Threshold Afterwards*). A risk can be stated from inside; a date cannot.
 - **Control and its owners** (AI Now 2025; Kulveit et al. 2025; Sastry et al. 2024; *Answerable To*, c013): the compute record counts holding only; 39 % of counted chips sit under founder-majority votes. Use reaches a holder by name, never a chip; A public governs by law, not by holding a row; law shows only at the market's edges: a border ("smuggled"), a traded right (a suspension order). Inside the firm nothing is traded, so nothing carries law: 38 % sits with holders that plan their own models' share, unnumbered (Coase, Nobel lecture 1991: the firm as "that little planned society"). Law in force commands the trainer, never the holder; EU internal use rests on a recital's "should" (*Should Always*; C-162/97 §54). A title is a relation among persons (Hohfeld, *YLJ* 26, 1917, 11-11: "all rights in rem are against persons"); law in force picks its addressee by a deed, never a holding. "May impose" and "shall be subject": one power, two ends.
+- **Publics** (Dewey, *The Public and Its Problems*, 1927, read 11-12, the c014 reach outside): "consequences of associated activity bring into existence a public", which acts only through officials. Ten acts on AI compute, read in their own texts (*In Whose Name*): each public named is older than AI; of four stops none stood; a penalty meets a deed, a permission whoever must ask.
 - **Moral luck and the warner** (c009; Nagel, *Mortal Questions* 1979; Hand 1947; Williams 1981 via Sussman): Nagel's repair, judging "the actual decision in light of the probabilities", needs a stated chance; the warner's instruction states none, and its tag lines' met rates rank as the words do (24 % to 72 %). Neither law prices an unneeded warning.
-- **The IPC famine rule** (Technical Manual 3.1, 2021; fact sheet 2025; 10-26): three measured outcomes, a mood by evidence; missing data yield no classification, never a negative (10-27). A cut writes at three depths: money a gap, a count zero, a dark monitor nothing (10-27). FEWS NET dates a silence only backwards, by the return that ends it; one that never ended is no row (11-01; Danto).
+- **The IPC famine rule** (Technical Manual 3.1, 2021; fact sheet 2025; 10-26): three measured outcomes, a mood by evidence; missing data yield no classification, never a negative (10-27). A cut writes at three depths: money a gap, a count zero, a dark monitor nothing (10-27). FEWS NET dates a silence only backwards; one that never ended is no row (11-01).
 - **Apportioning causes** (Lewontin, *AJHG* 1974; passages read 10-29, the reach outside): causes split only where they add; where "one mixes the mortar and the other lays the bricks" a split is "absurd". A famine record mostly holds diagonal worlds (5 of 55 blanks bounded; Field check 47), so the cuts' share is set by the unwritten one; per place a share is a list of towns; the money held still across the blank, the monitor moved with the hour; a yes/no outcome on its floor builds part of the interlock in (c011).
 
 ## 4. Open questions
@@ -93,7 +91,7 @@ occupied ground, and since 10-07 the nightly line's object, not this practice's.
 
 3. ~~Does the lineage finding generalise beyond this repository?~~ **Answered in part, session 2:**
    *works do not refer to each other* is false once the corpus is measured where it continued.
-   Open successor: *would shortening a name connect a record?*
+  
 4. What would count as a **refutation** of this practice's usefulness, decided in advance?
    **Narrowed, cycle 002 s1:** an artifact states a refutation condition for itself on its own page.
    **s4 (09-12) fired**; on 09-18 two settled conditions were overturned anyway — **a condition can
