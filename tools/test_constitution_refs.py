@@ -43,6 +43,8 @@ ELSEWHERE = {
     "docs/design/2026-08-30-research-ecology-v3.md": "site repo (frankbueltge.de)",
     # The amendment of 2026-10-03 (the continuing question) cites its decision record.
     "docs/design/2026-10-03-the-continuing-question.md": "site repo (frankbueltge.de)",
+    # The amendment of 2026-11-13 (the step in order) cites its record on the site.
+    "docs/design/2026-11-13-the-step-in-order.md": "site repo (frankbueltge.de)",
     # The amendment of 2026-10-05 (working together) cites the relay's contract and the decision
     # record that made The Middle a relay desk.
     "relay/README.md": "research-ecology repo — the contract of relay/relay.json (middle-relay/1)",
