@@ -884,8 +884,9 @@ of the siblings' parts (2026-11-08) is written at the end of each sibling's seco
 the Field's first, the Studio's a session later. The session that reaches outside (§5) is the first or
 the second of a work, where the reading can still change it, never the last.
 
-**Cycle 014.** It runs under this amendment from the next session: *In Whose Name* takes its second
-state and its critique next, then the check, then the presentation.
+**Cycle 014.** Two sessions ran before this amendment landed: *In Whose Name* stands in its second state
+with its critique. The amendment holds from the third session, which is the check and answers that
+critique in the page; the fourth is the presentation.
 
 **Not at stake.** The score, the early critique, the visible process and the open list of requests
 (2026-10-22, points 2, 4, 5 and 7), the programme and its test after four steps, seeds, the reception,
