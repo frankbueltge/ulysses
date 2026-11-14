@@ -29,6 +29,10 @@ CONSTITUTION = REPO_ROOT / "PROTOCOL.md"
 # Paths that legitimately live outside this repository. Each names where, so a reader can go
 # and look, and so that "missing" and "elsewhere" never get confused again.
 #
+# Updated 2026-11-14 for the one text: the consolidated constitution no longer cites the decision
+# records of the amendments it folded in (they are named in the archived text), so four entries
+# went.
+#
 # Updated 2026-09-01 for Protocol v7 (research ecology v3, 2026-08-30). The three v6-era
 # entries were removed because v7 no longer names them, which is the staleness the second
 # test below is for; `cycle.json` and the v3 decision record took their place.
@@ -40,15 +44,8 @@ ELSEWHERE = {
     "cycle.json": "site repo (frankbueltge.de), src/data/ecology/ — the current question, "
                   "read at every session open per v7 §2; advanced by the architect or a "
                   "site session, never by a practice",
-    "docs/design/2026-08-30-research-ecology-v3.md": "site repo (frankbueltge.de)",
-    # The amendment of 2026-10-03 (the continuing question) cites its decision record.
-    "docs/design/2026-10-03-the-continuing-question.md": "site repo (frankbueltge.de)",
-    # The amendment of 2026-11-13 (the step in order) cites its record on the site.
-    "docs/design/2026-11-13-the-step-in-order.md": "site repo (frankbueltge.de)",
-    # The amendment of 2026-10-05 (working together) cites the relay's contract and the decision
-    # record that made The Middle a relay desk.
+    # The relay's contract (section 6.1 of the one text of 2026-11-14).
     "relay/README.md": "research-ecology repo — the contract of relay/relay.json (middle-relay/1)",
-    "docs/2026-10-05-middle-becomes-relay.md": "research-ecology repo",
     # The amendment of 2026-10-17 (the reception) names the house's file and the workflow that writes
     # it. The workflow lives in the site repo; the file is written into this repository by it, only
     # when the reception changed, so it is absent until the first delivery (the amendment says to
