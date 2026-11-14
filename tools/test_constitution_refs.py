@@ -44,6 +44,9 @@ ELSEWHERE = {
     "cycle.json": "site repo (frankbueltge.de), src/data/ecology/ — the current question, "
                   "read at every session open per v7 §2; advanced by the architect or a "
                   "site session, never by a practice",
+    # The post office's address book (section 8, since 2026-11-14).
+    "post/README.md": "research-ecology repo — the rules of the address book",
+    "post/addressees.json": "research-ecology repo — receivers that publish a channel for outside work",
     # The relay's contract (section 6.1 of the one text of 2026-11-14).
     "relay/README.md": "research-ecology repo — the contract of relay/relay.json (middle-relay/1)",
     # The amendment of 2026-10-17 (the reception) names the house's file and the workflow that writes
