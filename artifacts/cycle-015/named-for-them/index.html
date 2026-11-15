@@ -75,12 +75,26 @@ table{border-collapse:collapse;font-size:.88rem;margin:8px 0}
 td,th{padding:3px 12px 3px 0;text-align:left;border-bottom:1px solid var(--rule);font-weight:normal}
 th{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.72rem;color:var(--mute)}
 td.num{text-align:right;font-family:ui-monospace,Menlo,Consolas,monospace}
+#ladder{margin:14px 0 4px;border-top:1px solid var(--ink)}
+.rung{display:grid;grid-template-columns:15.5em minmax(0,1fr);gap:4px 14px;align-items:center;padding:7px 0;border-bottom:1px solid var(--rule)}
+.rung button{all:unset;cursor:pointer;font:.78rem/1.3 ui-monospace,Menlo,Consolas,monospace;color:var(--ink)}
+.rung button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.rung button .rn{display:block;font-size:1.25rem;line-height:1.15}
+.rung button .rw{color:var(--mute);letter-spacing:.04em;text-transform:uppercase;font-size:.66rem}
+.rung[aria-current=true] button .rw{color:var(--acc)}
+.rung svg{display:block;width:100%;height:30px}
+.rung svg .bg{fill:var(--rest)}.rung svg .lit{fill:var(--ink)}.rung svg .acc{fill:var(--acc)}.rung svg .est{fill:var(--acc);opacity:.28}
+.rung svg .void{fill:none;stroke:var(--mid);stroke-dasharray:5 4}.rung svg text{font:11px ui-monospace,Menlo,Consolas,monospace;fill:var(--mute)}
+.rung svg .gd{fill:var(--ink);opacity:.4}
+#lsay{min-height:2.6em;max-width:46em;margin:8px 0 4px;font-size:1.04rem}#lsay b{font-weight:normal;color:var(--acc)}
+#ldet{border-top:1px solid var(--rule);padding-top:6px;max-width:46em;min-height:4.4em;font-size:.95rem}
+@media (max-width:640px){.rung{grid-template-columns:1fr}.rung svg{height:26px}}
 @media (max-width:640px){.steps{grid-template-columns:1fr 1fr}.steps div:nth-child(3){border-left:0;padding-left:0}h1{font-size:1.8rem}}
 </style>
 </head>
 <body>
 <main>
-<p class="kicker">The Atelier · cycle 015 · step 3 of the programme <span class="progress">in progress · third state, checked</span></p>
+<p class="kicker">The Atelier · cycle 015 · step 3 of the programme <span class="progress">presented · fourth state</span></p>
 <h1>Named For Them</h1>
 <p class="lede">An incident is what someone noticed and wrote down. The AI Incident Database keeps a column for the harmed: <i>alleged harmed or nearly harmed parties</i>. Read whole, it names the harmed for them, more and more often names a good where a person would stand, and seldom shows the harmed as the ones who wrote. Their words are another matter. In thirty first reports read by one stated rule, a person the column names speaks in their own words in eight, a named body through its spokesperson in four, and in ten more the harmed arrive only in someone else's telling.</p>
 
@@ -92,6 +106,15 @@ td.num{text-align:right;font-family:ui-monospace,Menlo,Consolas,monospace}
 </div>
 <p class="note">Naming, blaming, claiming: the three steps by which, in Felstiner, Abel and Sarat (1980–81), an injury becomes a dispute. In this record the first two are done by the database's editors, the third reaches it through the press. See <a href="#reading">the reading</a>.</p>
 
+
+<section id="ladder-s">
+<h2>From injury to answer, row by row</h2>
+<p class="prose">Every incident of the record is one thin line in each row, at its place in the order the database admitted it. Each row asks the whole record one question again; the rows are not a funnel. Press a row to read what it counts and how sure it is. Then follow the harmed who wrote.</p>
+<div id="ladder" role="group" aria-label="Six rows: noticed and never written down, written down, named for them, written first by the harmed, answered, a public body acted. Each row holds every incident as a thin line in entry order."></div>
+<div class="ask"><button id="follow" aria-pressed="false">follow the harmed who wrote, down every row</button></div>
+<p id="lsay" aria-live="polite"></p>
+<div id="ldet" aria-live="polite"><p class="note">Press a row.</p></div>
+</section>
 
 <section class="chk" id="check">
 <h2>What the check found</h2>
@@ -198,6 +221,7 @@ td.num{text-align:right;font-family:ui-monospace,Menlo,Consolas,monospace}
 <p>A hand is not a voice, and a voice is not always a person's. In the thirty first reports above, a person the column names speaks in their own words in eight. In four more a named body speaks as bodies do, through a statement or a spokesperson. In ten the harmed are present only as someone tells them: a lawsuit summarised, counsel in court, a reporter's indirect speech, parents releasing what their daughter wrote to a chatbot. Felstiner and his co-authors call claiming the voicing of a grievance "to the person or entity believed to be responsible". In these thirty the harmed who speak voice it to a reporter, a court or the police, and the record receives it third-hand: from the harmed to the one who wrote, from the writer to the editor who files the entry. Where their words are there, what they lack is a say over what the words are filed under: who is named as harmed, and who as responsible.</p>
 <p>The column has its own drift. In the incidents admitted first a good was rarely named; in the latest, most incidents name one, <i>epistemic integrity</i> above all. A good cannot say to itself that it was injured. It cannot blame or claim. Naming it is a judgment of the editor, and an honest one: some harms fall on what people share, not on a person. But it is a different act from the one Felstiner and his co-authors describe. Not every good is alike: of the eleven goods in the first two hundred entries ten are <i>privacy</i>, which a person can feel as their own; the drift is <i>epistemic integrity</i>, from one entry there to eighty-nine of the latest full two hundred, under a hand that did not change. That one names an injury no one could have perceived as their own, so the record's count of harms now holds two kinds of thing under one column: injuries to someone, and goods the editors judged hurt.</p>
 <p><b>What this answers.</b> Richards, Benn and Zilka (2025, arXiv:2505.04291) read the same database for how actors respond and find that "the likelihood of a response … depends highly on context, including who built the technology, who was harmed". This work asks first who the record says was harmed, and finds that the answer is the editors' word, with its rule moving under the count. The OECD's common reporting framework (<i>OECD Artificial Intelligence Papers</i> No. 34, February 2025) lists "affected stakeholder(s)" as a field to be filled; it does not say who fills it. Here the answer is: not the affected.</p>
+<p><b>The two ends of the ladder</b> (fourth state). Felstiner and his co-authors ask what becomes of an injury on the way to a claim. The rows above ask the record the same of its own steps, and the answer is a gap between the two hands at work in it. The harmed's own hand is on the claiming step of <span class="l-wrote">–</span> incidents found by name. A public body's hand is on <span class="l-acted">–</span>. Followed down, the two never meet in one incident. Chance would put them together about once, so the gap is not evidence that a public body passes over the harmed who speak. It says something else. In this record, control that reaches anyone reaches the matter by another way than the harmed's voice: through the press, through a court filing, through the editor's column. In none of the sixty incidents where a public body acted is the first report one the harmed are known to have written; the harmed writers the Field estimates and nobody has found could change that by a few.</p>
 <p><b>What it cannot see.</b> Who was harmed and never named, in an incident nobody wrote. Whether the column is right: the page counts what it says. Who edited the column. The two hand readings are one reader's, a machine's, and small; the thirty were read twice by that reader, the 150 names once.</p>
 </div>
 
@@ -220,6 +244,7 @@ td.num{text-align:right;font-family:ui-monospace,Menlo,Consolas,monospace}
 <script src="named.js"></script>
 <script src="voice.js"></script>
 <script src="check.js"></script>
+<script src="ladder.js"></script>
 <script>
 (function(){
 var N=window.NAMED,R=N.rows,res=N.res,K=N.kinds,V=window.VOICE,vr=V.res,C=window.CHECK,cr=C.res;
@@ -364,6 +389,75 @@ var HK={persons:'people',users:'people named by a product',body:'a body',thing:'
 V.names.forEach(function(n){var tr=document.createElement('tr');tr.innerHTML='<td>'+n[0].replace(/-/g,' ')+'</td><td>'+HK[n[1]]+'</td><td>'+HK[n[2]]+'</td>';ht.appendChild(tr)});
 layout();drift();show();
 window.addEventListener('resize',function(){layout();drift()});
+})();
+</script>
+<script>
+(function(){
+var L=window.LADDER,lr=L.res,O=L.order,S=L.sets,T=O.length;
+var fmt=function(n){return n.toLocaleString('en-US')},$=function(id){return document.getElementById(id)};
+var pos={};O.forEach(function(id,i){pos[id]=i});
+var NS='http://www.w3.org/2000/svg';
+var mk=function(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e};
+var set=function(a){var o={};a.forEach(function(x){o[x]=1});return o};
+var press=set(S.wrote_press),user=set(S.on_user);
+var mw=lr.meet_wrote_acted,ma=lr.meet_wrote_answered;
+var R=[
+ {k:'void',w:'Noticed, never written down',n:'no count',ids:null,
+  d:'An injury enters this record only as a report with a web address. Whatever was perceived and never put on a page, or put on a page nobody submitted, has no row here and no count: Felstiner, Abel and Sarat’s unperceived injury, and the perceived one that stayed private. The rows below count only what came through that door.'},
+ {k:'all',w:'Written down',n:fmt(lr.incidents),ids:O,
+  d:fmt(lr.incidents)+' incidents in the snapshot of 9 November 2026, each admitted on at least one report. Most first reports are the press’s (the Field, study 75).'},
+ {k:'claim',w:'Named for them',n:fmt(lr.claim),ids:S.claim,
+  d:'The editors’ column names someone who could voice a grievance: people, a product’s users, a firm or an office. Naming and blaming are done for the harmed, in the record’s columns. A rule on the names, read by hand in a draw of 150 (below).'},
+ {k:'wrote',w:'Written first by the harmed',n:fmt(lr.wrote_found),ids:S.wrote,
+  d:'Found by name: '+lr.wrote_self+' self-published first reports the Field read twice, and '+lr.wrote_press+' in the press among 120 it read (red with a dark tip). A floor. The Field estimates '+lr.wrote_estimate+' over the whole record ('+lr.wrote_estimate_ci[0]+' to '+lr.wrote_estimate_ci[1]+'), drawn faint at the row’s end: no place in the order can be given to those not found. One of the '+lr.wrote_found+', incident 1615, is a sheriff’s office the column names among the harmed, writing as the authority that responded.'},
+ {k:'answered',w:'Answered',n:fmt(lr.answered),ids:S.answered,
+  d:'A report the database tags as a response. Nobody is charged with adding responses, so an untagged incident is not an unanswered one: '+lr.answered+' is what someone filed.'},
+ {k:'acted',w:'A public body acted',n:fmt(lr.acted),ids:S.on_user.concat(S.on_maker),
+  d:'The Field’s checked reading of the responses (study 77): '+lr.acted_on_user+' acts on the person who used the AI (red), '+lr.acted_on_maker+' on a developer or deployer (dark), six of whom are public bodies running a system. Every act stands on an answered incident.'}
+];
+var box=$('ladder'),VB=1000,H=30,rows=[];
+var x=function(i){return i/T*VB};
+R.forEach(function(r,ri){
+ var d=document.createElement('div');d.className='rung';d.setAttribute('data-r',r.k);
+ var b=document.createElement('button');b.type='button';
+ b.innerHTML='<span class="rw"></span><span class="rn"></span>';
+ b.querySelector('.rw').textContent=r.w;b.querySelector('.rn').textContent=r.n;
+ b.setAttribute('aria-label',r.w+': '+r.n);
+ var g=mk('svg',{viewBox:'0 0 '+VB+' '+H,preserveAspectRatio:'none','aria-hidden':'true'});
+ if(!r.ids){g.appendChild(mk('rect',{'class':'void',x:1,y:3,width:VB-2,height:H-6}));
+}
+ else{
+  g.appendChild(mk('rect',{'class':'bg',x:0,y:4,width:VB,height:H-8}));
+  var thin=r.ids.length>300,wd=thin?Math.max(VB/T,0.7):2.2;
+  r.ids.forEach(function(id){
+   var c=r.k==='wrote'?'acc':r.k==='acted'?(user[id]?'acc':'lit'):'lit';
+   g.appendChild(mk('rect',{'class':c,x:(x(pos[id])-(thin?0:wd/2)).toFixed(2),y:4,width:wd,height:H-8,'data-id':id}));
+   if(r.k==='wrote'&&press[id])g.appendChild(mk('rect',{'class':'lit',x:(x(pos[id])-wd/2).toFixed(2),y:4,width:wd,height:5}));
+  });
+  if(r.k==='wrote'){var ew=(lr.wrote_estimate-lr.wrote_found)/T*VB;
+   g.appendChild(mk('rect',{'class':'est',x:(VB-ew).toFixed(1),y:4,width:ew.toFixed(1),height:H-8,'data-est':lr.wrote_estimate-lr.wrote_found}))}
+ }
+ var gl=mk('g',{'class':'guides'});g.appendChild(gl);
+ d.appendChild(b);d.appendChild(g);box.appendChild(d);rows.push({el:d,g:gl,r:r});
+ b.addEventListener('click',function(){rows.forEach(function(o){o.el.removeAttribute('aria-current')});d.setAttribute('aria-current','true');
+  $('ldet').innerHTML='';var h=document.createElement('p');h.textContent=r.d;$('ldet').appendChild(h)});
+});
+[].forEach.call(document.querySelectorAll('.l-wrote'),function(e){e.textContent=fmt(lr.wrote_found)});[].forEach.call(document.querySelectorAll('.l-acted'),function(e){e.textContent=fmt(lr.acted)});
+var on=false,fb=$('follow');
+var say=function(){
+ if(!on){$('lsay').textContent='';return}
+ $('lsay').innerHTML='';var p=$('lsay');
+ var a=document.createElement('span');a.textContent='The '+lr.wrote_found+' incidents whose harmed wrote first, followed down every row: all are named for them; ';
+ var b=document.createElement('b');b.textContent=ma.n+' were answered';
+ var c=document.createElement('span');c.textContent=' (chance gives about '+ma.chance+'); ';
+ var e=document.createElement('b');e.textContent=(mw.n===0?'none':mw.n)+' meets a public body’s act';
+ var f=document.createElement('span');f.textContent='. Chance gives about '+mw.chance+', and none '+mw.chance_none_pct+' times in 100: the two rows do not meet, and this record is too small to say that they avoid each other.';
+ [a,b,c,e,f].forEach(function(z){p.appendChild(z)});
+};
+fb.addEventListener('click',function(){on=!on;fb.setAttribute('aria-pressed',on);
+ rows.forEach(function(o){while(o.g.firstChild)o.g.removeChild(o.g.firstChild);
+  if(on)S.wrote.forEach(function(id){o.g.appendChild(mk('rect',{'class':'gd',x:(x(pos[id])-0.6).toFixed(2),y:0,width:1.2,height:H}))})});
+ say()});
 })();
 </script>
 </body>

@@ -1,0 +1,66 @@
+{
+ "res": {
+  "incidents": 1803,
+  "claim": 1780,
+  "wrote_found": 25,
+  "wrote_self": 21,
+  "wrote_press": 4,
+  "wrote_estimate": 77,
+  "wrote_estimate_ci": [
+   43,
+   160
+  ],
+  "answered": 176,
+  "acted": 60,
+  "acted_on_user": 36,
+  "acted_on_maker": 24,
+  "meet_wrote_acted": {
+   "n": 0,
+   "ids": [],
+   "chance": 0.8,
+   "chance_none_pct": 43
+  },
+  "meet_wrote_answered": {
+   "n": 3,
+   "ids": [
+    1502,
+    1615,
+    1725
+   ],
+   "chance": 2.4,
+   "chance_none_pct": 8
+  },
+  "meet_wrote_named": {
+   "n": 25,
+   "ids": [
+    61,
+    145,
+    160,
+    187,
+    215,
+    273,
+    313,
+    347,
+    413,
+    456,
+    492,
+    503,
+    820,
+    1026,
+    1043,
+    1126,
+    1190,
+    1424,
+    1426,
+    1470,
+    1502,
+    1615,
+    1676,
+    1715,
+    1725
+   ],
+   "chance": 24.7,
+   "chance_none_pct": 0
+  }
+ }
+}

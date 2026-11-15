@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 const { chromium } = require('playwright');
 const here = path.dirname(new URL(import.meta.url).pathname);
 const J = f => JSON.parse(fs.readFileSync(path.join(here, f), 'utf8')).res;
-const res = J('named.json'), vr = J('voice.json'), cr = J('check.json');
+const res = J('named.json'), vr = J('voice.json'), cr = J('check.json'), lr = J('ladder.json');
 const srv = http.createServer((q, r) => { const f = path.join(here, decodeURIComponent(q.url.split('?')[0]).replace(/^\/$/, '/index.html'));
   fs.readFile(f, (e, b) => { if (e) { r.writeHead(404); r.end(); return } r.writeHead(200, { 'content-type': f.endsWith('.html') ? 'text/html' : f.endsWith('.js') ? 'text/javascript' : 'application/octet-stream' }); r.end(b) }) });
 await new Promise(ok => srv.listen(0, ok));
@@ -105,6 +105,27 @@ for (const [w, scheme, shot] of [[1100, 'light', process.argv[2]], [390, 'dark',
   // the rule by hand
   ok(num(await p.textContent('#h-ok')) === vr.names_as_ruled && num(await p.textContent('#h-body')) === vr.names_persons_body && num(await p.textContent('#h-pers')) === vr.names_ruled_persons, `${w}px rule by hand ${vr.names_as_ruled} of ${vr.names_n}`);
   ok((await p.$$('#hand-t tbody tr')).length === vr.names_n - vr.names_as_ruled, `${w}px misfit table`);
+  // the ladder (fourth state): each row's count and its drawn lines, read from the page
+  const rn = async k => (await p.textContent(`.rung[data-r="${k}"] .rn`)).trim();
+  const drawn = async (k, c) => (await p.$$(`.rung[data-r="${k}"] svg rect.${c}`)).length;
+  ok((await rn('void')) === 'no count' && (await drawn('void', 'lit')) === 0, `${w}px the unwritten row has no count`);
+  for (const [k, v] of [['all', lr.incidents], ['claim', lr.claim], ['wrote', lr.wrote_found], ['answered', lr.answered], ['acted', lr.acted]])
+    ok(num(await rn(k)) === v, `${w}px ladder ${k} ${v}`);
+  ok(await drawn('all', 'lit') === lr.incidents && await drawn('claim', 'lit') === lr.claim && await drawn('answered', 'lit') === lr.answered, `${w}px ladder lines drawn`);
+  ok(await drawn('wrote', 'acc') === lr.wrote_found && await drawn('wrote', 'lit') === lr.wrote_press, `${w}px harmed writers ${lr.wrote_self} + ${lr.wrote_press} in the press`);
+  ok(+(await p.getAttribute('.rung[data-r="wrote"] rect.est', 'data-est')) === lr.wrote_estimate - lr.wrote_found, `${w}px estimate drawn as ${lr.wrote_estimate - lr.wrote_found} unplaced`);
+  ok(await drawn('acted', 'acc') === lr.acted_on_user && await drawn('acted', 'lit') === lr.acted_on_maker, `${w}px acts ${lr.acted_on_user} on users, ${lr.acted_on_maker} on makers`);
+  // the meeting, computed from the drawn ids, not from the json
+  const ids = async (k, c) => new Set(await p.$$eval(`.rung[data-r="${k}"] svg rect.${c}[data-id]`, es => es.map(e => +e.getAttribute('data-id'))));
+  const W = await ids('wrote', 'acc'), A = new Set([...await ids('acted', 'acc'), ...await ids('acted', 'lit')]), An = await ids('answered', 'lit');
+  ok([...W].filter(i => A.has(i)).length === lr.meet_wrote_acted.n && [...W].filter(i => An.has(i)).length === lr.meet_wrote_answered.n, `${w}px rows meet: acted ${lr.meet_wrote_acted.n}, answered ${lr.meet_wrote_answered.n}`);
+  await p.click('#follow');
+  ok((await p.$$('.rung svg rect.gd')).length === 6 * lr.wrote_found, `${w}px followed down six rows`);
+  const ls = await p.textContent('#lsay');
+  ok(ls.includes(`${lr.meet_wrote_answered.n} were answered`) && ls.includes('none meets') && ls.includes(`about ${lr.meet_wrote_acted.chance}`) && ls.includes(`none ${lr.meet_wrote_acted.chance_none_pct} times in 100`), `${w}px the meeting said`);
+  await p.click('.rung[data-r="wrote"] button');
+  ok((await p.textContent('#ldet')).includes(`estimates ${lr.wrote_estimate}`), `${w}px a row says its limit`);
+  ok(num(await p.textContent('.l-wrote')) === lr.wrote_found && num(await p.textContent('.l-acted')) === lr.acted, `${w}px reading figures`);
   if (shot) { await p.screenshot({ path: shot, fullPage: true }); console.log('shot', shot) }
   await p.close();
 }

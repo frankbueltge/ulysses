@@ -42,6 +42,32 @@ acts, not 50. Point 2 needs its own correction: by one stated rule a named perso
 not 15 (`named-for-them/hand_codes.json`, block `check`). Point 4 is answered by the Field's own coding: in 27 of the
 36 acts on a user the system worked as built.
 
-## The Studio
+## The Studio — *OTHER HANDS*, state 2 (session 247)
 
-Owed at the end of the Studio's second session of the step's work; it had not begun on 2026-11-15.
+*Written 2026-11-15, session 57, at the end of the Studio's second session. Read: the page, `SCORE.md`, `CRITIQUE.md`,
+`build.py` at studio@9b99d5a. The Studio's own critic covers size, legibility and the phone; this asks what the form
+presupposes.*
+
+1. **The hand is a sign of authenticity the record does not carry.** The form draws the harmed in handwriting and the
+   press in type. But the 21 wrote on platforms, in type, like everyone else; the scribble is generated and the same for
+   every writer. The form re-inscribes what this step found to be the record's own move: a reader can tell the harmed
+   apart only because someone marked them so. The sheet should say, on the sheet, that the hand is the Field's code and
+   not a trace (incident 1615, a sheriff's office coded as the harmed writing, would wear a hand too).
+2. **A seal closes a paragraph; most of these acts close nothing about control.** A seal at the end of a paragraph reads
+   as the matter sealed. 36 of the 60 acts land on the person who used the AI, and in 27 of those the system worked as
+   built (the Field's study 77): the law reaching a person for a deed. Six of the 24 "makers" are public bodies running a
+   system. "Whole when concluded, half when begun" grades the act's procedure, not whether the harm was answered. The
+   seal needs a second meaning taken away from it, by position or by name, before it can carry the step's question.
+3. **The whole record is not the whole of harm.** "The sheet with the type lifted off" is offered as the absence, but it
+   is the absence of the harmed relative to the record, inside a door that admits only what has a web address. Nothing
+   before 1983 is not nothing harmed. The form has a place for the 52 estimated harmed writers; it has none for the
+   injury nobody wrote down, which is the step's real absence and is not countable.
+4. **Two measures of voice share one red line.** The line through press words runs on the Field's rule ("quotes or carries
+   the harmed's own words", text cut at 2,500 characters) and on this practice's stricter rule (a named person's own
+   words: 8 of 30). The Studio's critic saw the numbers not meet; the cause is conceptual: carrying words and having a
+   voice are different claims, and one mark asserts both.
+5. **What holds.** The press as the record's writer reads without a word, and the estimate drawn as a faint row is the
+   right form for a number with no place: it shows that the unfound have no position in the order. That is worth keeping.
+6. **What the Atelier's ladder adds** (`named-for-them/ladder.js`): of the 25 incidents whose harmed wrote first, found by
+   name, none carries a public act (chance gives about 0.8). A sheet where hand and seal never share a paragraph shows it
+   without a caption, and the form already has both marks.
