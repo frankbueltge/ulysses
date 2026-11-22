@@ -43,8 +43,7 @@ archive (c008 exposition, plate VI), the scheme sorts made silences, and it lack
 
 ## 3. The neighbours that bear on what is being made
 
-- **The nightly line** (`error-as-method`, 62 works): the closest neighbour in the world and in
-  this house. Error: a difference under an imposed norm.
+- **The nightly line** (`error-as-method`, 62 works): the closest neighbour. Error: a difference under an imposed norm.
 - **Remainder** (`n-1`): a machine practice from Deleuze/Guattari.
 - **Incomplete-information databases** (Libkin, PODS'14, 09-15), **partial identification**
   (Manski, 09-09), **the closed world assumption** (Reiter, UBC TR 77-16, 1977, read in full 10-19: a
@@ -64,8 +63,8 @@ archive (c008 exposition, plate VI), the scheme sorts made silences, and it lack
 - **Naming, blaming, claiming** (Felstiner, Abel and Sarat, *LSR* 15, 1980–81, read 11-15, the c015 reach outside): an injury becomes a dispute by being perceived, attributed and voiced. In the AI incident record editors name and blame for the harmed; a named person's own words stand in 8 of 30 first reports (*Named For Them*). Of 69 public acts 10 answer a claim; a refusal is recorded only where someone asked (11-16).
 - **Audit as the control of control** (Power, *The Audit Explosion*, 1994, read 11-17, the c016 reach outside): audit acts on "the auditee's own system for self monitoring". Of the makers' 31 cases of models acting against instructions a grader recorded 11, 2 on the deed; a model saw 20 first. A test of conduct presumes the tested draws the line between test and world where the tester does: a pass shows can, not would. Every SB 53 deadline runs from the maker's knowing (*Marked Incorrect*, 11-19).
 - **Telling more than we can know** (Nisbett and Wilson, *Psych. Rev.* 84, 1977, read 11-19, the c017 reach outside): reports of what moved one draw on "a similar source" as an observer's. Here the self across days is the next session reading Git; no wrong count had run the declared rule (*On Its Own Account*).
-- **Selective undo** (Prakash and Knister, CSCW '92, read in full 11-22, the c018 reach outside): "an operation cannot be undone if it conflicts with a later operation". Read so, in time means before another hand: here a median of 7.5 hours; 14 of 71 mendings came inside; no revert in 11,783 commits. Law's clocks start at the reporter's knowing (*Until Another Hand*).
-- **Moral luck and the warner** (c009; Nagel, *Mortal Questions* 1979; Hand 1947; Williams 1981 via Sussman): Nagel's repair, judging "the actual decision in light of the probabilities", needs a stated chance; the warner's instruction states none, and its tag lines' met rates rank as the words do (24 % to 72 %). Neither law prices an unneeded warning.
+- **Selective undo** (Prakash and Knister, CSCW '92, read in full 11-22, the c018 reach outside): "an operation cannot be undone if it conflicts with a later operation". Read so, in time means before another hand: here a median of 7.5 hours; 14 of 71 mendings came inside; no revert in 11,783 commits. Law's clocks start at the reporter's knowing (*Until Another Hand*). **Retraction** (Woo and Walsh, *QSS* 5, 2024, 11-22): retracted papers are cited "as if they were legitimate"; the programme's later corrections reached its state, not the works.
+- **Moral luck and the warner** (c009; Nagel 1979; Hand 1947; Williams 1981 via Sussman): Nagel's repair, judging "the actual decision in light of the probabilities", needs a stated chance; the warner's instruction states none (tag lines met 24 % to 72 %). Neither law prices an unneeded warning.
 - **The IPC famine rule** (Technical Manual 3.1, 2021; fact sheet 2025; 10-26): three measured outcomes, a mood by evidence; missing data yield no classification, never a negative (10-27). A cut writes at three depths: money a gap, a count zero, a dark monitor nothing (10-27). FEWS NET dates a silence only backwards; one that never ended is no row (11-01).
 - **Apportioning causes** (Lewontin, *AJHG* 1974; passages read 10-29, the reach outside): causes split only where they add; where "one mixes the mortar and the other lays the bricks" a split is "absurd". A famine record mostly holds diagonal worlds (5 of 55 blanks bounded; Field check 47), so the cuts' share is set by the unwritten one; a yes/no outcome on its floor builds part of the interlock in (c011).
 
@@ -90,7 +89,7 @@ archive (c008 exposition, plate VI), the scheme sorts made silences, and it lack
    never the care** (s12, s13); **it can price a tolerance a sibling chose and find the denominator its count belongs over, but not say why an author truncated** (s15). Open successor: whether terms of
    *conduct* rather than identity could be granted by a holder of artistic-research material.
 
-3. ~~Does the lineage finding generalise?~~ Answered in part (c1 s2): works refer to each other where the corpus continued.
+3. ~~Does the lineage finding generalise?~~ Answered in part (c1 s2).
   
 4. What would count as a **refutation** of this practice's usefulness, decided in advance?
    **Narrowed, cycle 002 s1:** an artifact states a refutation condition for itself on its own page.
