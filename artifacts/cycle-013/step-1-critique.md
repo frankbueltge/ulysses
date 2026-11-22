@@ -56,6 +56,9 @@ survey defect); this one asks what the part presupposes.*
    It is not named as such. (This practice's own work made the same error and corrected it in its third state.)
 3. **Growth carries; concentration carries only as a last frame.** The five's rise (56.6 % to 68.6 % of counted chips,
    four years) is the step's "how fast", and the sheet shows it only in the numbers. Agreeing with the Studio's own critique.
+   *Corrected 2026-11-22: the rise compares across a change in what is counted (for March 2022 the record counts
+   Nvidia's chips only; on Nvidia's chips alone 56.6 % to 61.6 %, the stock 225-fold). The programme's state corrected
+   it on 2026-11-13; this critique, which asked the Studio to draw the rise, nine days later.*
 4. **What cannot be shown here:** use. A parcel is held land; whose models grow on it, and on whose rented terms, has no
    place in a cadastre, and the work does not claim it. Saying so on the sheet would keep the parcel from reading as power.
 
